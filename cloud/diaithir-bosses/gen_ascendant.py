@@ -236,3 +236,96 @@ W(os.path.join(DA, "quests/ascendant.json"), {"tab": "Bosses", "quests": [
     Q("mode_merciless", "Merciless", "Clear the Gauntlet on Relentless.", ["ascendant/rush"], "reward", mode="merciless"),
     Q("mode_ordeal", "Ordeal", "Beat The Last Wheel on Merciless.", ["ascendant/tier3"], "reward", mode="ordeal")]})
 print("ok", len(new_ids), "bosses;", ", ".join(n for _, _, _, n in new_ids))
+
+# ---- rites: multi-step summoning rituals (own design). Each boss: ordered steps with a cryptic clue each.
+TREE_RIDDLE = ["the pale one that wears the first white", "red berries set against the witch", "the one that bleeds when it is cut", "the weeper by the water",
+               "kin of the tree that holds up the world", "the gate the Fair Folk keep", "the door-wood, the strong one", "the winter king, green when all is grey", "the nut of the one who knows"]
+TREES = ["Birch", "Rowan", "Alder", "Willow", "Ash", "Hawthorn", "Oak", "Holly", "Hazel"]
+RUNES = "ᚁᚂᚃᚄᚅᚆᚇᚈᚉ"
+HOURS = {"midnight": (17000, 19000, "when the moon stands highest over the stone"), "dawn": (23000, 1000, "in the breath between night and the first light"),
+         "dusk": (12000, 13500, "as the sun drowns and the first stars wake"), "noon": (5500, 6500, "when no shadow falls beside the stone")}
+ZOMBIE_WAVE = ["minecraft:zombie", "minecraft:skeleton", "minecraft:spider"]
+# boss -> (offer item, count, offer clue, hunt mob, count, hunt clue, stones, hour, defend seconds, coop players or 0, wave mobs)
+RITE = {
+    "antlered_hollow": ("minecraft:bone", 16, "The hollow king shed his crown among the bones of the old herd. Lay sixteen at the foot of the stone.", "minecraft:zombie", 20,
+                        "The dead of the wood walk his old trail. Let twenty fall in sight of the altar.", 3, "midnight", 60, 0, ZOMBIE_WAVE),
+    "cauldron_heart": ("minecraft:nether_wart", 16, "What boils in the heart must first be fed. Sixteen red-bark warts for the pot.", "minecraft:spider", 20,
+                       "Eight-legged cooks stir the lower dark. Twenty of them must be unmade.", 4, "dawn", 60, 0, ["minecraft:spider", "minecraft:cave_spider", "minecraft:witch"]),
+    "tide_reaver": ("minecraft:prismarine_shard", 24, "The drowned reaver's coat is made of sea-glass. Twenty-four shards, and no fewer.", "minecraft:drowned", 15,
+                    "The sea gives back its dead on the shore. Fifteen must go back to it.", 4, "dusk", 75, 0, ["minecraft:drowned", "minecraft:skeleton", "minecraft:zombie"]),
+    "foundry_sovereign": ("minecraft:iron_block", 8, "The Sovereign's hearth wants iron by the block: eight, cold and square.", "minecraft:skeleton", 30,
+                          "Bones that never rusted still march in his smoke. Thirty is the count.", 5, "noon", 90, 2, ["minecraft:skeleton", "minecraft:zombie", "minecraft:husk"]),
+    "mist_weaver": ("minecraft:string", 64, "The weaver spins in the dark of what you carry. Sixty-four threads for her loom.", "minecraft:spider", 30,
+                    "Her children cover the old roads. Thirty of them fewer.", 5, "midnight", 90, 2, ["minecraft:spider", "minecraft:cave_spider"]),
+    "ash_seraph": ("minecraft:blaze_powder", 32, "A bright thing fell and burned to powder. Thirty-two pinches to call it back.", "minecraft:husk", 25,
+                   "The sun-dried dead keep its old watch. Twenty-five must be put to rest.", 5, "noon", 90, 2, ["minecraft:husk", "minecraft:skeleton", "minecraft:zombie"]),
+    "dusk_wyrm": ("minecraft:ender_eye", 12, "The wyrm sleeps behind the eyes of the end-walkers. Twelve eyes, open, on the stone.", "minecraft:phantom", 10,
+                  "The sleepless sky-things are its scouts. Ten must fall.", 6, "midnight", 120, 3, ["minecraft:phantom", "minecraft:skeleton", "minecraft:enderman"]),
+    "rootbreaker": ("minecraft:resin_brick", 16, "The roots remember being amber. Sixteen bricks of what they wept.", "minecraft:vindicator", 15,
+                    "Axe-bearers cleared the grove that bore it. Fifteen must answer.", 6, "dawn", 120, 3, ["minecraft:vindicator", "minecraft:zombie", "minecraft:spider"]),
+    "last_wheel": ("minecraft:clock", 12, "The Wheel is wound by small wheels. Twelve clocks, wound and ticking.", "minecraft:enderman", 20,
+                   "Those who step between moments are its spokes. Twenty spokes must break.", 7, "midnight", 150, 3, ["minecraft:enderman", "minecraft:vindicator", "minecraft:skeleton"]),
+}
+lang = R(os.path.join(AS, "lang/en_us.json"))
+quests = R(os.path.join(DA, "quests/ascendant.json"))
+quests["quests"] = [q for q in quests["quests"] if not q["id"].startswith("ascendant/rite_")]
+hints = []
+for bid, (oi, oc, oclue, hm, hc, hclue, ns, hour, dsec, coop, wave_mobs) in RITE.items():
+    rnd = random.Random("rite:" + bid)
+    seq = [rnd.randrange(9) for _ in range(ns)]
+    for i in range(1, ns):               # no rune twice in a row, so each seal is a visible choice
+        while seq[i] == seq[i - 1]: seq[i] = rnd.randrange(9)
+    a, b, hc_clue = HOURS[hour]
+    steps = [dict(type="offer", item="#diaithirbosses:offering_feast", count=1), dict(type="offer", item=oi, count=oc), dict(type="hunt", mob=hm, count=hc),
+             dict(type="stones", sequence=seq), dict(type="hour", **{"from": a, "to": b})]
+    clues = ["The altar eats before it fights. Set one feast upon the stone, a dish worth a guest-gift.", oclue, hclue, "Nine trees stand in the stone's mind. Seal them in this order, no other: " + "; then ".join(TREE_RIDDLE[r] for r in seq) + ".",
+             f"The stone will answer only {hc_clue}. Use the altar then."]
+    if coop:
+        steps.append(dict(type="coop", players=coop)); clues.append(f"It will not wake for one hand. {coop} must stand at the altar together.")
+    steps.append(dict(type="defend", seconds=dsec, mobs=wave_mobs))
+    clues.append(f"Whatever you woke will come to see who woke it. Hold the altar for {dsec} breaths of the sun-count and do not leave it.")
+    W(os.path.join(DA, "ritual", bid + ".json"), {"boss": bid, "steps": steps})
+    for i, c in enumerate(clues):
+        lang[f"ritual.{NS}.{bid}.{i}"] = c
+        hints.append({"boss": bid, "step": i, "quest": f"ascendant/rite_{bid}_{i}", "text": c})
+        quests["quests"].append(Q(f"rite_{bid}_{i}", f"{dict((x[0], x[2]) for x in SPEC)[bid]}: step {i + 1}", c, [f"ascendant/rite_{bid}_{i - 1}"] if i else ["ascendant/rite"], "ritual_step", boss=bid, step=i))
+lang.update({f"ritual.{NS}.begin": "The altar stirs. Something has heard you.", f"ritual.{NS}.step_done": "A knot in the rite is tied.",
+             f"ritual.{NS}.done": "The rite is whole. The ground answers.", f"ritual.{NS}.silent": "The altar is silent. Hold a champion token to begin the next rite, or the trophy of a boss you have beaten to face it again.",
+             f"ritual.{NS}.progress": "%s of %s", f"ritual.{NS}.wrong_hour": "The stone does not answer at this hour.", f"ritual.{NS}.need_company": "It will not wake for one hand. %s must stand at the altar.",
+             f"ritual.{NS}.defend_start": "The waves come. Hold the altar for %s seconds.", f"ritual.{NS}.defend_failed": "The altar was left alone. The rite unravels to the start of this step.",
+             f"ritual.{NS}.rune_ok": "%s The stone takes the rune.", f"ritual.{NS}.rune_bad": "A wrong rune. The sequence breaks and the stones remember it.",
+             f"ritual.{NS}.rune_idle": "Nothing is listening for this rune.", f"boss.{NS}.overworld_only": "The altar only answers in the overworld.",
+             f"block.{NS}.ogham_stone": "Ogham stone"})
+W(os.path.join(AS, "lang/en_us.json"), lang)
+W(os.path.join(DA, "quests/ascendant.json"), quests)
+W(os.path.join(ROOT, "codex/ritual_hints.json"), {"_doc": "Codex Rites page: a hint shows once its quest is done (the quest completes when the step opens). Text equals the in-game clue (lang ritual.*).", "hints": hints})
+# ogham stone: 9 rune states, one model
+W(os.path.join(AS, "blockstates/ogham_stone.json"), {"variants": {f"rune={i}": {"model": f"{NS}:block/ogham_stone"} for i in range(9)}})
+W(os.path.join(AS, "models/block/ogham_stone.json"), {"parent": "minecraft:block/cube_all", "textures": {"all": "minecraft:block/polished_deepslate"}})
+W(os.path.join(AS, "models/item/ogham_stone.json"), {"parent": f"{NS}:block/ogham_stone"})
+W(os.path.join(AS, "items/ogham_stone.json"), {"model": {"type": "minecraft:model", "model": f"{NS}:item/ogham_stone"}})
+W(os.path.join(DA, "loot_table/blocks/ogham_stone.json"), {"type": "minecraft:block", "pools": [{"rolls": 1, "entries": [{"type": "minecraft:item", "name": f"{NS}:ogham_stone"}],
+   "conditions": [{"condition": "minecraft:survives_explosion"}]}]})
+gates = R(os.path.join(ROOT, "age_gates.json")); gates["items"][f"{NS}:ogham_stone"] = "VII"; W(os.path.join(ROOT, "age_gates.json"), gates)
+print("rites:", len(RITE))
+
+# ---- boss materials (names fixed with plans/PROGRESSION.md): catalyst (tier I+), hollow core (tier II+), ageshard (The Last Wheel only)
+from PIL import ImageDraw
+MAT = {"boss_catalyst": ("Boss catalyst", (90, 200, 170), "VII"), "hollow_core": ("Hollow core", (170, 120, 230), "Rodos"), "ageshard": ("Ageshard", (250, 220, 110), "Rodos")}
+for mid, (label, col, age) in MAT.items():
+    im = Image.new("RGBA", (16, 16), (0, 0, 0, 0)); d = ImageDraw.Draw(im)
+    d.polygon([(8, 1), (13, 8), (8, 15), (3, 8)], fill=col + (255,), outline=tuple(v // 3 for v in col) + (255,)); d.line([(8, 3), (8, 13)], fill=(255, 255, 255, 140))
+    os.makedirs(os.path.join(AS, "textures/item"), exist_ok=True); im.save(os.path.join(AS, "textures/item", mid + ".png"))
+    W(os.path.join(AS, "items", mid + ".json"), {"model": {"type": "minecraft:model", "model": f"{NS}:item/{mid}"}})
+    W(os.path.join(AS, "models/item", mid + ".json"), {"parent": "minecraft:item/generated", "textures": {"layer0": f"{NS}:item/{mid}"}})
+    lang[f"item.{NS}.{mid}"] = label
+    gates["items"][f"{NS}:{mid}"] = age
+W(os.path.join(AS, "lang/en_us.json"), lang); W(os.path.join(ROOT, "age_gates.json"), gates)
+for bid, tier, age_, _ in new_ids:
+    pp = R(os.path.join(DA, "boss", bid + ".json"))
+    pp["loot"] = [l for l in pp["loot"] if not l["item"].startswith(NS + ":")]
+    pp["loot"].append(L(NS + ":boss_catalyst", 1, 2, 7, 1.0, 0)) if tier == 1 else pp["loot"].append(L(NS + ":hollow_core", 1, tier - 1, 8, 1.0, 0))
+    if bid == "last_wheel": pp["loot"].append(L(NS + ":ageshard", 2, 3, 8, 1.0, 0))
+    W(os.path.join(DA, "boss", bid + ".json"), pp)
+W(os.path.join(DA, "tags/item/offering_feast.json"), {"values": ["minecraft:cake", "minecraft:pumpkin_pie", "minecraft:suspicious_stew", "minecraft:rabbit_stew",
+   {"id": "#c:foods/offering", "required": False}]})
