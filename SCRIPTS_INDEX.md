@@ -319,10 +319,11 @@ Run hints: .py `python3 <file>` (PC `py`), .ps1 via a hidden launcher (never a v
 | S0309 | cloud | `world-checks/snow.py` | Snowline check: snow cover fraction by elevation band vs the Age I line (EraMath.age1SnowlineMeters).""" | yes |
 | S0310 | cloud | `tools/get_jdk25.sh` | Installs Temurin JDK 25 into /tmp/claude-0/jdk25 (cloud container, via the proxy) and prints how to use it. | yes |
 | S0311 | cloud | `tools/compile_fix_loop.py` | S0311 (v2: prompt caching on the stable prefix, 6 parallel direct calls, optional gradle mirror init) Compile-fix loop: gradle compileJava p | yes |
-| S0312 | cloud | `tools/harness/srvup.sh` | S0312 srvup.sh SRV LOG : boot a NeoForge server and leave it running; commands go to LOG.in (use cmd.sh). Prints Done/failed line. | yes |
-| S0313 | cloud | `tools/harness/cmd.sh` | S0313 cmd.sh LOG "command" : send a console command to a server started by srvup.sh (rcon alternative: S0071 rcon.py) | yes |
-| S0314 | cloud | `tools/harness/shot.sh` | S0314 shot.sh FILE.png : screenshot of the Xvfb display (env DISPLAY_NUM, default 96) | yes |
-| S0315 | cloud | `tools/harness/cl_join.sh` | S0315 cl_join.sh CLIENTDIR OUTDIR : headless client (Xvfb + portablemc) joins a world or server; returns at once. | yes |
 | S0316 | cloud | `names/linguistics/audit_names.py` | S0316 Audits every culture name in names/*.json against names/linguistics/rules/<slug>.json (graphemes, forbidden patterns, word length); wr | yes |
 | S0317 | cloud | `names/linguistics/research_rules.py` | S0317 One direct cached Claude call per culture language: researches how a linguist builds words there, writes names/linguistics/rules/<slug | yes |
 | S0322 | global | `claim_id.py` | S0322 atomically claims the next free script ID(s) via next_id (pull --rebase, bump, push, retry): python3 -I claim_id.py [count] | yes |
+| S0331 | cloud | `tools/harness/srvup.sh` | S0331 srvup.sh SRV LOG : boot a NeoForge server and leave it running; commands go to LOG.in (use cmd.sh). Prints Done/failed line. | yes |
+| S0332 | cloud | `tools/harness/cmd.sh` | S0332 cmd.sh LOG "command" : send a console command to a server started by srvup.sh (rcon alternative: S0071 rcon.py) | yes |
+| S0333 | cloud | `tools/harness/shot.sh` | S0333 shot.sh FILE.png : screenshot of the Xvfb display (env DISPLAY_NUM, default 96) | yes |
+| S0334 | cloud | `tools/harness/cl_join.sh` | S0334 cl_join.sh CLIENTDIR OUTDIR : headless client (Xvfb + portablemc) joins a world or server; returns at once. | yes |
+| S0335 | cloud | `names/linguistics/regen_names.py` | S0312 Regenerates every culture name that fails its language rules (Haiku, rules file cached per language, up to 3 repair rounds); writes na | yes |

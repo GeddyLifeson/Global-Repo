@@ -1,5 +1,5 @@
 #!/bin/bash
-# S0315 cl_join.sh CLIENTDIR OUTDIR : headless client (Xvfb + portablemc) joins a world or server; returns at once.
+# S0334 cl_join.sh CLIENTDIR OUTDIR : headless client (Xvfb + portablemc) joins a world or server; returns at once.
 # Env: JAVA_HOME (default /tmp/claude-0/jdk25), NF (NeoForge version, default 26.1.2.116), MCDIR (portablemc main dir, default /tmp/claude-0/mc), DISPLAY_NUM (96), XMX (6G), JOIN ("--join-world world" or "--server 127.0.0.1 --port 25565"), TIMEOUT (2400).
 # Needs a machine with enough RAM; the cloud cannot run the full pack client (OOM), so use it for light packs only.
 CL=$1 OUT=$2; mkdir -p "$OUT"
