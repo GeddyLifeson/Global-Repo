@@ -1,0 +1,27 @@
+{
+ "neoforge:conditions": [
+  {
+   "type": "neoforge:item_exists",
+   "item": "diaithir:foundry_drill"
+  },
+  {
+   "type": "neoforge:not",
+   "value": {
+    "type": "neoforge:tag_empty",
+    "tag": "diaithir:progression/circuit.basic"
+   }
+  }
+ ],
+ "_node": "tech.miner",
+ "_age": "VI",
+ "type": "minecraft:crafting_shapeless",
+ "category": "misc",
+ "ingredients": [
+  "#diaithir:progression/circuit.basic",
+  "#c:plates/steel"
+ ],
+ "result": {
+  "id": "diaithir:foundry_drill",
+  "count": 1
+ }
+}

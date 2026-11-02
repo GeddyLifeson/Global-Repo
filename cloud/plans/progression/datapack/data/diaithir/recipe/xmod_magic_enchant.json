@@ -1,0 +1,27 @@
+{
+ "neoforge:conditions": [
+  {
+   "type": "neoforge:item_exists",
+   "item": "diaithir:enchant_basic"
+  },
+  {
+   "type": "neoforge:not",
+   "value": {
+    "type": "neoforge:tag_empty",
+    "tag": "diaithir:progression/parchment"
+   }
+  }
+ ],
+ "_node": "magic.enchant",
+ "_age": "III",
+ "type": "minecraft:crafting_shapeless",
+ "category": "misc",
+ "ingredients": [
+  "#c:ingots/iron",
+  "#diaithir:progression/parchment"
+ ],
+ "result": {
+  "id": "diaithir:enchant_basic",
+  "count": 1
+ }
+}

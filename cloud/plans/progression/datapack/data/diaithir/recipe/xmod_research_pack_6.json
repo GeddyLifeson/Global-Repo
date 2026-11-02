@@ -1,0 +1,27 @@
+{
+ "neoforge:conditions": [
+  {
+   "type": "neoforge:item_exists",
+   "item": "diaithir:foundry_research_pack_6"
+  },
+  {
+   "type": "neoforge:not",
+   "value": {
+    "type": "neoforge:tag_empty",
+    "tag": "diaithir:progression/boss.hollow_core"
+   }
+  }
+ ],
+ "_node": "research.pack_6",
+ "_age": "VIII",
+ "type": "minecraft:crafting_shapeless",
+ "category": "misc",
+ "ingredients": [
+  "#c:raw_materials/core_fragment",
+  "#diaithir:progression/boss.hollow_core"
+ ],
+ "result": {
+  "id": "diaithir:foundry_research_pack_6",
+  "count": 1
+ }
+}

@@ -1,0 +1,42 @@
+{
+ "neoforge:conditions": [
+  {
+   "type": "neoforge:item_exists",
+   "item": "diaithir:foundry_depot"
+  },
+  {
+   "type": "neoforge:not",
+   "value": {
+    "type": "neoforge:tag_empty",
+    "tag": "diaithir:progression/module.tech_t1"
+   }
+  },
+  {
+   "type": "neoforge:not",
+   "value": {
+    "type": "neoforge:tag_empty",
+    "tag": "diaithir:progression/circuit.advanced"
+   }
+  },
+  {
+   "type": "neoforge:not",
+   "value": {
+    "type": "neoforge:tag_empty",
+    "tag": "diaithir:progression/container.crate"
+   }
+  }
+ ],
+ "_node": "store.depot",
+ "_age": "VII",
+ "type": "minecraft:crafting_shapeless",
+ "category": "misc",
+ "ingredients": [
+  "#diaithir:progression/module.tech_t1",
+  "#diaithir:progression/circuit.advanced",
+  "#diaithir:progression/container.crate"
+ ],
+ "result": {
+  "id": "diaithir:foundry_depot",
+  "count": 1
+ }
+}

@@ -1,0 +1,42 @@
+{
+ "neoforge:conditions": [
+  {
+   "type": "neoforge:item_exists",
+   "item": "diaithir:foundry_module_legendary"
+  },
+  {
+   "type": "neoforge:not",
+   "value": {
+    "type": "neoforge:tag_empty",
+    "tag": "diaithir:progression/module.t3"
+   }
+  },
+  {
+   "type": "neoforge:not",
+   "value": {
+    "type": "neoforge:tag_empty",
+    "tag": "diaithir:progression/quality.grade"
+   }
+  },
+  {
+   "type": "neoforge:not",
+   "value": {
+    "type": "neoforge:tag_empty",
+    "tag": "diaithir:progression/boss.catalyst_t2"
+   }
+  }
+ ],
+ "_node": "upgrade.legendary",
+ "_age": "RODOS",
+ "type": "minecraft:crafting_shapeless",
+ "category": "misc",
+ "ingredients": [
+  "#diaithir:progression/module.t3",
+  "#diaithir:progression/quality.grade",
+  "#diaithir:progression/boss.catalyst_t2"
+ ],
+ "result": {
+  "id": "diaithir:foundry_module_legendary",
+  "count": 1
+ }
+}

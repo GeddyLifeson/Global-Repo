@@ -1,0 +1,35 @@
+{
+ "neoforge:conditions": [
+  {
+   "type": "neoforge:item_exists",
+   "item": "diaithir:foundry_circuit_advanced"
+  },
+  {
+   "type": "neoforge:not",
+   "value": {
+    "type": "neoforge:tag_empty",
+    "tag": "diaithir:progression/circuit.basic"
+   }
+  },
+  {
+   "type": "neoforge:not",
+   "value": {
+    "type": "neoforge:tag_empty",
+    "tag": "diaithir:progression/machine.assembler"
+   }
+  }
+ ],
+ "_node": "tech.circuits_adv",
+ "_age": "VII",
+ "type": "minecraft:crafting_shapeless",
+ "category": "misc",
+ "ingredients": [
+  "#diaithir:progression/circuit.basic",
+  "#c:ingots/gold",
+  "#diaithir:progression/machine.assembler"
+ ],
+ "result": {
+  "id": "diaithir:foundry_circuit_advanced",
+  "count": 1
+ }
+}

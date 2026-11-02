@@ -1,0 +1,35 @@
+{
+ "neoforge:conditions": [
+  {
+   "type": "neoforge:item_exists",
+   "item": "diaithir:arms_bronze"
+  },
+  {
+   "type": "neoforge:not",
+   "value": {
+    "type": "neoforge:tag_empty",
+    "tag": "diaithir:progression/arms.flint"
+   }
+  },
+  {
+   "type": "neoforge:not",
+   "value": {
+    "type": "neoforge:tag_empty",
+    "tag": "diaithir:progression/leather"
+   }
+  }
+ ],
+ "_node": "combat.bronze",
+ "_age": "II",
+ "type": "minecraft:crafting_shapeless",
+ "category": "misc",
+ "ingredients": [
+  "#diaithir:progression/arms.flint",
+  "#c:ingots/bronze",
+  "#diaithir:progression/leather"
+ ],
+ "result": {
+  "id": "diaithir:arms_bronze",
+  "count": 1
+ }
+}

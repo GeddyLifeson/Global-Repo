@@ -1,0 +1,35 @@
+{
+ "neoforge:conditions": [
+  {
+   "type": "neoforge:item_exists",
+   "item": "diaithir:armour_hollow"
+  },
+  {
+   "type": "neoforge:not",
+   "value": {
+    "type": "neoforge:tag_empty",
+    "tag": "diaithir:progression/armour.steel"
+   }
+  },
+  {
+   "type": "neoforge:not",
+   "value": {
+    "type": "neoforge:tag_empty",
+    "tag": "diaithir:progression/burrowkin.chitin"
+   }
+  }
+ ],
+ "_node": "combat.hollow_arms",
+ "_age": "VII",
+ "type": "minecraft:crafting_shapeless",
+ "category": "misc",
+ "ingredients": [
+  "#c:ingots/hollowsteel",
+  "#diaithir:progression/armour.steel",
+  "#diaithir:progression/burrowkin.chitin"
+ ],
+ "result": {
+  "id": "diaithir:armour_hollow",
+  "count": 1
+ }
+}

@@ -1,0 +1,26 @@
+{
+ "neoforge:conditions": [
+  {
+   "type": "neoforge:item_exists",
+   "item": "diaithir:foundry_core_drill"
+  },
+  {
+   "type": "neoforge:not",
+   "value": {
+    "type": "neoforge:tag_empty",
+    "tag": "diaithir:progression/machine.drill"
+   }
+  }
+ ],
+ "_node": "tech.core_drill",
+ "_age": "VII",
+ "type": "minecraft:crafting_shapeless",
+ "category": "misc",
+ "ingredients": [
+  "#diaithir:progression/machine.drill"
+ ],
+ "result": {
+  "id": "diaithir:foundry_core_drill",
+  "count": 1
+ }
+}

@@ -1,0 +1,27 @@
+{
+ "neoforge:conditions": [
+  {
+   "type": "neoforge:item_exists",
+   "item": "diaithir:foundry_research_pack_7"
+  },
+  {
+   "type": "neoforge:not",
+   "value": {
+    "type": "neoforge:tag_empty",
+    "tag": "diaithir:progression/boss.ageshard"
+   }
+  }
+ ],
+ "_node": "research.pack_7",
+ "_age": "RODOS",
+ "type": "minecraft:crafting_shapeless",
+ "category": "misc",
+ "ingredients": [
+  "#diaithir:progression/boss.ageshard",
+  "#c:ores/shard_metal"
+ ],
+ "result": {
+  "id": "diaithir:foundry_research_pack_7",
+  "count": 1
+ }
+}

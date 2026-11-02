@@ -1,0 +1,35 @@
+{
+ "neoforge:conditions": [
+  {
+   "type": "neoforge:item_exists",
+   "item": "diaithir:foundry_module_speed_1"
+  },
+  {
+   "type": "neoforge:not",
+   "value": {
+    "type": "neoforge:tag_empty",
+    "tag": "diaithir:progression/circuit.basic"
+   }
+  },
+  {
+   "type": "neoforge:not",
+   "value": {
+    "type": "neoforge:tag_empty",
+    "tag": "diaithir:progression/resin"
+   }
+  }
+ ],
+ "_node": "upgrade.tech_mod",
+ "_age": "VI",
+ "type": "minecraft:crafting_shapeless",
+ "category": "misc",
+ "ingredients": [
+  "#diaithir:progression/circuit.basic",
+  "#c:ingots/copper",
+  "#diaithir:progression/resin"
+ ],
+ "result": {
+  "id": "diaithir:foundry_module_speed_1",
+  "count": 1
+ }
+}

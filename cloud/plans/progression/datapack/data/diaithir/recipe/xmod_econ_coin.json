@@ -1,0 +1,27 @@
+{
+ "neoforge:conditions": [
+  {
+   "type": "neoforge:item_exists",
+   "item": "diaithir:money_coin"
+  },
+  {
+   "type": "neoforge:not",
+   "value": {
+    "type": "neoforge:tag_empty",
+    "tag": "diaithir:progression/tool.iron"
+   }
+  }
+ ],
+ "_node": "econ.coin",
+ "_age": "III",
+ "type": "minecraft:crafting_shapeless",
+ "category": "misc",
+ "ingredients": [
+  "#c:ingots/silver",
+  "#diaithir:progression/tool.iron"
+ ],
+ "result": {
+  "id": "diaithir:money_coin",
+  "count": 1
+ }
+}

@@ -1,0 +1,34 @@
+{
+ "neoforge:conditions": [
+  {
+   "type": "neoforge:item_exists",
+   "item": "diaithir:foundry_reclaimer"
+  },
+  {
+   "type": "neoforge:not",
+   "value": {
+    "type": "neoforge:tag_empty",
+    "tag": "diaithir:progression/machine.assembler"
+   }
+  },
+  {
+   "type": "neoforge:not",
+   "value": {
+    "type": "neoforge:tag_empty",
+    "tag": "diaithir:progression/circuit.advanced"
+   }
+  }
+ ],
+ "_node": "tech.reclaimer",
+ "_age": "VII",
+ "type": "minecraft:crafting_shapeless",
+ "category": "misc",
+ "ingredients": [
+  "#diaithir:progression/machine.assembler",
+  "#diaithir:progression/circuit.advanced"
+ ],
+ "result": {
+  "id": "diaithir:foundry_reclaimer",
+  "count": 1
+ }
+}

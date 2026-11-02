@@ -1,0 +1,28 @@
+{
+ "neoforge:conditions": [
+  {
+   "type": "neoforge:item_exists",
+   "item": "diaithir:ammo_basic"
+  },
+  {
+   "type": "neoforge:not",
+   "value": {
+    "type": "neoforge:tag_empty",
+    "tag": "diaithir:progression/sulphur"
+   }
+  }
+ ],
+ "_node": "combat.ammo",
+ "_age": "V",
+ "type": "minecraft:crafting_shapeless",
+ "category": "misc",
+ "ingredients": [
+  "#c:ingots/lead",
+  "#diaithir:progression/sulphur",
+  "#c:ingots/iron"
+ ],
+ "result": {
+  "id": "diaithir:ammo_basic",
+  "count": 1
+ }
+}

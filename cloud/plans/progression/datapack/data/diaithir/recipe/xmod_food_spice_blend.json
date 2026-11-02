@@ -1,0 +1,34 @@
+{
+ "neoforge:conditions": [
+  {
+   "type": "neoforge:item_exists",
+   "item": "diaithir:food_spice_blend"
+  },
+  {
+   "type": "neoforge:not",
+   "value": {
+    "type": "neoforge:tag_empty",
+    "tag": "diaithir:progression/spice"
+   }
+  },
+  {
+   "type": "neoforge:not",
+   "value": {
+    "type": "neoforge:tag_empty",
+    "tag": "diaithir:progression/herb"
+   }
+  }
+ ],
+ "_node": "food.spice_blend",
+ "_age": "IV",
+ "type": "minecraft:crafting_shapeless",
+ "category": "misc",
+ "ingredients": [
+  "#diaithir:progression/spice",
+  "#diaithir:progression/herb"
+ ],
+ "result": {
+  "id": "diaithir:food_spice_blend",
+  "count": 1
+ }
+}

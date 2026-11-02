@@ -319,3 +319,5 @@ S0334	cloud	tools/harness/cl_join.sh
 S0335	cloud	names/linguistics/regen_names.py
 S0335	global	crawl_all.py
 S0336	global	add_rows.py
+S0337	cloud	plans/progression/check_progression.py
+S0338	cloud	plans/progression/gen_progression_recipes.py

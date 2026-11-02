@@ -1,0 +1,28 @@
+{
+ "neoforge:conditions": [
+  {
+   "type": "neoforge:item_exists",
+   "item": "diaithir:foundry_assembler"
+  },
+  {
+   "type": "neoforge:not",
+   "value": {
+    "type": "neoforge:tag_empty",
+    "tag": "diaithir:progression/circuit.basic"
+   }
+  }
+ ],
+ "_node": "tech.assembler",
+ "_age": "VI",
+ "type": "minecraft:crafting_shapeless",
+ "category": "misc",
+ "ingredients": [
+  "#c:plates/steel",
+  "#diaithir:progression/circuit.basic",
+  "#c:gears/iron"
+ ],
+ "result": {
+  "id": "diaithir:foundry_assembler",
+  "count": 1
+ }
+}

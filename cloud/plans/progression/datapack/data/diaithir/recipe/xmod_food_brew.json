@@ -1,0 +1,27 @@
+{
+ "neoforge:conditions": [
+  {
+   "type": "neoforge:item_exists",
+   "item": "diaithir:drink_ale"
+  },
+  {
+   "type": "neoforge:not",
+   "value": {
+    "type": "neoforge:tag_empty",
+    "tag": "diaithir:progression/brew.base"
+   }
+  }
+ ],
+ "_node": "food.brew",
+ "_age": "III",
+ "type": "minecraft:crafting_shapeless",
+ "category": "misc",
+ "ingredients": [
+  "#c:crops/grain",
+  "#diaithir:progression/brew.base"
+ ],
+ "result": {
+  "id": "diaithir:drink_ale",
+  "count": 1
+ }
+}

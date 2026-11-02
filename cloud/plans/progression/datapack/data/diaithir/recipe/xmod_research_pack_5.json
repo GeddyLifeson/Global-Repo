@@ -1,0 +1,34 @@
+{
+ "neoforge:conditions": [
+  {
+   "type": "neoforge:item_exists",
+   "item": "diaithir:foundry_research_pack_5"
+  },
+  {
+   "type": "neoforge:not",
+   "value": {
+    "type": "neoforge:tag_empty",
+    "tag": "diaithir:progression/boss.catalyst"
+   }
+  },
+  {
+   "type": "neoforge:not",
+   "value": {
+    "type": "neoforge:tag_empty",
+    "tag": "diaithir:progression/circuit.advanced"
+   }
+  }
+ ],
+ "_node": "research.pack_5",
+ "_age": "VII",
+ "type": "minecraft:crafting_shapeless",
+ "category": "misc",
+ "ingredients": [
+  "#diaithir:progression/boss.catalyst",
+  "#diaithir:progression/circuit.advanced"
+ ],
+ "result": {
+  "id": "diaithir:foundry_research_pack_5",
+  "count": 1
+ }
+}

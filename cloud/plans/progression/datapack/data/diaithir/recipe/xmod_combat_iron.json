@@ -1,0 +1,50 @@
+{
+ "neoforge:conditions": [
+  {
+   "type": "neoforge:item_exists",
+   "item": "diaithir:arms_iron"
+  },
+  {
+   "type": "neoforge:not",
+   "value": {
+    "type": "neoforge:tag_empty",
+    "tag": "diaithir:progression/arms.bronze"
+   }
+  },
+  {
+   "type": "neoforge:not",
+   "value": {
+    "type": "neoforge:tag_empty",
+    "tag": "diaithir:progression/tool.iron"
+   }
+  },
+  {
+   "type": "neoforge:not",
+   "value": {
+    "type": "neoforge:tag_empty",
+    "tag": "diaithir:progression/leather"
+   }
+  },
+  {
+   "type": "neoforge:not",
+   "value": {
+    "type": "neoforge:tag_empty",
+    "tag": "diaithir:progression/enchant.basic"
+   }
+  }
+ ],
+ "_node": "combat.iron",
+ "_age": "III",
+ "type": "minecraft:crafting_shapeless",
+ "category": "misc",
+ "ingredients": [
+  "#diaithir:progression/arms.bronze",
+  "#diaithir:progression/tool.iron",
+  "#diaithir:progression/leather",
+  "#diaithir:progression/enchant.basic"
+ ],
+ "result": {
+  "id": "diaithir:arms_iron",
+  "count": 1
+ }
+}

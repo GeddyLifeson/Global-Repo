@@ -1,0 +1,42 @@
+{
+ "neoforge:conditions": [
+  {
+   "type": "neoforge:item_exists",
+   "item": "diaithir:foundry_quality_grade"
+  },
+  {
+   "type": "neoforge:not",
+   "value": {
+    "type": "neoforge:tag_empty",
+    "tag": "diaithir:progression/machine.reclaimer"
+   }
+  },
+  {
+   "type": "neoforge:not",
+   "value": {
+    "type": "neoforge:tag_empty",
+    "tag": "diaithir:progression/burrowkin.jelly"
+   }
+  },
+  {
+   "type": "neoforge:not",
+   "value": {
+    "type": "neoforge:tag_empty",
+    "tag": "diaithir:progression/module.t2"
+   }
+  }
+ ],
+ "_node": "upgrade.quality",
+ "_age": "VII",
+ "type": "minecraft:crafting_shapeless",
+ "category": "misc",
+ "ingredients": [
+  "#diaithir:progression/machine.reclaimer",
+  "#diaithir:progression/burrowkin.jelly",
+  "#diaithir:progression/module.t2"
+ ],
+ "result": {
+  "id": "diaithir:foundry_quality_grade",
+  "count": 1
+ }
+}

@@ -1,0 +1,27 @@
+{
+ "neoforge:conditions": [
+  {
+   "type": "neoforge:item_exists",
+   "item": "diaithir:foundry_research_pack_3"
+  },
+  {
+   "type": "neoforge:not",
+   "value": {
+    "type": "neoforge:tag_empty",
+    "tag": "diaithir:progression/food.dish"
+   }
+  }
+ ],
+ "_node": "research.pack_3",
+ "_age": "V",
+ "type": "minecraft:crafting_shapeless",
+ "category": "misc",
+ "ingredients": [
+  "#c:ingots/steel",
+  "#diaithir:progression/food.dish"
+ ],
+ "result": {
+  "id": "diaithir:foundry_research_pack_3",
+  "count": 1
+ }
+}

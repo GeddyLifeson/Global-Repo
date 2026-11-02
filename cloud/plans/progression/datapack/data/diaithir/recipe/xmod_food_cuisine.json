@@ -1,0 +1,29 @@
+{
+ "neoforge:conditions": [
+  {
+   "type": "neoforge:item_exists",
+   "item": "diaithir:food_dish"
+  },
+  {
+   "type": "neoforge:not",
+   "value": {
+    "type": "neoforge:tag_empty",
+    "tag": "diaithir:progression/food.spice_blend"
+   }
+  }
+ ],
+ "_node": "food.cuisine",
+ "_age": "IV",
+ "type": "minecraft:crafting_shapeless",
+ "category": "misc",
+ "ingredients": [
+  "#c:crops/fruit",
+  "#diaithir:progression/food.spice_blend",
+  "#c:foods/bread",
+  "#c:foods/cooked_meat"
+ ],
+ "result": {
+  "id": "diaithir:food_dish",
+  "count": 1
+ }
+}

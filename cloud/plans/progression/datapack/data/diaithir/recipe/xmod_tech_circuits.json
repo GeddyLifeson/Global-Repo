@@ -1,0 +1,36 @@
+{
+ "neoforge:conditions": [
+  {
+   "type": "neoforge:item_exists",
+   "item": "diaithir:foundry_circuit_basic"
+  },
+  {
+   "type": "neoforge:not",
+   "value": {
+    "type": "neoforge:tag_empty",
+    "tag": "diaithir:progression/wire.copper"
+   }
+  },
+  {
+   "type": "neoforge:not",
+   "value": {
+    "type": "neoforge:tag_empty",
+    "tag": "diaithir:progression/resin"
+   }
+  }
+ ],
+ "_node": "tech.circuits",
+ "_age": "VI",
+ "type": "minecraft:crafting_shapeless",
+ "category": "misc",
+ "ingredients": [
+  "#c:plates/iron",
+  "#c:plates/copper",
+  "#diaithir:progression/wire.copper",
+  "#diaithir:progression/resin"
+ ],
+ "result": {
+  "id": "diaithir:foundry_circuit_basic",
+  "count": 1
+ }
+}
