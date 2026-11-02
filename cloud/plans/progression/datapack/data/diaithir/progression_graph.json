@@ -1584,7 +1584,8 @@
     "boss.catalyst"
    ],
    "module": "diaithir-combat-classes",
-   "quest": "q.combat.bosses"
+   "quest": "q.combat.bosses",
+   "drop": "diaithirbosses:boss_catalyst"
   },
   {
    "id": "combat.hollow_arms",
@@ -1619,7 +1620,8 @@
     "boss.catalyst_t2"
    ],
    "module": "diaithir-bosses",
-   "quest": "q.combat.asc1"
+   "quest": "q.combat.asc1",
+   "drop": "diaithirbosses:boss_catalyst (tier I); boss_hollow_core per Ascendant #125 is tier II and III"
   },
   {
    "id": "combat.asc2",
@@ -1635,7 +1637,8 @@
     "boss.sovereign_core"
    ],
    "module": "diaithir-bosses",
-   "quest": "q.combat.asc2"
+   "quest": "q.combat.asc2",
+   "drop": "diaithirbosses:boss_hollow_core"
   },
   {
    "id": "combat.asc3",
@@ -1651,7 +1654,8 @@
     "boss.ageshard"
    ],
    "module": "diaithir-bosses",
-   "quest": "q.combat.asc3"
+   "quest": "q.combat.asc3",
+   "drop": "diaithirbosses:ageshard"
   },
   {
    "id": "combat.rush",
@@ -1667,7 +1671,8 @@
     "rush.cleared"
    ],
    "module": "diaithir-bosses",
-   "quest": "q.combat.rush"
+   "quest": "q.combat.rush",
+   "drop": "diaithirbosses:ascendant_rush"
   },
   {
    "id": "store.chest",
