@@ -10,6 +10,7 @@ One ID per artefact, never reused. Paths and metadata only; the repo is public, 
 | M | modules, mods, jars | `catalog/M.tsv` | `crawl_all.py` |
 | A | art and texture sets (dirs of 3+ images) | `catalog/A.tsv` | `crawl_all.py` |
 | J | compute jobs (`compute/jobs/*`) | `catalog/J.tsv` | `crawl_all.py` |
+| L | laptop projects and repos (index of what lives on the MSI) | `catalog/L.tsv` | `add_rows.py`; source `compute/index_laptop.tsv` |
 | T | project threads and what each owns | `catalog/T.tsv` | `add_rows.py` (S0336) |
 | P | PRs and branches across repos | `catalog/P.tsv` | `add_rows.py` |
 
