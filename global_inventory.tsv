@@ -1,7 +1,3 @@
 path	bytes	what	copied
 scan_cloud.py	0	S0001 scans /mnt/project-files, copies scripts scrubbed, writes cloud_inventory.tsv: python3 -I scan_cloud.py <repo>	yes
 build_index.py	0	S0002 assigns stable IDs and renders SCRIPTS_INDEX.md: python3 -I build_index.py <repo>	yes
-cloud/tools/harness/srvup.sh	0	S0312 boot a NeoForge server and keep it running (srvup.sh SRV LOG; env JAVA_HOME NF XMX WAIT), parametrized from S0062-S0065	yes
-cloud/tools/harness/cmd.sh	0	S0313 send a console command to a server from S0312 (cmd.sh LOG "cmd")	yes
-cloud/tools/harness/shot.sh	0	S0314 Xvfb screenshot (shot.sh FILE.png; env DISPLAY_NUM)	yes
-cloud/tools/harness/cl_join.sh	0	S0315 headless client join via portablemc (cl_join.sh CLIENTDIR OUTDIR; env JOIN NF MCDIR JAVA_HOME)	yes

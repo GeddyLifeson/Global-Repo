@@ -309,13 +309,9 @@ S0308	cloud	world-checks/sites.py
 S0309	cloud	world-checks/snow.py
 S0310	cloud	tools/get_jdk25.sh
 S0311	cloud	tools/compile_fix_loop.py
-S0312	global	cloud/tools/harness/srvup.sh
-S0313	global	cloud/tools/harness/cmd.sh
-S0314	global	cloud/tools/harness/shot.sh
-S0315	global	cloud/tools/harness/cl_join.sh
+S0312	cloud	tools/harness/srvup.sh
+S0313	cloud	tools/harness/cmd.sh
+S0314	cloud	tools/harness/shot.sh
+S0315	cloud	tools/harness/cl_join.sh
 S0316	cloud	names/linguistics/audit_names.py
 S0317	cloud	names/linguistics/research_rules.py
-S0318	cloud	tools/harness/cl_join.sh
-S0319	cloud	tools/harness/cmd.sh
-S0320	cloud	tools/harness/shot.sh
-S0321	cloud	tools/harness/srvup.sh
