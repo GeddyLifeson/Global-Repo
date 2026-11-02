@@ -309,3 +309,4 @@ S0308	cloud	world-checks/sites.py
 S0309	cloud	world-checks/snow.py
 S0310	cloud	tools/get_jdk25.sh
 S0311	cloud	tools/compile_fix_loop.py
+S0312	cloud	diaithir-bosses/gen_ascendant.py

@@ -319,3 +319,4 @@ Run hints: .py `python3 <file>` (PC `py`), .ps1 via a hidden launcher (never a v
 | S0309 | cloud | `world-checks/snow.py` | Snowline check: snow cover fraction by elevation band vs the Age I line (EraMath.age1SnowlineMeters).""" | yes |
 | S0310 | cloud | `tools/get_jdk25.sh` | Installs Temurin JDK 25 in the cloud container (gradle toolchain for NeoForge 26.1.2); source it, then ./gradlew compileJava -Porg.gradle.java.installations.paths=$JAVA_HOME. | yes |
 | S0311 | cloud | `tools/compile_fix_loop.py` | Compile-fix loop for diaithir modules: gradle errors + real 26.1.2 class candidates go to Sonnet, fixed files written back, up to 5 rounds. | yes |
+| S0312 | cloud | `diaithir-bosses/gen_ascendant.py` | Additive generator for the nine Ascendant bosses, boss rush, difficulty modes, quests and event hooks. | yes |
