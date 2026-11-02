@@ -327,3 +327,5 @@ Run hints: .py `python3 <file>` (PC `py`), .ps1 via a hidden launcher (never a v
 | S0333 | cloud | `tools/harness/shot.sh` | S0333 shot.sh FILE.png : screenshot of the Xvfb display (env DISPLAY_NUM, default 96) | yes |
 | S0334 | cloud | `tools/harness/cl_join.sh` | S0334 cl_join.sh CLIENTDIR OUTDIR : headless client (Xvfb + portablemc) joins a world or server; returns at once. | yes |
 | S0335 | cloud | `names/linguistics/regen_names.py` | S0312 Regenerates every culture name that fails its language rules (Haiku, rules file cached per language, up to 3 repair rounds); writes na | yes |
+| S0335 | global | `crawl_all.py` | S0335 crawls /mnt/project-files into catalog/{D,F,M,A,J}.tsv with stable IDs: python3 -I crawl_all.py <repo> | yes |
+| S0336 | global | `add_rows.py` | S0336 registers hand-fed types T (threads) and P (PRs/branches): python3 -I add_rows.py <repo> T < tsv | yes |
