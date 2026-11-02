@@ -275,7 +275,7 @@ Run hints: .py `python3 <file>` (PC `py`), .ps1 via a hidden launcher (never a v
 | S0265 | cloud | `texture-pack/gaps-src/apply.py` | sys.path.insert(0,"/home/user/work/pix") | yes |
 | S0266 | cloud | `texture-pack/gaps-src/apply2.py` | sys.path.insert(0,"/home/user/work/pix") | yes |
 | S0267 | cloud | `texture-pack/gaps-src/blocks.py` | V="/home/user/diaithirrpg/tools/art/blender/baked/vanilla/assets/minecraft/textures/block/" | yes |
-| S0268 | cloud | `texture-pack/gaps-src/blocks_real.py` | Real-material storage blocks: stacked ingots for metals, faceted mosaics for gems, rock-and-vein masses for raw ore.""" | yes |
+| S0268 | cloud | `texture-pack/gaps-src/blocks_real.py` | S0268 Real-material storage blocks: stacked ingots for metals, faceted mosaics for gems, rock-and-vein masses for raw ore. | yes |
 | S0269 | cloud | `texture-pack/gaps-src/build_list.py` | sys.path.insert(0,"/home/user/diaithirrpg/tools/art/blender") | yes |
 | S0270 | cloud | `texture-pack/gaps-src/build_page.py` | Progress page: finished photo icons (64 px) next to their source photo, with credits.""" | yes |
 | S0271 | cloud | `texture-pack/gaps-src/classify.py` | B="/home/user/diaithirrpg/tools/art/blender/baked/" | yes |
@@ -301,7 +301,7 @@ Run hints: .py `python3 <file>` (PC `py`), .ps1 via a hidden launcher (never a v
 | S0291 | cloud | `texture-pack/gaps-src/ore_proc.py` | Pixel-art ore faces and nugget sheets from the real-material colours (ores_all.json).""" | yes |
 | S0292 | cloud | `texture-pack/gaps-src/ore_rebake.py` | sys.path.insert(0,"/home/user/work/pix"); sys.path.insert(0,"/home/user/diaithirrpg/tools/art/blender") | yes |
 | S0293 | cloud | `texture-pack/gaps-src/picks_from_jobs.py` | Merge cand_all.jsonl with vision outputs of dish_photo_pick_* into picks.json (id -> chosen photo with credit).""" | yes |
-| S0294 | cloud | `texture-pack/gaps-src/pixel_icons.py` | Hand-drawn style 32 px sprites (shown at 64 px, nearest) for gems, shards, nuggets, raw ore, dust and ingots. | yes |
+| S0294 | cloud | `texture-pack/gaps-src/pixel_icons.py` | S0294 Hand-drawn style 32 px sprites (shown at 64 px, nearest) for gems, shards, nuggets, raw ore, dust and ingots. | yes |
 | S0295 | cloud | `texture-pack/gaps-src/render_dishes.py` | out.jsonl (scene specs from the API) -> kit specs -> sharded Blender renders -> 64 px PNGs + review images. | yes |
 | S0296 | cloud | `texture-pack/gaps-src/restyle_newmods.py` | Factory-look filter for textures of mods added after the first coverage pass. Size and UV layout are kept.""" | yes |
 | S0297 | cloud | `texture-pack/gaps-src/tanning_make_specs.py` | Specs and map images for the tanning set, rendered through the Diaithir Blender kit (run_kit.py).""" | yes |
@@ -317,5 +317,15 @@ Run hints: .py `python3 <file>` (PC `py`), .ps1 via a hidden launcher (never a v
 | S0307 | cloud | `world-checks/scan.py` | Scan Tellus region files: per-column ground Y, snow cover, bedrock floor, and every *_ore block position.""" | yes |
 | S0308 | cloud | `world-checks/sites.py` | R = 111319.49166666667 * 180 / math.pi | yes |
 | S0309 | cloud | `world-checks/snow.py` | Snowline check: snow cover fraction by elevation band vs the Age I line (EraMath.age1SnowlineMeters).""" | yes |
-| S0310 | cloud | `tools/get_jdk25.sh` | Installs Temurin JDK 25 in the cloud container (gradle toolchain for NeoForge 26.1.2); source it, then ./gradlew compileJava -Porg.gradle.java.installations.paths=$JAVA_HOME. | yes |
-| S0311 | cloud | `tools/compile_fix_loop.py` | Compile-fix loop for diaithir modules: gradle errors + real 26.1.2 class candidates go to Sonnet, fixed files written back, up to 5 rounds. | yes |
+| S0310 | cloud | `tools/get_jdk25.sh` | Installs Temurin JDK 25 into /tmp/claude-0/jdk25 (cloud container, via the proxy) and prints how to use it. | yes |
+| S0311 | cloud | `tools/compile_fix_loop.py` | S0311 (v2: prompt caching on the stable prefix, 6 parallel direct calls, optional gradle mirror init) Compile-fix loop: gradle compileJava p | yes |
+| S0312 | global | `cloud/tools/harness/srvup.sh` | S0312 boot a NeoForge server and keep it running (srvup.sh SRV LOG; env JAVA_HOME NF XMX WAIT), parametrized from S0062-S0065 | yes |
+| S0313 | global | `cloud/tools/harness/cmd.sh` | S0313 send a console command to a server from S0312 (cmd.sh LOG "cmd") | yes |
+| S0314 | global | `cloud/tools/harness/shot.sh` | S0314 Xvfb screenshot (shot.sh FILE.png; env DISPLAY_NUM) | yes |
+| S0315 | global | `cloud/tools/harness/cl_join.sh` | S0315 headless client join via portablemc (cl_join.sh CLIENTDIR OUTDIR; env JOIN NF MCDIR JAVA_HOME) | yes |
+| S0316 | cloud | `names/linguistics/audit_names.py` | S0311 Audits every culture name in names/*.json against names/linguistics/rules/<slug>.json (graphemes, forbidden patterns, word length); wr | yes |
+| S0317 | cloud | `names/linguistics/research_rules.py` | S0310 One direct cached Claude call per culture language: researches how a linguist builds words there, writes names/linguistics/rules/<slug | yes |
+| S0318 | cloud | `tools/harness/cl_join.sh` | S0315 cl_join.sh CLIENTDIR OUTDIR : headless client (Xvfb + portablemc) joins a world or server; returns at once. | yes |
+| S0319 | cloud | `tools/harness/cmd.sh` | S0313 cmd.sh LOG "command" : send a console command to a server started by srvup.sh (rcon alternative: S0071 rcon.py) | yes |
+| S0320 | cloud | `tools/harness/shot.sh` | S0314 shot.sh FILE.png : screenshot of the Xvfb display (env DISPLAY_NUM, default 96) | yes |
+| S0321 | cloud | `tools/harness/srvup.sh` | S0312 srvup.sh SRV LOG : boot a NeoForge server and leave it running; commands go to LOG.in (use cmd.sh). Prints Done/failed line. | yes |

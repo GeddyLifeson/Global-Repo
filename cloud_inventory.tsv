@@ -239,6 +239,8 @@ mythology/build.py	14423	Build mythology data from src/pantheons.txt. Run: pytho
 mythology/gen_age1.py	4668	Per-culture Age I hearth courts (3 gods, 2 creatures each) for every Age I culture in MASTER_CULTURES.csv.	yes
 mythology/later_units.py	2098	"Map the later-era culture units (cultures/LATER_AGE_UNITS.csv) to the invented V-to-Rodos courts. Run: python3 -I later_units.py"""""""	yes
 mythology/placement.py	4373	"Join the fantasy-biome sites (DiaithirRPG PR #146 sites.csv) to courts. Run: python3 -I placement.py"""""""	yes
+names/linguistics/audit_names.py	2100	S0311 Audits every culture name in names/*.json against names/linguistics/rules/<slug>.json (graphemes, forbidden patterns, word length); wr	yes
+names/linguistics/research_rules.py	7192	S0310 One direct cached Claude call per culture language: researches how a linguist builds words there, writes names/linguistics/rules/<slug	yes
 panscriptum/archive-import/assemble.py	4980	"Agent research (aib/*.json) -> kit record + the kit index edits for The Archive In Between."""""""	yes
 panscriptum/archive-import/crawl.py	3829	Pull the free public text of The Archive In Between into raw/ (research only, never committed).	yes
 panscriptum/archive-import/marks.py	1440	Add The Archive In Between to TIERS.json and append its worlds' shelfmarks to SHELFMARKS.json.	yes
@@ -264,7 +266,7 @@ reassemble.py	1502	Rejoins the Industrial Factory resource pack zips from their 
 texture-pack/gaps-src/apply.py	1591	"sys.path.insert(0,""/home/user/work/pix"")"	yes
 texture-pack/gaps-src/apply2.py	4944	"sys.path.insert(0,""/home/user/work/pix"")"	yes
 texture-pack/gaps-src/blocks.py	2921	"V=""/home/user/diaithirrpg/tools/art/blender/baked/vanilla/assets/minecraft/textures/block/"""	yes
-texture-pack/gaps-src/blocks_real.py	6103	"Real-material storage blocks: stacked ingots for metals, faceted mosaics for gems, rock-and-vein masses for raw ore."""""""	yes
+texture-pack/gaps-src/blocks_real.py	7315	S0268 Real-material storage blocks: stacked ingots for metals, faceted mosaics for gems, rock-and-vein masses for raw ore.	yes
 texture-pack/gaps-src/build_list.py	3070	"sys.path.insert(0,""/home/user/diaithirrpg/tools/art/blender"")"	yes
 texture-pack/gaps-src/build_page.py	4058	"Progress page: finished photo icons (64 px) next to their source photo, with credits."""""""	yes
 texture-pack/gaps-src/classify.py	2118	"B=""/home/user/diaithirrpg/tools/art/blender/baked/"""	yes
@@ -290,10 +292,16 @@ texture-pack/gaps-src/model3d.py	9870	3D item models (held, dropped, in frames) 
 texture-pack/gaps-src/ore_proc.py	4483	"Pixel-art ore faces and nugget sheets from the real-material colours (ores_all.json)."""""""	yes
 texture-pack/gaps-src/ore_rebake.py	1977	"sys.path.insert(0,""/home/user/work/pix""); sys.path.insert(0,""/home/user/diaithirrpg/tools/art/blender"")"	yes
 texture-pack/gaps-src/picks_from_jobs.py	800	"Merge cand_all.jsonl with vision outputs of dish_photo_pick_* into picks.json (id -> chosen photo with credit)."""""""	yes
-texture-pack/gaps-src/pixel_icons.py	9755	Hand-drawn style 32 px sprites (shown at 64 px, nearest) for gems, shards, nuggets, raw ore, dust and ingots.	yes
+texture-pack/gaps-src/pixel_icons.py	10451	S0294 Hand-drawn style 32 px sprites (shown at 64 px, nearest) for gems, shards, nuggets, raw ore, dust and ingots.	yes
 texture-pack/gaps-src/render_dishes.py	1908	out.jsonl (scene specs from the API) -> kit specs -> sharded Blender renders -> 64 px PNGs + review images.	yes
 texture-pack/gaps-src/restyle_newmods.py	2282	"Factory-look filter for textures of mods added after the first coverage pass. Size and UV layout are kept."""""""	yes
 texture-pack/gaps-src/tanning_make_specs.py	6093	"Specs and map images for the tanning set, rendered through the Diaithir Blender kit (run_kit.py)."""""""	yes
+tools/compile_fix_loop.py	3794	S0311 (v2: prompt caching on the stable prefix, 6 parallel direct calls, optional gradle mirror init) Compile-fix loop: gradle compileJava p	yes
+tools/get_jdk25.sh	753	Installs Temurin JDK 25 into /tmp/claude-0/jdk25 (cloud container, via the proxy) and prints how to use it.	yes
+tools/harness/cl_join.sh	1304	S0315 cl_join.sh CLIENTDIR OUTDIR : headless client (Xvfb + portablemc) joins a world or server; returns at once.	yes
+tools/harness/cmd.sh	152	"S0313 cmd.sh LOG ""command"" : send a console command to a server started by srvup.sh (rcon alternative: S0071 rcon.py)"	yes
+tools/harness/shot.sh	179	S0314 shot.sh FILE.png : screenshot of the Xvfb display (env DISPLAY_NUM, default 96)	yes
+tools/harness/srvup.sh	917	S0312 srvup.sh SRV LOG : boot a NeoForge server and leave it running; commands go to LOG.in (use cmd.sh). Prints Done/failed line.	yes
 ug_underground_fix.py	11088	Turns the Age I underground on in the live world: caves, aquifers, lava, geodes and stone patches (all off in world_gen_settings.dat).	yes
 ui_ages.py	3629	One GUI skin per Age (docs/ui/UI_SCHEMA.md). A screen is drawn in the skin of the Age its block or mod is unlocked in	yes
 vshang_start_server.ps1	1963	Start the Diaithir production server detached, then its watchdog.	yes
@@ -306,5 +314,3 @@ world-checks/render.py	1634	"Top-down PNG per site: snow white, water blue, land
 world-checks/scan.py	5155	"Scan Tellus region files: per-column ground Y, snow cover, bedrock floor, and every *_ore block position."""""""	yes
 world-checks/sites.py	1510	R = 111319.49166666667 * 180 / math.pi	yes
 world-checks/snow.py	2642	"Snowline check: snow cover fraction by elevation band vs the Age I line (EraMath.age1SnowlineMeters)."""""""	yes
-tools/get_jdk25.sh	600	Installs Temurin JDK 25 in the cloud container (gradle toolchain for NeoForge 26.1.2); source it, then ./gradlew compileJava -Porg.gradle.java.installations.paths=$JAVA_HOME.	yes
-tools/compile_fix_loop.py	4500	Compile-fix loop for diaithir modules: gradle errors + real 26.1.2 class candidates go to Sonnet, fixed files written back, up to 5 rounds.	yes
