@@ -317,3 +317,5 @@ Run hints: .py `python3 <file>` (PC `py`), .ps1 via a hidden launcher (never a v
 | S0307 | cloud | `world-checks/scan.py` | Scan Tellus region files: per-column ground Y, snow cover, bedrock floor, and every *_ore block position.""" | yes |
 | S0308 | cloud | `world-checks/sites.py` | R = 111319.49166666667 * 180 / math.pi | yes |
 | S0309 | cloud | `world-checks/snow.py` | Snowline check: snow cover fraction by elevation band vs the Age I line (EraMath.age1SnowlineMeters).""" | yes |
+| S0310 | cloud | `tools/get_jdk25.sh` | Installs Temurin JDK 25 in the cloud container (gradle toolchain for NeoForge 26.1.2); source it, then ./gradlew compileJava -Porg.gradle.java.installations.paths=$JAVA_HOME. | yes |
+| S0311 | cloud | `tools/compile_fix_loop.py` | Compile-fix loop for diaithir modules: gradle errors + real 26.1.2 class candidates go to Sonnet, fixed files written back, up to 5 rounds. | yes |
