@@ -1,0 +1,202 @@
+{
+ "proxy_language": "Proto-Tupi-Guarani (Tupian family) with Classical Tupinamba (Old Tupi) as the attested anchor",
+ "confidence": "low",
+ "proxy_rationale": "'River-and-Forest Court' is a fictional later court in Amazonia/Caribbean/northern South America with no single historical language. The best-documented Amazonian-Caribbean-coast language with a 16th-17th c. grammar and dictionary is Old Tupi (Tupinamba; Anchieta 1595, Figueira 1621, Lemos Barbosa 1951), a Tupi-Guarani language whose speakers lived along rivers and forests and whose river/forest vocabulary is rich (y 'water/river', ka'a 'forest', ibira 'tree'). Proto-Tupi-Guarani reconstructions (Jensen, Rodrigues) give a time-depth anchor. The link to a hypothetical 'court' is weak; Carib (e.g. Kari'nja/Galibi) and Arawak (Lokono/Taino) are neighboring alternatives, but Old Tupi is much better documented and gives a coherent, specialist-checkable system.",
+ "phonology": "Old Tupi (Navarro/Rodrigues-style analysis). Oral vowels: a e i o u and y (high central unrounded, written y). Nasal vowels (a~ e~ i~ y~ o~ u~) are written with tilde or marked in transliteration but can be omitted in plain Latin text. Consonants: stops p t k and labiovelar kw (written kw or ku), glottal stop ' (written '), nasals m n, ng (velar nasal, 'ng'), fricatives s (also written c/z historically), x (palatal fricative, 'x' in Jesuit orthography), h in some sources; liquid r (flap); semivowels w and y~j. Voiced stops b, d, g appear as allophones of nasal+stop or in loans, but b occurs in native words from earlier *mb (e.g., ibira 'tree', abá 'man'). Stress usually on the final syllable (oxytone) or on the stressed syllable of a morphologically fixed shape; in Latin-script naming, stress is not marked.",
+ "phonotactics": "Syllable structure is (C)V(C) in the classical analysis, but native words are overwhelmingly (C)V open syllables; coda consonants are rare and, where they occur, are restricted (typically a glottal stop ' or a nasal/n or a stop in older stems). Consonant clusters are absent word-internally except across morpheme boundaries and the labiovelar kw / nasal-stop sequences (mb, nd, ng as unit consonants). Words begin with a consonant or a vowel; hiatus (adjacent vowels) is tolerated and the glottal stop is often inserted between vowels (ka'a, pe'a). Words end in a vowel or a nasal; native words do not end in b, d, g, or voiced fricatives. No word-initial rr. y and i alternate; the high central y is common word-internally.",
+ "orthography": "Use the standard Jesuit-based scholarly transliteration of Old Tupi as in Navarro's Dicionario de tupi antigo (2013): vowels a e i o u y; consonants p t k s x r m n ng w j (or y as glide); glottal stop as apostrophe '; kw for labiovelar. Nasal vowels may be written with tilde (a~ -> ã) but for game names a plain unmarked form is acceptable. Avoid letters c, q, f, l, v, z, d, g (alone), b (alone) in native-looking names; the unit ng, mb, nd may be used as in historical sources but are not required.",
+ "morphology": "Agglutinating with a strong head-final tendency in nominal compounds and prefixed possession. Nouns are largely uninflected for case or plural; plural is optional and expressed with -etá 'many/all' or -(a)ra as collective. Possession is by prefix: a- 1sg, e- 2sg, o- 3, and a relational prefix r-/s-/t-/h- alternates with the stem (the 'relational morpheme' system: ro-, so-, t-, h-). Nominalizers: -ara/-sara 'agent, one who' (e.g. apyaba -> apyaba-ra), -aba 'instrument, place, thing' (e.g., ka'a 'forest' -> -aba), -pyra 'patient/result of' (cf. -pyra in iapyra), -ana/-rana 'like, false, ersatz', -eté 'true, real, genuine', -ussu/-guasu 'big', -mirim 'small', -ete 'true'. Verbs show person prefixes; deverbal nouns take -aba (instrument/place), -sara (agent), -pyra (product).",
+ "compounding": "Noun-noun compounds and noun + attributive suffix patterns are the main device for naming. A possessor/modifier precedes the head in genitive constructions ('X's Y' = X + Y, e.g., ybytyra 'mountain'). For 'Y of X', place the modifier first: y 'water' + ka'a 'forest' etc. Descriptive adjectives follow the noun with an attributive suffix: noun + -ussu 'big', noun + -mirim 'small', noun + -eté 'true/real', noun + -rana 'false/like'. Place names commonly use '-ty/-tyba/-tiba' 'abundance of' and '-ba' 'place' (e.g., -tyba 'place abounding in': ibira + -tyba, Ubatuba from ybá-tyba?). 'Y-maker/maker of' = Y + -sara/-ara or 'verb root + -sara'. Locatives are formed with -pe 'in/at', -rupi 'through/along', -su 'toward' postposed to the noun.",
+ "noun_phrase_order": "Head-final for compounds, but with attributive suffixes/adjectives after the noun: N-ADJ (e.g., yara-ussu 'big lord'). Genitive precedes head: POSSESSOR-POSSESSED. Postpositions follow the noun (N-pe 'in N', N-rupi 'along N'). Demonstratives (nde, ko, a'e, ae) precede or follow loosely; for naming, use N + modifier suffix patterns and avoid free demonstratives.",
+ "attested_roots": [
+  {
+   "form": "y",
+   "gloss": "water, river",
+   "reconstructed": false
+  },
+  {
+   "form": "pará",
+   "gloss": "sea, large river",
+   "reconstructed": false
+  },
+  {
+   "form": "ka'a",
+   "gloss": "forest, leaf, herb",
+   "reconstructed": false
+  },
+  {
+   "form": "ibira",
+   "gloss": "tree, wood",
+   "reconstructed": false
+  },
+  {
+   "form": "ybytyra",
+   "gloss": "mountain",
+   "reconstructed": false
+  },
+  {
+   "form": "ybyrá",
+   "gloss": "tree, stick",
+   "reconstructed": false
+  },
+  {
+   "form": "ara",
+   "gloss": "day, sky, time",
+   "reconstructed": false
+  },
+  {
+   "form": "kuarasy",
+   "gloss": "sun",
+   "reconstructed": false
+  },
+  {
+   "form": "jasy",
+   "gloss": "moon",
+   "reconstructed": false
+  },
+  {
+   "form": "tupã",
+   "gloss": "thunder, god (Jesuit usage)",
+   "reconstructed": false
+  },
+  {
+   "form": "abá",
+   "gloss": "man, person",
+   "reconstructed": false
+  },
+  {
+   "form": "kunhã",
+   "gloss": "woman",
+   "reconstructed": false
+  },
+  {
+   "form": "oka",
+   "gloss": "house",
+   "reconstructed": false
+  },
+  {
+   "form": "tuba",
+   "gloss": "father",
+   "reconstructed": false
+  },
+  {
+   "form": "tatá",
+   "gloss": "fire",
+   "reconstructed": false
+  },
+  {
+   "form": "pirá",
+   "gloss": "fish",
+   "reconstructed": false
+  },
+  {
+   "form": "-ussu",
+   "gloss": "big (suffix)",
+   "reconstructed": false
+  },
+  {
+   "form": "-mirim",
+   "gloss": "small (suffix)",
+   "reconstructed": false
+  },
+  {
+   "form": "-eté",
+   "gloss": "true, genuine (suffix)",
+   "reconstructed": false
+  },
+  {
+   "form": "*ka'a",
+   "gloss": "forest/leaf (PTG)",
+   "reconstructed": true
+  }
+ ],
+ "worked_examples": [
+  {
+   "english": "Great River",
+   "name": "Yussu",
+   "gloss": "y 'river' + -ussu 'big'"
+  },
+  {
+   "english": "Forest House",
+   "name": "Ka'a-oka",
+   "gloss": "ka'a 'forest' + oka 'house'"
+  },
+  {
+   "english": "Temple of the Sun",
+   "name": "Kuarasy-oka",
+   "gloss": "kuarasy 'sun' + oka 'house'"
+  },
+  {
+   "english": "Moon Fish",
+   "name": "Jasy-pirá",
+   "gloss": "jasy 'moon' + pirá 'fish'"
+  },
+  {
+   "english": "Place of Many Trees",
+   "name": "Ibira-tyba",
+   "gloss": "ibira 'tree' + -tyba 'abundance of'"
+  },
+  {
+   "english": "Fire Maker",
+   "name": "Tatá-sara",
+   "gloss": "tatá 'fire' + -sara 'agent, one who' (cf. Old Tupi agentive -sara; shape is a pattern, not an attested lexeme)"
+  }
+ ],
+ "allowed_graphemes": [
+  "a",
+  "e",
+  "i",
+  "o",
+  "u",
+  "y",
+  "p",
+  "t",
+  "k",
+  "s",
+  "x",
+  "r",
+  "m",
+  "n",
+  "ng",
+  "w",
+  "j",
+  "kw",
+  "mb",
+  "nd",
+  "b",
+  "d",
+  "g",
+  "h"
+ ],
+ "extra_allowed_chars": " -'ãẽĩõũỹáéíóúý",
+ "forbidden_patterns": [
+  "[cfqvzl]",
+  "(.)\\1\\1",
+  "[bdg](?![aeiouyãẽĩõũỹáéíóúý])",
+  "[pkt][pkt]",
+  "[xs]{2,}",
+  "[^aeiouyãẽĩõũỹáéíóúýn'\\s-]$",
+  "^[ng]g",
+  "rr"
+ ],
+ "syllables_per_word": [
+  2,
+  3,
+  4
+ ],
+ "max_word_length": 14,
+ "sources": [
+  "Navarro, Eduardo de Almeida. Dicionario de tupi antigo: a lingua indigena classica do Brasil (2013)",
+  "Anchieta, Jose de. Arte de grammatica da lingua mais usada na costa do Brasil (1595)",
+  "Figueira, Luis. Arte da grammatica da lingua do Brasil (1621)",
+  "Lemos Barbosa, A. Curso de tupi antigo (1956)",
+  "Rodrigues, Aryon D. Linguas brasileiras: para o conhecimento das linguas indigenas (1986)",
+  "Jensen, Cheryl. Comparative Tupi-Guarani Morphosyntax (1998, Handbook of Amazonian Languages)",
+  "Rodrigues, A. & Cabral, A.S. Tupian (in Campbell & Grondona, The Indigenous Languages of South America, 2012)",
+  "Glottolog and Wiktionary Proto-Tupi-Guarani reconstruction pages"
+ ],
+ "notes": "Proxy is a pragmatic choice: Old Tupi is a real, well-documented Tupi-Guarani language of river/forest peoples, used as a stand-in for an unattested 'River-and-Forest Court'; Carib and Arawak names would be equally defensible and the current game strings (Budroho, Mupiwik, etc.) do not fit Tupi-Guarani phonotactics well (voiced b/d, x, final consonants, no vowels like y). Guidelines: favor open CV syllables, vowels a e i o u y, glottal stop between vowels (ka'a), and end names in a vowel or nasal. The allowed-grapheme list includes b/d/g only for sequences like mb/nd/ng and for older loans; the audit regex forbids bare b/d/g not followed by a vowel. Avoid l, f, v, z, c, q, and word-final stops. No word may be identical to a Modern Irish, Scottish Gaelic or Manx word since the language is not Goidelic.",
+ "unit": "The River-and-Forest Court",
+ "slug": "the_river_and_forest_court",
+ "model": "claude-sonnet-5-5"
+}

@@ -317,3 +317,5 @@ Run hints: .py `python3 <file>` (PC `py`), .ps1 via a hidden launcher (never a v
 | S0307 | cloud | `world-checks/scan.py` | Scan Tellus region files: per-column ground Y, snow cover, bedrock floor, and every *_ore block position.""" | yes |
 | S0308 | cloud | `world-checks/sites.py` | R = 111319.49166666667 * 180 / math.pi | yes |
 | S0309 | cloud | `world-checks/snow.py` | Snowline check: snow cover fraction by elevation band vs the Age I line (EraMath.age1SnowlineMeters).""" | yes |
+| S0310 | cloud | `names/linguistics/research_rules.py` | One direct cached Claude call per culture language: researches how a linguist builds words there, writes cited rules files. | yes |
+| S0311 | cloud | `names/linguistics/audit_names.py` | Audits every culture name against its language rules file (graphemes, forbidden patterns, word length). | yes |

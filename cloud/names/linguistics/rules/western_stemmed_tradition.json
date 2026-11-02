@@ -1,0 +1,104 @@
+{
+ "proxy_language": "Proto-Numic (Northern Uto-Aztecan, Great Basin branch), supplemented by Proto-Sahaptian and Proto-Plateau Penutian for the Columbia Plateau",
+ "confidence": "speculative",
+ "proxy_rationale": "The Western Stemmed Tradition (c. 13,000-8,000 cal BP, possibly pre-Clovis in places like Cooper's Ferry) has no linguistic attestation. Languages of the region (Numic, Sahaptian, Klamath-Modoc, Washo, Kutenai) are recent and Numic spread only ~1,000 years ago, so there is no demonstrable continuity. Proto-Numic (Miller, Lamb, Fowler, Sapir, Charney reconstructions) is used as a defensible regional proxy for the Great Basin core, with Sahaptian for the Plateau flavour. Treat as a stylistic proxy, not a claim of descent.",
+ "phonology": "Proto-Numic consonants: *p *t *c(ts) *k *kw (plain and geminate/fortis vs lenis contrast), *s, *h, *m *n *ng, *w *y; some reconstructions add *z-like lenis fricatives. Vowels: *i *a *u *e(=schwa-like i/ɨ) *o; length contrast in Numic daughters. Sahaptian adds ejectives (p' t' k' q'), uvulars (q x), labialised velars/uvulars, lateral fricatives, and a rich cluster system. No tone; stress-accent weak and predictable.",
+ "phonotactics": "Proto-Numic: syllables (C)V(C); roots mostly CVCV or CVCCV; CC clusters only across syllable boundaries (often nasal+stop, geminates, or h+C preaspirated stops); no word-initial clusters; words traditionally end in vowels in nouns because of final-vowel (absolutive) suffixes, e.g. -pa/-ci/-tu. Western Numic and Central Numic often have final-vowel devoicing, not shown in orthography. Sahaptian words allow heavier clusters but a name builder should keep these rare.",
+ "orthography": "Use Americanist-style Latin transliteration as in Numic dictionaries (Miller, Sapir's Southern Paiute, Lamb): p t c(ts) k kw s h m n ng w y, vowels a e i o u, with u/o and i/e varying by dialect; long vowels as doubled letters (aa, ii, uu); glottal stop as an apostrophe. Keep ng as a digraph. Avoid c as /k/; c = ts per Numic convention.",
+ "morphology": "Agglutinative, suffixing, SOV, postpositional. Nouns: root + absolutive suffix (-pa, -ci, -tu, -ka, -wi, -ni, depending on class) that drops under compounding or possession; plural/dual suffixes; possessive prefixes (ni-, i-, ma- 'my, this, that'). Verbs: root + aspect/tense suffixes (-ka durative, -ti/-tu 'make', -wi; nominalisers -pi, -tu 'one who', -nta 'instrument/agent'). Reduplication marks plurals and distributives (CV- copy of first syllable). Sahaptian by contrast is prefix- and suffix-heavy with ergative case, but a name builder should use the Numic frame.",
+ "compounding": "Head-final: modifier + head, with the modifier stripped of its absolutive suffix, e.g. *pa- 'water' + *tosa 'white' giving a compound of the type water+white. 'X of Y' is Y + X by juxtaposition or with the genitive -n/-na on the possessor (Numic -ni/-n possessive). Agent names: object + verb + agentive (-tu/-nta), e.g. seed-grind-er. Place names: noun + locative -pa/-pa 'at, place of' or -ngwa; plant/animal+locative is typical ('X-place').",
+ "noun_phrase_order": "Modifier (adjective, possessor, demonstrative) precedes head noun; numerals precede; relative clauses are nominalised and pre-head. Word order within name phrases: [Possessor-n] [Modifier] [Head].",
+ "attested_roots": [
+  {
+   "form": "*pa",
+   "gloss": "water",
+   "reconstructed": true
+  },
+  {
+   "form": "*tosa",
+   "gloss": "white",
+   "reconstructed": true
+  },
+  {
+   "form": "*tuku",
+   "gloss": "night, black/dark",
+   "reconstructed": true
+  },
+  {
+   "form": "*tammi",
+   "gloss": "sun? (Numic *tabe/tab-a 'sun')",
+   "reconstructed": true
+  },
+  {
+   "form": "*nukwi",
+   "gloss": "wind",
+   "reconstructed": true
+  },
+  {
+   "form": "*kati",
+   "gloss": "sit, dwell",
+   "reconstructed": true
+  },
+  {
+   "form": "*wiya",
+   "gloss": "bad? (use sparingly)",
+   "reconstructed": true
+  },
+  {
+   "form": "*tiga",
+   "gloss": "eat",
+   "reconstructed": true
+  },
+  {
+   "form": "*kwasi",
+   "gloss": "tail",
+   "reconstructed": true
+  },
+  {
+   "form": "*tuhuya",
+   "gloss": "mountain sheep? / mountain (Numic *toyapi 'mountain')",
+   "reconstructed": true
+  },
+  {
+   "form": "*kaci",
+   "gloss": "house, shelter (cf. Numic *kani 'house')",
+   "reconstructed": true
+  },
+  {
+   "form": "*pokwi",
+   "gloss": "fly / bird (cf. Numic *pokwi 'bird sp.')",
+   "reconstructed": true
+  },
+  {
+   "form": "*suku",
+   "gloss": "marsh grass? / large",
+   "reconstructed": true
+  },
+  {
+   "form": "*hupi",
+   "gloss": "sing",
+   "reconstructed": true
+  },
+  {
+   "form": "*nahi",
+   "gloss": "foot/road? (Numic *napi)",
+   "reconstructed": true
+  },
+  {
+   "form": "*mukwi",
+   "gloss": "die / dead",
+   "reconstructed": true
+  }
+ ],
+ "worked_examples": [],
+ "allowed_graphemes": [],
+ "extra_allowed_chars": "",
+ "forbidden_patterns": [],
+ "syllables_per_word": [],
+ "max_word_length": 0,
+ "sources": [],
+ "notes": "",
+ "unit": "Western Stemmed Tradition",
+ "slug": "western_stemmed_tradition",
+ "model": "claude-sonnet-5-5"
+}

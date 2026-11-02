@@ -306,3 +306,5 @@ world-checks/render.py	1634	"Top-down PNG per site: snow white, water blue, land
 world-checks/scan.py	5155	"Scan Tellus region files: per-column ground Y, snow cover, bedrock floor, and every *_ore block position."""""""	yes
 world-checks/sites.py	1510	R = 111319.49166666667 * 180 / math.pi	yes
 world-checks/snow.py	2642	"Snowline check: snow cover fraction by elevation band vs the Age I line (EraMath.age1SnowlineMeters)."""""""	yes
+names/linguistics/research_rules.py	7192	One direct cached Claude call per culture language: researches how a linguist builds words there, writes cited rules files.	yes
+names/linguistics/audit_names.py	2100	Audits every culture name against its language rules file (graphemes, forbidden patterns, word length).	yes

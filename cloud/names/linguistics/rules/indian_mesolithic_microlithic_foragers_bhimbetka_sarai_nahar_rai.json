@@ -1,0 +1,180 @@
+{
+ "proxy_language": "Proto-Munda (with Proto-Austroasiatic roots as deeper layer); Kurukh/Proto-Dravidian and Proto-Indo-Aryan explicitly excluded as anachronistic",
+ "confidence": "speculative",
+ "proxy_rationale": "Mesolithic Gangetic and central Indian foragers (c. 10,000-4,000 BCE) have no attested language. Surviving hunter-gatherer languages of the region (Munda, e.g. Birhor, Kharia, Juang, Korku; plus linguistic isolates such as Nihali and Kusunda in Nepal) are the least anachronistic proxies. Dravidian and Indo-Aryan are generally thought to have arrived later (Neolithic to Bronze Age), so they are avoided. Proto-Munda reconstruction is shallow (c. 3-4 kya at most), so this is a loose areal/ethnographic proxy and not a claim of descent. Nihali and Kusunda are noted as relic isolates but are too poorly documented for productive morphology.",
+ "phonology": "Proto-Munda (Anderson, Zide and Zide, Donegan and Stampe): stops *p *t *c *k with voiced *b *d *j *g (plus glottal stop and aspirates in modern languages, aspirates largely from contact); nasals *m *n *ñ *ŋ; liquids *l *r; glides *w *y; fricative *s and *h. Vowels *i *e *a *o *u (plus ə in some languages). Reconstructed with a strong tendency toward iambic sesquisyllabic roots (a weak initial presyllable plus a full main syllable), as in Austroasiatic generally. Glottalised or checked stops word-finally in many languages.",
+ "phonotactics": "Root shapes in Munda: CVC, CVCVC, and sesquisyllabic CəCVC. Word-final consonants are common and include stops p t k and glottal-checked variants, nasals m n ŋ, liquids l r, and s. Initial clusters are essentially absent; medial clusters are only nasal+stop or liquid+stop in loans and some derived forms. Stress falls on the final or main syllable of the root. Vowel-initial words occur but many have initial glottal onset. No voiced aspirates in the reconstructed core.",
+ "orthography": "Use plain Latin transliteration without diacritics for the game: ny for ñ, ng for ŋ, j for c/j, ch for c. Standard scholarly Munda transliteration (Santali-Roman style) uses c, j, ñ, ŋ and underdotted retroflexes; for names, simplify these. Written lowercase, with hyphens at morpheme boundaries inside compounds and spaces between separate words.",
+ "morphology": "Munda languages are agglutinative with heavy suffixation and some infixation (nominalising -n-/-p- infixes inherited from Austroasiatic). Nouns lack grammatical gender in the core; Santali has animate/inanimate distinction. Number marking (dual and plural) is by suffix (-ko plural, -kin dual in Santali). Possession and case are marked by postpositions and suffixes (genitive -ren/-ak in Santali). Nominalisation by prefix/infix (*p- instrumental/causative-like, *-n- nominaliser). Reduplication occurs for plurality/intensity and in expressives. Verbal morphology is polysynthetic-leaning with object and subject agreement suffixes; names can be built from bare roots or root plus suffix.",
+ "compounding": "Compounds are head-final: modifier precedes head (e.g., Santali sado 'horse' + ... patterns; 'X-Y' = Y of/with X quality). Genitive construction places possessor before possessed with a genitive linker (-ak/-ren): 'river of fish' = fish-GEN river. Agent/instrument names are formed by nominalising a verb root with an infix or suffix (e.g., -ik/-ok or -n- infix) or by compounding a noun with a verb root. A conservative game pattern: [modifier root]-[head root], or [possessor]-GEN [possessed].",
+ "noun_phrase_order": "Modifier before head: adjective/noun-modifier + noun; possessor + genitive + possessed; demonstrative + noun. Numerals precede the noun with a classifier-like element in some Munda languages. Postpositions rather than prepositions.",
+ "attested_roots": [
+  {
+   "form": "*dak",
+   "gloss": "water",
+   "reconstructed": true
+  },
+  {
+   "form": "*sen",
+   "gloss": "to go",
+   "reconstructed": true
+  },
+  {
+   "form": "*jom",
+   "gloss": "to eat",
+   "reconstructed": true
+  },
+  {
+   "form": "*gitij",
+   "gloss": "to sleep, lie down",
+   "reconstructed": true
+  },
+  {
+   "form": "*sim",
+   "gloss": "chicken, bird",
+   "reconstructed": true
+  },
+  {
+   "form": "*hon",
+   "gloss": "child, young",
+   "reconstructed": true
+  },
+  {
+   "form": "*daru",
+   "gloss": "tree, wood",
+   "reconstructed": true
+  },
+  {
+   "form": "*buru",
+   "gloss": "hill, mountain",
+   "reconstructed": true
+  },
+  {
+   "form": "*disum",
+   "gloss": "country, land",
+   "reconstructed": true
+  },
+  {
+   "form": "*sengel",
+   "gloss": "fire",
+   "reconstructed": true
+  },
+  {
+   "form": "*ader",
+   "gloss": "inside",
+   "reconstructed": true
+  },
+  {
+   "form": "*hako",
+   "gloss": "fish",
+   "reconstructed": true
+  },
+  {
+   "form": "*jaŋ",
+   "gloss": "to dance (areal)",
+   "reconstructed": true
+  },
+  {
+   "form": "*bir",
+   "gloss": "forest",
+   "reconstructed": true
+  },
+  {
+   "form": "*mit",
+   "gloss": "one",
+   "reconstructed": true
+  },
+  {
+   "form": "*sirma",
+   "gloss": "sky, year",
+   "reconstructed": true
+  }
+ ],
+ "worked_examples": [
+  {
+   "english": "River Fish",
+   "name": "dak-hako",
+   "gloss": "water-fish (modifier before head)"
+  },
+  {
+   "english": "Forest Fire",
+   "name": "bir-sengel",
+   "gloss": "forest-fire (head-final compound)"
+  },
+  {
+   "english": "Hill of Trees",
+   "name": "daru-ren buru",
+   "gloss": "tree-GEN hill (possessor + genitive + possessed)"
+  },
+  {
+   "english": "Eating Place",
+   "name": "jom-disum",
+   "gloss": "eat-land (verb root as modifier + noun head)"
+  },
+  {
+   "english": "Sky Child",
+   "name": "sirma-hon",
+   "gloss": "sky-child (modifier + head)"
+  },
+  {
+   "english": "Fire Dance",
+   "name": "sengel-jang",
+   "gloss": "fire-dance (noun + verb root nominal compound)"
+  }
+ ],
+ "allowed_graphemes": [
+  "a",
+  "e",
+  "i",
+  "o",
+  "u",
+  "b",
+  "d",
+  "g",
+  "h",
+  "j",
+  "k",
+  "l",
+  "m",
+  "n",
+  "ng",
+  "ny",
+  "p",
+  "r",
+  "s",
+  "t",
+  "w",
+  "y",
+  "ch"
+ ],
+ "extra_allowed_chars": " -",
+ "forbidden_patterns": [
+  "[fqvxz]",
+  "c(?!h)",
+  "(.)\\1\\1",
+  "[aeiou]{3}",
+  "^[bdgjkptsrmnlhwy][bdgjkptsrmnlhwy]",
+  "ph|th|kh|bh|dh|gh|sh",
+  "[^aeiouyn][bdgjkptsrmnlhwy]{2}[^aeiouy]"
+ ],
+ "syllables_per_word": [
+  1,
+  2,
+  3
+ ],
+ "max_word_length": 14,
+ "sources": [
+  "Anderson, Gregory D. S. (ed.), The Munda Languages (Routledge, 2008)",
+  "Zide, Norman H. and Zide, Arlene R. K., 'Proto-Munda Cultural Vocabulary: Evidence for Early Agriculture', in Austroasiatic Studies (1976)",
+  "Donegan, Patricia and Stampe, David, 'The Study of Natural Phonology / South-East Asian features in the Munda languages' (1983)",
+  "Diffloth, Gerard, Austroasiatic reconstructions, Mon-Khmer Studies and Austroasiatic Studies volumes",
+  "Starling database (Munda and Austroasiatic etymologies, S. Starostin and G. Starostin)",
+  "Glottolog entries for Munda, Kharia-Juang, Korku, Nihali",
+  "Wiktionary Proto-Munda and Proto-Austroasiatic reconstruction pages",
+  "Kumar, Pramod et al. on Mesolithic Bhimbetka/Sarai Nahar Rai archaeology (general archaeological context)"
+ ],
+ "notes": "No language of the Indian Mesolithic is attested, and Munda is a loose areal proxy only; treat all names as evocative and not as a claim about the actual speech of Bhimbetka or Sarai Nahar Rai foragers. Reconstructions marked with * are Proto-Munda or Proto-Austroasiatic and have a shallow time depth. Avoid Sanskrit, Hindi and Dravidian forms. No word may be identical to a Modern Irish, Scottish Gaelic or Manx word since the language is not Goidelic. The voiceless velar and aspirate series, retroflexes and aspirated stops in modern Indic languages are deliberately omitted from the allowed grapheme set to keep names within the reconstructed core.",
+ "unit": "Indian Mesolithic microlithic foragers (Bhimbetka, Sarai Nahar Rai)",
+ "slug": "indian_mesolithic_microlithic_foragers_bhimbetka_sarai_nahar_rai",
+ "model": "claude-sonnet-5-5"
+}

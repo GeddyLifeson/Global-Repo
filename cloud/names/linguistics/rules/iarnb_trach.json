@@ -1,0 +1,188 @@
+{
+ "proxy_language": "Unattested/unidentified culture: the name 'Iarnbòtrach' is Gaelic-looking (iarn 'iron' + a Gaelic-style suffix) and does not correspond to any attested culture or language in Russia/Central Asia/India. Best-supported proxy for a later (Period 6) steppe-to-Indian court culture in this region is Chagatai Turkic (Eastern Middle Turkic, Timurid/Mughal court language of Central Asia and India), written in Latin scholarly transliteration. A Persian-lexicon layer is typical of such courts.",
+ "confidence": "low",
+ "proxy_rationale": "No language called Iarnbòtrach is attested. The region label (Russia, Central Asia, India) and the court-period index point to Turco-Persian courts such as the Timurids and early Mughals. Chagatai is the best-documented court vernacular spanning that zone (Babur's Baburnama, Navai's works), with Persian as the high-prestige co-language. The link between the game culture and Chagatai is by region and period only; the culture name itself is unrelated to Turkic.",
+ "phonology": "Chagatai (Eastern Middle Turkic), in scholarly transliteration. Consonants: p b t d k g q ġ (voiced uvular fricative/stop) c (affricate, often written č) j (ǰ) s z š f v/w h x (velar fricative, mostly in loans) m n ŋ (ñ) l r y. Vowels: a e i ı o ö u ü (with ē ō in some conventions). Vowel harmony: back/front (palatal) harmony governs suffixes, and rounding harmony operates partially; Perso-Arabic loans often break harmony. Stress is generally word-final.",
+ "phonotactics": "Native syllable shapes: V, CV, VC, CVC, CVCC (CC only word-finally, e.g. -rt, -nč). No native initial consonant clusters (loans from Persian are epenthesized or accepted: e.g. Persian 'ustād' with prothetic vowels). Native words do not begin with r, l, n, ŋ, z (these occur only in loans). Voiced stops b d g are common initially in native words, and word-final voicing alternations occur in suffixation (-lAr, -dA/-tA). Words are mostly 2-3 syllables, with longer words formed by agglutination.",
+ "orthography": "Scholarly Latin transliteration of Chagatai in the Turkological convention: ç or č for affricate, š for sh, j or ǰ for voiced affricate, ı for the back unrounded vowel, ö ü for front rounded vowels, ñ or ŋ for the velar nasal, ġ for voiced velar/uvular, q for uvular stop. For the game, a simplified Latin script is safest: a b c d e f g h i ı j k l m n o ö p q r s ş t u ü v y z, with vowel harmony respected in suffix choice.",
+ "morphology": "Agglutinating, suffixing language. Roots are mostly monosyllabic, verbal or nominal, and noun stems are followed by plural -lAr (-lar/-ler), possessive suffixes (-ım/-im, -ı/-i/-sı/-si), case suffixes (genitive -nıŋ/-niŋ, accusative -nı/-ni, dative -ġa/-ge/-qa/-ke, locative -da/-de/-ta/-te, ablative -dın/-din/-tın/-tin) and derivational suffixes: -çı/-či (agent, 'maker/keeper of'), -lıq/-lik (abstract/collective/place), -lıġ/-lig (having, with), -sız/-siz (without), -ġan/-gen, -ış (nominalization), -ım. Verb derivation: -la- (denominal verb), -ġa- etc. No noun classes or grammatical gender.",
+ "compounding": "Compounds are head-final: modifier + head. Two main patterns: (1) bare nominal compound: modifier + head with the head optionally taking the 3rd-person possessive -(s)ı (Turkish-style izafet / 'tamlama'): e.g. 'tağ yol' mountain road; 'altun yurt' golden home; (2) genitive + possessed: X-nıŋ Y-ı 'Y of X'. Persian ezafe constructions (head + -i + modifier, e.g. 'bāġ-i bihišt' garden of paradise) are used in learned/court register for loanword phrases. Agent names: noun + -çı (e.g. 'temürçi' ironworker, 'ātçı' horse-keeper). Place names often use -lıq/-zar/-stan/-ābād as loan suffixes.",
+ "noun_phrase_order": "Modifier-head order throughout: adjective before noun, genitive before possessed noun, demonstrative/numeral before noun, relative clauses (participial) before noun. In Persian-register phrases the ezafe construction reverses this to head-modifier (e.g. 'šāh-i muʿaẓẓam' 'the great king'). Plural marking only once on the noun; adjectives are uninflected.",
+ "attested_roots": [
+  {
+   "form": "temür",
+   "gloss": "iron",
+   "reconstructed": false
+  },
+  {
+   "form": "altun",
+   "gloss": "gold",
+   "reconstructed": false
+  },
+  {
+   "form": "kümüş",
+   "gloss": "silver",
+   "reconstructed": false
+  },
+  {
+   "form": "tağ",
+   "gloss": "mountain",
+   "reconstructed": false
+  },
+  {
+   "form": "su",
+   "gloss": "water, river",
+   "reconstructed": false
+  },
+  {
+   "form": "yol",
+   "gloss": "road, way",
+   "reconstructed": false
+  },
+  {
+   "form": "ot",
+   "gloss": "fire",
+   "reconstructed": false
+  },
+  {
+   "form": "kök",
+   "gloss": "sky, blue",
+   "reconstructed": false
+  },
+  {
+   "form": "ay",
+   "gloss": "moon, month",
+   "reconstructed": false
+  },
+  {
+   "form": "kün",
+   "gloss": "sun, day",
+   "reconstructed": false
+  },
+  {
+   "form": "yıldız",
+   "gloss": "star",
+   "reconstructed": false
+  },
+  {
+   "form": "at",
+   "gloss": "horse",
+   "reconstructed": false
+  },
+  {
+   "form": "qara",
+   "gloss": "black, dark",
+   "reconstructed": false
+  },
+  {
+   "form": "aq",
+   "gloss": "white",
+   "reconstructed": false
+  },
+  {
+   "form": "bāġ",
+   "gloss": "garden (Persian loan)",
+   "reconstructed": false
+  },
+  {
+   "form": "yurt",
+   "gloss": "homeland, encampment",
+   "reconstructed": false
+  }
+ ],
+ "worked_examples": [
+  {
+   "english": "Iron Gate",
+   "name": "Temür Qapıġ",
+   "gloss": "temür 'iron' + qapıġ 'gate' (modifier-head compound)"
+  },
+  {
+   "english": "Ironworker",
+   "name": "Temürçi",
+   "gloss": "temür 'iron' + -çi agent suffix 'worker of iron' (front harmony)"
+  },
+  {
+   "english": "Garden of the Moon",
+   "name": "Ayning Bāġı",
+   "gloss": "ay 'moon' + -nıŋ genitive + bāġ 'garden' + -ı 3sg possessive, 'garden of the moon'"
+  },
+  {
+   "english": "Black Mountain",
+   "name": "Qara Tağ",
+   "gloss": "qara 'black' + tağ 'mountain', adjective-noun order"
+  },
+  {
+   "english": "Place of Gold",
+   "name": "Altunlıq",
+   "gloss": "altun 'gold' + -lıq place/collective suffix, 'golden place, gold-land'"
+  },
+  {
+   "english": "Horse of the Sun",
+   "name": "Künning Atı",
+   "gloss": "kün 'sun' + -nıŋ genitive + at 'horse' + -ı 3sg possessive"
+  }
+ ],
+ "allowed_graphemes": [
+  "a",
+  "b",
+  "c",
+  "ç",
+  "d",
+  "e",
+  "f",
+  "g",
+  "ğ",
+  "h",
+  "ı",
+  "i",
+  "j",
+  "k",
+  "l",
+  "m",
+  "n",
+  "ñ",
+  "o",
+  "ö",
+  "p",
+  "q",
+  "r",
+  "s",
+  "ş",
+  "t",
+  "u",
+  "ü",
+  "v",
+  "y",
+  "z",
+  "ch",
+  "sh"
+ ],
+ "extra_allowed_chars": " -'’āēīōū",
+ "forbidden_patterns": [
+  "^[aeıioöuü]?[bcçdfgğhjklmnñpqrsştvyz]{2,}[aeıioöuü]",
+  "[bcçdfgğhjklmnñpqrsştvyz]{4,}",
+  "([a-zçğışöüñ])\\1\\1",
+  "^[rlnñz]",
+  "[wx]",
+  "aa{2,}|ee{2,}"
+ ],
+ "syllables_per_word": [
+  2,
+  3,
+  4
+ ],
+ "max_word_length": 14,
+ "sources": [
+  "András Róna-Tas & Árpád Berta, West Old Turkic (2011)",
+  "Marcel Erdal, A Grammar of Old Turkic (2004)",
+  "Gerard Clauson, An Etymological Dictionary of Pre-Thirteenth-Century Turkish (1972)",
+  "Eckmann, Janos: Chagatay Manual (1966)",
+  "Johanson & Csató (eds.), The Turkic Languages (1998)",
+  "Starling database (Turkic etymologies); Glottolog: Chagatai",
+  "Wiktionary entries for Chagatai and Old Turkic"
+ ],
+ "notes": "The culture name 'Iarnbòtrach' appears Gaelic-derived and is not Turkic; no word in the output should be identical to a Modern Irish, Scottish Gaelic or Manx word (Chagatai is not Goidelic, so the rule applies). Proxy confidence is low because this is a game culture mapped by region and period, not an attested language. If the studio prefers a different Period-6 court language for the region (for example Old Persian-register court language, Sanskrit/Hindi-Urdu court register, or Old Church Slavonic/Old East Slavic for the Russian zone), the same structure should be re-derived for that language rather than blended into this one.",
+ "unit": "Iarnbòtrach",
+ "slug": "iarnb_trach",
+ "model": "claude-sonnet-5-5"
+}

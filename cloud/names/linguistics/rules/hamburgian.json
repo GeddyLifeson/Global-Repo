@@ -1,0 +1,129 @@
+{
+ "proxy_language": "Proto-Indo-European (late, Northwest-European dialect area) as a purely conventional stand-in; no language of the Hamburgian is recoverable",
+ "confidence": "speculative",
+ "proxy_rationale": "The Hamburgian (c. 15,500-14,000 cal BP; reindeer hunters of the N European Plain, with the Howburn site in Scotland) is known only from lithics (shouldered points, Havelte/Hamburg tanged points), reindeer-hunting sites (Meiendorf, Stellmoor, Howburn) and faunal remains. Its language is entirely unknown, and was almost certainly not Indo-European, since PIE is dated millennia later and is placed on the Pontic-Caspian steppe. Possible traces of pre-Indo-European Northwest European substrates exist (cf. Vennemann's Vasconic/Old European hydronymy hypothesis), but it is highly contested. For naming, the most defensible approach is a reconstructed-style root language that is clearly artificial-archaic: use PIE-style roots for common cold-steppe/reindeer-hunting vocabulary (water, reindeer/deer, hunt, flint, fire, wind, stone) in a plain reconstruction notation. All names are a convention and not claimed to be Hamburgian speech.",
+ "phonology": "Reconstructed late PIE-style inventory (Fortson, Ringe, Beekes): stops *p *t *k *kw (and *ḱ), voiced *b *d *g *gw (*ǵ), aspirates *bh *dh *gh (often simplified in game names), fricative *s, nasals *m *n, liquids *l *r, glides *y *w, laryngeals *h1 *h2 *h3 (written h1 h2 h3, or simplified to h), vowels *e *o *a *i *u and long *ē *ō *ā *ī *ū; syllabic sonorants *m̥ *n̥ *l̥ *r̥. For game naming a simplified Latin subset is advisable (no syllabic sonorants, laryngeals reduced to h).",
+ "phonotactics": "Root structure *(s)C(R)eC(-), usually CVC with a fixed e-grade; roots start with at most s + stop + sonorant (e.g. *streu-); no roots of the type *bhed(h)- (no two plain-voiced + aspirated stops of same series); no *d...d or *g...g voiced-voiced root patterns, voiced stops rare in roots; s-mobile initial; words are polysyllabic with stem + ending, final -s -m -h2 -os -om -eh2 -ent common; syllables CV(C) with sonorant clusters; word-final clusters rare except -s -t -nt -r. Stress free in PIE but not spelled.",
+ "orthography": "Standard reconstruction notation with asterisk for reconstructed forms in documentation; game names written without asterisk, plain Latin lowercase (macrons optional for long vowels; h for laryngeals; y and w for glides; kw/gw for labiovelars; bh dh gh for aspirates).",
+ "morphology": "Inflectional, root + suffix system. Nouns: stem + case ending (nom.sg -s, acc.sg -m, gen.sg -(o)s/-es/-os, gen.pl -om, loc.sg -i, abl -(o)s/-ed), thematic stems in -o- (masc/neut -os/-om), feminine in -eh2/-ā (-ā), consonant/i/u-stems. Neuter collective -h2 (-ā). Verbs: root + thematic vowel -e/o- (present), -ye/o- for denominatives, reduplication in presents (e.g. *dhi-dheh1-). Derivational suffixes: -tor- agent (*-tēr, *-tōr), -ti- action nouns, -tu- abstracts, -mo-/-men- result/instrument nouns, -tro-/-tlo- instrument, -(i)h2 feminine, -yo- adjectival (belonging to), -ent- participle, -ro-/-lo- adjective.",
+ "compounding": "Head-final determinative compounds: modifier (bare stem, linked by -o- connecting vowel) + head noun, e.g. *h2ewi-h2ṓw 'sheep-?'; typical pattern stem-o-head: *wl̥kʷo-pód 'wolf-foot'. Bahuvrihi possessive compounds with adjective first member. 'X of Y' is rendered either by genitive (Y-gen X) or a compound Y-o-X; agent names by root + -tor (hunter), -h2 (female).",
+ "noun_phrase_order": "Adjective before noun and agreeing in case/number/gender; genitive normally precedes head noun (Y-os X); demonstrative before noun; relatives follow. Compounds are head-final.",
+ "attested_roots": [
+  {
+   "form": "*h2ekʷeh2-",
+   "gloss": "water, river",
+   "reconstructed": true
+  },
+  {
+   "form": "*h2ep-",
+   "gloss": "water, river",
+   "reconstructed": true
+  },
+  {
+   "form": "*péh2wr̥",
+   "gloss": "fire",
+   "reconstructed": true
+  },
+  {
+   "form": "*h2eǵ-",
+   "gloss": "to drive, lead (hunt)",
+   "reconstructed": true
+  },
+  {
+   "form": "*h1eḱwos",
+   "gloss": "horse",
+   "reconstructed": true
+  },
+  {
+   "form": "*h1elh1en-",
+   "gloss": "deer, elk",
+   "reconstructed": true
+  },
+  {
+   "form": "*ǵʰes-",
+   "gloss": "to hunt, hand? (cf. *ǵʰes-r 'hand')",
+   "reconstructed": true
+  },
+  {
+   "form": "*h2h1ér-",
+   "gloss": "to plough/work (root not recommended)",
+   "reconstructed": true
+  },
+  {
+   "form": "*kʷetwor-",
+   "gloss": "four",
+   "reconstructed": true
+  },
+  {
+   "form": "*h2stḗr",
+   "gloss": "star",
+   "reconstructed": true
+  },
+  {
+   "form": "*séh2wl̥",
+   "gloss": "sun",
+   "reconstructed": true
+  },
+  {
+   "form": "*meh1n̥s-",
+   "gloss": "moon, month",
+   "reconstructed": true
+  },
+  {
+   "form": "*ǵʰéyōm",
+   "gloss": "winter, snow",
+   "reconstructed": true
+  },
+  {
+   "form": "*sneygʷʰ-",
+   "gloss": "snow",
+   "reconstructed": true
+  },
+  {
+   "form": "*h2érh3-",
+   "gloss": "to plow; elk/boar? (avoid)",
+   "reconstructed": true
+  },
+  {
+   "form": "*pḗr-",
+   "gloss": "to cross, pass over",
+   "reconstructed": true
+  },
+  {
+   "form": "*péh2-",
+   "gloss": "to protect, guard",
+   "reconstructed": true
+  },
+  {
+   "form": "*ǵʰh2s-",
+   "gloss": "stone (cf. *h2eḱmōn 'stone')",
+   "reconstructed": true
+  },
+  {
+   "form": "*h2eḱmōn",
+   "gloss": "stone, sky",
+   "reconstructed": true
+  },
+  {
+   "form": "*swéh2dus",
+   "gloss": "sweet",
+   "reconstructed": true
+  },
+  {
+   "form": "*h2ónh2s",
+   "gloss": "goose? (nonce; skip)",
+   "reconstructed": true
+  }
+ ],
+ "worked_examples": [],
+ "allowed_graphemes": [],
+ "extra_allowed_chars": "",
+ "forbidden_patterns": [],
+ "syllables_per_word": [],
+ "max_word_length": 0,
+ "sources": [],
+ "notes": "",
+ "unit": "Hamburgian",
+ "slug": "hamburgian",
+ "model": "claude-sonnet-5-5"
+}

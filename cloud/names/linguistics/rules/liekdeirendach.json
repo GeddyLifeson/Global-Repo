@@ -1,0 +1,159 @@
+{
+ "proxy_language": "Unknown: 'Liekdeirendach' is not an attested language; no scholarly literature identifies it. The closest defensible proxy for a 'later court' culture in a Rodos (Rhodes) region is Hellenistic/Koine Greek in the Rhodian (Doric) dialect form, transliterated in Latin script.",
+ "confidence": "speculative",
+ "proxy_rationale": "The culture name and the current game strings (Rusu-, -kierk-, -teoil-, Stiuba-, Brochun-) mix Goidelic-looking and invented material and do not correspond to any attested language. The only real linguistic anchor offered is the region label 'Rodos' (Greek name of Rhodes), where the attested court-period language is Rhodian Doric Greek of the Hellenistic era (Rhodian Doric gradually giving way to Koine). Because the culture itself is not attested, this is a placeholder proxy: names built this way will sound Greek/Rhodian, not like any invented 'Liekdeirendach' speech. Treat the link as very weak.",
+ "phonology": "Rhodian Doric / Hellenistic Greek. Vowels: short a e i o u; long a: e: o:; diphthongs ai ei oi ui au eu ou. Doric retains long a: where Attic has e: (e.g. hama:ra/ha:mera 'day' in Doric spelling a:); Doric uses -ti- not -si- in some forms. Consonants: stops p t k, aspirated ph th kh (fricatives by Koine period), voiced b d g, fricatives s (z = /zd/ or /z/), nasals m n, liquids l r, h (rough breathing) initially. Stress is pitch-accent in classical Greek, not written in names.",
+ "phonotactics": "Syllable shape (C)(C)V(C)(C). Word-final consonants restricted essentially to n, r, s (and ps/ks as -x/-ps). Initial clusters: pl pr tr kr bl br gl gr dr kl st sk sp ps ks kt pt mn sph sth skh etc. Medial clusters freely permitted (nk, nt, st, rm, lk, kt). No word ends in stops other than -ps/-x. Vowels in hiatus allowed (e.g. -ia, -eus, -oi).",
+ "orthography": "Standard scholarly Latin transliteration of Greek: a b g d e z e: (eta, often rendered e) th i k l m n x o p r s t u (y) ph kh ps o: (omega, often o). For game audit, use plain Latin without macrons: ch for chi, ph, th, ps, x, y for upsilon, rh for initial rho, h for rough breathing. Latinized endings -os, -on, -a, -e, -es, -ai, -oi, -eus, -is. Hellenistic Rhodian names typically attested as Greek personal and divine names (e.g. Halios 'Sun', the chief Rhodian god, Helios).",
+ "morphology": "Inflected: nouns in three genders, five cases (nominative, genitive, dative, accusative, vocative), singular/dual/plural. Declensions: first (-a/-e, -as/-es), second (-os, -on), third (consonant/-is/-eus stems). Dictionary form: nominative singular. Adjectives agree in gender, number, case. Derivational suffixes: -tes/-tor/-eus (agent), -ia (abstract/place), -ion (diminutive/place of), -ma/-mat- (result), -sis (action), -ikos (relational adjective), -eion/-ion (shrine/place), -ora (place).",
+ "compounding": "Compounds are head-final (determinant + head), joined with a linking vowel -o- (sometimes -i-/-a-): e.g. hippo-drom-os 'horse-course'. Name-type compounds: first element (noun/adjective stem + -o-) + second element (verbal/nominal stem), e.g. Philo-kles 'dear-glory', Theo-doros 'god-gift'. 'X of Y' normally expressed with genitive case, with the genitive after or before the head noun (article + noun + genitive: ho naos tou Haliou 'the temple of the Sun'). 'Y-maker' = Y-stem + -poios/-ourgos/-ergos.",
+ "noun_phrase_order": "Adjective may precede or follow the noun (attributive position with article: ho agathos aner / ho aner ho agathos). Genitive typically follows its head noun (or stands between article and noun). Demonstratives and articles precede. Articles ho, he, to inflected by case/gender/number.",
+ "attested_roots": [
+  {
+   "form": "halios",
+   "gloss": "sun (Doric form of helios; chief god of Rhodes)",
+   "reconstructed": false
+  },
+  {
+   "form": "nasos",
+   "gloss": "island (Doric/Rhodian form; Attic nesos)",
+   "reconstructed": false
+  },
+  {
+   "form": "polis",
+   "gloss": "city, citadel",
+   "reconstructed": false
+  },
+  {
+   "form": "naus",
+   "gloss": "ship (gen. naos)",
+   "reconstructed": false
+  },
+  {
+   "form": "limen",
+   "gloss": "harbor",
+   "reconstructed": false
+  },
+  {
+   "form": "hieron",
+   "gloss": "sanctuary, temple precinct",
+   "reconstructed": false
+  },
+  {
+   "form": "theos",
+   "gloss": "god",
+   "reconstructed": false
+  },
+  {
+   "form": "basileus",
+   "gloss": "king",
+   "reconstructed": false
+  },
+  {
+   "form": "oikos",
+   "gloss": "house",
+   "reconstructed": false
+  },
+  {
+   "form": "hydor",
+   "gloss": "water (gen. hydatos)",
+   "reconstructed": false
+  },
+  {
+   "form": "oinos",
+   "gloss": "wine",
+   "reconstructed": false
+  },
+  {
+   "form": "artos",
+   "gloss": "bread (wheat loaf)",
+   "reconstructed": false
+  },
+  {
+   "form": "melas",
+   "gloss": "black, dark",
+   "reconstructed": false
+  },
+  {
+   "form": "leukos",
+   "gloss": "white, bright",
+   "reconstructed": false
+  },
+  {
+   "form": "megas",
+   "gloss": "great",
+   "reconstructed": false
+  },
+  {
+   "form": "akron",
+   "gloss": "peak, headland",
+   "reconstructed": false
+  }
+ ],
+ "worked_examples": [],
+ "allowed_graphemes": [
+  "a",
+  "e",
+  "i",
+  "o",
+  "u",
+  "y",
+  "b",
+  "d",
+  "g",
+  "k",
+  "l",
+  "m",
+  "n",
+  "p",
+  "r",
+  "s",
+  "t",
+  "z",
+  "x",
+  "h",
+  "ph",
+  "th",
+  "ch",
+  "ps",
+  "rh",
+  "ai",
+  "ei",
+  "oi",
+  "ui",
+  "au",
+  "eu",
+  "ou"
+ ],
+ "extra_allowed_chars": " -",
+ "forbidden_patterns": [
+  "[jqvw]",
+  "(.)\\1\\1",
+  "[bdgkptz]$",
+  "[aeiou]{4,}",
+  "^[ngm]n?[^aeiouy]",
+  "kh",
+  "sch",
+  "ou[ou]",
+  "(ph|th|ch)[bdgkpt]"
+ ],
+ "syllables_per_word": [
+  2,
+  3,
+  4
+ ],
+ "max_word_length": 16,
+ "sources": [
+  "Smyth, Greek Grammar (1920)",
+  "Buck, The Greek Dialects (1955)",
+  "Liddell-Scott-Jones, A Greek-English Lexicon (9th ed. 1940)",
+  "Chantraine, Dictionnaire etymologique de la langue grecque (1968-1980)",
+  "Bresson, Rhodes and its Dependencies (Hellenistic studies, 2000s)",
+  "Wiktionary Ancient Greek entries",
+  "Glottolog: Doric Greek"
+ ],
+ "notes": "No word may be identical to a Modern Irish, Scottish Gaelic or Manx word unless the language is Goidelic; this proxy is Hellenic, so avoid Goidelic strings and the existing game names (Rusu-, -teoil-, -kierk-, -brochun-) entirely. Names should follow stem + linking vowel + head compounding, with Latinized endings -os/-on/-a/-is and genitive complements (-ou, -as, -es). The proxy is a speculative substitute: 'Liekdeirendach' itself has no known linguistic content.",
+ "unit": "Liekdeirendach",
+ "slug": "liekdeirendach",
+ "model": "claude-sonnet-5-5"
+}

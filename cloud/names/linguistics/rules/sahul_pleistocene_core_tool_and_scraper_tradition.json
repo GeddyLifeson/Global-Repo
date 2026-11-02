@@ -1,0 +1,187 @@
+{
+ "proxy_language": "Proto-Pama-Nyungan (with Pama-Nyungan descendants such as Pitjantjatjara, Yolngu Matha, Warlpiri and Wiradjuri as models)",
+ "confidence": "low",
+ "proxy_rationale": "The Pleistocene Sahul core-tool and scraper tradition (c. 50,000-10,000 BP; Lake Mungo, Devil's Lair, Kangaroo Island etc.) is known only archaeologically, and no language of that period is recoverable. Pama-Nyungan covers about 90% of the Australian mainland and is the best-documented family, but its proto-language is dated only to roughly 4,000-6,000 BP (some say up to 10,000), far younger than the tradition. The link is therefore a stylistic proxy: Australian languages share a remarkably uniform phonological profile (few fricatives, stop series without voicing contrast, rich nasal and laterals, 3-4 vowels) that names built on it will plausibly echo. Non-Pama-Nyungan families (Gunwinyguan, Bunuban, Worrorran etc.) and Papuan/Tasmanian languages are not represented.",
+ "phonology": "Typical Australian inventory: stops at 5-6 places (bilabial p, dental th, alveolar t, retroflex rt, palatal ty/ c, velar k) with no voicing contrast (often written b/d/g or p/t/k alternatively); matching nasals (m, nh, n, rn, ny, ng); laterals (lh, l, rl, ly); rhotics (trill rr, approximant r); glides w, y. Three vowels /a i u/ (Proto-Pama-Nyungan *a *i *u), with length contrast in many daughters (aa, ii, uu). No fricatives, no sibilants, no f/v/z/s/h/j in the core phonology; no consonant voicing contrast.",
+ "phonotactics": "Words are typically vowel-final or consonant-final (final nasals, laterals, rhotics, glides common; final stops usually avoided in Pama-Nyungan). Words begin with a consonant (initial vowels are rare or lost in many languages). Syllable shapes CV(C), with intervocalic consonant clusters of nasal+stop homorganic (mp, nt, nk, ngk, nytj) or liquid/nasal+stop; no initial or final clusters and no vowel sequences (hiatus rare). Stems are minimally disyllabic and typically 2-3 syllables; stress is initial in most Pama-Nyungan languages and has no orthographic effect.",
+ "orthography": "Practical orthography as used for Western Desert and many Australian languages: p t k m n ng ny rr r l w y a i u, digraphs for laminals and retroflexes (th, nh, lh, rt, rn, rl, ty, ny, ly), long vowels doubled (aa ii uu). Apostrophes are not used; hyphens may separate suffixes but names should be written as single words or two-word phrases. Avoid c, f, j, q, s, v, x, z, h and the vowels e, o.",
+ "morphology": "Agglutinating, predominantly suffixing. Nouns are inflected for case by suffixes (ergative -ngku / -lu / -thu, locative -la / -ngka, dative/genitive -ku, ablative -ngu / -nguru, comitative -wana, privative -wanti, all by example from Western Desert and neighbours). Root classes are nouns, verbs and adjective-like words that behave as nouns. Reduplication is productive (full or partial) for plurality, intensity or diminutives (e.g. Warlpiri kurdu-kurdu 'children'). Derivational suffixes: -pa / -wa / -ri nominalizers, -kura 'having', -wanti 'without'. Verbs take conjugation-class and tense suffixes, but object and place names are mostly nominal.",
+ "compounding": "Compounding is limited; instead, Pama-Nyungan languages use juxtaposition of nouns and case-suffixed genitives. Head-final or free order: modifier-head compounds and 'X of Y' as Y-GEN X or X Y juxtaposed (e.g. Pitjantjatjara tjukurpa 'story/law'; kapi 'water' + kati 'rock' = 'rockhole' by apposition). Place names often use locative -ngka / -la on a noun (kapi-ngka 'at the water'), or a noun with a derivational -pa/-ri. Agent names use -ngku or kin-term-like -kari (e.g. 'stone-having' = tju-ku-ra). Plural or collective by reduplication or the postposed word.",
+ "noun_phrase_order": "Free within the noun phrase; modifiers (adjectives, demonstratives, possessors) may precede or follow the head, and case marking is typically placed on every word of the phrase or only the last. For constructed names, use head-initial or head-final juxtaposition in a consistent way, preferring modifier-before-head with suffix on the head: [qualifier] [head]-case.",
+ "attested_roots": [
+  {
+   "form": "*kapi",
+   "gloss": "water",
+   "reconstructed": true
+  },
+  {
+   "form": "*tjuta",
+   "gloss": "many, plural marker (Western Desert)",
+   "reconstructed": false
+  },
+  {
+   "form": "*walya",
+   "gloss": "earth, country, ground",
+   "reconstructed": true
+  },
+  {
+   "form": "*kuru",
+   "gloss": "eye",
+   "reconstructed": true
+  },
+  {
+   "form": "*mara",
+   "gloss": "hand",
+   "reconstructed": true
+  },
+  {
+   "form": "*tjina",
+   "gloss": "foot",
+   "reconstructed": true
+  },
+  {
+   "form": "*ngaya",
+   "gloss": "I, first person",
+   "reconstructed": true
+  },
+  {
+   "form": "*puli",
+   "gloss": "stone, rock (Pama-Nyungan *puli/*pulu in many daughters; also Warlpiri puli)",
+   "reconstructed": true
+  },
+  {
+   "form": "*kuna",
+   "gloss": "faeces, excrement",
+   "reconstructed": true
+  },
+  {
+   "form": "*kampa",
+   "gloss": "fire, hearth (Pitjantjatjara kuti 'fire'; kampa attested in other languages)",
+   "reconstructed": true
+  },
+  {
+   "form": "*tjarra",
+   "gloss": "sharp, tooth",
+   "reconstructed": true
+  },
+  {
+   "form": "*nguru",
+   "gloss": "camp, country, home",
+   "reconstructed": true
+  },
+  {
+   "form": "*marlu",
+   "gloss": "kangaroo (Western Desert; red kangaroo)",
+   "reconstructed": false
+  },
+  {
+   "form": "*wiru",
+   "gloss": "good, beautiful (Western Desert)",
+   "reconstructed": false
+  },
+  {
+   "form": "*tjukurpa",
+   "gloss": "story, law, the Dreaming (Western Desert)",
+   "reconstructed": false
+  },
+  {
+   "form": "*ngura",
+   "gloss": "camp, place, home (Pitjantjatjara)",
+   "reconstructed": false
+  }
+ ],
+ "worked_examples": [
+  {
+   "english": "Stone Scraper",
+   "name": "Puli-tjarra",
+   "gloss": "puli 'stone' + tjarra 'sharp'; modifier-head juxtaposition as a compound"
+  },
+  {
+   "english": "Place of Water",
+   "name": "Kapi-ngka",
+   "gloss": "kapi 'water' + -ngka locative; 'at the water'"
+  },
+  {
+   "english": "Camp of the Many Hands",
+   "name": "Mara-tjuta ngura",
+   "gloss": "mara 'hand' + tjuta 'many'; ngura 'camp'; qualifier before head"
+  },
+  {
+   "english": "Good Country",
+   "name": "Wiru walya",
+   "gloss": "wiru 'good' + walya 'country'; adjective + noun juxtaposition"
+  },
+  {
+   "english": "Fire Hearth",
+   "name": "Kampa-kuru",
+   "gloss": "kampa 'fire' + kuru 'eye' as a metaphorical compound; 'fire eye, hearth glow'"
+  },
+  {
+   "english": "Stone of the Kangaroo",
+   "name": "Puli marlu-ku",
+   "gloss": "puli 'stone' + marlu 'kangaroo' + -ku genitive/dative; 'stone of the kangaroo'"
+  }
+ ],
+ "allowed_graphemes": [
+  "a",
+  "i",
+  "u",
+  "aa",
+  "ii",
+  "uu",
+  "p",
+  "t",
+  "k",
+  "m",
+  "n",
+  "l",
+  "r",
+  "w",
+  "y",
+  "th",
+  "nh",
+  "lh",
+  "rt",
+  "rn",
+  "rl",
+  "ty",
+  "ny",
+  "ly",
+  "ng",
+  "rr",
+  "tj"
+ ],
+ "extra_allowed_chars": " -",
+ "forbidden_patterns": [
+  "[cfhjqsvxz]",
+  "[eo]",
+  "(.)\\1\\1",
+  "^[aiu]",
+  "[ptk]{2,}$",
+  "([pk])\\1",
+  "(?:aa|ii|uu){2}",
+  "[aiu]{3,}",
+  "(?:th|tj|ty|rt)[ptk]",
+  "^ng[ptkmn]"
+ ],
+ "syllables_per_word": [
+  2,
+  3,
+  4
+ ],
+ "max_word_length": 14,
+ "sources": [
+  "R. M. W. Dixon, The Languages of Australia (1980)",
+  "Claire Bowern & Harold Koch (eds.), Australian Languages: Classification and the Comparative Method (2004)",
+  "Claire Bowern, Pama-Nyungan reconstructions (Chirila database) and Bowern & Atkinson, 'Computational phylogenetics and the internal structure of Pama-Nyungan', Language 88 (2012)",
+  "Patrick McConvell & Nicholas Evans (eds.), Archaeology and Linguistics: Aboriginal Australia in Global Perspective (1997)",
+  "Glottolog and ASJP databases (Pama-Nyungan, Western Desert, Yolngu Matha, Warlpiri)",
+  "Cliff Goddard, Pitjantjatjara/Yankunytjatjara to English Dictionary (1996)",
+  "Kenneth Hale, Warlpiri lexicon and fieldwork materials",
+  "Wiktionary Pama-Nyungan reconstruction pages"
+ ],
+ "notes": "All attested forms above are drawn from Pama-Nyungan daughters and are proxies, not Pleistocene language data; several roots are reconstructions (marked with an asterisk-style flag) or transparently Western Desert and may differ in other regions. No word may be identical to a Modern Irish, Scottish Gaelic or Manx word. The current game names (Kowokha nutuz, Foruk tetuknak, Zeyuk, Yingozfi) violate Australian phonotactics (use of o, e, f, z, h, kh and non-CV(C) shapes) and should be rebuilt on the three-vowel a/i/u system with the stop, nasal, lateral and rhotic inventory above.",
+ "unit": "Sahul Pleistocene core-tool and scraper tradition",
+ "slug": "sahul_pleistocene_core_tool_and_scraper_tradition",
+ "model": "claude-sonnet-5-5"
+}
