@@ -24,24 +24,8 @@ def call(rules_txt, items):
             time.sleep(3 * (a + 1))
     return {}
 
-def lang(slug, todo):
-    rt = open(f'{R}/linguistics/rules/{slug}.json').read()
-    res = {}
-    terms = sorted({t for t in todo.values()})
-    for rnd in range(4):
-        pend = [t for t in terms if t not in res]
-        if not pend: break
-        for k in range(0, len(pend), CH):
-            ch = list(enumerate(pend[k:k + CH]))
-            got = call(rt, ch)
-            for i, t in ch:
-                nm = got.get(i)
-                if nm and not A.check(slug, nm): res[t] = nm
-    out = {k: res[t] for k, t in todo.items() if t in res}
-    json.dump(out, open(f'{OUT}/{slug}.json', 'w'), ensure_ascii=False)
-    return slug, len(out), len(todo)
-
 def main():
+    import threading
     bad = json.load(open(R + '/linguistics/audit.json'))
     want = set(sys.argv[1:])
     en = {}
@@ -51,9 +35,35 @@ def main():
         if isinstance(d, dict):
             for eid, v in d.items():
                 if isinstance(v, dict) and 'en' in v: en[(os.path.basename(f), eid)] = v['en']
-    jobs = {s: {f'{f}|{e}': en[(f, e)] for f, e, _, _ in rows if (f, e) in en} for s, rows in bad.items() if (not want or s in want) and not os.path.exists(f'{OUT}/{s}.json')}
-    with cf.ThreadPoolExecutor(24) as ex:
-        for fu in cf.as_completed([ex.submit(lang, s, t) for s, t in jobs.items()]):
-            try: print('ok', *fu.result(), flush=True)
-            except Exception as e: print('FAIL', e, flush=True)
+    todo = {s: {f'{f}|{e}': en[(f, e)] for f, e, _, _ in rows if (f, e) in en} for s, rows in bad.items() if not want or s in want}
+    terms = {s: sorted(set(t.values())) for s, t in todo.items()}
+    res = {}
+    for s in todo:
+        p = f'{OUT}/{s}.terms.json'
+        res[s] = json.load(open(p)) if os.path.exists(p) else {}
+    rules = {s: open(f'{R}/linguistics/rules/{s}.json').read() for s in todo}
+    lock = threading.Lock(); done = [0]
+    def job(s, ch):
+        got = call(rules[s], ch)
+        with lock:
+            for i, t in ch:
+                nm = got.get(i)
+                if nm and not A.check(s, nm): res[s][t] = nm
+            done[0] += 1
+            if done[0] % 100 == 0:
+                for q in res: json.dump(res[q], open(f'{OUT}/{q}.terms.json', 'w'), ensure_ascii=False)
+                print('calls', done[0], flush=True)
+    for rnd in range(4):
+        jobs = []
+        for s in todo:
+            pend = [t for t in terms[s] if t not in res[s]]
+            for k in range(0, len(pend), CH): jobs.append((s, list(enumerate(pend[k:k + CH]))))
+        print('round', rnd, 'chunks', len(jobs), flush=True)
+        if not jobs: break
+        with cf.ThreadPoolExecutor(24) as ex: list(ex.map(lambda a: job(*a), jobs))
+        for q in res: json.dump(res[q], open(f'{OUT}/{q}.terms.json', 'w'), ensure_ascii=False)
+    for s in todo:
+        out = {k: res[s][t] for k, t in todo[s].items() if t in res[s]}
+        json.dump(out, open(f'{OUT}/{s}.json', 'w'), ensure_ascii=False)
+        print('ok', s, len(out), len(todo[s]), flush=True)
 main()

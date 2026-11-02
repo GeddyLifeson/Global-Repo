@@ -329,3 +329,8 @@ Run hints: .py `python3 <file>` (PC `py`), .ps1 via a hidden launcher (never a v
 | S0335 | cloud | `names/linguistics/regen_names.py` | S0312 Regenerates every culture name that fails its language rules (Haiku, rules file cached per language, up to 3 repair rounds); writes na | yes |
 | S0335 | global | `crawl_all.py` | S0335 crawls /mnt/project-files into catalog/{D,F,M,A,J}.tsv with stable IDs: python3 -I crawl_all.py <repo> | yes |
 | S0336 | global | `add_rows.py` | S0336 registers hand-fed types T (threads) and P (PRs/branches): python3 -I add_rows.py <repo> T < tsv | yes |
+| S0337 | cloud | `pc_scan/fix_atm11_261.py` | Fixes ATM11 pack scripts for the 26.1.2 builds of their mods. Safe to rerun. Usage: python -I fix_atm11_261.py <kubejs dir>... | yes |
+| S0338 | cloud | `pc_scan/mod_conflict_scan.py` | Find mods that conflict with the Tellus fork's chunk generator, by boot test. | yes |
+| S0339 | cloud | `pc_scan/overlay_conflicts.py` | For each overlay conflict on a target: if the target still holds the previous overlay version (OLD commit), or the | yes |
+| S0340 | cloud | `plans/progression/check_progression.py` | S0337 Validates progression/graph.json: every system is required to finish the pack, no dead ends, solo-completable, Age-gated, interlocked; | yes |
+| S0341 | cloud | `plans/progression/gen_progression_recipes.py` | S0338 Writes the dormant cross-mod recipe data pack from progression/graph.json: one shapeless recipe per node with an item, tags as inputs, | yes |
