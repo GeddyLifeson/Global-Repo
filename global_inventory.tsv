@@ -1,3 +1,4 @@
 path	bytes	what	copied
 scan_cloud.py	0	S0001 scans /mnt/project-files, copies scripts scrubbed, writes cloud_inventory.tsv: python3 -I scan_cloud.py <repo>	yes
 build_index.py	0	S0002 assigns stable IDs and renders SCRIPTS_INDEX.md: python3 -I build_index.py <repo>	yes
+claim_id.py	0	S0322 atomically claims the next free script ID(s) via next_id (pull --rebase, bump, push, retry): python3 -I claim_id.py [count]	yes
