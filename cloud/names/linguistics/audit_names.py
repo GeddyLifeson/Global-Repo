@@ -1,4 +1,4 @@
-# S0311 Audits every culture name in names/*.json against names/linguistics/rules/<slug>.json (graphemes, forbidden patterns, word length); writes audit.json + audit_summary.csv
+# S0316 Audits every culture name in names/*.json against names/linguistics/rules/<slug>.json (graphemes, forbidden patterns, word length); writes audit.json + audit_summary.csv
 # python3 -I audit_names.py
 import csv, glob, json, os, re, unicodedata
 R = '/mnt/project-files/names'
