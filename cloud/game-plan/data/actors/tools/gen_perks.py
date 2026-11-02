@@ -1,0 +1,68 @@
+from common import *
+GATE=[0,10,25,25,25,50,50,50,75,75,90,100]
+PRE=[[],[1],[1],[2],[3],[4],[5],[6,7],[8],[7],[9,10],[11]]
+T={
+'SKL_BLADES':[('Keen Edge',3,'+8% blade damage per rank'),('Flowing Chain',1,'Light combo Breath cost -15%'),('Bleed Out',2,'Blade hits build 12/18 Burn-free bleed: at 100, 15% max HP'),
+('Riposte Master',2,'Riposte damage +15% per rank'),('Duelist',1,'+10% damage vs a target that attacked you in the last 2 s'),('Twin Fang',2,'Twinblade/dual wield: 2nd hit of each chain +12% per rank'),
+('Quickdraw Cut',1,'First attack after a roll is +20% faster'),('Counterflow',1,'Perfect dodge refunds 10 Breath'),('Nerve Strike',2,'Blade crits apply Slow buildup 30/50'),
+('Edge of Ruin',1,'Blades deal +25% poise damage to targets under 50% stance'),('Whirl of Steel',1,'Running attack hits all targets in 2.5 m'),('Ghost Blade',1,'CAPSTONE: rolls become 5 m short blinks (8 i-frames, same Breath)')],
+'SKL_HEAVY':[('Weight of Iron',3,'+8% heavy weapon damage per rank'),('Braced Swing',1,'+30 poise during charged heavies'),('Bone Breaker',2,'Heavy hits deal +10% poise damage per rank'),
+('Earthsplitter',1,'Charged heavy creates 3 m shockwave, 30% damage'),('Unstoppable',1,'Hyperarmor starts 4 frames earlier'),('Cleave',2,'Horizontal swings hit 2nd target for 50/75%'),
+('Tireless Arms',2,'Heavy attack Breath -10% per rank'),('Shatterblow',1,'Stance breaks apply Shatter'),('Momentum',2,'Each consecutive hit +5% damage, max 4 stacks per rank'),
+('Titan Grip',1,'Two-hand any weapon with Might requirement -25%'),('Executioner',1,'Crits vs staggered targets +30%'),('Colossus',1,'CAPSTONE: charged heavies cannot be interrupted and reflect 20% of damage taken during them')],
+'SKL_POLEARMS':[('Long Reach',3,'+7% polearm damage per rank'),('Spear Wall',1,'Guard counter with polearm +40% damage'),('Lunge',2,'Running thrust +1/+2 m reach'),
+('Pin',1,'Thrust crits Root for 1.5 s'),('Sweep',2,'Sweep attacks knock down fodder; +15% poise per rank'),('Rider\'s Lance',1,'Mounted attacks +30% damage'),
+('Vault',1,'Jump attack with polearm becomes 4 m pole-vault strike'),('Hold the Line',2,'+10% damage per rank while 2+ enemies within 5 m'),('Skewer',1,'Thrusts pierce through to a 2nd target'),
+('Dragoon',1,'Strider glide plunge deals polearm AR x 3.0'),('Whirlwind Guard',1,'Spinning guard blocks projectiles for 1 s'),('Impaler',1,'CAPSTONE: thrust crits on a stance-broken boss deal x1.5 and pin it 1 s longer')],
+'SKL_GUARD':[('Shield Wall',3,'+6% block stability per rank'),('Steady Feet',1,'Blocking Breath regen 20 -> 28 /s'),('Bash',1,'Shield bash 20 poise, interrupts casters'),
+('Perfect Guard',2,'Parry window +1 frame per rank'),('Elemental Bulwark',2,'+10% elemental block per rank'),('Bulwark Counter',2,'Guard counters +15% damage per rank'),
+('Deflect Shots',1,'Blocked bullets ricochet for 25% damage'),('Iron Will',1,'Guard Break recovery -40%'),('Retaliate',2,'Perfect parry restores 5/10% Ward'),
+('Phalanx',1,'Allies behind your shield take -25% ranged damage'),('Unbreakable',1,'Once per 60 s, a Guard Break is ignored'),('Aegis',1,'CAPSTONE: perfect parry of a ranged attack reflects it at full damage')],
+'SKL_UNARMED':[('Iron Knuckles',3,'+9% unarmed damage per rank'),('Footwork',1,'Unarmed light Breath -20%'),('Haymaker',2,'Charged punch +15 poise per rank'),
+('Grapple',1,'Grab staggered humanoids: 2.5x AR throw'),('Combo Breaker',2,'4th hit in a chain +20% per rank'),('Counter Hook',1,'Perfect dodge into light = guaranteed crit vs fodder'),
+('Chi of the Weave',2,'Unarmed hits charge Surge +25/50%'),('Suplex',1,'Throws deal fall damage and Root for 1 s'),('Thousand Fists',1,'Flurry: hold light, 8 hits, 45 Breath'),
+('Brawler\'s Grit',2,'+5% damage reduction per rank while unarmed'),('Shockwave Palm',1,'Charged punch hits in a 3 m cone'),('Living Weapon',1,'CAPSTONE: a perfect dodge triggers an automatic unblockable palm counter for 2.0x AR and 40 poise')],
+'SKL_EMBERRITE':[('Kindle',3,'+8% Ember/Iron ability damage per rank'),('Lingering Heat',1,'Burn duration +2 s'),('Forgeheart',2,'Iron abilities grant 10/20 Ward on hit'),
+('Wildfire',1,'Burning kills explode: 40% AR, 3 m'),('Bellows',2,'Cast cooldown -8% per rank'),('Molten Edge',1,'Ember Infused weapons build Burn +25%'),
+('Slag Armor',2,'Iron Step leaves 3 s barrier absorbing 60/100'),('Firestorm',1,'Kiln Heart duration +3 s'),('Cinder Feed',2,'Burn damage charges Surge +10% per rank'),
+('Furnace Breath',1,'Hold Cast: channel 3 s cone, 18 dmg x Lore/10 per tick'),('Annealed',1,'Immune to own Burn; +25% Shatter buildup'),('Phoenix Ember',1,'CAPSTONE: once per 300 s, lethal damage instead leaves 1 HP and casts Kiln Heart for free')],
+'SKL_STORMRITE':[('Static',3,'+8% Storm/Frost ability damage per rank'),('Arc Chain',1,'Shock chains to 3 targets'),('Cold Snap',2,'Slow buildup +15% per rank'),
+('Conductor',1,'Hitting a Shocked target refunds 5% Cast cooldown'),('Storm Step',2,'Step leaves a trail dealing 20/35 Storm'),('Permafrost',1,'Frozen lasts +1 s'),
+('Overcharge',2,'Surge charge +10% per rank in rain or snow'),('Glacial Ward',1,'Frost abilities grant 15% Ward on cast'),('Thunderhead',1,'Tempest Crown strikes 2 extra targets'),
+('Shatterpoint',2,'Shatter combo stance bonus 50 -> 65/80%'),('Eye of the Storm',1,'Projectiles within 3 m slowed 50% during Surge'),('Stormcaller',1,'CAPSTONE: every 5th Storm hit calls a lightning strike, 150% AR, 2 m')],
+'SKL_HOLLOWRITE':[('Umbra',3,'+8% Hollow/Bloom ability damage per rank'),('Siphon',1,'Drain heals +1% more per s'),('Overgrowth',2,'Root duration +0.5 s per rank'),
+('Mend',1,'Bloom abilities heal allies 20% of damage dealt'),('Null Field',2,'Hollow Cast suppresses enemy Ward recharge 3/5 s'),('Grave Bloom',1,'Kills on Rooted targets spawn a healing flower (8% max HP)'),
+('Eclipse Bond',2,'Eclipse duration +2 s per rank'),('Hunger',1,'Drain gives Breath as well as Health'),('Life Tap',2,'Spend 10% HP: next ability +20/35% damage'),
+('Briar Wall',1,'Root Lash leaves 4 m thorn wall for 6 s'),('Hollow Echo',1,'Drained enemies take +10% damage from all sources'),('Verdant Saint',1,'CAPSTONE: Verdant Gate revives a downed co-op ally at 50% HP once per cast')],
+'SKL_WARDING':[('Thick Ward',3,'+5% max Ward per rank'),('Quick Mend',2,'Ward recharge delay -0.4 s per rank (min 3.3 s)'),('Counter-cast',1,'Parry window vs spells +4 frames; parried spells fizzle'),
+('Tinted Ward',2,'Choose element: -10/20% damage of that element'),('Ward Burst',1,'Ward break releases 2 m pushback'),('Ward Share',1,'Allies within 8 m gain 10% of your max Ward on your recharge'),
+('Burnt Resilience',2,'Burnt Ward accrual -25% per rank'),('Spellbreaker',1,'Breaking enemy Ward with opposite element stuns 1 s'),('Overshield',2,'Ward can overcharge to 110/120% from pickups'),
+('Absorb',1,'5% of blocked Weave damage restores Ward'),('Fortress',1,'Ward full refill rate 12.5 -> 20% per s'),('Sanctum',1,'CAPSTONE: on Ward break, 2 s invulnerable to Weave damage (90 s cooldown)')],
+'SKL_SHAPING':[('Resonant Voice',3,'Resonance cooldown -5% per rank'),('Rite Crafter',1,'Unlocks a 3rd effect slot in Rites'),('Echo Call',2,'Echo HP 70 -> 80/90%'),
+('Lingering Song',2,'Resonance duration +15% per rank'),('Twin Echo',1,'Summon 2 Echoes at 55% stats each'),('Shard Tuning',1,'Resonances charge Surge 25%'),
+('Rite Efficiency',2,'Rite magnitude per Ember cost +10% per rank'),('Quiet Ear',1,'Choir sites and Resonance shards shown on map within 300 m'),('Chorus',2,'Resonance affects 1/2 extra co-op allies'),
+('Grand Rite',1,'Rites may combine 4 effects'),('Echo Mastery',1,'Echoes copy your Infusion element'),('Choir Voice',1,'CAPSTONE: two Resonances can be equipped; using one starts the other at 50% cooldown')],
+'SKL_FIREARMS':[('Marksman',3,'+7% firearm damage per rank'),('Fast Hands',2,'Reload speed +10% per rank'),('Steady Aim',1,'ADS sway -40%'),
+('Precision',2,'Headshot multiplier 2.0 -> 2.2/2.4'),('Ammo Scavenger',1,'Common ammo drops +30%'),('Long Shot',2,'Optimal range +10% per rank'),
+('Hip Fire',1,'Hip-fire spread -30%'),('Ward Piercer',2,'Kinetic vs Ward 0.5 -> 0.6/0.7'),('Quick Swap',1,'Weapon swap 0.5 -> 0.25 s'),
+('Executioner\'s Round',1,'Charged ammo rounds +25% vs stance-broken'),('Dead Eye',1,'ADS after a perfect dodge slows time 30% for 1.5 s'),('Ricochet Artist',1,'CAPSTONE: reloading on a perfect dodge is instant and the next magazine deals +15%')],
+'SKL_ENGINEERING':[('Tinker',3,'Tinkered gadgets +10% potency per rank'),('Field Repair',1,'Repair vehicle parts 25% faster'),('Salvage Eye',2,'+15% Hull Scrap per rank'),
+('Smith',2,'Smithing material cost -10% per rank'),('Turret Hack',1,'Hack Remnant turrets (tier 1-2)'),('Overclocked Gadgets',2,'Gadget cooldown -10% per rank'),
+('Drone Buddy',1,'Deployable repair drone: 3% Ward/s for 10 s'),('Master Hack',1,'Hack tier 3-5 doors and turrets; hack Remnant drones to fight 20 s'),('Efficient Forge',2,'Upgrade Ember cost -8% per rank'),
+('Vehicle Armor',1,'Owned vehicles +25% part health'),('Shard Battery',1,'Gadgets charge Surge 5% on use'),('Ark Engineer',1,'CAPSTONE: crafted bonus cap 15% -> 18% for Smithing and Tinkering')],
+'SKL_INFILTRATION':[('Light Step',3,'Detection range -10% per rank'),('Lockpick',2,'Lock tier +1 per rank; picks break 25% less'),('Backstab',2,'Sneak attack x3 -> x4/x5'),
+('Pickpocket',1,'Pickpocket equipped items under 2 kg'),('Silent Roll',1,'Rolls make no noise'),('Shadow Strike',1,'Sneak attacks on alerted-but-unseeing enemies count as sneak'),
+('Poisoner',2,'Coated blades: +20 Drain buildup per rank'),('Vanish',1,'Crouch after breaking line of sight: enemies lose track 2 s faster'),('Quiet Hand',1,'Kills while hidden do not alert allies within 8 m'),
+('Disguise',1,'Faction armor lets you pass that faction\'s fodder unseen until within 4 m'),('Assassin\'s Mark',1,'Mark a target: +20% damage for 10 s'),('Shade',1,'CAPSTONE: perfect dodge drops aggro for 1.5 s and re-enters stealth')],
+'SKL_SPEECH':[('Haggler',3,'Buy prices -4% per rank'),('Persuade',2,'Unlock persuade checks tier 1/2'),('Fence',1,'Sell stolen goods to Salvagers'),
+('Diplomat',2,'Reputation gain +10% per rank'),('Intimidate',1,'Intimidate checks with Might 30+'),('Merchant',1,'Sell any item type to any vendor'),
+('Bribe',1,'Pay Ember to clear bounties at 60% cost'),('Inspire',2,'Companions +10% damage per rank'),('Silver Tongue',1,'Persuade tier 3; some boss fights can be talked down'),
+('Investor',1,'Invest 5000 Ember in a vendor: +2000 restock funds and 5% discount'),('Rally',1,'Shout heals companions 20% and raises their morale'),('Kingmaker',1,'CAPSTONE: rival faction conflict can be reconciled once per playthrough')],
+}
+rows=[]
+for s,nodes in T.items():
+    assert len(nodes)==12,s
+    for i,(n,r,e) in enumerate(nodes):
+        pid=f'PRK_{s[4:]}_{i+1:02d}'
+        rows.append([pid,s,n,GATE[i],r,'; '.join(f'PRK_{s[4:]}_{p:02d}' for p in PRE[i]),e,'Capstone' if i==11 else 'Node',f'{s[4:].lower()}_{i+1:02d}'])
+write('perks.csv',['PRK_ID','SKL_ID','Perk','Skill rank required','Max ranks','Requires','Effect (per rank)','Node type','Tree slot'],rows)
