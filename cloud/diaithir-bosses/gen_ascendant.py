@@ -125,7 +125,8 @@ def icon(path, body, rim, trophy):
     else:
         d.ellipse((2, 2, 13, 13), fill=rim); d.ellipse((3, 3, 12, 12), fill=body)
         d.rectangle((5, 6, 6, 7), fill=rim); d.rectangle((9, 6, 10, 7), fill=rim); d.rectangle((6, 10, 9, 11), fill=rim)
-    os.makedirs(os.path.dirname(path), exist_ok=True); im.save(path)
+    os.makedirs(os.path.dirname(path), exist_ok=True)
+    if not os.path.exists(path): im.save(path)   # art from the Textures lane is kept
 
 hexc = lambda c: tuple(int(v * 255) for v in c)
 index = R(os.path.join(DA, "boss_index.json"))
@@ -164,7 +165,7 @@ for (bid, words, en, kind, rk, scale, age, tier, bar) in SPEC:
     W(os.path.join(DA, "boss", bid + ".json"), prof)
     tex, mid = texture(kind, rk, random.Random(bid))
     os.makedirs(os.path.join(AS, "textures/entity"), exist_ok=True)
-    tex.save(os.path.join(AS, "textures/entity", bid + ".png"))
+    if not os.path.exists(os.path.join(AS, "textures/entity", bid + ".png")): tex.save(os.path.join(AS, "textures/entity", bid + ".png"))   # art from the Textures lane is kept
     body, rim = hexc(mid), hexc(RAMP[rk][1])
     icon(os.path.join(AS, "textures/item", bid + "_spawn_egg.png"), body, rim, False)
     icon(os.path.join(AS, "textures/item", bid + "_trophy.png"), hexc(RAMP[rk][3]), rim, True)
@@ -281,7 +282,7 @@ for bid, (oi, oc, oclue, hm, hc, hclue, ns, hour, dsec, coop, wave_mobs) in RITE
     clues = ["The altar eats before it fights. Set one feast upon the stone, a dish worth a guest-gift.", oclue, hclue, "Nine trees stand in the stone's mind. Seal them in this order, no other: " + "; then ".join(TREE_RIDDLE[r] for r in seq) + ".",
              f"The stone will answer only {hc_clue}. Use the altar then."]
     if coop:
-        steps.append(dict(type="coop", players=coop)); clues.append(f"It will not wake for one hand. {coop} must stand at the altar together.")
+        steps.append(dict(type="coop", players=coop)); clues.append(f"It will not wake for one hand. {coop} must stand at the altar together, or the stone will take a token for every spirit that stands in for a friend.")
     steps.append(dict(type="defend", seconds=dsec, mobs=wave_mobs))
     clues.append(f"Whatever you woke will come to see who woke it. Hold the altar for {dsec} breaths of the sun-count and do not leave it.")
     W(os.path.join(DA, "ritual", bid + ".json"), {"boss": bid, "steps": steps})
@@ -291,7 +292,7 @@ for bid, (oi, oc, oclue, hm, hc, hclue, ns, hour, dsec, coop, wave_mobs) in RITE
         quests["quests"].append(Q(f"rite_{bid}_{i}", f"{dict((x[0], x[2]) for x in SPEC)[bid]}: step {i + 1}", c, [f"ascendant/rite_{bid}_{i - 1}"] if i else ["ascendant/rite"], "ritual_step", boss=bid, step=i))
 lang.update({f"ritual.{NS}.begin": "The altar stirs. Something has heard you.", f"ritual.{NS}.step_done": "A knot in the rite is tied.",
              f"ritual.{NS}.done": "The rite is whole. The ground answers.", f"ritual.{NS}.silent": "The altar is silent. Hold a champion token to begin the next rite, or the trophy of a boss you have beaten to face it again.",
-             f"ritual.{NS}.progress": "%s of %s", f"ritual.{NS}.wrong_hour": "The stone does not answer at this hour.", f"ritual.{NS}.need_company": "It will not wake for one hand. %s must stand at the altar.",
+             f"ritual.{NS}.progress": "%s of %s", f"ritual.{NS}.wrong_hour": "The stone does not answer at this hour.", f"ritual.{NS}.need_company": "It will not wake for one hand. %s must stand at the altar, %s still missing. Give a champion token for each spirit that will stand in.", f"ritual.{NS}.spirit_called": "%s rite spirit(s) rise to stand with you.", f"ritual.{NS}.spirit": "Rite spirit",
              f"ritual.{NS}.defend_start": "The waves come. Hold the altar for %s seconds.", f"ritual.{NS}.defend_failed": "The altar was left alone. The rite unravels to the start of this step.",
              f"ritual.{NS}.rune_ok": "%s The stone takes the rune.", f"ritual.{NS}.rune_bad": "A wrong rune. The sequence breaks and the stones remember it.",
              f"ritual.{NS}.rune_idle": "Nothing is listening for this rune.", f"boss.{NS}.overworld_only": "The altar only answers in the overworld.",
@@ -311,11 +312,11 @@ print("rites:", len(RITE))
 
 # ---- boss materials (names fixed with plans/PROGRESSION.md): catalyst (tier I+), hollow core (tier II+), ageshard (The Last Wheel only)
 from PIL import ImageDraw
-MAT = {"boss_catalyst": ("Boss catalyst", (90, 200, 170), "VII"), "hollow_core": ("Hollow core", (170, 120, 230), "Rodos"), "ageshard": ("Ageshard", (250, 220, 110), "Rodos")}
+MAT = {"boss_catalyst": ("Boss catalyst", (90, 200, 170), "VII"), "boss_hollow_core": ("Hollow core", (170, 120, 230), "Rodos"), "ageshard": ("Ageshard", (250, 220, 110), "Rodos")}
 for mid, (label, col, age) in MAT.items():
     im = Image.new("RGBA", (16, 16), (0, 0, 0, 0)); d = ImageDraw.Draw(im)
     d.polygon([(8, 1), (13, 8), (8, 15), (3, 8)], fill=col + (255,), outline=tuple(v // 3 for v in col) + (255,)); d.line([(8, 3), (8, 13)], fill=(255, 255, 255, 140))
-    os.makedirs(os.path.join(AS, "textures/item"), exist_ok=True); im.save(os.path.join(AS, "textures/item", mid + ".png"))
+    os.makedirs(os.path.join(AS, "textures/item"), exist_ok=True); im.save(os.path.join(AS, "textures/item", mid + ".png")) if not os.path.exists(os.path.join(AS, "textures/item", mid + ".png")) else None
     W(os.path.join(AS, "items", mid + ".json"), {"model": {"type": "minecraft:model", "model": f"{NS}:item/{mid}"}})
     W(os.path.join(AS, "models/item", mid + ".json"), {"parent": "minecraft:item/generated", "textures": {"layer0": f"{NS}:item/{mid}"}})
     lang[f"item.{NS}.{mid}"] = label
@@ -324,7 +325,7 @@ W(os.path.join(AS, "lang/en_us.json"), lang); W(os.path.join(ROOT, "age_gates.js
 for bid, tier, age_, _ in new_ids:
     pp = R(os.path.join(DA, "boss", bid + ".json"))
     pp["loot"] = [l for l in pp["loot"] if not l["item"].startswith(NS + ":")]
-    pp["loot"].append(L(NS + ":boss_catalyst", 1, 2, 7, 1.0, 0)) if tier == 1 else pp["loot"].append(L(NS + ":hollow_core", 1, tier - 1, 8, 1.0, 0))
+    pp["loot"].append(L(NS + ":boss_catalyst", 1, 2, 7, 1.0, 0)) if tier == 1 else pp["loot"].append(L(NS + ":boss_hollow_core", 1, tier - 1, 8, 1.0, 0))
     if bid == "last_wheel": pp["loot"].append(L(NS + ":ageshard", 2, 3, 8, 1.0, 0))
     W(os.path.join(DA, "boss", bid + ".json"), pp)
 W(os.path.join(DA, "tags/item/offering_feast.json"), {"values": ["minecraft:cake", "minecraft:pumpkin_pie", "minecraft:suspicious_stew", "minecraft:rabbit_stew",
