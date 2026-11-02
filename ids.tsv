@@ -309,3 +309,8 @@ S0308	cloud	world-checks/sites.py
 S0309	cloud	world-checks/snow.py
 S0310	cloud	tools/get_jdk25.sh
 S0311	cloud	tools/compile_fix_loop.py
+S0312	cloud	compat/profile_jars.py
+S0313	cloud	compat/gen_tags.py
+S0314	cloud	compat/gen_rules_api.py
+S0315	cloud	compat/gen_data.py
+S0316	cloud	compat/gen_recipes.py
