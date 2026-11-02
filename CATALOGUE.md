@@ -12,6 +12,10 @@ One ID per artefact, never reused. Paths and metadata only; the repo is public, 
 | J | compute jobs (`compute/jobs/*`) | `catalog/J.tsv` | `crawl_all.py` |
 | L | laptop projects and repos (index of what lives on the MSI) | `catalog/L.tsv` | `add_rows.py`; source `compute/index_laptop.tsv` |
 | B | game and tool backends on the laptop (data formats, mod loaders, APIs) | `catalog/B.tsv` | `add_rows.py`; source `compute/index_laptop_backends.tsv` |
+| G | games installed on the PC (Steam/Epic) with backend hints | `catalog/G.tsv` | `add_rows.py`; source `compute/index_pc.tsv` |
+| R | projects and repos on the PC | `catalog/R.tsv` | same |
+| I | installed programs on the PC | `catalog/I.tsv` | same |
+| L, B | laptop projects, laptop backends | `catalog/L.tsv`, `catalog/B.tsv` | see above |
 | T | project threads and what each owns | `catalog/T.tsv` | `add_rows.py` (S0336) |
 | P | PRs and branches across repos | `catalog/P.tsv` | `add_rows.py` |
 
