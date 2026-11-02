@@ -1,0 +1,39 @@
+B0001	RimWorld / Def database @ Steam\steamapps\common\RimWorld\Data\Core\Defs
+B0002	RimWorld / Mod loader @ Steam\steamapps\common\RimWorld\Mods
+B0003	Factorio / Prototype data stage @ Steam\steamapps\common\Factorio\data\base\prototypes
+B0004	Factorio / Mod/DLC packages @ Steam\steamapps\common\Factorio\data
+B0005	Garry's Mod / Lua engine API @ Steam\...\GarrysMod\garrysmod\lua
+B0006	The Binding of Isaac Rebirth / Lua mod API @ Steam\...\The Binding of Isaac Rebirth\resources\scripts
+B0007	Skyrim Special Edition / Papyrus scripts @ Steam\...\Skyrim Special Edition\Data\Scripts
+B0008	Tabletop Simulator / Unity Mono + Lua @ Steam\...\Tabletop Simulator
+B0009	Dwarf Fortress / Raw files @ Steam\steamapps\common\Dwarf Fortress
+B0010	Capitalism 2 / Data tables @ Steam\...\Capitalism 2
+B0011	Prison Architect / Data archives @ Steam\...\Prison Architect
+B0012	Rise to Ruins / Java engine @ Steam\...\Rise to Ruins
+B0013	YourOnlyMoveIsHUSTLE / Godot mod folder @ Steam\...\YourOnlyMoveIsHUSTLE
+B0014	Unity games (Phasmophobia, Everything, Stick Fight, Mr Shifty, Kingdoms and Castles, Cyber Hook) / Unity data @ Steam\steamapps\common\*
+B0015	Wallpaper Engine / Project/pak engine @ Steam\...\wallpaper_engine
+B0016	Steam / Library metadata @ C:\Program Files (x86)\Steam\steamapps
+B0017	Project Ignis EDOPro / Lua card scripts @ C:\ProjectIgnis\script
+B0018	Cockatrice / Card database @ %LOCALAPPDATA%\Cockatrice\Cockatrice
+B0019	BattleScribe / Rules data @ C:\Users\Marlon\BattleScribe and .battlescribe
+B0020	Aurora D&D / Character data @ C:\Users\Marlon\Literally-Everything-for-DND
+B0021	Minecraft Java / NeoForge 26.1 / Server @ C:\Users\Marlon\diaithir-testserver\server
+B0022	Minecraft / KubeJS scripting @ diaithir-testserver\server\kubejs
+B0023	Minecraft / Mod config set @ diaithir-testserver\server\config
+B0024	Minecraft / Prism instance @ %APPDATA%\PrismLauncher\instances\Diaithir
+B0025	Minecraft / Pack workspace bootA @ C:\Users\Marlon\bootA
+B0026	Minecraft / techb builds @ C:\Users\Marlon\techb
+B0027	Minecraft / port workspace @ C:\Users\Marlon\port
+B0028	Minecraft / DiaithirRPG engine @ C:\Users\Marlon\DiaithirRPG\engine
+B0029	Panscriptum / Data library @ C:\Users\Marlon\panscriptum
+B0030	Assay jobs / C:\Users\Marlon\assay-job @ NEEDS_FETCH.tsv, fetched-home.jsonl, fetch.log
+B0031	Kaggle and Modal lanes / C:\Users\Marlon\kr @ tools/kaggle, tools/modal, e/ gap/ out/ Panscriptum clones
+B0032	Shardfall (Unreal) / C:\Users\Marlon\shardfall-game @ Unreal 5 C++ modules Sf* (SfAbility, SfAI, SfAudio, SfCharacter, SfCombat, SfCore)
+B0033	League of Legends skin modding / C:\Users\Marlon\Downloads\cslol-manager @ cslol-tools: mod-tools.exe, wad-extract/make(.exe, -multi.bat), hashes.game.txt
+B0034	Ren'Py and Flashpoint / %APPDATA%\RenPy, BlueMaxima Flashpoint @ Ren'Py games BlackRose, SummertimeSaga saves; Flashpoint launcher
+B0035	Project Zomboid / C:\Users\Marlon\Zomboid @ Lua mods, Workshop, Saves, Sandbox Presets
+B0036	Ollama / C:\Users\Marlon\.ollama @ HTTP API localhost:11434 (/api/generate)
+B0037	Panscriptum crawl gaps / REAL_GAP.tsv @ C:\Users\Marlon\crawl
+B0038	code-library / Reusable code @ C:\Users\Marlon\code-library
+B0039	Diaithir canon / Canon tables @ C:\Users\Marlon\diaithir-laptop
