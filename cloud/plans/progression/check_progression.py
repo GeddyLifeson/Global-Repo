@@ -69,6 +69,17 @@ for n in N:
                 feeds[p['system']].add(n['system']); fed[n['system']].add(p['system'])
 for s in sysn:
     if len(feeds[s])<3 or len(fed[s])<3: E.append(f"system '{s}' weakly interlocked: feeds {len(feeds[s])}, fed by {len(fed[s])} (need >=3 each)")
+# module map and kept-mod shortcuts
+MODS=G.get('modules',{})
+for n in N:
+    if n['module'] not in MODS: E.append(f"{n['id']}: module {n['module']} missing from graph modules map")
+for k in G.get('kept',[]):
+    if k['age'] not in ai: E.append(f"kept {k['mod']}: bad age"); continue
+    for r in k['makes']:
+        ps=[p for p in prod.get(r,[]) if not p.get('coop')]
+        if not ps: E.append(f"kept {k['mod']}: {r} not in graph"); continue
+        first=min(ai[p['age']] for p in ps)
+        if ai[k['age']]<first: E.append(f"kept {k['mod']} (Age {k['age']}) makes {r} before the graph does (Age {AG[first]}): shortcut, raise its Age gate")
 # data pack
 if dp:
     for f in glob.glob(os.path.join(dp,'data','*','recipe','xmod_*.json')):

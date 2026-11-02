@@ -2334,10 +2334,11 @@
    "id": "econ.company",
    "system": "econ",
    "age": "VI",
-   "name": "Found a company",
+   "name": "Found a company (Safe passage caravan, office, capital, tech)",
    "needs": [
-    "bank.charter",
-    "settle.hall",
+    "trade.route",
+    "money.coin",
+    "settle.town",
     "store.warehouse",
     "research.pack_3"
    ],
@@ -3175,5 +3176,234 @@
   "beacon",
   "altar.",
   "food.preserved"
+ ],
+ "modules": {
+  "diaithir-foundry": {
+   "target": "routing-networks, automation-crafting, power-storage, logistics-utilities, miners, ground-water-transport, travel-structures (source in each module's foundry package)",
+   "jar_state": "partial",
+   "note": "Foundry is a feature set, not a jar; folded jars exist for routing-networks, automation-crafting, power-storage, logistics-utilities"
+  },
+  "diaithir-automation-crafting": {
+   "target": "diaithir-automation-crafting",
+   "jar_state": "folded",
+   "note": "research bench, modules, beacon, Researcher #127 first tenant"
+  },
+  "diaithir-magic": {
+   "target": "magic consolidation modules (kept mods + diaithirbridges)",
+   "jar_state": "partial",
+   "note": "exact jar names set by the consolidation thread"
+  },
+  "diaithir-kitchen-brewing": {
+   "target": "diaithir-kitchen-brewing",
+   "jar_state": "folded",
+   "note": ""
+  },
+  "diaithir-creatures": {
+   "target": "diaithir-creatures",
+   "jar_state": "folded",
+   "note": "Burrowkin lives here"
+  },
+  "diaithir-blocks-decor-farming": {
+   "target": "rewrite group blocks-decor-farming",
+   "jar_state": "not built",
+   "note": "clean-room rewrite"
+  },
+  "diaithir-combat-classes": {
+   "target": "rewrite group combat-and-classes",
+   "jar_state": "not built",
+   "note": "clean-room rewrite"
+  },
+  "diaithir-storage-logistics": {
+   "target": "rewrite group storage-logistics + diaithir-logistics-utilities",
+   "jar_state": "partial",
+   "note": "depot network source in logistics-utilities foundry package"
+  },
+  "diaithir-worldgen": {
+   "target": "rewrite groups worldgen-structures and biomes-dims",
+   "jar_state": "not built",
+   "note": "clean-room rewrite"
+  },
+  "diaithir-client-ui": {
+   "target": "rewrite group client-ui-visuals",
+   "jar_state": "not built",
+   "note": "atlas, tooltips, Codex"
+  },
+  "diaithir-ground-water-transport": {
+   "target": "diaithir-ground-water-transport",
+   "jar_state": "not built",
+   "note": "waits on rewrites"
+  },
+  "diaithir-travel-structures": {
+   "target": "diaithir-travel-structures",
+   "jar_state": "not built",
+   "note": "launch pad, Sky ladder"
+  },
+  "diaithir-ships": {
+   "target": "diaithir-ships (Keelwright package)",
+   "jar_state": "partial",
+   "note": "VS2 port merged (#71); Keelwright parts not built"
+  },
+  "diaithir-bosses": {
+   "target": "diaithir-bosses (Ascendant)",
+   "jar_state": "partial",
+   "note": "9 bosses as data/assets; Java glue open"
+  },
+  "diaithir-economy": {
+   "target": "DiaithirRPG engine economy",
+   "jar_state": "engine",
+   "note": "not a pack jar; money and company code in DiaithirRPG"
+  },
+  "diaithir-settlements": {
+   "target": "DiaithirRPG engine settlements / diaithir-villages-settlements",
+   "jar_state": "engine",
+   "note": "settlement batch thread closed; graph owns the rows"
+  },
+  "diaithir-culture-start": {
+   "target": "DiaithirRPG engine culture start",
+   "jar_state": "engine",
+   "note": ""
+  },
+  "progression": {
+   "target": "none",
+   "jar_state": "none",
+   "note": "the win node and quest chain only"
+  }
+ },
+ "kept": [
+  {
+   "mod": "railcraft",
+   "age": "V",
+   "makes": [
+    "c:gears/iron",
+    "c:ingots/bronze",
+    "c:ingots/lead",
+    "c:ingots/silver",
+    "c:ingots/steel",
+    "c:ingots/tin",
+    "c:ores/lead",
+    "c:ores/silver",
+    "c:ores/tin",
+    "c:plates/bronze",
+    "c:plates/copper",
+    "c:plates/iron",
+    "c:plates/steel"
+   ],
+   "rule": "recipes/world gen for these must be Age-gated at this Age or later (tech_ages); source plans/KEPT_MOD_PROGRESSION_OVERLAP.md"
+  },
+  {
+   "mod": "modern_industrialization",
+   "age": "VI",
+   "makes": [
+    "c:gears/iron",
+    "c:ingots/bronze",
+    "c:ingots/lead",
+    "c:ingots/silver",
+    "c:ingots/steel",
+    "c:ingots/tin",
+    "c:ores/lead",
+    "c:ores/tin",
+    "c:plates/bronze",
+    "c:plates/copper",
+    "c:plates/iron",
+    "c:plates/steel"
+   ],
+   "rule": "recipes/world gen for these must be Age-gated at this Age or later (tech_ages); source plans/KEPT_MOD_PROGRESSION_OVERLAP.md"
+  },
+  {
+   "mod": "energizedpower",
+   "age": "VI",
+   "makes": [
+    "c:gears/iron",
+    "c:ingots/steel",
+    "c:ingots/tin",
+    "c:ores/tin",
+    "c:plates/copper",
+    "c:plates/iron",
+    "c:plates/steel"
+   ],
+   "rule": "recipes/world gen for these must be Age-gated at this Age or later (tech_ages); source plans/KEPT_MOD_PROGRESSION_OVERLAP.md"
+  },
+  {
+   "mod": "mekanism",
+   "age": "VI",
+   "makes": [
+    "c:ingots/bronze",
+    "c:ingots/lead",
+    "c:ingots/steel",
+    "c:ingots/tin",
+    "c:ores/lead",
+    "c:ores/tin"
+   ],
+   "rule": "recipes/world gen for these must be Age-gated at this Age or later (tech_ages); source plans/KEPT_MOD_PROGRESSION_OVERLAP.md"
+  },
+  {
+   "mod": "tconstruct",
+   "age": "V",
+   "makes": [
+    "c:ingots/steel"
+   ],
+   "rule": "recipes/world gen for these must be Age-gated at this Age or later (tech_ages); source plans/KEPT_MOD_PROGRESSION_OVERLAP.md"
+  },
+  {
+   "mod": "silentgear",
+   "age": "V",
+   "makes": [
+    "c:ingots/bronze"
+   ],
+   "rule": "recipes/world gen for these must be Age-gated at this Age or later (tech_ages); source plans/KEPT_MOD_PROGRESSION_OVERLAP.md"
+  },
+  {
+   "mod": "oritech",
+   "age": "VI",
+   "makes": [
+    "c:ingots/steel"
+   ],
+   "rule": "recipes/world gen for these must be Age-gated at this Age or later (tech_ages); source plans/KEPT_MOD_PROGRESSION_OVERLAP.md"
+  },
+  {
+   "mod": "enderio",
+   "age": "VI",
+   "makes": [
+    "c:gears/iron"
+   ],
+   "rule": "recipes/world gen for these must be Age-gated at this Age or later (tech_ages); source plans/KEPT_MOD_PROGRESSION_OVERLAP.md"
+  },
+  {
+   "mod": "industrialforegoing",
+   "age": "VI",
+   "makes": [
+    "c:gears/iron"
+   ],
+   "rule": "recipes/world gen for these must be Age-gated at this Age or later (tech_ages); source plans/KEPT_MOD_PROGRESSION_OVERLAP.md"
+  },
+  {
+   "mod": "iceandfire",
+   "age": "VI",
+   "makes": [
+    "c:ingots/copper",
+    "c:ingots/silver",
+    "c:ores/copper",
+    "c:ores/silver"
+   ],
+   "rule": "recipes/world gen for these must be Age-gated at this Age or later (tech_ages); source plans/KEPT_MOD_PROGRESSION_OVERLAP.md"
+  },
+  {
+   "mod": "occultism",
+   "age": "VI",
+   "makes": [
+    "c:ingots/silver",
+    "c:ores/silver"
+   ],
+   "rule": "recipes/world gen for these must be Age-gated at this Age or later (tech_ages); source plans/KEPT_MOD_PROGRESSION_OVERLAP.md"
+  },
+  {
+   "mod": "silentgems",
+   "age": "VI",
+   "makes": [
+    "c:ingots/silver",
+    "c:ores/silver"
+   ],
+   "rule": "recipes/world gen for these must be Age-gated at this Age or later (tech_ages); source plans/KEPT_MOD_PROGRESSION_OVERLAP.md"
+  }
  ]
 }

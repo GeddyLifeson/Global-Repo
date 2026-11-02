@@ -100,6 +100,12 @@ Threads run it before delivering any change that touches a node, and update `gra
 5. **Win ceremony** (what the Gate does, the credits scene) is a design task for the Codex and campaign threads.
 6. No in-game test has been run. The checker proves graph shape only; the PC lane tests recipes once items exist.
 
+## 7b. Added 11-02 (23:30)
+- **Kept-mod shortcuts.** `graph.json` has a `kept` list (Railcraft V, Mekanism, Modern Industrialization, Energized Power, Oritech, Ender IO, Industrial Foregoing, Ice and Fire, Occultism, Silent Gems VI; Tinkers, Silent Gear V) with the `c:` resources each makes. The checker fails if a kept mod makes a resource at an Age earlier than the graph's own maker. So those mods are legal alternative makers only when their recipes are Age-gated at that Age or later. Mods with no kept filler (iron/gold/coal, crops, foods, glass) have no entry. Section C and D mods are not modelled as makers; the integration thread gates them by Age against the node they could bypass.
+- **Company founding follows the code.** `econ.company` now needs a caravan trade route (Safe passage), coin (capital), a town (office) with a warehouse (depot yard) and research pack 3 (writing or railway tech). It no longer needs the bank or civic hall. Founding stays a quest chain.
+- **Module map.** `graph.json` `modules` maps every node module name to its target jar or module and its state (folded, partial, not built, engine). The compat matrix uses it for the per-fold check. The checker fails on a node whose module is missing from the map.
+- **Settlements** thread is closed; the settle rows in the graph are the final spec until someone reopens it.
+
 ## 8. What each thread does next
 - **Foundry:** tech and research nodes: Operator seat, research bench Age nodes (`research.gate_*`, packs 1 to 7), `foundry_` ids, W and s per machine.
 - **Upgrades:** theme modules, quality, beacon and planner rules against the Ages above; confirm the VI deviation.
