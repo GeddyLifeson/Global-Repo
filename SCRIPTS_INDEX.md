@@ -6836,8 +6836,9 @@ Run hints: .py `python3 <file>` (PC `py`), .ps1 via a hidden launcher (never a v
 | S6825 | cloud | `library-content/finalize.py` | S6821 Merges rule and Haiku codes into library_to_content.tsv (id, form, source) | yes |
 | S6826 | cloud | `library-content/place_all.py` | S6823 Gives every Library entry a Collection, class, canon status, spine code and shelfmark from its soil | yes |
 | S6827 | cloud | `names/linguistics/regen_relaxed.py` | S0312 Regenerates every culture name that fails its language rules (Haiku, rules file cached per language, up to 3 repair rounds); writes na | yes |
-| S6828 | cloud | `diaithir-ports/diaithir-druidry/tools/gen_rites.py` | S6822 Generates one rite.v1 JSON per Library SPELL entry (51,884; real entry text, Age tier, deterministic Ascendant-style steps) | yes |
 | S6829 | global | `tools/omniverse/export_library_books.py` | S6829 exports library books for the omniverse books lane (lives in the DiaithirRPG repo; copy not mirrored yet) | no |
+| S6830 | cloud | `cloud/planets/gen_planets.py` | Panscriptum planets: one planet and dimension per store universe; writes planets.tsv/json and the diaithir_planets datapack | yes |
+| S6828 | cloud | `diaithir-ports/diaithir-druidry/tools/gen_rites.py` | S6822 Generates one rite.v1 JSON per Library SPELL entry (51,884; real entry text, Age tier, deterministic Ascendant-style steps) | yes |
 | S6831 | cloud | `diaithir-ports/diaithir-bosses/tools/gen_planet_altars.py` | S6822 Generates the Ascendant altar shrine template and one structure + structure set per planet (216, biome tag diaithir_planets:<id>) | yes |
 | S6880 | global | `diaithir-ports PR 181: port.py (path in repo unconfirmed)` | S6880 Aurorian port script (diaithir-ports PR 181; copy lives in that repo) | no |
 | S6881 | global | `diaithir-ports PR 181: rcon.py (path in repo unconfirmed)` | S6881 Aurorian rcon helper for the port tests (diaithir-ports PR 181; copy lives in that repo) | no |
