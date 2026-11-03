@@ -1,0 +1,152 @@
+{
+ "proxy_language": "Proto-Semitic (with Proto-Afroasiatic roots and Proto-Anatolian/Proto-Hurro-Urartian as areal alternatives); the Natufian-to-PPNB Levantine core is the best fit for a Proto-Semitic/Proto-Afroasiatic-style model",
+ "confidence": "speculative",
+ "proxy_rationale": "PPNB (c. 8700-7000 BCE) languages are wholly unattested. Farming-language dispersal hypotheses (Bellwood, Renfrew, Diakonoff, Militarev) link Levantine/Natufian-PPNB groups to Afroasiatic (Proto-Semitic reconstructed ~4000-3000 BCE at the earliest), while Upper Mesopotamia/SE Anatolia may have spoken ancestors of Hurro-Urartian, and central Anatolia possibly pre-Indo-European or early Anatolian. The link is therefore very weak and chronologically stretched by 4000+ years. Proto-Semitic is used as a defensible, well-reconstructed stand-in: triconsonantal roots, simple phonology, and good dictionary support. Names should sound consistently Semitic-like, not like any attested later language.",
+ "phonology": "Proto-Semitic consonants (Huehnergard/Kogan): stops *b *p *d *t *t' *k *k' *g *q (ejective series per Kogan/Faber); fricatives *s *z *s' *sh *th *dh *th' *kh *gh *h *H *' (hamza) *` (ayin); sonorants *m *n *l *r *w *y. Vowels *a *i *u with length (a: i: u:). Three vowel system only; no e or o in the reconstruction.",
+ "phonotactics": "Syllables (C)V(C) with CV, CVC, CV: shapes; every syllable begins with exactly one consonant; no initial vowels (glottal stop fills in) and no onset clusters; codas at most one consonant, medial clusters CC common across syllable boundaries (e.g. mal-k-). Typical root = 3 consonants (CCC) with vowel patterns inserted: CaCaC, CaCiC, CuCC, maCCaC, etc. Stress usually penultimate or on heavy syllable (reconstructed weakly); not marked in spelling.",
+ "orthography": "Use plain Latin transliteration of the Semitic reconstruction with digraphs: sh for sibilant, kh for velar fricative, th/dh for interdental fricatives, gh for voiced velar/uvular fricative; ' for glottal stop and ` for pharyngeal (or h for H). Avoid IPA diacritics; keep lowercase a, i, u only plus vowel length as doubled vowel (aa, ii, uu) if needed. No e, o, c, x, j, v, f (f is not original Proto-Semitic), z permitted.",
+ "morphology": "Root-and-pattern (templatic) morphology: triconsonantal roots + vocalic patterns. Nouns: gender (masc. unmarked, fem. -at/-t), number (sing., dual -aan, plural -uu/-aat/-iin), case on nouns in reconstruction: nominative -u, genitive -i, accusative -a, with mimation -m (e.g. -um/-im/-am) as in early Akkadian/Eblaite. Prefixes: m(a)- for place/instrument nouns (maCCaC), ta- for abstract/verbal nouns, sa- causative; suffix -aan, -iy- adjective (nisba). Possessive suffixes: -i 'my', -ka 'your', -su 'his'.",
+ "compounding": "True compounds are rare; the main strategy is the construct state (genitive chain): head noun in bound form (without mimation, e.g. bayt-) followed by the genitive noun (bayt-u X-i = 'house of X'). 'Place of V-ing' = ma-CCaC-; 'maker/doer of' = CaaCiC agent participle or CaCCaaC (professional); 'X-ness' via ta-/-uut. Adjectives follow the noun and agree in gender/number/definiteness. Sea/river/tree names generally bare roots; epithets by apposition.",
+ "noun_phrase_order": "Head noun first; genitive after head (construct state); adjective after noun; demonstratives/numerals can precede or follow (numerals before noun for 3-10 in Akkadian-like systems). Prepositions precede nouns.",
+ "attested_roots": [
+  {
+   "form": "*bayt-",
+   "gloss": "house",
+   "reconstructed": true
+  },
+  {
+   "form": "*'ard-",
+   "gloss": "earth, land",
+   "reconstructed": true
+  },
+  {
+   "form": "*mayy-",
+   "gloss": "water",
+   "reconstructed": true
+  },
+  {
+   "form": "*shams-",
+   "gloss": "sun",
+   "reconstructed": true
+  },
+  {
+   "form": "*`ayn-",
+   "gloss": "eye, spring",
+   "reconstructed": true
+  },
+  {
+   "form": "*kalb-",
+   "gloss": "dog",
+   "reconstructed": true
+  },
+  {
+   "form": "*lahm-",
+   "gloss": "bread, food",
+   "reconstructed": true
+  },
+  {
+   "form": "*`ayr-",
+   "gloss": "young donkey / ass",
+   "reconstructed": true
+  },
+  {
+   "form": "*'ilaah-",
+   "gloss": "god",
+   "reconstructed": true
+  },
+  {
+   "form": "*mulk-",
+   "gloss": "kingship, rule (root m-l-k)",
+   "reconstructed": true
+  },
+  {
+   "form": "*dam-",
+   "gloss": "blood",
+   "reconstructed": true
+  },
+  {
+   "form": "*kawkab-",
+   "gloss": "star",
+   "reconstructed": true
+  },
+  {
+   "form": "*sha`ar-",
+   "gloss": "barley (root sh-`-r)",
+   "reconstructed": true
+  },
+  {
+   "form": "*har-",
+   "gloss": "mountain",
+   "reconstructed": true
+  },
+  {
+   "form": "*Hadash-",
+   "gloss": "new",
+   "reconstructed": true
+  },
+  {
+   "form": "*maalik-",
+   "gloss": "ruler, king",
+   "reconstructed": true
+  }
+ ],
+ "worked_examples": [],
+ "allowed_graphemes": [
+  "a",
+  "i",
+  "u",
+  "aa",
+  "ii",
+  "uu",
+  "b",
+  "p",
+  "d",
+  "t",
+  "k",
+  "g",
+  "q",
+  "s",
+  "z",
+  "sh",
+  "kh",
+  "th",
+  "dh",
+  "gh",
+  "h",
+  "m",
+  "n",
+  "l",
+  "r",
+  "w",
+  "y"
+ ],
+ "extra_allowed_chars": " -'`",
+ "forbidden_patterns": [
+  "[ceofjvx]",
+  "[aiu]{3,}",
+  "^[aiu]",
+  "(.)\\1\\1",
+  "[bdgkpqtszhmnlrwy]{3,}",
+  "[^aiu ' `-]{3,}$"
+ ],
+ "syllables_per_word": [
+  2,
+  3,
+  4
+ ],
+ "max_word_length": 14,
+ "sources": [
+  "Huehnergard, John. 2019. Proto-Semitic language and culture, in American Heritage Dictionary of the English Language (appendix)",
+  "Kogan, Leonid. 2015. Genealogical Classification of Semitic: The Lexical Isoglosses",
+  "Militarev, Alexander and Kogan, Leonid. Semitic Etymological Dictionary (2000-2005)",
+  "Starling database: Afroasiatic Etymology (Orel and Stolbova 1995, Hamito-Semitic Etymological Dictionary)",
+  "Diakonoff, Igor. 1988. Afrasian Languages",
+  "Bellwood, Peter. 2005. First Farmers: The Origins of Agricultural Societies",
+  "Renfrew, Colin. 1987. Archaeology and Language",
+  "Glottolog: Afroasiatic and Semitic family entries"
+ ],
+ "notes": "All forms are Proto-Semitic stand-ins for an unattested PPNB language and must be treated as stylistic modelling only; Natufian/PPNB speakers may not have spoken Afroasiatic at all, and Proto-Semitic probably postdates PPNB by millennia. Anatolian PPNB groups (e.g. Cayonu, Catalhoyuk-adjacent) could equally have spoken early Hurro-Urartian or non-Indo-European isolates, so builders may treat the Semitic-style phonotactics as a regional convention. Names should avoid sounding like Modern Hebrew or Arabic (no definite article al-/ha-, no Arabic-specific f, j, or e/o vowels). No word may be identical to a Modern Irish, Scottish Gaelic or Manx word since the language is not Goidelic.",
+ "unit": "Pre-Pottery Neolithic B",
+ "slug": "pre_pottery_neolithic_b",
+ "model": "claude-sonnet-5-5"
+}

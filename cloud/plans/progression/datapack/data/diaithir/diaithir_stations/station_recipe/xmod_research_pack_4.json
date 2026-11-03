@@ -1,0 +1,44 @@
+{
+ "neoforge:conditions": [
+  {
+   "type": "neoforge:mod_loaded",
+   "modid": "diaithir_stations"
+  },
+  {
+   "type": "neoforge:item_exists",
+   "item": "diaithircrafting:foundry_research_pack_4"
+  },
+  {
+   "type": "neoforge:not",
+   "value": {
+    "type": "neoforge:tag_empty",
+    "tag": "diaithir:progression/circuit.basic"
+   }
+  },
+  {
+   "type": "neoforge:not",
+   "value": {
+    "type": "neoforge:tag_empty",
+    "tag": "diaithir:progression/money.coin"
+   }
+  }
+ ],
+ "_node": "research.pack_4",
+ "_age": "VI",
+ "station": "research.bench",
+ "stage": "process",
+ "ingredients": [
+  {
+   "tag": "diaithir:progression/circuit.basic"
+  },
+  {
+   "tag": "diaithir:progression/money.coin"
+  }
+ ],
+ "result": {
+  "id": "diaithircrafting:foundry_research_pack_4",
+  "count": 1
+ },
+ "time_s": 5,
+ "operator": false
+}
