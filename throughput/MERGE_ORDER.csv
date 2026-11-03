@@ -72,3 +72,4 @@ wave,repo,number,base,head,partner,title
 0,global-repo,15,main,,,"Progression graph.json with Foundry item ids; index S6864 [edits SCRIPTS_INDEX.md and ids.tsv: merge one at a time, rebuild index on conflict]"
 0,global-repo,16,main,,,"S6866 animation coverage CSV generator [edits SCRIPTS_INDEX.md and ids.tsv: merge one at a time, rebuild index on conflict]"
 0,global-repo,17,main,,,"Register S6873 gen_gate.py [edits SCRIPTS_INDEX.md and ids.tsv: merge one at a time, rebuild index on conflict]"
+0,ports,230,diaithircompat,claude/survey-bannerbound,,"Survey Bannerbound licence (MIT only to aac8526) and fold AW2 research tree as GPL module in diaithir-automation-crafting"
