@@ -54,3 +54,4 @@ Gap list, not yet built. Catalog so far covers rounds and their parts only.
 - **Tags:** `c:ammo_container/magazine|box|belt|clip`, with the weapon family as subtag, so guns and vehicle mounts accept the right ones.
 - **Animation on firing:** per weapon the animation set needs fire, eject, reload, magazine swap, belt feed/advance, and cycle. This belongs to the animation renderer threads (ports #207, #209); this lane supplies the container items, their states (full, partial, empty) and the weapon-to-container tag map so animations can key off them. Vehicle mounts (ship, aircraft, tank, train) reuse the same states.
 - Order: container catalog (data) first, then recipes, then animation hooks with the renderer threads.
+- Contract for animation threads (intended ids, tags, component): plans/MUNITIONS_CONTAINERS.md.
