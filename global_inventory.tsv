@@ -1,3 +1,9 @@
 path	bytes	what	copied
 scan_cloud.py	0	S0001 scans /mnt/project-files, copies scripts scrubbed, writes cloud_inventory.tsv: python3 -I scan_cloud.py <repo>	yes
 build_index.py	0	S0002 assigns stable IDs and renders SCRIPTS_INDEX.md: python3 -I build_index.py <repo>	yes
+claim_id.py	0	S0322 atomically claims the next free script ID(s) via next_id (pull --rebase, bump, push, retry): python3 -I claim_id.py [count]	yes
+crawl_all.py	0	S0335 crawls /mnt/project-files into catalog/{D,F,M,A,J}.tsv with stable IDs: python3 -I crawl_all.py <repo>	yes
+add_rows.py	0	S0336 registers hand-fed types T (threads) and P (PRs/branches): python3 -I add_rows.py <repo> T < tsv	yes
+tools/omniverse/export_library_books.py	0	S6829 exports library books for the omniverse books lane (lives in the DiaithirRPG repo; copy not mirrored yet)	no
+diaithir-ports PR 181: port.py (path in repo unconfirmed)	0	S6880 Aurorian port script (diaithir-ports PR 181; copy lives in that repo)	no
+diaithir-ports PR 181: rcon.py (path in repo unconfirmed)	0	S6881 Aurorian rcon helper for the port tests (diaithir-ports PR 181; copy lives in that repo)	no

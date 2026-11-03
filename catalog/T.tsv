@@ -1,0 +1,21 @@
+id	path	meta
+T0001	cmsg_01EpyoqYuwV3X4z3b4zk5pEKRGg685UpRQAYMixpKKqiRm	Index every script for reuse | owns Global-Repo, script catalogue, claim_id | working
+T0002	cmsg_01EpyoqYuwV3X4z3b4zk5pEK1PCn34LeTWmPKSwmUay6hU	Index everything on the laptop | laptop scan | review_ready
+T0003	cmsg_01EpyoqYuwV3X4z3b4zk5pEK1XYCLc9ormHcaDtC8G1JWd	Integrate every kept mod into the pack | working
+T0004	cmsg_01EpyoqYuwV3X4z3b4zk5pEK96zRDV91kRPU1Qa8sNhtaK	Rebuild worldgen structures as one module | clean-room rewrite | working
+T0005	cmsg_01EpyoqYuwV3X4z3b4zk5pEK3cD9eRYtcDJ5Z2t2eW8diS	Rebuild storage and logistics as one module | done
+T0006	cmsg_01EpyoqYuwV3X4z3b4zk5pEK4qAuTXoCtgh2Bf5muJqNE1	Rebuild client UI and visuals as one module | review_ready
+T0007	cmsg_01EpyoqYuwV3X4z3b4zk5pEK5mUQv1nJw5RFmiRUQtKBuU	Build a Factorio-style upgrade system for all blocks | done
+T0008	cmsg_01EpyoqYuwV3X4z3b4zk5pEK7GzbQARKgDmhWBzFf8mpDn	Unify units of measure across the pack | done
+T0009	cmsg_01EpyoqYuwV3X4z3b4zk5pEK4PseLRQGemd7PSGrJ3CW4M	Port Terrarian Slimes | done
+T0010	cmsg_01EpyoqYuwV3X4z3b4zk5pEK4u5UMdL2MAqgK8NW9Mv5Az	Port Terrastorage quick stack | review_ready
+T0011	cmsg_01EpyoqYuwV3X4z3b4zk5pEK6GfTEREbHSKWUrA5fAVyZ8	Port Fishing Crates | done
+T0012	cmsg_01EpyoqYuwV3X4z3b4zk5pEK7P75ZeSk5jUvGxfh1Sw3kT	Fix PRs that failed to merge | review_ready
+T0013	cmsg_01EpyoqYuwV3X4z3b4zk5pEK52ZBW6QEyQgaEksu684Z7W	Audit worldgen against all pack mods | blocked
+T0014	cmsg_01EpyoqYuwV3X4z3b4zk5pEK2BBDkiKMRS5KEqvZHzZgPv	Keep the master CLAUDE.md up to date | done
+T0015	cmsg_01EpyoqYuwV3X4z3b4zk5pEK6byAykQEuAgrtHxKf3vQWS	Review all modpack code with every tool (pack thread) | done
+T0016	cmsg_01EpyoqYuwV3X4z3b4zk5pEK3ahxGe1sQdctBo7sKT7kTx	Port tech and transport mods | done
+T0017	cmsg_01EpyoqYuwV3X4z3b4zk5pEK9DwQhQuKZbddfiNNaEdQQ4	Port utility, UI and decoration mods | done
+T0018	cmsg_01EpyoqYuwV3X4z3b4zk5pEK5Yz6CQMvc6LKChUPYiBMeu	Add every real-world dish to the game | done
+T0019	cmsg_01EpyoqYuwV3X4z3b4zk5pEK8nYVde9RAhPt1dFHGYPzXN	Codex of everything | done
+T0020	cmsg_01EpyoqYuwV3X4z3b4zk5pEKAUw5jVCwwwmumuZWeRLU42	Recover source for jar-only Diaithir mods | done

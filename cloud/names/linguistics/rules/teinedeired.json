@@ -1,0 +1,189 @@
+{
+ "proxy_language": "Classical Greek (Attic/Koine) with Rhodian (Doric) dialect features; used as the nearest attested proxy because 'Teinedeired' is not a recognised attested ethnonym or language",
+ "confidence": "low",
+ "proxy_rationale": "No attested culture or language called 'Teinedeired' is known to me. The region tag (Rodos = Rhodes) and kind (later court) point to Hellenistic/Rhodian Greek, a Doric-dialect Greek-speaking polity (c. 4th-1st c. BCE) with a maritime court and Colossus tradition. The current game strings (Rusukierkkurrak, Stiubamairteòilaskaig etc.) look Gaelic/Brittonic-flavoured and do not match Greek; they are not usable as evidence. Greek is therefore a defensible regional proxy, but the link to the named culture is weak and may be wrong if Teinedeired is a fictional or non-Greek court. Do not treat output as attested Teinedeired.",
+ "phonology": "Classical/Hellenistic Greek, Doric colouring. Consonants: stops p t k, b d g (voiced; spirants in Koine), aspirates ph th kh (Classical; fricatives f th x in later Koine), s (z = /zd/ or /z/), m n, l r, h (rough breathing). Vowels: a e o i u plus long a: e: o:, and diphthongs ai ei oi ui au eu ou. Doric retains long a where Attic has long e (e.g. Dor. hamera vs Att. hemera; Dor. nasos vs Att. nesos). Rhodian is Doric of the 'mild' type (Dorian Hexapolis).",
+ "phonotactics": "Syllables (C)(C)V(C) with V short or long/diphthong. Onsets may be single C or clusters of stop+liquid (pl kl tr gr), s+stop (sp st sk), stop+nasal (kn gn), s+stop+liquid (str spl skl). Word-final consonants are restricted to n r s (and x ps from k/p + s); no other final stops. Every word has an accent (acute/grave/circumflex), not marked in plain Latin transliteration. Hiatus is tolerated within words. Initial rh- and h- (rough breathing) occur.",
+ "orthography": "Standard scholarly Latin transliteration: ph th kh for aspirates, ps ks, rh, y for upsilon (u in diphthongs), ch optional for chi, h for rough breathing, macrons optional for long vowels (e: o: or e o without marks). Use i/u in diphthongs (ai ei oi ui au eu ou). Accents omitted for game use. Doric forms may use a for Attic e (a-dialect: Hamera, Nasos, Damos).",
+ "morphology": "Fusional, inflecting language. Nouns: 3 genders, 5 cases (nominative, genitive, dative, accusative, vocative), 3 numbers (sg, du, pl); declensions: 1st (a-stems), 2nd (o-stems), 3rd (consonant/i/u-stems). Verbs: thematic and athematic, augment, reduplication. Adjectives agree with nouns. Word forms are citation forms ending in -a/-e (f), -os/-on (2nd decl m/n), -is/-ys, -s, -n, -r, -ks, etc.",
+ "compounding": "Compounds are very productive: first element (stem + linking vowel -o-, or -i-/-a-) + second element; head is the right-hand member, e.g. theo-doros 'gift of god'. Verbal compounds: first = object/modifier, second = agent noun in -os/-es, e.g. nauarkhos 'ship-ruler', politarkhes. Genitive constructions: Y-gen X (noun + genitive after), but the article lets genitive precede or follow; names are often X-gen or compounded. Suffixes: -ion (place/temple: Heraion), -eion (Mouseion), -ia (festival Halieia 'of Helios'), -eus agent, -ter/-tor agent, -ma/-sis action/result, -ia/-ike abstract.",
+ "noun_phrase_order": "Adjective + noun or noun + adjective both occur with the article (ho agathos aner / aner ho agathos). In name-building use Adjective + Noun (head last) or Noun + Genitive. Genitive of possession follows head noun or sits between article and noun. Prepositions precede noun in dative/accusative/genitive.",
+ "attested_roots": [
+  {
+   "form": "Halios",
+   "gloss": "Helios, the sun god (Rhodes patron deity; Doric Halios)",
+   "reconstructed": false
+  },
+  {
+   "form": "helios",
+   "gloss": "sun",
+   "reconstructed": false
+  },
+  {
+   "form": "thalassa",
+   "gloss": "sea",
+   "reconstructed": false
+  },
+  {
+   "form": "naus",
+   "gloss": "ship",
+   "reconstructed": false
+  },
+  {
+   "form": "polis",
+   "gloss": "city",
+   "reconstructed": false
+  },
+  {
+   "form": "nasos",
+   "gloss": "island (Doric)",
+   "reconstructed": false
+  },
+  {
+   "form": "basileus",
+   "gloss": "king",
+   "reconstructed": false
+  },
+  {
+   "form": "archon",
+   "gloss": "ruler",
+   "reconstructed": false
+  },
+  {
+   "form": "aule",
+   "gloss": "court, hall",
+   "reconstructed": false
+  },
+  {
+   "form": "oikos",
+   "gloss": "house",
+   "reconstructed": false
+  },
+  {
+   "form": "hieron",
+   "gloss": "sanctuary, temple",
+   "reconstructed": false
+  },
+  {
+   "form": "theos",
+   "gloss": "god",
+   "reconstructed": false
+  },
+  {
+   "form": "aster",
+   "gloss": "star",
+   "reconstructed": false
+  },
+  {
+   "form": "rhodon",
+   "gloss": "rose",
+   "reconstructed": false
+  },
+  {
+   "form": "arkhe",
+   "gloss": "beginning, rule",
+   "reconstructed": false
+  },
+  {
+   "form": "limen",
+   "gloss": "harbour",
+   "reconstructed": false
+  }
+ ],
+ "worked_examples": [
+  {
+   "english": "Temple of the Sun",
+   "name": "Halieion",
+   "gloss": "Hali- (Halios 'sun' / Doric sun god) + -eion (place of)"
+  },
+  {
+   "english": "Ship-Master",
+   "name": "Nauarkhos",
+   "gloss": "nau- 'ship' + arkhos 'ruler' (head last)"
+  },
+  {
+   "english": "Harbour of the King",
+   "name": "Limen Basileos",
+   "gloss": "limen 'harbour' + basileos (genitive of basileus 'king')"
+  },
+  {
+   "english": "Rose Island",
+   "name": "Rhodos",
+   "gloss": "rhodon 'rose' (name of the island, stem rhodo-)"
+  },
+  {
+   "english": "Sea Court",
+   "name": "Thalassaule",
+   "gloss": "thalass- 'sea' + aule 'court' (compound, head last)"
+  },
+  {
+   "english": "Star City",
+   "name": "Asteropolis",
+   "gloss": "astero- 'star' (linking -o-) + polis 'city'"
+  }
+ ],
+ "allowed_graphemes": [
+  "a",
+  "e",
+  "i",
+  "o",
+  "u",
+  "y",
+  "ai",
+  "ei",
+  "oi",
+  "ui",
+  "au",
+  "eu",
+  "ou",
+  "p",
+  "t",
+  "k",
+  "b",
+  "d",
+  "g",
+  "ph",
+  "th",
+  "kh",
+  "ch",
+  "ps",
+  "ks",
+  "x",
+  "s",
+  "z",
+  "m",
+  "n",
+  "l",
+  "r",
+  "rh",
+  "h"
+ ],
+ "extra_allowed_chars": " -",
+ "forbidden_patterns": [
+  "^[bdgkptmnlrz]{2}",
+  "[bdgkptmln]$",
+  "[bcdfghjklmnpqrstvwxz]{4,}",
+  "(.)\\1\\1",
+  "[jqvw]",
+  "'",
+  "^[nl]{2}"
+ ],
+ "syllables_per_word": [
+  2,
+  5
+ ],
+ "max_word_length": 14,
+ "sources": [
+  "H. W. Smyth, Greek Grammar (1920, rev. G. Messing 1956)",
+  "R. Buck, The Greek Dialects (1955)",
+  "H. G. Liddell, R. Scott, H. S. Jones, A Greek-English Lexicon (LSJ, 9th ed. 1940)",
+  "P. Chantraine, Dictionnaire etymologique de la langue grecque (1968-1980)",
+  "A. Bartonek, Handbuch des mykenischen und klassischen Griechisch / dialect overviews",
+  "Wiktionary Ancient Greek lemma pages and Glottolog Doric/Greek entries",
+  "V. Gabrielsen, The Naval Aristocracy of Hellenistic Rhodes (1997)"
+ ],
+ "notes": "No attested language 'Teinedeired' is known to me; the proxy is Rhodian Doric Greek chosen on region and period, with low confidence. The given game names appear Celtic/Gaelic-like and do not reflect Greek phonotactics. No word may be identical to a Modern Irish, Scottish Gaelic or Manx word, since Greek is not Goidelic; check names against those lexicons and avoid collisions.",
+ "unit": "Teinedeired",
+ "slug": "teinedeired",
+ "model": "claude-sonnet-5-5"
+}

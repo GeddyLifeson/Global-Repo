@@ -1,0 +1,99 @@
+id	path	meta
+I0001	C:\Program Files\7-Zip\ | 7-Zip 25.01 (x64)	type: installed-program | stack: 25.01 | backend: Publisher: Igor Pavlov | was PC0001 | device: pc
+I0002	Bambu Studio	type: installed-program | stack: 02.07.01.62 | backend: Publisher: Bambulab | was PC0002 | device: pc
+I0003	C:\Program Files\Cockatrice | Cockatrice	type: installed-program | stack: 3.0.2 | backend: Publisher: Cockatrice team | was PC0003 | device: pc
+I0004	C:\Program Files\Blackmagic Design\DaVinci Resolve\audio\Fairlight Audio Accelerator\ | Fairlight Audio Accelerator Utility	type: installed-program | stack: 1.0.15 | backend: Publisher: Blackmagic Design | was PC0004 | device: pc
+I0005	C:\Program Files\Git\ | Git	type: installed-program | stack: 2.56.0.4 | backend: Publisher: The Git Development Community | was PC0005 | device: pc
+I0006	C:\Program Files\MuseHub\current\ | MuseHub	type: installed-program | stack: 3.5.0.2378 | backend: Publisher: Muse Group | was PC0006 | device: pc
+I0007	C:\Program Files\Norton\Suite | Norton 360	type: installed-program | stack: 26.10.11201.2729 | backend: Publisher: Gen Digital Inc. | was PC0007 | device: pc
+I0008	C:\Program Files\Riot Vanguard | Riot Vanguard	type: installed-program | backend: Publisher: Riot Games, Inc. | was PC0008 | device: pc
+I0009	C:\Program Files (x86)\Steam\steamapps\common\Lust for Speed | Lust for Speed	type: installed-program | backend: Publisher: KG/AM | was PC0009 | device: pc
+I0010	C:\Program Files (x86)\Steam\steamapps\common\Come Home | Come Home	type: installed-program | backend: Publisher: R.J. Rhodes | was PC0010 | device: pc
+I0011	C:\Program Files (x86)\Steam\steamapps\common\Skyrim Special Edition | Skyrim Special Edition: Creation Kit	type: installed-program | backend: Publisher: Bethesda Game Studios | was PC0011 | device: pc
+I0012	C:\Program Files (x86)\Steam\steamapps\common\Prison Architect | Prison Architect	type: installed-program | backend: Publisher: Introversion Software | was PC0012 | device: pc
+I0013	C:\Program Files (x86)\Steam\steamapps\common\Arma 3 Tools | Arma 3 Tools	type: installed-program | backend: Publisher: Bohemia Interactive | was PC0013 | device: pc
+I0014	C:\Program Files (x86)\Steam\steamapps\common\Balatro | Balatro	type: installed-program | backend: Publisher: LocalThunk | was PC0014 | device: pc
+I0015	C:\Program Files (x86)\Steam\steamapps\common\skyrim | Skyrim Script Extender (SKSE)	type: installed-program | backend: Publisher: The SKSE Team | was PC0015 | device: pc
+I0016	C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine | Wallpaper Engine	type: installed-program | backend: Publisher: Wallpaper Engine Team | was PC0016 | device: pc
+I0017	VRChat	type: installed-program | backend: Publisher: VRChat Inc. | was PC0017 | device: pc
+I0018	C:\Program Files (x86)\Steam\steamapps\common\Skyrim Special Edition | The Elder Scrolls V: Skyrim Special Edition	type: installed-program | backend: Publisher: Bethesda Game Studios | was PC0018 | device: pc
+I0019	E:\SteamLibrary\steamapps\common\left 4 dead 2 | Left 4 Dead 2 Authoring Tools	type: installed-program | backend: Publisher: Valve | was PC0019 | device: pc
+I0020	C:\Program Files (x86)\Steam\steamapps\common\The Divinity Engine 2 | The Divinity Engine 2	type: installed-program | backend: Publisher:  | was PC0020 | device: pc
+I0021	Unity 6000.5.5f1	type: installed-program | stack: 6000.5.5f1 | backend: Publisher: Unity Technologies ApS | was PC0021 | device: pc
+I0022	Unity Hub 3.19.5	type: installed-program | stack: 3.19.5 | backend: Publisher:  | was PC0022 | device: pc
+I0023	C:\Program Files\Epic Games\ | Epic Games Launcher	type: installed-program | stack: 1.3.210.0 | backend: Publisher: Epic Games, Inc. | was PC0023 | device: pc
+I0024	Microsoft GameInput	type: installed-program | stack: 4.0.302.0 | backend: Publisher: Microsoft Corporation | was PC0024 | device: pc
+I0025	Microsoft Visual C++ 2010  x64 Redistributable - 10.0.40219	type: installed-program | stack: 10.0.40219 | backend: Publisher: Microsoft Corporation | was PC0025 | device: pc
+I0026	GridCraft	type: installed-program | stack: 0.4.0 | backend: Publisher: Learning Machines LLC | was PC0026 | device: pc
+I0027	Microsoft .NET SDK 9.0.318 (x64) from Visual Studio	type: installed-program | stack: 9.3.1826.42108 | backend: Publisher: Microsoft Corporation | was PC0027 | device: pc
+I0028	EffectCraft	type: installed-program | stack: 0.7.0 | backend: Publisher: Learning Machines LLC | was PC0028 | device: pc
+I0029	VectorCraft	type: installed-program | stack: 0.8.0 | backend: Publisher: Learning Machines LLC | was PC0029 | device: pc
+I0030	C:\Program Files\playit_gg\ | playit	type: installed-program | stack: 1.0.10 | backend: Publisher: Developed Methods LLC | was PC0030 | device: pc
+I0031	PdfCraft	type: installed-program | stack: 0.5.0 | backend: Publisher: Learning Machines LLC | was PC0031 | device: pc
+I0032	Microsoft System CLR Types for SQL Server 2019	type: installed-program | stack: 15.0.2000.5 | backend: Publisher: Microsoft Corporation | was PC0032 | device: pc
+I0033	WordCraft	type: installed-program | stack: 0.4.0 | backend: Publisher: Learning Machines LLC | was PC0033 | device: pc
+I0034	C:\Program Files\MuseScore 4\ | MuseScore Studio 4	type: installed-program | stack: 4.7.5.260831071 | backend: Publisher: MuseScore Limited | was PC0034 | device: pc
+I0035	C:\Program Files (x86)\Microsoft Visual Studio\Installer | Microsoft Visual Studio Installer	type: installed-program | stack: 4.10.30.62513 | backend: Publisher: Microsoft Corporation | was PC0035 | device: pc
+I0036	C:\Program Files\GOG Galaxy\ | GOG GALAXY	type: installed-program | stack: 2.1.10.56 | backend: Publisher: GOG.com | was PC0036 | device: pc
+I0037	C:\Program Files\Blender Foundation\Blender 5.2\ | Blender	type: installed-program | stack: 5.2.0 | backend: Publisher: Blender Foundation | was PC0037 | device: pc
+I0038	Xbox Service	type: installed-program | stack: 4.0.300.0 | backend: Publisher: Microsoft Corporation | was PC0038 | device: pc
+I0039	DesignCraft	type: installed-program | stack: 0.5.0 | backend: Publisher: Learning Machines LLC | was PC0039 | device: pc
+I0040	Blackmagic RAW Common Components	type: installed-program | stack: 6.0 | backend: Publisher: Blackmagic Design | was PC0040 | device: pc
+I0041	FilmCraft	type: installed-program | stack: 0.5.0 | backend: Publisher: Learning Machines LLC | was PC0041 | device: pc
+I0042	C:\Program Files\Corsair\Corsair iCUE5 Software | Corsair iCUE5 Software	type: installed-program | stack: 5.52.93 | backend: Publisher: Corsair | was PC0042 | device: pc
+I0043	PhotoCraft	type: installed-program | stack: 0.6.0 | backend: Publisher: Learning Machines LLC | was PC0043 | device: pc
+I0044	C:\Program Files\NVIDIA Corporation\Installer2\Display.NvApp.{94601779-8A49-4FFF-AC94-31C82C3C3A35} | NVIDIA App 11.0.8.299	type: installed-program | stack: 11.0.8.299 | backend: Publisher: NVIDIA Corporation | was PC0044 | device: pc
+I0045	C:\Program Files\NVIDIA Corporation\FrameViewSDK | NVIDIA FrameView SDK 1.8.12612.38276700	type: installed-program | stack: 1.8.12612.38276700 | backend: Publisher: NVIDIA Corporation | was PC0045 | device: pc
+I0046	ArtCraft Launcher	type: installed-program | stack: 0.1.2 | backend: Publisher: Learning Machines LLC | was PC0046 | device: pc
+I0047	LightCraft	type: installed-program | stack: 0.5.0 | backend: Publisher: Learning Machines LLC | was PC0047 | device: pc
+I0048	DeckCraft	type: installed-program | stack: 0.4.0 | backend: Publisher: Learning Machines LLC | was PC0048 | device: pc
+I0049	DaVinci Resolve	type: installed-program | stack: 21.1.10010 | backend: Publisher: Blackmagic Design | was PC0049 | device: pc
+I0050	CADCraft	type: installed-program | stack: 0.4.0 | backend: Publisher: Learning Machines LLC | was PC0050 | device: pc
+I0051	DaVinci Resolve Control Panels	type: installed-program | stack: 2.3.5.0 | backend: Publisher: Blackmagic Design | was PC0051 | device: pc
+I0052	SoundCraft	type: installed-program | stack: 0.4.0 | backend: Publisher: Learning Machines LLC | was PC0052 | device: pc
+I0053	C:\Program Files\Microsoft Visual Studio\2022\Community | Visual Studio Community 2022	type: installed-program | stack: 17.14.41 | backend: Publisher: Microsoft Corporation | was PC0053 | device: pc
+I0054	MSI Afterburner 4.6.6	type: installed-program | stack: 4.6.6 | backend: Publisher: MSI Co., LTD | was PC0054 | device: pc
+I0055	C:\Program Files (x86)\Battle.net | Battle.net	type: installed-program | backend: Publisher: Blizzard Entertainment | was PC0055 | device: pc
+I0056	C:\Program Files\BraveSoftware\Brave-Browser\Application | Brave	type: installed-program | stack: 156.1.98.63 | backend: Publisher: Brave Software Inc | was PC0056 | device: pc
+I0057	C:\Program Files (x86)\Microsoft\Edge\Application | Microsoft Edge	type: installed-program | stack: 156.0.4314.58 | backend: Publisher: Microsoft Corporation | was PC0057 | device: pc
+I0058	C:\Program Files (x86)\Overwolf\ | Overwolf	type: installed-program | stack: 0.311.1.6 | backend: Publisher: Overwolf Ltd. | was PC0058 | device: pc
+I0059	RivaTuner Statistics Server 7.3.7	type: installed-program | stack: 7.3.7 | backend: Publisher: Unwinder | was PC0059 | device: pc
+I0060	Steam	type: installed-program | stack: 2.10.91.91 | backend: Publisher: Valve Corporation | was PC0060 | device: pc
+I0061	Unity 2022.3.22f1	type: installed-program | stack: 2022.3.22f1 | backend: Publisher: Unity Technologies ApS | was PC0061 | device: pc
+I0062	C:\Program Files\Windhawk | Windhawk v1.7.3	type: installed-program | stack: 1.7.3 | backend: Publisher: Ramen Software | was PC0062 | device: pc
+I0063	Epic Online Services	type: installed-program | stack: 5.8.0 | backend: Publisher: Epic Games, Inc. | was PC0063 | device: pc
+I0064	Microsoft Visual C++ 2013 Redistributable (x64) - 12.0.40664	type: installed-program | stack: 12.0.40664.0 | backend: Publisher: Microsoft Corporation | was PC0064 | device: pc
+I0065	Microsoft Visual C++ 2013 Redistributable (x64) - 12.0.30501	type: installed-program | stack: 12.0.30501.0 | backend: Publisher: Microsoft Corporation | was PC0065 | device: pc
+I0066	Microsoft Visual C++ v14 Redistributable (x64) - 14.51.36247	type: installed-program | stack: 14.51.36247.0 | backend: Publisher: Microsoft Corporation | was PC0066 | device: pc
+I0067	Windows SDK AddOn	type: installed-program | stack: 10.1.0.0 | backend: Publisher: Microsoft Corporation | was PC0067 | device: pc
+I0068	vs_CoreEditorFonts	type: installed-program | stack: 17.7.40001 | backend: Publisher: Microsoft Corporation | was PC0068 | device: pc
+I0069	Microsoft Visual C++ 2012 Redistributable (x86) - 11.0.61030	type: installed-program | stack: 11.0.61030.0 | backend: Publisher: Microsoft Corporation | was PC0069 | device: pc
+I0070	Microsoft Visual C++ v14 Redistributable (x86) - 14.51.36247	type: installed-program | stack: 14.51.36247.0 | backend: Publisher: Microsoft Corporation | was PC0070 | device: pc
+I0071	Chrome Remote Desktop Host	type: installed-program | stack: 154.0.8037.40 | backend: Publisher: Google LLC | was PC0071 | device: pc
+I0072	Microsoft Visual C++ 2013 Redistributable (x86) - 12.0.40664	type: installed-program | stack: 12.0.40664.0 | backend: Publisher: Microsoft Corporation | was PC0072 | device: pc
+I0073	Aurora	type: installed-program | stack: 1.0.3 | backend: Publisher: Aurora | was PC0073 | device: pc
+I0074	Windows Software Development Kit - Windows 10.0.26100.7705	type: installed-program | stack: 10.1.26100.7705 | backend: Publisher: Microsoft Corporation | was PC0074 | device: pc
+I0075	Microsoft Visual C++ 2012 Redistributable (x64) - 11.0.61030	type: installed-program | stack: 11.0.61030.0 | backend: Publisher: Microsoft Corporation | was PC0075 | device: pc
+I0076	Microsoft XNA Framework Redistributable 4.0 Refresh	type: installed-program | stack: 4.0.30901.0 | backend: Publisher: Microsoft Corporation | was PC0076 | device: pc
+I0077	Python Launcher	type: installed-program | stack: 3.14.7150.0 | backend: Publisher: Python Software Foundation | was PC0077 | device: pc
+I0078	Final Draft	type: installed-program | stack: 13.5.0.123 | backend: Publisher: Cast & Crew Production Software, LLC | was PC0078 | device: pc
+I0079	Microsoft Visual C++ 2010  x86 Redistributable - 10.0.40219	type: installed-program | stack: 10.0.40219 | backend: Publisher: Microsoft Corporation | was PC0079 | device: pc
+I0080	Corsair iCUE 5 VHID Drivers v3.0.88.9	type: installed-program | stack: 3.0.88.9 | backend: Publisher: Corsair Memory | was PC0080 | device: pc
+I0081	Kimi	type: installed-program | stack: 3.1.6 | backend: Publisher:  | was PC0081 | device: pc
+I0082	ComfyUI	type: installed-program | stack: 1.0 | backend: Publisher: BraveSoftware\Brave-Browser | was PC0082 | device: pc
+I0083	25x125 0.1.0	type: installed-program | stack: 0.1.0 | backend: Publisher: Marlon Lee | was PC0083 | device: pc
+I0084	C:\Users\imarl\AppData\Local\ArtCraft | ArtCraft	type: installed-program | stack: 0.41.0 | backend: Publisher: artcraft | was PC0084 | device: pc
+I0085	CurseForge 1.322.0-40357	type: installed-program | stack: 1.322.0-40357 | backend: Publisher: Overwolf | was PC0085 | device: pc
+I0086	C:\Users\imarl\AppData\Local\Discord | Discord	type: installed-program | stack: 1.0.9260 | backend: Publisher: Discord Inc. | was PC0086 | device: pc
+I0087	Contractor Foreman User Panel	type: installed-program | stack: 1.0 | backend: Publisher: BraveSoftware\Brave-Browser | was PC0087 | device: pc
+I0088	Wan2GP Desktop Launcher 2.4.5	type: installed-program | stack: 2.4.5 | backend: Publisher: GKartist75 | was PC0088 | device: pc
+I0089	C:\Users\imarl\AppData\Local\GitHubDesktop | GitHub Desktop	type: installed-program | stack: 3.6.3 | backend: Publisher: GitHub, Inc. | was PC0089 | device: pc
+I0090	C:\Users\imarl\AppData\Local\Grammarly\DesktopIntegrations | Grammarly for Windows	type: installed-program | stack: 1.2.309.1995 | backend: Publisher: Grammarly Inc. | was PC0090 | device: pc
+I0091	C:\Users\imarl\AppData\Local\itch | itch	type: installed-program | stack: 26.22.0 | backend: Publisher: itch corp. | was PC0091 | device: pc
+I0092	Microsoft OneDrive	type: installed-program | stack: 26.195.1006.0007 | backend: Publisher: Microsoft Corporation | was PC0092 | device: pc
+I0093	C:/Riot Games/League of Legends | League of Legends	type: installed-program | backend: Publisher: Riot Games, Inc | was PC0093 | device: pc
+I0094	C:/Riot Games/Riot Client | Riot Client 	type: installed-program | backend: Publisher: Riot Games, Inc | was PC0094 | device: pc
+I0095	C:/Riot Games/Teamfight Tactics/Live | Teamfight Tactics	type: installed-program | backend: Publisher: Riot Games, Inc | was PC0095 | device: pc
+I0096	C:\Users\imarl\AppData\Local\Programs\Ollama\ | Ollama version 0.40.6	type: installed-program | stack: 0.40.6 | backend: Publisher: Ollama | was PC0096 | device: pc
+I0097	C:\Users\imarl\AppData\Roaming\Telegram Desktop\ | Telegram Desktop	type: installed-program | stack: 6.0.2 | backend: Publisher: Telegram FZ-LLC | was PC0097 | device: pc
+I0098	Python 3.14.7 (64-bit)	type: installed-program | stack: 3.14.7150.0 | backend: Publisher: Python Software Foundation | was PC0098 | device: pc

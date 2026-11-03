@@ -1,0 +1,215 @@
+{
+ "proxy_language": "Old Norse (Old West Norse / Old Icelandic normalised orthography), with Proto-Germanic reconstructions as a fallback for archaic or pan-Germanic flavour",
+ "confidence": "medium",
+ "proxy_rationale": "The Ash-Tree Court is a later court culture in Scandinavia and Germania whose name evokes Yggdrasill, the world-ash (askr Yggdrasils). Old Norse is the best-attested North Germanic language of the region and is the standard scholarly proxy; names built in normalised Old Norse (Zoega, Cleasby-Vigfusson, Gordon-Taylor) will read as authentic. Continental or older flavour can be drawn from Proto-Germanic (*askaz 'ash'). Confidence is medium because the culture is a game construct, not a documented polity, and the exact dialect and period are unspecified.",
+ "phonology": "Normalised Old Norse. Vowels: short a e i o u y, plus ø/ǫ (written ǫ or ö, ø); long á é í ó ú ý æ ǿ; diphthongs au ei ey. Consonants: stops p b t d k g; fricatives f v þ ð s h; sonorants m n l r j; geminates (tt, kk, ll, nn, rr, ss, mm, pp, ff). Voiceless fricatives f þ s plus voiced allophones (ð, v, g-fricative) in intervocalic position are conventionally written as f/ð/g. Initial stress on the root syllable.",
+ "phonotactics": "Syllable shapes (C)(C)V(V)(C)(C); stress on first syllable. Initial clusters include sk, sp, st, sl, sn, sm, sv, kl, kn, kr, gl, gn, gr, bl, br, dr, fl, fr, hl, hn, hr, hv, þr, tr, tv, pl, pr. Final clusters common: -nd, -ng, -nn, -rn, -rð, -ld, -lf, -lk, -mb, -rk, -st, -sk, -ft, -kt. Native masculine nouns usually end in -r (assimilated to -l, -n, -s after l, n, s; lost after r in some forms: fiskr, steinn, ísl; -r is the nominative marker). No word-initial ð; þ, ð not interchangeable (þ initial, ð medial/final). Vowels i, e, y alternate by umlaut.",
+ "orthography": "Normalised Old Norse as in Zoega / Gordon: á é í ó ú ý æ ǿ ǫ ø, þ and ð retained, au ei ey as diphthongs. In plain Latin-script game use, ASCII fallbacks: þ to th, ð to d, ǫ to o, ø to o, æ to ae are acceptable but accented forms are preferred. Nominative -r, genitive -s or -ar (m), -ar (f), -s (n); plurals -ar, -ir, -ar, -a.",
+ "morphology": "Inflected Germanic language with 4 cases (nominative, accusative, dative, genitive), 3 genders (m, f, n), strong and weak noun declensions, definite article suffixed (-inn, -in, -it; e.g. askrinn 'the ash'). Verbs: strong (ablaut) and weak; infinitive in -a (kalla, fara). Agentive nouns in -ari (smiðr 'smith'), abstract -nd, -ing, -ska, -leikr, -dómr, -skapr, -ligr 'adj'. Weak masculine nouns in -i (gen -a): Yggdrasill, hrafni; weak feminine in -a (gen -u): sól, Frigg; names often bear -r, -i, -a, -n.",
+ "compounding": "Germanic head-final (right-headed) compounds: determinant + head, with the first element in stem or genitive form: askr-tré 'ash-tree', hofþing 'court-chief', dróttinn 'lord', konungsgarðr 'king's court'. Genitive constructions: head + genitive of possessor (garðr konungs 'the king's yard', also konungsgarðr as compound). Agent names: -smiðr, -vörðr 'warden', -maðr 'man', -gjafi 'giver', -bani 'slayer', -hirð 'retinue'. Place names often end in -heimr, -garðr, -staðir, -vin, -ey, -nes, -dalr, -fjǫrðr, -hóll, -skógr. Kennings: 'X of Y' realised as genitive compound or phrase.",
+ "noun_phrase_order": "Adjective normally precedes noun in indefinite phrases (góðr konungr) and follows or precedes with suffixed article (inn góði konungr or konungrinn góði). Genitive follows head noun in phrases (hǫll konungs) or precedes in compounds (konungshǫll). Demonstratives and articles: sá, inn precede; -inn is suffixed.",
+ "attested_roots": [
+  {
+   "form": "askr",
+   "gloss": "ash-tree; also 'ash' (spear shaft)",
+   "reconstructed": false
+  },
+  {
+   "form": "tré",
+   "gloss": "tree, wood",
+   "reconstructed": false
+  },
+  {
+   "form": "hǫll",
+   "gloss": "hall",
+   "reconstructed": false
+  },
+  {
+   "form": "garðr",
+   "gloss": "yard, enclosure, court",
+   "reconstructed": false
+  },
+  {
+   "form": "konungr",
+   "gloss": "king",
+   "reconstructed": false
+  },
+  {
+   "form": "hirð",
+   "gloss": "royal retinue, court",
+   "reconstructed": false
+  },
+  {
+   "form": "þing",
+   "gloss": "assembly, thing",
+   "reconstructed": false
+  },
+  {
+   "form": "dróttinn",
+   "gloss": "lord, chieftain",
+   "reconstructed": false
+  },
+  {
+   "form": "rót",
+   "gloss": "root",
+   "reconstructed": false
+  },
+  {
+   "form": "lauf",
+   "gloss": "leaf",
+   "reconstructed": false
+  },
+  {
+   "form": "grein",
+   "gloss": "branch",
+   "reconstructed": false
+  },
+  {
+   "form": "brunnr",
+   "gloss": "well, spring",
+   "reconstructed": false
+  },
+  {
+   "form": "skógr",
+   "gloss": "forest",
+   "reconstructed": false
+  },
+  {
+   "form": "vǫrðr",
+   "gloss": "guardian, warden",
+   "reconstructed": false
+  },
+  {
+   "form": "hrafn",
+   "gloss": "raven",
+   "reconstructed": false
+  },
+  {
+   "form": "*askaz",
+   "gloss": "ash-tree (Proto-Germanic)",
+   "reconstructed": true
+  }
+ ],
+ "worked_examples": [
+  {
+   "english": "Ash-Tree Court",
+   "name": "Askgarðr",
+   "gloss": "ask- 'ash' (stem) + garðr 'yard, court' (head-final compound)"
+  },
+  {
+   "english": "Hall of the King",
+   "name": "Konungshǫll",
+   "gloss": "konung-s 'king (gen.)' + hǫll 'hall' (genitive compound)"
+  },
+  {
+   "english": "Warden of the Well",
+   "name": "Brunnvǫrðr",
+   "gloss": "brunn- 'well' + vǫrðr 'warden' (agent compound)"
+  },
+  {
+   "english": "Forest Assembly",
+   "name": "Skógþing",
+   "gloss": "skóg- 'forest' + þing 'assembly'"
+  },
+  {
+   "english": "Root of the Tree",
+   "name": "Trérót",
+   "gloss": "tré 'tree' + rót 'root'"
+  },
+  {
+   "english": "Raven Retinue",
+   "name": "Hrafnhirð",
+   "gloss": "hrafn- 'raven' + hirð 'retinue, court'"
+  }
+ ],
+ "allowed_graphemes": [
+  "a",
+  "á",
+  "b",
+  "d",
+  "ð",
+  "e",
+  "é",
+  "f",
+  "g",
+  "h",
+  "i",
+  "í",
+  "j",
+  "k",
+  "l",
+  "m",
+  "n",
+  "o",
+  "ó",
+  "ǫ",
+  "ø",
+  "p",
+  "r",
+  "s",
+  "t",
+  "u",
+  "ú",
+  "v",
+  "y",
+  "ý",
+  "æ",
+  "þ",
+  "au",
+  "ei",
+  "ey",
+  "sk",
+  "st",
+  "hr",
+  "hl",
+  "hv",
+  "kn",
+  "gn",
+  "þr",
+  "fr",
+  "br",
+  "dr",
+  "tr",
+  "ng",
+  "nd",
+  "rð",
+  "ll",
+  "nn",
+  "rr",
+  "ss",
+  "mm",
+  "kk",
+  "tt"
+ ],
+ "extra_allowed_chars": " -'",
+ "forbidden_patterns": [
+  "[cqwxz]",
+  "(.)\\1\\1",
+  "^ð",
+  "[aeiouyáéíóúýæǫø]{4,}",
+  "^[bcdfghjklmnpqrstvwxz]{4,}",
+  "[^aeiouyáéíóúýæǫø\\s-]{5,}",
+  "kh|ph|gh|sh|ch|ts|tz"
+ ],
+ "syllables_per_word": [
+  1,
+  2,
+  3,
+  4
+ ],
+ "max_word_length": 16,
+ "sources": [
+  "Zoëga, G. T., A Concise Dictionary of Old Icelandic (1910)",
+  "Cleasby, R. & Vigfusson, G., An Icelandic-English Dictionary (1874)",
+  "Gordon, E. V. & Taylor, A. R., An Introduction to Old Norse (2nd ed., 1957)",
+  "Barnes, M., A New Introduction to Old Norse (2004)",
+  "Heggstad, L., Hødnebø, F. & Simensen, E., Norrøn ordbok",
+  "Kroonen, G., Etymological Dictionary of Proto-Germanic (2013)",
+  "Wiktionary Proto-Germanic and Old Norse reconstruction/entry pages",
+  "Glottolog (Old Norse; North Germanic)"
+ ],
+ "notes": "No word may be identical to a Modern Irish, Scottish Gaelic or Manx word. Old Norse here is a proxy for a later Scandinavian-Germanic court culture, not a claim that the Ash-Tree Court spoke exactly this dialect. Prefer compounds of ask-/tré/garðr/hirð/þing/hǫll with weak or strong noun endings (-r, -i, -a). The current placeholder names (Vemo hamxiko, Hiho pisi, Rage, Voma, Vibaja, Mexe) are not Norse-like (they contain x, vowel-final CVCV shapes, no Germanic clusters) and should be replaced. For a pan-Germanic or older flavour, Proto-Germanic forms (*askaz, *garđaz, *haraz) may be used with asterisk notation avoided in final names.",
+ "unit": "The Ash-Tree Court",
+ "slug": "the_ash_tree_court",
+ "model": "claude-sonnet-5-5"
+}

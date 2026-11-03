@@ -1,0 +1,167 @@
+{
+ "proxy_language": "Proto-Chibchan / Barbacoan-Paezan reconstruction (Chibchan-centered, Lower Central American/Colombian Pacific branch), with Quechua-substrate caution",
+ "confidence": "speculative",
+ "proxy_rationale": "Las Vegas culture (c. 10,000-6,600 BP, Santa Elena Peninsula) is known only archaeologically; its language is unattested and unrecoverable. The most defensible weak proxies are the Chibchan family (Constenla Umana 1981, Pache and colleagues) and neighbouring Barbacoan languages (Cayapa/Chachi, Tsafiki/Colorado), the only non-Quechuan, non-Cariban families plausibly rooted in the Ecuadorian coast and northern Andes. The link is extremely tenuous: 8,000+ years of time depth, with later Quechua, Cara and Manteno overlays.",
+ "phonology": "Modelled on Proto-Chibchan (Constenla Umana 1981; Pache 2018) with Barbacoan flavour. Consonants: p t k, b d g (limited), ts tsh/ch, s, h, m n, l r, w y; an implosive/glottal element is often reconstructed. Vowels: i e a o u, with a central vowel written ɨ/u-bar in Chibchan; nasal and long vowels appear in daughters. Tone absent in the reconstruction (Barbacoan Tsafiki has a pitch accent). Treat all values as heuristic.",
+ "phonotactics": "Mostly open syllables CV, CVC, V. Word-initial single consonants only, no initial clusters. Medial clusters limited to nasal+stop (mb nd ng), s/h+stop, or liquid+stop across a syllable boundary. Final consonants limited to n, s, k, l, r, and vowels are most frequent. No long consonant clusters; roots typically 1-2 syllables, derived words 2-3.",
+ "orthography": "Practical Latin transliteration of the Chibchan/Barbacoan tradition: p t k b d g ch ts s h m n l r w y; vowels a e i o u, with ɨ written as 'ü' or 'ii'. Glottal stop as an apostrophe. No q, x, f, v, z, j. This is a reconstruction-style spelling, not an attested orthography.",
+ "morphology": "Proto-Chibchan is agglutinating with SOV order, mostly suffixing, postpositions, and a small set of nominal suffixes: plural/collective (-ka/-ko type), locative (-ba/-ka, 'place'), genitive by juxtaposition with possessor first. Roots are monosyllabic or disyllabic; reduplication is attested in Chibchan for plurality and intensity. No grammatical gender; some animacy marking.",
+ "compounding": "Compounding is by juxtaposition, with the modifier or possessor first and the head last (Chibchan and Barbacoan pattern). 'X of Y' is Y + X; 'Y-maker' is Y + agentive/verb root with a nominalizer such as -wa or -ka; place names take a locative suffix -ba/-ka; no linker is required, though a vowel may be inserted to split clusters (e.g., -a- or -i-).",
+ "noun_phrase_order": "Modifier-head: possessor/genitive before head noun, adjective or attributive before noun, numeral before noun; function morphemes follow the noun as suffixes.",
+ "attested_roots": [
+  {
+   "form": "*ts(h)ɨ",
+   "gloss": "water (Chibchan *ɨ-/*ts(h)ɨ, uncertain shape)",
+   "reconstructed": true
+  },
+  {
+   "form": "*kwa",
+   "gloss": "house, dwelling (Chibchan *kwa/*ka)",
+   "reconstructed": true
+  },
+  {
+   "form": "*ku",
+   "gloss": "house, place (Chibchan variants)",
+   "reconstructed": true
+  },
+  {
+   "form": "*ba",
+   "gloss": "locative / place, also mother in some branches",
+   "reconstructed": true
+  },
+  {
+   "form": "*ika",
+   "gloss": "fire",
+   "reconstructed": true
+  },
+  {
+   "form": "*kĩ",
+   "gloss": "stone, rock (Chibchan *ki-/*ku-, approximate)",
+   "reconstructed": true
+  },
+  {
+   "form": "*suku",
+   "gloss": "sun / day (Chibchan *su, *sɨ-)",
+   "reconstructed": true
+  },
+  {
+   "form": "*ts(h)ik",
+   "gloss": "moon, month (Chibchan *kuki, uncertain)",
+   "reconstructed": true
+  },
+  {
+   "form": "*wa",
+   "gloss": "agentive/nominal suffix, 'one who' (Chibchan -wa)",
+   "reconstructed": true
+  },
+  {
+   "form": "*ka",
+   "gloss": "plural/collective suffix (Chibchan -ka)",
+   "reconstructed": true
+  },
+  {
+   "form": "*tsi",
+   "gloss": "person, human (Chibchan *tsi/*si)",
+   "reconstructed": true
+  },
+  {
+   "form": "*ma",
+   "gloss": "mother, female (Chibchan *ma)",
+   "reconstructed": true
+  },
+  {
+   "form": "*ko",
+   "gloss": "deer/animal (Chibchan *ko-, uncertain)",
+   "reconstructed": true
+  },
+  {
+   "form": "*na",
+   "gloss": "tree, wood (Chibchan *na-, uncertain)",
+   "reconstructed": true
+  }
+ ],
+ "worked_examples": [
+  {
+   "english": "River Stew",
+   "name": "Tsiba kunaka",
+   "gloss": "water-place + food/cook-COLL (compound, modifier first)"
+  },
+  {
+   "english": "Temple of the Sun",
+   "name": "Suku kuba",
+   "gloss": "sun + house-LOC"
+  },
+  {
+   "english": "Stone Axe",
+   "name": "Kikina",
+   "gloss": "stone + tool (-na)"
+  },
+  {
+   "english": "Fire Maker",
+   "name": "Ikawa",
+   "gloss": "fire + AGENT (-wa)"
+  },
+  {
+   "english": "People of the Mangrove Place",
+   "name": "Tsika naba",
+   "gloss": "person-COLL + tree-LOC"
+  },
+  {
+   "english": "Moon House",
+   "name": "Tsikuku",
+   "gloss": "moon + house"
+  }
+ ],
+ "allowed_graphemes": [
+  "a",
+  "e",
+  "i",
+  "o",
+  "u",
+  "p",
+  "t",
+  "k",
+  "b",
+  "d",
+  "g",
+  "ch",
+  "ts",
+  "s",
+  "h",
+  "m",
+  "n",
+  "l",
+  "r",
+  "w",
+  "y",
+  "ng",
+  "mb",
+  "nd"
+ ],
+ "extra_allowed_chars": " -'",
+ "forbidden_patterns": [
+  "[qxfvzjc](?!h)",
+  "(.)\\1\\1",
+  "^[^aeiou ]{3,}",
+  "[^aeiou ]{4,}",
+  "ii{2,}",
+  "[aeiou]{4,}"
+ ],
+ "syllables_per_word": [
+  2,
+  3
+ ],
+ "max_word_length": 14,
+ "sources": [
+  "Constenla Umana, Adolfo. 1981. Comparative Chibchan Phonology (PhD diss., University of Pennsylvania)",
+  "Pache, Matthias. 2018. Contributions to Chibchan Historical Linguistics (Leiden/LOT)",
+  "Curnow, Timothy and Liddicoat, Anthony. 1998. The Barbacoan Languages of Colombia and Ecuador. Anthropological Linguistics",
+  "Dickinson, Connie. 2002. Complex Predicates in Tsafiki (PhD diss., University of Oregon)",
+  "Stothert, Karen. 1985. The Preceramic Las Vegas Culture of Coastal Ecuador. American Antiquity",
+  "Glottolog and ASJP databases (Chibchan, Barbacoan)"
+ ],
+ "notes": "The Las Vegas culture language is entirely unknown; names are speculative and flavoured by Chibchan/Barbacoan phonotactics only. Most roots are reconstructed or approximate and should be marked as such. Quechua, Spanish and other modern words should be avoided. No word may be identical to a Modern Irish, Scottish Gaelic or Manx word, since the language is not Goidelic.",
+ "unit": "Las Vegas culture",
+ "slug": "las_vegas_culture",
+ "model": "claude-sonnet-5-5"
+}

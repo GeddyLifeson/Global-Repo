@@ -1,0 +1,188 @@
+{
+ "proxy_language": "Proto-Bantu (reconstructed, with Swahili and Zulu as attested Bantu models); Nilotic cattle-herding vocabulary as a secondary layer",
+ "confidence": "low",
+ "proxy_rationale": "The label 'Rift-and-Cattle Court' evokes later East/southern African pastoralist-agricultural states (e.g. Great Lakes kingdoms such as Buganda, Bunyoro and Nkore, Great Zimbabwe-era Shona courts, Nguni and Sotho chiefdoms) where cattle are central to wealth and kingship. No single attested language fits, so Bantu is the most defensible family: Proto-Bantu reconstructions (Meeussen 1967, Bantu Lexical Reconstructions) plus well-documented living languages (Swahili, Zulu, Shona, Luganda) supply real morphology. The link to any specific court is weak, hence low confidence.",
+ "phonology": "Typical Bantu 5-vowel system /a e i o u/ (some languages have 7; Proto-Bantu had 7: *i *e *a *o *u plus *\\u1ecb *\\u0169 super-high vowels). Consonants: voiceless stops p t k, voiced b d g (many languages), prenasalised stops mb nd ng, nj, nasals m n ny ng', fricatives f v s z sh h, affricates ch j, liquids l (r), glides w y. Click consonants (c q x) only in Nguni/Southern Bantu contact zones. Many languages have tone (not marked in ordinary orthography); Swahili has penultimate stress.",
+ "phonotactics": "Strictly open syllables (C)V; no consonant clusters other than prenasalised stop units (NC) and C+glide (Cw, Cy, e.g. kwa, mbwa, nya). Words end in a vowel. Syllable shapes: V, CV, NCV, CGV. Nasal syllabic m/n possible before another consonant at morpheme edge (mtu, mbuzi). Vowel hiatus is common (kuona, ua); vowel sequences often resolve by glide formation (w/y). Stress usually penultimate; tone not written.",
+ "orthography": "Standard Bantu Latin practice (Swahili/Zulu/Shona style): a e i o u; b ch d dh f g h j k l m n ng ng' ny p r s sh t th v w y z; prenasalised mb nd ng nj nz mv. Reconstructed Proto-Bantu forms written with asterisk and Meeussen notation (e.g. *-n\\u0254\\u0301ng\\u0254, *-g\\u0254\\u0301mb\\u025b), but game names should be plain attested-style Latin forms. Noun-class prefix is written attached to the root (mtu, watu, ngombe, kiti).",
+ "morphology": "Agglutinative; nouns consist of noun-class prefix + root (Proto-Bantu classes 1/2 mu-/ba- persons, 3/4 mu-/mi- trees and things, 5/6 di-/ma- augmentative and masses, 7/8 ki-/bi- (Swahili ki-/vi-) tools and diminutives, 9/10 N-/N- animals and loans, 11 lu-/u-, 12 ka-/tu- diminutive, 14 bu-/u- abstracts, 15 ku- infinitives, 16-18 locatives pa- ku- mu-). Verbs: subject prefix + tense + root + extensions (-ik- stative, -ish- causative, -an- reciprocal, -w- passive) + final vowel -a. Agent nouns: mu-/wa- + verb stem + -i or -a (mfanyi, muvuvi). Places are formed with locative suffix -ni (Swahili) or prefix + stem. Reduplication marks intensity or diminutive.",
+ "compounding": "True compounding is limited; instead, relations are expressed with associative (genitive) constructions: head noun + associative marker -a- with class agreement (class 7 cha, class 9 ya, class 1 wa, class 5 la, class 3 wa, class 6 ya, class 8 vya, class 11 wa, class 14 wa, class 15 kwa) + possessor noun. 'X of Y' = X + agreeing -a + Y (kiti cha mfalme 'throne of the king'). 'Y-maker' = mu- + verb stem + -i, or mu- + noun for the practitioner (mchungaji 'herder'). Descriptive names put the head first, followed by qualifiers.",
+ "noun_phrase_order": "Head-initial: Noun + associative phrase / possessive / adjective / demonstrative (kiti kikubwa 'big chair'; ng'ombe wa mfalme 'cattle of the king'). Adjectives and possessives agree with the noun class via concord prefix. Numerals and demonstratives follow the noun.",
+ "attested_roots": [
+  {
+   "form": "ng'ombe",
+   "gloss": "cow, cattle (Swahili); cf. *-g\\u0254\\u0301mb\\u025b",
+   "reconstructed": false
+  },
+  {
+   "form": "inkomo",
+   "gloss": "cow, head of cattle (Zulu; also izinkomo plural)",
+   "reconstructed": false
+  },
+  {
+   "form": "mfalme",
+   "gloss": "king (Swahili, from Arabic)",
+   "reconstructed": false
+  },
+  {
+   "form": "kabaka",
+   "gloss": "king of Buganda (Luganda)",
+   "reconstructed": false
+  },
+  {
+   "form": "nkosi",
+   "gloss": "chief, lord, king (Zulu; cf. inkosi)",
+   "reconstructed": false
+  },
+  {
+   "form": "mtu",
+   "gloss": "person (Swahili; cf. *-nt\\u00f9)",
+   "reconstructed": false
+  },
+  {
+   "form": "nyumba",
+   "gloss": "house (Swahili; Proto-Bantu *-yumba)",
+   "reconstructed": false
+  },
+  {
+   "form": "maji",
+   "gloss": "water (Swahili; Proto-Bantu *-nz\\u00ed)",
+   "reconstructed": false
+  },
+  {
+   "form": "moto",
+   "gloss": "fire (Swahili; Proto-Bantu *-t\\u00f3t\\u00f3)",
+   "reconstructed": false
+  },
+  {
+   "form": "mlima",
+   "gloss": "mountain, hill (Swahili)",
+   "reconstructed": false
+  },
+  {
+   "form": "ziwa",
+   "gloss": "lake (Swahili)",
+   "reconstructed": false
+  },
+  {
+   "form": "mto",
+   "gloss": "river (Swahili)",
+   "reconstructed": false
+  },
+  {
+   "form": "mchungaji",
+   "gloss": "herder, shepherd (Swahili; chunga 'herd')",
+   "reconstructed": false
+  },
+  {
+   "form": "nyama",
+   "gloss": "meat, animal (Swahili; cf. *-n\\u00e1m\\u00e1)",
+   "reconstructed": false
+  },
+  {
+   "form": "kiti",
+   "gloss": "chair, seat, throne (Swahili)",
+   "reconstructed": false
+  },
+  {
+   "form": "*-k\\u00ed\\u0301di",
+   "gloss": "to be bitter/sour hence milk variants; use *-t\\u00ed\\u0301ba (milk) as model: Swahili maziwa 'milk'",
+   "reconstructed": true
+  }
+ ],
+ "worked_examples": [
+  {
+   "english": "King's Cattle",
+   "name": "Ng'ombe za Mfalme",
+   "gloss": "cow(10)-PL assoc(10) king(1) \\u2014 'cattle of the king'"
+  },
+  {
+   "english": "Great Lake Court",
+   "name": "Ziwa Kubwa",
+   "gloss": "lake(5) big(5) \\u2014 'big lake', head-initial with concord adjective"
+  },
+  {
+   "english": "Herder of the Hill",
+   "name": "Mchungaji wa Mlima",
+   "gloss": "mu-herd-er(1) assoc(1) mountain(3) \\u2014 'herder of the mountain'"
+  },
+  {
+   "english": "House of the Chief",
+   "name": "Nyumba ya Nkosi",
+   "gloss": "house(9) assoc(9) chief(9) \\u2014 'house of the chief'"
+  },
+  {
+   "english": "River Camp",
+   "name": "Kambi ya Mto",
+   "gloss": "camp(9) assoc(9) river(3) \\u2014 'camp of the river'"
+  },
+  {
+   "english": "Fire Throne",
+   "name": "Kiti cha Moto",
+   "gloss": "throne(7) assoc(7) fire(3) \\u2014 'throne of fire'"
+  }
+ ],
+ "allowed_graphemes": [
+  "a",
+  "e",
+  "i",
+  "o",
+  "u",
+  "b",
+  "ch",
+  "d",
+  "f",
+  "g",
+  "h",
+  "j",
+  "k",
+  "l",
+  "m",
+  "mb",
+  "mv",
+  "n",
+  "nd",
+  "ng",
+  "ng'",
+  "nj",
+  "ny",
+  "nz",
+  "p",
+  "r",
+  "s",
+  "sh",
+  "t",
+  "v",
+  "w",
+  "y",
+  "z"
+ ],
+ "extra_allowed_chars": " '-",
+ "forbidden_patterns": [
+  "[bcdfghjklmnpqrstvwxyz]$",
+  "[^aeiou]{3,}",
+  "(?<![mn])[bcdfghjklpqrstvwxyz]{2,}(?<![bdghjmnpstvyz])$",
+  "q|x|c(?!h)",
+  "([aeiou])\\\\1\\\\1"
+ ],
+ "syllables_per_word": [
+  2,
+  3,
+  4
+ ],
+ "max_word_length": 14,
+ "sources": [
+  "Meeussen, A.E., Bantu Lexical Reconstructions, 1967",
+  "Bastin, Coupez & Mann, Bantu Lexical Reconstructions 3 (BLR3 database, Tervuren)",
+  "Nurse, D. & Philippson, G. (eds.), The Bantu Languages, 2003",
+  "Ashton, E.O., Swahili Grammar, 1944",
+  "Doke, C.M., Textbook of Zulu Grammar, 1927",
+  "Katamba, F., Luganda, in Bantu Languages, 2003",
+  "Fortune, G., Shona Grammatical Constructions, 1955",
+  "Glottolog and ASJP databases for Bantu, Nilotic and Cushitic languages"
+ ],
+ "notes": "No word may be identical to a Modern Irish, Scottish Gaelic or Manx word. Proxy is a broad Bantu pastiche; the real courts in this region spoke many unrelated languages (Nilotic, Cushitic, Bantu), so avoid claiming any specific attested court language. Keep to open syllables, vowel-final words, class-prefix + root structure, and head-initial associative phrases with correct concord (ya/cha/wa/za). A trailing vowel check is the simplest audit: every word must end in a vowel; an apostrophe is only legitimate in ng'. Several roots above are Swahili with Arabic or Bantu-internal origins; they are attested words, but only marked reconstructed where an asterisk form is given. The final root entry is a loose model of a Proto-Bantu shape rather than a firm reconstruction and should be treated cautiously.",
+ "unit": "The Rift-and-Cattle Court",
+ "slug": "the_rift_and_cattle_court",
+ "model": "claude-sonnet-5-5"
+}

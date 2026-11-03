@@ -1,0 +1,186 @@
+{
+ "proxy_language": "Proto-Saharan (Nilo-Saharan, Saharan branch: Kanuri, Teda-Daza, Zaghawa-Beria), with a Berber/Tamasheq-style layer as a secondary, speculative alternative",
+ "confidence": "speculative",
+ "proxy_rationale": "The Early Acacus (c. 10200-8000 BP, Tadrart Acacus, SW Libya) left no linguistic record. Nilo-Saharan (Saharan branch) is a defensible, though highly debated, proxy for Holocene Central Saharan hunter-gatherers (Blench; Bender). Berber (Afroasiatic) is the main competing candidate, but most scholars date its Saharan spread later (pastoral/Garamantian/Late Holocene). Proto-Saharan, reconstructed by Jakobi, Lukas and Cyffer, is the best available proto-language. The link between the archaeological culture and any language is unproven, so all names are plausible-sounding rather than attested.",
+ "phonology": "Proto-Saharan consonants (Cyffer/Jakobi style): stops *p *b *t *d *k *g, affricates *c *j (tS dZ), fricatives *s *z *h, nasals *m *n *ny *ng, liquids *l *r, glides *w *y. Vowels *i *e *a *o *u, with length contrast in modern descendants. Kanuri adds implosive-like and retroflex-ish allophones, with a prenasalized series (mb, nd, ng, nj). Tone is present in Kanuri and Teda-Daza but not marked in standard orthography.",
+ "phonotactics": "Predominantly open or CVC syllables: (C)V(C), with CVC the common root shape. Root forms are usually CVC, CVCV or CVCVC. Consonant clusters occur only across syllable boundaries, often nasal+stop (mb, nd, ng, nj) or liquid+stop. Words rarely begin with a cluster and rarely begin with a vowel. Final consonants are typically sonorants or simple stops (n, r, l, m, k, t). No aspirated stops, so digraphs like th, ph, bh, dh and kh are not native.",
+ "orthography": "Practical Latin transliteration in the style of Kanuri/Teda grammars: c = [tS], j = [dZ], sh = [S], ny = [J], ng = [N], w, y as glides, vowels a e i o u, long vowels doubled (aa, ee) if needed, '*' prefix for reconstructed forms. No diacritics are required. Aspirates and the th/ph/kh/bh/dh digraphs should be avoided.",
+ "morphology": "Agglutinative, predominantly suffixing. Roots are largely monosyllabic or disyllabic. Nouns take plural suffixes (Kanuri -ya, -wa, Teda -a), case or relational suffixes (genitive -ye/-be in Kanuri), and a definite/determiner suffix (-ro, -ben). Verbs take extensive suffixing for tense/aspect. Reduplication is used for intensity, plurality and iterativity. There is no noun-class prefix system as in Niger-Congo.",
+ "compounding": "Compounds are head-final: modifier + head (Kanuri kadai 'goat-kid' type, Teda ko-kinna). Genitive constructions are possessor + possessum, linked by a genitive linker or direct juxtaposition: [owner]-ye [possessed]. Agent nouns use verb root + -ma/-ba (agentive, e.g. Kanuri -ma 'person of'). Place names add suffixes such as -ri / -ni (locative). Descriptive names combine a noun with an adjective or a quality root: [noun][adj].",
+ "noun_phrase_order": "Head-final within the NP: Possessor + Noun; Noun + Adjective (adjective follows noun in Kanuri); Determiner/demonstrative follows the noun; Numeral follows the noun. For game names: [Modifier][Head] compounds, optionally [Possessor]-genitive [Head].",
+ "attested_roots": [
+  {
+   "form": "*kinna",
+   "gloss": "to see/eye-related (Saharan eye root, cf. Kanuri nyim, Teda mi)",
+   "reconstructed": true
+  },
+  {
+   "form": "*ba",
+   "gloss": "water/river (Teda/Zaghawa reflexes, Saharan water root, uncertain)",
+   "reconstructed": true
+  },
+  {
+   "form": "*nyim",
+   "gloss": "eye",
+   "reconstructed": true
+  },
+  {
+   "form": "*ma",
+   "gloss": "mother/female",
+   "reconstructed": true
+  },
+  {
+   "form": "*ka",
+   "gloss": "person/people (Kanuri ka in kam 'person')",
+   "reconstructed": true
+  },
+  {
+   "form": "*kam",
+   "gloss": "person",
+   "reconstructed": true
+  },
+  {
+   "form": "*ndu",
+   "gloss": "sleep/lie (cf. Kanuri ndu)",
+   "reconstructed": true
+  },
+  {
+   "form": "*cim",
+   "gloss": "tooth/mouth (cf. Kanuri cim 'tooth')",
+   "reconstructed": true
+  },
+  {
+   "form": "*tawa",
+   "gloss": "sheep/animal (Teda tawa-like forms)",
+   "reconstructed": true
+  },
+  {
+   "form": "*dala",
+   "gloss": "night/dark",
+   "reconstructed": true
+  },
+  {
+   "form": "*sa",
+   "gloss": "sun/day (cf. Kanuri sa 'time, day')",
+   "reconstructed": true
+  },
+  {
+   "form": "*lan",
+   "gloss": "hill/rock (plausible Saharan root, uncertain)",
+   "reconstructed": true
+  },
+  {
+   "form": "*aya",
+   "gloss": "mother (Kanuri aya)",
+   "reconstructed": false
+  },
+  {
+   "form": "ndo",
+   "gloss": "bush/open land (Kanuri ndo)",
+   "reconstructed": false
+  },
+  {
+   "form": "yim",
+   "gloss": "name (cf. Kanuri ye- 'say, name')",
+   "reconstructed": false
+  }
+ ],
+ "worked_examples": [
+  {
+   "english": "River Stew",
+   "name": "Banduri",
+   "gloss": "ba 'water' + ndu 'lie/rest' + -ri (locative/nominal suffix): 'what rests in water'"
+  },
+  {
+   "english": "Stone Place",
+   "name": "Lanari",
+   "gloss": "lan 'rock' + -ri locative: 'rock-place'"
+  },
+  {
+   "english": "Mother of Sun",
+   "name": "Samaye",
+   "gloss": "sa 'sun' + ma 'mother' + -ye genitive-style ending: 'sun's mother'"
+  },
+  {
+   "english": "Night Person",
+   "name": "Dalakam",
+   "gloss": "dala 'night' + kam 'person': head-final compound"
+  },
+  {
+   "english": "Wide Water Camp",
+   "name": "Bandoni",
+   "gloss": "ba 'water' + ndo 'open land' + -ni locative: 'open-land of water'"
+  },
+  {
+   "english": "Eye of the Hill",
+   "name": "Nyimlanye",
+   "gloss": "nyim 'eye' + lan 'hill' + -ye genitive: head follows possessor in a juxtaposed order"
+  }
+ ],
+ "allowed_graphemes": [
+  "a",
+  "e",
+  "i",
+  "o",
+  "u",
+  "b",
+  "d",
+  "g",
+  "j",
+  "k",
+  "l",
+  "m",
+  "n",
+  "r",
+  "s",
+  "t",
+  "w",
+  "y",
+  "c",
+  "h",
+  "ny",
+  "ng",
+  "sh",
+  "mb",
+  "nd",
+  "nj"
+ ],
+ "extra_allowed_chars": " -",
+ "forbidden_patterns": [
+  "th",
+  "ph",
+  "kh",
+  "bh",
+  "dh",
+  "gh",
+  "[bdgkpt]{2}",
+  "[aeiou]{3}",
+  "q",
+  "x",
+  "v",
+  "f",
+  "z",
+  "^[bcdfgjklmnrstwy]{2}(?!y|w)",
+  "[^aeiouylnrmk]$"
+ ],
+ "syllables_per_word": [
+  2,
+  3,
+  4
+ ],
+ "max_word_length": 11,
+ "sources": [
+  "Jakobi, A. & Lukas, J. - Proto-Saharan reconstruction work (Saharan comparative studies)",
+  "Cyffer, N. - Kanuri grammar and Saharan comparative research",
+  "Cyffer, N. & Hutchison, J. (eds.) - A Dictionary of the Kanuri Language (1990)",
+  "Bender, M.L. - The Nilo-Saharan Languages: A Comparative Essay (1996)",
+  "Blench, R. - Archaeology, Language, and the African Past (2006)",
+  "Wiktionary and Glottolog entries for Proto-Saharan / Saharan languages",
+  "di Lernia, S. (ed.) - The Archaeology of Fezzan and Tadrart Acacus (Libyan Sahara), assorted publications",
+  "Ehret, C. - Reconstructing Proto-Afroasiatic (1995) for the competing Afroasiatic hypothesis"
+ ],
+ "notes": "All names must be understood as speculative: no language is known for the Early Acacus culture. Avoid the aspirated and digraph-heavy shapes in the current game names (Bhuxi, Dhose, Thandini, Yibuph, Khuphi). No word may be identical to a Modern Irish, Scottish Gaelic or Manx word, since the language is not Goidelic. Note that the pattern for final consonants is deliberately restrictive; the final-letter forbidden pattern can be relaxed to allow final vowels (a, e, i, o, u), sonorants and k. Prefer names built from the 10-16 roots plus -ri, -ni, -ye suffixes.",
+ "unit": "Early Holocene Sahara foragers (Early Acacus)",
+ "slug": "early_holocene_sahara_foragers_early_acacus",
+ "model": "claude-sonnet-5-5"
+}

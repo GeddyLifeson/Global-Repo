@@ -1,0 +1,189 @@
+{
+ "proxy_language": "Old Persian (Achaemenid royal inscriptions) as primary proxy, with Avestan and Vedic Sanskrit as comparanda for the Anatolia-to-North-India Iranian/Indo-Aryan court sphere",
+ "confidence": "low",
+ "proxy_rationale": "'Lasuirrìg' is not a known historical ethnonym or language, so no attested language can be asserted. The region (Anatolia to North India) and the 'later court' kind best match the Achaemenid/Iranian imperial court sphere, whose best-attested language is Old Persian (c. 520-330 BCE), with Avestan (eastern Iran) and Vedic/Classical Sanskrit (North India) as nearest relatives. Old Persian is used as the base for the naming grammar; the culture itself is treated as an unattested court language and nothing here is a claim of attestation.",
+ "phonology": "Old Persian: vowels a, i, u, long a:, i:, u: (diphthongs ai, au from monophthongization debate). Consonants: stops p b t d k g; affricates c (/tʃ/), j (/dʒ/); fricatives f, θ, x, s, z, š (/ʃ/), h; nasals m n; liquids r (no distinct l except in loanwords such as Elamite/Babylonian names); glides y v (w). Cuneiform script is a semi-syllabary, so transliteration shows inherent vowels. Comparanda: Avestan adds many vowel and fricative distinctions (x, xv, γ, δ, ə); Vedic adds retroflexes, aspirates and l.",
+ "phonotactics": "Syllable shapes (C)V(C); clusters are common medially (xš, rt, rd, št, θr, ft, hm). Words are often vowel-final in the nominative (-a, -ah, -iš, -uš); inherited word-final consonants were largely lost. Old Persian lacks a phonemic l (a few later loans only). No tone. Stress is not marked in writing.",
+ "orthography": "Standard scholarly Old Persian transliteration (Kent 1953; Schmitt): a i u, long vowels as ā ī ū, c j š θ x. For Latin-script game names, use plain ASCII with optional macrons and the letters š θ c j x; the name 'Lasuirrìg' contains grave-accented ì, so allow ì as a local orthographic marker.",
+ "morphology": "Highly inflected Indo-Iranian: noun stems (a-, i-, u-, ā-, consonant stems) with eight-case-reduced system (nom, acc, gen, dat/loc, abl, voc, instr). Common royal-name formation: second-element -ka, -ya derivation (patronymic/adjective), -ahya genitive singular of a-stems (e.g. Dārayavahauš = Darius, genitive Dārayavahauš). Suffixes: -ka (diminutive/relational), -tā (abstract), -man (action noun), -tar (agent), -a- thematic.",
+ "compounding": "Dvandva rare; determinative (tatpurusha) and possessive (bahuvrihi) compounds are productive. Head typically final: modifier + head (e.g. xšaya-θiya 'king' as 'ruling-one'). Genitive constructions are normally analytic: head noun followed by genitive noun, or the genitive precedes (flexible in inscriptions: 'Xšayāršā xšāyaθiya' = Xerxes the king). Names often compound a theonym/attribute with a verbal or nominal root: Dāraya-vahu 'holding good', Arta-xšaça 'whose kingdom is Truth'. Linking vowel is typically -a- between compound members.",
+ "noun_phrase_order": "Noun-adjective order is common in inscriptions (xšāyaθiya vazraka 'great king'), but adjective-noun is also found; genitive may follow its head ('king of kings' = xšāyaθiya xšāyaθiyānām). Demonstratives precede the noun.",
+ "attested_roots": [
+  {
+   "form": "xšāyaθiya",
+   "gloss": "king",
+   "reconstructed": false
+  },
+  {
+   "form": "xšaça",
+   "gloss": "kingdom, rule",
+   "reconstructed": false
+  },
+  {
+   "form": "vazraka",
+   "gloss": "great",
+   "reconstructed": false
+  },
+  {
+   "form": "arta",
+   "gloss": "truth, order (cf. Vedic ṛta)",
+   "reconstructed": false
+  },
+  {
+   "form": "bagā",
+   "gloss": "god",
+   "reconstructed": false
+  },
+  {
+   "form": "dahyu",
+   "gloss": "land, province",
+   "reconstructed": false
+  },
+  {
+   "form": "vis",
+   "gloss": "house, clan",
+   "reconstructed": false
+  },
+  {
+   "form": "būmi",
+   "gloss": "earth, land",
+   "reconstructed": false
+  },
+  {
+   "form": "θūra",
+   "gloss": "strong (cf. Avestan sūra)",
+   "reconstructed": false
+  },
+  {
+   "form": "hamaranam",
+   "gloss": "battle",
+   "reconstructed": false
+  },
+  {
+   "form": "nāma",
+   "gloss": "name",
+   "reconstructed": false
+  },
+  {
+   "form": "daraya",
+   "gloss": "sea",
+   "reconstructed": false
+  },
+  {
+   "form": "vahu",
+   "gloss": "good",
+   "reconstructed": false
+  },
+  {
+   "form": "āpi",
+   "gloss": "water",
+   "reconstructed": false
+  },
+  {
+   "form": "kāra",
+   "gloss": "army, people",
+   "reconstructed": false
+  },
+  {
+   "form": "hašiya",
+   "gloss": "true",
+   "reconstructed": false
+  }
+ ],
+ "worked_examples": [
+  {
+   "english": "Great King",
+   "name": "Vazraka Xšāyaθiya",
+   "gloss": "vazraka 'great' + xšāyaθiya 'king'"
+  },
+  {
+   "english": "Land of Truth",
+   "name": "Arta Dahyu",
+   "gloss": "arta 'truth' + dahyu 'land'"
+  },
+  {
+   "english": "House of the God",
+   "name": "Vis Bagahya",
+   "gloss": "vis 'house' + baga 'god' + -hya genitive"
+  },
+  {
+   "english": "Good Water",
+   "name": "Vahu Āpi",
+   "gloss": "vahu 'good' + āpi 'water'"
+  },
+  {
+   "english": "Sea of Strength",
+   "name": "Daraya Θūraka",
+   "gloss": "daraya 'sea' + θūra 'strong' + -ka relational"
+  },
+  {
+   "english": "Kingdom of the Great",
+   "name": "Xšaça Vazrakahya",
+   "gloss": "xšaça 'kingdom' + vazraka 'great' + -hya genitive"
+  }
+ ],
+ "allowed_graphemes": [
+  "a",
+  "ā",
+  "i",
+  "ī",
+  "u",
+  "ū",
+  "ai",
+  "au",
+  "p",
+  "b",
+  "t",
+  "d",
+  "k",
+  "g",
+  "c",
+  "j",
+  "f",
+  "θ",
+  "x",
+  "s",
+  "z",
+  "š",
+  "h",
+  "m",
+  "n",
+  "r",
+  "y",
+  "v",
+  "xš",
+  "θr",
+  "th",
+  "sh",
+  "ch"
+ ],
+ "extra_allowed_chars": " -'ìāīūšθ",
+ "forbidden_patterns": [
+  "l",
+  "q",
+  "w",
+  "[aeiou]{4,}",
+  "(.)\\1{3,}",
+  "ng$",
+  "[ptkbdg]{3,}"
+ ],
+ "syllables_per_word": [
+  2,
+  3,
+  4
+ ],
+ "max_word_length": 14,
+ "sources": [
+  "Kent, Roland G. - Old Persian: Grammar, Texts, Lexicon (1953)",
+  "Schmitt, Rüdiger - Die altpersischen Inschriften der Achaimeniden (2009)",
+  "Skjærvø, Prods O. - An Introduction to Old Persian (2003)",
+  "Hoffmann & Forssman - Avestische Laut- und Flexionslehre (2004)",
+  "Mayrhofer, Manfred - Etymologisches Wörterbuch des Altindoarischen (1986-2001)",
+  "Wiktionary Old Persian lexicon and Proto-Indo-Iranian reconstruction pages",
+  "Glottolog entry for Old Persian"
+ ],
+ "notes": "Low confidence: 'Lasuirrìg' is not attested as a language or people, and the string contains l, which Old Persian lacks as a phoneme, so the forbidden pattern 'l' reflects Old Persian rules, not the current game string; names built with this schema will differ from 'Lasuirrìg'. The Anatolia-to-North-India range is wider than Old Persian alone, so Avestan or Vedic Sanskrit forms (retroflexes, l) may be used for eastern court names at the designer's discretion. No word may be identical to a Modern Irish, Scottish Gaelic or Manx word, as this culture is not Goidelic.",
+ "unit": "Lasuirrìg",
+ "slug": "lasuirr_g",
+ "model": "claude-sonnet-5-5"
+}

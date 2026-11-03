@@ -1,0 +1,83 @@
+id	name	path	type	purpose	stack	entry_points	backend	reuse
+LAP-0001	Panscriptum	C:\Users\Marlon\panscriptum	repo	Wiki-sourced assay/feat library with registry terminal, handoff and maintenance docs	Python, JSON, MD	README.md, CLAUDE.md, config.yaml, src/, registry_terminal/	832 md + 728 json data files, secrets baseline, pre-commit	Model for the laptop index layout and the no-ranking index format
+LAP-0002	panscriptum-library-kit	C:\Users\Marlon\panscriptum-library-kit	repo	Portable kit of the Panscriptum library (223 json, 26 gz)	Python, JSON, JS	README.md, CLAUDE.md, requirements.txt	json shards + gz bundles	Copy as the template for any new indexed library
+LAP-0003	Panscriptum worker	C:\Users\Marlon\DiaithirRPG-worker	repo	Worker checkout that scrapes and assays fandom pages into the Panscriptum	Python, JSON, zst, SQLite	CLAUDE.md, requirements.txt	corpus.db, cascade_scratch.db, panscriptum/data/feats (1080 json)	Source of already-fetched fandom page text for pack/mod ideas
+LAP-0004	DiaithirRPG	C:\Users\Marlon\DiaithirRPG	repo	Minecraft-based RPG: engine mod, content worlds, datapacks, tools	Java/Gradle, NeoForge 26.1, Python, JSON/CSV/TSV	engine/build.gradle, content/, mc261-neoforge/, tools/ (chars, cities, economy, lang, mcupdate, modal, kaggle, offload)	datapacks, 137 tsv, 80 csv, tools/compute lanes	Datapack and tool scripts reusable for pack generation and offload jobs
+LAP-0005	diaithir-testserver	C:\Users\Marlon\diaithir-testserver	repo+server	Local NeoForge 26.1 test server (511 jars) with packwiz installer and JDK 25 toolchain	Java 25, Gradle 9.4, NeoForge, KubeJS, packwiz	server/ (run), build_tellus.ps1, repo/, tools/gradle-9.4.0, tools/jdk-25	database.db, server/config, kubejs, mods, world, tellus	Ready test bed: drop jars in server/mods and start; packwiz-installer-bootstrap.jar for pack sync
+LAP-0006	diaithir-laptop	C:\Users\Marlon\diaithir-laptop	repo+app	Diaithir novels, canon tables, saves, Diaithir.exe launcher and MSI inventory	JS (server.js), Python, JSON, md, MCA saves	CLAUDE.md, Diaithir.exe, JOIN.bat, MSI_INVENTORY.md, server.js	diaithir.sqlite, canon/ tables, saves/	MSI_INVENTORY.md is already a machine inventory to merge with this index
+LAP-0007	Diathiris	C:\Users\Marlon\Diathiris	repo	Diaithir series workspace: 1322 md, 1152 mp3, 936 json, svg	md, JSON, SVG, mp3	CLAUDE.md, README.md	diaithir.sqlite	Audio and canon assets for the game
+LAP-0008	Shardfall game	C:\Users\Marlon\shardfall-game	repo	Shardfall game project: Unreal 5 C++ project plus Minecraft side, design docs and data	Unreal Engine C++, Blueprints (546 uasset), Python, CSV	Shardfall.uproject, BUILD.md, CLAUDE.md, Source/, Plugins/, Data/, minecraft/	162 csv data tables, Tools/	Master plan source of truth; Data/ csvs feed tonight's pack
+LAP-0009	Shardfall Unreal	C:\Users\Marlon\shardfall-unreal	repo	Slim Shardfall Unreal repo with instructions to find latest 26.1 mod builds or port or build clean-room	Unreal C++, Python, ini	Shardfall.uproject, CLAUDE.md, Config/, Source/, Tools/	CREDITS.csv	Credits tracking for ported mods
+LAP-0010	port workspace	C:\Users\Marlon\port	build scripts	Clones and gradle-builds mod ports with JDK 21 or 25 and logs to build_log.txt	PowerShell, Gradle	build_ports.ps1	dp (diaithir-compat, diaithir-nemesis), mjl, rfu clones	Rewrite the Step/Clone functions for new targets: git clone --depth 1 -b <branch> then gradlew build with the right JDK
+LAP-0011	bootA	C:\Users\Marlon\bootA	pack workspace	Tech/transport/storage mod sweep: 55 jars, NeoForge installer, Modrinth CSV, PLAN.md	NeoForge 26.1.2, Modrinth data	PLAN.md, PC_TECH_BUILD.md, batchA_modrinth_26.1.2.csv, srv/	srv.out/err logs, 50 listed jars	Direct input for tonight: sections A (add now), B (build from source), C (port), D (clean-room)
+LAP-0012	techb	C:\Users\Marlon\techb	build workspace	Source builds of GregTech Modern, Mekanism, Modern Industrialization, PneumaticCraft, SC2 at 26.1	Gradle (JDK 21/25), NeoForge	build.log, per-mod .out files, GregTech/ Mekanism/ MI/ pnc/ sc2/	40 yml, 20 gradle files	Reuse as build harness and as reference for what already compiled
+LAP-0013	crawl	C:\Users\Marlon\crawl	tools	Real gap list crawl (REAL_GAP.tsv) and pd folder	Python, TSV, YAML	CLAUDE.md, README.md, REAL_GAP.tsv	tsv	Gap list tells which mods/entries still lack a pack counterpart
+LAP-0014	kr	C:\Users\Marlon\kr	repo	Kaggle and Modal compute lanes with engine, gap, out folders	Python, PowerShell, Kaggle, Modal	engine/PROJECT.md, tools/kaggle, tools/modal, JOIN.md	kaggle_ds, kaggle_kernel	Free-GPU/CPU offload for bulk generation without using the laptop
+LAP-0015	assay-job	C:\Users\Marlon\assay-job	job folder	Assay fetch queue: NEEDS_FETCH.tsv, fetched-home.jsonl, fetch.log	TSV, JSONL	NEEDS_FETCH.tsv	-	Queue format example for new fetch jobs
+LAP-0016	marketplace-scoring	C:\Users\Marlon\marketplace-scoring	repo	Marketplace scoring tools and crawl scripts with hidden launcher	Python, PowerShell	tools/backrooms_crawl.py, tools/kit_push.ps1, tools/launch_hidden.ps1, HANDOFF.md	-	launch_hidden.ps1 is the pattern for windowless runs
+LAP-0017	merge-all-prs	C:\Users\Marlon\merge-all-prs	desktop script	Desktop shortcut that merges open PRs, hidden via wscript	VBScript, PowerShell, gh CLI	merge-all-prs.vbs, merge-all-prs.ps1, Desktop Merge All PRs.lnk	merge-all-prs.log	Template for any one-double-click hidden desktop job
+LAP-0018	merge-drafts	C:\Users\Marlon\merge-drafts	script	Draft merge helper	PowerShell	merge-drafts ps1	-	Pair with merge-all-prs
+LAP-0019	code-library	C:\Users\Marlon\code-library	repo	Reusable code library (362-line INDEX.md): js, python, sql, web, tooling	JS, Python, SQL, Supabase	INDEX.md, PACKAGES.md, CLAUDE.md	sql schemas (supabase social app, storage, RLS)	Grep INDEX.md before writing any code
+LAP-0020	Myth and Blood	C:\Users\Marlon\Myth-and-Blood	game	Browser fantasy tactical defense game, Electron build, mod API	JS (mjs), Electron, HTML	index.html, js/, mods/, scripts/	data/ JSON, mods API	Mod API pattern, sim reports, JSON-driven content
+LAP-0021	NEON VICE Cartel Wars	C:\Users\Marlon\neon-vice-cartel-wars	game	Vanilla JS HTML5 RTS, no build step	JS, Node test harness	index.html, js/ (15 files in order), test/	golden fixtures	Headless test harness pattern for a game
+LAP-0022	Settlement Defense web	C:\Users\Marlon\settlement-defense-web	game	JS port of Unity colony-defense sim	JS, Python build.py	src/, build.py, SESSION_HANDOFF.md	-	Bundle-and-handoff pattern
+LAP-0023	Reeli	C:\Users\Marlon\reeli	app	Movie head-to-head ranking app, PWA	JS (mjs), Supabase SQL	README.md	supabase-*.sql schemas	Pairwise ranking module and Supabase schema
+LAP-0024	Polyglot Voyager	C:\Users\Marlon\Polyglot-Game	game	Language-learning game, localized, audio manifest (4143 ogg)	HTML/JS, Python build.py, Makefile, qa/*.js	index.html, build.py, tools/	audio/manifest.json, l10n/<lang>.json	Content-to-HTML build pipeline and audio embedding
+LAP-0025	Bounce on it	C:\Users\Marlon\Bounce-on-it	game	Unity project	Unity C#	Assets/, ProjectSettings/	-	Unity scaffold
+LAP-0026	BattleScribe data	C:\Users\Marlon\BattleScribe	data	Tabletop army data (110 catz, 13 rosz)	XML zips	.catz/.gstz files	-	Parse as zipped XML for rules data
+LAP-0027	Literally Everything for DND	C:\Users\Marlon\Literally-Everything-for-DND	data	356 xml D&D content files for Aurora	XML	.index, .xml	-	Importable D&D data
+LAP-0028	transformers	C:\Users\Marlon\transformers	repo	HuggingFace transformers checkout (1181 py)	Python	setup.py, pyproject.toml	-	Library source reference
+LAP-0029	assembled, assembled2, assembled3	C:\Users\Marlon\assembled	archives	12 zips each of assembled pack parts	zip	-	-	Staged outputs
+LAP-0030	ifpack	C:\Users\Marlon\ifpack	archives	Split 6-part archives (part000-005)	split files	-	-	Reassemble before use
+LAP-0031	curseforge	C:\Users\Marlon\curseforge	launcher data	CurseForge app: FTB Presents Direwolf20 1.12 (153 mods), Pixelmon pack	CurseForge, Forge 1.12	minecraft/Instances	manifest json	Old-version mod references
+LAP-0032	Minecraft Launcher	C:\Program Files (x86)\Minecraft Launcher	game	Mojang launcher, Xbox copy in C:\XboxGames	Java, GDK	MinecraftLauncher.exe	runtime/, game/	Do not launch on laptop
+LAP-0033	Prism Launcher	C:\Users\Marlon\AppData\Roaming\PrismLauncher	launcher	Instance Diaithir with 376 mods (NeoForge 26.1)	Java, instance.cfg	instances/Diaithir/.minecraft/mods	crash_assistant mod_data_cache json	Mod metadata cache lists mod ids and versions
+LAP-0034	FTB App instances	C:\Users\Marlon\AppData\Local\.ftba	launcher	Two FTB packs (245 and 62 mods)	FTB, Forge old	instances/	-	Reference for classic tech mods
+LAP-0035	Ollama	C:\Users\Marlon\.ollama	local models	qwen3:4b-instruct-2507-q4_K_M and qwen2.5:7b-instruct	Ollama 0.40.12	http://localhost:11434/api/generate	blobs ~7 GB	Rules say no local models for pack work; usable only if allowed
+LAP-0036	EasyDiffusion	C:\EasyDiffusion	ai tool	Local Stable Diffusion UI	Python	installer_files, profile	-	Image generation
+LAP-0037	ProjectIgnis EDOPro	C:\ProjectIgnis	game	Yu-Gi-Oh simulator with WindBot AI	C++, Lua scripts, YGOPro	EDOPro.exe, script/, WindBot/bots.json	script/ (card Lua), repositories, ocgcore.dll	Lua card-script engine as scripting-layer model
+LAP-0038	YGO Omega	C:\Program Files (x86)\Duelists Unite	game	Yu-Gi-Oh client	Unity	YGO Omega	-	-
+LAP-0039	Cockatrice	C:\Program Files\Cockatrice	game	Card game engine, oracle importer, protobuf	Qt C++	cockatrice.exe, oracle.exe	XML card db, downloadedPics	XML card db format
+LAP-0040	Aurora	C:\Program Files (x86)\Aurora	app	D&D character builder	.NET	Aurora Character Builder	Uses xml data from Literally-Everything-for-DND	-
+LAP-0041	Final Draft 13	C:\Program Files (x86)\Final Draft 13	app	Screenwriting	-	-	-	-
+LAP-0042	Steam	C:\Program Files (x86)\Steam	store	Steam client; 17 manifests	-	steamapps/common	appmanifest_*.acf	List installed ids
+LAP-0043	Epic Games Launcher	C:\Program Files (x86)\Epic Games	store	Epic launcher; Fortnite folder in C:\Program Files\Epic Games	-	-	-	-
+LAP-0044	GOG Galaxy	C:\Program Files (x86)\GOG Galaxy	store	Mount and Blade, Treasure Adventure Game	-	Games/	-	-
+LAP-0045	Battle.net	C:\Program Files (x86)\Battle.net	store	Hearthstone, Heroes of the Storm	-	-	-	-
+LAP-0046	Riot Games	C:\Riot Games	store	LoR, 2XKO, Riot Client	-	-	-	-
+LAP-0047	Paradox Launcher	C:\Users\Marlon\AppData\Local\Paradox Interactive	store	Paradox launcher v2	-	-	-	-
+LAP-0048	cslol-manager	C:\Users\Marlon\Downloads\cslol-manager	mod tool	League of Legends skin mod manager	C++	cslol-tools, profiles/, installed/	MOD folder	Pattern for mod overlay installs
+LAP-0049	DiscordChatExporter	C:\Users\Marlon\Downloads\DiscordChatExporter	tool	Exports Discord chats to json/html	.NET	DiscordChatExporter.Cli	-	-
+LAP-0050	reddit-tts-bot	C:\Users\Marlon\Downloads\6aaa3512-ab33-4d8e-bdcf-ea27699c0037\reddit-tts-bot	tool	Reddit text-to-video bot	Python, YAML	main.py, run.bat, config.yaml	history.json, .env (secrets, not read)	Voice and background composition pipeline
+LAP-0051	Easy Diffusion installer, Brave, OBS, Inkscape, DaVinci Resolve, Blender, LibreOffice, Obsidian	various	software	Installed creative/office programs	-	-	-	Asset tooling
+LAP-0052	Python 3.10/3.11/3.12 (+embed 3.10.9, uv)	C:\Users\Marlon\AppData\Local\Programs\Python	runtime	Python runtimes	Python	python.exe	-	Script runtimes
+LAP-0053	Node.js 24	C:\Program Files\nodejs	runtime	Node	JS	node.exe	-	-
+LAP-0054	Eclipse Temurin JDK 21 and 25	C:\Program Files\Eclipse Adoptium	runtime	Java toolchains for NeoForge builds	Java	jdk-21.0.12.101-hotspot, jdk-25.0.5.8-hotspot	-	Set JAVA_HOME per build as in port/build_ports.ps1
+LAP-0055	Git, GitHub CLI (gh)	C:\Program Files\Git	tool	Source control and PR automation	-	git, gh	-	-
+LAP-0056	MSYS2	C:\building\msys64	toolchain	C/C++ build toolchain	MSYS2	-	-	-
+LAP-0057	Visual Studio Build Tools 2019, Windows SDK, XNA	C:\Program Files (x86)\Microsoft Visual Studio	toolchain	C++ build	MSVC	-	-	Needed for Unreal C++ builds
+LAP-0058	SQL Server, psqlODBC	C:\Program Files\Microsoft SQL Server	database	Local DB engines	-	-	-	-
+LAP-0059	Tesseract, Poppler, qpdf, Pandoc	C:\Program Files	tools	OCR and document conversion	-	-	-	Text extraction for assays
+LAP-0060	RimWorld	C:\Program Files (x86)\Steam\steamapps\common\RimWorld	game	Colony sim, Unity/Mono, mod folder	Unity Mono, XML Defs	RimWorldWin64.exe	Data/Core/Defs XML, Mods/, Managed/*.dll (Harmony-style patching)	XML def schema as data-driven content model
+LAP-0061	Factorio	C:\Program Files (x86)\Steam\steamapps\common\Factorio	game	Factory sim, Lua modding	Lua (131 files), JSON	bin/, data/base, data/core	Lua prototype API, mod portal	Prototype/data-stage pattern for generating content
+LAP-0062	Garry's Mod	C:\Program Files (x86)\Steam\steamapps\common\GarrysMod	game	Sandbox, Lua scripting (576 lua)	Source engine, Lua	garrysmod/	addons, Lua, workshop, db	Lua gamemode/addon API
+LAP-0063	Skyrim Special Edition + SKSE	C:\Program Files (x86)\Steam\steamapps\common\Skyrim Special Edition	game	Install is mostly Data stubs (10 MB), SKSE64 zip in Downloads/skse64_2_02_02	Creation Engine, Papyrus	Data/	plugin API	Mod plugin API reference only
+LAP-0064	Tabletop Simulator	C:\Program Files (x86)\Steam\steamapps\common\Tabletop Simulator	game	Physics tabletop, Lua scripting	Unity Mono, Lua, JSON	Tabletop Simulator.exe	json saves, Lua	Board/card prototyping
+LAP-0065	The Binding of Isaac Rebirth	C:\Program Files (x86)\Steam\steamapps\common\The Binding of Isaac Rebirth	game	Roguelike with Lua mod API	Lua, XML resources	isaac-ng.exe	Lua mod API	-
+LAP-0066	Phasmophobia	C:\Program Files (x86)\Steam\steamapps\common\Phasmophobia	game	Unity co-op ghost hunt (42 GB)	Unity	Phasmophobia.exe	assets	-
+LAP-0067	Capitalism 2	C:\Program Files (x86)\Steam\steamapps\common\Capitalism 2	game	Business sim	C++	-	data dll	-
+LAP-0068	Kingdoms and Castles	C:\Program Files (x86)\Steam\steamapps\common\Kingdoms and Castles	game	City builder	Unity Mono	-	json 17	-
+LAP-0069	Prison Architect	C:\Program Files (x86)\Steam\steamapps\common\Prison Architect	game	Management sim	C++	-	json	-
+LAP-0070	Rise to Ruins	C:\Program Files (x86)\Steam\steamapps\common\Rise to Ruins	game	Colony sim, workshop	-	-	workshop	-
+LAP-0071	Dwarf Fortress	C:\Program Files (x86)\Steam\steamapps\common\Dwarf Fortress	game	Text raws moddable	C++	raw/	raw text	Raw syntax as data model
+LAP-0072	Mindustry	C:\Program Files (x86)\Steam\steamapps\common\Mindustry	game	Java factory TD	Java	-	jar mods	-
+LAP-0073	Wallpaper Engine	C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine	app	Animated wallpapers	-	-	325 json, 279 pak	-
+LAP-0074	Steam shells (not installed): Cities Skylines, Civ V, Civ VI, Dota 2, KOF XIII, MapleStory, MultiVersus, Stardew, Surviving Mars, TF2	C:\Program Files (x86)\Steam\steamapps\common	game	0-100 file stubs	-	-	-	Skip
+LAP-0075	Stick Fight, Mr Shifty, Everything, Cyber Hook, Your Only Move Is HUSTLE	C:\Program Files (x86)\Steam\steamapps\common	game	Unity games (HUSTLE has mods-dir)	Unity	-	HUSTLE mods folder	-
+LAP-0076	Mount and Blade	C:\Program Files (x86)\GOG Galaxy\Games\Mount and Blade	game	GOG	Native, module system	-	module txt	-
+LAP-0077	Treasure Adventure Game	C:\Program Files (x86)\GOG Galaxy\Games\Treasure Adventure Game	game	GOG	-	-	-	-
+LAP-0078	Age of Empires 2 DE	C:\Users\Marlon\Games\Age of Empires 2 DE	game data	Replays/profiles (aoe2record)	-	-	-	-
+LAP-0079	Project Zomboid data	C:\Users\Marlon\Zomboid	game data	Saves and vehicles.db, Lua mods	-	-	vehicles.db	-
+LAP-0080	Trading bot / SAM	not on this laptop	missing	Only a Claude project memory dir exists (.claude\projects\C--Users-Marlon-Downloads-SAM---Bet-Bot\memory); source folder not found	-	-	-	Probably on the desktop PC
+LAP-0081	Claude config	C:\Users\Marlon\.claude	config	Settings, plugins, memory; curseforge_key.txt exists (secret, not read)	-	settings.json	-	Never copy
+LAP-0083	AppData-only games	C:\Users\Marlon\AppData\Roaming and Local	game data	Settings and saves only, no install seen: axisandalliesonline, Flashpoint, shapez.io, yuzu, RenPy, Magic Set Editor, Vortex, LOOT, T2GP, 2K, Firaxis, HelloGames, Kalypso, Creative Assembly, Rumbleverse, Injustice2, DBFighterZ, Insurgency, Arma 3, Battlefield 4, Assetto Corsa, League of Legends	-	-	-	Skip

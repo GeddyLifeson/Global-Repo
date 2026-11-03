@@ -1,0 +1,167 @@
+{
+ "proxy_language": "Proto-Otomanguean (primary), with Proto-Oto-Pamean / Proto-Otomi as the more reconstructable daughter layer; Proto-Mixe-Zoquean as a secondary regional comparison",
+ "confidence": "speculative",
+ "proxy_rationale": "The Lerma (Tamaulipas) and Santa Marta (Chiapas) complexes date to roughly 9000-5000 BCE, and nothing is known of their languages. The only defensible proxies are the deepest reconstructed families of the region. Proto-Otomanguean is often argued to be the oldest-diverging Mesoamerican family (time depth around 6000-4000 BCE or deeper) and is the best-reconstructed deep stratum (Rensch 1976; Kaufman; Campbell and Kaufman). Proto-Mixe-Zoquean is relevant to the Chiapas/Isthmus region near Santa Marta but is later (about 2000 BCE). Any link to the actual Late Paleoindian/Early Archaic populations is conjectural; these groups may have spoken languages that left no descendants. The proxy supplies plausible phonology and morphology only, not real vocabulary of the culture.",
+ "phonology": "Proto-Otomanguean (Rensch, Kaufman) consonants: *p *t *k *kw *? *s *x (or *h) *tz *ch *m *n *l *r *w *y; vowels *i *e *a *u *o, with vowel length or glottalization contrasts in some reconstructions; tone was a major feature (at least 2-3 level tones, written with accent marks or numbers in reconstructions). Proto-Mixe-Zoquean (Wichmann 1995): *p *t *k *? *c(=ts) *c'(=ch) *s *h *m *n *w *y *j with vowels *i *e *a *o *u plus *i-bar (central vowel), and a vowel length contrast. Because the culture itself is unattested, restrict names to this common Mesoamerican core and avoid sounds such as b, d, g, f, v, z, q, which are not reconstructed for these protolanguages.",
+ "phonotactics": "Proto-Otomanguean roots are typically CV(C) or CVCV with a canonical bisyllabic shape (Rensch 1976); stem-initial clusters are limited (mainly s-/n- plus stop, or stop plus glide), and codas are restricted to a few consonants or glottal stop. Proto-Mixe-Zoquean allows CVC and CVCV roots, clusters mainly across syllable boundaries, and codas of glottal stop, h, nasal, or a stop. Vowel-initial words are usually avoided in reconstructed roots (initial glottal stop is assumed). For naming, use 1-3 syllable words of shape (C)V(C), mostly CV.CV(C), with codas drawn from n, m, k, t, s, h, ' and no complex codas.",
+ "orthography": "A simplified Mesoamericanist (Americanist) transliteration in Latin letters: p t k ' (glottal stop) ts ch s x h m n l r w y; vowels a e i o u, optionally with a macron or acute for length or tone. Reconstructed forms are marked with an asterisk in the scholarly sources, but game names are written without one. Spell the affricates as ts and ch (not tz, c, or z) and the glottal stop as an apostrophe.",
+ "morphology": "Proto-Otomanguean is reconstructed as largely isolating-to-fusional, with stem classes, tonal and inflectional morphology on verbs (aspect/person prefixes and enclitics), and mostly bare noun stems; there is little derivational affixation. Proto-Mixe-Zoquean is agglutinative, with prefixes for person, possession and some relational nouns, and suffixes for plural and derivation (Wichmann 1995). Body-part terms are widely used as relational nouns (head = 'top', belly = 'inside'). Reduplication is attested in some descendant languages but is not firmly reconstructed. Nouns are not marked for gender or noun class at the protolanguage level (classifier-like systems appear in later daughters).",
+ "compounding": "Compounding by juxtaposition of noun stems is the natural pattern: modified noun stem followed by modifier is common in Otomanguean and Mixe-Zoquean daughters, but head position is not firmly reconstructed for the protolanguages. For game use, adopt head-initial 'THING + MODIFIER' compounds (for example 'water + stone'), with possessor following possessed for 'X of Y' (X Y), no linker needed. Agent names can use a verb stem plus a generic 'person' root (for example 'grind' + 'person'); 'place of X' can use a locative body-part noun such as 'inside' or 'mouth' after the noun. All of these patterns are plausible, not attested for this culture.",
+ "noun_phrase_order": "Head noun first, then modifiers (adjectives, numerals, possessors, demonstratives) is the typical pattern in Otomanguean and Mixe-Zoquean daughters; this is adopted here for game use, with low certainty for the actual Pleistocene/Early Holocene languages.",
+ "attested_roots": [
+  {
+   "form": "*ni",
+   "gloss": "water (Proto-Otomanguean, per some reconstructions)",
+   "reconstructed": true
+  },
+  {
+   "form": "*nduwa",
+   "gloss": "water/rain (Proto-Otomanguean candidate; uncertain)",
+   "reconstructed": true
+  },
+  {
+   "form": "*ta",
+   "gloss": "father / male (Proto-Otomanguean candidate)",
+   "reconstructed": true
+  },
+  {
+   "form": "*nana",
+   "gloss": "mother (widespread Mesoamerican)",
+   "reconstructed": true
+  },
+  {
+   "form": "*kwi",
+   "gloss": "fire/burn (Otomanguean candidate; uncertain)",
+   "reconstructed": true
+  },
+  {
+   "form": "*kak",
+   "gloss": "stone/rock (Proto-Mixe-Zoquean *kaak?)",
+   "reconstructed": true
+  },
+  {
+   "form": "*tuk",
+   "gloss": "house (Proto-Mixe-Zoquean *tuk)",
+   "reconstructed": true
+  },
+  {
+   "form": "*ʔuhk",
+   "gloss": "dog (Proto-Mixe-Zoquean *ʔuhk)",
+   "reconstructed": true
+  },
+  {
+   "form": "*waj",
+   "gloss": "deer/animal (Mixe-Zoquean candidate)",
+   "reconstructed": true
+  },
+  {
+   "form": "*ʔi(ʔ)",
+   "gloss": "tree/wood (Mixe-Zoquean candidate)",
+   "reconstructed": true
+  },
+  {
+   "form": "*tsʔam",
+   "gloss": "flesh/meat (candidate; uncertain)",
+   "reconstructed": true
+  },
+  {
+   "form": "*nuʔ",
+   "gloss": "maize/ear-like (late, after domestication)",
+   "reconstructed": true
+  },
+  {
+   "form": "*hakš",
+   "gloss": "bone/hard thing (candidate)",
+   "reconstructed": true
+  },
+  {
+   "form": "*seʔ",
+   "gloss": "sun/day (candidate)",
+   "reconstructed": true
+  }
+ ],
+ "worked_examples": [
+  {
+   "english": "Water Stone",
+   "name": "Ni Kak",
+   "gloss": "ni 'water' + kak 'stone'; head-first compound"
+  },
+  {
+   "english": "House of the Deer",
+   "name": "Tuk Wah",
+   "gloss": "tuk 'house' + wah 'deer'; possessed + possessor"
+  },
+  {
+   "english": "Fire Dog",
+   "name": "Kwi Uhk",
+   "gloss": "kwi 'fire' + uhk 'dog'; head-first"
+  },
+  {
+   "english": "Mother Tree",
+   "name": "Nana Ih",
+   "gloss": "nana 'mother' + ih 'tree'"
+  },
+  {
+   "english": "Sun Place",
+   "name": "Seh Tuk",
+   "gloss": "seh 'sun' + tuk 'house/place'; modifier-first variant for place names"
+  },
+  {
+   "english": "Bone Stew",
+   "name": "Haks Tsam",
+   "gloss": "haks 'bone' + tsam 'meat/flesh'"
+  }
+ ],
+ "allowed_graphemes": [
+  "p",
+  "t",
+  "k",
+  "ts",
+  "ch",
+  "s",
+  "x",
+  "h",
+  "m",
+  "n",
+  "l",
+  "r",
+  "w",
+  "y",
+  "kw",
+  "'",
+  "a",
+  "e",
+  "i",
+  "o",
+  "u"
+ ],
+ "extra_allowed_chars": " -'",
+ "forbidden_patterns": [
+  "[bdfgqvz]",
+  "c(?![h])",
+  "[aeiou]{3,}",
+  "[^aeiou' -]{3,}",
+  "^[aeiou]",
+  "(.)\\1\\1",
+  "j",
+  "ph|th|gh|sh|zh"
+ ],
+ "syllables_per_word": [
+  1,
+  2,
+  3
+ ],
+ "max_word_length": 9,
+ "sources": [
+  "Rensch, Calvin R. 1976. Comparative Otomanguean Phonology. Indiana University Press.",
+  "Campbell, Lyle and Terrence Kaufman. 1976. A Linguistic Look at the Olmecs. American Antiquity 41.",
+  "Wichmann, Soren. 1995. The Relationship among the Mixe-Zoquean Languages of Mexico. University of Utah Press.",
+  "Kaufman, Terrence. Proto-Mixe-Zoquean and Proto-Otomanguean reconstruction projects (Mesoamerican Language Documentation Project).",
+  "Campbell, Lyle. 1997. American Indian Languages: The Historical Linguistics of Native America. Oxford University Press.",
+  "Glottolog and ASJP databases (Otomanguean, Mixe-Zoquean families)."
+ ],
+ "notes": "The culture is unattested linguistically; every name is a plausible construction from reconstructed Mesoamerican protolanguage patterns, not a real word of the Lerma or Santa Marta peoples. Several attested_roots are approximate or candidate reconstructions flagged only loosely; treat them as stylistic models rather than citable etyma. No word may be identical to a Modern Irish, Scottish Gaelic or Manx word, since the language is not Goidelic.",
+ "unit": "Late Paleoindian and Early Archaic of Mesoamerica (Lerma, Santa Marta)",
+ "slug": "late_paleoindian_and_early_archaic_of_mesoamerica_lerma_santa_marta",
+ "model": "claude-sonnet-5-5"
+}

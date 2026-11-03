@@ -1,0 +1,208 @@
+{
+ "proxy_language": "Common Slavic / Late Proto-Slavic (c. 8th-10th c.), with Old East Slavic (Old Rus') as the attested daughter for medieval court vocabulary",
+ "confidence": "medium",
+ "proxy_rationale": "'Birch-Grove Court' is a fictional later court in Eastern Europe, not a documented polity. The most defensible proxy is Late Common Slavic as reconstructed, with Old East Slavic (Old Rus', 10th-12th c. birchbark and chronicle vocabulary) as the attested language giving real forms for court, grove, ruler and household terms. Birch (*berza) is a core Slavic tree word and grove (*gajь, *dǫbrava) terms are well attested. The link to a specific people is weak; Baltic or Finnic are equally plausible for the region, but Slavic is the best attested and reconstructed option.",
+ "phonology": "Late Proto-Slavic vowels: i, y, u, e, o, a, ĕ (jat'), ę, ǫ (nasals, merged by Old East Slavic into ja/ju or u), plus jers ь and ъ (short high vowels, weak or strong by Havlík's law). Consonants: p b t d k g, s z x, c (ts) dz, č ž š, m n l r, v, j, with palatalized soft sonorants nj lj rj. Old East Slavic after c. 1000: nasals denasalized (ę > ja, ǫ > u), jers still present until c. 1100-1200, pleophony (*gordъ > gorodъ, *bergъ > beregъ), *dj > ž, *tj > č, *kv > cv before front vowels.",
+ "phonotactics": "Law of open syllables in Common Slavic: syllables are (C)V, no codas, so words end in vowels or jers. Onset clusters are allowed and often rich (st, zd, sk, vl, br, gn, dv, tv, vz). In Old East Slavic, pleophony creates CVrV/CVlV in place of CrV (gorodъ, golovà, moloko). Final jers are written but later lost, so late-stage names can end in a consonant. Native words lack initial a- (rare), initial e- (rare), initial f-; j- is common. No hiatus tolerated without glide.",
+ "orthography": "Latinized scholarly transliteration of Old East Slavic / Common Slavic: letters a b c č d e g i j k l m n o p r s š t u v z ž y; ь and ъ transliterated as ĭ/ŭ or simply dropped in game names; ě for jat'; nasals ę ǫ for Common Slavic stage. Palatalized sonorants as lj, nj, rj. Reconstructed forms marked with asterisk. Prefer simplified phonemic spelling: ch or x for velar fricative, zh for ž, sh for š, ch for č in anglicized form; this brief uses scholarly č š ž but allows digraph variants.",
+ "morphology": "Highly inflected: nouns have gender (m, f, n), 7 cases, singular, plural and (early) dual; stem classes o-, a-, i-, u-, consonant stems. Roots are typically CVC with thematic vowels and suffixes. Derivation by suffixes: -ьnikŭ / -nikŭ (agent, one who does: kovačĭ 'smith', pčelnikŭ 'beekeeper'), -ica (feminine, diminutive), -ĭcĭ, -ъkŭ (diminutive), -ĭje / -ĭje (collective, place: berzje, 'birch-wood'), -ina (property, place: dubina), -ĭnŭ (adjective of ownership: bratĭnŭ), -ĭskŭ (adjective, 'of the type of': kŭnęžĭskŭ), -ovŭ / -evŭ (possessive adjective), -ĭ (nominalization). Verbs: aspect pairs, prefixes (po-, za-, pri-, o-, ob-, do-), infinitive -ti. Adjectives agree in gender, number, case with noun, with long (definite) and short forms.",
+ "compounding": "Native Slavic compounding is mostly noun+linking vowel +noun with head final: connecting vowel -o- (after hard stems) or -e- (after soft stems): vodo-nosŭ 'water-carrier', zlato-ustŭ 'gold-mouth', dobro-ljubŭ. Personal names in Slavic are dithematic: Vladi-mirŭ, Svęto-poIkŭ, Jaro-slavŭ, Bore-slavŭ, Rati-borŭ, Dobro-gostĭ. Place names: ŭ -jĭ or -ĭje collectives ('Berzje' = birch-wood), -ĭnŭ possessives, -ĭcĭ/-ĭ plural for 'people of' (Poljane 'field-dwellers', Drevljane 'forest-dwellers'). 'X of Y' is expressed by genitive (dvorŭ kŭnęzja 'court of the prince') or by relational adjective (kŭnęžĭ dvorŭ 'princely court', berzovŭ gajĭ 'birch grove'). Agent names by suffix: -arĭ, -ĭcĭ, -ĭnikŭ.",
+ "noun_phrase_order": "Adjective (or possessive/relational adjective) precedes head noun and agrees with it (berzovŭ gajĭ 'birch grove'); genitive noun usually follows its head (dvorŭ berzy 'court of the birch'), although compounds put modifier first (head-final). Demonstratives and numerals precede. Prepositions govern cases (vŭ + loc/acc, na, ot, do, u).",
+ "attested_roots": [
+  {
+   "form": "*berza",
+   "gloss": "birch",
+   "reconstructed": true
+  },
+  {
+   "form": "*gajĭ",
+   "gloss": "grove, sacred wood",
+   "reconstructed": true
+  },
+  {
+   "form": "*dŭbrava",
+   "gloss": "oak grove, forest",
+   "reconstructed": true
+  },
+  {
+   "form": "*dvorŭ",
+   "gloss": "court, yard, household",
+   "reconstructed": true
+  },
+  {
+   "form": "*gordŭ",
+   "gloss": "enclosed town, fort (OES gorodŭ)",
+   "reconstructed": true
+  },
+  {
+   "form": "kŭnęzĭ",
+   "gloss": "prince, ruler (OES knjazĭ)",
+   "reconstructed": false
+  },
+  {
+   "form": "*vitędzĭ",
+   "gloss": "war-leader, knight, lord",
+   "reconstructed": true
+  },
+  {
+   "form": "*svętŭ",
+   "gloss": "holy, strong",
+   "reconstructed": true
+  },
+  {
+   "form": "*slava",
+   "gloss": "glory, fame",
+   "reconstructed": true
+  },
+  {
+   "form": "*mirŭ",
+   "gloss": "peace, world, community",
+   "reconstructed": true
+  },
+  {
+   "form": "*vladĭ",
+   "gloss": "rule, power (vlad-)",
+   "reconstructed": true
+  },
+  {
+   "form": "*volŭ",
+   "gloss": "will, rule (as in Volodimerŭ)",
+   "reconstructed": true
+  },
+  {
+   "form": "*voda",
+   "gloss": "water",
+   "reconstructed": true
+  },
+  {
+   "form": "*zlato",
+   "gloss": "gold",
+   "reconstructed": true
+  },
+  {
+   "form": "*žirŭ",
+   "gloss": "pasture, abundance, feast",
+   "reconstructed": true
+  },
+  {
+   "form": "*medŭ",
+   "gloss": "honey, mead",
+   "reconstructed": true
+  }
+ ],
+ "worked_examples": [
+  {
+   "english": "Birch Grove",
+   "name": "Berzovŭ gajĭ",
+   "gloss": "berz-ovŭ (birch-ADJ.M.NOM) gajĭ (grove.NOM): relational adjective + head noun"
+  },
+  {
+   "english": "Court of the Prince",
+   "name": "Dvorŭ kŭnęzja",
+   "gloss": "dvorŭ (court.NOM) kŭnęzj-a (prince-GEN.SG): head + genitive"
+  },
+  {
+   "english": "Glory-Ruler (personal/court name)",
+   "name": "Slavo-vladŭ",
+   "gloss": "slav-o- (glory-LINK) vladŭ (ruler): dithematic compound, head-final"
+  },
+  {
+   "english": "Birch-wood (place)",
+   "name": "Berzje",
+   "gloss": "berz-(a) (birch) + -je (collective/place suffix) = stand of birches"
+  },
+  {
+   "english": "Honey-Bringer",
+   "name": "Medo-nosŭ",
+   "gloss": "med-o- (honey-LINK) nosŭ (carrier, from *nositi): agent compound"
+  },
+  {
+   "english": "Holy Gold Hall",
+   "name": "Svętŭ zlatŭ dvorŭ",
+   "gloss": "svętŭ (holy.M.NOM) zlatŭ (golden.M.NOM) dvorŭ (court/hall.NOM): adjective, adjective, head noun"
+  }
+ ],
+ "allowed_graphemes": [
+  "a",
+  "b",
+  "c",
+  "č",
+  "d",
+  "e",
+  "ě",
+  "g",
+  "i",
+  "j",
+  "k",
+  "l",
+  "m",
+  "n",
+  "o",
+  "p",
+  "r",
+  "s",
+  "š",
+  "t",
+  "u",
+  "v",
+  "x",
+  "y",
+  "z",
+  "ž",
+  "ĭ",
+  "ŭ",
+  "ę",
+  "ǫ",
+  "lj",
+  "nj",
+  "rj",
+  "st",
+  "zd",
+  "sk",
+  "vl",
+  "dv",
+  "gr",
+  "br",
+  "gn"
+ ],
+ "extra_allowed_chars": " -'",
+ "forbidden_patterns": [
+  "q",
+  "w",
+  "f",
+  "h",
+  "th",
+  "ph",
+  "x{2,}",
+  "[aeiouyěęǫ]{3,}",
+  "(.)\\1\\1",
+  "[bdgpktszčšžcvmnr]{4,}",
+  "kh",
+  "ck",
+  "sch",
+  "aa",
+  "ii",
+  "uu",
+  "yy",
+  "ee$"
+ ],
+ "syllables_per_word": [
+  2,
+  4
+ ],
+ "max_word_length": 14,
+ "sources": [
+  "Shevelov, G. Y., A Prehistory of Slavic: The Historical Phonology of Common Slavic (1964)",
+  "Schenker, Alexander M., 'Proto-Slavonic' in The Slavonic Languages, ed. Comrie and Corbett (1993)",
+  "Vasmer, Max, Etymologisches Wörterbuch des Russischen (1953-58; Russian transl. Trubachev, 1964-73)",
+  "Trubachev, O. N. (ed.), Etimologicheskij slovar' slavjanskix jazykov (ESSJa)",
+  "Derksen, Rick, Etymological Dictionary of the Slavic Inherited Lexicon (2008)",
+  "Zaliznjak, A. A., Drevnenovgorodskij dialekt (2004)",
+  "Wiktionary Proto-Slavic reconstruction pages",
+  "Sreznevskij, I. I., Materialy dlja slovarja drevnerusskogo jazyka (1893-1912)"
+ ],
+ "notes": "Birch-Grove Court is invented, so the proxy is Late Common Slavic with Old East Slavic forms, medium confidence only. Avoid Modern Russian, Polish or Czech lookalikes if a name is meant to be pre-1100; but accidental identity with Modern Slavic words is not a rule violation. Keep law of open syllables: end names in a vowel (or a jer ĭ/ŭ, transliterated as -i/-u or dropped consistently). Prefer dithematic names with linking vowel -o-/-e-. Current game strings like 'Ravbu rolemag' do not follow Slavic phonotactics (no -mag ending, no clusters like -vb-). No word may be identical to a Modern Irish, Scottish Gaelic or Manx word, as this is not a Goidelic culture.",
+ "unit": "The Birch-Grove Court",
+ "slug": "the_birch_grove_court",
+ "model": "claude-sonnet-5-5"
+}
