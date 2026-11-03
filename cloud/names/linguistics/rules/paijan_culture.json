@@ -1,0 +1,173 @@
+{
+ "proxy_language": "Mochica (Muchik / Yunga) as a distant areal proxy, with Quingnam and Sechura-Tallán as minor supplements",
+ "confidence": "speculative",
+ "proxy_rationale": "The Paijan culture (c. 11,000-8,000 BP; Pampa de Paiján, Chicama valley, La Libertad) is a Terminal Pleistocene/Early Holocene fishing-foraging complex known only from stone tools (fishtail points), shell middens and burials. No linguistic material survives, and 10,000 years separates it from any attested language. The only language known from the same coast is Mochica (attested 16th-20th c., Carrera 1644, Middendorf 1892, Salas 2002), formerly spoken in the Moche-Chicama-Jequetepeque valleys. Continuity between Paijan people and Mochica speakers is unprovable and probably illusory, and Mochica is a language isolate with no demonstrable relatives. It is used only as a plausible phonological and morphological flavour for N-coast Peru. Quingnam (Chimú-era Pacific coast) and Sechura-Tallán are poorly attested. All forms below are real Mochica words; nothing is a reconstruction of Paijan.",
+ "phonology": "Mochica (Hovdhaugen 2004; Salas 2002): vowels /a e i o u/ plus a central vowel written with an umlaut or ö in Carrera (ø/ɨ), usually normalised as ö or ü. Consonants: stops p t k, q (uvular) in some transcriptions, affricates ch (tʃ), ts (written tz/ç in older sources), ʈʂ-like retroflex written ch/chh in Carrera's orthography, fricatives f s sh (ʃ) and x/h, nasals m n ñ, lateral l, rhotic r (also ɾ), glides y w. Carrera's orthography distinguishes aspirated and glottalised series with spellings like pp, tt, ch, cc; these are normalised below. The inventory is not known to include voiced stops.",
+ "phonotactics": "Syllable shapes mostly (C)V(C): V, CV, CVC. Clusters appear mainly across morpheme boundaries (e.g. -ng- in names, -pt-, -lc-). Words end in vowels or consonants (-ng, -n, -c/-k, -s, -p, -r, -l). Content words are commonly 2-3 syllables, longer with suffixes. Stress is typically penultimate or on the root; it does not affect spelling. Initial clusters are essentially absent.",
+ "orthography": "Normalised Latin transliteration following Carrera/Middendorf/Salas: a e i o u, ö (or ü) for the central vowel, p t k, ch, ts (also written tz/z), s, sh (also x in some sources), f, h, m n ñ, l, r, y, w (also u as a glide), qu/c before back vowels as in Spanish-based spelling. For game audit purposes use k/q rather than c/qu, plain ö for the central vowel.",
+ "morphology": "Agglutinating, mostly suffixing. Nouns take possessive suffixes (-ng/-ñ- first person, -n-/-ñ second, -ec/-o third), plural -ñ-/-eñ, locative -ang/-ñan, genitive/relational -o. Verbs are marked by suffixes for person, tense (-ñ, -eñ, -ec), and mood. Root types are mostly CV(C), CVCV and CVCVC. No grammatical gender or noun classes. Numerals are decimal; nouns referring to people use the suffix -ñ for collectives.",
+ "compounding": "Compounds and genitive phrases are head-final: modifier + head (e.g. 'ñof-pang' = sea-fish construction). Possessor precedes possessed; relational suffix -o or -ec may link them. Agent nouns are formed with -pang/-ang or the possessive on a verb root; locative names use -ang/-ñan ('place of'). Names of the type 'X of Y' are rendered Y + (-o/-ec) + X.",
+ "noun_phrase_order": "Modifier-head: possessor/adjective/demonstrative precedes head noun; numerals precede; relative clauses precede.",
+ "attested_roots": [
+  {
+   "form": "ñof",
+   "gloss": "sea (mar)",
+   "reconstructed": false
+  },
+  {
+   "form": "ang",
+   "gloss": "water, wave (agua)",
+   "reconstructed": false
+  },
+  {
+   "form": "mich",
+   "gloss": "fish (variant: ñañ)",
+   "reconstructed": false
+  },
+  {
+   "form": "pang",
+   "gloss": "people/place suffix, 'they of'",
+   "reconstructed": false
+  },
+  {
+   "form": "quic",
+   "gloss": "earth, land (tierra)",
+   "reconstructed": false
+  },
+  {
+   "form": "ñain",
+   "gloss": "sun",
+   "reconstructed": false
+  },
+  {
+   "form": "shiang",
+   "gloss": "moon",
+   "reconstructed": false
+  },
+  {
+   "form": "chic",
+   "gloss": "house, building",
+   "reconstructed": false
+  },
+  {
+   "form": "fan",
+   "gloss": "hill",
+   "reconstructed": false
+  },
+  {
+   "form": "pi",
+   "gloss": "bone/stone element",
+   "reconstructed": false
+  },
+  {
+   "form": "fo",
+   "gloss": "day",
+   "reconstructed": false
+  },
+  {
+   "form": "ec",
+   "gloss": "third person possessive/relational",
+   "reconstructed": false
+  },
+  {
+   "form": "ñañ",
+   "gloss": "fish",
+   "reconstructed": false
+  },
+  {
+   "form": "ssiy",
+   "gloss": "man, male",
+   "reconstructed": false
+  },
+  {
+   "form": "yocchan",
+   "gloss": "hair (variant: yocch-)",
+   "reconstructed": false
+  }
+ ],
+ "worked_examples": [
+  {
+   "english": "Sea Fish",
+   "name": "Ñof Ñañ",
+   "gloss": "ñof 'sea' + ñañ 'fish', modifier-head order"
+  },
+  {
+   "english": "House of the Sun",
+   "name": "Ñain-ec Chic",
+   "gloss": "ñain 'sun' + -ec relational/possessive + chic 'house'"
+  },
+  {
+   "english": "Moon Water",
+   "name": "Shiang Ang",
+   "gloss": "shiang 'moon' + ang 'water'"
+  },
+  {
+   "english": "People of the Hill",
+   "name": "Fan-pang",
+   "gloss": "fan 'hill' + -pang people/place suffix"
+  },
+  {
+   "english": "Place of Fish",
+   "name": "Ñañ-ang",
+   "gloss": "ñañ 'fish' + -ang locative"
+  },
+  {
+   "english": "Land of the Sea",
+   "name": "Ñof-ec Quic",
+   "gloss": "ñof 'sea' + -ec relational + quic 'land'"
+  }
+ ],
+ "allowed_graphemes": [
+  "a",
+  "e",
+  "i",
+  "o",
+  "u",
+  "ö",
+  "p",
+  "t",
+  "k",
+  "q",
+  "ch",
+  "ts",
+  "s",
+  "sh",
+  "f",
+  "h",
+  "m",
+  "n",
+  "ñ",
+  "l",
+  "r",
+  "y",
+  "w"
+ ],
+ "extra_allowed_chars": " -'",
+ "forbidden_patterns": [
+  "[bdgvzj]",
+  "x",
+  "(.)\\1\\1",
+  "^[^aeiouö]{2,}",
+  "[^aeiouö]{4,}",
+  "(.)(?:\\1)ö"
+ ],
+ "syllables_per_word": [
+  1,
+  2,
+  3
+ ],
+ "max_word_length": 14,
+ "sources": [
+  "Hovdhaugen, E. (2004) Mochica, in Bolivian/Andean grammars (Mochica grammar)",
+  "Salas, A. (2002) El mochica: gramática y léxico, Fondo Editorial PUCP",
+  "Carrera, F. de la (1644) Arte de la lengua yunga, Lima",
+  "Middendorf, E.W. (1892) Das Muchik oder die Chimu-Sprache, Leipzig",
+  "Torero, A. (2002) Idiomas de los Andes: lingüística e historia, IFEA/Horizonte",
+  "Glottolog entry: Mochica (moch1257)",
+  "Chauchat, C. (1992) Prehistoire de la cote nord du Perou: le Paijanien de Cupisnique, CNRS (archaeology, not linguistics)"
+ ],
+ "notes": "No word may be identical to a Modern Irish, Scottish Gaelic or Manx word. Paijan has no linguistic record; Mochica is used strictly as an approximation, and names should be flagged internally as speculative. Avoid Spanish-looking endings and voiced stops (b d g) which Mochica lacks. Current game names such as 'Piluwir pa trughu' contain clusters (tr, gh) and pa-linker patterns not supported by any Andean-coast source and should be regenerated.",
+ "unit": "Paijan culture",
+ "slug": "paijan_culture",
+ "model": "claude-sonnet-5-5"
+}

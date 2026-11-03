@@ -1,0 +1,151 @@
+{
+ "proxy_language": "Reconstructed Proto-Sino-Tibetan / Old Chinese (Baxter-Sagart 2014 notation) as a distant, speculative proxy",
+ "confidence": "speculative",
+ "proxy_rationale": "Nanzhuangtou (c. 9700-9000 BP, Xushui, Hebei) is known only from archaeology: early pottery, grinding stones, dogs, possibly early millet use. No language can be tied to it. The least indefensible proxy is the language family later dominant in the North China Plain, i.e. Sino-Tibetan, represented by Old Chinese (c. 1000 BCE) and Proto-Sino-Tibetan reconstructions. The time gap (c. 8000 years) is enormous, other families (e.g. Altaic/Transeurasian-adjacent, Austronesian-adjacent, or lost languages) cannot be excluded, and Old Chinese reconstruction is itself model-dependent. Names should be treated as flavour, not as claims about the actual language.",
+ "phonology": "Old Chinese per Baxter-Sagart (2014): stops with three-way contrast (voiceless *p *t *k, aspirated *ph *th *kh, voiced *b *d *g), nasals *m *n *ng, fricatives *s *h, liquids *r *l, glides *w *j (written y); labiovelars *kw *khw *gw *hw; many roots with pre-initial consonants (*s- *N- *r-) that are optional in name-building. Vowels in the six-vowel system *a *i *u *e *o *ə (written ə); final consonants *-p *-t *-k *-m *-n *-ng *-r *-j *-w and *-ʔ (glottal) or *-s suffixes marking later tones. For game purposes use a simplified Latin rendering: vowels a e i o u plus ə, consonants p t k b d g m n ng s h r l w y, with labiovelars as kw gw.",
+ "phonotactics": "Roots are predominantly monosyllabic, shape (C)(C)V(C) with glide medials (-r-, -j-, -w-) allowed after the initial: e.g. *kra, *prak, *mrak. No initial clusters beyond stop+liquid/glide medial in the simplified system; no vowel-initial syllables written without a glottal onset (treat vowel-initial as acceptable but rare). Codas are limited to a single consonant from p t k m n ng r (and j w as glides after vowels). No consonant clusters in coda. Words are mostly 1-2 syllables; disyllables arise from compounding or reduplication. No tone marking in reconstruction notation.",
+ "orthography": "Simplified Baxter-Sagart-style romanization in lowercase Latin letters: p t k b d g m n ng s h r l w y, kw gw, vowels a e i o u ə. Asterisk is NOT written in names. Glottal stop may be written as an apostrophe after a vowel (sparingly). Syllables may be separated by a hyphen in compounds; otherwise a space separates words in a phrase.",
+ "morphology": "Old Chinese is largely isolating with traces of derivational morphology: prefixes (*s- causative/ transitivizing, *N- nominalizing/intransitive, *r- various), suffixes (*-s nominal/derivational, *-ʔ), and initial voicing/aspiration alternations (e.g. voiceless transitive vs voiced intransitive). No inflection, no gender, no case, no classifiers in the earliest reconstructions. Reduplication exists for onomatopoeic or descriptive words (e.g. *ləm-ləm type). For name-building, bare monosyllabic roots and two-root compounds are the norm; optionally add an s- prefix for causative/instrument senses.",
+ "compounding": "Compounds are head-final: modifier + head (determinant before determined), e.g. 'water + mouth' for river mouth. Genitive/attributive relationships use juxtaposition or the particle *tə (之, Old Chinese *tə) between modifier and head: X tə Y = 'Y of X'. Agent nouns are formed verb-object-based or with a nominalizing word (*kjaʔ 'one who' as head): 'pot-maker' = 'pot make one'. Place names: modifier + generic (e.g. 'mountain', 'river', 'field') with generic last. Divine names: attributive + *tek ('lord/god'?; use *thek tentatively) or simply descriptor + 'sky/earth' roots.",
+ "noun_phrase_order": "Modifier before head: adjective/noun-modifier + noun; possessor + (*tə) + possessed; demonstratives and numerals before the noun. Head-final throughout.",
+ "attested_roots": [
+  {
+   "form": "mrak",
+   "gloss": "horse (Old Chinese 馬 *mˤraʔ; later period, used as phonotactic model)",
+   "reconstructed": true
+  },
+  {
+   "form": "kˤa",
+   "gloss": "river (Old Chinese 河 *gˤaj, here simplified ga)",
+   "reconstructed": true
+  },
+  {
+   "form": "ga",
+   "gloss": "river, specifically the Yellow River (simplified from *gˤaj)",
+   "reconstructed": true
+  },
+  {
+   "form": "lak",
+   "gloss": "to dig, till (cf. Old Chinese roots for digging/hoe)",
+   "reconstructed": true
+  },
+  {
+   "form": "muk",
+   "gloss": "tree, wood (Old Chinese 木 *mˤok)",
+   "reconstructed": true
+  },
+  {
+   "form": "suj",
+   "gloss": "water (Old Chinese 水 *s-tur-ʔ, simplified)",
+   "reconstructed": true
+  },
+  {
+   "form": "kwə",
+   "gloss": "dog (Old Chinese 犬 *khʷˤenʔ, simplified kwen)",
+   "reconstructed": true
+  },
+  {
+   "form": "kwen",
+   "gloss": "dog",
+   "reconstructed": true
+  },
+  {
+   "form": "sən",
+   "gloss": "mountain? (Old Chinese 山 *sraːn, simplified sran)",
+   "reconstructed": true
+  },
+  {
+   "form": "sran",
+   "gloss": "mountain",
+   "reconstructed": true
+  },
+  {
+   "form": "ngak",
+   "gloss": "fish (Old Chinese 魚 *ŋ(r)a; simplified nga)",
+   "reconstructed": true
+  },
+  {
+   "form": "nga",
+   "gloss": "fish",
+   "reconstructed": true
+  },
+  {
+   "form": "tuk",
+   "gloss": "millet/grain (cf. Old Chinese 粟 *sjok, simplified sok)",
+   "reconstructed": true
+  },
+  {
+   "form": "sok",
+   "gloss": "millet",
+   "reconstructed": true
+  },
+  {
+   "form": "mjeng",
+   "gloss": "name, bright (Old Chinese 名 *mjeng / 明 *mraŋ)",
+   "reconstructed": true
+  },
+  {
+   "form": "hmak",
+   "gloss": "black, dark (Old Chinese 黑 *mə-kˤək)",
+   "reconstructed": true
+  }
+ ],
+ "worked_examples": [],
+ "allowed_graphemes": [
+  "a",
+  "e",
+  "i",
+  "o",
+  "u",
+  "ə",
+  "p",
+  "t",
+  "k",
+  "b",
+  "d",
+  "g",
+  "m",
+  "n",
+  "ng",
+  "s",
+  "h",
+  "r",
+  "l",
+  "w",
+  "y",
+  "kw",
+  "gw"
+ ],
+ "extra_allowed_chars": " -'",
+ "forbidden_patterns": [
+  "[fvzcqxj]",
+  "(.)\\1\\1",
+  "[aeiouə]{3,}",
+  "[bdgptk]{2,}(?![lrwy])",
+  "(ng){2,}",
+  "h[pbtdgkm]",
+  "[pbtdgkmnslrw]{4,}",
+  "[^aeiouə -']{4,}"
+ ],
+ "syllables_per_word": [
+  1,
+  2,
+  3
+ ],
+ "max_word_length": 12,
+ "sources": [
+  "Baxter, William H. & Sagart, Laurent (2014). Old Chinese: A New Reconstruction. Oxford University Press.",
+  "Baxter, William H. (1992). A Handbook of Old Chinese Phonology. Mouton de Gruyter.",
+  "Schuessler, Axel (2007). ABC Etymological Dictionary of Old Chinese. University of Hawai'i Press.",
+  "Matisoff, James A. (2003). Handbook of Proto-Tibeto-Burman. University of California Press.",
+  "Pulleyblank, Edwin G. (1991). Lexicon of Reconstructed Pronunciation in Early Middle Chinese, Late Middle Chinese, and Early Mandarin. UBC Press.",
+  "Starling database (Starostin) Sino-Tibetan etymological dictionary, starling.rinet.ru",
+  "Glottolog (Sino-Tibetan family overview), glottolog.org",
+  "Wiktionary Old Chinese reconstruction pages (Baxter-Sagart)",
+  "Shelach-Lavi, Gideon (2015). The Archaeology of Early China. Cambridge University Press (for Nanzhuangtou context)."
+ ],
+ "notes": "Nanzhuangtou is a ~9500 BP Hebei culture with no linguistic evidence. Any language assignment is highly speculative. The proxy chosen is Old Chinese / Sino-Tibetan reconstructions because the region later became Sinitic-speaking, but the 8000-year gap means the true language may be entirely unrelated. Roots listed are simplified, flavour-level forms derived from Old Chinese reconstructions (Baxter-Sagart) and are all marked reconstructed; treat glosses as models for shape, not as authentic Nanzhuangtou words. The worked_examples field below could not be omitted in schema terms, see next sentence. No word may be identical to a Modern Irish, Scottish Gaelic or Manx word, since the language is not Goidelic. The existing game names (Tikih, Wapqa, Hiluhoh, Hah etc.) are not phonotactically sound for this proxy: they use q, j, and vowel-h-vowel shapes alien to Old Chinese reconstructions and should be replaced by CV(C) monosyllabic roots and head-final compounds.",
+ "unit": "Nanzhuangtou",
+ "slug": "nanzhuangtou",
+ "model": "claude-sonnet-5-5"
+}

@@ -1,0 +1,185 @@
+{
+ "proxy_language": "Proto-Algonquian (reconstructed, with Proto-Siouan and Proto-Iroquoian as alternates for texture)",
+ "confidence": "speculative",
+ "proxy_rationale": "The Early Archaic (c. 10,000-8,000 BP) of the Eastern Woodlands predates any attested language by 8,000+ years, and no linguistic continuity can be demonstrated. Proto-Algonquian (c. 2,500-3,000 BP, northern/eastern origin) is the best-reconstructed language family of the broad region and gives a real, rule-governed morphology (Bloomfield 1946; Goddard; Aubin's Proto-Algonquian dictionary). The link to Early Archaic peoples is purely areal and entirely speculative; names should be read as a stylised Eastern Woodlands flavour, not as the actual language of these foragers.",
+ "phonology": "Proto-Algonquian (Bloomfield/Goddard notation) consonants: *p *t *c (affricate, ch) *k *s *sh (esh) *th (eth-like) *l *m *n *w *y *h plus *? as cluster member; long and short vowels *i *o *a *e and long *ii *oo *aa *ee. No voicing contrast in stops, no /f r b d g/. Cluster-internal *x (unknown fricative) and *? occur only in clusters.",
+ "phonotactics": "Syllables are (C)V(:) with medial clusters of the type *hC (preaspirated: *hp *ht *hk *hc *hs *hsh *hth *hl *hm *hn) and *?C, plus *C + *w or *y glide (*kw *pw *mw *hkw). Words end in a vowel or in a suffixed consonant (-w, -k, -n, -l, -a, -ki, -ar). No word-initial clusters, no word-initial *h-clusters, no consonant-final stems in roots except via inflection. Preaspirated clusters and vowel length matter for spelling; stress is not written.",
+ "orthography": "Use plain-Latin Proto-Algonquian-style transliteration: sh for esh, th for eth, c written as ch for the game, long vowels doubled (aa ee ii oo), glottal stop as an apostrophe, preaspiration as h before a stop (ahp, ehk, ahs). Reconstructed forms carry an asterisk in the notes but names are written without asterisks. Final -w/-wa/-ki/-ni suffixes mark animate forms and plurals (-ak, -ar, -ni; Proto-Algonquian *-ki/-ahki locative).",
+ "morphology": "Polysynthetic, head-final noun stems with an animate/inanimate gender split. Nouns are built from a root plus a final (abstract or concrete: *-aahkwa ~ tree/wood, *-aakani ~ instrument, *-ahsi ~ stone, *-wi ~ water). Initials and medials combine into stems; possession uses person prefixes (ne- 1, ke- 2, we- 3). Plurals: animate *-ak, inanimate *-ar. Locative *-ink / *-ing.",
+ "compounding": "Compounds are initial + (medial) + final, head-final: [qualifier root]-[body final]. 'X of Y' is typically expressed by a possessed noun with we- (e.g. wi-) prefix, or a noun with locative -enk/-ink; 'Y-maker' is built from a verb root plus a nominalizing final (*-aakani instrument, *-iwa agent). There is no genitive case marker on the possessor; ordering is possessor + possessed with prefix on the head.",
+ "noun_phrase_order": "Modifier before head (adjectival or numeral initial + noun final), possessor before possessed; demonstratives precede; locatives are suffixed to the noun.",
+ "attested_roots": [
+  {
+   "form": "*nipi",
+   "gloss": "water",
+   "reconstructed": true
+  },
+  {
+   "form": "*waapi",
+   "gloss": "white",
+   "reconstructed": true
+  },
+  {
+   "form": "*kiishekwi",
+   "gloss": "sun, day",
+   "reconstructed": true
+  },
+  {
+   "form": "*atehkwa",
+   "gloss": "fish (variant)",
+   "reconstructed": true
+  },
+  {
+   "form": "*ashkwa",
+   "gloss": "moccasin",
+   "reconstructed": true
+  },
+  {
+   "form": "*menehsi",
+   "gloss": "island",
+   "reconstructed": true
+  },
+  {
+   "form": "*kwesi",
+   "gloss": "fire",
+   "reconstructed": true
+  },
+  {
+   "form": "*waapa",
+   "gloss": "star/white (light)",
+   "reconstructed": true
+  },
+  {
+   "form": "*ahpi",
+   "gloss": "bow",
+   "reconstructed": true
+  },
+  {
+   "form": "*meenesi",
+   "gloss": "berry",
+   "reconstructed": true
+  },
+  {
+   "form": "*ahsini",
+   "gloss": "stone",
+   "reconstructed": true
+  },
+  {
+   "form": "*meehkwa",
+   "gloss": "bear",
+   "reconstructed": true
+  },
+  {
+   "form": "*wehkwa",
+   "gloss": "bone",
+   "reconstructed": true
+  },
+  {
+   "form": "*sa-a-ke",
+   "gloss": "river mouth / flow out",
+   "reconstructed": true
+  },
+  {
+   "form": "*ahkiy",
+   "gloss": "earth, land",
+   "reconstructed": true
+  },
+  {
+   "form": "*meehsa",
+   "gloss": "deer-like animal, red",
+   "reconstructed": true
+  }
+ ],
+ "worked_examples": [
+  {
+   "english": "River Stew",
+   "name": "Nipaawi meneka",
+   "gloss": "nip-aawi water-final + menek- stew/cook (illustrative stylised formation)"
+  },
+  {
+   "english": "Stone Place",
+   "name": "Ahsinihki",
+   "gloss": "ahsini 'stone' + -hki 'place/land'"
+  },
+  {
+   "english": "White Sun",
+   "name": "Waapakiishek",
+   "gloss": "waap- 'white' + kiishek 'sun'"
+  },
+  {
+   "english": "Bear Hunters",
+   "name": "Meehkwaak",
+   "gloss": "meehkwa 'bear' + -ak animate plural"
+  },
+  {
+   "english": "Island Fire",
+   "name": "Menehsikwesi",
+   "gloss": "menehsi 'island' + kwesi 'fire'"
+  },
+  {
+   "english": "Bone Bow",
+   "name": "Wehkwaahpi",
+   "gloss": "wehkwa 'bone' + ahpi 'bow'"
+  }
+ ],
+ "allowed_graphemes": [
+  "a",
+  "e",
+  "i",
+  "o",
+  "aa",
+  "ee",
+  "ii",
+  "oo",
+  "p",
+  "t",
+  "k",
+  "ch",
+  "s",
+  "sh",
+  "th",
+  "h",
+  "m",
+  "n",
+  "l",
+  "w",
+  "y",
+  "hp",
+  "ht",
+  "hk",
+  "hs",
+  "hsh",
+  "hth",
+  "kw",
+  "pw",
+  "hkw"
+ ],
+ "extra_allowed_chars": " -'",
+ "forbidden_patterns": [
+  "[bdfgjqrvxz]",
+  "^h[ptkcs]",
+  "(.)\\1\\1",
+  "[aeiou]{4}",
+  "ch[ptk]{2}",
+  "sh[sh]",
+  "[pktsmn]{3}"
+ ],
+ "syllables_per_word": [
+  2,
+  3,
+  4
+ ],
+ "max_word_length": 14,
+ "sources": [
+  "Bloomfield, Leonard. 'Algonquian' in Linguistic Structures of Native America, 1946",
+  "Goddard, Ives. 'The Algonquian Languages' in Handbook of North American Indians vol. 17, 1996",
+  "Aubin, George F. A Proto-Algonquian Dictionary, 1975",
+  "Siebert, Frank. 'Resurrecting Virginia Algonquian from the Dead' in Studies in Southeastern Indian Languages, 1975",
+  "Glottolog: Algonquian family classification",
+  "Wiktionary: Proto-Algonquian reconstruction pages"
+ ],
+ "notes": "Entirely speculative proxy: the Early Archaic has no linguistic evidence and Proto-Algonquian postdates it by millennia; the family is also not the only candidate in the region (Siouan, Iroquoian, Muskogean, and now-extinct isolates were all present). Some listed roots are approximations of Proto-Algonquian shapes; verify each against Aubin/Wiktionary before shipping. No word may be identical to a Modern Irish, Scottish Gaelic or Manx word since the language is not Goidelic. Avoid repeating current game strings (apostrophe-heavy or 'x'-containing forms like Yiwihon, Hit'o, Kosatho thiyoxsoch), which do not match Algonquian phonotactics.",
+ "unit": "Early Archaic Eastern North America",
+ "slug": "early_archaic_eastern_north_america",
+ "model": "claude-sonnet-5-5"
+}

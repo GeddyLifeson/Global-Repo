@@ -1,0 +1,179 @@
+{
+ "proxy_language": "Proto-Yukaghir (reconstructed ancestor of Tundra and Kolyma Yukaghir), with Proto-Tungusic as a secondary areal reference",
+ "confidence": "speculative",
+ "proxy_rationale": "The Sumnagin culture (c. 8000-5000 BCE, Yakutia, Aldan-Lena region) is known only archaeologically. No linguistic identification is secure. Yukaghir is the most defensible proxy because it is a pre-Tungusic, pre-Turkic language family of northeastern Siberia whose speakers plausibly descend from Mesolithic and Neolithic populations of Yakutia, and Yukaghir-speaking territory once extended across the Lena-Kolyma region. The link is speculative: Sumnagin may equally have been ancestral to Yukaghir, Yeniseian, or an extinct language. Uralic-Yukaghiric ties (Nikolaeva 2006, Piispanen 2013) are debated. Proto-Yukaghir forms therefore serve as a plausible-sounding but unprovable model. Forms are based on Kolyma and Tundra Yukaghir, with reconstructions marked by asterisks.",
+ "phonology": "Based on Kolyma/Tundra Yukaghir (Nikolaeva 2006). Vowels: i, e, a, o, u, plus central/front ö, ü and long vowels in the modern languages. Consonants: stops p, t, c (affricate [ts]/[tʃ]), k, plus palatal stop ť (c-hacek in some notations); voiced d, g and b in some positions; fricatives s, š (written š), ɣ (g with diacritic), h in loans; nasals m, n, ŋ (ng), ń; laterals l, ľ; rhotic r; glides j, w. Vowel harmony operates in Yukaghir (labial/palatal-type, ATR-like split) in some suffix alternations. Palatalization of coronals is phonemic. For game use, the inventory is simplified to a plain Latin set.",
+ "phonotactics": "Syllable shapes (C)V(C); word-initial consonant clusters are absent; medial clusters are limited, typically nasal+stop (nd, ng, mp), r/l+C, or geminates. Word-final consonants are possible (n, l, r, k, t, m, ŋ) but vowel-final words are very common. Stress is not a major spelling factor. Native roots are typically one to three syllables. Avoid word-initial r- (rare in native Yukaghir roots; mostly loans) and word-initial ŋ.",
+ "orthography": "Use plain Latin transliteration in the style of Nikolaeva/Maslova: a, e, i, o, u, ö, ü; p, t, k, c, s, š, h, m, n, ng for ŋ, l, r, j, w, d, g, b. Prefer ASCII where possible (š -> sh, ŋ -> ng); no apostrophes or hyphens inside a word; compounds are written as separate words or fused.",
+ "morphology": "Yukaghir is agglutinative and suffixing, with a rich verbal system featuring focus marking. Nouns take case suffixes such as nominative -ø, accusative -ŋ/-nun, locative -gi/-ŋi, instrumental -le/-lek, genitive/possessive suffixes -ŋ ~ -k. Plural suffix is -pe (-pul in some dialects). Derivational suffixes include -lie (diminutive/qualitative), -ne/-ñe (nominalizer), -dü, -l (verbal nouns). Roots are monosyllabic or disyllabic CVC(V). Reduplication occurs in some expressive forms. There are no noun classes.",
+ "compounding": "Compounds are head-final: modifier then head (determiner-noun). Genitive constructions place the possessor before the possessed with a genitive suffix or juxtaposition: 'X of Y' = Y(-gen) X. Agent nouns ('Y-maker') are built as object + verb root + nominalizer, e.g. object-verb-ne. Place names use locative or collective suffixes on a noun root.",
+ "noun_phrase_order": "Modifier before head: adjective/noun modifier + noun; possessor + possessed; demonstrative + noun; numeral + noun. Head-final throughout.",
+ "attested_roots": [
+  {
+   "form": "lebie",
+   "gloss": "day, sun (Tundra Yukaghir lebie 'day, sun')",
+   "reconstructed": false
+  },
+  {
+   "form": "ńaa",
+   "gloss": "mother (approximate Kolyma kinship stem)",
+   "reconstructed": false
+  },
+  {
+   "form": "aŋa",
+   "gloss": "father/old man (approximate kinship stem)",
+   "reconstructed": false
+  },
+  {
+   "form": "juo",
+   "gloss": "water, river (approximate stem juo-)",
+   "reconstructed": false
+  },
+  {
+   "form": "ńolo",
+   "gloss": "lake, large waterbody (approximate)",
+   "reconstructed": false
+  },
+  {
+   "form": "lugu",
+   "gloss": "to look/see (approximate verb stem)",
+   "reconstructed": false
+  },
+  {
+   "form": "kudede",
+   "gloss": "to kill (Kolyma stem kude-)",
+   "reconstructed": false
+  },
+  {
+   "form": "met",
+   "gloss": "I (1sg pronoun)",
+   "reconstructed": false
+  },
+  {
+   "form": "tit",
+   "gloss": "you (2sg pronoun)",
+   "reconstructed": false
+  },
+  {
+   "form": "tudel",
+   "gloss": "he/she (3sg pronoun)",
+   "reconstructed": false
+  },
+  {
+   "form": "pulut",
+   "gloss": "man, male (Kolyma pulut)",
+   "reconstructed": false
+  },
+  {
+   "form": "ńawoń",
+   "gloss": "woman (approximate Kolyma ńawoń)",
+   "reconstructed": false
+  },
+  {
+   "form": "jaqa",
+   "gloss": "meat (approximate)",
+   "reconstructed": false
+  },
+  {
+   "form": "*ńeu",
+   "gloss": "fire (rough proto-form)",
+   "reconstructed": true
+  },
+  {
+   "form": "*luŋ",
+   "gloss": "stone (rough proto-form)",
+   "reconstructed": true
+  },
+  {
+   "form": "*ewu",
+   "gloss": "to be, exist (rough proto-form)",
+   "reconstructed": true
+  }
+ ],
+ "worked_examples": [
+  {
+   "english": "River Stew",
+   "name": "juo jaqa",
+   "gloss": "juo 'river/water' + jaqa 'meat' (modifier-head, juxtaposed noun compound)"
+  },
+  {
+   "english": "Sun Lake",
+   "name": "lebie ńolo",
+   "gloss": "lebie 'sun' + ńolo 'lake' (modifier before head)"
+  },
+  {
+   "english": "Fire Place",
+   "name": "ńeuge",
+   "gloss": "ńeu 'fire' + locative -ge (noun + locative suffix)"
+  },
+  {
+   "english": "Stone Hunter",
+   "name": "luŋ kudene",
+   "gloss": "luŋ 'stone' + kude- 'kill' + nominalizer -ne (object + verb + agent suffix)"
+  },
+  {
+   "english": "Mother of Water",
+   "name": "juoŋ ńaa",
+   "gloss": "juo 'water' + genitive -ŋ + ńaa 'mother' (possessor-gen + possessed)"
+  },
+  {
+   "english": "Men's Camp",
+   "name": "pulutpe ńolo",
+   "gloss": "pulut 'man' + plural -pe + ńolo 'lake/place' (plural modifier + head)"
+  }
+ ],
+ "allowed_graphemes": [
+  "a",
+  "e",
+  "i",
+  "o",
+  "u",
+  "ö",
+  "ü",
+  "p",
+  "t",
+  "k",
+  "c",
+  "s",
+  "sh",
+  "h",
+  "m",
+  "n",
+  "ng",
+  "l",
+  "r",
+  "j",
+  "w",
+  "d",
+  "g",
+  "b"
+ ],
+ "extra_allowed_chars": " ",
+ "forbidden_patterns": [
+  "^r",
+  "^ng",
+  "[aeiouöü]{3,}",
+  "[^aeiouöü]{3,}",
+  "(.)\\1\\1",
+  "[fqvxz]",
+  "'",
+  "-"
+ ],
+ "syllables_per_word": [
+  2,
+  3
+ ],
+ "max_word_length": 12,
+ "sources": [
+  "Nikolaeva, Irina. A Historical Dictionary of Yukaghir (Mouton de Gruyter, 2006)",
+  "Maslova, Elena. A Grammar of Kolyma Yukaghir (Mouton de Gruyter, 2003)",
+  "Maslova, Elena. A Grammar of Tundra Yukaghir (Mouton de Gruyter, 2003)",
+  "Piispanen, Peter. 'Uralic-Yukaghir lexical correspondences', Journal de la Societe Finno-Ougrienne (2013)",
+  "Mochanov, Yuri A. Sumnagin culture archaeological studies (Siberian Arctic archaeology, 1970s-1990s)",
+  "Glottolog entry for Yukaghir; ASJP wordlists for Yukaghir varieties"
+ ],
+ "notes": "The Sumnagin-Yukaghir link is a hypothesis with no direct evidence; treat all names as evocative, not authentic. Roots for kinship and landscape terms are approximate Kolyma/Tundra forms simplified for game use; exact vowel quality and diacritics may differ in Nikolaeva's notation. No word may be identical to a Modern Irish, Scottish Gaelic or Manx word, since Yukaghir is not Goidelic.",
+ "unit": "Sumnagin culture",
+ "slug": "sumnagin_culture",
+ "model": "claude-sonnet-5-5"
+}

@@ -1,0 +1,202 @@
+{
+ "proxy_language": "Proto-Mongolic (with Proto-Tungusic as secondary comparison); no attested language is known for Palaeolithic Transbaikal and Mongolia",
+ "confidence": "speculative",
+ "proxy_rationale": "The late Palaeolithic microblade groups (c. 20-12 kya, e.g. Khotyk, Ust-Menza, Mongolian Tolbor and Khanzat industries) left no linguistic record. The region's later languages are Mongolic, Tungusic and Turkic, but these are Holocene-era expansions and the Altaic relationship is contested, so any proxy is a purely game-level convenience. Proto-Mongolic (reconstructed via Middle Mongol, Secret History, Khalkha, Buryat) is used as the most defensible regional stand-in, since it is a well-reconstructed language of the same geography. The link to Pleistocene populations is extremely weak and carries no claim of continuity.",
+ "phonology": "Proto-/Middle Mongolic consonants: stops *p *b *t *d *k *g (and *q, *G in back-vowel words), affricates *c(ch) *j, fricatives *s *š *h/x, nasals *m *n *ŋ, liquids *l *r, glides *y *w. Vowels: *a *e *i *o *u *ö *ü, with long vowels (aa, ee, ii, oo, uu, öö, üü) and diphthongs (ai, oi, ui, ei, üi). Vowel harmony: back (a o u) vs front (e ö ü), i neutral; Middle Mongol also shows rounding/labial harmony. Initial *p- is lost or becomes h/f in modern languages but is kept in Middle Mongol/Proto-Mongolic reconstruction.",
+ "phonotactics": "Syllable shapes: V, CV, VC, CVC (CVV, CVVC with long vowels/diphthongs). Word-initial: single consonant or vowel; no initial clusters, and *r- and *l- are avoided word-initially in native words. Word-medial clusters limited to two consonants (e.g. -rt-, -lb-, -nt-, -gd-, -ms-). Word-final consonants: n, r, l, g/k, s, d/t, b, m, ng; no final clusters in native roots. Vowel harmony governs every word, so names should keep one harmonic class (back or front), allowing i freely. Stress is weak and initial and does not affect spelling.",
+ "orthography": "Latinised scholarly transliteration of Middle Mongol/Mongolian: plain letters a b c d e g h i j k l m n o p q r s t u w y; ö ü for front rounded vowels; š written 'sh' or š, c as 'ch', ŋ as 'ng'. Long vowels doubled (aa, ee, oo, uu, öö, üü). Use g for velar stop (not 'gh'), x or h for the velar/glottal fricative.",
+ "morphology": "Agglutinative, suffixing only. Nominal roots are bare stems; plural suffixes -d, -s, -nar, -ud/-üd; case suffixes include genitive -n/-iin/-un/-ün, accusative -i, dative-locative -da/-de, ablative -aas/-ees, instrumental -aar/-eer, comitative -tai/-tei. Denominal noun suffixes: -či/-chi (agent, 'one who does/has'), -tu/-tü and -tai/-tei (having, possessing), -gai/-ei (diminutive-ish), -sun/-sün (product nouns), -l, -lig. Verbal nouns: -l (e.g. product of action), -ga/-ge, -ma/-me, -gči agent. Reduplication is rare and restricted to intensifiers and onomatopoeia.",
+ "compounding": "Modifier precedes head. Genitive constructions place the possessor first: 'X-n Y' = 'Y of X' (genitive -n/-iin/-un/-ün on the possessor, or sometimes a bare juxtaposed compound with no case). Denominal agent nouns use -či (e.g. 'hunter' = hunt-er: aduuči from *adu-). Possessive/privative adjectives use -tai/-gui ('with'/'without'). Names like 'River Stew' are formed as modifier + head compounds (mören + shöl) or genitive phrases.",
+ "noun_phrase_order": "Strictly head-final: adjective/modifier before noun, possessor before possessed, numeral before noun, demonstrative before noun (e.g. cagaan morin 'white horse'; ger-iin ömnö 'in front of the tent').",
+ "attested_roots": [
+  {
+   "form": "mören",
+   "gloss": "river",
+   "reconstructed": false
+  },
+  {
+   "form": "ayiraG",
+   "gloss": "fermented mare's milk (airag)",
+   "reconstructed": false
+  },
+  {
+   "form": "nara",
+   "gloss": "sun",
+   "reconstructed": false
+  },
+  {
+   "form": "sara",
+   "gloss": "moon, month",
+   "reconstructed": false
+  },
+  {
+   "form": "qan",
+   "gloss": "khan, ruler",
+   "reconstructed": false
+  },
+  {
+   "form": "ger",
+   "gloss": "tent, dwelling",
+   "reconstructed": false
+  },
+  {
+   "form": "kökö",
+   "gloss": "blue, sky-colored",
+   "reconstructed": false
+  },
+  {
+   "form": "cagaan",
+   "gloss": "white",
+   "reconstructed": false
+  },
+  {
+   "form": "qara",
+   "gloss": "black",
+   "reconstructed": false
+  },
+  {
+   "form": "morin",
+   "gloss": "horse",
+   "reconstructed": false
+  },
+  {
+   "form": "noqai",
+   "gloss": "dog",
+   "reconstructed": false
+  },
+  {
+   "form": "quluqan",
+   "gloss": "mouse/rodent",
+   "reconstructed": false
+  },
+  {
+   "form": "temegen",
+   "gloss": "camel",
+   "reconstructed": false
+  },
+  {
+   "form": "ayan",
+   "gloss": "journey, travelling",
+   "reconstructed": false
+  },
+  {
+   "form": "hulaan",
+   "gloss": "red",
+   "reconstructed": false
+  },
+  {
+   "form": "*ge'ün",
+   "gloss": "person, human",
+   "reconstructed": true
+  }
+ ],
+ "worked_examples": [
+  {
+   "english": "River Stew",
+   "name": "Mören shöl",
+   "gloss": "mören 'river' + shöl 'broth/stew'; modifier before head, no case marker"
+  },
+  {
+   "english": "Hunter of the Sun",
+   "name": "Naran-ni aduuchi",
+   "gloss": "nara 'sun' + -n genitive + aduu-chi 'herd/hunt' agent noun; possessor first"
+  },
+  {
+   "english": "White Horse Camp",
+   "name": "Cagaan morin ger",
+   "gloss": "cagaan 'white' + morin 'horse' + ger 'tent/camp'; stacked head-final modifiers"
+  },
+  {
+   "english": "Place of the Black Dog",
+   "name": "Qara noqai-n oron",
+   "gloss": "qara 'black' + noqai 'dog' + -n genitive + oron 'place, land'"
+  },
+  {
+   "english": "Camel Journey",
+   "name": "Temegen ayan",
+   "gloss": "temegen 'camel' + ayan 'journey'; bare compound"
+  },
+  {
+   "english": "Blue Moon Dwelling",
+   "name": "Kökö sara ger",
+   "gloss": "kökö 'blue' + sara 'moon' + ger 'dwelling'; modifier-modifier-head"
+  }
+ ],
+ "allowed_graphemes": [
+  "a",
+  "b",
+  "c",
+  "ch",
+  "d",
+  "e",
+  "g",
+  "h",
+  "i",
+  "j",
+  "k",
+  "l",
+  "m",
+  "n",
+  "ng",
+  "o",
+  "ö",
+  "p",
+  "q",
+  "r",
+  "s",
+  "sh",
+  "t",
+  "u",
+  "ü",
+  "w",
+  "x",
+  "y",
+  "aa",
+  "ee",
+  "ii",
+  "oo",
+  "uu",
+  "öö",
+  "üü",
+  "ai",
+  "oi",
+  "ui",
+  "ei"
+ ],
+ "extra_allowed_chars": " -öü",
+ "forbidden_patterns": [
+  "f",
+  "v",
+  "z",
+  "th",
+  "ph",
+  "gh",
+  "ck",
+  "qu",
+  "x{2,}",
+  "[aeiouöü]{3,}",
+  "^[rl]",
+  "[bcdfghjklmnpqrstwxyz]{3,}",
+  "[aou][eöü]|[eöü][aou]"
+ ],
+ "syllables_per_word": [
+  2,
+  3
+ ],
+ "max_word_length": 14,
+ "sources": [
+  "Poppe, Nicholas. Grammar of Written Mongolian, 1954",
+  "Janhunen, Juha (ed.). The Mongolic Languages, 2003",
+  "Rybatzki, Volker. Intra-Mongolic Taxonomy, in The Mongolic Languages, 2003",
+  "Svantesson, Jan-Olof et al. The Phonology of Mongolian, 2005",
+  "Starling database (Altaic etymology, Starostin et al.)",
+  "Glottolog: Mongolic-Khitan family",
+  "Ramstedt, G. J. Kalmückisches Wörterbuch, 1935",
+  "de Rachewiltz, Igor. The Secret History of the Mongols, 2004",
+  "Lessing, Ferdinand. Mongolian-English Dictionary, 1960"
+ ],
+ "notes": "Highly speculative: no linguistic continuity from Pleistocene microblade makers to Mongolic speakers is established; Proto-Mongolic is a phonological and morphological flavour proxy only. Words are not identical to Modern Irish, Scottish Gaelic or Manx words; no word may be identical to a word of those Goidelic languages (the proxy is not Goidelic). Keep one vowel-harmony class per word where possible, avoid initial r- and l-, and avoid f, v, z which are absent from native Mongolic roots. The existing game strings (e.g. Jilhuh, Dilwil) have non-Mongolic shapes such as unharmonised or initial-l patterns and should be rebuilt with harmonic CV(C) syllables and the compound/genitive patterns above.",
+ "unit": "Transbaikal and Mongolian late Palaeolithic microblade groups",
+ "slug": "transbaikal_and_mongolian_late_palaeolithic_microblade_groups",
+ "model": "claude-sonnet-5-5"
+}

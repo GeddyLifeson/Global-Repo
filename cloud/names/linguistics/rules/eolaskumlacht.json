@@ -1,0 +1,179 @@
+{
+ "proxy_language": "Modern-era Pan-African culinary/court lexicon, proxied by Yoruba (Standard Yoruba orthography) with Akan (Twi) and Hausa as secondary donors",
+ "confidence": "speculative",
+ "proxy_rationale": "'Eolaskumlacht' is not a recognizable historical culture or attested language, and the string itself is not a real word in any language I can verify. The sample names (Jollof, Egusi, Fufu, Suya, Waakye, Akara) are West African foodways from Wolof/Mandinka (jollof), Yoruba (egusi, akara in Yoruba/Hausa as akara/kosai), Akan (fufu, waakye), and Hausa (suya, tsire). A defensible proxy for a worldwide-network later-court culture whose naming is dominated by West African food and trade is Yoruba, the best-documented large West African language with a standard orthography, supplemented by Akan and Hausa. This is a proxy choice, not an identification of the culture. The name itself should not be treated as Irish or Goidelic.",
+ "phonology": "Standard Yoruba: consonants b, t, d, k, g, gb /k\\u0361p/, f, s, \\u1e63 /\\u0283/, h, j, l, r, m, n, w, y, p. Seven oral vowels a, e, \\u1eb9 /\\u025b/, i, o, \\u1ecd /\\u0254/, u, plus nasalized vowels (in, an, un, \\u1ecdn, \\u1eb9n written as vowel + n). Three level tones: high (acute), mid (unmarked), low (grave). No consonant clusters; no vowel length contrast. Akan donor items add labialized and palatalized series (kw, tw, hw, dw, ky, ny) and vowel harmony.",
+ "phonotactics": "Open syllables only: (C)V or syllabic nasal (N). Syllable shapes V, CV, N. No codas except a syllabic nasal or the nasal of a nasalized vowel. No consonant clusters inside a syllable; gb and kp count as single consonants. Words commonly begin with a vowel (nouns often have an initial vowel, e.g. \\u1eb9ja 'fish', ar\\u00f9n 'illness', \\u00ecw\\u00e9 'book'). Tone is lexical and is normally not written in game-friendly Latin text, so the audit should allow but not require tone diacritics. Loans from Hausa/Akan may be reshaped to open syllables.",
+ "orthography": "Standard Yoruba Latin orthography: subdot letters \\u1eb9, \\u1ecd, \\u1e63; digraph gb; tone marks (acute, grave) and optional macron-free mid tone; nasal vowels as V+n. For game use, an ASCII-friendly variant (e, o, s for \\u1eb9, \\u1ecd, \\u1e63) is acceptable. Hausa donor spelling: b, \\u0253, d, \\u0257, \\u0199, ts, sh, ' for glottal stop, ai/au diphthongs. Akan donor spelling: \\u025b, \\u0254, ky, tw, hw, ny, nk, nt, nd clusters of nasal+stop.",
+ "morphology": "Yoruba is isolating with little inflection. Nouns often carry a vowel prefix (a-, \\u00e0-, \\u00ec-, \\u00f2-, \\u1eb9-, \\u1ecd-, o-, \\u00e8-) forming agent, instrument, or abstract nouns from verbs: o-/\\u1ecd-/a- agentive (\\u1ecdl\\u1ecdd\\u00e0 'owner of ...'), \\u00ec-/\\u00e0- abstract (\\u00ecj\\u1ecdba 'kingship'). Verb-noun nominalization uses reduplication of the verb with prefix \\u00e8-/\\u00ec- (\\u00e8k\\u1ecd 'lesson/pap' from k\\u1ecd 'teach'). Plural is expressed with words such as \\u00e0w\\u1ecdn 'they/the' or by context. No case or gender. Honorific and praise-name (or\\u00ed, \\u00e8sa) formation is a major naming resource.",
+ "compounding": "Nouns compose head-first: head noun then modifier, with genitive constructions formed by juxtaposition (possessed noun first, possessor second: il\\u00e9 \\u1ecdba 'house of the king' = palace). 'X of Y': X + Y with no linker, sometimes with a mid-toned linker n\\u00ed or ti in fuller phrases. 'Y-maker/seller': a- or o- agent prefix + verb + object (onis\\u00e9\\u0301\\u00f2g\\u00f9n?) and the common pattern oni- 'owner/seller of' + noun (on\\u00ed\\u00e8wa 'bean seller', aladi\\u00fa 'palm-oil seller'): oni-/ol\\u00f3-/al\\u00e1- + noun. Verb-object compounds (\\u00e0-g\\u00ed 'cutter') also occur.",
+ "noun_phrase_order": "Head noun first, then adjective, then demonstrative or numeral: \\u1eb9ja ki\\u1e63\\u00ed 'big fish' type order (noun + adjective), possessor after possessed (il\\u00e9 \\u1ecdba), demonstratives follow the noun (il\\u00e9 y\\u00ec\\u00ed 'this house'). Akan and Hausa donors: Akan noun + adjective; Hausa noun + genitive linker -n/-r (gidan sarki 'the king's house').",
+ "attested_roots": [
+  {
+   "form": "\\u00e8w\\u00e0",
+   "gloss": "beans (Yoruba)",
+   "reconstructed": false
+  },
+  {
+   "form": "\\u1eb9ja",
+   "gloss": "fish (Yoruba)",
+   "reconstructed": false
+  },
+  {
+   "form": "il\\u00e9",
+   "gloss": "house (Yoruba)",
+   "reconstructed": false
+  },
+  {
+   "form": "\\u1ecdba",
+   "gloss": "king (Yoruba)",
+   "reconstructed": false
+  },
+  {
+   "form": "\\u00ecy\\u00e1",
+   "gloss": "mother (Yoruba)",
+   "reconstructed": false
+  },
+  {
+   "form": "omi",
+   "gloss": "water (Yoruba)",
+   "reconstructed": false
+  },
+  {
+   "form": "\\u00ecg\\u00f2",
+   "gloss": "bottle, vessel (Yoruba)",
+   "reconstructed": false
+  },
+  {
+   "form": "od\\u00f2",
+   "gloss": "river; mortar (Yoruba)",
+   "reconstructed": false
+  },
+  {
+   "form": "\\u00e0\\u00e0r\\u1ecd\\u0300",
+   "gloss": "market (Yoruba)",
+   "reconstructed": false
+  },
+  {
+   "form": "\\u00ecl\\u00fa",
+   "gloss": "town, city (Yoruba)",
+   "reconstructed": false
+  },
+  {
+   "form": "\\u1ecdj\\u00e0",
+   "gloss": "market (Yoruba)",
+   "reconstructed": false
+  },
+  {
+   "form": "ad\\u00ec\\u00e9",
+   "gloss": "chicken (Yoruba)",
+   "reconstructed": false
+  },
+  {
+   "form": "kosai",
+   "gloss": "bean fritter (Hausa)",
+   "reconstructed": false
+  },
+  {
+   "form": "tsire",
+   "gloss": "grilled meat skewer, suya (Hausa)",
+   "reconstructed": false
+  },
+  {
+   "form": "nk\\u0254tia",
+   "gloss": "groundnuts, peanuts (Akan)",
+   "reconstructed": false
+  },
+  {
+   "form": "nsu",
+   "gloss": "water (Akan)",
+   "reconstructed": false
+  }
+ ],
+ "worked_examples": [
+  {
+   "english": "Palace of the King",
+   "name": "Il\\u00e9 \\u1ecdba",
+   "gloss": "il\\u00e9 'house' + \\u1ecdba 'king'; head-first genitive by juxtaposition"
+  },
+  {
+   "english": "Bean Seller (market hall)",
+   "name": "Onil\\u00e8wa",
+   "gloss": "oni- 'owner/seller of' + \\u00e8w\\u00e0 'beans'"
+  },
+  {
+   "english": "Fish Market",
+   "name": "\\u1ecdj\\u00e0 \\u1eb9ja",
+   "gloss": "\\u1ecdj\\u00e0 'market' + \\u1eb9ja 'fish'; head + modifier noun"
+  },
+  {
+   "english": "River Town",
+   "name": "\\u00ccl\\u00fa od\\u00f2",
+   "gloss": "\\u00ecl\\u00fa 'town' + od\\u00f2 'river'"
+  },
+  {
+   "english": "Water House (fountain hall)",
+   "name": "Il\\u00e9 omi",
+   "gloss": "il\\u00e9 'house' + omi 'water'"
+  },
+  {
+   "english": "Mother of the Market",
+   "name": "\\u00ccy\\u00e1\\u1ecdj\\u00e0",
+   "gloss": "\\u00ecy\\u00e1 'mother' + \\u1ecdj\\u00e0 'market'; titled compound as in Yoruba market-titles"
+  }
+ ],
+ "allowed_graphemes": [
+  "a",
+  "e",
+  "\\u1eb9",
+  "i",
+  "o",
+  "\\u1ecd",
+  "u",
+  "b",
+  "d",
+  "f",
+  "g",
+  "gb",
+  "h",
+  "j",
+  "k",
+  "l",
+  "m",
+  "n",
+  "p",
+  "r",
+  "s",
+  "\\u1e63",
+  "t",
+  "w",
+  "y"
+ ],
+ "extra_allowed_chars": " -'\\u0300\\u0301\\u0304\\u1eb9\\u1ecd\\u1e63",
+ "forbidden_patterns": [
+  "[bcdfghjklmnpqrstvwxyz]{3,}",
+  "(?<![aeiou\\u1eb9\\u1ecd])[bcdfhjklmprstwxyz](?![aeiou\\u1eb9\\u1ecd])",
+  "[cqvxz]",
+  "(sh|ch|ph|th|ts|ng)$",
+  "[bdfghjklmprstwy]$"
+ ],
+ "syllables_per_word": [
+  2,
+  5
+ ],
+ "max_word_length": 14,
+ "sources": [
+  "Bamgbose, Ayo. A Grammar of Yoruba (1966)",
+  "Abraham, R. C. Dictionary of Modern Yoruba (1958)",
+  "Pulleyblank, Douglas. Tone in Lexical Phonology (1986)",
+  "Welmers, William E. African Language Structures (1973)",
+  "Christaller, J. G. Dictionary of the Asante and Fante Language called Tshi (1881)",
+  "Newman, Paul. The Hausa Language: An Encyclopedic Reference Grammar (2000)",
+  "Bargery, G. P. A Hausa-English Dictionary (1934)",
+  "Glottolog and ASJP entries for Yoruba, Akan, Hausa"
+ ],
+ "notes": "No word may be identical to a Modern Irish, Scottish Gaelic or Manx word, since the proxy is not Goidelic. 'Eolaskumlacht' is not an attested culture or language; it resembles Irish-style spelling (eolas 'knowledge') but is not Irish, and the audit should not treat it as a model. The forbidden-patterns set enforces open syllables: no triple consonants, no lone medial consonant without a following vowel, no c/q/v/x/z, and no consonant-final words except syllabic n/m. Because Yoruba subdot letters may not survive all pipelines, accept ASCII e/o/s as equivalents. Treat all Hausa and Akan items as donor flavor only, reshaped to open syllables.",
+ "unit": "Eolaskumlacht",
+ "slug": "eolaskumlacht",
+ "model": "claude-sonnet-5-5"
+}

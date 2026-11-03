@@ -1,0 +1,211 @@
+{
+ "proxy_language": "Finnish-Karelian (Finnic) blended with Old Norse/Norse-Gaelic as a speculative conlang proxy; no attested language",
+ "confidence": "speculative",
+ "proxy_rationale": "Sinsermeisin is not an attested culture or language. It is a fictional off-Earth later court culture. The sample strings mix Finnic-looking material (rusu-, -kierkku, kurrak), Scottish-Gaelic-looking material (stiubamairte, òil, skaig, deg) and Germanic material (stiuba, plantein, frigig). No single real language fits, so the defensible proxy is Finnish (Uralic, Finnic) as the structural base, since Finnish provides agglutinative compounding, vowel harmony and head-final noun phrases, with an optional Old Norse loan layer, as in Finnic contact with Germanic. This is a design proxy and not a historical claim. Because Gaelic-looking strings must not be reproduced, no Goidelic words are used.",
+ "phonology": "Modeled on Finnish. Vowels: a e i o u y ä ö, with phonemic length (aa ee ii oo uu yy ää öö). Diphthongs: ai ei oi ui yi äi öi au eu iu ou ie uo yö. Consonants: p t k, d, b g only in loans, m n, s, h, v, j, l, r, and ng (nk, ng) as a cluster. Gemination is phonemic (kk pp tt ss ll mm nn rr). Vowel harmony splits front (y ä ö) from back (a o u), with e and i neutral. Stress is word-initial, with secondary stress on odd syllables. Native Finnic words lack f, b, g, and c.",
+ "phonotactics": "Syllables are (C)V(C), with V a short or long vowel or diphthong. Native words start with a single consonant and no cluster. Medial clusters are allowed (rk, rs, nk, lm, st, sk, rm, ls, ps). Words end in a vowel, or in n, s, t, l, r. Nominative singular forms usually end in a vowel; consonant-final forms are mostly -n, -s, -l, -r. Final geminates and final clusters do not occur in native words. Vowel harmony holds within a word, with front and back vowels not mixed in the same stem (compounds excepted).",
+ "orthography": "Finnish Latin orthography with ä ö y. Long vowels and geminates are written doubled. Use k for /k/, never c, q, x, z, w; use v, not w. Avoid b, f, g, d, except in a deliberate Norse-loan stratum where Old Norse transliteration b, d, g, f are tolerated word-initially. No apostrophes. Diacritics limited to ä and ö.",
+ "morphology": "Agglutinative, suffixing. Nouns take case (nominative -0, genitive -n, partitive -a/-ä/-ta/-tä, inessive -ssa/-ssä, elative -sta/-stä, illative -Vn, adessive -lla/-llä, allative -lle, essive -na/-nä, translative -ksi), plural -t (nominative) or -i- (oblique), and possessive suffixes. Common derivational suffixes: -ja/-jä (agent, 'doer'), -nen (diminutive or relational), -la/-lä (place), -us/-ys (abstract noun), -in (instrument), -sto/-stö (collection, place of), -llinen (having), -ton/-tön (lacking), -mo/-mö (result noun). Verb stems take -a/-ä infinitive, -ma/-mä agent participle, and -va/-vä present participle.",
+ "compounding": "Compounds are head-final, written as one word: modifier then head, with the modifier in nominative or genitive (jokiveri 'river-blood', but kuun-valo 'moon's light', normally written together as kuunvalo). 'X of Y' is Y(gen)+X or Y-X: aurinkotemppeli 'sun temple'. 'Y-maker' is Y(stem)+tekijä or Y+ja, as in leivänpaistaja 'bread-baker'. Place names use -la/-lä, -maa 'land', -linna 'castle', -vuori 'mountain', -järvi 'lake', -joki 'river', and -salo 'grove'. Linking vowels are stem vowels (kala-ruoka 'fish food').",
+ "noun_phrase_order": "Modifier before head, with agreement in case and number: adjective + noun (musta kala 'black fish'). Genitive modifier precedes head (kuninkaan linna 'king's castle'). Numerals precede nouns.",
+ "attested_roots": [
+  {
+   "form": "kala",
+   "gloss": "fish",
+   "reconstructed": false
+  },
+  {
+   "form": "joki",
+   "gloss": "river",
+   "reconstructed": false
+  },
+  {
+   "form": "järvi",
+   "gloss": "lake",
+   "reconstructed": false
+  },
+  {
+   "form": "vuori",
+   "gloss": "mountain",
+   "reconstructed": false
+  },
+  {
+   "form": "linna",
+   "gloss": "castle, fortress",
+   "reconstructed": false
+  },
+  {
+   "form": "kuu",
+   "gloss": "moon, month",
+   "reconstructed": false
+  },
+  {
+   "form": "aurinko",
+   "gloss": "sun",
+   "reconstructed": false
+  },
+  {
+   "form": "tähti",
+   "gloss": "star",
+   "reconstructed": false
+  },
+  {
+   "form": "tuli",
+   "gloss": "fire",
+   "reconstructed": false
+  },
+  {
+   "form": "vesi",
+   "gloss": "water",
+   "reconstructed": false
+  },
+  {
+   "form": "kivi",
+   "gloss": "stone",
+   "reconstructed": false
+  },
+  {
+   "form": "puu",
+   "gloss": "tree, wood",
+   "reconstructed": false
+  },
+  {
+   "form": "kuningas",
+   "gloss": "king (Germanic loan)",
+   "reconstructed": false
+  },
+  {
+   "form": "leipä",
+   "gloss": "bread",
+   "reconstructed": false
+  },
+  {
+   "form": "laiva",
+   "gloss": "ship",
+   "reconstructed": false
+  },
+  {
+   "form": "temppeli",
+   "gloss": "temple (loan)",
+   "reconstructed": false
+  }
+ ],
+ "worked_examples": [
+  {
+   "english": "River Stew",
+   "name": "Jokikeitto",
+   "gloss": "joki 'river' + keitto 'stew, soup' (head-final compound)"
+  },
+  {
+   "english": "Temple of the Sun",
+   "name": "Auringontemppeli",
+   "gloss": "auringon 'sun-GEN' + temppeli 'temple'"
+  },
+  {
+   "english": "Star Ship",
+   "name": "Tähtilaiva",
+   "gloss": "tähti 'star' + laiva 'ship'"
+  },
+  {
+   "english": "Bread-baker's Hall",
+   "name": "Leivänpaistajanhalli",
+   "gloss": "leivän 'bread-GEN' + paistaja 'baker' (paista- 'bake' + -ja) -n GEN + halli 'hall'"
+  },
+  {
+   "english": "Moon Fortress",
+   "name": "Kuulinna",
+   "gloss": "kuu 'moon' + linna 'fortress'"
+  },
+  {
+   "english": "Stone Mountain",
+   "name": "Kivivuori",
+   "gloss": "kivi 'stone' + vuori 'mountain'"
+  }
+ ],
+ "allowed_graphemes": [
+  "a",
+  "e",
+  "i",
+  "o",
+  "u",
+  "y",
+  "ä",
+  "ö",
+  "aa",
+  "ee",
+  "ii",
+  "oo",
+  "uu",
+  "yy",
+  "ää",
+  "öö",
+  "ai",
+  "ei",
+  "oi",
+  "ui",
+  "au",
+  "ie",
+  "uo",
+  "yö",
+  "p",
+  "t",
+  "k",
+  "m",
+  "n",
+  "s",
+  "h",
+  "v",
+  "j",
+  "l",
+  "r",
+  "pp",
+  "tt",
+  "kk",
+  "mm",
+  "nn",
+  "ss",
+  "ll",
+  "rr",
+  "ng",
+  "nk",
+  "rk",
+  "rs",
+  "st",
+  "sk",
+  "lm",
+  "rm",
+  "ls",
+  "ps"
+ ],
+ "extra_allowed_chars": " -äö",
+ "forbidden_patterns": [
+  "[cqwxzfbgd]",
+  "[aou][äöy]",
+  "[äöy][aou]",
+  "^[bcdfgqwxz]",
+  "(.)\\1\\1",
+  "[^aeiouyäölnrst]$",
+  "^(?:[^aeiouyäö]{2,})",
+  "[bcdfgqwxz]{1}",
+  "'"
+ ],
+ "syllables_per_word": [
+  2,
+  3,
+  4,
+  5
+ ],
+ "max_word_length": 22,
+ "sources": [
+  "Karlsson, Fred. Finnish: An Essential Grammar. Routledge, 1999",
+  "Hakulinen, Auli et al. Iso suomen kielioppi (Large Grammar of Finnish), 2004",
+  "Kotus (Institute for the Languages of Finland), Nykysuomen sanakirja and Suomen sanojen alkuperä, 1992-2000",
+  "Sammallahti, Pekka. The Saami Languages: An Introduction, 1998",
+  "Häkkinen, Kaisa. Nykysuomen etymologinen sanakirja, 2004",
+  "Glottolog and ASJP entries for Finnish and Finnic"
+ ],
+ "notes": "Sinsermeisin is fictional and has no linguistic record, so every claim here is a design proxy. The sample game names mix Finnic and Gaelic-looking strings (stiubamairteòiliaskaig, skeurmairteòilkriem, rusupiesdoildeg) that are not sound Finnic and should be discarded; elements like -kurrak, -kierkku, and rusu- are loosely Finnic and can be regularized. Strings with ò, g clusters, d, and vowel mixes violate Finnic phonotactics. No word may be identical to a Modern Irish, Scottish Gaelic or Manx word, since the language is not Goidelic. This is not a Diaithiris culture. Non-Goidelic status means Gaelic lookalikes (mairte, òil, deg, skaig) should be avoided.",
+ "unit": "Sinsermeisin",
+ "slug": "sinsermeisin",
+ "model": "claude-sonnet-5-5"
+}

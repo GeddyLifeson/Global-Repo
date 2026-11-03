@@ -1,0 +1,184 @@
+{
+ "proxy_language": "Proto-Uralic (with Proto-Finnic/Proto-Saami lexical layers as late proxies)",
+ "confidence": "speculative",
+ "proxy_rationale": "The Kunda culture (c. 9000-6000 BC) is a Mesolithic forager culture of Estonia, Latvia, Lithuania and NW Russia with no linguistic record. Its language is unknown. The Baltic forest zone is later Uralic (Finnic, Saami) territory, and some scholars treat Uralic or a pre-Uralic substrate as a plausible but unprovable proxy. The date is far older than reconstructed Proto-Uralic (c. 4000-2000 BC at most), and the Kunda population may have spoken an extinct language of no known family. Treat all names as stylised Proto-Uralic-flavoured, not as claims about Kunda speech.",
+ "phonology": "Proto-Uralic (Sammallahti 1988; Janhunen; Aikio) consonants: *p *t *k *c (ts) *s *s' *x/*w *m *n *n' *N (velar nasal) *l *r *j *w, with *d *d' as medial reflexes in some reconstructions. Vowels: *a *a-umlaut (ae) *e *i *o *u *ü with *ä. Vowel harmony is possible but is not securely reconstructed for the proto-stage. No voiced stops word-initially. Stress is on the first syllable. Reconstructed forms are written with an asterisk.",
+ "phonotactics": "Syllable shapes: (C)V(C), roots mostly CVCV, with C only as single consonants word-initially (no initial clusters). Medial clusters are limited to nasal+stop (nt, mp, nk) and liquid or s + stop (lk, lt, rt, st). Words end in vowels (a, ä, e, i, o, u in stems), with word-final consonants only through later suffixes. Two-syllable stems are the core pattern, with CVCCV for stems containing a medial cluster. Stress is word-initial, with no effect on spelling.",
+ "orthography": "Standard Uralistic reconstruction notation, simplified for Latin-script naming: use plain letters (a, e, i, o, u, ä, ö, ü), avoid obscure phoneme marks, and write ŋ as ng and š as sh. Keep the asterisk only in glosses, not in names. Accents are not used.",
+ "morphology": "Agglutinative suffixing. Nominal roots are CVCV stems. Case and number suffixes: plural *-t, genitive *-n, locative *-na/-nä, ablative *-ta/-tä, lative *-k/-ŋ. Derivational suffixes: *-ja/-jä (agent, 'one who does X'), *-ma/-mä (nominaliser, noun from verb), *-kka/-kkä, *-s (nominal, diminutive uses), *-ŋ. Verb roots (CVCV-) become nouns with -ma/-mä. No gender, no prefixes. Reduplication is not securely reconstructed.",
+ "compounding": "Compounds are head-final: modifier + head (like Finnish and Estonian), with no linker. A genitive construction is also possible, 'X of Y' as Y-n X (possessor-n + possessed). 'Y-maker' = verb-stem + -ja. 'Place of X' = X + locative or X + -la/-lä (place suffix, a later Finno-Ugric extension). The head comes last in all compounds.",
+ "noun_phrase_order": "Modifier before head (adjective + noun, possessor-GEN + possessed, numeral + noun). Demonstrative or adjective precedes the noun. Compounds are head-final.",
+ "attested_roots": [
+  {
+   "form": "*kala",
+   "gloss": "fish",
+   "reconstructed": true
+  },
+  {
+   "form": "*weti",
+   "gloss": "water",
+   "reconstructed": true
+  },
+  {
+   "form": "*jäŋi",
+   "gloss": "ice",
+   "reconstructed": true
+  },
+  {
+   "form": "*kuta",
+   "gloss": "sedge, grass-like plant (also 'to weave')",
+   "reconstructed": true
+  },
+  {
+   "form": "*porV",
+   "gloss": "reindeer / elk (disputed)",
+   "reconstructed": true
+  },
+  {
+   "form": "*ńäli",
+   "gloss": "arrow, shaft",
+   "reconstructed": true
+  },
+  {
+   "form": "*jöki",
+   "gloss": "river",
+   "reconstructed": true
+  },
+  {
+   "form": "*kuŋe",
+   "gloss": "moon / month",
+   "reconstructed": true
+  },
+  {
+   "form": "*pesä",
+   "gloss": "nest",
+   "reconstructed": true
+  },
+  {
+   "form": "*ńimi",
+   "gloss": "name",
+   "reconstructed": true
+  },
+  {
+   "form": "*käte",
+   "gloss": "hand",
+   "reconstructed": true
+  },
+  {
+   "form": "*sulka",
+   "gloss": "feather",
+   "reconstructed": true
+  },
+  {
+   "form": "*muna",
+   "gloss": "egg",
+   "reconstructed": true
+  },
+  {
+   "form": "*pälä",
+   "gloss": "half, side",
+   "reconstructed": true
+  },
+  {
+   "form": "*tule",
+   "gloss": "fire",
+   "reconstructed": true
+  },
+  {
+   "form": "*kuwa",
+   "gloss": "face, image",
+   "reconstructed": true
+  }
+ ],
+ "worked_examples": [
+  {
+   "english": "River Stew",
+   "name": "jöki kala",
+   "gloss": "jöki 'river' + kala 'fish' (head-final compound, fish-stew type name approximated as 'river-fish')"
+  },
+  {
+   "english": "Fire Place",
+   "name": "tulela",
+   "gloss": "tule 'fire' + -la 'place of' (locative-place suffix)"
+  },
+  {
+   "english": "Fisher",
+   "name": "kalaja",
+   "gloss": "kala 'fish' + -ja agent suffix, 'one who fishes'"
+  },
+  {
+   "english": "Moon of the Ice",
+   "name": "jäŋin kuŋe",
+   "gloss": "jäŋi 'ice' + -n genitive + kuŋe 'moon' (possessor-GEN + possessed)"
+  },
+  {
+   "english": "Feather Arrow",
+   "name": "sulka ńäli",
+   "gloss": "sulka 'feather' + ńäli 'arrow' (head-final compound)"
+  },
+  {
+   "english": "Water Nest",
+   "name": "weti pesä",
+   "gloss": "weti 'water' + pesä 'nest' (modifier + head compound)"
+  }
+ ],
+ "allowed_graphemes": [
+  "a",
+  "e",
+  "i",
+  "o",
+  "u",
+  "ä",
+  "ö",
+  "ü",
+  "p",
+  "t",
+  "k",
+  "c",
+  "s",
+  "sh",
+  "h",
+  "m",
+  "n",
+  "ng",
+  "ny",
+  "l",
+  "r",
+  "j",
+  "w",
+  "v"
+ ],
+ "extra_allowed_chars": " -äöü",
+ "forbidden_patterns": [
+  "^[bdgfz]",
+  "[bdgfzqxy]",
+  "(.)\\1\\1",
+  "^[ptkcsmnlrjwvh]{2}",
+  "[aeiouäöü]{3}",
+  "[ptkcs]{2}$",
+  "ae",
+  "q"
+ ],
+ "syllables_per_word": [
+  2,
+  3,
+  4
+ ],
+ "max_word_length": 14,
+ "sources": [
+  "Sammallahti, Pekka. 1988. Historical phonology of the Uralic languages. In D. Sinor (ed.), The Uralic Languages",
+  "Janhunen, Juha. 1981. Uralilaisen kantakielen sanastosta",
+  "Aikio, Ante. 2012. On Finnic long vowels, Samoyed vowel sequences, and Proto-Uralic *x",
+  "Häkkinen, Jaakko. 2009. Kantauralin ajoitus ja paikannus",
+  "Uralonet (Uralic etymological dictionary)",
+  "Starling database (Uralic etymology)",
+  "Wiktionary Proto-Uralic reconstruction pages",
+  "Glottolog (Uralic)",
+  "Zvelebil, Marek. 1981. From Forager to Farmer in the Boreal Zone",
+  "Carpelan, Christian et al. (eds.). 2001. Early Contacts between Uralic and Indo-European"
+ ],
+ "notes": "No word may be identical to a Modern Irish, Scottish Gaelic or Manx word, since the proxy is not Goidelic. The Kunda language is unrecoverable, so this is a stylised Uralic proxy at low-to-speculative confidence. Avoid initial consonant clusters, voiced stops (b, d, g), and f/z. Prefer CVCV and CVCCV stems with vowel-final endings.",
+ "unit": "Kunda culture",
+ "slug": "kunda_culture",
+ "model": "claude-sonnet-5-5"
+}

@@ -1,0 +1,183 @@
+{
+ "proxy_language": "Proto-Basque / Early Proto-Vasconic (as a speculative stand-in); fallback to reconstructed Proto-Indo-European is explicitly rejected",
+ "confidence": "speculative",
+ "proxy_rationale": "The Magdalenian (c. 21,000-12,000 BP) predates any possible linguistic reconstruction by many millennia; no language of the culture is known. The only living language isolate in the Franco-Cantabrian heartland is Basque, and some scholars (e.g. Hoz, Trask-style cautious views; Forni 2013 and Gorrochategui/Lakarra on Pre-Basque) argue Basque descends from a pre-Indo-European language of western Europe. Linking it to Magdalenian hunter-gatherers is unprovable and ancestry-based genetic discontinuities (Villalba-Mouco 2019; Posth 2016) make direct continuity doubtful, so Proto-Basque phonotactics (Lakarra's reconstruction) are used only as a defensible, region-appropriate phonological model, not as the Magdalenian language itself. Names should read as plausibly pre-IE western European, not as modern Basque words.",
+ "phonology": "Modelled on Proto-Basque reconstruction (Michelena 1977, Lakarra 2011): vowels *a *e *i *o *u (five-vowel system, no length contrast). Consonants: stops *p *t *k, *b *d *g (lenis, uncertain for the earliest stage), affricates *ts *tz *tx (apical/laminal/palatal sibilant series), fricatives *s *z *x (sh), *h (late), nasals *m *n *ñ, liquids *l *r (tap) *rr (trill), glide *y. Michelena's reconstructed Proto-Basque has a fortis/lenis stop contrast that is partly secondary. Treat this as an approximation only.",
+ "phonotactics": "Mostly CV(C) syllables. Onset: single consonant; initial clusters absent in native words (Proto-Basque likely avoided word-initial *r- and many initial clusters; *p *t *k and *b *d *g dominate onsets). Codas: only liquids, nasals, sibilants (-l -n -r -s -z -x), plus stops in compounds. Roots are typically CVC(V) or CVCV, dissyllabic bases most common. Medial clusters limited to nasal/liquid/sibilant + stop (nt, nk, rt, rk, lt, st, tz, ts). Stress and tone not marked in spelling; no diacritics needed.",
+ "orthography": "Basque-style Latin transliteration: tx = palatal affricate, ts = laminal affricate, tz = apical affricate, x = palatal fricative (sh), z = apical s, s = laminal s, rr = trill, ñ = palatal nasal, h used only rarely. Reconstructions marked with asterisk. Written lowercase; proper names capitalised.",
+ "morphology": "Agglutinating, suffixing. Nouns take case suffixes (genitive -en/-ko, locative -n/-an, absolutive zero, ergative -k). Definite article -a is a late development. Derivation: -tegi 'place of', -di/-eta 'collective / place with many', -le 'agent/doer', -tu 'verbalizer', -ko 'of/pertaining to', -ar 'inhabitant', -tasun 'abstract', -gabe 'without'. Reduplication occasional in expressive vocabulary (e.g. zirt-zart). Native stem inventory is small and many roots are monosyllabic or disyllabic.",
+ "compounding": "Compounds are head-final (modifier + head), written together: harri 'stone' + gain 'top' = harrigain. Genitive constructions place possessor before possessed with -en or -ko: X-ko Y or X-en Y 'Y of X'. Agent nouns: object + verbal root + -le ('X-doer'); place nouns: X + -tegi/-eta. Linking vowels are rarely needed; a compound often drops a stem-final vowel or inserts -a-/-e- at the join.",
+ "noun_phrase_order": "Modifier-head: adjectives follow the noun in modern Basque (etxe handi 'big house'), but compounds and genitives are modifier-head (X-ko Y). For name building use head-final compounds and possessor-before-possessed genitives.",
+ "attested_roots": [
+  {
+   "form": "*harri",
+   "gloss": "stone",
+   "reconstructed": true
+  },
+  {
+   "form": "*hezur",
+   "gloss": "bone",
+   "reconstructed": true
+  },
+  {
+   "form": "*ibai",
+   "gloss": "river",
+   "reconstructed": true
+  },
+  {
+   "form": "*ur",
+   "gloss": "water",
+   "reconstructed": true
+  },
+  {
+   "form": "*aitz",
+   "gloss": "rock, crag",
+   "reconstructed": true
+  },
+  {
+   "form": "*gorri",
+   "gloss": "red",
+   "reconstructed": true
+  },
+  {
+   "form": "*beltz",
+   "gloss": "black",
+   "reconstructed": true
+  },
+  {
+   "form": "*zuri",
+   "gloss": "white",
+   "reconstructed": true
+  },
+  {
+   "form": "*haitz",
+   "gloss": "stone/rock (variant)",
+   "reconstructed": true
+  },
+  {
+   "form": "*egun",
+   "gloss": "day, light",
+   "reconstructed": true
+  },
+  {
+   "form": "*iguzki",
+   "gloss": "sun",
+   "reconstructed": true
+  },
+  {
+   "form": "*ilargi",
+   "gloss": "moon",
+   "reconstructed": true
+  },
+  {
+   "form": "*zelai",
+   "gloss": "meadow, field",
+   "reconstructed": true
+  },
+  {
+   "form": "*behi",
+   "gloss": "cow, bovine",
+   "reconstructed": true
+  },
+  {
+   "form": "*zaldi",
+   "gloss": "horse",
+   "reconstructed": true
+  },
+  {
+   "form": "*mendi",
+   "gloss": "mountain",
+   "reconstructed": true
+  }
+ ],
+ "worked_examples": [
+  {
+   "english": "Stone River",
+   "name": "Harribai",
+   "gloss": "harri 'stone' + ibai 'river' (head-final compound, vowel contraction)"
+  },
+  {
+   "english": "Red Horse Cave",
+   "name": "Gorrizaldiko",
+   "gloss": "gorri 'red' + zaldi 'horse' + -ko 'of/place' (modifier-head compound with -ko)"
+  },
+  {
+   "english": "Mountain of Water",
+   "name": "Urmendi",
+   "gloss": "ur 'water' + mendi 'mountain' (possessor-head compound)"
+  },
+  {
+   "english": "Sun Place",
+   "name": "Iguzkitegi",
+   "gloss": "iguzki 'sun' + -tegi 'place of'"
+  },
+  {
+   "english": "Bone-Maker",
+   "name": "Hezurgile",
+   "gloss": "hezur 'bone' + -gile 'maker'"
+  },
+  {
+   "english": "White Rock",
+   "name": "Zuriaitz",
+   "gloss": "zuri 'white' + aitz 'rock' (modifier-head compound)"
+  }
+ ],
+ "allowed_graphemes": [
+  "a",
+  "e",
+  "i",
+  "o",
+  "u",
+  "b",
+  "d",
+  "g",
+  "p",
+  "t",
+  "k",
+  "s",
+  "z",
+  "x",
+  "h",
+  "m",
+  "n",
+  "ñ",
+  "l",
+  "r",
+  "rr",
+  "y",
+  "ts",
+  "tz",
+  "tx"
+ ],
+ "extra_allowed_chars": " -",
+ "forbidden_patterns": [
+  "[qwcjfv]",
+  "(.)\\1\\1",
+  "^[^aeiou]{2,}",
+  "[^aeiou]{3,}",
+  "[aeiou]{3,}",
+  "[bdgptk]{2,}",
+  "ng(?![aeiou])",
+  "[fv]",
+  "(?<![t])x[x]",
+  "ww"
+ ],
+ "syllables_per_word": [
+  2,
+  4
+ ],
+ "max_word_length": 14,
+ "sources": [
+  "Michelena, L. (1977) Fonetica historica vasca",
+  "Trask, R. L. (1997) The History of Basque",
+  "Lakarra, J. (2011) Ná-De-Ná: Basque historical linguistics essays",
+  "Hualde, J. I. & Ortiz de Urbina, J. (eds.) (2003) A Grammar of Basque",
+  "Villalba-Mouco, V. et al. (2019) Survival of Late Pleistocene hunter-gatherer ancestry in the Iberian Peninsula (Current Biology)",
+  "Glottolog: Basque; Wiktionary: Proto-Basque reconstruction pages",
+  "ASJP database entries for Basque"
+ ],
+ "notes": "Strictly speculative. Magdalenian groups left no linguistic record, and genetic evidence shows later population turnover in Europe, so Basque-like phonotactics are used only as a plausible aesthetic and structural model for pre-Indo-European western Europe. Do not present these as real Magdalenian words. No word may be identical to a Modern Irish, Scottish Gaelic or Manx word since Magdalenian is not Goidelic; and avoid copying modern Basque words verbatim (e.g. harri, ibai, mendi) unless a deliberate learned-proxy effect is wanted: prefer slightly altered compounds and suffix combinations.",
+ "unit": "Magdalenian",
+ "slug": "magdalenian",
+ "model": "claude-sonnet-5-5"
+}

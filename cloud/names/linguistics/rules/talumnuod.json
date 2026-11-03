@@ -1,0 +1,180 @@
+{
+ "proxy_language": "Classical Nahuatl (Central Mexican Nahuatl, 16th-century attested form) as a weak areal proxy; 'Talumnuod' is not a known historical culture",
+ "confidence": "speculative",
+ "proxy_rationale": "No attested people or language called Talumnuod exists in the literature. The label 'Atlantic Americas' with a late court-type polity is vague. The only well-documented court-language tradition in the Americas with rich documentation of courtly naming is Classical Nahuatl (Aztec Triple Alliance), though its Gulf of Mexico side touches the Atlantic basin. Alternatives (Taino/Arawakan, Tupi-Guarani, Mayan) are less suited to court vocabulary. The link is purely areal and typological, not genealogical; the current game strings (Vozin de jike, Fosigab) fit no known Americas language and should be rebuilt.",
+ "phonology": "Classical Nahuatl consonants: p t k kw (written cu/qu) ? (saltillo, written h or omitted), ts (tz), tl (a lateral affricate), ch, s, x [sh], l, m, n, w (hu/uh), y. Vowels a e i o, with contrastive length (often unmarked in transliteration). No b d g f r v z in native words. Stress is penultimate. The saltillo is a glottal stop, often weak or unwritten.",
+ "phonotactics": "Syllable shapes (C)V(V)(C). No word-initial clusters; medial clusters of two consonants are common (nc, mp, ht, tl). tl is a single phoneme, and word-final -tl is the absolutive suffix. Final consonants are limited to -l, -n, -tl, -tli, -h, -c (q/c), and -tzin is reverential. No voiced stops, no f, r, b, d, g, v. Vowel sequences are mostly across morpheme boundaries.",
+ "orthography": "Standard Classical Nahuatl (Carochi/Andrews/Launey) orthography: qu before e/i, c before a/o, cu for /kw/, hu for /w/ (uh word-finally), tz for /ts/, tl, ch, x, z for /s/ before a/o and c before e/i (Andrews: z/c), h for saltillo, optional macrons for long vowels. Written in lowercase for audit purposes.",
+ "morphology": "Polysynthetic-leaning agglutinating, suffixing and prefixing. Nouns have an absolutive suffix: -tl / -tli / -li (atl 'water', cihuatl 'woman', calli 'house') that drops when possessed or in compounds. Possessive prefixes: no- 'my', mo- 'your', i- 'his/her', to- 'our'. Plural: -tin (animates) or -me, or reduplication, with -meh as the Andrews form. Reverential -tzin. Locative suffixes -c, -co, -tlan, -tla, -pan, -nahuac, -tech. Diminutive -ton/-pil. Place names are formed with noun + locative suffix.",
+ "compounding": "Noun-noun compounds are head-final: the modifier precedes the head, the modifier loses its absolutive suffix, e.g. cihua-pilli 'noblewoman'. Possession is shown by a possessive prefix on the head: i-calli in tlatoani 'the ruler's house'. 'Place of X' = X + -tlan/-tla/-co: Tenochtitlan, Mexico. 'Maker of X' agentive = X + verb-stem + -qui/-ni or tla- + verb + -ni: tlacuiloani 'painter'. Titles are often head-final: tlahtoani 'speaker'. Names of courtly offices: tlacochcalcatl 'keeper of the dart house'.",
+ "noun_phrase_order": "Modifier before head (adjective/noun + noun). Possessor precedes possessed with the possessive prefix on the possessed noun. Relative clauses and demonstratives are mostly preposed (in = the). Locative/postpositional phrases follow the noun as suffixes.",
+ "attested_roots": [
+  {
+   "form": "atl",
+   "gloss": "water",
+   "reconstructed": false
+  },
+  {
+   "form": "tepetl",
+   "gloss": "mountain",
+   "reconstructed": false
+  },
+  {
+   "form": "calli",
+   "gloss": "house",
+   "reconstructed": false
+  },
+  {
+   "form": "tlahtoani",
+   "gloss": "ruler, speaker",
+   "reconstructed": false
+  },
+  {
+   "form": "cihuatl",
+   "gloss": "woman",
+   "reconstructed": false
+  },
+  {
+   "form": "tlacatl",
+   "gloss": "person",
+   "reconstructed": false
+  },
+  {
+   "form": "citlalin",
+   "gloss": "star",
+   "reconstructed": false
+  },
+  {
+   "form": "tonatiuh",
+   "gloss": "sun",
+   "reconstructed": false
+  },
+  {
+   "form": "metztli",
+   "gloss": "moon",
+   "reconstructed": false
+  },
+  {
+   "form": "coatl",
+   "gloss": "snake",
+   "reconstructed": false
+  },
+  {
+   "form": "ocelotl",
+   "gloss": "jaguar",
+   "reconstructed": false
+  },
+  {
+   "form": "xochitl",
+   "gloss": "flower",
+   "reconstructed": false
+  },
+  {
+   "form": "tlaxcalli",
+   "gloss": "tortilla",
+   "reconstructed": false
+  },
+  {
+   "form": "chichi",
+   "gloss": "dog",
+   "reconstructed": false
+  },
+  {
+   "form": "tecpan",
+   "gloss": "palace (tecpan)",
+   "reconstructed": false
+  },
+  {
+   "form": "teotl",
+   "gloss": "god",
+   "reconstructed": false
+  }
+ ],
+ "worked_examples": [
+  {
+   "english": "House of Water",
+   "name": "Acalli",
+   "gloss": "a(tl) 'water' + calli 'house' (absolutive dropped; Acalli is the standard word for boat)"
+  },
+  {
+   "english": "Place of Flowers",
+   "name": "Xochitlan",
+   "gloss": "xochi(tl) 'flower' + -tlan 'place of'"
+  },
+  {
+   "english": "Mountain of the Sun",
+   "name": "Tonatiuhtepetl",
+   "gloss": "tonatiuh 'sun' + tepetl 'mountain' (modifier + head)"
+  },
+  {
+   "english": "Palace of the Jaguar",
+   "name": "Ocelotecpan",
+   "gloss": "ocelo(tl) 'jaguar' + tecpan 'palace'"
+  },
+  {
+   "english": "Star Temple",
+   "name": "Citlalteocalli",
+   "gloss": "citlal(in) 'star' + teocalli 'god-house, temple'"
+  },
+  {
+   "english": "Serpent Lord",
+   "name": "Coatlahtoani",
+   "gloss": "coa(tl) 'snake' + tlahtoani 'ruler'"
+  }
+ ],
+ "allowed_graphemes": [
+  "a",
+  "e",
+  "i",
+  "o",
+  "p",
+  "t",
+  "k",
+  "qu",
+  "c",
+  "cu",
+  "hu",
+  "tz",
+  "tl",
+  "ch",
+  "x",
+  "z",
+  "s",
+  "l",
+  "m",
+  "n",
+  "y",
+  "h"
+ ],
+ "extra_allowed_chars": " -āēīō",
+ "forbidden_patterns": [
+  "[bdfgrvj]",
+  "^[ptkcmnlxyhs]?[ptkcxmnl]{2,}",
+  "[aeiou]{3,}",
+  "(?:qu)[aou]",
+  "(?:c)[ei]",
+  "tl[tl]",
+  "[wq](?!u)",
+  "(?:tz|ch|tl)$[aeiou]"
+ ],
+ "syllables_per_word": [
+  2,
+  3,
+  4,
+  5
+ ],
+ "max_word_length": 18,
+ "sources": [
+  "Andrews, J. Richard. Introduction to Classical Nahuatl (revised ed. 2003)",
+  "Launey, Michel. An Introduction to Classical Nahuatl (2011)",
+  "Karttunen, Frances. An Analytical Dictionary of Nahuatl (1983)",
+  "Carochi, Horacio. Arte de la lengua mexicana (1645)",
+  "Molina, Alonso de. Vocabulario en lengua castellana y mexicana y mexicana y castellana (1571)",
+  "Lockhart, James. The Nahuas After the Conquest (1992)",
+  "Glottolog and ASJP entries for Nahuatl"
+ ],
+ "notes": "Talumnuod is not an attested culture; the proxy is a speculative areal choice and is explicitly not claimed as the culture's real language. No word may be identical to a Modern Irish, Scottish Gaelic or Manx word, since Nahuatl is not Goidelic. Native Nahuatl lacks b d g f r v and word-initial clusters, so names like 'Vozin de jike' and 'Fosigab' do not conform. The forbidden_patterns list is a heuristic audit aid for lowercase Latin-script names, not a full phonotactic parser.",
+ "unit": "Talumnuod",
+ "slug": "talumnuod",
+ "model": "claude-sonnet-5-5"
+}
