@@ -1069,8 +1069,8 @@
    ],
    "module": "diaithir-kitchen-brewing",
    "quest": "q.food.ration",
-   "item": "diaithir:ration_worker",
-   "item_proposed": true
+   "item": "diaithirfarmkitchen:ration",
+   "item_final": true
   },
   {
    "id": "food.cold_store",
@@ -1102,7 +1102,9 @@
     "offering.feast"
    ],
    "module": "diaithir-kitchen-brewing",
-   "quest": "q.food.offering"
+   "quest": "q.food.offering",
+   "item": "diaithirfarmkitchen:offering_feast",
+   "item_final": true
   },
   {
    "id": "food.feast",

@@ -2,7 +2,7 @@
  "neoforge:conditions": [
   {
    "type": "neoforge:item_exists",
-   "item": "diaithir:ration_worker"
+   "item": "diaithirfarmkitchen:ration"
   },
   {
    "type": "neoforge:not",
@@ -28,7 +28,7 @@
   "#diaithir:progression/honey"
  ],
  "result": {
-  "id": "diaithir:ration_worker",
+  "id": "diaithirfarmkitchen:ration",
   "count": 1
  }
 }

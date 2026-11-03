@@ -1,0 +1,34 @@
+{
+ "neoforge:conditions": [
+  {
+   "type": "neoforge:item_exists",
+   "item": "diaithirfarmkitchen:offering_feast"
+  },
+  {
+   "type": "neoforge:not",
+   "value": {
+    "type": "neoforge:tag_empty",
+    "tag": "diaithir:progression/food.dish"
+   }
+  },
+  {
+   "type": "neoforge:not",
+   "value": {
+    "type": "neoforge:tag_empty",
+    "tag": "diaithir:progression/drink.ale"
+   }
+  }
+ ],
+ "_node": "food.offering",
+ "_age": "VII",
+ "type": "minecraft:crafting_shapeless",
+ "category": "misc",
+ "ingredients": [
+  "#diaithir:progression/food.dish",
+  "#diaithir:progression/drink.ale"
+ ],
+ "result": {
+  "id": "diaithirfarmkitchen:offering_feast",
+  "count": 1
+ }
+}
