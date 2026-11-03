@@ -416,20 +416,31 @@ def main():
             els.append({"weight":(4,2,1)[k-1],"element":{"element_type":"minecraft:single_pool_element","location":f"{NS}:lib/bld/{soil.lower()}/{cls}_{sz}","projection":"rigid","processors":"minecraft:empty"}})
         w(f"data/{NS}/worldgen/template_pool/lib/bld/{soil.lower()}/{cls}.json",{"name":f"{NS}:lib/bld/{soil.lower()}/{cls}","fallback":"minecraft:empty","elements":els})
     # pools, structures, sets, tags
-    sets=collections.defaultdict(list); tags=collections.defaultdict(list); planets_used=set()
+    anyp=collections.defaultdict(list); sets=collections.defaultdict(list); tags=collections.defaultdict(list); planets_used=set()
     for (planet,cls,bd,bio),paths in sorted(by.items()):
         soil=P[planet]["soil"]; opens=int(P[planet]["opens_age"]); n=len(paths)
         sid=f"lib/{planet}/{cls}_{bd}"+(f"_{bio}" if bio else ""); pp=f"lib/{planet}/{cls}/{bd}"+(f"/{bio}" if bio else "")
         w(f"data/{NS}/worldgen/template_pool/{pp}.json",{"name":f"{NS}:{pp}","fallback":"minecraft:empty",
           "elements":[{"weight":1,"element":{"element_type":"minecraft:single_pool_element","location":f"{NS}:{p}","projection":"rigid","processors":"minecraft:empty"}} for p in paths]})
         w(f"data/{NS}/worldgen/structure/{sid}.json",structure_json(planet,cls,bd,soil,f"{NS}:{pp}",bio))
-        sets[(planet,cls=="settlement")].append({"structure":f"{NS}:{sid}","weight":n}); planets_used.add(planet)
+        sets[(planet,"settle" if cls=="settlement" else "site",bio)].append({"structure":f"{NS}:{sid}","weight":n}); planets_used.add(planet)
+        if cls=="settlement":
+            anyp[(planet,bd)].extend(paths)
         tags[min(8,opens-1+BANDS[bd][0])].append(f"{NS}:{sid}")
-    for (planet,st),lst in sorted(sets.items()):
+    for (planet,bd),paths in sorted(anyp.items()):   # any land biome of the planet: guarantees a settlement within a couple of thousand blocks
+        soil=P[planet]["soil"]; opens=int(P[planet]["opens_age"]); pp=f"lib/{planet}/settlement/{bd}/any"; sid=f"lib/{planet}/settlement_{bd}_any"
+        w(f"data/{NS}/worldgen/template_pool/{pp}.json",{"name":f"{NS}:{pp}","fallback":"minecraft:empty","elements":[{"weight":1,"element":{"element_type":"minecraft:single_pool_element","location":f"{NS}:{p}","projection":"rigid","processors":"minecraft:empty"}} for p in paths]})
+        w(f"data/{NS}/worldgen/structure/{sid}.json",structure_json(planet,"settlement",bd,soil,f"{NS}:{pp}","land"))
+        sets[(planet,"any","")].append({"structure":f"{NS}:{sid}","weight":len(paths)})
+        tags[min(8,opens-1+BANDS[bd][0])].append(f"{NS}:{sid}")
+    for planet in {k[0] for k in anyp}:
+        ids=sorted(set(bmap.get(planet,{}).values()))
+        w(f"data/{NS}/tags/worldgen/biome/lib/{planet}/b/land.json",{"values":["#minecraft:is_overworld"] if planet=="diaithir" else [{"id":b,"required":False} for b in ids]})
+    for (planet,st,bio),lst in sorted(sets.items()):
         n=sum(x["weight"] for x in lst)
-        sp=(48 if n<200 else 36 if n<1000 else 28) if st else (32 if n<60 else 24 if n<400 else 16)
-        salt=int(hashlib.md5(("lib"+planet+str(st)).encode()).hexdigest()[:7],16)
-        w(f"data/{NS}/worldgen/structure_set/lib/{planet}{'_settle' if st else ''}.json",{"structures":lst,"placement":{"type":"minecraft:random_spread","spacing":sp,"separation":sp//3,"salt":salt}})
+        sp=20 if st=="any" else 24 if st=="settle" else (32 if n<60 else 24 if n<400 else 16)
+        salt=int(hashlib.md5(("lib"+planet+str(st)+bio).encode()).hexdigest()[:7],16)
+        w(f"data/{NS}/worldgen/structure_set/lib/{planet}{'_settle_any' if st=='any' else ('_settle_'+bio if bio else '_settle') if st=='settle' else ''}.json",{"structures":lst,"placement":{"type":"minecraft:random_spread","spacing":sp,"separation":sp//3,"salt":salt}})
     for planet in planets_used:
         vals=["#minecraft:is_overworld"] if planet=="diaithir" else [{"id":f"#diaithir_planets:{planet}","required":False}]
         w(f"data/{NS}/tags/worldgen/biome/lib/{planet}.json",{"values":vals})
