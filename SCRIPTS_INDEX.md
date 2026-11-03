@@ -6818,3 +6818,4 @@ Run hints: .py `python3 <file>` (PC `py`), .ps1 via a hidden launcher (never a v
 | S6833 | cloud | `diaithir-ports/diaithir-fauna/tools/libmob_run.py` | Direct parallel Haiku caller for a compute job folder (24 workers, resumable, cached system prompt, logs to the ledger). | no |
 | S6834 | cloud | `diaithir-ports/diaithir-fauna/tools/libmob_build.py` | Merges the classify output into diaithir-fauna library_mobs.tsv.gz (plan, tier, size, temper, element) and writes retry rows. | no |
 | S6873 | cloud | `diaithir-ports/diaithir-fauna/tools/libmob_hab.py` | Habitat pass for Library mobs: writes the Haiku job and adds the habitat bitmask column to library_mobs.tsv.gz. | no |
+| S6879 | cloud | `diaithir-ports/diaithir-fauna/tools/libmob_bases.py` | Writes library_mob_bases.tsv: Library mob entries that exactly match a mod creature spawn as that creature. | no |
