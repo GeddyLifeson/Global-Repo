@@ -16,8 +16,12 @@ with Lane('tank', JARS, srv_xmx='3G', out=out) as L:
     import re, math
     pos = S('data get entity @e[type=mts:builder_existing,limit=1,sort=nearest] Pos', 1); rep['veh_pos'] = pos
     m = re.search(r'\[(-?[\d.]+)d, (-?[\d.]+)d, (-?[\d.]+)d\]', ' '.join(pos)); vx, vy, vz = (float(m[1]), float(m[2]), float(m[3])) if m else (0.5, -60, 2.5)
+    # first try the vanilla ride command (works when the vehicle exposes a passenger slot), then fall back to scanning for the seat
+    rep['ride_cmd'] = S('ride Tester mount @e[type=mts:builder_existing,limit=1,sort=nearest]', 1.5)
+    rr = S('data get entity Tester RootVehicle', 0.8)
+    if any('following' in l for l in rr): mounted = True; rep['mounted_via'] = 'ride command'
     # scan: ring around the vehicle, aim at points up the hull, empty hand, R, test RootVehicle
-    for r in (3.0, 5.0, 2.0):
+    for r in ((3.0, 5.0, 2.0) if not mounted else ()):
         for ang in range(0, 360, 45):
             px, pz = vx + r * math.cos(math.radians(ang)), vz + r * math.sin(math.radians(ang)); yaw = math.degrees(math.atan2(-(vx - px), vz - pz))
             for pitch in (5, 20, 40):
@@ -28,10 +32,15 @@ with Lane('tank', JARS, srv_xmx='3G', out=out) as L:
         if mounted: break
     L.shot('02_after_mount_try.png'); rep['mounted'] = mounted
     if mounted:
+        rep['pos_before'] = S('data get entity @e[type=mts:builder_existing,limit=1,sort=nearest] Pos', 0.8)
+        d.key('n'); time.sleep(0.8); L.shot('02b_parkbrake_toggled.png')  # IV car.park = N
+        for name, key, secs in [('w', 'w', 5), ('space', 'space', 1.0), ('w', 'w', 3)]:
+            d.hold(key, secs); time.sleep(0.5)
+        L.shot('03a_after_gas_fire.png'); rep['veh_pos_mid'] = S('data get entity @e[type=mts:builder_existing,limit=1,sort=nearest] Pos', 0.8)
         for name, key, secs in [('w', 'w', 3), ('s', 's', 1.5), ('a', 'a', 1.5), ('d', 'd', 1.5), ('space', 'space', 0.5)]:
             d.hold(key, secs); time.sleep(0.5)
         L.shot('03_driven.png')
-        rep['pos_after'] = S('data get entity Tester Pos', 0.8)
+        rep['pos_after'] = S('data get entity Tester Pos', 0.8); rep['veh_pos_after'] = S('data get entity @e[type=mts:builder_existing,limit=1,sort=nearest] Pos', 0.8)
     rep['client_errors'] = [l for l in L.log_lines('client', r'ERROR|Exception') if not any(x in l for x in ('authlib', 'Realms', '401', 'OpenAL', 'profile key', 'SoundSystem', 'MTSERROR: Welcome'))][:10]
 json.dump(rep, open((out or '.') + '/tank_report.json', 'w'), indent=1)
 for k, v in rep.items(): print(k, str(v)[:400])
