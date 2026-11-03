@@ -1,4 +1,4 @@
-# S0312 Regenerates every culture name that fails its language rules (Haiku, rules file cached per language, up to 3 repair rounds); writes names/linguistics/regen/<slug>.json {file|id: name}
+# S0335 Regenerates every culture name that fails its language rules (Haiku, rules file cached per language, up to 3 repair rounds); writes names/linguistics/regen/<slug>.json {file|id: name}
 # python3 -I regen_names.py [slug ...]   key from ANTHROPIC_API_KEY (never printed)
 import glob, json, os, sys, time, urllib.request, concurrent.futures as cf
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))

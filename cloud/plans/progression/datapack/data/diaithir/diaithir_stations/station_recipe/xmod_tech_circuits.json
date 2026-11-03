@@ -1,0 +1,53 @@
+{
+ "neoforge:conditions": [
+  {
+   "type": "neoforge:mod_loaded",
+   "modid": "diaithir_stations"
+  },
+  {
+   "type": "neoforge:item_exists",
+   "item": "diaithir:foundry_circuit_basic"
+  },
+  {
+   "type": "neoforge:not",
+   "value": {
+    "type": "neoforge:tag_empty",
+    "tag": "diaithir:progression/wire.copper"
+   }
+  },
+  {
+   "type": "neoforge:not",
+   "value": {
+    "type": "neoforge:tag_empty",
+    "tag": "diaithir:progression/resin"
+   }
+  }
+ ],
+ "_node": "tech.circuits",
+ "_age": "VI",
+ "station": "station.steam_forge",
+ "stage": "part",
+ "ingredients": [
+  {
+   "tag": "c:plates/iron"
+  },
+  {
+   "tag": "c:plates/copper"
+  },
+  {
+   "tag": "diaithir:progression/wire.copper"
+  },
+  {
+   "tag": "diaithir:progression/resin"
+  },
+  {
+   "tag": "c:gems/quartz"
+  }
+ ],
+ "result": {
+  "id": "diaithir:foundry_circuit_basic",
+  "count": 1
+ },
+ "time_s": 10,
+ "operator": false
+}

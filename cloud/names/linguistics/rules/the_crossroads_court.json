@@ -1,0 +1,187 @@
+{
+ "proxy_language": "Yoruba (Ife/Oyo-type standard Yoruba) with Edo (Benin) as a secondary check",
+ "confidence": "low",
+ "proxy_rationale": "'The Crossroads Court' is a fictional later court in West Africa with no single historical identity. The crossroads motif (ona-meji, Esu/Eshu as lord of the crossroads) and royal-court institutions point most defensibly to the Yoruba-speaking Ife/Oyo/Benin sphere. Standard Yoruba is richly attested, so it is used as a practical proxy; the link to the fictional culture is weak, hence low confidence. The current game names (Jekgelak, ti, Pafa, Heto) do not look like Yoruba, though 'ti' happens to be a real Yoruba genitive/relative particle.",
+ "phonology": "Consonants: b t d k g gb (labial-velar stop) kp f s sh [S] h j [dZ] m n l r w y. Vowels: 7 oral i e e-dot [open e] a o o-dot [open o] u, plus nasal vowels written with n (in, an, un, en, on). Three level tones: high (acute), mid (unmarked), low (grave). Vowel harmony in advanced/retracted tongue root appears in prefixes. Nasal consonants m n are syllabic in some words (e.g. n, m as verbal particles).",
+ "phonotactics": "Syllables are strictly open: V, CV, or syllabic nasal N; no consonant clusters and no word-final consonants. Nasalization is written with a following n only at syllable end (an, en, in, on, un) and counts as part of the vowel. Words are typically 2-4 syllables. Nouns very commonly begin with a vowel (the old noun-class prefix), e.g. oba, ile, omi, eja. Tone is lexical and spelled with diacritics in full orthography.",
+ "orthography": "Standard Yoruba Latin orthography: letters a b d e (open e with underdot) f g gb h i j k l m n o (open o with underdot) p r s sh (s with underdot) t u w y. Tone marks: acute and grave on vowels (mid unmarked). The letters c q v x z are not used. For the game, the plain-ASCII form (e for open e, o for open o, sh for the dotted s) is acceptable with diacritics optional.",
+ "morphology": "Isolating-leaning with little inflection. Nouns have no gender, case, or number marking; plurality uses a separate word (awon) or context. Derivation: agentive/nominalizing prefixes a- (one who: alagbede blacksmith, onisowo trader), oni-/ol-/al- (owner of, possessor: oniwa, oloba), ao-/e- abstract (ewa beauty), i- (state/place: ile house, ibi place), o- (agent: oluko teacher). Reduplication creates intensives and nouns. Verbs are bare roots with preverbal particles (ni, ti, yoo, ko).",
+ "compounding": "Head-initial genitive: possessed noun comes first, possessor second, juxtaposed with no linker (ile oba house of the king; aafin oba palace of the king) or with the linker ti for emphasis/possessive predicates. 'Owner/lord of X' uses oni-/oluwa-/oloh: Olori (head-owner/queen), Oloye (owner of title/chief), Oniona (owner of the road). 'X-maker/seller' uses a-/onI- plus verb or noun: alagbede (one who forges), aroko-ni. Vowel elision/assimilation happens at word boundaries in speech (oba + ile -> obale).",
+ "noun_phrase_order": "Noun + modifier: noun then possessor, then adjective, then demonstrative/number (omo kekere child small; ile nla house big; ona meji roads two). Genitive: head noun first, possessor after. Names of the type 'Court of the Crossroads' would be aafin + orita (court + crossroads).",
+ "attested_roots": [
+  {
+   "form": "oba",
+   "gloss": "king, ruler",
+   "reconstructed": false
+  },
+  {
+   "form": "aafin",
+   "gloss": "palace, royal court",
+   "reconstructed": false
+  },
+  {
+   "form": "ile",
+   "gloss": "house, home",
+   "reconstructed": false
+  },
+  {
+   "form": "ona",
+   "gloss": "road, path",
+   "reconstructed": false
+  },
+  {
+   "form": "orita",
+   "gloss": "crossroads, junction",
+   "reconstructed": false
+  },
+  {
+   "form": "oja",
+   "gloss": "market",
+   "reconstructed": false
+  },
+  {
+   "form": "omi",
+   "gloss": "water",
+   "reconstructed": false
+  },
+  {
+   "form": "ina",
+   "gloss": "fire",
+   "reconstructed": false
+  },
+  {
+   "form": "orun",
+   "gloss": "sky, heaven, sun",
+   "reconstructed": false
+  },
+  {
+   "form": "ile-aye",
+   "gloss": "earth, world",
+   "reconstructed": false
+  },
+  {
+   "form": "igi",
+   "gloss": "tree, wood",
+   "reconstructed": false
+  },
+  {
+   "form": "okun",
+   "gloss": "sea, ocean",
+   "reconstructed": false
+  },
+  {
+   "form": "odo",
+   "gloss": "river",
+   "reconstructed": false
+  },
+  {
+   "form": "ogun",
+   "gloss": "war, iron-god name",
+   "reconstructed": false
+  },
+  {
+   "form": "ewa",
+   "gloss": "beans, beauty (tone-dependent)",
+   "reconstructed": false
+  },
+  {
+   "form": "agbado",
+   "gloss": "maize, corn",
+   "reconstructed": false
+  },
+  {
+   "form": "ewure",
+   "gloss": "goat",
+   "reconstructed": false
+  },
+  {
+   "form": "oloye",
+   "gloss": "chief, titleholder",
+   "reconstructed": false
+  }
+ ],
+ "worked_examples": [
+  {
+   "english": "Court of the Crossroads",
+   "name": "Aafin Orita",
+   "gloss": "aafin court/palace + orita crossroads (head-initial genitive, no linker)"
+  },
+  {
+   "english": "Lord of the Road",
+   "name": "Oniona",
+   "gloss": "oni- owner/lord of + ona road"
+  },
+  {
+   "english": "River Market",
+   "name": "Oja Odo",
+   "gloss": "oja market + odo river"
+  },
+  {
+   "english": "House of the King",
+   "name": "Ile Oba",
+   "gloss": "ile house + oba king"
+  },
+  {
+   "english": "Fire Chief",
+   "name": "Oloye Ina",
+   "gloss": "oloye titleholder + ina fire"
+  },
+  {
+   "english": "Water Seller",
+   "name": "Alomi",
+   "gloss": "a- agent prefix + omi water (a + omi elides to alomi)"
+  }
+ ],
+ "allowed_graphemes": [
+  "a",
+  "b",
+  "d",
+  "e",
+  "f",
+  "g",
+  "gb",
+  "h",
+  "i",
+  "j",
+  "k",
+  "kp",
+  "l",
+  "m",
+  "n",
+  "o",
+  "p",
+  "r",
+  "s",
+  "sh",
+  "t",
+  "u",
+  "w",
+  "y"
+ ],
+ "extra_allowed_chars": " -'",
+ "forbidden_patterns": [
+  "[cqvxz]",
+  "[^aeiounm\\s'-]$",
+  "[bcdfghjklmnpqrstvwxyz]{2}(?<!gb)(?<!kp)(?<!sh)",
+  "ng(?![aeiou])",
+  "(.)\\1\\1"
+ ],
+ "syllables_per_word": [
+  2,
+  3,
+  4
+ ],
+ "max_word_length": 12,
+ "sources": [
+  "Abraham, R.C. - Dictionary of Modern Yoruba (1958)",
+  "Bamgbose, Ayo - A Grammar of Yoruba (1966)",
+  "Rowlands, E.C. - Yoruba (Teach Yourself) (1969)",
+  "Pulleyblank, D. - Tone in Lexical Phonology (1986)",
+  "Glottolog and ASJP entries for Yoruba",
+  "Ladefoged and Maddieson - The Sounds of the World's Languages (1996), Yoruba section"
+ ],
+ "notes": "The Crossroads Court is fictional, so Yoruba is a proxy only; the Edo/Benin and wider Niger-Congo sphere would give similar open-syllable CV phonotactics. Names should be built from real nouns with head-initial genitive order, using oni-/a- prefixes for owner/maker names. Avoid consonant clusters and word-final consonants entirely (the current game strings Jekgelak, Pafa with final -k are not Yoruba-shaped). No word may be identical to a Modern Irish, Scottish Gaelic or Manx word, since Yoruba is not Goidelic; the open-syllable pattern makes accidental overlap unlikely but should still be checked.",
+ "unit": "The Crossroads Court",
+ "slug": "the_crossroads_court",
+ "model": "claude-sonnet-5-5"
+}

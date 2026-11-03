@@ -1,0 +1,142 @@
+{
+ "proxy_language": "Proto-Algonquian (as a low-confidence areal proxy); alternative Proto-Siouan or Proto-Uto-Aztecan are equally defensible",
+ "confidence": "speculative",
+ "proxy_rationale": "Clovis (c. 13,050-12,750 cal BP) is known only from lithic and faunal remains; no language can be linked to it. The language(s) are unrecoverable and the Clovis-descendant populations probably spoke languages with no surviving relatives. Genomic work (Anzick-1, Montana) shows ancestry ancestral to many Native American groups in North and South America, so no single family is privileged. For a naming proxy we use Proto-Algonquian because it is the best-reconstructed (Bloomfield 1946, Goddard, Proto-Algonquian dictionary) large North American family with a regular CV(C) phonology and clear compounding patterns. This is a flavour proxy only, not a claim of linguistic affiliation. Names are deliberately short, vowel-rich, and avoid features that scream any attested modern language.",
+ "phonology": "Proto-Algonquian (Bloomfield 1946; Goddard 1979): consonants *p *t *c (affricate, [tʃ]) *k *s *š *θ *l *m *n *w *y *h. Vowels: short *a *e *i *o and long *aa *ee *ii *oo (the long set is written with double letters in Algonquianist practice). No voiced stops or fricatives.",
+ "phonotactics": "Syllable shape (C)V(C), with consonant clusters limited to a first member of *h, *s, *š, *k or *n followed by a stop/fricative/sonorant (e.g. *-hk-, *-ht-, *-šk-, *-sk-, *-nk-, *-ηk-). Words are vowel-final or end in a single consonant in many roots. No consonant clusters beyond two at morpheme boundaries. Stress is not marked in reconstruction. Vowel length is contrastive and written as double vowels.",
+ "orthography": "Standard Algonquianist reconstruction notation with asterisks for reconstructed forms. For game use, Latin transliteration: p t c k s š θ l m n w y h; vowels a e i o plus long aa ee ii oo. No q, b, d, g, f, v, x, z, j, r.",
+ "morphology": "Polysynthetic and agglutinating. Roots combine with initials, medials and finals (Bloomfield's 'primary stems': initial + medial + final). Nouns are animate or inanimate gender; plural *-ak (animate), *-ali (inanimate); locative *-ink. Diminutive *-θeθ-. Verbs carry person/number prefixes and inverse/direct markers. Obviative *-ali. Derivation by finals such as *-ee-wa 'one who does', *-aakani 'instrument', *-aapoo 'liquid'. Names for artifacts usually take the nominal instrument or agent finals.",
+ "compounding": "Head-final: modifier/initial precedes the head/final (e.g. a descriptive initial plus a noun final). Compounds are joined by simple concatenation, sometimes with a connecting vowel *-i- or *-a-. 'X of Y' is rendered as Y + X (possessor/material first), with no overt genitive in compounds. 'Y-maker' = verb root + agentive final *-ee-wa. Place names add locative *-ink 'at/in'.",
+ "noun_phrase_order": "Modifier-before-head (adjective/numeral/possessor + noun). Demonstratives precede the noun. Relative-clause-like descriptions are expressed as verb stems with nominalizing finals.",
+ "attested_roots": [
+  {
+   "form": "*nepyi",
+   "gloss": "water",
+   "reconstructed": true
+  },
+  {
+   "form": "*waapi",
+   "gloss": "white",
+   "reconstructed": true
+  },
+  {
+   "form": "*meθkwi",
+   "gloss": "blood",
+   "reconstructed": true
+  },
+  {
+   "form": "*mahkwa",
+   "gloss": "bear",
+   "reconstructed": true
+  },
+  {
+   "form": "*waapooswa",
+   "gloss": "hare/rabbit",
+   "reconstructed": true
+  },
+  {
+   "form": "*waapwa",
+   "gloss": "seed/bean-like item (uncertain)",
+   "reconstructed": true
+  },
+  {
+   "form": "*asenyi",
+   "gloss": "stone",
+   "reconstructed": true
+  },
+  {
+   "form": "*kotaakani",
+   "gloss": "fire-drill / fire-making instrument (derived)",
+   "reconstructed": true
+  },
+  {
+   "form": "*menehsi",
+   "gloss": "island",
+   "reconstructed": true
+  },
+  {
+   "form": "*sipiwi",
+   "gloss": "river",
+   "reconstructed": true
+  },
+  {
+   "form": "*kiišekwi",
+   "gloss": "sky, day",
+   "reconstructed": true
+  },
+  {
+   "form": "*pešekiwa",
+   "gloss": "bison (uncertain)",
+   "reconstructed": true
+  },
+  {
+   "form": "*atemwa",
+   "gloss": "dog",
+   "reconstructed": true
+  },
+  {
+   "form": "*mahkesini",
+   "gloss": "shoe/moccasin",
+   "reconstructed": true
+  },
+  {
+   "form": "*wiikiwaami",
+   "gloss": "dwelling, house",
+   "reconstructed": true
+  },
+  {
+   "form": "*ahkwi",
+   "gloss": "kettle, vessel",
+   "reconstructed": true
+  }
+ ],
+ "worked_examples": [],
+ "allowed_graphemes": [
+  "p",
+  "t",
+  "c",
+  "k",
+  "s",
+  "sh",
+  "th",
+  "l",
+  "m",
+  "n",
+  "w",
+  "y",
+  "h",
+  "a",
+  "e",
+  "i",
+  "o",
+  "aa",
+  "ee",
+  "ii",
+  "oo"
+ ],
+ "extra_allowed_chars": " -",
+ "forbidden_patterns": [
+  "[bdgfvxzjqr]",
+  "[aeiou]{3}",
+  "[ptckshmnwylθ]{3}",
+  "(.)\\1\\1"
+ ],
+ "syllables_per_word": [
+  2,
+  3,
+  4
+ ],
+ "max_word_length": 14,
+ "sources": [
+  "Bloomfield, L. 1946. Algonquian (in Linguistic Structures of Native America)",
+  "Goddard, I. 1979. Comparative Algonquian (in The Languages of Native America)",
+  "Proto-Algonquian lexical reconstructions (Wiktionary reconstruction pages, Starling database)",
+  "Glottolog: Algonquian family",
+  "Rasmussen et al. 2014. The genome of a Late Pleistocene human from a Clovis burial site in western Montana. Nature 506",
+  "Waters, M. & Stafford, T. 2007. Redefining the age of Clovis. Science 315"
+ ],
+ "notes": "Clovis is archaeological only; there is no recoverable language. Proto-Algonquian is used as a flavour proxy, not as evidence of affiliation. Do not present generated names as Clovis words. Forms are simplified for the audit; asterisked roots are reconstructions, some glosses are uncertain and marked as such. The names in the current game list (e.g. 'Yihapu nihenu') look like random CV strings; replacing them with short Algonquian-style compounds (initial + final) is more defensible. No word may be identical to a Modern Irish, Scottish Gaelic or Manx word, since Clovis is not Goidelic.",
+ "unit": "Clovis",
+ "slug": "clovis",
+ "model": "claude-sonnet-5-5"
+}

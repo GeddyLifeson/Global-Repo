@@ -1,0 +1,173 @@
+{
+ "proxy_language": "Proto-Khoe-Kwadi / Khoe (Khoekhoe, Nama) with Juu (!Xun, Ju|'hoan) click-language morphology as secondary reference; both used as a loose areal proxy for Later Stone Age southern Africa",
+ "confidence": "speculative",
+ "proxy_rationale": "The Robberg industry (c. 22,000-12,000 BP; Robberg Peninsula, Plettenberg Bay, and sites across southern Africa) is a purely archaeological Later Stone Age microlithic bladelet tradition with no linguistic record. Its makers were ancestral hunter-gatherers of the region, and the click-bearing Khoisan languages (Juu, Tuu, Khoe-Kwadi) are the only living languages whose speakers descend, at least partly, from such populations. The link is very weak: Khoisan is not a demonstrated single family, the time depth is far beyond the comparative method, and Khoe-Kwadi probably arrived from the north only c. 2,000 years ago. Names should therefore be modeled on documented Khoisan phonology (clicks, glottalised and aspirated consonants, C(C)V(N) syllables) and presented as a flavored approximation, never as 'Robberg language'.",
+ "phonology": "Modeled on Nama/Khoekhoegowab (Haacke, Hagman) with Ju|'hoan features. Consonants: plain stops p t k, aspirated/affricated kh, ts, tsh (Nama ts, kx), voiced b d g, nasals m n, fricatives s h x (velar), liquid r. Clicks in four accompaniments of Nama: dental |, alveolar-palatal !, lateral ||, bilabial/palatal-ish (rare) with series: plain, aspirated, nasal, glottalised. Vowels: a e i o u, with nasalised vowels and (in Nama) four tones (high, mid, low, rising); Ju|'hoan adds pharyngealised, breathy and murmured vowels, and has many click accompaniments (>40 click phonemes). Glottal stop is phonemic and common word-medially.",
+ "phonotactics": "Typical root shapes CV, CVV, CVCV, CVN; Nama roots are mostly bimoraic (CVCV) and words end in a vowel or in -m, -n, -b, -s, -ts, -ra, -ge as gender/number suffixes. Syllable onset is a single consonant or click (clusters are only click+k-type or C+glottal). Medial consonants are limited to a subset (b, d, g, m, n, r, plain clicks). Codas are essentially absent in Ju|'hoan and Nama roots except nasals. Hiatus and long vowels (VV) occur. Glottal stop (') is written between vowels or after consonants.",
+ "orthography": "Practical Latin transliteration after the Khoekhoegowab orthography and Ju|'hoan standard orthography: click symbols | (dental), ! (alveolar), || (lateral) and, in broader transcription, \\u2260 (palatal); click accompaniments written after the click (|h aspirated, |' glottalised, n| nasal as 'n|' or 'g|' for voiced, etc.). For Latin-script auditing, ASCII approximation recommended: clicks rendered as the letters q (dental/alveolar-type), x (lateral/dental-type) and c (dental-type) as in Zulu/Xhosa-style southern African Bantu orthographies, plus ' for glottal/ejective release; tones unmarked. Diacritics (acute on vowels) optional for tone; nasalised vowels may be written with a following n.",
+ "morphology": "Nama is agglutinating with nominal suffixes for gender (-b masculine, -s feminine, -i common/neuter singular), number (-gu/-kx'a masc/fem plural in Nama: -gu, -ku, -di, -n, -ra), and postpositions. Pronouns cliticise to the first constituent. Verbs take a suffixal system of derivations (reciprocal, causative, applicative). Ju|'hoan is largely isolating with noun-class concord via pronoun-like agreement and prefixes (class markers such as ju- 'person', n!ang 'person-' variants). Reduplication is productive for plural/intensity and plurality in several Khoisan languages.",
+ "compounding": "Nama and Ju|'hoan form compounds head-final: modifier + head noun (e.g. Nama |gaub 'spoor' + ...). Genitive/possessive relations are expressed by juxtaposition with possessor first (possessor-possessed) in Juu and by a possessive postposition/linker in Khoekhoe. 'X of Y' = Y + X (possessor first); 'Y-maker' = verb stem + nominal agentive/gender suffix (e.g. -b 'masc agent') or noun + verb compound. Descriptive names often use animal/plant terms plus colour or size terms. Names of places commonly end in a locative element (Nama -s 'place of/at', e.g. !Gaingu).",
+ "noun_phrase_order": "Head-final in Khoekhoe: modifier + noun (adjective precedes noun, possessor precedes possessed, demonstrative precedes noun). Juu: possessor + possessed; adjectives follow the noun in Ju|'hoan with concord; numerals follow. For game purposes use modifier-first, head noun last.",
+ "attested_roots": [
+  {
+   "form": "!gu",
+   "gloss": "water (Ju|'hoan chu / Nama !ao-variants; approximate rendering of the root 'water')",
+   "reconstructed": false
+  },
+  {
+   "form": "||khams",
+   "gloss": "sun (Nama |khams-variant: 'sun, day')",
+   "reconstructed": false
+  },
+  {
+   "form": "|gam",
+   "gloss": "sheep/fat sheep (Nama |gam sheep-fat; root approximate)",
+   "reconstructed": false
+  },
+  {
+   "form": "hai",
+   "gloss": "tree (Nama haib 'tree')",
+   "reconstructed": false
+  },
+  {
+   "form": "xam",
+   "gloss": "lion (Nama xamb)",
+   "reconstructed": false
+  },
+  {
+   "form": "!nan",
+   "gloss": "hunt/track (Nama !nan 'to follow spoor')",
+   "reconstructed": false
+  },
+  {
+   "form": "ju",
+   "gloss": "person/human being (Ju|'hoan ju, pl. ju|'hoansi)",
+   "reconstructed": false
+  },
+  {
+   "form": "|'an",
+   "gloss": "stone (Juu |'an-type root; Nama |an 'stone' approximate)",
+   "reconstructed": false
+  },
+  {
+   "form": "ka",
+   "gloss": "fire (Nama |kab? uncertain)",
+   "reconstructed": false
+  },
+  {
+   "form": "ts'i",
+   "gloss": "bird (Khoisan roots with ts'-; cf. Nama tsii)",
+   "reconstructed": false
+  },
+  {
+   "form": "nu",
+   "gloss": "eland/animal (Ju|'hoan n!ou-type for eland, n!ang 'eland')",
+   "reconstructed": false
+  },
+  {
+   "form": "|ae",
+   "gloss": "sit/stay/dwell (Nama |ae 'to sit')",
+   "reconstructed": false
+  },
+  {
+   "form": "!khoe",
+   "gloss": "person, Khoe people (Nama khoe 'person', Khoekhoe 'people of people')",
+   "reconstructed": false
+  },
+  {
+   "form": "||garu",
+   "gloss": "wind/air (approximate Nama root)",
+   "reconstructed": false
+  }
+ ],
+ "worked_examples": [
+  {
+   "english": "River Stew",
+   "name": "Gu'aob",
+   "gloss": "gu (water, river) + ' (glottal) + ao (cook) + -b (masc. nominal suffix)"
+  },
+  {
+   "english": "Temple of the Sun",
+   "name": "Khamsa'ae",
+   "gloss": "khams (sun) + a (linker) + 'ae (sit/dwell: place where the sun dwells)"
+  },
+  {
+   "english": "Stone Blade",
+   "name": "Qa'ani",
+   "gloss": "qa (stone, click-initial dental) + 'an (stone/cut) + -i (common suffix)"
+  },
+  {
+   "english": "Lion Hunter",
+   "name": "Xamnana",
+   "gloss": "xam (lion) + nan (track/hunt) + -a (agentive)"
+  },
+  {
+   "english": "Tree Place",
+   "name": "Haiqas",
+   "gloss": "hai (tree) + qa (click, place) + -s (feminine/locative suffix)"
+  },
+  {
+   "english": "Bird Camp",
+   "name": "Tsi'iqae",
+   "gloss": "ts'i (bird) + qae (dwell) following modifier-head order"
+  }
+ ],
+ "allowed_graphemes": [
+  "a",
+  "e",
+  "i",
+  "o",
+  "u",
+  "b",
+  "d",
+  "g",
+  "h",
+  "k",
+  "kh",
+  "m",
+  "n",
+  "p",
+  "r",
+  "s",
+  "t",
+  "ts",
+  "tsh",
+  "x",
+  "q",
+  "c",
+  "'"
+ ],
+ "extra_allowed_chars": " -'",
+ "forbidden_patterns": [
+  "[aeiou]{3,}",
+  "[^aeiou ']{3,}",
+  "(.)\\1\\1",
+  "[fjlvwyz]",
+  "gh",
+  "ph",
+  "th",
+  "sh",
+  "ch",
+  "(.)'\\1'"
+ ],
+ "syllables_per_word": [
+  2,
+  3,
+  4
+ ],
+ "max_word_length": 14,
+ "sources": [
+  "Haacke, W. and Eiseb, E., A Khoekhoegowab Dictionary (2002)",
+  "Hagman, Roy, Nama Hottentot Grammar (1977)",
+  "Dickens, Patrick, Ju|'hoan Grammar (1994)",
+  "Heine, B. and Honken, H., 'The Kx'a family: a new Khoisan genealogy' (2010)",
+  "Güldemann, Tom, ed., The Khoisan Languages and Linguistics (2018)",
+  "Glottolog entries for Khoe-Kwadi, Juu and Tuu",
+  "ASJP database (Khoisan wordlists)",
+  "Deacon, Hilary and Janette, Human Beginnings in South Africa (1999) for the archaeological context of Robberg"
+ ],
+ "notes": "No word may be identical to a Modern Irish, Scottish Gaelic or Manx word. Robberg has no linguistic record: this is a speculative Khoisan-flavored approximation and the glosses of several roots are approximate renderings of Khoekhoe/Juu forms rather than verified lexical entries. Click letters are approximated with Latin q/x/c and the apostrophe for Latin-script audits; do not use ! or | in output names.",
+ "unit": "Robberg industry",
+ "slug": "robberg_industry",
+ "model": "claude-sonnet-5-5"
+}

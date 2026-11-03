@@ -1,0 +1,204 @@
+{
+ "proxy_language": "Classical Arabic (Gulf/Maghribi court register), with Persian (Early New Persian) as secondary Central Asian court layer",
+ "confidence": "low",
+ "proxy_rationale": "'Olumaein' is not a known historical culture; it is a fictional later-court culture spanning Gulf, North Africa and Central Asia at period index 7. The only defensible proxy for a court culture linking those regions is the Islamicate court tradition: Classical Arabic for Gulf and North Africa, with Persian as the Central Asian court language. The link is to a language family and register, not to a specific attested state. Current game strings (Jiyiduh, Famu, Sisuzu) contain no Arabic phonotactic signal and should be replaced.",
+ "phonology": "Classical Arabic consonants: b t th(θ) j(dʒ) H(ħ) kh(x) d dh(ð) r z s sh(ʃ) S(sˤ) D(dˤ) T(tˤ) Z(ðˤ) ʿ(ʕ) gh(ɣ) f q k l m n h w y, plus glottal stop ʾ. Vowels /a i u/ with long /ā ī ū/ and diphthongs ay, aw. Persian layer adds p, ch, zh, g and vowels e, o. Emphatics and pharyngeals are marked in transliteration, not as separate letters in plain Latin.",
+ "phonotactics": "Syllables: CV, CVC, CVV, CVVC, CVCC (only word- or phrase-final or pausal). Every syllable begins with exactly one consonant; no vowel-initial words (a glottal stop is underlying: ʾ). No word-initial clusters in Arabic (Persian loans may split them with a vowel, e.g. istakhr). Word-final long vowel plus consonant is rare. Geminates (CC) occur medially and are written doubled (shaddah). Triconsonantal roots fit patterns such as CaCiC, CaCCāC, maCCaC, miCCāC. Stress is not written. Definite article al- assimilates to following coronals (sun letters): ash-shams, an-nūr, ad-dīn.",
+ "orthography": "Use DMG/ALA-LC-style scholarly transliteration simplified to Latin: long vowels as ā ī ū (or aa ii uu); ʿ for ayn, ʾ for hamza (apostrophe acceptable); dh, th, kh, sh, gh digraphs; emphatics may be written with plain s t d z when dots are omitted; q for qaf; j for jim (Gulf) ; Persian ch, zh, p, g allowed in Persian-layer names. Hyphen joins al- and construct elements. Proper names capitalised in output.",
+ "morphology": "Triconsonantal roots with templatic derivation: verb forms I-X, active participle CāCiC, passive participle maCCūC, intensive CaCCāC (profession: khabbāz baker), place noun maCCaC/maCCiC (maktab office, masjid mosque), instrument miCCāC/miCCaC (miftāḥ key), abstract noun -iyya, relational adjective -ī (feminine -iyya), singular/dual (-ān/-ayn) and plural (sound -ūn/-īn, -āt; broken plurals). Nouns inflect for case (-u nominative, -i genitive, -a accusative) and definiteness (nunation -un/-in/-an vs al-); pausal forms drop case endings, which is the usual form for names. Feminine marker -a/-at. Persian: no gender, plural -hā/-ān, ezafe -e linking head and modifier, suffixes -gāh (place), -dān (container), -kār/-gar (agent), -estān (land).",
+ "compounding": "Arabic: idafa (construct state) head-first: head noun (no article, no nunation) + genitive noun, e.g. qaṣr al-malik 'palace of the king', bayt al-ḥikma 'house of wisdom', bāb al-bahr 'gate of the sea'. Definiteness of the whole is marked on the last member (al-). Noun+adjective follows the noun and agrees in definiteness, gender, number: al-madīna al-kabīra 'the great city'. 'X-maker/seller' via intensive pattern or ṣāḥib/abū/ibn: ṣāḥib al-sayf. Place names often use dār ('abode'), madīnat, qalʿat ('fortress'), ribāṭ, khān, sūq, jazīrat. Persian: ezafe head-first: shāh-e shahr; or agent compounds noun+kār; place via -gāh/-estān: ātash-gāh 'fire temple', gol-estān 'rose garden'. Proper names via kunya Abū/Umm + name, nasab ibn/bint, laqab with al- and -ī, and Dīn/Dawla compounds (Nūr al-Dīn, Sayf al-Dawla).",
+ "noun_phrase_order": "Head-initial. Noun + genitive (idafa); noun + adjective; demonstrative precedes noun (hādhā al-bayt). Article al- on noun and its adjective. Numbers 3-10 precede plural noun in genitive. Persian: head + ezafe + modifier; modifier-final.",
+ "attested_roots": [
+  {
+   "form": "qaṣr",
+   "gloss": "palace, castle",
+   "reconstructed": false
+  },
+  {
+   "form": "madīna",
+   "gloss": "city",
+   "reconstructed": false
+  },
+  {
+   "form": "bayt",
+   "gloss": "house",
+   "reconstructed": false
+  },
+  {
+   "form": "bāb",
+   "gloss": "gate, door",
+   "reconstructed": false
+  },
+  {
+   "form": "nahr",
+   "gloss": "river",
+   "reconstructed": false
+  },
+  {
+   "form": "baḥr",
+   "gloss": "sea",
+   "reconstructed": false
+  },
+  {
+   "form": "jabal",
+   "gloss": "mountain",
+   "reconstructed": false
+  },
+  {
+   "form": "shams",
+   "gloss": "sun",
+   "reconstructed": false
+  },
+  {
+   "form": "qamar",
+   "gloss": "moon",
+   "reconstructed": false
+  },
+  {
+   "form": "nūr",
+   "gloss": "light",
+   "reconstructed": false
+  },
+  {
+   "form": "ʿayn",
+   "gloss": "eye, spring",
+   "reconstructed": false
+  },
+  {
+   "form": "sayf",
+   "gloss": "sword",
+   "reconstructed": false
+  },
+  {
+   "form": "khubz",
+   "gloss": "bread",
+   "reconstructed": false
+  },
+  {
+   "form": "tamr",
+   "gloss": "dates",
+   "reconstructed": false
+  },
+  {
+   "form": "safīna",
+   "gloss": "ship",
+   "reconstructed": false
+  },
+  {
+   "form": "bāgh",
+   "gloss": "garden (Persian)",
+   "reconstructed": false
+  }
+ ],
+ "worked_examples": [
+  {
+   "english": "Palace of the Sun",
+   "name": "Qaṣr ash-Shams",
+   "gloss": "qaṣr palace + ash- (al- assimilated) + shams sun (idafa)"
+  },
+  {
+   "english": "Gate of the Sea",
+   "name": "Bāb al-Baḥr",
+   "gloss": "bāb gate + al- the + baḥr sea (idafa)"
+  },
+  {
+   "english": "House of Light",
+   "name": "Bayt an-Nūr",
+   "gloss": "bayt house + an- (al- assimilated) + nūr light"
+  },
+  {
+   "english": "Date Bread",
+   "name": "Khubz at-Tamr",
+   "gloss": "khubz bread + at- (al- assimilated) + tamr dates"
+  },
+  {
+   "english": "The Great River",
+   "name": "An-Nahr al-Kabīr",
+   "gloss": "an- the + nahr river + al- the + kabīr great (noun + agreeing adjective)"
+  },
+  {
+   "english": "Fire Temple",
+   "name": "Ātash-gāh",
+   "gloss": "ātash fire + -gāh place (Persian suffix compound)"
+  }
+ ],
+ "allowed_graphemes": [
+  "a",
+  "ā",
+  "b",
+  "d",
+  "dh",
+  "f",
+  "g",
+  "gh",
+  "h",
+  "ḥ",
+  "i",
+  "ī",
+  "j",
+  "k",
+  "kh",
+  "l",
+  "m",
+  "n",
+  "p",
+  "q",
+  "r",
+  "s",
+  "ṣ",
+  "sh",
+  "t",
+  "ṭ",
+  "th",
+  "u",
+  "ū",
+  "w",
+  "y",
+  "z",
+  "ẓ",
+  "zh",
+  "ch",
+  "ʿ",
+  "ʾ",
+  "aa",
+  "ii",
+  "uu",
+  "ay",
+  "aw",
+  "e",
+  "o"
+ ],
+ "extra_allowed_chars": " -'ʿʾāīūḥṣṭẓ",
+ "forbidden_patterns": [
+  "^[aeiou]",
+  "(.)\\1\\1",
+  "[bcdfghjklmnpqrstvwxyz]{4,}",
+  "^[bcdfghjklmnpqrstvwxz]{2}(?<!sh|kh|gh|th|dh|ch|zh)",
+  "(?<![ksdtgcz])h[bcdfgjklmnpqrstvwxyz]",
+  "[xv]",
+  "c(?!h)",
+  "(?:ao|eo|ou|oi|ei|ae|ue|ia|io)",
+  "^(?:ng|mb|nd|nk)",
+  "(?:ih|uh)$"
+ ],
+ "syllables_per_word": [
+  2,
+  3,
+  4
+ ],
+ "max_word_length": 14,
+ "sources": [
+  "Wehr, Hans, A Dictionary of Modern Written Arabic (ed. J. M. Cowan), 1976",
+  "Wright, W., A Grammar of the Arabic Language, 1896",
+  "Ryding, Karin, A Reference Grammar of Modern Standard Arabic, 2005",
+  "Lane, E. W., An Arabic-English Lexicon, 1863-1893",
+  "Holes, Clive, Modern Arabic: Structures, Functions and Varieties, 2004",
+  "Windfuhr, Gernot (ed.), The Iranian Languages, 2009",
+  "Steingass, F., A Comprehensive Persian-English Dictionary, 1892",
+  "Glottolog and ASJP for Arabic and Persian varieties"
+ ],
+ "notes": "Olumaein is a fictional culture; the proxy is a register choice, not a claim about an attested polity. Current strings (Jiyiduh, Famu humujil, Sisuzu, Qihah) show repeated CV syllables with no Arabic or Persian morphology: they should be rebuilt on real roots with idafa and the al- article. Ensure sun-letter assimilation (ash-shams, not al-shams). Avoid mixing Persian ezafe and Arabic idafa in a single phrase unless deliberately representing a bilingual court. No word may be identical to a Modern Irish, Scottish Gaelic or Manx word, since the proxy language is not Goidelic.",
+ "unit": "Olumaein",
+ "slug": "olumaein",
+ "model": "claude-sonnet-5-5"
+}
