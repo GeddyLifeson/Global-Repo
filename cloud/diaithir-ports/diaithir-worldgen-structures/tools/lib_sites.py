@@ -253,7 +253,7 @@ def loot_json(cls):
        "ruin":["cobweb","bone","stick","coal","clay_ball"],"landmark":["flint","stick","clay_ball","gold_nugget","amethyst_shard"]}
     it=[i for i in L[cls] if i in gen.IT]
     return {"type":"minecraft:chest","pools":[{"rolls":{"type":"minecraft:uniform","min":2,"max":4},"entries":[{"type":"minecraft:item","name":"minecraft:"+i,"weight":10-j,"functions":[{"function":"minecraft:set_count","count":{"type":"minecraft:uniform","min":1,"max":4}}]} for j,i in enumerate(it)]}]}
-SPAWN={"tomb":"minecraft:skeleton","delve":"minecraft:cave_spider","fortress":"minecraft:zombie","ruin":"minecraft:zombie"}
+SPAWN={"tomb":"diaithirfauna:scorpion","delve":"diaithirfauna:giant_arthropod","fortress":"diaithirfauna:theropod","ruin":"diaithirfauna:lizard","harbor":"diaithirfauna:crocodilian"}
 
 def jig(name,target,pool,orient,final="minecraft:air"):
     return {"id":(8,"minecraft:jigsaw"),"name":(8,name),"target":(8,target),"pool":(8,pool),"joint":(8,"aligned"),"final_state":(8,final),"placement_priority":(3,0),"selection_priority":(3,0)}
