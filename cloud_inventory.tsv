@@ -325,3 +325,4 @@ diaithir-ports/diaithir-trials-overhaul/tools/gen.py	1900	Writes the trials-over
 library-content/classify.py	6300	Library entries to in-game content form with Haiku (S6820).	no
 library-content/finalize.py	1300	Merges rule and model codes into library_to_content.tsv (S6821).	no
 library-content/build_content.py	2200	Builds content.sqlite with form, template, owner module and tier per entry (S6822).	no
+library-content/place_all.py	2900	Places every Library entry: Collection, class, canon status, spine code, shelfmark (S6823).	no

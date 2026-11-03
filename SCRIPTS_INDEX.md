@@ -6813,3 +6813,4 @@ Run hints: .py `python3 <file>` (PC `py`), .ps1 via a hidden launcher (never a v
 | S6820 | cloud | `library-content/classify.py` | Library entries to in-game content form with Haiku (S6820). | no |
 | S6821 | cloud | `library-content/finalize.py` | Merges rule and model codes into library_to_content.tsv (S6821). | no |
 | S6822 | cloud | `library-content/build_content.py` | Builds content.sqlite with form, template, owner module and tier per entry (S6822). | no |
+| S6823 | cloud | `library-content/place_all.py` | Places every Library entry: Collection, class, canon status, spine code, shelfmark (S6823). | no |
