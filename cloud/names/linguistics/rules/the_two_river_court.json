@@ -1,0 +1,206 @@
+{
+ "proxy_language": "Akkadian (Standard Babylonian / Neo-Assyrian literary-court register, Mesopotamia, 1st millennium BCE), with Sumerian logogram-derived loanwords for court and temple vocabulary",
+ "confidence": "high",
+ "proxy_rationale": "A later court between the Tigris and Euphrates is best modelled by the well-attested Akkadian of Babylonian and Assyrian royal and administrative texts. Akkadian is fully documented with reference grammars and dictionaries (CAD, AHw). Sumerian-derived loans such as ekallu and abullu are well known in court vocabulary. Aramaic would be a possible later alternative, but Akkadian gives the richest verified naming material.",
+ "phonology": "Consonants: stops b p t d k g q and ṭ; sibilants s z š ṣ; h; ḫ (often transliterated h); m n l r; glides w y; glottal stop ʾ, which is weak or lost in late periods. Pharyngeals and laryngeals had mostly merged into ʾ or ḫ. Vowels: a e i u, each short and long (ā ē ī ū, plus circumflex â ê î û for contracted vowels). Emphatics ṭ q ṣ are distinct. Gemination is phonemic (e.g. šarru 'king'). Stress is not marked in transliteration.",
+ "phonotactics": "Syllable shapes are V, CV, VC, CVC, and long vowels in CVV (CV̄). Words normally begin with a single consonant (the glottal stop counts as a consonant). Initial clusters are not allowed. Medial clusters of two consonants are common. Finally, words end in a vowel (case endings) or, in the construct state or bound forms, in a consonant. Mimation (-m) and nunation are dropped after the Old Babylonian period, so first-millennium nouns usually end in -u, -i, -a, or in the bare stem.",
+ "orthography": "Standard Assyriological transliteration in Latin script: š ṣ ṭ ḫ ʾ plus macron or circumflex for vowel length (ā ē ī ū, â ê î û). Sumerograms are written in capitals and are omitted here. For ASCII names the audit may accept plain a e i u sh s t h q. Hyphens join signs within a word in strict transliteration, but plain compounds are usually written as one word or with spaces, e.g. bēt ilim.",
+ "morphology": "Semitic root-and-pattern morphology: triconsonantal roots with vowel patterns, e.g. prs 'decide' gives parāsu (verb), purussû (noun), mupparišu (participle). Nouns have gender (masculine and feminine, feminine -t- or -at), number (singular, dual, plural -ū/-ī or -ātu), and case: nominative -um/-u, genitive -im/-i, accusative -am/-a, with mimation dropped in the first millennium. Three states exist: absolute (bare stem), construct (a bound form before a genitive, shortened, with no case ending), and status rectus (with the full case ending). Common patterns: parsu (šarru 'king'), maprasu (maškanu 'place'), taprist (tamkāru 'merchant'), and abstracts in -ūtu (šarrūtu 'kingship'). Verbs are marked for tense and mood; names rarely need them. Adjectives agree with their noun in gender, number, and case.",
+ "compounding": "Akkadian does not compound as English does. It forms noun phrases with genitive and relative constructions. 'X of Y' is the construct state of X plus the genitive of Y: bīt ilim 'house of the god'. Alternatively, ša links two nouns: bītu ša ilim 'the house of the god'. 'Y-maker' or 'Y-bearer' uses a participle: mu-nakkisu 'cutter', or a profession noun in -ānu/-āru, e.g. ṭābiḫu 'cook'. Sumerian-influenced names also use bad- or bīt- for house, dūr- for fortress, and kār- for quay in place names: Dūr-Šarrukin, Kār-Tukulti-Ninurta.",
+ "noun_phrase_order": "Head noun first: noun plus adjective (šarrum dannum 'mighty king'), noun plus genitive (ekal šarrim 'palace of the king'), noun plus relative clause with ša. Adjectives follow nouns and agree with them. Demonstratives (annû 'this') follow the noun. Numerals precede or follow depending on the construction, but nouns with numerals are sparse in names.",
+ "attested_roots": [
+  {
+   "form": "šarru",
+   "gloss": "king",
+   "reconstructed": false
+  },
+  {
+   "form": "bītu",
+   "gloss": "house, building (construct: bīt)",
+   "reconstructed": false
+  },
+  {
+   "form": "ilu",
+   "gloss": "god (genitive: ilim; plural ilū)",
+   "reconstructed": false
+  },
+  {
+   "form": "ekallu",
+   "gloss": "palace (Sumerian loan)",
+   "reconstructed": false
+  },
+  {
+   "form": "māru",
+   "gloss": "son, child",
+   "reconstructed": false
+  },
+  {
+   "form": "mātu",
+   "gloss": "land, country",
+   "reconstructed": false
+  },
+  {
+   "form": "nāru",
+   "gloss": "river, canal",
+   "reconstructed": false
+  },
+  {
+   "form": "šamû",
+   "gloss": "heaven, sky",
+   "reconstructed": false
+  },
+  {
+   "form": "erṣetu",
+   "gloss": "earth, land",
+   "reconstructed": false
+  },
+  {
+   "form": "šamšu",
+   "gloss": "sun",
+   "reconstructed": false
+  },
+  {
+   "form": "sîn",
+   "gloss": "moon god",
+   "reconstructed": false
+  },
+  {
+   "form": "ālu",
+   "gloss": "city",
+   "reconstructed": false
+  },
+  {
+   "form": "dūru",
+   "gloss": "fortress wall",
+   "reconstructed": false
+  },
+  {
+   "form": "kakku",
+   "gloss": "weapon",
+   "reconstructed": false
+  },
+  {
+   "form": "eleppu",
+   "gloss": "ship, boat",
+   "reconstructed": false
+  },
+  {
+   "form": "akalu",
+   "gloss": "bread, food",
+   "reconstructed": false
+  },
+  {
+   "form": "mê",
+   "gloss": "water",
+   "reconstructed": false
+  },
+  {
+   "form": "rabû",
+   "gloss": "great",
+   "reconstructed": false
+  }
+ ],
+ "worked_examples": [
+  {
+   "english": "Palace of the King",
+   "name": "ekal šarrim",
+   "gloss": "ekal 'palace' (construct) + šarr-im 'king' (genitive)"
+  },
+  {
+   "english": "House of the Sun",
+   "name": "bīt šamši",
+   "gloss": "bīt 'house' (construct) + šamš-i 'sun' (genitive)"
+  },
+  {
+   "english": "Temple of the Great God",
+   "name": "bīt ilim rabîm",
+   "gloss": "bīt 'house' (construct) + il-im 'god' (genitive) + rabî-m 'great' (genitive adjective agreeing with ilim)"
+  },
+  {
+   "english": "River of the City",
+   "name": "nār ālim",
+   "gloss": "nār 'river' (construct) + āl-im 'city' (genitive)"
+  },
+  {
+   "english": "Fortress of the King",
+   "name": "dūr šarri",
+   "gloss": "dūr 'wall, fortress' (construct) + šarr-i 'king' (genitive)"
+  },
+  {
+   "english": "Ship of the River",
+   "name": "eleppu ša nāri",
+   "gloss": "eleppu 'ship' + ša 'of' (relative, genitive marker) + nār-i 'river' (genitive)"
+  }
+ ],
+ "allowed_graphemes": [
+  "a",
+  "ā",
+  "â",
+  "b",
+  "d",
+  "e",
+  "ē",
+  "ê",
+  "g",
+  "h",
+  "ḫ",
+  "i",
+  "ī",
+  "î",
+  "k",
+  "l",
+  "m",
+  "n",
+  "p",
+  "q",
+  "r",
+  "s",
+  "ṣ",
+  "š",
+  "t",
+  "ṭ",
+  "u",
+  "ū",
+  "û",
+  "w",
+  "y",
+  "z",
+  "ʾ"
+ ],
+ "extra_allowed_chars": " -'ʾāēīūâêîûṣṭšḫ",
+ "forbidden_patterns": [
+  "^[bcdfghjklmnpqrstvwxyz]{2}",
+  "[bcdfghjklmnpqrstvwxyz]{4}",
+  "[aeiouāēīūâêîû]{3}",
+  "c",
+  "f",
+  "j",
+  "o",
+  "v",
+  "x",
+  "(.)\\1\\1",
+  "[gkq]h",
+  "[sš]h",
+  "ng",
+  "[ao]i$"
+ ],
+ "syllables_per_word": [
+  2,
+  3,
+  4
+ ],
+ "max_word_length": 18,
+ "sources": [
+  "Huehnergard, John. A Grammar of Akkadian (3rd ed., 2011)",
+  "von Soden, Wolfram. Grundriss der akkadischen Grammatik (1995)",
+  "The Assyrian Dictionary of the Oriental Institute of the University of Chicago (CAD, 1956-2010)",
+  "von Soden, Wolfram. Akkadisches Handwörterbuch (AHw, 1965-1981)",
+  "Black, George and Postgate. A Concise Dictionary of Akkadian (2000)",
+  "Parpola, Simo. Assyrian Royal Inscriptions and the State Archives of Assyria series (SAA, 1987-)",
+  "Oracc: the Open Richly Annotated Cuneiform Corpus, State Archives of Assyria corpus"
+ ],
+ "notes": "Mimation (-m on nouns) is typical of Old Babylonian and earlier; for first-millennium courts it is dropped, so use stems ending in -u, -i, -a for the genitive-case phrase. Use the construct state (shortened stem, e.g. bīt, ekal, nār, dūr) before genitive nouns. Avoid o, c, f, j, v and x entirely, because they are not Akkadian phonemes. Do not stack gutturals (the glottal ʾ and ḫ rarely cluster). No word may be identical to a Modern Irish, Scottish Gaelic or Manx word, because Akkadian is not Goidelic. The current game strings such as Meguqul sha nabidem or Gilaya sha zezel are not sound Akkadian.",
+ "unit": "The Two-River Court",
+ "slug": "the_two_river_court",
+ "model": "claude-sonnet-5-5"
+}

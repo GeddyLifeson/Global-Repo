@@ -4,14 +4,19 @@ R=sys.argv[1]; ids={};
 idf=os.path.join(R,'ids.tsv')
 if os.path.exists(idf):
     for r in csv.reader(open(idf),delimiter='\t'): ids[(r[1],r[2])]=r[0]
-n=max([int(v[1:]) for v in ids.values()]+[0])
-rows=[]
+rows=[]; missing=[]
 for f in sorted(glob.glob(os.path.join(R,'*_inventory.tsv')),key=lambda x:(not os.path.basename(x).startswith('global'),x)):
     dev=os.path.basename(f).split('_')[0]
     for r in list(csv.reader(open(f),delimiter='\t'))[1:]:
         k=(dev,r[0])
-        if k not in ids: n+=1; ids[k]='S%04d'%n
-        rows.append((ids[k],dev,r[0],r[1],r[2] if len(r)>2 else '',r[3] if len(r)>3 else ''))
+        if k not in ids: missing.append(k)
+        rows.append([k,dev,r[0],r[1],r[2] if len(r)>2 else '',r[3] if len(r)>3 else ''])
+if missing:  # claim through the lock so threads never clash
+    import subprocess
+    new=subprocess.run([sys.executable,'-I',os.path.join(R,'claim_id.py'),'S',str(len(missing))],capture_output=True,text=True,check=True).stdout.split()
+    ids.update(zip(missing,new))
+rows=[(ids[r[0]],)+tuple(r[1:]) for r in rows]
+n=len(ids)
 with open(idf,'w',newline='') as o:
     w=csv.writer(o,delimiter='\t')
     for (d,p),i in sorted(ids.items(),key=lambda x:x[1]): w.writerow([i,d,p])

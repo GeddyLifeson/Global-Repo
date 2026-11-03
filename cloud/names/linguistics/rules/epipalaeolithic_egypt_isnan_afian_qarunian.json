@@ -1,0 +1,154 @@
+{
+ "proxy_language": "Proto-Afroasiatic (as reflected in Egyptian/Coptic and Berber-Semitic-Cushitic comparanda); with Old Egyptian (Old Kingdom) transliteration conventions as the surface spelling system",
+ "confidence": "speculative",
+ "proxy_rationale": "The Isnan, Afian and Qarunian (Fayum A) cultures (c. 17,000-8,000 BCE) are known only archaeologically; nothing is known of their languages. The most defensible, still weak, proxy is the Afroasiatic family, whose Egyptian branch is the earliest attested language of the Nile Valley. A commonly cited but unproven hypothesis places the Afroasiatic homeland in northeast Africa and the Epipalaeolithic Nile Valley could have contained pre-Egyptian Afroasiatic speakers; equally plausible are now-extinct or non-Afroasiatic languages. Names are therefore built in an Egyptian-like Afroasiatic template: triconsonantal roots, CVC syllables, pharyngeals and emphatics, written in standard Egyptological transliteration simplified to Latin. Any claim of direct continuity is unsupported.",
+ "phonology": "Reconstructed Proto-Afroasiatic/early Egyptian consonants: stops p b t d k g q (emphatics t' k' in Proto-Afroasiatic notation), fricatives f s z sh (Egyptian s, z, sh) h kh (velar fricative) hh (pharyngeal fricative, Egyptian h-dot), x, ayin (voiced pharyngeal), glottal stop (aleph, yod), sonorants m n r l (l attested only marginally; Egyptian writes r/n/3), glides w y. Vowels are not written in Egyptian; the reconstructed system is a simple a i u with length contrast. Egyptian vocalization is reconstructed from Coptic and cuneiform transcriptions, so any inserted vowels are conventional.",
+ "phonotactics": "Predominantly CV, CVC and CVCC syllables; Egyptian roots are typically biconsonantal or triconsonantal (occasionally quadriliteral). Word-initial vowels were in effect preceded by glottal stop or an approximant. Clusters are limited to two consonants word-internally and finally; no initial clusters in reconstructed Afroasiatic. Stress is reconstructed as on the final or penultimate closed syllable (Coptic evidence). Conventional spelling inserts e between consonants for pronounceability (egyptologists' e).",
+ "orthography": "Standard Egyptological transliteration, written in plain Latin letters here: a = aleph (glottal), i = yod, ' (apostrophe) = ayin, w, b, p, f, m, n, r, h, H (written 'hh'), x (written 'kh'), kh, s, sh, k, q, g, t, ch (palatalized t, written 'ch'), d, j (palatalized d, written 'dj'). No diacritics required; vowels e and a are inserted by convention.",
+ "morphology": "Afroasiatic root-and-pattern morphology: nouns and verbs derive from consonantal roots plus vocalic patterns and affixes. Masculine nouns are unmarked; feminine marked by suffix -t. Plural -w (masc.), -wt (fem.); dual -wy. Prefixes: m- (instrument/place/agent, e.g. m-nouns), s- (causative), n- (reflexive/passive, nominal). Suffix pronouns: -i (my), -k (thy), -f (his), -s (her), -n (our), -tn, -sn. Derivational nisbe suffix -y marks 'one of/belonging to'. Reduplication occurs in intensive and iterative formations (e.g. biliteral reduplicated roots).",
+ "compounding": "Genitive is expressed in two ways: direct genitive (juxtaposition, head noun first then dependent noun: 'house king' = house of the king) and indirect genitive with the genitival adjective n(y) 'of' (nj) agreeing with the head (ny/nt/nw). Compounds are head-initial and often built with the participial agent: 'one who does X' with m- prefix or the nisbe -y. 'Lord of X' = neb + X; 'master of' = neb; 'mouth of' = r; 'house of' = per; 'place of' = st. Epithet names use adjective or participle after noun.",
+ "noun_phrase_order": "Head noun first, then adjective (adjectives agree in gender/number), then genitive (head N + dependent N or n(y) + N), then demonstrative last (pw, pn); possessive suffix attaches directly to the noun. Numeral follows the noun.",
+ "attested_roots": [
+  {
+   "form": "mw",
+   "gloss": "water",
+   "reconstructed": false
+  },
+  {
+   "form": "itrw",
+   "gloss": "river (the Nile)",
+   "reconstructed": false
+  },
+  {
+   "form": "ra",
+   "gloss": "sun / Re",
+   "reconstructed": false
+  },
+  {
+   "form": "per",
+   "gloss": "house",
+   "reconstructed": false
+  },
+  {
+   "form": "neb",
+   "gloss": "lord, master, all",
+   "reconstructed": false
+  },
+  {
+   "form": "ankh",
+   "gloss": "life, to live",
+   "reconstructed": false
+  },
+  {
+   "form": "nfr",
+   "gloss": "good, beautiful",
+   "reconstructed": false
+  },
+  {
+   "form": "hr",
+   "gloss": "face, upon",
+   "reconstructed": false
+  },
+  {
+   "form": "sht",
+   "gloss": "field, marsh",
+   "reconstructed": false
+  },
+  {
+   "form": "nwt",
+   "gloss": "city, town",
+   "reconstructed": false
+  },
+  {
+   "form": "ra",
+   "gloss": "mouth",
+   "reconstructed": false
+  },
+  {
+   "form": "nsw",
+   "gloss": "king",
+   "reconstructed": false
+  },
+  {
+   "form": "hnkt",
+   "gloss": "beer",
+   "reconstructed": false
+  },
+  {
+   "form": "hmwt",
+   "gloss": "craft, art, woman",
+   "reconstructed": false
+  },
+  {
+   "form": "ibr",
+   "gloss": "stag, deer",
+   "reconstructed": false
+  },
+  {
+   "form": "hhr",
+   "gloss": "mountain/desert land",
+   "reconstructed": false
+  }
+ ],
+ "worked_examples": [],
+ "allowed_graphemes": [
+  "a",
+  "b",
+  "d",
+  "e",
+  "f",
+  "g",
+  "h",
+  "i",
+  "j",
+  "k",
+  "l",
+  "m",
+  "n",
+  "o",
+  "p",
+  "q",
+  "r",
+  "s",
+  "t",
+  "u",
+  "w",
+  "x",
+  "y",
+  "z",
+  "kh",
+  "sh",
+  "ch",
+  "dj"
+ ],
+ "extra_allowed_chars": " '-",
+ "forbidden_patterns": [
+  "[aeiou]{3}",
+  "(.)\\1\\1",
+  "^[^aeiou' ]{3}",
+  "c(?!h)",
+  "v",
+  "[^aeiouy' -]{4}",
+  "q(?![aeiou])",
+  "[aeiou]{2}[aeiou]"
+ ],
+ "syllables_per_word": [
+  1,
+  2,
+  3
+ ],
+ "max_word_length": 14,
+ "sources": [
+  "Allan Gardiner, Egyptian Grammar (3rd ed., 1957)",
+  "James P. Allen, Middle Egyptian (3rd ed., 2014)",
+  "Christopher Ehret, Reconstructing Proto-Afroasiatic (1995)",
+  "Alexander Militarev & Olga Stolbova, Afrasian Etymology (Starling database)",
+  "Antonio Loprieno, Ancient Egyptian: A Linguistic Introduction (1995)",
+  "Wiktionary, Reconstruction:Proto-Afroasiatic",
+  "Glottolog (Egyptian, Afro-Asiatic entries)"
+ ],
+ "notes": "No Isnan, Afian or Qarunian language is attested; any phonological or lexical claim here is by analogy with later Egyptian and with the Afroasiatic family. The attested root list is Egyptian, not directly Epipalaeolithic: the culture itself predates Egyptian writing by 10,000 years. The worked_examples field is intentionally left empty rather than present speculation as attested; names should follow root-and-pattern construction with m-prefix agent/instrument nouns and head-initial genitive. No word may be identical to a Modern Irish, Scottish Gaelic or Manx word unless the language is Goidelic; this culture is not Goidelic.",
+ "unit": "Epipalaeolithic Egypt (Isnan, Afian, Qarunian)",
+ "slug": "epipalaeolithic_egypt_isnan_afian_qarunian",
+ "model": "claude-sonnet-5-5"
+}

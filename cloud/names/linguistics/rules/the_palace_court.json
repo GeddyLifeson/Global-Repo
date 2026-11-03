@@ -1,0 +1,218 @@
+{
+ "proxy_language": "Mycenaean Greek (Linear B, c. 1450-1200 BCE) as the attested administrative language of the Late Bronze Age Aegean palaces, with Minoan (Linear A) toponyms and divine names as a substrate layer",
+ "confidence": "medium",
+ "proxy_rationale": "The only decipherable palace-court language of Crete and the Aegean is Mycenaean Greek, attested in Linear B at Knossos (after c. 1450 BCE), Pylos, Mycenae and Thebes. Linear A (Minoan) is undeciphered, so Minoan words are known only as sign-values, a few recurring formulae (e.g. ja-sa-sa-ra-me, a-sa-sa-ra, ku-ro 'total', ki-ro 'deficit') and substrate words surviving in Greek (e.g. ku-pa-ro 'cypress', su-ki-ri-ta, di-ka-ta 'Mt Dikte', da-pu2-ri-to-jo po-ti-ni-ja 'Mistress of the Labyrinth'). Confidence is medium: Mycenaean is solid for forms and morphology, but the cultural link to a Minoan-style palace court is a Greek overlay on an earlier non-Greek court.",
+ "phonology": "Mycenaean Greek vowels: a e i o u, with long variants not marked in the script. Consonants: stops p t k (unaspirated and aspirated not distinguished), b d g (voiced, written with the p/t/k series), kw gw (labiovelars written q-), nasals m n, liquids r (writes both r and l), semivowels w j, sibilant s, glottal h in some lexical items (e.g. hekwetai), plus z (probably an affricate dz or ts) and the unresolved pte/dwo-type clusters. Syllabary also carries signs for phonemes like ph/th/kh that are not distinguished from p/t/k. Diphthongs: ai, ei, oi, ui, au, eu, ou. Aspiration is not written in the syllabary.",
+ "phonotactics": "Linear B writes open syllables (CV or V); closing consonants are omitted (n, r, s, l, m) at word-end and in codas, and clusters are broken up with dummy vowels: ko-wo 'boy', ta-ra-si-ja 'allotment', pa-te for pater. Syllable shapes underlying Greek include CCV and CVC. Allowed initial clusters spelled in Linear B: pt-, kt-, dw-, tw-, sk-, st- often written with vowel insertion (e.g. a-ke-ra-te for agerrhantes). Word-final consonants (-s, -n, -r) are dropped in script but present in the Greek source forms. Stress is pitch accent and is not marked.",
+ "orthography": "Use standard Linear B transliteration in lowercase with hyphens between syllable signs: a e i o u; da de di do du; ja je jo; ka ke ki ko ku; ma me mi mo mu; na ne ni no nu; pa pe pi po pu; qa qe qi qo; ra re ri ro ru; sa se si so su; ta te ti to tu; wa we wi wo; za ze zo; plus special signs a2 (ha), a3 (ai), au, dwe, dwo, nwa, pte, pu2 (phu), ra2 (rya), ra3 (rai), ro2 (rjo), ta2 (tya), twe, two. Words are written as sequences of syllable-signs separated by hyphens (e.g. wa-na-ka). For the game, hyphenated syllable spelling is the faithful form; an unhyphenated normalized Greek-style spelling is acceptable if the audit allows it.",
+ "morphology": "Greek inflectional language with case, number, gender. Nouns decline in five cases (nominative, genitive, dative-locative-instrumental, accusative, vocative) and three numbers. Declension classes: o-stems (ko-wo, masc.; ke-ra-me-u, potter -eus), a-stems (po-ti-ni-ja, ko-wa), consonant stems (po-me, shepherd; a-ko-ra-ja), u- and i-stems. Typical case endings in script: nom. sg. -o (for -os), -a, -e-u; gen. sg. -o-jo (-oio), -a-o (a-stem), -e-wo; dat. sg. -o (-oi), -e; nom. pl. -o-i, -a-i; gen. pl. -o-no, -a-o-no, -e-o-no; dat. pl. -o-i (-oihi), -a-i. Adjectives agree in gender, number and case. Derivation: agent suffix -te (-tēr/-tās: do-ka-ma-i? etc.), -e-u (-eus, occupation: i-je-re-u 'priest', ka-ke-u 'smith'), -ta-ra? feminine -ja (-ia: i-je-re-ja 'priestess'), -wo-/-wo-ro, abstract -si-jo/-si, adjective -i-jo/-i-ja (-ios), -ke-ra? and patronymic/relational adjective -i-jo.",
+ "compounding": "Greek compounds are head-final in the sense that the second element is usually the head, joined by a stem vowel -o- (linker, the compositional vowel) in the first element: a-ke-ti-ri-ja 'preparers', ko-ru-to? , e.g. po-ti-ni-ja 'Mistress' is simple; compound examples: e-re-u-te-ro-se-wo? is doubtful, so use secure ones: ka-ra-wi-po-ro 'keybearer' (klawi-phoros), ke-ra-me-u 'potter' (kerameus, simple), ra-wa-ke-ta 'leader of the people' (lāwāgetās: lāwo- + agetas), do-e-ro 'slave' (doelos), po-ro-ko-re-te? (pro-koretēr), a-ni-ja-pi? and wa-na-ka-te-ro 'of the king' (wanaktero-, derived adjective). Genitive construction: governed noun followed by genitive in -o-jo/-a-o: e.g. po-ti-ni-ja da-pu2-ri-to-jo 'Mistress of the Labyrinth' (potnia + genitive), ko-wo? Compound agent nouns 'X-maker/bearer' use second-element -po-ro, -ko-wo, -wo-ko (-worgos), -ke-ta (-agetas), -a-ko/-ko-wo 'leader/guide', e.g. ka-ra-wi-po-ro. Divine epithets use dative: e.g. a-ta-na-po-ti-ni-ja 'to the Lady Athana'.",
+ "noun_phrase_order": "Attributive adjective may precede or follow the noun but generally agrees and precedes in formulas: e-ra-ti-ja? Safe pattern: noun + genitive (po-ti-ni-ja da-pu2-ri-to-jo); adjective + noun (wa-na-ka-te-ro te-me-no 'royal estate', literally of-the-king domain; also wa-na-ka-te-ro-jo? ) with demonstrative/article rare (o, to-so 'so much' are quantifiers, not articles). Numerals and quantity words follow commodity ideograms in lists.",
+ "attested_roots": [
+  {
+   "form": "wa-na-ka",
+   "gloss": "king, lord (wanax)",
+   "reconstructed": false
+  },
+  {
+   "form": "ra-wa-ke-ta",
+   "gloss": "leader of the people (lāwāgetās)",
+   "reconstructed": false
+  },
+  {
+   "form": "po-ti-ni-ja",
+   "gloss": "Mistress, Lady (potnia)",
+   "reconstructed": false
+  },
+  {
+   "form": "te-o",
+   "gloss": "god (theos)",
+   "reconstructed": false
+  },
+  {
+   "form": "te-me-no",
+   "gloss": "estate, sacred or royal land (temenos)",
+   "reconstructed": false
+  },
+  {
+   "form": "da-mo",
+   "gloss": "community, land-holding district (dāmos)",
+   "reconstructed": false
+  },
+  {
+   "form": "ko-wo",
+   "gloss": "boy, son (korwos)",
+   "reconstructed": false
+  },
+  {
+   "form": "ko-wa",
+   "gloss": "girl, daughter (korwā)",
+   "reconstructed": false
+  },
+  {
+   "form": "i-je-re-u",
+   "gloss": "priest (hiereus)",
+   "reconstructed": false
+  },
+  {
+   "form": "i-je-re-ja",
+   "gloss": "priestess (hiereia)",
+   "reconstructed": false
+  },
+  {
+   "form": "ka-ra-wi-po-ro",
+   "gloss": "keybearer, temple official (klāwiphoros)",
+   "reconstructed": false
+  },
+  {
+   "form": "do-e-ro",
+   "gloss": "slave, servant (doelos)",
+   "reconstructed": false
+  },
+  {
+   "form": "ke-ra-me-u",
+   "gloss": "potter (kerameus)",
+   "reconstructed": false
+  },
+  {
+   "form": "ka-ke-u",
+   "gloss": "smith (khalkeus)",
+   "reconstructed": false
+  },
+  {
+   "form": "po-me",
+   "gloss": "shepherd (poimēn)",
+   "reconstructed": false
+  },
+  {
+   "form": "da-pu2-ri-to-jo",
+   "gloss": "of the Labyrinth (genitive, Minoan substrate word)",
+   "reconstructed": false
+  }
+ ],
+ "worked_examples": [
+  {
+   "english": "Temple of the Sun",
+   "name": "te-me-no a-ma-ti-jo",
+   "gloss": "te-me-no 'sacred precinct' + a-ma-ti-jo 'of the cart/chariot' is wrong; use instead: te-me-no pa-wo-jo? Prefer built form below"
+  },
+  {
+   "english": "Mistress of the Labyrinth",
+   "name": "po-ti-ni-ja da-pu2-ri-to-jo",
+   "gloss": "po-ti-ni-ja 'Mistress' + da-pu2-ri-to-jo 'of the Labyrinth' (genitive sg. -jo); attested formula"
+  },
+  {
+   "english": "Estate of the King",
+   "name": "wa-na-ka-te-ro te-me-no",
+   "gloss": "wa-na-ka-te-ro 'royal, of the king' (adj. in -tero-) + te-me-no 'estate'"
+  },
+  {
+   "english": "Keybearer of the Goddess",
+   "name": "ka-ra-wi-po-ro te-o-jo",
+   "gloss": "ka-ra-wi-po-ro 'keybearer' + te-o-jo 'of the god' (genitive, o-stem), form built on te-o"
+  },
+  {
+   "english": "Leader of the People",
+   "name": "ra-wa-ke-ta",
+   "gloss": "ra-wa- (lāwo-, 'host, people') + -ke-ta (-agetās, 'leader'); attested title"
+  },
+  {
+   "english": "Priestess of the Lady",
+   "name": "i-je-re-ja po-ti-ni-ja-o",
+   "gloss": "i-je-re-ja 'priestess' + po-ti-ni-ja-o 'of the Lady' (a-stem genitive -a-o)"
+  }
+ ],
+ "allowed_graphemes": [
+  "a",
+  "e",
+  "i",
+  "o",
+  "u",
+  "da",
+  "de",
+  "di",
+  "do",
+  "du",
+  "ja",
+  "je",
+  "jo",
+  "ka",
+  "ke",
+  "ki",
+  "ko",
+  "ku",
+  "ma",
+  "me",
+  "mi",
+  "mo",
+  "mu",
+  "na",
+  "ne",
+  "ni",
+  "no",
+  "nu",
+  "pa",
+  "pe",
+  "pi",
+  "po",
+  "pu",
+  "qa",
+  "qe",
+  "qi",
+  "qo",
+  "ra",
+  "re",
+  "ri",
+  "ro",
+  "ru",
+  "sa",
+  "se",
+  "si",
+  "so",
+  "su",
+  "ta",
+  "te",
+  "ti",
+  "to",
+  "tu",
+  "wa",
+  "we",
+  "wi",
+  "wo",
+  "za",
+  "ze",
+  "zo"
+ ],
+ "extra_allowed_chars": " -",
+ "forbidden_patterns": [
+  "[bcfghlvxy]",
+  "[^aeiouqjkmnprstwzd -]",
+  "(?<![aeiou])q(?![aeio])",
+  "([aeiou])\\1\\1",
+  "^-|-$|--",
+  "(^|[ -])[bdg](?=[ -]|$)",
+  "[kptqmnrsz](?=[ -]|$)"
+ ],
+ "syllables_per_word": [
+  2,
+  5
+ ],
+ "max_word_length": 22,
+ "sources": [
+  "Ventris & Chadwick, Documents in Mycenaean Greek (2nd ed. 1973)",
+  "Chadwick, The Decipherment of Linear B (1958)",
+  "Bartonek, Handbuch des mykenischen Griechisch (2003)",
+  "Hajnal, Mykenisch und Homerisch / Mykenische Grammatik references",
+  "Aura Jorro, Diccionario Micenico (1985-1993)",
+  "Palaima, The Scribes of Pylos and Linear B studies",
+  "Duhoux & Morpurgo Davies (eds.), A Companion to Linear B (2008-2014)",
+  "Younger, Linear A texts and Minoan substrate resources (online)",
+  "DAMOS database of Mycenaean Greek (Oslo)",
+  "Wiktionary Mycenaean Greek entries",
+  "Glottolog (Greek, Mycenaean; Minoan)"
+ ],
+ "notes": "No word may be identical to a Modern Irish, Scottish Gaelic or Manx word, since Mycenaean/Minoan is not Goidelic. Faithful names are hyphenated Linear B syllable strings; closing consonants of Greek words are dropped in the script, so avoid -s/-n/-r finals in the audit (the forbidden pattern flags syllable-final consonants only at word end; internal syllables are open). Linear B has no signs for b/d/g separately from p/t/k except d- (da de di do du), so do not generate b, g, or l, h, c, f, v, x, y. Minoan Linear A material is undeciphered: only sign-values and a few substrate words (da-pu2-ri-to-, ku-pa-ro, di-ka-ta, ja-sa-sa-ra) should be used for 'Minoan' flavor, and the Palace Court proxy remains Mycenaean Greek. One worked example (Temple of the Sun) is intentionally flagged as unresolved because no attested Mycenaean word for 'sun' is secure; builders should avoid inventing a sun-word and use attested forms instead.",
+ "unit": "The Palace Court",
+ "slug": "the_palace_court",
+ "model": "claude-sonnet-5-5"
+}
