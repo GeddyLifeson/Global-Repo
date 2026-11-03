@@ -76,3 +76,8 @@ wave,repo,number,base,head,partner,title
 3,ports,262,diaithircompat,claude/survey-p4-epitaphs,,"Graves package in diaithir-claims, clean-room Epitaphs replacement [drop epitaphs and gravestone jars]"
 3,ports,267,diaithircompat,claude/survey-p4-permissiongate,,"Fold PermissionGate (MIT) into diaithir-claims as permission nodes"
 3,ports,272,diaithircompat,claude/survey-p4-ore-detector,,"Fold Ore Detector (MIT) into diaithir-miners"
+
+0,ports,258,diaithircompat,claude/survey-p4-server-waypoint,,"Fold Server Waypoint (MIT) into diaithir-waypoints"
+0,ports,252,diaithircompat,claude/survey-p4-chapters,,"Fold Chapters (MIT) into diaithir-worldsys [edits DiaithirWorldSys.java and en_us.json: merge one of #252, #263, #276 at a time, resolve the register-line conflict]"
+0,ports,263,diaithircompat,claude/survey-p4-more-professions,,"Fold More Professions (MIT) into diaithir-worldsys [same files as #252: merge one at a time]"
+0,ports,276,diaithircompat,claude/survey-p4-better-caravans,,"Fold Better Caravans (MIT) into diaithir-worldsys [same files as #252: merge one at a time]"
