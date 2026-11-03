@@ -325,3 +325,5 @@ world-checks/render.py	1634	"Top-down PNG per site: snow white, water blue, land
 world-checks/scan.py	5155	"Scan Tellus region files: per-column ground Y, snow cover, bedrock floor, and every *_ore block position."""""""	yes
 world-checks/sites.py	1510	R = 111319.49166666667 * 180 / math.pi	yes
 world-checks/snow.py	2642	"Snowline check: snow cover fraction by elevation band vs the Age I line (EraMath.age1SnowlineMeters)."""""""	yes
+diaithir-ports/diaithir-wiretech/tools/gen_circuit_assets.py	10834	Diaithir Wiretech circuit network assets: textures, models, blockstates, lang, recipes and age gate for the combinator blocks; run after gen_assets.py.	no
+diaithir-ports/diaithir-wiretech/src/main/java/net/diaithir/wiretech/circuit/CoreCheck.java	6998	Plain-Java check of the circuit core (signals, combinators, solver, tiers): javac then java -ea.	no
