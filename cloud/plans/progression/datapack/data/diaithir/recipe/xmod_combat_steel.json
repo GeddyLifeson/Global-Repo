@@ -1,6 +1,10 @@
 {
  "neoforge:conditions": [
   {
+   "type": "neoforge:mod_loaded",
+   "modid": "diaithir_stations"
+  },
+  {
    "type": "neoforge:item_exists",
    "item": "diaithir:arms_steel"
   },
@@ -14,8 +18,9 @@
  ],
  "_node": "combat.steel",
  "_age": "V",
- "type": "minecraft:crafting_shapeless",
- "category": "misc",
+ "type": "diaithir:station_recipe",
+ "station": "diaithir:foundry_steam_forge",
+ "stage": "part",
  "ingredients": [
   "#c:ingots/steel",
   "#diaithir:progression/leather"
@@ -23,5 +28,6 @@
  "result": {
   "id": "diaithir:arms_steel",
   "count": 1
- }
+ },
+ "time_s": 10
 }

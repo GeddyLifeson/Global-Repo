@@ -1,6 +1,10 @@
 {
  "neoforge:conditions": [
   {
+   "type": "neoforge:mod_loaded",
+   "modid": "diaithir_stations"
+  },
+  {
    "type": "neoforge:item_exists",
    "item": "diaithir:drink_ale"
   },
@@ -14,8 +18,9 @@
  ],
  "_node": "food.brew",
  "_age": "III",
- "type": "minecraft:crafting_shapeless",
- "category": "misc",
+ "type": "diaithir:station_recipe",
+ "station": "diaithirfarmkitchen:kitchen_counter",
+ "stage": "process",
  "ingredients": [
   "#c:crops/grain",
   "#diaithir:progression/brew.base"
@@ -23,5 +28,6 @@
  "result": {
   "id": "diaithir:drink_ale",
   "count": 1
- }
+ },
+ "time_s": 5
 }

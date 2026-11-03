@@ -1,0 +1,41 @@
+{
+ "neoforge:conditions": [
+  {
+   "type": "neoforge:mod_loaded",
+   "modid": "diaithir_stations"
+  },
+  {
+   "type": "neoforge:item_exists",
+   "item": "diaithircombat:lib_sword"
+  },
+  {
+   "type": "neoforge:not",
+   "value": {
+    "type": "neoforge:tag_empty",
+    "tag": "diaithir:progression/leather"
+   }
+  },
+  {
+   "type": "neoforge:not",
+   "value": {
+    "type": "neoforge:tag_empty",
+    "tag": "diaithir:progression/libgear.a1"
+   }
+  }
+ ],
+ "_node": "combat.gear_a2",
+ "_age": "II",
+ "type": "diaithir:station_recipe",
+ "station": "diaithir:foundry_hearth_bench",
+ "stage": "part",
+ "ingredients": [
+  "#c:ingots/copper",
+  "#diaithir:progression/leather",
+  "#diaithir:progression/libgear.a1"
+ ],
+ "result": {
+  "id": "diaithircombat:lib_sword",
+  "count": 1
+ },
+ "time_s": 10
+}

@@ -1,14 +1,19 @@
 {
  "neoforge:conditions": [
   {
+   "type": "neoforge:mod_loaded",
+   "modid": "diaithir_stations"
+  },
+  {
    "type": "neoforge:item_exists",
    "item": "diaithir:foundry_lane_belt"
   }
  ],
  "_node": "tech.belts",
  "_age": "VI",
- "type": "minecraft:crafting_shapeless",
- "category": "misc",
+ "type": "diaithir:station_recipe",
+ "station": "diaithir:foundry_assembler",
+ "stage": "assembly",
  "ingredients": [
   "#c:plates/iron",
   "#c:gears/iron"
@@ -16,5 +21,6 @@
  "result": {
   "id": "diaithir:foundry_lane_belt",
   "count": 1
- }
+ },
+ "time_s": 20
 }

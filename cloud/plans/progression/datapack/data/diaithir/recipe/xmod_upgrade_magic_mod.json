@@ -1,6 +1,10 @@
 {
  "neoforge:conditions": [
   {
+   "type": "neoforge:mod_loaded",
+   "modid": "diaithir_stations"
+  },
+  {
    "type": "neoforge:item_exists",
    "item": "diaithir:foundry_module_magic_t1"
   },
@@ -14,8 +18,9 @@
  ],
  "_node": "upgrade.magic_mod",
  "_age": "III",
- "type": "minecraft:crafting_shapeless",
- "category": "misc",
+ "type": "diaithir:station_recipe",
+ "station": "diaithir:altar_basic",
+ "stage": "process",
  "ingredients": [
   "#diaithir:progression/stone.ogham",
   "#c:ingots/silver"
@@ -23,5 +28,6 @@
  "result": {
   "id": "diaithir:foundry_module_magic_t1",
   "count": 1
- }
+ },
+ "time_s": 5
 }
