@@ -348,3 +348,4 @@ compat/gen_rules_api.py	0	Ask Haiku (direct parallel cached calls) which blocks 
 compat/gen_data.py	0	Build the compat datapack: upgrade shim rules, unit stores, Age gaps, Codex and quest links per mod.	yes
 compat/gen_recipes.py	0	Add load conditions to recipes naming absent mods and cross-mod dust/raw smelting to the shared ingot.	yes
 compat/gen_station_moves.py	0	Move non-trivial vanilla and kept-mod grid recipes onto the Age ladder of stations with a fallback grid recipe.	yes
+diaithir-ports/diaithir-overworld-biomes/tools/stellaris_extra.py	1100	S6922 Writes the recipes for the hand-written Stellaris pieces (rocket, suit, oxygen module, distributor, fluid cell).	no
