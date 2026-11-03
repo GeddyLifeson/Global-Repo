@@ -1,0 +1,174 @@
+{
+ "proxy_language": "Proto-Malayo-Polynesian (with Proto-Austronesian lexical models); secondary substrate flavour from Proto-Central-Malayo-Polynesian / Proto-South-Halmahera-West-New-Guinea for Wallacea",
+ "confidence": "speculative",
+ "proxy_rationale": "Pleistocene-Holocene foragers of Sundaland and Wallacea (c. 50,000-4,000 BP) left no linguistic record. Their languages are lost; the later Austronesian expansion (c. 4,000-3,000 BP) replaced or absorbed them, and Papuan (Trans-New Guinea, West Papuan) languages survive in parts of Wallacea (Timor-Alor-Pantar, North Halmahera). Austronesian is the only well-reconstructed, regionally dominant language family for the area, so Proto-Malayo-Polynesian is used purely as a phonological and morphological model for plausible, pronounceable names. It is NOT a claim that the foragers spoke Austronesian. Negrito-associated forager languages (Aslian, Philippine Negrito) are also Austronesian/Austroasiatic later layers and add little extra.",
+ "phonology": "Proto-Malayo-Polynesian consonants (Blust/ACD notation): *p *t *k *b *d *g *j *z *s *h *m *n *\\u00f1 *\\u014b *l *R *r *w *y *q (plus *C, *c variably). Vowels *a *i *u *e (schwa, written e). Diphthongs *ay *aw *uy *iw. Simplified for game use: p t k b d g s h m n ng ny l r w y plus a i u e o. Stress penultimate (PMP).",
+ "phonotactics": "Dominant canonical shape: disyllabic roots (C)V(C)CV(C), i.e. CVCVC, CVCV, CVC.CVC. Syllable types V, CV, CVC. Root-final consonants allowed (typically p t k b d g s h m n ng l r, with *q, *R lost or reflexed in daughters). Medial clusters are only homorganic nasal+stop (mp nt nk mb nd ng-g) or a few liquids/sibilants (rk, lt, st), usually across syllable boundary. No word-initial clusters. No vowel-initial restrictions. Roots rarely exceed 3 syllables before affixation; reduplication common.",
+ "orthography": "Practical Latin transliteration in the style of the Austronesian Comparative Dictionary: ng for velar nasal, ny for palatal nasal, e for schwa, q/h/R marked in reconstruction; for names use plain a e i o u, p t k b d g s h m n ng ny l r w y. No diacritics, no c/f/v/x/z/q in game names. Use hyphen only for affix boundaries or compound joins.",
+ "morphology": "Roots mostly disyllabic nouns/verbs, lexical category fluid. Affixation: prefixes ma- (stative/adjectival), pa- (causative/instrument), ka- (abstract/collective), ta-, pi-/pa-; infix -um- (actor), -in- (patient/nominalizer); suffixes -an (place/locative nominalizer), -en/-i (applicative/patient). Reduplication: full (ikan-ikan 'many fish/small fish') or CV- partial (plural, diminutive, intensive). Personal-name marker *si, common-noun article *u / *i. No noun classes or case on nouns beyond preposed markers. Numerals/classifiers minimal.",
+ "compounding": "Head-initial: modified noun comes first, modifier follows (Austronesian pattern): 'house of fire' = noun + noun. Genitive/attributive constructions juxtapose head + possessor (*balay *banua 'village house') or use *ni / *na linker for possessor. Agent/maker nouns use pa- or pa-...-an for 'place of', tu- or pan- for 'one who does'. Place names often use *banua 'land/community', *Rumaq 'house', *wahiR 'river', *bukit 'hill', *laut 'sea'. Adjectives follow nouns (ma- stative: *qitem 'black').",
+ "noun_phrase_order": "Head noun first, then modifier(s): N + Adj, N + N(possessor), N + Dem. Numerals precede noun. Articles/markers precede head.",
+ "attested_roots": [
+  {
+   "form": "*wahiR",
+   "gloss": "fresh water, river",
+   "reconstructed": true
+  },
+  {
+   "form": "*ikan",
+   "gloss": "fish",
+   "reconstructed": true
+  },
+  {
+   "form": "*apuy",
+   "gloss": "fire",
+   "reconstructed": true
+  },
+  {
+   "form": "*batu",
+   "gloss": "stone",
+   "reconstructed": true
+  },
+  {
+   "form": "*kayu",
+   "gloss": "wood, tree",
+   "reconstructed": true
+  },
+  {
+   "form": "*Rumaq",
+   "gloss": "house",
+   "reconstructed": true
+  },
+  {
+   "form": "*banua",
+   "gloss": "land, community",
+   "reconstructed": true
+  },
+  {
+   "form": "*laut",
+   "gloss": "sea",
+   "reconstructed": true
+  },
+  {
+   "form": "*qasu",
+   "gloss": "dog",
+   "reconstructed": true
+  },
+  {
+   "form": "*manuk",
+   "gloss": "bird",
+   "reconstructed": true
+  },
+  {
+   "form": "*bulan",
+   "gloss": "moon, month",
+   "reconstructed": true
+  },
+  {
+   "form": "*qalejaw",
+   "gloss": "sun, day",
+   "reconstructed": true
+  },
+  {
+   "form": "*tali",
+   "gloss": "rope, cord",
+   "reconstructed": true
+  },
+  {
+   "form": "*panah",
+   "gloss": "bow, to shoot",
+   "reconstructed": true
+  },
+  {
+   "form": "*bukit",
+   "gloss": "hill",
+   "reconstructed": true
+  },
+  {
+   "form": "*daRaq",
+   "gloss": "blood",
+   "reconstructed": true
+  }
+ ],
+ "worked_examples": [
+  {
+   "english": "River Stew",
+   "name": "Wair-an Ikan",
+   "gloss": "wair 'river' (wahiR) + -an nominalizer + ikan 'fish': 'fish-of-the-river'"
+  },
+  {
+   "english": "Fire House",
+   "name": "Rumah Apuy",
+   "gloss": "rumah 'house' + apuy 'fire', head-initial"
+  },
+  {
+   "english": "Stone Hill",
+   "name": "Bukit Batu",
+   "gloss": "bukit 'hill' + batu 'stone', head-initial"
+  },
+  {
+   "english": "Moon Bird",
+   "name": "Manuk Bulan",
+   "gloss": "manuk 'bird' + bulan 'moon'"
+  },
+  {
+   "english": "Sea Village",
+   "name": "Banua Laut",
+   "gloss": "banua 'land/community' + laut 'sea'"
+  },
+  {
+   "english": "Place of Shooting (hunting ground)",
+   "name": "Panah-an",
+   "gloss": "panah 'bow, shoot' + -an locative suffix"
+  }
+ ],
+ "allowed_graphemes": [
+  "a",
+  "e",
+  "i",
+  "o",
+  "u",
+  "p",
+  "t",
+  "k",
+  "b",
+  "d",
+  "g",
+  "s",
+  "h",
+  "m",
+  "n",
+  "ng",
+  "ny",
+  "l",
+  "r",
+  "w",
+  "y"
+ ],
+ "extra_allowed_chars": " -",
+ "forbidden_patterns": [
+  "[cfqvxz]",
+  "[aeiou]{3,}",
+  "^[^aeiou]{2}",
+  "[^aeiou]{3,}",
+  "(.)\\\\1\\\\1"
+ ],
+ "syllables_per_word": [
+  2,
+  3
+ ],
+ "max_word_length": 14,
+ "sources": [
+  "Blust, Robert & Trussel, Stephen. Austronesian Comparative Dictionary (ACD), online, ongoing",
+  "Blust, Robert. The Austronesian Languages (revised edition), 2013",
+  "Adelaar, K. Alexander & Himmelmann, Nikolaus (eds.). The Austronesian Languages of Asia and Madagascar, 2005",
+  "Wurm, Stephen & Hattori, Shiro. Language Atlas of the Pacific Area, 1981",
+  "Glottolog and ASJP databases for Wallacea languages",
+  "Wiktionary Proto-Austronesian and Proto-Malayo-Polynesian reconstruction pages",
+  "Pawley, Andrew & Ross, Malcolm. Austronesian historical linguistics and culture history, Annual Review of Anthropology, 1993"
+ ],
+ "notes": "The actual Pleistocene-Holocene forager languages of Sundaland and Wallacea are unrecoverable; names built here are an Austronesian-flavoured stand-in and carry no claim of genetic or historical continuity. Wallacean Papuan influence (Timor-Alor-Pantar, Halmahera) could justify occasional final-vowel-free closed syllables, but is not modelled. No word may be identical to a Modern Irish, Scottish Gaelic or Manx word since the language is not Goidelic. Note: worked_examples above use Malay-style spellings (rumah, wair) as approximate reflexes of reconstructed forms; keep h instead of reconstructed *q/*R and use vowel-final or -k/-n/-ng/-r/-l/-s/-h/-m/-p/-t finals.",
+ "unit": "Sundaland and Wallacea Pleistocene-Holocene foragers",
+ "slug": "sundaland_and_wallacea_pleistocene_holocene_foragers",
+ "model": "claude-sonnet-5-5"
+}

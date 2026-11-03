@@ -1,0 +1,189 @@
+{
+ "proxy_language": "Insufficient evidence to identify any attested language; 'Kloichchruind' and 'Rodos' appear to be invented game-world labels. Defensible proxy: a hybrid of Early Modern Irish/Classical Gaelic orthography (suggested by clusters like 'chch', 'ruind', 'mairteòil', 'deg', 'kriem') with a Norse/Scandinavian-flavoured layer (suggested by 'sku-', 'stiu-', 'kurrak', 'brochun'). For auditable construction, use Classical Gaelic (Early Modern Irish c.1200-1650) as the base grammar.",
+ "confidence": "speculative",
+ "proxy_rationale": "No historical culture named Kloichchruind is known, and 'Rodos' is the Greek name of Rhodes, which has no connection to Goidelic. The existing game strings show Gaelic-looking material (mairteòil 'beef/carcass', deg 'ten/good', kriem) mixed with non-Gaelic elements. Since this culture is a 'later court' (period R), Classical Gaelic bardic/court register is the most coherent anchor: attested, richly documented, and consistent with the visible string shapes. This is a constructed-culture proxy, not an identification of a real language of Rhodes. Note: for a genuine Rhodian culture, Greek (Doric) would be the real proxy; this entry deliberately follows the game's Gaelic-flavoured strings instead.",
+ "phonology": "Classical Gaelic: consonants come in broad (velarized) and slender (palatalized) series: stops p b t d c g; fricatives f s h, with lenited bh dh gh ch th fh sh mh; nasals m n (lenited mh); liquids l r; plus ng. Vowels a e i o u, long marked with acute (á é í ó ú); diphthongs ia, ua, ai, ei, oi, ae, ao. Initial mutations (lenition, eclipsis) are grammatical, not phonemic in the name root. Stress falls on the first syllable.",
+ "phonotactics": "Syllable shapes (C)(C)V(V)(C)(C). Initial clusters: sC- (sg, sc, sp, st, sm, sn), Cr/Cl/Cn (br, cr, dr, gr, tr, cl, gl, bl, fl), no initial ng, no initial nd/rd. Medial and final clusters: rd, rt, rc, rg, rn, rm, nn, ll, lc, lg, nt, nd, nc, ng, rr, dh, gh, th, ch. Orthographic rule 'caol le caol, leathan le leathan' (slender vowel next to slender vowel, broad next to broad) governs spelling across consonants: e.g. -ach/-aigh, -ach/-igh. Words end in vowels, lenited fricatives (-ch, -dh, -gh written), liquids, nasals, or stops (-c, -g, -d, -t); h, j, k, q, v, w, x, y, z are not native letters (k only in forced loan spellings).",
+ "orthography": "Latin script, Classical Gaelic spelling with lenition shown by following h (bh ch dh fh gh mh ph sh th), long vowels with acute. Eclipsis and mutations are normally not marked in dictionary-form names (nominative singular base form). Where a game name needs k or ch-clusters like 'chch', these are not Gaelic: 'chch' only arises across a word boundary or compound boundary (e.g. -ch + ch-). Compound boundaries are best shown with a hyphen or space.",
+ "morphology": "Nouns have gender (masc/fem), number, and case (nom, gen, dat, voc); the genitive is the construction used for names of the 'X of Y' type. Genitive formation is by declension class: slender-ending (cluain > cluana, ceann > cinn), vowel-change (fear > fir, bean > mná), and suffix (-a, -e, -ach, -(a)ighe). Verbal nouns and agent nouns in -óir/-óg/-eoir/-aire ('X-maker/doer'). Adjectives follow the noun and agree in gender, number and case. Diminutives: -án, -ín, -óg. Abstracts: -acht, -as, -e. Prefixes: an- (very/not), so-/do- (easy/hard), ard- (high), mór-/beag- (great/small), fíor- (true), sean- (old), nua- (new).",
+ "compounding": "Compounds are head-final: modifier + head, with the first element often lenited ('dubh-' + 'loch' = Dubhloch; 'ard' + 'rí' = ardrí). Real compounds in names: prefix adjectives (ard-, mór-, sean-, nua-, fíor-) and noun-noun compounds with the first noun in uninflected stem form (cú-chulainn, tigh-mhór). 'X of Y' is formed analytically: head noun in nominative + Y in the genitive (teach an rí 'house of the king', cathair na gréine 'city of the sun'); the article an/na (gen. sg. masc. an, fem. na; gen. pl. na) sits before the genitive noun. Agent noun: object in genitive + verbal/agent noun (déantóir arm 'maker of weapons', gobha 'smith', gobha óir 'goldsmith').",
+ "noun_phrase_order": "Noun first; adjective after the noun and agreeing (teach mór 'big house'; cathair mhór); genitive after head noun (teach an rí); demonstratives follow (an teach sin); numerals precede the noun (trí chapall). Article precedes noun and adjective follows.",
+ "attested_roots": [
+  {
+   "form": "cluain",
+   "gloss": "meadow, pasture",
+   "reconstructed": false
+  },
+  {
+   "form": "dún",
+   "gloss": "fort, fortress",
+   "reconstructed": false
+  },
+  {
+   "form": "ráth",
+   "gloss": "ringfort, earthen fort",
+   "reconstructed": false
+  },
+  {
+   "form": "teach",
+   "gloss": "house",
+   "reconstructed": false
+  },
+  {
+   "form": "cathair",
+   "gloss": "city, stone fort",
+   "reconstructed": false
+  },
+  {
+   "form": "rí",
+   "gloss": "king",
+   "reconstructed": false
+  },
+  {
+   "form": "ard",
+   "gloss": "high; height",
+   "reconstructed": false
+  },
+  {
+   "form": "mór",
+   "gloss": "great, big",
+   "reconstructed": false
+  },
+  {
+   "form": "dubh",
+   "gloss": "black, dark",
+   "reconstructed": false
+  },
+  {
+   "form": "bán",
+   "gloss": "white, fair",
+   "reconstructed": false
+  },
+  {
+   "form": "gorm",
+   "gloss": "blue, dark blue",
+   "reconstructed": false
+  },
+  {
+   "form": "loch",
+   "gloss": "lake",
+   "reconstructed": false
+  },
+  {
+   "form": "abhainn",
+   "gloss": "river",
+   "reconstructed": false
+  },
+  {
+   "form": "cnoc",
+   "gloss": "hill",
+   "reconstructed": false
+  },
+  {
+   "form": "coill",
+   "gloss": "wood, forest",
+   "reconstructed": false
+  },
+  {
+   "form": "muir",
+   "gloss": "sea",
+   "reconstructed": false
+  }
+ ],
+ "worked_examples": [
+  {
+   "english": "King's Fort",
+   "name": "Dún an Rí",
+   "gloss": "dún 'fort' + an 'the' + rí 'king (gen. sg. rí)'"
+  },
+  {
+   "english": "Great Hall",
+   "name": "Teach Mór",
+   "gloss": "teach 'house/hall' + mór 'great' (adjective follows noun)"
+  },
+  {
+   "english": "Black Lake",
+   "name": "Dubhloch",
+   "gloss": "dubh 'black' + loch 'lake' (prefix-adjective compound, modifier first)"
+  },
+  {
+   "english": "Meadow of the Oaks",
+   "name": "Cluain na nDarach",
+   "gloss": "cluain 'meadow' + na 'of the (gen. pl.)' + nDarach 'oaks (eclipsed gen. pl. of dair)'"
+  },
+  {
+   "english": "Smith of Gold",
+   "name": "Gobha Óir",
+   "gloss": "gobha 'smith' + óir 'of gold (gen. sg. of ór)'"
+  },
+  {
+   "english": "White Fort",
+   "name": "Ráth Bhán",
+   "gloss": "ráth 'ringfort' + bhán 'white' (lenited after fem. noun)"
+  }
+ ],
+ "allowed_graphemes": [
+  "a",
+  "á",
+  "b",
+  "bh",
+  "c",
+  "ch",
+  "d",
+  "dh",
+  "e",
+  "é",
+  "f",
+  "fh",
+  "g",
+  "gh",
+  "h",
+  "i",
+  "í",
+  "l",
+  "m",
+  "mh",
+  "n",
+  "ng",
+  "o",
+  "ó",
+  "p",
+  "ph",
+  "r",
+  "s",
+  "sh",
+  "t",
+  "th",
+  "u",
+  "ú"
+ ],
+ "extra_allowed_chars": " -'áéíóú",
+ "forbidden_patterns": [
+  "[jkqvwxyz]",
+  "^ng",
+  "(.)\\1\\1",
+  "[aeiou]{4,}",
+  "[bcdfgmpst]h[bcdfgmpst]h",
+  "^[bdglmnr]n",
+  "chch(?!-)"
+ ],
+ "syllables_per_word": [
+  1,
+  2,
+  3
+ ],
+ "max_word_length": 14,
+ "sources": [
+  "Quin, E.G. (ed.), Dictionary of the Irish Language (eDIL, RIA), 1913-1976, online at dil.ie",
+  "Thurneysen, Rudolf, A Grammar of Old Irish, 1946",
+  "McManus, Damian, A Guide to Ogam, 1991 (for early Goidelic phonology)",
+  "Mac Cana, Proinsias; Mac Giolla Easpaig, Dónall et al., Place-Names of Ireland (Logainm.ie database)",
+  "Joyce, P.W., The Origin and History of Irish Names of Places, 1869-1913",
+  "Lewis, Henry and Pedersen, Holger, A Concise Comparative Celtic Grammar, 1937",
+  "Glottolog (Classical Gaelic / Goidelic entries) and ASJP wordlists"
+ ],
+ "notes": "There is no known real language called Kloichchruind and Rodos is Rhodes, so this entry is explicitly a speculative proxy. Names should be built from Classical/Early Modern Gaelic roots and rules, but since the culture is NOT Goidelic in the real world this is a flavour proxy only, so avoid verbatim modern words. No word may be identical to a Modern Irish, Scottish Gaelic or Manx word unless the language is Goidelic; here that constraint is relaxed only because the proxy IS Goidelic, so prefer period (Old/Middle/Early Modern) spellings, compounds and genitive constructions over bare modern dictionary words. The current game strings contain foreign-looking items (k, kurrak, kriem, stiu-) that violate Gaelic phonotactics and should be regenerated.",
+ "unit": "Kloichchruind",
+ "slug": "kloichchruind",
+ "model": "claude-sonnet-5-5"
+}
