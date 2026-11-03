@@ -2169,3 +2169,25 @@ Recommendation: ADOPT/FOLD TouchController only if mobile is in scope; else none
 | Mineflayer (PrismarineJS) | Node library | MIT (unverified) | Real protocol client |
 | HeadlessMC (3arthqu4ke) | launcher | MIT (unverified) | Real vanilla/NeoForge client without display |
 Recommendation: see Headless test bot section.
+
+## CIVILIZATION-STYLE MODS (deep pass, 2026-11-03)
+Answer to "no Civilization mod exists?": one close Civ-VI-style mod exists, Bannerbound (below); nothing else combines eras + research + city + diplomacy + victory. Sources: WebSearch + WebFetch of CurseForge/GitHub/Modrinth/Planet Minecraft pages; GitHub/CF API not available, so anything not read on its own page is "unverified".
+| Candidate | Newest MC/loader | Licence | Port? | What we can take | Notes |
+|---|---|---|---|---|---|
+| Bannerbound Antiquity Age + Bannerbound Core (Nitsu / NotNitsu) curseforge.com/minecraft/mc-mods/bannerbound-antiquity-age | 1.21.1 NeoForge (2026) | MIT (Antiquity Age page, (c) 2026 Nitsu); Core licence unverified; no public repo found | yes for Antiquity Age if source is obtainable (jar only seen) | era progression data model, multiplayer civ/town layer, Civ VI-style loop | CF page returned 404 on direct fetch; details from search snippet only; closest match to Marlon's idea. Contact/inspect jar before relying |
+| Warring Nations (TacYEET) curseforge.com/minecraft/mc-mods/warring-nations, github.com/tacyeet/warringnations | 1.21.1 NeoForge, v4.0.0 2026-09-03 | custom source-available, "all rights reserved, not open source" | no (clean-room) | feature model: governments, treasuries, vassals, rebellions, 10 war types, peace terms, 627 presets, API | built on FTB Teams + FTB Chunks (ARR); no tech tree |
+| NationWars | 1.21.1 NeoForge | unverified | unverified | nations, diplomacy, economy, espionage, war | CF page not fetched |
+| Nations (VerkoSK) github.com/VerkoSK/Nations | 1.20.1 Forge, archived 2026-03-03 | not stated | no (no licence = ARR) | five relations: alliance, trade pact, neutral, rivalry, war; rank hierarchy; N-key GUI | no tech/eras |
+| Diplomacy; Romecraft Diplomacy (CF) | 1.20.1 Forge | unverified | unverified | treaties, alliances, trade deals, voting | not fetched |
+| Ancient Warfare 2 (Shadowmage, p3pp3rf1y rewrite) github.com/p3pp3rf1y/ancientwarfare2 | 1.12.x (rewrite 1.12+); Modrinth: AW2 Tweaked 1.12.2 GPL-3.0-or-later | GPL-3 or later (1.7.10 changelog; repo LICENSE not read) | yes (code) | research-based tech tree (research recipes, /awresearch), NPC workers/soldiers, town hall | best open research model; AW3 NPCs/Worksites 1.21.1 are ARR (Modrinth) |
+| AgeCraft (CF 77842, github.com/AgeCraft/AgeCraft) | 1.7.2 Forge, 2014 | LGPL-3.0 (CF page) | yes but tiny | idea only: ages each in own dimension, villages to empires | planned features, never finished |
+| Advancements: Ages (MangDags) | 1.18.2 Forge | MIT | yes (trivial) | 11 era advancements (Prehistoric..Atomic) granted by command, for quest gating | data only |
+| Minecolonies (ldtteam) | see main table | GPL-3.0 (verified) | yes | colony levels, citizen jobs, hut tiers | no eras/research/diplomacy |
+| Millenaire (Kinniken) | 1.12.2 and older | Custom License (verified CF; terms unread) | unverified | cultures as playable villages, reputation, quests | culture model ancestor |
+| Towny (TownyAdvanced) | Paper 1.21+ plugin | CC BY-NC-ND 3.0 (FlagWar Apache-2.0) | no | town/nation/diplomacy model only | Bukkit plugin, not a mod; ND blocks forks |
+| TownyCivs (NeumimTo) github.com/NeumimTo/TownyCivs | Paper/Folia 1.19.4 | MIT | yes (concept, Bukkit API) | blueprint-bought buildings that activate and produce, Civs/MineColonies-inspired | plugin, alpha |
+| Civs (Multitallented) github.com/Multitallented/Civs | Spigot plugin | GPL-3.0 per Gitee mirror (official repo unconfirmed) | unverified | regions, towns, nations, spell modules | plugin |
+| CivCraft / Civcraft (Bukkit, github.com/orgs/Civcraft) | Bukkit 1.x | mixed BSD-3/MIT per org mailing list; per-repo unverified | partly (per repo) | the original tech + culture + wonders + diplomacy + war server game; tech tree and civ data model | orgs repo list read only via search; original CivCraft game repo not located |
+| Modpacks: SevTech: Ages, Antiquity to Modernity (1.12.2, Civ+Factorio inspired), Mine Civilization, TFC Civilization, Age of Civilization, New Epoch | 1.12.2..1.20.1 | modpack data, per-pack unverified | design reference | stage gating via GameStages + advancements; era structure | not code |
+| Age of Colonies (MineColonies-style, Planet Minecraft) | 1.20.1 | unverified (page 403) | no | AoE2 ages Dark/Feudal/Castle/Imperial as colony tiers | style pack |
+Recommendation: CLEAN-ROOM tech-tree/era-clock/victory (graph.json already richer than anything found); FOLD concepts from Ancient Warfare 2 (GPL, research data model), CivCraft (tech/culture/wonders), Warring Nations feature list (diplomacy/war design only, no code); PORT Bannerbound Antiquity Age only after confirming source access (MIT, 1.21.1 NeoForge, the only Civ-VI-style mod).
