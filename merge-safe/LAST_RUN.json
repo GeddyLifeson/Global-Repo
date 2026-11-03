@@ -1,29 +1,25 @@
 {
-    "run_utc":  "2026-11-03T21:31:21Z",
+    "run_utc":  "2026-11-03T21:45:56Z",
     "dry_run":  false,
-    "merged_count":  5,
-    "skipped_count":  48,
+    "merged_count":  4,
+    "skipped_count":  49,
     "failed_count":  0,
     "merged":  [
                    {
-                       "pr":  "GeddyLifeson/diaithir-ports#169",
-                       "title":  "OpenComputers port step 1: Sedna, Ceres and Minux loader compile on 26.1.2"
+                       "pr":  "GeddyLifeson/diaithir-ports#175",
+                       "title":  "Wave 6: BoP/Nature\u0027s Spirit/Productive/Macaw/Blockheads dropped for rewrite jars, rewrites bundle refresh, P:WIC dropped"
                    },
                    {
-                       "pr":  "GeddyLifeson/diaithir-ports#171",
-                       "title":  "Add diaithir-animation: melee, tool, bow and gun player animations (PAL)"
+                       "pr":  "GeddyLifeson/DiaithirRPG#245",
+                       "title":  "tech_ages: rows for diaithirpipes/portable/routing/worldsys and Foundry crafting items"
                    },
                    {
-                       "pr":  "GeddyLifeson/diaithir-ports#187",
-                       "title":  "diaithir-animation: vanilla-body and first-person pose layer (87 clips, item-kind tags)"
+                       "pr":  "GeddyLifeson/DiaithirRPG#246",
+                       "title":  "Progression glue: node quests, Gate rite, operator seat, Unrest, win ceremony"
                    },
                    {
-                       "pr":  "GeddyLifeson/diaithir-ports#190",
-                       "title":  "Add vehicle roster, road-vehicle pack and shared fuel API"
-                   },
-                   {
-                       "pr":  "GeddyLifeson/diaithir-ports#195",
-                       "title":  "Farm equipment: 35 machines and implements from digging stick to combine harvester"
+                       "pr":  "GeddyLifeson/DiaithirRPG#248",
+                       "title":  "Wave 6 pack inputs: overworld drop-in, rewrites refresh"
                    }
                ],
     "skipped":  [
@@ -73,29 +69,9 @@
                         "reason":  "storage duplicate, not settled (folded by #123?)"
                     },
                     {
-                        "title":  "Wave 6: BoP/Nature\u0027s Spirit/Productive/Macaw/Blockheads dropped for rewrite jars, rewrites bundle refresh, P:WIC dropped",
-                        "pr":  "GeddyLifeson/diaithir-ports#175",
-                        "reason":  "partner ports#175 : merge conflicts"
-                    },
-                    {
                         "title":  "Fold Titanium and AE2 into libraries and ae2-extensions supermodules",
                         "pr":  "GeddyLifeson/diaithir-ports#177",
                         "reason":  "merge conflicts"
-                    },
-                    {
-                        "title":  "tech_ages: rows for diaithirpipes/portable/routing/worldsys and Foundry crafting items",
-                        "pr":  "GeddyLifeson/DiaithirRPG#245",
-                        "reason":  "merge conflicts"
-                    },
-                    {
-                        "title":  "Progression glue: node quests, Gate rite, operator seat, Unrest, win ceremony",
-                        "pr":  "GeddyLifeson/DiaithirRPG#246",
-                        "reason":  "merge conflicts"
-                    },
-                    {
-                        "title":  "Wave 6 pack inputs: overworld drop-in, rewrites refresh",
-                        "pr":  "GeddyLifeson/DiaithirRPG#248",
-                        "reason":  "partner ports#175 : merge conflicts"
                     },
                     {
                         "title":  "Pack inputs: fold Titanium and AE2 into supermodules",
@@ -150,6 +126,11 @@
                     {
                         "title":  "Register circuit network scripts S6894 S6895",
                         "pr":  "GeddyLifeson/Global-Repo#26",
+                        "reason":  "draft and not listed as clear in merge-order.csv"
+                    },
+                    {
+                        "title":  "Add mega vehicles and megastructures: design, catalogue, validator",
+                        "pr":  "GeddyLifeson/Global-Repo#27",
                         "reason":  "draft and not listed as clear in merge-order.csv"
                     },
                     {
@@ -218,7 +199,7 @@
                         "reason":  "draft and not listed as clear in merge-order.csv"
                     },
                     {
-                        "title":  "wiretech: Factorio-style circuit network (red/green wires, combinators, gate, lamp, speaker, reader)",
+                        "title":  "wiretech: Factorio-style circuit network (wires, combinators, gate, lamp, speaker, reader, GUI)",
                         "pr":  "GeddyLifeson/diaithir-ports#214",
                         "reason":  "draft and not listed as clear in merge-order.csv"
                     },
@@ -248,6 +229,21 @@
                         "reason":  "draft and not listed as clear in merge-order.csv"
                     },
                     {
+                        "title":  "Carts: timetables, scheduled stops, crewed vs autonomous (Age VII)",
+                        "pr":  "GeddyLifeson/diaithir-ports#220",
+                        "reason":  "draft and not listed as clear in merge-order.csv"
+                    },
+                    {
+                        "title":  "Vehicles: record IV pack boot result and NPC driver wage rule",
+                        "pr":  "GeddyLifeson/diaithir-ports#221",
+                        "reason":  "draft and not listed as clear in merge-order.csv"
+                    },
+                    {
+                        "title":  "diaithir-animation: gun reload variants, casings, belt links, magazine swap, seats and projectile FX",
+                        "pr":  "GeddyLifeson/diaithir-ports#222",
+                        "reason":  "draft and not listed as clear in merge-order.csv"
+                    },
+                    {
                         "title":  "Stacks: planet labels and planet Age gate",
                         "pr":  "GeddyLifeson/DiaithirRPG#255",
                         "reason":  "draft and not listed as clear in merge-order.csv"
@@ -265,6 +261,11 @@
                     {
                         "title":  "tech_ages: vs_yard ship yard ids by Age",
                         "pr":  "GeddyLifeson/DiaithirRPG#258",
+                        "reason":  "draft and not listed as clear in merge-order.csv"
+                    },
+                    {
+                        "title":  "NPC wages: weekly payroll, employer accounts, strikes and revolts",
+                        "pr":  "GeddyLifeson/DiaithirRPG#259",
                         "reason":  "draft and not listed as clear in merge-order.csv"
                     }
                 ],
