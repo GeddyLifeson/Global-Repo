@@ -1,0 +1,174 @@
+{
+ "proxy_language": "Proto-Quechua / Proto-Aymaran (Quechumaran) as a weak areal stand-in; Mapudungun as a secondary southern-cone check",
+ "confidence": "speculative",
+ "proxy_rationale": "Fishtail points (Fell/Magallanes, Paijan-adjacent, c. 13,000-11,000 cal BP) are known only archaeologically from Patagonia to the Andes and Pacific coast; no language of the makers is recoverable. Pleistocene languages of the continent are lost and the 20,000+ year gap defeats any reconstruction. The most defensible choice is a phonologically plausible Andean/southern-cone stand-in. Proto-Quechua (Torero, Parker, Cerron-Palomino reconstructions) offers a simple, well-documented CV(C) system with a three-vowel inventory that yields a coherent, pronounceable name set. Link strength is essentially nil beyond phonological plausibility; no claim of descent or genetic relation to the makers is made.",
+ "phonology": "Proto-Quechua consonants (conventional reconstruction): stops p t ch k q (uvular), affricate ch, fricative s, sh, h, nasals m n ny (ñ), liquids l ll (lateral palatal) r, glides w y. Quechua II/B and Cuzco forms add ejective/aspirated series, but use the plain series only. Vowels: a i u (three-vowel system; e and o appear only as uvular-conditioned allophones in actual speech and are not written in standard orthographies). Vowel length is phonemic in Proto-Quechua (aa ii uu). Stress is penultimate in most varieties.",
+ "phonotactics": "Syllable shapes: V, CV, CVC (rarely VC word-initially). Onsets are a single consonant; no onset clusters. Codas: one consonant (commonly n, r, l, s, y, w, m, q, k, p). Medial clusters of two consonants are fine (CVC.CV), e.g. -nk-, -sk-, -ll-, -rq-. No word-final clusters. Words typically 2-4 syllables, built from roots plus suffixes. Roots are overwhelmingly bisyllabic (CVCV, CVCCV).",
+ "orthography": "Practical Quechua alphabet in Latin script: a i u; p t k q ch s sh h m n ny l ll r w y. Use 'q' for the uvular stop, 'ch' for the affricate, 'll' for the lateral palatal, 'sh' only if desired. Do not use c, v, z, b, d, f, g, j, x. Doubled vowels aa ii uu mark long vowels. Southern-cone substitutes (Mapudungun) are not mixed in: Mapudungun uses ng, ll, tr, and vowels a e i o u plus the high central vowel, so keep the two systems separate and prefer the Quechuan set for consistency.",
+ "morphology": "Agglutinative, strictly suffixing. Roots are nouns or verbs; nominal and verbal roots take suffix chains. Nominal: plural -kuna; genitive -pa / -q (after vowel -pa, e.g. runa-pa); locative -pi; instrumental/accompaniment -wan; possessive -yuq ('having X'); abstract/agentive -q; nominalizer -y (infinitive), -na (instrument/place: 'thing for V-ing'). Verb roots: -chi (causative), -ku (reflexive), -pu (benefactive). No noun classes, no grammatical gender, no articles. Reduplication marks intensity/plurality in some roots.",
+ "compounding": "Compounds are head-final: modifier + head (e.g. yaku mama 'water mother' = river source). 'X of Y' is Y-genitive + X: Y-pa X (possessor marked with -pa, possessed optionally marked with 3sg possessive -n/-nin), e.g. Inti-pa wasi-n 'the Sun's house'. 'Y-maker/doer' is verb root + -q: llank'a-q 'worker', rurana 'tool for making' with -na. Place and instrument names use -na: ruwana 'thing for making'. Attributive adjectives precede the noun (hatun wasi 'big house'). Appositional compounds omit the genitive when tight (e.g. rumi wasi 'stone house').",
+ "noun_phrase_order": "Modifier-head: adjective/demonstrative/possessor before the noun; possessor takes -pa, possessed may take -n. Numerals precede the noun. Relative clauses precede the head noun.",
+ "attested_roots": [
+  {
+   "form": "yaku",
+   "gloss": "water",
+   "reconstructed": false
+  },
+  {
+   "form": "rumi",
+   "gloss": "stone",
+   "reconstructed": false
+  },
+  {
+   "form": "inti",
+   "gloss": "sun",
+   "reconstructed": false
+  },
+  {
+   "form": "killa",
+   "gloss": "moon",
+   "reconstructed": false
+  },
+  {
+   "form": "mama",
+   "gloss": "mother",
+   "reconstructed": false
+  },
+  {
+   "form": "wasi",
+   "gloss": "house",
+   "reconstructed": false
+  },
+  {
+   "form": "hatun",
+   "gloss": "big, great",
+   "reconstructed": false
+  },
+  {
+   "form": "sach'a",
+   "gloss": "tree, bush",
+   "reconstructed": false
+  },
+  {
+   "form": "puma",
+   "gloss": "puma",
+   "reconstructed": false
+  },
+  {
+   "form": "kuntur",
+   "gloss": "condor",
+   "reconstructed": false
+  },
+  {
+   "form": "challwa",
+   "gloss": "fish",
+   "reconstructed": false
+  },
+  {
+   "form": "urqu",
+   "gloss": "mountain, hill",
+   "reconstructed": false
+  },
+  {
+   "form": "mayu",
+   "gloss": "river",
+   "reconstructed": false
+  },
+  {
+   "form": "nina",
+   "gloss": "fire",
+   "reconstructed": false
+  },
+  {
+   "form": "runa",
+   "gloss": "person",
+   "reconstructed": false
+  },
+  {
+   "form": "kuka",
+   "gloss": "coca",
+   "reconstructed": false
+  }
+ ],
+ "worked_examples": [
+  {
+   "english": "River Stew",
+   "name": "mayu aqa",
+   "gloss": "mayu 'river' + aqa 'brew/stew' (modifier-head compound)"
+  },
+  {
+   "english": "Temple of the Sun",
+   "name": "intipa wasin",
+   "gloss": "inti 'sun' + -pa GEN, wasi 'house' + -n 3sg.POSS"
+  },
+  {
+   "english": "Stone Maker",
+   "name": "rumi ruraq",
+   "gloss": "rumi 'stone' + rura- 'make' + -q AGENT"
+  },
+  {
+   "english": "Fish Place",
+   "name": "challwana",
+   "gloss": "challwa 'fish' + -na 'place/thing for'"
+  },
+  {
+   "english": "Mother of the Mountain",
+   "name": "urqupa mamanin",
+   "gloss": "urqu 'mountain' + -pa GEN, mama 'mother' + -nin 3sg.POSS"
+  },
+  {
+   "english": "Great Puma",
+   "name": "hatun puma",
+   "gloss": "hatun 'big' + puma 'puma' (adjective-noun)"
+  }
+ ],
+ "allowed_graphemes": [
+  "a",
+  "i",
+  "u",
+  "p",
+  "t",
+  "k",
+  "q",
+  "ch",
+  "s",
+  "sh",
+  "h",
+  "m",
+  "n",
+  "ny",
+  "l",
+  "ll",
+  "r",
+  "w",
+  "y"
+ ],
+ "extra_allowed_chars": " -'",
+ "forbidden_patterns": [
+  "[bcdfgjvxz]",
+  "[eo]",
+  "(.)\\1\\1",
+  "[pqkt]{3,}",
+  "[^aiu]{3,}"
+ ],
+ "syllables_per_word": [
+  2,
+  3,
+  4
+ ],
+ "max_word_length": 14,
+ "sources": [
+  "Cerron-Palomino, Rodolfo. Linguistica quechua (1987)",
+  "Parker, Gary J. Clasificacion genetica de los dialectos quechuas (1963)",
+  "Torero, Alfredo. Los dialectos quechuas (1964)",
+  "Adelaar, Willem F. H. with Pieter C. Muysken. The Languages of the Andes (2004)",
+  "Weber, David. A Grammar of Huallaga (Huanuco) Quechua (1989)",
+  "Glottolog entries for Quechuan and Aymaran",
+  "ASJP database",
+  "Wiktionary Proto-Quechua reconstruction pages"
+ ],
+ "notes": "Speculative: the fishtail point makers' language is unknown and unrecoverable; Quechua-style forms are a plausible-sounding stand-in, not a claim of descent. Southern-cone (Mapudungun) or Amazonian forms could equally be argued; the Quechuan set is chosen only for documentation quality and a coherent CV(C) pattern. No word may be identical to a Modern Irish, Scottish Gaelic or Manx word unless the language is Goidelic; this is not Goidelic, so avoid names that coincide with Gaelic words. Current game names (Forir giqin, Meronu, etc.) contain e, o, f, g, d, ng clusters that violate the Quechuan inventory and should be replaced.",
+ "unit": "Fishtail point tradition",
+ "slug": "fishtail_point_tradition",
+ "model": "claude-sonnet-5-5"
+}

@@ -1,0 +1,30 @@
+{
+ "neoforge:conditions": [
+  {
+   "type": "neoforge:mod_loaded",
+   "modid": "diaithir_stations"
+  },
+  {
+   "type": "neoforge:item_exists",
+   "item": "diaithirarms:tempered_ingot"
+  }
+ ],
+ "_node": "combat.tempered",
+ "_age": "VII",
+ "station": "station.smeltery",
+ "stage": "part",
+ "ingredients": [
+  {
+   "tag": "c:ingots/steel"
+  },
+  {
+   "tag": "c:rods/blaze"
+  }
+ ],
+ "result": {
+  "id": "diaithirarms:tempered_ingot",
+  "count": 1
+ },
+ "time_s": 10,
+ "operator": false
+}

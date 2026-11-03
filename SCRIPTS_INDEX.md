@@ -317,8 +317,23 @@ Run hints: .py `python3 <file>` (PC `py`), .ps1 via a hidden launcher (never a v
 | S0307 | cloud | `world-checks/scan.py` | Scan Tellus region files: per-column ground Y, snow cover, bedrock floor, and every *_ore block position.""" | yes |
 | S0308 | cloud | `world-checks/sites.py` | R = 111319.49166666667 * 180 / math.pi | yes |
 | S0309 | cloud | `world-checks/snow.py` | Snowline check: snow cover fraction by elevation band vs the Age I line (EraMath.age1SnowlineMeters).""" | yes |
+| S0310 | cloud | `tools/get_jdk25.sh` | Installs Temurin JDK 25 in the cloud container (gradle toolchain for NeoForge 26.1.2); source it, then ./gradlew compileJava -Porg.gradle.java.installations.paths=$JAVA_HOME. | yes |
+| S0311 | cloud | `tools/compile_fix_loop.py` | Compile-fix loop for diaithir modules: gradle errors + real 26.1.2 class candidates go to Sonnet, fixed files written back, up to 5 rounds. | yes |
+| S0312 | cloud | `compat/profile_jars.py` | Download each kept pack jar from its pack link, profile its blocks, items, recipes and c: tags, delete the jar. | yes |
+| S0313 | cloud | `compat/gen_tags.py` | Union material-named ingots, plates, gears, dusts, ores into c: convention tag files with required=false. | yes |
+| S0314 | cloud | `compat/gen_rules_api.py` | Ask Haiku (direct parallel cached calls) which blocks per mod are working blocks, with slots, kinds, units, Age. | yes |
+| S0315 | cloud | `compat/gen_data.py` | Build the compat datapack: upgrade shim rules, unit stores, Age gaps, Codex and quest links per mod. | yes |
+| S0316 | cloud | `compat/gen_recipes.py` | Add load conditions to recipes naming absent mods and cross-mod dust/raw smelting to the shared ingot. | yes |
+| S0317 | cloud | `compat/gen_station_moves.py` | Move non-trivial vanilla and kept-mod grid recipes onto the Age ladder of stations with a fallback grid recipe. | yes |
 | S0310 | cloud | `tools/get_jdk25.sh` | Installs Temurin JDK 25 into /tmp/claude-0/jdk25 (cloud container, via the proxy) and prints how to use it. | yes |
 | S0311 | cloud | `tools/compile_fix_loop.py` | S0311 (v2: prompt caching on the stable prefix, 6 parallel direct calls, optional gradle mirror init) Compile-fix loop: gradle compileJava p | yes |
+| S0312 | cloud | `tools/harness/srvup.sh` | S0312 srvup.sh SRV LOG : boot a NeoForge server and leave it running; commands go to LOG.in (use cmd.sh). Prints Done/failed line. | yes |
+| S0313 | cloud | `tools/harness/cmd.sh` | S0313 cmd.sh LOG "command" : send a console command to a server started by srvup.sh (rcon alternative: S0071 rcon.py) | yes |
+| S0314 | cloud | `tools/harness/shot.sh` | S0314 shot.sh FILE.png : screenshot of the Xvfb display (env DISPLAY_NUM, default 96) | yes |
+| S0315 | cloud | `tools/harness/cl_join.sh` | S0315 cl_join.sh CLIENTDIR OUTDIR : headless client (Xvfb + portablemc) joins a world or server; returns at once. | yes |
+| S0316 | cloud | `names/linguistics/audit_names.py` | S0311 Audits every culture name in names/*.json against names/linguistics/rules/<slug>.json (graphemes, forbidden patterns, word length); wr | yes |
+| S0317 | cloud | `names/linguistics/research_rules.py` | S0310 One direct cached Claude call per culture language: researches how a linguist builds words there, writes names/linguistics/rules/<slug | yes |
+| S0318 | cloud | `compute/gradle_mirror_init.gradle` | Gradle init script (`-I`): points plugin and buildscript repos at a Google Maven Central mirror to avoid the 429 rate limit; use with get_jdk25.sh (S0310) for the ~2.5 min NeoForge 26.1.2 cloud compile. | yes |
 | S0316 | cloud | `names/linguistics/audit_names.py` | S0316 Audits every culture name in names/*.json against names/linguistics/rules/<slug>.json (graphemes, forbidden patterns, word length); wr | yes |
 | S0317 | cloud | `names/linguistics/research_rules.py` | S0317 One direct cached Claude call per culture language: researches how a linguist builds words there, writes names/linguistics/rules/<slug | yes |
 | S0322 | global | `claim_id.py` | S0322 atomically claims the next free script ID(s) via next_id (pull --rebase, bump, push, retry): python3 -I claim_id.py [count] | yes |
@@ -329,6 +344,8 @@ Run hints: .py `python3 <file>` (PC `py`), .ps1 via a hidden launcher (never a v
 | S0335 | cloud | `names/linguistics/regen_names.py` | S0312 Regenerates every culture name that fails its language rules (Haiku, rules file cached per language, up to 3 repair rounds); writes na | yes |
 | S0335 | global | `crawl_all.py` | S0335 crawls /mnt/project-files into catalog/{D,F,M,A,J}.tsv with stable IDs: python3 -I crawl_all.py <repo> | yes |
 | S0336 | global | `add_rows.py` | S0336 registers hand-fed types T (threads) and P (PRs/branches): python3 -I add_rows.py <repo> T < tsv | yes |
+| S0337 | cloud | `plans/progression/check_progression.py` | Validates the progression graph: every system required, solo-completable, no dead ends, Age-ordered, interlocked. | yes |
+| S0338 | cloud | `plans/progression/gen_progression_recipes.py` | Writes the dormant cross-mod recipe data pack from the progression graph. | yes |
 | S0337 | cloud | `pc_scan/fix_atm11_261.py` | Fixes ATM11 pack scripts for the 26.1.2 builds of their mods. Safe to rerun. Usage: python -I fix_atm11_261.py <kubejs dir>... | yes |
 | S0338 | cloud | `pc_scan/mod_conflict_scan.py` | Find mods that conflict with the Tellus fork's chunk generator, by boot test. | yes |
 | S0339 | cloud | `pc_scan/overlay_conflicts.py` | For each overlay conflict on a target: if the target still holds the previous overlay version (OLD commit), or the | yes |
@@ -6808,6 +6825,12 @@ Run hints: .py `python3 <file>` (PC `py`), .ps1 via a hidden launcher (never a v
 | S6813 | pc | `E:\diaithir-ports-build\bc\diaithir-routing-networks\buildcraft\build-logic\loaders\forge-target.gradle` | Forge-specific target adapter. Plugin resolution remains in the build-root shim. [gradle] was PS13023 | no |
 | S6814 | pc | `E:\diaithir-ports-build\bc\diaithir-routing-networks\buildcraft\build-logic\loaders\neoforge-target.gradle` | NeoForge-specific target adapter. Plugin resolution remains in the build-root shim. [gradle] was PS13024 | no |
 | S6815 | pc | `E:\diaithir-ports-build\bc\diaithir-routing-networks\buildcraft\builds\26.X\build.neoforge.gradle` |  [gradle] was PS13025 | no |
+| S6818 | cloud | `DiaithirRPG/tools/codex/module_records.py` | Builds Codex records, quests and name requests for the overworld-biomes, nether and end modules (S6816). | no |
+| S6819 | cloud | `diaithir-ports/diaithir-trials-overhaul/tools/gen.py` | Writes the trials-overhaul Age gate, Codex handbook and quests from the real Not Enough Trials lang file. | no |
+| S6820 | cloud | `library-content/classify.py` | Library entries to in-game content form with Haiku (S6820). | no |
+| S6821 | cloud | `library-content/finalize.py` | Merges rule and model codes into library_to_content.tsv (S6821). | no |
+| S6822 | cloud | `library-content/build_content.py` | Builds content.sqlite with form, template, owner module and tier per entry (S6822). | no |
+| S6823 | cloud | `library-content/place_all.py` | Places every Library entry: Collection, class, canon status, spine code, shelfmark (S6823). | no |
 | S6823 | cloud | `library-content/build_content.py` | S6822 Builds library-content/content.sqlite: form, template, owner module, tier per Library entry | yes |
 | S6824 | cloud | `library-content/classify.py` | S6820 Library entries to content form: Haiku classifier (direct parallel calls, cached prompt), resumable | yes |
 | S6825 | cloud | `library-content/finalize.py` | S6821 Merges rule and Haiku codes into library_to_content.tsv (id, form, source) | yes |
@@ -6816,3 +6839,22 @@ Run hints: .py `python3 <file>` (PC `py`), .ps1 via a hidden launcher (never a v
 | S6829 | global | `tools/omniverse/export_library_books.py` | S6829 exports library books for the omniverse books lane (lives in the DiaithirRPG repo; copy not mirrored yet) | no |
 | S6874 | global | `diaithir-animation/tools/gen_clips.py` | S6874 generates player animation clips (melee, tools, bows, guns, casting) and item class tags from ANIMATIONS_COVERAGE.csv (lives in diaithir-ports; copy not mirrored yet) | no |
 | S6898 | global | `diaithir-animation/tools/csv_apply.py` | S6898 appends roster-gun rows to ANIMATIONS_COVERAGE.csv and marks them done after an S6866 rerun (lives in diaithir-ports) | no |
+| S6873 | global | `ports/diaithir-bosses/tools/gen_gate.py` | S6873 adds the Shardfall Gate lang, Codex quests and handbook chapter to diaithir-bosses: python3 -I tools/gen_gate.py | yes |
+| S6866 | cloud | `animations/gen_animations_coverage.py` | Generates plans/ANIMATIONS_COVERAGE.csv (+STATIC): one row per entity, block entity, interactive block, item use action, profession, spell, vehicle and player action; owner helpers 1-4; reruns keep status. | yes |
+| S6864 | global | `tools/progression/gen_quests.py` | S6864 writes one Codex quest per progression graph node, per-Age journal files (lives in the DiaithirRPG repo; copy not mirrored yet) | no |
+| S6865 | cloud | `cloud/library-content/assay_decimals.py` | S6865 derives charter assay decimals (M band + fraction, +- interval) from scored c3m P into content.sqlite table assay_decimal (149,976 rows) | yes |
+| S6860 | cloud | `diaithir-upgrades/gen_shims.py` | Write upgrade compat shims: scan a mod's real blockstates for working-block names and emit upgrade target rules. | yes |
+| S6847 | cloud | `diaithir-ports/diaithir-overworld-biomes/tools/realms_gen.py` | S6847 Clean-room realm generator: ids list in, manifest, models, loot, recipes, tags, dimension, biomes, migrations, quest and Codex entry out (Undergarden, Backwoods, Bumblezone, Aether II) | yes |
+| S6838 | cloud | `diaithir-ports/diaithir-combat/tools/gear_gen.py` | Sorts every Panscriptum WEAPON/ARMOR entry into a weapon class or armor slot from its own summary text and writes gear.tsv.gz (id, tier, Age gate, class, name). | no |
+| S6839 | cloud | `diaithir-ports/diaithir-combat/tools/gear_art.py` | Draws the 64 px two-layer library gear textures, models and item definitions (19 items x 9 Ages). | no |
+| S6841 | cloud | `diaithir-ports/diaithir-combat/tools/gear_recipes.py` | Writes the library gear recipes (class x Age), site loot tables and progression nodes. | no |
+| S6836 | cloud | `diaithir-ports/diaithir-worldgen-structures/tools/lib_sites.py` | Turns the 44,015 Panscriptum STRUCTURE entries into jigsaw sites: lectern plaque with the entry text verbatim, class buildings, structures and sets per planet. | yes |
+| S6844 | cloud | `tools/mc_fake_player_bot.py` | Headless fake player for Minecraft 26.1.2 servers (login, keep-alive, chunk batch, teleport confirm) so spawners and altars can be triggered in cloud tests. | yes |
+| S6849 | cloud | `diaithir-ports/diaithir-worldgen-structures/tools/planet_biomes.py` | Maps settlement biome entries to each planet's biome ids (from #145 specs and planet stems) for biome-keyed settlement placement. | yes |
+| S6851 | cloud | `diaithir-ports/diaithir-worldgen-structures/tools/rc_gen.py` | Clean-room Recurrent Complex function group: jigsaw mazes in five themes, biome transformer processor lists, themed chest loot tables, Age tags. | yes |
+| S6885 | cloud | `diaithir-ports/diaithir-worldgen-structures/tools/c_tags.py` | Generates the c: convention structure and biome tags for the worldgen-structures module (per class, mazes, villages, ruins, dungeons). | yes |
+| S6830 | cloud | `cloud/planets/gen_planets.py` | Panscriptum planets: one planet and dimension per store universe; writes planets.tsv/json and the diaithir_planets datapack | yes |
+| S6828 | cloud | `diaithir-ports/diaithir-druidry/tools/gen_rites.py` | S6822 Generates one rite.v1 JSON per Library SPELL entry (51,884; real entry text, Age tier, deterministic Ascendant-style steps) | yes |
+| S6831 | cloud | `diaithir-ports/diaithir-bosses/tools/gen_planet_altars.py` | S6822 Generates the Ascendant altar shrine template and one structure + structure set per planet (216, biome tag diaithir_planets:<id>) | yes |
+| S6880 | global | `diaithir-ports PR 181: port.py (path in repo unconfirmed)` | S6880 Aurorian port script (diaithir-ports PR 181; copy lives in that repo) | no |
+| S6881 | global | `diaithir-ports PR 181: rcon.py (path in repo unconfirmed)` | S6881 Aurorian rcon helper for the port tests (diaithir-ports PR 181; copy lives in that repo) | no |

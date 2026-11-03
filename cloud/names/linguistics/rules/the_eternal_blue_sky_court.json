@@ -1,0 +1,215 @@
+{
+ "proxy_language": "Middle Mongol (13th-14th c., Secret History / Yuan-era Mongol in Uyghur-Mongol script and 'Phags-pa, with Classical Mongolian forms) with Old Turkic Tengri-vocabulary as a secondary layer",
+ "confidence": "high",
+ "proxy_rationale": "The Eternal Blue Sky (Mongol: Köke Möngke Tenggeri) court is the Chinggisid / Mongol Empire court (Yeke Mongγol Ulus). Middle Mongol is well attested through the Secret History of the Mongols (Mongγol-un niγuča tobčiyan), the Chinese-transcribed Hua-yi yi-yu glossaries, 'Phags-pa inscriptions, and Rashid al-Din; the Classical Mongolian script transliteration is the standard scholarly representation. Titles and some court words are of Turkic origin (qaγan, tegin, yarlïγ/jarliγ).",
+ "phonology": "Vowels in Middle Mongol: a, e, i, o, u, ö, ü (plus long/diphthongal combinations, often written aa, ee, etc.). Vowel harmony: back (a, o, u) vs front (e, ö, ü), with i neutral; also an ATR-type contrast in older stages. Consonants: stops b, d, g, q (uvular with back vowels), k (written k/g in front contexts); affricates č (ch), ǰ (j); fricatives s, š, γ (voiced uvular/velar fricative), h (initial, from old *p, in Middle Mongol h- appears before back vowels in the Secret History transcription); nasals m, n, ŋ (ng); liquids l, r; glides y, w (v). Initial *p- was lost or became h- (Old Mongol *pa-). No native initial r, l, or ŋ.",
+ "phonotactics": "Syllable shapes: V, CV, VC, CVC, and CVCC (final clusters with l, r, n, ŋ, b, q etc. + consonant, e.g. -ng, -rt, -lt). Native words do not begin with r, l, ŋ, or consonant clusters. Words are strictly vowel-harmonic; suffixes alternate (a/e, o/ö, u/ü). Word-final consonants are typically n, l, r, s, d, g, q, m, ŋ, b; the final -n of nouns is an unstable stem-nasal (nasal stem class: Mongγol-un 'of Mongols'). Stress falls on the first syllable (or initial heavy syllable) and is not marked in spelling. Geminate vowels can be written doubled (aa, ee, oo, uu, öö, üü) in modern transliteration of Middle Mongol.",
+ "orthography": "Use scholarly transliteration of Classical/Middle Mongolian in Latin: a e i o u ö ü; consonants b d g q k γ (use gh as ASCII substitute) č (ch) š (sh) ǰ (j) y w s m n ŋ (ng) l r h t. Prefer the simple Secret History-style transliteration: č, š, γ, ǰ, with 'gh' and 'ch' as ASCII fallbacks. Initial h- before back vowels is attested (hara 'black' vs Classical qara). Examples use: qa, ke, ge, qo, gö etc.",
+ "morphology": "Agglutinative, suffixing, SOV; no gender or noun classes. Noun cases: nominative (zero), genitive (-n after vowel, -un/-ün after consonant stems, -i after some stems, -ai/-ei/ -yin), dative-locative (-da/-de, -a/-e, -dur/-dür), accusative (-i, -yi), ablative (-ača/-eče), instrumental-comitative (-iyar/-iyer, -luγ-a/-lüge), and plural suffixes -s (-nuγud for nouns in -n; -ud/-üd, -s, -nar for persons). Verbal derivation: -ča- (collective), -ldu-/-lda- (reciprocal), -ul-/-ül- (causative), -ba/-be (past), -ju/-ǰu (converb), -γči/-gči (agent noun, 'doer'), -ta/-te/-tai/-tei (having, with), -ši/-či (profession noun: mori-či), -lig/-liγ (adjectival), -ǰin (female suffix, e.g. qatun?), -tu/-tü (possessing), -γan/-gen (nominalizer), -l (abstract), -lal/-lel. Plural often unmarked after numerals.",
+ "compounding": "Modifier precedes head (head-final), e.g. adjective + noun and noun + noun. 'X of Y' is Y-genitive + X: Tenggeri-yin ǰarliγ 'edict of Heaven' (Tenggeri-yin = Heaven-GEN). Place and title names also use bare juxtaposition (noun + noun, e.g. qan ordo). Agent nouns: stem + -či/-čin (mori-či horse-handler, ger-či?), 'maker of X' = X + -či or X + ǰiqči. Possessive 'having X' = X + -tai/-tei/-tu. Epithet names are common in the court: color-term + noun (Köke Möngke Tenggeri 'Eternal Blue Heaven', Čaqan Ordu 'White Palace'). Titles follow the name (Čingis Qaγan).",
+ "noun_phrase_order": "Strictly modifier-head: [Genitive-NP] [adjective] [noun]. Numerals and adjectives precede nouns; demonstratives precede. Possessor-genitive precedes possessed. Postpositions (e.g. -tur, -aca, -luγ-a) rather than prepositions.",
+ "attested_roots": [
+  {
+   "form": "tenggeri",
+   "gloss": "heaven, sky, god",
+   "reconstructed": false
+  },
+  {
+   "form": "köke",
+   "gloss": "blue (also: sky-colored)",
+   "reconstructed": false
+  },
+  {
+   "form": "möngke",
+   "gloss": "eternal",
+   "reconstructed": false
+  },
+  {
+   "form": "qaγan",
+   "gloss": "great khan, emperor",
+   "reconstructed": false
+  },
+  {
+   "form": "qan",
+   "gloss": "khan, ruler",
+   "reconstructed": false
+  },
+  {
+   "form": "qatun",
+   "gloss": "queen, lady",
+   "reconstructed": false
+  },
+  {
+   "form": "ordo",
+   "gloss": "palace, camp, court",
+   "reconstructed": false
+  },
+  {
+   "form": "ger",
+   "gloss": "tent, yurt, house",
+   "reconstructed": false
+  },
+  {
+   "form": "mori",
+   "gloss": "horse",
+   "reconstructed": false
+  },
+  {
+   "form": "yeke",
+   "gloss": "great",
+   "reconstructed": false
+  },
+  {
+   "form": "čaqan",
+   "gloss": "white",
+   "reconstructed": false
+  },
+  {
+   "form": "qara",
+   "gloss": "black",
+   "reconstructed": false
+  },
+  {
+   "form": "ulus",
+   "gloss": "people, state, nation",
+   "reconstructed": false
+  },
+  {
+   "form": "mörön",
+   "gloss": "river",
+   "reconstructed": false
+  },
+  {
+   "form": "qada",
+   "gloss": "mountain, rock, cliff",
+   "reconstructed": false
+  },
+  {
+   "form": "naran",
+   "gloss": "sun",
+   "reconstructed": false
+  },
+  {
+   "form": "sara",
+   "gloss": "moon, month",
+   "reconstructed": false
+  },
+  {
+   "form": "temür",
+   "gloss": "iron",
+   "reconstructed": false
+  },
+  {
+   "form": "nutuq",
+   "gloss": "homeland, pasture",
+   "reconstructed": false
+  },
+  {
+   "form": "ǰarliγ",
+   "gloss": "edict, decree (Turkic loan, yarlïγ)",
+   "reconstructed": false
+  }
+ ],
+ "worked_examples": [
+  {
+   "english": "Eternal Blue Sky",
+   "name": "Köke Möngke Tenggeri",
+   "gloss": "köke 'blue' + möngke 'eternal' + tenggeri 'sky/heaven'"
+  },
+  {
+   "english": "Great Khan",
+   "name": "Yeke Qaγan",
+   "gloss": "yeke 'great' + qaγan 'khan'"
+  },
+  {
+   "english": "White Palace",
+   "name": "Čaqan Ordo",
+   "gloss": "čaqan 'white' + ordo 'palace/court'"
+  },
+  {
+   "english": "Decree of Heaven",
+   "name": "Tenggeri-yin ǰarliγ",
+   "gloss": "tenggeri 'heaven' + -yin GEN + ǰarliγ 'decree'"
+  },
+  {
+   "english": "Horse-handler / Groom",
+   "name": "Moriči",
+   "gloss": "mori 'horse' + -či agent/occupation suffix"
+  },
+  {
+   "english": "Court of the Sun (Sun Tent)",
+   "name": "Naran-u Ger",
+   "gloss": "naran 'sun' + -u GEN (-n stem) + ger 'tent/house'"
+  }
+ ],
+ "allowed_graphemes": [
+  "a",
+  "e",
+  "i",
+  "o",
+  "u",
+  "ö",
+  "ü",
+  "b",
+  "d",
+  "g",
+  "q",
+  "k",
+  "γ",
+  "gh",
+  "č",
+  "ch",
+  "š",
+  "sh",
+  "ǰ",
+  "j",
+  "y",
+  "w",
+  "s",
+  "m",
+  "n",
+  "ng",
+  "ŋ",
+  "l",
+  "r",
+  "h",
+  "t",
+  "aa",
+  "ee",
+  "oo",
+  "uu",
+  "öö",
+  "üü"
+ ],
+ "extra_allowed_chars": " -",
+ "forbidden_patterns": [
+  "^[rlŋ]",
+  "^ng",
+  "^[bdgqkčǰjsšmnlrhtyw]{2,}",
+  "[bdgqkčǰjsšmtyw]{3,}",
+  "[fvxzcp]",
+  "ou|ae|ie|iu|ea|oa",
+  "[aou][^aouiqkghγ\\s-]*[eöü]",
+  "[eöü][^eöüiqkghγ\\s-]*[aou]"
+ ],
+ "syllables_per_word": [
+  2,
+  3
+ ],
+ "max_word_length": 14,
+ "sources": [
+  "Igor de Rachewiltz, The Secret History of the Mongols: A Mongolian Epic Chronicle of the Thirteenth Century (2004)",
+  "Nicholas Poppe, Grammar of Written Mongolian (1954)",
+  "Nicholas Poppe, Mongolian Language Handbook (1970)",
+  "Juha Janhunen (ed.), The Mongolic Languages (2003)",
+  "Lessing, Mongolian-English Dictionary (1960)",
+  "Starling database: Mongolic etymologies",
+  "Wiktionary: Middle Mongol and Mongolic reconstruction entries",
+  "Glottolog: Mongolic language family",
+  "Louis Ligeti, Monuments préclassiques (1971-1972)"
+ ],
+ "notes": "No word may be identical to a Modern Irish, Scottish Gaelic or Manx word. Prefer Middle Mongol/Classical Mongolian forms over modern Khalkha forms: use qaγan, not khaan; ordo, not ord; tenggeri, not tenger; ǰarliγ, not zarlig. Keep vowel harmony consistent within each root (back a/o/u with q/γ; front e/ö/ü with k/g); i is neutral. Because the forbidden patterns apply to lowercase Latin strings, harmony-violating regexes are only heuristic: loan words (Turkic qaγan/ǰarliγ) may need manual review. Court titles are placed after the personal name (Čingis Qaγan). Gloss-style coinages: 'X-yin Y' (genitive), 'X-či' (agent), 'X-tai' (having X).",
+ "unit": "The Eternal-Blue-Sky Court",
+ "slug": "the_eternal_blue_sky_court",
+ "model": "claude-sonnet-5-5"
+}
