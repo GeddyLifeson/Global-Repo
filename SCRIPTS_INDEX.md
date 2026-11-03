@@ -6856,3 +6856,4 @@ Run hints: .py `python3 <file>` (PC `py`), .ps1 via a hidden launcher (never a v
 | S6831 | cloud | `diaithir-ports/diaithir-bosses/tools/gen_planet_altars.py` | S6822 Generates the Ascendant altar shrine template and one structure + structure set per planet (216, biome tag diaithir_planets:<id>) | yes |
 | S6880 | global | `diaithir-ports PR 181: port.py (path in repo unconfirmed)` | S6880 Aurorian port script (diaithir-ports PR 181; copy lives in that repo) | no |
 | S6881 | global | `diaithir-ports PR 181: rcon.py (path in repo unconfirmed)` | S6881 Aurorian rcon helper for the port tests (diaithir-ports PR 181; copy lives in that repo) | no |
+| S6918 | cloud | `diaithir-ports/diaithir-firearms/tools/gen_containers.py` | S6918 Writes container_kinds.json and the diaithircrafting uses_container and ammo_class item tags for diaithir-firearms (munitions container contract) | yes |
