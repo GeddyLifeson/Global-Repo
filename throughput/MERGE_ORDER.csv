@@ -74,3 +74,5 @@ wave,repo,number,base,head,partner,title
 0,global-repo,17,main,,,"Register S6873 gen_gate.py [edits SCRIPTS_INDEX.md and ids.tsv: merge one at a time, rebuild index on conflict]"
 3,ports,259,diaithircompat,claude/survey-p4-nutritional-balance,,"Fold Nutritional Balance (GPL-3.0) into diaithir-butchery [drop nutritionalbalance-26.1 jar]"
 3,ports,262,diaithircompat,claude/survey-p4-epitaphs,,"Graves package in diaithir-claims, clean-room Epitaphs replacement [drop epitaphs and gravestone jars]"
+3,ports,267,diaithircompat,claude/survey-p4-permissiongate,,"Fold PermissionGate (MIT) into diaithir-claims as permission nodes"
+3,ports,272,diaithircompat,claude/survey-p4-ore-detector,,"Fold Ore Detector (MIT) into diaithir-miners"
