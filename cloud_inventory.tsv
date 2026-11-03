@@ -329,3 +329,4 @@ diaithir-ports/diaithir-worldgen-structures/tools/lib_sites.py	16768	Turns the 4
 tools/mc_fake_player_bot.py	2665	Headless fake player for Minecraft 26.1.2 servers (login, keep-alive, chunk batch, teleport confirm) so spawners and altars can be triggered in cloud tests.	yes
 diaithir-ports/diaithir-worldgen-structures/tools/planet_biomes.py	1454	Maps settlement biome entries to each planet's biome ids (from #145 specs and planet stems) for biome-keyed settlement placement.	yes
 diaithir-ports/diaithir-worldgen-structures/tools/rc_gen.py	8972	Clean-room Recurrent Complex function group: jigsaw mazes in five themes, biome transformer processor lists, themed chest loot tables, Age tags.	yes
+diaithir-ports/diaithir-worldgen-structures/tools/c_tags.py	1546	Generates the c: convention structure and biome tags for the worldgen-structures module (per class, mazes, villages, ruins, dungeons).	yes
