@@ -1,0 +1,188 @@
+{
+ "proxy_language": "Proto-Basque (Pre-Basque / Proto-Vasconic, as reconstructed by Trask, Michelena and Lakarra), with a Proto-Indo-European-free substrate framing",
+ "confidence": "speculative",
+ "proxy_rationale": "The Azilian (c. 14,000-10,000 BP, Late Glacial/early Holocene, Franco-Cantabria and Pyrenees) is known only archaeologically (painted pebbles, flat harpoons, microliths). No linguistic evidence ties it to any language. The only living language isolate in the region is Basque; the 'Vasconic substrate' hypothesis (Vennemann) is controversial, and a Paleolithic-to-modern continuity is unprovable. Proto-Basque as reconstructed by Michelena, Trask and Lakarra (roughly 2,000 years ago, with internal reconstruction to pre-Basque) is a defensible, region-appropriate phonological and morphological model that avoids Indo-European and Goidelic forms, but the link is extremely weak and mainly serves a plausible Franco-Cantabrian sound-world.",
+ "phonology": "Consonants (Proto-Basque/Old Basque): stops p t k; voiced b d g (rare word-initially in older stage); affricates ts tz ch (written c); fricatives s z x (sh) f (secondary, largely from *b or loans); nasals m n ny(ñ); liquids l r (tap) rr (trill); glides y; h (Old Basque, aspirated in Zuberoan/Labourdin). Fortis/lenis series reconstructed (Martinet, Michelena): *p *t *k vs *b *d *g, with initial *p- and *g- rare. Vowels: five-vowel system a e i o u, with vowel length absent and u/i rarely long; Zuberoan has /y/ (ü) and nasalized vowels as dialect innovations (not for proto). Diphthongs: ai ei oi au eu (ei, ai common). No tone; stress is mostly non-contrastive (dialect-variable, often initial or penultimate).",
+ "phonotactics": "Strongly CV(C) syllable shape. Native roots usually bisyllabic (CVCV, CVCVC, CVCCV) with a bias toward vowel-final or n/r/l/s/z/tz/k-final roots. Word-initial *r- is forbidden in native words (loans add a prothetic vowel: erregue 'king', arrazoi); initial *p-, *d-, *g- rare and often from loans or expressive items. Medial clusters are mainly liquid/nasal/sibilant + stop (rk, rt, lt, nt, nk, ntz, ltz, rtz, st, sk, zt); stop+stop or stop+liquid clusters (e.g. pr, bl) are loan-derived. No word-final voiced stops or clusters in native vocabulary; common word-final consonants: n, r, l, s, z, tz, k, t. Vowel hiatus common (aho 'mouth', ahate); native roots lack long vowels.",
+ "orthography": "Standard Basque orthography (Euskaltzaindia) with Latin script: a b d e f g h i j k l m n ny/ñ o p r rr s t tx ts tz u x z. Digraphs: tx /tʃ/, ts /ts̻/, tz /ts̺/, rr /r/, dd for palatalized d (dialectal), ll, ñ. Orthography follows /s̻/ = z, /s̺/ = s, /ʃ/ = x. Reconstructions are marked with * (Michelena's Proto-Basque, Trask's Etymological Dictionary of Basque) and often written in the same alphabet with schematic notation (*h, *ndz). For the game: use Basque orthography with lowercase, omit c, q, v, w, y (use i for glide), and avoid ph/th/kh.",
+ "morphology": "Agglutinative. Roots (bisyllabic nouns, verbal bases) take suffixes. Cases (suffixes after the article -a or on bare stem): absolutive -0, ergative -k, dative -ri, genitive -(r)en, locative -(e)tan, ablative -(e)tatik, allative -(e)tara, instrumental -z, comitative -ekin; definiteness by -a (sg), -ak (pl); no grammatical gender. Derivation: -tegi 'place of', -di/-tz 'collective/place with many', -le 'agent', -ari 'agent (-er)', -garri 'worthy of, causing', -tsu/-dun 'having', -gabe 'without', -ko/-go 'of, belonging to', -kada 'blow, act', -keta 'action', -(t)zaile 'doer', -ola 'workshop/place', -aga 'place', -eta 'plural locative', -ots 'sound', -tasun/-keria 'abstract'. Reduplication is rare, mainly expressive (zirri-zarra). Verbal nouns -tze/-te, participles -tu/-i/-n/-0 (e.g., egin 'do').",
+ "compounding": "Compounds are right-headed: the modifier precedes the head (determinative; e.g., etxe-buru 'head of the house', egur-tegi 'wood-store'). Genitive constructions: possessor + -(r)en + possessed (gizonaren etxea 'the man's house'); in compounds the genitive often reduces to -ko or direct juxtaposition (itsaso-ertz 'sea-edge'). 'X-maker' = X + -egile (zapatagile 'shoemaker') or X + -gin (old, e.g., arotz 'carpenter' is native, ardo-gin 'wine-maker'). 'Place of X' = X + -tegi/-di/-eta/-aga (arriaga 'stony place' from harri + -aga). Link vowels (-a- or -e-) occur: arri-a (stone-ART) but compound bases often take -a- (ur-a-kin). Initial voiceless stops in the second member often voice after nasals/liquids in older compounds. Adjectives follow nouns (etxe handia 'big house'), but intensifying adjectival bases can precede in compounds.",
+ "noun_phrase_order": "Head noun first, then modifier adjective, then determiner/article suffixed on the final element: etxe handi-a 'the big house'. Genitive/possessive phrase precedes head: gizon-aren etxe-a. Demonstratives precede the noun in citation (hau etxea) but encliticize in standard (etxe hau). Numerals precede noun (hiru etxe 'three houses'). Case marking only on the last element of the NP.",
+ "attested_roots": [
+  {
+   "form": "harri",
+   "gloss": "stone",
+   "reconstructed": false
+  },
+  {
+   "form": "ur",
+   "gloss": "water",
+   "reconstructed": false
+  },
+  {
+   "form": "ibai",
+   "gloss": "river",
+   "reconstructed": false
+  },
+  {
+   "form": "mendi",
+   "gloss": "mountain",
+   "reconstructed": false
+  },
+  {
+   "form": "haitz",
+   "gloss": "rock, crag",
+   "reconstructed": false
+  },
+  {
+   "form": "ilargi",
+   "gloss": "moon",
+   "reconstructed": false
+  },
+  {
+   "form": "eguzki",
+   "gloss": "sun",
+   "reconstructed": false
+  },
+  {
+   "form": "su",
+   "gloss": "fire",
+   "reconstructed": false
+  },
+  {
+   "form": "ardi",
+   "gloss": "sheep (old: wild bovid/ruminant sense uncertain)",
+   "reconstructed": false
+  },
+  {
+   "form": "ZEZEN",
+   "gloss": "bull",
+   "reconstructed": false
+  },
+  {
+   "form": "hartz",
+   "gloss": "bear",
+   "reconstructed": false
+  },
+  {
+   "form": "otso",
+   "gloss": "wolf",
+   "reconstructed": false
+  },
+  {
+   "form": "basa",
+   "gloss": "wild, forest (as in basa-)",
+   "reconstructed": false
+  },
+  {
+   "form": "zur",
+   "gloss": "wood",
+   "reconstructed": false
+  },
+  {
+   "form": "hezur",
+   "gloss": "bone",
+   "reconstructed": false
+  },
+  {
+   "form": "azal",
+   "gloss": "skin, hide",
+   "reconstructed": false
+  }
+ ],
+ "worked_examples": [
+  {
+   "english": "River Stew",
+   "name": "ibai-egosia",
+   "gloss": "ibai 'river' + egosi 'cooked, boiled' + -a article; compound modifier-head order"
+  },
+  {
+   "english": "Temple of the Sun",
+   "name": "eguzki-etxea",
+   "gloss": "eguzki 'sun' + etxe 'house' + -a article; genitive reduced in compound"
+  },
+  {
+   "english": "Stone Harpoon",
+   "name": "harri-lantza",
+   "gloss": "harri 'stone' + lantza 'lance, spear'; right-headed compound"
+  },
+  {
+   "english": "Bear Cave",
+   "name": "hartz-zulo",
+   "gloss": "hartz 'bear' + zulo 'hole, cave'; right-headed compound"
+  },
+  {
+   "english": "Place of Rocks",
+   "name": "haitzaga",
+   "gloss": "haitz 'rock' + -aga 'place of'; derivational locative suffix"
+  },
+  {
+   "english": "Wolf-hunter",
+   "name": "otsozale",
+   "gloss": "otso 'wolf' + zale 'fond of, hunter' (agentive); right-headed compound"
+  }
+ ],
+ "allowed_graphemes": [
+  "a",
+  "b",
+  "d",
+  "e",
+  "f",
+  "g",
+  "h",
+  "i",
+  "j",
+  "k",
+  "l",
+  "m",
+  "n",
+  "ñ",
+  "o",
+  "p",
+  "r",
+  "rr",
+  "s",
+  "t",
+  "tx",
+  "ts",
+  "tz",
+  "u",
+  "x",
+  "z"
+ ],
+ "extra_allowed_chars": " -",
+ "forbidden_patterns": [
+  "^r",
+  "[cqvwy]",
+  "ph",
+  "th",
+  "kh",
+  "(.)\\1\\1",
+  "[aeiou]{3,}",
+  "[bdg]$",
+  "[ptk]{2,}",
+  "^(?:ts|tz|tx)[ptk]",
+  "[bdgpkt][lr]",
+  "[ñ]{2,}"
+ ],
+ "syllables_per_word": [
+  2,
+  3,
+  4
+ ],
+ "max_word_length": 14,
+ "sources": [
+  "R. L. Trask, The History of Basque (Routledge, 1997)",
+  "R. L. Trask, Etymological Dictionary of Basque (ed. Max W. Wheeler, University of Sussex, 2008)",
+  "Luis Michelena, Fonética histórica vasca (1961, 2nd ed. 1977)",
+  "Joseba A. Lakarra, various papers on Proto-Basque and pre-Basque reconstruction (1995 onward)",
+  "Koldo Mitxelena, Apellidos vascos (1953)",
+  "Euskaltzaindia, Euskal Hiztegia / Orotariko Euskal Hiztegia",
+  "Theo Vennemann, Europa Vasconica - Europa Semitica (2003) (substrate hypothesis, controversial)",
+  "Glottolog and ASJP entries for Basque"
+ ],
+ "notes": "Strictly speculative: the Azilian has no linguistic record, and any link to Basque is a pragmatic proxy rather than a claim of continuity (many scholars regard Basque as the descendant of a later Neolithic or Bronze Age language). Names should look Basque-like but need not be real Basque words; prefer compounding of attested roots (harri, ur, ibai, mendi, haitz, eguzki, hartz, otso, su, hezur) with Basque derivational suffixes (-aga, -tegi, -di, -tzaile, -ko). No word may be identical to a Modern Irish, Scottish Gaelic or Manx word, since Basque is not Goidelic; check generated names against those lists (the proxy has no overlap in vocabulary but short forms like 'su', 'ur', 'ibai' are harmless). Avoid initial r-, avoid c/q/v/w/y, avoid word-final voiced stops, and avoid unmotivated Anglo-style clusters; the current game names (e.g. 'Gubhi pubuzfu', 'Qipgo') violate Basque phonotactics by using q, bh, ng clusters and initial stop clusters.",
+ "unit": "Azilian",
+ "slug": "azilian",
+ "model": "claude-sonnet-5-5"
+}

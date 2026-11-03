@@ -1,0 +1,172 @@
+{
+ "proxy_language": "Itelmen (Kamchadal), with Proto-Chukotko-Kamchatkan (PCK) reconstructions as a deeper layer",
+ "confidence": "speculative",
+ "proxy_rationale": "Ushki Lake (c. 13,000-10,000 BP onward, with later Holocene layers) is an archaeological culture of central Kamchatka with no linguistic record. The only language family indigenous to Kamchatka is Chukotko-Kamchatkan; Itelmen, spoken by the historical inhabitants of the peninsula's west coast and interior, is the best attested descendant and is the plausible regional proxy, though continuity with Pleistocene Ushki populations is unproven (the Chukchi-Koryak-Alutor branch may represent later northward spread). Itelmen forms plus Fortescue-style PCK reconstructions are used. Any link to the actual Ushki people is highly uncertain.",
+ "phonology": "Itelmen (Western/Sedanka dialect, Volodin's and Georg's descriptions): stops/affricates with ejective series, e.g. p t k q, ejectives p' t' k' q', affricate c (ts) and c' ; fricatives s, x, x-uvular (written x/\\u03c7), h; nasals m n, and ng; laterals l and ll (voiceless); glides w y; glottal stop. Very rich consonant inventory with uvulars. Vowels i e a o u plus schwa-like reduced vowel (written with caret/short a in some transcriptions). Chukotko-Kamchatkan proto-reconstructions (Fortescue 2005) include *p *t *k *q, *c, *s, *r, *l, *m *n *ng, *w *y, vowels *i *e *a *o *u and schwa, with vowel harmony in the Chukchi-Koryak branch (not in Itelmen).",
+ "phonotactics": "Itelmen permits heavy consonant clusters, including word-initial clusters of 2-4 consonants (e.g. tkunx-, qsa-); syllabic consonants common; syllable shapes range from V, CV, VC, CVC to CCVC, CCCVC. Voiceless obstruents dominate. Words commonly end in consonants (-n, -x, -l, -t, -k, -ng) or in -a/-u/-i. Glottal stop and ejectives cluster-initially. For game purposes keep the shape consonant-heavy and avoid open CV-only strings like Japanese.",
+ "orthography": "Use a simplified Latin scholarly transliteration of Itelmen (Georg/Volodin style, based on the Itelmen practical alphabet): p t k q c s x h m n l w y; ejectives written with apostrophe (t' k' q' c' p'); ng for velar nasal; ll for voiceless lateral; vowels a e i o u. Use apostrophe only for ejectives/glottal, no other diacritics.",
+ "morphology": "Itelmen is polysynthetic-leaning, head-marking, ergative-flavoured with extensive verbal affixation. Noun roots take case suffixes (locative, ablative, ergative-instrumental, etc.) and number; Chukotko-Kamchatkan nouns often have absolutive suffixes (-n/-t, -in/-an etc.) in the citation form. Verbs take prefix-suffix circumfixal person marking (e.g. t- 1sg, k-/q- 2sg). Reduplication and incorporation are productive. Derivational suffixes: -nin/-cin nominalizers, -xcen agent/instrument-type forms, -lkn locative-derived forms (forms attested but glosses should be treated cautiously).",
+ "compounding": "Compounding and noun incorporation: head noun is generally final in compounds; modifier/incorporated noun precedes the head (e.g. incorporation of object noun into verb stems). Genitive/possessive relations expressed by case suffix on the possessor or possessive affixes on the possessed noun, with possessor preceding possessed. 'X of Y' names are built as Y-modifier + X-head compound or Y(genitive) X. Agent names as 'Y-maker' = incorporated Y + verbal root + nominalizer. For game use, build 'Place of X' as X-root + place/locative root, compounded or juxtaposed.",
+ "noun_phrase_order": "Modifier-head: adjectives and possessors precede the noun; numerals precede; no articles. Attributive adjectives in Chukotko-Kamchatkan are often circumfixed (Chukchi ne-...-qin); Itelmen has adjectival suffixes. Possessor before possessed.",
+ "attested_roots": [
+  {
+   "form": "kamchatka",
+   "gloss": "Russian exonym of uncertain origin, usually linked to Itelmen/Koryak; do not use as a root",
+   "reconstructed": false
+  },
+  {
+   "form": "kamchal",
+   "gloss": "Itelmen self-name element, 'Kamchadal' as Russian-adapted exonym (uncertain)",
+   "reconstructed": false
+  },
+  {
+   "form": "itelmen",
+   "gloss": "person, 'inhabitant', Itelmen ethnonym (itel'men)",
+   "reconstructed": false
+  },
+  {
+   "form": "qoyq",
+   "gloss": "approx. 'raven'-type bird (Kutkh the raven culture hero is Kutkh/Kutq in Itelmen myth)",
+   "reconstructed": false
+  },
+  {
+   "form": "kutq",
+   "gloss": "raven, culture hero Kutkh (attested in myths; spelling varies Kutq/Kutx)",
+   "reconstructed": false
+  },
+  {
+   "form": "nunx",
+   "gloss": "land, earth (Chukotko-Kamchatkan *nutan type root; Itelmen forms vary)",
+   "reconstructed": false
+  },
+  {
+   "form": "*nute-",
+   "gloss": "land, earth (PCK, cf. Chukchi nuutenut)",
+   "reconstructed": true
+  },
+  {
+   "form": "*ayw-",
+   "gloss": "water, sea-type root (uncertain)",
+   "reconstructed": true
+  },
+  {
+   "form": "*ewn-",
+   "gloss": "fish type root (uncertain)",
+   "reconstructed": true
+  },
+  {
+   "form": "*lel-",
+   "gloss": "eye (cf. Chukchi leelq-/lilq-, uncertain Itelmen cognates)",
+   "reconstructed": true
+  },
+  {
+   "form": "*mel-",
+   "gloss": "good, fine (PCK root, cf. Chukchi mel-)",
+   "reconstructed": true
+  },
+  {
+   "form": "*ya-",
+   "gloss": "sun/day-type root (uncertain)",
+   "reconstructed": true
+  },
+  {
+   "form": "*ke-",
+   "gloss": "to be, bring-type light verb (uncertain)",
+   "reconstructed": true
+  },
+  {
+   "form": "*ra-",
+   "gloss": "house-type root (cf. Chukchi yara 'house', Koryak yaya)",
+   "reconstructed": true
+  }
+ ],
+ "worked_examples": [
+  {
+   "english": "Land of the Raven",
+   "name": "Kutq nunx",
+   "gloss": "kutq 'raven' + nunx 'land' (modifier-head compound)"
+  },
+  {
+   "english": "Raven House",
+   "name": "Kutq yara",
+   "gloss": "kutq 'raven' + yara 'house', modifier before head"
+  },
+  {
+   "english": "Good Land",
+   "name": "Melnunx",
+   "gloss": "mel- 'good' + nunx 'land' (adjective precedes noun)"
+  },
+  {
+   "english": "Salmon Place",
+   "name": "Ewnt'lkn",
+   "gloss": "ewn- 'fish' + -t' plural/derivation + -lkn locative-derived place suffix (tentative)"
+  },
+  {
+   "english": "Sea Eye",
+   "name": "Ayw lelqin",
+   "gloss": "ayw- 'water/sea' + lel- 'eye' + -qin absolutive-type suffix (speculative, name-building use only)"
+  },
+  {
+   "english": "Raven's Good House",
+   "name": "Kutq mel yara",
+   "gloss": "kutq (possessor) + mel 'good' + yara 'house', possessor and modifier precede head"
+  }
+ ],
+ "allowed_graphemes": [
+  "p",
+  "t",
+  "k",
+  "q",
+  "c",
+  "s",
+  "x",
+  "h",
+  "m",
+  "n",
+  "l",
+  "ll",
+  "w",
+  "y",
+  "ng",
+  "a",
+  "e",
+  "i",
+  "o",
+  "u",
+  "p'",
+  "t'",
+  "k'",
+  "q'",
+  "c'"
+ ],
+ "extra_allowed_chars": " '-",
+ "forbidden_patterns": [
+  "[bdfgjrvz]",
+  "(.)\\1\\1",
+  "^[aeiou]{3,}",
+  "[aeiou]{4,}",
+  "kh|th|ph|sh|ch|gh",
+  "[ao]e[ao]"
+ ],
+ "syllables_per_word": [
+  1,
+  2,
+  3,
+  4
+ ],
+ "max_word_length": 14,
+ "sources": [
+  "Fortescue, Michael. Comparative Chukotko-Kamchatkan Dictionary (2005)",
+  "Volodin, A. P. Itelmenskii yazyk (1976)",
+  "Georg, Stefan. Ob'yasnitelnyi slovar' / Itelmen texts (various, 1990s-2000s)",
+  "Georg, Stefan & Volodin, A. P. Die itelmenische Sprache: Grammatik und Texte (1999)",
+  "Dikov, N. N. Ancient Kamchatka / Ushki Lake site reports (1977-1996)",
+  "Glottolog entries: Chukotko-Kamchatkan, Itelmen",
+  "ASJP database (Itelmen word lists)",
+  "Wiktionary Proto-Chukotko-Kamchatkan reconstruction pages"
+ ],
+ "notes": "Confidence is speculative: nothing links the Pleistocene-Early Holocene Ushki population to Itelmen or any Chukotko-Kamchatkan language beyond geography. Glosses of several roots are tentative and game-use should favor the clearly attested items (kutq 'raven', nunx 'land', yara 'house' by analogy with Chukchi). Itelmen forms are underdocumented for many concepts; many entries are PCK reconstructions rather than attested Itelmen. No word may be identical to a Modern Irish, Scottish Gaelic or Manx word, since this culture is not Goidelic.",
+ "unit": "Ushki Lake (Kamchatka)",
+ "slug": "ushki_lake_kamchatka",
+ "model": "claude-sonnet-5-5"
+}

@@ -1,0 +1,192 @@
+{
+ "proxy_language": "Proto-Indo-European (late/dialectal, via Proto-Germanic reconstruction as the regional phonological template), with an explicit pre-Indo-European substrate caveat",
+ "confidence": "speculative",
+ "proxy_rationale": "Fosna-Hensbacka (c. 10,000-8,000 BCE) is a Preboreal pioneer maritime hunter-gatherer culture on the Norwegian and Swedish W coast, known only from lithics and coastal sites. Its language is unrecoverable and almost certainly not Indo-European: IE speakers reached Scandinavia only c. 2800 BCE (Corded Ware/Battle Axe). The region's later languages (Proto-Germanic, Sami with its non-Uralic substrate, Finnic) are all intrusive. No attested or reconstructable proto-language exists for these people. The most defensible practical proxy for a name builder is a deliberately archaic, Proto-Germanic/Proto-Indo-European-shaped phonology for the region's coastal, ice-edge ecology, flagged as a placeholder. A pre-IE 'Nordic substrate' would be unknown (cf. Kuhn's Nordwestblock and Sami substrate hypotheses, which are contested). Do not treat any output as the real language of the culture.",
+ "phonology": "Proxy (late PIE / early Proto-Germanic style): stops *p *t *k *kʷ *b *d *g *gʷ (PIE) shifted by Grimm's law in PGmc to *f *þ *h *hw / *p *t *k; fricatives *s *z *f *þ *h; nasals *m *n; liquids *l *r; glides *w *j. Vowels: short *a *e *i *o *u, long *ā *ē *ī *ō *ū; diphthongs *ai *au *eu. Use a restricted, phonologically plain inventory of 3-5 vowels and common consonants for a 'pioneer' feel. No attested data for the real language.",
+ "phonotactics": "Proxy templates (C)(C)V(C)(C): open and closed syllables, onset clusters limited to s+stop and stop+liquid (sk-, st-, sp-, tr-, kr-, fl-, sl-), codas up to two consonants (-nt, -rk, -st, -lk). Words are typically 1-3 syllables with initial stress (Germanic style); final obstruents are allowed. No tones. For the audit, avoid CCC onsets and vowel hiatus.",
+ "orthography": "Plain Latin, reconstruction-style transliteration without asterisks in game names: a e i o u (macrons ā ē ī ō ū optional), b d g p t k s h f þ→'th', m n l r w j→'y'. Use 'k' for /k/, 'th' for /θ/, 'w' for /w/, 'y' for /j/. No c, q, x, z. Avoid the existing game strings' CV-CV 'yusu/momsi' look-alike pattern, which has no linguistic basis.",
+ "morphology": "Proxy: PIE/PGmc-style roots (CVC) plus thematic vowel and suffixes. Nouns: stem + thematic -a/-o- or -i- or -u-, case endings omitted in names (bare stem or nominative). Common derivational suffixes: -ō(n) agent/weak noun, -ilo diminutive, -ingaz 'descendant/belonging to', -ithō/-ithā abstract. Adjectives follow the noun's stem with an -a- or -i- thematic vowel. Reduplication is rare and is not recommended for the proxy.",
+ "compounding": "Germanic-style compounding: determinant (modifier) first, head last, joined by a stem vowel or directly (e.g. sea-fish, stone-edge). 'X of Y' is rendered as Y-X compound or as Y-genitive (-as/-is) + X when a phrase is wanted; 'Y-maker' as Y-stem + agent noun (e.g. -smithō, -wrihtaz). Linker vowel -a-/-i- optional in the PGmc style.",
+ "noun_phrase_order": "Adjective + noun (Germanic/IE usual); genitive before head noun in compounds, either order in phrases. Demonstrative first. For pioneer-culture names prefer simple compounds of 2 morphemes.",
+ "attested_roots": [
+  {
+   "form": "*h₂ekʷeh₂",
+   "gloss": "water, river (PIE; PGmc *ahwō)",
+   "reconstructed": true
+  },
+  {
+   "form": "*swē̆l-",
+   "gloss": "sea, lake? (poss. PGmc *saiwiz)",
+   "reconstructed": true
+  },
+  {
+   "form": "*peh₂wr̥ / *péh₂ur",
+   "gloss": "fire",
+   "reconstructed": true
+  },
+  {
+   "form": "*h₁ek̂wos",
+   "gloss": "horse",
+   "reconstructed": true
+  },
+  {
+   "form": "*kʷetwóres",
+   "gloss": "four",
+   "reconstructed": true
+  },
+  {
+   "form": "*péh₂tēr / PGmc *fadēr",
+   "gloss": "father",
+   "reconstructed": true
+  },
+  {
+   "form": "*séh₂wl̥",
+   "gloss": "sun (PGmc *sōwulō / *sunnōn)",
+   "reconstructed": true
+  },
+  {
+   "form": "*mēh₁n̥s",
+   "gloss": "moon, month (PGmc *mēnô)",
+   "reconstructed": true
+  },
+  {
+   "form": "*h₁ŕ̥h₃-tos / PGmc *berô",
+   "gloss": "bear",
+   "reconstructed": true
+  },
+  {
+   "form": "*h₃ŕ̥ǵ-",
+   "gloss": "white, bright (cf. PGmc *albaz?)",
+   "reconstructed": true
+  },
+  {
+   "form": "*stH-ei-n- / PGmc *stainaz",
+   "gloss": "stone",
+   "reconstructed": true
+  },
+  {
+   "form": "*h₂énh₂-",
+   "gloss": "to breathe; PGmc *anan",
+   "reconstructed": true
+  },
+  {
+   "form": "*bʰrā́tēr / PGmc *brōþēr",
+   "gloss": "brother",
+   "reconstructed": true
+  },
+  {
+   "form": "*h₂ster- / PGmc *sternōn",
+   "gloss": "star",
+   "reconstructed": true
+  },
+  {
+   "form": "*dʰeǵʰōm / PGmc *gumô",
+   "gloss": "earth, man",
+   "reconstructed": true
+  },
+  {
+   "form": "PGmc *fiskaz",
+   "gloss": "fish",
+   "reconstructed": true
+  }
+ ],
+ "worked_examples": [
+  {
+   "english": "River Stew",
+   "name": "Ahwafiskaz",
+   "gloss": "ahwa 'water/river' + fisk-az 'fish' (determinant-head compound, bare stem)"
+  },
+  {
+   "english": "Stone Axe",
+   "name": "Stainaþurs",
+   "gloss": "stain- 'stone' + þurs- (placeholder head); recommend plain compound stain-ax with a known root"
+  },
+  {
+   "english": "Sea Hall",
+   "name": "Saiwiz-hallō",
+   "gloss": "saiwiz 'sea' + hallō 'rock/hall' (PGmc), determinant-head"
+  },
+  {
+   "english": "Sun Shrine",
+   "name": "Sunnōn-weihaz",
+   "gloss": "sunnōn 'sun' + weihaz 'holy' (PGmc), modifier-head"
+  },
+  {
+   "english": "Bear Place",
+   "name": "Berôstadiz",
+   "gloss": "berô 'bear' + stadiz 'place'; determinant-head compound"
+  },
+  {
+   "english": "Fire Maker",
+   "name": "Fōrawrihtaz",
+   "gloss": "fōr- 'fire' + wrihtaz 'maker' (agent noun head)"
+  }
+ ],
+ "allowed_graphemes": [
+  "a",
+  "e",
+  "i",
+  "o",
+  "u",
+  "ā",
+  "ē",
+  "ī",
+  "ō",
+  "ū",
+  "b",
+  "d",
+  "g",
+  "p",
+  "t",
+  "k",
+  "s",
+  "h",
+  "f",
+  "th",
+  "m",
+  "n",
+  "l",
+  "r",
+  "w",
+  "y",
+  "st",
+  "sk",
+  "sp",
+  "tr",
+  "kr",
+  "fl",
+  "sl",
+  "nd",
+  "nt",
+  "rk",
+  "lk"
+ ],
+ "extra_allowed_chars": " -āēīōū",
+ "forbidden_patterns": [
+  "[cqxz]",
+  "(.)\\1\\1",
+  "[aeiou]{3,}",
+  "^[^aeiouāēīōū]{3,}",
+  "[^aeiouāēīōū]{4,}",
+  "(ph|ch|sh|zh|dz|ts)"
+ ],
+ "syllables_per_word": [
+  2,
+  3,
+  4
+ ],
+ "max_word_length": 14,
+ "sources": [
+  "Mallory & Adams, The Oxford Introduction to Proto-Indo-European and the Proto-Indo-European World (2006)",
+  "Ringe, From Proto-Indo-European to Proto-Germanic (2006)",
+  "Kroonen, Etymological Dictionary of Proto-Germanic (2013)",
+  "Wiktionary Proto-Indo-European and Proto-Germanic reconstruction pages",
+  "Bjerck, 'Colonizing Scandinavia' / Fosna and Hensbacka overviews (various, 2008)",
+  "Glottolog (Indo-European, Germanic, Sami substrate notes)",
+  "Anthony, The Horse, the Wheel, and Language (2007)"
+ ],
+ "notes": "No linguistic data exists for Fosna-Hensbacka speakers; they predate Indo-European arrival in Scandinavia by about 5,000 years, and any proxy is a placeholder chosen for regional continuity and phonological plausibility, not a claim of descent. Treat Proto-Germanic/PIE-looking names as stylised labels only. Reconstructed forms are marked with asterisks in the root list; game names omit asterisks. Forms with uncertain etymology (e.g. *swēl- 'sea') are provisional, and some worked examples use placeholder heads. No word may be identical to a Modern Irish, Scottish Gaelic or Manx word, since this is not a Goidelic culture.",
+ "unit": "Fosna-Hensbacka culture",
+ "slug": "fosna_hensbacka_culture",
+ "model": "claude-sonnet-5-5"
+}

@@ -1,0 +1,185 @@
+{
+ "proxy_language": "Khoe-Kwadi (Khoekhoe, esp. Nama/Khoekhoegowab) as primary structural proxy, with Southern Khoisan (Tuu: ǃXam/N|uu) lexical flavor as secondary",
+ "confidence": "speculative",
+ "proxy_rationale": "The Oakhurst industry (c. 12,000-8,000 BP, Holocene Later Stone Age of the southern and southeastern Cape) is known only from lithics (small scrapers, bored stones) and burials; its language is unrecoverable. Ancestors of the region's later hunter-gatherers spoke Khoisan-type click languages. Tuu (ǃXam, ǀXam, N|uu) was historically spoken across the southern interior and Cape, while Khoe-Kwadi is the best-documented click language with a productive grammar. No proto-Khoisan is demonstrated, so the link is only a structural analogy: click phonemes, CV(N) syllables, and gender-marked nouns. Treat all forms as pseudo-Khoisan flavored on attested models, not as Oakhurst speech.",
+ "phonology": "Nama (Khoekhoegowab) has 4 basic clicks (dental ǀ, alveolar ǃ, lateral ǁ, palatal ǂ) combined with accompaniments (plain, aspirated, voiced, nasal, glottalized/ejective), and in the practical orthography these appear as ǀ ǃ ǁ ǂ plus letters (e.g. ǃg, ǃh, ǃn, ǃk). Non-click consonants: p t k ts q? (no q; use k), b d g, s, x (velar fricative), h, m n, r, ts, tsh? (Nama uses ts, s, x, h, m, n, r, w, y). Vowels a e i o u, with nasalized (ã ẽ ĩ õ ũ) and diphthongs (ai, au, oa, oe, ui, ae). Tones: 4 level tones in Khoekhoe (high, mid, low, with raised/lowered variants), usually not written beyond macrons in dictionaries. ǃXam and N|uu have larger inventories (up to ~45+ consonants incl. uvular, ejective, and click accompaniments, plus pharyngealization) that are not safe to imitate beyond flavor.",
+ "phonotactics": "Khoekhoe roots are mostly CV or CVV(V) with word-medial nasal coda -m, -n, -ng (written ŋ in older sources); no other word-final consonants in the language (words end in vowel or nasal; grammatical suffixes -s, -b, -ts add final fricatives only as suffixes). Common syllable shapes: V, CV, CVN, CVV. Initial clusters are absent except click+accompaniment treated as a single segment and ts/ks. Roots tend to be bi-moraic (CVCV, CVV). Medial consonants in compounds are limited; stress/tone does not alter spelling.",
+ "orthography": "Use the Nama/Damara practical orthography: clicks ǀ ǃ ǁ ǂ (U+01C0-01C3) with accompaniment letters g, h, n, k (e.g. ǃg, ǃh, ǃn, ǁg, ǂn); digraphs ts, kh, ng (older orthographies had ŋ); x for velar fricative; vowels a e i o u, with nasalization written as tilde or using n after vowel in popular text. For a Latin-script audit the click symbols may be replaced with '!' (alveolar), '/' (dental), '//' or '=' for lateral and palatal as in ǃXam sources (Bleek & Lloyd): ǀ = /, ǃ = !, ǁ = //, ǂ = =. Hyphen separates compound constituents and personal markers.",
+ "morphology": "Khoekhoe nouns are marked for gender and number by suffixes: masculine -b (sg), -ku (pl); feminine -s (sg), -ti (pl); common gender -i (sg), -n (pl); dual forms -kha (m), -ra (f), -ku; also common-gender -di plural. Pronouns and postpositions attach to nouns. Verbs are mostly CV(C) roots with TAM particles (e.g. ke, ta, ge, go). Basic word order is SOV and the language is highly agglutinative with postpositions. Reduplication is productive for plurality/intensity (e.g. ǃgarà-ǃgarà). ǃXam (Tuu) is lightly analytic with noun class prefix-like 'classifier' elements and consonant-initial roots of CV(C)V shape, with vowels often long or pharyngealized; avoid constructing detailed ǃXam grammar without fieldwork sources.",
+ "compounding": "Khoekhoe compounds are head-final: modifier-N or N-N with the gender suffix on the final element (e.g. ǃnûi-ǁgâus 'swim-place'). Possessor precedes possessed with the possessive suffix on the possessor (genitive is -ge/-ǁî in older descriptions) and the head noun carries the gender-number suffix. Agent names use verb + noun (e.g. ǃhûi-ǁgî 'hunter' = 'hunt-person'). Place names commonly use a descriptive noun plus -ǁgâb 'place' or -ǃnas. For the game, build 'X of Y' as Y-possessor + X-head, and 'Y-maker' as Y + root verb nominalized with -b/-s/-i.",
+ "noun_phrase_order": "Modifier-head: possessor/adjective/demonstrative precede the noun; the gender-number marker (-b, -s, -i etc.) is final on the phrase head, and Khoekhoe adjectives often agree by taking the same gender-number suffix. Numerals follow the noun they count with plural marking. Postpositions rather than prepositions.",
+ "attested_roots": [
+  {
+   "form": "ǃnâi",
+   "gloss": "to sing/dance (Khoekhoe)",
+   "reconstructed": false
+  },
+  {
+   "form": "ǀgûi",
+   "gloss": "to fall/pour (Khoekhoe)",
+   "reconstructed": false
+  },
+  {
+   "form": "ǃgâi",
+   "gloss": "big/great (Khoekhoe, ǃgâ- stem)",
+   "reconstructed": false
+  },
+  {
+   "form": "ǁnâe",
+   "gloss": "to know/be familiar (Khoekhoe)",
+   "reconstructed": false
+  },
+  {
+   "form": "ǃhûb",
+   "gloss": "hunting/hunt (Khoekhoe)",
+   "reconstructed": false
+  },
+  {
+   "form": "ǀgaub",
+   "gloss": "seed/fruit (Khoekhoe)",
+   "reconstructed": false
+  },
+  {
+   "form": "ǁgâb",
+   "gloss": "place/ground, locative element",
+   "reconstructed": false
+  },
+  {
+   "form": "ǃnūb",
+   "gloss": "star-like or constellation-related term (Khoekhoe)",
+   "reconstructed": false
+  },
+  {
+   "form": "xamma",
+   "gloss": "to pound or grind? (Khoekhoe) uncertain",
+   "reconstructed": false
+  },
+  {
+   "form": "ǃgara",
+   "gloss": "to tie/bind (Khoekhoe)",
+   "reconstructed": false
+  },
+  {
+   "form": "ǃhaib",
+   "gloss": "shell (Nama)",
+   "reconstructed": false
+  },
+  {
+   "form": "ǀûib",
+   "gloss": "bush/shrub (Khoekhoe)",
+   "reconstructed": false
+  },
+  {
+   "form": "ǂnoa",
+   "gloss": "to be afraid (Khoekhoe)",
+   "reconstructed": false
+  },
+  {
+   "form": "ǁkhab",
+   "gloss": "cave/hole (Khoekhoe)",
+   "reconstructed": false
+  },
+  {
+   "form": "ǁaob",
+   "gloss": "fire (Khoekhoe, ǁâob)",
+   "reconstructed": false
+  },
+  {
+   "form": "ǀkhaib",
+   "gloss": "water (Khoekhoe, /khaib)",
+   "reconstructed": false
+  }
+ ],
+ "worked_examples": [
+  {
+   "english": "River Stew",
+   "name": "ǀkhaib-ǃnûs",
+   "gloss": "water(river)-stew-F.SG (head-final noun-noun compound with feminine suffix)"
+  },
+  {
+   "english": "Temple of the Sun",
+   "name": "ǁaob-ge ǁgâb",
+   "gloss": "fire/sun-GEN place (possessor + possessed head)"
+  },
+  {
+   "english": "Hunter",
+   "name": "ǃhûi-ǁgi",
+   "gloss": "hunt-person (V + N agent compound)"
+  },
+  {
+   "english": "Big Shell Hut",
+   "name": "ǃgâi ǃhaib-ǃgâb",
+   "gloss": "big shell-place (adjective-modifier + noun-N)"
+  },
+  {
+   "english": "Cave of Fire",
+   "name": "ǁaob-ge ǁkhab",
+   "gloss": "fire-GEN cave (possessor + head)"
+  },
+  {
+   "english": "Seed Place",
+   "name": "ǀgaub-ǁgâb",
+   "gloss": "seed-place (N + N locative compound)"
+  }
+ ],
+ "allowed_graphemes": [
+  "a",
+  "e",
+  "i",
+  "o",
+  "u",
+  "b",
+  "d",
+  "g",
+  "h",
+  "k",
+  "m",
+  "n",
+  "p",
+  "r",
+  "s",
+  "t",
+  "w",
+  "x",
+  "y",
+  "ts",
+  "kh",
+  "ng",
+  "ǀ",
+  "ǃ",
+  "ǁ",
+  "ǂ",
+  "!",
+  "/",
+  "="
+ ],
+ "extra_allowed_chars": " -'ãẽĩõũâêîôû",
+ "forbidden_patterns": [
+  "[cfjlqvz]",
+  "[bdgkmnprstwxy]{3}",
+  "^[bdgkmnprstwxy]*$",
+  "(.)\\1\\1",
+  "[^aeiouãẽĩõũâêîôûn]$"
+ ],
+ "syllables_per_word": [
+  1,
+  2,
+  3
+ ],
+ "max_word_length": 14,
+ "sources": [
+  "Haacke, W. & Eiseb, E. (2002) A Khoekhoegowab Dictionary (Gamsberg Macmillan)",
+  "Haacke, W. (1999) The Tonology of Khoekhoe (Nama/Damara)",
+  "Hagman, R. (1977) Nama Hottentot Grammar",
+  "Bleek, W. & Lloyd, L. (1911) Specimens of Bushman Folklore",
+  "Traill, A. (1994) A ǃXóõ Dictionary",
+  "Vossen, R. (ed.) (2013) The Khoesan Languages (Routledge)",
+  "Güldemann, T. (ed.) (2018) The Languages and Linguistics of Africa (De Gruyter)",
+  "Glottolog: Khoe-Kwadi and Tuu families; Wiktionary Khoekhoe entries",
+  "Deacon, H. J. & Deacon, J. (1999) Human Beginnings in South Africa (Altamira)"
+ ],
+ "notes": "The Oakhurst language is wholly unknown, so all names are speculative Khoisan-flavored formations, not Oakhurst speech. Click letters (ǀ ǃ ǁ ǂ) may be rendered with ASCII ! / // = in a Latin-script audit, hence those characters are allowed. Avoid English-like clusters and vowel-less strings, keep words vowel- or nasal-final, and use -b/-s/-i/-n/-ku suffixes rather than inventing prefixes. No word may be identical to a Modern Irish, Scottish Gaelic or Manx word, since the language is not Goidelic.",
+ "unit": "Oakhurst industry",
+ "slug": "oakhurst_industry",
+ "model": "claude-sonnet-5-5"
+}

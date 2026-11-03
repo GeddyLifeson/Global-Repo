@@ -1,0 +1,188 @@
+{
+ "proxy_language": "Kiedtra is not a known historical culture; it is a fictional/game-internal culture whose existing names look like a Goidelic/Germanic/Finnic hybrid. The only defensible proxy for a 'later court' culture situated in Rodos (Rhodes) is Medieval/Koine-descended Greek as spoken on Rhodes under the Knights Hospitaller era court (Medieval/Late Byzantine and Dodecanese Greek), transliterated in a standard scholarly romanization.",
+ "confidence": "speculative",
+ "proxy_rationale": "No attested language 'Kiedtra' exists; no scholarly literature supports it. Because the assigned region is Rodos and the period index is R (late/court period), the most defensible real-language anchor is Medieval Greek of Rhodes (Byzantine to Hospitaller period, c. 11th-15th c.). The link is purely geographic and nominal: the name Kiedtra itself and the current game strings (Rusu-, -kurrak, -teoil-) do not derive from Greek. Treat the proxy as a naming-style scaffold, not a claim about the culture's real language. Note that Rhodian Greek and Dodecanesian dialects preserve some Medieval features (e.g. palatalization of k before front vowels to ts/tsh, lack of final -n in some forms).",
+ "phonology": "Medieval/Early Modern Greek (Rhodian) phoneme inventory. Vowels: /i e a o u/ (iotacism: eta, iota, upsilon, ei, oi all merge to /i/; ai > /e/; omega/omicron > /o/; ou > /u/). Consonants: stops /p t k b d g/ (b d g from voiced stops/postnasal), fricatives /f v th(theta) dh(delta) s z x gh(gamma)/, affricates /ts dz/, nasals /m n/, liquids /l r/, glides via palatalization. Southeastern dialects (Dodecanesian) have palatalization of /k/ and /x/ before front vowels (>/c/, /tsh/ or /sh/), final-n retention, and unstressed high-vowel loss (apocope/syncope) in northern dialects but not in Rhodes where vowels are largely preserved. Stress is word-based (dynamic) and falls on one of the last three syllables.",
+ "phonotactics": "Syllables are (C)(C)V(C) with open syllables strongly preferred; word-final consonants are restricted to -s, -n (and -r in some learned/foreign words), with -s the commonest (nominative -os, -is, -as, -es). Onset clusters allowed: stop+liquid (pr, tr, kr, pl, kl, gl, br, dr, gr), fricative+liquid (fr, thr, ghr, vr), s+stop (sk, st, sp), s+nasal (sm), stop+s? no; ps, ks as single onsets; nasal+stop medially (mp, nt, nk, ngk). Medial geminates are rare (spelled but pronounced single in most dialects except Dodecanese, where gemination is preserved: -ll-, -tt-, -ss-, -kk-). Vowel hiatus is common (ea, ia, io, oi). Stress does not change spelling in transliteration if diacritics are omitted; scholarly practice marks stress with an acute only in reconstructions.",
+ "orthography": "Use a simple ELOT/ISO-843-style Latin transliteration: a e i o u, b d g k l m n p r s t v z, f, th (theta), dh (delta), gh (gamma), kh/ch (chi), ps, ks (xi) as 'ks', ts, dz, ng/gk for gamma-kappa, mp for mu-pi, nt for nu-tau, y for upsilon only in classical-style spelling (otherwise i). Digraphs: ai=e, ei=i, oi=i, ou=u, ei and oi may be kept in learned spelling. No h except in th/kh/gh/ch/sh. Omit diacritics and stress marks in game names.",
+ "morphology": "Greek is fusional and inflecting. Nouns: three genders (m/f/n), two numbers, four cases in the Medieval/Modern system (nominative, genitive, accusative, vocative; dative lost, replaced by se + accusative or genitive). Declension classes: masc -os/-is/-as/-es, fem -a/-i/-o/-is, neuter -o/-i/-ma/-os. Genitive sg: -u (masc/neut -os/-o), -s (fem -a/-i: -as/-is), pl -on. Adjectives agree in gender, number, case and precede the noun. Verbs: stem + person/number endings with augment and reduplication in older forms. Derivational suffixes: -tis/-tir (agent), -ma (result), -sis (action), -ia (abstract/place), -on (place/diminutive), -aki/-itsa (diminutive), -eion/-eio (place where, e.g. fanari-eio), -ikos (adjective).",
+ "compounding": "Greek compounds are head-final: modifier + linking vowel -o- + head (e.g. thalass-o-kratia). First element takes the combining form (stem + -o-); if the second element begins with a vowel the -o- is dropped (e.g. psar-a-... no: pyrg-o-... but arkh-i-...). 'X of Y' names are expressed either by genitive: head noun + Y in genitive (o naos tu iliu, 'temple of the sun'; transliterated game name could be naos iliu) or by compound (iliotemplo no; iliovasilion no). 'Y-maker' is formed with -poios/-piis/-ergos or the agent suffix -tis: artopoios (bread-maker), psaras (fisherman), kanonis? Use stem + -tis / -poios. Place names often use -ia, -ion, -polis, -khori(on), or Saint-names (Ayios).",
+ "noun_phrase_order": "Adjective + noun (kalos anthropos); article precedes the noun phrase (o, i, to; I omit it in names); genitive follows the head noun (o naos tu theu); demonstratives and possessives precede or follow depending on emphasis; in compounds the modifier precedes the head.",
+ "attested_roots": [
+  {
+   "form": "thalassa",
+   "gloss": "sea",
+   "reconstructed": false
+  },
+  {
+   "form": "nero",
+   "gloss": "water",
+   "reconstructed": false
+  },
+  {
+   "form": "pyr",
+   "gloss": "fire",
+   "reconstructed": false
+  },
+  {
+   "form": "ghi",
+   "gloss": "earth, land",
+   "reconstructed": false
+  },
+  {
+   "form": "ilios",
+   "gloss": "sun",
+   "reconstructed": false
+  },
+  {
+   "form": "fengari",
+   "gloss": "moon",
+   "reconstructed": false
+  },
+  {
+   "form": "asteri",
+   "gloss": "star",
+   "reconstructed": false
+  },
+  {
+   "form": "vasilias",
+   "gloss": "king",
+   "reconstructed": false
+  },
+  {
+   "form": "kastro",
+   "gloss": "castle, fortress",
+   "reconstructed": false
+  },
+  {
+   "form": "ekklisia",
+   "gloss": "church",
+   "reconstructed": false
+  },
+  {
+   "form": "limani",
+   "gloss": "harbour",
+   "reconstructed": false
+  },
+  {
+   "form": "karavi",
+   "gloss": "ship",
+   "reconstructed": false
+  },
+  {
+   "form": "psomi",
+   "gloss": "bread",
+   "reconstructed": false
+  },
+  {
+   "form": "krasi",
+   "gloss": "wine",
+   "reconstructed": false
+  },
+  {
+   "form": "elia",
+   "gloss": "olive",
+   "reconstructed": false
+  },
+  {
+   "form": "rodon",
+   "gloss": "rose (cf. Rodos)",
+   "reconstructed": false
+  }
+ ],
+ "worked_examples": [
+  {
+   "english": "Temple of the Sun",
+   "name": "Naos Iliu",
+   "gloss": "naos 'temple' + ili-u 'sun-GEN.SG'"
+  },
+  {
+   "english": "Harbour of the King",
+   "name": "Limani Vasilia",
+   "gloss": "limani 'harbour' + vasili-a 'king-GEN.SG (stem vasili- + -a)'"
+  },
+  {
+   "english": "Olive Bread",
+   "name": "Eliopsomo",
+   "gloss": "eli-o- 'olive-LINK' + psomo 'bread'"
+  },
+  {
+   "english": "Fortress by the Sea",
+   "name": "Thalassokastro",
+   "gloss": "thalass-o- 'sea-LINK' + kastro 'fortress'"
+  },
+  {
+   "english": "Ship-builder",
+   "name": "Karavopoios",
+   "gloss": "karav-o- 'ship-LINK' + poios 'maker'"
+  },
+  {
+   "english": "Wine of the Rose",
+   "name": "Krasi Rodu",
+   "gloss": "krasi 'wine' + rod-u 'rose-GEN.SG'"
+  }
+ ],
+ "allowed_graphemes": [
+  "a",
+  "e",
+  "i",
+  "o",
+  "u",
+  "b",
+  "d",
+  "g",
+  "k",
+  "l",
+  "m",
+  "n",
+  "p",
+  "r",
+  "s",
+  "t",
+  "v",
+  "z",
+  "f",
+  "th",
+  "dh",
+  "gh",
+  "kh",
+  "ch",
+  "ps",
+  "ks",
+  "ts",
+  "dz",
+  "ng",
+  "mp",
+  "nt"
+ ],
+ "extra_allowed_chars": " -",
+ "forbidden_patterns": [
+  "[qwxj]",
+  "h(?<![tdgkc]h)",
+  "(.)\\1\\1",
+  "[^aeiou]{4}",
+  "[bdgkptvz]{3}",
+  "ae|ao|ay|ey|oy|aa|uu",
+  "(?<![aeiou])(?<![aeiou][a-z])c(?!h)"
+ ],
+ "syllables_per_word": [
+  2,
+  3,
+  4
+ ],
+ "max_word_length": 18,
+ "sources": [
+  "Browning, Robert. Medieval and Modern Greek (1969/1983)",
+  "Horrocks, Geoffrey. Greek: A History of the Language and its Speakers (2nd ed. 2010)",
+  "Newton, Brian. The Generative Interpretation of Dialect: A Study of Modern Greek Phonology (1972)",
+  "Kontosopoulos, Nikolaos. Dialects and Idioms of Modern Greek (Dialektoi kai idiomata tis Neas Ellinikis)",
+  "Triandafyllidis, Manolis. Modern Greek Grammar (Neoellinki Grammatiki)",
+  "Kriaras, Emmanuel. Lexicon of Medieval Greek Vulgar Literature 1100-1669",
+  "Glottolog entry: Dodecanesian Greek / Greek (Glottolog)",
+  "ASJP database, Greek wordlists"
+ ],
+ "notes": "Kiedtra is not an attested culture and its current game names are not Greek; this proxy is a geographic fallback (Rodos = Rhodes) and should be flagged as speculative. If designers intend Kiedtra to be a fully invented language, names should instead be generated from a documented conlang ruleset, not presented as a real language. No word may be identical to a Modern Irish, Scottish Gaelic or Manx word, since Greek is not Goidelic; a post-filter should reject any generated name matching a Goidelic dictionary entry (e.g. avoid ending names in -ag, -ach, -an with Goidelic roots such as caisteal, mara, uisce, or Gaelic-looking sequences like 'teoil' and 'kurrak' seen in current game names).",
+ "unit": "Kiedtra",
+ "slug": "kiedtra",
+ "model": "claude-sonnet-5-5"
+}
