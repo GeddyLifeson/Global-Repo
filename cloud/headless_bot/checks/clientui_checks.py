@@ -4,6 +4,8 @@ sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent.parent))
 from lane import Lane
 SKIP = [a[7:] for a in sys.argv if a.startswith('--skip=')]
 JARS = [j for j in sorted(glob.glob('/mnt/project-files/rewrite-jars/client-ui/*.jar')) if not any(s in j for s in SKIP)]
+EXTRA = [a[8:] for a in sys.argv if a.startswith('--extra=')]
+JARS += EXTRA
 out = ([a for a in sys.argv[1:] if not a.startswith('--')] or [None])[0]
 with Lane('clientui', JARS, out=out, srv_xmx='3G') as L:
     print('joined', L.start_client()); d = L.drive
