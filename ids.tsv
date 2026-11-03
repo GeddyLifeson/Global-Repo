@@ -317,7 +317,6 @@ S0332	cloud	tools/harness/cmd.sh
 S0333	cloud	tools/harness/shot.sh
 S0334	cloud	tools/harness/cl_join.sh
 S0335	cloud	names/linguistics/regen_names.py
-S0335	global	crawl_all.py
 S0336	global	add_rows.py
 S0337	cloud	pc_scan/fix_atm11_261.py
 S0338	cloud	pc_scan/mod_conflict_scan.py
