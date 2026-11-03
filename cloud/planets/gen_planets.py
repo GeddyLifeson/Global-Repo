@@ -10,6 +10,7 @@ FORMS=['NPC','MOB','BOSS','WEAPON','ARMOR','TOOL','RELIC','SPELL','TECH','QUEST'
 HOST={'Bloom':('overworld','overworld','overworld'),'Frost':('overworld','amplified','overworld'),
  'Storm':('overworld','floating_islands','overworld'),'Hollow':('overworld_caves','caves','overworld'),
  'Ember':('the_nether','nether','nether'),'Iron':('overworld','large_biomes','overworld'),'Quiet':('the_end','end','end')}
+def seed(pid): return int.from_bytes(hashlib.sha256(pid.encode()).digest()[:8],'big',signed=True)
 rows={}
 for u,tier,n in c.execute("select universe,tier,count(*) from content group by 1,2"):
     r=rows.setdefault(u,{'tiers':{}}); r['tiers'][tier]=n
@@ -33,7 +34,7 @@ with open(O/'planets.tsv','w') as f:
     h=['planet_id','name','dimension','soil','realm','spine','opens_age','entries']+FORMS
     f.write('\t'.join(h)+'\n')
     for x in out: f.write('\t'.join(str(x.get(k,x['forms'].get(k))) for k in h)+'\n')
-D=O/'datapack'; (D/'data/diaithir_planets/dimension').mkdir(parents=True,exist_ok=True)
+D=O/'datapack'; (D/'data/diaithir_planets/planet_stems').mkdir(parents=True,exist_ok=True)
 (D/'pack.mcmeta').write_text(json.dumps({"pack":{"description":"Panscriptum planets (generated)","min_format":84,"max_format":101}}))
 lang={}
 POOL={'Bloom':['plains','forest','flower_forest','meadow'],'Frost':['snowy_plains','ice_spikes','snowy_taiga','frozen_peaks'],
@@ -65,7 +66,7 @@ for x in out:
     (T/(x['planet_id']+'.json')).write_text(json.dumps({"values":ids}))
     d={"type":"minecraft:"+x['dimension_type'],"generator":{"type":"minecraft:noise","settings":"minecraft:"+x['noise_settings'],
        "biome_source":{"type":"minecraft:multi_noise","biomes":cells}}}
-    (D/'data/diaithir_planets/dimension'/(x['planet_id']+'.json')).write_text(json.dumps(d))
+    d['neoforge:seed_override']=seed(x['planet_id']); (D/'data/diaithir_planets/planet_stems'/(x['planet_id']+'.json')).write_text(json.dumps(d))
     lang['dimension.diaithir_planets.'+x['planet_id']]=x['name']
 (D/'assets/diaithir_planets/lang').mkdir(parents=True,exist_ok=True)
 (D/'assets/diaithir_planets/lang/en_us.json').write_text(json.dumps(lang,indent=0))
