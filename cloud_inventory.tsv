@@ -325,3 +325,7 @@ world-checks/render.py	1634	"Top-down PNG per site: snow white, water blue, land
 world-checks/scan.py	5155	"Scan Tellus region files: per-column ground Y, snow cover, bedrock floor, and every *_ore block position."""""""	yes
 world-checks/sites.py	1510	R = 111319.49166666667 * 180 / math.pi	yes
 world-checks/snow.py	2642	"Snowline check: snow cover fraction by elevation band vs the Age I line (EraMath.age1SnowlineMeters)."""""""	yes
+names/linguistics/coverage.py	0	Name coverage per module: ids in rewrite jars vs names drops, writes pending.json.	yes
+names/linguistics/names_for_terms.py	0	Names for an id-to-English file in 130 culture languages against the rules files.	yes
+names/linguistics/dia_names.py	0	Diaithiris names for an id-to-English file via classical kenning plus archaic.py.	yes
+names/linguistics/fill_gaps.py	0	Fills empty language slots with repair rounds and relaxed fallbacks.	yes
