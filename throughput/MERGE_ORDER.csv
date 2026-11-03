@@ -75,3 +75,7 @@ wave,repo,number,base,head,partner,title
 4,ports,236,diaithircompat,claude/survey-p4-guard-villagers,,"Fold Guard Villagers (CC0) into diaithir-creature-utilities"
 4,ports,235,claude/ships-yard-2,claude/survey-p1-carts,,"Add one-way rail to diaithir-carts (survey p1, clean-room)"
 0,ports,237,claude/storage-logistics-cleanroom,claude/survey-p3-filters,,"Survey p3: Item Filters kinds (regex, stack size, component) folded into diaithir-filters; merge after #123"
+0,ports,246,claude/pack-latest,claude/survey-p3-packsrc,,"Survey p3: pack sources Traveler's Backpack 26.1.2-11.2.9 and Hydrofarm 0.2.10 (links)"
+0,ports,261,claude/foundry-logistics-depot,claude/survey-p3-bees,,"Survey p3: demolition marks for Foundry depots (merge after #112)"
+0,ports,269,claude/storage-logistics-cleanroom,claude/survey-p3-unrest,,"Survey p3: diaithir-unrest Unrest field, Meter, nests, wave event (new module)"
+0,ports,270,claude/foundry-logistics-depot,claude/survey-p3-metal,,"Survey p3: Alloy Forgery recipes in Forgeworks alloy furnace (merge after #112)"
