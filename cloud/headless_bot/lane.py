@@ -86,6 +86,7 @@ class Lane:
             try: self.shot('join_failed.png')
             except Exception: pass
             raise RuntimeError('client did not join; see ' + str(self.out / 'portablemc.out') + ' and ' + str(self.cl / 'logs/latest.log'))
+        self.server_cmd(f'op {self.user}')  # ops.json uuid is wrong for offline-mode players
         self.wait_render()
         return r.group(0)
     def wait_render(self, wait=120):

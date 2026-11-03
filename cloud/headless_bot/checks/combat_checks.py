@@ -1,4 +1,4 @@
-# S6858 checks/combat_checks.py: boss looks (26 bosses), armour models on armor stands, IV vehicle (diaithirtanks) placing/driving. Light pack:
+# S6868 checks/combat_checks.py: boss looks (26 bosses), armour models on armor stands, IV vehicle (diaithirtanks) placing/driving. Light pack:
 # diaithir-bosses + diaithir-arms 1.0.1 + Immersive Vehicles. python3 -I combat_checks.py [OUTDIR] [--only bosses|armour|vehicles]
 import sys, glob, time, pathlib, json, re
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent.parent))
