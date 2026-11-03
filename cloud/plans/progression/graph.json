@@ -632,9 +632,10 @@
    ],
    "module": "diaithir-foundry",
    "quest": "q.tech.operator",
-   "item": "diaithir:foundry_operator_seat",
+   "item": "diaithircrafting:foundry_operator_seat",
    "station": "machine.assembler",
-   "form": "assembly"
+   "form": "assembly",
+   "item_final": true
   },
   {
    "id": "tech.reclaimer",
@@ -2783,10 +2784,10 @@
    ],
    "module": "diaithir-automation-crafting",
    "quest": "q.research.pack_2",
-   "item": "diaithir:foundry_research_pack_2",
-   "item_proposed": true,
+   "item": "diaithircrafting:foundry_research_pack_2",
    "station": "research.bench",
-   "form": "process"
+   "form": "process",
+   "item_final": true
   },
   {
    "id": "research.pack_3",
@@ -2804,10 +2805,10 @@
    ],
    "module": "diaithir-automation-crafting",
    "quest": "q.research.pack_3",
-   "item": "diaithir:foundry_research_pack_3",
-   "item_proposed": true,
+   "item": "diaithircrafting:foundry_research_pack_3",
    "station": "research.bench",
-   "form": "process"
+   "form": "process",
+   "item_final": true
   },
   {
    "id": "research.pack_4",
@@ -2824,10 +2825,10 @@
    ],
    "module": "diaithir-automation-crafting",
    "quest": "q.research.pack_4",
-   "item": "diaithir:foundry_research_pack_4",
-   "item_proposed": true,
+   "item": "diaithircrafting:foundry_research_pack_4",
    "station": "research.bench",
-   "form": "process"
+   "form": "process",
+   "item_final": true
   },
   {
    "id": "research.pack_5",
@@ -2844,10 +2845,10 @@
    ],
    "module": "diaithir-automation-crafting",
    "quest": "q.research.pack_5",
-   "item": "diaithir:foundry_research_pack_5",
-   "item_proposed": true,
+   "item": "diaithircrafting:foundry_research_pack_5",
    "station": "research.bench",
-   "form": "process"
+   "form": "process",
+   "item_final": true
   },
   {
    "id": "research.pack_6",
@@ -2864,10 +2865,10 @@
    ],
    "module": "diaithir-automation-crafting",
    "quest": "q.research.pack_6",
-   "item": "diaithir:foundry_research_pack_6",
-   "item_proposed": true,
+   "item": "diaithircrafting:foundry_research_pack_6",
    "station": "research.bench",
-   "form": "process"
+   "form": "process",
+   "item_final": true
   },
   {
    "id": "research.pack_7",
@@ -2884,10 +2885,10 @@
    ],
    "module": "diaithir-automation-crafting",
    "quest": "q.research.pack_7",
-   "item": "diaithir:foundry_research_pack_7",
-   "item_proposed": true,
+   "item": "diaithircrafting:foundry_research_pack_7",
    "station": "research.bench",
-   "form": "process"
+   "form": "process",
+   "item_final": true
   },
   {
    "id": "research.gate_II",
@@ -3997,9 +3998,10 @@
  ],
  "stations": {
   "station.hearth_bench": {
-   "block": "diaithir:foundry_hearth_bench",
+   "block": "diaithir_stations:foundry_hearth_bench",
    "kind": "bench",
-   "note": "Age I-II hand bench: knap, bind, forge rough parts"
+   "note": "Age I-II hand bench: knap, bind, forge rough parts",
+   "built": "diaithir-ports #163"
   },
   "station.kitchen": {
    "block": "diaithirfarmkitchen:kitchen_counter",
@@ -4007,19 +4009,22 @@
    "note": "built: right-click crafts from nearby chests"
   },
   "station.wright_bench": {
-   "block": "diaithir:foundry_wright_bench",
+   "block": "diaithir_stations:foundry_wright_bench",
    "kind": "bench",
-   "note": "Age III: join iron and timber parts, press coin"
+   "note": "Age III: join iron and timber parts, press coin",
+   "built": "diaithir-ports #163"
   },
   "station.smeltery": {
-   "block": "diaithir:foundry_smeltery",
+   "block": "diaithir_stations:foundry_smeltery",
    "kind": "cast",
-   "note": "Age IV multiblock: pour molten metal into casts, like a Tinkers smeltery"
+   "note": "Age IV multiblock: pour molten metal into casts, like a Tinkers smeltery",
+   "built": "diaithir-ports #163"
   },
   "station.steam_forge": {
-   "block": "diaithir:foundry_steam_forge",
+   "block": "diaithir_stations:foundry_steam_forge",
    "kind": "forge",
-   "note": "Age V: boiler-powered forge for steel parts and engines"
+   "note": "Age V: boiler-powered forge for steel parts and engines",
+   "built": "diaithir-ports #163"
   },
   "machine.assembler": {
    "block": "diaithir:foundry_assembler",
@@ -4027,9 +4032,10 @@
    "note": "Age VI: assembles major parts, speed tier by modules"
   },
   "station.fabricator": {
-   "block": "diaithir:foundry_fabricator",
+   "block": "diaithir_stations:foundry_fabricator",
    "kind": "machine",
-   "note": "Age VIII: nanoalloy parts and top modules"
+   "note": "Age VIII: nanoalloy parts and top modules",
+   "built": "diaithir-ports #163"
   },
   "altar.basic": {
    "block": "diaithir:altar_basic",

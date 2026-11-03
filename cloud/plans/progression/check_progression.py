@@ -97,11 +97,11 @@ share=grid/len(rec) if rec else 0
 if share>0.15: E.append(f"crafting-grid recipes are {share:.0%} of item recipes (max 15%): move them onto stations")
 # data pack
 if dp:
-    for f in glob.glob(os.path.join(dp,'data','*','recipe','xmod_*.json')):
+    for f in glob.glob(os.path.join(dp,'data','*','recipe','xmod_*.json'))+glob.glob(os.path.join(dp,'data','*','diaithir_stations','station_recipe','xmod_*.json')):
         j=json.load(open(f,encoding='utf-8')); nid=j.get('_node'); n=byid.get(nid)
         if not n: E.append(f"{f}: _node {nid} not in graph"); continue
         if n.get('item') and j['result']['id']!=n['item']: E.append(f"{f}: result {j['result']['id']} != graph item {n['item']}")
-        for i in j.get('ingredients',[])+[x for r in j.get('pattern',[]) for x in []]:
+        for i in [x if isinstance(x,str) else ('#'+x['tag'] if 'tag' in x else x['item']) for x in j.get('ingredients',[])]:
             if i.startswith('#diaithir:progression/'):
                 t=i[1:]; r=t.split('progression/')[1]
                 if r not in prod: E.append(f"{f}: tag {t} maps to unknown resource {r}")
