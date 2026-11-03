@@ -1,0 +1,189 @@
+{
+ "proxy_language": "Unidentified; best-supported proxy is Classical Irish / Early Modern Irish (Classical Gaelic), inferred only from the culture name's morphology",
+ "confidence": "speculative",
+ "proxy_rationale": "'Riondagsiublach' is not a recognised historical culture, language or ethnonym, and the label is not attested in any scholarly source I know of. The string looks Gaelic-shaped: 'rionn' (cf. Irish rinn 'star' / Old Irish rind 'point, star'), a linking element, and '-ach' (an adjectival or collective suffix). Region 'Beyond Earth' and kind 'later_court' point to a fictional, space-faring court culture. The only defensible approach is to treat it as a constructed Goidelic-flavoured court language and borrow the structure of Classical Gaelic (c. 1200-1650), the learned register of Gaelic courts and bardic schools. Any claim that this is an attested language would be false.",
+ "phonology": "Modelled on Classical Gaelic / Early Modern Irish. Consonants come in broad (velarised) and slender (palatalised) series: stops p b t d c g; fricatives f s h, plus lenited bh ch dh fh gh mh ph sh th; nasals m n; liquids l r; plus ng. Lenition and eclipsis mark grammatical function. Vowels a e i o u, with long vowels marked by acute accent (á é í ó ú). Diphthongs: ia, ua, ai, ei, oi, ui, ea, io. Phonemic vowel quality is conditioned by neighbouring consonant quality (caol le caol, leathan le leathan).",
+ "phonotactics": "Syllable shapes (C)(C)V(C)(C), with initial clusters of s + stop or sonorant (sc, sp, st, sm, sn, sl), stop/fricative + r or l (br, cr, dr, fr, gr, pr, tr, bl, cl, gl, fl), and eclipsis clusters (mb, gc, nd, bhf, ng, bp, dt) written in inflected forms. Medial and final clusters such as rn, rt, rd, nn, ll, rr, ng, nt, lg, rg, sc, st are common. Words end in vowels or consonants, with no restriction against final -ch, -n, -l, -r, -s. Stress is initial in the classical language; the spelling rule of caol le caol (slender vowel next to slender consonant) must be respected. No native k, q, v, w, x, y, z; j and v appear only in loans.",
+ "orthography": "Standard (post-1948 style) Gaelic spelling with fada acute accents on long vowels, since no scholarly transliteration exists for this culture. Lenition is written with h after the consonant (bh, ch, dh, fh, gh, mh, ph, sh, th); eclipsis by prefixing the eclipsing consonant (mb, gc, nd, bhf, ng, bp, dt). Lowercase spelling with hyphens only before vowel-initial words after n-/t- prefixes (an t-uisce, na h-oíche), or in fixed compounds. The existing name Riondagsiublach shows the string 'gs' and 'iu', which are not standard Gaelic digraphs. Treat it as an in-world exonym; in generated names keep to standard Gaelic spelling.",
+ "morphology": "Fusional, VSO language with initial mutations. Nouns have grammatical gender (masculine/feminine), two numbers (singular, plural), and case (nominative, genitive, dative, vocative), with the genitive formed by vowel change, slenderisation or suffixation (-a, -e, -ach, -(a)dh). Roots are monosyllabic or disyllabic. Derivational suffixes: -ach (adjective 'full of, having'; place or people name), -ach/-ái (agent), -óir/-eoir (agent noun), -acht/-eacht (abstract), -án/-ín (diminutive), -lann/-án (place or container), -(e)ann, -ra. Prefixes: so- 'good', do- 'bad', in-/ion- 'worthy', ro- 'very', fo- 'under', ard- 'high', mór- 'great'. Adjectives follow the noun and agree in gender, number and case, with lenition after feminine nouns.",
+ "compounding": "Compound nouns are head-final in the case of prefix compounds (ard-rí 'high king') and head-initial for noun-noun genitive phrases. 'X of Y' is built as head noun + genitive of Y: teach an rí 'house of the king'. Definite genitive noun takes article an/na (an t-solais 'of the light'). Agent compounds: noun (genitive or bare) + agent suffix, e.g. gabha 'smith', ceard 'craftsman', or two-word phrases such as déantóir long 'ship-maker'. Lenition applies to the second element in many compounds (caisleán-cloch, ard-rí, mórfhear). Linking: no vowel linker, but the first element may take its genitive form (rí-theach 'royal house' vs teach an rí).",
+ "noun_phrase_order": "Noun + genitive noun (possessor after possessed) + adjective: teach mór an rí 'the great house of the king'. Article precedes the noun: an teach 'the house'. Demonstratives and numerals vary: number precedes noun (trí long 'three ships') with singular noun after numeral. Adjectives follow the noun and agree with it. In names, order is Head - Modifier(genitive) - Adjective.",
+ "attested_roots": [
+  {
+   "form": "rinn",
+   "gloss": "point, tip, star (poet.); cf. OIr rind",
+   "reconstructed": false
+  },
+  {
+   "form": "réalta",
+   "gloss": "star",
+   "reconstructed": false
+  },
+  {
+   "form": "solas",
+   "gloss": "light",
+   "reconstructed": false
+  },
+  {
+   "form": "grian",
+   "gloss": "sun",
+   "reconstructed": false
+  },
+  {
+   "form": "gealach",
+   "gloss": "moon",
+   "reconstructed": false
+  },
+  {
+   "form": "spéir",
+   "gloss": "sky",
+   "reconstructed": false
+  },
+  {
+   "form": "flaitheas",
+   "gloss": "heaven, sovereignty",
+   "reconstructed": false
+  },
+  {
+   "form": "rí",
+   "gloss": "king",
+   "reconstructed": false
+  },
+  {
+   "form": "banríon",
+   "gloss": "queen",
+   "reconstructed": false
+  },
+  {
+   "form": "cúirt",
+   "gloss": "court",
+   "reconstructed": false
+  },
+  {
+   "form": "teach",
+   "gloss": "house",
+   "reconstructed": false
+  },
+  {
+   "form": "long",
+   "gloss": "ship",
+   "reconstructed": false
+  },
+  {
+   "form": "caisleán",
+   "gloss": "castle",
+   "reconstructed": false
+  },
+  {
+   "form": "cloch",
+   "gloss": "stone",
+   "reconstructed": false
+  },
+  {
+   "form": "tine",
+   "gloss": "fire",
+   "reconstructed": false
+  },
+  {
+   "form": "fuil",
+   "gloss": "blood",
+   "reconstructed": false
+  }
+ ],
+ "worked_examples": [
+  {
+   "english": "Court of the Stars",
+   "name": "cúirt na réalta",
+   "gloss": "court-NOM.F the.GEN.F star.GEN"
+  },
+  {
+   "english": "House of the King",
+   "name": "teach an rí",
+   "gloss": "house the.GEN.M king.GEN"
+  },
+  {
+   "english": "Starship",
+   "name": "long réalta",
+   "gloss": "ship star.GEN"
+  },
+  {
+   "english": "Great Light",
+   "name": "solas mór",
+   "gloss": "light great"
+  },
+  {
+   "english": "Fire of the Sun",
+   "name": "tine na gréine",
+   "gloss": "fire the.GEN.F sun.GEN"
+  },
+  {
+   "english": "Stone Castle",
+   "name": "caisleán cloiche",
+   "gloss": "castle stone.GEN"
+  }
+ ],
+ "allowed_graphemes": [
+  "a",
+  "á",
+  "b",
+  "bh",
+  "c",
+  "ch",
+  "d",
+  "dh",
+  "e",
+  "é",
+  "f",
+  "fh",
+  "g",
+  "gh",
+  "h",
+  "i",
+  "í",
+  "l",
+  "m",
+  "mh",
+  "n",
+  "ng",
+  "o",
+  "ó",
+  "p",
+  "ph",
+  "r",
+  "s",
+  "sh",
+  "t",
+  "th",
+  "u",
+  "ú"
+ ],
+ "extra_allowed_chars": " -'áéíóú",
+ "forbidden_patterns": [
+  "[kqvwxyz]",
+  "(.)\\1\\1",
+  "[aeiouáéíóú]{4,}",
+  "^[^aeiouáéíóú]{4,}",
+  "sht",
+  "tsh",
+  "pk",
+  "kp"
+ ],
+ "syllables_per_word": [
+  2,
+  3,
+  4
+ ],
+ "max_word_length": 18,
+ "sources": [
+  "Quin, E. G. (ed.), Dictionary of the Irish Language (DIL, eDIL online)",
+  "Thurneysen, R., A Grammar of Old Irish (1946)",
+  "McManus, D., A Guide to Ogam (1991)",
+  "Bergin, O., Irish Bardic Poetry (1970)",
+  "Williams, N., Foclóir Gaeilge-Béarla (Ó Dónaill) and Dinneen, Foclóir Gaedhilge agus Béarla (1927)",
+  "Glottolog entry for Irish; eDIL (dil.ie)"
+ ],
+ "notes": "Riondagsiublach is not a documented culture, and the proxy here is a design choice, not a finding; confidence is speculative. The name's own spelling (-gs-, -iu-) is not standard Gaelic, so it should be read as a stylised in-world exonym. No word may be identical to a Modern Irish, Scottish Gaelic or Manx word unless the language is Goidelic; because this proxy is Goidelic-flavoured, borrowed Irish forms are acceptable only if the studio deliberately accepts that the in-world language is Goidelic. If it is meant to be a distinct language, derive new roots by regular sound change from the Gaelic models rather than reusing Modern Irish words verbatim. This is not a Diaithiris culture.",
+ "unit": "Riondagsiublach",
+ "slug": "riondagsiublach",
+ "model": "claude-sonnet-5-5"
+}
