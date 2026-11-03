@@ -1,0 +1,191 @@
+{
+ "proxy_language": "Unidentified: 'Skielbàili' is not a known historical culture or attested language; closest defensible proxy is a generic Late Bronze/Iron Age West European court register approximated by Proto-Celtic (reconstructed) for naming, with no direct evidence of a link",
+ "confidence": "speculative",
+ "proxy_rationale": "No scholarly record exists of a culture called Skielbàili. The name's spelling (sk-, -ie-, à, -ili) resembles no attested language cleanly. Since 'later_court' at index 7 in 'Worldwide ruins' implies a ruined late court-culture, Proto-Celtic is used only as a transparent, reconstructed stand-in with a regular morphology. Names built from it must be flagged as reconstructed. Because Proto-Celtic is the proxy, forms must not coincide with Modern Irish, Scottish Gaelic or Manx words; the Goidelic exception does not apply, as the proxy is Proto-Celtic, not Goidelic.",
+ "phonology": "Proto-Celtic consonants: stops *p (lost word-initially in the later stage, retained here only medially/rare) *t *k *kw *b *d *g *gw; fricatives *s *x(rare); nasals *m *n; liquids *l *r; glides *w *j. Vowels: short *a *e *i *o *u; long *aa *ee *ii *oo *uu; diphthongs *ai *ei *oi *au *eu *ou. No *p inherited from PIE in initial position (PIE *p lost), a hallmark of the family.",
+ "phonotactics": "Syllables (C)(C)V(V)(C)(C); typical onsets include single consonants or s/obstruent + liquid clusters (tr, dr, kr, gr, sk, st, br); word-finals in nominative are -os, -on, -aa, -is, -s, -x (-ks); no word-final voiced stops in pause form. Stress is initial in later Celtic; no tone. Medial clusters of nasal + stop and liquid + stop are common (nt, nk, ng, rt, lt).",
+ "orthography": "Use standard reconstruction notation with asterisk in scholarly contexts; for in-game Latin script drop the asterisk and macrons, writing long vowels as double letters or plain vowels (aa to a, ee to e, etc.), kw as qu, gw as gu. Use plain ASCII a-z with optional space and hyphen only.",
+ "morphology": "Inflecting IE type: nouns with stem classes (o-stems masc/neut -os/-on, a-stems fem -aa, i-stems, u-stems, consonant stems -ks, -ts, -n-), three genders, singular/dual/plural, eight cases reduced; genitive singular o-stem *-ii, a-stem *-aas. Adjectives agree. Verbs rarely needed for names; participles in -to-/-no-. Derivational suffixes: *-ako-/-iko- (belonging to), *-ino-, *-ukko-, *-ia (abstract), *-rigs (king as agent).",
+ "compounding": "Compounds are determinative with the modifier first, joined by a linking vowel -o- (or -i-): *magu-rigs 'great king' pattern as X-o-Y; head noun is final. 'Y of X' is rendered either by a genitive after the head noun (head + genitive) or by a prefix compound with the specifier first. Agent names: object + agent noun (e.g., *teuta-rigs? as 'tribe-king'). Divine names often take *-os/-aa with epithet appended.",
+ "noun_phrase_order": "Head noun first for adjective and genitive modifiers in free phrases (noun + adjective, noun + genitive); in compounds modifier precedes head. Determiners are rare.",
+ "attested_roots": [
+  {
+   "form": "*rigs",
+   "gloss": "king",
+   "reconstructed": true
+  },
+  {
+   "form": "*teutaa",
+   "gloss": "tribe, people",
+   "reconstructed": true
+  },
+  {
+   "form": "*dunon",
+   "gloss": "fort, enclosed place",
+   "reconstructed": true
+  },
+  {
+   "form": "*magos",
+   "gloss": "plain, field",
+   "reconstructed": true
+  },
+  {
+   "form": "*nemos",
+   "gloss": "sky, sacred grove",
+   "reconstructed": true
+  },
+  {
+   "form": "*bitus",
+   "gloss": "world",
+   "reconstructed": true
+  },
+  {
+   "form": "*dubnos",
+   "gloss": "deep, world",
+   "reconstructed": true
+  },
+  {
+   "form": "*akwaa",
+   "gloss": "water, river",
+   "reconstructed": true
+  },
+  {
+   "form": "*sulis",
+   "gloss": "sun, eye",
+   "reconstructed": true
+  },
+  {
+   "form": "*mapos",
+   "gloss": "son, youth",
+   "reconstructed": true
+  },
+  {
+   "form": "*marcos",
+   "gloss": "horse",
+   "reconstructed": true
+  },
+  {
+   "form": "*briga",
+   "gloss": "hill, height",
+   "reconstructed": true
+  },
+  {
+   "form": "*katus",
+   "gloss": "battle",
+   "reconstructed": true
+  },
+  {
+   "form": "*uiros",
+   "gloss": "man",
+   "reconstructed": true
+  },
+  {
+   "form": "*senos",
+   "gloss": "old",
+   "reconstructed": true
+  },
+  {
+   "form": "*walos",
+   "gloss": "ruler, prince",
+   "reconstructed": true
+  }
+ ],
+ "worked_examples": [
+  {
+   "english": "Temple of the Sun",
+   "name": "Nemos Sulis",
+   "gloss": "nemos (sacred place) + sulis (sun, genitive-like apposition)"
+  },
+  {
+   "english": "Great King",
+   "name": "Maguriks",
+   "gloss": "magu- 'great' + -o- linker + riks 'king'"
+  },
+  {
+   "english": "River Fort",
+   "name": "Akwadunon",
+   "gloss": "akwa 'water' + -dunon 'fort'"
+  },
+  {
+   "english": "Hill of Battle",
+   "name": "Brigakatu",
+   "gloss": "briga 'hill' + katu 'battle'"
+  },
+  {
+   "english": "People of the Plain",
+   "name": "Teuta Magi",
+   "gloss": "teuta 'people' + magi (genitive of magos)"
+  },
+  {
+   "english": "Old World",
+   "name": "Senobitus",
+   "gloss": "seno- 'old' + -bitus 'world'"
+  }
+ ],
+ "allowed_graphemes": [
+  "a",
+  "e",
+  "i",
+  "o",
+  "u",
+  "b",
+  "d",
+  "g",
+  "k",
+  "t",
+  "s",
+  "m",
+  "n",
+  "l",
+  "r",
+  "w",
+  "j",
+  "qu",
+  "gu",
+  "kr",
+  "tr",
+  "dr",
+  "gr",
+  "br",
+  "sk",
+  "st",
+  "nt",
+  "nk",
+  "ng",
+  "rt",
+  "lt",
+  "ai",
+  "ei",
+  "oi",
+  "au",
+  "eu",
+  "ou"
+ ],
+ "extra_allowed_chars": " -",
+ "forbidden_patterns": [
+  "[fhvzxqy]",
+  "p",
+  "(.)\\1\\1",
+  "[^aeiou]{4,}",
+  "[aeiou]{4,}",
+  "[ãàáâäèéêëìíîïòóôöùúûü]"
+ ],
+ "syllables_per_word": [
+  2,
+  3,
+  4
+ ],
+ "max_word_length": 18,
+ "sources": [
+  "Matasovic, Etymological Dictionary of Proto-Celtic (2009)",
+  "Delamarre, Dictionnaire de la langue gauloise (2003)",
+  "Lambert, La langue gauloise (2003)",
+  "Wiktionary Proto-Celtic reconstruction pages",
+  "Glottolog (Celtic family)",
+  "Pokorny, Indogermanisches etymologisches Woerterbuch (1959)"
+ ],
+ "notes": "The culture name 'Skielbàili' is not an attested linguistic or historical entity; this is an explicitly speculative proxy and all forms are reconstructed, not attested. No game name may be identical to a Modern Irish, Scottish Gaelic or Manx word; Proto-Celtic is the proxy, not Goidelic, so the Goidelic exception does not apply, and forms should be checked against Goidelic lexicons. Not a Diaithiris culture, so no Diaithiris note applies.",
+ "unit": "Skielbàili",
+ "slug": "skielb_ili",
+ "model": "claude-sonnet-5-5"
+}

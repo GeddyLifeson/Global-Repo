@@ -1,0 +1,146 @@
+{
+ "proxy_language": "Proto-Algonquian (primary, low-confidence proxy) with Proto-Siouan and Proto-Numic as alternates",
+ "confidence": "speculative",
+ "proxy_rationale": "The Plano complex (c. 10,500-7,500 BP: Agate Basin, Hell Gap, Cody) pre-dates any attested language on the Great Plains by 7,000+ years, and the ethnolinguistic identity of Plano bison hunters is unknown. No language can be tied to the archaeological complex. For a game name-builder, a reconstructed proto-language from the historically Plains-adjacent families is the most defensible stand-in. Proto-Algonquian is the best-reconstructed Plains-related protolanguage (Bloomfield 1946; Aubin 1975; Goddard), with a small, regular phonology and well-attested compounding. Proto-Siouan (Rankin et al.) is a plausible alternative, and Proto-Numic or Proto-Uto-Aztecan for the western fringe. The link is a convention for plausible phonotactic flavor, not a claim of descent. Names should be marked as reconstructed and speculative.",
+ "phonology": "Proto-Algonquian (Bloomfield 1946; Goddard; Aubin 1975). Consonants: *p *t *c [tS] *k *s *S [esh] *h *m *n *l *y *w, plus *θ and cluster-related *r in some reconstructions. Vowels: short *i *a *o and long *i· *e· *a· *o· (length marked by a following dot or macron). Voiceless stops are the only stop series (voicing is allophonic and not phonemic). Glottal stop is absent from Proto-Algonquian proper. Stress is not phonemically contrastive for naming purposes.",
+ "phonotactics": "Syllable shape (C)V(C), with short or long nuclei. Medial consonant clusters are overwhelmingly of the type *h + C or *s/*S + C (e.g. *-hk-, *-ht-, *-hp-, *-sk-, *-st-, *-Sk-, *-nt-, *-mp-, *-nk-, *-nc-). Words are vowel-final (verb and noun stems and inflected forms normally end in vowel or in a suffix like *-wa, *-ki, *-ar). Initial consonant clusters are absent; initial vowels are allowed. No voiced obstruents. No *b *d *g *f *z *v *j *x *q. No sequences of three vowels, no geminate-phoneme contrast in the reconstruction (clusters only).",
+ "orthography": "Algonquianist scholarly transliteration with asterisk for reconstructions. Consonants as written: p t c k s sh h m n l y w. Long vowels as a with macron (or a followed by colon/dot); in plain Latin script use doubled vowels (aa ee ii oo) as the long-vowel convention (as in Algonquian practical orthographies). Recommended game spelling: lower-case, doubled vowels for long, 'sh' for esh, 'c' for the affricate (or 'ch').",
+ "morphology": "Polysynthetic, head-marking. Nouns are divided into animate and inanimate gender; plural *-ak (animate) / *-ar (inanimate), diminutive *-ensi, locative *-ink, obviative *-ari, vocative *-i. Possession requires prefixes (ne- 'my', ke- 'your', we- 'his/her'); dependent nouns (kin terms, body parts) are always possessed. Verbs are organized in four classes by transitivity and animacy of the object: AI, II, TA, TI. Roots are typically CV(C)- with derivational 'initials', 'medials' and 'finals' concatenated into stems (e.g. initial *mek- 'big' + final). Reduplication marks iteration or plurality in some stems.",
+ "compounding": "Stems are built from an initial (root/preverb), optional medial (classifier such as 'wood', 'water', 'stone'), and a final. Noun-noun compounds are rarer than derived stems: a modifier initial or preverb precedes the head noun or final. For 'X of Y' constructions, use the locative suffix (*-ink 'at/in') or a possessed noun (prefix + noun-ar), or juxtapose a modifier initial before the head. For 'Y-maker'/'Y-user', use a verb stem with agentive final (*-eewa 'one who ...' style AI-participle) or a nominalized verb. Head-final in modifier-noun compounds; modifier then head.",
+ "noun_phrase_order": "Demonstrative or modifier precedes the noun (modifier-head); possessor prefix on the head; adjectival notions are usually expressed as verbal initials/preverbs prefixed to the stem. Quantifiers precede the noun.",
+ "attested_roots": [
+  {
+   "form": "*meko",
+   "gloss": "bison/buffalo-type big game (cf. *mo:swa 'moose')",
+   "reconstructed": true
+  },
+  {
+   "form": "*mo:swa",
+   "gloss": "moose",
+   "reconstructed": true
+  },
+  {
+   "form": "*wa:poswa",
+   "gloss": "hare/rabbit",
+   "reconstructed": true
+  },
+  {
+   "form": "*a:Sa:pi:wa",
+   "gloss": "stone-point flaker (speculative derived form)",
+   "reconstructed": true
+  },
+  {
+   "form": "*aSkwa",
+   "gloss": "fire",
+   "reconstructed": false
+  },
+  {
+   "form": "*ahkwi",
+   "gloss": "fire",
+   "reconstructed": true
+  },
+  {
+   "form": "*ni:pi",
+   "gloss": "water",
+   "reconstructed": true
+  },
+  {
+   "form": "*se:pi:wi",
+   "gloss": "river",
+   "reconstructed": true
+  },
+  {
+   "form": "*ahsenyi",
+   "gloss": "stone/rock",
+   "reconstructed": true
+  },
+  {
+   "form": "*wa:Sehkwa",
+   "gloss": "bone-related stem (cf. *-hkan 'bone')",
+   "reconstructed": true
+  },
+  {
+   "form": "*pe:Skwa",
+   "gloss": "wind-related (cf. *we:ntiwa 'wind')",
+   "reconstructed": true
+  },
+  {
+   "form": "*kiSe:pi:wa",
+   "gloss": "sun/day luminary (cf. *ki:Sxa:ka:ta 'sun')",
+   "reconstructed": true
+  },
+  {
+   "form": "*ahpe:Skeswa",
+   "gloss": "hide/skin-related stem (cf. *wa:ya:wi 'hide')",
+   "reconstructed": true
+  },
+  {
+   "form": "*ahkiwa:ni",
+   "gloss": "digging stick/spear-type tool (derived)",
+   "reconstructed": true
+  },
+  {
+   "form": "*ke:ka:cwi",
+   "gloss": "hill/rise (speculative)",
+   "reconstructed": true
+  },
+  {
+   "form": "*mehkwa",
+   "gloss": "bear",
+   "reconstructed": true
+  }
+ ],
+ "worked_examples": [],
+ "allowed_graphemes": [
+  "a",
+  "e",
+  "i",
+  "o",
+  "aa",
+  "ee",
+  "ii",
+  "oo",
+  "p",
+  "t",
+  "c",
+  "ch",
+  "k",
+  "s",
+  "sh",
+  "h",
+  "m",
+  "n",
+  "l",
+  "y",
+  "w"
+ ],
+ "extra_allowed_chars": " -",
+ "forbidden_patterns": [
+  "[bdfgjqrvxz]",
+  "^[pt]?[pk][pk]",
+  "[aeiou]{3,}",
+  "(.)\\1\\1",
+  "[^aeiou]{3,}",
+  "[bdgzfvjrqx]",
+  "h$"
+ ],
+ "syllables_per_word": [
+  2,
+  3,
+  4
+ ],
+ "max_word_length": 14,
+ "sources": [
+  "Bloomfield, Leonard. 1946. Algonquian (in Linguistic Structures of Native America, ed. Hoijer)",
+  "Aubin, George F. 1975. A Proto-Algonquian Dictionary",
+  "Goddard, Ives. 1979 and later. Delaware verbal morphology / Algonquian historical phonology",
+  "Rankin, Robert et al. Comparative Siouan Dictionary project",
+  "Glottolog (Algonquian, Siouan, Numic families)",
+  "Frison, George C. 1991. Prehistoric Hunters of the High Plains (archaeological context for Plano)",
+  "ASJP database (lexical comparison)"
+ ],
+ "notes": "No word may be identical to a Modern Irish, Scottish Gaelic or Manx word. This culture is not Diaithiris. All names are speculative: the Plano complex has no linguistic attribution, and Proto-Algonquian (a family reconstructed to roughly 2,500-3,500 years ago in the Great Lakes region) is a distant stylistic proxy only. Names must follow the (C)V(C) syllable shape with no initial clusters, vowel-final or simple vowel + sonorant words, only voiceless stops (p t c k) plus s sh h m n l y w, long vowels written doubled. Avoid the current game strings' voiced stops and fricatives (j, z, d, g, f). Example target forms: 'mekopi', 'nipaaka', 'ahsenaw', 'wapoosi', 'kishepi'.",
+ "unit": "Plano complex (Agate Basin, Hell Gap, Cody)",
+ "slug": "plano_complex_agate_basin_hell_gap_cody",
+ "model": "claude-sonnet-5-5"
+}

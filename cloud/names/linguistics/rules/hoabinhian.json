@@ -1,0 +1,192 @@
+{
+ "proxy_language": "Proto-Austroasiatic (with Proto-Mon-Khmer / Proto-Aslian and Proto-Austronesian as secondary comparanda)",
+ "confidence": "speculative",
+ "proxy_rationale": "Hoabinhian is an archaeological technocomplex (c. 43,000-4,000 BP) with no linguistic record. Genetic and archaeological work (e.g. Lipson et al. 2018; McColl et al. 2018) links Hoabinhian foragers with ancestry in modern Austroasiatic-speaking groups (Aslian, Semang, Mlabri, Mon-Khmer), so Proto-Austroasiatic / Proto-Mon-Khmer / Proto-Aslian is the least bad proxy, but the time gap is 5-30 millennia and Austroasiatic expansion may be Neolithic. Western Island SE Asia (Sumatra) was later Austronesian-speaking, and Austronesian and Negrito substrate languages are even weaker proxies. Names are therefore a flavour of Austroasiatic sesquisyllabic morphology, not an attested Hoabinhian language.",
+ "phonology": "Reconstructed Proto-Mon-Khmer (Shorto 2006): stops *p *t *c *k *? (plus *b *d *j *g and implosives *ɓ *ɗ in some reconstructions); nasals *m *n *ɲ *ŋ; liquids/glides *l *r *w *j; fricatives *s *h. Vowels *i *e *a *u *o *ɨ *ə *ɯ *ɔ with length and register contrast in daughters. Aslian (e.g. Semai, Temiar, Jahai) adds nasalised vowels and implosives; Jahai, for example, has ɓ ɗ ɟ̊ and nasal vowels.",
+ "phonotactics": "Typical Austroasiatic sesquisyllabic (iambic) word: minor presyllable (C(V)- or CN-, vowel often ə or a) plus full main syllable (C)(C)V(C). Main-syllable initial clusters limited (stop + liquid like pr-, kl-, kr-, tr-). Codas: p t c k ? m n ɲ ŋ l r w j s h. No voiced-stop codas. Words mostly 1-2 syllables, rarely 3; monosyllabic roots dominant. Stress falls on the final (main) syllable.",
+ "orthography": "Practical Latin transliteration in the style of Mon-Khmer and Aslian linguistics: p t c k ʔ (written ' or omitted), b d j g for voiced/implosive stops, m n ny ng, l r w y s h, vowels a e i o u plus ə written e or schwa, ɨ written ư or i. Diacritics are avoided where possible; length may be doubled vowel (aa). Reconstructions marked with *.",
+ "morphology": "Roots are mostly monosyllabic, lexical and uninflected. Derivation by prefix, infix and reduplication: causative p- / pa- (*p-), nominalising infix -n- / -m- (e.g. *tmɔɔl nominalisation of agent), instrumental/nominal infix -rn-, -mn-, prefixes ta-, ka-, pa-, ʔa-, sa-. Expressive reduplication and rhyming reduplication common in Aslian. No case, no gender, no noun classes in the proto-language; classifiers and numeral classifiers developed later in daughters.",
+ "compounding": "Compounds are head-initial: head noun first, modifier or possessor follows (N + N). 'X of Y' is simply N_X N_Y juxtaposition (no linker); 'maker/user of Y' = agentive prefix or infix + verb (e.g. *p-kaa 'to make' not securely reconstructed), or N + verb. Place names are often N + water/hill/tree word (e.g. Mon-Khmer *ʔɗaak 'water', *kɔɔŋ / *ɓɔ̃ŋ... avoid; *gəŋ 'mountain'). Modifiers (adjectives, demonstratives, numerals after classifiers) follow the noun.",
+ "noun_phrase_order": "Head noun first: N - Possessor, N - Adjective, N - Demonstrative. Numerals either before or after the noun depending on daughter; default for this game: N + modifier.",
+ "attested_roots": [
+  {
+   "form": "*ʔɗaak",
+   "gloss": "water (Proto-Mon-Khmer *dak / *ɗaak)",
+   "reconstructed": true
+  },
+  {
+   "form": "*kaa",
+   "gloss": "fish",
+   "reconstructed": true
+  },
+  {
+   "form": "*ʔɔɔs",
+   "gloss": "fire (cf. Proto-Mon-Khmer *ʔɔɔs 'charcoal/fire')",
+   "reconstructed": true
+  },
+  {
+   "form": "*kmaa",
+   "gloss": "tiger (cf. Proto-Mon-Khmer *kla? 'tiger')",
+   "reconstructed": true
+  },
+  {
+   "form": "*cɔɔŋ",
+   "gloss": "foot, leg",
+   "reconstructed": true
+  },
+  {
+   "form": "*taa",
+   "gloss": "hand/arm (Proto-Mon-Khmer *taa)",
+   "reconstructed": true
+  },
+  {
+   "form": "*ɓɔɔ",
+   "gloss": "father / elder male (Mon-Khmer *ɓaa, *paa)",
+   "reconstructed": true
+  },
+  {
+   "form": "*mɛɛ",
+   "gloss": "mother (Proto-Mon-Khmer *mɛʔ)",
+   "reconstructed": true
+  },
+  {
+   "form": "*dəəŋ",
+   "gloss": "tree/wood (Proto-Mon-Khmer *ɟəəŋ / *ɗəəŋ)",
+   "reconstructed": true
+  },
+  {
+   "form": "*tɔɔm",
+   "gloss": "stone (Mon-Khmer *tɔɔm is not secure; use *kɔɔm 'rock')",
+   "reconstructed": true
+  },
+  {
+   "form": "*ʔmooŋ",
+   "gloss": "to see/look (Mon-Khmer *ʔmɔɔŋ not securely reconstructed)",
+   "reconstructed": true
+  },
+  {
+   "form": "*ʔɔɔŋ",
+   "gloss": "to eat (cf. Khmer ʔaoŋ / Mon haʔ; Proto-Mon-Khmer *caa 'to eat')",
+   "reconstructed": true
+  },
+  {
+   "form": "*caa",
+   "gloss": "to eat",
+   "reconstructed": true
+  },
+  {
+   "form": "*ʔɓaaŋ",
+   "gloss": "hill/mountain (Aslian *ɓɔŋ; cf. Khmer pnum 'hill')",
+   "reconstructed": true
+  },
+  {
+   "form": "*lɔɔŋ",
+   "gloss": "to descend / low (cf. Mon-Khmer *rɔŋ)",
+   "reconstructed": true
+  },
+  {
+   "form": "*mɔɔt",
+   "gloss": "eye (Proto-Mon-Khmer *mat)",
+   "reconstructed": true
+  }
+ ],
+ "worked_examples": [
+  {
+   "english": "River Stew",
+   "name": "Caa Daak",
+   "gloss": "caa 'eat/food' + daak 'water' (head-initial N + N: food of water)"
+  },
+  {
+   "english": "Fish Hill",
+   "name": "Gəŋ Kaa",
+   "gloss": "gəŋ 'hill, mountain' + kaa 'fish' (hill of fish)"
+  },
+  {
+   "english": "Fire Stone",
+   "name": "Kɔɔm Ɔɔs",
+   "gloss": "kɔɔm 'stone' + ɔɔs 'fire' (stone of fire / hearthstone)"
+  },
+  {
+   "english": "Tiger's Path",
+   "name": "Lɔɔŋ Kla",
+   "gloss": "lɔɔŋ 'path/way (derived)' + kla 'tiger' (path of tiger)"
+  },
+  {
+   "english": "Tree Mother",
+   "name": "Mɛ Dəŋ",
+   "gloss": "mɛ 'mother' + dəŋ 'tree' (mother of tree)"
+  },
+  {
+   "english": "Hand Axe",
+   "name": "Pataa Kɔm",
+   "gloss": "p- instrumental prefix + taa 'hand' + kɔm 'stone' (hand-stone tool)"
+  }
+ ],
+ "allowed_graphemes": [
+  "p",
+  "t",
+  "c",
+  "k",
+  "b",
+  "d",
+  "j",
+  "g",
+  "m",
+  "n",
+  "ny",
+  "ng",
+  "l",
+  "r",
+  "w",
+  "y",
+  "s",
+  "h",
+  "a",
+  "e",
+  "i",
+  "o",
+  "u",
+  "aa",
+  "ee",
+  "ii",
+  "oo",
+  "uu",
+  "ə",
+  "ɨ",
+  "ɔ",
+  "ɛ"
+ ],
+ "extra_allowed_chars": " -'",
+ "forbidden_patterns": [
+  "[fvxz]",
+  "q",
+  "ph|th|kh|sh|zh",
+  "(.)\\1\\1",
+  "[bdg]$",
+  "[aeiouəɨɔɛ]{3,}",
+  "^ng[^aeiouəɨɔɛ]",
+  "[pck]{2,}$",
+  "(.)\\1.\\1\\1"
+ ],
+ "syllables_per_word": [
+  1,
+  2,
+  3
+ ],
+ "max_word_length": 14,
+ "sources": [
+  "Shorto, H. L. (2006). A Mon-Khmer Comparative Dictionary. Pacific Linguistics.",
+  "Sidwell, P. (2015). Austroasiatic classification. In The Handbook of Austroasiatic Languages / Jenny & Sidwell (eds.) (2015), Brill.",
+  "Diffloth, G. (2005). The contribution of linguistic palaeontology to the homeland of Austro-Asiatic. In Sagart et al. (eds.), The Peopling of East Asia.",
+  "Benjamin, G. (2013/2014). Temiar and Aslian grammars and Austroasiatic reconstructions.",
+  "McColl, H. et al. (2018). The prehistoric peopling of Southeast Asia. Science 361.",
+  "Lipson, M. et al. (2018). Ancient genomes document multiple waves of migration in Southeast Asian prehistory. Science 361.",
+  "Starling database (Mon-Khmer etymological database, starlingdb.org)",
+  "Glottolog (Austroasiatic family tree)",
+  "Wiktionary Proto-Mon-Khmer / Proto-Austroasiatic reconstruction pages"
+ ],
+ "notes": "The proxy is highly speculative: Hoabinhian spans tens of millennia and a very large area, and any single language family is an approximation. Aslian languages (Jahai, Semai, Temiar) are the most conservative living Austroasiatic relatives geographically close to the Hoabinhian heartland, so Aslian-like phonology (implosives, nasal vowels, sesquisyllabic shapes) is the best stylistic target. No word may be identical to a Modern Irish, Scottish Gaelic or Manx word unless the language is Goidelic; this is not Goidelic. Current game strings (Ngajunu lulobon, Sorit samop, Punja, Shishuse, Khirin, Njuj) are not Austroasiatic in shape: avoid sh, nj-, final -u after palatals, and unmotivated -nu endings; prefer short root-like forms with final stops or nasals and optional sesquisyllabic presyllable.",
+ "unit": "Hoabinhian",
+ "slug": "hoabinhian",
+ "model": "claude-sonnet-5-5"
+}
