@@ -1,0 +1,186 @@
+{
+ "proxy_language": "Proto-Yeniseian (with Ket as primary attested model; Kott/Assan/Arin/Pumpokol data as secondary)",
+ "confidence": "speculative",
+ "proxy_rationale": "Afontova Gora (c. 20-12 ka) and Kokorevo (c. 14-10 ka) are Upper Palaeolithic sites on the Yenisei near Krasnoyarsk. No language can be tied to them; the 12-20 ka gap to any attested language is far beyond the reach of the comparative method. Yeniseian is the only language family historically rooted in the Upper/Middle Yenisei basin and is a language isolate-like family with deep time depth, so it is the least arbitrary proxy for a Siberian Palaeolithic name set. This is a convention for the game, not a claim of continuity; Yeniseian speakers probably arrived from the south (Baikal/Sayan area) much later. Proto-Yeniseian forms follow Starostin, Vajda and Werner reconstructions and are marked as reconstructed.",
+ "phonology": "Ket consonants: stops /p t k q/ with /b d g/ (voiced series marginal in some positions), /ʔ/ glottal stop; affricates /ts tʃ/; fricatives /s x/ (and /h/), /ɣ/ in some analyses; nasals /m n ŋ/; liquids /l/ (rare in native words), /r/ marginal; glides /j w/. Ket uvular /q/ is phonemic and contrasts with /k/. Vowels: /i e a o u/ plus mid/central /ɨ ə/ in some analyses; length contrast; Ket has four tones (Vajda) with a tonal/glottalization system largely in the 'laryngealized' vs. plain contrast. Proto-Yeniseian reconstruction (Starostin 1982, Vajda/Werner 2020) posits a larger consonant system with a 3-way stop contrast reduced in daughters, plus a glottalized/pharyngealized series and tone-bearing syllables.",
+ "phonotactics": "Roots are mostly monosyllabic or disyllabic: CV, CVC, CVV, CVCV, CVCVC; (C)V(C) is the core. Initial consonant clusters are rare to absent in native roots; word-initial vowels are uncommon (a glottal onset is often present). Final consonants: mainly /n ŋ k q s t l m j/. Medial clusters allowed with sonorant or nasal first (-nk-, -ŋk-, -lt-, -st-). Voiced stops and /b/ occur mostly after nasals or in loans. No long sequences of vowels beyond VV; vowel harmony absent. Names should favor 1-3 syllables.",
+ "orthography": "Use a simplified Latinised scholarly transliteration of Ket/Yeniseian: p t k q b d g s x h ts ch (for tʃ) m n ng (for ŋ) l r j w y; vowels a e i o u plus long vowels written doubled (aa, ee, ii, oo, uu); glottal stop as an apostrophe ' (no tone marks). Avoid diacritics except the optional macron-free doubling. Proto-Yeniseian reconstructions are written with an asterisk (e.g. *qo-).",
+ "morphology": "Yeniseian is polysynthetic with highly complex verbal morphology (position-class template with 20+ slots, discontinuous agreement) and relatively simple nouns. Nouns: no case in the strict sense but a system of postpositions/clitics (-ŋa, -ga, -di, -da, -sa for locative/dative/etc.), gender classes (masculine, feminine, inanimate for animals/humans/things; Ket has 3 classes), plural in -ŋ/-n/-in/-an (e.g. -ŋ, -nan) and class-based plural. Noun roots are typically monosyllabic with one or two derivational suffixes. Possession is expressed by prefixing a personal prefix (ku- 'my', di- 'thy' etc.). Yeniseian is notable for body-part and kinship terms with inalienable prefixes.",
+ "compounding": "Compounding is productive: noun-noun compounds are head-final (modifier + head), e.g. Ket 'water-hole' type formations. Genitive constructions use a juxtaposed possessor + possessed with a possessive/genitive suffix -ŋa/-di or simple juxtaposition; 'X of Y' = Y-GEN X or Y X. Agent nouns ('Y-maker') are formed from verb roots with a nominalizing suffix (-ŋ, -s, -tn, -lʔ) or by compounding with a head noun 'person/man' (Ket diŋ 'person, man'). Derived names may add diminutive -'a or augmentative -ŋ.",
+ "noun_phrase_order": "Modifier before head: adjective/possessor/numeral precedes the noun (e.g. [qʌ̃ʔ] 'big' + noun). Postpositions rather than prepositions. Head-final throughout.",
+ "attested_roots": [
+  {
+   "form": "dʌ̃ŋ",
+   "gloss": "person, man, human",
+   "reconstructed": false
+  },
+  {
+   "form": "qa",
+   "gloss": "fire",
+   "reconstructed": false
+  },
+  {
+   "form": "kus",
+   "gloss": "fish",
+   "reconstructed": false
+  },
+  {
+   "form": "ses",
+   "gloss": "river",
+   "reconstructed": false
+  },
+  {
+   "form": "qim",
+   "gloss": "day, sun",
+   "reconstructed": false
+  },
+  {
+   "form": "ul",
+   "gloss": "water",
+   "reconstructed": false
+  },
+  {
+   "form": "hij",
+   "gloss": "snow",
+   "reconstructed": false
+  },
+  {
+   "form": "ket",
+   "gloss": "man, person (autonym)",
+   "reconstructed": false
+  },
+  {
+   "form": "bon",
+   "gloss": "earth, soil",
+   "reconstructed": false
+  },
+  {
+   "form": "oks",
+   "gloss": "tree, wood",
+   "reconstructed": false
+  },
+  {
+   "form": "qoj",
+   "gloss": "reindeer, deer",
+   "reconstructed": false
+  },
+  {
+   "form": "tuk",
+   "gloss": "mammoth (loan from Nenets in Ket tradition)",
+   "reconstructed": false
+  },
+  {
+   "form": "*qo",
+   "gloss": "big, large (Proto-Yeniseian)",
+   "reconstructed": true
+  },
+  {
+   "form": "*sel",
+   "gloss": "stone, rock",
+   "reconstructed": true
+  },
+  {
+   "form": "*ʔaj",
+   "gloss": "mother",
+   "reconstructed": true
+  },
+  {
+   "form": "*bu",
+   "gloss": "father",
+   "reconstructed": true
+  }
+ ],
+ "worked_examples": [
+  {
+   "english": "River of Fish",
+   "name": "Ses Kus",
+   "gloss": "ses 'river' + kus 'fish' (juxtaposed compound, head-final: 'fish-river')"
+  },
+  {
+   "english": "Big Fire",
+   "name": "Qo Qa",
+   "gloss": "*qo 'big' + qa 'fire' (modifier before head)"
+  },
+  {
+   "english": "Stone People",
+   "name": "Sel Dang",
+   "gloss": "*sel 'stone' + dʌ̃ŋ 'person' (head-final)"
+  },
+  {
+   "english": "Reindeer Hunter",
+   "name": "Qoj Dang",
+   "gloss": "qoj 'reindeer' + dʌ̃ŋ 'man' (Y-agent compound with 'man' as head)"
+  },
+  {
+   "english": "Place of Snow",
+   "name": "Hijga",
+   "gloss": "hij 'snow' + -ga locative suffix"
+  },
+  {
+   "english": "Mother River",
+   "name": "Aj Ses",
+   "gloss": "*ʔaj 'mother' + ses 'river' (possessor-head order)"
+  }
+ ],
+ "allowed_graphemes": [
+  "p",
+  "t",
+  "k",
+  "q",
+  "b",
+  "d",
+  "g",
+  "s",
+  "x",
+  "h",
+  "ts",
+  "ch",
+  "m",
+  "n",
+  "ng",
+  "l",
+  "r",
+  "j",
+  "w",
+  "y",
+  "a",
+  "e",
+  "i",
+  "o",
+  "u",
+  "aa",
+  "ee",
+  "ii",
+  "oo",
+  "uu"
+ ],
+ "extra_allowed_chars": " -'",
+ "forbidden_patterns": [
+  "^[bdg]",
+  "(.)\\1\\1",
+  "[aeiou]{3}",
+  "[bdgpktqsxh]{2,}$",
+  "^[ptkqsxhmnlrjwy]{2}",
+  "c(?!h)",
+  "[fvzc]"
+ ],
+ "syllables_per_word": [
+  1,
+  2,
+  3
+ ],
+ "max_word_length": 12,
+ "sources": [
+  "Vajda, Edward J. 2004. Ket. Languages of the World/Materials 204. Lincom Europa",
+  "Georg, Stefan. 2007. A Descriptive Grammar of Ket (Yenisei-Ostyak). Global Oriental",
+  "Starostin, Sergei. 1982. Praenisejskaja rekonstrukcija i vneshnie svjazi enisejskix jazykov (Proto-Yeniseian reconstruction and external relations of the Yeniseian languages)",
+  "Vajda, Edward J. and Heinrich Werner. 2020. Comparative Yeniseian Dictionary / Jenisseisches Vergleichendes Wörterbuch. Starling database (starlingdb.org)",
+  "Werner, Heinrich. 2002. Worterbuch der Ketischen Sprache. Harrassowitz",
+  "Glottolog entry: Yeniseian (glottolog.org)",
+  "Bergsland, Knut and Sergei Starostin. Starling database for Yeniseian cognate sets"
+ ],
+ "notes": "Strictly speaking no linguistic evidence ties the Afontova Gora/Kokorevo cultures to Yeniseian or any attested language; confidence is speculative. Some roots above are modern Ket or Proto-Yeniseian forms chosen as models for naming conventions only; glosses should be treated as approximate, and 'tuk' is a flagged loan in Ket tradition. Names should stay short (1-3 syllables), head-final, with q/k contrast, ng, and sibilants as flavour. No word may be identical to a Modern Irish, Scottish Gaelic or Manx word, since Yeniseian is not Goidelic.",
+ "unit": "Yenisei Upper Palaeolithic (Afontova Gora, Kokorevo)",
+ "slug": "yenisei_upper_palaeolithic_afontova_gora_kokorevo",
+ "model": "claude-sonnet-5-5"
+}

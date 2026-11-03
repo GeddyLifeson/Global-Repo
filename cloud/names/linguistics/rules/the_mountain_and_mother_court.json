@@ -1,0 +1,187 @@
+{
+ "proxy_language": "Cusco Quechua (Southern Quechua), the Inka court language; Classical Colonial Quechua as recorded by Domingo de Santo Tomás (1560) and Gonçález Holguín (1608)",
+ "confidence": "medium",
+ "proxy_rationale": "'Mountain-and-Mother Court' reads as a later Andean state court centered on apu/mountain veneration and Pachamama/Mama (earth-mother, Coya/Mamacuna) cults, i.e. the Inka court. Cusco Quechua is attested and well documented, so it is the best proxy; the link is medium because the culture's real identity is only a label and Aymara or Puquina court languages are also possible.",
+ "phonology": "Three vowels /a i u/ (written a, i, u; e and o are allophones near uvular q, not written in standard orthography). Stops and affricates in three-way series: plain (p t ch k q), aspirated (ph th chh kh qh), ejective (p' t' ch' k' q'); Cusco has all three. Fricatives s, h; nasals m n ñ; laterals l ll; rhotic r; glides w y. Uvular q contrasts with velar k. Stress penultimate.",
+ "phonotactics": "Syllable shapes (C)V(C). No initial vowel clusters and no vowel sequences within a root (hiatus is rare, with y/w between). Native roots begin with a single consonant or a vowel; no initial consonant clusters. Medial clusters are limited to coda C plus onset C (e.g. -nk-, -mp-, -rq-, -sp-, -yk-). Roots are usually 2 to 3 syllables. Spanish loans add e and o, which should be avoided in pre-contact-feel names. Words end in a vowel or in a limited set of consonants (-n, -s, -y, -q, -k, -m, -l, -r), mostly via suffixes.",
+ "orthography": "Modern Quechua practical orthography (Academia Mayor de la Lengua Quechua, Cusco): a i u; p t k q ch; ph th kh qh chh; p' t' k' q' ch'; s h; m n ñ; l ll r; w y. Apostrophe marks ejectives, h marks aspiration. Avoid c, z, v, b, d, f, g, j, x, e and o.",
+ "morphology": "Agglutinative, exclusively suffixing, SOV. Roots are nouns or verbs. Nominal suffixes: plural -kuna, genitive -pa (-qpa after vowel), possessive -n (3rd), -y (1st), -yki (2nd), accusative -ta, locative -pi, dative -man, ablative -manta, instrumental -wan, 'and/with' -wan, limitative -kama, reflexive-intensive -lla (only/just), topic -qa. Verb nominalizers: -q agentive ('one who does'), -na instrumental/place ('thing for doing'), -y infinitive/action noun, -sqa past participle ('done'), -yniyuq/-yuq 'possessor of X'. Derivational: -wasi 'house of', -pata 'bank/terrace'. Reduplication is used for intensity and repetition, e.g. raphi raphi.",
+ "compounding": "Head-final: modifier precedes head (juk'a wasi 'small house'). Noun-noun compounds and genitive phrases put the possessor first: 'X of Y' = Y-pa X-n, e.g. Inti-pa wasi-n 'house of the sun'. Common bare compounds use juxtaposition without a linker: Inti Raymi 'sun festival', Mama Quilla 'mother moon'. Agent names: object + verb-q, e.g. wasi-ruraq 'house-maker', yachay-wasi 'knowledge-house' (school). Place names often add -pata, -marka, -pampa, -qocha.",
+ "noun_phrase_order": "Modifier before head: adjective/numeral/possessor + noun (hatun mama 'great mother', kimsa apu 'three mountains'); relative clauses with -q or -sqa also precede the head; plural -kuna and case suffixes attach to the end of the whole noun phrase.",
+ "attested_roots": [
+  {
+   "form": "apu",
+   "gloss": "lord, mountain spirit, sacred mountain",
+   "reconstructed": false
+  },
+  {
+   "form": "mama",
+   "gloss": "mother, lady",
+   "reconstructed": false
+  },
+  {
+   "form": "pacha",
+   "gloss": "earth, world, time",
+   "reconstructed": false
+  },
+  {
+   "form": "urqu",
+   "gloss": "mountain, hill",
+   "reconstructed": false
+  },
+  {
+   "form": "inti",
+   "gloss": "sun",
+   "reconstructed": false
+  },
+  {
+   "form": "killa",
+   "gloss": "moon, month",
+   "reconstructed": false
+  },
+  {
+   "form": "yaku",
+   "gloss": "water",
+   "reconstructed": false
+  },
+  {
+   "form": "mayu",
+   "gloss": "river",
+   "reconstructed": false
+  },
+  {
+   "form": "wasi",
+   "gloss": "house",
+   "reconstructed": false
+  },
+  {
+   "form": "hatun",
+   "gloss": "great, large",
+   "reconstructed": false
+  },
+  {
+   "form": "sapa",
+   "gloss": "only, sole (Sapa Inka 'sole Inka')",
+   "reconstructed": false
+  },
+  {
+   "form": "qosqo",
+   "gloss": "Cusco, navel",
+   "reconstructed": false
+  },
+  {
+   "form": "sinchi",
+   "gloss": "strong, warrior",
+   "reconstructed": false
+  },
+  {
+   "form": "rumi",
+   "gloss": "stone",
+   "reconstructed": false
+  },
+  {
+   "form": "sara",
+   "gloss": "maize",
+   "reconstructed": false
+  },
+  {
+   "form": "papa",
+   "gloss": "potato",
+   "reconstructed": false
+  },
+  {
+   "form": "qhapaq",
+   "gloss": "rich, noble, royal",
+   "reconstructed": false
+  },
+  {
+   "form": "amaru",
+   "gloss": "serpent",
+   "reconstructed": false
+  }
+ ],
+ "worked_examples": [
+  {
+   "english": "Court of the Mountain",
+   "name": "Apu Wasi",
+   "gloss": "apu 'mountain lord' + wasi 'house'"
+  },
+  {
+   "english": "House of the Mother",
+   "name": "Mamapa Wasin",
+   "gloss": "mama 'mother' + -pa GEN + wasi 'house' + -n 3POSS"
+  },
+  {
+   "english": "Great Mother Mountain",
+   "name": "Hatun Mama Urqu",
+   "gloss": "hatun 'great' + mama 'mother' + urqu 'mountain'"
+  },
+  {
+   "english": "River Stew",
+   "name": "Mayu Api",
+   "gloss": "mayu 'river' + api 'thick maize drink/stew'"
+  },
+  {
+   "english": "Maker of Stone",
+   "name": "Rumi Ruraq",
+   "gloss": "rumi 'stone' + rura- 'make' + -q AGENT"
+  },
+  {
+   "english": "Terrace of the Sun",
+   "name": "Inti Pata",
+   "gloss": "inti 'sun' + pata 'terrace, bank'"
+  }
+ ],
+ "allowed_graphemes": [
+  "a",
+  "i",
+  "u",
+  "p",
+  "t",
+  "k",
+  "q",
+  "ch",
+  "ph",
+  "th",
+  "kh",
+  "qh",
+  "chh",
+  "s",
+  "h",
+  "m",
+  "n",
+  "ñ",
+  "l",
+  "ll",
+  "r",
+  "w",
+  "y"
+ ],
+ "extra_allowed_chars": " '-",
+ "forbidden_patterns": [
+  "[bdfgjvxzce]",
+  "o",
+  "(.)\\1\\1",
+  "^[^aiu]{2}",
+  "[^aiu]{3}"
+ ],
+ "syllables_per_word": [
+  2,
+  3,
+  4
+ ],
+ "max_word_length": 14,
+ "sources": [
+  "Domingo de Santo Tomás, Grammatica o arte de la lengua general de los indios de los reynos del Peru, 1560",
+  "Diego Gonçález Holguín, Vocabulario de la lengua general de todo el Perú llamada lengua qquichua o del Inca, 1608",
+  "Rodolfo Cerrón-Palomino, Lingüística quechua, 1987",
+  "Antonio Cusihuamán, Gramática quechua: Cuzco-Collao, 1976",
+  "Willem Adelaar with Pieter Muysken, The Languages of the Andes, 2004",
+  "Academia Mayor de la Lengua Quechua, Diccionario Quechua-Español-Quechua, 1995",
+  "Glottolog: Cusco Quechua (cusc1236)"
+ ],
+ "notes": "Existing game strings (Sucilu, Hina pa misnas, Yiwir) mix Quechua-like -pa/-nas with non-Quechua shapes; -nas is not a Quechua plural (use -kuna). No word may be identical to a Modern Irish, Scottish Gaelic or Manx word since the language is not Goidelic. Names should avoid Spanish-influenced e/o and avoid claiming specific Inka royal titles that are historically bound to real figures.",
+ "unit": "The Mountain-and-Mother Court",
+ "slug": "the_mountain_and_mother_court",
+ "model": "claude-sonnet-5-5"
+}

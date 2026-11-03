@@ -1,0 +1,220 @@
+{
+ "proxy_language": "Proto-Berber (Proto-Amazigh), supplemented by Berber-attested Afroasiatic roots (Tuareg, Tashelhit, Kabyle, Siwi, Ghadames)",
+ "confidence": "speculative",
+ "proxy_rationale": "The Iberomaurusian (c. 25,000-11,000 BP, Maghreb coast, Oranian in Cyrenaica) is known only archaeologically. No language can be tied to it. The only language family indigenous to the region in the historical record is Berber (Amazigh), a branch of Afroasiatic. Whether Berber speakers occupied the Maghreb already in the Upper Paleolithic is highly disputed (a later spread with Neolithic or Capsian-related groups is also argued). Ancient DNA from Taforalt shows Natufian-related and sub-Saharan ancestry, which is compatible with an early Afroasiatic link but proves nothing about language. Proto-Berber is therefore a deliberately weak, regionally plausible stand-in; names should be built on Berber morphology and reconstructed or widely attested Berber roots, not claimed as Iberomaurusian speech.",
+ "phonology": "Consonant-heavy system. Stops: b t d k g q (plus labiovelar kw gw in many varieties); fricatives: f s z sh/s-hacek zh/z-hacek x (velar) gh (voiced uvular) h (pharyngeal) a-ayn (pharyngeal, written with ayn) h (glottal in some); affricate-like and emphatic series: t-dot d-dot s-dot z-dot r-dot (pharyngealised/emphatic); sonorants: m n l r w y. Many varieties have a spirantised series (b, t, d, k, g to fricatives) in Northern Berber. Gemination (long consonants) is phonemic. Vowels: Proto-Berber had three full vowels *a *i *u plus a schwa-like vowel (written e) that is largely predictable. Pharyngealisation and gemination are contrastive. No tone. Stress is not marked in standard transliteration.",
+ "phonotactics": "Syllable shapes: (C)V(C), with CV, CVC and V common; schwa/epenthetic vowels break up consonant clusters, and Berber famously allows words with sequences of consonants without vowels (Tashelhit) though this is an analysis of the surface. Word-initial vowels are allowed and common (a-, i-, u- are the noun prefixes). Word-final: vowels or consonants both occur. Clusters arise from gemination and from stem plus suffix. Native roots are typically triconsonantal (some biconsonantal and quadriliteral). Native Berber words do not contain p (only in loans), and v is a loan or allophone. Gemination occurs only between vowels or at the margins. For game names, stay with CV(C) syllables, optional geminates inside the word, an initial vowel from the nominal prefix, and avoid unusual clusters of more than two consonants.",
+ "orthography": "Scholarly Latin transliteration as used in Berber studies (Kabyle/Tashelhit/Tuareg grammars): a e i u for vowels; b d f g h k l m n q r s t w x y z; dotted emphatics are written d-dot, t-dot, s-dot, z-dot, r-dot (plain d t s z r in simplified ASCII); gh for voiced uvular, h for pharyngeal (h with dot), c for the voiceless palatal fricative (sh) in Kabyle transliteration, j for the voiced palatal fricative, ch/sh variants. Digraphs gh, kw, gw, sh. Geminates are written by doubling the letter (tt, dd, kk, ll). Apostrophes are not used in standard orthography. Hyphens join clitic particles (e.g., n- linkers) in some conventions. Keep to lowercase Latin letters with optional doubled consonants.",
+ "morphology": "Root-and-pattern (templatic) morphology, as in the rest of Afroasiatic. Nouns carry a gender-number prefix: masculine singular a- (also i-, u-), feminine singular t-...-t (ta-...-t, ti-...-t, tu-...-t circumfix), masculine plural i- (with -n suffix: i-...-en) or internal plural by vowel/pattern change ('broken plurals'), feminine plural ti-...-in/-in. State distinction: free state (default, with prefix) versus construct (annexed) state (prefix vowel changes or drops after prepositions and as possessed noun). Diminutives are formed with feminine circumfix t-...-t (e.g., ta-..-t) and can also denote small or endearing. Verbs: person/number/gender marked by suffix or prefix + suffix, aspect by stem vowel and gemination (aorist, perfective, imperfective, negative perfective), derivational prefixes s- (causative), m- (reciprocal), tw-/ttu- (passive), and t- plus mm- for various extensions. Agent nouns formed with a- ... prefix on verbal stem (am- 'one who', amsa-: m-...), e.g., amk-... patterns. Nominalisation with prefix am-/an-/as- (instrument or place: as- + verbal stem or mas-).",
+ "compounding": "True compounding is rare. Genitive and attributive relations are expressed analytically with the linker n 'of' (Tuareg/Tashelhit/Kabyle n; written with a following space: ixef n tmazirt). Head noun first, then n, then possessor in the construct state: aman n wasif 'water of the river'. Compound-like nouns arise by juxtaposition or with the particles u/ult/ben- 'son of' and ait 'people of/tribe of' (ait + name), uld, ag- 'son of' (Tuareg ag, ult 'daughter of'). Agentive 'X-maker' is built from a verb-derived agent noun with prefix am-/a- plus the object in the genitive: amsiwel/amdday... In practice: head noun + n + modifier.",
+ "noun_phrase_order": "Head noun first, then modifiers: noun + adjective (adjective agrees in gender and number: aman azegzaw, lit. water blue), noun + n + possessor (genitive), noun + demonstrative (-agi 'this', -nni 'that'). Numerals precede or follow depending on variety. Prepositions rather than postpositions. Order inside a name: [Head] [n] [Modifier], e.g., 'House of the Sun' = taddart n tafukt.",
+ "attested_roots": [
+  {
+   "form": "aman",
+   "gloss": "water",
+   "reconstructed": false
+  },
+  {
+   "form": "tafukt",
+   "gloss": "sun (Tashelhit/Kabyle tafukt)",
+   "reconstructed": false
+  },
+  {
+   "form": "ayyur",
+   "gloss": "moon, month",
+   "reconstructed": false
+  },
+  {
+   "form": "itri",
+   "gloss": "star",
+   "reconstructed": false
+  },
+  {
+   "form": "adrar",
+   "gloss": "mountain",
+   "reconstructed": false
+  },
+  {
+   "form": "asif",
+   "gloss": "river, valley stream",
+   "reconstructed": false
+  },
+  {
+   "form": "tamurt",
+   "gloss": "land, country, earth",
+   "reconstructed": false
+  },
+  {
+   "form": "tafuk",
+   "gloss": "sun (Tuareg/Ghadames cognate type)",
+   "reconstructed": false
+  },
+  {
+   "form": "azrem",
+   "gloss": "snake (Kabyle: azrem)",
+   "reconstructed": false
+  },
+  {
+   "form": "ighil",
+   "gloss": "arm, ridge, hill",
+   "reconstructed": false
+  },
+  {
+   "form": "izem",
+   "gloss": "lion",
+   "reconstructed": false
+  },
+  {
+   "form": "ayaz",
+   "gloss": "man; also rooster in some varieties",
+   "reconstructed": false
+  },
+  {
+   "form": "tameṭṭut",
+   "gloss": "woman, wife",
+   "reconstructed": false
+  },
+  {
+   "form": "ixf",
+   "gloss": "head (ixef in Kabyle)",
+   "reconstructed": false
+  },
+  {
+   "form": "tafat",
+   "gloss": "light, brightness",
+   "reconstructed": false
+  },
+  {
+   "form": "idis",
+   "gloss": "side, flank",
+   "reconstructed": false
+  },
+  {
+   "form": "azzar",
+   "gloss": "root, vein, fiber",
+   "reconstructed": false
+  },
+  {
+   "form": "timlilit",
+   "gloss": "white (Tashelhit adjective stem: mlil)",
+   "reconstructed": false
+  },
+  {
+   "form": "asekkur",
+   "gloss": "partridge",
+   "reconstructed": false
+  },
+  {
+   "form": "agadir",
+   "gloss": "fortified granary, wall, cliff (Tashelhit/Kabyle)",
+   "reconstructed": false
+  }
+ ],
+ "worked_examples": [
+  {
+   "english": "River Stew",
+   "name": "tagella n asif",
+   "gloss": "tagella 'stew, dish (fem. ta-...-a pattern)' + n 'of' + asif 'river'"
+  },
+  {
+   "english": "Temple of the Sun",
+   "name": "taddart n tafukt",
+   "gloss": "taddart 'house, dwelling (fem.)' + n 'of' + tafukt 'sun'"
+  },
+  {
+   "english": "Mountain Lion",
+   "name": "izem n adrar",
+   "gloss": "izem 'lion' + n 'of' + adrar 'mountain'"
+  },
+  {
+   "english": "Moon Water",
+   "name": "aman n ayyur",
+   "gloss": "aman 'water' + n 'of' + ayyur 'moon'"
+  },
+  {
+   "english": "Hill of the Partridge",
+   "name": "ighil n usekkur",
+   "gloss": "ighil 'ridge, hill' + n 'of' + usekkur 'partridge' (construct state: a- changes to u-)"
+  },
+  {
+   "english": "Star Cliff",
+   "name": "agadir n itri",
+   "gloss": "agadir 'cliff, wall' + n 'of' + itri 'star'"
+  }
+ ],
+ "allowed_graphemes": [
+  "a",
+  "b",
+  "c",
+  "d",
+  "e",
+  "f",
+  "g",
+  "gh",
+  "h",
+  "i",
+  "j",
+  "k",
+  "kw",
+  "gw",
+  "l",
+  "m",
+  "n",
+  "q",
+  "r",
+  "s",
+  "sh",
+  "t",
+  "u",
+  "w",
+  "x",
+  "y",
+  "z",
+  "tt",
+  "dd",
+  "kk",
+  "ll",
+  "mm",
+  "nn",
+  "rr",
+  "ss",
+  "zz"
+ ],
+ "extra_allowed_chars": " -",
+ "forbidden_patterns": [
+  "[ptv]\\b",
+  "p",
+  "v",
+  "o",
+  "[aeiou]{3,}",
+  "[bcdfghjklmnqrstwxyz]{4,}",
+  "(.)\\1\\1",
+  "\\bgh[^aeiu]",
+  "q[^aiu]"
+ ],
+ "syllables_per_word": [
+  2,
+  3,
+  4
+ ],
+ "max_word_length": 14,
+ "sources": [
+  "Kossmann, Maarten. 1999. Essai sur la phonologie du proto-berbere. Koln: Rudiger Koppe",
+  "Kossmann, Maarten. 2013. The Arabic Influence on Northern Berber. Leiden: Brill",
+  "Chaker, Salem. Berber grammar and lexicon in Encyclopedie berbere",
+  "Galand, Lionel. 2010. Regards sur le berbere. Milan: Centro Studi Camito-Semitici",
+  "Basset, Andre. 1952. La langue berbere. London: Oxford University Press",
+  "Prasse, Karl-G. 1972-74. Manuel de grammaire touaregue (tahaggart). Copenhagen: Akademisk Forlag",
+  "Dallet, Jean-Marie. 1982. Dictionnaire kabyle-francais. Paris: SELAF",
+  "Destaing, Edmond. 1938. Dictionnaire francais-berbere (dialecte des Beni-Snous). Paris: Leroux",
+  "Starling database (Starostin): Afroasiatic and Berber etymologies",
+  "Glottolog and ASJP: Berber language list",
+  "Ehret, Christopher. 1995. Reconstructing Proto-Afroasiatic. Berkeley: University of California Press",
+  "Hublin, Jean-Jacques et al. / van de Loosdrecht, Marieke et al. 2018. Science 360: 548-552 (Taforalt ancient DNA)",
+  "Barton, Nick et al. on Iberomaurusian archaeology (Taforalt, Afalou, Oranian, Cyrenaica)"
+ ],
+ "notes": "The link between the Iberomaurusian and Berber is very speculative. Names are constructed from attested Berber words and patterns as a plausible regional stand-in, not as a claim about Upper Paleolithic speech. Berber varieties differ substantially; the roots above are the better-attested, widely shared forms and are not reconstructed. Dotted emphatic consonants and pharyngeal letters are simplified to plain Latin letters for the audit. Use the prefix and circumfix system (a-/i-/u-, ta-...-t) for noun-like names and n to link genitives. No word may be identical to a Modern Irish, Scottish Gaelic or Manx word since this culture is not Goidelic.",
+ "unit": "Iberomaurusian",
+ "slug": "iberomaurusian",
+ "model": "claude-sonnet-5-5"
+}

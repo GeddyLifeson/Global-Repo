@@ -1,0 +1,180 @@
+{
+ "proxy_language": "Middle Egyptian (Late Egyptian-influenced New Kingdom court register), written in standard Egyptological transliteration",
+ "confidence": "high",
+ "proxy_rationale": "'The River Court' is a later court in the Nile valley, which maps directly onto the pharaonic court. Egyptian is richly attested (Middle Egyptian grammar of Gardiner; Late Egyptian of Erman, Cerny and Groll, Junge). Names are built in conventional Egyptological transliteration, with vowels supplied by the convention of inserting e between consonants or using a/i/u for semi-consonants; the game's current strings (Bifubi n nahajuj etc.) mimic this poorly, though the n genitival linker is a real feature (n 'of').",
+ "phonology": "Consonants (Egyptological transliteration): 3 (glottal/alef), j (i), ʿ (ayin), w, b, p, f, m, n, r, h, ḥ, ḫ, ẖ, s, š, q (ḳ), k, t, ṯ, d, ḏ. Vowels are not written in hieroglyphic; conventional realization is e, with a, i, u for weak radicals. Triconsonantal and biconsonantal roots; Afroasiatic.",
+ "phonotactics": "Reconstructed syllable shapes CV, CVC, CVCC; no initial vowel (3 or ʿ or j commence 'vowel-initial' words); no initial clusters in the conventional pronunciation. Words of 1 to 3 syllables, with names rarely longer. Conventional Egyptological pronunciation inserts e between consonants (nfr = nefer, ḥtp = hetep, rʿ = ra). Stress is not marked.",
+ "orthography": "Egyptological transliteration (Latin with diacritics: 3, j, ʿ, ḥ, ḫ, ẖ, š, ṯ, ḏ) or its pronounced conventional form (Ra, Amun, Hetepu, Nefer, Khenti). For the game, use the conventional pronounceable form: consonants plus inserted e, with a/i/u for weak radicals; sh for š, kh for ḫ, h for ḥ, ch/th/dj for ẖ/ṯ/ḏ as optional; q for ḳ.",
+ "morphology": "Roots are consonantal (mostly 2 or 3 radicals) with vocalic patterns mostly unwritten. Nouns have masculine (zero) and feminine (-t) gender, singular, dual (-wj, -tj) and plural (-w, -wt). Adjectives follow nouns and agree in gender and number. Suffix pronouns (-j 1sg, -k 2m, -f 3m, -s 3f, -n 1pl, -sn 3pl) give possession. The infinitive uses -t endings, and participles use -ntj or the perfective and imperfective forms. Prefix m- derives nouns of place, instrument or agent (mrj 'beloved', mdḥ). Prefix s- is causative (sʿnḫ 'make live', sḥtp 'pacify'). Reduplication marks intensity or plural of verbs.",
+ "compounding": "Egyptian has no true fused compounds, but name and title formations are common. Direct genitive (juxtaposed head plus dependent): pr-ʿ3 'great house'; ḥm-nṯr 'servant of god' (priest); ḥr-ʿḥ 'Horus of the palace'. Indirect genitive with the linker n (masc. sg) or nt (fem. sg): pr n nṯr 'house of the god'; ḥwt nt rʿ 'estate of Ra'. Titles: ḥm 'servant', jmj-rʾ 'overseer', sš 'scribe', ḥrj 'chief', jrj 'doer/keeper of' (jrj-ʿ3 'doorkeeper'). Agent nouns: sš + object, ʿnḫ + dependent. Theophoric names: divine name plus predicate (Ptaḥ-ḥtp 'Ptah is content'). Place and building names: ḥwt 'enclosure/temple', pr 'house', ḏdw 'pillar', jnb 'wall', mnnw 'fortress'.",
+ "noun_phrase_order": "Head noun first, then modifier. Adjective follows the noun (pr ʿ3 'great house'). Genitive follows the head (nb tꜢwj 'lord of the two lands'). Demonstratives (pn, tn, pꜢ, tꜢ) follow (Middle Egyptian) or precede with the article (Late Egyptian pꜢ pr 'the house'). Numerals follow the noun. Possessive suffix on the head noun (pr-j 'my house').",
+ "attested_roots": [
+  {
+   "form": "rʿ",
+   "gloss": "sun, the sun god Ra",
+   "reconstructed": false
+  },
+  {
+   "form": "jtrw",
+   "gloss": "river (Nile)",
+   "reconstructed": false
+  },
+  {
+   "form": "pr",
+   "gloss": "house",
+   "reconstructed": false
+  },
+  {
+   "form": "ḥwt",
+   "gloss": "enclosure, temple, estate",
+   "reconstructed": false
+  },
+  {
+   "form": "nṯr",
+   "gloss": "god",
+   "reconstructed": false
+  },
+  {
+   "form": "nb",
+   "gloss": "lord, all",
+   "reconstructed": false
+  },
+  {
+   "form": "nfr",
+   "gloss": "good, beautiful",
+   "reconstructed": false
+  },
+  {
+   "form": "ʿ3",
+   "gloss": "great",
+   "reconstructed": false
+  },
+  {
+   "form": "mw",
+   "gloss": "water",
+   "reconstructed": false
+  },
+  {
+   "form": "ḥtp",
+   "gloss": "offering, peace, to be content",
+   "reconstructed": false
+  },
+  {
+   "form": "kꜢ",
+   "gloss": "vital force, spirit",
+   "reconstructed": false
+  },
+  {
+   "form": "ʿnḫ",
+   "gloss": "life, to live",
+   "reconstructed": false
+  },
+  {
+   "form": "sš",
+   "gloss": "scribe",
+   "reconstructed": false
+  },
+  {
+   "form": "ḥm",
+   "gloss": "servant, majesty",
+   "reconstructed": false
+  },
+  {
+   "form": "jnb",
+   "gloss": "wall",
+   "reconstructed": false
+  },
+  {
+   "form": "ḏbꜢ",
+   "gloss": "ship, boat (dpt)",
+   "reconstructed": false
+  }
+ ],
+ "worked_examples": [
+  {
+   "english": "House of the River",
+   "name": "Per en Iteru",
+   "gloss": "pr n jtrw: house + of + river (indirect genitive)"
+  },
+  {
+   "english": "Temple of the Sun",
+   "name": "Hewet en Ra",
+   "gloss": "ḥwt n rʿ: temple + of + Ra"
+  },
+  {
+   "english": "Great House",
+   "name": "Per-aa",
+   "gloss": "pr-ʿ3: house + great (adjective follows noun)"
+  },
+  {
+   "english": "Good Water",
+   "name": "Mu nefer",
+   "gloss": "mw nfr: water + good"
+  },
+  {
+   "english": "Servant of the God",
+   "name": "Hem-netjer",
+   "gloss": "ḥm-nṯr: servant + god (direct genitive)"
+  },
+  {
+   "english": "Lord of Life",
+   "name": "Neb ankh",
+   "gloss": "nb ʿnḫ: lord + life (direct genitive)"
+  }
+ ],
+ "allowed_graphemes": [
+  "a",
+  "b",
+  "d",
+  "dj",
+  "e",
+  "f",
+  "h",
+  "i",
+  "j",
+  "k",
+  "kh",
+  "m",
+  "n",
+  "p",
+  "q",
+  "r",
+  "s",
+  "sh",
+  "t",
+  "th",
+  "u",
+  "w",
+  "aa",
+  "ch"
+ ],
+ "extra_allowed_chars": " -'",
+ "forbidden_patterns": [
+  "^[aeiou]{2,}$",
+  "[cvxz]",
+  "(.)\\1\\1",
+  "[bdfgkmnpqrstw]{4,}",
+  "[ptkqbdf]{3,}",
+  "^[nrmt]{2}[^aeiou]"
+ ],
+ "syllables_per_word": [
+  1,
+  2,
+  3
+ ],
+ "max_word_length": 14,
+ "sources": [
+  "Alan H. Gardiner, Egyptian Grammar (3rd ed.), 1957",
+  "James P. Allen, Middle Egyptian: An Introduction to the Language and Culture of Hieroglyphs, 2014",
+  "Adolf Erman and Hermann Grapow, Woerterbuch der aegyptischen Sprache, 1926-1961",
+  "Raymond O. Faulkner, A Concise Dictionary of Middle Egyptian, 1962",
+  "Hermann Ranke, Die aegyptischen Personennamen, 1935-1977",
+  "Jaroslav Cerny and Sarah Israelit Groll, A Late Egyptian Grammar, 1975",
+  "Antonio Loprieno, Ancient Egyptian: A Linguistic Introduction, 1995",
+  "Thesaurus Linguae Aegyptiae (TLA), BBAW"
+ ],
+ "notes": "Hieroglyphic writing omits vowels; the game form uses the conventional pronounceable Egyptological rendering (e inserted between consonants). The current strings use b, f, q, w and j, which are valid, but real Egyptian lacks g, l and v and treats the sound of c, x and z differently. The linker n is correct for 'of'. The vowel-final pattern (-i, -u) is conventional for names such as Hetepu or Nefertari but not required. No word may be identical to a Modern Irish, Scottish Gaelic or Manx word since the language is not Goidelic. Avoid using the Diaithiris note since this culture is not the Diaithiris.",
+ "unit": "The River Court",
+ "slug": "the_river_court",
+ "model": "claude-sonnet-5-5"
+}

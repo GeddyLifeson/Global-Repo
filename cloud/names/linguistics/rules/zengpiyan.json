@@ -1,0 +1,187 @@
+{
+ "proxy_language": "Proto-Kra-Dai / Proto-Tai (with Proto-Hmong-Mien and Proto-Austroasiatic as competing alternatives)",
+ "confidence": "speculative",
+ "proxy_rationale": "Zengpiyan (Guilin, Guangxi, c. 12,000-7,000 BP) is an archaeological culture with no linguistic record. Guangxi was historically Kra-Dai (Zhuang) territory, and Kra-Dai is the best-known language family of the region, but Kra-Dai is thought to have expanded from the coast or Lingnan only in the Neolithic-Bronze Age. Hmong-Mien and Austroasiatic are also plausible earlier occupants, and a lost isolate is possible. We therefore use reconstructed Proto-Tai (Pittayaporn 2009) and Proto-Kra-Dai (Ostapirat 2000) as a plain, internally consistent phonological model, flagged as a stand-in rather than an identification.",
+ "phonology": "Proto-Tai (Pittayaporn 2009) consonants: stops *p *t *c *k *? and voiced *b *d *ɟ *g; implosives *ɓ *ɗ; fricatives *s *h *f *ɬ-type clusters in some reconstructions; nasals *m *n *ɲ *ŋ; liquids/glides *l *r *w *j. Vowels: *i *ɨ *u *e *ə *o *ɛ *a *ɔ with length contrast; diphthongs *ia *ɨa *ua. Three-to-four tone categories (A, B, C, D) arise from voicing and final-consonant splits. For naming, a simplified Zhuang-like phoneme set is used.",
+ "phonotactics": "Mostly monosyllabic roots (CV(C)) with a sesquisyllabic tendency in Kra and Austroasiatic neighbors. Syllable shape (C)(C)V(V)(C). Initial clusters are limited (stop+l/r/w, e.g. kl, kr, kw, pl). Finals are restricted to *-p *-t *-k *-m *-n *-ŋ *-w *-j *-?; no voiced stops or fricatives in final position. Tones are not written in the scholarly reconstruction, so tone letters are omitted in names.",
+ "orthography": "Plain Latin script modeled on Zhuang (1982 Latinized Zhuang) and Pittayaporn's Proto-Tai notation simplified for readability. Digraphs: ng, ny, kh, ph, th (aspirates), gv or kw for labialized velar, ae for the open front vowel. Vowels a e i o u plus ae/aw. No tone letters. Asterisks apply only to the labeled reconstructed forms in the roots list.",
+ "morphology": "Isolating and analytic: little or no inflection, no case, no gender. Words are single morphemes or compounds. Limited derivational prefixes (a-, ta-, ma- nominal prefixes in Tai; classifier-like heads such as *ʔdaj / *kaj 'chicken, general animate'). Reduplication marks plurality or diminution in later stages but is not securely reconstructed. Numerals and classifiers precede or follow nouns depending on stage.",
+ "compounding": "Head-initial: the head noun comes first, the modifier follows (Tai type: 'water river' pattern). Genitive/possession: possessed + possessor (e.g. 'house' + 'chief' = chief's house). 'X of Y' = X Y, with no linker. Agent/maker names use a head noun meaning 'person/master' + verb or noun, e.g. 'person fish' for fisher. Adjectives and demonstratives follow the noun. Names of places and objects are formed by head noun + modifier (Zhuang bya 'mountain', rungh 'cave').",
+ "noun_phrase_order": "Noun + modifier (adjective, possessor, demonstrative, number-classifier order varies). Head-initial throughout.",
+ "attested_roots": [
+  {
+   "form": "*mom",
+   "gloss": "water (Proto-Tai *ʔdaːm / Proto-Kra-Dai *nam; Zhuang raemx)",
+   "reconstructed": true
+  },
+  {
+   "form": "nam",
+   "gloss": "water (Tai)",
+   "reconstructed": false
+  },
+  {
+   "form": "rungh",
+   "gloss": "cave, hole (Zhuang)",
+   "reconstructed": false
+  },
+  {
+   "form": "bya",
+   "gloss": "mountain, rock (Zhuang)",
+   "reconstructed": false
+  },
+  {
+   "form": "*pla",
+   "gloss": "fish (Proto-Tai)",
+   "reconstructed": true
+  },
+  {
+   "form": "*kai",
+   "gloss": "chicken (Proto-Tai)",
+   "reconstructed": true
+  },
+  {
+   "form": "*fɨn",
+   "gloss": "rain / fire-wood (Proto-Tai *fon rain)",
+   "reconstructed": true
+  },
+  {
+   "form": "*ʔdaj",
+   "gloss": "earth, ground (Proto-Tai *ɗin)",
+   "reconstructed": true
+  },
+  {
+   "form": "*taj",
+   "gloss": "die, dead (Proto-Tai)",
+   "reconstructed": true
+  },
+  {
+   "form": "*raːn",
+   "gloss": "house (Proto-Tai *rɨan)",
+   "reconstructed": true
+  },
+  {
+   "form": "*kaw",
+   "gloss": "rice, grain (Proto-Tai *khaw)",
+   "reconstructed": true
+  },
+  {
+   "form": "*maj",
+   "gloss": "tree, wood (Proto-Tai *maj)",
+   "reconstructed": true
+  },
+  {
+   "form": "*waj",
+   "gloss": "snail shell (cf. Zhuang)",
+   "reconstructed": true
+  },
+  {
+   "form": "*ʔdaw",
+   "gloss": "star (Proto-Tai)",
+   "reconstructed": true
+  },
+  {
+   "form": "fai",
+   "gloss": "fire (Tai *fɯj)",
+   "reconstructed": false
+  },
+  {
+   "form": "*khaw",
+   "gloss": "mountain, hill (Proto-Tai *kʰaw)",
+   "reconstructed": true
+  }
+ ],
+ "worked_examples": [
+  {
+   "english": "Cave of the Fish",
+   "name": "Rung Pla",
+   "gloss": "rung 'cave' + pla 'fish' (head-initial)"
+  },
+  {
+   "english": "Water Snail",
+   "name": "Nam Waj",
+   "gloss": "nam 'water' + waj 'snail shell'"
+  },
+  {
+   "english": "Rice House",
+   "name": "Ran Kaw",
+   "gloss": "ran 'house' + kaw 'rice'"
+  },
+  {
+   "english": "Fire Mountain",
+   "name": "Bya Fai",
+   "gloss": "bya 'mountain' + fai 'fire'"
+  },
+  {
+   "english": "Star Tree",
+   "name": "Mai Dao",
+   "gloss": "mai 'tree' + dao 'star'"
+  },
+  {
+   "english": "Rain Cave",
+   "name": "Rung Fon",
+   "gloss": "rung 'cave' + fon 'rain'"
+  }
+ ],
+ "allowed_graphemes": [
+  "p",
+  "t",
+  "k",
+  "b",
+  "d",
+  "g",
+  "m",
+  "n",
+  "ng",
+  "ny",
+  "s",
+  "h",
+  "f",
+  "l",
+  "r",
+  "w",
+  "y",
+  "kh",
+  "ph",
+  "th",
+  "kw",
+  "pl",
+  "kl",
+  "a",
+  "e",
+  "i",
+  "o",
+  "u",
+  "ae",
+  "aw",
+  "ai",
+  "au"
+ ],
+ "extra_allowed_chars": " -",
+ "forbidden_patterns": [
+  "[bdgfsh]$",
+  "(.)\\1\\1",
+  "[aeiou]{4}",
+  "^[ptkbdgmnlrwyshf]{3}",
+  "q|x|z|c(?!h)",
+  "v",
+  "j"
+ ],
+ "syllables_per_word": [
+  1,
+  2
+ ],
+ "max_word_length": 10,
+ "sources": [
+  "Pittayaporn, Pittayawat. The Phonology of Proto-Tai (PhD thesis, Cornell University), 2009",
+  "Ostapirat, Weera. Proto-Kra, Linguistics of the Tibeto-Burman Area 23(1), 2000",
+  "Li Fang-Kuei. A Handbook of Comparative Tai, University of Hawaii Press, 1977",
+  "Solnit, David. Eastern Kayah Li and comparative Tai-Kadai notes (reference); Zhuang standard grammar (Wei Qingwen)",
+  "Starling database, Kra-Dai etymologies",
+  "Glottolog: Kra-Dai, Hmong-Mien and Austroasiatic family pages",
+  "Zhang Zengqi et al., Guilin Zengpiyan excavation reports (Chinese archaeological literature)"
+ ],
+ "notes": "No word may be identical to a Modern Irish, Scottish Gaelic or Manx word. Zengpiyan has no linguistic documentation; every form here is a model drawn from Proto-Tai and Zhuang, not a claim about the people's actual speech. Names should stay short, head-initial and monosyllable-based, with Zengpiyan's cave, shell and river setting reflected through roots like rung (cave), waj (shell) and nam (water).",
+ "unit": "Zengpiyan",
+ "slug": "zengpiyan",
+ "model": "claude-sonnet-5-5"
+}
