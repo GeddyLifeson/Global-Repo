@@ -1,5 +1,5 @@
 #!/bin/bash
-# S0312 srvup.sh SRV LOG : boot a NeoForge server and leave it running; commands go to LOG.in (use cmd.sh). Prints Done/failed line.
+# S0331 srvup.sh SRV LOG : boot a NeoForge server and leave it running; commands go to LOG.in (use cmd.sh). Prints Done/failed line.
 # Env: JAVA_HOME (default /tmp/claude-0/jdk25), NF (NeoForge version, default: auto-detect from SRV/libraries), XMX (default 2500M), WAIT (default 900 s).
 SRV=$1 LOG=$2; cd "$SRV" || exit 1; LOG=$(realpath -m "$LOG")
 export PATH=${JAVA_HOME:-/tmp/claude-0/jdk25}/bin:$PATH

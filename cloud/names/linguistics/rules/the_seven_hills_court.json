@@ -1,0 +1,194 @@
+{
+ "proxy_language": "Classical Latin (with Etruscan as secondary substrate for Etruria)",
+ "confidence": "high",
+ "proxy_rationale": "The Seven-Hills Court (Rome, Latium, Etruria; later court period) is best matched by attested Classical/Republican-Imperial Latin, a richly documented language with full grammars, dictionaries and inscriptions. Etruscan (also attested, but only partly understood) is a defensible secondary proxy for Etruria-flavoured names. Latin is the primary proxy because the 'Seven Hills' court is Roman.",
+ "phonology": "Classical Latin vowels: short a e i o u and long ā ē ī ō ū; diphthongs ae, au, oe (rare: eu, ui). Consonants: stops p b t d c/k g (c always /k/), qu /kw/, gu /gw/ (after n); fricatives f s h (weak); nasals m n; liquids l r; glides i /j/ and v /w/; x /ks/; z only in Greek loans; ph th ch rare in Greek loans. Stress is penultimate if the penult is heavy (long vowel or closed syllable), else antepenultimate; stress is not written. Etruscan (secondary): 4 vowels a e i u, voiceless stops with aspirates (θ φ χ), s ś z, m n l r, v.",
+ "phonotactics": "Syllable shapes (C)(C)V(C)(C); onset clusters of stop or f + l/r (pl, bl, cl, gl, fl, pr, br, tr, dr, cr, gr, fr), s + stop (sp, st, sc), sc/sp/st + r/l (str, spl, scr); no word-initial ng, nn, ll, rr. Word-final consonants limited to -s, -m, -t, -r, -l, -n, -c, -d; native words rarely end in -p, -b, -g, -f. Nominatives end in -a, -us, -um, -er, -is, -s/-x, -or, -o/-io, -es. Intervocalic h essentially absent; gemination (ll, ss, tt, nn, rr, cc) occurs word-internally.",
+ "orthography": "Standard classical Latin spelling in lowercase Latin script: letters a b c d e f g h i k(rare) l m n o p q r s t u v x y z. Use v for consonantal u (vir, Venus, via); i serves for both vowel and glide (Iuppiter, Iulius), though j may be used by older convention. Macrons for long vowels are optional and not part of normal spelling. No w. Digraphs/clusters: qu, gu, ph, th, ch (Greek), ae, oe, au.",
+ "morphology": "Highly inflected, suffixing. Five declensions (1st -a/-ae; 2nd -us/-um, -er/-ī; 3rd consonant and i-stems with -is genitive; 4th -us/-ūs; 5th -ēs/-eī). Cases: nominative, genitive, dative, accusative, ablative, vocative (locative relic). Three genders. Adjectives agree in gender, number and case. Verbs: four conjugations, tense/mood/voice suffixes. Derivation by suffix: -tor/-trix (agent: aedificator 'builder', victrix), -ium (collective/place/abstract: collegium), -ia (abstract: Victoria), -ilis/-bilis (adjective: nobilis), -ensis (of a place: Romanus, Hostiensis), -arius (professional: faber, aquarius 'water-man'), -ulus/-olus/-culus (diminutive: parvulus), -etum (grove: arbustum, quercetum), -ina (workshop/place: tabernina, officina), -men/-mentum (result/instrument: flumen, fundamentum), -tas (abstract: libertas). Prefixes: in-, con-, per-, pro-, sub-, ab-, ex-.",
+ "compounding": "True compounding is rare and mostly poetic or Greek-influenced (agricola 'field-tiller', signifer 'standard-bearer', armiger, aedifex, triumvir). Noun compounds typically have a linking -i- (agri-cola, sacri-fex, pontifex 'bridge-maker'), head last. Normal naming uses a head noun plus genitive ('Templum Solis' temple of the Sun, 'Porta Capena', 'Via Appia' by adjective) or noun plus adjective ('Mare Nostrum', 'Forum Romanum', 'Mons Palatinus'). 'Y-maker' is expressed by -tor/-ifex/-fex/-arius derivatives or genitive plus agent noun; Etruscan secondary: genitive in -s/-si/-l, suffix -ale/-ial.",
+ "noun_phrase_order": "Flexible, but unmarked is head noun first for place/institution names with a genitive or adjective following (Templum Iovis, Aqua Marcia, Forum Boarium, Domus Aurea). Adjectives of quality often precede the noun in literary prose; numerals and demonstratives precede. Genitive dependent normally follows the head. Agreement of gender/number/case is mandatory, so name builders must inflect adjectives to match (nominative singular: aqua clara, mons altus, templum magnum, porta nova).",
+ "attested_roots": [
+  {
+   "form": "aqua",
+   "gloss": "water",
+   "reconstructed": false
+  },
+  {
+   "form": "mons",
+   "gloss": "mountain, hill (gen. montis)",
+   "reconstructed": false
+  },
+  {
+   "form": "collis",
+   "gloss": "hill",
+   "reconstructed": false
+  },
+  {
+   "form": "porta",
+   "gloss": "gate",
+   "reconstructed": false
+  },
+  {
+   "form": "templum",
+   "gloss": "temple, consecrated space",
+   "reconstructed": false
+  },
+  {
+   "form": "forum",
+   "gloss": "marketplace, public square",
+   "reconstructed": false
+  },
+  {
+   "form": "domus",
+   "gloss": "house, household",
+   "reconstructed": false
+  },
+  {
+   "form": "via",
+   "gloss": "road",
+   "reconstructed": false
+  },
+  {
+   "form": "pons",
+   "gloss": "bridge (gen. pontis)",
+   "reconstructed": false
+  },
+  {
+   "form": "sol",
+   "gloss": "sun (gen. solis)",
+   "reconstructed": false
+  },
+  {
+   "form": "luna",
+   "gloss": "moon",
+   "reconstructed": false
+  },
+  {
+   "form": "ignis",
+   "gloss": "fire",
+   "reconstructed": false
+  },
+  {
+   "form": "panis",
+   "gloss": "bread",
+   "reconstructed": false
+  },
+  {
+   "form": "vinum",
+   "gloss": "wine",
+   "reconstructed": false
+  },
+  {
+   "form": "oleum",
+   "gloss": "olive oil",
+   "reconstructed": false
+  },
+  {
+   "form": "nauis",
+   "gloss": "ship",
+   "reconstructed": false
+  }
+ ],
+ "worked_examples": [
+  {
+   "english": "Temple of the Sun",
+   "name": "Templum Solis",
+   "gloss": "templum 'temple' (nom. sg. neut.) + Solis 'of the sun' (gen. sg. of sol)"
+  },
+  {
+   "english": "Great Gate",
+   "name": "Porta Magna",
+   "gloss": "porta 'gate' (nom. sg. fem.) + magna 'great' (fem. nom. sg., agrees with porta)"
+  },
+  {
+   "english": "Bridge-Maker (high priest)",
+   "name": "Pontifex",
+   "gloss": "pont- 'bridge' + -i- linker + -fex '-maker' (from facere)"
+  },
+  {
+   "english": "Water Road",
+   "name": "Via Aquae",
+   "gloss": "via 'road' (nom. sg. fem.) + aquae 'of water' (gen. sg. of aqua)"
+  },
+  {
+   "english": "New Forum",
+   "name": "Forum Novum",
+   "gloss": "forum 'forum' (nom. sg. neut.) + novum 'new' (neut. nom. sg.)"
+  },
+  {
+   "english": "House of the Fire Keepers",
+   "name": "Domus Ignifera",
+   "gloss": "domus 'house' (nom. sg. fem.) + ignifera 'fire-bearing' (ign- 'fire' + -i- + -fera, feminine agreeing with domus)"
+  }
+ ],
+ "allowed_graphemes": [
+  "a",
+  "b",
+  "c",
+  "d",
+  "e",
+  "f",
+  "g",
+  "h",
+  "i",
+  "l",
+  "m",
+  "n",
+  "o",
+  "p",
+  "q",
+  "qu",
+  "r",
+  "s",
+  "t",
+  "u",
+  "v",
+  "x",
+  "y",
+  "z",
+  "ae",
+  "oe",
+  "au",
+  "ch",
+  "ph",
+  "th",
+  "gu"
+ ],
+ "extra_allowed_chars": " -",
+ "forbidden_patterns": [
+  "w",
+  "k",
+  "j",
+  "[bcdfghlmnpqrstvx]{4}",
+  "^[ng]{2}",
+  "^(ng|nn|ll|rr|mb|nd)",
+  "[^aeiouy]{3}$",
+  "(.)\\1\\1",
+  "[aeiou]{4}",
+  "q(?!u)",
+  "ii",
+  "uu",
+  "[bdfgp]$"
+ ],
+ "syllables_per_word": [
+  2,
+  5
+ ],
+ "max_word_length": 14,
+ "sources": [
+  "Allen, W. Sidney, Vox Latina: A Guide to the Pronunciation of Classical Latin (1978)",
+  "Allen & Greenough, New Latin Grammar (1903)",
+  "Weiss, Michael, Outline of the Historical and Comparative Grammar of Latin (2009)",
+  "Lewis & Short, A Latin Dictionary (1879)",
+  "Oxford Latin Dictionary, ed. P. G. W. Glare (1968-82)",
+  "Sihler, Andrew L., New Comparative Grammar of Greek and Latin (1995)",
+  "Bonfante, Giuliano & Larissa, The Etruscan Language: An Introduction (2002)",
+  "Rix, Helmut, Etruskische Texte / Thesaurus Linguae Etruscae",
+  "Wiktionary Latin entries and Glottolog (Latin, Etruscan)"
+ ],
+ "notes": "No word may be identical to a Modern Irish, Scottish Gaelic or Manx word unless the language is Goidelic; here Latin forms are shared by no Goidelic words except established loans, so check against Gaelic lists. Use Latin primarily; for Etruscan-flavoured names use attested Etruscan roots (e.g. lauchume 'king', zilath 'magistrate', tular 'boundary', spur 'city', avil 'year') and its Etruscan-style endings, mark as secondary. The current game strings (Gelsora hirlada, Dehire foga, Pibo, Tadil, Figabe, Tapsu) are not Latin-shaped; they should be replaced with real inflected Latin words or phrases. Keep final consonants within the allowed set and ensure adjective-noun gender agreement.",
+ "unit": "The Seven-Hills Court",
+ "slug": "the_seven_hills_court",
+ "model": "claude-sonnet-5-5"
+}

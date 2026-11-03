@@ -1,0 +1,187 @@
+{
+ "proxy_language": "Proto-Indo-European (late/Northwest-adjacent dialect stage) used as a deliberately weak stand-in; nothing is known of Ahrensburgian speech",
+ "confidence": "speculative",
+ "proxy_rationale": "The Ahrensburgian (c. 12,900-11,700 BP, Younger Dryas reindeer hunters of the N European Plain and S Scandinavia) is known only from lithics (tanged Havelte/Ahrensburg points), reindeer-hunting sites (Stellmoor) and Meiendorf-type camps. No language is recoverable, and the later languages of the region (Germanic, Baltic, Uralic, Saami, pre-IE substrates) cannot be projected back 13,000 years. As a game convention, a reconstructed root-based language with well-documented morphology is the most defensible tool; PIE is used with explicit acknowledgment that the link is purely conventional and that a pre-Indo-European/unknown language is far more likely in reality. Names are built from reconstructed roots (asterisked) in scholarly PIE notation with simplified laryngeal-free transliteration.",
+ "phonology": "Reconstructed PIE (Fortson/Beekes style): stops *p *t *k *k' (palatovelar, written ḱ) *kʷ; voiced *b *d *g *ǵ *gʷ (rare *b); aspirated *bʰ *dʰ *gʰ *ǵʰ *gʷʰ; fricative *s; sonorants *m *n *l *r *y(j) *w; laryngeals *h1 *h2 *h3 (omitted or written h1/h2/h3 sparingly); vowels *e *o *a (rare) *i *u with length (ē ō ā). Stress was pitch-accented and mobile, but is not written.",
+ "phonotactics": "Syllable structure (C)(C)V(C)(C) with sonorant/obstruent nucleus alternations (*i/y, *u/w, *r̥ *l̥ *m̥ *n̥ as syllabic). Roots are typically CeC, with e as the basic vowel and o/zero grade in derivatives. Onset clusters mostly s+stop, stop+liquid/glide; no *b-heavy or voiced-aspirate+voiced-aspirate roots (Bartholomae/Grassmann-type root constraints: no two plain voiced stops, no *d...g clusters). Nominative -s, no word-final voiced obstruents in practice. Words rarely begin with a vowel except laryngeal-initial roots.",
+ "orthography": "Scholarly PIE reconstruction notation in Latin script, simplified for the game: ḱ ǵ ǵʰ for palatovelars, kʷ gʷ gʰ bʰ dʰ for labiovelar/aspirates, vowels e o a i u with macrons (ē ō ā) optional, syllabic sonorants written with ringed or plain vowel+sonorant (r̥ as 'r' with ring or as 'ṛ'); asterisk dropped in names. In plain-ASCII fallback use k' for ḱ, g' for ǵ, kw, gw, gh, bh, dh.",
+ "morphology": "Root + thematic vowel (-e/-o-) or athematic suffixes; ablaut e/o/zero grade. Nouns: nominative -s, accusative -m, genitive -(o)s/-es/-os or -syo (thematic), locative -i, ablative -(o)s/-ed (thematic), instrumental -(e)h1, plural -es/-os, neuter -m/-Ø. Derivation: agent -tor/-ter (*-ter), instrument -tro-/-dʰlo-, abstract -ti-, adjectives -(i)ó-, -ent-/-nt- participles, patronymic/possessive -yo-. No reduplication needed except perfective/intensive roots (e.g. *de-dʰeh1-).",
+ "compounding": "Head-final determinative (tatpurusha) and possessive (bahuvrihi) compounds with compositional -o- linking vowel: first member as stem (often -o- stem) + head. 'X of Y' is either a genitive phrase (Y-genitive X) or a compound Y-o-X. Agent names as root+*-tor/-ter or *-o- compounds ('X-maker' = X-o-dʰh1-o-/ *dʰeh1- root as second member). Bahuvrihi names like 'swift-footed' = adj. stem + noun stem + suffix.",
+ "noun_phrase_order": "Adjective before noun and agreeing in case/number/gender; genitive before head noun (Y-genitive X) in the compound/phrasal default; demonstratives precede; relative constructions not needed for names. Compounds are strictly modifier-head.",
+ "attested_roots": [
+  {
+   "form": "*h2ep-",
+   "gloss": "water, river",
+   "reconstructed": true
+  },
+  {
+   "form": "*wódr̥",
+   "gloss": "water",
+   "reconstructed": true
+  },
+  {
+   "form": "*h2eg-",
+   "gloss": "drive (animals), lead",
+   "reconstructed": true
+  },
+  {
+   "form": "*swéh1d-",
+   "gloss": "sweet, pleasant",
+   "reconstructed": true
+  },
+  {
+   "form": "*ǵʰéimo-",
+   "gloss": "winter",
+   "reconstructed": true
+  },
+  {
+   "form": "*h1ek'wo-",
+   "gloss": "horse",
+   "reconstructed": true
+  },
+  {
+   "form": "*k'erh2-",
+   "gloss": "horn, head",
+   "reconstructed": true
+  },
+  {
+   "form": "*bʰrā́tēr",
+   "gloss": "brother",
+   "reconstructed": true
+  },
+  {
+   "form": "*péh2wr̥",
+   "gloss": "fire",
+   "reconstructed": true
+  },
+  {
+   "form": "*h1óbʰi",
+   "gloss": "around, both",
+   "reconstructed": true
+  },
+  {
+   "form": "*bʰerǵʰ-",
+   "gloss": "high, mountain, hill",
+   "reconstructed": true
+  },
+  {
+   "form": "*(s)tel-",
+   "gloss": "to set, place; stand",
+   "reconstructed": true
+  },
+  {
+   "form": "*genh1-",
+   "gloss": "to beget, kin, clan",
+   "reconstructed": true
+  },
+  {
+   "form": "*gʷʰen-",
+   "gloss": "to strike, kill",
+   "reconstructed": true
+  },
+  {
+   "form": "*ḱlew-",
+   "gloss": "to hear, fame",
+   "reconstructed": true
+  },
+  {
+   "form": "*h2ster-",
+   "gloss": "star",
+   "reconstructed": true
+  }
+ ],
+ "worked_examples": [
+  {
+   "english": "River Stew",
+   "name": "Wodrosweid",
+   "gloss": "*wódr-o- 'water' + sweid(e)- 'sweet/tasty' (modifier-head compound, -o- linker)"
+  },
+  {
+   "english": "Temple of the Sun",
+   "name": "Seh2wolo Bergs",
+   "gloss": "*seh2wol- 'sun' + genitive-bahuvrihi head *bʰerǵʰ- 'high place' with nom. -s"
+  },
+  {
+   "english": "Reindeer Hunter",
+   "name": "Gwhenotor",
+   "gloss": "*gʷʰen- 'strike/kill' + agent *-tor (reindeer implied by context; no PIE reindeer root is secure)"
+  },
+  {
+   "english": "Fire-Maker",
+   "name": "Pehwr-o-dhetor",
+   "gloss": "*péh2wr̥- 'fire' + -o- linker + *dʰeh1- 'place/make' + agent -tor"
+  },
+  {
+   "english": "Winter Camp",
+   "name": "Gheimosteli",
+   "gloss": "*ǵʰéimo- 'winter' + *(s)tel- 'place' + locative -i"
+  },
+  {
+   "english": "Star-Clan",
+   "name": "Hsterogenos",
+   "gloss": "*h2ster- 'star' + -o- linker + *ǵénh1os 'kin/clan' (neuter s-stem nom.)"
+  }
+ ],
+ "allowed_graphemes": [
+  "p",
+  "t",
+  "k",
+  "kw",
+  "g",
+  "gw",
+  "b",
+  "bh",
+  "d",
+  "dh",
+  "gh",
+  "s",
+  "m",
+  "n",
+  "l",
+  "r",
+  "y",
+  "w",
+  "h",
+  "e",
+  "o",
+  "a",
+  "i",
+  "u",
+  "ē",
+  "ō",
+  "ā",
+  "ḱ",
+  "ǵ",
+  "ǵh",
+  "ṛ"
+ ],
+ "extra_allowed_chars": " -'ʷʰḱǵēōāṛṇḷ",
+ "forbidden_patterns": [
+  "^[aeiou]{3}",
+  "[qxfjzv]",
+  "(.)\\1\\1",
+  "[aeiou]{4}",
+  "bh.*bh",
+  "kw[^aeiouhrlyw]",
+  "[mnlr]{4}"
+ ],
+ "syllables_per_word": [
+  2,
+  3,
+  4
+ ],
+ "max_word_length": 14,
+ "sources": [
+  "Fortson, Indo-European Language and Culture, 2nd ed., 2010",
+  "Beekes, Comparative Indo-European Linguistics, 2011",
+  "Mallory & Adams, Encyclopedia of Indo-European Culture, 1997",
+  "Pokorny, Indogermanisches etymologisches Woerterbuch, 1959",
+  "Wiktionary Appendix: Proto-Indo-European reconstruction pages",
+  "Rimmer/Bokelmann (eds.), Ahrensburgian archaeology literature (Stellmoor, Rust)",
+  "Glottolog and ASJP (for confirming no attested linguistic link)"
+ ],
+ "notes": "No word may be identical to a Modern Irish, Scottish Gaelic or Manx word. Linguistically the Ahrensburgian is unknowable; PIE is a convention only and may not be presented as the language they spoke. The current game strings (Xubayir, Wudik, Nuxadud, etc.) violate PIE phonotactics (x, initial kw/ux clusters and invented CV-syllable fillers) and should be replaced by root-based forms.",
+ "unit": "Ahrensburgian",
+ "slug": "ahrensburgian",
+ "model": "claude-sonnet-5-5"
+}

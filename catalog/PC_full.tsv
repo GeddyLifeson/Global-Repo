@@ -1,0 +1,939 @@
+ref	path	type	name	stack	entry_points	backend	size	modified	notes
+PC0001	C:\Program Files\7-Zip\	installed-program	7-Zip 25.01 (x64)	25.01		Publisher: Igor Pavlov			
+PC0002		installed-program	Bambu Studio	02.07.01.62		Publisher: Bambulab			
+PC0003	C:\Program Files\Cockatrice	installed-program	Cockatrice	3.0.2		Publisher: Cockatrice team			
+PC0004	C:\Program Files\Blackmagic Design\DaVinci Resolve\audio\Fairlight Audio Accelerator\	installed-program	Fairlight Audio Accelerator Utility	1.0.15		Publisher: Blackmagic Design			
+PC0005	C:\Program Files\Git\	installed-program	Git	2.56.0.4		Publisher: The Git Development Community			
+PC0006	C:\Program Files\MuseHub\current\	installed-program	MuseHub	3.5.0.2378		Publisher: Muse Group			
+PC0007	C:\Program Files\Norton\Suite	installed-program	Norton 360	26.10.11201.2729		Publisher: Gen Digital Inc.			
+PC0008	C:\Program Files\Riot Vanguard	installed-program	Riot Vanguard			Publisher: Riot Games, Inc.			
+PC0009	C:\Program Files (x86)\Steam\steamapps\common\Lust for Speed	installed-program	Lust for Speed			Publisher: KG/AM			
+PC0010	C:\Program Files (x86)\Steam\steamapps\common\Come Home	installed-program	Come Home			Publisher: R.J. Rhodes			
+PC0011	C:\Program Files (x86)\Steam\steamapps\common\Skyrim Special Edition	installed-program	Skyrim Special Edition: Creation Kit			Publisher: Bethesda Game Studios			
+PC0012	C:\Program Files (x86)\Steam\steamapps\common\Prison Architect	installed-program	Prison Architect			Publisher: Introversion Software			
+PC0013	C:\Program Files (x86)\Steam\steamapps\common\Arma 3 Tools	installed-program	Arma 3 Tools			Publisher: Bohemia Interactive			
+PC0014	C:\Program Files (x86)\Steam\steamapps\common\Balatro	installed-program	Balatro			Publisher: LocalThunk			
+PC0015	C:\Program Files (x86)\Steam\steamapps\common\skyrim	installed-program	Skyrim Script Extender (SKSE)			Publisher: The SKSE Team			
+PC0016	C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine	installed-program	Wallpaper Engine			Publisher: Wallpaper Engine Team			
+PC0017		installed-program	VRChat			Publisher: VRChat Inc.			
+PC0018	C:\Program Files (x86)\Steam\steamapps\common\Skyrim Special Edition	installed-program	The Elder Scrolls V: Skyrim Special Edition			Publisher: Bethesda Game Studios			
+PC0019	E:\SteamLibrary\steamapps\common\left 4 dead 2	installed-program	Left 4 Dead 2 Authoring Tools			Publisher: Valve			
+PC0020	C:\Program Files (x86)\Steam\steamapps\common\The Divinity Engine 2	installed-program	The Divinity Engine 2			Publisher: 			
+PC0021		installed-program	Unity 6000.5.5f1	6000.5.5f1		Publisher: Unity Technologies ApS			
+PC0022		installed-program	Unity Hub 3.19.5	3.19.5		Publisher: 			
+PC0023	C:\Program Files\Epic Games\	installed-program	Epic Games Launcher	1.3.210.0		Publisher: Epic Games, Inc.			
+PC0024		installed-program	Microsoft GameInput	4.0.302.0		Publisher: Microsoft Corporation			
+PC0025		installed-program	Microsoft Visual C++ 2010  x64 Redistributable - 10.0.40219	10.0.40219		Publisher: Microsoft Corporation			
+PC0026		installed-program	GridCraft	0.4.0		Publisher: Learning Machines LLC			
+PC0027		installed-program	Microsoft .NET SDK 9.0.318 (x64) from Visual Studio	9.3.1826.42108		Publisher: Microsoft Corporation			
+PC0028		installed-program	EffectCraft	0.7.0		Publisher: Learning Machines LLC			
+PC0029		installed-program	VectorCraft	0.8.0		Publisher: Learning Machines LLC			
+PC0030	C:\Program Files\playit_gg\	installed-program	playit	1.0.10		Publisher: Developed Methods LLC			
+PC0031		installed-program	PdfCraft	0.5.0		Publisher: Learning Machines LLC			
+PC0032		installed-program	Microsoft System CLR Types for SQL Server 2019	15.0.2000.5		Publisher: Microsoft Corporation			
+PC0033		installed-program	WordCraft	0.4.0		Publisher: Learning Machines LLC			
+PC0034	C:\Program Files\MuseScore 4\	installed-program	MuseScore Studio 4	4.7.5.260831071		Publisher: MuseScore Limited			
+PC0035	"C:\Program Files (x86)\Microsoft Visual Studio\Installer"	installed-program	Microsoft Visual Studio Installer	4.10.30.62513		Publisher: Microsoft Corporation			
+PC0036	C:\Program Files\GOG Galaxy\	installed-program	GOG GALAXY	2.1.10.56		Publisher: GOG.com			
+PC0037	C:\Program Files\Blender Foundation\Blender 5.2\	installed-program	Blender	5.2.0		Publisher: Blender Foundation			
+PC0038		installed-program	Xbox Service	4.0.300.0		Publisher: Microsoft Corporation			
+PC0039		installed-program	DesignCraft	0.5.0		Publisher: Learning Machines LLC			
+PC0040		installed-program	Blackmagic RAW Common Components	6.0		Publisher: Blackmagic Design			
+PC0041		installed-program	FilmCraft	0.5.0		Publisher: Learning Machines LLC			
+PC0042	C:\Program Files\Corsair\Corsair iCUE5 Software	installed-program	Corsair iCUE5 Software	5.52.93		Publisher: Corsair			
+PC0043		installed-program	PhotoCraft	0.6.0		Publisher: Learning Machines LLC			
+PC0044	C:\Program Files\NVIDIA Corporation\Installer2\Display.NvApp.{94601779-8A49-4FFF-AC94-31C82C3C3A35}	installed-program	NVIDIA App 11.0.8.299	11.0.8.299		Publisher: NVIDIA Corporation			
+PC0045	C:\Program Files\NVIDIA Corporation\FrameViewSDK	installed-program	NVIDIA FrameView SDK 1.8.12612.38276700	1.8.12612.38276700		Publisher: NVIDIA Corporation			
+PC0046		installed-program	ArtCraft Launcher	0.1.2		Publisher: Learning Machines LLC			
+PC0047		installed-program	LightCraft	0.5.0		Publisher: Learning Machines LLC			
+PC0048		installed-program	DeckCraft	0.4.0		Publisher: Learning Machines LLC			
+PC0049		installed-program	DaVinci Resolve	21.1.10010		Publisher: Blackmagic Design			
+PC0050		installed-program	CADCraft	0.4.0		Publisher: Learning Machines LLC			
+PC0051		installed-program	DaVinci Resolve Control Panels	2.3.5.0		Publisher: Blackmagic Design			
+PC0052		installed-program	SoundCraft	0.4.0		Publisher: Learning Machines LLC			
+PC0053	C:\Program Files\Microsoft Visual Studio\2022\Community	installed-program	Visual Studio Community 2022	17.14.41		Publisher: Microsoft Corporation			
+PC0054		installed-program	MSI Afterburner 4.6.6	4.6.6		Publisher: MSI Co., LTD			
+PC0055	C:\Program Files (x86)\Battle.net	installed-program	Battle.net			Publisher: Blizzard Entertainment			
+PC0056	C:\Program Files\BraveSoftware\Brave-Browser\Application	installed-program	Brave	156.1.98.63		Publisher: Brave Software Inc			
+PC0057	C:\Program Files (x86)\Microsoft\Edge\Application	installed-program	Microsoft Edge	156.0.4314.58		Publisher: Microsoft Corporation			
+PC0058	C:\Program Files (x86)\Overwolf\	installed-program	Overwolf	0.311.1.6		Publisher: Overwolf Ltd.			
+PC0059		installed-program	RivaTuner Statistics Server 7.3.7	7.3.7		Publisher: Unwinder			
+PC0060		installed-program	Steam	2.10.91.91		Publisher: Valve Corporation			
+PC0061		installed-program	Unity 2022.3.22f1	2022.3.22f1		Publisher: Unity Technologies ApS			
+PC0062	C:\Program Files\Windhawk	installed-program	Windhawk v1.7.3	1.7.3		Publisher: Ramen Software			
+PC0063		installed-program	Epic Online Services	5.8.0		Publisher: Epic Games, Inc.			
+PC0064		installed-program	Microsoft Visual C++ 2013 Redistributable (x64) - 12.0.40664	12.0.40664.0		Publisher: Microsoft Corporation			
+PC0065		installed-program	Microsoft Visual C++ 2013 Redistributable (x64) - 12.0.30501	12.0.30501.0		Publisher: Microsoft Corporation			
+PC0066		installed-program	Microsoft Visual C++ v14 Redistributable (x64) - 14.51.36247	14.51.36247.0		Publisher: Microsoft Corporation			
+PC0067		installed-program	Windows SDK AddOn	10.1.0.0		Publisher: Microsoft Corporation			
+PC0068		installed-program	vs_CoreEditorFonts	17.7.40001		Publisher: Microsoft Corporation			
+PC0069		installed-program	Microsoft Visual C++ 2012 Redistributable (x86) - 11.0.61030	11.0.61030.0		Publisher: Microsoft Corporation			
+PC0070		installed-program	Microsoft Visual C++ v14 Redistributable (x86) - 14.51.36247	14.51.36247.0		Publisher: Microsoft Corporation			
+PC0071		installed-program	Chrome Remote Desktop Host	154.0.8037.40		Publisher: Google LLC			
+PC0072		installed-program	Microsoft Visual C++ 2013 Redistributable (x86) - 12.0.40664	12.0.40664.0		Publisher: Microsoft Corporation			
+PC0073		installed-program	Aurora	1.0.3		Publisher: Aurora			
+PC0074		installed-program	Windows Software Development Kit - Windows 10.0.26100.7705	10.1.26100.7705		Publisher: Microsoft Corporation			
+PC0075		installed-program	Microsoft Visual C++ 2012 Redistributable (x64) - 11.0.61030	11.0.61030.0		Publisher: Microsoft Corporation			
+PC0076		installed-program	Microsoft XNA Framework Redistributable 4.0 Refresh	4.0.30901.0		Publisher: Microsoft Corporation			
+PC0077		installed-program	Python Launcher	3.14.7150.0		Publisher: Python Software Foundation			
+PC0078		installed-program	Final Draft	13.5.0.123		Publisher: Cast & Crew Production Software, LLC			
+PC0079		installed-program	Microsoft Visual C++ 2010  x86 Redistributable - 10.0.40219	10.0.40219		Publisher: Microsoft Corporation			
+PC0080		installed-program	Corsair iCUE 5 VHID Drivers v3.0.88.9	3.0.88.9		Publisher: Corsair Memory			
+PC0081		installed-program	Kimi	3.1.6		Publisher: 			
+PC0082		installed-program	ComfyUI	1.0		Publisher: BraveSoftware\Brave-Browser			
+PC0083		installed-program	25x125 0.1.0	0.1.0		Publisher: Marlon Lee			
+PC0084	"C:\Users\imarl\AppData\Local\ArtCraft"	installed-program	ArtCraft	0.41.0		Publisher: artcraft			
+PC0085		installed-program	CurseForge 1.322.0-40357	1.322.0-40357		Publisher: Overwolf			
+PC0086	C:\Users\imarl\AppData\Local\Discord	installed-program	Discord	1.0.9260		Publisher: Discord Inc.			
+PC0087		installed-program	Contractor Foreman User Panel	1.0		Publisher: BraveSoftware\Brave-Browser			
+PC0088		installed-program	Wan2GP Desktop Launcher 2.4.5	2.4.5		Publisher: GKartist75			
+PC0089	C:\Users\imarl\AppData\Local\GitHubDesktop	installed-program	GitHub Desktop	3.6.3		Publisher: GitHub, Inc.			
+PC0090	"C:\Users\imarl\AppData\Local\Grammarly\DesktopIntegrations"	installed-program	Grammarly for Windows	1.2.309.1995		Publisher: Grammarly Inc.			
+PC0091	C:\Users\imarl\AppData\Local\itch	installed-program	itch	26.22.0		Publisher: itch corp.			
+PC0092		installed-program	Microsoft OneDrive	26.195.1006.0007		Publisher: Microsoft Corporation			
+PC0093	C:/Riot Games/League of Legends	installed-program	League of Legends			Publisher: Riot Games, Inc			
+PC0094	C:/Riot Games/Riot Client	installed-program	Riot Client 			Publisher: Riot Games, Inc			
+PC0095	C:/Riot Games/Teamfight Tactics/Live	installed-program	Teamfight Tactics			Publisher: Riot Games, Inc			
+PC0096	C:\Users\imarl\AppData\Local\Programs\Ollama\	installed-program	Ollama version 0.40.6	0.40.6		Publisher: Ollama			
+PC0097	C:\Users\imarl\AppData\Roaming\Telegram Desktop\	installed-program	Telegram Desktop	6.0.2		Publisher: Telegram FZ-LLC			
+PC0098		installed-program	Python 3.14.7 (64-bit)	3.14.7150.0		Publisher: Python Software Foundation			
+PC0099	E:\SteamLibrary\steamapps\common\yorgio	game-steam	YORG.io	appid 880580				2025-01-03	
+PC0100	E:\SteamLibrary\steamapps\common\Outer Wilds	game-steam	Outer Wilds	appid 753640		Unity; asset archive .assets		2025-01-06	
+PC0101	E:\SteamLibrary\steamapps\common\YourOnlyMoveIsHUSTLE	game-steam	Your Only Move Is HUSTLE	appid 2212330		Godot; dir mods		2025-01-03	
+PC0102	E:\SteamLibrary\steamapps\common\Yooka-Laylee and the Impossible Lair	game-steam	Yooka-Laylee and the Impossible Lair	appid 846870		Unity; asset archive .assets		2025-01-03	
+PC0103	E:\SteamLibrary\steamapps\common\Path of Exile 2	game-steam	Path of Exile 2	appid 2694490				2025-01-03	
+PC0104	E:\SteamLibrary\steamapps\common\Yes, Your Grace	game-steam	Yes, Your Grace	appid 1115690		Unity; asset archive .assets		2025-01-03	
+PC0105	E:\SteamLibrary\steamapps\common\Yakuza Kiwami 2	game-steam	Yakuza Kiwami 2	appid 927380		dir data		2025-01-11	
+PC0106	E:\SteamLibrary\steamapps\common\Yakuza 3	game-steam	Yakuza 3 Remastered	appid 1088710		dir data		2025-01-11	
+PC0107	E:\SteamLibrary\steamapps\common\Last Oasis	game-steam	Last Oasis	appid 903950		Unreal		2025-01-06	
+PC0108	E:\SteamLibrary\steamapps\common\Tropico 6	game-steam	Tropico 6	appid 492720		Unreal		2025-01-04	
+PC0109	E:\SteamLibrary\steamapps\common\Crying Suns	game-steam	Crying Suns	appid 873940		Unity; asset archive .assets; asset archive .bundle		2025-01-06	
+PC0110	E:\SteamLibrary\steamapps\common\Sid Meier's Civilization VI	game-steam	Sid Meier's Civilization VI	appid 289070		Lua scripts		2025-01-03	
+PC0111	E:\SteamLibrary\steamapps\common\Palworld	game-steam	Palworld	appid 1623730		Unreal		2025-01-03	
+PC0112	E:\SteamLibrary\steamapps\common\Counter-Strike Source	game-steam	Counter-Strike: Source	appid 240				2025-01-03	
+PC0113	E:\SteamLibrary\steamapps\common\Team Fortress 2	game-steam	Team Fortress 2	appid 440				2025-01-03	
+PC0114	E:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive	game-steam	Counter-Strike 2	appid 730				2025-01-03	
+PC0115	E:\SteamLibrary\steamapps\common\GarrysMod	game-steam	Garry's Mod	appid 4000		Lua scripts		2025-01-03	
+PC0116	E:\SteamLibrary\steamapps\common\Dawn of War Gold	game-steam	Warhammer 40,000: Dawn of War - Anniversary Edition 	appid 4570		Lua scripts		2025-01-03	
+PC0117	E:\SteamLibrary\steamapps\common\112 Operator	game-steam	112 Operator	appid 793460		Unity; asset archive .assets		2025-01-03	
+PC0118	E:\SteamLibrary\steamapps\common\Dawn of War Dark Crusade	game-steam	Warhammer 40,000: Dawn of War - Dark Crusade	appid 4580		Lua scripts		2025-01-04	
+PC0119	E:\SteamLibrary\steamapps\common\Commandos Behind Enemy Lines	game-steam	Commandos: Behind Enemy Lines	appid 6800		asset archive .wad		2025-01-04	
+PC0120	E:\SteamLibrary\steamapps\common\Commandos Beyond the Call of Duty	game-steam	Commandos: Beyond the Call of Duty	appid 6810		SQLite; asset archive .wad		2025-01-04	
+PC0121	E:\SteamLibrary\steamapps\common\198X	game-steam	198X	appid 1086010		Unity; asset archive .assets		2025-01-03	
+PC0122	E:\SteamLibrary\steamapps\common\Commandos 2 Men of Courage	game-steam	Commandos 2: Men of Courage	appid 6830		Godot; dir DATA		2025-01-04	
+PC0123	E:\SteamLibrary\steamapps\common\Commandos 3 Destination Berlin	game-steam	Commandos 3: Destination Berlin	appid 6840		Godot; dir Data		2025-01-04	
+PC0124	E:\SteamLibrary\steamapps\common\Stubbs the Zombie	game-steam	Stubbs the Zombie in Rebel Without a Pulse	appid 7800				2025-01-04	
+PC0125	E:\SteamLibrary\steamapps\common\Sid Meier's Civilization V	game-steam	Sid Meier's Civilization V	appid 8930		Lua scripts		2025-01-04	
+PC0126	E:\SteamLibrary\steamapps\common\Dawn of War Gold	game-steam	Warhammer 40,000: Dawn of War - Winter Assault	appid 9310		Lua scripts		2025-01-03	
+PC0127	E:\SteamLibrary\steamapps\common\Dawn of War Soulstorm	game-steam	Warhammer 40,000: Dawn of War - Soulstorm	appid 9450		Lua scripts		2025-01-04	
+PC0128	E:\SteamLibrary\steamapps\common\Total War SHOGUN 2	game-steam	Total War: SHOGUN 2	appid 34330		dir data		2025-01-04	
+PC0129	E:\SteamLibrary\steamapps\common\Theatre of War	game-steam	Theatre of War	appid 46290				2025-01-04	
+PC0130	E:\SteamLibrary\steamapps\common\Warhammer 40,000 Space Marine	game-steam	Warhammer 40,000: Space Marine - Anniversary Edition	appid 55150		Godot; Lua scripts; SQLite; dir data		2025-01-04	
+PC0131	E:\SteamLibrary\steamapps\common\Anomaly Warzone Earth	game-steam	Anomaly Warzone Earth	appid 91200				2025-01-04	
+PC0132	E:\SteamLibrary\steamapps\common\Terraria	game-steam	Terraria	appid 105600				2025-01-04	
+PC0133	E:\SteamLibrary\steamapps\common\Arma 3	game-steam	Arma 3	appid 107410				2025-01-03	
+PC0134	E:\SteamLibrary\steamapps\common\7 Days To Die	game-steam	7 Days to Die	appid 251570		Unity; asset archive .bundle; dir Data; dir Mods		2025-01-04	
+PC0135	E:\SteamLibrary\steamapps\common\ProjectZomboid	game-steam	Project Zomboid	appid 108600		Lua scripts; dir Workshop; dir mods		2025-01-04	
+PC0136	E:\SteamLibrary\steamapps\common\Tomb Raider	game-steam	Tomb Raider	appid 203160				2025-01-04	
+PC0137	E:\SteamLibrary\steamapps\common\Crusader Kings II	game-steam	Crusader Kings II	appid 203770		Lua scripts		2025-01-04	
+PC0138	E:\SteamLibrary\steamapps\common\TheBridge	game-steam	The Bridge	appid 204240				2025-01-04	
+PC0139	E:\SteamLibrary\steamapps\common\Guns of Icarus Online	game-steam	Guns of Icarus Online	appid 209080		Unity; asset archive .assets; dir workshop		2025-01-04	
+PC0140	E:\SteamLibrary\steamapps\common\Battle vs Chess	game-steam	Battle vs Chess	appid 211050		dir data		2025-01-04	
+PC0141	E:\SteamLibrary\steamapps\common\Adeptus Titanicus Dominus	game-steam	Adeptus Titanicus: Dominus	appid 853140		Unity; asset archive .assets		2025-01-05	
+PC0142	E:\SteamLibrary\steamapps\common\Starbound	game-steam	Starbound	appid 211820		dir mods		2025-01-04	
+PC0143	E:\SteamLibrary\steamapps\common\Alien Isolation	game-steam	Alien: Isolation	appid 214490		Godot; SQLite; dir DATA		2025-01-03	
+PC0144	E:\SteamLibrary\steamapps\common\MapleStory	game-steam	MapleStory	appid 216150		dir Data		2025-01-04	
+PC0145	E:\SteamLibrary\steamapps\common\hotline_miami	game-steam	Hotline Miami	appid 219150		asset archive .wad		2025-01-04	
+PC0146	E:\SteamLibrary\steamapps\common\dont_starve	game-steam	Don't Starve	appid 219740		Lua scripts; Python; dir data; dir mods		2025-01-04	
+PC0147	E:\SteamLibrary\steamapps\common\Kerbal Space Program	game-steam	Kerbal Space Program	appid 220200		Unity; asset archive .assets		2025-01-03	
+PC0148	E:\SteamLibrary\steamapps\common\King of Fighters XIII	game-steam	THE KING OF FIGHTERS XIII STEAM EDITION	appid 222940		Lua scripts		2025-01-03	
+PC0149	E:\SteamLibrary\steamapps\common\Baldur's Gate Enhanced Edition	game-steam	Baldur's Gate: Enhanced Edition	appid 228280		Lua scripts; dir data; dir scripts		2025-01-04	
+PC0150	E:\SteamLibrary\steamapps\common\Mad Max	game-steam	Mad Max	appid 234140				2025-01-04	
+PC0151	E:\SteamLibrary\steamapps\common\TheWhiteLaboratory	game-steam	The White Laboratory	appid 235520				2025-01-03	
+PC0152	E:\SteamLibrary\steamapps\common\War Thunder	game-steam	War Thunder	appid 236390				2025-01-04	
+PC0153	E:\SteamLibrary\steamapps\common\8 Doors	game-steam	8Doors: Arum's Afterlife Adventure	appid 668550		Unity		2025-01-03	
+PC0154	E:\SteamLibrary\steamapps\common\Anomaly 2	game-steam	Anomaly 2	appid 236730				2025-01-03	
+PC0155	E:\SteamLibrary\steamapps\common\Europa Universalis IV	game-steam	Europa Universalis IV	appid 236850		Lua scripts		2025-01-04	
+PC0156	E:\SteamLibrary\steamapps\common\The Forest	game-steam	The Forest	appid 242760		Unity; asset archive .assets		2025-01-03	
+PC0157	E:\SteamLibrary\steamapps\common\assettocorsa	game-steam	Assetto Corsa	appid 244210		Python; dir plugins		2025-01-04	
+PC0158	E:\SteamLibrary\steamapps\common\Talisman	game-steam	Talisman: Digital Classic Edition	appid 247000				2025-01-04	
+PC0159	E:\SteamLibrary\steamapps\common\The Binding of Isaac Rebirth	game-steam	The Binding of Isaac: Rebirth	appid 250900		Lua scripts		2025-01-04	
+PC0160	E:\SteamLibrary\steamapps\common\UntitledApp	game-steam	Anomaly Warzone Earth Mobile Campaign	appid 252170				2025-01-04	
+PC0161	E:\SteamLibrary\steamapps\common\Cities_Skylines	game-steam	Cities: Skylines	appid 255710		Python; Unity; asset archive .assets		2025-01-04	
+PC0162	E:\SteamLibrary\steamapps\common\SPACECOM	game-steam	SPACECOM	appid 263860		asset archive .assets		2025-01-03	
+PC0163	E:\SteamLibrary\steamapps\common\Darkwood	game-steam	Darkwood	appid 274520		Unity; asset archive .assets		2025-01-04	
+PC0164	E:\SteamLibrary\steamapps\common\This War of Mine	game-steam	This War of Mine	appid 282070				2025-01-04	
+PC0165	E:\SteamLibrary\steamapps\common\Endless Legend	game-steam	ENDLESS Legend™	appid 289130		Unity; asset archive .assets		2025-01-04	
+PC0166	E:\SteamLibrary\steamapps\common\ADOM	game-steam	ADOM (Ancient Domains Of Mystery)	appid 333300				2025-01-03	
+PC0167	E:\SteamLibrary\steamapps\common\Brawlhalla	game-steam	Brawlhalla	appid 291550				2025-01-04	
+PC0168	E:\SteamLibrary\steamapps\common\Freddi Fish 5	game-steam	Freddi Fish 5: The Case of the Creature of Coral Cove	appid 294570				2025-01-03	
+PC0169	E:\SteamLibrary\steamapps\common\Anomaly Defenders	game-steam	Anomaly Defenders	appid 294750				2025-01-03	
+PC0170	E:\SteamLibrary\steamapps\common\Age of Wonders Planetfall	game-steam	Age of Wonders: Planetfall	appid 718850				2025-01-03	
+PC0171	E:\SteamLibrary\steamapps\common\Mount Your Friends	game-steam	Mount Your Friends	appid 296470				2025-01-04	
+PC0172	E:\SteamLibrary\steamapps\common\The Escapists	game-steam	The Escapists	appid 298630		dir Data		2025-01-04	
+PC0173	E:\SteamLibrary\steamapps\common\OfGuardsAndThieves	game-steam	Of Guards And Thieves	appid 302590		Unity; asset archive .assets		2025-01-04	
+PC0174	E:\SteamLibrary\steamapps\common\SunlessSea	game-steam	Sunless Sea	appid 304650		Unity; asset archive .assets		2025-01-04	
+PC0175	E:\SteamLibrary\steamapps\common\Unturned	game-steam	Unturned	appid 304930		Unity		2025-01-03	
+PC0176	E:\SteamLibrary\steamapps\common\WeNeedtoGoDeeper	game-steam	We Need To Go Deeper	appid 307110		Unity; asset archive .assets		2025-01-04	
+PC0177	E:\SteamLibrary\steamapps\common\StrangeBrigade	game-steam	Strange Brigade	appid 312670				2025-01-04	
+PC0178	E:\SteamLibrary\steamapps\common\FRAMED	game-steam	FRAMED Collection	appid 322450				2025-01-04	
+PC0179	E:\SteamLibrary\steamapps\common\Frostpunk	game-steam	Frostpunk	appid 323190				2025-01-04	
+PC0180	E:\SteamLibrary\steamapps\common\Warhammer Quest	game-steam	Warhammer Quest	appid 326670		SQLite; Unity; asset archive .assets		2025-01-04	
+PC0181	E:\SteamLibrary\steamapps\common\ChildrenOfMorta	game-steam	Children of Morta	appid 330020		Unity; asset archive .assets		2025-01-04	
+PC0182	E:\SteamLibrary\steamapps\common\Basement	game-steam	Basement	appid 340150		Unity; asset archive .assets		2025-01-04	
+PC0183	E:\SteamLibrary\steamapps\common\InnerSpace	game-steam	InnerSpace	appid 347000		Unity; asset archive .assets		2025-01-04	
+PC0184	E:\SteamLibrary\steamapps\common\Popup Dungeon	game-steam	Popup Dungeon	appid 349730		Unity; asset archive .assets		2025-01-04	
+PC0185	E:\SteamLibrary\steamapps\common\Niffelheim	game-steam	Niffelheim	appid 351100		Unity; asset archive .assets		2025-01-04	
+PC0186	E:\SteamLibrary\steamapps\common\Total War WARHAMMER	game-steam	Total War: WARHAMMER	appid 364360		Lua scripts; dir data		2025-01-04	
+PC0187	E:\SteamLibrary\steamapps\common\Poly Bridge	game-steam	Poly Bridge	appid 367450		Unity; asset archive .assets		2025-01-04	
+PC0188	E:\SteamLibrary\steamapps\common\Starbound - Unstable	game-steam	Starbound - Unstable	appid 367540		dir mods		2025-01-04	
+PC0189	E:\SteamLibrary\steamapps\common\Ageless	game-steam	Ageless	appid 1210150		Unity; asset archive .assets		2025-01-03	
+PC0190	E:\SteamLibrary\steamapps\common\Nimbatus	game-steam	Nimbatus - The Space Drone Constructor	appid 383840		Unity; asset archive .assets		2025-01-04	
+PC0191	E:\SteamLibrary\steamapps\common\SMITE	game-steam	SMITE	appid 386360				2025-01-04	
+PC0192	E:\SteamLibrary\steamapps\common\Endless Space 2	game-steam	ENDLESS Space™ 2	appid 392110		Unity; asset archive .assets		2025-01-04	
+PC0193	E:\SteamLibrary\steamapps\common\TSIOQUE	game-steam	TSIOQUE	appid 393190				2025-01-04	
+PC0194	E:\SteamLibrary\steamapps\common\Hearts of Iron IV	game-steam	Hearts of Iron IV	appid 394360		Lua scripts		2025-01-04	
+PC0195	E:\SteamLibrary\steamapps\common\Call of Cthulhu	game-steam	Call of Cthulhu	appid 399810		Unreal		2025-01-04	
+PC0196	E:\SteamLibrary\steamapps\common\Out of Space	game-steam	Out of Space	appid 400080		Unity; asset archive .assets		2025-01-04	
+PC0197	E:\SteamLibrary\steamapps\common\Endless Sky	game-steam	Endless Sky	appid 404410		dir data		2025-01-04	
+PC0198	E:\SteamLibrary\steamapps\common\Vikings - Wolves of Midgard	game-steam	Vikings - Wolves of Midgard	appid 404590		Lua scripts; Unity; asset archive .assets		2025-01-04	
+PC0199	E:\SteamLibrary\steamapps\common\The Uncertain	game-steam	The Uncertain: Last Quiet Day	appid 406970		Unity; asset archive .assets		2025-01-04	
+PC0200	E:\SteamLibrary\steamapps\common\ELEX	game-steam	ELEX	appid 411300		dir data		2025-01-04	
+PC0201	E:\SteamLibrary\steamapps\common\AI War 2	game-steam	AI War 2	appid 573410		SQLite; Unity; asset archive .assets		2025-01-03	
+PC0202	E:\SteamLibrary\steamapps\common\Metro Exodus	game-steam	Metro Exodus	appid 412020				2025-01-04	
+PC0203	E:\SteamLibrary\steamapps\common\Stardew Valley	game-steam	Stardew Valley	appid 413150		dir mods		2025-01-04	
+PC0204	E:\SteamLibrary\steamapps\common\Hellblade	game-steam	Hellblade: Senua's Sacrifice	appid 414340		Unreal		2025-01-04	
+PC0205	E:\SteamLibrary\steamapps\common\Indivisible	game-steam	Indivisible	appid 421170				2025-01-04	
+PC0206	E:\SteamLibrary\steamapps\common\Vampyr	game-steam	Vampyr	appid 427290		Unreal		2025-01-04	
+PC0207	E:\SteamLibrary\steamapps\common\Golf With Your Friends	game-steam	Golf With Your Friends	appid 431240		Unity; asset archive .assets		2025-01-04	
+PC0208	E:\SteamLibrary\steamapps\common\Wildfire	game-steam	Wildfire	appid 431940				2025-01-04	
+PC0209	E:\SteamLibrary\steamapps\common\Divinity Original Sin 2	game-steam	Divinity: Original Sin 2	appid 435150		dir Data		2025-01-04	
+PC0210	E:\SteamLibrary\steamapps\common\Niche	game-steam	Niche - a genetics survival game	appid 440650				2025-01-04	
+PC0211	E:\SteamLibrary\steamapps\common\Mount Your Friends 3D	game-steam	Mount Your Friends 3D: A Hard Man is Good to Climb	appid 441010		Unity; asset archive .assets		2025-01-04	
+PC0212	E:\SteamLibrary\steamapps\common\Transport Fever	game-steam	Transport Fever	appid 446800		Lua scripts; dir mods		2025-01-04	
+PC0213	E:\SteamLibrary\steamapps\common\Where The Water Tastes Like Wine	game-steam	Where the Water Tastes Like Wine	appid 447120		Unity; asset archive .assets		2025-01-04	
+PC0214	E:\SteamLibrary\steamapps\common\Overload	game-steam	Overload	appid 448850		Unity; asset archive .assets		2025-01-04	
+PC0215	E:\SteamLibrary\steamapps\common\Return 2 Games	game-steam	Book of Demons	appid 449960				2025-01-04	
+PC0216	E:\SteamLibrary\steamapps\common\Battle Chasers Nightwar	game-steam	Battle Chasers: Nightwar	appid 451020		Unity; asset archive .assets		2025-01-04	
+PC0217	E:\SteamLibrary\steamapps\common\Warhammer 40000 Armageddon - Da Orks	game-steam	Warhammer 40,000: Armageddon - Da Orks	appid 455340		dir Data		2025-01-04	
+PC0218	E:\SteamLibrary\steamapps\common\CrushCrush	game-steam	Crush Crush	appid 459820		Unity; asset archive .assets		2025-01-04	
+PC0219	E:\SteamLibrary\steamapps\common\Katana ZERO	game-steam	Katana ZERO	appid 460950				2025-01-04	
+PC0220	E:\SteamLibrary\steamapps\common\Beat Cop	game-steam	Beat Cop	appid 461950		Unity; asset archive .assets		2025-01-04	
+PC0221	E:\SteamLibrary\steamapps\common\Syberia3	game-steam	Syberia 3	appid 464340		Unity; asset archive .assets		2025-01-04	
+PC0222	E:\SteamLibrary\steamapps\common\Surviving Mars	game-steam	Surviving Mars	appid 464920		Lua scripts; Python		2025-01-04	
+PC0223	E:\SteamLibrary\steamapps\common\Fury Unleashed	game-steam	Fury Unleashed	appid 465200		Unity		2025-01-04	
+PC0224	E:\SteamLibrary\steamapps\common\Albion Online	game-steam	Albion Online	appid 761890		Unity; asset archive .assets		2025-01-03	
+PC0225	E:\SteamLibrary\steamapps\common\Legion TD 2	game-steam	Legion TD 2	appid 469600		SQLite; Unity; asset archive .assets		2025-01-04	
+PC0226	E:\SteamLibrary\steamapps\common\Aven Colony	game-steam	Aven Colony	appid 484900		Unreal		2025-01-04	
+PC0227	E:\SteamLibrary\steamapps\common\Mr Shifty	game-steam	Mr Shifty	appid 489140		Unity; asset archive .assets		2025-01-04	
+PC0228	E:\SteamLibrary\steamapps\common\Warhammer 40000 Gladius - Relics of War	game-steam	Warhammer 40,000: Gladius - Relics of War	appid 489630		dir Data		2025-01-04	
+PC0229	E:\SteamLibrary\steamapps\common\House Flipper	game-steam	House Flipper	appid 613100		Unity; asset archive .assets; asset archive .bundle		2025-01-03	
+PC0230	E:\SteamLibrary\steamapps\common\Planet Coaster	game-steam	Planet Coaster	appid 493340				2025-01-04	
+PC0231	E:\SteamLibrary\steamapps\common\Warhammer 40000 Sanctus Reach	game-steam	Warhammer 40,000: Sanctus Reach	appid 502370		dir Data		2025-01-04	
+PC0232	E:\SteamLibrary\steamapps\common\Railway Empire	game-steam	Railway Empire	appid 503940				2025-01-04	
+PC0233	E:\SteamLibrary\steamapps\common\SHENZHEN IO	game-steam	SHENZHEN I/O	appid 504210				2025-01-04	
+PC0234	E:\SteamLibrary\steamapps\common\Pathologic	game-steam	Pathologic 2	appid 505230		Unity; asset archive .assets; dir Data		2025-01-04	
+PC0235	E:\SteamLibrary\steamapps\common\Totally Accurate Battle Simulator	game-steam	Totally Accurate Battle Simulator	appid 508440		Unity; asset archive .assets		2025-01-04	
+PC0236	E:\SteamLibrary\steamapps\common\Just Cause 4	game-steam	Just Cause 4	appid 517630				2025-01-04	
+PC0237	E:\SteamLibrary\steamapps\common\Hello Neighbor	game-steam	Hello Neighbor	appid 521890				2025-01-04	
+PC0238	E:\SteamLibrary\steamapps\common\The Wild Eight	game-steam	The Wild Eight	appid 526160		Unity; asset archive .assets		2025-01-04	
+PC0239	E:\SteamLibrary\steamapps\common\Satisfactory	game-steam	Satisfactory	appid 526870		Unreal		2025-01-04	
+PC0240	E:\SteamLibrary\steamapps\common\Synthetik	game-steam	SYNTHETIK	appid 528230				2025-01-04	
+PC0241	E:\SteamLibrary\steamapps\common\Tower 57	game-steam	Tower 57	appid 530950				2025-01-04	
+PC0242	E:\SteamLibrary\steamapps\common\Ancestors The Humankind Odyssey	game-steam	Ancestors: The Humankind Odyssey 	appid 536270		Unreal		2025-01-03	
+PC0243	E:\SteamLibrary\steamapps\common\Guts and Glory	game-steam	Guts and Glory	appid 537340		Unity; asset archive .assets		2025-01-04	
+PC0244	E:\SteamLibrary\steamapps\common\Battlestar Galactica Deadlock	game-steam	Battlestar Galactica Deadlock	appid 544610		Unity; asset archive .assets		2025-01-04	
+PC0245	E:\SteamLibrary\steamapps\common\Deep Rock Galactic	game-steam	Deep Rock Galactic	appid 548430		Unreal		2025-01-04	
+PC0246	E:\SteamLibrary\steamapps\common\Warhammer Vermintide 2	game-steam	Warhammer: Vermintide 2	appid 552500				2025-01-04	
+PC0247	E:\SteamLibrary\steamapps\common\Warhammer 40,000 Space Wolf	game-steam	Warhammer 40,000: Space Wolf	appid 553210		Unity; asset archive .assets		2025-01-05	
+PC0248	E:\SteamLibrary\steamapps\common\The Ambassador	game-steam	The Ambassador: Fractured Timelines	appid 1171660				2025-01-03	
+PC0249	E:\SteamLibrary\steamapps\common\LLBlaze	game-steam	Lethal League Blaze	appid 553310		Unity; asset archive .assets		2025-01-05	
+PC0250	E:\SteamLibrary\steamapps\common\Goat of Duty	game-steam	GOAT OF DUTY	appid 555000		Unreal		2025-01-05	
+PC0251	E:\SteamLibrary\steamapps\common\My Friend Pedro	game-steam	My Friend Pedro	appid 557340		Unity; asset archive .assets		2025-01-05	
+PC0252	E:\SteamLibrary\steamapps\common\Opus Magnum	game-steam	Opus Magnum	appid 558990				2025-01-05	
+PC0253	E:\SteamLibrary\steamapps\common\Warstone TD	game-steam	Warstone TD	appid 562500		SQLite; Unity; asset archive .assets		2025-01-05	
+PC0254	E:\SteamLibrary\steamapps\common\Kingdoms and Castles	game-steam	Kingdoms and Castles	appid 569480		Unity; asset archive .assets		2025-01-05	
+PC0255	E:\SteamLibrary\steamapps\common\Raiden V	game-steam	Raiden V: Director's Cut	appid 570050				2025-01-05	
+PC0256	E:\SteamLibrary\steamapps\common\Underhero	game-steam	Underhero	appid 573320		Unity; asset archive .assets		2025-01-05	
+PC0257	E:\SteamLibrary\steamapps\common\LittleBigWorkshop	game-steam	Little Big Workshop	appid 574720		Unity; asset archive .assets		2025-01-05	
+PC0258	E:\SteamLibrary\steamapps\common\sandstorm	game-steam	Insurgency: Sandstorm	appid 581320		Unreal		2025-01-05	
+PC0259	E:\SteamLibrary\steamapps\common\Monster Hunter World	game-steam	Monster Hunter: World	appid 582010				2025-01-05	
+PC0260	E:\SteamLibrary\steamapps\common\Everything	game-steam	Everything	appid 582270		Unity; asset archive .assets		2025-01-05	
+PC0261	E:\SteamLibrary\steamapps\common\Shadows Awakening	game-steam	Shadows: Awakening	appid 585450		Unity; asset archive .assets		2025-01-05	
+PC0262	E:\SteamLibrary\steamapps\common\Okami	game-steam	Okami HD	appid 587620				2025-01-05	
+PC0263	E:\SteamLibrary\steamapps\common\Remnants of Naezith	game-steam	Remnants of Naezith	appid 590590		dir data		2025-01-05	
+PC0264	E:\SteamLibrary\steamapps\common\American Fugitive	game-steam	American Fugitive	appid 934780		Unity; asset archive .assets		2025-01-03	
+PC0265	E:\SteamLibrary\steamapps\common\Total War WARHAMMER II	game-steam	Total War: WARHAMMER II	appid 594570		dir data		2025-01-05	
+PC0266	E:\SteamLibrary\steamapps\common\Sunless Skies	game-steam	Sunless Skies	appid 596970		Unity; asset archive .assets		2025-01-05	
+PC0267	E:\SteamLibrary\steamapps\common\Boreal Blade	game-steam	Boreal Blade	appid 598780		dir data		2025-01-05	
+PC0268	E:\SteamLibrary\steamapps\common\Amnesia Rebirth	game-steam	Amnesia: Rebirth	appid 999220		dir mods		2025-01-07	
+PC0269	E:\SteamLibrary\steamapps\common\Valfaris	game-steam	Valfaris	appid 600130		Unity; asset archive .assets		2025-01-05	
+PC0270	E:\SteamLibrary\steamapps\common\Train Valley 2	game-steam	Train Valley 2	appid 602320		Unity; asset archive .assets		2025-01-05	
+PC0271	E:\SteamLibrary\steamapps\common\Mordhau	game-steam	MORDHAU	appid 629760		Unreal		2025-01-05	
+PC0272	E:\SteamLibrary\steamapps\common\Barotrauma	game-steam	Barotrauma	appid 602960		dir Data		2025-01-04	
+PC0273	E:\SteamLibrary\steamapps\common\Darksiders 3	game-steam	Darksiders III	appid 606280		Unreal		2025-01-05	
+PC0274	E:\SteamLibrary\steamapps\common\GreedFall	game-steam	GreedFall	appid 606880				2025-01-05	
+PC0275	E:\SteamLibrary\steamapps\common\Wargroove	game-steam	Wargroove	appid 607050		Lua scripts		2025-01-05	
+PC0276	E:\SteamLibrary\steamapps\common\Guns of Icarus Online	game-steam	Guns of Icarus Alliance	appid 608800		Unity; asset archive .assets; dir workshop		2025-01-04	
+PC0277	E:\SteamLibrary\steamapps\common\Hotshot Racing	game-steam	Hotshot Racing	appid 609920		Godot; dir data		2025-01-05	
+PC0278	E:\SteamLibrary\steamapps\common\Fort Triumph	game-steam	Fort Triumph	appid 612570		Unity; asset archive .assets		2025-01-05	
+PC0279	E:\SteamLibrary\steamapps\common\Colt Canyon	game-steam	Colt Canyon	appid 940710				2025-01-06	
+PC0280	E:\SteamLibrary\steamapps\common\Beat Hazard 2	game-steam	Beat Hazard 2	appid 618740		Unreal; dir data		2025-01-05	
+PC0281	E:\SteamLibrary\steamapps\common\The Swords of Ditto	game-steam	The Swords of Ditto: Mormo's Curse	appid 619780				2025-01-05	
+PC0282	E:\SteamLibrary\steamapps\common\PC Building Simulator	game-steam	PC Building Simulator	appid 621060		Unity; asset archive .assets; dir Data		2025-01-05	
+PC0283	E:\SteamLibrary\steamapps\common\Injustice2	game-steam	Injustice™ 2	appid 627270				2025-01-05	
+PC0284	E:\SteamLibrary\steamapps\common\Hellpoint	game-steam	Hellpoint	appid 628670		Unity; asset archive .assets		2025-01-05	
+PC0285	E:\SteamLibrary\steamapps\common\Horace	game-steam	Horace	appid 629090		Unity; asset archive .assets		2025-01-05	
+PC0286	E:\SteamLibrary\steamapps\common\Total Tank Simulator	game-steam	Total Tank Simulator	appid 674500		Python; Unity; asset archive .assets		2025-01-05	
+PC0287	E:\SteamLibrary\steamapps\common\Maneater	game-steam	Maneater	appid 629820		Unreal		2025-01-05	
+PC0288	E:\SteamLibrary\steamapps\common\Risk of Rain 2	game-steam	Risk of Rain 2	appid 632360		Unity; asset archive .assets; asset archive .bundle		2025-01-05	
+PC0289	E:\SteamLibrary\steamapps\common\Orwell Ignorance is Strength	game-steam	Orwell: Ignorance is Strength	appid 633060		Unity; asset archive .assets		2025-01-05	
+PC0290	E:\SteamLibrary\steamapps\common\Capitalism 2	game-steam	Capitalism 2	appid 638200				2025-01-05	
+PC0291	E:\SteamLibrary\steamapps\common\Pathfinder Kingmaker	game-steam	Pathfinder: Kingmaker	appid 640820		SQLite; Unity; asset archive .assets		2025-01-05	
+PC0292	E:\SteamLibrary\steamapps\common\The Surge 2	game-steam	The Surge 2	appid 644830		Lua scripts		2025-01-05	
+PC0293	E:\SteamLibrary\steamapps\common\RiseOfIndustry	game-steam	Rise of Industry	appid 671440		Unity; asset archive .assets		2025-01-05	
+PC0294	E:\SteamLibrary\steamapps\common\Desolate	game-steam	Desolate	appid 671510		Unreal		2025-01-05	
+PC0295	E:\SteamLibrary\steamapps\common\Farmer's Dynasty	game-steam	Farmer's Dynasty - Final Harvest Edition	appid 678900		dir data		2025-01-05	
+PC0296	E:\SteamLibrary\steamapps\common\DRAGON BALL FighterZ	game-steam	DRAGON BALL FighterZ	appid 678950		Unreal		2025-01-05	
+PC0297	E:\SteamLibrary\steamapps\common\Night Call	game-steam	Night Call	appid 680380		Unity; asset archive .assets		2025-01-05	
+PC0298	E:\SteamLibrary\steamapps\common\Descenders	game-steam	Descenders	appid 681280		Unity; asset archive .assets		2025-01-05	
+PC0299	E:\SteamLibrary\steamapps\common\Nowhere Prophet	game-steam	Nowhere Prophet	appid 681730		Unity; asset archive .assets		2025-01-03	
+PC0300	E:\SteamLibrary\steamapps\common\Surviving the Aftermath	game-steam	Surviving the Aftermath	appid 684450		Unity; asset archive .assets; asset archive .bundle		2025-01-05	
+PC0301	E:\SteamLibrary\steamapps\common\Shoppe Keep 2	game-steam	Shoppe Keep 2	appid 684580		Unity; asset archive .assets		2025-01-05	
+PC0302	E:\SteamLibrary\steamapps\common\Hell Let Loose	game-steam	Hell Let Loose	appid 686810		Unreal		2025-01-05	
+PC0303	E:\SteamLibrary\steamapps\common\SUPERHOTMCD	game-steam	SUPERHOT: MIND CONTROL DELETE	appid 690040		Unity; asset archive .assets		2025-01-05	
+PC0304	E:\SteamLibrary\steamapps\common\Trine 4 The Nightmare Prince	game-steam	Trine 4: The Nightmare Prince	appid 690640		dir data		2025-01-05	
+PC0305	E:\SteamLibrary\steamapps\common\Bloodstained Ritual of the Night	game-steam	Bloodstained: Ritual of the Night	appid 692850		Unreal		2025-01-05	
+PC0306	E:\SteamLibrary\steamapps\common\RoboQuest	game-steam	Roboquest	appid 692890		Unreal		2025-01-05	
+PC0307	E:\SteamLibrary\steamapps\common\Fell Seal	game-steam	Fell Seal: Arbiter's Mark	appid 699170		SQLite; Unity; asset archive .assets		2025-01-05	
+PC0308	E:\SteamLibrary\steamapps\common\Kingdom Two Crowns	game-steam	Kingdom Two Crowns	appid 701160		Unity; asset archive .assets		2025-01-05	
+PC0309	E:\SteamLibrary\steamapps\common\Planet Zoo	game-steam	Planet Zoo	appid 703080				2025-01-05	
+PC0310	E:\SteamLibrary\steamapps\common\GRID (2019)	game-steam	GRID (2019)	appid 703860				2025-01-05	
+PC0311	E:\SteamLibrary\steamapps\common\GenerationZero	game-steam	Generation Zero®	appid 704270				2025-01-05	
+PC0312	E:\SteamLibrary\steamapps\common\DarksidersGenesis	game-steam	Darksiders Genesis	appid 710920		Unreal		2025-01-05	
+PC0313	E:\SteamLibrary\steamapps\common\Genesis Alpha One	game-steam	Genesis Alpha One Deluxe Edition	appid 712190		Unreal		2025-01-05	
+PC0314	E:\SteamLibrary\steamapps\common\SIMULACRA	game-steam	SIMULACRA	appid 712730		asset archive .assets		2025-01-05	
+PC0315	E:\SteamLibrary\steamapps\common\Little Misfortune	game-steam	Little Misfortune	appid 714120		Unity; asset archive .assets		2025-01-05	
+PC0316	E:\SteamLibrary\steamapps\common\EXAPUNKS	game-steam	EXAPUNKS	appid 716490				2025-01-06	
+PC0317	E:\SteamLibrary\steamapps\common\SigmaTheory	game-steam	Sigma Theory	appid 716640		Unity; asset archive .assets		2025-01-06	
+PC0318	E:\SteamLibrary\steamapps\common\A Case of Distrust	game-steam	A Case of Distrust	appid 717610		Unity; asset archive .assets		2025-01-06	
+PC0319	E:\SteamLibrary\steamapps\common\Driftland The Magic Revival	game-steam	Driftland: The Magic Revival	appid 718650		Unreal		2025-01-06	
+PC0320	E:\SteamLibrary\steamapps\common\Wasteland 3	game-steam	Wasteland 3	appid 719040		Unity; asset archive .assets; asset archive .bundle		2025-01-06	
+PC0321	E:\SteamLibrary\steamapps\common\Between the Stars	game-steam	Between the Stars	appid 727130		Unity; asset archive .assets		2025-01-06	
+PC0322	E:\SteamLibrary\steamapps\common\Elderborn	game-steam	ELDERBORN	appid 727850		Unity; asset archive .assets		2025-01-06	
+PC0323	E:\SteamLibrary\steamapps\common\Overcooked! 2	game-steam	Overcooked! 2	appid 728880		Unity; asset archive .assets		2025-01-03	
+PC0324	E:\SteamLibrary\steamapps\common\Raji An Ancient Epic	game-steam	Raji: An Ancient Epic	appid 730390		Unreal		2025-01-06	
+PC0325	E:\SteamLibrary\steamapps\common\SuperFlight	game-steam	Superflight	appid 732430		Unity; asset archive .assets		2025-01-03	
+PC0326	E:\SteamLibrary\steamapps\common\Not Tonight	game-steam	Not Tonight	appid 733790		Unity; asset archive .assets		2025-01-06	
+PC0327	E:\SteamLibrary\steamapps\common\As Far As The Eye	game-steam	As Far As The Eye	appid 1119700		Unity		2025-01-08	
+PC0328	E:\SteamLibrary\steamapps\common\Genesis Noir	game-steam	Genesis Noir	appid 735290		Unreal		2025-01-06	
+PC0329	E:\SteamLibrary\steamapps\common\Phasmophobia	game-steam	Phasmophobia	appid 739630		Python; Unity; asset archive .assets		2025-01-06	
+PC0330	E:\SteamLibrary\steamapps\common\Drake Hollow	game-steam	Drake Hollow	appid 739650		Unreal		2025-01-06	
+PC0331	E:\SteamLibrary\steamapps\common\Deadly Days	game-steam	Deadly Days	appid 740080		Unity; asset archive .assets		2025-01-06	
+PC0332	E:\SteamLibrary\steamapps\common\Hellblade Senua's Sacrifice - VR	game-steam	Hellblade: Senua's Sacrifice VR Edition	appid 747350		Unreal		2025-01-06	
+PC0333	E:\SteamLibrary\steamapps\common\Forager	game-steam	Forager	appid 751780				2025-01-06	
+PC0334	E:\SteamLibrary\steamapps\common\Black Future '88	game-steam	Black Future '88	appid 751820		Unity; asset archive .assets		2025-01-06	
+PC0335	E:\SteamLibrary\steamapps\common\A Plague Tale Innocence	game-steam	A Plague Tale: Innocence	appid 752590		Godot		2025-01-06	
+PC0336	E:\SteamLibrary\steamapps\common\Family Man	game-steam	Family Man	appid 904360		Unity; asset archive .assets		2025-01-06	
+PC0337	E:\SteamLibrary\steamapps\common\DueProcess	game-steam	Due Process	appid 753650		Unity		2025-01-06	
+PC0338	E:\SteamLibrary\steamapps\common\Iron Danger	game-steam	Iron Danger	appid 899310		Unity; asset archive .assets		2025-01-06	
+PC0339	E:\SteamLibrary\steamapps\common\A Dance of Fire and Ice	game-steam	A Dance of Fire and Ice	appid 977950		Unity; asset archive .assets; asset archive .bundle		2025-01-03	
+PC0340	E:\SteamLibrary\steamapps\common\Atomicrops	game-steam	Atomicrops	appid 757320		Unity; asset archive .assets		2025-01-06	
+PC0341	E:\SteamLibrary\steamapps\common\Hammerting	game-steam	Hammerting	appid 760650		Python		2025-01-06	
+PC0342	E:\SteamLibrary\steamapps\common\Retimed	game-steam	Retimed	appid 760810				2025-01-06	
+PC0343	E:\SteamLibrary\steamapps\common\The Occupation	game-steam	The Occupation	appid 765880		Unreal		2025-01-06	
+PC0344	E:\SteamLibrary\steamapps\common\Heaven's Vault	game-steam	Heaven's Vault	appid 774201		Unity; asset archive .assets		2025-01-06	
+PC0345	E:\SteamLibrary\steamapps\common\Warhammer Chaosbane	game-steam	Warhammer: Chaosbane	appid 774241		asset archive .big; dir Data		2025-01-06	
+PC0346	E:\SteamLibrary\steamapps\common\Project Winter	game-steam	Project Winter	appid 774861		Unity; asset archive .assets; asset archive .bundle		2025-01-06	
+PC0347	E:\SteamLibrary\steamapps\common\Stygian Reign of the Old Ones	game-steam	Stygian: Reign of the Old Ones	appid 779290		Unity; asset archive .assets		2025-01-06	
+PC0348	E:\SteamLibrary\steamapps\common\DOOMEternal	game-steam	DOOM Eternal	appid 782330		Godot; asset archive .wad		2025-01-06	
+PC0349	E:\SteamLibrary\steamapps\common\This Is the Police 2	game-steam	This Is the Police 2	appid 785740		Unity; asset archive .assets		2025-01-06	
+PC0350	E:\SteamLibrary\steamapps\common\Neon Abyss	game-steam	Neon Abyss	appid 788100		Unity; asset archive .assets		2025-01-06	
+PC0351	E:\SteamLibrary\steamapps\common\VC4	game-steam	Valkyria Chronicles 4 Complete Edition	appid 790820				2025-01-06	
+PC0352	E:\SteamLibrary\steamapps\common\The Bard's Tale Trilogy	game-steam	The Bard's Tale Trilogy	appid 843260		Unity; asset archive .assets		2025-01-06	
+PC0353	E:\SteamLibrary\steamapps\common\The Beast Inside	game-steam	The Beast Inside	appid 792300		Unreal		2025-01-06	
+PC0354	E:\SteamLibrary\steamapps\common\Levelhead	game-steam	Levelhead	appid 792710				2025-01-06	
+PC0355	E:\SteamLibrary\steamapps\common\Outward	game-steam	Outward	appid 794260		Unity; asset archive .assets		2025-01-06	
+PC0356	E:\SteamLibrary\steamapps\common\Axis & Allies Online	game-steam	Axis & Allies 1942 Online	appid 898920		Python		2025-01-06	
+PC0357	E:\SteamLibrary\steamapps\common\Railroad Corporation	game-steam	Railroad Corporation	appid 797400		Unity; asset archive .assets		2025-01-06	
+PC0358	E:\SteamLibrary\steamapps\common\Othercide	game-steam	Othercide	appid 798490		Unity; asset archive .assets		2025-01-06	
+PC0359	E:\SteamLibrary\steamapps\common\ShiningResonanceRefrain	game-steam	Shining Resonance Refrain	appid 809890				2025-01-06	
+PC0360	E:\SteamLibrary\steamapps\common\Autonauts	game-steam	Autonauts	appid 979120		Unity; asset archive .assets; asset archive .bundle		2025-01-07	
+PC0361	E:\SteamLibrary\steamapps\common\Verlet Swing	game-steam	Verlet Swing	appid 811870		Unity; asset archive .assets		2025-01-06	
+PC0362	E:\SteamLibrary\steamapps\common\Supraland	game-steam	Supraland	appid 813630		Unreal		2025-01-06	
+PC0363	E:\SteamLibrary\steamapps\common\Hokko Life	game-steam	Hokko Life	appid 824000		Unity; asset archive .assets		2025-01-06	
+PC0364	E:\SteamLibrary\steamapps\common\The Ascent	game-steam	The Ascent	appid 979690		Unreal		2025-01-07	
+PC0365	E:\SteamLibrary\steamapps\common\Iron Harvest	game-steam	Iron Harvest	appid 826630		Unity; asset archive .assets		2025-01-06	
+PC0366	E:\SteamLibrary\steamapps\common\Maid of Sker	game-steam	Maid of Sker	appid 826940		Unity; asset archive .assets		2025-01-06	
+PC0367	E:\SteamLibrary\steamapps\common\Automachef	game-steam	Automachef	appid 984800		Unity; asset archive .assets		2025-01-07	
+PC0368	E:\SteamLibrary\steamapps\common\Tales of the Neon Sea	game-steam	Tales of the Neon Sea	appid 828740		Unity; asset archive .assets		2025-01-06	
+PC0369	E:\SteamLibrary\steamapps\common\The Stillness of the Wind	game-steam	The Stillness of the Wind	appid 828900		Unity; asset archive .assets		2025-01-06	
+PC0370	E:\SteamLibrary\steamapps\common\BannersOfRuin	game-steam	Banners of Ruin	appid 1075740		Unity; asset archive .assets		2025-01-07	
+PC0371	E:\SteamLibrary\steamapps\common\Hiveswap Friendsim	game-steam	Hiveswap Friendsim	appid 833040		Python		2025-01-06	
+PC0372	E:\SteamLibrary\steamapps\common\TabletopPlayground	game-steam	Tabletop Playground	appid 838410		Unreal		2025-01-06	
+PC0373	E:\SteamLibrary\steamapps\common\Phoenix Point	game-steam	Phoenix Point	appid 839770		Unity; asset archive .assets; asset archive .bundle		2025-01-06	
+PC0374	E:\SteamLibrary\steamapps\common\The Bard's Tale IV Director's Cut	game-steam	The Bard's Tale IV: Director's Cut	appid 1091980		Unreal		2025-01-07	
+PC0375	E:\SteamLibrary\steamapps\common\Rustler	game-steam	Rustler	appid 844260		Unity; asset archive .assets		2025-01-06	
+PC0376	E:\SteamLibrary\steamapps\common\Creeper World 4	game-steam	Creeper World 4	appid 848480		Unity		2025-01-06	
+PC0377	E:\SteamLibrary\steamapps\common\Ikenfell	game-steam	Ikenfell	appid 854940		Lua scripts; dir Data; dir Scripts		2025-01-06	
+PC0378	E:\SteamLibrary\steamapps\common\Gamedec	game-steam	Gamedec - Definitive Edition	appid 917720		Unreal		2025-01-06	
+PC0379	E:\SteamLibrary\steamapps\common\Void Bastards	game-steam	Void Bastards	appid 857980		Unity; asset archive .assets		2025-01-06	
+PC0380	E:\SteamLibrary\steamapps\common\smite pt	game-steam	SMITE - Public Test	appid 858460				2025-01-11	
+PC0381	E:\SteamLibrary\steamapps\common\Tribes of Midgard	game-steam	Tribes of Midgard	appid 858820		Unreal		2025-01-06	
+PC0382	E:\SteamLibrary\steamapps\common\Blade Assault	game-steam	Blade Assault	appid 1367300		Unity; asset archive .assets		2025-01-08	
+PC0383	E:\SteamLibrary\steamapps\common\Secret Neighbor	game-steam	Secret Neighbor	appid 859570		Unity; asset archive .bundle		2025-01-06	
+PC0384	E:\SteamLibrary\steamapps\common\ImperatorRome	game-steam	Imperator: Rome	appid 859580				2025-01-06	
+PC0385	E:\SteamLibrary\steamapps\common\Factory Town	game-steam	Factory Town	appid 860890		Unity; asset archive .assets		2025-01-06	
+PC0386	E:\SteamLibrary\steamapps\common\Shadow Tactics - Aiko's Choice	game-steam	Shadow Tactics: Blades of the Shogun - Aiko's Choice	appid 1579380		Unity; asset archive .assets		2025-01-10	
+PC0387	E:\SteamLibrary\steamapps\common\HITMAN2	game-steam	HITMAN™ 2	appid 863550				2025-01-06	
+PC0388	E:\SteamLibrary\steamapps\common\Rover Mechanic Simulator	game-steam	Rover Mechanic Simulator	appid 864680		Unity		2025-01-06	
+PC0389	E:\SteamLibrary\steamapps\common\We Were Here Together	game-steam	We Were Here Together	appid 865360		Unity; asset archive .bundle		2025-01-06	
+PC0390	E:\SteamLibrary\steamapps\common\Backbone	game-steam	Tails Noir	appid 865610		Unreal		2025-01-06	
+PC0391	E:\SteamLibrary\steamapps\common\SimpleRockets2	game-steam	Juno: New Origins	appid 870200		Unity; asset archive .assets		2025-01-06	
+PC0392	E:\SteamLibrary\steamapps\common\Control	game-steam	Control Ultimate Edition	appid 870780		dir data		2025-01-06	
+PC0393	E:\SteamLibrary\steamapps\common\HentaiGirl	game-steam	Hentai Girl	appid 878750		Unity; asset archive .assets		2025-01-03	
+PC0394	E:\SteamLibrary\steamapps\common\ShenmueIII	game-steam	Shenmue III	appid 878670		Unreal		2025-01-06	
+PC0395	E:\SteamLibrary\steamapps\common\tModLoader	game-steam	tModLoader	appid 1281930				2025-01-08	
+PC0396	E:\SteamLibrary\steamapps\common\In Other Waters	game-steam	In Other Waters	appid 890720		Unity; asset archive .assets		2025-01-06	
+PC0397	E:\SteamLibrary\steamapps\common\Deadlock	game-steam	Deadlock	appid 1422450				2025-01-09	
+PC0398	E:\SteamLibrary\steamapps\common\CatherineClassic	game-steam	Catherine Classic	appid 893180		dir data		2025-01-06	
+PC0399	E:\SteamLibrary\steamapps\common\Project Warlock	game-steam	Project Warlock	appid 893680		Unity; asset archive .assets		2025-01-06	
+PC0400	E:\SteamLibrary\steamapps\common\Spellcaster University	game-steam	Spellcaster University	appid 895620		Unity; asset archive .assets		2025-01-06	
+PC0401	E:\SteamLibrary\steamapps\common\Project Wingman	game-steam	Project Wingman	appid 895870		Unreal		2025-01-06	
+PC0402	E:\SteamLibrary\steamapps\common\The Survivalists	game-steam	The Survivalists	appid 897450		Unity; asset archive .assets; asset archive .bundle		2025-01-06	
+PC0403	E:\SteamLibrary\steamapps\common\The Shapeshifting Detective	game-steam	The Shapeshifting Detective	appid 898650		Unity; asset archive .assets		2025-01-06	
+PC0404	E:\SteamLibrary\steamapps\common\Destiny 2	game-steam	Destiny 2	appid 1085660				2025-01-07	
+PC0405	E:\SteamLibrary\steamapps\common\Warhammer Quest 2 The End Times	game-steam	Warhammer Quest 2: The End Times	appid 910450		Unity; asset archive .assets		2025-01-06	
+PC0406	E:\SteamLibrary\steamapps\common\Train Station Renovation	game-steam	Train Station Renovation	appid 914010		Unity		2025-01-06	
+PC0407	E:\SteamLibrary\steamapps\common\Endzone - A World Apart	game-steam	Endzone - A World Apart	appid 933820		Unity; asset archive .assets; asset archive .bundle; dir Mods		2025-01-06	
+PC0408	E:\SteamLibrary\steamapps\common\Bee Simulator	game-steam	Bee Simulator	appid 914750				2025-01-06	
+PC0409	E:\SteamLibrary\steamapps\common\ATOM RPG Trudograd	game-steam	ATOM RPG Trudograd	appid 1139940		Unity; asset archive .assets; asset archive .bundle		2025-01-08	
+PC0410	E:\SteamLibrary\steamapps\common\Felix The Reaper	game-steam	Felix the Reaper	appid 919410		Unity; asset archive .assets		2025-01-06	
+PC0411	E:\SteamLibrary\steamapps\common\Encased	game-steam	Encased	appid 921800		Unity; asset archive .assets		2025-01-06	
+PC0412	E:\SteamLibrary\steamapps\common\F1 2019	game-steam	F1 2019	appid 928600				2025-01-06	
+PC0413	E:\SteamLibrary\steamapps\common\Swag and Sorcery	game-steam	Swag and Sorcery	appid 929010		Unity		2025-01-03	
+PC0414	E:\SteamLibrary\steamapps\common\Townsmen - A Kingdom Rebuilt	game-steam	Townsmen - A Kingdom Rebuilt	appid 938380				2025-01-06	
+PC0415	E:\SteamLibrary\steamapps\common\Darksburg	game-steam	Darksburg	appid 939100				2025-01-06	
+PC0416	E:\SteamLibrary\steamapps\common\Textorcist	game-steam	The Textorcist: The Story of Ray Bibbia	appid 940680				2025-01-06	
+PC0417	E:\SteamLibrary\steamapps\common\HenryStickmin	game-steam	The Henry Stickmin Collection	appid 1089980				2025-01-07	
+PC0418	E:\SteamLibrary\steamapps\common\Minoria	game-steam	Minoria	appid 940910		Unity; asset archive .assets		2025-01-06	
+PC0419	E:\SteamLibrary\steamapps\common\Relicta	game-steam	Relicta	appid 941570		Unreal		2025-01-06	
+PC0420	E:\SteamLibrary\steamapps\common\SWINE HD Remaster	game-steam	SWINE HD Remaster	appid 944010				2025-01-06	
+PC0421	E:\SteamLibrary\steamapps\common\THQBCNP1	game-steam	Gothic Playable Teaser	appid 950670		Unreal		2025-01-06	
+PC0422	E:\SteamLibrary\steamapps\common\Fantasy Blacksmith	game-steam	Fantasy Blacksmith	appid 959520		Unreal		2025-01-06	
+PC0423	E:\SteamLibrary\steamapps\common\BloonsTD6	game-steam	Bloons TD 6	appid 960090		Unity; asset archive .assets; asset archive .bundle		2025-01-06	
+PC0424	E:\SteamLibrary\steamapps\common\Hello Neighbor Hide and Seek	game-steam	Hello Neighbor: Hide and Seek	appid 960420		Unreal		2025-01-06	
+PC0425	E:\SteamLibrary\steamapps\common\One Step From Eden	game-steam	One Step From Eden	appid 960690		Lua scripts; Unity; asset archive .assets		2025-01-06	
+PC0426	E:\SteamLibrary\steamapps\common\Frog_Detective_1	game-steam	Frog Detective 1: The Haunted Island	appid 963000		Unity; asset archive .assets; asset archive .bundle		2025-01-06	
+PC0427	E:\SteamLibrary\steamapps\common\Boomerang Fu	game-steam	Boomerang Fu	appid 965680		Unity; asset archive .assets		2025-01-06	
+PC0428	E:\SteamLibrary\steamapps\common\Omno	game-steam	Omno	appid 969760				2025-01-06	
+PC0429	E:\SteamLibrary\steamapps\common\SpongeBob SquarePants Battle for Bikini Bottom - Rehydrated	game-steam	SpongeBob SquarePants: Battle for Bikini Bottom - Rehydrated	appid 969990		Unreal		2025-01-06	
+PC0430	E:\SteamLibrary\steamapps\common\The Dungeon Of Naheulbeuk The Amulet Of Chaos	game-steam	The Dungeon Of Naheulbeuk: The Amulet Of Chaos	appid 970830		Unity; asset archive .assets		2025-01-06	
+PC0431	E:\SteamLibrary\steamapps\common\Rebel Cops	game-steam	Rebel Cops	appid 970960		Unity; asset archive .assets		2025-01-07	
+PC0432	E:\SteamLibrary\steamapps\common\Möbius Front '83	game-steam	Möbius Front '83	appid 971160				2025-01-07	
+PC0433	E:\SteamLibrary\steamapps\common\Sniper Ghost Warrior Contracts	game-steam	Sniper Ghost Warrior Contracts	appid 973580				2025-01-07	
+PC0434	E:\SteamLibrary\steamapps\common\Thronebreaker The Witcher Tales	game-steam	Thronebreaker: The Witcher Tales	appid 973760		Godot; Unity; asset archive .assets		2025-01-07	
+PC0435	E:\SteamLibrary\steamapps\common\Dwarf Fortress	game-steam	Dwarf Fortress	appid 975370		Lua scripts; dir data		2025-01-07	
+PC0436	E:\SteamLibrary\steamapps\common\PanzerPaladin	game-steam	Panzer Paladin	appid 975510				2025-01-07	
+PC0437	E:\SteamLibrary\steamapps\common\Effie	game-steam	Effie	appid 975950		Unreal		2025-01-07	
+PC0438	E:\SteamLibrary\steamapps\common\SizeMatters	game-steam	Size Matters	appid 976700		Unity; asset archive .assets		2025-01-07	
+PC0439	E:\SteamLibrary\steamapps\common\Emily is Away 3	game-steam	Emily is Away <3	appid 978460		Unity; asset archive .assets		2025-01-07	
+PC0440	E:\SteamLibrary\steamapps\common\Legend of Keepers	game-steam	Legend of Keepers	appid 978520		Unity; asset archive .assets; asset archive .bundle		2025-01-07	
+PC0441	E:\SteamLibrary\steamapps\common\Cepheus Protocol	game-steam	Cepheus Protocol	appid 979640		Unreal		2025-01-07	
+PC0442	E:\SteamLibrary\steamapps\common\Lightmatter	game-steam	Lightmatter	appid 994140		Unity; asset archive .assets		2025-01-07	
+PC0443	E:\SteamLibrary\steamapps\common\Neoverse	game-steam	NEOVERSE	appid 994220		Unity; asset archive .assets		2025-01-07	
+PC0444	E:\SteamLibrary\steamapps\common\Fae Tactics	game-steam	Fae Tactics	appid 995980				2025-01-07	
+PC0445	E:\SteamLibrary\steamapps\common\Moving Out	game-steam	Moving Out	appid 996770		Unity; asset archive .assets		2025-01-07	
+PC0446	E:\SteamLibrary\steamapps\common\Ring of Pain	game-steam	Ring of Pain	appid 998740		Unity; asset archive .assets; asset archive .bundle		2025-01-07	
+PC0447	E:\SteamLibrary\steamapps\common\Crown Trick	game-steam	Crown Trick	appid 1000010		SQLite; Unity; asset archive .assets		2025-01-07	
+PC0448	E:\SteamLibrary\steamapps\common\CookServeDelicious3	game-steam	Cook, Serve, Delicious! 3?!	appid 1000030				2025-01-07	
+PC0449	E:\SteamLibrary\steamapps\common\WRATH	game-steam	WRATH: Aeon of Ruin	appid 1000410				2025-01-07	
+PC0450	E:\SteamLibrary\steamapps\common\Through The Darkest of Times	game-steam	Through The Darkest of Times	appid 1003090		Unity; asset archive .assets		2025-01-07	
+PC0451	E:\SteamLibrary\steamapps\common\Tools Up!	game-steam	Tools Up!	appid 1004490		Unity; asset archive .assets		2025-01-07	
+PC0452	E:\SteamLibrary\steamapps\common\SIMULACRA 2	game-steam	SIMULACRA 2	appid 1011190		Unity		2025-01-07	
+PC0453	E:\SteamLibrary\steamapps\common\Peaky Blinders Mastermind	game-steam	Peaky Blinders: Mastermind	appid 1013310		Unity		2025-01-07	
+PC0454	E:\SteamLibrary\steamapps\common\PGA TOUR 2K21	game-steam	PGA TOUR 2K21	appid 1016120		Unity; asset archive .assets		2025-01-07	
+PC0455	E:\SteamLibrary\steamapps\common\West of Dead	game-steam	West of Dead	appid 1016790		Unity; asset archive .assets		2025-01-07	
+PC0456	E:\SteamLibrary\steamapps\common\Smile For Me	game-steam	Smile For Me	appid 1018850		Unity; asset archive .assets		2025-01-07	
+PC0457	E:\SteamLibrary\steamapps\common\Evoland Legendary Edition	game-steam	Evoland Legendary Edition	appid 1020470				2025-01-07	
+PC0458	E:\SteamLibrary\steamapps\common\Warhammer Underworlds Online	game-steam	Warhammer Underworlds - Shadespire Edition	appid 1022310		Unity; asset archive .assets; asset archive .bundle		2025-01-07	
+PC0459	E:\SteamLibrary\steamapps\common\WARSAW	game-steam	WARSAW	appid 1026420		Unity; asset archive .assets		2025-01-07	
+PC0460	E:\SteamLibrary\steamapps\common\Mafia Definitive Edition	game-steam	Mafia: Definitive Edition	appid 1030840		Godot		2025-01-07	
+PC0461	E:\SteamLibrary\steamapps\common\StellarSurvivor	game-steam	Stellar Survivor	appid 1032120		Unreal		2025-01-07	
+PC0462	E:\SteamLibrary\steamapps\common\Struggling	game-steam	Struggling	appid 1035560		Unity; asset archive .assets; asset archive .bundle		2025-01-07	
+PC0463	E:\SteamLibrary\steamapps\common\ScourgeBringer	game-steam	ScourgeBringer	appid 1037020				2025-01-07	
+PC0464	E:\SteamLibrary\steamapps\common\Paw Paw Paw	game-steam	Paw Paw Paw	appid 1037910		Unity; asset archive .assets		2025-01-03	
+PC0465	E:\SteamLibrary\steamapps\common\DIRT 5	game-steam	DIRT 5	appid 1038250				2025-01-07	
+PC0466	E:\SteamLibrary\steamapps\common\Kingdoms of Amalur Re-Reckoning	game-steam	Kingdoms of Amalur: Re-Reckoning	appid 1041720		dir data; dir modding		2025-01-07	
+PC0467	E:\SteamLibrary\steamapps\common\If Found	game-steam	If Found	appid 1041920		Unity; asset archive .assets		2025-01-07	
+PC0468	E:\SteamLibrary\steamapps\common\Call of the Sea	game-steam	Call of the Sea	appid 1042490		Unreal		2025-01-07	
+PC0469	E:\SteamLibrary\steamapps\common\Deleveled	game-steam	Deleveled	appid 1045580		Unity; asset archive .assets		2025-01-07	
+PC0470	E:\SteamLibrary\steamapps\common\The Coma 2 Vicious Sisters	game-steam	The Coma 2: Vicious Sisters	appid 1045720		SQLite; Unity; asset archive .assets		2025-01-07	
+PC0471	E:\SteamLibrary\steamapps\common\Islanders	game-steam	ISLANDERS	appid 1046030		Unity; asset archive .assets; asset archive .bundle		2025-01-07	
+PC0472	E:\SteamLibrary\steamapps\common\Frog_Detective_2	game-steam	Frog Detective 2: The Case of the Invisible Wizard	appid 1047220		Unity; asset archive .assets; asset archive .bundle		2025-01-07	
+PC0473	E:\SteamLibrary\steamapps\common\Superliminal	game-steam	Superliminal	appid 1049410		Unity; asset archive .assets		2025-01-03	
+PC0474	E:\SteamLibrary\steamapps\common\Fling to the Finish	game-steam	Fling to the Finish	appid 1054430		Unity; asset archive .assets; asset archive .bundle		2025-01-07	
+PC0475	E:\SteamLibrary\steamapps\common\Wingspan	game-steam	Wingspan	appid 1054490		Unity; asset archive .bundle		2025-01-07	
+PC0476	E:\SteamLibrary\steamapps\common\The Suicide of Rachel Foster	game-steam	The Suicide of Rachel Foster	appid 1057750		Unreal		2025-01-07	
+PC0477	E:\SteamLibrary\steamapps\common\Beyond the Wire	game-steam	Beyond The Wire	appid 1058650		Unreal		2025-01-07	
+PC0478	E:\SteamLibrary\steamapps\common\Conan Chop Chop	game-steam	Conan Chop Chop	appid 1061880		Unity		2025-01-07	
+PC0479	E:\SteamLibrary\steamapps\common\Embr	game-steam	Embr	appid 1062830		Unity; asset archive .assets; asset archive .bundle		2025-01-07	
+PC0480	E:\SteamLibrary\steamapps\common\Vane	game-steam	Vane	appid 1063310		Unity; asset archive .assets		2025-01-07	
+PC0481	E:\SteamLibrary\steamapps\common\Still There	game-steam	Still There	appid 1063490		Unity		2025-01-07	
+PC0482	E:\SteamLibrary\steamapps\common\Röki	game-steam	Röki	appid 1067540		Unity; asset archive .assets		2025-01-03	
+PC0483	E:\SteamLibrary\steamapps\common\Narita Boy	game-steam	Narita Boy	appid 1069530		Unity; asset archive .assets; asset archive .bundle		2025-01-07	
+PC0484	E:\SteamLibrary\steamapps\common\TOHU	game-steam	TOHU	appid 1075200		Unity; asset archive .assets		2025-01-07	
+PC0485	E:\SteamLibrary\steamapps\common\Main Assembly	game-steam	Main Assembly	appid 1078920		Unreal		2025-01-07	
+PC0486	E:\SteamLibrary\steamapps\common\F1 2020	game-steam	F1 2020	appid 1080110				2025-01-07	
+PC0487	E:\SteamLibrary\steamapps\common\MultiVersus	game-steam	MultiVersus	appid 1818750		Unreal		2025-01-10	
+PC0488	E:\SteamLibrary\steamapps\common\Fallout76	game-steam	Fallout 76	appid 1151340		asset archive .ba2; dir Data		2025-01-08	
+PC0489	E:\SteamLibrary\steamapps\common\Vampire The Masquerade - Coteries of New York	game-steam	Vampire: The Masquerade - Coteries of New York	appid 1096410		Unity; asset archive .assets		2025-01-08	
+PC0490	E:\SteamLibrary\steamapps\common\SongOfHorror	game-steam	SONG OF HORROR	appid 1096570		Unreal		2025-01-08	
+PC0491	E:\SteamLibrary\steamapps\common\Rock of Ages III Make & Break	game-steam	Rock of Ages 3: Make & Break	appid 1101360		Unreal		2025-01-08	
+PC0492	E:\SteamLibrary\steamapps\common\Monster Train	game-steam	Monster Train	appid 1102190		Unity; asset archive .assets; asset archive .bundle		2025-01-08	
+PC0493	E:\SteamLibrary\steamapps\common\MOAstray	game-steam	MO:Astray	appid 1104660		Unity; asset archive .assets		2025-01-08	
+PC0494	E:\SteamLibrary\steamapps\common\Eldest Souls	game-steam	Eldest Souls	appid 1108590		Unity; asset archive .assets; asset archive .bundle		2025-01-08	
+PC0495	E:\SteamLibrary\steamapps\common\DesertLegend	game-steam	Sands of Salzaar	appid 1094520		Lua scripts; Unity; asset archive .assets; asset archive .bundle; dir data		2025-01-03	
+PC0496	E:\SteamLibrary\steamapps\common\Shady Part of Me	game-steam	Shady Part of Me	appid 1116580				2025-01-08	
+PC0497	E:\SteamLibrary\steamapps\common\InSoundMind	game-steam	In Sound Mind	appid 1119980		Unity; asset archive .assets		2025-01-08	
+PC0498	E:\SteamLibrary\steamapps\common\Iris and the giant	game-steam	Iris and the giant	appid 1127610		Unity; asset archive .assets		2025-01-08	
+PC0499	E:\SteamLibrary\steamapps\common\RISK Global Domination	game-steam	RISK: Global Domination	appid 1128810		Unity; asset archive .assets; asset archive .bundle		2025-01-08	
+PC0500	E:\SteamLibrary\steamapps\common\Cyber Hook	game-steam	Cyber Hook	appid 1130410		Unity		2025-01-03	
+PC0501	E:\SteamLibrary\steamapps\common\Morbid	game-steam	Morbid: The Seven Acolytes	appid 1140890				2025-01-03	
+PC0502	E:\SteamLibrary\steamapps\common\Remothered Broken Porcelain	game-steam	Remothered: Broken Porcelain 	appid 1142390		Unreal		2025-01-08	
+PC0503	E:\SteamLibrary\steamapps\common\Fun with Ragdolls	game-steam	Fun with Ragdolls: The Game	appid 1142500		Unity; asset archive .assets		2025-01-03	
+PC0504	E:\SteamLibrary\steamapps\common\Homestuck Pesterquest	game-steam	Pesterquest	appid 1144030		Python		2025-01-08	
+PC0505	E:\SteamLibrary\steamapps\common\Open World Game the Open World Game	game-steam	Open World Game: the Open World Game	appid 1144110		Unity; asset archive .assets		2025-01-03	
+PC0506	E:\SteamLibrary\steamapps\common\Warhammer Chaos & Conquest	game-steam	Warhammer: Chaos & Conquest	appid 1144170		Unity; asset archive .assets		2025-01-08	
+PC0507	E:\SteamLibrary\steamapps\common\Not For Broadcast	game-steam	Not For Broadcast	appid 1147550		Unity; asset archive .assets; asset archive .bundle		2025-01-08	
+PC0508	E:\SteamLibrary\steamapps\common\Gas Station Simulator	game-steam	Gas Station Simulator	appid 1149620		Unreal		2025-01-08	
+PC0509	E:\SteamLibrary\steamapps\common\Wizard with a Gun	game-steam	Wizard with a Gun	appid 1150530		Unity; asset archive .assets; asset archive .bundle		2025-01-08	
+PC0510	E:\SteamLibrary\steamapps\common\Timelie	game-steam	Timelie	appid 1150950		Unity; asset archive .assets		2025-01-08	
+PC0511	E:\SteamLibrary\steamapps\common\Golf Gang	game-steam	Golf Gang	appid 1151050		Unity; asset archive .assets		2025-01-08	
+PC0512	E:\SteamLibrary\steamapps\common\Fallout 76 Playtest	game-steam	Fallout 76 Public Test Server	appid 1836200		asset archive .ba2; dir Data		2025-01-10	
+PC0513	E:\SteamLibrary\steamapps\common\Going Under	game-steam	Going Under	appid 1154810		Unity; asset archive .assets		2025-01-08	
+PC0514	E:\SteamLibrary\steamapps\common\Crusader Kings III	game-steam	Crusader Kings III	appid 1158310				2025-01-08	
+PC0515	E:\SteamLibrary\steamapps\common\Paradise Killer	game-steam	Paradise Killer	appid 1160220		Unreal		2025-01-08	
+PC0516	E:\SteamLibrary\steamapps\common\Midnight Protocol	game-steam	Midnight Protocol	appid 1162700		Unity; asset archive .assets		2025-01-08	
+PC0517	E:\SteamLibrary\steamapps\common\Gloria Victis Siege	game-steam	Siege Survival: Gloria Victis	appid 1167140		Unity; asset archive .assets		2025-01-08	
+PC0518	E:\SteamLibrary\steamapps\common\MOLEK-SYNTEZ	game-steam	MOLEK-SYNTEZ	appid 1168880				2025-01-08	
+PC0519	E:\SteamLibrary\steamapps\common\Carto	game-steam	Carto	appid 1172450		Unity; asset archive .assets		2025-01-08	
+PC0520	E:\SteamLibrary\steamapps\common\Industria	game-steam	INDUSTRIA	appid 1172650		Unreal		2025-01-08	
+PC0521	E:\SteamLibrary\steamapps\common\Metal Unit	game-steam	Metal Unit	appid 1173200		Unity; asset archive .assets; asset archive .bundle		2025-01-08	
+PC0522	E:\SteamLibrary\steamapps\common\Kill It With Fire	game-steam	Kill It With Fire	appid 1179210		Unreal		2025-01-08	
+PC0523	E:\SteamLibrary\steamapps\common\Path of Giants	game-steam	Path of Giants	appid 1181400		Unity; asset archive .assets		2025-01-08	
+PC0524	E:\SteamLibrary\steamapps\common\Pathfinder Second Adventure	game-steam	Pathfinder: Wrath of the Righteous - Enhanced Edition	appid 1184370		Unity; asset archive .assets		2025-01-08	
+PC0525	E:\SteamLibrary\steamapps\common\Worms Rumble	game-steam	Worms Rumble	appid 1186040		Unreal		2025-01-08	
+PC0526	E:\SteamLibrary\steamapps\common\Pumpkin Jack	game-steam	Pumpkin Jack	appid 1186640		Unreal		2025-01-08	
+PC0527	E:\SteamLibrary\steamapps\common\OlliOlli World	game-steam	OlliOlli World	appid 1190170		Unity; asset archive .assets; asset archive .bundle		2025-01-08	
+PC0528	E:\SteamLibrary\steamapps\common\The Dark Pictures Anthology - Little Hope	game-steam	The Dark Pictures Anthology: Little Hope	appid 1194630		Unreal		2025-01-08	
+PC0529	E:\SteamLibrary\steamapps\common\UnMetal	game-steam	UnMetal	appid 1203710		dir data		2025-01-08	
+PC0530	E:\SteamLibrary\steamapps\common\Super Magbot	game-steam	Super Magbot	appid 1205170		Unreal		2025-01-08	
+PC0531	E:\SteamLibrary\steamapps\common\Turnip Boy Commits Tax Evasion	game-steam	Turnip Boy Commits Tax Evasion	appid 1205450		Unity; asset archive .assets		2025-01-08	
+PC0532	E:\SteamLibrary\steamapps\common\Blue Fire	game-steam	Blue Fire	appid 1220150		Unreal		2025-01-08	
+PC0533	E:\SteamLibrary\steamapps\common\Necromunda Hired Gun	game-steam	Necromunda: Hired Gun	appid 1222370		Unreal		2025-01-08	
+PC0534	E:\SteamLibrary\steamapps\common\Partisans 1941	game-steam	Partisans 1941	appid 1227530		Unreal		2025-01-08	
+PC0535	E:\SteamLibrary\steamapps\common\Retrowave	game-steam	Retrowave	appid 1239690		Unity; asset archive .assets		2025-01-08	
+PC0536	E:\SteamLibrary\steamapps\common\Skully	game-steam	Skully	appid 1249110		Unreal		2025-01-08	
+PC0537	E:\SteamLibrary\steamapps\common\DEATHLOOP	game-steam	DEATHLOOP	appid 1252330				2025-01-08	
+PC0538	E:\SteamLibrary\steamapps\common\HOT WHEELS UNLEASHED	game-steam	HOT WHEELS UNLEASHED™	appid 1271700		Unreal		2025-01-08	
+PC0539	E:\SteamLibrary\steamapps\common\Vampire The Masquerade - Shadows of New York	game-steam	Vampire: The Masquerade - Shadows of New York	appid 1279630		Unity; asset archive .assets		2025-01-08	
+PC0540	E:\SteamLibrary\steamapps\common\Leaf Blower Revolution	game-steam	Leaf Blower Revolution - Idle Game	appid 1468260				2025-01-09	
+PC0541	E:\SteamLibrary\steamapps\common\BPM BULLETS PER MINUTE	game-steam	BPM: BULLETS PER MINUTE	appid 1286350		Unreal		2025-01-08	
+PC0542	E:\SteamLibrary\steamapps\common\Disciples Liberation	game-steam	Disciples: Liberation	appid 1287840		Unity; asset archive .assets; asset archive .bundle		2025-01-08	
+PC0543	E:\SteamLibrary\steamapps\common\FobiaStDinfnaHotel	game-steam	Fobia - St. Dinfna Hotel	appid 1298140		Unreal		2025-01-08	
+PC0544	E:\SteamLibrary\steamapps\common\Milky Way Prince – The Vampire Star	game-steam	Milky Way Prince – The Vampire Star	appid 1302050		Unity; asset archive .assets; asset archive .bundle		2025-01-03	
+PC0545	E:\SteamLibrary\steamapps\common\Voidigo	game-steam	Voidigo	appid 1304680				2025-01-08	
+PC0546	E:\SteamLibrary\steamapps\common\TOEM	game-steam	TOEM	appid 1307580		Unity; asset archive .assets		2025-01-08	
+PC0547	E:\SteamLibrary\steamapps\common\Greak Memories of Azur	game-steam	Greak: Memories of Azur	appid 1311070		Unity; asset archive .assets		2025-01-08	
+PC0548	E:\SteamLibrary\steamapps\common\Epic Chef	game-steam	Epic Chef	appid 1312960		Unity; asset archive .assets; asset archive .bundle		2025-01-08	
+PC0549	E:\SteamLibrary\steamapps\common\shapez.io	game-steam	shapez	appid 1318690				2025-01-08	
+PC0550	E:\SteamLibrary\steamapps\common\Roosevelt	game-steam	Morkredd	appid 1331910		Unity; asset archive .assets		2025-01-08	
+PC0551	E:\SteamLibrary\steamapps\common\Werewolf The Apocalypse - Heart of the Forest	game-steam	Werewolf: The Apocalypse - Heart of the Forest	appid 1342620		Unity; asset archive .assets		2025-01-08	
+PC0552	E:\SteamLibrary\steamapps\common\Five Dates	game-steam	Five Dates	appid 1353270		Unity; asset archive .assets		2025-01-08	
+PC0553	E:\SteamLibrary\steamapps\common\Lacuna	game-steam	Lacuna	appid 1364100		Unity; asset archive .assets		2025-01-08	
+PC0554	E:\SteamLibrary\steamapps\common\Grow Song of the Evertree	game-steam	Grow: Song of the Evertree	appid 1380420		Unity; asset archive .assets; asset archive .bundle		2025-01-08	
+PC0555	E:\SteamLibrary\steamapps\common\Mind Scanners	game-steam	Mind Scanners	appid 1389550		Unity; asset archive .assets		2025-01-09	
+PC0556	E:\SteamLibrary\steamapps\common\John Wick Hex	game-steam	John Wick Hex	appid 1405790		Unity; asset archive .assets		2025-01-09	
+PC0557	E:\SteamLibrary\steamapps\common\Liftlands Demo	game-steam	Liftlands Demo	appid 2898460		Unity; asset archive .assets		2025-01-08	
+PC0558	E:\SteamLibrary\steamapps\common\Metro Exodus Enhanced Edition	game-steam	Metro Exodus Enhanced Edition	appid 1449560				2025-01-09	
+PC0559	E:\SteamLibrary\steamapps\common\The Serpent Rogue	game-steam	The Serpent Rogue	appid 1453790		Unity; asset archive .assets		2025-01-09	
+PC0560	E:\SteamLibrary\steamapps\common\The Spell Brigade	game-steam	The Spell Brigade	appid 2904000		Unity; asset archive .assets; asset archive .bundle		2025-01-10	
+PC0561	E:\SteamLibrary\steamapps\common\IAmFish	game-steam	I Am Fish	appid 1472560		Unity; asset archive .assets		2025-01-09	
+PC0562	E:\SteamLibrary\steamapps\common\Lawn Mowing Simulator	game-steam	Lawn Mowing Simulator	appid 1480560		Unity; asset archive .assets; asset archive .bundle		2025-01-09	
+PC0563	E:\SteamLibrary\steamapps\common\Hell Let Loose (Public Testing)	game-steam	Hell Let Loose (Public Testing)	appid 1504860		Unreal		2025-01-09	
+PC0564	E:\SteamLibrary\steamapps\common\The Dark Pictures Anthology - Little Hope	game-steam	The Dark Pictures Anthology: Little Hope - Friend's Pass	appid 1537710		Unreal		2025-01-08	
+PC0565	E:\SteamLibrary\steamapps\common\Berry Madness	game-steam	Berry Madness	appid 2288580		Unity; asset archive .assets		2025-01-08	
+PC0566	E:\SteamLibrary\steamapps\common\Gotham Knights	game-steam	Gotham Knights	appid 1496790		Unreal		2025-01-03	
+PC0567	E:\SteamLibrary\steamapps\common\Forgive me Father	game-steam	Forgive Me Father	appid 1590910		Unreal		2025-01-10	
+PC0568	E:\SteamLibrary\steamapps\common\Crab Game	game-steam	Crab Game	appid 1782210		Unity; asset archive .assets		2025-01-10	
+PC0569	E:\SteamLibrary\steamapps\common\Blue Fire Void Maker	game-steam	Blue Fire: Void Maker	appid 1793350		Unreal		2025-01-10	
+PC0570	E:\SteamLibrary\steamapps\common\Cepheus Protocol Experimental Branch	game-steam	Cepheus Protocol Experimental Branch	appid 2116560		Unreal		2025-01-10	
+PC0571	E:\SteamLibrary\steamapps\common\Masterplan Tycoon Foundations	game-steam	Masterplan Tycoon: Foundations	appid 3008050		Unity; asset archive .assets		2025-01-10	
+PC0572	E:\SteamLibrary\steamapps\common\Sould Dub	game-steam	Sould Dub	appid 1879290		Unity; asset archive .assets		2025-01-03	
+PC0573	E:\SteamLibrary\steamapps\common\Mechaguard	game-steam	Mechaguard	appid 1887200				2025-01-10	
+PC0574	E:\SteamLibrary\steamapps\common\Deep Night Runner	game-steam	Deep Night Runner	appid 1887990				2025-01-10	
+PC0575	E:\SteamLibrary\steamapps\common\Dr. Science quest	game-steam	Dr. Science quest	appid 1891940				2025-01-10	
+PC0576	E:\SteamLibrary\steamapps\common\Fishy Business	game-steam	Fishy Business	appid 1892810				2025-01-10	
+PC0577	E:\SteamLibrary\steamapps\common\Plan B Terraform	game-steam	Plan B: Terraform	appid 1894430		Lua scripts; Unity; asset archive .assets		2025-01-10	
+PC0578	E:\SteamLibrary\steamapps\common\Prince of Suburbia - Part One	game-steam	Prince of Suburbia - Part 1	appid 1896170		Python		2025-01-03	
+PC0579	E:\SteamLibrary\steamapps\common\JUNGLE RUNNER	game-steam	JUNGLE RUNNER	appid 1896820		Unreal		2025-01-10	
+PC0580	E:\SteamLibrary\steamapps\common\Iron Age	game-steam	Iron Age	appid 1919070		Unity; asset archive .assets		2025-01-10	
+PC0581	E:\SteamLibrary\steamapps\common\Pixel Pirate	game-steam	Pixel Pirate	appid 1924310				2025-01-10	
+PC0582	E:\SteamLibrary\steamapps\common\Nightingale	game-steam	Nightingale	appid 1928980		Unreal		2025-01-10	
+PC0583	E:\SteamLibrary\steamapps\common\Lethal Company	game-steam	Lethal Company	appid 1966720		Unity; asset archive .assets		2025-01-10	
+PC0584	E:\SteamLibrary\steamapps\common\Legacy of Sin blood oath	game-steam	Legacy of Sin: Blood Oath	appid 1969820		Unity; asset archive .assets; asset archive .bundle		2025-01-10	
+PC0585	E:\SteamLibrary\steamapps\common\Oxygen	game-steam	Oxygen	appid 2061430		Unreal		2025-01-10	
+PC0586	E:\SteamLibrary\steamapps\common\Star Realms	game-steam	Star Realms	appid 438140		Unity; asset archive .assets; asset archive .bundle		2026-07-15	
+PC0587	E:\SteamLibrary\steamapps\common\Digital Frida	game-steam	Digital Frida	appid 2209580				2025-01-10	
+PC0588	E:\SteamLibrary\steamapps\common\Station 99	game-steam	Station 99	appid 2313980		Unity; asset archive .assets		2025-01-03	
+PC0589	E:\SteamLibrary\steamapps\common\Winter Stealth	game-steam	Winter Stealth	appid 2387020				2025-01-10	
+PC0590	E:\SteamLibrary\steamapps\common\Lifecraft_Beta	game-steam	Lifecraft Beta	appid 2584670		dir data		2025-01-10	
+PC0591	E:\SteamLibrary\steamapps\common\Yu-Gi-Oh!  Master Duel	game-steam	Yu-Gi-Oh!  Master Duel	appid 1449850		Unity		2025-01-03	
+PC0592	E:\SteamLibrary\steamapps\common\Goose Goose Duck	game-steam	Goose Goose Duck	appid 1568590		Unity		2026-07-14	
+PC0593	E:\SteamLibrary\steamapps\common\Space Marine 2	game-steam	Warhammer 40,000: Space Marine 2	appid 2183900				2025-04-03	
+PC0594	E:\SteamLibrary\steamapps\common\SovietRepublic	game-steam	Workers & Resources: Soviet Republic	appid 784150				2026-07-14	
+PC0595	E:\SteamLibrary\steamapps\common\YuppiePsycho	game-steam	Yuppie Psycho	appid 597760		dir mods		2025-01-03	
+PC0596	E:\SteamLibrary\steamapps\common\Cosmoteer	game-steam	Cosmoteer: Starship Architect & Commander	appid 799600		dir Data		2026-07-15	
+PC0597	E:\SteamLibrary\steamapps\common\Factorio	game-steam	Factorio	appid 427520		Lua scripts; dir data		2026-07-14	
+PC0598	E:\SteamLibrary\steamapps\common\RimWorld	game-steam	RimWorld	appid 294100		Unity; asset archive .assets; dir Data; dir Mods		2026-07-14	
+PC0599	E:\SteamLibrary\steamapps\common\Anomaly Korea	game-steam	Anomaly Korea	appid 251530				2026-07-14	
+PC0600	E:\SteamLibrary\steamapps\common\BeamNG.drive	game-steam	BeamNG.drive	appid 284160		Lua scripts		2026-07-14	
+PC0601	E:\SteamLibrary\steamapps\common\Crash Bandicoot - N Sane Trilogy	game-steam	Crash Bandicoot™ N. Sane Trilogy	appid 731490				2026-07-14	
+PC0602	E:\SteamLibrary\steamapps\common\Cyber Assasin	game-steam	Cyber Assasin	appid 3015120				2026-07-14	
+PC0603	E:\SteamLibrary\steamapps\common\Digital Meow	game-steam	Digital Meow	appid 3015130				2026-07-14	
+PC0604	E:\SteamLibrary\steamapps\common\Don't Starve Together	game-steam	Don't Starve Together	appid 322330		dir data; dir mods		2026-07-14	
+PC0605	E:\SteamLibrary\steamapps\common\Skyrim Special Edition	game-steam	The Elder Scrolls V: Skyrim Special Edition	appid 489830		asset archive .bsa; dir Data		2026-07-14	
+PC0606	E:\SteamLibrary\steamapps\common\Electoral Carnage	game-steam	Electoral Carnage	appid 3706810		Unity; asset archive .assets		2026-07-14	
+PC0607	E:\SteamLibrary\steamapps\common\Era of Miracles	game-steam	Era of Miracles	appid 1037930				2026-07-14	
+PC0608	E:\SteamLibrary\steamapps\common\Garage	game-steam	GARAGE: Bad Trip	appid 878580		Unity; asset archive .assets		2026-07-14	
+PC0609	E:\SteamLibrary\steamapps\common\3D Aim Trainer	game-steam	3D Aim Trainer	appid 1600530		Unity; asset archive .assets; asset archive .bundle		2026-07-15	
+PC0610	E:\SteamLibrary\steamapps\common\Goblin Gladiators	game-steam	Goblin Gladiators	appid 1944710		Unreal		2026-07-14	
+PC0611	E:\SteamLibrary\steamapps\common\TotallyAccurateBattlegrounds	game-steam	Totally Accurate Battlegrounds	appid 823130		Unity; asset archive .assets		2026-07-15	
+PC0612	E:\SteamLibrary\steamapps\common\XCOM-Chimera-Squad	game-steam	XCOM: Chimera Squad	appid 882100				2025-01-03	
+PC0613	E:\SteamLibrary\steamapps\common\Subverse	game-steam	Subverse	appid 1034140		Unreal		2026-07-15	
+PC0614	E:\SteamLibrary\steamapps\common\Mindustry	game-steam	Mindustry	appid 1127400				2026-07-14	
+PC0615	E:\SteamLibrary\steamapps\common\WWE 2K Battlegrounds	game-steam	WWE 2K BATTLEGROUNDS	appid 1142100		Unreal		2026-07-15	
+PC0616	E:\SteamLibrary\steamapps\common\Necesse	game-steam	Necesse	appid 1169040				2026-07-15	
+PC0617	E:\SteamLibrary\steamapps\common\TellMeWhy	game-steam	Tell Me Why	appid 1180660		Unreal		2026-07-15	
+PC0618	E:\SteamLibrary\steamapps\common\LEWDAPOCALYPSE	game-steam	LEWDAPOCALYPSE	appid 1271710		Unity; asset archive .assets		2026-07-15	
+PC0619	E:\SteamLibrary\steamapps\common\Risk of Rain Returns	game-steam	Risk of Rain Returns	appid 1337520		dir data		2026-07-15	
+PC0620	E:\SteamLibrary\steamapps\common\ROUNDS	game-steam	ROUNDS	appid 1557740		Unity; asset archive .assets		2026-07-15	
+PC0621	E:\SteamLibrary\steamapps\common\Lust for Speed	game-steam	Lust for Speed	appid 1535110		Unity; asset archive .assets		2026-07-15	
+PC0622	E:\SteamLibrary\steamapps\common\Hellslave	game-steam	Hellslave	appid 1608450		dir Data		2026-07-15	
+PC0623	E:\SteamLibrary\steamapps\common\SurrounDead	game-steam	SurrounDead	appid 1645820		Unreal		2026-07-15	
+PC0624	E:\SteamLibrary\steamapps\common\Come Home	game-steam	Come Home	appid 1724190		Python		2026-07-14	
+PC0625	E:\SteamLibrary\steamapps\common\MarvelRivals	game-steam	Marvel Rivals	appid 2767030		Unreal		2026-07-15	
+PC0626	E:\SteamLibrary\steamapps\common\LEWD GIRLS Hentai Puzzle	game-steam	LEWD GIRLS: Hentai Puzzle	appid 2778460		Unity; asset archive .assets; asset archive .bundle		2026-07-15	
+PC0627	E:\SteamLibrary\steamapps\common\Retrowave 2	game-steam	Retrowave 2	appid 3331000		Unity; asset archive .assets		2026-07-15	
+PC0628	E:\SteamLibrary\steamapps\common\Skate	game-steam	skate.	appid 3354750		dir Data		2026-07-15	
+PC0629	E:\SteamLibrary\steamapps\common\Fireplace Simulator	game-steam	Fireplace Simulator	appid 3433050		Unity		2026-07-15	
+PC0630	E:\SteamLibrary\steamapps\common\Yakuza Kiwami 2 R	game-steam	Yakuza Kiwami 2	appid 3717340				2026-07-15	
+PC0631	E:\SteamLibrary\steamapps\common\Left 4 Dead 2	game-steam	Left 4 Dead 2	appid 550				2026-07-15	
+PC0632	E:\SteamLibrary\steamapps\common\SpeedRunners	game-steam	SpeedRunners	appid 207140				2026-07-15	
+PC0633	E:\SteamLibrary\steamapps\common\Stronghold Crusader 2	game-steam	Stronghold Crusader 2	appid 232890				2026-07-15	
+PC0634	E:\SteamLibrary\steamapps\common\skyrim	game-steam	Skyrim Script Extender (SKSE)	appid 365720		dir Data		2026-07-15	
+PC0635	E:\SteamLibrary\steamapps\common\Total War WARHAMMER III	game-steam	Total War: WARHAMMER III	appid 1142710		dir data		2025-04-02	
+PC0636	E:\SteamLibrary\steamapps\common\StickFightTheGame	game-steam	Stick Fight: The Game	appid 674940		Unity; asset archive .assets		2026-07-15	
+PC0637	E:\SteamLibrary\steamapps\common\Hydroneer	game-steam	Hydroneer	appid 1106840		Unreal		2026-07-15	
+PC0638	E:\SteamLibrary\steamapps\common\Wordle 4	game-steam	Wordle 4	appid 1477020		Unity; asset archive .assets		2026-07-14	
+PC0639	E:\SteamLibrary\steamapps\common\Fomon	game-steam	Fomon	appid 3166930		Unity; asset archive .assets		2026-07-14	
+PC0640	E:\SteamLibrary\steamapps\common\OpenTTD	game-steam	OpenTTD	appid 1536610		dir scripts		2026-07-14	
+PC0641	E:\SteamLibrary\steamapps\common\BLACKJACK and WAIFUS	game-steam	BLACKJACK and WAIFUS	appid 1702830		Unity; asset archive .assets		2026-07-14	
+PC0642	E:\SteamLibrary\steamapps\common\Trainz Railroad Simulator 2022	game-steam	Trainz Railroad Simulator 2022	appid 1784570				2026-07-14	
+PC0643	E:\SteamLibrary\steamapps\common\Furry Killer	game-steam	Furry Killer	appid 2206460				2026-07-14	
+PC0644	E:\SteamLibrary\steamapps\common\Aviassembly	game-steam	Aviassembly	appid 2660460		Unity; asset archive .assets		2026-07-15	
+PC0645	E:\SteamLibrary\steamapps\common\Microtopia	game-steam	Microtopia	appid 2750000		Unity; asset archive .assets; asset archive .bundle		2026-07-14	
+PC0646	E:\SteamLibrary\steamapps\common\Stellaris	game-steam	Stellaris	appid 281990				2025-01-03	
+PC0647	E:\SteamLibrary\steamapps\common\YapWizardsTowerDefence	game-steam	Yap Wizards Tower Defence	appid 3395500				2026-07-14	
+PC0648	E:\SteamLibrary\steamapps\common\Waifu Shop	game-steam	Waifu Shop	appid 3457380		Unity; asset archive .assets		2026-07-14	
+PC0649	E:\SteamLibrary\steamapps\common\Prison Architect	game-steam	Prison Architect	appid 233450				2026-07-14	
+PC0650	E:\SteamLibrary\steamapps\common\left 4 dead 2	game-steam	Left 4 Dead 2 Authoring Tools	appid 563				2026-07-15	
+PC0651	E:\SteamLibrary\steamapps\common\Tabletop Simulator	game-steam	Tabletop Simulator	appid 286160		Unity; asset archive .assets; dir Modding		2026-07-14	
+PC0652	E:\SteamLibrary\steamapps\common\Automation	game-steam	Automation - The Car Company Tycoon Game	appid 293760		Lua scripts; SQLite; Unreal		2026-07-14	
+PC0653	E:\SteamLibrary\steamapps\common\Rise to Ruins	game-steam	Rise to Ruins	appid 328080				2026-07-14	
+PC0654	E:\SteamLibrary\steamapps\common\Planetbase	game-steam	Planetbase	appid 403190		Unity; asset archive .assets		2026-07-14	
+PC0655	E:\SteamLibrary\steamapps\common\KARDS	game-steam	KARDS - The WWII Card Game	appid 544810		Unreal		2026-07-14	
+PC0656	E:\SteamLibrary\steamapps\common\Into the Breach	game-steam	Into the Breach	appid 590380		Lua scripts; dir scripts		2026-07-14	
+PC0657	E:\SteamLibrary\steamapps\common\Overcrowd	game-steam	Overcrowd: A Commute 'Em Up	appid 726110				2026-07-14	
+PC0658	E:\SteamLibrary\steamapps\common\First Feudal	game-steam	First Feudal	appid 733460				2026-07-14	
+PC0659	E:\SteamLibrary\steamapps\common\Death Crown	game-steam	Death Crown	appid 814530		Unity; asset archive .assets		2026-07-15	
+PC0660	E:\SteamLibrary\steamapps\common\Zwei II	game-steam	Zwei: The Ilvard Insurrection	appid 427700		dir data		2025-01-03	
+PC0661	E:\SteamLibrary\steamapps\common\Zwei	game-steam	Zwei: The Arges Adventure	appid 427680		dir Plugins		2025-01-03	
+PC0662	E:\SteamLibrary\steamapps\common\Youropa	game-steam	Youropa	appid 640120				2025-01-03	
+PC0663	C:\Program Files (x86)\Steam\steamapps\common\Lust for Speed	game-steam	Lust for Speed	appid 1535110		Unity; asset archive .assets		2026-08-10	
+PC0664	C:\Program Files (x86)\Steam\steamapps\common\Come Home	game-steam	Come Home	appid 1724190		Python		2026-08-24	
+PC0665	C:\Program Files (x86)\Steam\steamapps\common\Skyrim Special Edition	game-steam	Skyrim Special Edition: Creation Kit	appid 1946180		Python; asset archive .bsa; dir Data		2026-10-03	
+PC0666	C:\Program Files (x86)\Steam\steamapps\common\Steamworks Shared	game-steam	Steamworks Common Redistributables	appid 228980				2026-10-19	
+PC0667	C:\Program Files (x86)\Steam\steamapps\common\Prison Architect	game-steam	Prison Architect	appid 233450				2026-07-31	
+PC0668	C:\Program Files (x86)\Steam\steamapps\common\Arma 3 Tools	game-steam	Arma 3 Tools	appid 233800				2026-10-03	
+PC0669	C:\Program Files (x86)\Steam\steamapps\common\Balatro	game-steam	Balatro	appid 2379780				2026-08-10	
+PC0670	C:\Program Files (x86)\Steam\steamapps\common\skyrim	game-steam	Skyrim Script Extender (SKSE)	appid 365720		dir Data		2026-10-03	
+PC0671	C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine	game-steam	Wallpaper Engine	appid 431960		Unity; asset archive .assets; dir plugins		2026-10-24	
+PC0672	C:\Program Files (x86)\Steam\steamapps\common\VRChat	game-steam	VRChat	appid 438100		Unity; asset archive .assets		2026-10-14	
+PC0673	C:\Program Files (x86)\Steam\steamapps\common\Skyrim Special Edition	game-steam	The Elder Scrolls V: Skyrim Special Edition	appid 489830		Python; asset archive .bsa; dir Data		2026-10-03	
+PC0674	C:\Program Files (x86)\Steam\steamapps\common\The Divinity Engine 2	game-steam	The Divinity Engine 2	appid 664400				2026-10-03	
+PC0675	C:\Program Files\Epic Games\UE_5.8	game-epic	Unreal Engine		Engine/Binaries/Win64/UnrealEditor.exe	Python		2026-10-03	
+PC0689	C:\Users\imarl\agentskills	project	agentskills agentskills | 	node	CLAUDE.md,README.md		139 files; .svg:91 .py:11 .mdx:9 .png:7 .md:6 .json:3 .jsx:3 .sh:1	2026-09-28	
+PC0690	C:\Users\imarl\age_sort_wt	project	age_sort_wt 	git			15000+ files; .json:13913 .xml:957 .index:70 .md:23 .docx:10 .map:7 .yml:3 .tsv:3	2026-10-19	
+PC0691	C:\Users\imarl\AI Game	project	AI Game 	dotnet			15000+ files; .meta:5422 .cs:2716 .png:957 .md:317 .mvfrm:271 .dll:262 .hlsl:216 .rsp:190	2025-12-18	
+PC0692	C:\Users\imarl\ai-screen-assistant	project	ai-screen-assistant 	python	main.py,README.md		5 files; .json:1 .bat:1 .py:1 .md:1 .txt:1	2026-06-22	
+PC0693	C:\Users\imarl\apify-actors	project	apify-actors 	git	CLAUDE.md		5423 files; .json:4510 .js:316 .md:123 .txt:113 .png:104 .html:14 .mjs:10 .tsv:9	2026-10-07	
+PC0698	C:\Users\imarl\awesome-design-md	project	awesome-design-md 	git	README.md		153 files; .md:149 .yml:2	2026-10-07	
+PC0699	C:\Users\imarl\Bounce on it	project	Bounce on it 	git			15000+ files; .meta:2995 .cs:1677 .mvfrm:407 .dll:389 .rsp:377 .gbc:336 .obj:336 .uxml:278	2026-07-24	
+PC0700	C:\Users\imarl\Briar Walk\Assets	project	Assets 	unity			49 files; .meta:29 .asset:9 .glb:4 .png:2 .cs:2 .inputactions:1 .unity:1 .wlt:1	2025-05-26	
+PC0728	C:\Users\imarl\Briar Walk\Packages	project	Packages 	pack-manifest			2 files; .json:2	2025-05-26	
+PC0729	C:\Users\imarl\cascade	project	cascade 	git	CLAUDE.md,README.md,run.bat		105 files; .pyd:22 .log:19 .py:18 .dll:8 .txt:7 .md:3 .bat:2 .exe:2	2026-11-02	local model router (Ollama)
+PC0730	C:\Users\imarl\code-library	project	code-library 	git	CLAUDE.md,README.md		131 files; .py:45 .js:43 .mjs:26 .md:4 .sql:3 .yml:3 .ps1:2 .sh:1	2026-10-07	
+PC0731	C:\Users\imarl\code_commons	project	code_commons 	git	CLAUDE.md,README.md		440 files; .py:214 .txt:93 .js:85 .cs:30 .sql:7 .md:4 .mjs:3 .json:1	2026-10-04	shared python/js modules (LLM client, config, memory, http cache) per global CLAUDE.md
+PC0732	C:\Users\imarl\cooldown_guard	project	cooldown_guard 	python	README.md		12 files; .json:3 .md:3 .py:2 .log:1 .txt:1 .tag:1	2026-08-31	
+PC0733	C:\Users\imarl\Crimson & Sapphire	project	Crimson & Sapphire 	dotnet			15000+ files; .meta:3017 .cs:1751 .dll:399 .mvfrm:375 .rsp:359 .apiupaterconfigs:332 .gbc:323 .obj:323	2025-12-19	
+PC0734	C:\Users\imarl\curseforge\minecraft\Instances\All the Mods 11 - ATM11	project	All the Mods 11 - ATM11 	kubejs/pack-manifest		 dirs:config,datapacks,defaultconfigs,kubejs,mods	5449 files; .png:1868 .json:875 .json5:815 .glsl:584 .fsh:250 .vsh:250 .jar:231 .js:176	2026-07-24	CurseForge instance: pack manifest, kubejs; ATM11 as mod-list source
+PC0735	C:\Users\imarl\curseforge\minecraft\Instances\ATM11 - Deep Worlds	project	ATM11 - Deep Worlds 	kubejs/pack-manifest		 dirs:config,datapacks,defaultconfigs,kubejs,mods	4581 files; .png:1021 .json:914 .glsl:584 .dat:405 .jar:349 .fsh:250 .vsh:250 .mcfunction:99	2026-10-14	CurseForge instance: pack manifest, kubejs; ATM11 as mod-list source
+PC0736	C:\Users\imarl\curseforge\minecraft\Instances\Diaithir	project	Diaithir 	kubejs		 dirs:config,datapacks,defaultconfigs,kubejs,mods	5044 files; .json:1447 .png:1371 .json5:900 .toml:503 .jar:312 .js:208 .mcfunction:99 .bak:32	2026-10-23	CurseForge instance: pack manifest, kubejs; ATM11 as mod-list source
+PC0737	C:\Users\imarl\curseforge\minecraft\Instances\Distant Horizon	project	Distant Horizon 	pack-manifest		 dirs:config,data,datapacks,defaultconfigs,mods,scripts	1732 files; .jar:412 .json:133 .toml:40 .mca:35 .json5:33 .properties:22 .dld:18 .dat:16	2025-05-19	CurseForge instance: pack manifest, kubejs; ATM11 as mod-list source
+PC0738	C:\Users\imarl\davinci-resolve-mcp-free	project	davinci-resolve-mcp-free 	python	README.md	 dirs:scripts	101 files; .whl:37 .otio:24 .py:19 .aaf:5 .log:3 .md:3 .txt:2 .bat:1	2026-10-07	MCP server for DaVinci Resolve (python)
+PC0739	C:\Users\imarl\Diathiris	project	Diathiris 	git	README.md		3926 files; .md:1291 .mp3:1152 .json:640 .svg:340 .js:179 .png:135 .py:69 .jpg:38	2026-10-19	
+PC0740	C:\Users\imarl\Documents\exos-assistant	project	exos-assistant 	docker			2 files; .yml:1 .txt:1	2025-09-04	
+PC0741	C:\Users\imarl\Documents\Fightcade\fc2-electron\resources\app	project	app fightcade-nativefier-b096d2 | Placeholder for the nativefier cli to override with a target url	node			11 files; .js:3 .json:2 .map:2 .ico:1 .css:1 .html:1	2024-08-18	
+PC0742	C:\Users\imarl\Documents\My Games\TurmoilJIZtC	project	TurmoilJIZtC 	unity-game			220 files; .dll:161 .assets:9 .config:7 .json:7 .ress:5 .resource:4 .aspx:3 .map:3	2025-06-22	
+PC0743	C:\Users\imarl\Documents\Oracles Loom	project	Oracles Loom 	python			100 files; .py:41 .json:28 .wav:13 .png:13 .bat:2 .txt:2 .mp3:1	2026-08-08	
+PC0744	C:\Users\imarl\Documents\Unreal Projects\Shardfall	project	Shardfall 	dotnet/unreal	README.md	 dirs:Config,Data,Plugins	7691 files; .uasset:1901 .png:1108 .obj:805 .fbx:762 .glb:731 .mtl:726 .csv:230 .jpg:188	2026-10-06	Unreal project (C++/Blueprints) for Shardfall
+PC0745	C:\Users\imarl\Downloads\AmethystBraveTheme	project	AmethystBraveTheme 	pack-manifest			7 files; .png:4 .pak:1 .json:1 .before-ds:1	2026-10-24	
+PC0746	C:\Users\imarl\Downloads\Diaithir_work\Diaithir	project	Diaithir 	git	CLAUDE.md		6020 files; .md:2193 .mp3:1152 .json:955 .done:763 .svg:340 .js:179 .png:135 .py:118	2026-10-27	
+PC0747	C:\Users\imarl\Downloads\Diaithir_work\earth-assay	project	earth-assay 	git			2119 files; .json:1370 .png:287 .java:143 .py:113 .md:42 .js:24 .json5:19 .csv:18	2026-10-20	
+PC0748	C:\Users\imarl\Downloads\Diaithir_work\health_wt	project	health_wt 	git			2369 files; .json:1344 .png:288 .txt:278 .java:143 .py:102 .md:67 .js:23 .json5:19	2026-10-20	
+PC0753	C:\Users\imarl\Downloads\Flashpoint Infinity 14.0.3\Plugins	project	Plugins 	pack-manifest			2 files; .dll:1 .json:1	2025-11-21	
+PC0754	C:\Users\imarl\Downloads\grok-imagine-downloader-main\grok-imagine-downloader-main	project	grok-imagine-downloader-main 	pack-manifest	README.md		8 files; .png:3 .json:1 .css:1 .html:1 .js:1 .md:1	2026-01-29	
+PC0755	C:\Users\imarl\Downloads\grok-imagine-favorites-manager-main\grok-imagine-favorites-manager-main	project	grok-imagine-favorites-manager-main 	pack-manifest	README.md		7 files; .js:3 .json:1 .html:1 .md:1	2026-03-31	
+PC0756	C:\Users\imarl\Downloads\panscriptum-library-kit_PACKAGED_2026-08-19	project	panscriptum-library-kit_PACKAGED_2026-08-19 	python	CLAUDE.md,README.md	 dirs:data	298 files; .json:222 .gz:26 .md:21 .js:12 .py:8 .txt:4 .html:3 .yaml:1	2026-08-19	Panscriptum library kit: python index/registry with state, registry_terminal, site; the model for indexing without rankings
+PC0757	C:\Users\imarl\Downloads\SAM	project	SAM 	python	README.md	 dirs:data	6707 files; .json:6328 .py:184 .csv:77 .md:56 .bat:24 .jsonl:11 .log:5 .txt:5	2026-10-26	SAM: python sports-betting/analytics app (backtest, CLV, ensemble, live_pipeline, dfs, newsletter); reuse: backtest/ensemble/odds pipeline patterns; data dir not read
+PC0758	C:\Users\imarl\Downloads\skse64_2_02_05\src\common\common	project	common 	dotnet			67 files; .h:28 .cpp:26 .vcxproj:3 .filters:3 .sln:3 .vcproj:2 .inc:1	2023-12-06	
+PC0759	C:\Users\imarl\Downloads\skse64_2_02_05\src\skse64	project	skse64 	dotnet			341 files; .h:158 .cpp:153 .txt:7 .vcxproj:5 .filters:5 .props:4 .inl:3 .rc:2	2023-12-06	
+PC0760	C:\Users\imarl\Downloads\unity_rodin_bridge_v0.1	project	unity_rodin_bridge_v0.1 com.deemos.rodinbridge | Plugin for Rodin, 3d generator developped by Deemos	node	Readme.md		518 files; .meta:279 .cs:195 .asmdef:7 .override-graph:6 .shader:5 .cginc:4 .asmref:3 .json:2	2025-12-18	
+PC0761	C:\Users\imarl\ghostplay	project	ghostplay 	git			6 files; .py:3 .png:1 .json:1	2026-10-22	ghostplay.py: watch/drive game windows hidden
+PC0762	C:\Users\imarl\Interpretable-Context-Methodology	project	Interpretable-Context-Methodology 	git	CLAUDE.md,README.md		208 files; .md:127 .xsd:39 .py:15 .txt:3 .tsx:3 .js:1	2026-10-04	
+PC0763	C:\Users\imarl\kaggle_run\status	project	status 	git			5 files; .md:3	2026-10-19	
+PC0764	C:\Users\imarl\kitpush	project	kitpush 	git			15000+ files; .json:13917 .xml:957 .index:70 .md:23 .docx:10 .map:7 .tsv:3 .zip:2	2026-10-19	
+PC0765	C:\Users\imarl\LilithTheme\design	project	design 	git			32 files; .cmd:9 .py:6 .md:4 .txt:4 .log:3 .html:1 .png:1 .json:1	2026-10-26	
+PC0766	C:\Users\imarl\LilithTheme\orchard	project	orchard 	dotnet			64 files; .css:16 .dll:9 .cache:6 .cs:4 .json:4 .js:4 .xml:3 .ico:2	2026-10-24	
+PC0767	C:\Users\imarl\Literally-Everything-for-DND	project	Literally-Everything-for-DND 	git			393 files; .xml:355 .index:37 .zip:1	2026-10-07	
+PC0768	C:\Users\imarl\miami-vice-rts	project	miami-vice-rts neon-vice-cartel-wars | NEON VICE — Cartel Wars: a vanilla-JS HTML5 real-time strategy game.	node	CLAUDE.md,README.md		43 files; .js:28 .json:5 .md:4 .html:1 .yml:1 .css:1 .zip:1	2026-10-07	node RTS game project
+PC0773	C:\Users\imarl\modal_run\status_repo	project	status_repo 	git			61 files; .csv:31 .json:14 .py:9 .md:4 .20b-old:2 .jsonl:1	2026-10-19	
+PC0774	C:\Users\imarl\modal_run\tools_repo	project	tools_repo 	git			9 files; .md:3 .ps1:1 .sh:1 .json:1 .py:1	2026-10-19	
+PC0775	C:\Users\imarl\modelrouter	project	modelrouter 	git	CLAUDE.md,README.md,run.bat		74 files; .pyd:22 .py:18 .dll:8 .md:3 .db:2 .bat:2 .log:2 .exe:2	2026-10-28	model routing layer
+PC0776	C:\Users\imarl\myth-and-blood	project	myth-and-blood myth-and-blood | Myth and Blood — Fantasy Tactical Warfare	node	CLAUDE.md,README.md	 dirs:data,mods,scripts	378 files; .mjs:114 .js:106 .pak:58 .json:29 .br:14 .gz:14 .dll:8 .yml:5	2026-10-07	node game project
+PC0777	C:\Users\imarl\nsfw-art-generator	project	nsfw-art-generator 	python	app.py		23 files; .png:9 .py:8 .json:2 .bat:2 .txt:1 .url:1	2026-06-27	
+PC0778	C:\Users\imarl\orrery	project	orrery A substrate-first testbed for discriminating theories of consciousness	python	CLAUDE.md,README.md		267 files; .py:88 .json:71 .log:43 .pt:33 .md:10 .err:3 .txt:2 .toml:1	2026-10-07	
+PC0779	C:\Users\imarl\panscriptum-export	project	panscriptum-export 	python	CLAUDE.md,README.md		1871 files; .md:832 .json:813 .py:121 .txt:82 .js:12 .html:4 .yaml:1 .yml:1	2026-10-01	
+PC0780	C:\Users\imarl\panscriptum-library-kit	project	panscriptum-library-kit 	python	CLAUDE.md,README.md	 dirs:data	15000+ files; .json:14930 .presilence:29 .md:12 .yaml:1 .txt:1 .tag:1 .tmp:1 .jsonl:1	2026-10-19	Panscriptum library kit: python index/registry with state, registry_terminal, site; the model for indexing without rankings
+PC0781	C:\Users\imarl\pinned	project	pinned 	git			4 files; .py:3	2026-10-21	
+PC0782	C:\Users\imarl\playtest\kj\dev\latvian\mods	project	mods 	kubejs		 dirs:kubejs	1 files; .class:1	2026-10-26	
+PC0783	C:\Users\imarl\procgen-lab	project	procgen-lab 	git	CLAUDE.md,README.md		13 files; .js:7 .md:2 .html:1 .py:1 .css:1	2026-10-07	procedural generation experiments
+PC0784	C:\Users\imarl\Quantum Rogue Defender\Assets\Scenes	project	Scenes 	unity			2 files; .unity:1 .meta:1	2025-12-18	
+PC0785	C:\Users\imarl\Quantum Rogue Defender\Assets\Settings\Scenes	project	Scenes 	unity			2 files; .unity:1 .meta:1	2025-12-18	
+PC0815	C:\Users\imarl\Quantum Rogue Defender\Packages	project	Packages 	pack-manifest			2 files; .json:2	2025-12-18	
+PC0816	C:\Users\imarl\Quantum Rogue Defender 3D	project	Quantum Rogue Defender 3D 	dotnet			15000+ files; .meta:4316 .cs:2219 .png:969 .dll:454 .mvfrm:392 .rsp:379 .apiupaterconfigs:310 .md:292	2025-12-31	
+PC0817	C:\Users\imarl\reddit-tts-bot	project	reddit-tts-bot 	git	CLAUDE.md,README.md		689 files; .md:332 .json:75 .yaml:50 .svg:50 .tsx:40 .mp4:37 .ass:21 .ts:16	2026-10-07	
+PC0818	C:\Users\imarl\reeli	project	reeli 	git	README.md		44 files; .mjs:13 .sql:11 .js:6 .png:3 .md:2 .html:1 .webmanifest:1 .txt:1	2026-10-19	
+PC0819	C:\Users\imarl\rent_engine	project	rent_engine Chicagoland rental pricing & acquisition-arbitrage system	docker/python	CLAUDE.md,README.md	 dirs:config,data,scripts	78 files; .py:57 .md:4 .json:2 .csv:2 .bat:2 .sql:2 .yml:1 .toml:1	2026-10-07	docker/python service
+PC0820	C:\Users\imarl\rpg_techgate	project	rpg_techgate 	git			2012 files; .json:1339 .png:285 .java:143 .py:85 .md:35 .js:23 .json5:19 .ogg:17	2026-10-18	
+PC0821	C:\Users\imarl\settlement_defense	project	settlement_defense 	git	CLAUDE.md		15000+ files; .meta:3139 .cs:1649 .png:532 .md:455 .dll:257 .mvfrm:253 .rsp:184 .hlsl:173	2026-10-04	game project (git)
+PC0822	C:\Users\imarl\settlement_defense_web	project	settlement_defense_web 	git	CLAUDE.md,README.md		64 files; .js:54 .md:5 .html:2 .py:1 .json:1	2026-10-07	game project (git)
+PC0823	C:\Users\imarl\Setup Guide In-Editor Tutorial\Assets\Scenes	project	Scenes 	unity			2 files; .unity:1 .meta:1	2026-07-24	
+PC0880	C:\Users\imarl\Setup Guide In-Editor Tutorial\Packages	project	Packages 	pack-manifest			2 files; .json:2	2026-07-24	
+PC0881	C:\Users\imarl\shardfall-game	project	shardfall-game 	unreal	README.md	 dirs:Config,Data,Plugins	2910 files; .uasset:1901 .rsp:163 .csv:122 .h:118 .json:113 .cpp:92 .obj:79 .sarif:79	2026-10-07	
+PC0882	C:\Users\imarl\shardfall-unreal	project	shardfall-unreal 	unreal	README.md		43 files; .cpp:10 .py:10 .h:9 .ini:5 .csv:3 .cs:3 .md:1 .uproject:1	2026-10-07	
+PC0883	C:\Users\imarl\tcg_design	project	tcg_design 	git	CLAUDE.md,README.md		394 files; .md:74 .pdf:66 .bak_age_rename:58 .bak_rarity_pl:48 .bak_filigree_fix:27 .bak:17 .bak_dupfix:9 .bak_full_resync:9	2026-10-04	
+PC0884	C:\Users\imarl\Trade-Bot	project	Trade-Bot 	git	README.md		15 files; .py:7 .md:4 .bat:2 .vbs:1	2026-11-02	
+PC0885	C:\Users\imarl\undercentury_game	project	undercentury_game undercentury_game | 	node	CLAUDE.md,README.md		63 files; .ts:16 .css:13 .tsx:11 .json:8 .svg:6 .md:3 .html:2 .js:2	2026-10-04	
+PC0886	C:\Users\imarl\vrchat_test_avatar	project	vrchat_test_avatar 	git	CLAUDE.md,Readme.md		12152 files; .meta:3756 .cs:2085 .png:699 .md:348 .bin:307 .dll:279 .mvfrm:154 .pdb:142	2026-10-04	
+PC0887	C:\Users\imarl\_worktrees\modal	project	modal 	git			2020 files; .json:1341 .png:285 .java:143 .py:91 .md:36 .js:23 .json5:19 .ogg:17	2026-10-18	
+PC0888	C:\Prism\instances\Diaithir	project	Diaithir 	prism-instance		Prism instance: mods/, config/, kubejs/, saves/	15000+ files; .png:6816 .json:3874 .nbt:2973 .toml:671 .json5:220 .jmc:132 .config:100 .dat:46	2026-11-02	Prism launcher instance: mods/, config/, kubejs/; launch + packaging reference
+PC0889	C:\Prism\instances\DiaithirTest	project	DiaithirTest 	prism-instance		Prism instance: mods/, config/, kubejs/, saves/	15000+ files; .json:4124 .png:3398 .dat:3359 .nbt:1908 .toml:564 .jar:440 .mca:411 .json5:127	2026-10-27	Prism launcher instance: mods/, config/, kubejs/; launch + packaging reference
+PC0890	C:\DiaithirWork\pansc-full	project	pansc-full 	git			15000+ files; .json:13919 .xml:957 .index:70 .md:22 .docx:10 .map:7 .zip:2 .txt:2	2026-10-18	
+PC0891	C:\DiaithirServer\backups\presync_20261021_1509	project	presync_20261021_1509 	kubejs		 dirs:config,kubejs,mods	2396 files; .json:735 .toml:472 .jar:318 .dat:314 .mca:147 .json5:128 .mcfunction:99 .js:34	2026-10-21	
+PC0892	C:\DiaithirServer\golive\staging	project	staging 	kubejs		 dirs:config,kubejs,mods	462 files; .jar:352 .json:52 .png:27 .ogg:17 .js:7 .toml:6 .ttf:1	2026-10-26	
+PC0893	C:\DiaithirServer\perf\far_view_backup	project	far_view_backup 	mc-server		Minecraft server: server.properties, mods/, world/, rcon	2 files; .toml:1 .properties:1	2026-10-26	
+PC0894	C:\DiaithirServer\server	project	server 	kubejs/mc-server	run.bat	Minecraft server: server.properties, mods/, world/, rcon dirs:config,defaultconfigs,kubejs,mods	15000+ files; .png:7627 .json:3709 .nbt:2556 .toml:600 .json5:261 .config:98 .txt:30 .bak:30	2026-11-02	
+PC0895	C:\DiaithirMigrate\dp	project	dp 	kubejs/packwiz	README.md	 dirs:config,kubejs,mods	531 files; .toml:351 .json:51 .jar:45 .png:27 .ogg:17 .txt:9 .java:8 .js:7	2026-10-25	
+PC0896	C:\MCAge1Shot	project	MCAge1Shot 	kubejs/mc-server	run.bat	Minecraft server: server.properties, mods/, world/, rcon dirs:config,defaultconfigs,kubejs,mods	4556 files; .dat:1385 .json:752 .mca:701 .toml:472 .jar:395 .json5:174 .mcfunction:99 .sqlite:97	2026-10-21	
+PC0897	C:\MCTestClient	project	MCTestClient 	kubejs		 dirs:config,defaultconfigs,kubejs,mods	4399 files; .glsl:883 .json:791 .png:527 .toml:503 .fsh:378 .vsh:378 .jar:311 .json5:112	2026-10-21	
+PC0898	C:\MCTestFold5\client	project	client 	kubejs		 dirs:config,kubejs,mods	15000+ files; .png:9548 .json:5387 .mcfunction:24 .ogg:17 .toml:9 .zip:9 .jar:2 .json5:2	2026-11-02	
+PC0899	C:\MCTestServer	project	MCTestServer 	kubejs/mc-server		Minecraft server: server.properties, mods/, world/, rcon dirs:config,defaultconfigs,kubejs,mods	2453 files; .json:755 .toml:472 .jar:391 .dat:310 .json5:146 .mcfunction:99 .js:33 .mca:32	2026-10-17	
+PC0900	C:\temp\pc-compare	project	pc-compare 	git			15000+ files; .json:13919 .xml:957 .index:70 .md:23 .docx:10 .map:7 .tsv:3 .zip:2	2026-10-19	
+PC0901	E:\Games\BeyondBlue	project	BeyondBlue 	unity-game			377 files; .dll:152 .assets:56 .ress:51 .resource:17 .config:7 .json:4 .bundle:4 .sse:3	2025-01-12	
+PC0902	E:\Games\BCTWD	project	BCTWD 	unity-game			195 files; .dll:139 .assets:9 .config:7 .ress:7 .manifest:3 .aspx:3 .map:3 .browser:3	2025-01-12	
+PC0903	E:\Games\DeathsDoor	project	DeathsDoor 	unity-game			248 files; .dll:119 .assets:35 .ress:33 .config:7 .aspx:3 .map:3 .browser:3 .exe:2	2025-01-12	
+PC0904	E:\Games\EasternExorcistAZwjf	project	EasternExorcistAZwjf 	unity-game			493 files; .manifest:136 .dll:135 .cn:44 .config:7 .assets:4 .json:4 .exe:3 .ress:3	2025-01-12	
+PC0905	E:\Games\FootballManager2022	project	FootballManager2022 	steam-game		 dirs:data	3056 files; .tri:852 .egm:850 .fr3d:849 .dbc:119 .dat:61 .edt:58 .dll:56 .lnc:40	2025-01-12	
+PC0906	E:\Games\Iratus	project	Iratus 	unity-game			1464 files; .json:1239 .dll:87 .assets:30 .manifest:18 .ress:14 .config:4 .svf:4 .mp4:4	2025-01-12	
+PC0907	E:\Games\Pathway\bin	project	bin 	steam-game			14 files; .dll:14	2025-01-13	
+PC0908	E:\Games\Sheltered\ShelteredWindows64_EOS_Data\Plugins	project	Plugins 	steam-game			5 files; .dll:5	2025-01-13	
+PC0909	E:\Games\SpeedBrawl	project	SpeedBrawl 	steam-game/unity-game			157 files; .dll:116 .config:7 .aspx:3 .map:3 .browser:3 .assets:3 .ress:3 .exe:2	2025-01-12	
+PC0910	E:\Games\STASISBONETOTEM	project	STASISBONETOTEM 	unity-game			7190 files; .ress:990 .assets:740 .dll:244 .resource:158 .csv:140 .mp4:114 .webm:114 .png:30	2025-01-12	
+PC0911	E:\Games\StrangerThings3	project	StrangerThings3 	unity-game			481 files; .assets:115 .dll:111 .ress:63 .config:7 .png:4 .aspx:3 .map:3 .browser:3	2025-01-12	
+PC0912	E:\Games\Tharsis	project	Tharsis 	unity-game			153 files; .dll:70 .xml:47 .assets:6 .config:4 .ress:4 .resource:4 .aspx:2 .exe:1	2025-01-12	
+PC0913	E:\Games\TheSpectrumRetreat	project	TheSpectrumRetreat 	unity-game			1306 files; .sse:343 .caw:169 .ecm:169 .rgb:169 .vis:169 .dll:79 .xml:47 .assets:42	2025-01-12	
+PC0914	E:\Games\CAYNE	project	CAYNE 	steam-game			206 files; .assets:42 .ress:28 .resource:27 .dll:26 .mp4:9 .ico:3 .ini:3 .config:3	2025-01-12	
+PC0915	E:\Games\The Coma Recut	project	The Coma Recut 	unity-game			317 files; .gif:149 .dll:96 .assets:13 .config:7 .ress:7 .ini:4 .exe:3 .ico:3	2025-01-12	
+PC0916	E:\Games\Deadlight - Director's Cut\Binaries\Win64	project	Win64 	steam-game			72 files; .dll:71 .exe:1	2025-01-13	
+PC0917	E:\Games\Hero's Hour	project	Hero's Hour 	steam-game		 dirs:mods	3059 files; .txt:1254 .ogg:1161 .png:608 .ttf:7 .tilemap:7 .ini:4 .lnk:3 .ico:3	2025-01-13	
+PC0918	E:\Games\Shadow of Mordor\x64	project	x64 	steam-game			6 files; .dll:4 .exe:1 .archcfg:1	2025-01-13	
+PC0919	E:\Games\Shadow of War\x64	project	x64 	steam-game			7 files; .dll:5 .archcfg:1 .exe:1	2025-01-13	
+PC0920	E:\Games\Moonscars	project	Moonscars 	unity-game			345 files; .dll:112 .assets:74 .ress:42 .config:7 .resource:6 .ini:4 .exe:3 .ico:3	2025-01-14	
+PC0921	E:\Games\Planet of Lana	project	Planet of Lana 	unity-game			722 files; .ress:247 .assets:173 .bank:51 .bundle:26 .config:7 .dll:6 .dat:4 .ini:4	2025-01-14	
+PC0922	E:\Games\Shogun Showdown	project	Shogun Showdown 	unity-game			216 files; .dll:132 .bundle:14 .ress:11 .assets:8 .config:7 .json:5 .ini:4 .exe:3	2025-01-14	
+PC1241	E:\motoko	project	motoko A framework for running an autonomous AI character safely: the LLM makes choices, Python does everything else.	python	README.md	 dirs:data	878 files; .md:691 .py:130 .bin:20 .json:12 .yaml:5 .log:4 .yml:3 .sqlite3:2	2026-07-25	python discord bot + emergence experiments; config.example.yaml shows config pattern; SETUP_CREDENTIALS.md not read
+PC1242	E:\_ToDelete\skills\plugin-cache-20261026\temp_git_1792362577779_l4kshu	project	temp_git_1792362577779_l4kshu mattpocock-skills | Matt Pocock's agent skills for real engineering	node	CLAUDE.md,README.md	 dirs:scripts	190 files; .md:132 .yaml:38 .yml:6 .json:5 .sh:5 .mjs:1 .cjs:1	2026-10-18	
+PC1243	E:\AI\Hunyuan3D-2	project	Hunyuan3D-2 	python	README.md		234 files; .png:116 .py:67 .md:15 .txt:7 .jpg:6 .cpp:3 .glb:2 .html:2	2026-10-07	local image/text to 3D model (GPU); local-3d skill backend
+PC1244	E:\AI\fmg	project	fmg fantasy-map-generator | Azgaar's _Fantasy Map Generator_ is a free web application that helps fantasy writers, game masters, and cartographers create and edit fantasy maps.	docker/node	CLAUDE.md,README.md	 dirs:scripts	1959 files; .svg:637 .ts:596 .js:274 .md:116 .png:106 .jpg:70 .json:39 .html:32	2026-10-15	
+PC1245	E:\MCTest\server	project	server 	kubejs/mc-server	run.bat	Minecraft server: server.properties, mods/, world/, rcon dirs:mods,config,kubejs,defaultconfigs	5772 files; .png:1369 .json:1132 .dat:955 .json5:925 .jar:381 .toml:209 .js:205 .mca:102	2026-10-12	headless test servers/clients (server.properties, kubejs); copy as boot/rcon test rigs
+PC1246	E:\MCTest\td_port\src_dl\neo	project	neo 	gradle	README.md,build.gradle		96 files; .json:40 .java:38 .properties:4 .md:3 .gradle:2 .jar:2 .txt:1 .bat:1	2026-10-12	headless test servers/clients (server.properties, kubejs); copy as boot/rcon test rigs
+PC1247	E:\MCTest\td_port\src_dl\fabric	project	fabric 	gradle	README.md,build.gradle		75 files; .java:38 .json:20 .properties:4 .md:3 .gradle:2 .jar:2 .txt:1 .bat:1	2026-10-12	headless test servers/clients (server.properties, kubejs); copy as boot/rcon test rigs
+PC1248	E:\MCTest\td_port\src_dl\mdk	project	mdk 	git	README.md		2 files; .md:1 .json:1	2026-10-12	headless test servers/clients (server.properties, kubejs); copy as boot/rcon test rigs
+PC1249	E:\MCTest\td_port\src_dl\mdk2	project	mdk2 	gradle	README.md,build.gradle		17 files; .java:3 .gradle:2 .properties:2 .md:1 .txt:1 .bat:1 .yml:1 .jar:1	2026-10-12	headless test servers/clients (server.properties, kubejs); copy as boot/rcon test rigs
+PC1250	E:\MCTest\td_port\test_server	project	test_server 	mc-server		Minecraft server: server.properties, mods/, world/, rcon dirs:mods,config,defaultconfigs	201 files; .jar:77 .dat:49 .mca:21 .txt:14 .gz:12 .log:10 .json:8 .toml:3	2026-10-12	headless test servers/clients (server.properties, kubejs); copy as boot/rcon test rigs
+PC1251	E:\MCTest\td_port\proj	project	proj 	gradle	README.md,build.gradle		140 files; .class:51 .java:38 .json:25 .jar:7 .properties:6 .toml:3 .html:3 .gradle:2	2026-10-12	headless test servers/clients (server.properties, kubejs); copy as boot/rcon test rigs
+PC1252	E:\MCTest\client_game	project	client_game 	kubejs/pack-manifest		 dirs:config,datapacks,defaultconfigs,kubejs,mods	7152 files; .png:2390 .json:1481 .json5:898 .glsl:584 .jar:309 .fsh:250 .vsh:250 .toml:210	2026-10-13	headless test servers/clients (server.properties, kubejs); copy as boot/rcon test rigs
+PC1253	E:\MCTest\tellus_port\src	project	src 	gradle	README.md,build.gradle		2420 files; .class:881 .jar:588 .java:493 .html:139 .xml:119 .json:66 .gz:34 .png:14	2026-10-13	headless test servers/clients (server.properties, kubejs); copy as boot/rcon test rigs
+PC1254	E:\MCTest\conflict_fix\src\slc	project	slc 	git	README.md	 dirs:scripts	52 files; .kts:12 .java:11 .toml:5 .json:4 .md:3 .properties:3 .yml:3 .png:2	2026-10-13	headless test servers/clients (server.properties, kubejs); copy as boot/rcon test rigs
+PC1255	E:\MCTest\conflict_fix\src\moreculling	project	moreculling 	gradle	README.md,build.gradle		202 files; .java:142 .json:24 .png:12 .gradle:8 .yml:3 .properties:2 .iplatformhelper:2 .md:1	2026-10-13	headless test servers/clients (server.properties, kubejs); copy as boot/rcon test rigs
+PC1256	E:\MCTest\server_upd	project	server_upd 	kubejs/mc-server	run.bat	Minecraft server: server.properties, mods/, world/, rcon dirs:config,defaultconfigs,kubejs,mods	4656 files; .png:1369 .json:1112 .json5:902 .jar:380 .toml:214 .js:199 .dat:183 .mcfunction:99	2026-10-12	headless test servers/clients (server.properties, kubejs); copy as boot/rcon test rigs
+PC1257	E:\MCTest\diaithir_server	project	diaithir_server 	kubejs/mc-server		Minecraft server: server.properties, mods/, world/, rcon dirs:mods,config,defaultconfigs,kubejs	3757 files; .dat:1111 .json:777 .toml:472 .jar:391 .mca:386 .json5:182 .mcfunction:99 .sqlite:45	2026-10-13	headless test servers/clients (server.properties, kubejs); copy as boot/rcon test rigs
+PC1258	E:\MCTest\safety_rig\server	project	server 	kubejs/mc-server	run.bat	Minecraft server: server.properties, mods/, world/, rcon dirs:config,defaultconfigs,kubejs,mods	4713 files; .png:1369 .json:1111 .json5:908 .jar:359 .dat:247 .toml:209 .js:193 .mcfunction:99	2026-10-13	headless test servers/clients (server.properties, kubejs); copy as boot/rcon test rigs
+PC1259	E:\MCTest\jointest_client\minecraft	project	minecraft 	kubejs		 dirs:mods,config,kubejs	3979 files; .png:1369 .json:1118 .json5:888 .toml:206 .js:200 .mcfunction:99 .cfg:21 .txt:20	2026-10-14	headless test servers/clients (server.properties, kubejs); copy as boot/rcon test rigs
+PC1260	E:\MCTest\kjs116\src	project	src 	gradle	README.md		1010 files; .java:913 .json:44 .png:22 .yml:5 .mcmeta:5 .md:3 .txt:3 .kts:2	2026-10-14	headless test servers/clients (server.properties, kubejs); copy as boot/rcon test rigs
+PC1261	E:\MCTest\holdback_fixes	project	holdback_fixes 	kubejs	README.md	 dirs:config,kubejs,mods	13 files; .json5:4 .js:3 .json:3 .jar:2 .md:1	2026-10-14	headless test servers/clients (server.properties, kubejs); copy as boot/rcon test rigs
+PC1262	E:\MCTest\holdback_fixes_before	project	holdback_fixes_before 	kubejs		 dirs:config,kubejs	7 files; .json5:4 .js:3	2026-10-14	headless test servers/clients (server.properties, kubejs); copy as boot/rcon test rigs
+PC1263	E:\MCTest\diaithir_server_pre_ports_20261014	project	diaithir_server_pre_ports_20261014 	kubejs		 dirs:mods,kubejs,config	4321 files; .png:1369 .json:1127 .json5:898 .jar:280 .toml:214 .js:201 .mcfunction:99 .bak:28	2026-10-14	headless test servers/clients (server.properties, kubejs); copy as boot/rcon test rigs
+PC1264	E:\MCTest\client_pre_ports_20261014	project	client_pre_ports_20261014 	kubejs		 dirs:mods,kubejs,config	4264 files; .png:1369 .json:1103 .json5:888 .jar:311 .toml:206 .js:194 .mcfunction:99 .cfg:21	2026-10-14	headless test servers/clients (server.properties, kubejs); copy as boot/rcon test rigs
+PC1265	E:\MCTest\install_test_inst	project	install_test_inst 	prism-instance		Prism instance: mods/, config/, kubejs/, saves/	4323 files; .png:1369 .json:1127 .json5:888 .jar:311 .js:208 .toml:206 .mcfunction:99 .cfg:22	2026-10-14	headless test servers/clients (server.properties, kubejs); copy as boot/rcon test rigs
+PC1266	E:\MCTest\client_crashfix	project	client_crashfix 	kubejs		 dirs:defaultconfigs,config,kubejs,mods	5416 files; .png:1677 .json:1486 .json5:900 .toml:504 .jar:312 .js:208 .mcfunction:99 .bak:33	2026-10-15	headless test servers/clients (server.properties, kubejs); copy as boot/rcon test rigs
+PC1267	E:\MCTest\pre_atm_strip_20261015\server	project	server 	kubejs		 dirs:kubejs,config,defaultconfigs	4455 files; .png:1369 .json:1213 .json5:904 .toml:520 .js:208 .mcfunction:99 .bak:28 .cfg:22	2026-10-15	headless test servers/clients (server.properties, kubejs); copy as boot/rcon test rigs
+PC1268	E:\MCTest\pre_atm_strip_20261015\client	project	client 	kubejs		 dirs:kubejs,config,defaultconfigs	4014 files; .png:1369 .json:1126 .json5:888 .js:208 .toml:206 .mcfunction:99 .cfg:21 .txt:19	2026-10-15	headless test servers/clients (server.properties, kubejs); copy as boot/rcon test rigs
+PC1269	E:\MCTest\atm_quarantine\diaithir_server	project	diaithir_server 	kubejs		 dirs:kubejs,config,mods	3151 files; .png:1346 .json5:813 .json:628 .js:175 .toml:132 .txt:11 .cfg:11 .nbt:9	2026-10-15	headless test servers/clients (server.properties, kubejs); copy as boot/rcon test rigs
+PC1270	E:\MCTest\atm_quarantine\ATM11 - Deep Worlds	project	ATM11 - Deep Worlds 	kubejs		 dirs:kubejs,config,mods	3165 files; .png:1346 .json5:814 .json:623 .js:175 .toml:140 .txt:11 .cfg:11 .nbt:9	2026-10-15	headless test servers/clients (server.properties, kubejs); copy as boot/rcon test rigs
+PC1271	E:\MCTest\client_pr6	project	client_pr6 	kubejs/pack-manifest		 dirs:defaultconfigs,datapacks,kubejs,mods,config	3565 files; .json:1109 .png:990 .toml:502 .jar:313 .json5:112 .mcfunction:99 .nbt:81 .zip:53	2026-10-14	headless test servers/clients (server.properties, kubejs); copy as boot/rcon test rigs
+PC1272	E:\MCTest\backup_techgate_20261018	project	backup_techgate_20261018 	kubejs		 dirs:kubejs,config	1585 files; .json:736 .toml:472 .json5:122 .mcfunction:99 .js:33 .bak:24 .png:23 .cfg:23	2026-10-18	headless test servers/clients (server.properties, kubejs); copy as boot/rcon test rigs
+PC1273	E:\DiaithirRPG	project	DiaithirRPG 	git			15000+ files; .java:9680 .html:2157 .kt:693 .jar:640 .log:527 .properties:432 .class:189 .md:123	2026-10-13	
+PC1274	E:\DiaithirRPG-omniverse	project	DiaithirRPG-omniverse 	git		 dirs:data	7047 files; .json:4380 .map:1017 .dwr:969 .png:285 .java:139 .py:78 .md:36 .js:25	2026-10-13	
+PC1275	E:\MCTest_omni	project	MCTest_omni 	kubejs/mc-server		Minecraft server: server.properties, mods/, world/, rcon dirs:mods,kubejs,config,defaultconfigs	14502 files; .mca:6625 .dat:4096 .json:2437 .dwr:968 .jar:94 .sqlite:52 .sqlite-wal:52 .sqlite-shm:52	2026-10-13	headless test servers/clients (server.properties, kubejs); copy as boot/rcon test rigs
+PC1276	E:\DiaithirRPG_mcupdate	project	DiaithirRPG_mcupdate 	git			255 files; .json:161 .java:51 .md:12 .py:12 .gradle:2 .properties:2 .sh:2 .ps1:2	2026-10-13	
+PC1277	E:\DiaithirServer\server	project	server 	kubejs/mc-server	run.bat	Minecraft server: server.properties, mods/, world/, rcon dirs:config,defaultconfigs,kubejs,mods	5259 files; .dat:2225 .json:815 .toml:495 .jar:442 .nbt:423 .mca:167 .json5:146 .sqlite:109	2026-10-13	
+PC1278	E:\DiaithirServer\backups\presync_20261021_1509	project	presync_20261021_1509 	kubejs		 dirs:mods,kubejs,config	2396 files; .json:735 .toml:472 .jar:318 .dat:314 .mca:147 .json5:128 .mcfunction:99 .js:34	2026-10-21	
+PC1279	E:\DiaithirRPG-weapons	project	DiaithirRPG-weapons 	git			1469 files; .json:1073 .png:267 .java:68 .py:21 .md:16 .sh:4 .js:3 .csv:2	2026-10-13	
+PC1280	E:\DiaithirRPG-chargen	project	DiaithirRPG-chargen 	git			1427 files; .json:731 .png:267 .class:144 .java:111 .html:43 .xml:36 .py:31 .md:20	2026-10-13	
+PC1281	E:\MCTest-weapons\server	project	server 	kubejs/mc-server	run.bat	Minecraft server: server.properties, mods/, world/, rcon dirs:config,defaultconfigs,kubejs,mods	6074 files; .json:2342 .png:1634 .json5:899 .jar:381 .toml:211 .js:202 .dat:126 .mcfunction:99	2026-10-12	headless test servers/clients (server.properties, kubejs); copy as boot/rcon test rigs
+PC1282	E:\MCTest-chargen\server	project	server 	kubejs/mc-server	run.bat	Minecraft server: server.properties, mods/, world/, rcon dirs:config,defaultconfigs,kubejs,mods	5250 files; .png:1369 .json:1131 .json5:913 .dat:579 .jar:380 .toml:209 .js:201 .mcfunction:99	2026-10-13	headless test servers/clients (server.properties, kubejs); copy as boot/rcon test rigs
+PC1283	E:\DiaithirRPG-economy	project	DiaithirRPG-economy 	git			1122 files; .json:717 .png:267 .java:68 .py:23 .md:18 .js:8 .sh:4 .csv:2	2026-10-13	
+PC1284	E:\DiaithirRPG-ports	project	DiaithirRPG-ports 	git		 dirs:mods	331 files; .json:166 .java:54 .js:28 .py:26 .md:16 .jar:6 .sh:5 .gradle:4	2026-10-13	
+PC1285	E:\DiaithirPorts\almostunified	project	almostunified 	gradle			331 files; .class:151 .java:121 .json:22 .jar:12 .html:6 .png:4 .kts:2 .properties:2	2026-10-13	NeoForge 26.1 gradle ports of mods; reuse build setup/patches as port template
+PC1286	E:\DiaithirPorts\cc-tweaked	project	cc-tweaked tweaked.cc | Website additions for tweaked.cc	gradle/node	README.md		7938 files; .class:2813 .json:1396 .kt:1006 .java:801 .png:680 .lua:304 .txt:199 .len:135	2026-10-13	NeoForge 26.1 gradle ports of mods; reuse build setup/patches as port template
+PC1287	E:\DiaithirPorts\mekanism	project	mekanism 	gradle	README.md,build.gradle		15000+ files; .json:7410 .class:3184 .java:2808 .png:1289 .mcmeta:122 .ogg:54 .zs:29 .yml:10	2026-10-13	NeoForge 26.1 gradle ports of mods; reuse build setup/patches as port template
+PC1288	E:\DiaithirPorts\modern_industrialization	project	modern_industrialization 	gradle	README.md,build.gradle		15000+ files; .json:11210 .png:2206 .java:746 .md:623 .mcmeta:190 .yml:4 .properties:3 .gradle:2	2026-10-13	NeoForge 26.1 gradle ports of mods; reuse build setup/patches as port template
+PC1289	E:\DiaithirPorts\farmersdelight	project	farmersdelight 	gradle	README.md,build.gradle		4748 files; .json:3308 .png:858 .class:253 .java:252 .ogg:28 .nbt:10 .zs:6 .jar:5	2026-10-13	NeoForge 26.1 gradle ports of mods; reuse build setup/patches as port template
+PC1290	E:\DiaithirPorts\megacells	project	megacells 	gradle	README.md		2097 files; .json:1414 .png:428 .java:86 .class:80 .md:43 .snbt:24 .jar:6 .kts:2	2026-10-13	NeoForge 26.1 gradle ports of mods; reuse build setup/patches as port template
+PC1291	E:\DiaithirPorts\flywheel	project	flywheel 	gradle	README.md		656 files; .java:493 .glsl:55 .kts:15 .vert:15 .json:11 .md:10 .frag:10 .kt:9	2026-10-13	NeoForge 26.1 gradle ports of mods; reuse build setup/patches as port template
+PC1292	E:\DiaithirPorts\titanium	project	titanium conventional-changelog-action-test | 	gradle/node	README.md,build.gradle		376 files; .java:257 .png:67 .json:22 .md:7 .gradle:2 .properties:2 .yml:2 .cfg:2	2026-10-13	NeoForge 26.1 gradle ports of mods; reuse build setup/patches as port template
+PC1293	E:\DiaithirPorts\ponder	project	ponder 	gradle	README.md		538 files; .java:396 .json:47 .kts:18 .nbt:9 .png:8 .md:5 .ts:5 .kt:3	2026-10-13	NeoForge 26.1 gradle ports of mods; reuse build setup/patches as port template
+PC1294	E:\DiaithirPorts\create	project	create 	gradle	README.md,build.gradle		15000+ files; .json:8641 .class:2617 .java:1949 .png:1297 .nbt:312 .obj:39 .ogg:38 .mtl:27	2026-10-13	NeoForge 26.1 gradle ports of mods; reuse build setup/patches as port template
+PC1295	E:\DiaithirPorts\registrate	project	registrate 	gradle	README.md,build.gradle		15000+ files; .json:10553 .png:3669 .java:361 .mcmeta:174 .class:108 .fsh:44 .vsh:35 .glsl:9	2026-10-13	NeoForge 26.1 gradle ports of mods; reuse build setup/patches as port template
+PC1296	E:\DiaithirPorts\equivox	project	equivox 	gradle	README.md,build.gradle	 dirs:scripts	3015 files; .json:1316 .class:671 .java:527 .png:400 .ogg:30 .md:10 .jar:9 .ps1:8	2026-10-14	NeoForge 26.1 gradle ports of mods; reuse build setup/patches as port template
+PC1297	E:\DiaithirPorts\tconstruct	project	tconstruct 	gradle	README.md,build.gradle		15000+ files; .png:10830 .json:3984 .mcmeta:165 .md:3 .xml:2 .gradle:2 .txt:2 .properties:2	2026-10-14	NeoForge 26.1 gradle ports of mods; reuse build setup/patches as port template
+PC1298	E:\DiaithirPorts\twilightforest	project	twilightforest 	gradle	README.md,build.gradle		15000+ files; .json:10166 .png:2430 .java:1745 .ogg:274 .mcmeta:164 .nbt:130 .class:36 .jar:10	2026-10-14	NeoForge 26.1 gradle ports of mods; reuse build setup/patches as port template
+PC1299	E:\DiaithirPorts\Mantle-Unofficial-26.1-Port	project	Mantle-Unofficial-26.1-Port 	gradle	README.md,build.gradle		1540 files; .class:774 .java:600 .json:100 .png:36 .jar:6 .toml:3 .md:2 .gradle:2	2026-10-14	NeoForge 26.1 gradle ports of mods; reuse build setup/patches as port template
+PC1300	E:\DiaithirPorts\gregtech6	project	gregtech6 	gradle	README.md,build.gradle		15000+ files; .png:12597 .java:1638 .mcmeta:657 .json:46 .bat:13 .md:9 .yml:5 .assets:4	2026-10-14	NeoForge 26.1 gradle ports of mods; reuse build setup/patches as port template
+PC1301	E:\DiaithirPorts\fluxnetworks	project	fluxnetworks 	gradle	README.md,build.gradle		350 files; .java:199 .json:82 .png:47 .md:4 .mcmeta:4 .jar:3 .gradle:2 .properties:2	2026-10-14	NeoForge 26.1 gradle ports of mods; reuse build setup/patches as port template
+PC1302	E:\DiaithirPorts\industrialforegoing	project	industrialforegoing 	gradle	README.md,build.gradle		4832 files; .json:2846 .png:730 .class:624 .java:458 .mcmeta:112 .md:10 .lang:10 .ogg:6	2026-10-14	NeoForge 26.1 gradle ports of mods; reuse build setup/patches as port template
+PC1303	E:\DiaithirPorts\actuallyadditions	project	actuallyadditions 	gradle	README.md,build.gradle		5216 files; .json:3182 .png:777 .java:510 .class:506 .mcmeta:78 .html:59 .lang:14 .woff2:12	2026-10-14	NeoForge 26.1 gradle ports of mods; reuse build setup/patches as port template
+PC1304	E:\DiaithirPorts\lane2\fluxnetworks	project	fluxnetworks 	gradle	README.md,build.gradle		633 files; .class:184 .java:179 .json:150 .png:84 .mcmeta:8 .jar:5 .md:4 .toml:3	2026-10-14	NeoForge 26.1 gradle ports of mods; reuse build setup/patches as port template
+PC1305	E:\DiaithirPorts\lane2\mcjtylib	project	mcjtylib 	gradle	README.md,build.gradle		608 files; .class:314 .java:260 .png:6 .jar:5 .json:4 .gradle:2 .properties:2 .cfg:2	2026-10-14	NeoForge 26.1 gradle ports of mods; reuse build setup/patches as port template
+PC1306	E:\DiaithirPorts\lane2\rftoolsbase	project	rftoolsbase 	gradle	README.md,build.gradle		615 files; .json:209 .class:182 .java:143 .png:58 .jar:5 .txt:4 .gradle:2 .properties:2	2026-10-14	NeoForge 26.1 gradle ports of mods; reuse build setup/patches as port template
+PC1307	E:\DiaithirPorts\lane2\rftoolsutility	project	rftoolsutility 	gradle	README.md,build.gradle		1566 files; .json:689 .png:278 .class:277 .java:224 .mcmeta:44 .gui:24 .ogg:6 .jar:5	2026-10-14	NeoForge 26.1 gradle ports of mods; reuse build setup/patches as port template
+PC1308	E:\DiaithirPorts\lane2\rftoolspower	project	rftoolspower 	gradle	README.md,build.gradle		698 files; .json:298 .png:150 .class:93 .java:73 .mcmeta:50 .gui:14 .jar:5 .gradle:2	2026-10-14	NeoForge 26.1 gradle ports of mods; reuse build setup/patches as port template
+PC1309	E:\DiaithirPorts\lane2\rftoolsbuilder	project	rftoolsbuilder 	gradle	README.md,build.gradle		582 files; .json:185 .class:160 .java:101 .png:96 .mcmeta:18 .jar:5 .gradle:2 .properties:2	2026-10-14	NeoForge 26.1 gradle ports of mods; reuse build setup/patches as port template
+PC1310	E:\DiaithirPorts\lane2\pneumaticcraft	project	pneumaticcraft 	gradle	README.md,build.gradle	 dirs:scripts	10378 files; .json:5641 .class:2059 .java:1441 .png:1074 .ogg:66 .mcmeta:30 .mtl:14 .obj:14	2026-10-14	NeoForge 26.1 gradle ports of mods; reuse build setup/patches as port template
+PC1311	E:\DiaithirPorts\lane2\pnc-client	project	pnc-client 	gradle	README.md,build.gradle	 dirs:scripts	4884 files; .json:2819 .java:1439 .png:533 .ogg:33 .mcmeta:15 .mtl:7 .obj:7 .nbt:7	2026-10-14	NeoForge 26.1 gradle ports of mods; reuse build setup/patches as port template
+PC1312	E:\DiaithirPorts\lane2\pnc-common	project	pnc-common 	gradle	README.md,build.gradle	 dirs:scripts	4570 files; .json:2497 .java:1447 .png:533 .ogg:33 .mcmeta:15 .mtl:7 .obj:7 .nbt:7	2026-10-14	NeoForge 26.1 gradle ports of mods; reuse build setup/patches as port template
+PC1313	E:\DiaithirPorts\lane2\blockui	project	blockui 	gradle	README.md,build.gradle		315 files; .class:149 .java:98 .png:12 .json:10 .xml:10 .jar:5 .mcmeta:4 .md:3	2026-10-15	NeoForge 26.1 gradle ports of mods; reuse build setup/patches as port template
+PC1314	E:\DiaithirPorts\lane2\domum	project	domum 	gradle	build.gradle,readme.md		2233 files; .json:1560 .class:290 .java:240 .png:117 .jar:5 .properties:3 .gradle:2 .md:2	2026-10-15	NeoForge 26.1 gradle ports of mods; reuse build setup/patches as port template
+PC1315	E:\DiaithirPorts\lane2\structurize	project	structurize 	gradle	README.md,build.gradle		1234 files; .png:577 .class:263 .java:189 .json:121 .xml:33 .yml:7 .yaml:7 .md:6	2026-10-15	NeoForge 26.1 gradle ports of mods; reuse build setup/patches as port template
+PC1316	E:\DiaithirPorts\lane2\minecolonies	project	minecolonies 	gradle	README.md,build.gradle	 dirs:config,scripts	15000+ files; .png:7765 .blueprint:2862 .json:2183 .java:1976 .xml:102 .ogg:68 .mcmeta:9 .md:8	2026-10-15	NeoForge 26.1 gradle ports of mods; reuse build setup/patches as port template
+PC1317	E:\DiaithirPorts\lane2\mc-client	project	mc-client 	gradle	README.md,build.gradle	 dirs:config,scripts	15000+ files; .png:7776 .blueprint:3177 .java:1984 .json:1846 .xml:102 .ogg:68 .mcmeta:9 .md:8	2026-10-15	NeoForge 26.1 gradle ports of mods; reuse build setup/patches as port template
+PC1318	E:\DiaithirPorts\lane2\mc-colony	project	mc-colony 	gradle	README.md,build.gradle	 dirs:config,scripts	15000+ files; .png:7776 .blueprint:3176 .java:1986 .json:1845 .xml:102 .ogg:68 .mcmeta:9 .md:8	2026-10-15	NeoForge 26.1 gradle ports of mods; reuse build setup/patches as port template
+PC1319	E:\DiaithirPorts\lane2\mc-misc	project	mc-misc 	gradle	README.md,build.gradle	 dirs:config,scripts	15000+ files; .png:7784 .blueprint:3179 .java:1970 .json:1850 .xml:102 .ogg:68 .mcmeta:9 .md:8	2026-10-15	NeoForge 26.1 gradle ports of mods; reuse build setup/patches as port template
+PC1320	E:\DiaithirPorts\nuclearcraft	project	nuclearcraft 	gradle	README.md,build.gradle		11931 files; .json:9172 .png:1567 .java:844 .md:103 .mcmeta:86 .nbt:84 .ogg:46 .fsh:7	2026-10-14	NeoForge 26.1 gradle ports of mods; reuse build setup/patches as port template
+PC1321	E:\DiaithirPorts\lane3\forestry	project	forestry 	gradle	CLAUDE.md,README.md,build.gradle		15000+ files; .json:13677 .java:1190 .png:61 .md:46 .yml:6 .txt:2 .properties:2 .gradle:2	2026-10-14	NeoForge 26.1 gradle ports of mods; reuse build setup/patches as port template
+PC1322	E:\DiaithirPorts\lane3\ccl	project	ccl 	gradle	README.md,build.gradle		926 files; .class:425 .java:351 .json:77 .png:42 .jar:6 .obj:4 .cfg:3 .gradle:2	2026-10-14	NeoForge 26.1 gradle ports of mods; reuse build setup/patches as port template
+PC1323	E:\DiaithirPorts\lane3\cbmultipart	project	cbmultipart 	gradle	README.md,build.gradle		486 files; .class:200 .java:159 .json:85 .png:14 .jar:7 .gradle:2 .properties:2 .mcmeta:2	2026-10-14	NeoForge 26.1 gradle ports of mods; reuse build setup/patches as port template
+PC1324	E:\DiaithirPorts\lane3\projectred	project	projectred 	gradle	CLAUDE.md,README.md,build.gradle		5818 files; .json:3226 .png:1113 .java:619 .class:595 .blend:72 .obj:72 .jar:38 .mcmeta:17	2026-10-14	NeoForge 26.1 gradle ports of mods; reuse build setup/patches as port template
+PC1325	E:\DiaithirPorts\lane3\bigcannons	project	bigcannons 	gradle	README.md,build.gradle		6159 files; .json:3748 .class:819 .png:755 .java:661 .nbt:58 .ogg:48 .mcmeta:18 .md:8	2026-10-15	NeoForge 26.1 gradle ports of mods; reuse build setup/patches as port template
+PC1326	E:\DiaithirPorts\lane3\rpl	project	rpl 	gradle	README.md,build.gradle		95 files; .class:34 .java:30 .jar:5 .properties:3 .yml:3 .gradle:2 .png:2 .mcmeta:2	2026-10-15	NeoForge 26.1 gradle ports of mods; reuse build setup/patches as port template
+PC1327	E:\DiaithirPorts\lane3\connected	project	connected 	gradle	README.md,build.gradle		3656 files; .json:2764 .class:378 .java:296 .png:150 .nbt:32 .md:5 .jar:5 .ogg:4	2026-10-15	NeoForge 26.1 gradle ports of mods; reuse build setup/patches as port template
+PC1328	E:\DiaithirPorts\lane3\SliceAndDice	project	SliceAndDice 	gradle	README.md,build.gradle		457 files; .class:115 .json:104 .kt:58 .len:45 .toml:20 .png:16 .tab:16 .keystream:15	2026-10-15	NeoForge 26.1 gradle ports of mods; reuse build setup/patches as port template
+PC1329	E:\DiaithirPorts\lane3\CreateJetpack	project	CreateJetpack 	gradle	README.md		86 files; .json:34 .kt:13 .png:8 .yml:7 .toml:6 .java:3 .md:2 .kts:2	2026-10-15	NeoForge 26.1 gradle ports of mods; reuse build setup/patches as port template
+PC1330	E:\DiaithirPorts\createdeco	project	createdeco 	gradle	build.gradle		13992 files; .json:12152 .png:1709 .class:60 .java:47 .jar:5 .ini:3 .toml:3 .gradle:2	2026-10-15	NeoForge 26.1 gradle ports of mods; reuse build setup/patches as port template
+PC1331	E:\DiaithirPorts\createaddition	project	createaddition 	gradle	README.md,build.gradle		1809 files; .json:1012 .png:261 .class:220 .java:208 .nbt:30 .ogg:18 .mcmeta:16 .disabled:8	2026-10-15	NeoForge 26.1 gradle ports of mods; reuse build setup/patches as port template
+PC1332	E:\DiaithirPorts\createoreexcavation	project	createoreexcavation 	git	README.md		632 files; .json:282 .java:136 .class:112 .png:52 .mcmeta:14 .jar:6 .nbt:6 .gradle:4	2026-10-15	NeoForge 26.1 gradle ports of mods; reuse build setup/patches as port template
+PC1333	E:\DiaithirPorts\createnewage	project	createnewage 	gradle	build.gradle		1842 files; .json:1210 .png:273 .class:159 .java:137 .nbt:24 .jar:5 .gradle:4 .properties:4	2026-10-15	NeoForge 26.1 gradle ports of mods; reuse build setup/patches as port template
+PC1334	E:\DiaithirPorts\createenchantmentindustry	project	createenchantmentindustry 	gradle	README.md,build.gradle		1647 files; .json:604 .class:440 .java:420 .png:86 .nbt:40 .mcmeta:22 .yml:7 .jar:7	2026-10-15	NeoForge 26.1 gradle ports of mods; reuse build setup/patches as port template
+PC1335	E:\DiaithirPorts\esl	project	esl 	gradle	build.gradle		95 files; .java:38 .class:24 .properties:5 .gradle:5 .jar:5 .json:4 .toml:3 .marker:2	2026-10-15	NeoForge 26.1 gradle ports of mods; reuse build setup/patches as port template
+PC1336	E:\DiaithirPorts\createdragonsplus	project	createdragonsplus 	gradle	README.md,build.gradle		2077 files; .json:1107 .class:454 .java:425 .png:31 .nbt:15 .jar:7 .mcmeta:7 .yml:6	2026-10-15	NeoForge 26.1 gradle ports of mods; reuse build setup/patches as port template
+PC1337	E:\DiaithirPorts\createconnected	project	createconnected 	gradle	README.md,build.gradle		3379 files; .json:2308 .class:560 .java:288 .png:150 .nbt:32 .jar:9 .md:5 .ogg:4	2026-10-15	NeoForge 26.1 gradle ports of mods; reuse build setup/patches as port template
+PC1338	E:\DiaithirRPG-hidden	project	DiaithirRPG-hidden 	git			1111 files; .json:712 .png:267 .java:68 .py:23 .md:17 .sh:4 .js:3 .ps1:3	2026-10-13	
+PC1339	E:\DiaithirRPG-safety	project	DiaithirRPG-safety 	git			1118 files; .json:712 .png:267 .java:68 .py:27 .md:18 .js:5 .sh:4 .csv:2	2026-10-13	
+PC1340	E:\DiaithirRPG-loadtest	project	DiaithirRPG-loadtest 	git			1137 files; .json:712 .png:267 .java:69 .py:26 .md:18 .jar:6 .class:5 .gradle:4	2026-10-13	
+PC1341	E:\DiaithirRPG_release\0.1.0\prism_test\Diaithir	project	Diaithir 	prism-instance		Prism instance: mods/, config/, kubejs/, saves/	4248 files; .png:1369 .json:1112 .json5:888 .jar:277 .toml:206 .js:193 .mcfunction:99 .cfg:22	2026-10-13	
+PC1342	E:\DiaithirRPG-client	project	DiaithirRPG-client 	git			1115 files; .json:712 .png:267 .java:68 .py:26 .md:18 .sh:4 .js:3 .ps1:3	2026-10-13	
+PC1343	E:\MCTest-ports\server	project	server 	kubejs/mc-server	run.bat	Minecraft server: server.properties, mods/, world/, rcon dirs:config,defaultconfigs,kubejs,mods	5985 files; .png:1369 .json:1152 .json5:927 .dat:818 .toml:503 .jar:419 .js:210 .mcfunction:99	2026-10-12	headless test servers/clients (server.properties, kubejs); copy as boot/rcon test rigs
+PC1344	E:\MCTest-loadtest\server	project	server 	kubejs/mc-server	run.bat	Minecraft server: server.properties, mods/, world/, rcon dirs:config,defaultconfigs,kubejs,mods	5196 files; .png:1369 .json:1138 .json5:947 .dat:523 .jar:357 .toml:209 .js:199 .mca:170	2026-10-12	headless test servers/clients (server.properties, kubejs); copy as boot/rcon test rigs
+PC1345	E:\MCTest-loadtest\tellus_only	project	tellus_only 	kubejs/mc-server	run.bat	Minecraft server: server.properties, mods/, world/, rcon dirs:config,defaultconfigs,kubejs,mods	4339 files; .png:1369 .json:1155 .json5:895 .toml:209 .js:197 .mca:170 .mcfunction:99 .jar:79	2026-10-13	headless test servers/clients (server.properties, kubejs); copy as boot/rcon test rigs
+PC1346	E:\MCTest_omni_pack	project	MCTest_omni_pack 	kubejs/mc-server	run.bat	Minecraft server: server.properties, mods/, world/, rcon dirs:mods,config,kubejs,defaultconfigs	6710 files; .json:2320 .png:1634 .json5:917 .dat:593 .jar:381 .js:210 .toml:209 .mcfunction:99	2026-10-12	headless test servers/clients (server.properties, kubejs); copy as boot/rcon test rigs
+PC1347	E:\MCTest-age1\server	project	server 	kubejs/mc-server	run.bat	Minecraft server: server.properties, mods/, world/, rcon dirs:config,defaultconfigs,kubejs,mods	13476 files; .dat:7070 .png:1369 .json:1224 .json5:1016 .toml:517 .sqlite:431 .jar:387 .sqlite-shm:304	2026-10-13	headless test servers/clients (server.properties, kubejs); copy as boot/rcon test rigs
+PC1348	E:\DiaithirRPG-lowspec	project	DiaithirRPG-lowspec 	git			2044 files; .json:1342 .png:285 .java:143 .py:101 .md:38 .js:24 .json5:19 .ogg:17	2026-10-14	
+PC1349	E:\MCTest-lowspec\server	project	server 	kubejs/mc-server		Minecraft server: server.properties, mods/, world/, rcon dirs:defaultconfigs,config,kubejs,mods	4647 files; .png:1369 .json:1130 .json5:904 .jar:359 .toml:214 .js:198 .dat:188 .mcfunction:99	2026-10-13	headless test servers/clients (server.properties, kubejs); copy as boot/rcon test rigs
+PC1350	E:\MCTest-lowspec\inst_Diaithir-Lite	project	inst_Diaithir-Lite 	prism-instance		Prism instance: mods/, config/, kubejs/, saves/	4258 files; .png:1369 .json:1119 .json5:888 .jar:272 .toml:206 .js:200 .mcfunction:99 .cfg:22	2026-10-14	headless test servers/clients (server.properties, kubejs); copy as boot/rcon test rigs
+PC1351	E:\MCTest-lowspec\inst_Diaithir	project	inst_Diaithir 	prism-instance		Prism instance: mods/, config/, kubejs/, saves/	4709 files; .png:1677 .json:1140 .json5:894 .jar:279 .toml:214 .js:202 .mcfunction:99 .bak:33	2026-10-14	headless test servers/clients (server.properties, kubejs); copy as boot/rcon test rigs
+PC1352	E:\DiaithirRPG-v11	project	DiaithirRPG-v11 	git			2099 files; .json:1190 .png:303 .class:170 .java:143 .py:69 .html:49 .xml:42 .md:29	2026-10-14	
+PC1353	E:\MCTest-v11\server	project	server 	kubejs/mc-server	run.bat	Minecraft server: server.properties, mods/, world/, rcon dirs:defaultconfigs,config,kubejs,mods	5445 files; .png:1369 .json:1199 .json5:925 .dat:679 .jar:381 .toml:209 .js:201 .mcfunction:99	2026-10-13	headless test servers/clients (server.properties, kubejs); copy as boot/rcon test rigs
+PC1354	E:\DiaithirRPG-music	project	DiaithirRPG-music 	git			1674 files; .json:1088 .png:267 .java:112 .py:59 .md:25 .ogg:18 .mscz:18 .musicxml:18	2026-10-14	
+PC1355	E:\MCTest-ports2\server	project	server 	kubejs/mc-server	run.bat	Minecraft server: server.properties, mods/, world/, rcon dirs:defaultconfigs,kubejs,config,mods	5978 files; .png:1369 .json:1153 .json5:929 .dat:818 .toml:509 .jar:429 .js:210 .mcfunction:99	2026-10-12	headless test servers/clients (server.properties, kubejs); copy as boot/rcon test rigs
+PC1356	E:\MCTest-kjs116	project	MCTest-kjs116 	kubejs/mc-server	run.bat	Minecraft server: server.properties, mods/, world/, rcon dirs:config,defaultconfigs,kubejs,mods	4686 files; .png:1369 .json:1112 .json5:902 .jar:381 .toml:214 .js:199 .dat:183 .mcfunction:99	2026-10-12	headless test servers/clients (server.properties, kubejs); copy as boot/rcon test rigs
+PC1357	E:\MCTest-ports3\server	project	server 	kubejs/mc-server	run.bat	Minecraft server: server.properties, mods/, world/, rcon dirs:config,defaultconfigs,kubejs,mods	4831 files; .png:1369 .json:1150 .json5:901 .toml:511 .jar:434 .js:210 .mcfunction:99 .txt:27	2026-10-12	headless test servers/clients (server.properties, kubejs); copy as boot/rcon test rigs
+PC1358	E:\DiaithirRPG-modrinth	project	DiaithirRPG-modrinth 	git			2043 files; .json:1342 .png:285 .java:143 .py:101 .md:38 .js:23 .json5:19 .ogg:17	2026-10-14	
+PC1359	E:\DiaithirRPG-curseforge	project	DiaithirRPG-curseforge 	git		 dirs:mods	429 files; .json:168 .java:54 .md:41 .js:27 .jar:27 .png:27 .py:25 .html:25	2026-10-15	
+PC1360	E:\DiaithirRPG-v11b	project	DiaithirRPG-v11b 	git			2133 files; .json:1190 .png:303 .class:189 .java:143 .py:69 .html:53 .xml:46 .md:29	2026-10-15	
+PC1361	E:\MCTest_omni_tellus	project	MCTest_omni_tellus 	kubejs/mc-server		Minecraft server: server.properties, mods/, world/, rcon dirs:mods,config,kubejs,defaultconfigs	1942 files; .json:1210 .png:265 .dat:224 .jar:93 .sqlite:53 .mca:28 .json5:24 .js:11	2026-10-15	headless test servers/clients (server.properties, kubejs); copy as boot/rcon test rigs
+PC1362	E:\DiaithirRPG-autotune	project	DiaithirRPG-autotune 	git			2231 files; .json:1348 .png:303 .class:196 .java:146 .py:76 .md:31 .js:22 .json5:19	2026-10-15	
+PC1363	E:\DiaithirRPG-kin	project	DiaithirRPG-kin 	git			2339 files; .json:1348 .png:303 .class:197 .java:148 .py:80 .html:54 .xml:47 .md:31	2026-10-15	
+PC1364	E:\DiaithirRPG-panscriptum	project	DiaithirRPG-panscriptum 	git			15000+ files; .json:14948 .presilence:29 .md:13 .txt:1 .yaml:1 .tmp:1 .jsonl:1 .applock:1	2026-10-17	
+PC1365	E:\DiaithirRPG-offload	project	DiaithirRPG-offload 	git			2016 files; .json:1340 .png:285 .java:143 .py:89 .md:36 .js:23 .json5:19 .ogg:17	2026-10-18	
+PC1366	E:\MCOreTest	project	MCOreTest 	kubejs/mc-server	run.bat	Minecraft server: server.properties, mods/, world/, rcon dirs:config,defaultconfigs,kubejs,mods	2392 files; .json:746 .toml:472 .jar:394 .dat:278 .json5:128 .mcfunction:99 .mca:51 .js:35	2026-10-20	
+PC1367	E:\DiaithirRPG_supervisor	project	DiaithirRPG_supervisor 	git			2368 files; .json:1343 .png:288 .txt:278 .java:143 .py:102 .md:67 .js:23 .json5:19	2026-10-20	
+PC1368	E:\DiaithirRPG_speedlog	project	DiaithirRPG_speedlog 	git			2364 files; .json:1342 .png:288 .txt:278 .java:143 .py:101 .md:66 .js:23 .json5:19	2026-10-20	
+PC1369	E:\DiaithirRPG-inventory	project	DiaithirRPG-inventory 	git			2390 files; .json:1342 .png:288 .txt:278 .java:143 .py:102 .md:66 .jar:25 .js:23	2026-10-20	
+PC1370	E:\TellusPR75	project	TellusPR75 	gradle	README.md,build.gradle		1408 files; .class:753 .java:493 .json:64 .jar:17 .png:14 .gradle:13 .tellusplatformservice:8 .toml:6	2026-10-20	
+PC1371	E:\DiaithirRPG_rewrites	project	DiaithirRPG_rewrites 	git			32 files; .gz:13 .json:5 .txt:5 .py:3 .log:2 .md:1 .sh:1	2026-10-20	
+PC1372	E:\TellusBase	project	TellusBase 	gradle	README.md,build.gradle		1408 files; .class:753 .java:493 .json:64 .jar:17 .png:14 .gradle:13 .tellusplatformservice:8 .toml:6	2026-10-20	
+PC1373	E:\DiaithirRPG-scripts	project	DiaithirRPG-scripts 	git			2405 files; .json:1361 .png:288 .txt:278 .java:150 .py:112 .md:69 .js:24 .json5:19	2026-10-21	
+PC1374	E:\DiaithirRPG_market	project	DiaithirRPG_market 	git			2367 files; .json:1342 .png:288 .txt:278 .java:143 .py:104 .md:66 .js:23 .json5:19	2026-10-21	
+PC1375	E:\DiaithirRPG-assaylane	project	DiaithirRPG-assaylane 	git			15000+ files; .json:13908 .xml:957 .index:70 .md:23 .docx:10 .map:7 .yml:3 .txt:3	2026-10-22	
+PC1376	E:\DiaithirRPG-regen	project	DiaithirRPG-regen 	git			186 files; .py:106 .json:23 .ps1:16 .md:5 .sh:5 .txt:4 .patch:4 .js:3	2026-10-22	
+PC1377	E:\DiaithirRPG-textures	project	DiaithirRPG-textures 	git			15000+ files; .png:12519 .json:1390 .mcmeta:363 .txt:276 .java:142 .md:64 .py:54 .jar:47	2026-10-23	
+PC1378	E:\Prism\instances\Diaithir	project	Diaithir 	prism-instance		Prism instance: mods/, config/, kubejs/, saves/	6328 files; .dat:1895 .nbt:1373 .json:808 .toml:560 .png:519 .jar:395 .mca:142 .json5:117	2026-10-23	Prism launcher instance: mods/, config/, kubejs/; launch + packaging reference
+PC1379	E:\DiaithirServer_backup_20261024	project	DiaithirServer_backup_20261024 	kubejs		 dirs:kubejs	966 files; .json:471 .dat:276 .mcfunction:99 .js:34 .png:23 .ogg:17 .sqlite:13 .nbt:9	2026-10-24	
+PC1380	E:\DiaithirRPG-reset\content\economy	project	economy 	kubejs	README.md	 dirs:config,kubejs	11 files; .json:5 .js:4 .md:1 .txt:1	2026-10-25	
+PC1381	E:\DiaithirRPG-reset\content\server	project	server 	kubejs		 dirs:config,kubejs	20 files; .json:18 .json5:1 .js:1	2026-10-25	
+PC1382	E:\DiaithirRPG-reset\content\age1	project	age1 	kubejs		 dirs:kubejs	4 files; .js:4	2026-10-25	
+PC1383	E:\DiaithirTest\pk	project	pk 	kubejs/packwiz	README.md	 dirs:config,kubejs,mods	6879 files; .json:3353 .png:2932 .toml:375 .jar:61 .js:37 .java:27 .mcfunction:24 .ogg:17	2026-10-27	
+PC1384	E:\DiaithirTest\server	project	server 	mc-server	run.bat	Minecraft server: server.properties, mods/, world/, rcon	88 files; .jar:78 .txt:8 .bat:1 .properties:1	2026-10-27	
+PC1385	E:\DiaithirTest\rpg	project	rpg 	git			28 files; .json5:17 .md:5 .json:3 .yaml:1	2026-10-27	
+PC1386	E:\DiaithirTest\upd	project	upd 	git	README.md		3 files; .md:1 .txt:1 .ps1:1	2026-10-27	
+PC1387	E:\DiaithirTest\wt-intrusive	project	wt-intrusive 	kubejs/packwiz	README.md	 dirs:config,kubejs,mods	6906 files; .json:3354 .png:2932 .toml:376 .jar:65 .js:37 .java:28 .mcfunction:24 .class:19	2026-11-01	
+PC1388	E:\Moved_from_C\Pictures\My OCs\Rowan Model	project	Rowan Model 	blender			6 files; .glb:3 .mtl:1 .blend:1 .obj:1	2026-10-28	
+PC1389	E:\25x125	project	25x125 25x125: Chicago parcel feasibility. Loaders, nightly jobs and the rules and feasibility engine.	docker/python	CLAUDE.md,README.md	 dirs:data,scripts	6978 files; .pdf:6706 .py:109 .sql:35 .md:34 .ts:27 .tsx:20 .json:17 .csv:12	2026-11-01	python+docker app (core, engine, db, web, jobs, tests, pyproject); reuse as service skeleton
+PC1390	E:\DiaithirRPG-needs	project	DiaithirRPG-needs 	git			4 files; .py:2 .ps1:1	2026-11-01	
+PC1391	E:\diaithir-ports-build\repo	project	repo 	git	CLAUDE.md,README.md		15000+ files; .json:7964 .png:3068 .ogg:1510 .java:1268 .txt:562 .mcmeta:398 .nbt:91 .py:49	2026-11-02	diaithircompat (recipe-JSON upgrade 1.21.1->26.1, earth spawn ranges), diaithir-nemesis; MIT; template for new port/compat mods
+PC1392	E:\diaithir-ports-build\pkg\diaithir-automation-crafting	project	diaithir-automation-crafting 	gradle	README.md,build.gradle		108 files; .json:42 .png:16 .class:14 .java:10 .jar:5 .html:3 .gradle:2 .properties:2	2026-11-02	
+PC1393		crawl-meta						2026-11-02	1392 rows in 672s

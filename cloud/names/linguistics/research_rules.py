@@ -1,4 +1,4 @@
-# S0310 One direct cached Claude call per culture language: researches how a linguist builds words there, writes names/linguistics/rules/<slug>.json (24 concurrent, no Batch).
+# S0317 One direct cached Claude call per culture language: researches how a linguist builds words there, writes names/linguistics/rules/<slug>.json (24 concurrent, no Batch).
 # python3 -I research_rules.py [slug ...]   key from ANTHROPIC_API_KEY (never printed)
 import csv, json, os, re, sys, time, urllib.request, concurrent.futures as cf
 ROOT = '/mnt/project-files/names'

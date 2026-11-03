@@ -1,0 +1,578 @@
+id	path	meta
+G0001	E:\SteamLibrary\steamapps\common\yorgio | YORG.io	type: game-steam | stack: appid 880580 | was PC0099 | device: pc
+G0002	E:\SteamLibrary\steamapps\common\Outer Wilds | Outer Wilds	type: game-steam | stack: appid 753640 | backend: Unity; asset archive .assets | was PC0100 | device: pc
+G0003	E:\SteamLibrary\steamapps\common\YourOnlyMoveIsHUSTLE | Your Only Move Is HUSTLE	type: game-steam | stack: appid 2212330 | backend: Godot; dir mods | was PC0101 | device: pc
+G0004	E:\SteamLibrary\steamapps\common\Yooka-Laylee and the Impossible Lair | Yooka-Laylee and the Impossible Lair	type: game-steam | stack: appid 846870 | backend: Unity; asset archive .assets | was PC0102 | device: pc
+G0005	E:\SteamLibrary\steamapps\common\Path of Exile 2 | Path of Exile 2	type: game-steam | stack: appid 2694490 | was PC0103 | device: pc
+G0006	E:\SteamLibrary\steamapps\common\Yes, Your Grace | Yes, Your Grace	type: game-steam | stack: appid 1115690 | backend: Unity; asset archive .assets | was PC0104 | device: pc
+G0007	E:\SteamLibrary\steamapps\common\Yakuza Kiwami 2 | Yakuza Kiwami 2	type: game-steam | stack: appid 927380 | backend: dir data | was PC0105 | device: pc
+G0008	E:\SteamLibrary\steamapps\common\Yakuza 3 | Yakuza 3 Remastered	type: game-steam | stack: appid 1088710 | backend: dir data | was PC0106 | device: pc
+G0009	E:\SteamLibrary\steamapps\common\Last Oasis | Last Oasis	type: game-steam | stack: appid 903950 | backend: Unreal | was PC0107 | device: pc
+G0010	E:\SteamLibrary\steamapps\common\Tropico 6 | Tropico 6	type: game-steam | stack: appid 492720 | backend: Unreal | was PC0108 | device: pc
+G0011	E:\SteamLibrary\steamapps\common\Crying Suns | Crying Suns	type: game-steam | stack: appid 873940 | backend: Unity; asset archive .assets; asset archive .bundle | was PC0109 | device: pc
+G0012	E:\SteamLibrary\steamapps\common\Sid Meier's Civilization VI | Sid Meier's Civilization VI	type: game-steam | stack: appid 289070 | backend: Lua scripts | was PC0110 | device: pc
+G0013	E:\SteamLibrary\steamapps\common\Palworld | Palworld	type: game-steam | stack: appid 1623730 | backend: Unreal | was PC0111 | device: pc
+G0014	E:\SteamLibrary\steamapps\common\Counter-Strike Source | Counter-Strike: Source	type: game-steam | stack: appid 240 | was PC0112 | device: pc
+G0015	E:\SteamLibrary\steamapps\common\Team Fortress 2 | Team Fortress 2	type: game-steam | stack: appid 440 | was PC0113 | device: pc
+G0016	E:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive | Counter-Strike 2	type: game-steam | stack: appid 730 | was PC0114 | device: pc
+G0017	E:\SteamLibrary\steamapps\common\GarrysMod | Garry's Mod	type: game-steam | stack: appid 4000 | backend: Lua scripts | was PC0115 | device: pc
+G0018	E:\SteamLibrary\steamapps\common\Dawn of War Gold | Warhammer 40,000: Dawn of War - Anniversary Edition 	type: game-steam | stack: appid 4570 | backend: Lua scripts | was PC0116 | device: pc
+G0019	E:\SteamLibrary\steamapps\common\112 Operator | 112 Operator	type: game-steam | stack: appid 793460 | backend: Unity; asset archive .assets | was PC0117 | device: pc
+G0020	E:\SteamLibrary\steamapps\common\Dawn of War Dark Crusade | Warhammer 40,000: Dawn of War - Dark Crusade	type: game-steam | stack: appid 4580 | backend: Lua scripts | was PC0118 | device: pc
+G0021	E:\SteamLibrary\steamapps\common\Commandos Behind Enemy Lines | Commandos: Behind Enemy Lines	type: game-steam | stack: appid 6800 | backend: asset archive .wad | was PC0119 | device: pc
+G0022	E:\SteamLibrary\steamapps\common\Commandos Beyond the Call of Duty | Commandos: Beyond the Call of Duty	type: game-steam | stack: appid 6810 | backend: SQLite; asset archive .wad | was PC0120 | device: pc
+G0023	E:\SteamLibrary\steamapps\common\198X | 198X	type: game-steam | stack: appid 1086010 | backend: Unity; asset archive .assets | was PC0121 | device: pc
+G0024	E:\SteamLibrary\steamapps\common\Commandos 2 Men of Courage | Commandos 2: Men of Courage	type: game-steam | stack: appid 6830 | backend: Godot; dir DATA | was PC0122 | device: pc
+G0025	E:\SteamLibrary\steamapps\common\Commandos 3 Destination Berlin | Commandos 3: Destination Berlin	type: game-steam | stack: appid 6840 | backend: Godot; dir Data | was PC0123 | device: pc
+G0026	E:\SteamLibrary\steamapps\common\Stubbs the Zombie | Stubbs the Zombie in Rebel Without a Pulse	type: game-steam | stack: appid 7800 | was PC0124 | device: pc
+G0027	E:\SteamLibrary\steamapps\common\Sid Meier's Civilization V | Sid Meier's Civilization V	type: game-steam | stack: appid 8930 | backend: Lua scripts | was PC0125 | device: pc
+G0028	E:\SteamLibrary\steamapps\common\Dawn of War Gold | Warhammer 40,000: Dawn of War - Winter Assault	type: game-steam | stack: appid 9310 | backend: Lua scripts | was PC0126 | device: pc
+G0029	E:\SteamLibrary\steamapps\common\Dawn of War Soulstorm | Warhammer 40,000: Dawn of War - Soulstorm	type: game-steam | stack: appid 9450 | backend: Lua scripts | was PC0127 | device: pc
+G0030	E:\SteamLibrary\steamapps\common\Total War SHOGUN 2 | Total War: SHOGUN 2	type: game-steam | stack: appid 34330 | backend: dir data | was PC0128 | device: pc
+G0031	E:\SteamLibrary\steamapps\common\Theatre of War | Theatre of War	type: game-steam | stack: appid 46290 | was PC0129 | device: pc
+G0032	E:\SteamLibrary\steamapps\common\Warhammer 40,000 Space Marine | Warhammer 40,000: Space Marine - Anniversary Edition	type: game-steam | stack: appid 55150 | backend: Godot; Lua scripts; SQLite; dir data | was PC0130 | device: pc
+G0033	E:\SteamLibrary\steamapps\common\Anomaly Warzone Earth | Anomaly Warzone Earth	type: game-steam | stack: appid 91200 | was PC0131 | device: pc
+G0034	E:\SteamLibrary\steamapps\common\Terraria | Terraria	type: game-steam | stack: appid 105600 | was PC0132 | device: pc
+G0035	E:\SteamLibrary\steamapps\common\Arma 3 | Arma 3	type: game-steam | stack: appid 107410 | was PC0133 | device: pc
+G0036	E:\SteamLibrary\steamapps\common\7 Days To Die | 7 Days to Die	type: game-steam | stack: appid 251570 | backend: Unity; asset archive .bundle; dir Data; dir Mods | was PC0134 | device: pc
+G0037	E:\SteamLibrary\steamapps\common\ProjectZomboid | Project Zomboid	type: game-steam | stack: appid 108600 | backend: Lua scripts; dir Workshop; dir mods | was PC0135 | device: pc
+G0038	E:\SteamLibrary\steamapps\common\Tomb Raider | Tomb Raider	type: game-steam | stack: appid 203160 | was PC0136 | device: pc
+G0039	E:\SteamLibrary\steamapps\common\Crusader Kings II | Crusader Kings II	type: game-steam | stack: appid 203770 | backend: Lua scripts | was PC0137 | device: pc
+G0040	E:\SteamLibrary\steamapps\common\TheBridge | The Bridge	type: game-steam | stack: appid 204240 | was PC0138 | device: pc
+G0041	E:\SteamLibrary\steamapps\common\Guns of Icarus Online | Guns of Icarus Online	type: game-steam | stack: appid 209080 | backend: Unity; asset archive .assets; dir workshop | was PC0139 | device: pc
+G0042	E:\SteamLibrary\steamapps\common\Battle vs Chess | Battle vs Chess	type: game-steam | stack: appid 211050 | backend: dir data | was PC0140 | device: pc
+G0043	E:\SteamLibrary\steamapps\common\Adeptus Titanicus Dominus | Adeptus Titanicus: Dominus	type: game-steam | stack: appid 853140 | backend: Unity; asset archive .assets | was PC0141 | device: pc
+G0044	E:\SteamLibrary\steamapps\common\Starbound | Starbound	type: game-steam | stack: appid 211820 | backend: dir mods | was PC0142 | device: pc
+G0045	E:\SteamLibrary\steamapps\common\Alien Isolation | Alien: Isolation	type: game-steam | stack: appid 214490 | backend: Godot; SQLite; dir DATA | was PC0143 | device: pc
+G0046	E:\SteamLibrary\steamapps\common\MapleStory | MapleStory	type: game-steam | stack: appid 216150 | backend: dir Data | was PC0144 | device: pc
+G0047	E:\SteamLibrary\steamapps\common\hotline_miami | Hotline Miami	type: game-steam | stack: appid 219150 | backend: asset archive .wad | was PC0145 | device: pc
+G0048	E:\SteamLibrary\steamapps\common\dont_starve | Don't Starve	type: game-steam | stack: appid 219740 | backend: Lua scripts; Python; dir data; dir mods | was PC0146 | device: pc
+G0049	E:\SteamLibrary\steamapps\common\Kerbal Space Program | Kerbal Space Program	type: game-steam | stack: appid 220200 | backend: Unity; asset archive .assets | was PC0147 | device: pc
+G0050	E:\SteamLibrary\steamapps\common\King of Fighters XIII | THE KING OF FIGHTERS XIII STEAM EDITION	type: game-steam | stack: appid 222940 | backend: Lua scripts | was PC0148 | device: pc
+G0051	E:\SteamLibrary\steamapps\common\Baldur's Gate Enhanced Edition | Baldur's Gate: Enhanced Edition	type: game-steam | stack: appid 228280 | backend: Lua scripts; dir data; dir scripts | was PC0149 | device: pc
+G0052	E:\SteamLibrary\steamapps\common\Mad Max | Mad Max	type: game-steam | stack: appid 234140 | was PC0150 | device: pc
+G0053	E:\SteamLibrary\steamapps\common\TheWhiteLaboratory | The White Laboratory	type: game-steam | stack: appid 235520 | was PC0151 | device: pc
+G0054	E:\SteamLibrary\steamapps\common\War Thunder | War Thunder	type: game-steam | stack: appid 236390 | was PC0152 | device: pc
+G0055	E:\SteamLibrary\steamapps\common\8 Doors | 8Doors: Arum's Afterlife Adventure	type: game-steam | stack: appid 668550 | backend: Unity | was PC0153 | device: pc
+G0056	E:\SteamLibrary\steamapps\common\Anomaly 2 | Anomaly 2	type: game-steam | stack: appid 236730 | was PC0154 | device: pc
+G0057	E:\SteamLibrary\steamapps\common\Europa Universalis IV | Europa Universalis IV	type: game-steam | stack: appid 236850 | backend: Lua scripts | was PC0155 | device: pc
+G0058	E:\SteamLibrary\steamapps\common\The Forest | The Forest	type: game-steam | stack: appid 242760 | backend: Unity; asset archive .assets | was PC0156 | device: pc
+G0059	E:\SteamLibrary\steamapps\common\assettocorsa | Assetto Corsa	type: game-steam | stack: appid 244210 | backend: Python; dir plugins | was PC0157 | device: pc
+G0060	E:\SteamLibrary\steamapps\common\Talisman | Talisman: Digital Classic Edition	type: game-steam | stack: appid 247000 | was PC0158 | device: pc
+G0061	E:\SteamLibrary\steamapps\common\The Binding of Isaac Rebirth | The Binding of Isaac: Rebirth	type: game-steam | stack: appid 250900 | backend: Lua scripts | was PC0159 | device: pc
+G0062	E:\SteamLibrary\steamapps\common\UntitledApp | Anomaly Warzone Earth Mobile Campaign	type: game-steam | stack: appid 252170 | was PC0160 | device: pc
+G0063	E:\SteamLibrary\steamapps\common\Cities_Skylines | Cities: Skylines	type: game-steam | stack: appid 255710 | backend: Python; Unity; asset archive .assets | was PC0161 | device: pc
+G0064	E:\SteamLibrary\steamapps\common\SPACECOM | SPACECOM	type: game-steam | stack: appid 263860 | backend: asset archive .assets | was PC0162 | device: pc
+G0065	E:\SteamLibrary\steamapps\common\Darkwood | Darkwood	type: game-steam | stack: appid 274520 | backend: Unity; asset archive .assets | was PC0163 | device: pc
+G0066	E:\SteamLibrary\steamapps\common\This War of Mine | This War of Mine	type: game-steam | stack: appid 282070 | was PC0164 | device: pc
+G0067	E:\SteamLibrary\steamapps\common\Endless Legend | ENDLESS Legend™	type: game-steam | stack: appid 289130 | backend: Unity; asset archive .assets | was PC0165 | device: pc
+G0068	E:\SteamLibrary\steamapps\common\ADOM | ADOM (Ancient Domains Of Mystery)	type: game-steam | stack: appid 333300 | was PC0166 | device: pc
+G0069	E:\SteamLibrary\steamapps\common\Brawlhalla | Brawlhalla	type: game-steam | stack: appid 291550 | was PC0167 | device: pc
+G0070	E:\SteamLibrary\steamapps\common\Freddi Fish 5 | Freddi Fish 5: The Case of the Creature of Coral Cove	type: game-steam | stack: appid 294570 | was PC0168 | device: pc
+G0071	E:\SteamLibrary\steamapps\common\Anomaly Defenders | Anomaly Defenders	type: game-steam | stack: appid 294750 | was PC0169 | device: pc
+G0072	E:\SteamLibrary\steamapps\common\Age of Wonders Planetfall | Age of Wonders: Planetfall	type: game-steam | stack: appid 718850 | was PC0170 | device: pc
+G0073	E:\SteamLibrary\steamapps\common\Mount Your Friends | Mount Your Friends	type: game-steam | stack: appid 296470 | was PC0171 | device: pc
+G0074	E:\SteamLibrary\steamapps\common\The Escapists | The Escapists	type: game-steam | stack: appid 298630 | backend: dir Data | was PC0172 | device: pc
+G0075	E:\SteamLibrary\steamapps\common\OfGuardsAndThieves | Of Guards And Thieves	type: game-steam | stack: appid 302590 | backend: Unity; asset archive .assets | was PC0173 | device: pc
+G0076	E:\SteamLibrary\steamapps\common\SunlessSea | Sunless Sea	type: game-steam | stack: appid 304650 | backend: Unity; asset archive .assets | was PC0174 | device: pc
+G0077	E:\SteamLibrary\steamapps\common\Unturned | Unturned	type: game-steam | stack: appid 304930 | backend: Unity | was PC0175 | device: pc
+G0078	E:\SteamLibrary\steamapps\common\WeNeedtoGoDeeper | We Need To Go Deeper	type: game-steam | stack: appid 307110 | backend: Unity; asset archive .assets | was PC0176 | device: pc
+G0079	E:\SteamLibrary\steamapps\common\StrangeBrigade | Strange Brigade	type: game-steam | stack: appid 312670 | was PC0177 | device: pc
+G0080	E:\SteamLibrary\steamapps\common\FRAMED | FRAMED Collection	type: game-steam | stack: appid 322450 | was PC0178 | device: pc
+G0081	E:\SteamLibrary\steamapps\common\Frostpunk | Frostpunk	type: game-steam | stack: appid 323190 | was PC0179 | device: pc
+G0082	E:\SteamLibrary\steamapps\common\Warhammer Quest | Warhammer Quest	type: game-steam | stack: appid 326670 | backend: SQLite; Unity; asset archive .assets | was PC0180 | device: pc
+G0083	E:\SteamLibrary\steamapps\common\ChildrenOfMorta | Children of Morta	type: game-steam | stack: appid 330020 | backend: Unity; asset archive .assets | was PC0181 | device: pc
+G0084	E:\SteamLibrary\steamapps\common\Basement | Basement	type: game-steam | stack: appid 340150 | backend: Unity; asset archive .assets | was PC0182 | device: pc
+G0085	E:\SteamLibrary\steamapps\common\InnerSpace | InnerSpace	type: game-steam | stack: appid 347000 | backend: Unity; asset archive .assets | was PC0183 | device: pc
+G0086	E:\SteamLibrary\steamapps\common\Popup Dungeon | Popup Dungeon	type: game-steam | stack: appid 349730 | backend: Unity; asset archive .assets | was PC0184 | device: pc
+G0087	E:\SteamLibrary\steamapps\common\Niffelheim | Niffelheim	type: game-steam | stack: appid 351100 | backend: Unity; asset archive .assets | was PC0185 | device: pc
+G0088	E:\SteamLibrary\steamapps\common\Total War WARHAMMER | Total War: WARHAMMER	type: game-steam | stack: appid 364360 | backend: Lua scripts; dir data | was PC0186 | device: pc
+G0089	E:\SteamLibrary\steamapps\common\Poly Bridge | Poly Bridge	type: game-steam | stack: appid 367450 | backend: Unity; asset archive .assets | was PC0187 | device: pc
+G0090	E:\SteamLibrary\steamapps\common\Starbound - Unstable | Starbound - Unstable	type: game-steam | stack: appid 367540 | backend: dir mods | was PC0188 | device: pc
+G0091	E:\SteamLibrary\steamapps\common\Ageless | Ageless	type: game-steam | stack: appid 1210150 | backend: Unity; asset archive .assets | was PC0189 | device: pc
+G0092	E:\SteamLibrary\steamapps\common\Nimbatus | Nimbatus - The Space Drone Constructor	type: game-steam | stack: appid 383840 | backend: Unity; asset archive .assets | was PC0190 | device: pc
+G0093	E:\SteamLibrary\steamapps\common\SMITE | SMITE	type: game-steam | stack: appid 386360 | was PC0191 | device: pc
+G0094	E:\SteamLibrary\steamapps\common\Endless Space 2 | ENDLESS Space™ 2	type: game-steam | stack: appid 392110 | backend: Unity; asset archive .assets | was PC0192 | device: pc
+G0095	E:\SteamLibrary\steamapps\common\TSIOQUE | TSIOQUE	type: game-steam | stack: appid 393190 | was PC0193 | device: pc
+G0096	E:\SteamLibrary\steamapps\common\Hearts of Iron IV | Hearts of Iron IV	type: game-steam | stack: appid 394360 | backend: Lua scripts | was PC0194 | device: pc
+G0097	E:\SteamLibrary\steamapps\common\Call of Cthulhu | Call of Cthulhu	type: game-steam | stack: appid 399810 | backend: Unreal | was PC0195 | device: pc
+G0098	E:\SteamLibrary\steamapps\common\Out of Space | Out of Space	type: game-steam | stack: appid 400080 | backend: Unity; asset archive .assets | was PC0196 | device: pc
+G0099	E:\SteamLibrary\steamapps\common\Endless Sky | Endless Sky	type: game-steam | stack: appid 404410 | backend: dir data | was PC0197 | device: pc
+G0100	E:\SteamLibrary\steamapps\common\Vikings - Wolves of Midgard | Vikings - Wolves of Midgard	type: game-steam | stack: appid 404590 | backend: Lua scripts; Unity; asset archive .assets | was PC0198 | device: pc
+G0101	E:\SteamLibrary\steamapps\common\The Uncertain | The Uncertain: Last Quiet Day	type: game-steam | stack: appid 406970 | backend: Unity; asset archive .assets | was PC0199 | device: pc
+G0102	E:\SteamLibrary\steamapps\common\ELEX | ELEX	type: game-steam | stack: appid 411300 | backend: dir data | was PC0200 | device: pc
+G0103	E:\SteamLibrary\steamapps\common\AI War 2 | AI War 2	type: game-steam | stack: appid 573410 | backend: SQLite; Unity; asset archive .assets | was PC0201 | device: pc
+G0104	E:\SteamLibrary\steamapps\common\Metro Exodus | Metro Exodus	type: game-steam | stack: appid 412020 | was PC0202 | device: pc
+G0105	E:\SteamLibrary\steamapps\common\Stardew Valley | Stardew Valley	type: game-steam | stack: appid 413150 | backend: dir mods | was PC0203 | device: pc
+G0106	E:\SteamLibrary\steamapps\common\Hellblade | Hellblade: Senua's Sacrifice	type: game-steam | stack: appid 414340 | backend: Unreal | was PC0204 | device: pc
+G0107	E:\SteamLibrary\steamapps\common\Indivisible | Indivisible	type: game-steam | stack: appid 421170 | was PC0205 | device: pc
+G0108	E:\SteamLibrary\steamapps\common\Vampyr | Vampyr	type: game-steam | stack: appid 427290 | backend: Unreal | was PC0206 | device: pc
+G0109	E:\SteamLibrary\steamapps\common\Golf With Your Friends | Golf With Your Friends	type: game-steam | stack: appid 431240 | backend: Unity; asset archive .assets | was PC0207 | device: pc
+G0110	E:\SteamLibrary\steamapps\common\Wildfire | Wildfire	type: game-steam | stack: appid 431940 | was PC0208 | device: pc
+G0111	E:\SteamLibrary\steamapps\common\Divinity Original Sin 2 | Divinity: Original Sin 2	type: game-steam | stack: appid 435150 | backend: dir Data | was PC0209 | device: pc
+G0112	E:\SteamLibrary\steamapps\common\Niche | Niche - a genetics survival game	type: game-steam | stack: appid 440650 | was PC0210 | device: pc
+G0113	E:\SteamLibrary\steamapps\common\Mount Your Friends 3D | Mount Your Friends 3D: A Hard Man is Good to Climb	type: game-steam | stack: appid 441010 | backend: Unity; asset archive .assets | was PC0211 | device: pc
+G0114	E:\SteamLibrary\steamapps\common\Transport Fever | Transport Fever	type: game-steam | stack: appid 446800 | backend: Lua scripts; dir mods | was PC0212 | device: pc
+G0115	E:\SteamLibrary\steamapps\common\Where The Water Tastes Like Wine | Where the Water Tastes Like Wine	type: game-steam | stack: appid 447120 | backend: Unity; asset archive .assets | was PC0213 | device: pc
+G0116	E:\SteamLibrary\steamapps\common\Overload | Overload	type: game-steam | stack: appid 448850 | backend: Unity; asset archive .assets | was PC0214 | device: pc
+G0117	E:\SteamLibrary\steamapps\common\Return 2 Games | Book of Demons	type: game-steam | stack: appid 449960 | was PC0215 | device: pc
+G0118	E:\SteamLibrary\steamapps\common\Battle Chasers Nightwar | Battle Chasers: Nightwar	type: game-steam | stack: appid 451020 | backend: Unity; asset archive .assets | was PC0216 | device: pc
+G0119	E:\SteamLibrary\steamapps\common\Warhammer 40000 Armageddon - Da Orks | Warhammer 40,000: Armageddon - Da Orks	type: game-steam | stack: appid 455340 | backend: dir Data | was PC0217 | device: pc
+G0120	E:\SteamLibrary\steamapps\common\CrushCrush | Crush Crush	type: game-steam | stack: appid 459820 | backend: Unity; asset archive .assets | was PC0218 | device: pc
+G0121	E:\SteamLibrary\steamapps\common\Katana ZERO | Katana ZERO	type: game-steam | stack: appid 460950 | was PC0219 | device: pc
+G0122	E:\SteamLibrary\steamapps\common\Beat Cop | Beat Cop	type: game-steam | stack: appid 461950 | backend: Unity; asset archive .assets | was PC0220 | device: pc
+G0123	E:\SteamLibrary\steamapps\common\Syberia3 | Syberia 3	type: game-steam | stack: appid 464340 | backend: Unity; asset archive .assets | was PC0221 | device: pc
+G0124	E:\SteamLibrary\steamapps\common\Surviving Mars | Surviving Mars	type: game-steam | stack: appid 464920 | backend: Lua scripts; Python | was PC0222 | device: pc
+G0125	E:\SteamLibrary\steamapps\common\Fury Unleashed | Fury Unleashed	type: game-steam | stack: appid 465200 | backend: Unity | was PC0223 | device: pc
+G0126	E:\SteamLibrary\steamapps\common\Albion Online | Albion Online	type: game-steam | stack: appid 761890 | backend: Unity; asset archive .assets | was PC0224 | device: pc
+G0127	E:\SteamLibrary\steamapps\common\Legion TD 2 | Legion TD 2	type: game-steam | stack: appid 469600 | backend: SQLite; Unity; asset archive .assets | was PC0225 | device: pc
+G0128	E:\SteamLibrary\steamapps\common\Aven Colony | Aven Colony	type: game-steam | stack: appid 484900 | backend: Unreal | was PC0226 | device: pc
+G0129	E:\SteamLibrary\steamapps\common\Mr Shifty | Mr Shifty	type: game-steam | stack: appid 489140 | backend: Unity; asset archive .assets | was PC0227 | device: pc
+G0130	E:\SteamLibrary\steamapps\common\Warhammer 40000 Gladius - Relics of War | Warhammer 40,000: Gladius - Relics of War	type: game-steam | stack: appid 489630 | backend: dir Data | was PC0228 | device: pc
+G0131	E:\SteamLibrary\steamapps\common\House Flipper | House Flipper	type: game-steam | stack: appid 613100 | backend: Unity; asset archive .assets; asset archive .bundle | was PC0229 | device: pc
+G0132	E:\SteamLibrary\steamapps\common\Planet Coaster | Planet Coaster	type: game-steam | stack: appid 493340 | was PC0230 | device: pc
+G0133	E:\SteamLibrary\steamapps\common\Warhammer 40000 Sanctus Reach | Warhammer 40,000: Sanctus Reach	type: game-steam | stack: appid 502370 | backend: dir Data | was PC0231 | device: pc
+G0134	E:\SteamLibrary\steamapps\common\Railway Empire | Railway Empire	type: game-steam | stack: appid 503940 | was PC0232 | device: pc
+G0135	E:\SteamLibrary\steamapps\common\SHENZHEN IO | SHENZHEN I/O	type: game-steam | stack: appid 504210 | was PC0233 | device: pc
+G0136	E:\SteamLibrary\steamapps\common\Pathologic | Pathologic 2	type: game-steam | stack: appid 505230 | backend: Unity; asset archive .assets; dir Data | was PC0234 | device: pc
+G0137	E:\SteamLibrary\steamapps\common\Totally Accurate Battle Simulator | Totally Accurate Battle Simulator	type: game-steam | stack: appid 508440 | backend: Unity; asset archive .assets | was PC0235 | device: pc
+G0138	E:\SteamLibrary\steamapps\common\Just Cause 4 | Just Cause 4	type: game-steam | stack: appid 517630 | was PC0236 | device: pc
+G0139	E:\SteamLibrary\steamapps\common\Hello Neighbor | Hello Neighbor	type: game-steam | stack: appid 521890 | was PC0237 | device: pc
+G0140	E:\SteamLibrary\steamapps\common\The Wild Eight | The Wild Eight	type: game-steam | stack: appid 526160 | backend: Unity; asset archive .assets | was PC0238 | device: pc
+G0141	E:\SteamLibrary\steamapps\common\Satisfactory | Satisfactory	type: game-steam | stack: appid 526870 | backend: Unreal | was PC0239 | device: pc
+G0142	E:\SteamLibrary\steamapps\common\Synthetik | SYNTHETIK	type: game-steam | stack: appid 528230 | was PC0240 | device: pc
+G0143	E:\SteamLibrary\steamapps\common\Tower 57 | Tower 57	type: game-steam | stack: appid 530950 | was PC0241 | device: pc
+G0144	E:\SteamLibrary\steamapps\common\Ancestors The Humankind Odyssey | Ancestors: The Humankind Odyssey 	type: game-steam | stack: appid 536270 | backend: Unreal | was PC0242 | device: pc
+G0145	E:\SteamLibrary\steamapps\common\Guts and Glory | Guts and Glory	type: game-steam | stack: appid 537340 | backend: Unity; asset archive .assets | was PC0243 | device: pc
+G0146	E:\SteamLibrary\steamapps\common\Battlestar Galactica Deadlock | Battlestar Galactica Deadlock	type: game-steam | stack: appid 544610 | backend: Unity; asset archive .assets | was PC0244 | device: pc
+G0147	E:\SteamLibrary\steamapps\common\Deep Rock Galactic | Deep Rock Galactic	type: game-steam | stack: appid 548430 | backend: Unreal | was PC0245 | device: pc
+G0148	E:\SteamLibrary\steamapps\common\Warhammer Vermintide 2 | Warhammer: Vermintide 2	type: game-steam | stack: appid 552500 | was PC0246 | device: pc
+G0149	E:\SteamLibrary\steamapps\common\Warhammer 40,000 Space Wolf | Warhammer 40,000: Space Wolf	type: game-steam | stack: appid 553210 | backend: Unity; asset archive .assets | was PC0247 | device: pc
+G0150	E:\SteamLibrary\steamapps\common\The Ambassador | The Ambassador: Fractured Timelines	type: game-steam | stack: appid 1171660 | was PC0248 | device: pc
+G0151	E:\SteamLibrary\steamapps\common\LLBlaze | Lethal League Blaze	type: game-steam | stack: appid 553310 | backend: Unity; asset archive .assets | was PC0249 | device: pc
+G0152	E:\SteamLibrary\steamapps\common\Goat of Duty | GOAT OF DUTY	type: game-steam | stack: appid 555000 | backend: Unreal | was PC0250 | device: pc
+G0153	E:\SteamLibrary\steamapps\common\My Friend Pedro | My Friend Pedro	type: game-steam | stack: appid 557340 | backend: Unity; asset archive .assets | was PC0251 | device: pc
+G0154	E:\SteamLibrary\steamapps\common\Opus Magnum | Opus Magnum	type: game-steam | stack: appid 558990 | was PC0252 | device: pc
+G0155	E:\SteamLibrary\steamapps\common\Warstone TD | Warstone TD	type: game-steam | stack: appid 562500 | backend: SQLite; Unity; asset archive .assets | was PC0253 | device: pc
+G0156	E:\SteamLibrary\steamapps\common\Kingdoms and Castles | Kingdoms and Castles	type: game-steam | stack: appid 569480 | backend: Unity; asset archive .assets | was PC0254 | device: pc
+G0157	E:\SteamLibrary\steamapps\common\Raiden V | Raiden V: Director's Cut	type: game-steam | stack: appid 570050 | was PC0255 | device: pc
+G0158	E:\SteamLibrary\steamapps\common\Underhero | Underhero	type: game-steam | stack: appid 573320 | backend: Unity; asset archive .assets | was PC0256 | device: pc
+G0159	E:\SteamLibrary\steamapps\common\LittleBigWorkshop | Little Big Workshop	type: game-steam | stack: appid 574720 | backend: Unity; asset archive .assets | was PC0257 | device: pc
+G0160	E:\SteamLibrary\steamapps\common\sandstorm | Insurgency: Sandstorm	type: game-steam | stack: appid 581320 | backend: Unreal | was PC0258 | device: pc
+G0161	E:\SteamLibrary\steamapps\common\Monster Hunter World | Monster Hunter: World	type: game-steam | stack: appid 582010 | was PC0259 | device: pc
+G0162	E:\SteamLibrary\steamapps\common\Everything | Everything	type: game-steam | stack: appid 582270 | backend: Unity; asset archive .assets | was PC0260 | device: pc
+G0163	E:\SteamLibrary\steamapps\common\Shadows Awakening | Shadows: Awakening	type: game-steam | stack: appid 585450 | backend: Unity; asset archive .assets | was PC0261 | device: pc
+G0164	E:\SteamLibrary\steamapps\common\Okami | Okami HD	type: game-steam | stack: appid 587620 | was PC0262 | device: pc
+G0165	E:\SteamLibrary\steamapps\common\Remnants of Naezith | Remnants of Naezith	type: game-steam | stack: appid 590590 | backend: dir data | was PC0263 | device: pc
+G0166	E:\SteamLibrary\steamapps\common\American Fugitive | American Fugitive	type: game-steam | stack: appid 934780 | backend: Unity; asset archive .assets | was PC0264 | device: pc
+G0167	E:\SteamLibrary\steamapps\common\Total War WARHAMMER II | Total War: WARHAMMER II	type: game-steam | stack: appid 594570 | backend: dir data | was PC0265 | device: pc
+G0168	E:\SteamLibrary\steamapps\common\Sunless Skies | Sunless Skies	type: game-steam | stack: appid 596970 | backend: Unity; asset archive .assets | was PC0266 | device: pc
+G0169	E:\SteamLibrary\steamapps\common\Boreal Blade | Boreal Blade	type: game-steam | stack: appid 598780 | backend: dir data | was PC0267 | device: pc
+G0170	E:\SteamLibrary\steamapps\common\Amnesia Rebirth | Amnesia: Rebirth	type: game-steam | stack: appid 999220 | backend: dir mods | was PC0268 | device: pc
+G0171	E:\SteamLibrary\steamapps\common\Valfaris | Valfaris	type: game-steam | stack: appid 600130 | backend: Unity; asset archive .assets | was PC0269 | device: pc
+G0172	E:\SteamLibrary\steamapps\common\Train Valley 2 | Train Valley 2	type: game-steam | stack: appid 602320 | backend: Unity; asset archive .assets | was PC0270 | device: pc
+G0173	E:\SteamLibrary\steamapps\common\Mordhau | MORDHAU	type: game-steam | stack: appid 629760 | backend: Unreal | was PC0271 | device: pc
+G0174	E:\SteamLibrary\steamapps\common\Barotrauma | Barotrauma	type: game-steam | stack: appid 602960 | backend: dir Data | was PC0272 | device: pc
+G0175	E:\SteamLibrary\steamapps\common\Darksiders 3 | Darksiders III	type: game-steam | stack: appid 606280 | backend: Unreal | was PC0273 | device: pc
+G0176	E:\SteamLibrary\steamapps\common\GreedFall | GreedFall	type: game-steam | stack: appid 606880 | was PC0274 | device: pc
+G0177	E:\SteamLibrary\steamapps\common\Wargroove | Wargroove	type: game-steam | stack: appid 607050 | backend: Lua scripts | was PC0275 | device: pc
+G0178	E:\SteamLibrary\steamapps\common\Guns of Icarus Online | Guns of Icarus Alliance	type: game-steam | stack: appid 608800 | backend: Unity; asset archive .assets; dir workshop | was PC0276 | device: pc
+G0179	E:\SteamLibrary\steamapps\common\Hotshot Racing | Hotshot Racing	type: game-steam | stack: appid 609920 | backend: Godot; dir data | was PC0277 | device: pc
+G0180	E:\SteamLibrary\steamapps\common\Fort Triumph | Fort Triumph	type: game-steam | stack: appid 612570 | backend: Unity; asset archive .assets | was PC0278 | device: pc
+G0181	E:\SteamLibrary\steamapps\common\Colt Canyon | Colt Canyon	type: game-steam | stack: appid 940710 | was PC0279 | device: pc
+G0182	E:\SteamLibrary\steamapps\common\Beat Hazard 2 | Beat Hazard 2	type: game-steam | stack: appid 618740 | backend: Unreal; dir data | was PC0280 | device: pc
+G0183	E:\SteamLibrary\steamapps\common\The Swords of Ditto | The Swords of Ditto: Mormo's Curse	type: game-steam | stack: appid 619780 | was PC0281 | device: pc
+G0184	E:\SteamLibrary\steamapps\common\PC Building Simulator | PC Building Simulator	type: game-steam | stack: appid 621060 | backend: Unity; asset archive .assets; dir Data | was PC0282 | device: pc
+G0185	E:\SteamLibrary\steamapps\common\Injustice2 | Injustice™ 2	type: game-steam | stack: appid 627270 | was PC0283 | device: pc
+G0186	E:\SteamLibrary\steamapps\common\Hellpoint | Hellpoint	type: game-steam | stack: appid 628670 | backend: Unity; asset archive .assets | was PC0284 | device: pc
+G0187	E:\SteamLibrary\steamapps\common\Horace | Horace	type: game-steam | stack: appid 629090 | backend: Unity; asset archive .assets | was PC0285 | device: pc
+G0188	E:\SteamLibrary\steamapps\common\Total Tank Simulator | Total Tank Simulator	type: game-steam | stack: appid 674500 | backend: Python; Unity; asset archive .assets | was PC0286 | device: pc
+G0189	E:\SteamLibrary\steamapps\common\Maneater | Maneater	type: game-steam | stack: appid 629820 | backend: Unreal | was PC0287 | device: pc
+G0190	E:\SteamLibrary\steamapps\common\Risk of Rain 2 | Risk of Rain 2	type: game-steam | stack: appid 632360 | backend: Unity; asset archive .assets; asset archive .bundle | was PC0288 | device: pc
+G0191	E:\SteamLibrary\steamapps\common\Orwell Ignorance is Strength | Orwell: Ignorance is Strength	type: game-steam | stack: appid 633060 | backend: Unity; asset archive .assets | was PC0289 | device: pc
+G0192	E:\SteamLibrary\steamapps\common\Capitalism 2 | Capitalism 2	type: game-steam | stack: appid 638200 | was PC0290 | device: pc
+G0193	E:\SteamLibrary\steamapps\common\Pathfinder Kingmaker | Pathfinder: Kingmaker	type: game-steam | stack: appid 640820 | backend: SQLite; Unity; asset archive .assets | was PC0291 | device: pc
+G0194	E:\SteamLibrary\steamapps\common\The Surge 2 | The Surge 2	type: game-steam | stack: appid 644830 | backend: Lua scripts | was PC0292 | device: pc
+G0195	E:\SteamLibrary\steamapps\common\RiseOfIndustry | Rise of Industry	type: game-steam | stack: appid 671440 | backend: Unity; asset archive .assets | was PC0293 | device: pc
+G0196	E:\SteamLibrary\steamapps\common\Desolate | Desolate	type: game-steam | stack: appid 671510 | backend: Unreal | was PC0294 | device: pc
+G0197	E:\SteamLibrary\steamapps\common\Farmer's Dynasty | Farmer's Dynasty - Final Harvest Edition	type: game-steam | stack: appid 678900 | backend: dir data | was PC0295 | device: pc
+G0198	E:\SteamLibrary\steamapps\common\DRAGON BALL FighterZ | DRAGON BALL FighterZ	type: game-steam | stack: appid 678950 | backend: Unreal | was PC0296 | device: pc
+G0199	E:\SteamLibrary\steamapps\common\Night Call | Night Call	type: game-steam | stack: appid 680380 | backend: Unity; asset archive .assets | was PC0297 | device: pc
+G0200	E:\SteamLibrary\steamapps\common\Descenders | Descenders	type: game-steam | stack: appid 681280 | backend: Unity; asset archive .assets | was PC0298 | device: pc
+G0201	E:\SteamLibrary\steamapps\common\Nowhere Prophet | Nowhere Prophet	type: game-steam | stack: appid 681730 | backend: Unity; asset archive .assets | was PC0299 | device: pc
+G0202	E:\SteamLibrary\steamapps\common\Surviving the Aftermath | Surviving the Aftermath	type: game-steam | stack: appid 684450 | backend: Unity; asset archive .assets; asset archive .bundle | was PC0300 | device: pc
+G0203	E:\SteamLibrary\steamapps\common\Shoppe Keep 2 | Shoppe Keep 2	type: game-steam | stack: appid 684580 | backend: Unity; asset archive .assets | was PC0301 | device: pc
+G0204	E:\SteamLibrary\steamapps\common\Hell Let Loose | Hell Let Loose	type: game-steam | stack: appid 686810 | backend: Unreal | was PC0302 | device: pc
+G0205	E:\SteamLibrary\steamapps\common\SUPERHOTMCD | SUPERHOT: MIND CONTROL DELETE	type: game-steam | stack: appid 690040 | backend: Unity; asset archive .assets | was PC0303 | device: pc
+G0206	E:\SteamLibrary\steamapps\common\Trine 4 The Nightmare Prince | Trine 4: The Nightmare Prince	type: game-steam | stack: appid 690640 | backend: dir data | was PC0304 | device: pc
+G0207	E:\SteamLibrary\steamapps\common\Bloodstained Ritual of the Night | Bloodstained: Ritual of the Night	type: game-steam | stack: appid 692850 | backend: Unreal | was PC0305 | device: pc
+G0208	E:\SteamLibrary\steamapps\common\RoboQuest | Roboquest	type: game-steam | stack: appid 692890 | backend: Unreal | was PC0306 | device: pc
+G0209	E:\SteamLibrary\steamapps\common\Fell Seal | Fell Seal: Arbiter's Mark	type: game-steam | stack: appid 699170 | backend: SQLite; Unity; asset archive .assets | was PC0307 | device: pc
+G0210	E:\SteamLibrary\steamapps\common\Kingdom Two Crowns | Kingdom Two Crowns	type: game-steam | stack: appid 701160 | backend: Unity; asset archive .assets | was PC0308 | device: pc
+G0211	E:\SteamLibrary\steamapps\common\Planet Zoo | Planet Zoo	type: game-steam | stack: appid 703080 | was PC0309 | device: pc
+G0212	E:\SteamLibrary\steamapps\common\GRID (2019) | GRID (2019)	type: game-steam | stack: appid 703860 | was PC0310 | device: pc
+G0213	E:\SteamLibrary\steamapps\common\GenerationZero | Generation Zero®	type: game-steam | stack: appid 704270 | was PC0311 | device: pc
+G0214	E:\SteamLibrary\steamapps\common\DarksidersGenesis | Darksiders Genesis	type: game-steam | stack: appid 710920 | backend: Unreal | was PC0312 | device: pc
+G0215	E:\SteamLibrary\steamapps\common\Genesis Alpha One | Genesis Alpha One Deluxe Edition	type: game-steam | stack: appid 712190 | backend: Unreal | was PC0313 | device: pc
+G0216	E:\SteamLibrary\steamapps\common\SIMULACRA | SIMULACRA	type: game-steam | stack: appid 712730 | backend: asset archive .assets | was PC0314 | device: pc
+G0217	E:\SteamLibrary\steamapps\common\Little Misfortune | Little Misfortune	type: game-steam | stack: appid 714120 | backend: Unity; asset archive .assets | was PC0315 | device: pc
+G0218	E:\SteamLibrary\steamapps\common\EXAPUNKS | EXAPUNKS	type: game-steam | stack: appid 716490 | was PC0316 | device: pc
+G0219	E:\SteamLibrary\steamapps\common\SigmaTheory | Sigma Theory	type: game-steam | stack: appid 716640 | backend: Unity; asset archive .assets | was PC0317 | device: pc
+G0220	E:\SteamLibrary\steamapps\common\A Case of Distrust | A Case of Distrust	type: game-steam | stack: appid 717610 | backend: Unity; asset archive .assets | was PC0318 | device: pc
+G0221	E:\SteamLibrary\steamapps\common\Driftland The Magic Revival | Driftland: The Magic Revival	type: game-steam | stack: appid 718650 | backend: Unreal | was PC0319 | device: pc
+G0222	E:\SteamLibrary\steamapps\common\Wasteland 3 | Wasteland 3	type: game-steam | stack: appid 719040 | backend: Unity; asset archive .assets; asset archive .bundle | was PC0320 | device: pc
+G0223	E:\SteamLibrary\steamapps\common\Between the Stars | Between the Stars	type: game-steam | stack: appid 727130 | backend: Unity; asset archive .assets | was PC0321 | device: pc
+G0224	E:\SteamLibrary\steamapps\common\Elderborn | ELDERBORN	type: game-steam | stack: appid 727850 | backend: Unity; asset archive .assets | was PC0322 | device: pc
+G0225	E:\SteamLibrary\steamapps\common\Overcooked! 2 | Overcooked! 2	type: game-steam | stack: appid 728880 | backend: Unity; asset archive .assets | was PC0323 | device: pc
+G0226	E:\SteamLibrary\steamapps\common\Raji An Ancient Epic | Raji: An Ancient Epic	type: game-steam | stack: appid 730390 | backend: Unreal | was PC0324 | device: pc
+G0227	E:\SteamLibrary\steamapps\common\SuperFlight | Superflight	type: game-steam | stack: appid 732430 | backend: Unity; asset archive .assets | was PC0325 | device: pc
+G0228	E:\SteamLibrary\steamapps\common\Not Tonight | Not Tonight	type: game-steam | stack: appid 733790 | backend: Unity; asset archive .assets | was PC0326 | device: pc
+G0229	E:\SteamLibrary\steamapps\common\As Far As The Eye | As Far As The Eye	type: game-steam | stack: appid 1119700 | backend: Unity | was PC0327 | device: pc
+G0230	E:\SteamLibrary\steamapps\common\Genesis Noir | Genesis Noir	type: game-steam | stack: appid 735290 | backend: Unreal | was PC0328 | device: pc
+G0231	E:\SteamLibrary\steamapps\common\Phasmophobia | Phasmophobia	type: game-steam | stack: appid 739630 | backend: Python; Unity; asset archive .assets | was PC0329 | device: pc
+G0232	E:\SteamLibrary\steamapps\common\Drake Hollow | Drake Hollow	type: game-steam | stack: appid 739650 | backend: Unreal | was PC0330 | device: pc
+G0233	E:\SteamLibrary\steamapps\common\Deadly Days | Deadly Days	type: game-steam | stack: appid 740080 | backend: Unity; asset archive .assets | was PC0331 | device: pc
+G0234	E:\SteamLibrary\steamapps\common\Hellblade Senua's Sacrifice - VR | Hellblade: Senua's Sacrifice VR Edition	type: game-steam | stack: appid 747350 | backend: Unreal | was PC0332 | device: pc
+G0235	E:\SteamLibrary\steamapps\common\Forager | Forager	type: game-steam | stack: appid 751780 | was PC0333 | device: pc
+G0236	E:\SteamLibrary\steamapps\common\Black Future '88 | Black Future '88	type: game-steam | stack: appid 751820 | backend: Unity; asset archive .assets | was PC0334 | device: pc
+G0237	E:\SteamLibrary\steamapps\common\A Plague Tale Innocence | A Plague Tale: Innocence	type: game-steam | stack: appid 752590 | backend: Godot | was PC0335 | device: pc
+G0238	E:\SteamLibrary\steamapps\common\Family Man | Family Man	type: game-steam | stack: appid 904360 | backend: Unity; asset archive .assets | was PC0336 | device: pc
+G0239	E:\SteamLibrary\steamapps\common\DueProcess | Due Process	type: game-steam | stack: appid 753650 | backend: Unity | was PC0337 | device: pc
+G0240	E:\SteamLibrary\steamapps\common\Iron Danger | Iron Danger	type: game-steam | stack: appid 899310 | backend: Unity; asset archive .assets | was PC0338 | device: pc
+G0241	E:\SteamLibrary\steamapps\common\A Dance of Fire and Ice | A Dance of Fire and Ice	type: game-steam | stack: appid 977950 | backend: Unity; asset archive .assets; asset archive .bundle | was PC0339 | device: pc
+G0242	E:\SteamLibrary\steamapps\common\Atomicrops | Atomicrops	type: game-steam | stack: appid 757320 | backend: Unity; asset archive .assets | was PC0340 | device: pc
+G0243	E:\SteamLibrary\steamapps\common\Hammerting | Hammerting	type: game-steam | stack: appid 760650 | backend: Python | was PC0341 | device: pc
+G0244	E:\SteamLibrary\steamapps\common\Retimed | Retimed	type: game-steam | stack: appid 760810 | was PC0342 | device: pc
+G0245	E:\SteamLibrary\steamapps\common\The Occupation | The Occupation	type: game-steam | stack: appid 765880 | backend: Unreal | was PC0343 | device: pc
+G0246	E:\SteamLibrary\steamapps\common\Heaven's Vault | Heaven's Vault	type: game-steam | stack: appid 774201 | backend: Unity; asset archive .assets | was PC0344 | device: pc
+G0247	E:\SteamLibrary\steamapps\common\Warhammer Chaosbane | Warhammer: Chaosbane	type: game-steam | stack: appid 774241 | backend: asset archive .big; dir Data | was PC0345 | device: pc
+G0248	E:\SteamLibrary\steamapps\common\Project Winter | Project Winter	type: game-steam | stack: appid 774861 | backend: Unity; asset archive .assets; asset archive .bundle | was PC0346 | device: pc
+G0249	E:\SteamLibrary\steamapps\common\Stygian Reign of the Old Ones | Stygian: Reign of the Old Ones	type: game-steam | stack: appid 779290 | backend: Unity; asset archive .assets | was PC0347 | device: pc
+G0250	E:\SteamLibrary\steamapps\common\DOOMEternal | DOOM Eternal	type: game-steam | stack: appid 782330 | backend: Godot; asset archive .wad | was PC0348 | device: pc
+G0251	E:\SteamLibrary\steamapps\common\This Is the Police 2 | This Is the Police 2	type: game-steam | stack: appid 785740 | backend: Unity; asset archive .assets | was PC0349 | device: pc
+G0252	E:\SteamLibrary\steamapps\common\Neon Abyss | Neon Abyss	type: game-steam | stack: appid 788100 | backend: Unity; asset archive .assets | was PC0350 | device: pc
+G0253	E:\SteamLibrary\steamapps\common\VC4 | Valkyria Chronicles 4 Complete Edition	type: game-steam | stack: appid 790820 | was PC0351 | device: pc
+G0254	E:\SteamLibrary\steamapps\common\The Bard's Tale Trilogy | The Bard's Tale Trilogy	type: game-steam | stack: appid 843260 | backend: Unity; asset archive .assets | was PC0352 | device: pc
+G0255	E:\SteamLibrary\steamapps\common\The Beast Inside | The Beast Inside	type: game-steam | stack: appid 792300 | backend: Unreal | was PC0353 | device: pc
+G0256	E:\SteamLibrary\steamapps\common\Levelhead | Levelhead	type: game-steam | stack: appid 792710 | was PC0354 | device: pc
+G0257	E:\SteamLibrary\steamapps\common\Outward | Outward	type: game-steam | stack: appid 794260 | backend: Unity; asset archive .assets | was PC0355 | device: pc
+G0258	E:\SteamLibrary\steamapps\common\Axis & Allies Online | Axis & Allies 1942 Online	type: game-steam | stack: appid 898920 | backend: Python | was PC0356 | device: pc
+G0259	E:\SteamLibrary\steamapps\common\Railroad Corporation | Railroad Corporation	type: game-steam | stack: appid 797400 | backend: Unity; asset archive .assets | was PC0357 | device: pc
+G0260	E:\SteamLibrary\steamapps\common\Othercide | Othercide	type: game-steam | stack: appid 798490 | backend: Unity; asset archive .assets | was PC0358 | device: pc
+G0261	E:\SteamLibrary\steamapps\common\ShiningResonanceRefrain | Shining Resonance Refrain	type: game-steam | stack: appid 809890 | was PC0359 | device: pc
+G0262	E:\SteamLibrary\steamapps\common\Autonauts | Autonauts	type: game-steam | stack: appid 979120 | backend: Unity; asset archive .assets; asset archive .bundle | was PC0360 | device: pc
+G0263	E:\SteamLibrary\steamapps\common\Verlet Swing | Verlet Swing	type: game-steam | stack: appid 811870 | backend: Unity; asset archive .assets | was PC0361 | device: pc
+G0264	E:\SteamLibrary\steamapps\common\Supraland | Supraland	type: game-steam | stack: appid 813630 | backend: Unreal | was PC0362 | device: pc
+G0265	E:\SteamLibrary\steamapps\common\Hokko Life | Hokko Life	type: game-steam | stack: appid 824000 | backend: Unity; asset archive .assets | was PC0363 | device: pc
+G0266	E:\SteamLibrary\steamapps\common\The Ascent | The Ascent	type: game-steam | stack: appid 979690 | backend: Unreal | was PC0364 | device: pc
+G0267	E:\SteamLibrary\steamapps\common\Iron Harvest | Iron Harvest	type: game-steam | stack: appid 826630 | backend: Unity; asset archive .assets | was PC0365 | device: pc
+G0268	E:\SteamLibrary\steamapps\common\Maid of Sker | Maid of Sker	type: game-steam | stack: appid 826940 | backend: Unity; asset archive .assets | was PC0366 | device: pc
+G0269	E:\SteamLibrary\steamapps\common\Automachef | Automachef	type: game-steam | stack: appid 984800 | backend: Unity; asset archive .assets | was PC0367 | device: pc
+G0270	E:\SteamLibrary\steamapps\common\Tales of the Neon Sea | Tales of the Neon Sea	type: game-steam | stack: appid 828740 | backend: Unity; asset archive .assets | was PC0368 | device: pc
+G0271	E:\SteamLibrary\steamapps\common\The Stillness of the Wind | The Stillness of the Wind	type: game-steam | stack: appid 828900 | backend: Unity; asset archive .assets | was PC0369 | device: pc
+G0272	E:\SteamLibrary\steamapps\common\BannersOfRuin | Banners of Ruin	type: game-steam | stack: appid 1075740 | backend: Unity; asset archive .assets | was PC0370 | device: pc
+G0273	E:\SteamLibrary\steamapps\common\Hiveswap Friendsim | Hiveswap Friendsim	type: game-steam | stack: appid 833040 | backend: Python | was PC0371 | device: pc
+G0274	E:\SteamLibrary\steamapps\common\TabletopPlayground | Tabletop Playground	type: game-steam | stack: appid 838410 | backend: Unreal | was PC0372 | device: pc
+G0275	E:\SteamLibrary\steamapps\common\Phoenix Point | Phoenix Point	type: game-steam | stack: appid 839770 | backend: Unity; asset archive .assets; asset archive .bundle | was PC0373 | device: pc
+G0276	E:\SteamLibrary\steamapps\common\The Bard's Tale IV Director's Cut | The Bard's Tale IV: Director's Cut	type: game-steam | stack: appid 1091980 | backend: Unreal | was PC0374 | device: pc
+G0277	E:\SteamLibrary\steamapps\common\Rustler | Rustler	type: game-steam | stack: appid 844260 | backend: Unity; asset archive .assets | was PC0375 | device: pc
+G0278	E:\SteamLibrary\steamapps\common\Creeper World 4 | Creeper World 4	type: game-steam | stack: appid 848480 | backend: Unity | was PC0376 | device: pc
+G0279	E:\SteamLibrary\steamapps\common\Ikenfell | Ikenfell	type: game-steam | stack: appid 854940 | backend: Lua scripts; dir Data; dir Scripts | was PC0377 | device: pc
+G0280	E:\SteamLibrary\steamapps\common\Gamedec | Gamedec - Definitive Edition	type: game-steam | stack: appid 917720 | backend: Unreal | was PC0378 | device: pc
+G0281	E:\SteamLibrary\steamapps\common\Void Bastards | Void Bastards	type: game-steam | stack: appid 857980 | backend: Unity; asset archive .assets | was PC0379 | device: pc
+G0282	E:\SteamLibrary\steamapps\common\smite pt | SMITE - Public Test	type: game-steam | stack: appid 858460 | was PC0380 | device: pc
+G0283	E:\SteamLibrary\steamapps\common\Tribes of Midgard | Tribes of Midgard	type: game-steam | stack: appid 858820 | backend: Unreal | was PC0381 | device: pc
+G0284	E:\SteamLibrary\steamapps\common\Blade Assault | Blade Assault	type: game-steam | stack: appid 1367300 | backend: Unity; asset archive .assets | was PC0382 | device: pc
+G0285	E:\SteamLibrary\steamapps\common\Secret Neighbor | Secret Neighbor	type: game-steam | stack: appid 859570 | backend: Unity; asset archive .bundle | was PC0383 | device: pc
+G0286	E:\SteamLibrary\steamapps\common\ImperatorRome | Imperator: Rome	type: game-steam | stack: appid 859580 | was PC0384 | device: pc
+G0287	E:\SteamLibrary\steamapps\common\Factory Town | Factory Town	type: game-steam | stack: appid 860890 | backend: Unity; asset archive .assets | was PC0385 | device: pc
+G0288	E:\SteamLibrary\steamapps\common\Shadow Tactics - Aiko's Choice | Shadow Tactics: Blades of the Shogun - Aiko's Choice	type: game-steam | stack: appid 1579380 | backend: Unity; asset archive .assets | was PC0386 | device: pc
+G0289	E:\SteamLibrary\steamapps\common\HITMAN2 | HITMAN™ 2	type: game-steam | stack: appid 863550 | was PC0387 | device: pc
+G0290	E:\SteamLibrary\steamapps\common\Rover Mechanic Simulator | Rover Mechanic Simulator	type: game-steam | stack: appid 864680 | backend: Unity | was PC0388 | device: pc
+G0291	E:\SteamLibrary\steamapps\common\We Were Here Together | We Were Here Together	type: game-steam | stack: appid 865360 | backend: Unity; asset archive .bundle | was PC0389 | device: pc
+G0292	E:\SteamLibrary\steamapps\common\Backbone | Tails Noir	type: game-steam | stack: appid 865610 | backend: Unreal | was PC0390 | device: pc
+G0293	E:\SteamLibrary\steamapps\common\SimpleRockets2 | Juno: New Origins	type: game-steam | stack: appid 870200 | backend: Unity; asset archive .assets | was PC0391 | device: pc
+G0294	E:\SteamLibrary\steamapps\common\Control | Control Ultimate Edition	type: game-steam | stack: appid 870780 | backend: dir data | was PC0392 | device: pc
+G0295	E:\SteamLibrary\steamapps\common\HentaiGirl | Hentai Girl	type: game-steam | stack: appid 878750 | backend: Unity; asset archive .assets | was PC0393 | device: pc
+G0296	E:\SteamLibrary\steamapps\common\ShenmueIII | Shenmue III	type: game-steam | stack: appid 878670 | backend: Unreal | was PC0394 | device: pc
+G0297	E:\SteamLibrary\steamapps\common\tModLoader | tModLoader	type: game-steam | stack: appid 1281930 | was PC0395 | device: pc
+G0298	E:\SteamLibrary\steamapps\common\In Other Waters | In Other Waters	type: game-steam | stack: appid 890720 | backend: Unity; asset archive .assets | was PC0396 | device: pc
+G0299	E:\SteamLibrary\steamapps\common\Deadlock | Deadlock	type: game-steam | stack: appid 1422450 | was PC0397 | device: pc
+G0300	E:\SteamLibrary\steamapps\common\CatherineClassic | Catherine Classic	type: game-steam | stack: appid 893180 | backend: dir data | was PC0398 | device: pc
+G0301	E:\SteamLibrary\steamapps\common\Project Warlock | Project Warlock	type: game-steam | stack: appid 893680 | backend: Unity; asset archive .assets | was PC0399 | device: pc
+G0302	E:\SteamLibrary\steamapps\common\Spellcaster University | Spellcaster University	type: game-steam | stack: appid 895620 | backend: Unity; asset archive .assets | was PC0400 | device: pc
+G0303	E:\SteamLibrary\steamapps\common\Project Wingman | Project Wingman	type: game-steam | stack: appid 895870 | backend: Unreal | was PC0401 | device: pc
+G0304	E:\SteamLibrary\steamapps\common\The Survivalists | The Survivalists	type: game-steam | stack: appid 897450 | backend: Unity; asset archive .assets; asset archive .bundle | was PC0402 | device: pc
+G0305	E:\SteamLibrary\steamapps\common\The Shapeshifting Detective | The Shapeshifting Detective	type: game-steam | stack: appid 898650 | backend: Unity; asset archive .assets | was PC0403 | device: pc
+G0306	E:\SteamLibrary\steamapps\common\Destiny 2 | Destiny 2	type: game-steam | stack: appid 1085660 | was PC0404 | device: pc
+G0307	E:\SteamLibrary\steamapps\common\Warhammer Quest 2 The End Times | Warhammer Quest 2: The End Times	type: game-steam | stack: appid 910450 | backend: Unity; asset archive .assets | was PC0405 | device: pc
+G0308	E:\SteamLibrary\steamapps\common\Train Station Renovation | Train Station Renovation	type: game-steam | stack: appid 914010 | backend: Unity | was PC0406 | device: pc
+G0309	E:\SteamLibrary\steamapps\common\Endzone - A World Apart | Endzone - A World Apart	type: game-steam | stack: appid 933820 | backend: Unity; asset archive .assets; asset archive .bundle; dir Mods | was PC0407 | device: pc
+G0310	E:\SteamLibrary\steamapps\common\Bee Simulator | Bee Simulator	type: game-steam | stack: appid 914750 | was PC0408 | device: pc
+G0311	E:\SteamLibrary\steamapps\common\ATOM RPG Trudograd | ATOM RPG Trudograd	type: game-steam | stack: appid 1139940 | backend: Unity; asset archive .assets; asset archive .bundle | was PC0409 | device: pc
+G0312	E:\SteamLibrary\steamapps\common\Felix The Reaper | Felix the Reaper	type: game-steam | stack: appid 919410 | backend: Unity; asset archive .assets | was PC0410 | device: pc
+G0313	E:\SteamLibrary\steamapps\common\Encased | Encased	type: game-steam | stack: appid 921800 | backend: Unity; asset archive .assets | was PC0411 | device: pc
+G0314	E:\SteamLibrary\steamapps\common\F1 2019 | F1 2019	type: game-steam | stack: appid 928600 | was PC0412 | device: pc
+G0315	E:\SteamLibrary\steamapps\common\Swag and Sorcery | Swag and Sorcery	type: game-steam | stack: appid 929010 | backend: Unity | was PC0413 | device: pc
+G0316	E:\SteamLibrary\steamapps\common\Townsmen - A Kingdom Rebuilt | Townsmen - A Kingdom Rebuilt	type: game-steam | stack: appid 938380 | was PC0414 | device: pc
+G0317	E:\SteamLibrary\steamapps\common\Darksburg | Darksburg	type: game-steam | stack: appid 939100 | was PC0415 | device: pc
+G0318	E:\SteamLibrary\steamapps\common\Textorcist | The Textorcist: The Story of Ray Bibbia	type: game-steam | stack: appid 940680 | was PC0416 | device: pc
+G0319	E:\SteamLibrary\steamapps\common\HenryStickmin | The Henry Stickmin Collection	type: game-steam | stack: appid 1089980 | was PC0417 | device: pc
+G0320	E:\SteamLibrary\steamapps\common\Minoria | Minoria	type: game-steam | stack: appid 940910 | backend: Unity; asset archive .assets | was PC0418 | device: pc
+G0321	E:\SteamLibrary\steamapps\common\Relicta | Relicta	type: game-steam | stack: appid 941570 | backend: Unreal | was PC0419 | device: pc
+G0322	E:\SteamLibrary\steamapps\common\SWINE HD Remaster | SWINE HD Remaster	type: game-steam | stack: appid 944010 | was PC0420 | device: pc
+G0323	E:\SteamLibrary\steamapps\common\THQBCNP1 | Gothic Playable Teaser	type: game-steam | stack: appid 950670 | backend: Unreal | was PC0421 | device: pc
+G0324	E:\SteamLibrary\steamapps\common\Fantasy Blacksmith | Fantasy Blacksmith	type: game-steam | stack: appid 959520 | backend: Unreal | was PC0422 | device: pc
+G0325	E:\SteamLibrary\steamapps\common\BloonsTD6 | Bloons TD 6	type: game-steam | stack: appid 960090 | backend: Unity; asset archive .assets; asset archive .bundle | was PC0423 | device: pc
+G0326	E:\SteamLibrary\steamapps\common\Hello Neighbor Hide and Seek | Hello Neighbor: Hide and Seek	type: game-steam | stack: appid 960420 | backend: Unreal | was PC0424 | device: pc
+G0327	E:\SteamLibrary\steamapps\common\One Step From Eden | One Step From Eden	type: game-steam | stack: appid 960690 | backend: Lua scripts; Unity; asset archive .assets | was PC0425 | device: pc
+G0328	E:\SteamLibrary\steamapps\common\Frog_Detective_1 | Frog Detective 1: The Haunted Island	type: game-steam | stack: appid 963000 | backend: Unity; asset archive .assets; asset archive .bundle | was PC0426 | device: pc
+G0329	E:\SteamLibrary\steamapps\common\Boomerang Fu | Boomerang Fu	type: game-steam | stack: appid 965680 | backend: Unity; asset archive .assets | was PC0427 | device: pc
+G0330	E:\SteamLibrary\steamapps\common\Omno | Omno	type: game-steam | stack: appid 969760 | was PC0428 | device: pc
+G0331	E:\SteamLibrary\steamapps\common\SpongeBob SquarePants Battle for Bikini Bottom - Rehydrated | SpongeBob SquarePants: Battle for Bikini Bottom - Rehydrated	type: game-steam | stack: appid 969990 | backend: Unreal | was PC0429 | device: pc
+G0332	E:\SteamLibrary\steamapps\common\The Dungeon Of Naheulbeuk The Amulet Of Chaos | The Dungeon Of Naheulbeuk: The Amulet Of Chaos	type: game-steam | stack: appid 970830 | backend: Unity; asset archive .assets | was PC0430 | device: pc
+G0333	E:\SteamLibrary\steamapps\common\Rebel Cops | Rebel Cops	type: game-steam | stack: appid 970960 | backend: Unity; asset archive .assets | was PC0431 | device: pc
+G0334	E:\SteamLibrary\steamapps\common\Möbius Front '83 | Möbius Front '83	type: game-steam | stack: appid 971160 | was PC0432 | device: pc
+G0335	E:\SteamLibrary\steamapps\common\Sniper Ghost Warrior Contracts | Sniper Ghost Warrior Contracts	type: game-steam | stack: appid 973580 | was PC0433 | device: pc
+G0336	E:\SteamLibrary\steamapps\common\Thronebreaker The Witcher Tales | Thronebreaker: The Witcher Tales	type: game-steam | stack: appid 973760 | backend: Godot; Unity; asset archive .assets | was PC0434 | device: pc
+G0337	E:\SteamLibrary\steamapps\common\Dwarf Fortress | Dwarf Fortress	type: game-steam | stack: appid 975370 | backend: Lua scripts; dir data | was PC0435 | device: pc
+G0338	E:\SteamLibrary\steamapps\common\PanzerPaladin | Panzer Paladin	type: game-steam | stack: appid 975510 | was PC0436 | device: pc
+G0339	E:\SteamLibrary\steamapps\common\Effie | Effie	type: game-steam | stack: appid 975950 | backend: Unreal | was PC0437 | device: pc
+G0340	E:\SteamLibrary\steamapps\common\SizeMatters | Size Matters	type: game-steam | stack: appid 976700 | backend: Unity; asset archive .assets | was PC0438 | device: pc
+G0341	E:\SteamLibrary\steamapps\common\Emily is Away 3 | Emily is Away <3	type: game-steam | stack: appid 978460 | backend: Unity; asset archive .assets | was PC0439 | device: pc
+G0342	E:\SteamLibrary\steamapps\common\Legend of Keepers | Legend of Keepers	type: game-steam | stack: appid 978520 | backend: Unity; asset archive .assets; asset archive .bundle | was PC0440 | device: pc
+G0343	E:\SteamLibrary\steamapps\common\Cepheus Protocol | Cepheus Protocol	type: game-steam | stack: appid 979640 | backend: Unreal | was PC0441 | device: pc
+G0344	E:\SteamLibrary\steamapps\common\Lightmatter | Lightmatter	type: game-steam | stack: appid 994140 | backend: Unity; asset archive .assets | was PC0442 | device: pc
+G0345	E:\SteamLibrary\steamapps\common\Neoverse | NEOVERSE	type: game-steam | stack: appid 994220 | backend: Unity; asset archive .assets | was PC0443 | device: pc
+G0346	E:\SteamLibrary\steamapps\common\Fae Tactics | Fae Tactics	type: game-steam | stack: appid 995980 | was PC0444 | device: pc
+G0347	E:\SteamLibrary\steamapps\common\Moving Out | Moving Out	type: game-steam | stack: appid 996770 | backend: Unity; asset archive .assets | was PC0445 | device: pc
+G0348	E:\SteamLibrary\steamapps\common\Ring of Pain | Ring of Pain	type: game-steam | stack: appid 998740 | backend: Unity; asset archive .assets; asset archive .bundle | was PC0446 | device: pc
+G0349	E:\SteamLibrary\steamapps\common\Crown Trick | Crown Trick	type: game-steam | stack: appid 1000010 | backend: SQLite; Unity; asset archive .assets | was PC0447 | device: pc
+G0350	E:\SteamLibrary\steamapps\common\CookServeDelicious3 | Cook, Serve, Delicious! 3?!	type: game-steam | stack: appid 1000030 | was PC0448 | device: pc
+G0351	E:\SteamLibrary\steamapps\common\WRATH | WRATH: Aeon of Ruin	type: game-steam | stack: appid 1000410 | was PC0449 | device: pc
+G0352	E:\SteamLibrary\steamapps\common\Through The Darkest of Times | Through The Darkest of Times	type: game-steam | stack: appid 1003090 | backend: Unity; asset archive .assets | was PC0450 | device: pc
+G0353	E:\SteamLibrary\steamapps\common\Tools Up! | Tools Up!	type: game-steam | stack: appid 1004490 | backend: Unity; asset archive .assets | was PC0451 | device: pc
+G0354	E:\SteamLibrary\steamapps\common\SIMULACRA 2 | SIMULACRA 2	type: game-steam | stack: appid 1011190 | backend: Unity | was PC0452 | device: pc
+G0355	E:\SteamLibrary\steamapps\common\Peaky Blinders Mastermind | Peaky Blinders: Mastermind	type: game-steam | stack: appid 1013310 | backend: Unity | was PC0453 | device: pc
+G0356	E:\SteamLibrary\steamapps\common\PGA TOUR 2K21 | PGA TOUR 2K21	type: game-steam | stack: appid 1016120 | backend: Unity; asset archive .assets | was PC0454 | device: pc
+G0357	E:\SteamLibrary\steamapps\common\West of Dead | West of Dead	type: game-steam | stack: appid 1016790 | backend: Unity; asset archive .assets | was PC0455 | device: pc
+G0358	E:\SteamLibrary\steamapps\common\Smile For Me | Smile For Me	type: game-steam | stack: appid 1018850 | backend: Unity; asset archive .assets | was PC0456 | device: pc
+G0359	E:\SteamLibrary\steamapps\common\Evoland Legendary Edition | Evoland Legendary Edition	type: game-steam | stack: appid 1020470 | was PC0457 | device: pc
+G0360	E:\SteamLibrary\steamapps\common\Warhammer Underworlds Online | Warhammer Underworlds - Shadespire Edition	type: game-steam | stack: appid 1022310 | backend: Unity; asset archive .assets; asset archive .bundle | was PC0458 | device: pc
+G0361	E:\SteamLibrary\steamapps\common\WARSAW | WARSAW	type: game-steam | stack: appid 1026420 | backend: Unity; asset archive .assets | was PC0459 | device: pc
+G0362	E:\SteamLibrary\steamapps\common\Mafia Definitive Edition | Mafia: Definitive Edition	type: game-steam | stack: appid 1030840 | backend: Godot | was PC0460 | device: pc
+G0363	E:\SteamLibrary\steamapps\common\StellarSurvivor | Stellar Survivor	type: game-steam | stack: appid 1032120 | backend: Unreal | was PC0461 | device: pc
+G0364	E:\SteamLibrary\steamapps\common\Struggling | Struggling	type: game-steam | stack: appid 1035560 | backend: Unity; asset archive .assets; asset archive .bundle | was PC0462 | device: pc
+G0365	E:\SteamLibrary\steamapps\common\ScourgeBringer | ScourgeBringer	type: game-steam | stack: appid 1037020 | was PC0463 | device: pc
+G0366	E:\SteamLibrary\steamapps\common\Paw Paw Paw | Paw Paw Paw	type: game-steam | stack: appid 1037910 | backend: Unity; asset archive .assets | was PC0464 | device: pc
+G0367	E:\SteamLibrary\steamapps\common\DIRT 5 | DIRT 5	type: game-steam | stack: appid 1038250 | was PC0465 | device: pc
+G0368	E:\SteamLibrary\steamapps\common\Kingdoms of Amalur Re-Reckoning | Kingdoms of Amalur: Re-Reckoning	type: game-steam | stack: appid 1041720 | backend: dir data; dir modding | was PC0466 | device: pc
+G0369	E:\SteamLibrary\steamapps\common\If Found | If Found	type: game-steam | stack: appid 1041920 | backend: Unity; asset archive .assets | was PC0467 | device: pc
+G0370	E:\SteamLibrary\steamapps\common\Call of the Sea | Call of the Sea	type: game-steam | stack: appid 1042490 | backend: Unreal | was PC0468 | device: pc
+G0371	E:\SteamLibrary\steamapps\common\Deleveled | Deleveled	type: game-steam | stack: appid 1045580 | backend: Unity; asset archive .assets | was PC0469 | device: pc
+G0372	E:\SteamLibrary\steamapps\common\The Coma 2 Vicious Sisters | The Coma 2: Vicious Sisters	type: game-steam | stack: appid 1045720 | backend: SQLite; Unity; asset archive .assets | was PC0470 | device: pc
+G0373	E:\SteamLibrary\steamapps\common\Islanders | ISLANDERS	type: game-steam | stack: appid 1046030 | backend: Unity; asset archive .assets; asset archive .bundle | was PC0471 | device: pc
+G0374	E:\SteamLibrary\steamapps\common\Frog_Detective_2 | Frog Detective 2: The Case of the Invisible Wizard	type: game-steam | stack: appid 1047220 | backend: Unity; asset archive .assets; asset archive .bundle | was PC0472 | device: pc
+G0375	E:\SteamLibrary\steamapps\common\Superliminal | Superliminal	type: game-steam | stack: appid 1049410 | backend: Unity; asset archive .assets | was PC0473 | device: pc
+G0376	E:\SteamLibrary\steamapps\common\Fling to the Finish | Fling to the Finish	type: game-steam | stack: appid 1054430 | backend: Unity; asset archive .assets; asset archive .bundle | was PC0474 | device: pc
+G0377	E:\SteamLibrary\steamapps\common\Wingspan | Wingspan	type: game-steam | stack: appid 1054490 | backend: Unity; asset archive .bundle | was PC0475 | device: pc
+G0378	E:\SteamLibrary\steamapps\common\The Suicide of Rachel Foster | The Suicide of Rachel Foster	type: game-steam | stack: appid 1057750 | backend: Unreal | was PC0476 | device: pc
+G0379	E:\SteamLibrary\steamapps\common\Beyond the Wire | Beyond The Wire	type: game-steam | stack: appid 1058650 | backend: Unreal | was PC0477 | device: pc
+G0380	E:\SteamLibrary\steamapps\common\Conan Chop Chop | Conan Chop Chop	type: game-steam | stack: appid 1061880 | backend: Unity | was PC0478 | device: pc
+G0381	E:\SteamLibrary\steamapps\common\Embr | Embr	type: game-steam | stack: appid 1062830 | backend: Unity; asset archive .assets; asset archive .bundle | was PC0479 | device: pc
+G0382	E:\SteamLibrary\steamapps\common\Vane | Vane	type: game-steam | stack: appid 1063310 | backend: Unity; asset archive .assets | was PC0480 | device: pc
+G0383	E:\SteamLibrary\steamapps\common\Still There | Still There	type: game-steam | stack: appid 1063490 | backend: Unity | was PC0481 | device: pc
+G0384	E:\SteamLibrary\steamapps\common\Röki | Röki	type: game-steam | stack: appid 1067540 | backend: Unity; asset archive .assets | was PC0482 | device: pc
+G0385	E:\SteamLibrary\steamapps\common\Narita Boy | Narita Boy	type: game-steam | stack: appid 1069530 | backend: Unity; asset archive .assets; asset archive .bundle | was PC0483 | device: pc
+G0386	E:\SteamLibrary\steamapps\common\TOHU | TOHU	type: game-steam | stack: appid 1075200 | backend: Unity; asset archive .assets | was PC0484 | device: pc
+G0387	E:\SteamLibrary\steamapps\common\Main Assembly | Main Assembly	type: game-steam | stack: appid 1078920 | backend: Unreal | was PC0485 | device: pc
+G0388	E:\SteamLibrary\steamapps\common\F1 2020 | F1 2020	type: game-steam | stack: appid 1080110 | was PC0486 | device: pc
+G0389	E:\SteamLibrary\steamapps\common\MultiVersus | MultiVersus	type: game-steam | stack: appid 1818750 | backend: Unreal | was PC0487 | device: pc
+G0390	E:\SteamLibrary\steamapps\common\Fallout76 | Fallout 76	type: game-steam | stack: appid 1151340 | backend: asset archive .ba2; dir Data | was PC0488 | device: pc
+G0391	E:\SteamLibrary\steamapps\common\Vampire The Masquerade - Coteries of New York | Vampire: The Masquerade - Coteries of New York	type: game-steam | stack: appid 1096410 | backend: Unity; asset archive .assets | was PC0489 | device: pc
+G0392	E:\SteamLibrary\steamapps\common\SongOfHorror | SONG OF HORROR	type: game-steam | stack: appid 1096570 | backend: Unreal | was PC0490 | device: pc
+G0393	E:\SteamLibrary\steamapps\common\Rock of Ages III Make & Break | Rock of Ages 3: Make & Break	type: game-steam | stack: appid 1101360 | backend: Unreal | was PC0491 | device: pc
+G0394	E:\SteamLibrary\steamapps\common\Monster Train | Monster Train	type: game-steam | stack: appid 1102190 | backend: Unity; asset archive .assets; asset archive .bundle | was PC0492 | device: pc
+G0395	E:\SteamLibrary\steamapps\common\MOAstray | MO:Astray	type: game-steam | stack: appid 1104660 | backend: Unity; asset archive .assets | was PC0493 | device: pc
+G0396	E:\SteamLibrary\steamapps\common\Eldest Souls | Eldest Souls	type: game-steam | stack: appid 1108590 | backend: Unity; asset archive .assets; asset archive .bundle | was PC0494 | device: pc
+G0397	E:\SteamLibrary\steamapps\common\DesertLegend | Sands of Salzaar	type: game-steam | stack: appid 1094520 | backend: Lua scripts; Unity; asset archive .assets; asset archive .bundle; dir data | was PC0495 | device: pc
+G0398	E:\SteamLibrary\steamapps\common\Shady Part of Me | Shady Part of Me	type: game-steam | stack: appid 1116580 | was PC0496 | device: pc
+G0399	E:\SteamLibrary\steamapps\common\InSoundMind | In Sound Mind	type: game-steam | stack: appid 1119980 | backend: Unity; asset archive .assets | was PC0497 | device: pc
+G0400	E:\SteamLibrary\steamapps\common\Iris and the giant | Iris and the giant	type: game-steam | stack: appid 1127610 | backend: Unity; asset archive .assets | was PC0498 | device: pc
+G0401	E:\SteamLibrary\steamapps\common\RISK Global Domination | RISK: Global Domination	type: game-steam | stack: appid 1128810 | backend: Unity; asset archive .assets; asset archive .bundle | was PC0499 | device: pc
+G0402	E:\SteamLibrary\steamapps\common\Cyber Hook | Cyber Hook	type: game-steam | stack: appid 1130410 | backend: Unity | was PC0500 | device: pc
+G0403	E:\SteamLibrary\steamapps\common\Morbid | Morbid: The Seven Acolytes	type: game-steam | stack: appid 1140890 | was PC0501 | device: pc
+G0404	E:\SteamLibrary\steamapps\common\Remothered Broken Porcelain | Remothered: Broken Porcelain 	type: game-steam | stack: appid 1142390 | backend: Unreal | was PC0502 | device: pc
+G0405	E:\SteamLibrary\steamapps\common\Fun with Ragdolls | Fun with Ragdolls: The Game	type: game-steam | stack: appid 1142500 | backend: Unity; asset archive .assets | was PC0503 | device: pc
+G0406	E:\SteamLibrary\steamapps\common\Homestuck Pesterquest | Pesterquest	type: game-steam | stack: appid 1144030 | backend: Python | was PC0504 | device: pc
+G0407	E:\SteamLibrary\steamapps\common\Open World Game the Open World Game | Open World Game: the Open World Game	type: game-steam | stack: appid 1144110 | backend: Unity; asset archive .assets | was PC0505 | device: pc
+G0408	E:\SteamLibrary\steamapps\common\Warhammer Chaos & Conquest | Warhammer: Chaos & Conquest	type: game-steam | stack: appid 1144170 | backend: Unity; asset archive .assets | was PC0506 | device: pc
+G0409	E:\SteamLibrary\steamapps\common\Not For Broadcast | Not For Broadcast	type: game-steam | stack: appid 1147550 | backend: Unity; asset archive .assets; asset archive .bundle | was PC0507 | device: pc
+G0410	E:\SteamLibrary\steamapps\common\Gas Station Simulator | Gas Station Simulator	type: game-steam | stack: appid 1149620 | backend: Unreal | was PC0508 | device: pc
+G0411	E:\SteamLibrary\steamapps\common\Wizard with a Gun | Wizard with a Gun	type: game-steam | stack: appid 1150530 | backend: Unity; asset archive .assets; asset archive .bundle | was PC0509 | device: pc
+G0412	E:\SteamLibrary\steamapps\common\Timelie | Timelie	type: game-steam | stack: appid 1150950 | backend: Unity; asset archive .assets | was PC0510 | device: pc
+G0413	E:\SteamLibrary\steamapps\common\Golf Gang | Golf Gang	type: game-steam | stack: appid 1151050 | backend: Unity; asset archive .assets | was PC0511 | device: pc
+G0414	E:\SteamLibrary\steamapps\common\Fallout 76 Playtest | Fallout 76 Public Test Server	type: game-steam | stack: appid 1836200 | backend: asset archive .ba2; dir Data | was PC0512 | device: pc
+G0415	E:\SteamLibrary\steamapps\common\Going Under | Going Under	type: game-steam | stack: appid 1154810 | backend: Unity; asset archive .assets | was PC0513 | device: pc
+G0416	E:\SteamLibrary\steamapps\common\Crusader Kings III | Crusader Kings III	type: game-steam | stack: appid 1158310 | was PC0514 | device: pc
+G0417	E:\SteamLibrary\steamapps\common\Paradise Killer | Paradise Killer	type: game-steam | stack: appid 1160220 | backend: Unreal | was PC0515 | device: pc
+G0418	E:\SteamLibrary\steamapps\common\Midnight Protocol | Midnight Protocol	type: game-steam | stack: appid 1162700 | backend: Unity; asset archive .assets | was PC0516 | device: pc
+G0419	E:\SteamLibrary\steamapps\common\Gloria Victis Siege | Siege Survival: Gloria Victis	type: game-steam | stack: appid 1167140 | backend: Unity; asset archive .assets | was PC0517 | device: pc
+G0420	E:\SteamLibrary\steamapps\common\MOLEK-SYNTEZ | MOLEK-SYNTEZ	type: game-steam | stack: appid 1168880 | was PC0518 | device: pc
+G0421	E:\SteamLibrary\steamapps\common\Carto | Carto	type: game-steam | stack: appid 1172450 | backend: Unity; asset archive .assets | was PC0519 | device: pc
+G0422	E:\SteamLibrary\steamapps\common\Industria | INDUSTRIA	type: game-steam | stack: appid 1172650 | backend: Unreal | was PC0520 | device: pc
+G0423	E:\SteamLibrary\steamapps\common\Metal Unit | Metal Unit	type: game-steam | stack: appid 1173200 | backend: Unity; asset archive .assets; asset archive .bundle | was PC0521 | device: pc
+G0424	E:\SteamLibrary\steamapps\common\Kill It With Fire | Kill It With Fire	type: game-steam | stack: appid 1179210 | backend: Unreal | was PC0522 | device: pc
+G0425	E:\SteamLibrary\steamapps\common\Path of Giants | Path of Giants	type: game-steam | stack: appid 1181400 | backend: Unity; asset archive .assets | was PC0523 | device: pc
+G0426	E:\SteamLibrary\steamapps\common\Pathfinder Second Adventure | Pathfinder: Wrath of the Righteous - Enhanced Edition	type: game-steam | stack: appid 1184370 | backend: Unity; asset archive .assets | was PC0524 | device: pc
+G0427	E:\SteamLibrary\steamapps\common\Worms Rumble | Worms Rumble	type: game-steam | stack: appid 1186040 | backend: Unreal | was PC0525 | device: pc
+G0428	E:\SteamLibrary\steamapps\common\Pumpkin Jack | Pumpkin Jack	type: game-steam | stack: appid 1186640 | backend: Unreal | was PC0526 | device: pc
+G0429	E:\SteamLibrary\steamapps\common\OlliOlli World | OlliOlli World	type: game-steam | stack: appid 1190170 | backend: Unity; asset archive .assets; asset archive .bundle | was PC0527 | device: pc
+G0430	E:\SteamLibrary\steamapps\common\The Dark Pictures Anthology - Little Hope | The Dark Pictures Anthology: Little Hope	type: game-steam | stack: appid 1194630 | backend: Unreal | was PC0528 | device: pc
+G0431	E:\SteamLibrary\steamapps\common\UnMetal | UnMetal	type: game-steam | stack: appid 1203710 | backend: dir data | was PC0529 | device: pc
+G0432	E:\SteamLibrary\steamapps\common\Super Magbot | Super Magbot	type: game-steam | stack: appid 1205170 | backend: Unreal | was PC0530 | device: pc
+G0433	E:\SteamLibrary\steamapps\common\Turnip Boy Commits Tax Evasion | Turnip Boy Commits Tax Evasion	type: game-steam | stack: appid 1205450 | backend: Unity; asset archive .assets | was PC0531 | device: pc
+G0434	E:\SteamLibrary\steamapps\common\Blue Fire | Blue Fire	type: game-steam | stack: appid 1220150 | backend: Unreal | was PC0532 | device: pc
+G0435	E:\SteamLibrary\steamapps\common\Necromunda Hired Gun | Necromunda: Hired Gun	type: game-steam | stack: appid 1222370 | backend: Unreal | was PC0533 | device: pc
+G0436	E:\SteamLibrary\steamapps\common\Partisans 1941 | Partisans 1941	type: game-steam | stack: appid 1227530 | backend: Unreal | was PC0534 | device: pc
+G0437	E:\SteamLibrary\steamapps\common\Retrowave | Retrowave	type: game-steam | stack: appid 1239690 | backend: Unity; asset archive .assets | was PC0535 | device: pc
+G0438	E:\SteamLibrary\steamapps\common\Skully | Skully	type: game-steam | stack: appid 1249110 | backend: Unreal | was PC0536 | device: pc
+G0439	E:\SteamLibrary\steamapps\common\DEATHLOOP | DEATHLOOP	type: game-steam | stack: appid 1252330 | was PC0537 | device: pc
+G0440	E:\SteamLibrary\steamapps\common\HOT WHEELS UNLEASHED | HOT WHEELS UNLEASHED™	type: game-steam | stack: appid 1271700 | backend: Unreal | was PC0538 | device: pc
+G0441	E:\SteamLibrary\steamapps\common\Vampire The Masquerade - Shadows of New York | Vampire: The Masquerade - Shadows of New York	type: game-steam | stack: appid 1279630 | backend: Unity; asset archive .assets | was PC0539 | device: pc
+G0442	E:\SteamLibrary\steamapps\common\Leaf Blower Revolution | Leaf Blower Revolution - Idle Game	type: game-steam | stack: appid 1468260 | was PC0540 | device: pc
+G0443	E:\SteamLibrary\steamapps\common\BPM BULLETS PER MINUTE | BPM: BULLETS PER MINUTE	type: game-steam | stack: appid 1286350 | backend: Unreal | was PC0541 | device: pc
+G0444	E:\SteamLibrary\steamapps\common\Disciples Liberation | Disciples: Liberation	type: game-steam | stack: appid 1287840 | backend: Unity; asset archive .assets; asset archive .bundle | was PC0542 | device: pc
+G0445	E:\SteamLibrary\steamapps\common\FobiaStDinfnaHotel | Fobia - St. Dinfna Hotel	type: game-steam | stack: appid 1298140 | backend: Unreal | was PC0543 | device: pc
+G0446	E:\SteamLibrary\steamapps\common\Milky Way Prince – The Vampire Star | Milky Way Prince – The Vampire Star	type: game-steam | stack: appid 1302050 | backend: Unity; asset archive .assets; asset archive .bundle | was PC0544 | device: pc
+G0447	E:\SteamLibrary\steamapps\common\Voidigo | Voidigo	type: game-steam | stack: appid 1304680 | was PC0545 | device: pc
+G0448	E:\SteamLibrary\steamapps\common\TOEM | TOEM	type: game-steam | stack: appid 1307580 | backend: Unity; asset archive .assets | was PC0546 | device: pc
+G0449	E:\SteamLibrary\steamapps\common\Greak Memories of Azur | Greak: Memories of Azur	type: game-steam | stack: appid 1311070 | backend: Unity; asset archive .assets | was PC0547 | device: pc
+G0450	E:\SteamLibrary\steamapps\common\Epic Chef | Epic Chef	type: game-steam | stack: appid 1312960 | backend: Unity; asset archive .assets; asset archive .bundle | was PC0548 | device: pc
+G0451	E:\SteamLibrary\steamapps\common\shapez.io | shapez	type: game-steam | stack: appid 1318690 | was PC0549 | device: pc
+G0452	E:\SteamLibrary\steamapps\common\Roosevelt | Morkredd	type: game-steam | stack: appid 1331910 | backend: Unity; asset archive .assets | was PC0550 | device: pc
+G0453	E:\SteamLibrary\steamapps\common\Werewolf The Apocalypse - Heart of the Forest | Werewolf: The Apocalypse - Heart of the Forest	type: game-steam | stack: appid 1342620 | backend: Unity; asset archive .assets | was PC0551 | device: pc
+G0454	E:\SteamLibrary\steamapps\common\Five Dates | Five Dates	type: game-steam | stack: appid 1353270 | backend: Unity; asset archive .assets | was PC0552 | device: pc
+G0455	E:\SteamLibrary\steamapps\common\Lacuna | Lacuna	type: game-steam | stack: appid 1364100 | backend: Unity; asset archive .assets | was PC0553 | device: pc
+G0456	E:\SteamLibrary\steamapps\common\Grow Song of the Evertree | Grow: Song of the Evertree	type: game-steam | stack: appid 1380420 | backend: Unity; asset archive .assets; asset archive .bundle | was PC0554 | device: pc
+G0457	E:\SteamLibrary\steamapps\common\Mind Scanners | Mind Scanners	type: game-steam | stack: appid 1389550 | backend: Unity; asset archive .assets | was PC0555 | device: pc
+G0458	E:\SteamLibrary\steamapps\common\John Wick Hex | John Wick Hex	type: game-steam | stack: appid 1405790 | backend: Unity; asset archive .assets | was PC0556 | device: pc
+G0459	E:\SteamLibrary\steamapps\common\Liftlands Demo | Liftlands Demo	type: game-steam | stack: appid 2898460 | backend: Unity; asset archive .assets | was PC0557 | device: pc
+G0460	E:\SteamLibrary\steamapps\common\Metro Exodus Enhanced Edition | Metro Exodus Enhanced Edition	type: game-steam | stack: appid 1449560 | was PC0558 | device: pc
+G0461	E:\SteamLibrary\steamapps\common\The Serpent Rogue | The Serpent Rogue	type: game-steam | stack: appid 1453790 | backend: Unity; asset archive .assets | was PC0559 | device: pc
+G0462	E:\SteamLibrary\steamapps\common\The Spell Brigade | The Spell Brigade	type: game-steam | stack: appid 2904000 | backend: Unity; asset archive .assets; asset archive .bundle | was PC0560 | device: pc
+G0463	E:\SteamLibrary\steamapps\common\IAmFish | I Am Fish	type: game-steam | stack: appid 1472560 | backend: Unity; asset archive .assets | was PC0561 | device: pc
+G0464	E:\SteamLibrary\steamapps\common\Lawn Mowing Simulator | Lawn Mowing Simulator	type: game-steam | stack: appid 1480560 | backend: Unity; asset archive .assets; asset archive .bundle | was PC0562 | device: pc
+G0465	E:\SteamLibrary\steamapps\common\Hell Let Loose (Public Testing) | Hell Let Loose (Public Testing)	type: game-steam | stack: appid 1504860 | backend: Unreal | was PC0563 | device: pc
+G0466	E:\SteamLibrary\steamapps\common\The Dark Pictures Anthology - Little Hope | The Dark Pictures Anthology: Little Hope - Friend's Pass	type: game-steam | stack: appid 1537710 | backend: Unreal | was PC0564 | device: pc
+G0467	E:\SteamLibrary\steamapps\common\Berry Madness | Berry Madness	type: game-steam | stack: appid 2288580 | backend: Unity; asset archive .assets | was PC0565 | device: pc
+G0468	E:\SteamLibrary\steamapps\common\Gotham Knights | Gotham Knights	type: game-steam | stack: appid 1496790 | backend: Unreal | was PC0566 | device: pc
+G0469	E:\SteamLibrary\steamapps\common\Forgive me Father | Forgive Me Father	type: game-steam | stack: appid 1590910 | backend: Unreal | was PC0567 | device: pc
+G0470	E:\SteamLibrary\steamapps\common\Crab Game | Crab Game	type: game-steam | stack: appid 1782210 | backend: Unity; asset archive .assets | was PC0568 | device: pc
+G0471	E:\SteamLibrary\steamapps\common\Blue Fire Void Maker | Blue Fire: Void Maker	type: game-steam | stack: appid 1793350 | backend: Unreal | was PC0569 | device: pc
+G0472	E:\SteamLibrary\steamapps\common\Cepheus Protocol Experimental Branch | Cepheus Protocol Experimental Branch	type: game-steam | stack: appid 2116560 | backend: Unreal | was PC0570 | device: pc
+G0473	E:\SteamLibrary\steamapps\common\Masterplan Tycoon Foundations | Masterplan Tycoon: Foundations	type: game-steam | stack: appid 3008050 | backend: Unity; asset archive .assets | was PC0571 | device: pc
+G0474	E:\SteamLibrary\steamapps\common\Sould Dub | Sould Dub	type: game-steam | stack: appid 1879290 | backend: Unity; asset archive .assets | was PC0572 | device: pc
+G0475	E:\SteamLibrary\steamapps\common\Mechaguard | Mechaguard	type: game-steam | stack: appid 1887200 | was PC0573 | device: pc
+G0476	E:\SteamLibrary\steamapps\common\Deep Night Runner | Deep Night Runner	type: game-steam | stack: appid 1887990 | was PC0574 | device: pc
+G0477	E:\SteamLibrary\steamapps\common\Dr. Science quest | Dr. Science quest	type: game-steam | stack: appid 1891940 | was PC0575 | device: pc
+G0478	E:\SteamLibrary\steamapps\common\Fishy Business | Fishy Business	type: game-steam | stack: appid 1892810 | was PC0576 | device: pc
+G0479	E:\SteamLibrary\steamapps\common\Plan B Terraform | Plan B: Terraform	type: game-steam | stack: appid 1894430 | backend: Lua scripts; Unity; asset archive .assets | was PC0577 | device: pc
+G0480	E:\SteamLibrary\steamapps\common\Prince of Suburbia - Part One | Prince of Suburbia - Part 1	type: game-steam | stack: appid 1896170 | backend: Python | was PC0578 | device: pc
+G0481	E:\SteamLibrary\steamapps\common\JUNGLE RUNNER | JUNGLE RUNNER	type: game-steam | stack: appid 1896820 | backend: Unreal | was PC0579 | device: pc
+G0482	E:\SteamLibrary\steamapps\common\Iron Age | Iron Age	type: game-steam | stack: appid 1919070 | backend: Unity; asset archive .assets | was PC0580 | device: pc
+G0483	E:\SteamLibrary\steamapps\common\Pixel Pirate | Pixel Pirate	type: game-steam | stack: appid 1924310 | was PC0581 | device: pc
+G0484	E:\SteamLibrary\steamapps\common\Nightingale | Nightingale	type: game-steam | stack: appid 1928980 | backend: Unreal | was PC0582 | device: pc
+G0485	E:\SteamLibrary\steamapps\common\Lethal Company | Lethal Company	type: game-steam | stack: appid 1966720 | backend: Unity; asset archive .assets | was PC0583 | device: pc
+G0486	E:\SteamLibrary\steamapps\common\Legacy of Sin blood oath | Legacy of Sin: Blood Oath	type: game-steam | stack: appid 1969820 | backend: Unity; asset archive .assets; asset archive .bundle | was PC0584 | device: pc
+G0487	E:\SteamLibrary\steamapps\common\Oxygen | Oxygen	type: game-steam | stack: appid 2061430 | backend: Unreal | was PC0585 | device: pc
+G0488	E:\SteamLibrary\steamapps\common\Star Realms | Star Realms	type: game-steam | stack: appid 438140 | backend: Unity; asset archive .assets; asset archive .bundle | was PC0586 | device: pc
+G0489	E:\SteamLibrary\steamapps\common\Digital Frida | Digital Frida	type: game-steam | stack: appid 2209580 | was PC0587 | device: pc
+G0490	E:\SteamLibrary\steamapps\common\Station 99 | Station 99	type: game-steam | stack: appid 2313980 | backend: Unity; asset archive .assets | was PC0588 | device: pc
+G0491	E:\SteamLibrary\steamapps\common\Winter Stealth | Winter Stealth	type: game-steam | stack: appid 2387020 | was PC0589 | device: pc
+G0492	E:\SteamLibrary\steamapps\common\Lifecraft_Beta | Lifecraft Beta	type: game-steam | stack: appid 2584670 | backend: dir data | was PC0590 | device: pc
+G0493	E:\SteamLibrary\steamapps\common\Yu-Gi-Oh!  Master Duel | Yu-Gi-Oh!  Master Duel	type: game-steam | stack: appid 1449850 | backend: Unity | was PC0591 | device: pc
+G0494	E:\SteamLibrary\steamapps\common\Goose Goose Duck | Goose Goose Duck	type: game-steam | stack: appid 1568590 | backend: Unity | was PC0592 | device: pc
+G0495	E:\SteamLibrary\steamapps\common\Space Marine 2 | Warhammer 40,000: Space Marine 2	type: game-steam | stack: appid 2183900 | was PC0593 | device: pc
+G0496	E:\SteamLibrary\steamapps\common\SovietRepublic | Workers & Resources: Soviet Republic	type: game-steam | stack: appid 784150 | was PC0594 | device: pc
+G0497	E:\SteamLibrary\steamapps\common\YuppiePsycho | Yuppie Psycho	type: game-steam | stack: appid 597760 | backend: dir mods | was PC0595 | device: pc
+G0498	E:\SteamLibrary\steamapps\common\Cosmoteer | Cosmoteer: Starship Architect & Commander	type: game-steam | stack: appid 799600 | backend: dir Data | was PC0596 | device: pc
+G0499	E:\SteamLibrary\steamapps\common\Factorio | Factorio	type: game-steam | stack: appid 427520 | backend: Lua scripts; dir data | was PC0597 | device: pc
+G0500	E:\SteamLibrary\steamapps\common\RimWorld | RimWorld	type: game-steam | stack: appid 294100 | backend: Unity; asset archive .assets; dir Data; dir Mods | was PC0598 | device: pc
+G0501	E:\SteamLibrary\steamapps\common\Anomaly Korea | Anomaly Korea	type: game-steam | stack: appid 251530 | was PC0599 | device: pc
+G0502	E:\SteamLibrary\steamapps\common\BeamNG.drive | BeamNG.drive	type: game-steam | stack: appid 284160 | backend: Lua scripts | was PC0600 | device: pc
+G0503	E:\SteamLibrary\steamapps\common\Crash Bandicoot - N Sane Trilogy | Crash Bandicoot™ N. Sane Trilogy	type: game-steam | stack: appid 731490 | was PC0601 | device: pc
+G0504	E:\SteamLibrary\steamapps\common\Cyber Assasin | Cyber Assasin	type: game-steam | stack: appid 3015120 | was PC0602 | device: pc
+G0505	E:\SteamLibrary\steamapps\common\Digital Meow | Digital Meow	type: game-steam | stack: appid 3015130 | was PC0603 | device: pc
+G0506	E:\SteamLibrary\steamapps\common\Don't Starve Together | Don't Starve Together	type: game-steam | stack: appid 322330 | backend: dir data; dir mods | was PC0604 | device: pc
+G0507	E:\SteamLibrary\steamapps\common\Skyrim Special Edition | The Elder Scrolls V: Skyrim Special Edition	type: game-steam | stack: appid 489830 | backend: asset archive .bsa; dir Data | was PC0605 | device: pc
+G0508	E:\SteamLibrary\steamapps\common\Electoral Carnage | Electoral Carnage	type: game-steam | stack: appid 3706810 | backend: Unity; asset archive .assets | was PC0606 | device: pc
+G0509	E:\SteamLibrary\steamapps\common\Era of Miracles | Era of Miracles	type: game-steam | stack: appid 1037930 | was PC0607 | device: pc
+G0510	E:\SteamLibrary\steamapps\common\Garage | GARAGE: Bad Trip	type: game-steam | stack: appid 878580 | backend: Unity; asset archive .assets | was PC0608 | device: pc
+G0511	E:\SteamLibrary\steamapps\common\3D Aim Trainer | 3D Aim Trainer	type: game-steam | stack: appid 1600530 | backend: Unity; asset archive .assets; asset archive .bundle | was PC0609 | device: pc
+G0512	E:\SteamLibrary\steamapps\common\Goblin Gladiators | Goblin Gladiators	type: game-steam | stack: appid 1944710 | backend: Unreal | was PC0610 | device: pc
+G0513	E:\SteamLibrary\steamapps\common\TotallyAccurateBattlegrounds | Totally Accurate Battlegrounds	type: game-steam | stack: appid 823130 | backend: Unity; asset archive .assets | was PC0611 | device: pc
+G0514	E:\SteamLibrary\steamapps\common\XCOM-Chimera-Squad | XCOM: Chimera Squad	type: game-steam | stack: appid 882100 | was PC0612 | device: pc
+G0515	E:\SteamLibrary\steamapps\common\Subverse | Subverse	type: game-steam | stack: appid 1034140 | backend: Unreal | was PC0613 | device: pc
+G0516	E:\SteamLibrary\steamapps\common\Mindustry | Mindustry	type: game-steam | stack: appid 1127400 | was PC0614 | device: pc
+G0517	E:\SteamLibrary\steamapps\common\WWE 2K Battlegrounds | WWE 2K BATTLEGROUNDS	type: game-steam | stack: appid 1142100 | backend: Unreal | was PC0615 | device: pc
+G0518	E:\SteamLibrary\steamapps\common\Necesse | Necesse	type: game-steam | stack: appid 1169040 | was PC0616 | device: pc
+G0519	E:\SteamLibrary\steamapps\common\TellMeWhy | Tell Me Why	type: game-steam | stack: appid 1180660 | backend: Unreal | was PC0617 | device: pc
+G0520	E:\SteamLibrary\steamapps\common\LEWDAPOCALYPSE | LEWDAPOCALYPSE	type: game-steam | stack: appid 1271710 | backend: Unity; asset archive .assets | was PC0618 | device: pc
+G0521	E:\SteamLibrary\steamapps\common\Risk of Rain Returns | Risk of Rain Returns	type: game-steam | stack: appid 1337520 | backend: dir data | was PC0619 | device: pc
+G0522	E:\SteamLibrary\steamapps\common\ROUNDS | ROUNDS	type: game-steam | stack: appid 1557740 | backend: Unity; asset archive .assets | was PC0620 | device: pc
+G0523	E:\SteamLibrary\steamapps\common\Lust for Speed | Lust for Speed	type: game-steam | stack: appid 1535110 | backend: Unity; asset archive .assets | was PC0621 | device: pc
+G0524	E:\SteamLibrary\steamapps\common\Hellslave | Hellslave	type: game-steam | stack: appid 1608450 | backend: dir Data | was PC0622 | device: pc
+G0525	E:\SteamLibrary\steamapps\common\SurrounDead | SurrounDead	type: game-steam | stack: appid 1645820 | backend: Unreal | was PC0623 | device: pc
+G0526	E:\SteamLibrary\steamapps\common\Come Home | Come Home	type: game-steam | stack: appid 1724190 | backend: Python | was PC0624 | device: pc
+G0527	E:\SteamLibrary\steamapps\common\MarvelRivals | Marvel Rivals	type: game-steam | stack: appid 2767030 | backend: Unreal | was PC0625 | device: pc
+G0528	E:\SteamLibrary\steamapps\common\LEWD GIRLS Hentai Puzzle | LEWD GIRLS: Hentai Puzzle	type: game-steam | stack: appid 2778460 | backend: Unity; asset archive .assets; asset archive .bundle | was PC0626 | device: pc
+G0529	E:\SteamLibrary\steamapps\common\Retrowave 2 | Retrowave 2	type: game-steam | stack: appid 3331000 | backend: Unity; asset archive .assets | was PC0627 | device: pc
+G0530	E:\SteamLibrary\steamapps\common\Skate | skate.	type: game-steam | stack: appid 3354750 | backend: dir Data | was PC0628 | device: pc
+G0531	E:\SteamLibrary\steamapps\common\Fireplace Simulator | Fireplace Simulator	type: game-steam | stack: appid 3433050 | backend: Unity | was PC0629 | device: pc
+G0532	E:\SteamLibrary\steamapps\common\Yakuza Kiwami 2 R | Yakuza Kiwami 2	type: game-steam | stack: appid 3717340 | was PC0630 | device: pc
+G0533	E:\SteamLibrary\steamapps\common\Left 4 Dead 2 | Left 4 Dead 2	type: game-steam | stack: appid 550 | was PC0631 | device: pc
+G0534	E:\SteamLibrary\steamapps\common\SpeedRunners | SpeedRunners	type: game-steam | stack: appid 207140 | was PC0632 | device: pc
+G0535	E:\SteamLibrary\steamapps\common\Stronghold Crusader 2 | Stronghold Crusader 2	type: game-steam | stack: appid 232890 | was PC0633 | device: pc
+G0536	E:\SteamLibrary\steamapps\common\skyrim | Skyrim Script Extender (SKSE)	type: game-steam | stack: appid 365720 | backend: dir Data | was PC0634 | device: pc
+G0537	E:\SteamLibrary\steamapps\common\Total War WARHAMMER III | Total War: WARHAMMER III	type: game-steam | stack: appid 1142710 | backend: dir data | was PC0635 | device: pc
+G0538	E:\SteamLibrary\steamapps\common\StickFightTheGame | Stick Fight: The Game	type: game-steam | stack: appid 674940 | backend: Unity; asset archive .assets | was PC0636 | device: pc
+G0539	E:\SteamLibrary\steamapps\common\Hydroneer | Hydroneer	type: game-steam | stack: appid 1106840 | backend: Unreal | was PC0637 | device: pc
+G0540	E:\SteamLibrary\steamapps\common\Wordle 4 | Wordle 4	type: game-steam | stack: appid 1477020 | backend: Unity; asset archive .assets | was PC0638 | device: pc
+G0541	E:\SteamLibrary\steamapps\common\Fomon | Fomon	type: game-steam | stack: appid 3166930 | backend: Unity; asset archive .assets | was PC0639 | device: pc
+G0542	E:\SteamLibrary\steamapps\common\OpenTTD | OpenTTD	type: game-steam | stack: appid 1536610 | backend: dir scripts | was PC0640 | device: pc
+G0543	E:\SteamLibrary\steamapps\common\BLACKJACK and WAIFUS | BLACKJACK and WAIFUS	type: game-steam | stack: appid 1702830 | backend: Unity; asset archive .assets | was PC0641 | device: pc
+G0544	E:\SteamLibrary\steamapps\common\Trainz Railroad Simulator 2022 | Trainz Railroad Simulator 2022	type: game-steam | stack: appid 1784570 | was PC0642 | device: pc
+G0545	E:\SteamLibrary\steamapps\common\Furry Killer | Furry Killer	type: game-steam | stack: appid 2206460 | was PC0643 | device: pc
+G0546	E:\SteamLibrary\steamapps\common\Aviassembly | Aviassembly	type: game-steam | stack: appid 2660460 | backend: Unity; asset archive .assets | was PC0644 | device: pc
+G0547	E:\SteamLibrary\steamapps\common\Microtopia | Microtopia	type: game-steam | stack: appid 2750000 | backend: Unity; asset archive .assets; asset archive .bundle | was PC0645 | device: pc
+G0548	E:\SteamLibrary\steamapps\common\Stellaris | Stellaris	type: game-steam | stack: appid 281990 | was PC0646 | device: pc
+G0549	E:\SteamLibrary\steamapps\common\YapWizardsTowerDefence | Yap Wizards Tower Defence	type: game-steam | stack: appid 3395500 | was PC0647 | device: pc
+G0550	E:\SteamLibrary\steamapps\common\Waifu Shop | Waifu Shop	type: game-steam | stack: appid 3457380 | backend: Unity; asset archive .assets | was PC0648 | device: pc
+G0551	E:\SteamLibrary\steamapps\common\Prison Architect | Prison Architect	type: game-steam | stack: appid 233450 | was PC0649 | device: pc
+G0552	E:\SteamLibrary\steamapps\common\left 4 dead 2 | Left 4 Dead 2 Authoring Tools	type: game-steam | stack: appid 563 | was PC0650 | device: pc
+G0553	E:\SteamLibrary\steamapps\common\Tabletop Simulator | Tabletop Simulator	type: game-steam | stack: appid 286160 | backend: Unity; asset archive .assets; dir Modding | was PC0651 | device: pc
+G0554	E:\SteamLibrary\steamapps\common\Automation | Automation - The Car Company Tycoon Game	type: game-steam | stack: appid 293760 | backend: Lua scripts; SQLite; Unreal | was PC0652 | device: pc
+G0555	E:\SteamLibrary\steamapps\common\Rise to Ruins | Rise to Ruins	type: game-steam | stack: appid 328080 | was PC0653 | device: pc
+G0556	E:\SteamLibrary\steamapps\common\Planetbase | Planetbase	type: game-steam | stack: appid 403190 | backend: Unity; asset archive .assets | was PC0654 | device: pc
+G0557	E:\SteamLibrary\steamapps\common\KARDS | KARDS - The WWII Card Game	type: game-steam | stack: appid 544810 | backend: Unreal | was PC0655 | device: pc
+G0558	E:\SteamLibrary\steamapps\common\Into the Breach | Into the Breach	type: game-steam | stack: appid 590380 | backend: Lua scripts; dir scripts | was PC0656 | device: pc
+G0559	E:\SteamLibrary\steamapps\common\Overcrowd | Overcrowd: A Commute 'Em Up	type: game-steam | stack: appid 726110 | was PC0657 | device: pc
+G0560	E:\SteamLibrary\steamapps\common\First Feudal | First Feudal	type: game-steam | stack: appid 733460 | was PC0658 | device: pc
+G0561	E:\SteamLibrary\steamapps\common\Death Crown | Death Crown	type: game-steam | stack: appid 814530 | backend: Unity; asset archive .assets | was PC0659 | device: pc
+G0562	E:\SteamLibrary\steamapps\common\Zwei II | Zwei: The Ilvard Insurrection	type: game-steam | stack: appid 427700 | backend: dir data | was PC0660 | device: pc
+G0563	E:\SteamLibrary\steamapps\common\Zwei | Zwei: The Arges Adventure	type: game-steam | stack: appid 427680 | backend: dir Plugins | was PC0661 | device: pc
+G0564	E:\SteamLibrary\steamapps\common\Youropa | Youropa	type: game-steam | stack: appid 640120 | was PC0662 | device: pc
+G0565	C:\Program Files (x86)\Steam\steamapps\common\Lust for Speed | Lust for Speed	type: game-steam | stack: appid 1535110 | backend: Unity; asset archive .assets | was PC0663 | device: pc
+G0566	C:\Program Files (x86)\Steam\steamapps\common\Come Home | Come Home	type: game-steam | stack: appid 1724190 | backend: Python | was PC0664 | device: pc
+G0567	C:\Program Files (x86)\Steam\steamapps\common\Skyrim Special Edition | Skyrim Special Edition: Creation Kit	type: game-steam | stack: appid 1946180 | backend: Python; asset archive .bsa; dir Data | was PC0665 | device: pc
+G0568	C:\Program Files (x86)\Steam\steamapps\common\Steamworks Shared | Steamworks Common Redistributables	type: game-steam | stack: appid 228980 | was PC0666 | device: pc
+G0569	C:\Program Files (x86)\Steam\steamapps\common\Prison Architect | Prison Architect	type: game-steam | stack: appid 233450 | was PC0667 | device: pc
+G0570	C:\Program Files (x86)\Steam\steamapps\common\Arma 3 Tools | Arma 3 Tools	type: game-steam | stack: appid 233800 | was PC0668 | device: pc
+G0571	C:\Program Files (x86)\Steam\steamapps\common\Balatro | Balatro	type: game-steam | stack: appid 2379780 | was PC0669 | device: pc
+G0572	C:\Program Files (x86)\Steam\steamapps\common\skyrim | Skyrim Script Extender (SKSE)	type: game-steam | stack: appid 365720 | backend: dir Data | was PC0670 | device: pc
+G0573	C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine | Wallpaper Engine	type: game-steam | stack: appid 431960 | backend: Unity; asset archive .assets; dir plugins | was PC0671 | device: pc
+G0574	C:\Program Files (x86)\Steam\steamapps\common\VRChat | VRChat	type: game-steam | stack: appid 438100 | backend: Unity; asset archive .assets | was PC0672 | device: pc
+G0575	C:\Program Files (x86)\Steam\steamapps\common\Skyrim Special Edition | The Elder Scrolls V: Skyrim Special Edition	type: game-steam | stack: appid 489830 | backend: Python; asset archive .bsa; dir Data | was PC0673 | device: pc
+G0576	C:\Program Files (x86)\Steam\steamapps\common\The Divinity Engine 2 | The Divinity Engine 2	type: game-steam | stack: appid 664400 | was PC0674 | device: pc
+G0577	C:\Program Files\Epic Games\UE_5.8 | Unreal Engine	type: game-epic | entry_points: Engine/Binaries/Win64/UnrealEditor.exe | backend: Python | was PC0675 | device: pc
