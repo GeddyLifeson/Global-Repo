@@ -6826,3 +6826,4 @@ S6822	cloud	library-content/build_content.py
 S6880	global	diaithir-ports PR 181: port.py (path in repo unconfirmed)
 S6881	global	diaithir-ports PR 181: rcon.py (path in repo unconfirmed)
 S6899	cloud	cloud/megamachines/gen_megamachines.py
+S6917	cloud	cloud/megamachines/gen_megastructures.py
