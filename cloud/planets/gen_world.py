@@ -95,3 +95,11 @@ if __name__=='__main__':
         f=O/'specs'/(pid+'.json')
         if f.exists() and pid!='diaithir': build(pid,P[pid]['name'],json.loads(f.read_text()),lang); print('built',pid)
     L.write_text(json.dumps(lang,indent=0))
+    prof={}
+    for pid in P:
+        f=O/'specs'/(pid+'.json')
+        if f.exists() and pid!='diaithir':
+            a=json.loads(f.read_text()).get('atmo') or {}
+            ps=a.get('particles') or []
+            prof[pid]={'bias':a.get('precip_bias','mixed'),'stormy':a.get('storms')=='stormy','particle':ps[0]['type'] if ps and a.get('grounded',True) else ''}
+    (O/'datapack/diaithir_planet_weather.json').write_text(json.dumps(prof))
