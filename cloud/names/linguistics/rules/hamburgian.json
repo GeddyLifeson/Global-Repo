@@ -1,0 +1,187 @@
+{
+ "proxy_language": "Proto-Indo-European (Late/Northwest Indo-European reconstruction) as a purely notional stand-in; Proto-Uralic or Proto-Indo-European are both equally unattested for the Hamburgian",
+ "confidence": "speculative",
+ "proxy_rationale": "The Hamburgian (c. 15,500-13,100 cal BP; reindeer hunters of the Hamburg and Ahrensburg-area Late Glacial plains, plus the Howburn site in Scotland) is known only from lithics, reindeer-hunting sites and shouldered points. No linguistic continuity with any later language is demonstrable. Late Glacial N Europe population was largely replaced by later Mesolithic groups, and Neolithic and Bronze Age arrivals, so even a substrate link is doubtful. For a pronounceable, scholar-defensible naming system the studio needs a reconstructed proto-language with regular morphology. Proto-Indo-European is chosen as a pragmatic proxy because it is the best-documented reconstructed language of the broad region, and its Northwest-European descendants (Germanic, Celtic, Balto-Slavic) are the languages that eventually overlay the territory. This is a convention, not a claim that Hamburgians spoke PIE. Mark all names as reconstruction-style and not attested.",
+ "phonology": "Proto-Indo-European (standard Fortson/Beekes-style reconstruction). Stops: *p *t *k *kʷ *ḱ (palatovelar) and voiced *b *d *g *gʷ *ǵ, plus voiced aspirates *bʰ *dʰ *gʰ *gʷʰ *ǵʰ (the plain *b is rare). Fricative: *s. Nasals *m *n. Liquids *l *r. Glides *w *y. Laryngeals *h₁ *h₂ *h₃. Vowels *e *o *a (rare) with long *ē *ō *ā; syllabic resonants *m̥ *n̥ *l̥ *r̥ and the vocalic glides *i *u.",
+ "phonotactics": "Roots have the canonical shape C(C)eC(C) with e-grade in the strong form. A root contains exactly one vowel, usually *e (alternating with *o and zero grade). Onset clusters are typically s-initial (*sp *st *sk *sm *sn *sl *sw) or stop plus liquid/glide (*pr *tr *kr *pl *kl *gw etc). Two voiced aspirates are not allowed in one root (Grassmann/Bartholomae-type constraint; Deep Root Constraint: no *bʰ...gʰ pairs). Plain voiced stops are not combined with voiced aspirates in the same root. No *b...d type roots. Words end in a vowel or in -s -m -n -r -t -k. Stress is a free pitch accent; it is not marked in the orthography here.",
+ "orthography": "Standard reconstruction notation with asterisk implied. Use Latin letters: p t k b d g, h for laryngeal-carrying vowels simplified (h1 h2 h3 may be written as h, but the audit allows only plain letters), kw gw for labiovelars, bh dh gh for aspirates, s m n l r w y, vowels a e i o u, plus macrons for long vowels (ā ē ō) if desired. Spaces separate words. No apostrophes.",
+ "morphology": "Highly inflectional. Nouns are built from root + (suffix) + thematic vowel *-o-/-e- + case ending. Nominative singular: -s (consonant stems) or -os (thematic masculine), -om (thematic neuter), -ā/-eh₂ (feminine). Genitive singular: -es/-os/-s or -o-syo (thematic); accusative -m; plural nominative -es/-ōs. Derivational suffixes: *-ti- (action noun), *-tor- / *-ter- (agent noun, 'maker'), *-men- (result/instrument noun), *-yo- (adjective, 'belonging to'), *-wo- and *-ro- (adjectives), *-nt- (participle), *-mo- (superlative), *-ih₂ (feminine/collective). Verbs are root-based (athematic or thematic) and are not needed for the naming of objects.",
+ "compounding": "Compounds are right-headed (determinative/tatpurusha): first member in bare stem (often with the linking vowel -o- or zero), second member bears the inflection, e.g. *dhḗǵhōm-gʷih₃-wo-. Bahuvrihi compounds ('X-having') are common for epithets and personal names (e.g. *h₂ner-kʷeh₁… type). 'X of Y' can be rendered either by a genitive phrase (Y-gen X) or by a compound Y-o-X. Agent names use root + *-tor ('X-maker'). Place names use *-yo- or *-ent- adjectival formations, or *-ih₂ for collective.",
+ "noun_phrase_order": "Adjective precedes noun and agrees in case/number/gender. Genitive modifier precedes its head noun in unmarked order (Y-gen X). Demonstratives precede. Constituent order is flexible but modifier-head is the unmarked order for naming.",
+ "attested_roots": [
+  {
+   "form": "*h₂ŕ̥tḱos",
+   "gloss": "bear",
+   "reconstructed": true
+  },
+  {
+   "form": "*wĺ̥kʷos",
+   "gloss": "wolf",
+   "reconstructed": true
+  },
+  {
+   "form": "*ǵʰh₂ns",
+   "gloss": "goose",
+   "reconstructed": true
+  },
+  {
+   "form": "*h₁ékwos",
+   "gloss": "horse",
+   "reconstructed": true
+  },
+  {
+   "form": "*péh₂wr̥",
+   "gloss": "fire",
+   "reconstructed": true
+  },
+  {
+   "form": "*wódr̥",
+   "gloss": "water",
+   "reconstructed": true
+  },
+  {
+   "form": "*h₂stḗr",
+   "gloss": "star",
+   "reconstructed": true
+  },
+  {
+   "form": "*dyḗus",
+   "gloss": "sky, day (sky-god)",
+   "reconstructed": true
+  },
+  {
+   "form": "*péh₂wōn",
+   "gloss": "herd keeper",
+   "reconstructed": true
+  },
+  {
+   "form": "*bʰréh₂tēr",
+   "gloss": "brother",
+   "reconstructed": true
+  },
+  {
+   "form": "*dʰéǵʰōm",
+   "gloss": "earth",
+   "reconstructed": true
+  },
+  {
+   "form": "*h₃ókʷs",
+   "gloss": "eye",
+   "reconstructed": true
+  },
+  {
+   "form": "*swéh₁dus",
+   "gloss": "sweet",
+   "reconstructed": true
+  },
+  {
+   "form": "*péth₂ōn",
+   "gloss": "road, path (cf. *pent-)",
+   "reconstructed": true
+  },
+  {
+   "form": "*h₂égʰnos",
+   "gloss": "lamb (also modern bright)",
+   "reconstructed": true
+  },
+  {
+   "form": "*meh₁nōs",
+   "gloss": "moon, month",
+   "reconstructed": true
+  }
+ ],
+ "worked_examples": [
+  {
+   "english": "Reindeer Hunter",
+   "name": "rekes wiros",
+   "gloss": "rek-es (reindeer-GEN) wiros (man, hunter): 'man of the reindeer'; a tatpurusha-type phrase with modifier before head"
+  },
+  {
+   "english": "River of Water",
+   "name": "wodor",
+   "gloss": "wodor 'water' used for river by metonymy"
+  },
+  {
+   "english": "Bear Maker",
+   "name": "rtkotor",
+   "gloss": "rtk-o-tor (bear + agent suffix -tor): 'bear-doer/maker'"
+  },
+  {
+   "english": "Great Fire",
+   "name": "megha pawer",
+   "gloss": "megh-a (great-FEM) pawer (fire): adjective before noun"
+  },
+  {
+   "english": "Star Place",
+   "name": "sterios",
+   "gloss": "ster-yo-s (star-ADJ-NOM): 'belonging to the star'"
+  },
+  {
+   "english": "Sky Father",
+   "name": "dyeus pater",
+   "gloss": "dyeus (sky) pater (father): conventional PIE divine epithet"
+  }
+ ],
+ "allowed_graphemes": [
+  "p",
+  "t",
+  "k",
+  "kw",
+  "b",
+  "d",
+  "g",
+  "gw",
+  "bh",
+  "dh",
+  "gh",
+  "s",
+  "m",
+  "n",
+  "l",
+  "r",
+  "w",
+  "y",
+  "a",
+  "e",
+  "i",
+  "o",
+  "u",
+  "ā",
+  "ē",
+  "ō",
+  "h"
+ ],
+ "extra_allowed_chars": " -",
+ "forbidden_patterns": [
+  "[fcqxzj]",
+  "(.)\\1\\1",
+  "[aeiou]{3,}",
+  "bh.*gh",
+  "gh.*bh",
+  "dh.*bh",
+  "bh.*dh",
+  "gh.*dh",
+  "dh.*gh",
+  "[bdg]h[bdg]h"
+ ],
+ "syllables_per_word": [
+  2,
+  3,
+  4
+ ],
+ "max_word_length": 14,
+ "sources": [
+  "Fortson, Indo-European Language and Culture: An Introduction (2010)",
+  "Beekes, Comparative Indo-European Linguistics (2011)",
+  "Mallory and Adams, Encyclopedia of Indo-European Culture (1997)",
+  "Pokorny, Indogermanisches etymologisches Woerterbuch (1959)",
+  "Wiktionary Proto-Indo-European reconstruction pages",
+  "Glottolog (Indo-European family)",
+  "Terberger and Street on the Hamburgian and Late Glacial N Europe (various)",
+  "Ballin et al., Howburn Farm Hamburgian site publications (2010s)"
+ ],
+ "notes": "No word may be identical to a Modern Irish, Scottish Gaelic or Manx word unless the language is Goidelic (this one is not). The Hamburgian has no linguistic identity beyond this speculative proxy. Names should look like PIE reconstructions and must stay free of laryngeal digraphs (written h only if needed) and of the letters f c q x z j. Use roots for reindeer, bear, wolf, goose, water, fire, star, sky, earth and eye.",
+ "unit": "Hamburgian",
+ "slug": "hamburgian",
+ "model": "claude-sonnet-5-5"
+}

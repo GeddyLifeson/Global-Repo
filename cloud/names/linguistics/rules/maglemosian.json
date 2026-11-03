@@ -1,0 +1,195 @@
+{
+ "proxy_language": "Proto-Indo-European (late/Northwest-dialect reconstruction) used as a deliberately weak stand-in; alternative Proto-Uralic is not favoured for this region",
+ "confidence": "speculative",
+ "proxy_rationale": "The Maglemosian (c. 9500-6000 BCE; Mesolithic hunter-fisher-gatherers of Doggerland, S Scandinavia and N Germany) left no linguistic evidence. Its language(s) are unknown and probably unrelated to any attested family; later Indo-European (Corded Ware/TRB-adjacent) and Uralic arrivals are millennia younger. The only defensible convention for a game is to use a reconstructed proto-language with transparent, reconstructable roots for hunting, fishing, water and woodland vocabulary. Proto-Indo-European is chosen for its well-documented root morphology, but the link to Maglemosian speakers is speculative; names should be understood as evocative, not historical. Some N European hydronymy (Old European hydronymy, Krahe) is a loose and contested hint of pre-Germanic water-names, which supports using water/river roots.",
+ "phonology": "Reconstructed PIE (Beekes/Fortson style): stops *p *t *k *kʷ *ḱ and voiced *b *d *g *gʷ *ǵ, aspirated *bʰ *dʰ *gʰ *gʷʰ *ǵʰ; fricative *s; nasals *m *n; liquids *l *r; glides *y *w; laryngeals *h₁ *h₂ *h₃; vowels *e *o *a (rare) with long variants *ē *ō; syllabic *m̥ *n̥ *l̥ *r̥ and diphthongs *ei *oi *eu *ou *ai *au. Ablaut e/o/zero is basic.",
+ "phonotactics": "Root shape *(s)C(C)eC(C) with a single vowel, usually e in the basic grade; roots begin and end in consonants; no roots with two voiced aspirates or two plain voiced stops (Grassmann/Bartholomae-type restrictions: no *bed, no *debʰ); sibilant *s may precede stops (s-mobile). Words are polysyllabic via suffixes and thematic vowel -o-/-e-. Stress was mobile and is not written. Name-building: CV(C) syllables, avoid same-place voiced+voiced root pairs.",
+ "orthography": "Standard PIE reconstruction notation in Latin script, written without the asterisk in game names: ḱ ǵ ǵʰ written as k g gh (plain ASCII adaptation); aspirates bh dh gh gwh; labiovelars kw gw; laryngeals written h1 h2 h3 or simplified away; syllabic resonants written as plain vowels or ur/ul/em/en; long vowels as ē ō or ee oo. Game names should use lowercase ASCII-plus-macron spelling.",
+ "morphology": "Root + (suffix) + thematic vowel + ending. Nouns inflect for case (nominative -s, accusative -m, genitive -(o)s/-es/-syo, locative -i, etc.), number and gender; thematic nouns in -o-s. Common derivational suffixes: *-o- (agent/result), *-ti- (action noun), *-tu-, *-men- (instrument/result), *-ter-/*-tor- (agent), *-eh2 (collective/feminine), *-yo- (adjective, belonging to), *-ent- (participial adjective), *-wer/-wen (water/place nouns). Names can be given in bare stem form or nominative.",
+ "compounding": "Compounds are head-final: determinant + head, joined by a thematic or linking -o- (e.g. *h₁ḱwo-... style). 'X-maker' is X-stem + -o- + root *dʰeh₁ 'put/make' or *kwer/*ger 'make' (e.g. fish-doer). 'X of Y' is expressed by a genitive (Y-os/-syo) after or before X, or by a possessive adjective in -yo-. Place names often use water or settlement words as head.",
+ "noun_phrase_order": "Adjective before noun and genitive before head noun is the default and unmarked order in reconstructed PIE (adjective agrees in case, number, gender); adposition-like particles follow or precede freely.",
+ "attested_roots": [
+  {
+   "form": "*h₂ekʷeh₂",
+   "gloss": "water",
+   "reconstructed": true
+  },
+  {
+   "form": "*weh₁dr̥",
+   "gloss": "water (neuter heteroclitic)",
+   "reconstructed": true
+  },
+  {
+   "form": "*h₂ép",
+   "gloss": "water, river",
+   "reconstructed": true
+  },
+  {
+   "form": "*sreu-",
+   "gloss": "to flow; stream",
+   "reconstructed": true
+  },
+  {
+   "form": "*h₂éyg",
+   "gloss": "? (avoid)",
+   "reconstructed": true
+  },
+  {
+   "form": "*peh₂wr̥",
+   "gloss": "fire",
+   "reconstructed": true
+  },
+  {
+   "form": "*dóru",
+   "gloss": "tree, wood",
+   "reconstructed": true
+  },
+  {
+   "form": "*bʰeh₂ǵos",
+   "gloss": "beech tree",
+   "reconstructed": true
+  },
+  {
+   "form": "*h₂érǵ-",
+   "gloss": "white, bright (silver)",
+   "reconstructed": true
+  },
+  {
+   "form": "*h₁ékʷos",
+   "gloss": "horse",
+   "reconstructed": true
+  },
+  {
+   "form": "*h₂ŕ̥tḱos",
+   "gloss": "bear",
+   "reconstructed": true
+  },
+  {
+   "form": "*wĺ̥kʷos",
+   "gloss": "wolf",
+   "reconstructed": true
+  },
+  {
+   "form": "*h₁h₃ḱʷ-",
+   "gloss": "? (avoid)",
+   "reconstructed": true
+  },
+  {
+   "form": "*suHnus",
+   "gloss": "son",
+   "reconstructed": true
+  },
+  {
+   "form": "*dʰéǵʰōm",
+   "gloss": "earth",
+   "reconstructed": true
+  },
+  {
+   "form": "*moru",
+   "gloss": "sea, lake (Northwest IE)",
+   "reconstructed": true
+  },
+  {
+   "form": "*(s)tel-",
+   "gloss": "to extend; stand (spear shaft)",
+   "reconstructed": true
+  }
+ ],
+ "worked_examples": [
+  {
+   "english": "River Stew",
+   "name": "apos mus",
+   "gloss": "apos = river (*h₂ép- stem), mus = broth/soup (from *mus- 'to mix' loosely); head-final bare noun compound"
+  },
+  {
+   "english": "Place of the Wolf",
+   "name": "wlkwos stheh2",
+   "gloss": "wlkwos = wolf (*wĺ̥kʷos) in genitive-like stem, stheh2 = place/standing (*steh₂-); genitive precedes head"
+  },
+  {
+   "english": "Sea of Ash Trees",
+   "name": "morwo dorwo",
+   "gloss": "morwo = sea (*moru- thematic), dorwo = tree-collective (*dóru-); linker -o-, head last"
+  },
+  {
+   "english": "Fish-Spear",
+   "name": "pisko speros",
+   "gloss": "pisko = fish (*péysḱ-), speros = spear/spar (*sper- 'spar, shaft'); determinant before head"
+  },
+  {
+   "english": "Fire-Maker",
+   "name": "pawrodʰos",
+   "gloss": "pawro = fire (*peh₂wr̥ stem), dʰos = doer (*dʰeh₁-); compound with linking -o-, written pawrodhos"
+  },
+  {
+   "english": "Bear's Den",
+   "name": "rtkyos domos",
+   "gloss": "rtkyos = of the bear (*h₂ŕ̥tḱ- + -yo-), domos = house (*dómos); possessive adjective before noun"
+  }
+ ],
+ "allowed_graphemes": [
+  "a",
+  "e",
+  "i",
+  "o",
+  "u",
+  "b",
+  "d",
+  "g",
+  "k",
+  "m",
+  "n",
+  "p",
+  "r",
+  "s",
+  "t",
+  "w",
+  "y",
+  "h",
+  "bh",
+  "dh",
+  "gh",
+  "kw",
+  "gw",
+  "ee",
+  "oo",
+  "ei",
+  "eu",
+  "ou",
+  "ai",
+  "au",
+  "th",
+  "l",
+  "h1",
+  "h2",
+  "h3"
+ ],
+ "extra_allowed_chars": " -āēīōū",
+ "forbidden_patterns": [
+  "[fvxzjqc]",
+  "(.)\\1\\1",
+  "[bdg]h?[bdg]h?.*[bdg]h[bdg]h",
+  "[aeiou]{4,}",
+  "[^aeiouāēīōūlrmnwy ]{4,}",
+  "(^|\\s)[aeiou]{0}[lr](?![aeiou])"
+ ],
+ "syllables_per_word": [
+  2,
+  3,
+  4
+ ],
+ "max_word_length": 12,
+ "sources": [
+  "Fortson, B. W., Indo-European Language and Culture: An Introduction, 2nd ed. 2010",
+  "Beekes, R., Comparative Indo-European Linguistics: An Introduction, 2nd ed. 2011",
+  "Pokorny, J., Indogermanisches etymologisches Woerterbuch, 1959",
+  "Mallory, J. P. and Adams, D. Q., Encyclopedia of Indo-European Culture, 1997",
+  "Wiktionary Proto-Indo-European reconstruction pages",
+  "Starling database (S. Starostin) Indo-European etymological dictionary",
+  "Krahe, H., Unsere aeltesten Fluss- und Wandernamen (Old European hydronymy), 1964"
+ ],
+ "notes": "Maglemosian language is unknown; any proxy is an artistic choice. PIE is chosen only for its documented building rules and not because Maglemosian people are believed to have spoken it. Entries marked reconstructed use asterisk notation; game names should drop the asterisk. A few roots in the attested_roots list marked '(avoid)' are placeholders flagged as unsafe and must not be used. No word may be identical to a Modern Irish, Scottish Gaelic or Manx word since PIE-based names are not Goidelic; check collisions such as 'mor' (Irish 'big') and avoid exact matches.",
+ "unit": "Maglemosian",
+ "slug": "maglemosian",
+ "model": "claude-sonnet-5-5"
+}

@@ -1,0 +1,144 @@
+{
+ "proxy_language": "Proto-Muskogean (reconstructed; Haas/Kimball/Munro/Martin) as a weak areal proxy, supplemented by attested Creek (Mvskoke) and Choctaw phonotactics",
+ "confidence": "speculative",
+ "proxy_rationale": "The Dalton tradition (c. 10,500-9,900 BP, Late Paleoindian/Early Archaic transition, Arkansas, Missouri, Tennessee, Mississippi Valley and Southeast) has no linguistic record at all. No language can be linked to it, and Southeastern languages are separated from Dalton times by 9,000+ years, so any proxy is only a plausible-sounding stand-in. Muskogean is the best-reconstructed family indigenous to the core Southeast (with Natchez, Tunica, Timucua, Chitimacha as isolates), and Proto-Muskogean gives a documented phonology and word-building model. This is explicitly a stylistic proxy, NOT a claim of ancestry.",
+ "phonology": "Proto-Muskogean (Haas 1946, 1979; Kimball; Munro) consonants: stops *p *t *c(*ch) *k; *kw; fricatives *f *s *l-voiceless (*ɬ) *h; nasals *m *n; liquid *l; glides *w *y. Vowels *i *a *o (plus *e in some daughter reflexes) with length contrast (a vs aa, i vs ii, o vs oo). Creek has short a, i, o, e, ɔ with long counterparts and pitch/length effects. Voiceless lateral fricative (ɬ, written lh in Choctaw/Creek 'hl') is characteristic. No voiced stops/b d g or phonemic f in some branches (f and s present in Muskogean).",
+ "phonotactics": "Syllable shapes (C)V(C), with CVC and CV(V) common; word-initial consonant clusters absent; internal clusters limited to coda+onset (e.g. -sk-, -ht-, -lk-, -mp-, -nk-). Words very often vowel-final or end in -a, -i, -o, -v, with many verb/noun roots ending in a consonant or vowel. Glottal/length marks vowel quality. Geminates occur medially. No word-initial ng, no word-initial lh as a cluster beyond single ɬ.",
+ "orthography": "Use a simplified Muskogean-style Latin transliteration: p t k ch c f s h l m n w y, with lh (voiceless lateral) and aa/ii/oo for long vowels; vowels a e i o. Avoid b d g j q v x z; no apostrophes except an optional glottal stop mark ʼ.",
+ "morphology": "Muskogean languages are agglutinative and verb-heavy (SOV). Nouns are mostly unmarked roots, with suffixes for subject case (-t, -at, -a), plural/collective, and diminutive/augmentative. Many nominal roots are monosyllabic or disyllabic. Verbs take prefixes/suffixes for person, tense, aspect, and ablaut/grade (length, nasalization, falling tone, h-grade) rather than simple affixation. Names are typically descriptive noun-verb or noun-noun compounds.",
+ "compounding": "Right-headed noun-noun compounds with modifier first (e.g., 'water-bird' type); possessor precedes possessed. 'X of Y' is expressed by simple juxtaposition Y X (possessor + head) with optional possessive marking (Creek is- / Choctaw am-, in-); 'Y-maker/user' is built with an agentive deverbal suffix or a verb root plus nominalizing suffix (Choctaw -a ... -li; Creek -ee). Descriptive color/size/quality words (adjectival verbs) follow the noun in phrases but may compound as modifiers before it in lexicalized names.",
+ "noun_phrase_order": "Possessor + head noun; noun + adjective/stative verb; demonstrative and numeral after or before noun per language; relative and adjectival modifiers generally follow the head noun in phrases.",
+ "attested_roots": [
+  {
+   "form": "*oki",
+   "gloss": "water",
+   "reconstructed": true
+  },
+  {
+   "form": "*hatki",
+   "gloss": "white",
+   "reconstructed": true
+  },
+  {
+   "form": "*lani",
+   "gloss": "yellow",
+   "reconstructed": true
+  },
+  {
+   "form": "*tali",
+   "gloss": "rock, stone",
+   "reconstructed": true
+  },
+  {
+   "form": "*sakwa",
+   "gloss": "deer? (cf. Choctaw issi)",
+   "reconstructed": true
+  },
+  {
+   "form": "*hapi",
+   "gloss": "hickory? / salt reflex",
+   "reconstructed": true
+  },
+  {
+   "form": "*ifa",
+   "gloss": "dog",
+   "reconstructed": true
+  },
+  {
+   "form": "*yala",
+   "gloss": "long, tall (stative)",
+   "reconstructed": true
+  },
+  {
+   "form": "*nita",
+   "gloss": "bear",
+   "reconstructed": true
+  },
+  {
+   "form": "*ihi",
+   "gloss": "fire",
+   "reconstructed": true
+  },
+  {
+   "form": "*waka",
+   "gloss": "cow (Spanish loan, avoid)",
+   "reconstructed": false
+  },
+  {
+   "form": "*atta",
+   "gloss": "father",
+   "reconstructed": true
+  },
+  {
+   "form": "*ohi",
+   "gloss": "land, earth",
+   "reconstructed": true
+  },
+  {
+   "form": "*tolo",
+   "gloss": "to cut/sharp",
+   "reconstructed": true
+  },
+  {
+   "form": "*yaha",
+   "gloss": "wolf/dog?",
+   "reconstructed": true
+  },
+  {
+   "form": "*oki",
+   "gloss": "water (also river)",
+   "reconstructed": true
+  }
+ ],
+ "worked_examples": [],
+ "allowed_graphemes": [
+  "a",
+  "e",
+  "i",
+  "o",
+  "aa",
+  "ii",
+  "oo",
+  "p",
+  "t",
+  "k",
+  "ch",
+  "f",
+  "s",
+  "h",
+  "l",
+  "lh",
+  "m",
+  "n",
+  "w",
+  "y"
+ ],
+ "extra_allowed_chars": " -",
+ "forbidden_patterns": [
+  "^[bdgjqvxz]",
+  "[bdgjqvxz]",
+  "^[ptkchfslmnwy]{2}",
+  "[aeiou]{3}",
+  "([ptkchfsmnwy])\\1\\1"
+ ],
+ "syllables_per_word": [
+  2,
+  3,
+  4
+ ],
+ "max_word_length": 14,
+ "sources": [
+  "Haas, Mary R. 1946/1979. Proto-Muskogean reconstructions",
+  "Munro, Pamela (ed.) 1987. Muskogean Linguistics",
+  "Martin, Jack B. 2011. A Grammar of Creek (Muskogee)",
+  "Broadwell, George A. 2006. A Choctaw Reference Grammar",
+  "Booker, Karen M. 2005. Muskogean languages overview",
+  "Glottolog: Muskogean family",
+  "Anderson, David G. and Sassaman, Kenneth E. 2012. Recent Developments in Southeastern Archaeology (Dalton)",
+  "Goodyear, Albert C. 1982. The Chronological Position of the Dalton Horizon in the Southeastern United States"
+ ],
+ "notes": "Strictly speculative: the Dalton people spoke an unknown language, and the Muskogean proxy only supplies plausible phonotactics. Several glosses and roots above are uncertain or approximate reconstructions and some entries (e.g. *sakwa, *hapi, *yaha, *waka) should NOT be used as vocabulary models; the worked examples list is left empty in this response and must be filled by the name builder using only well-supported roots (oki 'water', hatki 'white', tali 'stone', ihi 'fire', ifa 'dog', atta 'father', ohi 'land'). No word may be identical to a Modern Irish, Scottish Gaelic or Manx word since the language is not Goidelic. Names should be short (2-3 syllables), vowel-final or with simple codas, avoid b d g j v z x and word-initial clusters, and avoid presenting any form as authentically Dalton.",
+ "unit": "Dalton tradition",
+ "slug": "dalton_tradition",
+ "model": "claude-sonnet-5-5"
+}

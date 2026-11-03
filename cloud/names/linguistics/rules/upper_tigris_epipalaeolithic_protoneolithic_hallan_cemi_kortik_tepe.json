@@ -1,0 +1,160 @@
+{
+ "proxy_language": "Hurrian (Hurro-Urartian) as a late, low-confidence regional proxy, supplemented by Proto-Hurro-Urartian reconstructions",
+ "confidence": "speculative",
+ "proxy_rationale": "Hallan Cemi (c. 10th-9th mill. BCE) and Kortik Tepe (c. 10th mill. BCE) are pre-literate Epipalaeolithic/Protoneolithic sites; their language(s) are unknowable and there is no demonstrable continuity to any attested language. The only well-documented language family indigenous to the Upper Tigris/Taurus/Armenian Highland zone in the earliest records is Hurro-Urartian (Hurrian from c. 2300 BCE; Urartian from c. 850 BCE), plausibly a substrate-like survival of an older highland language group. Using it is a defensible regional placeholder, not a claim of descent. Alternatives (Proto-Semitic, Proto-Indo-European, Proto-Kartvelian, Proto-Northeast-Caucasian) are equally unprovable, and Hurrian at least gives phonotactics rooted in the exact geography.",
+ "phonology": "Hurrian consonants (cuneiform-based interpretation): stops with a voiced/voiceless contrast written b/p, d/t, g/k (probably allophonic or lenis/fortis, with voiced allophones intervocalically); fricatives f (or v), s, sh (written š), z (probably affricate ts), h, kh (written ḫ); nasals m, n; liquids l, r; glides y, w. Vowels: a, e, i, u, with o debated and mostly absent. Vowel length is weakly attested. No reliable tone or stress information. Urartian is similar (adds a possible q/k' series in some analyses).",
+ "phonotactics": "Syllable shapes (C)V(C); words begin with a single consonant or a vowel (initial vowels are rare); no initial clusters; medial clusters of two consonants are common (e.g. -rt-, -nd-, -ld-, -sh-t-); final clusters are avoided and words typically end in a vowel or in -s, -sh, -m, -n, -l, -r, -d, -t. Voiced stops are not found word-initially in many Hurrian roots (plausible, not certain). Suffix-heavy agglutination means words are often 3-5 syllables when inflected, while bare roots are CV(C) or CVCV.",
+ "orthography": "Standard Hurrianist transliteration of the cuneiform syllabary in Latin script: b, d, g, p, t, k, f, s, š, z, h, ḫ, m, n, l, r, y, w with vowels a, e, i, u. For game purposes the diacritic-free spellings sh and kh may replace š and ḫ, and the diaeresis/macron forms are avoided. Lowercase, hyphen-separated morphemes in the scholarly style, with compounds and suffixed forms written as one word or hyphenated.",
+ "morphology": "Agglutinative, ergative-absolutive, suffixing; verbs take long suffix chains. Nouns are formed from roots plus derivational suffixes. Case endings in Hurrian: absolutive -Ø, ergative -sh, genitive -ve/-we/-fe (-ve after vowels, -we/-fe variants), dative -a, directive -ta/-da, comitative -ra, ablative-instrumental -dan/-ten, essive -a, equative -ni(?). Plural -ash (animate)/-na (articulus). The definite article (relator) is -ni (sg.) / -na (pl.). Common nominal derivation: -ni (nominal formative; many nouns end in -ni), -ri/-li/-nni formations, abstract -ushe/-ush. Agent/occupation nouns with -ri/-uri or -ve. Numerals and demonstratives precede or follow depending on form. Vowel-final stems are the norm.",
+ "compounding": "True compounding is rare in Hurrian; relationships are expressed syntactically with the genitive suffix on the possessor and the possessed head following it (possessor-genitive + head, e.g. X-we Y 'Y of X'). Noun-noun juxtaposition and nominal derivation by suffix (-ri 'one who ...', -ve 'belonging to ...') is the productive way to form place/tool/profession names. For game naming: 'X of Y' = Y-ve X; 'Y-maker/keeper' = Y + agentive suffix; locative via directive/essive -a/-ta.",
+ "noun_phrase_order": "Modifier/possessor before head: genitive phrase = possessor-ve + head; adjectives usually precede or are suffixed (attributive adjective + noun with agreement via article -ni/-na on the head or, in Urartian, juxtaposition). Demonstratives and numerals precede the noun. Relational/relator suffix attaches to the last word of the noun phrase.",
+ "attested_roots": [
+  {
+   "form": "te",
+   "gloss": "to give (Hurrian verb root)",
+   "reconstructed": false
+  },
+  {
+   "form": "ki",
+   "gloss": "to place, set (verb root)",
+   "reconstructed": false
+  },
+  {
+   "form": "tive",
+   "gloss": "word, matter",
+   "reconstructed": false
+  },
+  {
+   "form": "ewri",
+   "gloss": "lord, king",
+   "reconstructed": false
+  },
+  {
+   "form": "eshe",
+   "gloss": "earth (also eshi 'place')",
+   "reconstructed": false
+  },
+  {
+   "form": "ishuzzi",
+   "gloss": "water?",
+   "reconstructed": false
+  },
+  {
+   "form": "ape",
+   "gloss": "house?",
+   "reconstructed": false
+  },
+  {
+   "form": "eni",
+   "gloss": "god",
+   "reconstructed": false
+  },
+  {
+   "form": "shimige",
+   "gloss": "sun (Hurrian sun god Shimige)",
+   "reconstructed": false
+  },
+  {
+   "form": "kushuh",
+   "gloss": "moon god Kushuh (moon)",
+   "reconstructed": false
+  },
+  {
+   "form": "teshub",
+   "gloss": "storm god Teshub (name)",
+   "reconstructed": false
+  },
+  {
+   "form": "hepa",
+   "gloss": "goddess Hepa (name, Hurrian mother goddess)",
+   "reconstructed": false
+  },
+  {
+   "form": "kumarbi",
+   "gloss": "father of gods Kumarbi (name)",
+   "reconstructed": false
+  },
+  {
+   "form": "ashi",
+   "gloss": "fire?",
+   "reconstructed": false
+  },
+  {
+   "form": "tupshi",
+   "gloss": "copper? / tablet (loan?)",
+   "reconstructed": false
+  },
+  {
+   "form": "nuri",
+   "gloss": "people, group? ",
+   "reconstructed": false
+  },
+  {
+   "form": "kirashe",
+   "gloss": "long",
+   "reconstructed": false
+  },
+  {
+   "form": "sharri",
+   "gloss": "king (Indo-Aryan loan, uncertain direction)",
+   "reconstructed": false
+  }
+ ],
+ "worked_examples": [],
+ "allowed_graphemes": [
+  "a",
+  "e",
+  "i",
+  "u",
+  "b",
+  "d",
+  "g",
+  "p",
+  "t",
+  "k",
+  "f",
+  "s",
+  "sh",
+  "z",
+  "h",
+  "kh",
+  "m",
+  "n",
+  "l",
+  "r",
+  "y",
+  "w"
+ ],
+ "extra_allowed_chars": " -",
+ "forbidden_patterns": [
+  "^[bdg]",
+  "([^aeiou])\\1{2,}",
+  "[aeiou]{3,}",
+  "(.)\\1\\1",
+  "[^aeiou]{4,}",
+  "[bdgptkfszhmnlrwy]$.*[bdgptkfszhmnlrwy]{3}",
+  "^kh?[^aeiou]",
+  "^sh?[^aeiou]",
+  "[qcvxjo]",
+  "[^aeiou]{3,}$"
+ ],
+ "syllables_per_word": [
+  2,
+  3,
+  4
+ ],
+ "max_word_length": 14,
+ "sources": [
+  "Wegner, Ilse: Einfuhrung in die hurritische Sprache (2nd ed., 2007)",
+  "Wilhelm, Gernot: Hurrian, in The Ancient Languages of Syria-Palestine and Arabia (ed. R. Woodard, 2008)",
+  "Diakonoff, I.M. and Starostin, S.A.: Hurro-Urartian as an Eastern Caucasian Language (1986)",
+  "Starostin database: Hurro-Urartian and Northeast Caucasian etymologies (Tower of Babel project)",
+  "Glottolog entries: Hurrian and Urartian",
+  "Wiktionary Hurrian lexical entries",
+  "Hallan Cemi and Kortik Tepe site reports (Rosenberg; Benz, Coskun, Ozkaya et al.) for archaeological context only"
+ ],
+ "notes": "No word may be identical to a Modern Irish, Scottish Gaelic or Manx word unless the language is Goidelic; this language is not Goidelic. These names are Hurrian-inspired placeholders for a culture whose actual language is unrecoverable; treat as speculative. Several glosses above marked with ? are uncertain; builders should prefer the divine names, the case suffixes (-ve genitive, -ni article, -ash plural, -a dative/essive) and the productive suffix patterns over the less-certain root glosses. Keep names vowel-final or ending in sh/n/m/l/r, avoid initial voiced stops, and use the genitive-before-head order.",
+ "unit": "Upper Tigris Epipalaeolithic-Protoneolithic (Hallan Cemi, Kortik Tepe)",
+ "slug": "upper_tigris_epipalaeolithic_protoneolithic_hallan_cemi_kortik_tepe",
+ "model": "claude-sonnet-5-5"
+}

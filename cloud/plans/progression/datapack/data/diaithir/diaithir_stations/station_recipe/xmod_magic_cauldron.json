@@ -1,0 +1,37 @@
+{
+ "neoforge:conditions": [
+  {
+   "type": "neoforge:mod_loaded",
+   "modid": "diaithir_stations"
+  },
+  {
+   "type": "neoforge:item_exists",
+   "item": "diaithir:brew_base"
+  },
+  {
+   "type": "neoforge:not",
+   "value": {
+    "type": "neoforge:tag_empty",
+    "tag": "diaithir:progression/herb"
+   }
+  }
+ ],
+ "_node": "magic.cauldron",
+ "_age": "II",
+ "station": "station.hearth_bench",
+ "stage": "process",
+ "ingredients": [
+  {
+   "tag": "c:ingots/bronze"
+  },
+  {
+   "tag": "diaithir:progression/herb"
+  }
+ ],
+ "result": {
+  "id": "diaithir:brew_base",
+  "count": 1
+ },
+ "time_s": 5,
+ "operator": false
+}

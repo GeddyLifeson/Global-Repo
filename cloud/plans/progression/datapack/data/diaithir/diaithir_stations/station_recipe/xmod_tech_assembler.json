@@ -1,0 +1,40 @@
+{
+ "neoforge:conditions": [
+  {
+   "type": "neoforge:mod_loaded",
+   "modid": "diaithir_stations"
+  },
+  {
+   "type": "neoforge:item_exists",
+   "item": "diaithir:foundry_assembler"
+  },
+  {
+   "type": "neoforge:not",
+   "value": {
+    "type": "neoforge:tag_empty",
+    "tag": "diaithir:progression/circuit.basic"
+   }
+  }
+ ],
+ "_node": "tech.assembler",
+ "_age": "VI",
+ "station": "station.steam_forge",
+ "stage": "assembly",
+ "ingredients": [
+  {
+   "tag": "c:plates/steel"
+  },
+  {
+   "tag": "diaithir:progression/circuit.basic"
+  },
+  {
+   "tag": "c:gears/iron"
+  }
+ ],
+ "result": {
+  "id": "diaithir:foundry_assembler",
+  "count": 1
+ },
+ "time_s": 2,
+ "operator": false
+}
