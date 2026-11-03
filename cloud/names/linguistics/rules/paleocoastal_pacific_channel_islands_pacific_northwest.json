@@ -1,0 +1,136 @@
+{
+ "proxy_language": "Chumashan (Barbareño/Ineseño Chumash, attested) as primary proxy for the Channel Islands; with Proto-Wakashan/Proto-Salishan secondary for the Pacific Northwest",
+ "confidence": "low",
+ "proxy_rationale": "Paleocoastal peoples (c. 13,000-8,000 BP; Arlington Springs, Daisy Cave, Kilgii Gwaay) left no linguistic record and no known language descends demonstrably from them. The Channel Islands were later occupied by Chumashan speakers (Island Chumash), so Chumashan is the nearest attested regional language, but its time depth (Proto-Chumashan roughly 3,000-4,000 BP) is far shallower than the Paleocoastal period. For the Northwest coast, Salishan, Wakashan and Haida are possible but equally unprovable. The link is purely geographic and ecological (maritime, shell, kelp, boat and fishing vocabulary).",
+ "phonology": "Chumashan (Barbareño/Ineseño): stops and affricates with plain, aspirated and glottalized series. Labial p, p', ph; coronal t, t', th; dental ts, ts', tsh; postalveolar ch, ch', chh; velar k, k', kh; uvular q, q'; glottal stop. Fricatives s, sh, x (uvular/velar), h. Nasals m, n, plus glottalized m', n'. Liquids l and glottalized l'. Glides w, y and glottalized w', y'. Vowels a, e, i, o, u with a contrast between short and long, and a very rare ə. Stress is non-phonemic on the first syllable. (Applegate 1972; Klar 1977; Beeler/Klar.)",
+ "phonotactics": "Typical syllables CV, CVC, V and VC. Glottalized stops are common syllable onsets. Consonant clusters are frequent in Chumash words (e.g. -sk-, -lq-, -ntk-), and sibilant harmony is attested (s/sh/ch sound agreement in Ineseno). Words typically begin with a consonant and often end with a vowel or a consonant. The s- 3rd-person prefix is very common word-initially. Roots are mostly CVC or CVCV.",
+ "orthography": "Latin transliteration with the Americanist apostrophe for glottalization: k', t', p', ts', ch', q' and so on. Digraphs: ch, sh, ts, kh, th, ph. x stands for a velar/uvular fricative and ' for a glottal stop. Vowel length is written by doubling or a macron (a, aa). Hyphens mark morpheme boundaries in glossed examples.",
+ "morphology": "Chumashan is polysynthetic-leaning and agglutinative, with predominantly suffixing and prefixing verbal morphology. s- is a common 3rd-person/nominalizing prefix (s-ixwin 'its name'). Nouns are mostly unmarked for case; plural, locative and possessive affixes are limited (-ʔ, -mu). Compound and derived words are very common. Reduplication occurs for plurality and diminutives. Chumash is verb-initial (VSO tendency). Directional/locative verb suffixes exist.",
+ "compounding": "Compounds are head-final in the sense that the modifying noun precedes the head noun. Possessor-head genitives usually place the possessor first, with a possessive prefix on the head noun. Instrument/agent derivations use verbal roots with nominalizing s- or -ʔ. Names like 'Boat-of-X' are best formed by juxtaposition (X + head) rather than by an invented linker, since no linker is well attested.",
+ "noun_phrase_order": "Modifier-noun is the default for simple attributive nouns, e.g. tomol 'plank canoe' preceded by a qualifier. Possessor precedes possessed. Demonstratives and numerals precede the noun. Adjective-like words in Chumashan are largely stative verbs and are often nominalized with s-.",
+ "attested_roots": [
+  {
+   "form": "tomol",
+   "gloss": "plank canoe",
+   "reconstructed": false
+  },
+  {
+   "form": "ʔatiš",
+   "gloss": "sea (cf. Barbareño forms)",
+   "reconstructed": false
+  },
+  {
+   "form": "šup",
+   "gloss": "to eat/food (approximate Barbareño)",
+   "reconstructed": false
+  },
+  {
+   "form": "walaʔ",
+   "gloss": "water/sea (approximate)",
+   "reconstructed": false
+  },
+  {
+   "form": "ʔalšuʔ",
+   "gloss": "island (approximate Barbareño)",
+   "reconstructed": false
+  },
+  {
+   "form": "xus",
+   "gloss": "knife-like/sharp implement (approximate)",
+   "reconstructed": false
+  },
+  {
+   "form": "sikw",
+   "gloss": "to cut (approximate)",
+   "reconstructed": false
+  },
+  {
+   "form": "qaq",
+   "gloss": "raven/crow (approximate)",
+   "reconstructed": false
+  },
+  {
+   "form": "ʔaqiš",
+   "gloss": "to see/eye (approximate)",
+   "reconstructed": false
+  },
+  {
+   "form": "ʔap",
+   "gloss": "house (approximate)",
+   "reconstructed": false
+  },
+  {
+   "form": "ʔiʔ",
+   "gloss": "fire (approximate)",
+   "reconstructed": false
+  },
+  {
+   "form": "muwu",
+   "gloss": "moon/month (cf. Humqaq/Muwu place name)",
+   "reconstructed": false
+  },
+  {
+   "form": "šɨ",
+   "gloss": "stone/rock (approximate)",
+   "reconstructed": false
+  },
+  {
+   "form": "ʔanap",
+   "gloss": "stem/plant (approximate)",
+   "reconstructed": false
+  }
+ ],
+ "worked_examples": [],
+ "allowed_graphemes": [
+  "a",
+  "e",
+  "i",
+  "o",
+  "u",
+  "p",
+  "t",
+  "k",
+  "q",
+  "ts",
+  "ch",
+  "sh",
+  "s",
+  "x",
+  "h",
+  "m",
+  "n",
+  "l",
+  "w",
+  "y",
+  "kh",
+  "th",
+  "ph"
+ ],
+ "extra_allowed_chars": " -'",
+ "forbidden_patterns": [
+  "[bdfgrvzj]",
+  "(.)\\1\\1",
+  "[aeiou]{3}",
+  "c(?!h)",
+  "q(?![aeiou'])"
+ ],
+ "syllables_per_word": [
+  2,
+  3,
+  4
+ ],
+ "max_word_length": 14,
+ "sources": [
+  "Applegate, Richard B. 1972. Ineseno Chumash Grammar (PhD dissertation, UC Berkeley)",
+  "Klar, Kathryn A. 1977. Topics in Historical Chumash Grammar (PhD dissertation, UC Berkeley)",
+  "Beeler, Madison S. Barbareno Chumash lexicon and grammar notes",
+  "Mithun, Marianne. 1999. The Languages of Native North America",
+  "Glottolog entry for Chumashan",
+  "Erlandson, Jon M. 2007. Paleocoastal archaeology of the California Channel Islands (review articles)",
+  "Wiktionary reconstruction pages for Proto-Chumashan"
+ ],
+ "notes": "Strong caveat: no direct linguistic evidence exists for Paleocoastal populations; this is an areal-ecological proxy. Many Chumash forms listed above are approximate Barbareno/Ineseno shapes quoted from memory and are marked as approximate; verify against Klar and Applegate before treating any as authoritative. Names should be built from Chumash-like phonotactics (glottalized stops, sibilant series, CVC roots), not copied wholesale. No word may be identical to a Modern Irish, Scottish Gaelic or Manx word unless the language is Goidelic; this culture is not Goidelic, so Goidelic-identical strings must be avoided. The current game names (Yaduq, Chudtita etc.) include d, which is absent from Chumashan, and should be revised to the t series.",
+ "unit": "Paleocoastal Pacific (Channel Islands, Pacific Northwest)",
+ "slug": "paleocoastal_pacific_channel_islands_pacific_northwest",
+ "model": "claude-sonnet-5-5"
+}
