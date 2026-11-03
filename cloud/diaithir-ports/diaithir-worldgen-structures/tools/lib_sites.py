@@ -135,6 +135,8 @@ def build(cls,soil,k,seed):
         g.box(1,0,0,3,0,D-1,p["w"])
         for z in range(0,D): g.set(0,1,z,p["a"].split("[")[0] if z%4==0 else "stone_brick_wall" if soil!="Quiet" else "purpur_block"); g.set(4,1,z,p["a"].split("[")[0] if z%4==0 else "stone_brick_wall" if soil!="Quiet" else "purpur_block")
         for z in range(2,D-2,4): g.box(1,-F,z,3,-1,z,p["w"])
+    elif cls=="settlement":
+        return settle_build(p["w"],p["r"],k,h)
     else:  # landmark: standing stone ring around a plinth
         r=W//2-1
         for i in range(8 if k<3 else 12):
@@ -244,13 +246,34 @@ def terra_build(text,cls):
         return b,W,D,"class:"+cls,t
     return g.b,W,D,sh,t
 
+def settle_build(wall,roof,k,seed=0):
+    g=G(); n=(2,3,4)[k-1]; HS=5; GAP=3; W=D=n*HS+(n+1)*GAP; cx=W//2
+    g.box(0,-F,0,W-1,-1,D-1,"cobblestone"); g.box(0,0,0,W-1,0,D-1,"dirt_path")
+    for i in range(n):
+        for j in range(n):
+            x0=GAP+i*(HS+GAP); z0=GAP+j*(HS+GAP)
+            if n%2==1 and i==n//2 and j==n//2: g.box(x0+1,0,z0+1,x0+3,0,z0+3,"water"); g.box(x0,1,z0,x0+4,1,z0,"oak_fence"); continue
+            g.box(x0,0,z0,x0+HS-1,0,z0+HS-1,"oak_planks"); g.shell(x0,1,z0,x0+HS-1,3,z0+HS-1,wall); g.box(x0+1,1,z0+1,x0+HS-2,2,z0+HS-2,"air")
+            g.box(x0-0,4,z0,x0+HS-1,4,z0+HS-1,roof)
+            g.box(x0+2,1,z0+HS-1,x0+2,2,z0+HS-1,"air"); g.set(x0+1,1,z0+1,"chest[facing=south]" if (i+j+seed)%3==0 else "crafting_table"); g.set(x0+HS-2,1,z0+1,"white_bed[facing=north,part=foot]")
+    if n%2==0: g.box(cx-1,0,cx-1,cx,0,cx,"water")
+    g.set(cx,1,D-1,"lantern[hanging=false]")
+    return g.b,W,D
+def terra_settle(text):
+    t=text.lower().split(" anchor:")[0]; wall,acc="oak_planks","oak_log[axis=y]"
+    for p,a,b in MATS:
+        if re.search(p,t): wall,acc=a,b; break
+    k=3 if re.search(r"huge|vast|great|palace|city|canals",t) else 1 if re.search(r"small|hamlet|village|camp",t) else 2
+    b,W,D=settle_build(wall,acc if "log" not in acc else "oak_slab",k,len(text))
+    return b,W,D,"settlement",t
+
 def loot_json(cls):
     L={"tomb":["gold_ingot","bone","iron_sword","golden_apple","amethyst_shard"],"delve":["flint","bone","coal","raw_copper","lapis_lazuli"],
        "temple":["gold_nugget","candle","book","emerald","paper"],"fortress":["iron_ingot","arrow","iron_axe","bread","shield"],
        "forge":["iron_ingot","coal","iron_pickaxe","redstone","copper_ingot"],"tower":["spyglass","book","paper","ender_pearl","arrow"],
        "hall":["book","paper","bread","emerald","name_tag"],"harbor":["fishing_rod","cod","string","rope" if False else "lead","compass"],
        "garden":["wheat_seeds","apple","carrot","potato","bone_meal"],"bridge":["stick","iron_nugget","bread","coal","string"],
-       "ruin":["cobweb","bone","stick","coal","clay_ball"],"landmark":["flint","stick","clay_ball","gold_nugget","amethyst_shard"]}
+       "settlement":["bread","wheat","emerald","paper","iron_ingot"],"ruin":["cobweb","bone","stick","coal","clay_ball"],"landmark":["flint","stick","clay_ball","gold_nugget","amethyst_shard"]}
     it=[i for i in L[cls] if i in gen.IT]
     return {"type":"minecraft:chest","pools":[{"rolls":{"type":"minecraft:uniform","min":2,"max":4},"entries":[{"type":"minecraft:item","name":"minecraft:"+i,"weight":10-j,"functions":[{"function":"minecraft:set_count","count":{"type":"minecraft:uniform","min":1,"max":4}}]} for j,i in enumerate(it)]}]}
 SPAWN={"tomb":"diaithirfauna:scorpion","delve":"diaithirfauna:giant_arthropod","fortress":"diaithirfauna:theropod","ruin":"diaithirfauna:lizard","harbor":"diaithirfauna:crocodilian"}
@@ -303,7 +326,7 @@ def plaque_nbt(name,text,target_pool,npc=None):
     blocks={(0,0,0):("minecraft:jigsaw[orientation=north_up]",jig(f"{NS}:lib_site",f"{NS}:lib_site",target_pool,"north_up")),
             (0,0,1):("minecraft:lectern[facing=south,has_book=true,powered=false]",{"id":(8,"minecraft:lectern"),"Book":(10,book),"Page":(3,0)})}
     if npc:  # NPC hook: a barrel beside the lectern; its custom name is "lib_npc:<call number>:<count>"
-        blocks[(1,0,1)]=("minecraft:barrel[facing=up]",{"id":(8,"minecraft:barrel"),"CustomName":(8,"lib_npc:%s:%d"%npc)})
+        blocks[(1,0,1)]=("minecraft:barrel[facing=up]",{"id":(8,"minecraft:barrel"),"CustomName":(8,npc)})
     return tmpl(blocks,(2 if npc else 1,1,2))
 
 DIMOVR={"Ember":"nether","Hollow":"under","Quiet":"end","Frost":"surf","Bloom":"surf","Storm":"surf","Iron":"surf"}
@@ -311,7 +334,7 @@ def structure_json(planet,cls,b,soil,start_pool):
     kind=DIMOVR[soil]; under=cls=="delve" or kind in("under",)
     d={"type":"minecraft:jigsaw","biomes":f"#{NS}:lib/{planet}","step":"underground_structures" if under else "surface_structures",
        "spawn_overrides":{},"terrain_adaptation":"none" if under or kind=="nether" else "beard_thin","start_pool":start_pool,"size":2,
-       "max_distance_from_center":24,"use_expansion_hack":False,"liquid_settings":"ignore_waterlogging" if False else "apply_waterlogging"}
+       "max_distance_from_center":48 if cls=="settlement" else 24,"use_expansion_hack":False,"liquid_settings":"ignore_waterlogging" if False else "apply_waterlogging"}
     if under: d["start_height"]={"absolute":(-30 if kind=="surf" else 24)}
     elif kind=="nether": d["start_height"]={"absolute":64}
     else: d["start_height"]={"absolute":-1}; d["project_start_to_heightmap"]="WORLD_SURFACE_WG"
@@ -321,7 +344,7 @@ def main():
     L=sqlite3.connect("file:"+SRC+"codex-store/library.sqlite?mode=ro",uri=True)
     C=sqlite3.connect("file:"+SRC+"library-content/content.sqlite?mode=ro",uri=True)
     P={r["planet_id"]:r for r in csv.DictReader(open(SRC+"planets/planets.tsv"),delimiter="\t")}
-    rows=C.execute("select id,universe,tier,name from content where form='STRUCTURE' order by id").fetchall()
+    rows=C.execute("select id,universe,tier,name,form from content where form in ('STRUCTURE','SETTLEMENT') order by id").fetchall()
     if LIM: rows=rows[:LIM]
     by=collections.defaultdict(list)  # (planet,cls,band) -> [(path)]
     npcs=collections.defaultdict(dict)
@@ -333,27 +356,28 @@ def main():
     for i in range(0,len(rows),900):
         ch=rows[i:i+900]
         txt={r[0]:r[1] for r in L.execute("select id,summary from entry where id in (%s)"%",".join("?"*len(ch)),[c[0] for c in ch])}
-        for eid,uni,tier,name in ch:
+        for eid,uni,tier,name,form in ch:
             planet=re.sub(r"[^a-z0-9_]","",uni.lower()); pl=P[planet]; soil=pl["soil"]
-            text=txt[eid]; cls=classify(text); bd=band(tier or 1)
+            text=txt[eid]; cls="settlement" if form=="SETTLEMENT" else classify(text); bd=band(tier or 1)
             slug=re.sub(r"[^a-z0-9_]","_",eid.lower().split(".",1)[1].replace(planet+".","")) if False else re.sub(r"[^a-z0-9]+","_",eid.lower()).strip("_")
             path=f"lib/{planet}/{slug}"
             target=f"{NS}:lib/bld/{soil.lower()}/{cls}"
             if planet=="diaithir":
-                tb=terra_build(text,cls)
+                tb=terra_build(text,cls) if cls!="settlement" else terra_settle(text)
                 if tb:
                     bpath=f"lib/diaithir/b/{slug}"; cust=(tb[0],tb[1],tb[2]); terra_shapes[tb[3]]+=1
                     w(f"data/{NS}/structure/{bpath}.nbt",building_nbt(cls,soil,2,cust))
                     w(f"data/{NS}/worldgen/template_pool/{bpath}.json",{"name":f"{NS}:{bpath}","fallback":"minecraft:empty","elements":[{"weight":1,"element":{"element_type":"minecraft:single_pool_element","location":f"{NS}:{bpath}","projection":"rigid","processors":"minecraft:empty"}}]})
                     target=f"{NS}:{bpath}"
-            hit=None; wl=re.findall(r"[^\W\d_]+",text.lower()); nd=npcs.get(uni,{})
+            hit=None; hook=None; wl=re.findall(r"[^\W\d_]+",text.lower()); nd=npcs.get(uni,{})
             for n in (3,2,1):
                 for j in range(len(wl)-n+1):
                     nid=nd.get(" ".join(wl[j:j+n]))
                     if nid: hit=(nid,1); break
                 if hit: break
-            if hit: npc_rows.append((eid,hit[0],hit[1]))
-            w(f"data/{NS}/structure/{path}.nbt",plaque_nbt(name or eid,text,target,hit))
+            if cls=="settlement": hook="lib_settle:%s:%d"%(eid,min(6,2+(tier or 1))); hit=None
+            elif hit: hook="lib_npc:%s:%d"%hit; npc_rows.append((eid,hit[0],hit[1]))
+            w(f"data/{NS}/structure/{path}.nbt",plaque_nbt(name or eid,text,target,hook))
             by[(planet,cls,bd)].append(path); idx.append((eid,planet,cls,bd,tier or 1,f"{NS}:{path}"))
             seen_b.add((soil,cls))
     for c in {c for (_,c,_) in by}: w(f"data/{NS}/loot_table/lib/loot/{c}.json",loot_json(c))
@@ -373,12 +397,14 @@ def main():
         w(f"data/{NS}/worldgen/template_pool/lib/{planet}/{cls}/{bd}.json",{"name":f"{NS}:lib/{planet}/{cls}/{bd}","fallback":"minecraft:empty",
           "elements":[{"weight":1,"element":{"element_type":"minecraft:single_pool_element","location":f"{NS}:{p}","projection":"rigid","processors":"minecraft:empty"}} for p in paths]})
         w(f"data/{NS}/worldgen/structure/{sid}.json",structure_json(planet,cls,bd,soil,f"{NS}:lib/{planet}/{cls}/{bd}"))
-        sets[planet].append({"structure":f"{NS}:{sid}","weight":n}); planets_used.add(planet)
+        sets[(planet,cls=="settlement")].append({"structure":f"{NS}:{sid}","weight":n}); planets_used.add(planet)
         tags[min(8,opens-1+BANDS[bd][0])].append(f"{NS}:{sid}")
+    for (planet,st),lst in sorted(sets.items()):
+        n=sum(x["weight"] for x in lst)
+        sp=(48 if n<200 else 36 if n<1000 else 28) if st else (32 if n<60 else 24 if n<400 else 16)
+        salt=int(hashlib.md5(("lib"+planet+str(st)).encode()).hexdigest()[:7],16)
+        w(f"data/{NS}/worldgen/structure_set/lib/{planet}{'_settle' if st else ''}.json",{"structures":lst,"placement":{"type":"minecraft:random_spread","spacing":sp,"separation":sp//3,"salt":salt}})
     for planet in planets_used:
-        n=sum(s["weight"] for s in sets[planet]); sp=32 if n<60 else 24 if n<400 else 16
-        salt=int(hashlib.md5(("lib"+planet).encode()).hexdigest()[:7],16)
-        w(f"data/{NS}/worldgen/structure_set/lib/{planet}.json",{"structures":sets[planet],"placement":{"type":"minecraft:random_spread","spacing":sp,"separation":sp//3,"salt":salt}})
         vals=["#minecraft:is_overworld"] if planet=="diaithir" else [{"id":f"#diaithir_planets:{planet}","required":False}]
         w(f"data/{NS}/tags/worldgen/biome/lib/{planet}.json",{"values":vals})
     for a,l in tags.items(): w(f"data/{NS}/tags/worldgen/structure/lib_age_{a}.json",{"values":l})
