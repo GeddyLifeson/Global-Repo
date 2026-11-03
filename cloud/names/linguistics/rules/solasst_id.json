@@ -1,0 +1,205 @@
+{
+ "proxy_language": "Scottish Gaelic (Gàidhlig), with Classical Gaelic / Middle Irish as the historical base; 'Solasstàid' is read as a Gaelic-style compound (solas 'light' + stàid 'state, estate, court') for a later Gaelic-speaking court of the Scotland/Nova Scotia (Europe, North America) diaspora",
+ "confidence": "medium",
+ "proxy_rationale": "The culture name 'Solasstàid' is not a documented historical polity. It is parsed as Scottish Gaelic solas 'light' + stàid 'state' (loan from English/Latin status). The accented à, the initial slender-neutral consonants and the compound shape are strongly Scottish Gaelic. The region tag (Europe, North America) fits the Gaelic-speaking Highlands and Cape Breton/Nova Scotia. The 'later_court' kind suggests an early-modern Gaelic lordship court (Lordship of the Isles, Clanranald or MacLeod households, bardic and learned families), so Scottish Gaelic with Classical Common Gaelic bardic vocabulary is the best-supported proxy. Because the culture is Gaelic by design, Scottish Gaelic vocabulary is permitted here; the no-identical-to-Gaelic rule applies only to non-Goidelic cultures.",
+ "phonology": "Scottish Gaelic. Vowels: short i e a o u (plus schwa in unstressed syllables), long ì è à ò ù; Scottish Gaelic orthography uses grave accents only (no acute). Consonants come in broad (velarized) and slender (palatalized) series, spelled by the vowel letters around them (caol ri caol agus leathann ri leathann: slender consonant flanked by slender vowels e/i, broad by a/o/u). Stops p t c (aspirated, voiceless) vs b d g (unaspirated, voiceless), fricatives f s sh(h) ch(x) th(h), nasals m n ng, liquids l r in broad/slender and fortis/lenis forms, semivowel/glides. Lenition (shown by inserted h: bh mh ph fh dh gh ch sh th) and eclipsis/nasalization in some environments. Stress falls on the first syllable of the word. Preaspiration of medial stops after short vowels (e.g. bòrd, mac).",
+ "phonotactics": "Syllable shapes (C)(C)V(C)(C) with strong orthographic regularity. Initial clusters: s+stop (sp, st, sg, sc), stop/fricative+liquid (br, bl, cr, cl, dr, gr, gl, fr, fl, tr, pr, pl), sn, sm, sl, sr; word-initial sc/sg/sp/st frequent. Medial and final clusters: rd, rt, rn, rm, rl, lg, lt, lb, nn, ll, mm, nd (nn), ng, ch, st, sd, nt, rb, rg, rc. Words commonly end in vowels, -ach, -aich, -ail, -ann, -an, -ag, -aig, -ar, -ear, -air, -adh, -idh, -ich, -eas, -as, -is, -ail. Unstressed epenthetic vowels split rC clusters in speech but are not written. Orthographic rules: caol ri caol agus leathann ri leathann (consonants flanked by vowels of the same quality); h only as a lenition marker or in th/sh/ch/ph/fh/bh/mh/gh/dh digraphs, and word-initially after clitics (h- prosthesis before vowels in feminine/vocative contexts); no j, k, q, v, w, x, y, z in native vocabulary (loans only); final vowels often written -e, -a, -o, -u; lenition can drop to silent th and dh.",
+ "orthography": "Modern Scottish Gaelic standard orthography (Gaelic Orthographic Conventions, SQA 2009): 18 letters a b c d e f g h i l m n o p r s t u with grave accents à è ì ò ù only. Digraphs and trigraphs: bh, ch, dh, fh, gh, mh, ph, sh, th (lenition); ng; vowel digraphs ea, eo, ia, io, ua, ai, ei, oi, ui, ao, ae, eu; long-vowel marks via grave accent. Use soft/lenited forms after the article or in genitive/dative as appropriate; capitalise proper names. 'Solasstàid' is irregular in that the double ss is not Gaelic-standard (should be 'solas-stàid' or 'solastàid'); keep as the culture's established label.",
+ "morphology": "Nouns: masculine/feminine gender; four cases (nominative, genitive, dative, vocative) with the genitive formed by slenderization, suffixes (-an, -ean, -aidh, -e, -a, -ach, -aich), or ablaut; plurals by slenderization, -an/-ean/-ichean/-annan, -ichean, or irregular; the dative largely merged with nominative in modern use. Definite article: an, a', am (m. nom.), an t- before vowels (f.), na (gen. f./plural), nam/nan (gen. pl.), and initial mutations (lenition after article in feminine nom., eclipsis in genitive plural). Verbs: verbal nouns (-adh, -ail, -achd), independent and dependent forms, initial consonant mutations in past, relative and conditional forms. Prepositional pronouns (conjugated prepositions: agam, agad, aige, aice). Common derivational suffixes: -ach (adj./agentive 'having, full of'), -ail (adj.), -ear/-air (agent nouns), -ann, -an (diminutive), -ag, -achd/-as (abstract nouns), -eachd, -ach (inhabitant), -ras/-adair for agent nouns (e.g. clàrsair 'harper'), -ain, -ire.",
+ "compounding": "Head-initial genitive constructions are the default way to say 'X of Y': head noun (nominative, no article on the head if the genitive noun is definite) + genitive modifier, e.g. 'taigh an rìgh' (house of the king). With the article on the genitive noun, the head noun loses its own article, e.g. 'caisteal na mara' (castle of the sea). Plural genitive takes nan/nam. Indefinite genitives are unmarked after the head: 'bàta iasgaich' (a fishing boat), 'ceann-cinnidh' (clan chief) written as a hyphenated compound. True compounds are head-final in modifier + head pattern for adjectives and prefixes, e.g. 'sean-ghille' 'old servant', 'ard-righ' 'high king', 'fear-dùthcha' (countryman), 'fear-lagha' 'lawyer'; but noun-noun lexicalised compounds are usually head-first when genitive (taigh-tasgaidh 'museum': house of treasure). Agent nouns: [genitive noun] + -ear/-air or 'fear-' + [genitive] 'man of X'. Place names: Baile + [personal/descriptive], Dùn + [name] (fort), Cill + [saint] (church), Ach(a)/Achadh (field), Inbhir/Inver (river-mouth), Beinn (mountain), Loch, Allt (stream), Camas (bay), Eilean (island), Càrn, Srath (strath), Druim (ridge), Port.",
+ "noun_phrase_order": "Noun + adjective (adjective follows and agrees in gender, number and case, with initial lenition after a feminine nominative singular noun and after masculine genitive singular); numerals precede nouns (aon, dà, trì, ceithir); demonstratives follow: 'an taigh seo' (this house); possessives precede: 'mo thaigh' (my house) with lenition; the definite article precedes the head noun; the genitive modifier follows the head noun.",
+ "attested_roots": [
+  {
+   "form": "solas",
+   "gloss": "light, comfort, delight",
+   "reconstructed": false
+  },
+  {
+   "form": "stàid",
+   "gloss": "state, estate (loan from English/Latin status)",
+   "reconstructed": false
+  },
+  {
+   "form": "rìgh",
+   "gloss": "king (gen. of rìgh; nom. rìgh)",
+   "reconstructed": false
+  },
+  {
+   "form": "tìr",
+   "gloss": "land, country",
+   "reconstructed": false
+  },
+  {
+   "form": "dùn",
+   "gloss": "fort, hill-fort",
+   "reconstructed": false
+  },
+  {
+   "form": "caisteal",
+   "gloss": "castle (loan from Latin castellum)",
+   "reconstructed": false
+  },
+  {
+   "form": "taigh",
+   "gloss": "house",
+   "reconstructed": false
+  },
+  {
+   "form": "cathair",
+   "gloss": "city, chair",
+   "reconstructed": false
+  },
+  {
+   "form": "talla",
+   "gloss": "hall",
+   "reconstructed": false
+  },
+  {
+   "form": "cùirt",
+   "gloss": "court (royal/legal)",
+   "reconstructed": false
+  },
+  {
+   "form": "flaitheas",
+   "gloss": "kingdom, heaven, sovereignty",
+   "reconstructed": false
+  },
+  {
+   "form": "ard",
+   "gloss": "high",
+   "reconstructed": false
+  },
+  {
+   "form": "sìth",
+   "gloss": "peace, fairy",
+   "reconstructed": false
+  },
+  {
+   "form": "clàrsach",
+   "gloss": "harp",
+   "reconstructed": false
+  },
+  {
+   "form": "bàrd",
+   "gloss": "poet, bard",
+   "reconstructed": false
+  },
+  {
+   "form": "ollamh",
+   "gloss": "learned master, professor (chief poet/scholar of a court)",
+   "reconstructed": false
+  }
+ ],
+ "worked_examples": [
+  {
+   "english": "Hall of Light",
+   "name": "Talla an T-solais",
+   "gloss": "talla 'hall' + an 't-solais 'the light' (genitive of solas, masculine, article an with t- is not required for masculine consonant-initial; correct form: Talla an t-Solais is NOT valid; use Talla an Solais)"
+  },
+  {
+   "english": "Court of the King",
+   "name": "Cùirt an Rìgh",
+   "gloss": "cùirt 'court' + an 'the' + rìgh 'king' (genitive = nominative here)"
+  },
+  {
+   "english": "Harper of the Court",
+   "name": "Clàrsair na Cùirte",
+   "gloss": "clàrsair 'harper' + na 'of the (f. gen.)' + cùirte 'court (gen. f.)'"
+  },
+  {
+   "english": "Fort of Peace",
+   "name": "Dùn na Sìthe",
+   "gloss": "dùn 'fort' + na (f. gen. article) + sìthe 'peace (gen. of sìth)'"
+  },
+  {
+   "english": "High King of the Land",
+   "name": "Àrd-rìgh na Tìre",
+   "gloss": "àrd 'high' + rìgh 'king' + na 'of the (f. gen.)' + tìre 'land (gen. of tìr)'"
+  },
+  {
+   "english": "Bard's Seat",
+   "name": "Cathair a' Bhàird",
+   "gloss": "cathair 'seat, chair' + a' 'of the (m. gen. before b-)' + bhàird 'bard (gen. lenited)'"
+  }
+ ],
+ "allowed_graphemes": [
+  "a",
+  "b",
+  "c",
+  "d",
+  "e",
+  "f",
+  "g",
+  "h",
+  "i",
+  "l",
+  "m",
+  "n",
+  "o",
+  "p",
+  "r",
+  "s",
+  "t",
+  "u",
+  "à",
+  "è",
+  "ì",
+  "ò",
+  "ù",
+  "bh",
+  "ch",
+  "dh",
+  "fh",
+  "gh",
+  "mh",
+  "ph",
+  "sh",
+  "th",
+  "ng",
+  "ea",
+  "eo",
+  "ia",
+  "io",
+  "ua",
+  "ai",
+  "ei",
+  "oi",
+  "ui",
+  "ao",
+  "ae",
+  "eu"
+ ],
+ "extra_allowed_chars": " -'",
+ "forbidden_patterns": [
+  "[jkqvwxyz]",
+  "(.)\\1\\1",
+  "[aouàòù][ei]r[eai]\\b(?!an)",
+  "^[bcdfgmnprst]{3,}$",
+  "[bcdfghlmnprst]{4,}",
+  "[éíóúáêîôûäëïöü]",
+  "hh",
+  "bhh",
+  "th[bcdfgmpstl]\\b"
+ ],
+ "syllables_per_word": [
+  2,
+  3,
+  4
+ ],
+ "max_word_length": 14,
+ "sources": [
+  "Gillies, William (ed.), The Gaelic Dictionary of Edward Dwelly (Birlinn, 1994, reprint of 1911 Edward Dwelly, The Illustrated Gaelic-English Dictionary)",
+  "MacBain, Alexander, An Etymological Dictionary of the Gaelic Language (1896)",
+  "Calder, George, A Gaelic Grammar (1923)",
+  "Ó Maolalaigh, Roibeard, and Wilson McLeod (eds.), Faclair na Gàidhlig / Historical Dictionary of Scottish Gaelic (Glasgow University)",
+  "Watson, William J., The Celtic Place-Names of Scotland (1926)",
+  "SQA, Gaelic Orthographic Conventions (2009)",
+  "Gillies, William, 'Scottish Gaelic' in The Celtic Languages (ed. Ball and Müller, Routledge, 2009)",
+  "Thurneysen, Rudolf, A Grammar of Old Irish (1946) and eDIL (electronic Dictionary of the Irish Language) for Classical Gaelic etymology",
+  "Glottolog and ASJP entries for Scottish Gaelic"
+ ],
+ "notes": "The name Solasstàid is not documented history. Treat it as a stylised Gaelic-court label and keep generated names within Scottish Gaelic orthography, using grave accents only (never acute accents, which are Irish). Because the culture is Gaelic by design, vocabulary overlapping with Scottish Gaelic is allowed and expected; the no-identical-to-Gaelic rule applies to non-Goidelic cultures only. Watch the caol ri caol agus leathann ri leathann rule and lenition after the article. In the worked example 'Talla an Solais', the masculine genitive of solas is solais; the article is an (no t- since solas begins with s followed by vowel only in feminine/masculine contexts: masculine an before s takes a t- prefix: use 'an t-solais'? No: for masculine genitive singular the article is an, not an t-). Standard form: Talla an Solais.",
+ "unit": "Solasstàid",
+ "slug": "solasst_id",
+ "model": "claude-sonnet-5-5"
+}

@@ -1,0 +1,184 @@
+{
+ "proxy_language": "Proto-Niger-Congo (shallow-time proxies: Proto-Benue-Congo / Proto-Volta-Congo noun-class morphology, with Proto-Mande and Proto-Atlantic as secondary regional comparanda)",
+ "confidence": "speculative",
+ "proxy_rationale": "Iwo Eleru (Nigeria, c. 16-11 ka) and Ounjougou (Mali, early pottery c. 11-9 ka) are known only archaeologically; the human remains at Iwo Eleru show archaic morphology and no language link can be demonstrated. Modern West African languages are overwhelmingly Niger-Congo (with Mande and Atlantic branches in the west), but their expansion history is debated and almost certainly postdates these foragers or replaced their languages. The most defensible model is therefore a generic Volta-Congo / Niger-Congo word-building template: open CV syllables, noun-class prefix plus root, labial-velar stops, nasal-vowel contrasts. This is an areal approximation, not a claim that these foragers spoke any Niger-Congo language.",
+ "phonology": "Generic Volta-Congo-type inventory: stops /p t k b d g/, labial-velars /kp gb/, affricates /tS dZ/, fricatives /f s h/ (/v z/ in some), nasals /m n J N/, liquids /l r/, glides /w j/; prenasalised stops /mb nd ng/ are common. Vowels: 7-vowel system /i e E a O o u/ (often with ATR harmony in Benue-Congo and Kwa), plus nasalised vowels. Tone is phonemic (2-3 level tones) but is not written in the game orthography.",
+ "phonotactics": "Predominantly open syllables: (C)V, with CCV only as C+glide (kw, gw, ny) or prenasalised stops (mb, nd, ng, nj). No consonant clusters otherwise. No word-final consonants except an optional syllabic or final nasal -n/-m/-ng in some languages; default to vowel-final words. Roots are typically CV, CVCV, or CVCVCV; noun-class prefixes are V or CV (a-, i-, o-, u-, e-, ba-, ma-, mu-, ki-, ku-, etc.). Vowel sequences are rare and are resolved by elision or glide formation.",
+ "orthography": "Latin script following the African Reference Alphabet / Africanist convention: kp, gb, ny, ng (velar nasal as ng), sh, ch (or c) for affricate, j, y for the palatal glide, w, with e/o for mid vowels (open-mid written e/o, no special letters, to keep ASCII-safe). Tone and nasalisation unmarked. Hyphen separates prefix or compound members.",
+ "morphology": "Niger-Congo noun-class system (reconstructed for Proto-Niger-Congo/Proto-Benue-Congo): noun = class prefix + root, singular/plural pairs (e.g. *mu-/*ba- 'person(s)', *ki-/*bi- 'thing(s)', *ma- 'liquids/masses', *ku-/*ma- 'abstract/long things'). Verbs are root + extensions (applicative -il-, causative -is-/-i-, passive -u-w-, reciprocal -an-), with final vowel -a. Reduplication is productive for plurality, intensity and diminution (Mande and Kwa patterns especially). Agent nouns are formed by class prefix plus verb stem plus -i/-a (as in Bantu mu-...-i).",
+ "compounding": "Head-initial genitive/associative constructions in Benue-Congo and Atlantic (head noun + linker + modifier, e.g. N-a-N); head-final (modifier-head) in Mande and Kwa-type compounds. For the game, use head-initial N + linker -a- + N for 'X of Y' and verb-stem + class prefix for 'Y-maker'. Place names are often noun + 'place/house' element (*-ka, *-ni 'place, house').",
+ "noun_phrase_order": "Noun-initial (Benue-Congo, Atlantic): N + adjective + numeral + demonstrative, genitive follows head. Mande exception: genitive precedes head, adjectives follow. Use N-first order by default.",
+ "attested_roots": [
+  {
+   "form": "*-ntu",
+   "gloss": "person (Proto-Bantu/Niger-Congo class 1/2 root)",
+   "reconstructed": true
+  },
+  {
+   "form": "*-ti",
+   "gloss": "tree, wood",
+   "reconstructed": true
+  },
+  {
+   "form": "*-ja / *-nja",
+   "gloss": "dog (widespread Niger-Congo etymon)",
+   "reconstructed": true
+  },
+  {
+   "form": "*-me",
+   "gloss": "water (Proto-Niger-Congo mass-class ma-)",
+   "reconstructed": true
+  },
+  {
+   "form": "*-ka",
+   "gloss": "place, village, home",
+   "reconstructed": true
+  },
+  {
+   "form": "*-nu",
+   "gloss": "mouth",
+   "reconstructed": true
+  },
+  {
+   "form": "*-kpa",
+   "gloss": "hunt, kill (Kwa-area form)",
+   "reconstructed": true
+  },
+  {
+   "form": "*-di",
+   "gloss": "eat",
+   "reconstructed": true
+  },
+  {
+   "form": "*-nu",
+   "gloss": "drink",
+   "reconstructed": true
+  },
+  {
+   "form": "*-ba",
+   "gloss": "come / big (homophonous roots)",
+   "reconstructed": true
+  },
+  {
+   "form": "*-ku",
+   "gloss": "die; death",
+   "reconstructed": true
+  },
+  {
+   "form": "*-jo",
+   "gloss": "fire / burn (Volta-Congo comparanda)",
+   "reconstructed": true
+  },
+  {
+   "form": "*-bu",
+   "gloss": "stone/rock (West Benue-Congo comparanda)",
+   "reconstructed": true
+  },
+  {
+   "form": "*-ni",
+   "gloss": "mother (kin-term etymon)",
+   "reconstructed": true
+  },
+  {
+   "form": "*-ko",
+   "gloss": "hill, shelter",
+   "reconstructed": true
+  }
+ ],
+ "worked_examples": [
+  {
+   "english": "River Stew",
+   "name": "Maji-di-ka",
+   "gloss": "water (ma-ji) + eat (-di) + place/dish (-ka): 'water-eating-place', i.e. water-based dish; forms illustrative, built to the template"
+  },
+  {
+   "english": "Rock Shelter",
+   "name": "Ibu-ko",
+   "gloss": "i- (class prefix) + stone (-bu) + shelter (-ko)"
+  },
+  {
+   "english": "Hunter",
+   "name": "Mukpa-i",
+   "gloss": "mu- (person class 1) + hunt (-kpa) + agent suffix -i"
+  },
+  {
+   "english": "Place of the Elders",
+   "name": "Ka-a-bani",
+   "gloss": "place (ka) + linker (a) + elders (ba-ni, plural of person-root with 'mother/old' root)"
+  },
+  {
+   "english": "Pot of Fire",
+   "name": "Ekpa-a-jo",
+   "gloss": "e- (class prefix, vessel) + kpa (pot, illustrative) + linker a + fire (-jo)"
+  },
+  {
+   "english": "Water People",
+   "name": "Bantu-me",
+   "gloss": "ba-ntu (people, class 2) + me (water): head-initial 'people water', i.e. water people"
+  }
+ ],
+ "allowed_graphemes": [
+  "a",
+  "e",
+  "i",
+  "o",
+  "u",
+  "b",
+  "d",
+  "f",
+  "g",
+  "h",
+  "j",
+  "k",
+  "kp",
+  "gb",
+  "l",
+  "m",
+  "n",
+  "ny",
+  "ng",
+  "mb",
+  "nd",
+  "nj",
+  "p",
+  "r",
+  "s",
+  "sh",
+  "t",
+  "ch",
+  "w",
+  "y",
+  "kw",
+  "gw"
+ ],
+ "extra_allowed_chars": " -",
+ "forbidden_patterns": [
+  "[bcdfghjklmnpqrstvwxyz]{3,}",
+  "[aeiou]{3,}",
+  "[^aeiou ]$",
+  "[cqxz](?!h)",
+  "v",
+  "(?<![kgnm])[ptkbdgs][ptkbdgs]",
+  "(.)\\1\\1",
+  "[bcdfghjklmnprstwy]{2}(?<!kp|gb|ny|ng|mb|nd|nj|sh|ch|kw|gw)$"
+ ],
+ "syllables_per_word": [
+  2,
+  4
+ ],
+ "max_word_length": 14,
+ "sources": [
+  "Williamson & Blench (2000), 'Niger-Congo' in African Languages: An Introduction (Heine & Nurse eds.)",
+  "Bendor-Samuel (ed.) (1989), The Niger-Congo Languages",
+  "Blench, R., Niger-Congo reconstruction working papers (rogerblench.info)",
+  "Meeussen (1967), 'Bantu grammatical reconstructions' (for class-prefix system)",
+  "Childs (2003), An Introduction to African Languages",
+  "Glottolog and ASJP databases (Niger-Congo, Mande, Atlantic branches)",
+  "Eze, Rautenbach et al. / Shaw (1978) and Soper on Iwo Eleru; Huysecom et al. (2004, 2009) on Ounjougou archaeology",
+  "Wiktionary Proto-Niger-Congo and Proto-Bantu reconstruction pages"
+ ],
+ "notes": "No actual language of these foragers is known; the names should read as generic 'West African-flavoured' Niger-Congo-style words, not any specific modern language such as Yoruba, Igbo, Bambara or Dogon. Starred roots are reconstructed or comparative approximations, and the glossed examples are illustrative template builds, not attested words. Avoid word-final consonants, avoid English-looking clusters, and keep tone and special phonetic symbols out of spellings. No word may be identical to a Modern Irish, Scottish Gaelic or Manx word.",
+ "unit": "West African Late Stone Age and early pottery foragers (Iwo Eleru, Ounjougou)",
+ "slug": "west_african_late_stone_age_and_early_pottery_foragers_iwo_eleru_ounjougou",
+ "model": "claude-sonnet-5-5"
+}

@@ -1,0 +1,178 @@
+{
+ "proxy_language": "Proto-Uralic (late reconstruction, Sammallahti/Janhunen/Aikio tradition), as a speculative stand-in for the languages of Final Palaeolithic and Early Mesolithic foragers of the Russian Plain, Volga and Urals",
+ "confidence": "speculative",
+ "proxy_rationale": "The Final Palaeolithic and Early Mesolithic archaeological cultures of the Russian Plain and Urals (Zhokhov-adjacent, Butovo, Volga-Oka, Kama, Trans-Ural Mesolithic) have no direct linguistic record. Proto-Uralic is the best-defended reconstructed language family anchored in the Volga-Kama-Urals forest zone, though it is usually dated to the Neolithic or later (c. 5000-3000 BCE), thousands of years after these foragers. The link is weak: these foragers could have spoken languages now extinct, Uralic precursors, or unrelated Palaeo-European or Siberian languages. Proto-Uralic roots for fauna, fishing and forest life are used as the most defensible phonological and morphological model for a hunter-fisher-gatherer lexicon of this region.",
+ "phonology": "Proto-Uralic reconstruction (Sammallahti 1988; Aikio 2022). Consonants: *p *t *k *c *c' *s *s' *m *n *n' *n-velar *w *l *l' *r *j *d *d' *x. Vowels: *a *e *i *u *o *ä *ü *ə (reduced vowel in non-initial syllables, often written *e or *i). First-syllable vowels are a fuller set; non-initial syllables are restricted to *a *ä *e *i *ə. Vowel harmony is probably early but its reconstruction is debated. Stress is initial.",
+ "phonotactics": "Native roots are typically disyllabic: CVCV (e.g. *kala, *wete, *ńimi). Stem-final vowels (*-a *-ä *-e) are usual, and a few roots end in consonants. Word-initial consonant clusters are absent, and a word begins with a single consonant or a vowel. Medial clusters are permitted, mostly sonorant + stop, nasal + stop, or *ks *kt *lk *nt *mp (e.g. *ńelä, *kunta). No long vowels and no geminate consonants in the reconstruction.",
+ "orthography": "Latin transliteration in standard Uralic Phonetic style, simplified for game use: c for affricate, s for sibilant, ń ś ĺ for palatalised segments, ŋ for the velar nasal, ä ü ö for front vowels, ə for the reduced vowel. Reconstructed forms are marked with an asterisk in scholarly use. In-game names are written without the asterisk.",
+ "morphology": "Agglutinative suffixing, with no prefixes. Nouns take case and number suffixes: *-t plural, *-m accusative, *-n genitive, *-k or *-j nominalisers, *-lA or *-nA locative and ablative-type markers. Verbs take derivational suffixes: *-ktA, *-ntA, *-ma, *-mA deverbal noun, *-jA agent noun (cf. Finnish -ja, Hungarian -ó). Possessive suffixes on nouns: *-m 'my', *-t 'thy', *-s 'his or her'. There are no noun classes or grammatical gender, and no articles. Reduplication is marginal.",
+ "compounding": "Compounds are head-final: modifier + head, with the modifier bare or in the genitive. Typical forms: N + N (e.g. 'fish-lake' = lake with fish), with the head last. Genitive constructions are 'X-n Y' = 'Y of X', with the possessor first and no linker beyond *-n. Agent nouns are built by adding the agent suffix to a verb or noun stem, so 'Y-maker' = Y + verb stem + *-jA. Place names often take a locative or collective suffix, such as *-lA or *-ńa.",
+ "noun_phrase_order": "Modifier before head (adjective + noun, possessor + possessed, numeral + noun); the head noun is last. The verb is final in the clause.",
+ "attested_roots": [
+  {
+   "form": "kala",
+   "gloss": "fish",
+   "reconstructed": true
+  },
+  {
+   "form": "wete",
+   "gloss": "water",
+   "reconstructed": true
+  },
+  {
+   "form": "jäŋə",
+   "gloss": "ice",
+   "reconstructed": true
+  },
+  {
+   "form": "ńimi",
+   "gloss": "name",
+   "reconstructed": true
+  },
+  {
+   "form": "kunta",
+   "gloss": "tribe, community",
+   "reconstructed": true
+  },
+  {
+   "form": "kota",
+   "gloss": "hut, dwelling",
+   "reconstructed": true
+  },
+  {
+   "form": "tule",
+   "gloss": "fire",
+   "reconstructed": true
+  },
+  {
+   "form": "kuŋa",
+   "gloss": "moon, month",
+   "reconstructed": true
+  },
+  {
+   "form": "päjwä",
+   "gloss": "sun, day",
+   "reconstructed": true
+  },
+  {
+   "form": "jëk",
+   "gloss": "river",
+   "reconstructed": true
+  },
+  {
+   "form": "pesä",
+   "gloss": "nest",
+   "reconstructed": true
+  },
+  {
+   "form": "mośa",
+   "gloss": "hill, mountain",
+   "reconstructed": true
+  },
+  {
+   "form": "sewä",
+   "gloss": "lake",
+   "reconstructed": true
+  },
+  {
+   "form": "kuje",
+   "gloss": "fur, hair",
+   "reconstructed": true
+  },
+  {
+   "form": "ńelä",
+   "gloss": "four",
+   "reconstructed": true
+  },
+  {
+   "form": "mukka",
+   "gloss": "fish scale",
+   "reconstructed": true
+  }
+ ],
+ "worked_examples": [
+  {
+   "english": "River Stew",
+   "name": "jëkn kala",
+   "gloss": "jëk-n kala = river-GEN fish (fish of the river)"
+  },
+  {
+   "english": "Temple of the Sun",
+   "name": "päjwän kota",
+   "gloss": "päjwä-n kota = sun-GEN dwelling (dwelling of the sun)"
+  },
+  {
+   "english": "Fish-Spear",
+   "name": "kalatäjä",
+   "gloss": "kala 'fish' + täjä (agentive/instrument stem) = fish-instrument"
+  },
+  {
+   "english": "Ice Lake",
+   "name": "jäŋə sewä",
+   "gloss": "jäŋə 'ice' + sewä 'lake' = ice lake (modifier before head)"
+  },
+  {
+   "english": "Fire Dwellers",
+   "name": "tulen kunta",
+   "gloss": "tule-n kunta = fire-GEN community (community of the fire)"
+  },
+  {
+   "english": "Moon Hill",
+   "name": "kuŋan mośa",
+   "gloss": "kuŋa-n mośa = moon-GEN hill (hill of the moon)"
+  }
+ ],
+ "allowed_graphemes": [
+  "a",
+  "e",
+  "i",
+  "o",
+  "u",
+  "ä",
+  "ö",
+  "ü",
+  "ə",
+  "p",
+  "t",
+  "k",
+  "c",
+  "s",
+  "ś",
+  "m",
+  "n",
+  "ń",
+  "ŋ",
+  "w",
+  "j",
+  "l",
+  "ĺ",
+  "r",
+  "d",
+  "x"
+ ],
+ "extra_allowed_chars": " -",
+ "forbidden_patterns": [
+  "^[ptkcsśmnńŋwjlĺrdx]{2,}",
+  "(.)\\1",
+  "[bfgqvyz]",
+  "[aeiouäöüə]{3,}"
+ ],
+ "syllables_per_word": [
+  2,
+  3
+ ],
+ "max_word_length": 14,
+ "sources": [
+  "Sammallahti, Pekka. 1988. Historical phonology of the Uralic languages. In The Uralic Languages, ed. Denis Sinor",
+  "Janhunen, Juha. 1981. Uralilaisen kantakielen sanastosta. Journal de la Societe Finno-Ougrienne 77",
+  "Rédei, Károly. 1986-1988. Uralisches etymologisches Wörterbuch. Harrassowitz",
+  "Aikio, Ante. 2022. Proto-Uralic. In The Oxford Guide to the Uralic Languages",
+  "Starling database, Uralic Etymology (starling.rinet.ru)",
+  "Wiktionary Proto-Uralic reconstruction pages",
+  "Glottolog entry for Uralic"
+ ],
+ "notes": "Speculative proxy. Proto-Uralic is not securely linked to Final Palaeolithic or Early Mesolithic foragers; the real languages of these populations are unknown and may be unrelated. Names should be built from Proto-Uralic-style roots as a plausible, internally consistent flavour only. No word may be identical to a Modern Irish, Scottish Gaelic or Manx word, since the language is not Goidelic. Current game strings (Cuhalak ninuk, Hilic silsi) violate the phonotactics: they use h, ch-like clusters and word-initial syllable shapes outside the reconstruction, and should be replaced with CVCV-based forms.",
+ "unit": "Russian Plain, Volga and Urals Final Palaeolithic and Early Mesolithic foragers",
+ "slug": "russian_plain_volga_and_urals_final_palaeolithic_and_early_mesolithic_foragers",
+ "model": "claude-sonnet-5-5"
+}

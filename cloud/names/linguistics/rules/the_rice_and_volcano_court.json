@@ -1,0 +1,187 @@
+{
+ "proxy_language": "Old Javanese (Kawi), with Austronesian (Proto-Malayo-Polynesian) background; Old Balinese as secondary",
+ "confidence": "medium",
+ "proxy_rationale": "The label combines wet-rice and volcanic court polities of Java/Bali (Mataram, Kediri, Majapahit, Bali) with Vietnam and Indonesia generally. Old Javanese is richly attested in inscriptions and kakawin literature (8th-15th c.) and is the best-documented court language of the region. Vietnamese court language (Chinese/Sino-Vietnamese plus Vietic) is a different family and is not covered here; the Vietnam component is therefore only loosely represented. Names also include Sanskrit-derived court vocabulary, which is authentic for Old Javanese courts.",
+ "phonology": "Vowels: a, i, u, e (schwa, written e or e-acute), o, plus Sanskrit-derived long vowels (a-macron, i-macron, u-macron) and ai, au. Consonants: stops p b t d c j k g (with Sanskrit-derived aspirates kh gh th dh ph bh and retroflexes in learned words); nasals m n ng ny; fricatives s, h (plus learned sh); liquids r l; glides w y. Old Javanese distinguishes dental and retroflex series in inherited and Sanskrit-derived words (t/d vs. retroflex).",
+ "phonotactics": "Native roots are mostly disyllabic, shapes (C)V(C)CV(C) with CVCVC and CVCCVC common. Final consonants allowed in native words: -k, -t, -p, -m, -n, -ng, -r, -l, -s, -h, -w, -y (final voiced stops devoice or are avoided in native roots). Clusters inside words are homorganic nasal+stop (mb, nd, nj, ngg are common spelling in Modern Javanese) or r/l/s + C; word-initial clusters occur mainly in Sanskrit loans (e.g. sri, prabu, kr-, tr-). Penultimate stress; schwa common in open penultimate syllables.",
+ "orthography": "Scholarly Latin transliteration of Old Javanese/Kawi script (Zoetmulder convention): ng, ny, c, j, e for schwa (e-acute in some editions), diacritics for Sanskrit long vowels (a-macron etc.) and retroflexes (dotted letters) in learned terms. Modern-style romanisation also acceptable: c = ch, j = j, y = y, ng, ny; u not v; w not v.",
+ "morphology": "Agglutinative with affixation: prefixes ma- (verb/stative), mang-/ang- (active verbal with nasal assimilation), pa-/pang- (agent/instrument/place nouns, e.g. pa-...-an place), ka-, sa- (one/all), tang-, a-; suffixes -an (place/result/collective), -a, -i, -ana (applicative), -ing / -ning (genitive/definite linker after vowel/consonant), -nya (3sg poss.). Infixes -um- (active), -in- (passive), -el-/-er- (plural/intensive, rare). Reduplication is productive (full or partial) for plural/intensity. No noun classes, case or tone. Titles and honorifics: sang, sri, mpu, rakai, dyah, haji, ratu, bhatara/bhatari.",
+ "compounding": "Head-initial: modifier follows head. Genitive 'X of Y' is X + Y directly or with the linker -ning/-ing (X-ning Y), e.g. 'lord of the mountain' = sang hyang giri / prabu ning gunung. Agent/maker names use pa-/pang- prefix (pandai 'smith', pamangku, pangiwa) or tuha/mpu + noun (mpu gandring 'master of ...'). Place names use pa-...-an or Sanskrit -pura/-nagara/-dwipa/-giri/-wana compounds (Sanskrit compounds are head-final: Singasari, Dwipantara).",
+ "noun_phrase_order": "Head noun + modifier (adjective, possessor, demonstrative follow): banyu wening 'clear water'; gunung agung 'great mountain'; wwang ika 'that person'. Numerals precede the noun (rwa wwang 'two people'). Titles precede the personal name (sang ..., sri ...).",
+ "attested_roots": [
+  {
+   "form": "gunung",
+   "gloss": "mountain, volcano",
+   "reconstructed": false
+  },
+  {
+   "form": "giri",
+   "gloss": "mountain (Sanskrit loan)",
+   "reconstructed": false
+  },
+  {
+   "form": "banyu",
+   "gloss": "water",
+   "reconstructed": false
+  },
+  {
+   "form": "toya",
+   "gloss": "water (Sanskrit loan, poetic)",
+   "reconstructed": false
+  },
+  {
+   "form": "pari",
+   "gloss": "unhusked rice, paddy",
+   "reconstructed": false
+  },
+  {
+   "form": "sawah",
+   "gloss": "wet-rice field",
+   "reconstructed": false
+  },
+  {
+   "form": "tahun",
+   "gloss": "year, harvest",
+   "reconstructed": false
+  },
+  {
+   "form": "dewi",
+   "gloss": "goddess",
+   "reconstructed": false
+  },
+  {
+   "form": "bhatara",
+   "gloss": "lord, deity",
+   "reconstructed": false
+  },
+  {
+   "form": "ratu",
+   "gloss": "ruler, queen",
+   "reconstructed": false
+  },
+  {
+   "form": "nagara",
+   "gloss": "realm, capital",
+   "reconstructed": false
+  },
+  {
+   "form": "hyang",
+   "gloss": "divine spirit",
+   "reconstructed": false
+  },
+  {
+   "form": "api",
+   "gloss": "fire",
+   "reconstructed": false
+  },
+  {
+   "form": "wulan",
+   "gloss": "moon",
+   "reconstructed": false
+  },
+  {
+   "form": "surya",
+   "gloss": "sun (Sanskrit loan)",
+   "reconstructed": false
+  },
+  {
+   "form": "prahu",
+   "gloss": "boat, ship",
+   "reconstructed": false
+  }
+ ],
+ "worked_examples": [
+  {
+   "english": "Mountain of Fire",
+   "name": "Gunung Api",
+   "gloss": "gunung 'mountain' + api 'fire' (head-initial)"
+  },
+  {
+   "english": "Rice Goddess",
+   "name": "Dewi Pari",
+   "gloss": "dewi 'goddess' + pari 'rice'"
+  },
+  {
+   "english": "Lord of the Mountain",
+   "name": "Bhatara ning Giri",
+   "gloss": "bhatara 'lord' + ning linker + giri 'mountain'"
+  },
+  {
+   "english": "Place of Rice-fields",
+   "name": "Pasawahan",
+   "gloss": "pa- place prefix + sawah 'rice field' + -an"
+  },
+  {
+   "english": "Moon Ship",
+   "name": "Prahu Wulan",
+   "gloss": "prahu 'boat' + wulan 'moon'"
+  },
+  {
+   "english": "Temple of the Sun",
+   "name": "Candi Surya",
+   "gloss": "candi 'temple' + surya 'sun'"
+  }
+ ],
+ "allowed_graphemes": [
+  "a",
+  "i",
+  "u",
+  "e",
+  "o",
+  "b",
+  "c",
+  "d",
+  "g",
+  "h",
+  "j",
+  "k",
+  "l",
+  "m",
+  "n",
+  "p",
+  "r",
+  "s",
+  "t",
+  "w",
+  "y",
+  "ng",
+  "ny",
+  "dh",
+  "th",
+  "bh",
+  "gh",
+  "kh",
+  "sh"
+ ],
+ "extra_allowed_chars": " -'āīūé",
+ "forbidden_patterns": [
+  "[fqvxz]",
+  "(.)\\1\\1",
+  "ae",
+  "oe",
+  "ii",
+  "uu",
+  "[aeiou]{3}",
+  "^ng[^aeiou]",
+  "(?:ky|gy|py|by)"
+ ],
+ "syllables_per_word": [
+  2,
+  3,
+  4
+ ],
+ "max_word_length": 14,
+ "sources": [
+  "Zoetmulder, Old Javanese-English Dictionary (1982)",
+  "Zoetmulder, Kalangwan: A Survey of Old Javanese Literature (1974)",
+  "Uhlenbeck, A Critical Survey of Studies on the Languages of Java and Madura (1964)",
+  "Adelaar and Himmelmann (eds.), The Austronesian Languages of Asia and Madagascar (2005)",
+  "Austronesian Basic Vocabulary Database (ABVD)",
+  "Wiktionary Proto-Malayo-Polynesian reconstruction pages",
+  "Glottolog entry: Old Javanese"
+ ],
+ "notes": "Vietnamese court naming (Sino-Vietnamese, Vietic) is outside this proxy; if a Vietnam flavour is wanted, use a separate Sino-Vietnamese layer, not Old Javanese. Sanskrit loans (giri, surya, dewi, bhatara, nagara) are authentic court vocabulary. No word may be identical to a Modern Irish, Scottish Gaelic or Manx word unless the language is Goidelic.",
+ "unit": "The Rice-and-Volcano Court",
+ "slug": "the_rice_and_volcano_court",
+ "model": "claude-sonnet-5-5"
+}

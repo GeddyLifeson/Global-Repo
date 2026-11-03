@@ -1,0 +1,195 @@
+{
+ "proxy_language": "Phoenician (Canaanite, Northwest Semitic), Iron Age Tyre/Sidon/Byblos; Ugaritic as supporting evidence for Late Bronze Age coastal Levant",
+ "confidence": "medium",
+ "proxy_rationale": "Levant and Phoenicia as a later court points to Iron Age Phoenician city-states. Phoenician is attested through inscriptions (Byblos, Tyre, Sidon, Carthage), personal names, and Greek and Akkadian transcriptions. It is an unvocalized abjad, so vowels are reconstructed from Hebrew, Ugaritic, Akkadian and Greek transcriptions and from Punic in Latin script. Ugaritic (a Late Bronze Age neighbor) adds vocalized evidence and mythological vocabulary. Confidence is medium because Phoenician vowels are inferred.",
+ "phonology": "Consonants (Phoenician abjad, 22 letters): glottal stop ʾ, b, g, d, h, w, z, ḥ, ṭ, y, k, l, m, n, s, ʿ, p, ṣ, q, r, š, t. Emphatics ṭ ṣ q; pharyngeals ḥ ʿ; fricative allophones of stops likely. Ugaritic additionally keeps ḫ, ġ, ḏ, ṯ, ẓ, which merged in Phoenician (ḏ>z, ṯ>š, ẓ>ṣ, ḫ>ḥ, ġ>ʿ). Vowels: a, i, u, e, o (Canaanite shift: long ā > ō, so Phoenician shows o where Hebrew has ō, e.g. šalōm, ʾadōn). Vowel length contrastive in the reconstruction. Final short vowels case endings lost by the first millennium BC.",
+ "phonotactics": "Native syllables are CV, CVC, CVV; no word-initial vowels (initial glottal stop or ʿ is written); no initial clusters in the reconstructed forms (prothetic or epenthetic vowel is used). Triconsonantal roots with templatic vowels; medial and final clusters are limited to two consonants, geminates allowed (bb, dd, ll, mm, nn, rr, ṣṣ, tt). Words typically end in a consonant, with feminine -t, plural -m or -t, and dual -ēm. Stress is generally on the final or penultimate syllable.",
+ "orthography": "Use standard scholarly transliteration: ʾ and ʿ as apostrophe-like marks, ḥ ṭ ṣ š with dots and carons, q for emphatic k. For a Latin-only audit, ASCII fallbacks: ' for ʾ and ʿ, h for ḥ, t for ṭ, s for ṣ, sh for š. Vowels are supplied by convention (a i u e o, long vowels marked with macrons optionally). Compounds and construct chains are written as separate words, or joined with a hyphen in transliteration.",
+ "morphology": "Root-and-pattern Semitic morphology: triconsonantal roots (e.g. mlk, ʿbd, ʾdn, bʿl, ṣdq). Nouns have masculine (zero) and feminine (-t) gender, singular, dual (-ēm) and plural (-īm masc., -ōt fem.) number; case is lost in first millennium Phoenician. Definite article h- prefixed (with gemination in the following consonant) is attested in Phoenician (e.g. hmlk the king). Prepositional prefixes b- (in), l- (to, for), k- (as), m- (from). Verbal prefix and suffix conjugations. Divine names often form theophoric personal names with a verb or noun plus a god name.",
+ "compounding": "Genitive is expressed by the construct state (head noun first, bare, then dependent noun), e.g. bt ʾl house of god, ʿbd-mlqrt servant of Melqart. Alternatively with the relative particle ʾš (that of). Personal and place names are built as verbal or nominal sentences plus a divine name: ʿAbd-X (servant of X), Ḥanni-baʿal (Baal has favored), ʾEšmun-ʿazar (Eshmun helps), ʾAdon-baʿal. Place names often take Qart- (city of) or Kār- (harbor, quay) plus a qualifier (Qart-ḥadašt new city, Carthage). Titles: bn son of, bt daughter of, ʾdn lord of, rb chief of, ʿm people of.",
+ "noun_phrase_order": "Head noun first, then modifier. Adjectives follow nouns and agree in gender, number and definiteness (e.g. qrt ḥdšt new city). Construct chains run head to dependent: [head][genitive]. Numerals precede or follow with special agreement rules. Demonstratives follow the noun.",
+ "attested_roots": [
+  {
+   "form": "baʿl",
+   "gloss": "lord, master; the god Baal",
+   "reconstructed": false
+  },
+  {
+   "form": "melek",
+   "gloss": "king (mlk)",
+   "reconstructed": false
+  },
+  {
+   "form": "ʿabd",
+   "gloss": "servant, slave",
+   "reconstructed": false
+  },
+  {
+   "form": "ʾadon",
+   "gloss": "lord (ʾdn)",
+   "reconstructed": false
+  },
+  {
+   "form": "qart",
+   "gloss": "city (qrt)",
+   "reconstructed": false
+  },
+  {
+   "form": "bayt",
+   "gloss": "house, temple (bt)",
+   "reconstructed": false
+  },
+  {
+   "form": "ʾel",
+   "gloss": "god (ʾl)",
+   "reconstructed": false
+  },
+  {
+   "form": "ʾelat",
+   "gloss": "goddess",
+   "reconstructed": false
+  },
+  {
+   "form": "yam",
+   "gloss": "sea (ym)",
+   "reconstructed": false
+  },
+  {
+   "form": "ʾars",
+   "gloss": "earth, land (ʾrṣ)",
+   "reconstructed": false
+  },
+  {
+   "form": "šamem",
+   "gloss": "heavens, sky (šmm)",
+   "reconstructed": false
+  },
+  {
+   "form": "ṣor",
+   "gloss": "rock; Tyre (ṣr)",
+   "reconstructed": false
+  },
+  {
+   "form": "ṣidon",
+   "gloss": "Sidon (ṣdn), fishing place",
+   "reconstructed": false
+  },
+  {
+   "form": "ḥadaš",
+   "gloss": "new (ḥdš)",
+   "reconstructed": false
+  },
+  {
+   "form": "ʿaz",
+   "gloss": "strong (ʿz)",
+   "reconstructed": false
+  },
+  {
+   "form": "šemeš",
+   "gloss": "sun (šmš)",
+   "reconstructed": false
+  },
+  {
+   "form": "melqart",
+   "gloss": "king of the city; Tyrian god",
+   "reconstructed": false
+  },
+  {
+   "form": "ʿaštart",
+   "gloss": "Astarte, goddess",
+   "reconstructed": false
+  }
+ ],
+ "worked_examples": [
+  {
+   "english": "Temple of the Sun",
+   "name": "Bayt Šemeš",
+   "gloss": "bayt house + šemeš sun (construct chain, head first)"
+  },
+  {
+   "english": "New Harbor",
+   "name": "Kar Ḥadaš",
+   "gloss": "kar harbor, quay + ḥadaš new (noun then adjective)"
+  },
+  {
+   "english": "Servant of Baal",
+   "name": "ʿAbd-Baʿl",
+   "gloss": "ʿabd servant + baʿl Baal (theophoric construct)"
+  },
+  {
+   "english": "City of the Sea",
+   "name": "Qart Yam",
+   "gloss": "qart city + yam sea"
+  },
+  {
+   "english": "Lord of the Sky",
+   "name": "ʾAdon Šamem",
+   "gloss": "ʾadon lord + šamem sky (construct)"
+  },
+  {
+   "english": "Ship of Astarte",
+   "name": "ʾAniyat ʿAštart",
+   "gloss": "ʾaniyat ship (fem. noun, from ʾny) + ʿaštart Astarte"
+  }
+ ],
+ "allowed_graphemes": [
+  "a",
+  "b",
+  "d",
+  "e",
+  "g",
+  "h",
+  "i",
+  "k",
+  "l",
+  "m",
+  "n",
+  "o",
+  "p",
+  "q",
+  "r",
+  "s",
+  "sh",
+  "t",
+  "u",
+  "w",
+  "y",
+  "z",
+  "th",
+  "kh"
+ ],
+ "extra_allowed_chars": " -'ʾʿāēīōūḥṭṣš",
+ "forbidden_patterns": [
+  "c",
+  "v",
+  "x",
+  "f",
+  "j",
+  "ch",
+  "ph",
+  "(.)\\1\\1",
+  "[aeiou]{3}",
+  "^[bdgkpqtrsmnlwyz]{2}",
+  "[bdgkpqtrsmnlwyz]{3}"
+ ],
+ "syllables_per_word": [
+  2,
+  3
+ ],
+ "max_word_length": 14,
+ "sources": [
+  "Krahmalkov, Charles R., A Phoenician-Punic Grammar, 2001",
+  "Segert, Stanislav, A Grammar of Phoenician and Punic, 1976",
+  "Friedrich, Johannes and Rollig, Wolfgang, Phonizisch-Punische Grammatik, 1999",
+  "Tomback, Richard S., A Comparative Semitic Lexicon of the Phoenician and Punic Languages, 1978",
+  "Hoftijzer, Jacob and Jongeling, Karel, Dictionary of the North-West Semitic Inscriptions, 1995",
+  "Benz, Frank L., Personal Names in the Phoenician and Punic Inscriptions, 1972",
+  "Huehnergard, John, Ugaritic Vocabulary in Syllabic Transcription, 1987",
+  "Del Olmo Lete, Gregorio and Sanmartin, Joaquin, A Dictionary of the Ugaritic Language in the Alphabetic Tradition, 2003",
+  "Glottolog: Phoenician; Starling Semitic etymology database"
+ ],
+ "notes": "No word may be identical to a Modern Irish, Scottish Gaelic or Manx word, since Phoenician is not Goidelic. Vowels are reconstructed and should be treated as conventional. The current game names (Payakaza, Gantana, Maqaqaya) do not fit Semitic phonotactics; Hadadan could be repaired to Hadad (the storm god), and Radaya has no clear Semitic root. Prefer consonant-final names built from construct chains and theophoric elements.",
+ "unit": "The Sea-Coast Court",
+ "slug": "the_sea_coast_court",
+ "model": "claude-sonnet-5-5"
+}

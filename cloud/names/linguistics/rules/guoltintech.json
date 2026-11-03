@@ -1,0 +1,194 @@
+{
+ "proxy_language": "Old Welsh / Brittonic (Common Brittonic to Old Welsh stage) as a speculative proxy; 'Guoltintech' itself is not a securely attested language",
+ "confidence": "speculative",
+ "proxy_rationale": "'Guoltintech' is not an attested language or ethnonym I can securely identify. The spelling with initial Guo- and final -tech/-tec resembles Old Welsh/Old Breton/Old Cornish orthography (guo- for later gwo-/gw-, -tec 'fair', Old Cornish/Breton tec, teg in Welsh), and 'guolt-' resembles Old Welsh guelt/gwallt 'hair' or guolt. The best defensible proxy is therefore Old Brittonic (Old Welsh c. 800-1100, Old Breton, Old Cornish) as a late court language of western Europe. The link is weak and based only on spelling; the current game names (Copod cila, Camari fusur, Hirgi, Tibep, Hidas, Kowu) show no Brittonic structure and should be replaced. If the studio intends a different language, this proxy should be revised.",
+ "phonology": "Old Welsh/Brittonic consonants: stops p t c(k) b d g; fricatives f(v) th(/θ/) dd(/ð/) s ch(/x/) h; nasals m n; liquids l r (with voiceless rh, ll forms); semivowels w, i. Old orthography: c for /k/ everywhere, d for both /d/ and /ð/, t for /t/ and /θ/ (th appears), u for /v/ or /i/ in some positions, gu- for /gw/ (later gw-), uu for /w/. Vowels: a e i o u w y (Old Welsh y ~ /ɨ/ or /ə/), with long/short distinction; diphthongs ai au ei eu oe ou aw ew iw uw yw. Stress penultimate in Old Welsh and Old Cornish/Breton (final stress is a Breton/Cornish-specific shift not applicable to early forms).",
+ "phonotactics": "Syllable (C)(C)V(C)(C); initial clusters limited (gw-, cr-, cl-, gr-, bl-, br-, tr-, dr-, pr-, pl-, cn-, gl-, sc-, st-, sp-). Word-final clusters like -nt, -lt, -rt, -nc, -rch, -nd, -ld, -st occur. No native word begins with ng, mb, nd as clusters in Old Welsh; voiceless stops and fricatives common in codas. Lenition (soft mutation) alters initial consonants after particles/in compounds (c>g, p>b, t>d, g>zero, b>f, d>dd, m>f, ll>l, rh>r). Native words almost never contain j, k, q, v, x, z in early orthography (v only as u).",
+ "orthography": "Use conventional Old Welsh/Brittonic spelling in Latin letters: c not k; gu or gw for /gw/; u for /v/ medially; d/dd; ch /x/; th /θ/; ll, rh; vowels a e i o u w y; digraphs ae oe ei ou. Hyphens only in compounds if needed; apostrophes not used; no diacritics in the early forms (circumflex only optional in Modern Welsh for long vowels).",
+ "morphology": "Highly inflectional historically but nominal case lost in Brittonic; two genders (masc/fem), plural by internal vowel change (affection) or suffixes (-ion, -oed, -ed, -on, -ydd, -au later). Adjectives follow nouns and agree with feminine nouns by soft mutation; verbs have personal endings. Common derivational suffixes: -ant, -wr (man), -ydd, -fa (place), -dre (home/town component), -in/-ig (diminutive), -og (having/full of), -wr agent, -edd/-ydd abstract; prefixes go- (under), ar-, di- (without), an-, cyf-/cy- (together), ym-, ad-, ail-, tra-.",
+ "compounding": "Brittonic compounds are head-final in the older Celtic prefix-modifier pattern (e.g., modifier + head: cyf- + gwlad; pen- + dre), but the productive nominal phrase puts the modifying element after the head. Genitive relations are expressed by juxtaposition without an article: head + dependent (e.g., llys brenin 'court of a king', porth y mor 'port of the sea'). Place-names of the type 'fort/enclosure of X' use caer/din/dinas + personal name or feature; 'X-maker' formed with agent suffix -wr or element gwr/gof 'smith' (gof haearn). Compounds often lenite the second element (e.g., gwyn + tir > gwyndir), with linking vowel o/y/i frequently inserted.",
+ "noun_phrase_order": "Noun + adjective (e.g., tir mawr 'great land'); noun + genitive noun (llys y brenin 'the king's court'); article y/yr/'r precedes noun; demonstratives and numerals precede or follow depending on word (numerals precede: tri gwr). Possessor follows possessed.",
+ "attested_roots": [
+  {
+   "form": "caer",
+   "gloss": "fort, fortified town",
+   "reconstructed": false
+  },
+  {
+   "form": "din",
+   "gloss": "fort, hillfort",
+   "reconstructed": false
+  },
+  {
+   "form": "llys",
+   "gloss": "court, hall",
+   "reconstructed": false
+  },
+  {
+   "form": "tir",
+   "gloss": "land",
+   "reconstructed": false
+  },
+  {
+   "form": "mor",
+   "gloss": "sea",
+   "reconstructed": false
+  },
+  {
+   "form": "coed",
+   "gloss": "wood, forest",
+   "reconstructed": false
+  },
+  {
+   "form": "maen",
+   "gloss": "stone",
+   "reconstructed": false
+  },
+  {
+   "form": "pen",
+   "gloss": "head, top, chief",
+   "reconstructed": false
+  },
+  {
+   "form": "tre",
+   "gloss": "homestead, town",
+   "reconstructed": false
+  },
+  {
+   "form": "gwr",
+   "gloss": "man",
+   "reconstructed": false
+  },
+  {
+   "form": "brenin",
+   "gloss": "king",
+   "reconstructed": false
+  },
+  {
+   "form": "haul",
+   "gloss": "sun",
+   "reconstructed": false
+  },
+  {
+   "form": "lleuad",
+   "gloss": "moon",
+   "reconstructed": false
+  },
+  {
+   "form": "tan",
+   "gloss": "fire",
+   "reconstructed": false
+  },
+  {
+   "form": "dwfr",
+   "gloss": "water (Old Welsh dubr, dwfr)",
+   "reconstructed": false
+  },
+  {
+   "form": "teg",
+   "gloss": "fair, beautiful (Old Welsh tec)",
+   "reconstructed": false
+  }
+ ],
+ "worked_examples": [
+  {
+   "english": "Court of the Sun",
+   "name": "Llys Haul",
+   "gloss": "llys 'court' + haul 'sun' (head + dependent genitive, no article)"
+  },
+  {
+   "english": "Fair Fort",
+   "name": "Caer Dec",
+   "gloss": "caer 'fort' + tec/teg 'fair' (noun + adjective, old spelling tec)"
+  },
+  {
+   "english": "Stone of the King",
+   "name": "Maen Brenin",
+   "gloss": "maen 'stone' + brenin 'king' (head + genitive)"
+  },
+  {
+   "english": "Sea Hall",
+   "name": "Llys Mor",
+   "gloss": "llys 'court/hall' + mor 'sea'"
+  },
+  {
+   "english": "Head of the Wood",
+   "name": "Pen Coed",
+   "gloss": "pen 'head, end' + coed 'wood' (common place-name pattern)"
+  },
+  {
+   "english": "Fire Smith",
+   "name": "Gof Tan",
+   "gloss": "gof 'smith' + tan 'fire' (head + dependent)"
+  }
+ ],
+ "allowed_graphemes": [
+  "a",
+  "b",
+  "c",
+  "d",
+  "dd",
+  "e",
+  "f",
+  "ff",
+  "g",
+  "gu",
+  "gw",
+  "h",
+  "i",
+  "l",
+  "ll",
+  "m",
+  "n",
+  "o",
+  "p",
+  "r",
+  "rh",
+  "s",
+  "t",
+  "th",
+  "u",
+  "w",
+  "y",
+  "ch",
+  "ae",
+  "ei",
+  "oe",
+  "ou",
+  "au",
+  "aw"
+ ],
+ "extra_allowed_chars": " -",
+ "forbidden_patterns": [
+  "[kqxzj]",
+  "v",
+  "(.)\\1\\1",
+  "[aeiouwy]{4,}",
+  "[^aeiouwy ]{5,}",
+  "^ng",
+  "^mb",
+  "^nd",
+  "ph",
+  "sh"
+ ],
+ "syllables_per_word": [
+  1,
+  2,
+  3
+ ],
+ "max_word_length": 14,
+ "sources": [
+  "Morris-Jones, J., A Welsh Grammar: Historical and Comparative (1913)",
+  "Jackson, K. H., Language and History in Early Britain (1953)",
+  "Schrijver, Peter, Studies in British Celtic Historical Phonology (1995)",
+  "Falileyev, Alexander, Etymological Glossary of Old Welsh (2000)",
+  "Geiriadur Prifysgol Cymru (Dictionary of the Welsh Language)",
+  "Matasovic, Ranko, Etymological Dictionary of Proto-Celtic (2009)",
+  "Glottolog entry for Old Welsh / Brittonic",
+  "Wiktionary reconstruction pages for Proto-Brittonic and Proto-Celtic"
+ ],
+ "notes": "The label 'Guoltintech' is not an attested language, so this entry is a speculative Old Brittonic (chiefly Old Welsh) proxy based only on the orthographic form (guo-, -tec). No word may be identical to a Modern Irish, Scottish Gaelic or Manx word unless the language is Goidelic; Brittonic is P-Celtic, so avoid Goidelic Q-forms (use p- where Goidelic has c-, e.g. pen not ceann). Replace the current game names, which show no Brittonic structure.",
+ "unit": "Guoltintech",
+ "slug": "guoltintech",
+ "model": "claude-sonnet-5-5"
+}
