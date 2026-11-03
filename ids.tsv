@@ -314,3 +314,4 @@ S0313	cloud	compat/gen_tags.py
 S0314	cloud	compat/gen_rules_api.py
 S0315	cloud	compat/gen_data.py
 S0316	cloud	compat/gen_recipes.py
+S0317	cloud	compat/gen_station_moves.py

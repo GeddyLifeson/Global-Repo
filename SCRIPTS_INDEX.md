@@ -324,3 +324,4 @@ Run hints: .py `python3 <file>` (PC `py`), .ps1 via a hidden launcher (never a v
 | S0314 | cloud | `compat/gen_rules_api.py` | Ask Haiku (direct parallel cached calls) which blocks per mod are working blocks, with slots, kinds, units, Age. | yes |
 | S0315 | cloud | `compat/gen_data.py` | Build the compat datapack: upgrade shim rules, unit stores, Age gaps, Codex and quest links per mod. | yes |
 | S0316 | cloud | `compat/gen_recipes.py` | Add load conditions to recipes naming absent mods and cross-mod dust/raw smelting to the shared ingot. | yes |
+| S0317 | cloud | `compat/gen_station_moves.py` | Move non-trivial vanilla and kept-mod grid recipes onto the Age ladder of stations with a fallback grid recipe. | yes |
