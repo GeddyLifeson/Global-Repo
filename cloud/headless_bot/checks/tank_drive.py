@@ -20,6 +20,11 @@ with Lane('tank', JARS, srv_xmx='3G', out=out) as L:
     pos = S('data get entity @e[type=mts:builder_existing,limit=1,sort=nearest] Pos', 1); rep['veh_pos'] = pos
     m = re.search(r'\[(-?[\d.]+)d, (-?[\d.]+)d, (-?[\d.]+)d\]', ' '.join(pos)); vx, vy, vz = (float(m[1]), float(m[2]), float(m[3])) if m else (0.5, -60, 2.5)
     import re
+    rep['entity_data_600'] = ''.join(S('data get entity @e[type=mts:builder_existing,limit=1,sort=nearest]', 1.5))[:900]
+    # instrument item on the hull: stand 3 blocks off the hull side, aim at it, right-click with mts:diaithirtanks.speedo in hand
+    S('item replace entity Tester hotbar.1 with mts:diaithirtanks.speedo'); S(f'tp Tester {vx + 3.0:.2f} {vy:.2f} {vz:.2f} 90 20', 0.8); d.key('2'); time.sleep(0.5); d.key('r'); time.sleep(1.5); L.shot('01b_speedo_on_hull.png')
+    rep['after_speedo_click'] = S('data get entity @e[type=mts:builder_existing,limit=1,sort=nearest]', 1.5)[0][-400:] if True else ''
+    S('item replace entity Tester hotbar.1 with minecraft:air'); d.key('1'); time.sleep(0.4)
     # scan: ring around the vehicle, aim at points up the hull, empty hand, R, test RootVehicle
     for r in ((3.0, 5.0, 2.0) if not mounted else ()):
         for ang in range(0, 360, 45):
@@ -35,7 +40,7 @@ with Lane('tank', JARS, srv_xmx='3G', out=out) as L:
         rep['pos_before'] = S('data get entity @e[type=mts:builder_existing,limit=1,sort=nearest] Pos', 0.8)
         rep['start_cmd'] = S('execute as Tester run diaithirvehicle start', 1.5); time.sleep(1); L.shot('02a_after_start.png')
         VP = "data get entity @e[type=mts:builder_existing,limit=1,sort=nearest] Pos"
-        DV = lambda c, w=1.2: S('execute as Tester run diaithirvehicle ' + c, w)
+        DV = lambda c, w=1.2: S('execute as Tester at Tester run diaithirvehicle ' + c, w)
         rep['seat_pos'] = S('data get entity Tester Pos', 0.6)
         rep['start'] = DV('start'); time.sleep(1.5); rep['status_after_start'] = DV('status'); L.shot('02_hud_after_start.png')
         d.key('n'); time.sleep(0.5)
