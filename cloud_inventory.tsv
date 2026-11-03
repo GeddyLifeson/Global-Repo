@@ -326,3 +326,4 @@ world-checks/scan.py	5155	"Scan Tellus region files: per-column ground Y, snow c
 world-checks/sites.py	1510	R = 111319.49166666667 * 180 / math.pi	yes
 world-checks/snow.py	2642	"Snowline check: snow cover fraction by elevation band vs the Age I line (EraMath.age1SnowlineMeters)."""""""	yes
 diaithir-ports/diaithir-worldgen-structures/tools/lib_sites.py	16768	Turns the 44,015 Panscriptum STRUCTURE entries into jigsaw sites: lectern plaque with the entry text verbatim, class buildings, structures and sets per planet.	yes
+tools/mc_fake_player_bot.py	2665	Headless fake player for Minecraft 26.1.2 servers (login, keep-alive, chunk batch, teleport confirm) so spawners and altars can be triggered in cloud tests.	yes
