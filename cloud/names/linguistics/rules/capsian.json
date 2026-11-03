@@ -1,0 +1,187 @@
+{
+ "proxy_language": "Proto-Berber (Proto-Amazigh / Proto-Libyco-Berber), with Proto-Afroasiatic roots as a deeper fallback",
+ "confidence": "low",
+ "proxy_rationale": "The Capsian (c. 10,000-6,000 BCE, Algeria/Tunisia, escargotieres) left no texts. The most defensible proxy is Proto-Berber, the ancestor of the Amazigh languages (Tamazight, Tashelhit, Kabyle, Tuareg, Zenaga, Siwi), spoken in exactly this region. Proto-Berber is only reconstructed to roughly the last 3-4 millennia, so its link to the Capsian is speculative; some scholars (e.g. Camps, Ehret) propose Capsian people as ancestors of Berber speakers, but this is contested. Afroasiatic roots (Semitic, Egyptian, Cushitic cognates) are a fallback for very basic vocabulary. Labels are reconstructive models, not claims of attestation.",
+ "phonology": "Proto-Berber/Tamazight-type consonantism: stops *b *t *d *k *g *q (uvular), fricatives *f *s *z *sh *zh *x *gh (uvular) *h *H (pharyngeal) *3 (ayin), sonorants *m *n *l *r, glides *w *y. Emphatic (pharyngealized) consonants (t., d., s., z., r., l.) are marked with a dot or capital in transliteration. Labialized velars/uvulars (kw, gw, qw) and geminate consonants are contrastive; gemination is meaningful. Vowel system is minimal: *a, *i, *u, plus an epenthetic schwa (e) in modern forms (a reconstructed three-vowel system is generally assumed for proto-forms).",
+ "phonotactics": "Syllable shapes CV, CVC, V, VC; no phonemic V-initial restriction in Tuareg (word-initial vowel is usual as the masculine noun prefix). Berber permits consonant clusters and even syllabic consonants in modern Tashelhit; for a game-safe proto-style, prefer CV(C) syllables with limited clusters and geminates. Words typically 2-3 syllables. Word-final: vowels or consonants, both allowed. No long vowels in the standard transliteration. Stress is largely predictable and not written.",
+ "orthography": "Use Latin Berber scholarly transliteration: a, i, u, e (schwa), b d f g gh h k kh l m n q r s sh t w x y z zh, plus gemination as doubled letters (tt, ss, ll) and labialization as w after a velar (kw, gw). Avoid p, v, o, c, j.",
+ "morphology": "Triconsonantal-ish roots (consonantal root with vocalic patterns) as in Afroasiatic. Nouns carry a gender-number frame: masculine singular a-/i-/u- ... ; feminine t-...-t (circumfixed); plural by suffix -en/-in (masc.) and -in/-at (fem.) or internal 'broken' plural. State opposition: free state vs annexed state (vowel prefix drops, e.g. a-ghrum vs w-ghrum). Verbal derivation by prefixes: s- (causative, e.g. s-ezzu 'make go'), m- (reciprocal), tt- (passive/habitual); agent nouns by am-/an-/ama- (e.g. am-...). Abstract/derivational noun prefixes: tam- / tim- (feminine collective or abstract), t- ... -t (diminutive/feminine).",
+ "compounding": "Berber seldom forms true compounds; instead uses the annexed-state genitive construction 'head + n + modifier' (n = 'of'). Examples: 'house of X' = tigemmi n X; 'son of X' = u/ult/ayt, with 'ayt' (people of) used for group names ('Ayt X'). Agent/maker nouns use the prefix am-/ama-/an- + verbal noun or root ('one who does/has'). Place names often use 'ighzer n X' (river of X), 'adrar n X' (mountain of X), 'tamda n X' (lake of X). A linker n is the standard genitive particle; no case endings.",
+ "noun_phrase_order": "Head noun first, then modifiers: noun + adjective (a-ghrum a-meqran 'big bread') and noun + n + genitive noun. Demonstratives and possessives are postposed (clitic -nnes etc.). Numerals precede the noun in many varieties. Names thus read 'Head-n-Modifier'.",
+ "attested_roots": [
+  {
+   "form": "aman",
+   "gloss": "water",
+   "reconstructed": false
+  },
+  {
+   "form": "tafukt",
+   "gloss": "sun",
+   "reconstructed": false
+  },
+  {
+   "form": "ayyur",
+   "gloss": "moon, month",
+   "reconstructed": false
+  },
+  {
+   "form": "adrar",
+   "gloss": "mountain",
+   "reconstructed": false
+  },
+  {
+   "form": "ighzer",
+   "gloss": "river, ravine",
+   "reconstructed": false
+  },
+  {
+   "form": "azru",
+   "gloss": "rock, stone",
+   "reconstructed": false
+  },
+  {
+   "form": "tigemmi",
+   "gloss": "house",
+   "reconstructed": false
+  },
+  {
+   "form": "aghrum",
+   "gloss": "bread",
+   "reconstructed": false
+  },
+  {
+   "form": "izem",
+   "gloss": "lion",
+   "reconstructed": false
+  },
+  {
+   "form": "ayfal",
+   "gloss": "mouflon/rock animal (Tuareg attested for wild sheep)",
+   "reconstructed": false
+  },
+  {
+   "form": "tagmart",
+   "gloss": "mare (fem. of horse; avoid as Capsian-era)",
+   "reconstructed": false
+  },
+  {
+   "form": "ighil",
+   "gloss": "arm, ridge",
+   "reconstructed": false
+  },
+  {
+   "form": "ass",
+   "gloss": "day",
+   "reconstructed": false
+  },
+  {
+   "form": "idh",
+   "gloss": "night",
+   "reconstructed": false
+  },
+  {
+   "form": "azgher",
+   "gloss": "plain, open land",
+   "reconstructed": false
+  },
+  {
+   "form": "taghaght",
+   "gloss": "fire (Tuareg: tafuk is sun; fire varies as tmes)",
+   "reconstructed": false
+  }
+ ],
+ "worked_examples": [
+  {
+   "english": "River of Stone",
+   "name": "Ighzer n Azru",
+   "gloss": "river-of rock"
+  },
+  {
+   "english": "Mountain of the Sun",
+   "name": "Adrar n Tafukt",
+   "gloss": "mountain-of sun"
+  },
+  {
+   "english": "House of Water",
+   "name": "Tigemmi n Aman",
+   "gloss": "house-of water"
+  },
+  {
+   "english": "Bread Place",
+   "name": "Aghrum Azgher",
+   "gloss": "bread plain"
+  },
+  {
+   "english": "Moon Day",
+   "name": "Ass n Ayyur",
+   "gloss": "day-of moon"
+  },
+  {
+   "english": "Lion Mountain",
+   "name": "Adrar n Izem",
+   "gloss": "mountain-of lion"
+  }
+ ],
+ "allowed_graphemes": [
+  "a",
+  "i",
+  "u",
+  "e",
+  "b",
+  "d",
+  "f",
+  "g",
+  "gh",
+  "h",
+  "k",
+  "kh",
+  "l",
+  "m",
+  "n",
+  "q",
+  "r",
+  "s",
+  "sh",
+  "t",
+  "w",
+  "x",
+  "y",
+  "z",
+  "zh",
+  "kw",
+  "gw",
+  "tt",
+  "ss",
+  "ll"
+ ],
+ "extra_allowed_chars": " -'",
+ "forbidden_patterns": [
+  "[pvojc]",
+  "(.)\\1\\1",
+  "[aeiu]{3,}",
+  "[^aeiu\\s'-]{4,}",
+  "^[^aeiu\\s'-]{3,}",
+  "q[^aeiuw\\s]",
+  "hh|xx|ww|yy"
+ ],
+ "syllables_per_word": [
+  2,
+  3,
+  4
+ ],
+ "max_word_length": 14,
+ "sources": [
+  "Kossmann, M. - A Grammar of Berber languages / Berber historical linguistics (various, 1999-2013)",
+  "Kossmann, M. & Stroomer, H. - Berber phonology (1997)",
+  "Militarev, A. & Starostin, S. - Starling Afroasiatic Etymology Database",
+  "Chaker, S. - Linguistique berbere: etudes de syntaxe et de diachronie (1995)",
+  "Prasse, K.-G. - Manuel de grammaire touarègue (1972-74)",
+  "Camps, G. - Les Berberes: memoire et identite (1980)",
+  "Glottolog entry: Berber; Wiktionary Proto-Berber reconstruction pages",
+  "Ehret, C. - Reconstructing Proto-Afroasiatic (1995)"
+ ],
+ "notes": "Link between Capsian culture and Berber languages is speculative; treat names as plausible North African flavor rather than reconstructed Capsian speech. No word may be identical to a Modern Irish, Scottish Gaelic or Manx word, since Berber is not Goidelic. Existing game strings (khududngi, muchab, qizwo, lukhuba) contain dng, ch, and o clusters foreign to Berber, so rebuild on CV(C) patterns with the n-genitive. Sun/moon/animal glosses are modern Tuareg/Tashelhit/Kabyle forms, not reconstructed Capsian.",
+ "unit": "Capsian",
+ "slug": "capsian",
+ "model": "claude-sonnet-5-5"
+}

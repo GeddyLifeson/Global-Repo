@@ -1,0 +1,202 @@
+{
+ "proxy_language": "Mycenaean Greek (Linear B), with Classical Greek (Attic/Ionic) as a secondary attested source for general lexicon",
+ "confidence": "medium",
+ "proxy_rationale": "'The Mountain Court' is a fictional later court in the Greece/Aegean/Anatolian coast region with no named historical language. The best-attested language for a Late Bronze/Early Iron Age Aegean palace court is Mycenaean Greek (Linear B tablets, c. 1450-1200 BCE), supplemented by Homeric/Classical Greek vocabulary and the pre-Greek Aegean substrate (e.g. -nth-, -ss- words). Link is medium because the culture is generic, not a specific attested state. Pre-Greek substrate and Anatolian (Luwian/Lydian) coastal names are noted but not used as primary models.",
+ "phonology": "Mycenaean Greek: vowels a e i o u, with length contrast not marked in Linear B. Stops: voiceless p t k, voiced b d g, labiovelars kw gw (written q-), aspirates largely merged or unmarked. Fricative s; semivowels j (y) and w; liquids r (l/r not distinguished in Linear B, written r-series), nasals m n. Digamma w is retained in Mycenaean (lost in Attic). Pre-consonantal and intervocalic -h- possible, mostly dropped in writing. Diphthongs ai, ei, oi, au, eu, ou.",
+ "phonotactics": "Underlying syllables are (C)V(C) with onsets of single consonants or stop+liquid/nasal and s+stop clusters (e.g. pt-, str-, sk-). Linear B orthography simplifies: CV syllabary, final consonants omitted, clusters broken by dummy vowels. In the Latinized scholarly form, words end in vowels or in -s, -n, -r (nominatives -s, -n, -r, -ō). Typical case endings: nom. -s/-os/-a/-ē/-on, gen. -o(jo)/-ās, dat. -ei/-ai. Stress is not marked. No word-final stops except via dropping in transcription.",
+ "orthography": "Use the standard scholarly Latin transliteration of Mycenaean Greek: syllabic values joined by hyphens in Linear B transcription (wa-na-ka, pa-si-te-o-i), or normalized Greek forms (wanax). For game names use the normalized unhyphenated form with plain letters: a e i o u p t k b d g q? (avoid) s m n r l? (l only in Classical Greek names) z w j h, and digraphs kh ph th (Classical), ai ei oi au eu ou. Latin-script names avoid c, x (except as ks), f, v, and use k for kappa.",
+ "morphology": "Highly inflected: nouns in three declensions (thematic -os/-on, -ā/-ē, consonant stems -s, -n, -r, -es), three genders, cases nominative, genitive, dative, accusative, vocative. Verbs mark person, number, tense, voice. Agent nouns in -tēr/-tōr, -eus (profession), -ās; abstract in -sis, -ā, -mos; adjectives in -ios, -ikos, -inos, -eios; diminutives -ion, -iskos. Reduplication in perfects and some nouns. Personal names are common compounds (Eteokles, Alexandros) and divine names (Poseidāwōn, Diwiya).",
+ "compounding": "Compounds are head-final: first element is a combining stem (often with -o- linker, e.g. hippo-, theo-, andro-), second element the head. Pattern X-o-Y: 'horse-tamer' = hippo-damos. Governing compounds ('Y-maker', 'Y-bearer'): Y-stem + -o- + verbal noun in -os/-ēs (e.g. -phoros 'bearer', -ergos 'worker', -arkhos 'leader'). 'X of Y' is expressed with genitive: head noun + genitive noun (or genitive-head order in names: Diwo-pāter 'father of Zeus'-type patronymics in -idās/-iadēs). Place names often end in -ssos/-nthos (substrate) or -polis, -ai, -ēs, -ōn.",
+ "noun_phrase_order": "Adjective typically precedes noun (agreeing in case/number/gender) in default order, but may follow; genitive attribute usually follows head noun in prose and inscriptions, precedes in compound names. Demonstratives and articles: Mycenaean has no definite article. Example: wanaka ... 'lord of the ...' with genitive following.",
+ "attested_roots": [
+  {
+   "form": "wanax",
+   "gloss": "lord, king",
+   "reconstructed": false
+  },
+  {
+   "form": "lawagetas",
+   "gloss": "leader of the people (Mycenaean title)",
+   "reconstructed": false
+  },
+  {
+   "form": "basileus",
+   "gloss": "local chieftain (Myc. qa-si-re-u)",
+   "reconstructed": false
+  },
+  {
+   "form": "telestas",
+   "gloss": "landholding official (Myc. te-re-ta)",
+   "reconstructed": false
+  },
+  {
+   "form": "potnia",
+   "gloss": "lady, mistress",
+   "reconstructed": false
+  },
+  {
+   "form": "theos",
+   "gloss": "god",
+   "reconstructed": false
+  },
+  {
+   "form": "oros",
+   "gloss": "mountain",
+   "reconstructed": false
+  },
+  {
+   "form": "akron",
+   "gloss": "peak, summit",
+   "reconstructed": false
+  },
+  {
+   "form": "petra",
+   "gloss": "rock, stone",
+   "reconstructed": false
+  },
+  {
+   "form": "aula",
+   "gloss": "court, hall",
+   "reconstructed": false
+  },
+  {
+   "form": "megaron",
+   "gloss": "great hall",
+   "reconstructed": false
+  },
+  {
+   "form": "hieros",
+   "gloss": "sacred, holy",
+   "reconstructed": false
+  },
+  {
+   "form": "hippos",
+   "gloss": "horse",
+   "reconstructed": false
+  },
+  {
+   "form": "khrusos",
+   "gloss": "gold",
+   "reconstructed": false
+  },
+  {
+   "form": "oinos",
+   "gloss": "wine",
+   "reconstructed": false
+  },
+  {
+   "form": "melissa",
+   "gloss": "bee, honey-maker",
+   "reconstructed": false
+  },
+  {
+   "form": "elaiwon",
+   "gloss": "olive oil (Myc. e-ra-wo)",
+   "reconstructed": false
+  },
+  {
+   "form": "daimon",
+   "gloss": "spirit, divine power",
+   "reconstructed": false
+  }
+ ],
+ "worked_examples": [
+  {
+   "english": "Lord of the Mountain",
+   "name": "Wanax Orōn",
+   "gloss": "wanax 'lord' + oros (gen. pl. orōn) 'of mountains'; head-first with genitive"
+  },
+  {
+   "english": "Golden Court",
+   "name": "Khrusaula",
+   "gloss": "khrus(o)- 'gold' + aula 'court'; head-final compound with -o- dropped before vowel"
+  },
+  {
+   "english": "Mountain Hall",
+   "name": "Oromegaron",
+   "gloss": "oro- 'mountain' (combining stem) + megaron 'great hall'; head-final compound"
+  },
+  {
+   "english": "Temple of the Sun",
+   "name": "Hieron Helioio",
+   "gloss": "hieron 'sanctuary' + Helioio (gen. sg. of Helios 'sun'); genitive follows head"
+  },
+  {
+   "english": "Horse-Tamer (title)",
+   "name": "Hippodamos",
+   "gloss": "hippo- 'horse' + damos 'tamer' (from damnāmi 'tame'); governing compound"
+  },
+  {
+   "english": "Olive Press House",
+   "name": "Elaiwon Oikos",
+   "gloss": "elaiwon 'olive oil' (gen. pl. form) + oikos 'house'; genitive then head"
+  }
+ ],
+ "allowed_graphemes": [
+  "a",
+  "e",
+  "i",
+  "o",
+  "u",
+  "p",
+  "t",
+  "k",
+  "b",
+  "d",
+  "g",
+  "q",
+  "s",
+  "m",
+  "n",
+  "r",
+  "l",
+  "z",
+  "w",
+  "j",
+  "h",
+  "kh",
+  "ph",
+  "th",
+  "ps",
+  "ks",
+  "ai",
+  "ei",
+  "oi",
+  "au",
+  "eu",
+  "ou"
+ ],
+ "extra_allowed_chars": " -",
+ "forbidden_patterns": [
+  "[cfvx]",
+  "(.)\\1\\1",
+  "[bdgkpt]{3,}",
+  "q[^aeiou]",
+  "(?<![aeiou])y",
+  "(sh|ch|zh)",
+  "[aeiou]{4,}",
+  "[^aeioulnrsmz\\s-]\\b"
+ ],
+ "syllables_per_word": [
+  2,
+  3,
+  4
+ ],
+ "max_word_length": 14,
+ "sources": [
+  "Ventris & Chadwick, Documents in Mycenaean Greek (2nd ed. 1973)",
+  "Chadwick, The Mycenaean World (1976)",
+  "Bartonek, Handbuch des mykenischen Griechisch (2003)",
+  "Beekes, Etymological Dictionary of Greek (2010)",
+  "Liddell & Scott, A Greek-English Lexicon (LSJ)",
+  "Chantraine, Dictionnaire etymologique de la langue grecque (1968-80)",
+  "Palaeolexicon (Linear B word list)",
+  "DĒMOS / Wiktionary Mycenaean Greek entries",
+  "Hajnal, Mykenisch und homerisches Griechisch",
+  "Glottolog: Mycenaean Greek"
+ ],
+ "notes": "The Mountain Court is not an attested historical state, so the proxy is a regional period language, not a specific court's language. Pre-Greek Aegean substrate (-nth-, -ss-) and Anatolian coastal names (Luwian, Lydian) may be used sparingly for place names but are poorly known and lower-confidence. Current game names like Robi dorux, Xusa cusuta, Cadox use x and c and non-Greek shapes; replace with vowel-final or -s/-n/-r-final forms. No word may be identical to a Modern Irish, Scottish Gaelic or Manx word since the language is not Goidelic.",
+ "unit": "The Mountain Court",
+ "slug": "the_mountain_court",
+ "model": "claude-sonnet-5-5"
+}

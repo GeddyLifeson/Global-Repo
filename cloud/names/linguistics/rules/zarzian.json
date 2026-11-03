@@ -1,0 +1,142 @@
+{
+ "proxy_language": "Proto-Zagros substrate proxy: Elamite (Elamo-Dravidian hypothesis) with Hurro-Urartian and Kassite as secondary comparanda; no reconstructible Zarzian language exists",
+ "confidence": "speculative",
+ "proxy_rationale": "Zarzian is a Late Epipaleolithic (c. 18,000-10,000 BP) lithic industry of the Zagros (Warwasi, Zarzi, Palegawra, Shanidar B). No linguistic data survive, and any link to later languages is unprovable across 10+ millennia. The most defensible proxy is the pre-Indo-Iranian, non-Semitic language stock of the Zagros highlands: Elamite (attested c. 2300-330 BCE, agglutinative, possibly Elamo-Dravidian per McAlpin 1981), with Lullubi/Gutian/Kassite and Hurro-Urartian as areal comparanda. Names should sound like a Zagros-substrate agglutinative language, not Indo-European, Semitic or Turkic. Treat all forms as stylistic models, not claims about Zarzian speech.",
+ "phonology": "Elamite-style inventory: vowels a, e, i, u (o absent or marginal in cuneiform). Stops p, t, k (voicing not clearly contrastive in cuneiform spelling; written p/b, t/d, k/g interchangeably), affricate/sibilants s, sh (written \\u0161), z, h, nasals m, n, liquids l, r, glides y (rare), w (rare). Elamite also shows sequences like -nk-, -rt-, -nr-, -lm-. Ejectives/pharyngeals not attested and should be avoided.",
+ "phonotactics": "Syllables (C)V(C): V, CV, VC, CVC. Words commonly begin with a consonant but vowel-initial words occur (e.g. in-, ak-, ir-). Medial clusters of two consonants are common (-rt-, -nk-, -lm-, -hs-); no initial consonant clusters; final consonants allowed (-p, -t, -k, -r, -n, -m, -s, -h) and also final vowels (-a, -i, -u, -e). No long vowels written. Avoid CCC clusters and double-vowel hiatus except across morpheme boundaries.",
+ "orthography": "Latin transliteration of Elamite cuneiform: a e i u; p t k; s sh (written \\u0161 in scholarship, here 'sh' for ASCII-safe audit); z h; m n l r; y w. No diacritics needed. Hyphens separate morphemes in glossing and may be kept in compound names. Lowercase output; no c, q, x, j, f, v, g, b, d, o in the strict profile (voicing treated as allophonic and normalised to voiceless p t k).",
+ "morphology": "Agglutinative, suffixing. Nouns take class suffixes: -r (animate/personal, 3rd person human), -me (inanimate), -p / -ip (animate plural), -n- (relational), genitive/possessive by suffixing 3sg class marker (-i-r / -ni), locative -ma, -ik, -i- ; nominalising -ra, -ri, -ti. Verbs use suffixed person markers (-h 1sg, -t 2sg, -s 3sg) and participial -k, -n. Roots are mostly mono- or disyllabic CV(C). No reduplication productive; no prefixes.",
+ "compounding": "Modified-head order: modifier + head, with the possessor preceding the possessed and the possessed carrying a suffix agreeing with the possessor (Elamite 'X-r Y-ni' / 'Y of X' = X Y-ni). So 'Temple of the Sun' = sun + temple-POSS (e.g. nap-ir hiyan-ni style). 'Y-maker' formed with agent suffix: root + -ra/-ri/-ik. Bare noun-noun juxtaposition also acceptable for compounds (X-Y). Linker -a- optional between consonant-final first element and consonant-initial second.",
+ "noun_phrase_order": "Possessor/modifier before head noun; adjective-like qualifiers follow or precede nominalised stative verbs; numerals precede noun; demonstratives and class/plural suffixes follow the head. Head-final overall.",
+ "attested_roots": [
+  {
+   "form": "hal",
+   "gloss": "land, earth, country (Elamite hal-tamti, Haltamti = Elam)",
+   "reconstructed": false
+  },
+  {
+   "form": "tamti",
+   "gloss": "lord, master (in haltamti 'land of the lord')",
+   "reconstructed": false
+  },
+  {
+   "form": "nap",
+   "gloss": "god",
+   "reconstructed": false
+  },
+  {
+   "form": "sunki",
+   "gloss": "king",
+   "reconstructed": false
+  },
+  {
+   "form": "sunkik",
+   "gloss": "king (Elamite royal title)",
+   "reconstructed": false
+  },
+  {
+   "form": "hiyan",
+   "gloss": "temple, sanctuary (hiyan)",
+   "reconstructed": false
+  },
+  {
+   "form": "kiten",
+   "gloss": "protection, protective power",
+   "reconstructed": false
+  },
+  {
+   "form": "sit",
+   "gloss": "foundation, base",
+   "reconstructed": false
+  },
+  {
+   "form": "ruhu",
+   "gloss": "man, descendant, offspring",
+   "reconstructed": false
+  },
+  {
+   "form": "hutta",
+   "gloss": "to make, do",
+   "reconstructed": false
+  },
+  {
+   "form": "hutik",
+   "gloss": "maker, builder (hut + ik)",
+   "reconstructed": false
+  },
+  {
+   "form": "atta",
+   "gloss": "father",
+   "reconstructed": false
+  },
+  {
+   "form": "hap",
+   "gloss": "people, clan",
+   "reconstructed": false
+  },
+  {
+   "form": "tir",
+   "gloss": "say, speak",
+   "reconstructed": false
+  },
+  {
+   "form": "in",
+   "gloss": "negative, not; also 'house' in some readings (uncertain)",
+   "reconstructed": false
+  },
+  {
+   "form": "kutur",
+   "gloss": "crown, support (Kutir- in royal names)",
+   "reconstructed": false
+  }
+ ],
+ "worked_examples": [],
+ "allowed_graphemes": [
+  "a",
+  "e",
+  "i",
+  "u",
+  "p",
+  "t",
+  "k",
+  "s",
+  "sh",
+  "z",
+  "h",
+  "m",
+  "n",
+  "l",
+  "r",
+  "y",
+  "w"
+ ],
+ "extra_allowed_chars": " -",
+ "forbidden_patterns": [
+  "[bdgfvjqxco]",
+  "[aeiu]{3,}",
+  "^[^aeiu ]{2}",
+  "[^aeiu ]{3,}",
+  "(.)\\1\\1",
+  "[wy]{2}",
+  "sh[hz]|z[sh]"
+ ],
+ "syllables_per_word": [
+  2,
+  3,
+  4
+ ],
+ "max_word_length": 12,
+ "sources": [
+  "Stolper, M.W. 2004. Elamite. In Woodard (ed.), The Cambridge Encyclopedia of the World's Ancient Languages",
+  "Khacikjan, M. 1998. The Elamite Language",
+  "Hallock, R.T. 1969. Persepolis Fortification Tablets (Elamite glossary)",
+  "McAlpin, D.W. 1981. Proto-Elamo-Dravidian: The Evidence and its Implications",
+  "Hinz, W. and Koch, H. 1987. Elamisches Woerterbuch",
+  "Glottolog entry Elamite; Wiktionary Elamite lemmas",
+  "Olszewski, D.I. and Dibble, H.L. 1994. The Zagros Aurignacian / Zarzian (archaeological context only)"
+ ],
+ "notes": "Zarzian is purely archaeological; no language is attested or reconstructible, so all names are stylistic Zagros-substrate approximations. Avoid forms that look Indo-Iranian (-an, -stan, -dar, x, kh), Semitic or Turkic. Because Elamite voicing is not reliably contrastive, the strict profile normalises to voiceless stops and omits b d g o. Pattern examples when building names: possessor + head + -ni (genitive/possessive), agent suffix -ik on verb roots for makers, class suffix -r for persons, -p for plurals, -me for objects, -ma for locatives. Examples: 'Temple of the Sun' = shamash-free equivalent 'hiyan nap-ni' style (god-possessive hiyan); 'River Stew' as compound 'ur-ma sa-me'; 'House of the Father' = atta hiyan-ni. No word may be identical to a Modern Irish, Scottish Gaelic or Manx word, since the proxy language is not Goidelic.",
+ "unit": "Zarzian",
+ "slug": "zarzian",
+ "model": "claude-sonnet-5-5"
+}

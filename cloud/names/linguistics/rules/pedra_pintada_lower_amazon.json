@@ -1,0 +1,173 @@
+{
+ "proxy_language": "Proto-Tupi (with Proto-Tupi-Guarani as a secondary, shallower layer); alternatively Proto-Tucanoan or Proto-Carib as equally unverifiable options",
+ "confidence": "speculative",
+ "proxy_rationale": "Pedra Pintada (Monte Alegre, Para, Brazil; c. 11,200-10,000 BP, Roosevelt et al. 1996) is a Pleistocene/early Holocene rock-shelter culture with no linguistic remains. No language can be attributed to it. Proto-Tupi (homeland probably in southwestern Amazonia, Rondonia/Madeira region; Rodrigues 1958, Rodrigues and Cabral 2012) is the best-documented Amazonian reconstruction near the Lower Amazon, but Tupian expansion is much later than 10,000 BP, so the link is purely a regional-flavor choice. Carib (north bank, Guiana Shield) and Tucanoan are equally defensible. Names should sound plausibly Amazonian, not be presented as Pedra Pintada speech.",
+ "phonology": "Proto-Tupi (Rodrigues/Cabral/Jensen, simplified, with Tupi-Guarani-style notation): consonants *p *t *k *kw *ʔ (glottal stop, written ' or ?) *m *n *ŋ (written ng or ñ), *β (written b or w), *r, *s, *ʃ (written x), *h, *j (written y). Vowels: *i *e *a *o *u and the high central unrounded *ɨ (written y or ɨ), plus *ã etc. nasality as a feature spreading across the word. Documented TG forms use p t k kw ' m n ng b/w r s x h y, vowels i e a o u y(ɨ). Many Tupian languages have systematic nasal harmony.",
+ "phonotactics": "Syllable shape is (C)V; codas are absent or limited in the proto-language (TG daughters rarely add final stops/nasals). No consonant clusters; words alternate consonant and vowel (CVCV...). Words usually end in a vowel; some TG roots end in a glottal stop or short consonant. Stress is typically final or penultimate. Nasal vowels cause adjacent consonants to become nasalized (b>m, r>n). Avoid f, l, q, d, g as standalone proto-phonemes, v, z, c; these are foreign to Tupian.",
+ "orthography": "Use a simplified Tupi-Guarani Latin transliteration: p t k ' m n ng b r s x h y (for ɨ) w y; vowels a e i o u and y (high central), with ~ or tilde for nasality (ã ẽ ĩ õ ũ). Optional apostrophe for glottal stop. Hyphens separate morphemes in compounds (as in Old Tupi/Nheengatu convention).",
+ "morphology": "Agglutinative, head-final in nominals. Roots are bound to personal prefixes (a- 1sg, ere- 2sg, o- 3, ja- 1pl, etc. in TG). Old Tupi relational prefixes: r- (contiguous), t- (non-contiguous/absolutive), s- (3rd person) mark nominal possession ('rendaga). Nominal suffixes: -a (nominalizer in Old Tupi), -ra (agent/instrument nominalizer), -sara/-sar (agent, -maker/-er), -pe (locative 'in, at'), -wera (ex-, past), -ete (true, real, intensive), -ran (like, resembling), -ngaba/-aba/-ba (instrument, place or nominalizer), -ita (plural/collective), -ty (place of abundance, as in -tyba). Verbs are inflected for person, no tense in the proto-language.",
+ "compounding": "Compounds and genitives are head-final: modifier + head (possessor before possessum), e.g. Old Tupi kuarasy 'sun' + oka 'house'. 'X of Y' is simply Y-X with Y as possessor (no linker). 'Y-maker' = Y + root + -sara/-ra. Place names add -pe (in) or -tyba (abundance of, place of). Adjectives (including color terms) follow the noun in Old Tupi and Nheengatu (e.g. i-pira 'fish' + una 'black'); use head-initial for adjectives and head-final for genitives. Reduplication marks plural/intensity (e.g. putir-putir). Use hyphen or space between compounded elements.",
+ "noun_phrase_order": "Possessor before possessed (genitive precedes head: 'Y X' for 'X of Y'). Qualifying adjectives or stative nouns usually follow the head noun (N-Adj). Numerals/demonstratives precede. Postpositions rather than prepositions.",
+ "attested_roots": [
+  {
+   "form": "y",
+   "gloss": "water (Tupi-Guarani)",
+   "reconstructed": false
+  },
+  {
+   "form": "pará",
+   "gloss": "sea, large river (Old Tupi)",
+   "reconstructed": false
+  },
+  {
+   "form": "ita",
+   "gloss": "stone",
+   "reconstructed": false
+  },
+  {
+   "form": "pira",
+   "gloss": "fish",
+   "reconstructed": false
+  },
+  {
+   "form": "kuarasy",
+   "gloss": "sun",
+   "reconstructed": false
+  },
+  {
+   "form": "jasy",
+   "gloss": "moon",
+   "reconstructed": false
+  },
+  {
+   "form": "oka",
+   "gloss": "house",
+   "reconstructed": false
+  },
+  {
+   "form": "tata",
+   "gloss": "fire",
+   "reconstructed": false
+  },
+  {
+   "form": "yba",
+   "gloss": "tree, fruit",
+   "reconstructed": false
+  },
+  {
+   "form": "ka'a",
+   "gloss": "forest, plant, leaf",
+   "reconstructed": false
+  },
+  {
+   "form": "tuba",
+   "gloss": "father",
+   "reconstructed": false
+  },
+  {
+   "form": "membyra",
+   "gloss": "child (of a man)",
+   "reconstructed": false
+  },
+  {
+   "form": "ybytu",
+   "gloss": "wind",
+   "reconstructed": false
+  },
+  {
+   "form": "yby",
+   "gloss": "earth, ground",
+   "reconstructed": false
+  },
+  {
+   "form": "una",
+   "gloss": "black, dark",
+   "reconstructed": false
+  },
+  {
+   "form": "tuxa",
+   "gloss": "chief, old (TG)",
+   "reconstructed": false
+  }
+ ],
+ "worked_examples": [
+  {
+   "english": "Stone House",
+   "name": "Ita-oka",
+   "gloss": "ita 'stone' + oka 'house'"
+  },
+  {
+   "english": "River of Fish",
+   "name": "Pira-para",
+   "gloss": "pira 'fish' + para 'river' (possessor-head)"
+  },
+  {
+   "english": "Sun Temple",
+   "name": "Kuarasy-oka",
+   "gloss": "kuarasy 'sun' + oka 'house'"
+  },
+  {
+   "english": "Fire Place",
+   "name": "Tata-pe",
+   "gloss": "tata 'fire' + -pe locative"
+  },
+  {
+   "english": "Black Water",
+   "name": "Y-una",
+   "gloss": "y 'water' + una 'black' (N-Adj)"
+  },
+  {
+   "english": "Wind of the Forest",
+   "name": "Ka'a-ybytu",
+   "gloss": "ka'a 'forest' + ybytu 'wind' (possessor-head)"
+  }
+ ],
+ "allowed_graphemes": [
+  "p",
+  "t",
+  "k",
+  "kw",
+  "'",
+  "m",
+  "n",
+  "ng",
+  "b",
+  "r",
+  "s",
+  "x",
+  "h",
+  "y",
+  "w",
+  "a",
+  "e",
+  "i",
+  "o",
+  "u"
+ ],
+ "extra_allowed_chars": " -'~áéíóúãẽĩõũ",
+ "forbidden_patterns": [
+  "[cdfglqvz]",
+  "(.)\\1\\1",
+  "[bpkgtdsx][bpkgtdsxmnrhyw]",
+  "[aeiouy]{3}",
+  "[^aeiouy~'ãẽĩõũ ]{3}"
+ ],
+ "syllables_per_word": [
+  2,
+  3,
+  4
+ ],
+ "max_word_length": 16,
+ "sources": [
+  "Rodrigues, A. D. (1958) 'Phonologie historique du Tupi-Guarani' and later Tupi reconstruction articles",
+  "Rodrigues, A. D. and Cabral, A. S. A. C. (2012) 'Tupian' in Campbell and Grondona (eds.), The Indigenous Languages of South America",
+  "Jensen, C. (1999) 'Tupi-Guarani' in Dixon and Aikhenvald (eds.), The Amazonian Languages",
+  "Navarro, E. A. (2013) Metodo moderno de tupi antigo",
+  "Roosevelt, A. C. et al. (1996) 'Paleoindian Cave Dwellers in the Amazon: The Peopling of the Americas', Science 272",
+  "Glottolog and ASJP entries for Tupian, Cariban, Tucanoan"
+ ],
+ "notes": "Pedra Pintada is archaeologically attested only (rock paintings, fishing, tree-fruit gathering). Any proxy language is speculative; names should merely evoke Amazonian phonology. No word may be identical to a Modern Irish, Scottish Gaelic or Manx word unless the language is Goidelic (not the case here). Current game names contain q, f, l, d which are not Tupian and should be rejected.",
+ "unit": "Pedra Pintada (Lower Amazon)",
+ "slug": "pedra_pintada_lower_amazon",
+ "model": "claude-sonnet-5-5"
+}

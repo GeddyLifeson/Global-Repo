@@ -1,0 +1,73 @@
+category,thing,route,status
+player,walk,PAL + clean-room vanilla body layer,todo
+player,run,PAL + clean-room vanilla body layer,todo
+player,sprint,PAL + clean-room vanilla body layer,todo
+player,sneak,PAL + clean-room vanilla body layer,todo
+player,crawl,PAL + clean-room vanilla body layer,todo
+player,swim,PAL + clean-room vanilla body layer,todo
+player,climb,PAL + clean-room vanilla body layer,todo
+player,ladder,PAL + clean-room vanilla body layer,todo
+player,glide,PAL + clean-room vanilla body layer,todo
+player,fall,PAL + clean-room vanilla body layer,todo
+player,land,PAL + clean-room vanilla body layer,todo
+player,ride,PAL + clean-room vanilla body layer,todo
+player,sit,PAL + clean-room vanilla body layer,todo
+player,sleep,PAL + clean-room vanilla body layer,todo
+player,emote,PAL + clean-room vanilla body layer,todo
+player,use item,PAL + clean-room vanilla body layer,todo
+player,eat,PAL + clean-room vanilla body layer,todo
+player,drink,PAL + clean-room vanilla body layer,todo
+player,bow draw,PAL + clean-room vanilla body layer,todo
+player,crossbow,PAL + clean-room vanilla body layer,todo
+player,trident,PAL + clean-room vanilla body layer,todo
+player,block,PAL + clean-room vanilla body layer,todo
+player,mine,PAL + clean-room vanilla body layer,todo
+player,place,PAL + clean-room vanilla body layer,todo
+player,interact,PAL + clean-room vanilla body layer,todo
+player,open container,PAL + clean-room vanilla body layer,todo
+player,fish,PAL + clean-room vanilla body layer,todo
+player,brew,PAL + clean-room vanilla body layer,todo
+melee,sword,clean-room combat-arms pose layer,todo
+melee,axe,clean-room combat-arms pose layer,todo
+melee,spear,clean-room combat-arms pose layer,todo
+melee,mace,clean-room combat-arms pose layer,todo
+melee,hammer,clean-room combat-arms pose layer,todo
+melee,staff,clean-room combat-arms pose layer,todo
+melee,dagger,clean-room combat-arms pose layer,todo
+melee,pick,clean-room combat-arms pose layer,todo
+melee,shovel,clean-room combat-arms pose layer,todo
+melee,hoe,clean-room combat-arms pose layer,todo
+melee,shears,clean-room combat-arms pose layer,todo
+gun,hold,"clean-room, ties to #158",todo
+gun,aim,"clean-room, ties to #158",todo
+gun,fire,"clean-room, ties to #158",todo
+gun,reload,"clean-room, ties to #158",todo
+gun,inspect,"clean-room, ties to #158",todo
+gun,tank turret,"clean-room, ties to #158",todo
+gun,tank driver,"clean-room, ties to #158",todo
+class skill,all combat-classes skills,"own, PAL",todo
+boss,Ascendant boss attacks,"own, GeckoLib + PAL",todo
+boss,Ascendant rites,"own, GeckoLib + PAL",todo
+boss,Celtic rite casting,"own, GeckoLib + PAL",todo
+mob,all mobs and animals (list from mobs lane),GeckoLib + EMF,todo
+npc,all NPC professions (work,GeckoLib + PAL,todo
+npc,talk,GeckoLib + PAL,todo
+npc,trade,GeckoLib + PAL,todo
+npc,sit),GeckoLib + PAL,todo
+machine,all working blocks idle/working/done,GeckoLib,todo
+machine,Foundry belts,GeckoLib,todo
+machine,Foundry operator seat,GeckoLib,todo
+vehicle,ground,Immersive Vehicles + PAL,todo
+vehicle,boat,Immersive Vehicles + PAL,todo
+vehicle,aircraft,Immersive Vehicles + PAL,todo
+vehicle,Keelwright ship piloting,Immersive Vehicles + PAL,todo
+vehicle,seats,Immersive Vehicles + PAL,todo
+vehicle,driver hands,Immersive Vehicles + PAL,todo
+vehicle,wheels,Immersive Vehicles + PAL,todo
+vehicle,propellers,Immersive Vehicles + PAL,todo
+vehicle,hatches,Immersive Vehicles + PAL,todo
+block,doors,GeckoLib,todo
+block,chests,GeckoLib,todo
+block,levers,GeckoLib,todo
+block,tanks,GeckoLib,todo
+block,turrets,GeckoLib,todo

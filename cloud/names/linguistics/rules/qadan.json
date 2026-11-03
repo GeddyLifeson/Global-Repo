@@ -1,0 +1,197 @@
+{
+ "proxy_language": "Old Nubian (Nilo-Saharan, Eastern Sudanic, Nubian branch), supplemented by reconstructed Proto-Nubian / Proto-Eastern Sudanic roots",
+ "confidence": "speculative",
+ "proxy_rationale": "The Qadan is a Late Pleistocene/Epipaleolithic industry of Nubia and Upper Egypt (c. 15,000-10,500 BP; Wadi Halfa, Jebel Sahaba) with no linguistic record. The nearest defensible proxy is the Nubian branch of Eastern Sudanic, which is the long-attested language family of the Middle Nile (Old Nubian texts from the 8th-15th c. CE; Nobiin, Dongolawi, Kenzi living). Time depth is more than 12,000 years, so any link is highly speculative; Afroasiatic (Proto-Cushitic or Egyptian) is an equally possible neighbour, but Nubian is chosen for geographic continuity. Use only roots that have Proto-Nubian reconstructions or Old Nubian attestations, and treat output as flavour, not as Qadan speech.",
+ "phonology": "Old Nubian consonants (Browne, Rilly): stops p b t d c j (palatal) k g; nasals m n ny (palatal) ng (velar, written with a special letter); fricatives s (sometimes f, h marginal); liquids l r; glides w y. Rilly's Proto-Nubian reconstruction has *p *t *c *k *b *d *j *g, *s, *m *n *ny *ng, *l *r, *w *y. Vowels: a e i o u, with a length contrast reconstructed; Old Nubian also has a high central vowel in some analyses. Old Nubian script (Coptic-based with extra letters) adds a velar nasal letter (ngan), a palatal nasal, and w. Tone is not reliably recorded in Old Nubian.",
+ "phonotactics": "Syllable shapes mostly (C)V(C), V, CV, CVC. Words typically end in a vowel or a sonorant (n, l, r, m), with -n and -l especially common in suffixes. Initial clusters are absent; medial clusters are limited to a sonorant or nasal plus stop (nd, mb, ng, nk, rk, lk, rt). Stress is not marked. Avoid initial consonant clusters, avoid sibilant clusters, and avoid breathy or aspirated consonants (no bh, dh, th as aspirates).",
+ "orthography": "Use a plain Latin transliteration of Old Nubian/Nobiin: p b t d c j k g m n ny ng s l r w y plus vowels a e i o u; j and c are palatal affricates or stops as in Nobiin; ng is the velar nasal (digraph); double vowels for long vowels (aa ee ii oo uu). No diacritics are needed. Hyphens separate suffixes in glosses only; names may be written as one word per component with spaces between head and modifier.",
+ "morphology": "Agglutinating, SOV, head-final, suffixing. Nouns: stems are mostly CVC, CVCV or CVCVC; plural by suffix -ri / -gi / -ngi depending on class (Nobiin -gi, -ri, -i; Old Nubian -ri, -gi, -l); nominative -l or -(i)l in Old Nubian and Nobiin (-i marked subject, -ir or -la object). Genitive is -n(a) or -(i)n suffixed to the possessor; locative -lo, -ka, -ki; dative -ka; ablative -lo/-ti in Old Nubian. Possessive suffixes: -ni (my), -ri (your sg.), -gi/-ki (his/her). Verb roots are monosyllabic or disyllabic with suffixing tense/aspect (-ar, -ir, -ke); nominalizer -(i)l / -(i)n. No noun gender, but Eastern Sudanic stems show class-based plurals. Reduplication is rare in nouns; mostly used for intensive in verbs.",
+ "compounding": "Compounds are head-final. A genitive construction places the possessor first, marked by -n: [possessor-n] [head], e.g. 'river of the fish' = fish-GEN river. Names of the type 'X-maker' are formed by verb stem plus agent nominalizer (-(i)l / -(i)ngi / -ni) or by compounding object plus verb-stem agent (e.g. water + draw + agent). Adjectives and numerals follow the noun. Place names often add a locative (-lo, -ka) or the roots 'ti' (land, place) or 'kol' (hill/rock). Linkers are not necessary; vowels at morpheme boundaries are usually kept with simple harmony avoidance of hiatus (drop one vowel).",
+ "noun_phrase_order": "Possessor-GEN + Head + Adjective + Numeral + Demonstrative/Determiner (head-initial inside the adjective phrase, but genitive precedes). Example: [N-GEN] N Adj. Relative clauses precede the noun. Adpositions are postpositions (case suffixes).",
+ "attested_roots": [
+  {
+   "form": "ar",
+   "gloss": "water, river (Nobiin ar; compare Old Nubian ar-)",
+   "reconstructed": false
+  },
+  {
+   "form": "essi",
+   "gloss": "water (Old Nubian essi/ési)",
+   "reconstructed": false
+  },
+  {
+   "form": "ti",
+   "gloss": "land, place, earth (Old Nubian ti, Nobiin tii)",
+   "reconstructed": false
+  },
+  {
+   "form": "kol",
+   "gloss": "hill, rock (Nobiin kol/kuul)",
+   "reconstructed": false
+  },
+  {
+   "form": "ud",
+   "gloss": "fire (Old Nubian ud, Nobiin wid)",
+   "reconstructed": false
+  },
+  {
+   "form": "os",
+   "gloss": "fish (Nobiin os/oosi, cf. Old Nubian)",
+   "reconstructed": false
+  },
+  {
+   "form": "mur",
+   "gloss": "man, person (Nobiin mur, Old Nubian mur(i))",
+   "reconstructed": false
+  },
+  {
+   "form": "tir",
+   "gloss": "woman (Old Nubian tir/tiri)",
+   "reconstructed": false
+  },
+  {
+   "form": "nog",
+   "gloss": "sun, day (Nobiin nog/nong)",
+   "reconstructed": false
+  },
+  {
+   "form": "ayl",
+   "gloss": "star (Old Nubian ayl?)",
+   "reconstructed": false
+  },
+  {
+   "form": "ngal",
+   "gloss": "tree/wood (Nobiin ngaal? use as flavour)",
+   "reconstructed": false
+  },
+  {
+   "form": "kab",
+   "gloss": "stone (Proto-Nubian *kab?)",
+   "reconstructed": true
+  },
+  {
+   "form": "ier",
+   "gloss": "dog (Old Nubian ier, Nobiin eer)",
+   "reconstructed": false
+  },
+  {
+   "form": "nan",
+   "gloss": "mother (Nobiin nan)",
+   "reconstructed": false
+  },
+  {
+   "form": "ab",
+   "gloss": "father (Nobiin aab, Old Nubian ab)",
+   "reconstructed": false
+  },
+  {
+   "form": "ka",
+   "gloss": "locative/dative postposition (Old Nubian ka)",
+   "reconstructed": false
+  }
+ ],
+ "worked_examples": [
+  {
+   "english": "River of Fish",
+   "name": "Osin ar",
+   "gloss": "os-in ar = fish-GEN river"
+  },
+  {
+   "english": "Sun Rock",
+   "name": "Nogin kol",
+   "gloss": "nog-in kol = sun-GEN rock/hill"
+  },
+  {
+   "english": "Fire Land",
+   "name": "Udin ti",
+   "gloss": "ud-in ti = fire-GEN land"
+  },
+  {
+   "english": "Place of the Elders",
+   "name": "Murin tiri",
+   "gloss": "mur-in tiri = person-GEN woman (flavour compound); or Muringi ti = person-PL land"
+  },
+  {
+   "english": "At the Stone Hill",
+   "name": "Kabin kolka",
+   "gloss": "kab-in kol-ka = stone-GEN hill-LOC"
+  },
+  {
+   "english": "Dog Star",
+   "name": "Ierin ayl",
+   "gloss": "ier-in ayl = dog-GEN star"
+  }
+ ],
+ "allowed_graphemes": [
+  "p",
+  "b",
+  "t",
+  "d",
+  "c",
+  "j",
+  "k",
+  "g",
+  "m",
+  "n",
+  "ny",
+  "ng",
+  "s",
+  "l",
+  "r",
+  "w",
+  "y",
+  "a",
+  "e",
+  "i",
+  "o",
+  "u",
+  "aa",
+  "ee",
+  "ii",
+  "oo",
+  "uu"
+ ],
+ "extra_allowed_chars": " -",
+ "forbidden_patterns": [
+  "bh",
+  "dh",
+  "gh",
+  "kh",
+  "ph",
+  "th",
+  "sh",
+  "ch",
+  "zh",
+  "x",
+  "q",
+  "f",
+  "v",
+  "z",
+  "h",
+  "'",
+  "^[^aeiou]{2,}",
+  "[^aeiou]{3,}",
+  "(.)\\1\\1"
+ ],
+ "syllables_per_word": [
+  1,
+  2,
+  3
+ ],
+ "max_word_length": 10,
+ "sources": [
+  "Browne, G.M., Old Nubian Dictionary (Peeters, 1996)",
+  "Browne, G.M., Old Nubian Grammar (Lincom Europa, 2002)",
+  "Rilly, C., Le mer\\u00f4itique et les langues soudaniques (2010)",
+  "Rilly, C. & de Voogt, A., The Meroitic Language and Writing System (Cambridge, 2012)",
+  "Bechhaus-Gerst, M., work on Nubian historical linguistics (various)",
+  "Werner, R., Grammatik des Nobiin (Buske, 1987)",
+  "Starling database (Nilo-Saharan etymologies)",
+  "Glottolog entries for Nubian languages",
+  "Wiktionary Proto-Nubian reconstruction pages"
+ ],
+ "notes": "This is explicitly speculative: no language is attested for the Qadan, and Nubian as a family may have arrived in the Nile Valley millennia later. Forms are built from Nobiin/Old Nubian spellings for flavour only; some glosses (ayl, ngal, kab) are weakly supported and should be treated as approximations. No word may be identical to a Modern Irish, Scottish Gaelic or Manx word.",
+ "unit": "Qadan",
+ "slug": "qadan",
+ "model": "claude-sonnet-5-5"
+}

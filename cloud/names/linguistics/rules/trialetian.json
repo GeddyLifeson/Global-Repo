@@ -1,0 +1,188 @@
+{
+ "proxy_language": "Proto-Kartvelian (reconstructed, ca. 4th-3rd millennium BCE) as a speculative proxy for the Trialetian Mesolithic/Epipaleolithic hunter-gatherer culture of the South Caucasus",
+ "confidence": "speculative",
+ "proxy_rationale": "The Trialetian (ca. 12,000-8,000 BCE, Trialeti/Kotias Klde/Satsurblia region) is known only archaeologically; its language is unknown and Pleistocene-Holocene hunter-gatherers there left no linguistic trace. The only defensible choice is a reconstructed language family of the same geographic region: Proto-Kartvelian (Georgian, Svan, Zan/Mingrelian-Laz), with its famous consonant clusters and ablaut-based roots. This is separated from the culture by 5,000+ years and may not be descended from it at all (the region also hosted North Caucasian and later Indo-European, Hurro-Urartian and Semitic speakers), so the link is purely areal and should be treated as flavour, not as a claim.",
+ "phonology": "Proto-Kartvelian (Klimov, Fahnrich, Gamkrelidze-Mach'avariani) is reconstructed with a three-way laryngeal-like contrast in stops and affricates (voiced, aspirated/voiceless, ejective/glottalized): *b *p *p' / *d *t *t' / *g *k *k' / *q *q' (uvular), affricates *dz *ts *ts' and *dz-hat *c-hat *c-hat' (palatal series, written j/c/c' in some conventions), sibilants *s *z *s-hat *z-hat, fricatives *x *gh (velar/uvular), liquids *r *l, nasals *m *n, glides *w *y. Vowels: *a *e *i *o *u (with *a/*e alternating in ablaut). Here the romanization used for the game is a simplified Georgian-style scheme: ejectives written plain/with apostrophe, palatal sibilants written sh zh ch.",
+ "phonotactics": "Syllable template (C)(C)(C)V(C)(C); Kartvelian is known for heavy initial and medial clusters (e.g. Georgian prtskvni, mtsvrtneli) with harmonic clusters (e.g. gv-, br-, tsq-). Roots are mostly CVC or CCVC with ablaut (a/e ~ zero grade). Words may end in a vowel or a consonant; Georgian nominatives end in -i, Svan/Zan have their own endings. No phonemic stress in the proto-language; Georgian has weak initial-syllable stress. For game purposes keep clusters of 2-3 consonants at word onset, 1-2 at coda.",
+ "orthography": "Use a scholarly Latin transliteration of Georgian-type phonology: plain letters b d g k p t q z s x r l m n v j y; digraphs sh zh ch ts dz kh gh; ejectives optionally marked with an apostrophe after the letter (k' p' t' q' ts' ch'). Reconstructed forms are marked with an asterisk in the notes/roots list but not in the names themselves. Vowels a e i o u only; no long vowels or diacritics required.",
+ "morphology": "Agglutinating/polypersonal; roots are mostly verbal or nominal with ablaut. Georgian-type noun morphology: nominative -i, ergative -ma, genitive -is(a), dative -s(a), instrumental -it, adverbial -ad; plural -eb. Derivational prefixes/suffixes: mo-...-e (agent, 'one who'), sa-...-o (place/instrument, 'a place for X'), m-...-e (agentive), -oba/-ba (abstract nouns), -uri/-ur (adjectival 'belonging to'), -eli (agent/participle), -ar/-ian (possessive), tsa- and ga- (directional preverbs). Diminutive -a/-uka. For naming, derive from roots with sa-...-e/o for places and tools and -i/-a as citation endings.",
+ "compounding": "Compounds are head-final in nouns: modifier + head (e.g. Georgian mta-wvera 'mountain-peak'). Genitive constructions place the possessor before the possessed in -is/-s (e.g. mtis-tskali 'mountain-water'); dependency 'X of Y' is rendered as Y-is X or Y-X compound. Adjectives precede nouns in Georgian (lamazi kali 'beautiful woman'). Agent compounds: object + verbal root + -eli ('X-maker'), e.g. ghvin-is-mts'q'ob-eli. Place names are often formed with sa-ROOT-e/o or ROOT-eti (Trialeti: -eti is a collective/locative suffix, 'place of ...').",
+ "noun_phrase_order": "Modifier-head: adjective + noun, possessor (genitive) + possessed, numeral + noun; demonstrative + adjective + noun. Postpositions rather than prepositions (-ze 'on', -shi 'in', -tan 'near', -gan 'from').",
+ "attested_roots": [
+  {
+   "form": "*dad-",
+   "gloss": "mother (reduplicated child-word; cf. Georgian deda, Svan dada)",
+   "reconstructed": true
+  },
+  {
+   "form": "*mam-",
+   "gloss": "father (cf. Georgian mama, Svan mam)",
+   "reconstructed": true
+  },
+  {
+   "form": "*tsq'al-",
+   "gloss": "water (Georgian tskali, Mingrelian tsq'ali)",
+   "reconstructed": true
+  },
+  {
+   "form": "*mta",
+   "gloss": "mountain (Georgian mta, Svan mu-ta)",
+   "reconstructed": true
+  },
+  {
+   "form": "*q'ur-",
+   "gloss": "ear (Georgian q'uri, Svan q'ur)",
+   "reconstructed": true
+  },
+  {
+   "form": "*tsa",
+   "gloss": "sky/heaven (Georgian ts'a-, tsa)",
+   "reconstructed": true
+  },
+  {
+   "form": "*tskhen-",
+   "gloss": "horse (Georgian tskheni)",
+   "reconstructed": true
+  },
+  {
+   "form": "*ghvino",
+   "gloss": "wine (Georgian ghvino; Kartvelian-centred word)",
+   "reconstructed": true
+  },
+  {
+   "form": "*ghvt-",
+   "gloss": "god (Georgian ghmerti, Mingrelian ghoronti, Svan ghermet)",
+   "reconstructed": true
+  },
+  {
+   "form": "*k'ac-",
+   "gloss": "man, person (Georgian k'atsi)",
+   "reconstructed": true
+  },
+  {
+   "form": "*tsq'ar-",
+   "gloss": "spring, well (cf. Georgian tskaro)",
+   "reconstructed": true
+  },
+  {
+   "form": "*zghva",
+   "gloss": "sea (Georgian zghva, Mingrelian zhghva)",
+   "reconstructed": true
+  },
+  {
+   "form": "*ts'ver-",
+   "gloss": "tip, peak (Georgian ts'veri)",
+   "reconstructed": true
+  },
+  {
+   "form": "*q'ana",
+   "gloss": "field (Georgian q'ana)",
+   "reconstructed": true
+  },
+  {
+   "form": "*tsvim-",
+   "gloss": "rain (Georgian tsvima, Svan tsw-)",
+   "reconstructed": true
+  },
+  {
+   "form": "*bgher-",
+   "gloss": "to wander (attested in Georgian bghera-)",
+   "reconstructed": true
+  }
+ ],
+ "worked_examples": [
+  {
+   "english": "River Stew",
+   "name": "Tskali-sh'udi",
+   "gloss": "tskal- 'water' + -i; sh'ud- 'cook/stew' + -i (modifier-head compound, water + stew)"
+  },
+  {
+   "english": "Temple of the Sun",
+   "name": "Mzis sakhli",
+   "gloss": "mze 'sun' + -is (genitive) ; sa-khl-i 'house, dwelling' (possessor before possessed)"
+  },
+  {
+   "english": "Mountain Place",
+   "name": "Samtre",
+   "gloss": "sa- (place prefix) + mt- 'mountain' + -e (locative/collective suffix)"
+  },
+  {
+   "english": "Hunter",
+   "name": "Mogavre",
+   "gloss": "mo- (agentive) + gavr- 'hunt' + -e (agentive suffix)"
+  },
+  {
+   "english": "Horse Herd",
+   "name": "Tskhen-mtsuri",
+   "gloss": "tskhen- 'horse' + mtsur- 'herd' + -i (head-final compound, modifier first)"
+  },
+  {
+   "english": "Spring Field",
+   "name": "Tskaro-q'ana",
+   "gloss": "tskar- 'spring' + -o (stem vowel) ; q'ana 'field' (modifier + head)"
+  }
+ ],
+ "allowed_graphemes": [
+  "a",
+  "e",
+  "i",
+  "o",
+  "u",
+  "b",
+  "d",
+  "g",
+  "k",
+  "p",
+  "t",
+  "q",
+  "z",
+  "s",
+  "x",
+  "r",
+  "l",
+  "m",
+  "n",
+  "v",
+  "j",
+  "y",
+  "sh",
+  "zh",
+  "ch",
+  "ts",
+  "dz",
+  "kh",
+  "gh",
+  "th"
+ ],
+ "extra_allowed_chars": " -'",
+ "forbidden_patterns": [
+  "[aeiou]{3,}",
+  "^[^aeiouy]{4,}",
+  "[^aeiouy]{4,}",
+  "(.)\\1\\1",
+  "[cfhw]",
+  "q[^aeiou']",
+  "(ee|oo|uu)",
+  "[aeiou]'[aeiou]'[aeiou]'",
+  "kk|pp|tt|qq"
+ ],
+ "syllables_per_word": [
+  2,
+  3,
+  4
+ ],
+ "max_word_length": 14,
+ "sources": [
+  "Klimov, G. A. 1998. Etymological Dictionary of the Kartvelian Languages. Mouton de Gruyter",
+  "Fahnrich, H. 2007. Kartvelisches etymologisches Worterbuch. Brill",
+  "Gamkrelidze, T. and Mach'avariani, G. 1982. Sonant'ta sist'ema da ablaut'i kartvelur enebshi (The Sonant System and Ablaut in the Kartvelian Languages)",
+  "Hewitt, B. G. 1995. Georgian: A Structural Reference Grammar. John Benjamins",
+  "Boeder, W. 2002. Kartvelian (Typological notes). In Handbook of the Caucasian Languages",
+  "Glottolog entry: Kartvelian; ASJP Kartvelian wordlists; Wiktionary Proto-Kartvelian reconstruction pages",
+  "Meshveliani, T. et al. on Kotias Klde/Trialetian archaeology (context only, not linguistic)"
+ ],
+ "notes": "Speculative areal proxy only: no linguistic evidence ties Trialetian hunter-gatherers to Kartvelian, which may be a later arrival or a later spread. Current game strings (Radzi isy dexa, Gilag isy betentsa, Tsuli, Moshade, Laqon, Radzeyon) are not Kartvelian-structured (e.g. 'isy', 'ts' + y vowel patterns); names should be rebuilt with Kartvelian-style clusters (tsq-, mts-, br-, sh-, kh-), nominative -i/-a/-e, sa-...-e place frames, genitive -is and modifier-head order. Not Diaithiris. No word may be identical to a Modern Irish, Scottish Gaelic or Manx word, since the language is not Goidelic.",
+ "unit": "Trialetian",
+ "slug": "trialetian",
+ "model": "claude-sonnet-5-5"
+}
