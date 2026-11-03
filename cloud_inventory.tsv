@@ -346,7 +346,6 @@ compat/gen_rules_api.py	0	Ask Haiku (direct parallel cached calls) which blocks 
 compat/gen_data.py	0	Build the compat datapack: upgrade shim rules, unit stores, Age gaps, Codex and quest links per mod.	yes
 compat/gen_recipes.py	0	Add load conditions to recipes naming absent mods and cross-mod dust/raw smelting to the shared ingot.	yes
 compat/gen_station_moves.py	0	Move non-trivial vanilla and kept-mod grid recipes onto the Age ladder of stations with a fallback grid recipe.	yes
-=======
 diaithir-ports/diaithir-worldgen-structures/tools/lib_sites.py	16768	Turns the 44,015 Panscriptum STRUCTURE entries into jigsaw sites: lectern plaque with the entry text verbatim, class buildings, structures and sets per planet.	yes
 tools/mc_fake_player_bot.py	2665	Headless fake player for Minecraft 26.1.2 servers (login, keep-alive, chunk batch, teleport confirm) so spawners and altars can be triggered in cloud tests.	yes
 diaithir-ports/diaithir-worldgen-structures/tools/planet_biomes.py	1454	Maps settlement biome entries to each planet's biome ids (from #145 specs and planet stems) for biome-keyed settlement placement.	yes
