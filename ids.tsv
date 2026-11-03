@@ -6837,3 +6837,4 @@ S6906	global	crawl_all.py
 S6907	cloud	names/linguistics/names_for_terms.py
 S6908	cloud	compat/gen_recipes.py
 S6909	cloud	compat/gen_station_moves.py
+S6912	cloud	diaithir-ports/diaithir-wiretech/tools/rail_reader_check.py

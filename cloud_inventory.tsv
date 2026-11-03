@@ -358,3 +358,4 @@ compat/gen_data.py	0	Build the compat datapack: upgrade shim rules, unit stores,
 compat/gen_recipes.py	0	Add load conditions to recipes naming absent mods and cross-mod dust/raw smelting to the shared ingot.	yes
 compat/gen_station_moves.py	0	Move non-trivial vanilla and kept-mod grid recipes onto the Age ladder of stations with a fallback grid recipe.	yes
 diaithir-ports/diaithir-wiretech/tools/belt_reader_check.py	1800	Circuit reader against a real belt chute (belt fork jar) on the headless client lane.	no
+diaithir-ports/diaithir-wiretech/tools/rail_reader_check.py	1492	Circuit reader against a real destination rail and block signal (diaithir-carts) on the headless client lane.	no

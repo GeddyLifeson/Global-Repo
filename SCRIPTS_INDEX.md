@@ -6849,3 +6849,4 @@ Run hints: .py `python3 <file>` (PC `py`), .ps1 via a hidden launcher (never a v
 | S6907 | cloud | `names/linguistics/names_for_terms.py` | Names for an id-to-English file in 130 culture languages against the rules files. | yes |
 | S6908 | cloud | `compat/gen_recipes.py` | Add load conditions to recipes naming absent mods and cross-mod dust/raw smelting to the shared ingot. | yes |
 | S6909 | cloud | `compat/gen_station_moves.py` | Move non-trivial vanilla and kept-mod grid recipes onto the Age ladder of stations with a fallback grid recipe. | yes |
+| S6912 | cloud | `diaithir-ports/diaithir-wiretech/tools/rail_reader_check.py` | Circuit reader against a real destination rail and block signal (diaithir-carts) on the headless client lane. | no |
