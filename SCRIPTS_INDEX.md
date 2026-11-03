@@ -6837,6 +6837,9 @@ Run hints: .py `python3 <file>` (PC `py`), .ps1 via a hidden launcher (never a v
 | S6826 | cloud | `library-content/place_all.py` | S6823 Gives every Library entry a Collection, class, canon status, spine code and shelfmark from its soil | yes |
 | S6827 | cloud | `names/linguistics/regen_relaxed.py` | S0312 Regenerates every culture name that fails its language rules (Haiku, rules file cached per language, up to 3 repair rounds); writes na | yes |
 | S6829 | global | `tools/omniverse/export_library_books.py` | S6829 exports library books for the omniverse books lane (lives in the DiaithirRPG repo; copy not mirrored yet) | no |
+| S6838 | cloud | `diaithir-ports/diaithir-combat/tools/gear_gen.py` | Sorts every Panscriptum WEAPON/ARMOR entry into a weapon class or armor slot from its own summary text and writes gear.tsv.gz (id, tier, Age gate, class, name). | no |
+| S6839 | cloud | `diaithir-ports/diaithir-combat/tools/gear_art.py` | Draws the 64 px two-layer library gear textures, models and item definitions (19 items x 9 Ages). | no |
+| S6841 | cloud | `diaithir-ports/diaithir-combat/tools/gear_recipes.py` | Writes the library gear recipes (class x Age), site loot tables and progression nodes. | no |
 | S6836 | cloud | `diaithir-ports/diaithir-worldgen-structures/tools/lib_sites.py` | Turns the 44,015 Panscriptum STRUCTURE entries into jigsaw sites: lectern plaque with the entry text verbatim, class buildings, structures and sets per planet. | yes |
 | S6844 | cloud | `tools/mc_fake_player_bot.py` | Headless fake player for Minecraft 26.1.2 servers (login, keep-alive, chunk batch, teleport confirm) so spawners and altars can be triggered in cloud tests. | yes |
 | S6849 | cloud | `diaithir-ports/diaithir-worldgen-structures/tools/planet_biomes.py` | Maps settlement biome entries to each planet's biome ids (from #145 specs and planet stems) for biome-keyed settlement placement. | yes |
