@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-
+# S6875 diaithir-animation body layer generator: player body and item-use clips (PAL JSON), item tags and body_clips.json from the coverage csv.
 """Generates the vanilla-body pose layer for diaithir-animation (clean-room replacement for Not Enough Animations / firstperson poses).
 
 Usage: gen_body.py [coverage.csv]   (default /mnt/project-files/plans/ANIMATIONS_COVERAGE.csv)
