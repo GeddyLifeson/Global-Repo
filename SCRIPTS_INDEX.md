@@ -6810,3 +6810,6 @@ Run hints: .py `python3 <file>` (PC `py`), .ps1 via a hidden launcher (never a v
 | S6815 | pc | `E:\diaithir-ports-build\bc\diaithir-routing-networks\buildcraft\builds\26.X\build.neoforge.gradle` |  [gradle] was PS13025 | no |
 | S6818 | cloud | `DiaithirRPG/tools/codex/module_records.py` | Builds Codex records, quests and name requests for the overworld-biomes, nether and end modules (S6816). | no |
 | S6819 | cloud | `diaithir-ports/diaithir-trials-overhaul/tools/gen.py` | Writes the trials-overhaul Age gate, Codex handbook and quests from the real Not Enough Trials lang file. | no |
+| S6820 | cloud | `library-content/classify.py` | Library entries to in-game content form with Haiku (S6820). | no |
+| S6821 | cloud | `library-content/finalize.py` | Merges rule and model codes into library_to_content.tsv (S6821). | no |
+| S6822 | cloud | `library-content/build_content.py` | Builds content.sqlite with form, template, owner module and tier per entry (S6822). | no |
