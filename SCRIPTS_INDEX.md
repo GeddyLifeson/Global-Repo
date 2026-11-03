@@ -317,6 +317,14 @@ Run hints: .py `python3 <file>` (PC `py`), .ps1 via a hidden launcher (never a v
 | S0307 | cloud | `world-checks/scan.py` | Scan Tellus region files: per-column ground Y, snow cover, bedrock floor, and every *_ore block position.""" | yes |
 | S0308 | cloud | `world-checks/sites.py` | R = 111319.49166666667 * 180 / math.pi | yes |
 | S0309 | cloud | `world-checks/snow.py` | Snowline check: snow cover fraction by elevation band vs the Age I line (EraMath.age1SnowlineMeters).""" | yes |
+| S0310 | cloud | `tools/get_jdk25.sh` | Installs Temurin JDK 25 in the cloud container (gradle toolchain for NeoForge 26.1.2); source it, then ./gradlew compileJava -Porg.gradle.java.installations.paths=$JAVA_HOME. | yes |
+| S0311 | cloud | `tools/compile_fix_loop.py` | Compile-fix loop for diaithir modules: gradle errors + real 26.1.2 class candidates go to Sonnet, fixed files written back, up to 5 rounds. | yes |
+| S0312 | cloud | `compat/profile_jars.py` | Download each kept pack jar from its pack link, profile its blocks, items, recipes and c: tags, delete the jar. | yes |
+| S0313 | cloud | `compat/gen_tags.py` | Union material-named ingots, plates, gears, dusts, ores into c: convention tag files with required=false. | yes |
+| S0314 | cloud | `compat/gen_rules_api.py` | Ask Haiku (direct parallel cached calls) which blocks per mod are working blocks, with slots, kinds, units, Age. | yes |
+| S0315 | cloud | `compat/gen_data.py` | Build the compat datapack: upgrade shim rules, unit stores, Age gaps, Codex and quest links per mod. | yes |
+| S0316 | cloud | `compat/gen_recipes.py` | Add load conditions to recipes naming absent mods and cross-mod dust/raw smelting to the shared ingot. | yes |
+| S0317 | cloud | `compat/gen_station_moves.py` | Move non-trivial vanilla and kept-mod grid recipes onto the Age ladder of stations with a fallback grid recipe. | yes |
 | S0310 | cloud | `tools/get_jdk25.sh` | Installs Temurin JDK 25 into /tmp/claude-0/jdk25 (cloud container, via the proxy) and prints how to use it. | yes |
 | S0311 | cloud | `tools/compile_fix_loop.py` | S0311 (v2: prompt caching on the stable prefix, 6 parallel direct calls, optional gradle mirror init) Compile-fix loop: gradle compileJava p | yes |
 | S0312 | cloud | `tools/harness/srvup.sh` | S0312 srvup.sh SRV LOG : boot a NeoForge server and leave it running; commands go to LOG.in (use cmd.sh). Prints Done/failed line. | yes |
