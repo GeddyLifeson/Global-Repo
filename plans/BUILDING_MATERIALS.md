@@ -1,38 +1,44 @@
-# BUILDING MATERIALS: manufacturing lines as evolution chains (draft 1, 2026-11-03)
+# BUILDING MATERIALS: a lean set, each earning its place (draft 2, 2026-11-03)
 
-Answer to "should we add CFS manufacturing and the like": yes. Each line below is one chain that changes form through the Ages, not one machine. Every stage is a node in PROGRESSION (`needs`, `makes`, `age`, `module`, `q.<id>`), gated by `gate.<Age>`, in SI units (UNITS.md), with upgrade slots (UPGRADES.md). No new jar: all stages fold into existing consolidated modules (Foundry/tech for machines, blocks-decor for the blocks, Keelwright for hull stock, transport for vehicles).
+Draft 1 had nine lines including cold-formed steel framing, rebar, precast and drywall as their own chains. Marlon cut that: no standalone cold-formed steel, no Roll-Former. Rule now: **one entry per real material class, and a class only exists if it has a distinct property or use no other class covers.** Light-gauge steel framing is just a late stage of the steel set. Rebar and precast are stages of concrete. Drywall is a stage of wall lining.
 
-Age names: I Ancient, II Ailean, III Holy, IV Sundering, V Strangers, VI Kingdom, VII Dubhan, VIII Future, RODOS. Age placement below is a first proposal; tech-by-age.md (DiaithirRPG) wins on conflict.
+Each class is an evolution chain through the Ages, fed by existing Foundry tags (`c:ingots/steel` etc.), gated by `gate.<Age>`, SI units (UNITS.md), upgradeable (UPGRADES.md), no new jar (stations and items go in the Foundry module, blocks in blocks-decor). Age names: I Ancient, II Ailean, III Holy, IV Sundering, V Strangers, VI Kingdom, VII Dubhan, VIII Future, RODOS. Placement is a proposal; tech-by-age.md wins.
 
-## 1. Chains (one row per stage; output is a shared `c:` tag so the next stage and other mods accept it)
-| Line | I | II | III | IV | V | VI | VII | VIII / RODOS |
-|---|---|---|---|---|---|---|---|---|
-| Framing (studs, tracks, joists) | hewn timber post and beam | pegged and sawn timber | wrought iron strap and bar framing | cast and rolled iron sections | Bessemer steel angles and channel | hot-rolled steel I-section frames | cold-formed steel (CFS) roll-forming line: coil to C-stud, track, joist | robotic CFS plus alloy sections / shard-lattice frame |
-| Reinforcement (rebar, mesh) | withies in daub | iron rods in masonry | wrought iron bars | cast iron ties | mild steel round bar | ribbed rebar and wire mesh | pre-tensioned and post-tensioned strand | composite and shard-fibre rebar |
-| Structural beams (I-beam, plate) | log beams | iron-shod beams | iron plate girders | riveted rolled shapes | steel I-beams | welded plate girders | high-strength low-alloy beams | alloy and lattice beams |
-| Cement and concrete | lime mortar | Roman-style pozzolan concrete | hydraulic lime | rotary-kiln cement | Portland cement | reinforced concrete mixing | precast and prestressed plant, concrete trucks | self-healing and printed concrete |
-| Precast and block | mud brick, fired brick | cut and fired masonry | moulded tile | hollow block | concrete block | precast panels and slabs | prestressed planks, tilt-up panels | printed modular units |
-| Wall boards (drywall) | wattle and daub | lime plaster on lath | gypsum plaster | plaster of Paris boards | plasterboard | gypsum drywall line | fire-rated and moisture boards | smart panels |
-| Glass | blown glass | crown glass | cylinder sheet | plate glass | rolled and wired | float glass line | laminated and tempered | switchable glass |
-| Road surface | beaten earth, flagstone | cobble and gravel roads | pitch and macadam | tar macadam | asphalt mix plant | paving machines, road rollers | reinforced concrete highway | self-repairing surface |
-| Insulation and cladding | thatch, turf | slate, shingle | lead sheet, tile | rock wool | glass wool | foam board, metal cladding | CFS-backed cladding panels | aerogel panels |
+## 1. The set (9 classes)
+| Class | Distinct job | Stages by Age |
+|---|---|---|
+| Timber | cheap, light, burns | I post and beam, II sawn and pegged, III glulam-style engineered timber (VII) |
+| Masonry (mud, fired brick, stone) | fireproof, heavy, good in compression | I mud and fired brick, II cut stone, IV block |
+| Lime, cement, concrete | moulded, heavy, blast resistant | II pozzolan concrete, IV kiln cement, V Portland, VI reinforced (steel bars inside), VII precast and prestressed, VIII self-healing |
+| Iron and steel sections | span and tension, takes heavy loads | III wrought bar, IV cast and rolled iron, V steel angle and plate, VI I-beams, VII light-gauge studs and joists (the old CFS idea), RODOS alloy lattice |
+| Glass | light and view, brittle | I blown, III sheet, V plate, VI float, VII laminated and tempered |
+| Wall lining (plaster, board) | cheap interior fire rating and finish | II lime plaster, IV gypsum plaster, V board, VI fire-rated board |
+| Roofing and cladding | keeps weather out | I thatch, II slate and shingle, III tile, V metal sheet, VII insulated panel |
+| Road and ground surface | movement speed, vehicle load | I flagstone, II cobble, IV macadam, V asphalt, VI concrete road |
+| Insulation | indoor warmth under diaithir-climate | I turf and thatch, IV rock wool, V glass wool, VII foam, VIII aerogel |
 
-## 2. How it ties into the rest of the game
-- **Resources (shared tags):** each output is a `c:` tag per INTEGRATION.md (`c:framing/cfs`, `c:rebar`, `c:beams/steel`, `c:concrete/precast`, `c:wallboard`, `c:glass_blocks`, `c:asphalt`). Inputs reuse Foundry steel, plate and coil tags, Create-style rolling and pressing, coal, lime, gypsum, sand, aggregate from worldgen.
-- **Consumers:** cranes and assembly yards (structure kits need beams, framing and slabs), settlements (buildings upgrade by material tier, so a town can't pass an Age on timber alone), Keelwright hull stock (plate, beams), roads and rail (asphalt, concrete, ballast), concrete trucks and road rollers (trucks thread: they consume cement, aggregate and asphalt, and are gated by the same Age), economy (each product is a tradable good with a company recipe), Codex entry and quest per stage.
-- **Evolution rule:** a later stage never deletes an earlier one. Older stages stay craftable at lower speed and quality; each upgrade is a Factorio-style module or line refit that raises throughput and lowers W per kg. Worlds keep old buildings valid via id migration.
-- **Panscriptum:** stage names, descriptions and any assay come from real page text only; nothing invented. Names go through the 130-culture pipeline.
+Shard and alloy composites are the RODOS stage inside steel and concrete, not a tenth class.
 
-## 3. Mod sources (mod-first rule; status unverified, to check before building)
-| Need | Plan |
+## 2. Property table (the real role of each class; all blocks and items read the same numbers)
+Per block or per metre, SI, approximate real-world orders of magnitude, tuned in game later:
+| Property | Where it bites in game |
 |---|---|
-| Rolling mills, presses, casting | existing Foundry and Create port nodes first; fold stages in |
-| Concrete, asphalt, rebar blocks | check latest 26.1 NeoForge builds of Modern Industrialization, Mekanism and Create addons; otherwise clean-room blocks in blocks-decor |
-| CFS roll-forming, precast plant, drywall line | no known 26.1 mod; clean-room machines in the Foundry module |
-| Glass line | extend existing glass node (`tech.glass`) with stages |
-| Concrete trucks, rollers | trucks thread owns vehicles; this plan supplies the material items and Age gates |
-Next step is a licence and 26.1 build check per row (Modrinth API dump works from the cloud), logged in a CSV, then node entries added to `graph.json` and run through `check_progression.py`.
+| density kg/m3 | build weight: ships (Keelwright), vehicles, crane lift_kg, ground load |
+| strength / span | max unsupported span and height before a structure needs more support; assembly yards and cranes check it |
+| fire rating | spreading fire and lava damage; timber burns, masonry and concrete do not |
+| blast and mining resistance | sieges, bosses, raids; concrete and steel last |
+| thermal conductance W/(m2 K) | indoor temperature in the climate module; insulation and glass matter in cold or hot biomes |
+| light transmission | glass only |
+| cost per unit | the sink that pushes players up the tree: later stages cost more Foundry output but do more per unit |
 
-## 4. Open items for the coordinator
-- Which consolidated module owns the new machines (suggest Foundry/tech) and which owns blocks (blocks-decor rewrite).
-- Truck and crane threads should read section 1 for material names so ids match.
+## 3. How it ties into the game
+- **Shared tags** per INTEGRATION.md (`c:planks`, `c:bricks`, `c:concrete`, `c:beams/steel`, `c:glass_blocks`, `c:wallboard`, `c:roofing`, `c:road_surface`, `c:insulation`) so other mods' items work as inputs and outputs.
+- **Consumers:** settlements (a building tier needs a material tier, so a town can't pass an Age on timber), assembly yards and cranes (structure kits need beams, slabs, glass), Keelwright hull stock, roads and rail, the trucks thread's concrete trucks and road rollers (they consume cement, aggregate, asphalt), economy (tradable goods), Codex entry and quest per class.
+- **Evolution rule:** older stages stay craftable at lower speed and quality; refits and upgrade modules raise throughput. Old builds stay valid through id migration.
+- **Panscriptum:** names and descriptions come from real page text only; names go through the 130-culture pipeline.
+
+## 4. Build order (when Marlon says go)
+1. Property table as one data file read by blocks, structures, climate and fire.
+2. Concrete line first (touches trucks, rollers, roads, cranes), then steel sections, glass, roads, lining, roofing, insulation.
+3. Each stage: station recipe (Foundry stations framework already supports parts, assemblies, processes, steam power and kept tool items), block, Codex entry, quest, Age gate, selftest.
+Mod sources: check latest 26.1 builds of Create-style addons and Modern Industrialization first; default is clean-room in the Foundry and blocks-decor modules.
