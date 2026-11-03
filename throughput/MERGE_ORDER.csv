@@ -1,84 +1,56 @@
 wave,repo,number,base,head,partner,title
-0,ports,106,diaithircompat,claude/port-opencomputers,,"Port OpenComputers (OC2R) to 26.1.2: step 0, licence and snapshot"
 0,ports,107,diaithircompat,claude/project-thread-7zs4l7,,"Port Terrastorage quick stack, restock and sort into diaithir-storagenet"
 0,ports,108,diaithircompat,claude/port-buildcraft-ce,,Port BuildCraft Community Edition 8.0.26 into diaithir-routing-networks
-0,ports,109,diaithircompat,claude/port-package-mod,,"Port The Package Mod: Researcher, Packager, Unpackager (automation-crafting)"
-0,ports,110,diaithircompat,claude/port-simple-belts,,"Simple Belts: licence, 26.1.2 finding and Foundry belt plan (routing-networks)"
 0,ports,111,diaithircompat,claude/port-global-events,,"Port Global Events (meteors, blood moon, caravan, golden hour) to NeoForge 26.1.2"
 0,ports,112,diaithircompat,claude/foundry-logistics-depot,,Foundry: courier depots and ghost placement (clean-room)
 0,ports,113,diaithircompat,claude/project-thread-celestials,,Port Enhanced Celestials lunar events into diaithir-hostile-encounters
 0,ports,114,diaithircompat,claude/port-notlogisticspipes,,Port Not Logistics Pipes to 26.1.2 (diaithir-logistics-utilities)
-0,ports,115,diaithircompat,claude/project-thread-fishing-crates,,Add diaithir-creature-utilities: fishing crates (Fishing Crates port)
-0,ports,116,diaithircompat,claude/project-thread-g6du6a,rpg#222,diaithir-worldsys: clean-room world systems and admin module (group 7)
-0,ports,117,diaithircompat,claude/project-thread-mhfa65,,"Add shared upgrade API (modules, quality, beacons, planner)"
-0,ports,118,diaithircompat,claude/project-thread-r3fsql,,Add diaithir-units: shared SI unit API and energy shim
 0,ports,119,diaithircompat,claude/project-thread-16rt8f,,diaithir-buildcraft: clean-room building families (slice 1)
-0,ports,120,diaithircompat,claude/project-thread-889fio,rpg#226,"Combat and classes: clean-room content for 16 mods (draft, data stage)"
 0,ports,121,diaithircompat,claude/foundry-routing-sorters,,"Foundry: Day Barrel, Sieve and Sorting Router (Factorization port, routing-networks)"
 0,ports,122,diaithircompat,claude/project-thread-q46iss,rpg#220,"Clean-room group 6: client UI and visuals (10 modules, 13 mods)"
 0,ports,123,diaithircompat,claude/storage-logistics-cleanroom,,"Clean-room storage and logistics: pipes, linked storage, routing, portable, filters, found"
-0,ports,124,diaithircompat,claude/slimes-port,,Add diaithir-gellings: Terrarian Slimes port (own names and art)
-0,ports,125,diaithircompat,claude/project-thread-cbk1ux,,"diaithir-bosses: Ascendant tier (post-endgame bosses, boss rush, difficulty modes)"
-0,ports,126,claude/pack-v1-3,claude/pack-v1-3-fold5d,rpg#219,Pack consolidation fold 5: 9 module jars (28 sources)
 0,ports,127,diaithircompat,claude/port-researcher,,Port Researcher (Foundry research bench) to NeoForge 26.1.2
-0,ports,128,diaithircompat,claude/project-thread-tmt98v,,Port Archimedes' Ships into diaithir-ships
-0,ports,129,diaithircompat,claude/project-thread-u1pv7x,,Add diaithir-miners: ore patches and miners (Advanced Ore Deposits + FactoriOres port)
-0,ports,130,diaithircompat,claude/project-thread-ywzzrh,,"Port The Aurorian (MIT) to 26.1.2: tiers, blocks, dimension"
-0,ports,131,diaithircompat,claude/biomes-dimensions-module,,"Clean-room biomes and dimensions modules (overworld-biomes, nether, end)"
 0,ports,133,diaithircompat,claude/project-thread-04cqh9,,"Add diaithir-worldgen-structures (clean-room, 186 structures)"
 0,ports,138,diaithircompat,claude/project-thread-yd2ulw,rpg#230,Add diaithir-trials-overhaul (Not Enough Trials integration layer)
-0,ports,139,diaithircompat,claude/ships-client-accessor-fix,,"diaithir-ships: fix client world-login crash (ClientChunkCache storage accessor), diaithir"
-0,ports,142,diaithircompat,claude/project-thread-hq8qxv,,"druidry: all 51,884 Library rites as data (rite.v1)"
+0,ports,140,diaithircompat,claude/ships-vs-tournament,,diaithir-ships: port VS Tournament to 26.1.2 (diaithir.5)
 0,ports,144,claude/pack-v1-3,claude/project-thread-31txi1,rpg#236,Add quality-of-life mod links to pack index
-0,ports,148,diaithircompat,claude/port-alexs-mobs,,"Alex's Mobs: use upstream Continued 2.2.4 (26.1.2), Walkers id patch, gates, notice"
-0,ports,154,diaithircompat,claude/project-thread-fiihld,,diaithir-fauna: Panscriptum mobs as data (59k entries) + /fauna libsummon
-0,ports,155,diaithircompat,claude/project-thread-c42hab,,"bosses: 1,767 planet bosses on 216 planets, each with its own model and texture"
-0,ports,156,diaithircompat,claude/project-thread-b0jj7z,,Add diaithir-waypoints (clean-room Waystones replacement)
+0,ports,153,diaithircompat,claude/rites-loader,,"bosses: run the 51,884 Library rites at the Ascendant altar"
 0,ports,157,diaithircompat,claude/project-thread-65rzpi,,diaithir-computing: clean-room Lua Reckoner (CC: Tweaked stand-in)
-0,ports,158,diaithircompat,claude/project-thread-yttm0n,,Add diaithir-firearms (clean-room Point Blank replacement)
+0,ports,161,claude/pack-v1-3,claude/pack-v1-3-supermods,rpg#243,Supermodules: fold 33 own jars into diaithir-rewrites + diaithir-tech-suite
+0,ports,164,diaithircompat,claude/project-thread-o4oztu,,"Ascendant biomes (Thornwake, Cinderfen, The Unwound) and hidden rite sites"
+0,ports,165,diaithircompat,claude/project-thread-t3du39,,"diaithir-animation: machine, block and vehicle animation core + rules (4,994 coverage rows"
+0,ports,166,diaithircompat,claude/project-thread-mhfa65,,"Upgrades: module slot menu and screen, fake-player selftest"
+0,ports,167,claude/project-thread-cbk1ux,claude/project-thread-60ba9h,,"diaithir-bosses: Shardfall Gate (win.gate) block, rite and win ceremony"
+0,ports,168,diaithircompat,claude/biomes-dimensions-module,,Add compat sapling growth check command for the biomes module
 0,rpg,185,claude/worldgen-mods,claude/project-thread-l7j43a,,Let every vanilla and modded structure generate on the Age I Earth world
-0,rpg,218,engine,claude/boss-checklist-codex,,"Codex: Bosses tab, ported from Boss Checklist (MIT)"
-0,rpg,219,claude/pack-v1-3,claude/pack-v1-3-fold5d,ports#126,"Pack consolidation fold 5: pack.json, manifest and fold tools"
 0,rpg,220,engine,claude/project-thread-q46iss,ports#122,"Pack: group 6 client UI modules (adds 10, drops 12)"
-0,rpg,221,engine,claude/project-thread-wixpzc,,Master CLAUDE.md: cloud compile recipe
-0,rpg,222,engine,claude/project-thread-g6du6a,ports#116,"pack: add diaithir-worldsys, drop the 19 mods it replaces (group 7)"
-0,rpg,223,claude/pack-v1-3-compat-matrix,claude/project-thread-9cmcx3,,"Compat datapack for every kept mod (tags, upgrade shims, units, ages, codex/quest links)"
-0,rpg,226,engine,claude/project-thread-889fio,ports#120,"Age gates for combat, classes, relics and hostile modules (draft)"
-0,rpg,227,claude/pack-v1-3-storage-drops,claude/project-thread-bjpm5a,ports#135,dedupe.js: retarget merges whose kept mod was dropped (stacked on #225)
-0,rpg,229,engine,claude/project-thread-f7va0k,,"Codex records, quests and Age gates for overworld-biomes, nether and end modules"
+0,rpg,223,claude/pack-v1-3-compat-matrix,claude/project-thread-9cmcx3,,Compat datapack for every kept mod
 0,rpg,230,engine,claude/project-thread-yd2ulw,ports#138,Pack: add diaithir-trials-overhaul jar
-0,rpg,231,engine,claude/project-thread-v4y3xu,,"Add language rules for 130 cultures and regenerated names (473,736)"
 0,rpg,232,engine,claude/project-thread-gucbky,,Add Offgrid (26.1.2 NeoForge) to the pack inputs
-0,rpg,234,omniverse,claude/project-thread-tw3yu0,,"Panscriptum entry books and lazy shelves (all 699,649 entries)"
-0,rpg,235,engine,claude/project-thread-tjwq65,,"Panscriptum quests: 33,435 Codex journal quests, Age-gated"
 0,rpg,236,engine,claude/project-thread-31txi1,ports#144,Add quality-of-life mods to pack sources
-0,rpg,237,engine,claude/project-thread-rzjwzu,,"Library store, entry_book item and Codex lib tab"
 0,rpg,238,engine,claude/project-thread-isvfz2,,Library NPCs: every Panscriptum NPC entry as an in-game person
-0,rpg,239,engine,claude/project-thread-86izae,ports#147,Journal: Library gear forging quests
-0,rpg,241,claude/company-ledger,claude/economy-to-java,,"Economy: run from the worldsys jar, KubeJS originals kept as test reference"
-1,ports,132,claude/pack-v1-3-fold5d,claude/pack-v1-3-compat-loader,rpg#224,diaithir-compat: single id-migration loader
+0,rpg,243,claude/pack-v1-3,claude/pack-v1-3-supermods,ports#161,Supermodules: rewrites + tech-suite bundles (fold_custom)
+0,rpg,245,engine,claude/foundry-tech-ages-rows,,tech_ages: rows for diaithirpipes/portable/routing/worldsys and Foundry crafting items
+0,rpg,246,engine,claude/progression-glue,,"Progression glue: node quests, Gate rite, operator seat, Unrest, win ceremony"
 1,ports,134,claude/project-thread-celestials,claude/project-thread-889fio-hostile,,Hostile encounters: caravans and undead nights content (stacked on #113)
-1,ports,135,claude/project-thread-g6du6a,claude/project-thread-bjpm5a,rpg#227,worldsys: fill id_migrations.json (stacked on #116)
 1,ports,136,claude/project-thread-04cqh9,claude/project-thread-0ogxan,,"Worldgen: Ascendant rite sites (3 ogham circles, 2 ruined feast halls)"
-1,ports,140,claude/ships-client-accessor-fix,claude/ships-vs-tournament,,diaithir-ships: port VS Tournament to 26.1.2 (diaithir.5)
-1,ports,145,claude/biomes-dimensions-module,claude/project-thread-x93lm4,,biomes-dimensions: 216 Panscriptum planet dimensions
 1,ports,146,claude/project-thread-04cqh9,claude/panscriptum-structures,,"Panscriptum: all 44,015 structure entries as worldgen sites"
-1,ports,147,claude/project-thread-889fio,claude/project-thread-86izae,rpg#239,"Library weapons and armor: 99,823 Panscriptum entries as data-driven gear"
-1,ports,150,claude/port-alexs-mobs,claude/port-friends-foes,,Friends&Foes 5.0.4 + addons: 26.1.2 NeoForge builds as pack dependencies
-1,ports,151,claude/project-thread-g6du6a,claude/worldsys-economy,,diaithir-worldsys: economy module (port of the KubeJS economy)
-1,ports,153,claude/project-thread-cbk1ux,claude/rites-loader,,"bosses: run the 51,884 Library rites at the Ascendant altar"
-1,ports,159,claude/biomes-dimensions-module,claude/project-thread-xbh7r7,,"Clean-room realms: Undergarden, Backwoods, Bumblezone, Aether II (slices 1-2)"
-1,ports,162,claude/port-opencomputers,claude/project-thread-0hzy8y,,OC port step 1: Ceres and Sedna built from source
-1,rpg,224,claude/pack-v1-3-fold5d,claude/pack-v1-3-compat-loader,ports#132,Pack: diaithir-compat jar in pack.json and manifest
-1,rpg,244,claude/project-thread-tjwq65,claude/economy-quest-coin,,Quest coin: pay a quest's coin: effect through the economy
-2,ports,137,claude/pack-v1-3-compat-loader,claude/pack-v1-3-storage,rpg#228,Pack: clean-room worldgen structures and six storage modules replace 49 third-party jars
+1,ports,163,claude/port-researcher,claude/foundry-operator-research,,"Foundry: Operator Seat, research packs 1-7, machine W/s, Age gate research (automation-cra"
 2,ports,149,claude/panscriptum-structures,claude/library-gear-site-loot,,Site chests: add Library gear pool
-2,rpg,228,claude/pack-v1-3-compat-loader,claude/pack-v1-3-storage,ports#137,"Pack: pack.json, manifest and Rodos pools for worldgen and storage clean-room jars"
-3,ports,141,claude/pack-v1-3-storage,claude/pack-v1-3-clientcombat,rpg#233,"Pack: wire client UI and combat/classes/relics clean-room jars (13 jars, drops 28 mods)"
-3,rpg,233,claude/pack-v1-3-storage,claude/pack-v1-3-clientcombat,ports#141,Pack inputs: client UI and combat/classes/relics clean-room jars (drops 28 mods)
-4,ports,152,claude/pack-v1-3-clientcombat,claude/pack-v1-3-worldsys-biomes,rpg#240,"Pack: wire world-systems and biomes/nether/end clean-room jars (4 jars, drops 30 files)"
-4,rpg,240,claude/pack-v1-3-clientcombat,claude/pack-v1-3-worldsys-biomes,ports#152,Pack inputs: world-systems and biomes/nether/end clean-room jars
-5,ports,160,claude/pack-v1-3-worldsys-biomes,claude/pack-v1-3-wave4,rpg#242,"Pack: wave 4 (libraries fold, rpg-open, open-worlds, tech-automation+Oritech, waypoints, f"
-5,rpg,242,claude/pack-v1-3-worldsys-biomes,claude/pack-v1-3-wave4,ports#160,"Pack inputs: wave 4 (libraries fold, rpg-open, open-worlds, new clean-room jars)"
-6,ports,161,claude/pack-v1-3-wave4,claude/pack-v1-3-supermods,rpg#243,Supermodules: fold 33 own jars into diaithir-rewrites + diaithir-tech-suite
-6,rpg,243,claude/pack-v1-3-wave4,claude/pack-v1-3-supermods,ports#161,Supermodules: rewrites + tech-suite bundles (fold_custom)
+0,global-repo,1,main,,,"Register S0312 gradle mirror init script [edits SCRIPTS_INDEX.md and ids.tsv: merge one at a time, rebuild index on conflict]"
+0,global-repo,2,main,,,"Culture names: linguistics rules for 130 languages [edits SCRIPTS_INDEX.md and ids.tsv: merge one at a time, rebuild index on conflict]"
+0,global-repo,3,main,,,"Register compat data-pack scripts S0312-S0316 [edits SCRIPTS_INDEX.md and ids.tsv: merge one at a time, rebuild index on conflict]"
+0,global-repo,4,main,,,"Progression: solo dependency graph, checker and dormant recipes [edits SCRIPTS_INDEX.md and ids.tsv: merge one at a time, rebuild index on conflict]"
+0,global-repo,5,main,,,"Register library-to-content scripts S6820-S6822 [edits SCRIPTS_INDEX.md and ids.tsv: merge one at a time, rebuild index on conflict]"
+0,global-repo,6,main,,,"Register S6828 gen_rites.py [edits SCRIPTS_INDEX.md and ids.tsv: merge one at a time, rebuild index on conflict]"
+0,global-repo,7,main,,,"Panscriptum planets: one planet per universe (217) [edits SCRIPTS_INDEX.md and ids.tsv: merge one at a time, rebuild index on conflict]"
+0,global-repo,8,main,,,"Index S6835 lib_sites.py [edits SCRIPTS_INDEX.md and ids.tsv: merge one at a time, rebuild index on conflict]"
+0,global-repo,9,main,,,"Register S6830 gear_gen and S6831 gear_art [edits SCRIPTS_INDEX.md and ids.tsv: merge one at a time, rebuild index on conflict]"
+0,global-repo,10,main,,,"Index S6847 realms_gen.py [edits SCRIPTS_INDEX.md and ids.tsv: merge one at a time, rebuild index on conflict]"
+0,global-repo,11,main,,,"Register S6860 gen_shims.py [edits SCRIPTS_INDEX.md and ids.tsv: merge one at a time, rebuild index on conflict]"
+0,global-repo,12,main,,,"Throughput tools (S6861-S6863) [edits SCRIPTS_INDEX.md and ids.tsv: merge one at a time, rebuild index on conflict]"
+0,global-repo,13,main,,,"Register S6865 assay decimals, mob match table, Sedna build script [edits SCRIPTS_INDEX.md and ids.tsv: merge one at a time, rebuild index on conflict]"
+0,global-repo,14,main,,,"Animation pack plan and coverage inventory [edits SCRIPTS_INDEX.md and ids.tsv: merge one at a time, rebuild index on conflict]"
+0,global-repo,15,main,,,"Progression graph.json with Foundry item ids; index S6864 [edits SCRIPTS_INDEX.md and ids.tsv: merge one at a time, rebuild index on conflict]"
+0,global-repo,16,main,,,"S6866 animation coverage CSV generator [edits SCRIPTS_INDEX.md and ids.tsv: merge one at a time, rebuild index on conflict]"
+0,global-repo,17,main,,,"Register S6873 gen_gate.py [edits SCRIPTS_INDEX.md and ids.tsv: merge one at a time, rebuild index on conflict]"
