@@ -85,7 +85,7 @@ def main():
         w(f"data/{NS}/worldgen/template_pool/rc/maze/{th}/cell.json",{"name":f"{NS}:rc/maze/{th}/cell","fallback":f"{NS}:rc/maze/{th}/cap","elements":els})
         w(f"data/{NS}/worldgen/template_pool/rc/maze/{th}/cap.json",{"name":f"{NS}:rc/maze/{th}/cap","fallback":"minecraft:empty","elements":caps})
         w(f"data/{NS}/worldgen/template_pool/rc/maze/{th}/hub.json",{"name":f"{NS}:rc/maze/{th}/hub","fallback":"minecraft:empty","elements":[{"weight":1,"element":{"element_type":"minecraft:single_pool_element","location":f"{NS}:rc/maze/{th}/hub","projection":"rigid","processors":"minecraft:empty"}}]})
-        w(f"data/{NS}/tags/worldgen/biome/rc/{th}.json",{"values":t["tag"]})
+        w(f"data/{NS}/tags/worldgen/biome/rc/{th}.json",{"values":[{"id":x[1:],"required":False} if False else ({"id":x,"required":False} if x.startswith("#c:") else x) for x in t["tag"]]})
         sid=f"rc/maze_{th}"
         w(f"data/{NS}/worldgen/structure/{sid}.json",{"type":"minecraft:jigsaw","biomes":f"#{NS}:rc/{th}","step":"underground_structures" if t["under"] or t.get("nether") else "surface_structures",
           "spawn_overrides":{},"terrain_adaptation":"encapsulate" if t["under"] else "beard_thin","start_pool":f"{NS}:rc/maze/{th}/hub","size":7,"max_distance_from_center":80,"use_expansion_hack":False,

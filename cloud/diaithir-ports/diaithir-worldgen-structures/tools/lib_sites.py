@@ -351,6 +351,7 @@ def structure_json(planet,cls,b,soil,start_pool,bio=""):
     return d
 
 def main():
+    txt_done=set()
     L=sqlite3.connect("file:"+SRC+"codex-store/library.sqlite?mode=ro",uri=True)
     C=sqlite3.connect("file:"+SRC+"library-content/content.sqlite?mode=ro",uri=True)
     P={r["planet_id"]:r for r in csv.DictReader(open(SRC+"planets/planets.tsv"),delimiter="\t")}
@@ -370,10 +371,10 @@ def main():
     seen_b=set(); terra_shapes=collections.Counter()
     for i in range(0,len(rows),900):
         ch=rows[i:i+900]
-        txt={r[0]:r[1] for r in L.execute("select id,summary from entry where id in (%s)"%",".join("?"*len(ch)),[c[0] for c in ch])}
+        txt={r[0]:r[1] for r in L.execute("select id,summary from entry where id in (%s)"%",".join("?"*len(ch)),[c[0][:-5] if c[0].endswith(".site") else c[0] for c in ch])}
         for eid,uni,tier,name,form in ch:
             planet=re.sub(r"[^a-z0-9_]","",uni.lower()); pl=P[planet]; soil=pl["soil"]
-            text=txt[eid]; cls="settlement" if form=="SETTLEMENT" else classify(text); bd=band(tier or 1)
+            text=txt[eid[:-5] if eid.endswith(".site") else eid]; cls="settlement" if form=="SETTLEMENT" else classify(text); bd=band(tier or 1)
             slug=re.sub(r"[^a-z0-9_]","_",eid.lower().split(".",1)[1].replace(planet+".","")) if False else re.sub(r"[^a-z0-9]+","_",eid.lower()).strip("_")
             path=f"lib/{planet}/{slug}"
             target=f"{NS}:lib/bld/{soil.lower()}/{cls}"
@@ -390,12 +391,18 @@ def main():
                 if b: bio=b.split(":")[1][len(planet)+1:] or "x"; bio_ids[(planet,bio)]=b
             else:
                 bio={"harbor":"coast","delve":"cave","bridge":"river"}.get(cls,"land")
-            if cls!="settlement" and planet=="diaithir":
+            if cls!="settlement":
                 tb=terra_build(text,cls)
                 if tb:
-                    bpath=f"lib/diaithir/b/{slug}"; cust=(tb[0],tb[1],tb[2]); terra_shapes[tb[3]]+=1
-                    w(f"data/{NS}/structure/{bpath}.nbt",building_nbt(cls,soil,2,cust))
-                    w(f"data/{NS}/worldgen/template_pool/{bpath}.json",{"name":f"{NS}:{bpath}","fallback":"minecraft:empty","elements":[{"weight":1,"element":{"element_type":"minecraft:single_pool_element","location":f"{NS}:{bpath}","projection":"rigid","processors":"minecraft:empty"}}]})
+                    terra_shapes[tb[3]]+=1
+                    if planet=="diaithir":
+                        bpath=f"lib/diaithir/b/{slug}"
+                    else:
+                        hk=hashlib.md5(repr((tb[:3],cls,soil)).encode()).hexdigest()[:12]; bpath=f"lib/bld/txt/{cls}_{hk}"
+                    if bpath not in txt_done:
+                        txt_done.add(bpath)
+                        w(f"data/{NS}/structure/{bpath}.nbt",building_nbt(cls,soil,2,(tb[0],tb[1],tb[2])))
+                        w(f"data/{NS}/worldgen/template_pool/{bpath}.json",{"name":f"{NS}:{bpath}","fallback":"minecraft:empty","elements":[{"weight":1,"element":{"element_type":"minecraft:single_pool_element","location":f"{NS}:{bpath}","projection":"rigid","processors":"minecraft:empty"}}]})
                     target=f"{NS}:{bpath}"
             hit=None; hook=None; wl=re.findall(r"[^\W\d_]+",text.lower()); nd=npcs.get(uni,{})
             for n in (3,2,1):
