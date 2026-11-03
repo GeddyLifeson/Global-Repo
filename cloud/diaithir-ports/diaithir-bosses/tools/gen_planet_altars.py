@@ -1,6 +1,6 @@
 #!/usr/bin/env python3 -I
 # S6831 Ascendant altar shrines for the planets: one structure + structure set per planet (216), one shared template and pool.
-# Biomes come from the optional tag #diaithir_planets:<id> (diaithir-overworld-biomes #145); Terra is left to the #136 rite sites.
+# Biomes come from the tag #diaithir_planets:<id> (diaithir-overworld-biomes #145); Terra is left to the #136 rite sites.
 # NBT writer pattern from diaithir-worldgen-structures tools/gen.py. Usage: python3 -I tools/gen_planet_altars.py <planets.tsv>
 import csv, gzip, io, json, os, struct, sys
 R = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -44,5 +44,7 @@ for r in csv.DictReader(open(sys.argv[1]), delimiter='\t'):
     if r['dimension'] == 'minecraft:overworld': continue
     w(f'{D}/worldgen/structure/planet_altar/{p}.json', {'type': 'minecraft:jigsaw', 'biomes': f'#diaithir_planets:{p}', 'step': 'surface_structures', 'spawn_overrides': {}, 'terrain_adaptation': 'beard_thin', 'start_pool': 'diaithirbosses:planet_altar', 'size': 1, 'start_height': {'absolute': 0}, 'project_start_to_heightmap': 'WORLD_SURFACE_WG', 'max_distance_from_center': 80, 'use_expansion_hack': False})
     w(f'{D}/worldgen/structure_set/planet_altar/{p}.json', {'structures': [{'structure': f'diaithirbosses:planet_altar/{p}', 'weight': 1}], 'placement': {'type': 'minecraft:random_spread', 'spacing': 24, 'separation': 10, 'salt': 770000 + n}})
+    # empty tag so the reference is bound without the biomes module; tags of every pack merge, so #145 still fills it
+    w(f'{R}/src/main/resources/data/diaithir_planets/tags/worldgen/biome/{p}.json', {'replace': False, 'values': []})
     n += 1
 print(n, 'planets')
