@@ -6856,3 +6856,4 @@ Run hints: .py `python3 <file>` (PC `py`), .ps1 via a hidden launcher (never a v
 | S6831 | cloud | `diaithir-ports/diaithir-bosses/tools/gen_planet_altars.py` | S6822 Generates the Ascendant altar shrine template and one structure + structure set per planet (216, biome tag diaithir_planets:<id>) | yes |
 | S6880 | global | `diaithir-ports PR 181: port.py (path in repo unconfirmed)` | S6880 Aurorian port script (diaithir-ports PR 181; copy lives in that repo) | no |
 | S6881 | global | `diaithir-ports PR 181: rcon.py (path in repo unconfirmed)` | S6881 Aurorian rcon helper for the port tests (diaithir-ports PR 181; copy lives in that repo) | no |
+| S6902 | cloud | `diaithir-ports/diaithir-carts/tools/harvest_locos.py` | S6902 Harvests every US and UK locomotive class (Wikidata list, Wikipedia infobox) into data/locos_raw.csv, standard and narrow gauge only | yes |
