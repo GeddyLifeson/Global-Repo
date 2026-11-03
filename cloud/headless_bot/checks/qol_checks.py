@@ -11,12 +11,11 @@ with Lane('qol', JARS, out=out) as L:
     # standing spot: flat world, spawn (-8,-60,5). Platform of known blocks 4 m north (z=-4), player looks north (yaw 180).
     L.server_cmd('gamemode creative Tester'); L.server_cmd('time set day'); L.server_cmd('weather clear')
     L.server_cmd('tp Tester 0.5 -60 0.5 180 10', 2); L.shot('00_spawn.png')
-    # 1. look-at box: a block, a mob, a waypoint stone, a claimed chunk
-    L.server_cmd('setblock 0 -60 -3 minecraft:stone'); L.look(0.5, -60, 0.5, 180, 20); L.shot('01_lookat_block.png')
-    L.server_cmd('summon minecraft:pig 0.5 -60 -3.5 {NoAI:1b}'); L.look(0.5, -60, 0.5, 180, 20); L.shot('02_lookat_mob.png')
-    L.server_cmd('setblock 0 -60 -3 diaithirwaypoints:waypoint_stone'); L.look(0.5, -60, 0.5, 180, 20); L.shot('03_lookat_waypoint.png')
+    # 1. look-at box. Everything at z>=+3 so it stays in chunk 0 (claimed at z=0.5); player faces south (yaw 0).
     L.server_cmd('execute as Tester at Tester run claim'); time.sleep(1)
-    L.server_cmd('setblock 0 -60 -3 minecraft:stone'); L.look(0.5, -60, 0.5, 180, 20); L.shot('04_lookat_claimed_chunk.png')
+    L.server_cmd('setblock 0 -60 3 minecraft:stone'); L.look(0.5, -60, 0.5, 0, 20); L.shot('01_lookat_block_claimed.png')
+    L.server_cmd('summon minecraft:pig 3.5 -60 3.5 {NoAI:1b}'); L.look(0.5, -60, 0.5, 0, 12); L.shot('02_lookat_mob.png')
+    L.server_cmd('setblock 0 -60 3 diaithirwaypoints:waypoint_stone'); L.look(0.5, -60, 0.5, 0, 20); L.shot('03_lookat_waypoint.png')
     # 2. claims map screen
     d.chat('/claim map'); time.sleep(2); L.shot('05_claim_map_screen.png'); d.key('Escape'); time.sleep(1)
     print('server lines', L.log_lines('server', r'ERROR|Exception')[:4])
