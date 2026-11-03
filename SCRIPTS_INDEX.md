@@ -6837,6 +6837,7 @@ Run hints: .py `python3 <file>` (PC `py`), .ps1 via a hidden launcher (never a v
 | S6826 | cloud | `library-content/place_all.py` | S6823 Gives every Library entry a Collection, class, canon status, spine code and shelfmark from its soil | yes |
 | S6827 | cloud | `names/linguistics/regen_relaxed.py` | S0312 Regenerates every culture name that fails its language rules (Haiku, rules file cached per language, up to 3 repair rounds); writes na | yes |
 | S6829 | global | `tools/omniverse/export_library_books.py` | S6829 exports library books for the omniverse books lane (lives in the DiaithirRPG repo; copy not mirrored yet) | no |
+| S6864 | global | `tools/progression/gen_quests.py` | S6864 writes one Codex quest per progression graph node, per-Age journal files (lives in the DiaithirRPG repo; copy not mirrored yet) | no |
 | S6865 | cloud | `cloud/library-content/assay_decimals.py` | S6865 derives charter assay decimals (M band + fraction, +- interval) from scored c3m P into content.sqlite table assay_decimal (149,976 rows) | yes |
 | S6860 | cloud | `diaithir-upgrades/gen_shims.py` | Write upgrade compat shims: scan a mod's real blockstates for working-block names and emit upgrade target rules. | yes |
 | S6847 | cloud | `diaithir-ports/diaithir-overworld-biomes/tools/realms_gen.py` | S6847 Clean-room realm generator: ids list in, manifest, models, loot, recipes, tags, dimension, biomes, migrations, quest and Codex entry out (Undergarden, Backwoods, Bumblezone, Aether II) | yes |
