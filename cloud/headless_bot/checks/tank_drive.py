@@ -43,13 +43,14 @@ with Lane('tank', JARS, srv_xmx='3G', out=out) as L:
         DV = lambda c, w=1.2: S('execute as Tester at Tester run diaithirvehicle ' + c, w)
         rep['seat_pos'] = S('data get entity Tester Pos', 0.6)
         rep['start'] = DV('start'); time.sleep(1.5); rep['status_after_start'] = DV('status'); L.shot('02_hud_after_start.png')
-        d.key('n'); time.sleep(0.5)
-        rep['drive1'] = DV('drive 1'); time.sleep(5); rep['status_5s'] = DV('status'); L.shot('03_hud_drive1_5s.png'); time.sleep(5); rep['status_10s'] = DV('status'); rep['veh_pos_drive1'] = S(VP, 0.6)
-        DV('drive 0'); time.sleep(2); rep['status_stopped'] = DV('status')
-        p0 = S(VP, 0.6); d.hold('w', 5); time.sleep(0.5); rep['w_key_status'] = DV('status'); rep['w_key_pos'] = (p0[-1:], S(VP, 0.6)[-1:]); L.shot('04_after_w.png')
+        VL = lambda: [l.split(']: ', 1)[-1] for l in L.log_lines('server', r'Vehicle: engines')]
+        n0 = len(VL()); DV('watch 12', 0.5); d.hold('w', 12); time.sleep(2); rep['watch_W_held'] = VL()[n0:]; L.shot('03_hud_W_held.png')
+        n1 = len(VL()); DV('watch 12', 0.5); time.sleep(14); rep['watch_W_released'] = VL()[n1:]
+        rep['veh_pos_end'] = S(VP, 0.6)
         d.hold('space', 1.0); time.sleep(0.5); L.shot('05_fire.png')
         L.shot('03_driven.png')
         rep['pos_after'] = S('data get entity Tester Pos', 0.8); rep['veh_pos_after'] = S('data get entity @e[type=mts:builder_existing,limit=1,sort=nearest] Pos', 0.8)
+    rep['client_instrument_lines'] = L.log_lines('client', r'(?i)instrument|speedo|tacho|diaithirtanks:|instruments\.png|gauge')[:30]
     rep['client_errors'] = [l for l in L.log_lines('client', r'ERROR|Exception') if not any(x in l for x in ('authlib', 'Realms', '401', 'OpenAL', 'profile key', 'SoundSystem', 'MTSERROR: Welcome'))][:10]
 json.dump(rep, open((out or '.') + '/tank_report.json', 'w'), indent=1)
 for k, v in rep.items(): print(k, str(v)[:400])
