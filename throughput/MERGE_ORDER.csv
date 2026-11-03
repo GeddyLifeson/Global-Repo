@@ -81,5 +81,5 @@ wave,repo,number,base,head,partner,title
 0,ports,270,claude/foundry-logistics-depot,claude/survey-p3-metal,,"Survey p3: Alloy Forgery recipes in Forgeworks alloy furnace (merge after #112)"
 0,ports,273,diaithircompat,claude/survey-p2-gear-folds,,"diaithir-gear: fold item magnets (CC0), repair kits (MIT), anvil repair (LGPL own package); survey part 2"
 0,ports,297,diaithircompat,claude/survey-p6-client-qol,,"Survey p6: client QoL ports into hud-overlays, tooltipfx, inventory-ui, client-view-input, chat-client"
-0,ports,298,diaithircompat,claude/survey-p6-audio-nav,,"Survey p6: diaithir-audio and diaithir-structure-navigation"
-0,ports,299,diaithircompat,claude/survey-p6-server-perf,,"Survey p6: network-compat (Packet Fixer), worldgen-chunk-opts (Ksyxis); Simple Backups lives in #290"
+0,ports,298,diaithircompat,claude/survey-p6-audio-nav,,"Survey p6: audio folded into clientcore, Structure Compass into worldsys (no new jars)"
+0,ports,299,diaithircompat,claude/survey-p6-server-perf,,"Survey p6: Packet Fixer and Ksyxis folded into crash-tools (Simple Backups is #290)"
