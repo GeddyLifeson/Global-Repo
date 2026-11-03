@@ -315,8 +315,6 @@ S0314	cloud	compat/gen_rules_api.py
 S0315	cloud	compat/gen_data.py
 S0316	cloud	compat/gen_recipes.py
 S0317	cloud	compat/gen_station_moves.py
-S0316	cloud	names/linguistics/audit_names.py
-S0317	cloud	names/linguistics/research_rules.py
 S0318	cloud	compute/gradle_mirror_init.gradle
 S0322	global	claim_id.py
 S0331	cloud	tools/harness/srvup.sh
@@ -324,12 +322,9 @@ S0332	cloud	tools/harness/cmd.sh
 S0333	cloud	tools/harness/shot.sh
 S0334	cloud	tools/harness/cl_join.sh
 S0335	cloud	names/linguistics/regen_names.py
-S0335	global	crawl_all.py
 S0336	global	add_rows.py
 S0337	cloud	plans/progression/check_progression.py
 S0338	cloud	plans/progression/gen_progression_recipes.py
-S0337	cloud	pc_scan/fix_atm11_261.py
-S0338	cloud	pc_scan/mod_conflict_scan.py
 S0339	cloud	pc_scan/overlay_conflicts.py
 S0340	cloud	plans/progression/check_progression.py
 S0341	cloud	plans/progression/gen_progression_recipes.py
@@ -6813,7 +6808,6 @@ S6820	cloud	library-content/classify.py
 S6821	cloud	library-content/finalize.py
 S6822	cloud	library-content/build_content.py
 S6823	cloud	library-content/place_all.py
-S6823	cloud	library-content/build_content.py
 S6824	cloud	library-content/classify.py
 S6825	cloud	library-content/finalize.py
 S6826	cloud	library-content/place_all.py
