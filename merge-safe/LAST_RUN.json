@@ -1,0 +1,299 @@
+{
+    "run_utc":  "2026-11-03T21:09:00Z",
+    "dry_run":  false,
+    "merged_count":  15,
+    "skipped_count":  45,
+    "failed_count":  0,
+    "merged":  [
+                   {
+                       "pr":  "GeddyLifeson/Global-Repo#1",
+                       "title":  "Register S0312 gradle mirror init script"
+                   },
+                   {
+                       "pr":  "GeddyLifeson/Global-Repo#10",
+                       "title":  "Index S6847 realms_gen.py"
+                   },
+                   {
+                       "pr":  "GeddyLifeson/Global-Repo#11",
+                       "title":  "Register S6860 gen_shims.py (upgrade compat shim generator)"
+                   },
+                   {
+                       "pr":  "GeddyLifeson/Global-Repo#13",
+                       "title":  "Register S6865 assay decimals, mob match table, Sedna build script"
+                   },
+                   {
+                       "pr":  "GeddyLifeson/Global-Repo#15",
+                       "title":  "Progression graph.json with Foundry item ids and W/s; index S6864"
+                   },
+                   {
+                       "pr":  "GeddyLifeson/Global-Repo#16",
+                       "title":  "S6866: animation coverage CSV generator"
+                   },
+                   {
+                       "pr":  "GeddyLifeson/Global-Repo#17",
+                       "title":  "Register S6873 gen_gate.py (Shardfall Gate)"
+                   },
+                   {
+                       "pr":  "GeddyLifeson/Global-Repo#3",
+                       "title":  "Register compat data-pack scripts S0312-S0316"
+                   },
+                   {
+                       "pr":  "GeddyLifeson/Global-Repo#4",
+                       "title":  "Progression: solo dependency graph, checker and dormant cross-mod recipes"
+                   },
+                   {
+                       "pr":  "GeddyLifeson/Global-Repo#5",
+                       "title":  "Register library-to-content scripts S6820-S6822"
+                   },
+                   {
+                       "pr":  "GeddyLifeson/Global-Repo#6",
+                       "title":  "Register S6828 gen_rites.py"
+                   },
+                   {
+                       "pr":  "GeddyLifeson/Global-Repo#7",
+                       "title":  "Panscriptum planets: one planet per universe (217)"
+                   },
+                   {
+                       "pr":  "GeddyLifeson/Global-Repo#8",
+                       "title":  "Index S6835 lib_sites.py"
+                   },
+                   {
+                       "pr":  "GeddyLifeson/Global-Repo#9",
+                       "title":  "Register S6830 gear_gen and S6831 gear_art"
+                   },
+                   {
+                       "pr":  "GeddyLifeson/diaithir-ports#164",
+                       "title":  "Ascendant biomes (Thornwake, Cinderfen, The Unwound) and hidden rite sites"
+                   }
+               ],
+    "skipped":  [
+                    {
+                        "title":  "Port Terrastorage quick stack, restock and sort into diaithir-storagenet",
+                        "pr":  "GeddyLifeson/diaithir-ports#107",
+                        "reason":  "storage duplicate, not settled (folded by #123?)"
+                    },
+                    {
+                        "title":  "Port BuildCraft Community Edition 8.0.26 into diaithir-routing-networks",
+                        "pr":  "GeddyLifeson/diaithir-ports#108",
+                        "reason":  "duplicate BuildCraft (#108 vs #119), not settled"
+                    },
+                    {
+                        "title":  "Port Global Events (meteors, blood moon, caravan, golden hour) to NeoForge 26.1.2",
+                        "pr":  "GeddyLifeson/diaithir-ports#111",
+                        "reason":  "meteor overlap ports#111 / ports#113: no winner chosen yet (set meteor.chosen in config)"
+                    },
+                    {
+                        "title":  "Foundry: courier depots and ghost placement (clean-room)",
+                        "pr":  "GeddyLifeson/diaithir-ports#112",
+                        "reason":  "storage duplicate, not settled (folded by #123?)"
+                    },
+                    {
+                        "title":  "Port Enhanced Celestials lunar events into diaithir-hostile-encounters",
+                        "pr":  "GeddyLifeson/diaithir-ports#113",
+                        "reason":  "meteor overlap ports#111 / ports#113: no winner chosen yet (set meteor.chosen in config)"
+                    },
+                    {
+                        "title":  "Port Not Logistics Pipes to 26.1.2 (diaithir-logistics-utilities)",
+                        "pr":  "GeddyLifeson/diaithir-ports#114",
+                        "reason":  "storage duplicate, not settled (folded by #123?)"
+                    },
+                    {
+                        "title":  "diaithir-buildcraft: clean-room building families (slice 1)",
+                        "pr":  "GeddyLifeson/diaithir-ports#119",
+                        "reason":  "duplicate BuildCraft (#108 vs #119), not settled"
+                    },
+                    {
+                        "title":  "Foundry: Day Barrel, Sieve and Sorting Router (Factorization port, routing-networks)",
+                        "pr":  "GeddyLifeson/diaithir-ports#121",
+                        "reason":  "storage duplicate, not settled (folded by #123?)"
+                    },
+                    {
+                        "title":  "Clean-room storage and logistics: pipes, linked storage, routing, portable, filters, foundry",
+                        "pr":  "GeddyLifeson/diaithir-ports#123",
+                        "reason":  "storage duplicate, not settled (folded by #123?)"
+                    },
+                    {
+                        "title":  "OpenComputers port step 1: Sedna, Ceres and Minux loader compile on 26.1.2",
+                        "pr":  "GeddyLifeson/diaithir-ports#169",
+                        "reason":  "merge conflicts"
+                    },
+                    {
+                        "title":  "Add diaithir-animation: melee, tool, bow and gun player animations (PAL)",
+                        "pr":  "GeddyLifeson/diaithir-ports#171",
+                        "reason":  "merge conflicts"
+                    },
+                    {
+                        "title":  "Add vehicle roster, road-vehicle pack and shared fuel API",
+                        "pr":  "GeddyLifeson/diaithir-ports#190",
+                        "reason":  "merge conflicts"
+                    },
+                    {
+                        "title":  "tech_ages: rows for diaithirpipes/portable/routing/worldsys and Foundry crafting items",
+                        "pr":  "GeddyLifeson/DiaithirRPG#245",
+                        "reason":  "merge conflicts"
+                    },
+                    {
+                        "title":  "Progression glue: node quests, Gate rite, operator seat, Unrest, win ceremony",
+                        "pr":  "GeddyLifeson/DiaithirRPG#246",
+                        "reason":  "merge conflicts"
+                    },
+                    {
+                        "title":  "Hostile encounters: caravans and undead nights content (stacked on #113)",
+                        "pr":  "GeddyLifeson/diaithir-ports#134",
+                        "reason":  "waiting for predecessor ports#113 to merge (it is skipped: meteor overlap ports#111 / ports#113: no winner chosen yet (set meteor.chosen in config))"
+                    },
+                    {
+                        "title":  "diaithir-animation: vanilla-body and first-person pose layer (87 clips, item-kind tags)",
+                        "pr":  "GeddyLifeson/diaithir-ports#187",
+                        "reason":  "waiting for predecessor ports#171 to merge"
+                    },
+                    {
+                        "title":  "Farm equipment: 35 machines and implements from digging stick to combine harvester",
+                        "pr":  "GeddyLifeson/diaithir-ports#195",
+                        "reason":  "merge conflicts"
+                    },
+                    {
+                        "title":  "Wave 6: BoP/Nature\u0027s Spirit/Productive/Macaw/Blockheads dropped for rewrite jars, rewrites bundle refresh, P:WIC dropped",
+                        "pr":  "GeddyLifeson/diaithir-ports#175",
+                        "reason":  "needs migrate_world.py with the server stopped; held until Marlon runs it"
+                    },
+                    {
+                        "title":  "Wave 6 pack inputs: overworld drop-in, rewrites refresh",
+                        "pr":  "GeddyLifeson/DiaithirRPG#248",
+                        "reason":  "needs migrate_world.py with the server stopped; held until Marlon runs it"
+                    },
+                    {
+                        "title":  "Fold Titanium and AE2 into libraries and ae2-extensions supermodules",
+                        "pr":  "GeddyLifeson/diaithir-ports#177",
+                        "reason":  "needs migrate_world.py with the server stopped; held until Marlon runs it"
+                    },
+                    {
+                        "title":  "Pack inputs: fold Titanium and AE2 into supermodules",
+                        "pr":  "GeddyLifeson/DiaithirRPG#249",
+                        "reason":  "needs migrate_world.py with the server stopped; held until Marlon runs it"
+                    },
+                    {
+                        "title":  "Register S6874 gen_clips.py (diaithir-animation clips and tags)",
+                        "pr":  "GeddyLifeson/Global-Repo#18",
+                        "reason":  "draft and not listed as clear in merge-order.csv"
+                    },
+                    {
+                        "title":  "Headless client test lane (cloud): lane.py, drive.py, checks",
+                        "pr":  "GeddyLifeson/Global-Repo#19",
+                        "reason":  "draft and not listed as clear in merge-order.csv"
+                    },
+                    {
+                        "title":  "Register S6876 animation coverage owner-3 status updater",
+                        "pr":  "GeddyLifeson/Global-Repo#20",
+                        "reason":  "draft and not listed as clear in merge-order.csv"
+                    },
+                    {
+                        "title":  "Register S6875 gen_body.py (diaithir-animation body layer generator)",
+                        "pr":  "GeddyLifeson/Global-Repo#21",
+                        "reason":  "draft and not listed as clear in merge-order.csv"
+                    },
+                    {
+                        "title":  "Add building-materials evolution-chain plan",
+                        "pr":  "GeddyLifeson/Global-Repo#22",
+                        "reason":  "draft and not listed as clear in merge-order.csv"
+                    },
+                    {
+                        "title":  "Register culture-name tools S6830 to S6833",
+                        "pr":  "GeddyLifeson/Global-Repo#23",
+                        "reason":  "draft and not listed as clear in merge-order.csv"
+                    },
+                    {
+                        "title":  "Plan: munitions manufacturing for vehicles",
+                        "pr":  "GeddyLifeson/Global-Repo#24",
+                        "reason":  "draft and not listed as clear in merge-order.csv"
+                    },
+                    {
+                        "title":  "Register S6883 gen_aircraft.py",
+                        "pr":  "GeddyLifeson/Global-Repo#25",
+                        "reason":  "draft and not listed as clear in merge-order.csv"
+                    },
+                    {
+                        "title":  "Worldgen structures: clean-room Nether set replacing mns",
+                        "pr":  "GeddyLifeson/diaithir-ports#201",
+                        "reason":  "draft and not listed as clear in merge-order.csv"
+                    },
+                    {
+                        "title":  "bosses: bind #diaithir_planets:\u003cid\u003e tags so the jar boots alone",
+                        "pr":  "GeddyLifeson/diaithir-ports#202",
+                        "reason":  "draft and not listed as clear in merge-order.csv"
+                    },
+                    {
+                        "title":  "diaithir-arms: 15 historical bows and crossbows (one per design)",
+                        "pr":  "GeddyLifeson/diaithir-ports#203",
+                        "reason":  "draft and not listed as clear in merge-order.csv"
+                    },
+                    {
+                        "title":  "Aurorian: silentwood sapling and tree growth",
+                        "pr":  "GeddyLifeson/diaithir-ports#204",
+                        "reason":  "draft and not listed as clear in merge-order.csv"
+                    },
+                    {
+                        "title":  "Clean-room realms slice 8: structure loot, gear abilities, creature sizes",
+                        "pr":  "GeddyLifeson/diaithir-ports#205",
+                        "reason":  "draft and not listed as clear in merge-order.csv"
+                    },
+                    {
+                        "title":  "Rail yards, cranes, locomotives and wagons (diaithir-carts)",
+                        "pr":  "GeddyLifeson/diaithir-ports#206",
+                        "reason":  "draft and not listed as clear in merge-order.csv"
+                    },
+                    {
+                        "title":  "Animate fauna, priest and rite altar (swing, hurt, death, prayer idle, rite effects)",
+                        "pr":  "GeddyLifeson/diaithir-ports#207",
+                        "reason":  "draft and not listed as clear in merge-order.csv"
+                    },
+                    {
+                        "title":  "Gear: Workshop Bench blueprints for the 15 historical bows and crossbows",
+                        "pr":  "GeddyLifeson/diaithir-ports#208",
+                        "reason":  "draft and not listed as clear in merge-order.csv"
+                    },
+                    {
+                        "title":  "diaithir-animation: animated block renderer + chunk-hide mixins",
+                        "pr":  "GeddyLifeson/diaithir-ports#209",
+                        "reason":  "draft and not listed as clear in merge-order.csv"
+                    },
+                    {
+                        "title":  "arms trucks: IV boot fixes, animation, depot and road data",
+                        "pr":  "GeddyLifeson/diaithir-ports#210",
+                        "reason":  "draft and not listed as clear in merge-order.csv"
+                    },
+                    {
+                        "title":  "Munitions Ages I-III: items and station recipes",
+                        "pr":  "GeddyLifeson/diaithir-ports#211",
+                        "reason":  "draft and not listed as clear in merge-order.csv"
+                    },
+                    {
+                        "title":  "entity-animation 1.0.2: fix double event subscription crash",
+                        "pr":  "GeddyLifeson/diaithir-ports#212",
+                        "reason":  "draft and not listed as clear in merge-order.csv"
+                    },
+                    {
+                        "title":  "Everyday objects: layered art, Diaithiris names, Codex, bench-only crafting",
+                        "pr":  "GeddyLifeson/diaithir-ports#213",
+                        "reason":  "draft and not listed as clear in merge-order.csv"
+                    },
+                    {
+                        "title":  "Stacks: planet labels and planet Age gate",
+                        "pr":  "GeddyLifeson/DiaithirRPG#255",
+                        "reason":  "draft and not listed as clear in merge-order.csv"
+                    },
+                    {
+                        "title":  "Pack: entity-animation 1.0.2",
+                        "pr":  "GeddyLifeson/DiaithirRPG#256",
+                        "reason":  "draft and not listed as clear in merge-order.csv"
+                    },
+                    {
+                        "title":  "Station moves: assembler and altar recipes (diaithir_stations)",
+                        "pr":  "GeddyLifeson/DiaithirRPG#257",
+                        "reason":  "draft and not listed as clear in merge-order.csv"
+                    }
+                ],
+    "failed":  [
+
+               ]
+}
