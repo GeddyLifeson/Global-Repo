@@ -6856,3 +6856,4 @@ Run hints: .py `python3 <file>` (PC `py`), .ps1 via a hidden launcher (never a v
 | S6831 | cloud | `diaithir-ports/diaithir-bosses/tools/gen_planet_altars.py` | S6822 Generates the Ascendant altar shrine template and one structure + structure set per planet (216, biome tag diaithir_planets:<id>) | yes |
 | S6880 | global | `diaithir-ports PR 181: port.py (path in repo unconfirmed)` | S6880 Aurorian port script (diaithir-ports PR 181; copy lives in that repo) | no |
 | S6881 | global | `diaithir-ports PR 181: rcon.py (path in repo unconfirmed)` | S6881 Aurorian rcon helper for the port tests (diaithir-ports PR 181; copy lives in that repo) | no |
+| S6899 | cloud | `cloud/megamachines/gen_megamachines.py` | S6899 Builds and validates the mega vehicle and megastructure catalogue (dig rate = power x efficiency / specific energy); writes plans/megamachines/catalog.json and .tsv | yes |
