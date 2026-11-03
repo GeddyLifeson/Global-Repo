@@ -1,3 +1,4 @@
+# S6830 gen_planets.py: Panscriptum planets, one per store universe (planets.tsv, dimension datapack)
 # Panscriptum planets: one planet per store universe. python3 -I gen_planets.py
 # Reads library-content/content.sqlite + universe_placement.json; writes planets.tsv/json, datapack/, lang. Data only, no jars.
 import sqlite3,json,re,hashlib,pathlib
