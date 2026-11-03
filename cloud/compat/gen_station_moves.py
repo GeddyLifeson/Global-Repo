@@ -75,6 +75,7 @@ def main(prof, rules, graph, out, stats=None):
             st = None if fam.startswith("magic") else STATIONS[a]  # altar not registered yet
             if not st: kept += 1; continue
             if st == "station.smeltery" and not any(METAL.search(i) for i in ings): st = "station.wright_bench"
+            m = re.match(r"data/([^/]+)/recipes?/(.+)\.json$", path); uniq = f"{m[1]}__{m[2]}".replace("/", "__") if m else name
             cnt_by = {i: ings.count(i) for i in dict.fromkeys(ings)}; distinct = list(cnt_by)[:9]
             ns = p["mod_ids"][0] if p["mod_ids"] else path.split("/")[1]; name = os.path.splitext(os.path.basename(path))[0]
             NOT = {"type": "neoforge:not", "value": {"type": "neoforge:mod_loaded", "modid": "diaithir_stations"}}
@@ -82,7 +83,7 @@ def main(prof, rules, graph, out, stats=None):
             o = os.path.join(out, path); os.makedirs(os.path.dirname(o), exist_ok=True); json.dump(j2, open(o, "w"), indent=1)
             s = {"station": st, "stage": form, "ingredients": [({"tag": i[1:]} if i.startswith("#") else {"item": i}) | {"count": min(64, cnt_by[i])} for i in distinct],
                  "result": {"id": rid, "count": cnt}, "time_s": 20 if form == "assembly" else 10, "operator": False}
-            o = os.path.join(out, "data", ns, "diaithir_stations/station_recipe", f"{name}.json".replace("/", "_")); os.makedirs(os.path.dirname(o), exist_ok=True); json.dump(s, open(o, "w"), indent=1)
+            o = os.path.join(out, "data", ns, "diaithir_stations/station_recipe", f"{uniq}.json"); os.makedirs(os.path.dirname(o), exist_ok=True); json.dump(s, open(o, "w"), indent=1)
             moved.setdefault(st, 0); moved[st] += 1
     print("moved", sum(moved.values()), moved, "| left on grid", kept)
     if stats: json.dump({"moved": moved, "kept_on_grid": kept}, open(stats, "w"))
