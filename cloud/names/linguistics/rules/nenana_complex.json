@@ -1,0 +1,196 @@
+{
+ "proxy_language": "Proto-Athabaskan (Proto-Athabaskan-Eyak, with Tanana/Lower Tanana and Koyukon as modern Interior Alaska reference points)",
+ "confidence": "low",
+ "proxy_rationale": "The Nenana complex (c. 13,800-13,000 cal BP, Dry Creek, Walker Road, Healy Lake, Moose Creek, Tanana-Nenana valleys) is known only from lithics, hearths and faunal remains. No language can be tied to it directly. Modern Interior Alaska is occupied by Athabaskan speakers, so Proto-Athabaskan is the most defensible regional proxy, but Athabaskan expansion is probably far later than 13,000 BP and the Nenana people may have spoken an unrelated or extinct language. Usage is a regional-linguistic stand-in only; names should not be presented as the Nenana language.",
+ "phonology": "Proto-Athabaskan: stops and affricates in a four-way series (plain, aspirated, glottalized; voiced stops as stem-initial in Proto-Athabaskan notation), with series at dental (t, ts, tl), alveopalatal (ch), velar (k) and labiovelar/uvular (kw, q) places. Fricatives s, z, sh, zh, l (voiceless lateral), lh/ł, gh, x, h; sonorants n, m (rare), y, w. Vowels in Alaskan languages: i, e, a, o, u with reduced vowel ə; vowel length contrast and a high/low tone contrast (high tone is an innovation in most languages, absent in Ahtna/Dena'ina-type systems in some). Glottal stop phonemic. Lower Tanana and Koyukon use a practical orthography with ł, ʼ, dl, dz, ch, ts, tth, kk, gg, zh, gh. Spoken lexemes are verb-centered: nouns are mostly verb stems nominalized or short monosyllabic stems.",
+ "phonotactics": "Stems are canonically CV(C), usually monosyllabic; stems end in a vowel or a consonant, with stem-final consonants limited (n, l, ł, h, x, gh, t, k, ʼ and some fricatives) while word-medial clusters are common across prefix boundaries. Words may begin with consonants only; vowel-initial words are usually transcribed with an initial glottal stop or h in some systems. Glottalized consonants are written with an apostrophe (kʼ, tʼ, tsʼ, chʼ, tlʼ). No consonant clusters initially except affricate-plus-aspiration units (tl, ts, ch, tth, kw). Words are mostly 1-3 syllables for nouns; verb forms can be longer, but names built from nominal stems stay short.",
+ "orthography": "Use a practical Athabaskan-style Latin orthography: ts, tsʼ, dz, ch, chʼ, dl, tl, tlʼ, ł (or lh), sh, zh, gh, kʼ, tʼ, kk, gg, tth, ʼ for glottal stop, h, x. Vowels a, e, i, o, u, optional doubled vowel (aa, ee, ii, oo, uu) for length. Hyphens may separate prefix/stem boundaries in glossed forms. No c, q (except as a uvular if Tanana-type), f, p (rare), v, r. Names are lowercase in audits.",
+ "morphology": "Athabaskan languages are polysynthetic, head-marking, with a verb template (prefix zones plus a stem composed of root + suffix). Nouns are largely: (1) bare monosyllabic noun stems (kin terms, body parts, animals, natural features), (2) nominalized verb phrases (names for tools, foods, places, e.g. 'one that is used for X'), and (3) compounds. Possessive prefixes are obligatory with inalienable nouns. Noun plurals are not marked by suffixes in general. Locative and postpositional suffixes occur: -ʼ, -aa, -no, -ten. No case or noun classes on nouns; classifiers appear in verb stems (handling and shape/classificatory verb stems).",
+ "compounding": "Compounds are modifier-head: the head noun is last. 'X of Y' is expressed by juxtaposition Y X (possessor before possessed) with possessive prefixing on the head, or by a postposition (-aa 'on', -ʼ 'at/of place', -t 'at'). 'Y-maker' type names are formed by verb stem nominalization (e.g. 'one who does/uses'). Place names often take a locative suffix -aa, -t, -no or the term for 'river' or 'mountain' as head. No linker morphemes; reduplication is rare.",
+ "noun_phrase_order": "Possessor + noun; modifier + noun (adjective-like stative verb roots before the noun when used attributively); numerals before the noun. Head-final noun phrases, postpositions follow their noun.",
+ "attested_roots": [
+  {
+   "form": "*cʼeʼ",
+   "gloss": "stone, rock (Proto-Athabaskan *cʼeʼ)",
+   "reconstructed": true
+  },
+  {
+   "form": "*tuʼ",
+   "gloss": "water (Proto-Athabaskan *tuʼ)",
+   "reconstructed": true
+  },
+  {
+   "form": "*tʼeh",
+   "gloss": "fire/firewood (approximate PA *tʼeh)",
+   "reconstructed": true
+  },
+  {
+   "form": "*ǰaʼ",
+   "gloss": "hand (Proto-Athabaskan)",
+   "reconstructed": true
+  },
+  {
+   "form": "*ʼi",
+   "gloss": "eye (Proto-Athabaskan)",
+   "reconstructed": true
+  },
+  {
+   "form": "*kʼon",
+   "gloss": "fire (Proto-Athabaskan *kʼon)",
+   "reconstructed": true
+  },
+  {
+   "form": "*tiš",
+   "gloss": "tree/wood (approximate PA)",
+   "reconstructed": true
+  },
+  {
+   "form": "*xʷe",
+   "gloss": "snow, ground (approximate PA)",
+   "reconstructed": true
+  },
+  {
+   "form": "tuu",
+   "gloss": "water (Koyukon/Tanana; cognate of PA *tuʼ)",
+   "reconstructed": false
+  },
+  {
+   "form": "tth'a",
+   "gloss": "cloud (approximate Koyukon form)",
+   "reconstructed": false
+  },
+  {
+   "form": "chʼaa",
+   "gloss": "fish, fresh fish (Dena'ina shape; cognate across Athabaskan)",
+   "reconstructed": false
+  },
+  {
+   "form": "deg",
+   "gloss": "mountain (shortened from Koyukon deg-)",
+   "reconstructed": false
+  },
+  {
+   "form": "nenʼ",
+   "gloss": "land, ground (Koyukon neenʼ; Tanana nenʼ, widely attested)",
+   "reconstructed": false
+  },
+  {
+   "form": "tlee",
+   "gloss": "dog (Koyukon/Tanana tleʼ-type; widely cognate)",
+   "reconstructed": false
+  },
+  {
+   "form": "ts'ay",
+   "gloss": "bone (Koyukon form; Athabaskan *ts'eʼ cognate)",
+   "reconstructed": false
+  },
+  {
+   "form": "yeh",
+   "gloss": "sky, above (Koyukon/Tanana form)",
+   "reconstructed": false
+  }
+ ],
+ "worked_examples": [
+  {
+   "english": "River Stew",
+   "name": "tuu kʼon",
+   "gloss": "tuu 'water/river' + kʼon 'fire/cooked' (modifier-head compound)"
+  },
+  {
+   "english": "Stone Knife",
+   "name": "ts'ee tlʼeh",
+   "gloss": "ts'ee 'stone' + tlʼeh 'cut/blade' (modifier-head)"
+  },
+  {
+   "english": "Place of the Bone",
+   "name": "ts'ay-aa",
+   "gloss": "ts'ay 'bone' + -aa locative postposition"
+  },
+  {
+   "english": "Dog Mountain",
+   "name": "tlee deg",
+   "gloss": "tlee 'dog' + deg 'mountain' (modifier-head)"
+  },
+  {
+   "english": "Water Land",
+   "name": "tuu nenʼ",
+   "gloss": "tuu 'water' + nenʼ 'land' (place name pattern)"
+  },
+  {
+   "english": "Sky Fire",
+   "name": "yeh kʼon",
+   "gloss": "yeh 'sky' + kʼon 'fire' (modifier-head)"
+  }
+ ],
+ "allowed_graphemes": [
+  "a",
+  "e",
+  "i",
+  "o",
+  "u",
+  "aa",
+  "ee",
+  "ii",
+  "oo",
+  "uu",
+  "ch",
+  "chʼ",
+  "ts",
+  "tsʼ",
+  "dz",
+  "tl",
+  "tlʼ",
+  "dl",
+  "tth",
+  "sh",
+  "zh",
+  "gh",
+  "kk",
+  "gg",
+  "kʼ",
+  "tʼ",
+  "k",
+  "t",
+  "d",
+  "g",
+  "h",
+  "x",
+  "l",
+  "ł",
+  "n",
+  "m",
+  "s",
+  "z",
+  "y",
+  "w",
+  "ʼ"
+ ],
+ "extra_allowed_chars": " -'ʼ",
+ "forbidden_patterns": [
+  "[cfqrvp]",
+  "(.)\\1\\1",
+  "^[aeiou]{3,}",
+  "[aeiou]{4,}",
+  "[^aeioułʼ\\s-]{4,}"
+ ],
+ "syllables_per_word": [
+  1,
+  2,
+  3
+ ],
+ "max_word_length": 14,
+ "sources": [
+  "Krauss, Michael E. and Jeff Leer, Athabaskan, Eyak, and Tlingit Sonorants (1981)",
+  "Leer, Jeff, Proto-Athabaskan Verb Stem Variation (1979)",
+  "Jette, Jules and Eliza Jones, Koyukon Athabaskan Dictionary (2000)",
+  "Kari, James, Ahtna Athabaskan Dictionary (1990)",
+  "Alaska Native Language Center (University of Alaska Fairbanks), Tanana and Koyukon materials",
+  "Glottolog: Athabaskan-Eyak-Tlingit entries",
+  "Powers, W. R. and J. F. Hoffecker, 'Late Pleistocene settlement in the Nenana Valley, central Alaska' (American Antiquity 1989)",
+  "Goebel, T., Powers, W. R. and Bigelow, N., 'The Nenana Complex of Alaska and Clovis Origins' (1991)"
+ ],
+ "notes": "No word may be identical to a Modern Irish, Scottish Gaelic or Manx word unless the language is Goidelic; this culture is not Goidelic. The Athabaskan link is regional-geographic only; the actual language of the Nenana complex is unknown and Proto-Athabaskan is probably younger than the culture. Forms marked with an asterisk are reconstructions or approximations and should not be treated as precisely attested; the unstarred forms are indicative practical-orthography shapes and should be checked against the ANLC dictionaries. The current game names (e.g. Yigozi, Loriyuk) use r, g-heavy and CVCV patterns atypical of Athabaskan phonotactics, which avoids r and prefers glottalized and affricate series.",
+ "unit": "Nenana complex",
+ "slug": "nenana_complex",
+ "model": "claude-sonnet-5-5"
+}

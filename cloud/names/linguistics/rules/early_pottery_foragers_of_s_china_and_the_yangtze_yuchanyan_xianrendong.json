@@ -1,0 +1,183 @@
+{
+ "proxy_language": "Proto-Austronesian / Proto-Austroasiatic / Proto-Hmong-Mien / Proto-Tai-Kadai (regional composite, anchored on Old Chinese Baxter-Sagart notation for pan-Sinitic forms and Proto-Hmong-Mien for the Yangtze)",
+ "confidence": "speculative",
+ "proxy_rationale": "Yuchanyan (Hunan, c. 18-14k BP, earliest pottery) and Xianrendong (Jiangxi, c. 20-10k BP) are known only archaeologically; the languages of their foragers are unrecoverable and almost certainly extinct without descendants. The middle Yangtze is the proposed homeland region for Hmong-Mien (Ratliff 2010, Sagart) and a candidate zone for early Austroasiatic/Tai-Kadai contact, while Sagart places Austronesian ancestors on the coast. The link is geographically plausible but chronologically 10k+ years too deep, so Proto-Hmong-Mien-style phonotactics (monosyllabic roots with tone, initial clusters absent or limited, prenasalized stops) are used as the principal model, with Old Chinese-style sesquisyllables as an alternative texture.",
+ "phonology": "Modelled on Proto-Hmong-Mien (Ratliff 2010): stops p t c k q with voiced/prenasalized counterparts (b d dz g, mp nt nk), fricatives s h z, nasals m n ny ng, liquids l, glides w y, vowels i e a o u plus diphthongs ai au ei ou. Contrastive tones (four to eight) are omitted from spelling; they are mapped to simple syllable-final letters at most. No claim is made that this reflects Yuchanyan speech.",
+ "phonotactics": "Predominantly monosyllabic roots of shape (C)(C)V(V)(N), where final C is limited to a nasal (n, ng, m) or a glottal or tonal marker; no final obstruent clusters; initial clusters limited to prenasal+stop (mp, nt, nk, mb, nd, ng) or stop+glide (ky, ty, py, kw, tw). Compound names are built from two or three syllables, each a separate morpheme. Vowel-initial syllables are rare and take a glottal onset.",
+ "orthography": "Practical Latin transliteration in the style of Hmong RPA/Pinyin hybrid without tone letters: plosives p t k, affricates c (ts-like) and q (palatal), ny, ng, ts, sh, x omitted. Hyphens separate morphemes in compounds; apostrophe is not used. Vowels a e i o u, diphthongs ai au ei ou ia ua.",
+ "morphology": "Isolating: roots are free monosyllables with little or no affixation. Number and definiteness are expressed by classifiers and demonstratives (Hmong-Mien classifier systems are rich, e.g. Hmong tus for animals, lub for rounded objects). Derivation is by compounding, occasional tonal change, and a few prefixes (a- as a nominal prefix in Hmong-Mien and Sino-Tibetan areal usage). No case, no gender.",
+ "compounding": "Modifier-head or head-modifier both occur in the area; Proto-Hmong-Mien and Tai-Kadai favour head-initial noun phrases (noun then modifier), while Chinese and some Mien varieties show modifier-head. For gameplay a consistent head-initial model is used: 'X of Y' = X Y juxtaposed (head noun first, possessor second) without linker; 'Y-maker' = verb+noun or noun+classifier+agent compound; place names = feature word + descriptor (river/mountain/cave + quality).",
+ "noun_phrase_order": "Head noun first, then modifiers: Noun + Adjective, Noun + Possessor, Noun + Demonstrative; numerals and classifiers precede the noun (Num + Clf + N), as in Hmong-Mien and Tai-Kadai.",
+ "attested_roots": [
+  {
+   "form": "*ntau",
+   "gloss": "rice plant, rice (Proto-Hmong-Mien root for paddy/rice)",
+   "reconstructed": true
+  },
+  {
+   "form": "*ʔnɔŋ",
+   "gloss": "bird (Proto-Hmong-Mien, per Ratliff 2010)",
+   "reconstructed": true
+  },
+  {
+   "form": "*ʔnaŋ",
+   "gloss": "person, human (Proto-Hmong-Mien root)",
+   "reconstructed": true
+  },
+  {
+   "form": "*kɔŋ",
+   "gloss": "hill, mountain (areal root)",
+   "reconstructed": true
+  },
+  {
+   "form": "*ɡlu",
+   "gloss": "cave (Proto-Hmong-Mien-style root)",
+   "reconstructed": true
+  },
+  {
+   "form": "*nɔm",
+   "gloss": "water, river (areal root, cf. Austroasiatic *ʔɗaːk and Hmong-Mien *ʔwɔm)",
+   "reconstructed": true
+  },
+  {
+   "form": "*ʔjɔ",
+   "gloss": "fire (Proto-Hmong-Mien root)",
+   "reconstructed": true
+  },
+  {
+   "form": "*tuŋ",
+   "gloss": "pot, vessel (Hmong-Mien and Chinese areal word, cf. Old Chinese *tˤoŋ)",
+   "reconstructed": true
+  },
+  {
+   "form": "*mpɔ",
+   "gloss": "pig (Proto-Hmong-Mien)",
+   "reconstructed": true
+  },
+  {
+   "form": "*ntɔk",
+   "gloss": "deer or game animal (areal root)",
+   "reconstructed": true
+  },
+  {
+   "form": "*kɔŋ",
+   "gloss": "fish (Proto-Hmong-Mien, cf. Hmong ntses)",
+   "reconstructed": true
+  },
+  {
+   "form": "*ʔnaw",
+   "gloss": "to eat (areal root)",
+   "reconstructed": true
+  },
+  {
+   "form": "*ʔlaŋ",
+   "gloss": "stone, rock (Proto-Hmong-Mien-style root)",
+   "reconstructed": true
+  },
+  {
+   "form": "*dzʉŋ",
+   "gloss": "tree (areal root)",
+   "reconstructed": true
+  }
+ ],
+ "worked_examples": [
+  {
+   "english": "River Stew",
+   "name": "Nom Nau",
+   "gloss": "river/water + eat/cook (head-initial: water-meal)"
+  },
+  {
+   "english": "Cave of the Fire",
+   "name": "Glu Yo",
+   "gloss": "cave + fire (head noun then possessor)"
+  },
+  {
+   "english": "Pot-Maker",
+   "name": "Naŋ Tung",
+   "gloss": "person + pot (agent noun then product)"
+  },
+  {
+   "english": "Hill Deer",
+   "name": "Kong Ntok",
+   "gloss": "hill + deer (habitat then animal)"
+  },
+  {
+   "english": "Rice Mother",
+   "name": "Ntau Mei",
+   "gloss": "rice + mother (head-initial genitive)"
+  },
+  {
+   "english": "Stone Place",
+   "name": "Lang Cong",
+   "gloss": "stone + place/hill (head-initial compound)"
+  }
+ ],
+ "allowed_graphemes": [
+  "a",
+  "e",
+  "i",
+  "o",
+  "u",
+  "ai",
+  "au",
+  "ei",
+  "ou",
+  "ia",
+  "ua",
+  "p",
+  "t",
+  "k",
+  "c",
+  "q",
+  "m",
+  "n",
+  "ny",
+  "ng",
+  "s",
+  "sh",
+  "h",
+  "z",
+  "l",
+  "w",
+  "y",
+  "mp",
+  "nt",
+  "nk",
+  "mb",
+  "nd",
+  "ts",
+  "ky",
+  "ty",
+  "py",
+  "kw",
+  "tw"
+ ],
+ "extra_allowed_chars": " -",
+ "forbidden_patterns": [
+  "[bdfgjrvxz]{2}",
+  "[aeiou]{3}",
+  "(.)\\1\\1",
+  "[ptkcq]{2}$",
+  "'",
+  "q[aeiou]{0}[^aeiouy]"
+ ],
+ "syllables_per_word": [
+  1,
+  2,
+  3
+ ],
+ "max_word_length": 14,
+ "sources": [
+  "Ratliff, Martha. Hmong-Mien Language History (Pacific Linguistics, 2010)",
+  "Baxter, William H. and Laurent Sagart. Old Chinese: A New Reconstruction (2014)",
+  "Sagart, Laurent. The Roots of Old Chinese (1999)",
+  "Sagart, Blench and Sanchez-Mazas (eds). The Peopling of East Asia (2005)",
+  "Starling database (Proto-Hmong-Mien, Proto-Austroasiatic, Proto-Tai-Kadai entries)",
+  "Glottolog (Hmong-Mien, Austroasiatic, Tai-Kadai family pages)",
+  "Wu Xiaohong et al. 'Early pottery at 20,000 years ago in Xianrendong Cave, China', Science 336 (2012)"
+ ],
+ "notes": "Highly speculative: the actual language(s) of Yuchanyan and Xianrendong foragers are unknown, and any link to Hmong-Mien or other modern families is geographically suggestive only. Names should sound plausibly East/Southeast Asian in a monosyllabic, tone-less transliteration, not claim to be real attested words. No word may be identical to a Modern Irish, Scottish Gaelic or Manx word, as this is not a Goidelic culture. The reconstructed forms above are approximate and should be treated as model shapes rather than citable reconstructions.",
+ "unit": "Early pottery foragers of S China and the Yangtze (Yuchanyan, Xianrendong)",
+ "slug": "early_pottery_foragers_of_s_china_and_the_yangtze_yuchanyan_xianrendong",
+ "model": "claude-sonnet-5-5"
+}

@@ -1,0 +1,252 @@
+{
+ "proxy_language": "Old Irish (c. 700-900 CE), with Middle Irish orthographic conventions, as the language of the Gaelic court tradition",
+ "confidence": "medium",
+ "proxy_rationale": "The Island Court is a later court culture of the Diaithir isles in the Ireland/Britain region and appears to be the home pantheon of the Diaithiris. The only well-attested language of an insular court tradition in this area and period is Old/Middle Irish, with eDIL, Thurneysen and DIL as reference works. The link is a design proxy: nothing is known of a distinct 'Diaithiris' language, so the best defensible approach is Old Irish phonology, orthography and compounding. The current game names (Rusukierkkurrak, Stiubamairteoiliaskaig, etc.) look like Finnic, Norse and Gaelic fragments mashed together and are not sound Old Irish. Diaithiris-specific note: the Diaithiris are a fictional culture, so a Goidelic proxy is allowed and Irish-derived words are acceptable. Names should still be built from real Old Irish roots and not copied wholesale as identical modern headwords where a distinct court-register coinage is wanted.",
+ "phonology": "Old Irish consonants come in broad (velarized) and slender (palatalized) series: stops p t c b d g; fricatives f s h and lenited b d g (written b d g, phonetically v/dh/gh), lenited m (nasalized v), th ch ph mh fh sh; nasals m n ng; liquids l r; broad/slender contrast for all. Lenition and nasalization (eclipsis) are grammatical mutations. Vowels: a e i o u, with long vowels marked by acute accent (a e i o u); diphthongs ai oi ui ae ei ia ua au eu. Unstressed vowels in non-initial syllables are reduced and spelled with great freedom in manuscripts. Stress is fixed on the first syllable of the word.",
+ "phonotactics": "Syllable shapes are (C)(C)V(C)(C), with initial clusters limited mainly to stop/fricative + liquid (br bl cr cl dr gr gl fr fl pr tr) and s + stop/nasal/liquid (sc sm sn sl sp st); word-initial mutations alter onsets in phrases. Words end freely in vowels and in single consonants or clusters such as -nn -ll -rr -rd -rt -nt -ng -lc -rc -sc, but not in lenited-spelled digraphs that are only medial in practice. Stress on the first syllable drives vowel reduction: non-initial syllables are short, with the schwa-like quality spelled a e i o u variously. Geminates (nn ll rr mm) occur medially and finally. Letters k, q, w, x, y, z and j are not native; c represents /k/.",
+ "orthography": "Scholarly normalized Old Irish as in Thurneysen's Grammar and the Dictionary of the Irish Language: lowercase Latin letters a b c d e f g h i l m n o p r s t u, with long vowels marked by acute accent (a e i o u) and lenition shown by following h (ch th ph sh fh mh bh dh gh) or, in older style, by a dot. Eclipsis shows as a prefixed letter (mb gc nd bhf ng bp dt). Hyphens are used in compounds such as mac-leinn. Apostrophes are not used. For game purposes use the plain letters and acute accents above.",
+ "morphology": "Head-initial and inflecting, with nouns in three genders (masculine, feminine, neuter) and five cases (nominative, vocative, accusative, genitive, dative). Declension classes are by stem vowel: o-stems (mac 'son'), a-stems (ben 'woman' irregular, tuath 'tribe' u-stem etc.), i-stems, u-stems, consonant stems (n-stem, r-stem, s-stem, t-stem) and others. Verbs are conjugated with prepositional preverbs, suffixes for person and number, and a conjunct/absolute distinction. Prepositions inflect for person and merge with the pronoun. The definite article inflects for case, number and gender (in, int, ind). Adjectives follow nouns, agree in gender, number and case, and take mutations after the noun.",
+ "compounding": "Compounds are head-final: the first element is the modifier (often in its bare or genitive form) and the second is the head, as in cumal-mac, rig-teg, mug-eime. A true compound usually has an unstressed linking vowel or none, with lenition of the head sometimes appearing in later usage. 'X of Y' is regularly expressed analytically as noun + genitive noun (teg Dé 'house of God'; ri Érenn 'king of Ireland'), where the genitive follows the head noun. 'Y-maker' agent nouns use -ire, -aid, -thid, -oir, or compound with fer 'man' or -d (cerd 'craftsperson', fer-chuirp 'ironworker'). Adjective + noun is noun + adjective in free phrases; fixed compounds place the descriptive element first (find-ban 'white woman', derg-gae 'red spear').",
+ "noun_phrase_order": "Noun first, then genitive noun, then adjective: teg mor Dé 'the great house of God' is typical; a possessor in the genitive follows the head noun. The definite article and demonstratives precede or follow depending on the form (in fer 'the man'; in fer sin 'that man'). Numerals precede the noun and lenite it. The adjective follows the noun and agrees; prefixed intensifiers (mor-, ard-, find-, derg-, dub-) form compounds in fixed names.",
+ "attested_roots": [
+  {
+   "form": "ri",
+   "gloss": "king (nom. sing.; gen. rig)",
+   "reconstructed": false
+  },
+  {
+   "form": "rig",
+   "gloss": "of a king (genitive)",
+   "reconstructed": false
+  },
+  {
+   "form": "teg",
+   "gloss": "house",
+   "reconstructed": false
+  },
+  {
+   "form": "cathir",
+   "gloss": "city, stronghold",
+   "reconstructed": false
+  },
+  {
+   "form": "dun",
+   "gloss": "fort, stronghold",
+   "reconstructed": false
+  },
+  {
+   "form": "mag",
+   "gloss": "plain, field",
+   "reconstructed": false
+  },
+  {
+   "form": "loch",
+   "gloss": "lake",
+   "reconstructed": false
+  },
+  {
+   "form": "inis",
+   "gloss": "island",
+   "reconstructed": false
+  },
+  {
+   "form": "muir",
+   "gloss": "sea",
+   "reconstructed": false
+  },
+  {
+   "form": "bru",
+   "gloss": "belly, womb, mound",
+   "reconstructed": false
+  },
+  {
+   "form": "sid",
+   "gloss": "fairy mound, otherworld dwelling",
+   "reconstructed": false
+  },
+  {
+   "form": "nem",
+   "gloss": "heaven, sky",
+   "reconstructed": false
+  },
+  {
+   "form": "talam",
+   "gloss": "earth, land",
+   "reconstructed": false
+  },
+  {
+   "form": "grian",
+   "gloss": "sun",
+   "reconstructed": false
+  },
+  {
+   "form": "esca",
+   "gloss": "moon",
+   "reconstructed": false
+  },
+  {
+   "form": "mac",
+   "gloss": "son, boy",
+   "reconstructed": false
+  },
+  {
+   "form": "ban",
+   "gloss": "white/fair (also woman, genitive pl. of ben)",
+   "reconstructed": false
+  },
+  {
+   "form": "find",
+   "gloss": "white, fair, bright",
+   "reconstructed": false
+  },
+  {
+   "form": "dub",
+   "gloss": "black, dark",
+   "reconstructed": false
+  },
+  {
+   "form": "derg",
+   "gloss": "red",
+   "reconstructed": false
+  },
+  {
+   "form": "mor",
+   "gloss": "great, large",
+   "reconstructed": false
+  },
+  {
+   "form": "cruim",
+   "gloss": "crooked/bent",
+   "reconstructed": false
+  },
+  {
+   "form": "fer",
+   "gloss": "man",
+   "reconstructed": false
+  },
+  {
+   "form": "ben",
+   "gloss": "woman",
+   "reconstructed": false
+  },
+  {
+   "form": "tuath",
+   "gloss": "tribe, people, kingdom",
+   "reconstructed": false
+  },
+  {
+   "form": "cumal",
+   "gloss": "female slave, unit of value",
+   "reconstructed": false
+  },
+  {
+   "form": "lam",
+   "gloss": "hand",
+   "reconstructed": false
+  },
+  {
+   "form": "gae",
+   "gloss": "spear",
+   "reconstructed": false
+  },
+  {
+   "form": "cloch",
+   "gloss": "stone",
+   "reconstructed": false
+  },
+  {
+   "form": "airecht",
+   "gloss": "assembly, court",
+   "reconstructed": false
+  }
+ ],
+ "worked_examples": [
+  {
+   "english": "House of the King",
+   "name": "Teg Rig",
+   "gloss": "teg 'house' + rig 'of the king' (genitive of ri); noun + genitive"
+  },
+  {
+   "english": "Fort of the Sun",
+   "name": "Dun Grene",
+   "gloss": "dun 'fort' + grene 'of the sun' (genitive of grian); noun + genitive"
+  },
+  {
+   "english": "Island of the Dark Sea",
+   "name": "Inis Mara Duib",
+   "gloss": "inis 'island' + mara 'of the sea' (genitive of muir) + duib 'dark' (agreeing adjective following); noun + gen noun + adj"
+  },
+  {
+   "english": "White Plain",
+   "name": "Mag Find",
+   "gloss": "mag 'plain' + find 'white, bright'; noun + adjective"
+  },
+  {
+   "english": "Lake of the Spear",
+   "name": "Loch Gae",
+   "gloss": "loch 'lake' + gae 'spear' (bare noun used as modifier in fixed-name style); noun + noun"
+  },
+  {
+   "english": "Red-spear King",
+   "name": "Ri Derg-gae",
+   "gloss": "ri 'king' + derg-gae 'red spear' (compound: derg 'red' + gae 'spear'); noun + compound modifier"
+  }
+ ],
+ "allowed_graphemes": [
+  "a",
+  "b",
+  "c",
+  "d",
+  "e",
+  "f",
+  "g",
+  "h",
+  "i",
+  "l",
+  "m",
+  "n",
+  "o",
+  "p",
+  "r",
+  "s",
+  "t",
+  "u",
+  "ch",
+  "th",
+  "ph",
+  "sh",
+  "fh",
+  "mh",
+  "bh",
+  "dh",
+  "gh",
+  "ng"
+ ],
+ "extra_allowed_chars": " -\ta\ta\te\ti\to\tu",
+ "forbidden_patterns": [
+  "[kqwxyz]",
+  "[j]",
+  "(.)\\1\\1",
+  "[aeiou]{4,}",
+  "^[^aeiou\\u00e1\\u00e9\\u00ed\\u00f3\\u00fa]{4,}",
+  "[bcdfghlmnprst]{5,}",
+  "(gh|dh|bh|mh|fh|th|ch|ph|sh)[bcdfghlmnprst]{2,}$"
+ ],
+ "syllables_per_word": [
+  1,
+  2,
+  3
+ ],
+ "max_word_length": 14,
+ "sources": [
+  "Rudolf Thurneysen, A Grammar of Old Irish (1946)",
+  "Dictionary of the Irish Language (DIL) / electronic Dictionary of the Irish Language (eDIL)",
+  "David Stifter, Sengoidelc: Old Irish for Beginners (2006)",
+  "Kim McCone, Towards a Relative Chronology of Ancient and Medieval Celtic Sound Change (1996)",
+  "Glottolog entry for Old Irish"
+ ],
+ "notes": "The Diaithiris are the fictional culture here, so Goidelic (Irish) words are permitted. The current game names show clear mixing of unrelated systems and should be rebuilt on Old Irish models: initial stress, native onset clusters, genitive-after-head, and compounds like find-ban. The proxy is a design choice. The actual language of the Diaithiris is not attested. Use acute accents sparingly for long vowels, and avoid k, q, w, x, y, z and j. In-game spelling should keep the c/k distinction as c only.",
+ "unit": "The Island Court (home pantheon)",
+ "slug": "the_island_court_home_pantheon",
+ "model": "claude-sonnet-5-5"
+}

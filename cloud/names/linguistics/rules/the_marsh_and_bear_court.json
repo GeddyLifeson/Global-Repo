@@ -1,0 +1,247 @@
+{
+ "proxy_language": "Proto-Finnic (with Old Finnish/Old Karelian and Old Estonian as attested descendants; Proto-Uralic roots where cognate with Finnic)",
+ "confidence": "medium",
+ "proxy_rationale": "A 'later court' in Finland/Karelia/Estonia (roughly 1st millennium CE to the medieval period) falls in the Finnic speech area. Proto-Finnic is reconstructed with good reliability (Kallio, Sammallahti, Aikio), and Old Literary Finnish (Agricola 1540s), Karelian and Estonian supply attested forms. No court language is attested, so names are modelled on reconstructed Proto-Finnic and conservative Finnic vocabulary, not on a documented court tongue.",
+ "phonology": "Vowels: front i, e, ä, ü (y), ö; back u, o, a; Proto-Finnic had a*e*i*u*o*a*ä*ü*ö with long vowels and diphthongs (ai, ei, oi, ui, au, eu, ie, uo, yö in later Finnish). Vowel harmony: front (ä ö y) vs back (a o u) with neutral e, i. Consonants: p t k, m n ŋ, s š (rare), h, v, l r, j; voiced stops b d g only in loans. Phonemic length contrast for vowels and consonants (geminates: kk, tt, pp, ss, mm, nn, ll, rr). Consonant gradation (kk~k, pp~p, tt~t, k~∅, p~v, t~d, nk~ng, mp~mm, lt~ll, nt~nn, rt~rr). Initial stress.",
+ "phonotactics": "Native words: syllables (C)V(V)(C); word-initial single consonant only (no initial clusters in native words); medial clusters limited (e.g. -nk-, -lm-, -rk-, -st-, -ht-, -lt-); words end in a vowel in Proto-Finnic (also -n, -l, -s, -t, -r, -k, -h in modern forms); no native b, d, g, f, š, z, c at word start; native words do not end in stops p t k. Vowel harmony within a word (except compounds and neutral-vowel words).",
+ "orthography": "Standard Finnic orthography: a, e, i, o, u, y, ä, ö, p, t, k, m, n, s, h, v, l, r, j; geminates written double; long vowels written double (aa, ee, oo, uu, yy, ää, öö). Reconstruction notation: *ē, *ō, *ü, *ś, *δ (eth), *č; for game use plain Finnish-style spelling, optionally with *-marked reconstructions only in notes.",
+ "morphology": "Agglutinative, suffixing, no gender or articles. Roots: nominals and verbs mostly bisyllabic stems ending in a vowel (CVCV: *kala, *kota, *suo). Case suffixes: genitive -n; partitive -a/-ä, -ta/-tä; inessive -ssa/-ssä; elative -sta/-stä; illative -Vn, -hVn; adessive -lla/-llä; allative -lle; essive -na/-nä; translative -ksi; plural -t (nom.), -i- / -j- (oblique). Derivation: -nen (adjective/diminutive: kultanen), -inen (having/of), -lainen (inhabitant of), -ja/-jä (agent: kalastaja), -ttaja, -ma/-mä (result/instrument: -in, -imo), -la/-lä (place: Hämäläinen, kalala), -sto/-stö (collective place), -us/-ys (abstract), -ton/-tön (without), -kas/-käs (having: voimakas), -nta/-ntä, -ri (agent: kalastaja, seppä). Diminutives -nen, -kko.",
+ "compounding": "Compounds are head-final: modifier + head, modifier in nominative or genitive-stem form, written as one word (suopetäjä 'bog pine', karhunpoika 'bear's cub', metsäkarhu 'forest bear'). 'X of Y' is expressed with genitive + head (Karhun linna 'Bear's fortress') or Y-stem compounded to head (karhulinna). 'Y-maker' with agent suffix on verb stem or noun+tekijä/seppä (rautaseppä 'iron-smith'). Place names often Y + -la/-lä, -mäki (hill), -niemi (cape), -joki, -järvi, -saari, -suo, -kylä.",
+ "noun_phrase_order": "Modifier before head: adjective + noun (musta karhu 'black bear', iso suo 'big marsh'); possessor (genitive) before possessed (suon kuningas 'marsh's king'); numerals precede nouns; adjectives agree in case and number with the noun.",
+ "attested_roots": [
+  {
+   "form": "karhu",
+   "gloss": "bear (Finnish; Proto-Finnic *karhu, Proto-Uralic-era taboo/innovated name)",
+   "reconstructed": false
+  },
+  {
+   "form": "*kar̈hu",
+   "gloss": "bear (Proto-Finnic)",
+   "reconstructed": true
+  },
+  {
+   "form": "suo",
+   "gloss": "marsh, bog, fen",
+   "reconstructed": false
+  },
+  {
+   "form": "*soo",
+   "gloss": "marsh (Proto-Finnic)",
+   "reconstructed": true
+  },
+  {
+   "form": "metsä",
+   "gloss": "forest",
+   "reconstructed": false
+  },
+  {
+   "form": "järvi",
+   "gloss": "lake",
+   "reconstructed": false
+  },
+  {
+   "form": "joki",
+   "gloss": "river",
+   "reconstructed": false
+  },
+  {
+   "form": "kuningas",
+   "gloss": "king (Germanic loan *kuningaz)",
+   "reconstructed": false
+  },
+  {
+   "form": "ruhtinas",
+   "gloss": "prince, lord (Baltic/Germanic loan)",
+   "reconstructed": false
+  },
+  {
+   "form": "linna",
+   "gloss": "fortress, castle (Germanic loan)",
+   "reconstructed": false
+  },
+  {
+   "form": "kota",
+   "gloss": "hut, dwelling, hall",
+   "reconstructed": false
+  },
+  {
+   "form": "talo",
+   "gloss": "house, farm (Baltic loan)",
+   "reconstructed": false
+  },
+  {
+   "form": "kala",
+   "gloss": "fish",
+   "reconstructed": false
+  },
+  {
+   "form": "susi",
+   "gloss": "wolf",
+   "reconstructed": false
+  },
+  {
+   "form": "hirvi",
+   "gloss": "elk",
+   "reconstructed": false
+  },
+  {
+   "form": "rauta",
+   "gloss": "iron",
+   "reconstructed": false
+  },
+  {
+   "form": "kulta",
+   "gloss": "gold (Baltic/Aryan loan)",
+   "reconstructed": false
+  },
+  {
+   "form": "vesi",
+   "gloss": "water",
+   "reconstructed": false
+  },
+  {
+   "form": "tuli",
+   "gloss": "fire",
+   "reconstructed": false
+  },
+  {
+   "form": "kivi",
+   "gloss": "stone",
+   "reconstructed": false
+  },
+  {
+   "form": "ukko",
+   "gloss": "old man, thunder god (attested in Finnic myth)",
+   "reconstructed": false
+  },
+  {
+   "form": "sampo",
+   "gloss": "mythical mill/talisman (Kalevala)",
+   "reconstructed": false
+  }
+ ],
+ "worked_examples": [
+  {
+   "english": "Bear Fortress",
+   "name": "Karhulinna",
+   "gloss": "karhu 'bear' + linna 'fortress'; modifier-head compound"
+  },
+  {
+   "english": "Lord of the Marsh",
+   "name": "Suon ruhtinas",
+   "gloss": "suo-n marsh-GEN + ruhtinas 'prince'; genitive + head"
+  },
+  {
+   "english": "Black Bear",
+   "name": "Musta karhu",
+   "gloss": "musta 'black' + karhu 'bear'; adjective before noun"
+  },
+  {
+   "english": "Iron-smith",
+   "name": "Rautaseppä",
+   "gloss": "rauta 'iron' + seppä 'smith'; head-final compound"
+  },
+  {
+   "english": "Fish of the Great Lake",
+   "name": "Ison järven kala",
+   "gloss": "iso-n 'great'-GEN + järve-n 'lake'-GEN + kala 'fish'; stacked genitive"
+  },
+  {
+   "english": "Elk Hall",
+   "name": "Hirvenkota",
+   "gloss": "hirve-n 'elk'-GEN + kota 'hall, hut'; genitive-compound with harmony (back vowels in kota, mixed i/e neutral)"
+  }
+ ],
+ "allowed_graphemes": [
+  "a",
+  "e",
+  "i",
+  "o",
+  "u",
+  "y",
+  "ä",
+  "ö",
+  "aa",
+  "ee",
+  "ii",
+  "oo",
+  "uu",
+  "yy",
+  "ää",
+  "öö",
+  "ai",
+  "ei",
+  "oi",
+  "ui",
+  "au",
+  "eu",
+  "ie",
+  "uo",
+  "yö",
+  "p",
+  "t",
+  "k",
+  "m",
+  "n",
+  "s",
+  "h",
+  "v",
+  "l",
+  "r",
+  "j",
+  "pp",
+  "tt",
+  "kk",
+  "mm",
+  "nn",
+  "ss",
+  "ll",
+  "rr",
+  "ng",
+  "nk",
+  "mp",
+  "nt",
+  "lt",
+  "rt",
+  "ht",
+  "st",
+  "lm",
+  "rk",
+  "hk",
+  "lk",
+  "ps",
+  "ks"
+ ],
+ "extra_allowed_chars": " -äöÄÖ",
+ "forbidden_patterns": [
+  "[bdgfzcqwx]",
+  "š",
+  "^[ptkmnshvljr][ptkmnshvljr]",
+  "(.)\\1\\1",
+  "[ptk]$",
+  "[äöy].*[aou]|[aou].*[äöy]"
+ ],
+ "syllables_per_word": [
+  2,
+  3,
+  4
+ ],
+ "max_word_length": 14,
+ "sources": [
+  "Kallio, Petri. Proto-Finnic and the Early Finnic Languages (various articles, 2007-2014)",
+  "Sammallahti, Pekka. Historical phonology of the Uralic languages (1988)",
+  "Aikio, Ante. The Uralic-Yukaghir lexical correspondences / works on Finnic and Saami prehistory (2012-2022)",
+  "Itkonen, Erkki & Kulonen, Ulla-Maija (eds.). Suomen sanojen alkuperä (Etymological Dictionary of Finnish, 1992-2000)",
+  "SKES: Suomen kielen etymologinen sanakirja (Joki et al., 1955-1981)",
+  "Karelian dictionary: Karjalan kielen sanakirja",
+  "Estonian Etymological Dictionary (Metsmägi, Sedrik & Soosaar, 2012)",
+  "Starling Uralic Etymological Database (Uralonet)",
+  "Wiktionary: Proto-Finnic and Proto-Uralic reconstruction pages",
+  "Glottolog entries for Finnic",
+  "Hakulinen, Lauri. Suomen kielen rakenne ja kehitys (1979)"
+ ],
+ "notes": "No word may be identical to a Modern Irish, Scottish Gaelic or Manx word. Avoid forms like 'Tusad', 'Judi', 'Kiju' unless re-spelled to obey Finnic phonotactics (no initial voiced stops, no word-final stops, vowel harmony). The forbidden-pattern regex for vowel harmony is a coarse filter and will flag legitimate compounds and loan-derived words such as 'kuningas' or neutral-vowel stems (e/i). Use 'Karhu' (bear) as the court's totem element and 'suo' (marsh) as the second pillar; place names favour -la/-lä, -niemi, -joki, -mäki endings.",
+ "unit": "The Marsh-and-Bear Court",
+ "slug": "the_marsh_and_bear_court",
+ "model": "claude-sonnet-5-5"
+}
