@@ -16,9 +16,12 @@ temp -1 cold to 1 hot, humid -1 dry to 1 wet; spread the biomes across the range
 c=sqlite3.connect(f'file:{R}/library-content/content.sqlite?mode=ro',uri=True)
 s=sqlite3.connect(f'file:/mnt/attach/project-files/codex-store/library.sqlite?mode=ro',uri=True)
 rows=[]
+import collections,shutil
+by=collections.defaultdict(list)
+for i,u in c.execute("select id,universe from content where form in ('BIOME','DIMENSION','SETTLEMENT','STRUCTURE')"): by[u].append(i)
 for p in P:
     if p['planet_id']=='diaithir' or (want and want!=['ALL'] and p['planet_id'] not in want): continue
-    ids=[r[0] for r in c.execute("select id from content where universe=? and form in ('BIOME','DIMENSION','SETTLEMENT','STRUCTURE')",(p['name'],))]
+    ids=sorted(by[p['name']])
     random.Random(p['planet_id']).shuffle(ids); ids=ids[:70]
     ents=[s.execute("select id,name,substr(summary,1,220) from entry where id=?",(i,)).fetchone() for i in ids]
     txt="\n".join(f"{i} | {n} | {m}" for i,n,m in ents if i)
