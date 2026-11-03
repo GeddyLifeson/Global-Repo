@@ -6830,6 +6830,5 @@ S6822	cloud	library-content/build_content.py
 S6880	global	diaithir-ports PR 181: port.py (path in repo unconfirmed)
 S6881	global	diaithir-ports PR 181: rcon.py (path in repo unconfirmed)
 S6830	cloud	names/linguistics/coverage.py
-S6831	cloud	names/linguistics/names_for_terms.py
 S6832	cloud	names/linguistics/dia_names.py
 S6833	cloud	names/linguistics/fill_gaps.py
