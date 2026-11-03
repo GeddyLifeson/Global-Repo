@@ -16,8 +16,12 @@ with Lane('storage', JARS, out=out, srv_xmx='3G') as L:
         n = b.replace(':', '_')
         L.server_cmd('setblock 0 -60 -3 minecraft:air'); fb = L.server_cmd(f'setblock 0 -60 -3 {b}', 0.8)
         L.look(0.5, -60, 0.5, 180, 20); L.shot(f'{n}_0_block.png')
-        d.key('r'); time.sleep(2.5); L.shot(f'{n}_1_menu.png'); d.key('Escape'); time.sleep(1)
-        rep[b] = {'placed': any('Changed' in l for l in fb)}
+        d.key('r'); time.sleep(2.5); L.shot(f'{n}_1_menu.png')
+        from PIL import Image, ImageChops
+        a, c = Image.open(L.out / f'{n}_0_block.png').convert('L'), Image.open(L.out / f'{n}_1_menu.png').convert('L')
+        opened = ImageChops.difference(a, c).getbbox() is not None and sum(ImageChops.difference(a, c).resize((64, 36)).getdata()) / 2304 > 20   # screen dimmed/changed
+        if opened: d.key('Escape'); time.sleep(1)   # Escape with no screen open would open the pause menu
+        rep[b] = {'placed': any('Changed' in l for l in fb), 'screen_opened': opened}
     print('client errs', [l for l in L.log_lines('client', r'ERROR|Exception|Missing') if not any(x in l for x in ('authlib', 'Realms', '401', 'properties'))][:10])
     print('server errs', [l for l in L.log_lines('server', r'ERROR|Exception') if not any(x in l for x in ('DebugFile', 'kqueue', 'layers'))][:6])
 json.dump(rep, open((out or '.') + '/storage_report.json', 'w'), indent=1)
