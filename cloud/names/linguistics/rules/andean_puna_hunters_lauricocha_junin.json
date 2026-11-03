@@ -1,0 +1,207 @@
+{
+ "proxy_language": "Proto-Quechua / Proto-Quechumaran lexical stratum of the Central Andes (Quechua I / Wanka-Jauja-Huaylas Quechua as the nearest attested descendant for Junin), with Aymara/Jaqaru as secondary comparison",
+ "confidence": "speculative",
+ "proxy_rationale": "Lauricocha (Huanuco) and Junin puna hunters date to roughly 10,000-6,000 BCE, millennia before any reconstructable language; their actual language is unknown and may be extinct without descendants. The defensible proxy is the highland Central Andean language stratum: Quechua I varieties (Wanka, Huaylas, Huanuco) are spoken in the same region, and the Quechumaran (Proto-Quechua / Proto-Aymara) shared lexicon covers puna ecology (camelids, tubers, cold, stone). The link to the Pleistocene/early Holocene population is weak, so names should be read as a flavour of Central Andean highland speech, not an attested hunter language. Pa, pir/pi, khu style strings in the current names are not Quechuan morphology.",
+ "phonology": "Quechua I (Central) consonants: p, t, ch, k, q (uvular stop in Quechua II/southern; in Quechua I many varieties merge q into a glottal/h or lose it); aspirates and ejectives (ph th kh qh, p' t' k' q') belong to Cusco-Bolivian Quechua and Aymara, not to Central Quechua. Voiceless fricatives s, sh (in Central Quechua), h; nasals m, n, ny; liquids l, ll (palatal lateral), r; glides w, y. Three vowels /i a u/ in Proto-Quechua; Central Quechua (Wanka, Huaylas, Huanuco) additionally has long vowels (aa ii uu) giving phonemic length, and allophones [e o] near uvulars in southern varieties. Stress penultimate in most Quechua; Aymara also has penultimate stress with vowel deletion.",
+ "phonotactics": "Syllable shapes (C)V(C); no onset clusters; word-initial a single consonant or vowel; codas limited to a single consonant (commonly n, r, l, y, w, s, q, k, p, t, m); medial clusters are CC across syllable boundary (e.g. -nt-, -rk-, -sq-, -ykh-). Words are overwhelmingly vowel-final because suffixes are vowel-final or CV, but roots may end in a consonant (e.g. wasi vs. kuntur). Proto-Quechua had no mid vowels e/o; spelling with e/o is conventional only near q in southern varieties.",
+ "orthography": "Use the standard Quechua practical alphabet (Academia Mayor de la Lengua Quechua 1975 / Peruvian Ministry of Education 1985 three-vowel alphabet): a i u, ch, ll, ny, sh (Central Quechua), h, k, q, p, t, s, m, n, r, l, w, y. Long vowels written doubled (aa ii uu) in Central Quechua. Avoid Spanish-derived c, qu, gu, v, b, d, g, f, j, z, x. Ejective/aspirate marks (kh, q', t') are not used here since Central Quechua lacks them.",
+ "morphology": "Agglutinative, exclusively suffixing, SOV. Roots are noun, verb or particle; nouns take number -kuna, case suffixes (genitive -pa after vowels / -pa generally, locative -pi, ablative -manta, dative/allative -man/-ta, instrumental -wan), and possessive suffixes (-y 1sg, -yki 2sg, -n 3sg, -nchik 1pl incl). Verbs take person, tense, and many derivational suffixes: -chi causative, -ku reflexive/middle, -mu directional/venitive (come/go to do), -ra- progressive/durative, -ri inceptive, -pa-/-rpa- various, -na obligation/instrument/nominal 'thing for doing', -q agentive nominalizer 'one who V's', -sqa/-shka/-sha past participle nominalizer, -y infinitive (citation form), -ypaq purposive. Diminutive -cha / -lla (restrictive 'only, just, dear'), -wan 'with', -nti 'together with'. Reduplication occurs for plural/intensive in some words (e.g., sumaq sumaq 'very beautiful').",
+ "compounding": "Compounds are head-final: modifier + head (e.g., yana mayu 'black river'). 'X of Y' is Y-genitive X: Y-pa X (e.g., inti-pa wasi-n 'house of the sun', with possessor -pa and possessed -n); in compounds the genitive is often omitted: inti wasi 'sun house, temple'. Agent names use -q on a verb: rumi-ta rurakuq 'stone worker', wasi-ta ruraq; or noun + verb-q compounds like puna-pi tiyaq 'one living on the puna'. Locational names use noun + -pi/-pa-qa or place suffix -marka 'town, region' (Wanka-Jauja area: marka), -pampa 'plain, flat', -kancha 'enclosure', -wasi 'house', -mayu 'river', -qucha 'lake', -urqu 'hill/mountain', -pata 'terrace, edge'. Adjectives precede nouns and are uninflected.",
+ "noun_phrase_order": "Modifier-head: adjective/possessor before head noun; demonstrative + adjective + noun; possessor in genitive (-pa) before possessed noun carrying -n (3rd person possessive).",
+ "attested_roots": [
+  {
+   "form": "puna",
+   "gloss": "high cold plateau (Quechua/Aymara)",
+   "reconstructed": false
+  },
+  {
+   "form": "wasi",
+   "gloss": "house",
+   "reconstructed": false
+  },
+  {
+   "form": "rumi",
+   "gloss": "stone",
+   "reconstructed": false
+  },
+  {
+   "form": "mayu",
+   "gloss": "river",
+   "reconstructed": false
+  },
+  {
+   "form": "qucha",
+   "gloss": "lake (Wanka/Quechua II qucha, Quechua I cucha/ qocha)",
+   "reconstructed": false
+  },
+  {
+   "form": "urqu",
+   "gloss": "mountain, hill; male animal",
+   "reconstructed": false
+  },
+  {
+   "form": "inti",
+   "gloss": "sun",
+   "reconstructed": false
+  },
+  {
+   "form": "killa",
+   "gloss": "moon, month",
+   "reconstructed": false
+  },
+  {
+   "form": "wakra",
+   "gloss": "horn; cattle (colonial extension)",
+   "reconstructed": false
+  },
+  {
+   "form": "wanaku",
+   "gloss": "guanaco (Lama guanicoe)",
+   "reconstructed": false
+  },
+  {
+   "form": "wik'uña",
+   "gloss": "vicuña (written wikuña in Quechua I practical alphabet)",
+   "reconstructed": false
+  },
+  {
+   "form": "llama",
+   "gloss": "llama",
+   "reconstructed": false
+  },
+  {
+   "form": "nina",
+   "gloss": "fire",
+   "reconstructed": false
+  },
+  {
+   "form": "yaku",
+   "gloss": "water",
+   "reconstructed": false
+  },
+  {
+   "form": "ruphay",
+   "gloss": "to burn, heat (Quechua II rupay)",
+   "reconstructed": false
+  },
+  {
+   "form": "chaki",
+   "gloss": "foot",
+   "reconstructed": false
+  },
+  {
+   "form": "yana",
+   "gloss": "black; helper",
+   "reconstructed": false
+  },
+  {
+   "form": "yuraq",
+   "gloss": "white",
+   "reconstructed": false
+  },
+  {
+   "form": "hatun",
+   "gloss": "big, great",
+   "reconstructed": false
+  },
+  {
+   "form": "sumaq",
+   "gloss": "beautiful, good",
+   "reconstructed": false
+  },
+  {
+   "form": "*waka",
+   "gloss": "sacred place or thing (Proto-Quechuan lexicon, widely attested huaca/waka)",
+   "reconstructed": true
+  }
+ ],
+ "worked_examples": [
+  {
+   "english": "Stone House",
+   "name": "Rumi Wasi",
+   "gloss": "rumi 'stone' + wasi 'house' (head-final compound)"
+  },
+  {
+   "english": "River of the Guanaco",
+   "name": "Wanakupa Mayun",
+   "gloss": "wanaku 'guanaco' + -pa genitive + mayu 'river' + -n 3sg possessive"
+  },
+  {
+   "english": "Black Lake",
+   "name": "Yana Qucha",
+   "gloss": "yana 'black' + qucha 'lake' (adjective-noun)"
+  },
+  {
+   "english": "White Mountain",
+   "name": "Yuraq Urqu",
+   "gloss": "yuraq 'white' + urqu 'mountain'"
+  },
+  {
+   "english": "Fire of the Sun",
+   "name": "Intipa Ninan",
+   "gloss": "inti 'sun' + -pa genitive + nina 'fire' + -n 3sg possessive"
+  },
+  {
+   "english": "Vicuna Hunter",
+   "name": "Wikuña Maqtaq",
+   "gloss": "wikuña 'vicuna' + maqta- 'to hunt, drive' (stem used illustratively) + -q agentive"
+  }
+ ],
+ "allowed_graphemes": [
+  "a",
+  "i",
+  "u",
+  "aa",
+  "ii",
+  "uu",
+  "p",
+  "t",
+  "k",
+  "q",
+  "ch",
+  "s",
+  "sh",
+  "h",
+  "m",
+  "n",
+  "ny",
+  "l",
+  "ll",
+  "r",
+  "w",
+  "y"
+ ],
+ "extra_allowed_chars": " -",
+ "forbidden_patterns": [
+  "[bdfgjvxz]",
+  "c(?!h)",
+  "(?<![ns])h(?![aiu])",
+  "[eo]",
+  "[aiu]{3,}",
+  "(?<![aiu])q(?![aiu])$",
+  "^[^aiu]{2,}(?![aiu])",
+  "([ptkqsmnlrwy])\\1",
+  "[ptkqsmnlrwy]{3,}",
+  "(qu|gu|ph|th|kh)"
+ ],
+ "syllables_per_word": [
+  2,
+  3,
+  4
+ ],
+ "max_word_length": 14,
+ "sources": [
+  "Cerron-Palomino, Rodolfo. Linguistica quechua (1987)",
+  "Parker, Gary J. Gramatica quechua: Ayacucho-Chanka (1969) and Diccionario Quechua Ayacucho-Chanka (1976)",
+  "Torero, Alfredo. Los dialectos quechuas (1964) and El quechua y la historia social andina (1974)",
+  "Adelaar, Willem F. H. with Pieter C. Muysken. The Languages of the Andes (2004)",
+  "Cerron-Palomino, Rodolfo. Quechumara: estructuras paralelas de las lenguas quechua y aimara (1994)",
+  "Rick, John W. Prehistoric Hunters of the High Andes (1980) on Junin puna occupation",
+  "Cardich, Augusto. Los yacimientos de Lauricocha (1964)",
+  "Glottolog and ASJP entries for Quechua I (Wanka, Huaylas, Huanuco) and Aymaran"
+ ],
+ "notes": "No word may be identical to a Modern Irish, Scottish Gaelic or Manx word. The linguistic link between Lauricocha/Junin hunters (c. 10,000-6,000 BCE) and Quechua is speculative: the actual language is unknown, and Quechua only expanded across the Andes within the last ~2,000 years. Treat output as plausible Central Andean highland naming, avoid Spanish orthography, avoid ejectives and aspirates (not Central Quechua), use only a i u, and prefer vowel-final CV(C) syllables. The game's current strings (Piluwir pa, trukhu, muwah, Shurqur, Shunyo, Mayhu, Sapsu) include non-Quechuan features such as the sequences 'kh' before vowels with no suffix logic, final -h, and an invented particle 'pa' used as a connector; use -pa genitive plus a following possessed -n noun instead.",
+ "unit": "Andean puna hunters (Lauricocha, Junin)",
+ "slug": "andean_puna_hunters_lauricocha_junin",
+ "model": "claude-sonnet-5-5"
+}

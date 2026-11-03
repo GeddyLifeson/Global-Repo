@@ -1,0 +1,198 @@
+{
+ "proxy_language": "Middle Korean (15th-16th c., Hunmin jeongeum/Hangul-era Korean), with Late Old Korean/Silla-Goryeo onomastic layer for court and place names; Sino-Korean vocabulary for official and ritual terms",
+ "confidence": "low",
+ "proxy_rationale": "'Dùnbuldach' is not a known historical polity, so the culture is treated as a fictional later court (index 5) located in the China/Korea/Japan region. The only region-appropriate, richly attested and standardly transliterated language that fits a 'later court' is Korean of the Goryeo-Joseon court. Middle Korean is chosen because it is well documented in Hangul with a scholarly Yale romanization. The name's -buldach shape (b-l-d-ch clusters) does NOT fit Korean phonotactics, so the proxy link to the culture name itself is weak; Japanese (Old/Classical Japanese) is the second-best alternative. No Mongolic/Altaic claim is made beyond known loanwords such as Middle Korean mwul 'horse-related' Mongol loans (baturu, 'hero').",
+ "phonology": "Middle Korean consonants (Yale-style romanization): plain stops p t c k; aspirated ph th ch kh; tense/glottalized stops (written with doubled letters, pp tt cc kk, ss) as a Hunmin jeongeum-era sibilant/tensed series; fricatives s, z (the lost 'zero' consonant), h; nasals m n ng; liquid l; glide y, w; also lost sounds such as bilabial fricative (written W/β, as in the 'pelicanized' spelling) that can be ignored in a game. Vowels: i, e, a, o, wu, u, and the lost vowel o (Middle Korean arae-a, written ʌ). Tone: Middle Korean had a pitch-accent system (low, high, rising), marked in Hunmin-era texts by dots; this is not written in game names. Vowel harmony (yang vowels a, o, ʌ vs. yin vowels e, wu, u; i neutral) governs suffixes.",
+ "phonotactics": "Syllable shape (C)V(C), with only a single onset consonant and a single coda consonant, i.e. no onset or coda clusters inside one syllable. Medial clusters occur across syllable boundaries. Word-initial liquid l/r is avoided in native words (and l is restricted from word-initial position by Initial Law, 'dueum beopcik'). Codas are neutralized to p, t, k, m, n, ng, l (and s in Middle Korean). No consonant sequence like bld, dch, nbl exists inside a syllable. Native roots are typically 1-3 syllables; Sino-Korean morphemes are always one syllable (CV, CVC, CVN).",
+ "orthography": "Use Revised Romanization of Korean for readability in game names: g, k, kk, n, d, t, tt, r/l, m, b, p, pp, s, ss, ng, j, jj, ch, h; vowels a, eo, o, u, eu, i, e, ae, oe, wi, ya, yeo, yo, yu, ye, yae, wa, wo, we; hyphen allowed between syllable-blocks in compounds (e.g. Dae-gwang). Scholarly alternatives are McCune-Reischauer or Yale; the audit uses Revised Romanization.",
+ "morphology": "Agglutinative, strictly suffixing, SOV, head-final. Nouns are uninflected for number or gender; a plural suffix -deul (Middle Korean -tolh) is optional. Case/particles are suffixed: nominative -i/-ga, topic -eun/-neun, genitive -ui (Middle Korean -ay/-uy; with also -s), locative -e, -eseo, instrumental -ro/-euro, accusative -eul/-reul. Verbs take stacked suffixes (honorific -si-, tense, mood, connective -go, -eo). Nominalizers include -gi, -eum/-m; adjectival -n/-eun, -l. Two lexical strata are productive: native Korean and Sino-Korean (Chinese-origin morphemes, usually two-syllable binomes) with Sino-Korean dominating titles, institutions, temples, courts and administration.",
+ "compounding": "Compounds are head-final: modifier + head (N+N). Native compounds may insert sai-siot, a linking s/t (e.g. bam-s-bi 'night rain'), written as sai-siot in Hangul; in Revised Romanization it is often omitted or appears as a doubled tense consonant. 'X of Y' is Y-ui X (genitive) or simply Y + X as a bare compound; 'maker of Y' is Y + maker-noun such as -jang (artisan, Sino) or -ssi/-kkun (agent; native -kkun 'person who does'). Sino-Korean binomes are formed by two nouns, verb-object (object first? No: verb-object order in Chinese, e.g. gae-guk 'found country') or modifier-head; place names often end in -san 'mountain', -gang 'river', -ju 'province', -seong 'fortress', -sa 'temple', -jeon 'hall', -gung 'palace'. Reduplication is used for sound-symbolic and onomatopoeic adverbs (ttak-ttak).",
+ "noun_phrase_order": "Modifier before head throughout. Genitive/possessor precedes possessed (Y-ui X); adjectives/relative clauses (in -n/-eun, -l form) precede the noun; demonstratives and numerals precede the noun, numeral + classifier (hana, dul, set; or Sino numerals il, i, sam + classifier). Titles follow the personal name (Hong Gil-dong ssi, X-wang 'king X'; surname precedes given name).",
+ "attested_roots": [
+  {
+   "form": "mul",
+   "gloss": "water",
+   "reconstructed": false
+  },
+  {
+   "form": "bul",
+   "gloss": "fire",
+   "reconstructed": false
+  },
+  {
+   "form": "san",
+   "gloss": "mountain (Sino-Korean; native me/mwoy)",
+   "reconstructed": false
+  },
+  {
+   "form": "gang",
+   "gloss": "river (Sino-Korean; native garam)",
+   "reconstructed": false
+  },
+  {
+   "form": "bam",
+   "gloss": "night",
+   "reconstructed": false
+  },
+  {
+   "form": "nal",
+   "gloss": "day, sun (also blade)",
+   "reconstructed": false
+  },
+  {
+   "form": "hae",
+   "gloss": "sun, year",
+   "reconstructed": false
+  },
+  {
+   "form": "dal",
+   "gloss": "moon",
+   "reconstructed": false
+  },
+  {
+   "form": "byeol",
+   "gloss": "star",
+   "reconstructed": false
+  },
+  {
+   "form": "gung",
+   "gloss": "palace (Sino-Korean)",
+   "reconstructed": false
+  },
+  {
+   "form": "jeon",
+   "gloss": "hall, palace building (Sino-Korean)",
+   "reconstructed": false
+  },
+  {
+   "form": "sa",
+   "gloss": "temple (Sino-Korean)",
+   "reconstructed": false
+  },
+  {
+   "form": "wang",
+   "gloss": "king (Sino-Korean)",
+   "reconstructed": false
+  },
+  {
+   "form": "ssal",
+   "gloss": "rice (hulled grain)",
+   "reconstructed": false
+  },
+  {
+   "form": "bap",
+   "gloss": "cooked rice, meal",
+   "reconstructed": false
+  },
+  {
+   "form": "bae",
+   "gloss": "ship; also pear, belly",
+   "reconstructed": false
+  }
+ ],
+ "worked_examples": [
+  {
+   "english": "River Stew",
+   "name": "Gang-jjigae",
+   "gloss": "gang 'river' (Sino-Korean) + jjigae 'stew' (native); N+N compound, head last"
+  },
+  {
+   "english": "Temple of the Sun",
+   "name": "Hae-ui Sa",
+   "gloss": "hae 'sun' + -ui GEN + sa 'temple'; possessor first, head last"
+  },
+  {
+   "english": "Moon Palace",
+   "name": "Dal-gung",
+   "gloss": "dal 'moon' (native) + gung 'palace' (Sino); modifier + head"
+  },
+  {
+   "english": "Rice Maker",
+   "name": "Ssal-jang",
+   "gloss": "ssal 'rice' + -jang 'artisan/maker'; object + agent suffix"
+  },
+  {
+   "english": "Night Ship",
+   "name": "Bam-bae",
+   "gloss": "bam 'night' + bae 'ship'; N+N with tense/lenited onset allowed in compounds"
+  },
+  {
+   "english": "Mountain Fortress of the King",
+   "name": "Wang-ui San-seong",
+   "gloss": "wang 'king' + -ui GEN + san 'mountain' + seong 'fortress'; Sino-Korean binome head-final"
+  }
+ ],
+ "allowed_graphemes": [
+  "a",
+  "eo",
+  "o",
+  "u",
+  "eu",
+  "i",
+  "e",
+  "ae",
+  "oe",
+  "wi",
+  "ya",
+  "yeo",
+  "yo",
+  "yu",
+  "ye",
+  "yae",
+  "wa",
+  "wo",
+  "we",
+  "ui",
+  "g",
+  "kk",
+  "k",
+  "n",
+  "d",
+  "tt",
+  "t",
+  "r",
+  "l",
+  "m",
+  "b",
+  "pp",
+  "p",
+  "s",
+  "ss",
+  "ng",
+  "j",
+  "jj",
+  "ch",
+  "h"
+ ],
+ "extra_allowed_chars": " -",
+ "forbidden_patterns": [
+  "[fqvxz]",
+  "[bdgjkpt]{3,}",
+  "[bdgjkpt]{2}(?!k|t|p|s|j)",
+  "(^|[ -])r",
+  "[bcdfghjklmnpqrstvwxyz]{4,}",
+  "dch",
+  "ld(?!$)",
+  "bld"
+ ],
+ "syllables_per_word": [
+  1,
+  2,
+  3,
+  4
+ ],
+ "max_word_length": 14,
+ "sources": [
+  "Sohn, Ho-min. The Korean Language (Cambridge University Press, 1999)",
+  "Martin, Samuel E. A Reference Grammar of Korean (Tuttle, 1992)",
+  "Lee, Ki-Moon and S. Robert Ramsey. A History of the Korean Language (Cambridge University Press, 2011)",
+  "Ramsey, S. Robert. The Languages of China / Korean chapters in Comrie, The World's Major Languages (1987)",
+  "Martin, Samuel E. A Reference Grammar of Japanese (Yale, 1975) for the alternative proxy",
+  "Wiktionary Korean and Middle Korean entries",
+  "Glottolog and ASJP language records for Korean (Koreanic)"
+ ],
+ "notes": "Dùnbuldach is not Korean-looking; names should use proxy morphology (Revised Romanization with Sino-Korean plus native stems), not the culture name's own sound shape. Keep syllables to (C)V(C) with hyphens between syllables when helpful. No word may be identical to a Modern Irish, Scottish Gaelic or Manx word since this culture is not Goidelic.",
+ "unit": "Dùnbuldach",
+ "slug": "d_nbuldach",
+ "model": "claude-sonnet-5-5"
+}

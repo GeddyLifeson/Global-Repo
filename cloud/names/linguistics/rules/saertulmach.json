@@ -1,0 +1,182 @@
+{
+ "proxy_language": "Unidentified: 'Saertulmach' is not an attested language or culture name in Glottolog, ASJP or any standard Americanist source. Fallback proxy is the Mapudungun (Mapuche, Araucanian) language of south-central Chile and Argentina, in the Araucanian family, in its colonial-to-modern attested form.",
+ "confidence": "speculative",
+ "proxy_rationale": "The label gives no ethnolinguistic anchor. The region is 'The Americas' and the kind is 'later_court' at period index 6, i.e. a late, politically organised, court-like society. Aztec/Nahuatl, Quechua, Maya and Mapudungun are all defensible 'later' American proxies; Mapudungun is chosen because it has a well-described grammar (Smeets 2008, Zuniga 2006) and a documented lexicon (Augusta 1916, Febres 1765), and its phonology and agglutinative morphology allow principled name-building. The existing game names (Jollof rice, Egusi soup, Fufu, Suya, Waakye, Akara) are West African dishes and are linguistically irrelevant here; they must be discarded, not mimicked. This link is purely a modelling convenience, not a claim that the Saertulmach spoke Mapudungun.",
+ "phonology": "Consonants (Zuniga 2006 / Smeets 2008 style): stops p t ch (palatal affricate) k, plus retroflex-ish tr (affricate) and interdental-ish dental t; fricatives f, th (interdental), s, sh (rare), v (voiced, often glide-like); nasals m n nh ng (velar, written ng) ; lateral l, ll (interdental-lateral variant); rhotic r (retroflex approximant, written r); glides w y. Vowels: a e i o u and the high central unrounded vowel written ü; no phonemic length or tone. Stress is on the second syllable of a word in the usual analysis and does not affect spelling.",
+ "phonotactics": "Syllable shapes: (C)V(C), i.e. V, CV, VC, CVC. Onsets are single consonants; no tautosyllabic clusters. Codas are single consonants (typically n, l, m, ng, k, f, s, r) and medial heterosyllabic clusters such as -nk-, -lk-, -mp- occur across syllable boundaries. Words may end in a vowel or a consonant (n, l, m, ng, k, f, r, s all occur). Native lexemes are mostly bisyllabic roots; verbs carry long suffix chains, nouns are short.",
+ "orthography": "Use a simplified Azumchefe-style practical orthography for Mapudungun in Latin script: a e i o u ü; p t k ch tr f s th l ll m n ng ñ r w y v. Digraphs ch, tr, th, ll, ng, ñ are single units. No c, b, d, g (except inside ng), h, j, q, x, z, and no doubled vowels as length marks.",
+ "morphology": "Agglutinative and mostly suffixing. Nouns are uninflected for case; number is optional (-pu plural marker, or the enumerating word pu in front of the noun) and possession is marked by pronoun order. Verbs bear derivational and inflectional suffixes (-n infinitive/1sg indicative nominaliser, -we instrumental/locative nominaliser, -fe agent, -el patient/relative, -m for causative -m, -tu repetitive/transitive, -nge copular/passive). Reduplication is rare and mostly expressive. There are no noun classes or grammatical gender.",
+ "compounding": "Noun-noun compounds are head-final: modifier + head (mapu 'land' + che 'people' = mapuche 'people of the land'). Agentive 'X-er' names use root + -fe (kellu-fe 'helper'; ngillatu-fe 'one who prays'). Instrument/place names use verb root + -we (ngillatu-we 'place of praying', rüpü-we 'path'). 'X of Y' is expressed by direct juxtaposition Y X (possessor before possessed, no linker): antü ruka 'sun house'. Adjectives follow nouns only in lexicalised pairs; productive modification is by juxtaposition with the modifier first. Name-compounds join with a hyphen or are written solid.",
+ "noun_phrase_order": "Possessor/modifier + head noun (modifier-first, head-final), e.g. ngen 'owner' follows the owned: mapu ngen 'owner of the land'. Numerals precede the noun (kula 'three' + ruka 'house'). The plural marker pu precedes the noun. Demonstratives precede the noun.",
+ "attested_roots": [
+  {
+   "form": "mapu",
+   "gloss": "land, earth",
+   "reconstructed": false
+  },
+  {
+   "form": "che",
+   "gloss": "person, people",
+   "reconstructed": false
+  },
+  {
+   "form": "ruka",
+   "gloss": "house, dwelling",
+   "reconstructed": false
+  },
+  {
+   "form": "antü",
+   "gloss": "sun, day",
+   "reconstructed": false
+  },
+  {
+   "form": "kuyen",
+   "gloss": "moon, month",
+   "reconstructed": false
+  },
+  {
+   "form": "ko",
+   "gloss": "water",
+   "reconstructed": false
+  },
+  {
+   "form": "lafken",
+   "gloss": "sea, lake",
+   "reconstructed": false
+  },
+  {
+   "form": "mawida",
+   "gloss": "mountain, forest",
+   "reconstructed": false
+  },
+  {
+   "form": "pillan",
+   "gloss": "spirit, volcano, ancestral spirit",
+   "reconstructed": false
+  },
+  {
+   "form": "ngenechen",
+   "gloss": "supreme being, lord of people",
+   "reconstructed": false
+  },
+  {
+   "form": "lonko",
+   "gloss": "head, chief",
+   "reconstructed": false
+  },
+  {
+   "form": "kullin",
+   "gloss": "livestock, wealth",
+   "reconstructed": false
+  },
+  {
+   "form": "kura",
+   "gloss": "stone",
+   "reconstructed": false
+  },
+  {
+   "form": "foye",
+   "gloss": "canelo tree (sacred)",
+   "reconstructed": false
+  },
+  {
+   "form": "rüpü",
+   "gloss": "road, path",
+   "reconstructed": false
+  },
+  {
+   "form": "ngillatun",
+   "gloss": "ceremony, rogation, prayer",
+   "reconstructed": false
+  }
+ ],
+ "worked_examples": [
+  {
+   "english": "House of the Sun",
+   "name": "antü ruka",
+   "gloss": "antü 'sun' + ruka 'house'; possessor before possessed, no linker"
+  },
+  {
+   "english": "Place of Prayer",
+   "name": "ngillatuwe",
+   "gloss": "ngillatu- 'to pray' + -we locative/instrument nominaliser"
+  },
+  {
+   "english": "Stone Chief",
+   "name": "kura lonko",
+   "gloss": "kura 'stone' + lonko 'chief'; modifier + head"
+  },
+  {
+   "english": "Water Spirit",
+   "name": "ko pillan",
+   "gloss": "ko 'water' + pillan 'spirit'; modifier + head"
+  },
+  {
+   "english": "Road-Maker",
+   "name": "rüpüfe",
+   "gloss": "rüpü 'road' + -fe agent suffix; head-final derivation"
+  },
+  {
+   "english": "People of the Mountain",
+   "name": "mawida che",
+   "gloss": "mawida 'mountain, forest' + che 'people'; cf. mapu-che; possessor/modifier before head"
+  }
+ ],
+ "allowed_graphemes": [
+  "a",
+  "e",
+  "i",
+  "o",
+  "u",
+  "ü",
+  "p",
+  "t",
+  "k",
+  "ch",
+  "tr",
+  "f",
+  "s",
+  "th",
+  "l",
+  "ll",
+  "m",
+  "n",
+  "ng",
+  "ñ",
+  "r",
+  "w",
+  "y",
+  "v"
+ ],
+ "extra_allowed_chars": " -'",
+ "forbidden_patterns": [
+  "[bcdghjqxz]",
+  "(?<!n)g",
+  "[aeiouü]{3,}",
+  "[ptkfsvrwy]{3,}",
+  "(.)\\1\\1",
+  "[bdg]",
+  "c(?!h)",
+  "q",
+  "x",
+  "z"
+ ],
+ "syllables_per_word": [
+  2,
+  3,
+  4
+ ],
+ "max_word_length": 14,
+ "sources": [
+  "Smeets, Ineke. A Grammar of Mapuche. Mouton de Gruyter, 2008",
+  "Zuniga, Fernando. Mapudungun: El habla mapuche. Centro de Estudios Publicos, 2006",
+  "Augusta, Fray Felix Jose de. Diccionario Araucano-Espanol y Espanol-Araucano. Santiago, 1916",
+  "Febres, Andres. Arte de la lengua general del Reyno de Chile. Lima, 1765",
+  "Glottolog entry for Mapudungun",
+  "ASJP database (Mapudungun wordlist)"
+ ],
+ "notes": "Saertulmach is not an attested culture; all constraints are a modelling convenience based on Mapudungun and must not be presented as a real language of that culture. No Goidelic restriction applies, but no generated word may be identical to a Modern Irish, Scottish Gaelic or Manx word. The existing West African dish names (Jollof rice, Egusi soup, Fufu, Suya, Waakye, Akara) are unrelated and should be replaced.",
+ "unit": "Saertulmach",
+ "slug": "saertulmach",
+ "model": "claude-sonnet-5-5"
+}

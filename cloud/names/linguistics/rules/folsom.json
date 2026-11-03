@@ -1,0 +1,175 @@
+{
+ "proxy_language": "Proto-Algonquian-flavored Plains stand-in (speculative), with Proto-Siouan and Proto-Uto-Aztecan as alternates",
+ "confidence": "speculative",
+ "proxy_rationale": "Folsom (c. 12,900-12,000 cal BP, Great Plains) is known only from lithic and bison-kill archaeology; no language can be linked to it. All Plains language families (Siouan, Algonquian, Uto-Aztecan, Kiowa-Tanoan, Caddoan, Athabaskan) arrived or diversified far later, so any proxy is a notational convenience, not a claim of descent. Proto-Algonquian is chosen only because its reconstruction (Bloomfield 1946; Aubin 1975; Siebert) is well documented, has simple CV(C) phonotactics, polysynthetic root+final structure, and gives transparent compound-like noun building. The names should read as Great Plains-sounding hunter vocabulary, not as a real Folsom language.",
+ "phonology": "Proto-Algonquian (Bloomfield 1946): consonants *p *t *c (affricate, written c) *k *s *S (sh) *x (uncertain, often written *x or *hk cluster) *h *m *n *l *θ (th) *w *y; vowels short *a *e *i *o and long *aa *ee *ii *oo. Distinctive: preaspirated clusters (*hk *ht *hc *hp), *l and *θ later merging in daughters.",
+ "phonotactics": "Syllable shapes CV, CVC, V; codas occur almost only as the first member of a medial cluster (VC.CV) with h, s, S, x, or a nasal as first member (e.g. *-hk-, *-ht-, *-sk-, *-mp-). No word-initial clusters. Words are typically vowel-final (nouns) or built from root + medial + final. Clusters with *w or *y as second member are rare; geminates absent in reconstruction.",
+ "orthography": "Reconstruction notation with asterisk (Bloomfield): c for the affricate, S for sh, q (Proto-Algonquian sometimes uses *q), long vowels doubled (aa ee ii oo). For game names written in Latin script, use plain letters p t c k s sh h m n l th w y with a e i o and doubled long vowels; no asterisk in the displayed name.",
+ "morphology": "Polysynthetic, agglutinating, root + medial + final stem formation. Nouns are animate or inanimate (gender), with suffixes for plural (-ak animate, -ali inanimate), obviative (-ali), locative (-ink), diminutive (-ESa). Possession by person prefixes (ne- 1st, ke- 2nd, we- 3rd). Verbs dominate the lexicon; many nouns are verb-derived (agent nouns, instruments) with finals such as -wa, -ki, -wi.",
+ "compounding": "Compounds are formed by initial + (medial) + final stem combination; modifier precedes head (e.g. adjectival initial + noun final). Linking vowel -i- or -o- between elements is common (e.g. mahk-i-). Genitive-like phrases are usually done by possessed noun with 3rd-person prefix or by compounding; 'X of Y' is rendered as Y-X (modifier first) or by locative -ink 'at/in'. Agent noun 'maker/hunter of Y' = Y + verb final + agent suffix (-ya / -ht).",
+ "noun_phrase_order": "Modifier-head (adjective/quantifier before noun); possessor before possessed in compounds. Demonstratives precede noun.",
+ "attested_roots": [
+  {
+   "form": "*mahkwa",
+   "gloss": "bear",
+   "reconstructed": true
+  },
+  {
+   "form": "*nipi",
+   "gloss": "water",
+   "reconstructed": true
+  },
+  {
+   "form": "*waapi",
+   "gloss": "white",
+   "reconstructed": true
+  },
+  {
+   "form": "*meθkwi",
+   "gloss": "red",
+   "reconstructed": true
+  },
+  {
+   "form": "*mooswa",
+   "gloss": "moose",
+   "reconstructed": true
+  },
+  {
+   "form": "*asehkwa",
+   "gloss": "hill",
+   "reconstructed": true
+  },
+  {
+   "form": "*waapikwa",
+   "gloss": "bird (white bird/swan)",
+   "reconstructed": true
+  },
+  {
+   "form": "*pemiy",
+   "gloss": "fat, grease",
+   "reconstructed": true
+  },
+  {
+   "form": "*wehkwaahkani",
+   "gloss": "bone",
+   "reconstructed": true
+  },
+  {
+   "form": "*neepwa",
+   "gloss": "die/death-root",
+   "reconstructed": true
+  },
+  {
+   "form": "*keesiθwa",
+   "gloss": "sun, day",
+   "reconstructed": true
+  },
+  {
+   "form": "*waapanki",
+   "gloss": "dawn (east)",
+   "reconstructed": true
+  },
+  {
+   "form": "*aθemwa",
+   "gloss": "dog",
+   "reconstructed": true
+  },
+  {
+   "form": "*maaci",
+   "gloss": "bad, begin",
+   "reconstructed": true
+  },
+  {
+   "form": "*mehkwa",
+   "gloss": "blood",
+   "reconstructed": true
+  },
+  {
+   "form": "*siipi",
+   "gloss": "river",
+   "reconstructed": true
+  }
+ ],
+ "worked_examples": [
+  {
+   "english": "River Stew",
+   "name": "siipimeci",
+   "gloss": "siipi 'river' + meci 'eat/food' (compound, modifier first)"
+  },
+  {
+   "english": "White Bear",
+   "name": "waapamahkwa",
+   "gloss": "waap- 'white' + -a- linker + mahkwa 'bear'"
+  },
+  {
+   "english": "Temple of the Sun",
+   "name": "keesithwinki",
+   "gloss": "keesithw- 'sun' + -inki locative 'place of'"
+  },
+  {
+   "english": "Red Bone Spear",
+   "name": "methkwiwekani",
+   "gloss": "methkw- 'red' + -i- linker + wekani 'bone (point)'"
+  },
+  {
+   "english": "Bison Hunter",
+   "name": "mooswahkiya",
+   "gloss": "mooswa 'large game animal' + -hki- 'hunt' + -ya agent suffix"
+  },
+  {
+   "english": "Dawn Camp",
+   "name": "waapankiwiki",
+   "gloss": "waapanki 'dawn' + wiki 'dwelling, camp'"
+  }
+ ],
+ "allowed_graphemes": [
+  "p",
+  "t",
+  "c",
+  "k",
+  "s",
+  "sh",
+  "h",
+  "m",
+  "n",
+  "l",
+  "th",
+  "w",
+  "y",
+  "a",
+  "e",
+  "i",
+  "o",
+  "aa",
+  "ee",
+  "ii",
+  "oo"
+ ],
+ "extra_allowed_chars": " -",
+ "forbidden_patterns": [
+  "[bdfgjqrvxz]",
+  "(^|\\s)[^aeiou\\s]{2}",
+  "[^aeiou\\s-]{3,}",
+  "ae|ao|ei|eo|ia|ie|io|iu|oa|oe|ou|ua|ue|ui",
+  "(.)\\1\\1"
+ ],
+ "syllables_per_word": [
+  2,
+  3,
+  4,
+  5
+ ],
+ "max_word_length": 16,
+ "sources": [
+  "Bloomfield, L. 1946 Algonquian (in Linguistic Structures of Native America)",
+  "Aubin, G. 1975 A Proto-Algonquian Dictionary",
+  "Goddard, I. 1979 Comparative Algonquian (in The Languages of Native America)",
+  "Siebert, F. 1975 Resurrecting Virginia Algonquian from the dead",
+  "Glottolog (Algic, Siouan, Uto-Aztecan families)",
+  "Hofman, J. L. & Amick, D. S. (eds) Folsom archaeology literature (for the archaeological culture, not language)"
+ ],
+ "notes": "No language is attested for the Folsom culture, so this is a purely speculative phonological proxy: names should sound like plausible Plains hunter-gatherer words, not claim to be Folsom speech. Not Diaithiris. No word may be identical to a Modern Irish, Scottish Gaelic or Manx word (language is not Goidelic); the Proto-Algonquian-style phonology makes accidental matches unlikely but they should be checked.",
+ "unit": "Folsom",
+ "slug": "folsom",
+ "model": "claude-sonnet-5-5"
+}

@@ -1,0 +1,186 @@
+{
+ "proxy_language": "Proto-Vedda substrate as reflected in Sinhala Vedda (Vedda/Wanniyala-Aetto) lexical remnants, with Proto-Sinhalese/Elu Prakrit as the structural scaffold",
+ "confidence": "speculative",
+ "proxy_rationale": "Balangoda culture (Pleistocene-Holocene, c. 38,000-3,000 BP, Sri Lanka; Balangoda Man, Fa Hien Lena, Batadomba-lena) has no linguistic record. The only living-language window is the Vedda (Wanniyala-Aetto) speech variety, which was largely absorbed into Sinhala, and the pre-Sinhala lexical substrate studied by Geiger, Wijesekera and Deraniyagala. Vedda remnants show Indo-Aryan structure with an unexplained non-Indo-Aryan lexical residue. Any link to the Balangoda people is hypothetical, as continuity is argued from skeletal and genetic data only. Names should therefore sound Sinhala-Vedda-like, with simple open syllables, and should not be presented as attested Balangoda speech.",
+ "phonology": "Vowels: a, i, u, e, o, each short or long (a, ae, i, u, e, o; long vowels marked with macron in scholarly transliteration, plain Latin for gameplay). Consonants (Sinhala/Vedda-like): stops p b t d k g with a dental/retroflex contrast, affricates c j (spelled ch, j), nasals m n ng, liquids l r, fricatives s h, glides v y. Prenasalized stops (mb nd ng) occur in Sinhala and are typical of the Vedda-adjacent lexicon. Vowel length is contrastive; no tone. Stress falls on the first syllable.",
+ "phonotactics": "Dominant shape (C)V(C), with open syllables favoured (CV, CVCV, CVCVCV). Initial consonant clusters are absent in native words. Word-internal clusters are limited to geminates (kk, tt, dd, pp, mm, nn, ll) and nasal + homorganic stop (mb, nd, ng, nj). Words end in a vowel, or occasionally n, m, or a geminate-final form in loanwords. No word-initial ng except in the Vedda-flavoured onomatopoeic roots. No f, z, x, w, q in native words.",
+ "orthography": "Latin transliteration in the Sinhala romanization tradition: ch for the affricate, j, sh avoided in favour of s, ng for the velar nasal, ae for the open front vowel; long vowels doubled (aa, ii, uu) for gameplay in place of macrons; no diacritics required.",
+ "morphology": "Agglutinative-suffixing, based on Sinhala. Nouns are inflected by suffix for case (nominative-oblique stem, genitive -ge, locative -e/-ta, instrumental -in/-en). Plurals are formed with -o/-vaa or reduplication. Definiteness and animacy follow Sinhala, where animate and inanimate nouns have distinct case patterns. Verb roots end in -a/-e and are followed by tense suffixes. Vedda-flavoured vocabulary favours short two-syllable roots (CVCV) such as terms for the forest, animals and tools, with reduplication for intensity or plurality (e.g. gala-gala).",
+ "compounding": "Right-headed compounds: modifier + head (Sinhala gal-leNa = stone cave). Genitive constructions place the possessor first, linked by -ge or by simple juxtaposition: possessor-ge + head ('X of Y' = Y-ge X). Agent nouns use verbal stems plus -aa/-ekaa or the compounds karu-vaa; 'Y-maker' is built as object + karaNa(-aa) or object + kaara. Adjectives precede nouns and take no agreement.",
+ "noun_phrase_order": "Modifier-head: demonstrative, adjective or genitive precedes the head noun; numerals precede the noun. Relative clauses precede the head.",
+ "attested_roots": [
+  {
+   "form": "gala",
+   "gloss": "stone, rock (Sinhala)",
+   "reconstructed": false
+  },
+  {
+   "form": "gaha",
+   "gloss": "tree (Sinhala)",
+   "reconstructed": false
+  },
+  {
+   "form": "kele",
+   "gloss": "forest (Sinhala)",
+   "reconstructed": false
+  },
+  {
+   "form": "vana",
+   "gloss": "forest, jungle (Sinhala, from Skt.)",
+   "reconstructed": false
+  },
+  {
+   "form": "diya",
+   "gloss": "water (Sinhala)",
+   "reconstructed": false
+  },
+  {
+   "form": "ge",
+   "gloss": "house (Sinhala)",
+   "reconstructed": false
+  },
+  {
+   "form": "kaTa",
+   "gloss": "mouth; also cave in some dialect reports",
+   "reconstructed": false
+  },
+  {
+   "form": "lena",
+   "gloss": "cave, rockshelter (Sinhala lena, as in Fa Hien Lena)",
+   "reconstructed": false
+  },
+  {
+   "form": "ala",
+   "gloss": "yam, tuber (Sinhala)",
+   "reconstructed": false
+  },
+  {
+   "form": "mas",
+   "gloss": "meat (Sinhala)",
+   "reconstructed": false
+  },
+  {
+   "form": "goda",
+   "gloss": "hill, high ground (Sinhala, as in Balangoda)",
+   "reconstructed": false
+  },
+  {
+   "form": "ella",
+   "gloss": "stream, channel (Sinhala)",
+   "reconstructed": false
+  },
+  {
+   "form": "maha",
+   "gloss": "great, big (Sinhala)",
+   "reconstructed": false
+  },
+  {
+   "form": "kudu",
+   "gloss": "small, little (Sinhala)",
+   "reconstructed": false
+  },
+  {
+   "form": "ae",
+   "gloss": "eye (Sinhala)",
+   "reconstructed": false
+  },
+  {
+   "form": "ataa",
+   "gloss": "branch of a tree, in some Sinhala dialects",
+   "reconstructed": false
+  }
+ ],
+ "worked_examples": [
+  {
+   "english": "Stone Cave",
+   "name": "Galalena",
+   "gloss": "gala 'stone' + lena 'cave'; right-headed compound"
+  },
+  {
+   "english": "Yam Stew",
+   "name": "Ala mas",
+   "gloss": "ala 'yam' + mas 'meat/flesh' juxtaposed, modifier-head phrase"
+  },
+  {
+   "english": "House of the Forest",
+   "name": "Kele-ge",
+   "gloss": "kele 'forest' + -ge 'of/house', possessor + head"
+  },
+  {
+   "english": "Great Water",
+   "name": "Maha diya",
+   "gloss": "maha 'great' + diya 'water'; adjective precedes head"
+  },
+  {
+   "english": "Hill Tree",
+   "name": "Goda gaha",
+   "gloss": "goda 'hill' + gaha 'tree'; modifier before head"
+  },
+  {
+   "english": "Small Stream",
+   "name": "Kudu ella",
+   "gloss": "kudu 'small' + ella 'stream'; adjective + noun"
+  }
+ ],
+ "allowed_graphemes": [
+  "a",
+  "aa",
+  "e",
+  "i",
+  "ii",
+  "o",
+  "u",
+  "uu",
+  "ae",
+  "p",
+  "b",
+  "t",
+  "d",
+  "k",
+  "g",
+  "c",
+  "ch",
+  "j",
+  "m",
+  "n",
+  "ng",
+  "l",
+  "r",
+  "s",
+  "h",
+  "v",
+  "y",
+  "mb",
+  "nd",
+  "nj"
+ ],
+ "extra_allowed_chars": " -",
+ "forbidden_patterns": [
+  "[fqwxz]",
+  "[^aeiou]{3}",
+  "^[^aeiou]{2}",
+  "(.)\\1\\1",
+  "[bcdfghjklmnpqrstvwxyz]$"
+ ],
+ "syllables_per_word": [
+  2,
+  3,
+  4
+ ],
+ "max_word_length": 14,
+ "sources": [
+  "Wilhelm Geiger, A Grammar of the Sinhalese Language (1938)",
+  "Wilhelm Geiger, Etymological Vocabulary of the Sinhalese Language (1941)",
+  "D. E. Hettiaratchi / James Gair and W. S. Karunatilaka, Literary Sinhala (1976)",
+  "James Gair, Studies in South Asian Linguistics: Sinhala and Other South Asian Languages (1998)",
+  "Glottolog entries for Sinhala and Vedda (Wanniyala-Aetto)",
+  "Wikipedia/Wiktionary entries on Vedda language",
+  "Siran Deraniyagala, The Prehistory of Sri Lanka (1992)",
+  "Nandadeva Wijesekera, The Veddas in Transition (1964)",
+  "Dennis, Kennedy, et al. work on Balangoda Man (Kennedy 2000)"
+ ],
+ "notes": "No word may be identical to a Modern Irish, Scottish Gaelic or Manx word. Treat all output as speculative flavour: the link between Balangoda Pleistocene foragers and later Vedda speech is unproven, and the proxy rests on Sinhala phonology and morphology with the Vedda substrate as a stylistic overlay. Existing game names such as Ngogisu chihutsi use clusters and endings (-tsi, initial ng, final ch spellings) that are not Sinhala-like and should be replaced with CV(C)-based forms such as Galalena or Kele-ge.",
+ "unit": "Balangoda culture",
+ "slug": "balangoda_culture",
+ "model": "claude-sonnet-5-5"
+}

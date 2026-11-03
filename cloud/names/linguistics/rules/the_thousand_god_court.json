@@ -1,0 +1,196 @@
+{
+ "proxy_language": "Hittite (Nesite), with Luwian and Hattic substrate vocabulary for divine and cultic terms",
+ "confidence": "high",
+ "proxy_rationale": "The 'Thousand Gods of Hatti' is the standard Hittite self-description of its pantheon, invoked in treaties and state rituals, so cuneiform Hittite (Old, Middle and Neo-Hittite, c. 1650-1180 BCE) is the directly attested language. Divine names and cult terms often come from Hattic (e.g. Wurunsemu, Taru, Kasku) and Luwian (Tarhunna, Kamrusepa, Santa), which a specialist would mix in; Hurrian (Teshub, Hebat, Kumarbi) is also common in the Empire-period court.",
+ "phonology": "Consonants: stops p, t, k (written single vs double, i.e. voiceless vs voiced-ish lenis/fortis contrast: -p- vs -pp-, -t- vs -tt-, -k- vs -kk-), fricatives s, h (velar/uvular, written h and hh), z (/ts/), affricate z, sonorants m, n, l, r, glides w, y. Vowels a, e, i, u (with long vowels sometimes marked by plene spelling: a-a, e-e etc.). No b, d, g in native words as phonemes (cuneiform signs BA/DA/GA are used for p/t/k; foreign names may show d, b, g). Laryngeal h (from PIE *h2, *h3) is retained as hh. Typical Anatolian features: no feminine gender, only animate/inanimate.",
+ "phonotactics": "Syllable shapes in cuneiform: V, CV, VC, CVC. Initial consonant clusters are rare in native words but occur (e.g. sp-, st-, tr- spelled with epenthetic vowels). Medial clusters common (-nt-, -rk-, -sk-, -tt-, -hh-, -ks-, -nk-). Word-final consonants are restricted mostly to -s, -n, -r, -z, -t, -k, -l, -m (nominative -s, accusative -n, ablative -az, ergative -anza). Native words do not begin with r, and rarely with l. Geminates are common between vowels.",
+ "orthography": "Standard Hittitological transliteration: Hittite words in lowercase italic with hyphens between syllabic signs (e.g. a-pa-a-as), with 's' for both s and sh, 'sz' avoided; use ś/š only in Akkadographic or Hurrian contexts. Plene vowels often reduced to simple vowels for game use. Sumerograms in capitals (DINGIR 'god', LUGAL 'king', E 'house') and Akkadograms are not to be used in names. For a Latin-script game: h and hh for the laryngeal, z for /ts/, s for /s/ (not sh), double consonants for geminates, w and y as glides, no k/g/p/b contrast except as in the roots below.",
+ "morphology": "Indo-European, suffixing. Two genders (animate, inanimate), singular/plural, eight cases (nominative -s/-as, accusative -n/-an, genitive -as/-an, dative-locative -i/-a, allative -a, ablative -az/-az, instrumental -it, ergative -anza). Verbs: present/preterite, imperative, medio-passive; conjugations in -mi and -hi. Derivational suffixes: -ant- (possessor, e.g. watar > wataranta 'watery'), -ahh- (factitive 'to make'), -ess- (inchoative), -ala/-alla (agent/relational), -atar/-ar (abstract/verbal noun), -i-/-ia- (adjectival), -ili (adverbial 'in the manner of', as in nesili 'in Nesite'). Hatti-origin and Luwian words keep their own endings (Luwian nom. -s, plural -nzi; Hattic prefix/suffix system with prefix wa-, le-, ta-, fa-, suffix -ah, -ur).",
+ "compounding": "True compounds are rare in Hittite; relations are expressed by juxtaposition, genitive constructions, or adjectival derivation. 'X of Y' = Y in genitive before head noun X (e.g. dankuiyas tekan 'of dark earth' = 'dark earth' as genitive; DINGIR-LIM-as ... 'of the god'). Possessor adjective in -ant- before the noun. Agent nouns in -ala- or from verbs with -ant-. Place names built with genitive or the Luwian/Hattic type '[deity name]-ssa' (-ssa- Luwian adjective suffix, '-ssa/-ssi' 'of X'). Divine names are often single-word compounds or epithets: Tarhunna 'Storm', Tarhunna-ssa, UTU-s 'Sun-god'.",
+ "noun_phrase_order": "Adjective + noun, genitive + head noun (Genitive-Noun), demonstrative + noun, numeral + noun. Genitive and adjective agree in case/number/gender with head where inflected. Postpositions: -sa(n) 'upon', -kan, -an 'on' (clause-initial particles), -za reflexive. In a simplified name builder, use bare stems with appropriate nominative -s or -as, or stem + -ant- for adjectives.",
+ "attested_roots": [
+  {
+   "form": "watar",
+   "gloss": "water",
+   "reconstructed": false
+  },
+  {
+   "form": "pahhur",
+   "gloss": "fire",
+   "reconstructed": false
+  },
+  {
+   "form": "tekan",
+   "gloss": "earth, ground",
+   "reconstructed": false
+  },
+  {
+   "form": "nepis",
+   "gloss": "sky, heaven",
+   "reconstructed": false
+  },
+  {
+   "form": "siu-",
+   "gloss": "god (siunas = of the god)",
+   "reconstructed": false
+  },
+  {
+   "form": "istanana-",
+   "gloss": "altar, cult platform",
+   "reconstructed": false
+  },
+  {
+   "form": "parna-",
+   "gloss": "house",
+   "reconstructed": false
+  },
+  {
+   "form": "halentu",
+   "gloss": "honey / sweet drink (halentu-)",
+   "reconstructed": false
+  },
+  {
+   "form": "hassu-",
+   "gloss": "king",
+   "reconstructed": false
+  },
+  {
+   "form": "hastai-",
+   "gloss": "bone",
+   "reconstructed": false
+  },
+  {
+   "form": "hapus",
+   "gloss": "stream, river (Luwian happu)",
+   "reconstructed": false
+  },
+  {
+   "form": "kuwaya-",
+   "gloss": "fine, thin",
+   "reconstructed": false
+  },
+  {
+   "form": "arunas",
+   "gloss": "sea",
+   "reconstructed": false
+  },
+  {
+   "form": "harki-",
+   "gloss": "white, bright",
+   "reconstructed": false
+  },
+  {
+   "form": "mekki-",
+   "gloss": "many, great",
+   "reconstructed": false
+  },
+  {
+   "form": "hassa-",
+   "gloss": "hearth",
+   "reconstructed": false
+  }
+ ],
+ "worked_examples": [
+  {
+   "english": "House of the Storm-god",
+   "name": "Tarhunnas parna",
+   "gloss": "Tarhunna-s (Storm-god, nom/gen) parna (house)"
+  },
+  {
+   "english": "Great River",
+   "name": "Mekkis hapus",
+   "gloss": "mekki-s (many/great) hapu-s (river)"
+  },
+  {
+   "english": "Sea Altar",
+   "name": "Arunas istananas",
+   "gloss": "aruna-s (sea, gen) istanana-s (altar)"
+  },
+  {
+   "english": "White Hearth",
+   "name": "Harkis hassas",
+   "gloss": "harki-s (white) hassa-s (hearth)"
+  },
+  {
+   "english": "Fire of the Sky",
+   "name": "Nepisas pahhur",
+   "gloss": "nepisa-s (sky, gen) pahhur (fire)"
+  },
+  {
+   "english": "Honey Water",
+   "name": "Halentuwas watar",
+   "gloss": "halentuwa-s (honey, gen) watar (water)"
+  }
+ ],
+ "allowed_graphemes": [
+  "a",
+  "e",
+  "i",
+  "u",
+  "p",
+  "t",
+  "k",
+  "s",
+  "z",
+  "h",
+  "hh",
+  "m",
+  "n",
+  "l",
+  "r",
+  "w",
+  "y",
+  "pp",
+  "tt",
+  "kk",
+  "ss",
+  "nn",
+  "ll",
+  "rr",
+  "mm",
+  "ar",
+  "an",
+  "ant",
+  "ah",
+  "az"
+ ],
+ "extra_allowed_chars": " -",
+ "forbidden_patterns": [
+  "[bdgfjqvx]",
+  "sh",
+  "ch",
+  "th",
+  "ph",
+  "kh",
+  "gh",
+  "^r",
+  "^l",
+  "^[mn][ptk]",
+  "(.)\\1\\1",
+  "[aeiou]{3}",
+  "[ptkszhmnlrwy]{4}",
+  "ou",
+  "ae",
+  "oi"
+ ],
+ "syllables_per_word": [
+  2,
+  3,
+  4
+ ],
+ "max_word_length": 14,
+ "sources": [
+  "Hoffner, H.A. and Melchert, H.C., A Grammar of the Hittite Language (2008)",
+  "Friedrich, J., Hethitisches Elementarbuch (1960)",
+  "Kloekhorst, A., Etymological Dictionary of the Hittite Inherited Lexicon (2008)",
+  "Chicago Hittite Dictionary (CHD)",
+  "Melchert, H.C., The Luwian Language / Cuneiform Luwian Lexicon (2003)",
+  "Bryce, T., The Kingdom of the Hittites (2005)",
+  "Wikipedia/Wiktionary Hittite entries; Glottolog Hittite; eTCL Electronic Text Corpus of Hittite",
+  "Soysal, O., Hattischer Wortschatz in hethitischer Textüberlieferung (2004)"
+ ],
+ "notes": "No word may be identical to a Modern Irish, Scottish Gaelic or Manx word (this culture is not Goidelic). The current game names look pseudo-Hurrian/Turkic (sh, -yi, -ulun) and should be replaced; avoid sh, b, d, g, f, o in native-style Hittite words (o does not occur in cuneiform Hittite). For divine names borrow attested forms (Tarhunna, Kamrusepa, Wurunsemu, Taru, Telipinu, Inara, Arinna, Hepat, Teshub only as Hurrian). Treat 'Thousand-God Court' as a calque of Hittite siunas hantezzi... i.e. 'the thousand gods' (LI-IM DINGIR-LIM, Hitt. 1000 DINGIR.MEŠ); the numeral 'thousand' is written logographically so a Hittite reading is conjectural.",
+ "unit": "The Thousand-God Court",
+ "slug": "the_thousand_god_court",
+ "model": "claude-sonnet-5-5"
+}
