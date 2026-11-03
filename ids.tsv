@@ -6810,7 +6810,6 @@ S6844	cloud	tools/mc_fake_player_bot.py
 S6849	cloud	diaithir-ports/diaithir-worldgen-structures/tools/planet_biomes.py
 S6851	cloud	diaithir-ports/diaithir-worldgen-structures/tools/rc_gen.py
 S6885	cloud	diaithir-ports/diaithir-worldgen-structures/tools/c_tags.py
-<<<<<<< HEAD
 S6828	cloud	diaithir-ports/diaithir-druidry/tools/gen_rites.py
 S6831	cloud	diaithir-ports/diaithir-bosses/tools/gen_planet_altars.py
 S0312	cloud	compat/profile_jars.py
@@ -6825,4 +6824,3 @@ S6880	global	diaithir-ports PR 181: port.py (path in repo unconfirmed)
 S6881	global	diaithir-ports PR 181: rcon.py (path in repo unconfirmed)
 =======
 S6935	cloud	diaithir-ports/diaithir-worldgen-structures/tools/asc_gen.py
->>>>>>> a6d6c1d (Register S6934 asc_gen.py; refresh worldgen tool copies)

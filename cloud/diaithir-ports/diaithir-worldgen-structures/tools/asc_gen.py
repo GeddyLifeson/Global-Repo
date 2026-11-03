@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# S6934 Age VII/VIII + Rodos sites (own design, ASCENDANT.md): nine Ascendant rite sites and three shard sites.
+# S6935 Age VII/VIII + Rodos sites (own design, ASCENDANT.md): nine Ascendant rite sites and three shard sites.
 """Usage: python3 -I tools/asc_gen.py (run in the module folder). Vanilla blocks only.
 These are game-original sites (not Panscriptum entries); they are listed in this module README."""
 import os,sys,hashlib
