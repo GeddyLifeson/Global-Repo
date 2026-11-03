@@ -295,13 +295,15 @@ def pages(text):
         else: cur=(cur+" "+wd).strip()
     if cur: out.append(cur)
     return out
-def plaque_nbt(name,text,target_pool):
+def plaque_nbt(name,text,target_pool,npc=None):
     book={"id":(8,"minecraft:written_book"),"count":(3,1),"components":(10,{"minecraft:written_book_content":(10,{
         "title":(10,{"raw":(8,name[:32])}),"author":(8,"Panscriptum"),
         "pages":(9,(10,[{"raw":(8,p)} for p in pages(text)]))})})}
     blocks={(0,0,0):("minecraft:jigsaw[orientation=north_up]",jig(f"{NS}:lib_site",f"{NS}:lib_site",target_pool,"north_up")),
             (0,0,1):("minecraft:lectern[facing=south,has_book=true,powered=false]",{"id":(8,"minecraft:lectern"),"Book":(10,book),"Page":(3,0)})}
-    return tmpl(blocks,(1,1,2))
+    if npc:  # NPC hook: a barrel beside the lectern; its custom name is "lib_npc:<call number>:<count>"
+        blocks[(1,0,1)]=("minecraft:barrel[facing=up]",{"id":(8,"minecraft:barrel"),"CustomName":(8,"lib_npc:%s:%d"%npc)})
+    return tmpl(blocks,(2 if npc else 1,1,2))
 
 DIMOVR={"Ember":"nether","Hollow":"under","Quiet":"end","Frost":"surf","Bloom":"surf","Storm":"surf","Iron":"surf"}
 def structure_json(planet,cls,b,soil,start_pool):
@@ -321,6 +323,10 @@ def main():
     rows=C.execute("select id,universe,tier,name from content where form='STRUCTURE' order by id").fetchall()
     if LIM: rows=rows[:LIM]
     by=collections.defaultdict(list)  # (planet,cls,band) -> [(path)]
+    npcs=collections.defaultdict(dict)
+    for i,u,n in C.execute("select id,universe,name from content where form='NPC'"):
+        if n and len(n)>=5: npcs[u].setdefault(n.lower(),i)
+    npc_rows=[]
     idx=[]
     seen_b=set(); terra_shapes=collections.Counter()
     for i in range(0,len(rows),900):
@@ -339,7 +345,14 @@ def main():
                     w(f"data/{NS}/structure/{bpath}.nbt",building_nbt(cls,soil,2,cust))
                     w(f"data/{NS}/worldgen/template_pool/{bpath}.json",{"name":f"{NS}:{bpath}","fallback":"minecraft:empty","elements":[{"weight":1,"element":{"element_type":"minecraft:single_pool_element","location":f"{NS}:{bpath}","projection":"rigid","processors":"minecraft:empty"}}]})
                     target=f"{NS}:{bpath}"
-            w(f"data/{NS}/structure/{path}.nbt",plaque_nbt(name or eid,text,target))
+            hit=None; wl=re.findall(r"[^\W\d_]+",text.lower()); nd=npcs.get(uni,{})
+            for n in (3,2,1):
+                for j in range(len(wl)-n+1):
+                    nid=nd.get(" ".join(wl[j:j+n]))
+                    if nid: hit=(nid,1); break
+                if hit: break
+            if hit: npc_rows.append((eid,hit[0],hit[1]))
+            w(f"data/{NS}/structure/{path}.nbt",plaque_nbt(name or eid,text,target,hit))
             by[(planet,cls,bd)].append(path); idx.append((eid,planet,cls,bd,tier or 1,f"{NS}:{path}"))
             seen_b.add((soil,cls))
     for c in {c for (_,c,_) in by}: w(f"data/{NS}/loot_table/lib/loot/{c}.json",loot_json(c))
@@ -372,5 +385,9 @@ def main():
     with open(OUT+f"/data/{NS}/library_sites.tsv","w") as f:
         f.write("entry_id\tplanet\tclass\tband\ttier\ttemplate\n")
         for r in idx: f.write("\t".join(map(str,r))+"\n")
+    with open(OUT+f"/data/{NS}/library_sites_npc.tsv","w") as f:
+        f.write("site_entry_id\tnpc_call_number\tcount\n")
+        for r in npc_rows: f.write("\t".join(map(str,r))+"\n")
+    print(len(npc_rows),"sites with an NPC named in their text")
     print(len(idx),"entries",len(by),"start pools",len(planets_used),"planets",collections.Counter(c for (_,c,_) in by))
 if __name__=="__main__": main()
