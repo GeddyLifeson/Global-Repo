@@ -1,0 +1,226 @@
+{
+ "proxy_language": "Old/Middle Irish (Goidelic) as the base, with Old Norse (Norse-Gaelic) and Finnic (Proto-Finnic/Finnish) as secondary layers; the culture itself is fictional and not attested",
+ "confidence": "speculative",
+ "proxy_rationale": "Fairechrotlach is not a real historical culture and the name looks Goidelic (faire 'watch, guard' + crot/crotlach, cf. cruit 'harp, hump'). The current strings combine Gaelic-looking chunks (mairteòil, stiuba, bro-, -aig, -ein, -deg) with Finnic-looking chunks (rusu-, kierkku-, pies-, -kurrak). These are not coherent as any one language. The most defensible approach is a composite 'later court' register: a Goidelic core following Middle/Early Modern Irish and Scottish Gaelic word-building, with a minority Norse and Finnic substrate for exotic or technical terms. Each coined word should be built within one layer and not blended mid-morpheme. Because the culture is invented, no claim of attestation is made.",
+ "phonology": "Goidelic layer (Middle Irish): consonants p b t d c g f s h m n l r with broad (velarised) and slender (palatalised) series, lenited/aspirated bh dh gh ch th mh fh sh; vowels a e i o u and long a e i o u; diphthongs ai ei ui ao ae ia ua. Finnic layer (Finnish-like): consonants p t k d s h v j l r m n, geminates kk pp tt ss ll rr nn; vowels a e i o u y a o with vowel harmony; diphthongs ie uo yo ai ei ou. Norse layer: ON consonants incl. th (thorn), eth, long and short vowels, diphthongs au ei ey.",
+ "phonotactics": "Goidelic: syllable (C)(C)V(C)(C), initial clusters mostly stop/fricative+liquid (br cr dr gr tr fl cl gl bl sl sn sm sp st sc), final clusters rt rm rn ll nn nd ng lg rc rg; broad/slender consonants must agree with the neighbouring vowel (caol le caol, leathan le leathan: slender consonants flank e i, broad consonants flank a o u). Finnic: open or closed syllables, words end in a vowel or in n t s l r k (loan-final), no initial clusters, geminates only intervocalic, vowel harmony front a o u vs back a o u (a/o/u cannot mix with a/o/y in one stem). Norse: final -r -n -l -s, clusters sk st sp str kn gn, initial cluster restrictions similar to Germanic. Stress initial in all three layers.",
+ "orthography": "Latin script. Goidelic layer follows Middle/Early Modern Irish or Scottish Gaelic conventions: fada acute accent on Irish long vowels (a e i o u), Scottish grave (a e i o u) acceptable; lenition by h (bh ch dh fh gh mh ph sh th) rather than dot; eclipsis marked as mb gc nd bhf ng bp dt. Finnic layer uses standard Finnish orthography including a and o (y for the front rounded vowel). Norse layer uses normalised Old Norse with accents for length or plain vowels in a simplified form. Do not mix orthographies inside a single word.",
+ "morphology": "Goidelic: VSO syntax; nouns have gender (m/f), case (nom/gen/dat/voc), number, initial mutations (lenition and eclipsis) triggered by article, preposition and number; adjectives follow the noun and agree. Genitive formed by internal change or suffix: -a -e -ach -ae (slender), -a -ach (broad); plural -a -e -acha -ta. Verbal noun suffixes -adh -ad -an -eadh. Agent suffixes -oir -ach -aire -ire -eoir. Abstract suffixes -acht -as -e -ne. Finnic: agglutinative, no gender, case suffixes (-n gen, -ssa -sta -lla -lta -ksi etc.), plural -t -i -j, derivation -ja/-ja agent, -nen -inen adjective, -us -ys abstract, -ton/-tom privative. Norse: three genders, four cases, strong/weak declensions, genitive -s -ar -a -ar.",
+ "compounding": "Goidelic: compounds are head-final in the older prefix style (determiner first, head second), e.g. teach-aig, and 'X of Y' is head noun + genitive of Y (teach an righa 'house of the king'); no linkers, slender/broad harmony governs the junction. Prefixed intensifiers: ro- 'very', sor- 'bright', droch- 'bad', sean- 'old', ard- 'high', mor- 'great'. Agent names are noun + -oir/-aire. Finnic compounds are head-final with the modifier in the nominative or genitive (kuningastar 'queen'-type), written solid. Norse compounds are head-final, modifier in stem or genitive form (hof-goth 'temple god'). Words from different layers should be combined only by keeping each element whole and in its own orthography.",
+ "noun_phrase_order": "Goidelic layer: Noun + Genitive modifier + Adjective (head first), e.g. long an righa mhoir 'ship of the great king'; definite article before the noun (an, na). Finnic layer: Adjective + Noun (modifier first), genitive before head. Norse layer: Adjective + Noun in compounds, with the genitive modifier before the head.",
+ "attested_roots": [
+  {
+   "form": "faire",
+   "gloss": "watch, guard, vigil (Irish)",
+   "reconstructed": false
+  },
+  {
+   "form": "cruit",
+   "gloss": "harp, hump (Old Irish)",
+   "reconstructed": false
+  },
+  {
+   "form": "crot",
+   "gloss": "harp-like instrument, cluster (Middle Irish)",
+   "reconstructed": false
+  },
+  {
+   "form": "teach",
+   "gloss": "house (Irish)",
+   "reconstructed": false
+  },
+  {
+   "form": "ri",
+   "gloss": "king (Old Irish; gen. rig)",
+   "reconstructed": false
+  },
+  {
+   "form": "long",
+   "gloss": "ship (Old Irish; later luing)",
+   "reconstructed": false
+  },
+  {
+   "form": "cathair",
+   "gloss": "city, fort, seat (Irish)",
+   "reconstructed": false
+  },
+  {
+   "form": "dun",
+   "gloss": "fort (Old Irish)",
+   "reconstructed": false
+  },
+  {
+   "form": "tir",
+   "gloss": "land, country (Old Irish)",
+   "reconstructed": false
+  },
+  {
+   "form": "ard",
+   "gloss": "high (Old Irish)",
+   "reconstructed": false
+  },
+  {
+   "form": "mor",
+   "gloss": "great, big (Old Irish)",
+   "reconstructed": false
+  },
+  {
+   "form": "finn",
+   "gloss": "white, fair (Old Irish)",
+   "reconstructed": false
+  },
+  {
+   "form": "dub",
+   "gloss": "black, dark (Old Irish)",
+   "reconstructed": false
+  },
+  {
+   "form": "coll",
+   "gloss": "hazel (Old Irish)",
+   "reconstructed": false
+  },
+  {
+   "form": "kuningas",
+   "gloss": "king (Finnish)",
+   "reconstructed": false
+  },
+  {
+   "form": "kurki",
+   "gloss": "crane (Finnish)",
+   "reconstructed": false
+  },
+  {
+   "form": "hof",
+   "gloss": "temple, hall (Old Norse)",
+   "reconstructed": false
+  },
+  {
+   "form": "skip",
+   "gloss": "ship (Old Norse)",
+   "reconstructed": false
+  }
+ ],
+ "worked_examples": [
+  {
+   "english": "House of the Great King",
+   "name": "Teach an Righ Mhoir",
+   "gloss": "teach 'house' + an (art.) + righ 'king' (gen., lenited-compatible) + mhoir 'great' (lenited, gen. agreement); head-first Goidelic NP"
+  },
+  {
+   "english": "Harp-Watch",
+   "name": "Fairecrot",
+   "gloss": "faire 'watch, guard' + crot 'harp'; solid compound, determinant first, head last, broad/slender harmony kept across junction"
+  },
+  {
+   "english": "White Fort",
+   "name": "Dun Finn",
+   "gloss": "dun 'fort' + finn 'white'; noun + adjective, head first"
+  },
+  {
+   "english": "Ship of the Black Land",
+   "name": "Long na Tire Duibhe",
+   "gloss": "long 'ship' + na (art.) + tire 'land' (gen. of tir) + duibhe 'black' (gen. fem. of dubh); head + genitive + adjective"
+  },
+  {
+   "english": "Crane Hall (Finnic layer)",
+   "name": "Kurkisali",
+   "gloss": "kurki 'crane' + sali 'hall'; Finnish head-final solid compound with vowel harmony respected"
+  },
+  {
+   "english": "Temple of the Ship (Norse layer)",
+   "name": "Skiphof",
+   "gloss": "skip 'ship' + hof 'temple'; Old Norse head-final compound, modifier in stem form"
+  }
+ ],
+ "allowed_graphemes": [
+  "a",
+  "b",
+  "c",
+  "d",
+  "e",
+  "f",
+  "g",
+  "h",
+  "i",
+  "j",
+  "k",
+  "l",
+  "m",
+  "n",
+  "o",
+  "p",
+  "r",
+  "s",
+  "t",
+  "u",
+  "v",
+  "y",
+  "bh",
+  "ch",
+  "dh",
+  "fh",
+  "gh",
+  "mh",
+  "sh",
+  "th",
+  "ng",
+  "mb",
+  "gc",
+  "nd",
+  "bp",
+  "dt",
+  "ai",
+  "ei",
+  "ui",
+  "ao",
+  "ae",
+  "ia",
+  "ua",
+  "ie",
+  "uo",
+  "yo",
+  "ou",
+  "au",
+  "ey",
+  "kk",
+  "pp",
+  "tt",
+  "ss",
+  "ll",
+  "rr",
+  "nn"
+ ],
+ "extra_allowed_chars": " -'\ná é í ó ú à è ì ò ù ä ö",
+ "forbidden_patterns": [
+  "[qwxz]",
+  "(.)\\1\\1",
+  "[aeiou]{4,}",
+  "[^aeiouyáéíóúàèìòùäö\\s'-]{5,}",
+  "kh|gh$|ph|zh|ts|tz|dz",
+  "^ng|^mb|^nd(?!$)(?!r)",
+  "y[aou]|[aou]y",
+  "(ao|ae|ia|ua)[aeiouáéíóú]"
+ ],
+ "syllables_per_word": [
+  2,
+  3,
+  4
+ ],
+ "max_word_length": 18,
+ "sources": [
+  "Thurneysen, A Grammar of Old Irish (1946)",
+  "eDIL, Electronic Dictionary of the Irish Language",
+  "Dictionary of the Irish Language (RIA, Contributions to a Dictionary)",
+  "Lehiste/Hakulinen, Suomen kielen rakenne ja kehitys (Hakulinen 1979)",
+  "Karlsson, Finnish: An Essential Grammar (1999)",
+  "Noreen, Altislandische und altnorwegische Grammatik (1923)",
+  "Cleasby-Vigfusson, An Icelandic-English Dictionary (1874)",
+  "McManus, A Guide to Ogam / Guide to Old Irish Orthography (1991)",
+  "Wiktionary entries for Old Irish, Finnish and Old Norse",
+  "Glottolog (Goidelic, Finnic, North Germanic)"
+ ],
+ "notes": "Fairechrotlach is a fictional composite culture; no real language is claimed. No word may be identical to a Modern Irish, Scottish Gaelic or Manx word unless it is in the Goidelic layer. Because the Goidelic layer is the base, words from it should be built from Old/Middle Irish stems (not copied from Modern Irish dictionaries) and ideally altered slightly (different suffix, compound, or lenition) to avoid exact Modern Irish matches. Do not splice Gaelic and Finnic morphemes inside one word (as in current names like Rusukierkkurrak or Stiubamairteoiliaskaig); choose one layer per word and keep that layer's orthography and phonotactics. The forbidden_patterns include a few heuristics (e.g. mixing front/back vowel y with a/o/u, runs of 5 consonants) that may need tuning against real output.",
+ "unit": "Fairechrotlach",
+ "slug": "fairechrotlach",
+ "model": "claude-sonnet-5-5"
+}

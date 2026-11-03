@@ -1,0 +1,176 @@
+{
+ "proxy_language": "Proto-Trans-New Guinea (PTNG) as reconstructed by Pawley and Ross, with Kalam (Kalam-Kobon, Madang family) and Enga as modern highland comparanda",
+ "confidence": "low",
+ "proxy_rationale": "The Kuk Swamp (Wahgi Valley) drainage and cultivation is dated from ~10,000 cal BP, with mounded cultivation by ~4,000 cal BP, and no language of the foragers or early cultivators is attested. The Wahgi Valley and nearby highlands are today occupied by Trans-New Guinea (TNG) languages (Wahgi, Melpa, Kuman, Enga, Kalam), and Pawley argues that PTNG speakers were highland people with crops (taro, banana, sugarcane, yam), so PTNG is the most defensible proxy. The link is weak: PTNG is dated to roughly 6,000-10,000 BP, may postdate or be unrelated to the earliest Kuk language(s), and earlier non-TNG languages may have been present. Proto-Trans-New Guinea is reconstructed with an asterisk throughout. Forms below follow Pawley and Hammarstrom 2018 and Pawley's earlier PTNG lexical work, and are partial and debated.",
+ "phonology": "PTNG consonants (Pawley 2012; Pawley and Hammarstrom 2018): *p *t *k *b *d *g (voicing may be allophonic or prenasalized), *m *n, *s, *l, *y *w, and a prenasalized series *mb *nd *ng, with *r debated. Vowels: *a *i *u *e *o, with *e *o sometimes treated as secondary. No tone is reconstructed, though several modern highland languages have it. Modern Wahgi and Melpa have a larger consonant set including glottal stop and a contrastive velar fricative. For game names, use a small, mostly Papuan-sounding PTNG-style inventory.",
+ "phonotactics": "Syllable shapes are (C)V(C), with open syllables strongly preferred in reconstruction. Word-final consonants are rare in PTNG forms and mostly nasals (*-m *-n) and *-k. Onset clusters are not allowed except for prenasalized stops, which count as single consonants (mb nd ng). Medial clusters are usually nasal plus stop (mb nd ng mp nt nk). Vowel sequences are rare. Stems are typically 2-3 syllables, 2 syllables most frequent. Avoid word-initial nasal plus stop clusters other than prenasalized stops.",
+ "orthography": "Use plain practical orthography: p t k b d g m n s l y w, with prenasalized mb nd ng and the nasal ng for the velar nasal. Vowels a e i o u, no diacritics. Use k not c or q. Avoid f, v, z, x, h, j, ch, sh and qu as foreign to PTNG. Capitalize the first letter of names only.",
+ "morphology": "PTNG is reconstructed as verb-final (SOV) with extensive verbal morphology (person/number suffixes, medial verbs, switch-reference) and little noun inflection. Nouns are largely uninflected roots. Compare Kalam, with verb-heavy structure and a smaller set of generic verbs ('stand', 'hold', 'go') forming complex predicates. Reduplication is common in modern Papuan languages for plurals and intensives (compare Kalam sap-sap), so partial reduplication of CV or full CVCV is a defensible derivation. Case and gender are not reconstructed for PTNG. Nominal suffixes such as the -mo and -na types are attested in some daughters but are not securely reconstructable. Keep names as bare roots and compounds.",
+ "compounding": "Head-final compounding is the safe pattern: modifier plus head noun, with the head (the category word) last (e.g. 'sweet-potato garden'). Genitive/possessor precedes possessed noun ('X of Y' = Y X) in most TNG languages. Names built from two roots may be joined directly without a linker. Verb plus noun compounds ('digger-stick' = dig-stick) follow object-verb-agent order, with the instrument or agent noun last. Avoid prepositions or articles, which TNG languages lack.",
+ "noun_phrase_order": "Modifier-head order (adjective or noun modifier before the head noun) is the reconstructable default for PTNG nominals: possessor before possessed, adjective before noun. Demonstratives and numerals also precede. Relative clauses precede the head.",
+ "attested_roots": [
+  {
+   "form": "*kana",
+   "gloss": "taro (a PTNG-level crop term, approximate; cf. Kalam and neighbours)",
+   "reconstructed": true
+  },
+  {
+   "form": "*ambu",
+   "gloss": "woman / wife (attested in many TNG languages, e.g. Kate and Enga reflexes)",
+   "reconstructed": true
+  },
+  {
+   "form": "*nok",
+   "gloss": "1sg pronoun root (cf. na- / no- forms across TNG)",
+   "reconstructed": true
+  },
+  {
+   "form": "*na",
+   "gloss": "1sg pronoun (Pawley PTNG pronoun system)",
+   "reconstructed": true
+  },
+  {
+   "form": "*ni",
+   "gloss": "2sg pronoun root (PTNG; cf. *nu or *ni variants)",
+   "reconstructed": true
+  },
+  {
+   "form": "*mbena",
+   "gloss": "arm / hand (PTNG body-part root, debated vowel)",
+   "reconstructed": true
+  },
+  {
+   "form": "*kuma",
+   "gloss": "nose or related facial term (variant forms across TNG)",
+   "reconstructed": true
+  },
+  {
+   "form": "*mbaka",
+   "gloss": "fire / firewood (approximate, debated; cf. *kapia in some proposals)",
+   "reconstructed": true
+  },
+  {
+   "form": "*ndumu",
+   "gloss": "mountain / hill (loosely attested across highland TNG)",
+   "reconstructed": true
+  },
+  {
+   "form": "*itu",
+   "gloss": "water (variant forms; cf. *ok / *oko 'water' proposals)",
+   "reconstructed": true
+  },
+  {
+   "form": "*maŋa",
+   "gloss": "sweet potato or generic tuber (post-PTNG spread, not original)",
+   "reconstructed": true
+  },
+  {
+   "form": "*kum",
+   "gloss": "bamboo or stalk term (approximate)",
+   "reconstructed": true
+  },
+  {
+   "form": "*yu",
+   "gloss": "man / male (reflexes across TNG, debated)",
+   "reconstructed": true
+  },
+  {
+   "form": "*kapa",
+   "gloss": "fence or enclosure (cf. Kuk drainage ditch terminology, approximate)",
+   "reconstructed": true
+  },
+  {
+   "form": "*mbo",
+   "gloss": "pig (late, cf. Kalam and Wahgi forms; pigs arrive ~3,500 BP, so post-Kuk early agriculture)",
+   "reconstructed": true
+  }
+ ],
+ "worked_examples": [
+  {
+   "english": "Taro Garden",
+   "name": "Kanamba",
+   "gloss": "kana 'taro' + mba 'garden/ground' (modifier-head compound)"
+  },
+  {
+   "english": "Mountain Spirit",
+   "name": "Ndumuyu",
+   "gloss": "ndumu 'mountain' + yu 'person/being' (modifier-head)"
+  },
+  {
+   "english": "Water Ditch",
+   "name": "Itukapa",
+   "gloss": "itu 'water' + kapa 'channel/enclosure' (modifier-head)"
+  },
+  {
+   "english": "Fire Stone",
+   "name": "Mbakanum",
+   "gloss": "mbaka 'fire' + num 'stone' (modifier-head)"
+  },
+  {
+   "english": "Woman's Digging Stick",
+   "name": "Ambuku",
+   "gloss": "ambu 'woman' + ku 'stick' (possessor-possessed order)"
+  },
+  {
+   "english": "Sweet Banana",
+   "name": "Kuma-kuma",
+   "gloss": "kuma reduplicated for intensive/plural sense, 'banana-ish bunch' (full reduplication)"
+  }
+ ],
+ "allowed_graphemes": [
+  "a",
+  "e",
+  "i",
+  "o",
+  "u",
+  "p",
+  "t",
+  "k",
+  "b",
+  "d",
+  "g",
+  "m",
+  "n",
+  "s",
+  "l",
+  "y",
+  "w",
+  "mb",
+  "nd",
+  "ng"
+ ],
+ "extra_allowed_chars": " -",
+ "forbidden_patterns": [
+  "[cfhjqvxz]",
+  "ch",
+  "sh",
+  "th",
+  "ph",
+  "qu",
+  "(.)\\1\\1",
+  "[aeiou]{3,}",
+  "[^aeiou ]{3,}(?<!mb)(?<!nd)(?<!ng)",
+  "^[bdgptk][bdgptkmnslyw]"
+ ],
+ "syllables_per_word": [
+  2,
+  3,
+  4
+ ],
+ "max_word_length": 11,
+ "sources": [
+  "Pawley, Andrew & Hammarstrom, Harald 2018, The Trans New Guinea family (in Palmer, ed., The Languages and Linguistics of the New Guinea Area)",
+  "Pawley, Andrew 2012, How reconstructable is proto Trans New Guinea? Problems, progress, prospects",
+  "Ross, Malcolm 2005, Pronouns as a preliminary diagnostic for grouping Papuan languages",
+  "Pawley, Andrew 1998 and 2005, work on Kalam and TNG lexicon",
+  "Denham, Tim et al. 2003, Origins of agriculture at Kuk Swamp in the Highlands of New Guinea, Science",
+  "Golson, Jack et al. 2017, Ten Thousand Years of Cultivation at Kuk Swamp in the Highlands of Papua New Guinea",
+  "Wiktionary Proto-Trans-New Guinea reconstruction pages (Pawley-based)",
+  "TransNewGuinea.org database",
+  "Glottolog Trans-New Guinea entry"
+ ],
+ "notes": "No attested language; PTNG is a contested reconstruction and Kuk-era speakers may not have spoken any TNG language. The forms above are approximate, partly debated, and should be treated as stylistic models, not claims about Kuk speech. No word may be identical to a Modern Irish, Scottish Gaelic or Manx word since the language is not Goidelic. The existing game names (Sasco, Fudochu, Cholafu) violate PTNG phonotactics through f, ch and c, and should be replaced with open-syllable CV(C) forms using the inventory above.",
+ "unit": "New Guinea Highlands foragers and early Kuk agriculture",
+ "slug": "new_guinea_highlands_foragers_and_early_kuk_agriculture",
+ "model": "claude-sonnet-5-5"
+}

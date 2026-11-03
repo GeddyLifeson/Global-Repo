@@ -1,0 +1,150 @@
+{
+ "proxy_language": "Proto-Afroasiatic / Proto-Semitic (with Proto-Natufian-era Levantine substrate as unattested background)",
+ "confidence": "speculative",
+ "proxy_rationale": "Khiamian (c. 10,000-9,500 BCE cal., Early PPNA, Levant) is known only archaeologically (El-Khiam points, Jericho, Mureybet, Nahal Oren). No language is attested. Following Militarev, Blench and Ehret, the Natufian/Epipaleolithic Levant is a candidate region for a Proto-Afroasiatic or early Semitic-ward dialect, but the linkage is very weak and the date (c. 7,000 years before Akkadian) is immense. The most defensible proxy is Proto-Semitic reconstruction notation (consonantal roots, CVC patterns) used as a stylistic stand-in, avoiding any pretense of attestation. Any name is a reconstruction-flavored construct, not a recorded word.",
+ "phonology": "Proto-Semitic (Huehnergard/Kogan style): consonants *p *b *t *d *k *g *q (ejective) *ʔ *s *z *š *ṣ (emphatic) *ṯ *ḏ *ṱ (interdentals) *ḫ *ġ *ḥ *ʕ *h *m *n *l *r *w *y. Vowels *a *i *u with length (*ā *ī *ū); diphthongs *ay *aw. Emphatic series (ejectives) *ṭ *ṣ *q *ṱ. Lateral *ś (*ɬ) and *ṣ́ (*ɬʼ). No *e or *o.",
+ "phonotactics": "Roots are triconsonantal (some biconsonantal, quadriliteral rarer). Syllable shapes CV, CVC, CVː; no initial vowels (initial glottal stop *ʔ counts as C); no initial consonant clusters; medial CC only across a syllable boundary (CVC.CV); word-final CC is rare; stress is not written. Words are typically 2-3 syllables.",
+ "orthography": "Standard Semitist reconstruction transliteration with asterisks in scholarly use. For game names, plain Latin with a restricted set of diacritics: š ṣ ṭ ḥ ʕ ʔ ḫ ṯ ḏ ġ ā ī ū. Apostrophe/ʔ for glottal stop, ʕ written as ʿ if desired.",
+ "morphology": "Root-and-pattern (templatic) morphology: root C1C2C3 + vocalic pattern (e.g. qatl, qitl, qutl nouns; maqtal place nouns; qattāl agent/occupation nouns; taqtil/taqtul abstract). Nominal suffixes: *-um nominative, *-im genitive, *-am accusative (mimation, Proto-Semitic); *-at feminine; dual *-ān/-ayn; plural *-ūm/-āt. Prefix *ma- for place/instrument nouns; *ta- for abstract; *ʔa- for adjectives of color/defect pattern *ʔaqtal.",
+ "compounding": "Genitive construct state: head noun first, then dependent in the genitive (X-um Y-im, or reduced in names to X Y). 'X of Y' = X + Y (construct, head initial). Agent nouns by the qattāl pattern or participle qātil. Place names with prefix ma- (maqtal). Relational nisba suffix *-iy. No productive free compounding of the Indo-European type; compounds are construct phrases.",
+ "noun_phrase_order": "Head noun first; genitive dependent follows the head; adjectives follow the noun and agree in gender/number/definiteness; numerals precede or follow depending on reconstruction.",
+ "attested_roots": [
+  {
+   "form": "*ʔabn-",
+   "gloss": "stone",
+   "reconstructed": true
+  },
+  {
+   "form": "*maym-",
+   "gloss": "water",
+   "reconstructed": true
+  },
+  {
+   "form": "*ʔarṣ-",
+   "gloss": "earth, land",
+   "reconstructed": true
+  },
+  {
+   "form": "*šamš-",
+   "gloss": "sun",
+   "reconstructed": true
+  },
+  {
+   "form": "*ʔil-",
+   "gloss": "god",
+   "reconstructed": true
+  },
+  {
+   "form": "*bayt-",
+   "gloss": "house",
+   "reconstructed": true
+  },
+  {
+   "form": "*kalb-",
+   "gloss": "dog",
+   "reconstructed": true
+  },
+  {
+   "form": "*ʕayn-",
+   "gloss": "eye, spring",
+   "reconstructed": true
+  },
+  {
+   "form": "*dam-",
+   "gloss": "blood",
+   "reconstructed": true
+  },
+  {
+   "form": "*lišān-",
+   "gloss": "tongue",
+   "reconstructed": true
+  },
+  {
+   "form": "*ʔaḫ-",
+   "gloss": "brother",
+   "reconstructed": true
+  },
+  {
+   "form": "*raʔš-",
+   "gloss": "head",
+   "reconstructed": true
+  },
+  {
+   "form": "*ḥayy-",
+   "gloss": "live, life",
+   "reconstructed": true
+  },
+  {
+   "form": "*kawkab-",
+   "gloss": "star",
+   "reconstructed": true
+  },
+  {
+   "form": "*ṯawr-",
+   "gloss": "bull, ox",
+   "reconstructed": true
+  },
+  {
+   "form": "*ʕar-",
+   "gloss": "wild ass (onager-type)",
+   "reconstructed": true
+  }
+ ],
+ "worked_examples": [],
+ "allowed_graphemes": [
+  "a",
+  "b",
+  "d",
+  "g",
+  "h",
+  "k",
+  "l",
+  "m",
+  "n",
+  "p",
+  "q",
+  "r",
+  "s",
+  "t",
+  "w",
+  "y",
+  "z",
+  "sh",
+  "aa",
+  "ii",
+  "uu",
+  "ay",
+  "aw"
+ ],
+ "extra_allowed_chars": " -'ʔʕšṣṭḥḫṯḏġāīū",
+ "forbidden_patterns": [
+  "^[aeiou]",
+  "[eo]",
+  "(.)\\1\\1",
+  "[bcdfghjklmnpqrstvwxyz]{4,}",
+  "c(?!h)",
+  "x",
+  "v",
+  "f",
+  "j"
+ ],
+ "syllables_per_word": [
+  2,
+  3
+ ],
+ "max_word_length": 14,
+ "sources": [
+  "Huehnergard, John. Proto-Semitic Reconstruction (various, 2005-2019)",
+  "Kogan, Leonid. Genealogical Classification of Semitic (2015)",
+  "Militarev & Kogan. Semitic Etymological Dictionary (2000, 2005)",
+  "Starling database (Afroasiatic Etymology)",
+  "Glottolog: Afro-Asiatic and Semitic",
+  "Bar-Yosef, Ofer. Natufian and PPNA cultural studies (various)",
+  "Blench, Roger. Archaeology and Language: Afroasiatic (various)",
+  "Wiktionary Proto-Semitic reconstruction pages"
+ ],
+ "notes": "Khiamian is a purely archaeological culture with no language attested. All names are speculative reconstruction-flavored forms in a Proto-Semitic-style template, not real attested words. No word may be identical to a Modern Irish, Scottish Gaelic or Manx word unless the language is Goidelic (it is not here). Treat name output as stylization.",
+ "unit": "Khiamian",
+ "slug": "khiamian",
+ "model": "claude-sonnet-5-5"
+}

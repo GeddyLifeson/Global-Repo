@@ -1,0 +1,189 @@
+{
+ "proxy_language": "Proto-Southern Cushitic (with Proto-Eastern Cushitic and Proto-Southern Nilotic as secondary areal layers)",
+ "confidence": "speculative",
+ "proxy_rationale": "The Eburran (formerly Kenya Capsian) is a Late Pleistocene to Holocene obsidian-using hunter-gatherer industry (c. 13,000-3,000 BP) in the Central Rift Valley around Lake Nakuru, Naivasha and Elmenteita. No language can be tied to it directly. Linguistic prehistory (Ehret, Kiessling, Mous) places Southern Cushitic (ancestral to Dahalo, Burunge, Alagwa, Iraqw, Asax) in the Kenya-Tanzania Rift before about 4,000 BP, and Rift hunter-gatherer lexicon survives in Dahalo and Sandawe/Hadza-type substrates. Proto-Southern Cushitic is the weakest defensible proxy and is used here only for phonological and morphological flavour, mainly through Dahalo, the best-documented relict language of the region (Tosco 1991), with Proto-Cushitic roots (Ehret 1987) as the reconstruction source. Do not present anything as actual Eburran speech.",
+ "phonology": "Dahalo-based proxy with Proto-Cushitic skeleton. Vowels: a e i o u, with length contrast (aa ee ii oo uu) in Cushitic. Consonants: stops p b t d k g (q in some Cushitic), glottal stop (written '), ejectives (p' t' k' c' written with an apostrophe after the letter), implosive d' and b' (Dahalo has implosive and ejective stops), affricates c (ch-like) j, fricatives f s z sh (written sh) x/h (pharyngeal/glottal), liquids l r, nasals m n ny ng, glides w y. Dahalo also has clicks (dental, lateral) as a typologically striking relic, usable sparingly as c and x only if the studio wants flavour.",
+ "phonotactics": "Syllable shapes (C)V(C), mostly CV and CVC; no complex onsets; codas limited to nasals, liquids, glides, s, and glottal stop (Proto-Cushitic words were commonly consonant-final in the root but often take a final vowel in nouns). Words are typically 2 to 3 syllables, with the stem often CVCV(C). Geminates occur medially (tt, ll, mm, nn, ss, kk). Vowel-initial words are marked with a glottal onset. Stress is lexical or penultimate; it has no effect on spelling. Avoid clusters apart from a nasal plus stop (mb, nd, ng, nj) and medial geminates.",
+ "orthography": "Standard scholarly Cushitic transliteration in plain Latin: sh for the palatal fricative, c for the affricate (alternatively ch), x for the pharyngeal/velar fricative, ' for glottal stop or ejective marker, ny for the palatal nasal, ng for the velar nasal; doubled vowels for length, doubled consonants for geminates. Reconstructions are marked with * and are not to be used as ordinary names unless the studio accepts reconstructed forms.",
+ "morphology": "Cushitic languages are suffixing, with a rich nominal inflection and a Case-by-tone or -by-suffix system. Nouns have gender (masculine/feminine), with gender frequently signalled by the final vowel or a suffix (-a, -i, -o; -ti or -tu for feminine; Dahalo has a distinctive pattern of gender marking). Plurals are formed by suffixes (-oo, -a:, -yo) or by stem modification. Verbs agree with the subject and mark tense/aspect; verbal derivation uses suffixes for causative (-is, -s), middle/reflexive (-am, -t), and passive. Reduplication is occasionally used for plurality or intensity.",
+ "compounding": "Compounding is not a dominant strategy; relationships are normally expressed by a genitive or a juxtaposed noun phrase. Head-first (noun + genitive-modifier) is the common Cushitic pattern: head noun followed by the possessor/modifier, often with a linker or a case/gender-agreement suffix (Proto-Cushitic genitive *-i, *-a on the modifier or its head). Agent nouns ('maker of Y') are formed by Y + verb-derived agentive suffix (-aa, -ti), or by a head noun 'man/person of Y'. For game purposes, build 'X of Y' as X + Y with a linking vowel, and agent names as Y + agentive.",
+ "noun_phrase_order": "Head noun first, then genitive modifier, then adjective or demonstrative (N Gen Adj Dem), following the general Cushitic and Dahalo pattern. Numerals and quantifiers may follow the noun.",
+ "attested_roots": [
+  {
+   "form": "*lab",
+   "gloss": "cattle (Proto-Cushitic lexical item; cattle sense is later than the Eburran period and is for flavour only)",
+   "reconstructed": true
+  },
+  {
+   "form": "*maak",
+   "gloss": "water (Proto-Cushitic *ma-, cf. Oromo bishaan; marked as uncertain)",
+   "reconstructed": true
+  },
+  {
+   "form": "*biyy",
+   "gloss": "earth, land (cf. Oromo biyya)",
+   "reconstructed": true
+  },
+  {
+   "form": "*hooy",
+   "gloss": "hearth, fire (cf. Proto-Cushitic *hur and Dahalo-area reflexes, uncertain)",
+   "reconstructed": true
+  },
+  {
+   "form": "*daar",
+   "gloss": "hill or ridge (flavour reconstruction from Southern Cushitic evidence, weak)",
+   "reconstructed": true
+  },
+  {
+   "form": "*kaas",
+   "gloss": "stone (weak reconstruction)",
+   "reconstructed": true
+  },
+  {
+   "form": "*mat",
+   "gloss": "man, person (Proto-Cushitic area terms)",
+   "reconstructed": true
+  },
+  {
+   "form": "*sab",
+   "gloss": "man, people (cf. Somali sab, Oromo)",
+   "reconstructed": true
+  },
+  {
+   "form": "*ilm",
+   "gloss": "child, offspring (cf. Somali ilmo)",
+   "reconstructed": true
+  },
+  {
+   "form": "*tin",
+   "gloss": "one (Proto-Cushitic numeral base, cf. Oromo tokko, uncertain)",
+   "reconstructed": true
+  },
+  {
+   "form": "*abb",
+   "gloss": "father (cf. Oromo abbaa)",
+   "reconstructed": true
+  },
+  {
+   "form": "*in",
+   "gloss": "mother (Proto-Cushitic *ʔin- type root)",
+   "reconstructed": true
+  },
+  {
+   "form": "*seyy",
+   "gloss": "sun, day (cf. Southern Cushitic reflexes, uncertain)",
+   "reconstructed": true
+  },
+  {
+   "form": "*bool",
+   "gloss": "lake or pool (weak flavour reconstruction)",
+   "reconstructed": true
+  }
+ ],
+ "worked_examples": [
+  {
+   "english": "Obsidian Hill",
+   "name": "Daarisa Kaas",
+   "gloss": "daar-i-sa (hill-LINK-DEF) kaas (stone): hill of the stone, head first"
+  },
+  {
+   "english": "Lake Mother",
+   "name": "Bool Inaa",
+   "gloss": "bool (lake) in-aa (mother-F.SG): lake mother"
+  },
+  {
+   "english": "Water Gatherer",
+   "name": "Maakamti",
+   "gloss": "maak (water) -am (middle) -ti (agentive/feminine): she who gathers water"
+  },
+  {
+   "english": "Hearth of the People",
+   "name": "Hooyo Sabi",
+   "gloss": "hooy-o (hearth-NOM) sab-i (people-GEN): hearth of the people"
+  },
+  {
+   "english": "Sun Father",
+   "name": "Abba Seyo",
+   "gloss": "abb-a (father-M) seyy-o (sun-GEN): father of the sun"
+  },
+  {
+   "english": "Stone Ridge",
+   "name": "Kaasa Daar",
+   "gloss": "kaas-a (stone-LINK) daar (ridge): stone ridge, head-final compound variant"
+  }
+ ],
+ "allowed_graphemes": [
+  "a",
+  "e",
+  "i",
+  "o",
+  "u",
+  "aa",
+  "ee",
+  "ii",
+  "oo",
+  "uu",
+  "b",
+  "c",
+  "d",
+  "f",
+  "g",
+  "h",
+  "j",
+  "k",
+  "l",
+  "m",
+  "n",
+  "p",
+  "r",
+  "s",
+  "t",
+  "w",
+  "x",
+  "y",
+  "z",
+  "sh",
+  "ny",
+  "ng",
+  "mb",
+  "nd",
+  "nj",
+  "ts",
+  "tt",
+  "ll",
+  "mm",
+  "nn",
+  "ss",
+  "kk"
+ ],
+ "extra_allowed_chars": " -'",
+ "forbidden_patterns": [
+  "[aeiou]{3,}",
+  "(.)\\1\\1",
+  "[bcdfgjklmnprstwxyz]{3,}",
+  "^[bcdfghjklmnprstwxyz]*$",
+  "q",
+  "v",
+  "(sh|ny|ng){2,}",
+  "[kgpbtd]'[kgpbtd]'"
+ ],
+ "syllables_per_word": [
+  2,
+  3,
+  4
+ ],
+ "max_word_length": 13,
+ "sources": [
+  "Ehret, C. (1987) Proto-Cushitic reconstruction. Sprache und Geschichte in Afrika 8",
+  "Tosco, M. (1991) A Grammatical Sketch of Dahalo. Buske",
+  "Kiessling, R. and Mous, M. (2003) The Lexical Reconstruction of Proto-West-Rift. Rüdiger Köppe",
+  "Mous, M. (2012) Cushitic. In Frajzyngier and Shay (eds) The Afroasiatic Languages. Cambridge UP",
+  "Ambrose, S. H. (1984) The introduction of pastoral adaptations to the highlands of East Africa. In Clark and Brandt (eds) From Hunters to Farmers. University of California Press",
+  "Ambrose, S. H. (1998) Chronology of the Later Stone Age and food production in East Africa. Journal of Archaeological Science 25",
+  "Glottolog and ASJP databases for Southern Cushitic and Dahalo"
+ ],
+ "notes": "The Eburran industry is known only archaeologically (obsidian microliths, Lake Nakuru-Naivasha basin), so any linguistic assignment is speculative; Proto-Southern Cushitic and Dahalo are only a regional proxy chosen for plausible Rift Valley phonology, not a claim that Eburran people spoke Cushitic. Reconstructed roots here are low-confidence and used as flavour; many Proto-Cushitic cattle and pastoral terms post-date the Eburran period and are not to be used for foraging-era concepts. The current game names (apostrophes, x, z, final -s) partly overshoot the proxy; prefer simple CV(C) syllable forms with sparing apostrophes. No word may be identical to a Modern Irish, Scottish Gaelic or Manx word, since the language is not Goidelic.",
+ "unit": "Eburran",
+ "slug": "eburran",
+ "model": "claude-sonnet-5-5"
+}

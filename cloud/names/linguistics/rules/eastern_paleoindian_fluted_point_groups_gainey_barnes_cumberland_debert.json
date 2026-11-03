@@ -1,0 +1,176 @@
+{
+ "proxy_language": "Proto-Algonquian (reconstructed, ca. 2500-3000 BP) as a deliberately weak stand-in; Proto-Eastern Algonquian secondary",
+ "confidence": "speculative",
+ "proxy_rationale": "The Gainey, Barnes, Cumberland and Debert fluted-point makers (ca. 13,000-12,500 cal BP) left no linguistic record, and no language family can be tied to them; Paleoindian languages in the Northeast are entirely unknown and may be wholly extinct without descendants. Proto-Algonquian is the best-documented reconstructed language of the region (Eastern Woodlands and Northeast), so it is used only as a phonologically plausible, internally consistent source of Eastern Woodlands name-shapes. The link is geographic, not genealogical; Proto-Algonquian is about 10,000 years younger than these cultures. A Proto-Iroquoian-flavored alternative is also not demonstrably connected.",
+ "phonology": "Proto-Algonquian (Bloomfield 1946; Goddard; Siebert) consonants: *p *t *c [tS] *k *s *S [sh] *h *θ (interdental, spelled th) *l *m *n *w *y; and *ʔ (marginal, uncertain). Vowels: short *a *e *i *o and long *aa *ee *ii *oo. Length contrasts are phonemic. Vowel set conventionally written a e i o; long vowels written doubled (aa ee ii oo).",
+ "phonotactics": "Syllable shape (C)V(C), onsets simple (no initial clusters); medial clusters are of the type consonant plus consonant, notably *h/*s/*S/*x plus stop, *nC, *mC; clusters like *hk, *ht, *hp, *sk, *Sk, *ht occur; words end in a vowel in reconstructed free forms (stems are often consonant-final but inflected with endings). Stress is not marked in transliteration. Avoid word-initial clusters, avoid double vowels of different quality, no voiced stops or fricatives (no b d g f v z).",
+ "orthography": "Standard Algonquianist transliteration for reconstructions: p t c k s S h th l m n w y, vowels a e i o with long vowels doubled; reconstructed forms are asterisked in the literature. For game names, drop asterisks, write S as sh, c as ch, keep th, h, and doubled vowels for length.",
+ "morphology": "Polysynthetic and highly inflectional; words consist of root/stem plus formative suffixes. Noun classes: animate vs inanimate gender; animate plural *-ak, inanimate plural *-ali; obviative *-ali; locative *-ink; diminutive *-ehs; possession by person prefixes ne- 1st, ke- 2nd, we- 3rd (with -m- possession suffix on dependent stems). Verbs have four classes (AI, II, TA, TI). Reduplication marks iterative or plural. Many nouns are built from verb roots plus nominalizing finals.",
+ "compounding": "Compounding is by incorporation of an initial root plus medial plus final (initial-medial-final structure): e.g. a color/quality/numeral initial, a medial naming a body-part/shape/material, and a final marking the noun or verb. Head (final) comes last; modifier initial comes first, so compounds are modifier-head. Genitive/possession is by possessed-noun prefix or possessor-first juxtaposition, no linking particle; place names are formed by locative suffix *-ink on a noun ('at the X'). Agent nouns are verb-derived with *-aa-/-eewa type endings: 'maker of X' = X-root + verbal final + agent suffix.",
+ "noun_phrase_order": "Modifier before head noun (adjective/numeral/demonstrative initial precedes noun, often fused into a single word); possessor precedes possessed.",
+ "attested_roots": [
+  {
+   "form": "mehkwa",
+   "gloss": "blood",
+   "reconstructed": true
+  },
+  {
+   "form": "mahkwa",
+   "gloss": "bear",
+   "reconstructed": true
+  },
+  {
+   "form": "sipiwi",
+   "gloss": "river",
+   "reconstructed": true
+  },
+  {
+   "form": "waapeki",
+   "gloss": "white (stone-like)",
+   "reconstructed": true
+  },
+  {
+   "form": "mehkaateewi",
+   "gloss": "black",
+   "reconstructed": true
+  },
+  {
+   "form": "kiisikwa",
+   "gloss": "sky/day",
+   "reconstructed": true
+  },
+  {
+   "form": "kiishsha",
+   "gloss": "sun/moon (kiishsheethwa)",
+   "reconstructed": true
+  },
+  {
+   "form": "waaposwa",
+   "gloss": "hare/rabbit",
+   "reconstructed": true
+  },
+  {
+   "form": "aSkote",
+   "gloss": "fire",
+   "reconstructed": true
+  },
+  {
+   "form": "nepi",
+   "gloss": "water",
+   "reconstructed": true
+  },
+  {
+   "form": "ahkihkwa",
+   "gloss": "caribou/deer-kettle (caribou: *atehkwa)",
+   "reconstructed": true
+  },
+  {
+   "form": "atehkwa",
+   "gloss": "caribou/reindeer (deer-like animal)",
+   "reconstructed": true
+  },
+  {
+   "form": "waawaaSkesiwa",
+   "gloss": "red deer/elk",
+   "reconstructed": true
+  },
+  {
+   "form": "ahsenyi",
+   "gloss": "stone",
+   "reconstructed": true
+  },
+  {
+   "form": "-ink",
+   "gloss": "locative suffix 'at, in'",
+   "reconstructed": true
+  },
+  {
+   "form": "mihtekwi",
+   "gloss": "tree/wood",
+   "reconstructed": true
+  }
+ ],
+ "worked_examples": [
+  {
+   "english": "Caribou Hunters' Camp",
+   "name": "atehkwa-kepa-ink",
+   "gloss": "caribou-camp-LOC (modifier first, head last, locative -ink)"
+  },
+  {
+   "english": "White Stone",
+   "name": "waapi ahsenyi",
+   "gloss": "white stone (modifier before head)"
+  },
+  {
+   "english": "River of Bears",
+   "name": "mahkwa sipi",
+   "gloss": "bear river (possessor/modifier precedes head, no linker)"
+  },
+  {
+   "english": "Fire Place",
+   "name": "aSkote-ink",
+   "gloss": "fire-LOC 'at the fire' (written askote-ink)"
+  },
+  {
+   "english": "Sun Mother",
+   "name": "kiishsha neehsa",
+   "gloss": "sun mother, with kiishsha as first-position modifier"
+  },
+  {
+   "english": "Water Spear",
+   "name": "nepi-mihtekwi",
+   "gloss": "water-wood compound (initial water, final wood/shaft)"
+  }
+ ],
+ "allowed_graphemes": [
+  "p",
+  "t",
+  "k",
+  "ch",
+  "s",
+  "sh",
+  "h",
+  "th",
+  "l",
+  "m",
+  "n",
+  "w",
+  "y",
+  "a",
+  "e",
+  "i",
+  "o",
+  "aa",
+  "ee",
+  "ii",
+  "oo"
+ ],
+ "extra_allowed_chars": " -",
+ "forbidden_patterns": [
+  "[bdfgjqrvxz]",
+  "^[^aeiou]{2,}",
+  "[^aeiou]{4,}",
+  "(.)\\1\\1",
+  "ae|ai|au|ao|ea|ei|eu|eo|ia|ie|iu|io|oa|oe|oi|ou|ua|ue|ui|uo",
+  "[^aeiou]$"
+ ],
+ "syllables_per_word": [
+  2,
+  3,
+  4
+ ],
+ "max_word_length": 14,
+ "sources": [
+  "Bloomfield, Leonard (1946) Algonquian, in Linguistic Structures of Native America",
+  "Goddard, Ives (1979) Delaware Verbal Morphology",
+  "Siebert, Frank T. (1975) Resurrecting Virginia Algonquian from the Dead",
+  "Hewson, John (1993) A Computer-Generated Dictionary of Proto-Algonquian",
+  "Costa, David (2003) The Miami-Illinois Language",
+  "Glottolog and Wiktionary Proto-Algonquian reconstruction pages",
+  "Anderson and Sassaman (eds.) (2012) Recent Developments in Southeastern Archaeology (for cultural context)"
+ ],
+ "notes": "No word may be identical to a Modern Irish, Scottish Gaelic or Manx word. Names are an invented-but-plausible Eastern Woodlands register, not Paleoindian speech; Proto-Algonquian roots cited are reconstructions and some glosses (ahkihkwa, kiishsha) are flagged as uncertain by the literature, so builders should rely on the secure roots (nepi, sipiwi, mahkwa, atehkwa, ahsenyi, mehkwa) first. The audit pattern for vowel sequences allows only doubled identical vowels (aa ee ii oo) and forbids mixed-quality hiatus; words must end in a vowel. Game dictionaries must not claim the Paleoindians spoke Algonquian.",
+ "unit": "Eastern Paleoindian fluted-point groups (Gainey, Barnes, Cumberland, Debert)",
+ "slug": "eastern_paleoindian_fluted_point_groups_gainey_barnes_cumberland_debert",
+ "model": "claude-sonnet-5-5"
+}

@@ -1,0 +1,179 @@
+{
+ "proxy_language": "Macro-Jê (Proto-Jê, with Kamakã/Botocudo-Krenak and Karajá as secondary comparanda), speculative",
+ "confidence": "speculative",
+ "proxy_rationale": "Lagoa Santa (c. 12,000-8,000 BP) and Itaparica-tradition peoples left no language. The highland Central Brazilian cerrado is the later homeland of Macro-Jê languages (Jê, Bororo, Karajá, Maxakalí, Botocudo/Krenak), and Macro-Jê is the most defensible regional proxy, though the Pleistocene-Holocene time gap makes any linguistic link very weak. Proto-Jê (Davis 1966, Rodrigues 1999, Nikulin 2020) is the best-reconstructed layer, so names are built from Proto-Jê-style roots and Jê phonotactics. No claim is made that these are the actual languages of the Lagoa Santa people.",
+ "phonology": "Proto-Jê consonants: *p *t *c(tʃ) *k *kw *ʔ; *m *n *ɲ *ŋ; *r *w *j *h; *s in some reconstructions. Vowels: oral *i *e *ɨ *a *ɯ *o *u, plus ɛ and ɔ in daughters, with nasalized counterparts. Modern Jê (Kayapó, Timbira, Xavante, Kaingang) have voiceless stops with voiced allophones after nasals or in nasal contexts (b, d, g, mb, nd, ŋg). Stress is typically final or penultimate. Phoneme inventories are small, so names should stay inside a lean Jê-like set.",
+ "phonotactics": "Syllables are mostly (C)V(C): CV, CVC, V, VC. Onset clusters are not native; avoid CCV except prenasalized stops (mb, nd, ng, nj), which are best treated as single units. Codas are limited to a few consonants (typically stops, nasals, r). Words are most often 2-3 syllables, and compounds are 3-4. Vowel hiatus is rare; consonants usually separate vowels. Roots are often CVCV or CVC, with CV prefixes.",
+ "orthography": "Scholarly Jê-style Latin transliteration: p t k c (or ch) for the affricate, m n nh ng, r, w y, h, ' or ? for glottal stop; vowels a e i o u and y (or ɨ) for the high central vowel; nasalization shown by tilde (ã ẽ ĩ õ ũ) or a following n. Use of ' for glottal stop and y for ɨ follows Brazilian tradition.",
+ "morphology": "Agglutinating with short prefixes and postpositions rather than case. Typical Jê pattern: nouns take relational prefixes (i- 'first person/inalienable', a- 'second person', ku-/kr- possessive or compounding forms); inalienable nouns (body parts, kin) show a relational prefix r-/c-/t-/h- alternation (the 'relational prefix' system of Rodrigues, Ribeiro and van der Voort). Nominalizers include -n/-ti 'nominal' and -ri/-re diminutive; -kri/-krã (e.g. 'head, top') and -ti/-tum 'big' are very common in Jê names. Plurality is often marked by -ja, -jê/-jê (cf. Jê itself 'people, group') or by numeral and collective words.",
+ "compounding": "Head-final: modifier + head ('X Y' = Y of/with X), e.g. kra 'child' + ti 'big'. Possessor precedes possessed (genitive by juxtaposition with the possessed noun taking a relational prefix). Agentive 'maker of X' = X + verb root + nominalizer (X-VERB-n). Place names are formed with the head noun last (e.g. X + kri/krã 'village/place', X + ka 'stone', X + ngo 'water/river'). Names in this culture should be 2-3 root morphemes, optionally with a nominalizer, joined without linkers.",
+ "noun_phrase_order": "Possessor-possessed; modifier-head for nouns; adjectives and stative verbs follow the noun in some Jê languages (noun + ti 'big', noun + kri 'small'), so keep size or quality words as the final element after the head. Postpositions follow the noun phrase. Demonstratives follow the noun.",
+ "attested_roots": [
+  {
+   "form": "*kra",
+   "gloss": "child, offspring (also 'seed, fruit')",
+   "reconstructed": true
+  },
+  {
+   "form": "*kri",
+   "gloss": "village, house-place (Proto-Jê *kri 'house/village')",
+   "reconstructed": true
+  },
+  {
+   "form": "*ngo",
+   "gloss": "water, river (Proto-Jê *ŋgo / Kayapó ngô)",
+   "reconstructed": true
+  },
+  {
+   "form": "*ka",
+   "gloss": "stone / hill (Jê *kã-)",
+   "reconstructed": true
+  },
+  {
+   "form": "*pi",
+   "gloss": "foot / track (Kayapó pi)",
+   "reconstructed": true
+  },
+  {
+   "form": "*kãn",
+   "gloss": "stone, rock, hill",
+   "reconstructed": true
+  },
+  {
+   "form": "*rop",
+   "gloss": "jaguar / large felid (Proto-Jê *rop)",
+   "reconstructed": true
+  },
+  {
+   "form": "*ku",
+   "gloss": "tree / wood (Jê ku-, kwa)",
+   "reconstructed": true
+  },
+  {
+   "form": "*kwɨ",
+   "gloss": "sun (Proto-Jê *kwɨ, cf. Xavante)",
+   "reconstructed": true
+  },
+  {
+   "form": "*nã",
+   "gloss": "moon / night (Jê nã-)",
+   "reconstructed": true
+  },
+  {
+   "form": "*ti",
+   "gloss": "big, great (augmentative, Jê -ti)",
+   "reconstructed": true
+  },
+  {
+   "form": "*kã",
+   "gloss": "fire (Jê kã-, Proto-Jê *kã 'fire')",
+   "reconstructed": true
+  },
+  {
+   "form": "*ja",
+   "gloss": "collective, people (Jê -jê)",
+   "reconstructed": true
+  },
+  {
+   "form": "*mɨ",
+   "gloss": "to give birth / to go (Jê mɨ)",
+   "reconstructed": true
+  },
+  {
+   "form": "*hi",
+   "gloss": "fish (Jê hi-, tentative)",
+   "reconstructed": true
+  },
+  {
+   "form": "*tɨ",
+   "gloss": "deer (Jê tɨ-, tentative)",
+   "reconstructed": true
+  }
+ ],
+ "worked_examples": [
+  {
+   "english": "River Stew",
+   "name": "ngo kurã",
+   "gloss": "ngo 'water, river' + ku 'wood/cooking' + -rã 'nominal/bowl' (head-final)"
+  },
+  {
+   "english": "Stone Camp",
+   "name": "kãnkri",
+   "gloss": "kãn 'stone' + kri 'village, camp' (modifier + head)"
+  },
+  {
+   "english": "Jaguar Hill",
+   "name": "ropkãn",
+   "gloss": "rop 'jaguar' + kãn 'hill, rock' (head last)"
+  },
+  {
+   "english": "Sun Place",
+   "name": "kwɨ kri",
+   "gloss": "kwɨ 'sun' + kri 'place/village'"
+  },
+  {
+   "english": "Great Fire",
+   "name": "kãti",
+   "gloss": "kã 'fire' + ti 'big' (quality word after head)"
+  },
+  {
+   "english": "People of the Water",
+   "name": "ngojê",
+   "gloss": "ngo 'water' + jê 'people, collective'"
+  }
+ ],
+ "allowed_graphemes": [
+  "a",
+  "e",
+  "i",
+  "o",
+  "u",
+  "y",
+  "p",
+  "t",
+  "k",
+  "c",
+  "ch",
+  "m",
+  "n",
+  "nh",
+  "ng",
+  "mb",
+  "nd",
+  "nj",
+  "r",
+  "w",
+  "h",
+  "'",
+  "kr",
+  "kw"
+ ],
+ "extra_allowed_chars": " -'ãẽĩõũ",
+ "forbidden_patterns": [
+  "[fvzjqx]",
+  "[bdg](?![aeiouy])(?<![mn])",
+  "(.)\\1\\1",
+  "[aeiouy]{3,}",
+  "[^aeiouy ]{4,}"
+ ],
+ "syllables_per_word": [
+  2,
+  3,
+  4
+ ],
+ "max_word_length": 12,
+ "sources": [
+  "Davis, Irvine. 1966. Comparative Jê phonology.",
+  "Rodrigues, Aryon D. 1999. Macro-Jê. In The Amazonian Languages (Dixon and Aikhenvald, eds.).",
+  "Nikulin, Andrey. 2020. Proto-Macro-Jê: um estudo reconstrutivo.",
+  "Ribeiro, Eduardo Rivail. 2006. Estudos sobre a história e a classificação das línguas Jê.",
+  "Salzano and Callegari-Jacques. South American Indians (genetic and linguistic overview)",
+  "Glottolog: Macro-Jê",
+  "Wiktionary: Proto-Jê reconstructions",
+  "ASJP database"
+ ],
+ "notes": "Highly speculative: Lagoa Santa and Itaparica groups predate the documented Macro-Jê expansion by thousands of years, so no living language corresponds. Names should only evoke a generic Central Brazilian Jê-style sound. No word may be identical to a Modern Irish, Scottish Gaelic or Manx word. Avoid mimicking the current game names, which contain non-Jê patterns such as the long clusters in Njipuund and Njangijak.",
+ "unit": "Central Brazilian highland hunter-gatherers (Lagoa Santa, Itaparica)",
+ "slug": "central_brazilian_highland_hunter_gatherers_lagoa_santa_itaparica",
+ "model": "claude-sonnet-5-5"
+}

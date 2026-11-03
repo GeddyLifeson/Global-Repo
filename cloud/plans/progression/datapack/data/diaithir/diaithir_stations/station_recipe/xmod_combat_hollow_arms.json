@@ -1,0 +1,50 @@
+{
+ "neoforge:conditions": [
+  {
+   "type": "neoforge:mod_loaded",
+   "modid": "diaithir_stations"
+  },
+  {
+   "type": "neoforge:item_exists",
+   "item": "diaithir:armour_hollow"
+  },
+  {
+   "type": "neoforge:not",
+   "value": {
+    "type": "neoforge:tag_empty",
+    "tag": "diaithir:progression/armour.steel"
+   }
+  },
+  {
+   "type": "neoforge:not",
+   "value": {
+    "type": "neoforge:tag_empty",
+    "tag": "diaithir:progression/burrowkin.chitin"
+   }
+  }
+ ],
+ "_node": "combat.hollow_arms",
+ "_age": "VII",
+ "station": "machine.assembler",
+ "stage": "assembly",
+ "ingredients": [
+  {
+   "tag": "c:ingots/hollowsteel"
+  },
+  {
+   "tag": "diaithir:progression/armour.steel"
+  },
+  {
+   "tag": "diaithir:progression/burrowkin.chitin"
+  },
+  {
+   "tag": "c:ingots/netherite"
+  }
+ ],
+ "result": {
+  "id": "diaithir:armour_hollow",
+  "count": 1
+ },
+ "time_s": 20,
+ "operator": true
+}

@@ -1,0 +1,193 @@
+{
+ "proxy_language": "Proto-Semitic (with Proto-Afroasiatic roots as deeper support); reconstructed notation following Kogan/Militarev-Kogan",
+ "confidence": "speculative",
+ "proxy_rationale": "Natufian (c. 14,500-11,500 BP, Levant) is known only archaeologically. Some scholars (Militarev, Blench, Bar-Yosef, Diakonoff-style Afroasiatic homeland arguments) link Natufians to early Afroasiatic/Proto-Semitic or Proto-Afroasiatic speakers, but this is contested (alternatives: pre-Semitic substrate, Proto-Afroasiatic with Cushitic/Chadic branches, or a lost language). Proto-Semitic roots with agricultural/pastoral and wild-resource vocabulary (wheat, gazelle, sickle, grind, stone, cave, tooth) are used as a defensible, openly speculative proxy; all forms are reconstructions and must be starred.",
+ "phonology": "Proto-Semitic consonants (Huehnergard/Kogan): stops p b t d t' k g k' q? (emphatics glottalized: *t' *k' *s' etc., written with dot or apostrophe in scholarly notation as ṭ ḳ/q ṣ); fricatives *s *z *š *ś *ṣ *ṯ *ḏ *ṱ(ẓ) *ḫ *ġ *ḥ *ʕ *h; affricate-like *ś lateral; nasals *m *n; liquids *l *r; glides *w *y; glottal stop *ʔ. Vowels: *a *i *u with long counterparts *ā *ī *ū (no e/o). Three-vowel system; vowel length phonemic.",
+ "phonotactics": "Syllable shapes CV, CVC, CVV(C); no initial vowel (words begin with a consonant, often glottal stop *ʔ-); no initial consonant clusters in reconstructed roots; medial clusters of CVC.CV type (e.g. *-rb-, *-ṭn-); final consonants allowed; word-final long vowels uncommon in roots (occur in suffixes). Roots are typically triconsonantal (C1-C2-C3) with some biconsonantal and quadriliteral roots. Stress not marked in reconstruction.",
+ "orthography": "Standard Semitological transliteration in Latin script with starred reconstructions: ʔ ʕ ḥ ḫ ġ š ś ṣ ṭ ẓ ṯ ḏ q, macrons for long vowels (ā ī ū). For a game-safe Latin spelling, ASCII fallbacks may be used: ' for ʔ, ` or ' for ʕ, h/kh for ḥ/ḫ, sh for š, ts/s for ṣ, t for ṭ, q for q.",
+ "morphology": "Root-and-pattern (templatic) morphology: triconsonantal root interdigitates with vowel patterns (e.g. qatl, qitl, qutl, qatal, qattāl 'agent/professional', maqtal 'place of', miqtal 'instrument'). Prefixes: ma- (place/instrument), ta- (abstract/instrument), ša- (causative), ʔa- (causative/elative). Suffixes: nominative -u, genitive -i, accusative -a (case in Proto-Semitic), mimation *-m (definite/indefinite state), feminine *-at, plural masculine *-ū/-ī, feminine plural *-āt, dual *-ā/-ayn. Reduplication marks intensives or plurals of small things. No definite article in Proto-Semitic proper.",
+ "compounding": "Compounding is not native to Semitic; noun-noun relations are expressed by construct state/genitive: head noun (in bound/construct form, case-marked) followed by dependent noun in genitive. 'X of Y' = X-u Y-i (head first). 'Y-maker' or agent nouns use the qattāl pattern (e.g. *ṭabbāḫ-). Place names use ma- prefix (*ma-ʕrab 'place of setting' -> west). Names of gods/places can be construct chains: *bayt-u ʔil-i 'house of god' (cf. Beth-El).",
+ "noun_phrase_order": "Head noun first; adjectives and genitives follow the noun and agree in gender/number/case (N-ADJ, N-GEN). Demonstratives and numerals may precede or follow (numerals 3-10 typically precede nouns in later Semitic). Possessive suffixes attach to head noun.",
+ "attested_roots": [
+  {
+   "form": "*ʔabn-",
+   "gloss": "stone",
+   "reconstructed": true
+  },
+  {
+   "form": "*ʔarḍ-",
+   "gloss": "earth, ground",
+   "reconstructed": true
+  },
+  {
+   "form": "*ʔarw-",
+   "gloss": "wild animal, gazelle (cf. Arabic ʔarwiyya)",
+   "reconstructed": true
+  },
+  {
+   "form": "*bayt-",
+   "gloss": "house, dwelling",
+   "reconstructed": true
+  },
+  {
+   "form": "*ḥnṭ-",
+   "gloss": "wheat, grain (cf. Akkadian kunāšu, Hebrew ḥiṭṭā)",
+   "reconstructed": true
+  },
+  {
+   "form": "*ṭaḥn-",
+   "gloss": "to grind, grinding",
+   "reconstructed": true
+  },
+  {
+   "form": "*ḥrš-",
+   "gloss": "to plough, work the land",
+   "reconstructed": true
+  },
+  {
+   "form": "*maṯal-",
+   "gloss": "likeness, mould",
+   "reconstructed": true
+  },
+  {
+   "form": "*šin-",
+   "gloss": "tooth",
+   "reconstructed": true
+  },
+  {
+   "form": "*ʕayn-",
+   "gloss": "eye, spring",
+   "reconstructed": true
+  },
+  {
+   "form": "*maym-",
+   "gloss": "water",
+   "reconstructed": true
+  },
+  {
+   "form": "*ʔil-",
+   "gloss": "god",
+   "reconstructed": true
+  },
+  {
+   "form": "*šamš-",
+   "gloss": "sun",
+   "reconstructed": true
+  },
+  {
+   "form": "*ḥayy-",
+   "gloss": "alive, life",
+   "reconstructed": true
+  },
+  {
+   "form": "*ṣabiy-",
+   "gloss": "gazelle",
+   "reconstructed": true
+  },
+  {
+   "form": "*kalb-",
+   "gloss": "dog",
+   "reconstructed": true
+  }
+ ],
+ "worked_examples": [
+  {
+   "english": "Gazelle Camp",
+   "name": "Bayt-u Ṣabiy-i",
+   "gloss": "house-NOM gazelle-GEN"
+  },
+  {
+   "english": "Stone Mortar",
+   "name": "Maṭḥan-at ʔabn-i",
+   "gloss": "grinding-place-F stone-GEN (ma- place/instrument prefix + root ṭḥn)"
+  },
+  {
+   "english": "Spring of the Sun",
+   "name": "ʕayn-u Šamš-i",
+   "gloss": "spring-NOM sun-GEN"
+  },
+  {
+   "english": "Wheat Reaper",
+   "name": "Ḥaṣṣād ḥanṭ-i",
+   "gloss": "reaper (qattāl agent pattern) wheat-GEN"
+  },
+  {
+   "english": "Dog Cave",
+   "name": "Maʔwā Kalb-i",
+   "gloss": "shelter/cave (ma- + ʔwy) dog-GEN"
+  },
+  {
+   "english": "Water House",
+   "name": "Bayt-u Maym-i",
+   "gloss": "house-NOM water-GEN"
+  }
+ ],
+ "allowed_graphemes": [
+  "a",
+  "i",
+  "u",
+  "ā",
+  "ī",
+  "ū",
+  "b",
+  "d",
+  "t",
+  "k",
+  "q",
+  "g",
+  "p",
+  "s",
+  "z",
+  "š",
+  "ṣ",
+  "ṭ",
+  "ḏ",
+  "ṯ",
+  "ḥ",
+  "ḫ",
+  "ʕ",
+  "ʔ",
+  "m",
+  "n",
+  "l",
+  "r",
+  "w",
+  "y",
+  "h",
+  "sh",
+  "kh"
+ ],
+ "extra_allowed_chars": " -'ʔʕāīūšṣṭḏṯḥḫġ",
+ "forbidden_patterns": [
+  "^[aeiou]",
+  "[aeiou]{3,}",
+  "(.)\\1\\1",
+  "[ptkq]{3}",
+  "[ou]{2}",
+  "e",
+  "o",
+  "c",
+  "x",
+  "j",
+  "v",
+  "f"
+ ],
+ "syllables_per_word": [
+  2,
+  3
+ ],
+ "max_word_length": 14,
+ "sources": [
+  "Huehnergard, John (2019) Proto-Semitic Language and Culture",
+  "Kogan, Leonid (2011) Proto-Semitic Phonology and Phonetics (in The Semitic Languages, ed. Weninger et al.)",
+  "Militarev, Alexander & Kogan, Leonid (2000-2005) Semitic Etymological Dictionary I-II",
+  "Starling Database (Afroasiatic Etymology, Militarev/Orel/Stolbova)",
+  "Bar-Yosef, Ofer (1998) The Natufian Culture in the Levant, Threshold to the Origins of Agriculture",
+  "Blench, Roger (2006) Archaeology, Language and the African Past",
+  "Glottolog: Proto-Semitic and Afroasiatic entries"
+ ],
+ "notes": "Entirely speculative proxy: the Natufian language is unknown and any Semitic/Afroasiatic link is contested; all roots are starred reconstructions from Proto-Semitic and should not be presented as attested Natufian. No word may be identical to a Modern Irish, Scottish Gaelic or Manx word (language is not Goidelic). Avoid e and o vowels (absent in Proto-Semitic). Existing game names (Ghizagha, Cuc'ac, Hlathashi etc.) violate three-vowel and initial-glottal/consonant norms; rebuild with templatic roots and case endings.",
+ "unit": "Natufian",
+ "slug": "natufian",
+ "model": "claude-sonnet-5-5"
+}

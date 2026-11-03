@@ -317,7 +317,6 @@ S0332	cloud	tools/harness/cmd.sh
 S0333	cloud	tools/harness/shot.sh
 S0334	cloud	tools/harness/cl_join.sh
 S0335	cloud	names/linguistics/regen_names.py
-S0335	global	crawl_all.py
 S0336	global	add_rows.py
 S0337	cloud	pc_scan/fix_atm11_261.py
 S0338	cloud	pc_scan/mod_conflict_scan.py
@@ -6811,3 +6810,15 @@ S6844	cloud	tools/mc_fake_player_bot.py
 S6849	cloud	diaithir-ports/diaithir-worldgen-structures/tools/planet_biomes.py
 S6851	cloud	diaithir-ports/diaithir-worldgen-structures/tools/rc_gen.py
 S6885	cloud	diaithir-ports/diaithir-worldgen-structures/tools/c_tags.py
+S6828	cloud	diaithir-ports/diaithir-druidry/tools/gen_rites.py
+S6831	cloud	diaithir-ports/diaithir-bosses/tools/gen_planet_altars.py
+S0312	cloud	compat/profile_jars.py
+S0313	cloud	compat/gen_tags.py
+S0314	cloud	compat/gen_rules_api.py
+S0315	cloud	compat/gen_data.py
+S0318	cloud	compute/gradle_mirror_init.gradle
+S6820	cloud	library-content/classify.py
+S6821	cloud	library-content/finalize.py
+S6822	cloud	library-content/build_content.py
+S6880	global	diaithir-ports PR 181: port.py (path in repo unconfirmed)
+S6881	global	diaithir-ports PR 181: rcon.py (path in repo unconfirmed)
