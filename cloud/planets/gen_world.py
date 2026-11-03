@@ -22,6 +22,19 @@ def biome(arch,pid,key,grass=None,foliage=None,water=None,sky=None,fog=None,prec
         if precip=='snow' and b.get('temperature',0.5)>0.1: b['temperature']=0.0
         if precip=='rain' and b.get('temperature',0.5)<0.15: b['temperature']=0.5
     return b
+def atmo_apply(b,at):
+    if not at: return b
+    a=b.setdefault('attributes',{})
+    ps=at.get('particles') or []
+    if ps and at.get('grounded',True):
+        a['minecraft:visual/ambient_particles']=[{"particle":{"type":"minecraft:"+p['type']},"probability":max(0.001,min(0.15,float(p.get('probability',0.02))))} for p in ps]
+    f=hexok(at.get('fog'),None)
+    if f: a['minecraft:visual/fog_color']=f
+    pb=at.get('precip_bias')
+    if pb=='dry': b['has_precipitation']=False
+    elif pb=='snow' and b.get('has_precipitation',True): b['has_precipitation']=True; b['temperature']=min(b.get('temperature',0.5),0.0)
+    elif pb=='rain' and b.get('has_precipitation',True): b['has_precipitation']=True; b['temperature']=max(b.get('temperature',0.5),0.5)
+    return b
 def full(**k):
     p={"temperature":[-1.0,1.0],"humidity":[-1.0,1.0],"continentalness":[-1.0,1.0],"erosion":[-1.0,1.0],"depth":[-1.0,1.0],"weirdness":[-1.0,1.0],"offset":0.0}
     p.update(k); return p
@@ -31,7 +44,7 @@ def build(pid,name,sp,lang):
     for old in (D/'worldgen/biome').glob(pid+'_*.json'): old.unlink()
     water=hexok(sp.get('sea',{}).get('water'),'#3f76e4'); ids=[]; cells=[]
     def put(key,b,disp,par):
-        bid=f'{pid}_{key}'; (D/'worldgen/biome'/(bid+'.json')).write_text(json.dumps(b))
+        b=atmo_apply(b,sp.get('atmo')); bid=f'{pid}_{key}'; (D/'worldgen/biome'/(bid+'.json')).write_text(json.dumps(b))
         full_id='diaithir_planets:'+bid; ids.append(full_id); lang['biome.diaithir_planets.'+bid]=disp
         cells.append({"biome":full_id,"parameters":par})
     used=set()
@@ -58,6 +71,11 @@ def build(pid,name,sp,lang):
     cc=s.get('cloud','');a['minecraft:visual/cloud_color']=cc if re.fullmatch(r'#[0-9a-fA-F]{8}',str(cc)) else '#ccffffff'
     try: a['minecraft:visual/cloud_height']=float(s.get('cloud_height',192.33))
     except: pass
+    at=sp.get('atmo') or {}
+    if hexok(at.get('fog'),None): a['minecraft:visual/fog_color']=at['fog']
+    try: a['minecraft:visual/star_brightness']=max(0.0,min(1.0,float(at['stars'])))
+    except Exception: pass
+    if at.get('night')=='bright': t['ambient_light']=0.15
     (D/'dimension_type'/(pid+'.json')).write_text(json.dumps(t))
     # noise settings
     ter=sp.get('terrain','normal'); base={'normal':'overworld','amplified':'amplified','large_biomes':'large_biomes'}.get(ter,'overworld')
