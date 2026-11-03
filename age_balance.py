@@ -1,4 +1,4 @@
-# S6911 age_balance.py: builds the per-Age coverage matrix (plans/AGE_BALANCE_MATRIX.csv) from graph.json, tech_ages_by_item and era-index feeds.
+# S6916 age_balance.py: builds the per-Age coverage matrix (plans/AGE_BALANCE_MATRIX.csv) from graph.json, tech_ages_by_item and era-index feeds.
 import csv,json,glob,os,statistics,sys,collections
 P=sys.argv[1] if len(sys.argv)>1 else '/mnt/project-files'
 OUT=sys.argv[2] if len(sys.argv)>2 else 'plans/AGE_BALANCE_MATRIX.csv'
