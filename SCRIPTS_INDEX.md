@@ -6815,3 +6815,4 @@ Run hints: .py `python3 <file>` (PC `py`), .ps1 via a hidden launcher (never a v
 | S6827 | cloud | `names/linguistics/regen_relaxed.py` | S0312 Regenerates every culture name that fails its language rules (Haiku, rules file cached per language, up to 3 repair rounds); writes na | yes |
 | S6829 | global | `tools/omniverse/export_library_books.py` | S6829 exports library books for the omniverse books lane (lives in the DiaithirRPG repo; copy not mirrored yet) | no |
 | S6874 | global | `diaithir-animation/tools/gen_clips.py` | S6874 generates player animation clips (melee, tools, bows, guns, casting) and item class tags from ANIMATIONS_COVERAGE.csv (lives in diaithir-ports; copy not mirrored yet) | no |
+| S6898 | global | `diaithir-animation/tools/csv_apply.py` | S6898 appends roster-gun rows to ANIMATIONS_COVERAGE.csv and marks them done after an S6866 rerun (lives in diaithir-ports) | no |
