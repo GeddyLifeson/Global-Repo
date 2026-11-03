@@ -37,6 +37,8 @@ wave,repo,number,base,head,partner,title
 1,ports,146,claude/project-thread-04cqh9,claude/panscriptum-structures,,"Panscriptum: all 44,015 structure entries as worldgen sites"
 1,ports,163,claude/port-researcher,claude/foundry-operator-research,,"Foundry: Operator Seat, research packs 1-7, machine W/s, Age gate research (automation-cra"
 2,ports,149,claude/panscriptum-structures,claude/library-gear-site-loot,,Site chests: add Library gear pool
+7,ports,177,claude/pack-v1-3-supermods,,rpg#249,Titanium and AE2 fold (stacked on #161; merge with RPG #249)
+7,rpg,249,claude/pack-v1-3-supermods,,ports#177,Titanium and AE2 fold (stacked on #243; merge with ports #177)
 0,global-repo,1,main,,,"Register S0312 gradle mirror init script [edits SCRIPTS_INDEX.md and ids.tsv: merge one at a time, rebuild index on conflict]"
 0,global-repo,2,main,,,"Culture names: linguistics rules for 130 languages [edits SCRIPTS_INDEX.md and ids.tsv: merge one at a time, rebuild index on conflict]"
 0,global-repo,3,main,,,"Register compat data-pack scripts S0312-S0316 [edits SCRIPTS_INDEX.md and ids.tsv: merge one at a time, rebuild index on conflict]"
