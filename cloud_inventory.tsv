@@ -330,3 +330,4 @@ diaithir-ports/diaithir-fauna/tools/libmob_run.py	3000	Direct parallel Haiku cal
 diaithir-ports/diaithir-fauna/tools/libmob_build.py	3000	Merges the classify output into diaithir-fauna library_mobs.tsv.gz (plan, tier, size, temper, element) and writes retry rows.	no
 diaithir-ports/diaithir-fauna/tools/libmob_hab.py	3500	Habitat pass for Library mobs: writes the Haiku job and adds the habitat bitmask column to library_mobs.tsv.gz.	no
 diaithir-ports/diaithir-fauna/tools/libmob_bases.py	900	Writes library_mob_bases.tsv: Library mob entries that exactly match a mod creature spawn as that creature.	no
+diaithir-ports/diaithir-fauna/tools/plan_tex.py	2800	Paints a texture per fauna body plan and element for Library creatures (cube-net faces, shading, tint).	no
