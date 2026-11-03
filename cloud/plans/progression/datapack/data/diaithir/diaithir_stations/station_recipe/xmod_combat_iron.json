@@ -1,0 +1,64 @@
+{
+ "neoforge:conditions": [
+  {
+   "type": "neoforge:mod_loaded",
+   "modid": "diaithir_stations"
+  },
+  {
+   "type": "neoforge:item_exists",
+   "item": "diaithir:arms_iron"
+  },
+  {
+   "type": "neoforge:not",
+   "value": {
+    "type": "neoforge:tag_empty",
+    "tag": "diaithir:progression/arms.bronze"
+   }
+  },
+  {
+   "type": "neoforge:not",
+   "value": {
+    "type": "neoforge:tag_empty",
+    "tag": "diaithir:progression/tool.iron"
+   }
+  },
+  {
+   "type": "neoforge:not",
+   "value": {
+    "type": "neoforge:tag_empty",
+    "tag": "diaithir:progression/leather"
+   }
+  },
+  {
+   "type": "neoforge:not",
+   "value": {
+    "type": "neoforge:tag_empty",
+    "tag": "diaithir:progression/enchant.basic"
+   }
+  }
+ ],
+ "_node": "combat.iron",
+ "_age": "III",
+ "station": "station.wright_bench",
+ "stage": "part",
+ "ingredients": [
+  {
+   "tag": "diaithir:progression/arms.bronze"
+  },
+  {
+   "tag": "diaithir:progression/tool.iron"
+  },
+  {
+   "tag": "diaithir:progression/leather"
+  },
+  {
+   "tag": "diaithir:progression/enchant.basic"
+  }
+ ],
+ "result": {
+  "id": "diaithir:arms_iron",
+  "count": 1
+ },
+ "time_s": 10,
+ "operator": false
+}

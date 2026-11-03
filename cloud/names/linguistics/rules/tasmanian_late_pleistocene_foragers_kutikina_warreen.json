@@ -1,0 +1,186 @@
+{
+ "proxy_language": "Tasmanian Aboriginal languages (attested 19th-century wordlists: Palawa/Lutruwita cluster, e.g. Southeast/Oyster Bay, North Midlands, Big River, Bruny/Nuenonne) as a speculative backward projection to the late Pleistocene (c. 30-12 ka, Kutikina Cave, Warreen)",
+ "confidence": "speculative",
+ "proxy_rationale": "No language of Pleistocene Tasmania is recoverable. Tasmania was joined to mainland Australia until c. 12-14 ka, and the Kutikina/Warreen foragers were ancestral to, but separated by 10+ millennia from, the people recorded in 1800s wordlists (Milligan, Robinson, Jorgensen, Roth, Plomley). Palawa wordlists are the only real linguistic material from the island. They are fragmentary, recorded by non-linguists in idiosyncratic English-based spelling, and show Australian-like phonology. Pama-Nyungan affiliation is unproven and Bowern (2012) finds Tasmanian likely not Pama-Nyungan, with at least 2-5 languages and possibly several families. Names built from the 19th-century lexicon are therefore a plausible-sounding stand-in, not a reconstruction.",
+ "phonology": "Based on Crowley and Dixon (1981), Bowern (2012) and Plomley (1976). Reconstruction is uncertain because of the English-based spelling. Stops: p, t, k with voiced counterparts probably not contrastive (written p/b, t/d, k/g interchangeably), plus a probable palatal/affricate c/ch and dental or retroflex stops in some varieties. Nasals: m, n, ng (velar), ny, and possibly rn. Laterals/rhotics: l, r (trill or tap), and rl; fricatives are rare apart from s, h and th. Glides: w, y. Vowels: a, i, u, e, o with a, e, i, u most frequent; length uncertain, and Plomley's spellings often use ee, ai, aw, oo for the same vowels. Many forms show aspirated or preaspirated stops such as pr, tr, tt, kk, and nasal-stop sequences (mb, nd, ng) typical of Australian languages.",
+ "phonotactics": "Syllables are CV and CVC, with V-initial words attested. Word-initial consonants include p, t, l, r, m, n, w, y, k, ng, nu-. Medial clusters are mostly nasal+stop (mp, nt, nk, ng) and liquid+stop (lp, lk, rp, rt), plus geminates tt, pp, kk and pr/tr-type clusters. Words end in vowels or in n, l, r, k, t, p, ng, m, with many final -a, -e, -i. Words of 2-3 syllables are usual and 4 is common in compounds and place names. Stress was not recorded and no tone is known.",
+ "orthography": "Use a simplified Plomley-style phonemic Latin spelling: p t k, m n ng ny, l r, w y, s h, th, ch, a e i o u. Use doubled vowels for long vowels sparingly or not at all, and use no diacritics. Spell /k/ as k (not c or q) and /ng/ as ng. Prefer p/t/k over b/d/g for plain stops, though historical sources vary. Avoid f, v, z, x, j, q.",
+ "morphology": "Little is known. Roots are mostly CVCV or CVCVC and monomorphemic. Some body-part, kin and plant words share initial or final elements, suggesting derivational affixes; nothing about case or number is secure. Possible reduplication is attested (e.g. mara-mara-type forms in the southeast), as in many Australian languages. Place names often end in a locative-like vowel or in -ena, -erra, -ina, -une (e.g. Nuenonne, Tarkine, Lutruwita, Piyura-type forms). Treat these as ending templates, not analyzable suffixes.",
+ "compounding": "Not documented. Following Plomley's recorded phrases and the general Australian pattern, the usual tactic is juxtaposition of two nouns, head-final: modifier + head (possessor or material first). Names for 'X of Y' are modeled by placing Y before X. 'Y-maker' is rendered by Y + the verb or tool root. No linker is attested. Keep the structure of two short roots, optionally with a reduplicated first element.",
+ "noun_phrase_order": "Modifier-noun, with the possessor preceding the possessed noun. Adjectives and demonstratives are attested rarely. Treat the order as modifier then head, with the head last.",
+ "attested_roots": [
+  {
+   "form": "wurrawinna",
+   "gloss": "stone knife? (Plomley: wurra-)",
+   "reconstructed": false
+  },
+  {
+   "form": "loitgerer",
+   "gloss": "hut/shelter (variant spellings only)",
+   "reconstructed": false
+  },
+  {
+   "form": "nuyina",
+   "gloss": "small boat? (Palawa kani revived)",
+   "reconstructed": false
+  },
+  {
+   "form": "pakana",
+   "gloss": "Tasmanian Aboriginal person (palawa kani)",
+   "reconstructed": false
+  },
+  {
+   "form": "palawa",
+   "gloss": "Tasmanian Aboriginal person (Northern, palawa kani)",
+   "reconstructed": false
+  },
+  {
+   "form": "lutruwita",
+   "gloss": "Tasmania (island)",
+   "reconstructed": false
+  },
+  {
+   "form": "nunamina",
+   "gloss": "water? (variant forms in Plomley)",
+   "reconstructed": false
+  },
+  {
+   "form": "tarkine",
+   "gloss": "north-west people/place (Takayna, tarkiner)",
+   "reconstructed": false
+  },
+  {
+   "form": "takayna",
+   "gloss": "north-west Tasmanian coast (palawa kani)",
+   "reconstructed": false
+  },
+  {
+   "form": "kunanyi",
+   "gloss": "Mount Wellington",
+   "reconstructed": false
+  },
+  {
+   "form": "wukalina",
+   "gloss": "Mt William / Cape Portland area",
+   "reconstructed": false
+  },
+  {
+   "form": "mannalargenna",
+   "gloss": "personal name (Plomley)",
+   "reconstructed": false
+  },
+  {
+   "form": "kutikina",
+   "gloss": "cave name on Franklin River (Pleistocene site; modern name)",
+   "reconstructed": false
+  },
+  {
+   "form": "warreen",
+   "gloss": "cave on the Maxwell River (Pleistocene site; modern name)",
+   "reconstructed": false
+  },
+  {
+   "form": "lia",
+   "gloss": "stone/rock (palawa kani)",
+   "reconstructed": false
+  },
+  {
+   "form": "mapali",
+   "gloss": "eucalypt (palawa kani revived)",
+   "reconstructed": false
+  }
+ ],
+ "worked_examples": [
+  {
+   "english": "River Stew",
+   "name": "Mapa tarana",
+   "gloss": "mapa 'water/river' + tarana 'food/meat' (invented 2-root compound pattern, modifier-head order)"
+  },
+  {
+   "english": "Stone Knife",
+   "name": "Lia wurra",
+   "gloss": "lia 'stone' + wurra 'cut/blade' (juxtaposition, head last)"
+  },
+  {
+   "english": "Cave of the Wallaby",
+   "name": "Kuruna kutika",
+   "gloss": "kuruna 'wallaby' (invented) + kutika 'cave' (after Kutikina), possessor-first"
+  },
+  {
+   "english": "Rock Shelter",
+   "name": "Lia noyana",
+   "gloss": "lia 'stone' + noyana 'hut/shelter' (after loitgerer, nuyina patterns)"
+  },
+  {
+   "english": "Fire Place",
+   "name": "Wapa tinana",
+   "gloss": "wapa 'fire' (invented) + tinana 'place' with -ana ending template"
+  },
+  {
+   "english": "Place of Many Swans",
+   "name": "Pankuna lutrewita",
+   "gloss": "pankuna 'swan' (invented) + lutrewita 'land/country' after lutruwita, possessor-first"
+  }
+ ],
+ "allowed_graphemes": [
+  "a",
+  "e",
+  "i",
+  "o",
+  "u",
+  "p",
+  "t",
+  "k",
+  "m",
+  "n",
+  "ng",
+  "ny",
+  "l",
+  "r",
+  "w",
+  "y",
+  "s",
+  "h",
+  "th",
+  "ch",
+  "tt",
+  "pp",
+  "kk",
+  "rr",
+  "ll",
+  "nn"
+ ],
+ "extra_allowed_chars": " -'",
+ "forbidden_patterns": [
+  "[bdfgjqvxz]",
+  "c(?!h)",
+  "ph",
+  "sh",
+  "qu",
+  "(.)\\1\\1",
+  "[aeiou]{3,}",
+  "[^aeiou ]{4,}",
+  "y$",
+  "w$",
+  "^ng[^aeiou]"
+ ],
+ "syllables_per_word": [
+  2,
+  3,
+  4
+ ],
+ "max_word_length": 14,
+ "sources": [
+  "Plomley, N.J.B. (1976) A Word-List of the Tasmanian Aboriginal Languages",
+  "Crowley, T. and Dixon, R.M.W. (1981) Tasmanian, in Handbook of Australian Languages vol. 2",
+  "Bowern, Claire (2012) The riddle of Tasmanian languages, Proceedings of the Royal Society B",
+  "Schmidt, Wilhelm (1952) Die tasmanischen Sprachen",
+  "Dixon, R.M.W. (2002) Australian Languages: Their Nature and Development",
+  "Glottolog (Tasmanian languages) and ASJP database",
+  "Jones, Rhys (1971) The Demography of Hunters and Farmers in Tasmania; Cosgrove, R. (1995) Late Pleistocene Behavioural Variation and Time Trends: the case from Tasmania, Archaeology in Oceania"
+ ],
+ "notes": "All forms are speculative: late Pleistocene Tasmanian speech is unknown and the 19th-century records are fragmentary. Several glosses above are uncertain because the sources give only approximate meanings, and revived palawa kani forms are reconstructions by the Tasmanian Aboriginal community. Names should sound Australian-like (CV/CVC, final vowels, nasal+stop clusters). No word may be identical to a Modern Irish, Scottish Gaelic or Manx word, since this is not a Goidelic language.",
+ "unit": "Tasmanian late Pleistocene foragers (Kutikina, Warreen)",
+ "slug": "tasmanian_late_pleistocene_foragers_kutikina_warreen",
+ "model": "claude-sonnet-5-5"
+}

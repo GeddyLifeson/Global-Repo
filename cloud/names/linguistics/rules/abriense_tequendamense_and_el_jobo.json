@@ -1,0 +1,183 @@
+{
+ "proxy_language": "Proto-Chibchan (reconstructed), with Muisca (Mosca/Chibcha) as the best-attested Chibchan language of the Colombian Andes; Timote-Cuica as a Venezuelan Andean peripheral comparandum",
+ "confidence": "speculative",
+ "proxy_rationale": "Abriense (Abrigo/Tequendama rockshelters, c. 12,000-8,000 BP, Sabana de Bogota), Tequendamense and El Jobo (Pleistocene-early Holocene points, Falcon, Venezuela) are known only from lithics and faunal remains; no language can be linked to them directly. A Pleistocene gap of 8,000+ years separates them from any reconstructible language. The most defensible regional proxy is the Chibchan family (Colombian highlands, Isthmo-Colombian area), with Muisca as the only well-documented Andean Chibchan language (colonial grammars by Lugo 1619 and the Quesada vocabulary). Chibchan is a convenience proxy, not a claim of ancestry; Timote-Cuica (Venezuelan Andes, poorly attested, possibly Chibchan-related) offers a second weak anchor. El Jobo in coastal Venezuela is even less linkable.",
+ "phonology": "Muisca (as recorded in colonial orthography, interpreted with caution): stops p t k (plus labialized kw/qu), b d g appear in spelling but may be allophonic or Spanish-influenced; affricates ts, ch, tz (c-hacek like), fricatives s, z, sh-like (written x), h; nasals m n, plus ny (ñ); liquids l, r; glides w, y; vowels a e i o u plus a high central vowel written as ie, y or u-dot (often transcribed ɨ). Proto-Chibchan (Constenla Umana 1981, Pache 2018): *p *t *k *kw *ts *s *h *m *n *l *r *w *y, vowels *a *e *i *o *u plus *ɨ; contrastive nasal vowels in several daughters; no reliable tone reconstruction. Voicing contrast in stops is uncertain for Proto-Chibchan.",
+ "phonotactics": "Mostly open or lightly closed syllables: (C)V(C), with CV the dominant shape. Muisca roots are commonly CV, CVC, CVCV (e.g. chie, bosa, gue, sua). Codas are limited, mainly n, s, k, l or a glide; word-final vowels are very common. Consonant clusters are rare inside roots; sequences arise at morpheme boundaries and are often broken or simplified. Initial clusters are not attested. No tone; stress is likely penultimate or root-initial but is not reflected in spelling.",
+ "orthography": "Use a simple Latinized transliteration modelled on scholarly Muisca/Chibchan conventions: p t k b d g, ts, ch, s, z, h, m n, l r, w y, vowels a e i o u, plus i-bar written as y or ie only if needed. Prefer plain ASCII; use no diacritics. The apostrophe is not a Muisca convention; avoid glottal-stop marks. Write names lowercase with single spaces between words; capitalize only for presentation.",
+ "morphology": "Muisca is agglutinating and largely suffixing, with some prefixes. Verbs take pronominal prefixes (z- or a- 1st, m- 2nd, a- or Ø 3rd) and suffixes for tense, mood and plural. Nouns have no gender or classes; plurality is optional (suffix -ky, -ngi in some sources). Possessive/genitive is shown by juxtaposition or the possessive prefixes (za- my, mu- your, ni- his or her). Chibchan languages in general show postpositions, a case-like suffix system (-ka locative, -a/-ngi dative-ish) and SOV order. Derivational patterns include nominalizers (-ca, -qua 'place of, instrument', -n, -s) and agent-type forms; reduplication is limited (mainly intensifying or plural in some roots). Treat all of this as approximate: Muisca documentation is thin and Proto-Chibchan morphology is only partly reconstructed.",
+ "compounding": "Compounds are head-final: modifier + head (noun-noun with possessor first), mirroring Muisca juxtaposition, e.g. 'water + mother' types seen in toponyms and theonyms such as Bachue (Fucha-chigua). 'X of Y' is Y + X by juxtaposition (possessor before possessed), optionally with the locative/relational suffix -ka on the possessor. Instrument or place nouns are formed with a verbal or nominal root plus -qua ('place/thing of', as in many Muisca place names such as -quira/-qua). Agent names ('Y-maker') are Y + verb root + nominalizer. Linkers are generally absent; avoid hyphens between parts or keep them minimal.",
+ "noun_phrase_order": "Possessor before possessed; modifier (adjective) usually follows the noun in Muisca, though descriptive compounds also appear modifier-first. Numerals and demonstratives are poorly documented. For game purposes: possessor + head for genitives, noun + adjective for attributive phrases, head-final for compounds.",
+ "attested_roots": [
+  {
+   "form": "chie",
+   "gloss": "moon (Muisca chie, the female moon deity element)",
+   "reconstructed": false
+  },
+  {
+   "form": "sua",
+   "gloss": "sun (Muisca sua)",
+   "reconstructed": false
+  },
+  {
+   "form": "gue",
+   "gloss": "house (Muisca gue)",
+   "reconstructed": false
+  },
+  {
+   "form": "zie",
+   "gloss": "water or river element in Muisca vocabulary (zie as recorded in word lists)",
+   "reconstructed": false
+  },
+  {
+   "form": "quyca",
+   "gloss": "house/dwelling (Muisca cuca, quyca variants)",
+   "reconstructed": false
+  },
+  {
+   "form": "bosa",
+   "gloss": "cloth, mantle (Muisca bosa, in Bosa toponym)",
+   "reconstructed": false
+  },
+  {
+   "form": "bacata",
+   "gloss": "enclosure/fence, the name of Bogota (Muisca bacata)",
+   "reconstructed": false
+  },
+  {
+   "form": "fuchu",
+   "gloss": "woman, female (Muisca fucha)",
+   "reconstructed": false
+  },
+  {
+   "form": "hycha",
+   "gloss": "stone, rock (Muisca hycha)",
+   "reconstructed": false
+  },
+  {
+   "form": "chy",
+   "gloss": "person, man (Muisca chy)",
+   "reconstructed": false
+  },
+  {
+   "form": "ata",
+   "gloss": "one (Muisca ata)",
+   "reconstructed": false
+  },
+  {
+   "form": "bozha",
+   "gloss": "two (Muisca bosa/boza)",
+   "reconstructed": false
+  },
+  {
+   "form": "hycha guy",
+   "gloss": "stone-related compound frame (hycha + guy), construction type only",
+   "reconstructed": false
+  },
+  {
+   "form": "*kwa",
+   "gloss": "Proto-Chibchan tentative root for 'house/place' (cf. Muisca -qua)",
+   "reconstructed": true
+  },
+  {
+   "form": "*ku",
+   "gloss": "Proto-Chibchan tentative root for 'stone/rock' (cf. Pache 2018 comparisons)",
+   "reconstructed": true
+  },
+  {
+   "form": "*tsi",
+   "gloss": "Proto-Chibchan tentative root for 'water' (cf. Constenla Umana 1981)",
+   "reconstructed": true
+  }
+ ],
+ "worked_examples": [
+  {
+   "english": "Stone Hill",
+   "name": "hycha qua",
+   "gloss": "hycha 'stone' + qua 'place of' (head-final compound)"
+  },
+  {
+   "english": "House of the Sun",
+   "name": "sua gue",
+   "gloss": "sua 'sun' (possessor) + gue 'house' (possessed)"
+  },
+  {
+   "english": "Moon Woman",
+   "name": "chie fucha",
+   "gloss": "chie 'moon' + fucha 'woman' (modifier-head)"
+  },
+  {
+   "english": "Water Place",
+   "name": "zie qua",
+   "gloss": "zie 'water' + qua 'place of'"
+  },
+  {
+   "english": "People of the Stone",
+   "name": "hycha chy",
+   "gloss": "hycha 'stone' (possessor) + chy 'person' (head)"
+  },
+  {
+   "english": "Cloth Enclosure",
+   "name": "bosa bacata",
+   "gloss": "bosa 'cloth' + bacata 'enclosure'"
+  }
+ ],
+ "allowed_graphemes": [
+  "a",
+  "e",
+  "i",
+  "o",
+  "u",
+  "y",
+  "p",
+  "t",
+  "k",
+  "b",
+  "d",
+  "g",
+  "ts",
+  "ch",
+  "s",
+  "z",
+  "h",
+  "m",
+  "n",
+  "l",
+  "r",
+  "w",
+  "qu",
+  "gu"
+ ],
+ "extra_allowed_chars": " ",
+ "forbidden_patterns": [
+  "[fvjx]",
+  "[aeiouy]{3,}",
+  "[^aeiouy ]{3,}",
+  "(.)\\1{2,}",
+  "^[^aeiouy ]{2,}",
+  "[^aeiouy ]{2}$",
+  "ph|th|kh|sh|gh",
+  "'"
+ ],
+ "syllables_per_word": [
+  1,
+  2,
+  3
+ ],
+ "max_word_length": 10,
+ "sources": [
+  "Constenla Umana, Adolfo. Elementos de fonologia comparada de las lenguas chibchenses (1981)",
+  "Pache, Matthias. Contributions to Chibchan historical linguistics (2018 dissertation, Leiden)",
+  "Lugo, Bernardo de. Gramatica en la lengua general del Nuevo Reyno, llamada Mosca (1619)",
+  "Gonzalez de Perez, Maria Stella. Diccionario y gramatica chibcha (1987)",
+  "Ortiz, Sergio Elias. Estudios sobre linguistica aborigen de Colombia (1965)",
+  "Correa, Gabriel. Estudios sobre la lengua muisca and Quesada vocabulary editions",
+  "Glottolog entries: Chibchan, Muisca, Timote-Cuica",
+  "Correal Urrego, Gonzalo and van der Hammen, Thomas. Investigaciones arqueologicas en los abrigos rocosos del Tequendama (1977)",
+  "Bryan, Alan et al. work on El Jobo points and the Venezuelan Pleistocene record (1978)"
+ ],
+ "notes": "Speculative proxy: the cultures are archaeologically known only from lithic and faunal remains, and the language link to Chibchan is a regional convenience, not a documented ancestry. Muisca spellings in the colonial sources are inconsistent (Spanish orthography, uncertain voicing, the central vowel written variously), so forms here are normalized and some glosses carry real uncertainty; the roots marked reconstructed are tentative Proto-Chibchan comparisons. The suggested names are ASCII-only and avoid apostrophes and glottal marks, which the Muisca record does not support (the current game names with ' are unsound). No word may be identical to a Modern Irish, Scottish Gaelic or Manx word, since this language is not Goidelic.",
+ "unit": "Abriense, Tequendamense and El Jobo",
+ "slug": "abriense_tequendamense_and_el_jobo",
+ "model": "claude-sonnet-5-5"
+}

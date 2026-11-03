@@ -1,0 +1,220 @@
+{
+ "proxy_language": "Unattested culture; no language corresponds to the name 'Deiskertfurraigi'. Best-supported proxy for a southern-African 'later court' (period 6) is Proto-Southern-Bantu / Nguni-Sotho-Tswana (Zulu as the attested model, with Sesotho/Setswana support), using Zulu orthography.",
+ "confidence": "speculative",
+ "proxy_rationale": "The culture label is not a recognised ethnonym, and the region field spans Australia, New Zealand and southern Africa, which share no language family. The current game names (jollof, egusi, fufu, suya, waakye, akara) are West African foods and do not belong to any of these regions. For a court culture in the southern-Africa portion, the best-documented court languages are the Nguni (Zulu, Xhosa, Swazi) and Sotho-Tswana Bantu languages of the 17th to 19th century courts (Zulu kingdom, Swazi, Basotho, Tswana). Zulu is used as the attested model because its grammar, noun classes and orthography are thoroughly documented. This is a stand-in, not a claim that the culture spoke Zulu. For the Australia/New Zealand portion no single proxy is defensible (Pama-Nyungan vs Austronesian Maori), so none is mixed in.",
+ "phonology": "Zulu: 5 vowels /a e i o u/ (orthographic a e i o u; length not marked). Consonants: plain stops p t k (aspirated) with ejective/implosive variants (written p t k, with b implosive written b), voiced b d g, ejective-like k (written k vs kh); aspirated ph th kh; affricates ts tsh, tj/dl; clicks c (dental), q (post-alveolar), x (lateral) in plain, aspirated (ch qh xh), nasalised (nc nq nx), and voiced (gc gq gx) series; lateral fricatives hl (voiceless) and dl (voiced); fricatives f v s z sh h; nasals m n ny ng; liquids l r (rare, loans); glides y w. Tone exists but is not written. Penultimate stress.",
+ "phonotactics": "Strictly open syllables: (C)V, with syllabic nasal m/n before another consonant (e.g. umuntu). Onset may be a single consonant or consonant plus glide (w/y) or a prenasalised stop/affricate (mb nd ng nt nk nj nz mf mp ns nsh nh etc.). No consonant codas, no word-final consonants (every word ends in a vowel). Vowel hiatus is generally resolved by glide formation or coalescence (a+i > e, a+u > o). Stress falls on the penultimate syllable.",
+ "orthography": "Standard Zulu orthography: lowercase Latin letters a b c d e f g h i j k l m n o p q r s t u v w x y z, with digraphs and trigraphs bh, ch, dl, dlh, gc, gq, gx, hh, hl, kh, kl, ky, mb, mf, mv, nc, nd, ng, nj, nk, nq, ns, nt, nx, ny, nz, ph, qh, sh, th, ts, tsh, ty, xh, zh and the nasal clusters. No diacritics are normally written. Nouns are written with their class prefix attached (umuntu, abantu, isihlahla); no hyphens inside words except in some loans and proper-name compounds, and a hyphen/space before a name is not used.",
+ "morphology": "Agglutinative, with 15+ noun classes marked by prefixes (1 umu-/um-, 2 aba-, 3 umu-, 4 imi-, 5 ili-/i-, 6 ama-, 7 isi-, 8 izi-, 9 in-/im-, 10 izin-, 11 u(lu)-, 14 ubu-, 15 uku- infinitive). Verb stem = root + final suffix (-a), with subject concord, tense/aspect markers, object concord, and derivational extensions (-el- applicative, -is- causative, -w- passive, -an- reciprocal). Agent nouns: umu-/um- + verb stem + -i (umenzi 'doer'); abstract nouns: ubu- + stem (ubuntu); diminutive: -ana, -nyana; locative: e-...-ini / o-. Roots are mostly CVC(V) or CVCV.",
+ "compounding": "Genitive ('X of Y') is formed with the possessive concord agreeing with the head noun: head noun + class-agreeing possessive particle (a + concord, with vowel coalescence) + possessor noun, e.g. indlu yenkosi 'house of the chief' (indlu + ya + inkosi > yenkosi), umuzi wamakhosi 'homestead of the chiefs'. True compounds are rare; instead names use head noun + possessor or noun + relative/descriptive. Agent names: um/umu + verb + -i (umbazi 'cutter'); 'place of X': e-X-ini or ku-X. Head always first; modifiers follow.",
+ "noun_phrase_order": "Head noun first, then possessor/genitive, adjective/relative, demonstrative, quantifier; all modifiers take concords agreeing in class with the head (e.g. umuntu omuhle 'a good person', izindlu zenkosi ezinkulu 'the big houses of the chief'). Demonstrative can precede the noun in emphasis.",
+ "attested_roots": [
+  {
+   "form": "inkosi",
+   "gloss": "chief, king, lord",
+   "reconstructed": false
+  },
+  {
+   "form": "umuzi",
+   "gloss": "homestead, village",
+   "reconstructed": false
+  },
+  {
+   "form": "indlu",
+   "gloss": "house",
+   "reconstructed": false
+  },
+  {
+   "form": "amanzi",
+   "gloss": "water",
+   "reconstructed": false
+  },
+  {
+   "form": "umlilo",
+   "gloss": "fire",
+   "reconstructed": false
+  },
+  {
+   "form": "ilanga",
+   "gloss": "sun, day",
+   "reconstructed": false
+  },
+  {
+   "form": "inyanga",
+   "gloss": "moon, month; also healer",
+   "reconstructed": false
+  },
+  {
+   "form": "intaba",
+   "gloss": "mountain",
+   "reconstructed": false
+  },
+  {
+   "form": "umfula",
+   "gloss": "river",
+   "reconstructed": false
+  },
+  {
+   "form": "inkomo",
+   "gloss": "cow, cattle",
+   "reconstructed": false
+  },
+  {
+   "form": "isibaya",
+   "gloss": "cattle enclosure, kraal",
+   "reconstructed": false
+  },
+  {
+   "form": "ubuso",
+   "gloss": "face",
+   "reconstructed": false
+  },
+  {
+   "form": "impi",
+   "gloss": "army, war party",
+   "reconstructed": false
+  },
+  {
+   "form": "isikhulu",
+   "gloss": "nobleman, councillor",
+   "reconstructed": false
+  },
+  {
+   "form": "umkhosi",
+   "gloss": "festival, ceremony, regiment",
+   "reconstructed": false
+  },
+  {
+   "form": "ubuhle",
+   "gloss": "beauty",
+   "reconstructed": false
+  },
+  {
+   "form": "inkunzi",
+   "gloss": "bull",
+   "reconstructed": false
+  }
+ ],
+ "worked_examples": [
+  {
+   "english": "House of the King",
+   "name": "indlu yenkosi",
+   "gloss": "indlu 'house' + ya (concord 9 'of') + inkosi 'king' > yenkosi"
+  },
+  {
+   "english": "Great Homestead",
+   "name": "umuzi omkhulu",
+   "gloss": "umuzi 'homestead' (cl.3) + o- (relative/adj concord) + -khulu 'big'"
+  },
+  {
+   "english": "River of the Sun",
+   "name": "umfula welanga",
+   "gloss": "umfula 'river' (cl.3) + wa (concord 3 'of') + ilanga 'sun' > welanga"
+  },
+  {
+   "english": "Cattle Enclosure",
+   "name": "isibaya senkomo",
+   "gloss": "isibaya 'kraal' (cl.7) + sa (concord 7 'of') + inkomo 'cow' > senkomo"
+  },
+  {
+   "english": "Festival of the Moon",
+   "name": "umkhosi wenyanga",
+   "gloss": "umkhosi 'festival' (cl.3) + wa (concord 3 'of') + inyanga 'moon' > wenyanga"
+  },
+  {
+   "english": "Mountain of Fire",
+   "name": "intaba yomlilo",
+   "gloss": "intaba 'mountain' (cl.9) + ya (concord 9 'of') + umlilo 'fire' > yomlilo"
+  }
+ ],
+ "allowed_graphemes": [
+  "a",
+  "e",
+  "i",
+  "o",
+  "u",
+  "b",
+  "bh",
+  "c",
+  "ch",
+  "d",
+  "dl",
+  "dlh",
+  "f",
+  "g",
+  "gc",
+  "gq",
+  "gx",
+  "h",
+  "hh",
+  "hl",
+  "j",
+  "k",
+  "kh",
+  "l",
+  "m",
+  "mb",
+  "mf",
+  "mv",
+  "n",
+  "nc",
+  "nd",
+  "ng",
+  "nj",
+  "nk",
+  "nq",
+  "ns",
+  "nt",
+  "nx",
+  "ny",
+  "nz",
+  "p",
+  "ph",
+  "q",
+  "qh",
+  "r",
+  "s",
+  "sh",
+  "t",
+  "th",
+  "ts",
+  "tsh",
+  "v",
+  "w",
+  "x",
+  "xh",
+  "y",
+  "z"
+ ],
+ "extra_allowed_chars": " ",
+ "forbidden_patterns": [
+  "[^aeiou ]( |$)",
+  "[^aeiou ]{4,}",
+  "[ao]{3,}",
+  "(^|\\s)[^aeiou][^aeiouwy]",
+  "(?<![mn])[bcdfghjklpqrstvxz]{3,}",
+  "[aeiou]{3,}",
+  "[qx]{3}",
+  "[ckpt]{3}"
+ ],
+ "syllables_per_word": [
+  2,
+  3,
+  4,
+  5
+ ],
+ "max_word_length": 14,
+ "sources": [
+  "Doke, C. M. (1927/1992) Textbook of Zulu Grammar",
+  "Doke, C. M. & Vilakazi, B. W. (1948) Zulu-English Dictionary",
+  "Poulos, G. & Msimang, C. T. (1998) A Linguistic Analysis of Zulu",
+  "Meinhof, C. (1932) Introduction to the Phonology of the Bantu Languages",
+  "Bastin, Y., Coupez, A., Mann, M. (1999) Continuity and Divergence in the Bantu Languages (Bantu Lexical Reconstructions)",
+  "Glottolog and ASJP entries for Zulu, Sesotho, Setswana",
+  "Nurse, D. & Philippson, G. (eds.) (2003) The Bantu Languages"
+ ],
+ "notes": "The culture 'Deiskertfurraigi' is not an attested ethnonym; it appears to be a game-internal label. The region field (Australia, New Zealand, southern Africa) is geographically incoherent for one language, so this entry chooses the southern-African court tradition (Nguni) as a defensible, well-documented proxy and flags confidence as speculative. Existing game names (jollof, egusi, fufu, suya, waakye, akara) are West African and should be replaced; do not reuse them. All names must end in a vowel, use only open syllables, and carry class prefixes, with genitives built head-first with concord-agreeing possessives. No word may be identical to a Modern Irish, Scottish Gaelic or Manx word, as the language is not Goidelic.",
+ "unit": "Deiskertfurraigi",
+ "slug": "deiskertfurraigi",
+ "model": "claude-sonnet-5-5"
+}
