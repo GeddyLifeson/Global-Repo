@@ -14,10 +14,10 @@ V = [
  ("crawler_crane","Crawler crane","VI","crane",650,1.0,"soil",0.0,0,2,30,"Liebherr LR 13000 class, 3000 t lift"),
  ("bucket_wheel_excavator","Bucket-wheel excavator","VI","bwe",13500,16.5,"overburden",0.5,1.4,5,420,"Bagger 293: 14,200 t, 16.6 MW, ~240,000 m3/day"),
  ("crawler_transporter","Crawler transporter","VI","transporter",2700,4.0,"soil",0.0,0,2,500,"KSC crawler-transporter, 2,700 t, carries 8,000 t"),
- ("autonomous_wheel_excavator","Autonomous bucket-wheel excavator","VII","bwe",13500,16.5,"overburden",0.55,1.6,0,420,"Bagger 293 under remote autopilot, no operators"),
- ("autonomous_haul_fleet","Autonomous haul truck","VII","truck",400,3.0,"soil",0.0,0,0,25,"Komatsu FrontRunner driverless haulage"),
- ("mountain_strip_miner","Mountain strip miner","VIII","bwe",90000,120.0,"rock",0.6,1.5,0,2500,"Scaled-up BWE chain, fusion cell fed; removes ridge lines"),
- ("terraform_builder","Terraform builder","RODOS","builder",400000,900.0,"regolith",0.7,10.0,0,6000,"Planet-scale bulk builder; prints stone, soil, water from shard-fed feedstock"),
+ ("autonomous_wheel_excavator","Autonomous bucket-wheel excavator","VII","bwe",13500,16.5,"overburden",0.55,1.6,3,420,"Bagger 293 under remote autopilot, no operators"),
+ ("autonomous_haul_fleet","Autonomous haul truck","VII","truck",400,3.0,"soil",0.0,0,1,25,"Komatsu FrontRunner driverless haulage"),
+ ("mountain_strip_miner","Mountain strip miner","VIII","bwe",90000,120.0,"rock",0.6,1.5,4,2500,"Scaled-up BWE chain, fusion cell fed; removes ridge lines"),
+ ("terraform_builder","Terraform builder","RODOS","builder",400000,900.0,"regolith",0.7,10.0,6,6000,"Planet-scale bulk builder; prints stone, soil, water from shard-fed feedstock"),
 ]
 # id, name, age, kind, footprint_m, height_m, cost_t (bulk material tonnes), power_MW (net, +out/-in), blocks_est, real_basis
 S = [
@@ -29,6 +29,7 @@ S = [
  ("orbital_ring","Orbital ring","RODOS","transport",0,0,500000,-2000.0,90000,"Birch orbital ring: ring at ~300 km, towers to ground"),
  ("dyson_swarm","Dyson collector swarm","RODOS","power",0,0,200000,50000.0,70000,"Statite collector swarm; supplies the Gate launch bank"),
 ]
+CAPABLE={"autonomous_wheel_excavator","autonomous_haul_fleet","mountain_strip_miner","terraform_builder"}
 def vid(r): return "megamachines:"+r[0]
 def validate(rows_v, rows_s):
     err=[]
@@ -38,8 +39,8 @@ def validate(rows_v, rows_s):
         if rate>0:
             calc=P*eta/E[med]
             if abs(calc-rate)/rate>0.25: err.append(f"{i}: dig rate {rate} m3/s vs power*eta/E = {calc:.3f}")
-        if age in("VII","VIII","RODOS") and crew>0: err.append(f"{i}: crew on autonomy-age machine")
-        if age in AGES[:6] and crew==0 and AGES.index(age)<6: err.append(f"{i}: crewless before Age VII")
+        if crew<=0: err.append(f"{i}: crew seats removed (seats stay; crewless run needs the autonomy module)")
+        if (age in("VII","VIII","RODOS"))!=(i in CAPABLE): err.append(f"{i}: autonomy_capable must be set exactly for Age VII+")
         if deck<=0: err.append(f"{i}: no walkable deck")
         if P/m*1e6>10000: err.append(f"{i}: power/mass above 10 kW/t")
     for r in rows_s:
@@ -57,6 +58,7 @@ def main(out):
          "structures":[dict(zip(sk,("megamachines:"+r[0],)+r[1:])) for r in S],
          "specific_energy_MJ_m3":E}
     for v in cat["vehicles"]:
+        v["autonomy_capable"]=v["id"].split(":")[1] in CAPABLE
         v["dig_m3_s_calc"]=round(v["power_MW"]*v["eta"]/E[v["medium"]],3) if v["eta"] else 0
     (out/"catalog.json").write_text(json.dumps(cat,indent=1))
     lines=["kind\t"+"\t".join(vk)]+["vehicle\t"+"\t".join(str(x) for x in ("megamachines:"+r[0],)+r[1:]) for r in V]

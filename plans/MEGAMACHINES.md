@@ -16,7 +16,7 @@ Aqueduct arcade (III), ship lock flight (V), great dam (VI, 500 MW out), arcolog
 - **Physics standard.** Follow the vehicle bot thread's tests: mount by empty-hand use works, engine and fuel present on spawn, mass from the part table, no clip through terrain, deck stays stable at rest and at full speed. The checklist in section 6 is what the bot runs.
 - **Assay and magnitude.** Dug material goes through the assay roll for the deposit it came from; deposit magnitude scales yield and depletes with volume removed, so a strip miner empties a field and shows it in the Atlas.
 - **Containers and pallets.** Output leaves as pallets and bulk containers (same ids and tags as MUNITIONS_CONTAINERS.md: `c:` container tags plus a data component with count/capacity), loaded by conveyor or haul truck. Nothing spills into the world.
-- **Crews and wages.** Age III to VI machines need seated NPC operators (hired crew, fed rations per PROGRESSION). Wages come from the employer's treasury; unpaid crews strike, then revolt (NPC wages thread). Age VII and later machines run on autonomy (AAI-style): the crew seats vanish, a supervisor panel remains. Full autonomy removes crews for good.
+- **Crews, wages, autonomy.** Every vehicle keeps its crew seats. Hired NPC operators (fed rations per PROGRESSION) are paid from the employer's treasury; unpaid crews strike, then revolt (NPC wages thread). A machine runs crewless only when its type is marked `autonomy_capable` (the four Age VII+ machines) AND an autonomy module (a crafted item) is installed; the Age alone grants nothing. The check hooks the autonomy thread's per-entity API (#220), not an Age test. Without the module the machine needs its crew, whatever its Age.
 - **Power, fuel, upgrades.** Steam (V), diesel and grid (VI), grid and fusion (VII+). Power draw in W through diaithir-units. Factorio-style modules and quality apply (UPGRADES.md): drive, bucket and efficiency modules.
 - **Stations, not the grid.** Vehicles are made at the Heavy Yard (Age evolving: timber yard, foundry slip, assembly hall, autonomous yard). Parts are cast and pressed, then a few major parts are joined (hull, drive, boom, cab). No crafting-grid recipe.
 
@@ -28,12 +28,12 @@ Immersive Vehicles (ours, ARR) stays the small-vehicle path and gives the seat, 
 2. Generator: catalogue to block and item defs, lang (English then the 130-culture names), Age data, Heavy Yard recipes.
 3. Walkable chassis plus crawler drive on VS2; the tank test (IV) mounts first.
 4. Dig and build engine (swept volume, hopper, pallets); wire assay and magnitude.
-5. Crew seats, wages, autonomy switch at Age VII.
+5. Crew seats, wages, autonomy-capable flag plus autonomy module check (#220).
 6. Structures: blueprint staging, then function hooks (power, water, transit).
 7. Codex pages, Panscriptum entries and quests; bot tests.
 
 ## 6. Bot test checklist (real world at spawn, one thing per test)
-Mount the machine; walk its deck while it moves; dig 1 m3 of soil and check the hopper count equals the rate x time; assay result appears; pallet fills and empties onto a conveyor; unpaid crew strikes; Age VII machine runs with no crew; finished dam produces W.
+Mount the machine; walk its deck while it moves; dig 1 m3 of soil and check the hopper count equals the rate x time; assay result appears; pallet fills and empties onto a conveyor; unpaid crew strikes; Age VII machine with the autonomy module runs crewless, and without the module refuses to run; finished dam produces W.
 
 ## 7. Open points
 Block art, sounds and Panscriptum text are not started. All names and numbers are ours; real machines are only a basis. Gaps need Java in diaithir-ports (not attached to this thread).
