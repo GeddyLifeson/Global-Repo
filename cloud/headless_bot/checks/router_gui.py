@@ -1,4 +1,4 @@
-# S6871 checks/router_gui.py [OUTDIR]: router GUI (storage-logistics, ports #123) with the real client, tries several placements and aims.
+# S6888 checks/router_gui.py [OUTDIR]: router GUI (storage-logistics, ports #123) with the real client, tries several placements and aims.
 import sys, glob, time, pathlib
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent.parent))
 from lane import Lane

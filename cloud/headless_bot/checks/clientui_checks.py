@@ -1,4 +1,4 @@
-# S6871 checks/clientui_checks.py [OUTDIR]: boot + join with the 10 client-ui jars, HUD, inventory, chat, F3, tooltip screenshots, error scan.
+# S6887 checks/clientui_checks.py [OUTDIR]: boot + join with the 10 client-ui jars, HUD, inventory, chat, F3, tooltip screenshots, error scan.
 import sys, glob, time, pathlib, json
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent.parent))
 from lane import Lane

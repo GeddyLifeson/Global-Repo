@@ -1,4 +1,4 @@
-# S6872 checks/carts_server.py [OUTDIR]: server-only: diaithir-carts + Immersive Vehicles; `diaithircarts roadtest`, summon item for vehicle ids, log scan.
+# S6889 checks/carts_server.py [OUTDIR]: server-only: diaithir-carts + Immersive Vehicles; `diaithircarts roadtest`, summon item for vehicle ids, log scan.
 import sys, time, pathlib, json
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent.parent))
 from lane import Lane
