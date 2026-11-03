@@ -7,14 +7,14 @@ Vanilla (family 'vanilla') moves only tools, weapons and armour, Age by material
 Rule: the grid keeps simple everyday things (single-ingredient storage/slab/stair/plank/stick/door/food-style recipes, 2 slots or fewer);
 tools, weapons, armour and multi-part machines (3+ distinct ingredients over 5+ slots) go to a station chosen by the mod's Age:
 I-II hearth bench, III wright bench, IV smeltery (wright bench if no metal), V steam forge, VI-VII assembler, VIII+ fabricator; magic mods use the altar.
-Only the five stations #163 registers are used (hearth bench, wright bench, smeltery, steam forge, fabricator); Age VI-VII (assembler) and magic (altar) recipes stay on the grid until those stations exist. Each moved recipe becomes two files: the original path re-issued with a condition that keeps it only while `diaithir_stations` is NOT loaded,
+Stations are the ones ports #163 registers (hearth bench, wright bench, smeltery, steam forge, assembler, fabricator, altar.basic). Each moved recipe becomes two files: the original path re-issued with a condition that keeps it only while `diaithir_stations` is NOT loaded,
 and a station recipe at data/<ns>/diaithir_stations/station_recipe/<name>.json (ports #163 codec: station key like station.wright_bench, stage, up to 9 {item|tag,count}, result, time_s, operator) that loads only with that mod. Nothing is lost if the station mod is absent. Ingredients are distinct items/tags, 1 each (owners balance)."""
 import glob, json, os, re, sys
 
 TRIVIAL = re.compile(r"(planks|stick|torch|button|pressure_plate|door|trapdoor|fence|gate|slab|stairs|wall|chest|barrel|bowl|boat|sign|bed|ladder|dye|paper|book|bread|cake|cookie|pie|sandwich|stew|soup|salad|juice|jam|block|nugget|ingot|ore|seed|bundle|crate|sack|bag|shelf|carpet|wool|glass|pane|lantern|candle|banner|frame|stone|brick|tile|paving|roof|shutter|pillar|planter|pot)")
 EQUIP_WORDS = set("sword axe pickaxe shovel hoe leggings boots bow crossbow shield spear dagger mace hammer staff wand rifle pistol musket armor armour gun cannon helmet chestplate".split())
 MACHINE = re.compile(r"(machine|generator|furnace|crusher|press|assembler|reactor|turbine|engine|pump|tank|pipe|conduit|cable|battery|capacitor|quarry|miner|smelter|centrifuge|mixer|extractor|compressor|forge|altar|controller|interface|terminal|drive|processor|circuit)")
-STATIONS = ["", "station.hearth_bench", "station.hearth_bench", "station.wright_bench", "station.smeltery", "station.steam_forge", None, None, "station.fabricator"]  # None: no assembler/altar station registered yet (ports #163), recipe stays on the grid
+STATIONS = ["", "station.hearth_bench", "station.hearth_bench", "station.wright_bench", "station.smeltery", "station.steam_forge", "machine.assembler", "machine.assembler", "station.fabricator"]
 METAL = re.compile(r"(ingot|plate|gear|rod|nugget|steel|iron|bronze|copper)")
 
 
@@ -72,7 +72,7 @@ def main(prof, rules, graph, out, stats=None):
                 if form != "part" or set(rid.split(":")[1].split("_")) & {"wooden", "stone", "leather", "turtle"}: kept += 1; continue  # first-hour tools stay on the grid
                 nm = rid.split(":")[1]; a = 7 if "netherite" in nm else 5 if "diamond" in nm else 3 if re.search(r"iron|golden|chainmail|bow|shield|trident|spear", nm) else 2 if "copper" in nm else 1
             if not form: kept += 1; continue
-            st = None if fam.startswith("magic") else STATIONS[a]  # altar not registered yet
+            st = "altar.basic" if fam.startswith("magic") else STATIONS[a]
             if not st: kept += 1; continue
             if st == "station.smeltery" and not any(METAL.search(i) for i in ings): st = "station.wright_bench"
             m = re.match(r"data/([^/]+)/recipes?/(.+)\.json$", path); uniq = f"{m[1]}__{m[2]}".replace("/", "__") if m else name
