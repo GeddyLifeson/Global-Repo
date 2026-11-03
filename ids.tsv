@@ -6805,6 +6805,7 @@ S6825	cloud	library-content/finalize.py
 S6826	cloud	library-content/place_all.py
 S6827	cloud	names/linguistics/regen_relaxed.py
 S6829	global	tools/omniverse/export_library_books.py
+S6866	cloud	animations/gen_animations_coverage.py
 S6860	cloud	diaithir-upgrades/gen_shims.py
 S6836	cloud	diaithir-ports/diaithir-worldgen-structures/tools/lib_sites.py
 S6844	cloud	tools/mc_fake_player_bot.py
