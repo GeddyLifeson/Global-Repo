@@ -1,0 +1,44 @@
+{
+ "neoforge:conditions": [
+  {
+   "type": "neoforge:mod_loaded",
+   "modid": "diaithir_stations"
+  },
+  {
+   "type": "neoforge:item_exists",
+   "item": "diaithir:foundry_module_t3"
+  },
+  {
+   "type": "neoforge:not",
+   "value": {
+    "type": "neoforge:tag_empty",
+    "tag": "diaithir:progression/module.t2"
+   }
+  },
+  {
+   "type": "neoforge:not",
+   "value": {
+    "type": "neoforge:tag_empty",
+    "tag": "diaithir:progression/boss.catalyst"
+   }
+  }
+ ],
+ "_node": "upgrade.module_t3",
+ "_age": "VII",
+ "station": "machine.assembler",
+ "stage": "assembly",
+ "ingredients": [
+  {
+   "tag": "diaithir:progression/module.t2"
+  },
+  {
+   "tag": "diaithir:progression/boss.catalyst"
+  }
+ ],
+ "result": {
+  "id": "diaithir:foundry_module_t3",
+  "count": 1
+ },
+ "time_s": 20,
+ "operator": true
+}

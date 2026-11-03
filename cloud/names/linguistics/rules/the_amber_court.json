@@ -1,0 +1,197 @@
+{
+ "proxy_language": "Old Prussian (West Baltic), with Lithuanian/Latvian and Proto-Baltic reconstruction as supporting evidence",
+ "confidence": "medium",
+ "proxy_rationale": "The Amber Court is a fictional later court on the Baltic amber coast. The only attested language of the historical Baltic amber coast (Sambia/Samland) is Old Prussian, known from the Elbing Vocabulary (c. 1400), Simon Grunau's word lists, and the 16th-century Catechisms (Enchiridion 1561). Corpus is small and scribal spellings are German-influenced, so confidence is medium; gaps are filled from East Baltic (Lithuanian, Latvian) and Proto-Baltic reconstruction, marked with asterisks.",
+ "phonology": "Vowels: a e i o u, long ā ē ī ō ū (written with macron or circumflex in the Catechisms), diphthongs ai au ei eu ia ua ui. Consonants: p b t d k g; s z (spelled s/ss/sz); sz /sh/ and z /zh/ in some scholarly notation; m n l r; w (/v/); j /j/; h only in loans. Palatalization contrasts are poorly attested. Stress was probably mobile and is not written.",
+ "phonotactics": "Open or closed syllables (CV, CVC, V, VC). Word-final consonants common, especially -s (nominative), -n (accusative), -an/-in. Clusters such as st, sk, sp, tr, kr, pr, gr, dr, wr occur word-initially; sl, sm, sw, sn also occur. Geminates appear in German-influenced spellings (-ss-, -tt-) but are not phonemic. No word-initial ng or rr. Nominatives often end in -s, -is, -us, -as, -ai, -ei (m/f plural).",
+ "orthography": "Use normalized scholarly Old Prussian: a e i o u, macron long vowels, w for /v/, j, sz and z for the sibilants, k not c, no q/x. Plain lowercase Latin is sufficient; macrons optional (the audit permits them).",
+ "morphology": "Inflected IE language with nominative case endings. Masculine o-stems: -s/-as (deywas 'god'), feminine ā-stems: -a/-o (swintan, acc.), i-stems -is, u-stems -us. Genitive singular -as/-is/-s (e.g. deiwas, dēiwas 'of god'); accusative -an/-in/-un; plural nominative -ai, -ei. Verb: infinitive -t(wei), 3rd person -t. Adjectives agree in gender, number and case, ending like nouns. Diminutives -in-/-ik-/-ell- (rarely attested, borrowed from Baltic patterns). Agent nouns in -ikis/-nikis/-ins (compare Lith. -ininkas, -ėjas).",
+ "compounding": "Compounds are head-final: modifier stem + linking -o- or bare stem + head noun (e.g. Elbing 'wosbalsnis'-type structures, Old Prussian ' gaylis ' 'white'). Genitive phrases are preferred over compounds: head noun + genitive or genitive + head noun. 'X of Y' = X + Y-genitive (e.g. deiwas 'of god'). 'Y-maker/keeper' = Y-stem + agent suffix (-ins, -ikis, -nikis). Place names built with -kaym 'village' (cf. Lith. kaimas), -pil 'castle' (Pilsāts, pilis), -wald-, -nov- 'new'.",
+ "noun_phrase_order": "Adjective before noun (swints deiws 'holy god'); genitive modifier before or after its head noun, with prenominal genitive more common in the Catechisms; demonstrative before noun (stas deiws 'the god').",
+ "attested_roots": [
+  {
+   "form": "wapis",
+   "gloss": "amber (Elbing Vocabulary; cf. Lith. gintaras, Latv. dzintars)",
+   "reconstructed": false
+  },
+  {
+   "form": "gentars",
+   "gloss": "amber (cf. Lith. gintaras)",
+   "reconstructed": false
+  },
+  {
+   "form": "deiws",
+   "gloss": "god",
+   "reconstructed": false
+  },
+  {
+   "form": "swints",
+   "gloss": "holy",
+   "reconstructed": false
+  },
+  {
+   "form": "wargs",
+   "gloss": "evil, bad",
+   "reconstructed": false
+  },
+  {
+   "form": "kerdan",
+   "gloss": "time (cf. Lith. kartas)",
+   "reconstructed": false
+  },
+  {
+   "form": "pil",
+   "gloss": "castle, fort (Pilsāts)",
+   "reconstructed": false
+  },
+  {
+   "form": "kaym",
+   "gloss": "village (Lith. kaimas)",
+   "reconstructed": false
+  },
+  {
+   "form": "nowis",
+   "gloss": "new",
+   "reconstructed": false
+  },
+  {
+   "form": "wissa",
+   "gloss": "all, every",
+   "reconstructed": false
+  },
+  {
+   "form": "salus",
+   "gloss": "sky/heaven (cf. Lith. dangus)",
+   "reconstructed": false
+  },
+  {
+   "form": "mensa",
+   "gloss": "meat/flesh",
+   "reconstructed": false
+  },
+  {
+   "form": "wundan",
+   "gloss": "water",
+   "reconstructed": false
+  },
+  {
+   "form": "ape",
+   "gloss": "river (cf. Lith. upė)",
+   "reconstructed": false
+  },
+  {
+   "form": "gardan",
+   "gloss": "enclosure, fortress (cf. Lith. gardas)",
+   "reconstructed": true
+  },
+  {
+   "form": "mukis",
+   "gloss": "honey/bee (cf. Lith. bitė, Latv. bite; Prussian bitte)",
+   "reconstructed": false
+  },
+  {
+   "form": "sakis",
+   "gloss": "resin/sap (cf. Lith. sakai)",
+   "reconstructed": false
+  }
+ ],
+ "worked_examples": [
+  {
+   "english": "Court of Amber",
+   "name": "Gentaro pils",
+   "gloss": "gentar-o (amber, gen.) pil-s (castle, nom.): castle of amber"
+  },
+  {
+   "english": "Holy River",
+   "name": "Swints ape",
+   "gloss": "swint-s (holy) ape (river)"
+  },
+  {
+   "english": "New Village",
+   "name": "Nowis kaym",
+   "gloss": "now-is (new) kaym (village)"
+  },
+  {
+   "english": "Hall of the Sky God",
+   "name": "Deiwas salo gardan",
+   "gloss": "deiw-as (god, gen.) sal-o (sky, gen.) gardan (enclosure, acc.)"
+  },
+  {
+   "english": "Amber-keeper",
+   "name": "Gentarikis",
+   "gloss": "gentar (amber) -ikis (agent suffix)"
+  },
+  {
+   "english": "Honey Meat",
+   "name": "Mukis mensa",
+   "gloss": "mukis (honey) mensa (meat)"
+  }
+ ],
+ "allowed_graphemes": [
+  "a",
+  "e",
+  "i",
+  "o",
+  "u",
+  "\\u0101",
+  "\\u0113",
+  "\\u012b",
+  "\\u014d",
+  "\\u016b",
+  "ai",
+  "au",
+  "ei",
+  "eu",
+  "ia",
+  "ua",
+  "ui",
+  "p",
+  "b",
+  "t",
+  "d",
+  "k",
+  "g",
+  "s",
+  "z",
+  "sz",
+  "m",
+  "n",
+  "l",
+  "r",
+  "w",
+  "j",
+  "h",
+  "kk",
+  "ss",
+  "tt"
+ ],
+ "extra_allowed_chars": " -āēīōū",
+ "forbidden_patterns": [
+  "[cqx]",
+  "^ng",
+  "rr",
+  "(.)\\1\\1",
+  "[aeiou]{4}",
+  "y[aeiou]{2}",
+  "[bdgjklmnprstwz]{4}"
+ ],
+ "syllables_per_word": [
+  1,
+  2,
+  3
+ ],
+ "max_word_length": 14,
+ "sources": [
+  "Mažiulis, V. Prūsų kalbos etimologijos žodynas (1988\\u20131997)",
+  "Smoczyński, W. Słownik etymologiczny języka litewskiego (2007)",
+  "Schmalstieg, W. R. Studies in Old Prussian (1976)",
+  "Endzelīns, J. Altpreussische Grammatik (1944)",
+  "Trautmann, R. Die altpreußischen Sprachdenkmäler (1910)",
+  "Elbing Vocabulary (c. 1400); Enchiridion (1561)",
+  "Wiktionary: Category Old Prussian lemmas; Glottolog; ASJP"
+ ],
+ "notes": "Proxy is chosen because Old Prussian is the only attested language of the amber coast; names are modelled on its inflected structure, but roots not securely attested are borrowed from East Baltic (Lithuanian, Latvian) and flagged as reconstructed. No word may be identical to a Modern Irish, Scottish Gaelic or Manx word unless the language is Goidelic.",
+ "unit": "The Amber Court",
+ "slug": "the_amber_court",
+ "model": "claude-sonnet-5-5"
+}

@@ -1,0 +1,189 @@
+{
+ "proxy_language": "Proto-Semitic (with Proto-Afroasiatic as deeper backdrop); Biblical Hebrew/Akkadian/Arabic as reflex attestation sources",
+ "confidence": "speculative",
+ "proxy_rationale": "The Harifian (c. 10,500-9,500 BCE, Epipalaeolithic of the Negev and Sinai, a late Natufian-related culture) left no language. Its geographic and cultural position within the Levantine/Natufian sphere makes an early Afroasiatic/Semitic-adjacent language a defensible but unproven stand-in, since Natufians are often linked by some scholars (e.g. Bomhard, Militarev) to Proto-Afroasiatic or its Semitic branch. Proto-Semitic itself is dated roughly 4th-3rd millennium BCE, 6000+ years later, so the link is very weak. Reconstructed Proto-Semitic roots are used as stylistic models only, with no claim that Harifian people spoke them.",
+ "phonology": "Proto-Semitic consonants (Kogan/Huehnergard): stops p b t d k g q with emphatic series (t' k' s'); fricatives s z sh (affricate-like lateral sh/s'); interdentals th dh and emphatic th'; velar/uvular x gh; pharyngeals h' and '; glottal h and glottal stop; sonorants m n l r w y. Vowels: a i u with length (aa ii uu), plus diphthongs aw ay. Root-and-pattern system with 3 consonantal radicals.",
+ "phonotactics": "Syllables: CV, CVC, CVV; no initial vowels (initial glottal stop implied), no initial clusters in Proto-Semitic, no vowel hiatus. Stems are triconsonantal (some biconsonantal or quadriliteral). Word-final consonants allowed, nominative/genitive/accusative case vowels -u/-i/-a historically on nouns. Gemination of middle radical common in intensive/derived forms.",
+ "orthography": "Use simplified scholarly Semitic transliteration without diacritics: ' for glottal stop, ` for pharyngeal ayin (written as ' or omitted), h for h and h-dot (merged), kh for velar fricative, gh for voiced velar/uvular, sh for shin, th and dh for interdentals, q for uvular stop, emphatics written as t', s', k'. Long vowels written as doubled vowels (aa, ii, uu). Avoid p/b clusters not attested.",
+ "morphology": "Root-and-pattern: 3-consonant roots interleaved with vowel templates (e.g., qatal, qatil, maqtal, qattal). Prefixes: ma- (place/instrument), ta- (abstract/feminine nominal), sha- (causative). Suffixes: -at (feminine/abstract), -an/-aan (collective, intensifier), -iy (relational adjective). Nouns have gender (masc/fem), number (sg/dual/pl), and case endings in Proto-Semitic. Reduplication used in intensive/diminutive formations.",
+ "compounding": "True compounding is rare; Semitic prefers the construct state (genitive chain): head noun first, followed by the genitive noun (e.g., bayt-X 'house of X', 'abd-X 'servant of X', bin-X 'son of X'). Agentive names use the active participle pattern (qaatil) or occupational pattern (qattaal). Place-instrument nouns use ma-qtal. Adjectives follow the noun and agree in gender/number.",
+ "noun_phrase_order": "Head noun first, then genitive noun (construct state), then adjectives agreeing with the head; demonstratives usually follow. Pattern: N1-(N2 genitive) (ADJ).",
+ "attested_roots": [
+  {
+   "form": "*ma'(a)y",
+   "gloss": "water (cf. Akk. mu, Heb. mayim, Ar. ma')",
+   "reconstructed": true
+  },
+  {
+   "form": "*bayt",
+   "gloss": "house, dwelling",
+   "reconstructed": true
+  },
+  {
+   "form": "*'ar(a)s'",
+   "gloss": "earth, land",
+   "reconstructed": true
+  },
+  {
+   "form": "*shamsh",
+   "gloss": "sun",
+   "reconstructed": true
+  },
+  {
+   "form": "*'ilu",
+   "gloss": "god, deity",
+   "reconstructed": true
+  },
+  {
+   "form": "*kalb",
+   "gloss": "dog",
+   "reconstructed": true
+  },
+  {
+   "form": "*'ayl",
+   "gloss": "ibex/deer, ram",
+   "reconstructed": true
+  },
+  {
+   "form": "*dam",
+   "gloss": "blood",
+   "reconstructed": true
+  },
+  {
+   "form": "*lahm",
+   "gloss": "food, bread, meat",
+   "reconstructed": true
+  },
+  {
+   "form": "*'ab",
+   "gloss": "father",
+   "reconstructed": true
+  },
+  {
+   "form": "*'imm",
+   "gloss": "mother",
+   "reconstructed": true
+  },
+  {
+   "form": "*nahar",
+   "gloss": "river, stream",
+   "reconstructed": true
+  },
+  {
+   "form": "*har",
+   "gloss": "mountain, hill",
+   "reconstructed": true
+  },
+  {
+   "form": "*'ayn",
+   "gloss": "eye, spring",
+   "reconstructed": true
+  },
+  {
+   "form": "*lay(l)",
+   "gloss": "night",
+   "reconstructed": true
+  },
+  {
+   "form": "*'azm",
+   "gloss": "bone",
+   "reconstructed": true
+  }
+ ],
+ "worked_examples": [
+  {
+   "english": "Water Spring",
+   "name": "'ayn ma'",
+   "gloss": "'ayn 'spring/eye' + ma' 'water' (construct chain: spring of water)"
+  },
+  {
+   "english": "House of the Ibex",
+   "name": "bayt 'ayl",
+   "gloss": "bayt 'house' + 'ayl 'ibex' (construct state)"
+  },
+  {
+   "english": "Mountain of the Sun",
+   "name": "har shamsh",
+   "gloss": "har 'mountain' + shamsh 'sun' (construct)"
+  },
+  {
+   "english": "Place of Grinding",
+   "name": "mat'han",
+   "gloss": "ma- (place prefix) + t'hn 'grind' root, pattern maqtal"
+  },
+  {
+   "english": "Dog Camp",
+   "name": "bayt kalb",
+   "gloss": "bayt 'house/camp' + kalb 'dog' (construct)"
+  },
+  {
+   "english": "Father of the River",
+   "name": "'ab nahar",
+   "gloss": "'ab 'father' + nahar 'river' (construct)"
+  }
+ ],
+ "allowed_graphemes": [
+  "a",
+  "aa",
+  "b",
+  "d",
+  "dh",
+  "e",
+  "g",
+  "gh",
+  "h",
+  "i",
+  "ii",
+  "k",
+  "kh",
+  "k'",
+  "l",
+  "m",
+  "n",
+  "o",
+  "p",
+  "q",
+  "r",
+  "s",
+  "s'",
+  "sh",
+  "t",
+  "t'",
+  "th",
+  "u",
+  "uu",
+  "w",
+  "y",
+  "z",
+  "'"
+ ],
+ "extra_allowed_chars": " -'",
+ "forbidden_patterns": [
+  "^[aeiou]",
+  "(.)\\1\\1",
+  "[bcdfghjklmnpqrstvwxyz]{4,}",
+  "[aeiou]{3,}",
+  "c(?!h)",
+  "x",
+  "v"
+ ],
+ "syllables_per_word": [
+  1,
+  2,
+  3
+ ],
+ "max_word_length": 14,
+ "sources": [
+  "Huehnergard, John. 'Proto-Semitic Language and Culture', in American Heritage Dictionary of the English Language, 4th ed., 2000",
+  "Kogan, Leonid. Genealogical Classification of Semitic: The Lexical Isoglosses, 2015",
+  "Militarev, Alexander and Kogan, Leonid. Semitic Etymological Dictionary, 2000-2005",
+  "Starling Database / Afrasian Etymology (Militarev, Orel, Stolbova)",
+  "Bar-Yosef, Ofer. 'The Natufian Culture in the Levant', Evolutionary Anthropology 6, 1998",
+  "Goring-Morris, A. Nigel. The Harifian of the Southern Levant, 1987",
+  "Weninger, Stefan (ed.). The Semitic Languages: An International Handbook, 2011"
+ ],
+ "notes": "No word may be identical to a Modern Irish, Scottish Gaelic or Manx word. The Harifian language is wholly unknown; Proto-Semitic is used only as a flavor proxy and was spoken millennia later. Existing game names (Ghizagho, Cuc'oc, Hlathoshi) do not follow Semitic phonotactics; replace with triconsonantal root-based forms and construct-state genitives. Treat all output as invented fiction in a Semitic idiom, not as Harifian.",
+ "unit": "Harifian",
+ "slug": "harifian",
+ "model": "claude-sonnet-5-5"
+}

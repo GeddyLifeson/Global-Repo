@@ -1,0 +1,170 @@
+{
+ "proxy_language": "Proto-Chibchan-Paezan / Barbacoan-Paezan areal reconstruction (very weak proxy); secondary Cañari-Puruhá-style Ecuadorian highland toponymic substrate",
+ "confidence": "speculative",
+ "proxy_rationale": "The Amotape complex (Early Holocene, c. 10000-6000 BCE, Pacific coast of Tumbes/Piura/El Oro, Ecuador/Peru) is known only from lithic assemblages (Amotape, Siches, Las Vegas relatives). No language is attested for it. The nearest defensible proxies are hypothetical northern Andean macro-families: Chibchan-Paezan (Barbacoan, Paezan, Chibchan) in S Colombia/Ecuador, and the later extinct coastal languages of the region (Tallán/Sec, Catacao, Colán) known only from a few words, toponyms and Colonial notes. Any link to Amotape people is highly speculative, since 8000+ years separate the culture from the first evidence of those languages. The studio should treat names as flavorful Andean-Ecuadorian-looking forms, not as claims of attested vocabulary.",
+ "phonology": "Proxy based on Barbacoan/Chibchan-style inventories and the sparse Sec/Tallán record. Vowels: a e i o u (Barbacoan also has a central vowel, here written ɨ; avoid in Latin script). Consonants: stops p t k with likely voiced/aspirated series (b d g), affricates ts and ch (č), fricatives s sh (š), h, nasals m n ñ, liquid l and r, glides w y. Glottal stop and aspiration are plausible in Chibchan-Paezan reconstructions but low-confidence. Length is not contrastive. Stress presumed penultimate.",
+ "phonotactics": "Mostly open syllables of type (C)V(C): V, CV, CVC, with codas limited to n, s, l, r, m. No complex onsets; no word-initial ng; clusters only across syllable boundaries (e.g. -nt-, -ns-, -lk-). Words are usually 2-4 syllables, vowel-final most common, with some final -n or -s as in the Barbacoan and Tallán toponym record (e.g. Tumbes, Piura, Sechura, Colán). No long consonant clusters, no word-final stop clusters.",
+ "orthography": "Spanish-style Latin transliteration as used for Colonial-era Ecuadorian/Peruvian coastal toponyms: ch, sh (or s), ts written tz/ts, ñ, k or c/qu (use k), w, y. Vowels a e i o u only. Avoid diacritics. Hyphen may link compound elements; apostrophe discouraged (glottal stop only tentatively).",
+ "morphology": "Agglutinative and suffixing in Barbacoan and Chibchan; roots are mostly CV(C) or CVCV. Case/relational suffixes (genitive, locative) follow the noun; plural/collective suffixes are common (Barbacoan -pa/-ma type, Chibchan -wa/-ra type, treated here only as flavor). Verbs are final in sentences (SOV) with person/tense suffixes. No noun classes or tone assumed. Reduplication is occasional for diminutives/intensives in the proxy.",
+ "compounding": "Head-final compounding: modifier + head (stone-knife = 'stone' + 'knife'). Genitive 'X of Y' is rendered Y + genitive suffix + X, or by simple juxtaposition Y-X. Agent/maker names are formed as object + verb root + agent suffix (e.g. shell-cut-er). Locative names take a suffix (-pa, -ta, -ra) on the place root. This is a constructed pattern based on typology, not attested for Amotape.",
+ "noun_phrase_order": "Modifier-before-head (adjective + noun, possessor + possessed, demonstrative + noun); relational/case suffixes after the whole phrase. Numerals precede nouns.",
+ "attested_roots": [
+  {
+   "form": "Tumbes",
+   "gloss": "toponym (Pacific coast of N Peru); meaning uncertain, Tumpis in 16th c. sources",
+   "reconstructed": false
+  },
+  {
+   "form": "Piura",
+   "gloss": "toponym (Sechura-Tallán area), possibly 'abundance'; uncertain",
+   "reconstructed": false
+  },
+  {
+   "form": "Sechura",
+   "gloss": "Sec language/people name; the Sechura desert and language of the Piura coast",
+   "reconstructed": false
+  },
+  {
+   "form": "Colán",
+   "gloss": "Tallán-area toponym and former language name; sense unknown",
+   "reconstructed": false
+  },
+  {
+   "form": "Catacao",
+   "gloss": "Catacao language/place name of the Piura valley; sense unknown",
+   "reconstructed": false
+  },
+  {
+   "form": "Tallán",
+   "gloss": "ethnonym of the N Peruvian coastal people; origin uncertain",
+   "reconstructed": false
+  },
+  {
+   "form": "Chira",
+   "gloss": "river name (Piura, Peru); Sec/Tallán origin, sense unknown",
+   "reconstructed": false
+  },
+  {
+   "form": "Amotape",
+   "gloss": "hill range/place name from which the culture is named; origin unknown",
+   "reconstructed": false
+  },
+  {
+   "form": "Siches",
+   "gloss": "place name of the type site; Tallán-area toponym, sense unknown",
+   "reconstructed": false
+  },
+  {
+   "form": "Chimú",
+   "gloss": "Muchik/Mochica ethnonym of the neighboring N Peruvian coast",
+   "reconstructed": false
+  },
+  {
+   "form": "*pa",
+   "gloss": "locative/collective or 'place' suffix in Barbacoan-style proxy; flavor use only",
+   "reconstructed": true
+  },
+  {
+   "form": "*kwa",
+   "gloss": "'water/river' (Barbacoan-Chibchan-style proxy, weak); flavor use only",
+   "reconstructed": true
+  },
+  {
+   "form": "*tu",
+   "gloss": "'stone' (low-confidence proxy form); flavor use only",
+   "reconstructed": true
+  },
+  {
+   "form": "*sa",
+   "gloss": "'fire/sun' (low-confidence proxy form); flavor use only",
+   "reconstructed": true
+  }
+ ],
+ "worked_examples": [
+  {
+   "english": "Stone Place",
+   "name": "Tupa",
+   "gloss": "tu 'stone' + -pa locative/place"
+  },
+  {
+   "english": "River Stew",
+   "name": "Kwashana",
+   "gloss": "kwa 'water/river' + sha 'cook' + -na nominalizer (constructed)"
+  },
+  {
+   "english": "Temple of the Sun",
+   "name": "Sanapa",
+   "gloss": "sa 'sun' + -na genitive + -pa 'place'"
+  },
+  {
+   "english": "Shell-cutter (tool)",
+   "name": "Kolimas",
+   "gloss": "ko 'shell' + lim 'cut' + -as agent suffix (constructed)"
+  },
+  {
+   "english": "Coast Dwellers",
+   "name": "Tumbapa",
+   "gloss": "tumba 'coast' + -pa collective/place (constructed)"
+  },
+  {
+   "english": "Fire Stone",
+   "name": "Satu",
+   "gloss": "sa 'fire' + tu 'stone', modifier-head"
+  }
+ ],
+ "allowed_graphemes": [
+  "a",
+  "e",
+  "i",
+  "o",
+  "u",
+  "p",
+  "t",
+  "k",
+  "b",
+  "d",
+  "g",
+  "ts",
+  "ch",
+  "sh",
+  "s",
+  "h",
+  "m",
+  "n",
+  "ñ",
+  "l",
+  "r",
+  "w",
+  "y"
+ ],
+ "extra_allowed_chars": " -",
+ "forbidden_patterns": [
+  "[^aeiouptkbdgchsmnñlrwy\\s-]",
+  "[aeiou]{3,}",
+  "[^aeiou\\s-]{3,}",
+  "(ng|th|ph|gh|dh|sk|st|sp|tr|pr|kr|bl|gl)",
+  "[ptkbdg]( |-|$)",
+  "^[^aeiou\\s]*ñ",
+  "(.)\\1\\1"
+ ],
+ "syllables_per_word": [
+  2,
+  3,
+  4
+ ],
+ "max_word_length": 12,
+ "sources": [
+  "Adelaar & Muysken, The Languages of the Andes (2004)",
+  "Torero, Idiomas de los Andes (2002)",
+  "Constenla Umaña, Las lenguas del Área Intermedia (1991)",
+  "Curnow & Liddicoat, The Barbacoan languages of Colombia and Ecuador (1998)",
+  "Glottolog (Barbacoan, Chibchan, Sechura-Tallán entries)",
+  "Richardson, The Amotape complex lithic studies (Peruvian coast, 1970s-1990s)",
+  "Lanning, Peru Before the Incas (1967)",
+  "Starling database (Chibchan-Paezan hypotheses)"
+ ],
+ "notes": "No language is attested for the Amotape complex; every name here is a speculative stylistic construction using a Barbacoan/Chibchan-flavored phonology with Tallán-style toponym shapes. Do not present as real Amotape speech. No word may be identical to a Modern Irish, Scottish Gaelic or Manx word. The current game names contain apostrophes, dh, tsi, and consonant clusters (Didhutsi 'oha', Pono' lidone) that fall outside this inventory and should be regularized to the simple CV(C) shapes above.",
+ "unit": "Amotape complex",
+ "slug": "amotape_complex",
+ "model": "claude-sonnet-5-5"
+}

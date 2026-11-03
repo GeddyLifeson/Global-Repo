@@ -1,0 +1,34 @@
+{
+ "neoforge:conditions": [
+  {
+   "type": "neoforge:mod_loaded",
+   "modid": "diaithir_stations"
+  },
+  {
+   "type": "neoforge:item_exists",
+   "item": "diaithircombat:lib_sword"
+  },
+  {
+   "type": "neoforge:not",
+   "value": {
+    "type": "neoforge:tag_empty",
+    "tag": "diaithir:progression/tool.flint"
+   }
+  }
+ ],
+ "_node": "combat.gear_a1",
+ "_age": "I",
+ "station": "station.hearth_bench",
+ "stage": "part",
+ "ingredients": [
+  {
+   "tag": "diaithir:progression/tool.flint"
+  }
+ ],
+ "result": {
+  "id": "diaithircombat:lib_sword",
+  "count": 1
+ },
+ "time_s": 10,
+ "operator": false
+}

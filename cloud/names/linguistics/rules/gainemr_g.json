@@ -1,0 +1,193 @@
+{
+ "proxy_language": "Kanuri (Kanem-Bornu court language; Saharan family), supplemented for the Sefuwa-era court titles by Old Kanembu and Arabic loanwords",
+ "confidence": "low",
+ "proxy_rationale": "'Gainemrìg' is not a recognizable ethnonym or toponym in the literature; the string strongly resembles 'Kanem' + 'mai' (Kanuri 'ruler') and the Sahelian later-court setting of Kanem-Bornu (c. 11th-19th c.), whose court language was Kanuri (Kanembu is the closest relative). Kanuri is well documented (Lukas, Cyffer, Hutchison, Jarrett), so it is the most defensible attested proxy for a Sahelian later court. The link between the game culture and this language is an assumption, hence low confidence. Alternatives (Hausa for Hausa city-states, Songhay/Zarma for Gao-Songhai, Mande for Mali) would be equally plausible for other Sahelian courts.",
+ "phonology": "Kanuri consonants: p b t d c j k g (stops/affricates, c=[tʃ], j=[dʒ]), f s z sh (ʃ), h, m n ny (ɲ), ng (ŋ), l r (trill/flap), w y, plus a lateral fricative-like l and implosive/ejective-like reflexes in Kanembu; /p/ is marginal and often from loans, /f/ is often a reflex of p in older forms. Vowels: a e i o u plus central ə (written ə or â in older sources); vowel length is contrastive (aa, ee, ii, oo, uu) in scholarly orthography. Tone: Kanuri has a limited tone system (high/low, mostly on verbs and some nouns), not marked in standard orthography. Stress is not phonemic.",
+ "phonotactics": "Syllable shapes are (C)V(C) with V(V); most native words are CV, CVC, CVCV, CVCCV. Word-initial single consonants only, no initial clusters in native words. Medial clusters are common but typically homorganic nasal+stop (nd, mb, ng, nj) or liquid+C (rg, lg, rd). Native nouns frequently end in vowels or in n, r, l, m, ng; word-final voiced stops are rare. Vowel harmony is not a strong feature. Arabic loans (via Islam, 11th c. on) add clusters and consonants such as q, kh, gh, sh, ʕ that are typically nativized (q to k, kh to h or k).",
+ "orthography": "Use the standard Latin Kanuri orthography (Nigerian, Cyffer/Hutchison style): a b c d e ə f g h i j k l m n ny ng o p r s sh t u w y z, with 'c' for [tʃ], 'sh' for [ʃ], 'ny' for [ɲ], 'ng' for [ŋ]; long vowels doubled; ə written as ə or ɔ-free ascii 'e'/'a' fallback. Capitalize proper names. Arabic court titles transliterated simply (e.g. 'mai', 'galadima', 'kachella' in older English spellings; modern 'kacella').",
+ "morphology": "Agglutinative, SOV language. Nouns are uninflected for gender; plural is formed by suffix -wa (e.g. a collective/plural marker on some nouns) or by suppletive/irregular forms; case marking is by postposed enclitics on the noun phrase (genitive -ben, dative/locative -ga, ablative -ndo, instrumental -do, etc.; specifics vary by dialect and source). Verbs carry person/tense/aspect/derivational prefixes and suffixes; the verb root in -a/-u/-i forms is used as agent or nominal base via suffixing -ma (agent nominalizer 'one who does') or -ye. Reduplication occurs for intensity or plurality in adjectives and some nouns. Derivational: -ma/-ya forms abstracts and agents; -rama gives instruments; -bu 'owner of' / 'having'.",
+ "compounding": "Compounds and genitive phrases are head-final: modifier precedes head. 'X of Y' is Y + genitive marker + X (possessor-possessed) or simple juxtaposition of Y X with the head at the right: e.g. 'house of the king' = mai ben fato roughly 'king's house'. Titles are placed before personal names. Agent nouns 'Y-maker' are built Y + verb root + -ma (e.g. 'iron-worker' = iron + work + ma). Place names often combine a descriptive noun with a locative or an Arabic-derived baptism of the settlement ('X-ri' / 'X-ya' endings are rare; more often a bare noun phrase such as 'Birni Ngazargamu' = 'town Ngazargamu').",
+ "noun_phrase_order": "Head-final: demonstratives and possessors precede the noun; adjectives follow the noun (N-Adj) in Kanuri, with numerals following as well; relative clauses precede the head. Genitive phrase = possessor + ben + possessed. Postpositions rather than prepositions.",
+ "attested_roots": [
+  {
+   "form": "mai",
+   "gloss": "king, ruler (Kanem-Bornu title)",
+   "reconstructed": false
+  },
+  {
+   "form": "kəla",
+   "gloss": "man, person (Kanuri)",
+   "reconstructed": false
+  },
+  {
+   "form": "fato",
+   "gloss": "house, compound",
+   "reconstructed": false
+  },
+  {
+   "form": "birni",
+   "gloss": "town, walled city (also Hausa)",
+   "reconstructed": false
+  },
+  {
+   "form": "kam",
+   "gloss": "person, man",
+   "reconstructed": false
+  },
+  {
+   "form": "ndo",
+   "gloss": "place, time (also postposition 'from')",
+   "reconstructed": false
+  },
+  {
+   "form": "ruwa",
+   "gloss": "water (Hausa/also borrowed; Kanuri 'ndi')",
+   "reconstructed": false
+  },
+  {
+   "form": "ndi",
+   "gloss": "water",
+   "reconstructed": false
+  },
+  {
+   "form": "kaje",
+   "gloss": "millet (staple cereal)",
+   "reconstructed": false
+  },
+  {
+   "form": "ngəm",
+   "gloss": "leader, owner (colloquial)",
+   "reconstructed": false
+  },
+  {
+   "form": "fuguma",
+   "gloss": "lord, noble (Kanuri title)",
+   "reconstructed": false
+  },
+  {
+   "form": "galadima",
+   "gloss": "viceroy, western governor (Hausa/Kanuri title)",
+   "reconstructed": false
+  },
+  {
+   "form": "ngaljam",
+   "gloss": "crowd, gathering",
+   "reconstructed": false
+  },
+  {
+   "form": "yim",
+   "gloss": "grandfather/ancestor (common Kanuri kinship root)",
+   "reconstructed": false
+  },
+  {
+   "form": "nəm",
+   "gloss": "sleep/lie (verbal root, mostly forming nouns by derivation)",
+   "reconstructed": false
+  },
+  {
+   "form": "kanem",
+   "gloss": "south (eponymous region name Kanem 'South')",
+   "reconstructed": false
+  }
+ ],
+ "worked_examples": [
+  {
+   "english": "King of the Millet",
+   "name": "Kaje Mai",
+   "gloss": "kaje 'millet' + mai 'king' (modifier before head)"
+  },
+  {
+   "english": "Palace of the King",
+   "name": "Mai ben Fato",
+   "gloss": "mai 'king' + ben genitive + fato 'house, compound'"
+  },
+  {
+   "english": "Walled Town of the River",
+   "name": "Ndi Birni",
+   "gloss": "ndi 'water' + birni 'walled town' (modifier first, head last)"
+  },
+  {
+   "english": "Water-Bringer",
+   "name": "Ndi Fugəma",
+   "gloss": "ndi 'water' + fugəma 'lord/one who brings' (agent noun built with -ma)"
+  },
+  {
+   "english": "Hall of the Ancestors",
+   "name": "Yim ben Fato",
+   "gloss": "yim 'ancestor' + ben genitive + fato 'house, hall'"
+  },
+  {
+   "english": "Western Governor's House",
+   "name": "Galadima ben Fato",
+   "gloss": "galadima 'viceroy' + ben genitive + fato 'house'"
+  }
+ ],
+ "allowed_graphemes": [
+  "a",
+  "e",
+  "ə",
+  "i",
+  "o",
+  "u",
+  "b",
+  "c",
+  "d",
+  "f",
+  "g",
+  "h",
+  "j",
+  "k",
+  "l",
+  "m",
+  "n",
+  "r",
+  "s",
+  "t",
+  "w",
+  "y",
+  "z",
+  "sh",
+  "ny",
+  "ng",
+  "aa",
+  "ee",
+  "ii",
+  "oo",
+  "uu"
+ ],
+ "extra_allowed_chars": " -'ə",
+ "forbidden_patterns": [
+  "q",
+  "x",
+  "v",
+  "kh",
+  "gh",
+  "th",
+  "ph",
+  "(^|[^a-z])p(?![a-z])",
+  "[bcdfghjklmnrstwyz]{4,}",
+  "^[bcdfghjklmnprstwyz]{2,}[aeiouə]",
+  "[aeiou]{4,}"
+ ],
+ "syllables_per_word": [
+  1,
+  2,
+  3,
+  4
+ ],
+ "max_word_length": 14,
+ "sources": [
+  "Lukas, J., Studien zur Sprache der Kanuri (Bornu), 1937",
+  "Hutchison, J. P., A Reference Grammar of the Kanuri Language, 1981",
+  "Cyffer, N., Syntax des Kanuri, 1998",
+  "Cyffer, N. and Hutchison, J. (eds.), Dictionary of the Kanuri Language, 1990",
+  "Lange, D., Ancient Kingdoms of West Africa, 1999",
+  "Glottolog: Kanuri, Saharan family",
+  "Wiktionary and ASJP entries for Kanuri",
+  "Levtzion, N. and Hopkins, J.F.P. (eds.), Corpus of Early Arabic Sources for West African History, 1981"
+ ],
+ "notes": "The name 'Gainemrìg' does not match any known Sahelian ethnonym; the grave accent and the sequence 'gr' are non-Kanuri, so treat it as a game-internal label and do not derive names from its spelling. Kanuri has more tonal and phonological detail than the simple orthography shows; the proxy is deliberately simplified for name-building. Titles like mai, galadima and fugəma are historically linked to the Sefuwa court of Kanem-Bornu. No word may be identical to a Modern Irish, Scottish Gaelic or Manx word since Kanuri is not Goidelic; check names against Gaelic lexica to avoid accidental matches.",
+ "unit": "Gainemrìg",
+ "slug": "gainemr_g",
+ "model": "claude-sonnet-5-5"
+}

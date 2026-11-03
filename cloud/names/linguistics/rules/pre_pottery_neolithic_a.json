@@ -1,0 +1,187 @@
+{
+ "proxy_language": "Proto-Afroasiatic (Levantine/Natufian-adjacent; Semitic-biased reconstruction notation) with a secondary Proto-Semitic surface layer",
+ "confidence": "speculative",
+ "proxy_rationale": "PPNA (c. 9500-8700 BCE; Jericho, Gobekli Tepe, Mureybet, Nemrik, Jerf el-Ahmar) has no attested language. Archaeologists often link the Natufian-PPNA Levant to an Afroasiatic homeland hypothesis (Ehret; Militarev), though Proto-Afroasiatic is itself disputed and dated roughly 10-12 kya or older, and alternatives such as an unknown substrate language, early Proto-Elamo-Dravidian or Hurro-Urartian-like northern layers are possible for Upper Mesopotamia. The most defensible practical proxy for a name builder is a Proto-Afroasiatic/Proto-Semitic-style consonantal-root language. The link to any actual PPNA population is weak and unprovable; all forms are schematic reconstructions.",
+ "phonology": "Reconstruction-based consonant-heavy inventory (after Ehret 1995, Militarev/Starling, Proto-Semitic as a controlled proxy). Stops: b p t d k g q (glottal stop ', pharyngeal ' and h variants treated as ' and h); emphatics written with dot-free digraphs for ASCII: t' q (ejective/emphatic series). Fricatives: s z sh h kh gh. Sonorants: m n l r w y. Vowels: a i u (short/long, simplified to a i u plus e o only in loan-like cases). Glottal stop and pharyngeals are phonemic. No tone; stress is not written.",
+ "phonotactics": "Canonical syllables CV, CVC (rarely CVCC word-finally). No initial vowels (initial glottal stop ' is written or the vowel is avoided). No vowel sequences within a root (hiatus broken by ' or y/w). Roots are triconsonantal (C1C2C3) in Semitic proxy, with biconsonantal and monoconsonantal older layers in Afroasiatic; vowels are mostly supplied by the pattern, so words are typically 2-3 syllables. Word-final consonants are freely allowed, no word-final voiced-obstruent devoicing written. Clusters are limited to the root-internal CC across syllable boundary (e.g. -rb-, -nk-, -sm-); initial clusters avoided.",
+ "orthography": "Scholarly-style Latin transliteration, ASCII-friendly: ' for glottal stop/pharyngeal, kh, gh, sh digraphs, q for the emphatic velar/uvular, vowels a i u (long vowels may be doubled, e.g. aa ii uu, or given a macron). Reconstructed forms would take an asterisk but game names are written without it. No capital-letter distinctions beyond sentence/name capitalization.",
+ "morphology": "Root-and-pattern (templatic) morphology in the Semitic proxy: a triconsonantal root fits vocalic patterns (a-a, a-i, u-u, etc.) to make nouns and verbs. Nominal affixes: masculine unmarked, feminine -t (-at), plural -uu/-iin or -aat, dual -aan/-ayn (proxy). Prefix ma- for place/instrument nouns (ma-C1C2C3, e.g. maskan 'dwelling', maqtal 'place of killing'), prefix ta- for abstracts/nomina actionis, prefix mu- for agent participles, suffix -aan/-uun for collectives. Definiteness is not marked (no article in Proto-Semitic). Reduplication is used for intensives, plurals of colors/qualities, and onomatopoeic words (e.g. CVCCVC from CVC).",
+ "compounding": "Genitive construct (idafa-style): head noun first, then modifying noun, with an optional genitive linker -i (proxy) or simply juxtaposition: bayt-i X 'house of X'. 'X-maker' formed with mu- participle + noun or ba'al ('master/owner of') + noun: ba'al-X. Place names: ma- prefix + root or bayt/qiryat 'house/settlement' + noun. Adjectives follow the noun and agree in gender and number. No productive noun-noun compound like Germanic; instead use construct chains or ma-/ba'al- derivations.",
+ "noun_phrase_order": "Head noun, then genitive/possessor, then adjective(s), then demonstrative. Possessive suffixes attach to the head noun. Numerals precede or follow depending on proxy; default to follow the noun.",
+ "attested_roots": [
+  {
+   "form": "*bayt",
+   "gloss": "house, dwelling",
+   "reconstructed": true
+  },
+  {
+   "form": "*'ar",
+   "gloss": "earth, land (cf. Semitic *'ar)",
+   "reconstructed": true
+  },
+  {
+   "form": "*mayy",
+   "gloss": "water",
+   "reconstructed": true
+  },
+  {
+   "form": "*nahar",
+   "gloss": "river",
+   "reconstructed": true
+  },
+  {
+   "form": "*'ayn",
+   "gloss": "eye, spring",
+   "reconstructed": true
+  },
+  {
+   "form": "*shams",
+   "gloss": "sun",
+   "reconstructed": true
+  },
+  {
+   "form": "*raqiy'",
+   "gloss": "sky, firmament (Semitic proxy)",
+   "reconstructed": true
+  },
+  {
+   "form": "*'ab",
+   "gloss": "father",
+   "reconstructed": true
+  },
+  {
+   "form": "*'im",
+   "gloss": "mother",
+   "reconstructed": true
+  },
+  {
+   "form": "*lahm",
+   "gloss": "bread, food, flesh",
+   "reconstructed": true
+  },
+  {
+   "form": "*kalb",
+   "gloss": "dog",
+   "reconstructed": true
+  },
+  {
+   "form": "*tawr",
+   "gloss": "bull, aurochs",
+   "reconstructed": true
+  },
+  {
+   "form": "*'ilm",
+   "gloss": "god (Proto-Semitic *'il- 'god')",
+   "reconstructed": true
+  },
+  {
+   "form": "*bar",
+   "gloss": "grain, cereal",
+   "reconstructed": true
+  },
+  {
+   "form": "*har",
+   "gloss": "mountain, hill",
+   "reconstructed": true
+  },
+  {
+   "form": "*dm",
+   "gloss": "blood (Afroasiatic *dam)",
+   "reconstructed": true
+  }
+ ],
+ "worked_examples": [
+  {
+   "english": "River Stew",
+   "name": "lahm nahar",
+   "gloss": "lahm 'food, flesh' + nahar 'river' (head-initial construct: food of the river)"
+  },
+  {
+   "english": "Temple of the Sun",
+   "name": "bayt shams",
+   "gloss": "bayt 'house' + shams 'sun' (construct chain: house of the sun)"
+  },
+  {
+   "english": "Spring of the Mountain",
+   "name": "'ayn har",
+   "gloss": "'ayn 'eye/spring' + har 'mountain'"
+  },
+  {
+   "english": "Grain-Place (granary)",
+   "name": "maqbar",
+   "gloss": "ma- place prefix + bar 'grain' (place of grain)"
+  },
+  {
+   "english": "God of the Aurochs",
+   "name": "'il tawr",
+   "gloss": "'il 'god' + tawr 'bull/aurochs' (god of the aurochs)"
+  },
+  {
+   "english": "Earth Mother",
+   "name": "'im 'ar",
+   "gloss": "'im 'mother' + 'ar 'earth'"
+  }
+ ],
+ "allowed_graphemes": [
+  "a",
+  "i",
+  "u",
+  "b",
+  "p",
+  "t",
+  "d",
+  "k",
+  "g",
+  "q",
+  "s",
+  "z",
+  "sh",
+  "h",
+  "kh",
+  "gh",
+  "m",
+  "n",
+  "l",
+  "r",
+  "w",
+  "y",
+  "aa",
+  "ii",
+  "uu"
+ ],
+ "extra_allowed_chars": " '-",
+ "forbidden_patterns": [
+  "[ou]",
+  "e",
+  "f",
+  "v",
+  "j",
+  "x",
+  "c",
+  "(.)\\1\\1",
+  "[bdgkpqt]{3}",
+  "^[aiu][aiu]",
+  "(^|[ -])[kg]?h?'?'",
+  "([aiu])\\1\\1"
+ ],
+ "syllables_per_word": [
+  1,
+  2,
+  3
+ ],
+ "max_word_length": 12,
+ "sources": [
+  "Christopher Ehret, Reconstructing Proto-Afroasiatic (Proto-Afrasian): Vowels, Tone, Consonants, and Vocabulary, 1995",
+  "Alexander Militarev and Olga Stolbova, Afrasian etymological database (Starling database)",
+  "Gotthelf Bergstrasser, Introduction to the Semitic Languages, 1928 (Eng. trans. Daniels 1983)",
+  "John Huehnergard, Proto-Semitic reconstruction in Semitic Languages (ed. Hetzron), 1997",
+  "Richard Hess/Wolf Leslau, Comparative Dictionary of Geez, 1987 (for Semitic root comparison)",
+  "Glottolog: Afro-Asiatic (Hammarstrom et al.)",
+  "Ofer Bar-Yosef, The Natufian Culture in the Levant, 1998 (archaeological context)",
+  "Wiktionary Proto-Semitic and Proto-Afroasiatic reconstruction pages"
+ ],
+ "notes": "All forms are schematic reconstructions; actual PPNA languages are unknown and may not be Afroasiatic at all. The forbidden_patterns include a naive check against stray glottal stops at word start and against e/o/f/v/j/x/c; the last initial-glottal pattern is intentionally conservative and may need loosening if names begin with '. No word may be identical to a Modern Irish, Scottish Gaelic or Manx word unless the language is Goidelic; Afroasiatic-style forms like these will not collide. Confidence is speculative: use for flavor, not as a claim about PPNA speech.",
+ "unit": "Pre-Pottery Neolithic A",
+ "slug": "pre_pottery_neolithic_a",
+ "model": "claude-sonnet-5-5"
+}

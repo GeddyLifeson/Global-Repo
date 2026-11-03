@@ -1,0 +1,189 @@
+{
+ "proxy_language": "Scythian (Eastern Iranian, Saka/Ossetic-derived reconstruction), with Thracian/Dacian as secondary substrate (Paleo-Balkan IE, very poorly attested)",
+ "confidence": "low",
+ "proxy_rationale": "The Scythian, Thracian and Dacian lands host three distinct IE languages. Scythian is Iranian and is reconstructed from Greek-transmitted names, Herodotus glosses and Ossetic (Digor/Iron) as its closest living descendant; Thracian and Dacian survive only as personal names, toponyms (-dava, -para, -bria), plant names and a few glosses, with no continuous texts. A court naming scheme is therefore best built on Old Iranian-style Scythian morphology (Ossetic-guided), flavored with Thracian/Dacian name elements. Link is weak: forms are mostly Greek-transcribed or reconstructed, and Thracian/Dacian phonology is highly uncertain.",
+ "phonology": "Scythian (reconstructed/Ossetic-guided): vowels a, e, i, o, u plus long a; consonants p t k b d g, f x (h), s z, sh zh (š ž), c j (affricates), m n, r, l, w, y. Old Iranian *-ka- diminutive/adjective suffix, *-pa-/-pati- 'lord', *xshaya- 'rule'. Thracian/Dacian (Balkan IE, reconstructed from names): satem-like treatment is debated; Dacian -dava 'town' (*dhē-/*dhō- + -wa) and -bria 'town', -para 'town/village' are well-attested toponymic suffixes; Thracian names show -(k)entos, -mu(n)dos, -tralis, -poris 'son' (Thr. -poris = *-pora 'child'), -kenthos. Stress not recorded; no tone.",
+ "phonotactics": "Prefer open and closed CV(C) syllables; consonant clusters allowed word-initially mainly as s+stop, st, sp, sk, xš, fr, tr, dr, kh; medial clusters rt, rd, rk, xš, st, sp, nd, nt, mb occur in attested names (Spargapeithes, Skyles, Ariapeithes, Saitaphernes, Kotys, Seuthes, Burebista, Decebalus, Zalmoxis). Words typically end in a vowel, -s (Greek nominative), -n, -r, or -a; Greek -os/-es endings are transmission artifacts and may be used for Hellenized court style but are optional. Avoid clusters of 3+ consonants outside s/x+stop+r. No voiced aspirates in the Scythian proxy; use plain b d g.",
+ "orthography": "Standard scholarly Latinization of Greek-transmitted names with Iranian transliteration conventions: š ž č x are rendered as sh zh ch kh for game audit; use plain a e i o u, y as semivowel or vowel i, w for the labial glide, th ph kh only as Greek aspirates in Thracian-style names (Seuthes, Kotys). k not c for the velar stop. Hyphens separate compound members; apostrophes unused. Diacritics avoided.",
+ "morphology": "Scythian (after Old Iranian/Ossetic): inflecting nouns with case; stems in -a, -i, -u, consonants; genitive in -ahya/-ahe (OIr) with Ossetic -i/-y; nominal compounds are dominant for names. Thracian/Dacian: names are mostly compounds of two lexical elements (e.g. Bi-thus, Sevtho-polis, Mucapor, Decebal) or single-stem names with suffixes -is, -as, -es, -ulus. Reduplication rare; no noun classes. Derivational suffixes: -ka (adjective/diminutive), -aina (feminine/collective), -dava/-para/-bria (place), -tar/-tara (agent, from OIr *-tar-).",
+ "compounding": "Head-final determinative and possessive compounds, as in Old Iranian: modifier + head (e.g. Skythian *xshayathiya 'king'; Ariantas, Spargapeithes 'having a lofty/swelling... lord', *-peithes ~ *-pati- 'master'). 'X of Y' is best rendered as compound Y-X (genitive compound, Y-head last) or as juxtaposed genitive + head: Genitive Noun + Head Noun in the court register. 'Y-maker/-keeper' formed with agent suffix -tar/-pa/-pati (keeper/lord) after the object stem: e.g. horse-keeper = *aspa-pati. Place names: personal or tribal name + -dava ('town of X'), Dacian style. Linker vowel -a- between compound members (OIr *-a-), dropped before vowels.",
+ "noun_phrase_order": "Adjective before noun (Old Iranian/Ossetic: adjective + noun), genitive before head noun in compounds, demonstratives before noun. Thracian/Dacian too presumed modifier-head from compounds.",
+ "attested_roots": [
+  {
+   "form": "*aspa-",
+   "gloss": "horse (Scythian; cf. Aspa- in names, Ossetic jæfs-)",
+   "reconstructed": true
+  },
+  {
+   "form": "*xshaya-",
+   "gloss": "rule, king (Old Iranian, underlying Scythian royal titles)",
+   "reconstructed": true
+  },
+  {
+   "form": "*pati-",
+   "gloss": "lord, master (Scythian -peithes)",
+   "reconstructed": true
+  },
+  {
+   "form": "*spaka-",
+   "gloss": "dog (Herodotus 4.? spako, Median spaka)",
+   "reconstructed": false
+  },
+  {
+   "form": "*arya-",
+   "gloss": "noble, Iranian (Ariantas, Ariapeithes)",
+   "reconstructed": true
+  },
+  {
+   "form": "*varka-",
+   "gloss": "wolf (cf. OIr vəhrka-)",
+   "reconstructed": true
+  },
+  {
+   "form": "*xshaita-",
+   "gloss": "shining, bright (OIr xšaēta-)",
+   "reconstructed": true
+  },
+  {
+   "form": "*oior",
+   "gloss": "man (Herodotus, oior in Oiorpata 'man-slayers')",
+   "reconstructed": false
+  },
+  {
+   "form": "*pata",
+   "gloss": "slay (Herodotus, -pata in Oiorpata)",
+   "reconstructed": false
+  },
+  {
+   "form": "-dava",
+   "gloss": "town, settlement (Dacian: Sucidava, Petrodava)",
+   "reconstructed": false
+  },
+  {
+   "form": "-para",
+   "gloss": "village, town (Thracian/Dacian: Bessapara)",
+   "reconstructed": false
+  },
+  {
+   "form": "-bria",
+   "gloss": "town (Thracian: Mesembria, Poltymbria)",
+   "reconstructed": false
+  },
+  {
+   "form": "-poris",
+   "gloss": "son, child (Thracian: Mucaporis, Rhoimetalkes)",
+   "reconstructed": false
+  },
+  {
+   "form": "zalmos",
+   "gloss": "hide, skin (Dacian god Zalmoxis, traditionally 'bear-skin')",
+   "reconstructed": false
+  },
+  {
+   "form": "bures",
+   "gloss": "large, great (Dacian Burebista, uncertain)",
+   "reconstructed": true
+  },
+  {
+   "form": "dekebal",
+   "gloss": "strong, brave (Dacian Decebalus, uncertain)",
+   "reconstructed": true
+  }
+ ],
+ "worked_examples": [
+  {
+   "english": "Temple of the Sun",
+   "name": "Xvarka-dava",
+   "gloss": "xvar 'sun' + -ka adjectival + -dava 'town/seat': 'sun-seat'"
+  },
+  {
+   "english": "Horse Lord",
+   "name": "Aspapati",
+   "gloss": "aspa 'horse' + pati 'lord'"
+  },
+  {
+   "english": "Wolf Hall",
+   "name": "Varkabria",
+   "gloss": "varka 'wolf' + bria 'town': 'wolf-town'"
+  },
+  {
+   "english": "Bright King",
+   "name": "Xshaitaxshaya",
+   "gloss": "xshaita 'bright' + xshaya 'ruler' (head final)"
+  },
+  {
+   "english": "Noble Fortress",
+   "name": "Aryapara",
+   "gloss": "arya 'noble' + para 'stronghold/village'"
+  },
+  {
+   "english": "Man-slayer's Banner",
+   "name": "Oiorpata-tuga",
+   "gloss": "oior 'man' + pata 'slay' + tuga 'banner' (tuga is a placeholder Iranian-style root, flagged speculative)"
+  }
+ ],
+ "allowed_graphemes": [
+  "a",
+  "e",
+  "i",
+  "o",
+  "u",
+  "y",
+  "w",
+  "p",
+  "t",
+  "k",
+  "b",
+  "d",
+  "g",
+  "f",
+  "x",
+  "s",
+  "z",
+  "sh",
+  "zh",
+  "ch",
+  "j",
+  "m",
+  "n",
+  "r",
+  "l",
+  "h",
+  "th",
+  "kh",
+  "ph",
+  "ts"
+ ],
+ "extra_allowed_chars": " -",
+ "forbidden_patterns": [
+  "q",
+  "c(?![h])",
+  "v(?![ao])",
+  "[aeiou]{3,}",
+  "[^aeiou -]{4,}",
+  "(.)\\1\\1",
+  "ee(?=[^ ])",
+  "oo(?=[^ ])",
+  "[^aeiouy -]$"
+ ],
+ "syllables_per_word": [
+  2,
+  3,
+  4
+ ],
+ "max_word_length": 14,
+ "sources": [
+  "Abaev, V.I. - Istoriko-etimologicheskij slovar' osetinskogo jazyka (1958-1995)",
+  "Zgusta, L. - Die Personennamen griechischer Staedte der noerdlichen Schwarzmeerkueste (1955)",
+  "Schmitt, R. (ed.) - Compendium Linguarum Iranicarum (1989)",
+  "Duridanov, I. - Die Sprache der Thraker/Thrakisch-dakische Studien (1969-1985)",
+  "Georgiev, V. - Introduzione alla storia delle lingue indeuropee / Thracian and Dacian studies (1977)",
+  "Mayrhofer, M. - Iranisches Personennamenbuch (1977-)",
+  "Wiktionary and Starling database reconstruction pages for Proto-Iranian and Thracian",
+  "Glottolog entries: Scythian, Thracian, Dacian"
+ ],
+ "notes": "Scythian, Thracian and Dacian are separate languages; this proxy mixes them for a unified court register, which is a design choice, not attested practice. Thracian/Dacian phonology and meaning of most name elements is disputed; treat -dava/-para/-bria and -poris as safest. Many Greek-transmitted forms end in -s/-os (Hellenization); use or drop for style. No word may be identical to a Modern Irish, Scottish Gaelic or Manx word since the language is not Goidelic.",
+ "unit": "The Wide-Sky Court",
+ "slug": "the_wide_sky_court",
+ "model": "claude-sonnet-5-5"
+}

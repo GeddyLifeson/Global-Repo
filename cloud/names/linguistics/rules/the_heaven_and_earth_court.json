@@ -1,0 +1,208 @@
+{
+ "proxy_language": "Middle Chinese (Late Middle Chinese / Tang-Song court standard, Qieyun-Guangyun tradition) in Baxter's transcription; Old Chinese (Baxter-Sagart) as fallback for archaic-ritual names",
+ "confidence": "medium",
+ "proxy_rationale": "The 'Heaven-and-Earth Court' is a fictional/composite later imperial Chinese court (cf. tian-di, Heaven and Earth, as the cosmological frame of Chinese state ritual). A later court (index 2) is best proxied by the prestige written language of imperial China. Middle Chinese is well attested via rhyme dictionaries (Qieyun, Guangyun) and has a standard scholarly romanization (Baxter 1992). Old Chinese reconstruction is much less certain, so it is a secondary proxy only. Link to any specific game culture is by region, not by documented identity.",
+ "phonology": "Middle Chinese (Baxter): initials include stops in three series (voiceless p t k, aspirated ph th kh, voiced b d g), affricates (ts tsh dz; tr trh dr; tsy tsyh dzy; c? written tsr tsrh dzr), fricatives (s z sr zr sy zy x h), nasals (m n ng ny), liquids/glides (l y w), and glottal stop (') and zero initial. Rimes: vowels a, e, i, o, u, ae, ea, eo, ii, yo (Baxter), with medials -j- -w- -i-. Codas: -m -n -ng -p -t -k (checked syllables) and -j -w. Three tones (ping, shang, qu) plus ru for checked syllables; Baxter marks shang with final -X and qu with final -H.",
+ "phonotactics": "Monosyllabic morphemes: (C)(M)V(C) + tone. No consonant clusters in the syllable onset. Codas limited to -m -n -ng -p -t -k -j -w (stop codas = ru tone). Words are mostly disyllabic compounds of monosyllabic morphemes (tian-di type). Tone is shown in Baxter by -X (rising) and -H (departing); in a pinyin-style game orthography, tone marks or digits are optional.",
+ "orthography": "Use Hanyu Pinyin as the practical Latin script for readers (the default for a game), e.g. tian, di, gong, ting; optionally Baxter Middle Chinese forms (then, dej, kuwng) for archaic flavor. Pinyin syllables: initials b p m f d t n l g k h j q x zh ch sh r z c s y w; finals a o e i u ü ai ei ao ou an en ang eng ong ia ie iao iu ian in iang ing iong ua uo uai ui uan un uang ueng üe üan ün. Syllables are written separately or joined into words without hyphens.",
+ "morphology": "Isolating; essentially no inflection. Words are monosyllabic morphemes freely combined. Derivation by compounding, a few suffixes (-zi son/diminutive, -tou, -er), and reduplication for emphasis. Classifiers are used with numerals (not in names). Titles and offices are formed from noun morphemes.",
+ "compounding": "Head-final: modifier precedes head (shan-he mountain-river, tian-di sky-earth, gong-dian palace-hall). Genitive/attributive particle zhi (Classical, Tang-Song) or de (vernacular): X zhi Y 'Y of X'; in names the particle is usually dropped (tian-tan Heaven-altar = Altar of Heaven). Agent nouns: V+O+zhe/shi/jiang/gong: zao-chuan-jiang boat-making-craftsman. Place names: modifier + generic (shan mountain, he river, hu lake, cheng city, gong palace, dian hall, tai terrace, tan altar, miao temple, si monastery, guan abbey, ting pavilion, lou tower, yuan garden, tang hall, men gate). Four-character phrases (chengyu-style) are common for ceremonial names.",
+ "noun_phrase_order": "Modifier + head; adjectives and possessors precede the noun; numeral + (classifier) + noun; relative clauses precede the head. Verb-object order in verbal phrases (zao chuan make boat) but nominal output reversed to O+V+agent (zao-chuan-jiang).",
+ "attested_roots": [
+  {
+   "form": "tian",
+   "gloss": "heaven, sky",
+   "reconstructed": false
+  },
+  {
+   "form": "di",
+   "gloss": "earth, ground",
+   "reconstructed": false
+  },
+  {
+   "form": "gong",
+   "gloss": "palace",
+   "reconstructed": false
+  },
+  {
+   "form": "dian",
+   "gloss": "hall",
+   "reconstructed": false
+  },
+  {
+   "form": "shan",
+   "gloss": "mountain",
+   "reconstructed": false
+  },
+  {
+   "form": "he",
+   "gloss": "river",
+   "reconstructed": false
+  },
+  {
+   "form": "shui",
+   "gloss": "water",
+   "reconstructed": false
+  },
+  {
+   "form": "huo",
+   "gloss": "fire",
+   "reconstructed": false
+  },
+  {
+   "form": "yue",
+   "gloss": "moon",
+   "reconstructed": false
+  },
+  {
+   "form": "ri",
+   "gloss": "sun, day",
+   "reconstructed": false
+  },
+  {
+   "form": "long",
+   "gloss": "dragon",
+   "reconstructed": false
+  },
+  {
+   "form": "feng",
+   "gloss": "phoenix; wind (different characters)",
+   "reconstructed": false
+  },
+  {
+   "form": "chuan",
+   "gloss": "boat, ship",
+   "reconstructed": false
+  },
+  {
+   "form": "mi",
+   "gloss": "rice",
+   "reconstructed": false
+  },
+  {
+   "form": "cha",
+   "gloss": "tea",
+   "reconstructed": false
+  },
+  {
+   "form": "jian",
+   "gloss": "sword",
+   "reconstructed": false
+  },
+  {
+   "form": "huang",
+   "gloss": "yellow; august (as in huang-di emperor)",
+   "reconstructed": false
+  },
+  {
+   "form": "shen",
+   "gloss": "spirit, god",
+   "reconstructed": false
+  }
+ ],
+ "worked_examples": [
+  {
+   "english": "Temple of Heaven",
+   "name": "Tianmiao",
+   "gloss": "tian heaven + miao temple"
+  },
+  {
+   "english": "River Stew",
+   "name": "Hegeng",
+   "gloss": "he river + geng thick soup"
+  },
+  {
+   "english": "Dragon Ship",
+   "name": "Longchuan",
+   "gloss": "long dragon + chuan boat"
+  },
+  {
+   "english": "Hall of Supreme Harmony",
+   "name": "Taihedian",
+   "gloss": "tai great + he harmony + dian hall"
+  },
+  {
+   "english": "Mountain Spirit",
+   "name": "Shanshen",
+   "gloss": "shan mountain + shen spirit"
+  },
+  {
+   "english": "Sword-maker",
+   "name": "Zaojianjiang",
+   "gloss": "zao make + jian sword + jiang craftsman"
+  }
+ ],
+ "allowed_graphemes": [
+  "a",
+  "o",
+  "e",
+  "i",
+  "u",
+  "\\u00fc",
+  "b",
+  "p",
+  "m",
+  "f",
+  "d",
+  "t",
+  "n",
+  "l",
+  "g",
+  "k",
+  "h",
+  "j",
+  "q",
+  "x",
+  "zh",
+  "ch",
+  "sh",
+  "r",
+  "z",
+  "c",
+  "s",
+  "y",
+  "w",
+  "ng",
+  "ai",
+  "ei",
+  "ao",
+  "ou",
+  "an",
+  "en",
+  "ang",
+  "eng",
+  "ong"
+ ],
+ "extra_allowed_chars": " -'",
+ "forbidden_patterns": [
+  "[bpmf]{2}",
+  "(.)\\1{2}",
+  "v",
+  "^ng",
+  "[aeiou]{4}",
+  "(^|[^a-z])[bdgjzh]ng",
+  "kk|pp|tt|gg|dd|bb",
+  "(q|x|j)[aeou](?![aeiou]|n|ng|[^a-z]|$)",
+  "c[^h]*h(?=[^aeiou]|$)"
+ ],
+ "syllables_per_word": [
+  2,
+  3,
+  4
+ ],
+ "max_word_length": 20,
+ "sources": [
+  "Baxter, William H. 1992. A Handbook of Old Chinese Phonology.",
+  "Baxter, William H. and Laurent Sagart. 2014. Old Chinese: A New Reconstruction.",
+  "Pulleyblank, Edwin G. 1991. Lexicon of Reconstructed Pronunciation in Early Middle Chinese, Late Middle Chinese, and Early Mandarin.",
+  "Norman, Jerry. 1988. Chinese. Cambridge University Press.",
+  "Schuessler, Axel. 2007. ABC Etymological Dictionary of Old Chinese.",
+  "Li, Charles N. and Sandra A. Thompson. 1981. Mandarin Chinese: A Functional Reference Grammar.",
+  "Yip, Po-Ching and Don Rimmington. Chinese: A Comprehensive Grammar.",
+  "Glottolog and Wiktionary Middle Chinese / Old Chinese reconstruction entries"
+ ],
+ "notes": "No word may be identical to a Modern Irish, Scottish Gaelic or Manx word (the language is not Goidelic). The culture name implies a cosmological court (tian heaven, di earth); names should favor tian/di/huang/long/feng/shen and generic place morphemes (gong, dian, tan, miao). Avoid the existing placeholder string 'Wu' as a standalone name: it is a real syllable (wu 'five/martial/dance') but too generic. Keep names as 2-4 Pinyin syllables written as one word or space-separated modifier+head; apostrophe only to disambiguate syllables (e.g. Xi'an).",
+ "unit": "The Heaven-and-Earth Court",
+ "slug": "the_heaven_and_earth_court",
+ "model": "claude-sonnet-5-5"
+}
