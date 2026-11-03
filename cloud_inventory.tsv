@@ -335,11 +335,3 @@ compat/gen_rules_api.py	0	Ask Haiku (direct parallel cached calls) which blocks 
 compat/gen_data.py	0	Build the compat datapack: upgrade shim rules, unit stores, Age gaps, Codex and quest links per mod.	yes
 compat/gen_recipes.py	0	Add load conditions to recipes naming absent mods and cross-mod dust/raw smelting to the shared ingot.	yes
 compat/gen_station_moves.py	0	Move non-trivial vanilla and kept-mod grid recipes onto the Age ladder of stations with a fallback grid recipe.	yes
-tools/get_jdk25.sh	600	Installs Temurin JDK 25 in the cloud container (gradle toolchain for NeoForge 26.1.2); source it, then ./gradlew compileJava -Porg.gradle.java.installations.paths=$JAVA_HOME.	yes
-tools/compile_fix_loop.py	4500	Compile-fix loop for diaithir modules: gradle errors + real 26.1.2 class candidates go to Sonnet, fixed files written back, up to 5 rounds.	yes
-compat/profile_jars.py	0	Download each kept pack jar from its pack link, profile its blocks, items, recipes and c: tags, delete the jar.	yes
-compat/gen_tags.py	0	Union material-named ingots, plates, gears, dusts, ores into c: convention tag files with required=false.	yes
-compat/gen_rules_api.py	0	Ask Haiku (direct parallel cached calls) which blocks per mod are working blocks, with slots, kinds, units, Age.	yes
-compat/gen_data.py	0	Build the compat datapack: upgrade shim rules, unit stores, Age gaps, Codex and quest links per mod.	yes
-compat/gen_recipes.py	0	Add load conditions to recipes naming absent mods and cross-mod dust/raw smelting to the shared ingot.	yes
-compat/gen_station_moves.py	0	Move non-trivial vanilla and kept-mod grid recipes onto the Age ladder of stations with a fallback grid recipe.	yes

@@ -325,8 +325,6 @@ S0335	cloud	names/linguistics/regen_names.py
 S0336	global	add_rows.py
 S0337	cloud	plans/progression/check_progression.py
 S0338	cloud	plans/progression/gen_progression_recipes.py
-S0337	cloud	pc_scan/fix_atm11_261.py
-S0338	cloud	pc_scan/mod_conflict_scan.py
 S0339	cloud	pc_scan/overlay_conflicts.py
 S0340	cloud	plans/progression/check_progression.py
 S0341	cloud	plans/progression/gen_progression_recipes.py
