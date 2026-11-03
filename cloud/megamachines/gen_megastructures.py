@@ -132,7 +132,7 @@ def build(cat):
             tot_h+=hours
             stages.append(dict(key=key,name=name,kind=kind,builder="megamachines:"+bld,amount=round(amount,1),unit=unit,
               materials={m:round(amount*fr,1) for m,fr in mats.items()},pallets=pallets,bulk_containers=bulk,blocks=blocks,
-              data_only=(kind==R),fleet=fleet,hours=round(hours,1),crew_hours=round(hours*fleet*v["crew"],1),
+              data_only=(kind==R),rate_per_s=rate,fleet=fleet,hours=round(hours,1),crew_hours=round(hours*fleet*v["crew"],1),
               function_share=func,real_phase=phase))
         if tot_blocks>100000: err.append(f"{sid}: {tot_blocks} blocks over 100k")
         out[sid]=dict(id=s["id"],name=s["name"],age=sa,kind=s["kind"],site_office=OFFICE[spec["station"]],station_age=spec["station"],
