@@ -80,3 +80,6 @@ wave,repo,number,base,head,partner,title
 0,ports,269,claude/storage-logistics-cleanroom,claude/survey-p3-unrest,,"Survey p3: diaithir-unrest Unrest field, Meter, nests, wave event (new module)"
 0,ports,270,claude/foundry-logistics-depot,claude/survey-p3-metal,,"Survey p3: Alloy Forgery recipes in Forgeworks alloy furnace (merge after #112)"
 0,ports,273,diaithircompat,claude/survey-p2-gear-folds,,"diaithir-gear: fold item magnets (CC0), repair kits (MIT), anvil repair (LGPL own package); survey part 2"
+0,ports,297,diaithircompat,claude/survey-p6-client-qol,,"Survey p6: client QoL ports into hud-overlays, tooltipfx, inventory-ui, client-view-input, chat-client"
+0,ports,298,diaithircompat,claude/survey-p6-audio-nav,,"Survey p6: diaithir-audio and diaithir-structure-navigation"
+0,ports,299,diaithircompat,claude/survey-p6-server-perf,,"Survey p6: diaithir-admin-core, network-compat, worldgen-chunk-opts"
