@@ -1,4 +1,4 @@
-# S0312 Regenerates every culture name that fails its language rules (Haiku, rules file cached per language, up to 3 repair rounds); writes names/linguistics/regen/<slug>.json {file|id: name}
+# S0335 Regenerates every culture name that fails its language rules (Haiku, rules file cached per language, up to 3 repair rounds); writes names/linguistics/regen/<slug>.json {file|id: name}
 # python3 -I regen_names.py [slug ...]   key from ANTHROPIC_API_KEY (never printed)
 import glob, json, os, sys, time, urllib.request, concurrent.futures as cf
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
@@ -8,9 +8,9 @@ os.makedirs(OUT, exist_ok=True)
 SYS = """You coin names in one culture's language for a game, the way a specialist linguist of that language would build them. You get the language's rules file (phonology, orthography, morphology, compounding, attested roots, constraints). For each numbered English term, build a name from real roots or regular word formation in that language (or its stated proxy), following the noun-phrase order, compounding and orthography in the rules, using only the allowed graphemes and avoiding forbidden patterns. Keep it short (usually 1 to 3 words). Do not copy the English. Do not use modern Irish, Scottish Gaelic or Manx words unless the language is Goidelic. Where the proxy is speculative, keep to the proxy's regular patterns. Return JSON: {"n":[{"i":number,"name":string}]} covering every number."""
 SCH = {'type': 'object', 'additionalProperties': False, 'required': ['n'], 'properties': {'n': {'type': 'array', 'items': {'type': 'object', 'additionalProperties': False, 'required': ['i', 'name'], 'properties': {'i': {'type': 'integer'}, 'name': {'type': 'string'}}}}}}
 
-def call(rules_txt, items):
-    user = '\n'.join(f"{i}. {t}" for i, t in items)
-    body = {'model': MODEL, 'max_tokens': 8000, 'thinking': {'type': 'between_tools'},
+def call(rules_txt, items, hard=''):
+    user = hard + '\n'.join(f"{i}. {t}" for i, t in items)
+    body = {'model': MODEL, 'max_tokens': 8000, 'thinking': {'type': 'disabled'},
             'system': [{'type': 'text', 'text': SYS + '\n\nRULES FILE:\n' + rules_txt, 'cache_control': {'type': 'ephemeral', 'ttl': '1h'}}],
             'messages': [{'role': 'user', 'content': user}], 'output_config': {'format': {'type': 'json_schema', 'schema': SCH}}}
     req = urllib.request.Request('https://api.anthropic.com/v1/messages', json.dumps(body).encode(), {'x-api-key': KEY, 'anthropic-version': '2023-06-01', 'content-type': 'application/json'})
@@ -42,9 +42,13 @@ def main():
         p = f'{OUT}/{s}.terms.json'
         res[s] = json.load(open(p)) if os.path.exists(p) else {}
     rules = {s: open(f'{R}/linguistics/rules/{s}.json').read() for s in todo}
+    hard = {}
+    for s in todo:
+        d = json.load(open(f'{R}/linguistics/rules/{s}.json'))
+        hard[s] = 'HARD CONSTRAINTS: spell names ONLY with these letters/graphemes: ' + ' '.join(d['allowed_graphemes']) + ' (plus space, hyphen, apostrophe, ' + d['extra_allowed_chars'] + '). Any other letter or diacritic is rejected; transliterate with these (e.g. sh not š). Avoid these regex patterns on the lowercase name: ' + ' | '.join(d['forbidden_patterns']) + f". Max word length {d['max_word_length']}.\n\nTerms:\n"
     lock = threading.Lock(); done = [0]
     def job(s, ch):
-        got = call(rules[s], ch)
+        got = call(rules[s], ch, hard[s])
         with lock:
             for i, t in ch:
                 nm = got.get(i)

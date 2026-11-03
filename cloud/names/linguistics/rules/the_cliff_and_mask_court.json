@@ -1,0 +1,193 @@
+{
+ "proxy_language": "Dogon (Dogon language cluster, esp. Toro So / Donno So / Tommo So of the Bandiagara Escarpment, Mali)",
+ "confidence": "low",
+ "proxy_rationale": "The name 'Cliff-and-Mask' evokes the Bandiagara Escarpment cliff settlements and the Dama/Sigi mask societies of the Dogon, so Dogon is the most defensible attested language for the region and imagery. Dogon is a Dogon-family language of uncertain Niger-Congo affiliation (Glottolog lists Dogon as an independent family). The link between a game 'court' and any real Dogon polity is loose, hence low confidence. Current game strings such as 'ye semas' are not Dogon-like and are not used as models.",
+ "phonology": "Tommo So-type system (Heath 2008; McPherson 2013): consonants p b t d c j k g (kp gb marginal), m n ny ng, f s h, l r w y, plus implosive-free plain stops. Vowels: 7 vowel qualities i e E a O o u (often written i e \\u025b a \\u0254 o u), with phonemic length (long vowels written doubled) and ATR contrasts in some varieties. Lexical tone (high/low, with tone melodies on stems) is significant but normally unwritten in practical orthography. Nasal vowels occur in some varieties.",
+ "phonotactics": "Native roots are typically CV(C), CVCV, CVCVC, CVVC; most stems 1-3 syllables. Syllable-final consonants limited mainly to nasals, l, r, sometimes y/w; no word-initial consonant clusters; no native complex codas. Words end in vowels or a sonorant; voiceless obstruents are rare finally. Consonant-vowel alternation is strict; clusters occur only as nasal + stop across syllable boundary (mb, nd, ng, nj).",
+ "orthography": "Practical Latin transliteration as in Mali's national alphabet: p b t d c j k g m n ny ng f s h l r w y; vowels a e i o u plus \\u025b \\u0254 (or e/o with diacritics); long vowels doubled (aa, ee, oo); nasalization by tilde or following n in some systems; tone omitted. Names are written as separate words, capitalized; compound names are often written as one word or hyphenated.",
+ "morphology": "Agglutinating, head-final (SOV). Nouns have no noun classes or gender; plural by suffixes (-n\\u025b / -ye / -mO depending on variety), definiteness by enclitics, case-like postpositions. Verbs take suffixes for aspect, negation, and derivation (causative, reflexive, reciprocal); stems often end in vowel. Derivational suffixes make agent nouns (-ma, -mo) and abstract nouns.",
+ "compounding": "Genitive constructions are juxtaposition of possessor then possessed (Y X = 'Y's X'), with tonal rather than segmental marking; relational postpositions follow the noun. Agent nouns: object + verb stem + agentive suffix ('X-maker'). Place names often noun + locative or descriptive stem (e.g., 'rock/cliff' + noun). Compounds are head-final: the modified noun comes last.",
+ "noun_phrase_order": "Possessor before possessed; noun before adjective in some constructions but modifier-before-head in genitive; demonstratives and numerals follow the noun; plural/definite markers are phrase-final enclitics.",
+ "attested_roots": [
+  {
+   "form": "s\\u0254",
+   "gloss": "mouth (verify across varieties)",
+   "reconstructed": false
+  },
+  {
+   "form": "d\\u0254",
+   "gloss": "stone/rock (Tommo So-type, verify)",
+   "reconstructed": false
+  },
+  {
+   "form": "yu",
+   "gloss": "water (Dogon-type root, verify)",
+   "reconstructed": false
+  },
+  {
+   "form": "ana",
+   "gloss": "person/people (Donno So-type, verify)",
+   "reconstructed": false
+  },
+  {
+   "form": "nommo",
+   "gloss": "water spirit (Dogon mythology)",
+   "reconstructed": false
+  },
+  {
+   "form": "amma",
+   "gloss": "supreme god (Dogon mythology)",
+   "reconstructed": false
+  },
+  {
+   "form": "dama",
+   "gloss": "funerary mask ceremony",
+   "reconstructed": false
+  },
+  {
+   "form": "sigi",
+   "gloss": "periodic mask ceremony",
+   "reconstructed": false
+  },
+  {
+   "form": "binu",
+   "gloss": "ancestral shrine (Dogon tradition)",
+   "reconstructed": false
+  },
+  {
+   "form": "ginna",
+   "gloss": "family house / head compound",
+   "reconstructed": false
+  },
+  {
+   "form": "toguna",
+   "gloss": "men's meeting shelter",
+   "reconstructed": false
+  },
+  {
+   "form": "hogon",
+   "gloss": "spiritual leader/priest",
+   "reconstructed": false
+  },
+  {
+   "form": "kanaga",
+   "gloss": "mask type (cross-barred)",
+   "reconstructed": false
+  },
+  {
+   "form": "sirige",
+   "gloss": "tall plank mask",
+   "reconstructed": false
+  },
+  {
+   "form": "ogo",
+   "gloss": "pale fox (mythic figure)",
+   "reconstructed": false
+  },
+  {
+   "form": "lebe",
+   "gloss": "first ancestor resurrected, hogon figure",
+   "reconstructed": false
+  }
+ ],
+ "worked_examples": [
+  {
+   "english": "Temple of the Sun",
+   "name": "Nay binu",
+   "gloss": "nay 'sun' (illustrative root) + binu 'shrine'; possessor before possessed"
+  },
+  {
+   "english": "Mask of the Cliff",
+   "name": "Dogo kanaga",
+   "gloss": "dogo 'cliff/rock' (illustrative) + kanaga 'mask'; head-final genitive"
+  },
+  {
+   "english": "Water Spirit House",
+   "name": "Nommo ginna",
+   "gloss": "nommo 'water spirit' + ginna 'house'"
+  },
+  {
+   "english": "Place of Gathering",
+   "name": "Toguna",
+   "gloss": "single established term for men's council shelter"
+  },
+  {
+   "english": "Stone-carver",
+   "name": "Dogo yelema",
+   "gloss": "dogo 'stone' + yele 'carve' (illustrative) + -ma agentive suffix"
+  },
+  {
+   "english": "Ancestor Feast",
+   "name": "Ana sigi",
+   "gloss": "ana 'people/ancestors' + sigi 'ceremony'"
+  }
+ ],
+ "allowed_graphemes": [
+  "a",
+  "e",
+  "i",
+  "o",
+  "u",
+  "\\u025b",
+  "\\u0254",
+  "b",
+  "d",
+  "g",
+  "j",
+  "c",
+  "k",
+  "p",
+  "t",
+  "m",
+  "n",
+  "ny",
+  "ng",
+  "f",
+  "s",
+  "h",
+  "l",
+  "r",
+  "w",
+  "y",
+  "aa",
+  "ee",
+  "ii",
+  "oo",
+  "uu"
+ ],
+ "extra_allowed_chars": " -'",
+ "forbidden_patterns": [
+  "q",
+  "x",
+  "v",
+  "z",
+  "th",
+  "sh",
+  "ch",
+  "ph",
+  "kh",
+  "gh",
+  "[bdgkpt][bdgkpt]",
+  "[^aeiou\\u025b\\u0254]{3,}",
+  "^[bcdfghjklmnprstwy]{2}(?!y)"
+ ],
+ "syllables_per_word": [
+  1,
+  2,
+  3
+ ],
+ "max_word_length": 12,
+ "sources": [
+  "Heath, Jeffrey. A Grammar of Jamsay (2008)",
+  "Heath, Jeffrey. A Grammar of Toro So / Tommo So Dogon (2018)",
+  "McPherson, Laura. A Grammar of Tommo So (2013)",
+  "Calame-Griaule, Genevi\\u00e8ve. Ethnologie et langage: la parole chez les Dogon (1965)",
+  "Griaule, Marcel. Dieu d'eau (1948)",
+  "Glottolog: Dogon family",
+  "Dogon Languages Project (Heath, Dogon dictionaries)"
+ ],
+ "notes": "No word may be identical to a Modern Irish, Scottish Gaelic or Manx word. The culture is geographically broad (Sahel, Sahara, central African forests), so Dogon is only a Sahelian proxy; forest or Saharan elements would need other proxies (e.g., Bantu or Songhay) and are not covered here. Some glosses and forms are given from Dogon ethnographic literature; real forms vary by Dogon variety and should be verified against Heath/McPherson before reuse.",
+ "unit": "The Cliff-and-Mask Court",
+ "slug": "the_cliff_and_mask_court",
+ "model": "claude-sonnet-5-5"
+}

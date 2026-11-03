@@ -1,0 +1,191 @@
+{
+ "proxy_language": "Proto-Numic (Northern Uto-Aztecan, Great Basin branch), with Sahaptian/Proto-Sahaptian and Proto-Plateau Penutian as alternative Columbia Plateau proxies",
+ "confidence": "speculative",
+ "proxy_rationale": "The Western Stemmed Tradition (c. 13,000-9,000 cal BP, possibly earlier) is known only from stemmed projectile points and associated sites (Paisley Caves, Cooper's Ferry, Lind Coulee, Buhl). Its language(s) are unrecoverable by comparative method. Numic speakers entered the Great Basin only c. 1,000 years ago, so Proto-Numic is a very weak, ethnographic-analogy proxy at best (Great Basin foragers: seeds, roots, marsh and lake resources, pronghorn, bighorn). Proto-Uto-Aztecan reconstructions (Miller, Hill, Stubbs) provide a defensible phonological template for Great Basin naming; Sahaptian and Klamath/Plateau Penutian forms supply a Columbia Plateau flavor. Treat everything as plausible-sounding, not as the actual language of these people.",
+ "phonology": "Proto-Numic consonants: *p *t *k *kw *ts *s *h *m *n *ng *w *y (voiceless stops with spirantization/voicing of medial stops in daughter languages; *kw labialized velar; *ts affricate). Vowels: *a *e(i) *i *o *u plus the unrounded central *i (written i-bar / ɨ); length contrast (long vowels, often written doubled). No voiced obstruents in Proto-Numic underlying forms; stress/pitch-accent on first syllable. Sahaptian adds ejectives (p' t' k' ts' q'), uvulars (q x), a lateral and labialized series, and heavy consonant clusters.",
+ "phonotactics": "Proto-Numic roots are typically CV(C)CV or CVCV; syllables are (C)V(V)(C), with codas largely restricted to nasals or geminate/pre-aspirated onset in daughter languages. In the reconstruction, many roots are disyllabic: CVCV, CVCCV (medial geminate or cluster). Word-final vowels are common in the reconstruction (final vowels often devoice or drop in daughter languages). Initial clusters are absent; medial clusters are mostly nasal+stop (ng, mp, nt, nk), or geminate stops. Sahaptian forms may have longer clusters but game names for this culture should keep Numic-like CV shapes.",
+ "orthography": "Use a Americanist-style plain Latin transliteration: p t k kw ts s h m n ng w y; vowels a e i o u plus ɨ (or 'i' for plain use); doubled vowels (aa, ii, uu) for length; optional apostrophe ' for glottal stop/ejective in the Plateau flavor. Reconstructions marked with an asterisk in scholarship. Avoid b d g f v z r l q c x j in Numic-flavored names; l appears only in Sahaptian/Penutian flavor and is best avoided.",
+ "morphology": "Uto-Aztecan/Numic is agglutinating and suffixing, SOV, with postpositions. Noun roots take a absolutive suffix (*-pi/-ppi, *-tti, *-ci, *-ya, *-wa, *-a, varying by stem class; e.g., Shoshoni -pi, -a). Numerals/demonstratives precede nouns. Derivational suffixes: instrumental/agent *-ka/-ka (e.g., 'one who does/eats'), nominalizer *-pu/-pi for instruments or objects, plural/collective *-m(i), locative postpositions *-pa 'at, in', *-kwa 'at/to'. Verb roots are commonly reduplicated for plurality or iterativity (C1V1-root). Noun-noun possession is by simple juxtaposition (possessor first) or with possessive prefixes (ni- 1sg, i-/a- 3sg).",
+ "compounding": "Compounds are head-final: modifier + head (e.g., 'water-bird', 'stone-knife'). Possessor precedes possessed (X Y = 'X's Y'). Place names often combine a resource noun with a locative suffix: noun + *-pa / *-kwa (e.g., 'water-at'). Agent/'-eater' names use the suffix -teka ('eater of', a common Numic ethnonym element, as in Kutsundeka 'buffalo-eater', Agaideka 'salmon-eater'). 'X of Y' constructions are formed by juxtaposing Y before X; 'Y-maker' by Y + verb root + agentive suffix.",
+ "noun_phrase_order": "Modifier-head: adjective + noun, possessor + possessed, demonstrative/numeral + noun; relative clauses precede the noun; postpositions follow the noun phrase.",
+ "attested_roots": [
+  {
+   "form": "*pa",
+   "gloss": "water",
+   "reconstructed": true
+  },
+  {
+   "form": "*kati",
+   "gloss": "sit, dwell",
+   "reconstructed": true
+  },
+  {
+   "form": "*tuhu",
+   "gloss": "black/dark",
+   "reconstructed": true
+  },
+  {
+   "form": "*tammi",
+   "gloss": "tooth",
+   "reconstructed": true
+  },
+  {
+   "form": "*sihi",
+   "gloss": "urinate (cf. tsii-)",
+   "reconstructed": true
+  },
+  {
+   "form": "*kwasi",
+   "gloss": "tail",
+   "reconstructed": true
+  },
+  {
+   "form": "*tika",
+   "gloss": "eat (cf. -teka 'eater')",
+   "reconstructed": true
+  },
+  {
+   "form": "*nɨwɨ",
+   "gloss": "person/Indian",
+   "reconstructed": true
+  },
+  {
+   "form": "*tɨkɨ",
+   "gloss": "to eat",
+   "reconstructed": true
+  },
+  {
+   "form": "*tonna",
+   "gloss": "head (Proto-Numic *tonna / cf. Proto-UA *tɨ)",
+   "reconstructed": true
+  },
+  {
+   "form": "*mɨ",
+   "gloss": "that (distal demonstrative)",
+   "reconstructed": true
+  },
+  {
+   "form": "*wɨhi",
+   "gloss": "two (Numic *waha(i))",
+   "reconstructed": true
+  },
+  {
+   "form": "*sɨwɨ",
+   "gloss": "to be sharp/cut",
+   "reconstructed": true
+  },
+  {
+   "form": "kusi",
+   "gloss": "buffalo/bison (Numic, attested in Shoshoni kusi-)",
+   "reconstructed": false
+  },
+  {
+   "form": "-teka",
+   "gloss": "eater (ethnonym suffix, e.g., Agaideka)",
+   "reconstructed": false
+  },
+  {
+   "form": "agai",
+   "gloss": "salmon (Shoshoni agai-)",
+   "reconstructed": false
+  },
+  {
+   "form": "pa-",
+   "gloss": "water (Shoshoni/Paiute pa-)",
+   "reconstructed": false
+  },
+  {
+   "form": "tɨmpi",
+   "gloss": "rock/stone (Numic *tɨmpi)",
+   "reconstructed": true
+  }
+ ],
+ "worked_examples": [
+  {
+   "english": "Water Seat",
+   "name": "Pakati",
+   "gloss": "pa 'water' + kati 'sit/dwell' (place-name compound, modifier-head order)"
+  },
+  {
+   "english": "Stone Knife",
+   "name": "Tɨmpisɨwɨ",
+   "gloss": "tɨmpi 'stone' + sɨwɨ 'sharp/cut' (instrument compound, modifier-head)"
+  },
+  {
+   "english": "At the Water",
+   "name": "Papa",
+   "gloss": "pa 'water' + -pa 'locative at/in'"
+  },
+  {
+   "english": "Salmon Eater",
+   "name": "Agaiteka",
+   "gloss": "agai 'salmon' + -teka 'eater' (Numic agentive ethnonym pattern)"
+  },
+  {
+   "english": "Dark Water",
+   "name": "Tuhupa",
+   "gloss": "tuhu 'black/dark' + pa 'water' (adjective + noun)"
+  },
+  {
+   "english": "People's Tooth",
+   "name": "Nɨwɨtammi",
+   "gloss": "nɨwɨ 'person' + tammi 'tooth' (possessor + possessed juxtaposition)"
+  }
+ ],
+ "allowed_graphemes": [
+  "p",
+  "t",
+  "k",
+  "kw",
+  "ts",
+  "s",
+  "h",
+  "m",
+  "n",
+  "ng",
+  "w",
+  "y",
+  "a",
+  "e",
+  "i",
+  "o",
+  "u",
+  "ɨ",
+  "aa",
+  "ee",
+  "ii",
+  "oo",
+  "uu"
+ ],
+ "extra_allowed_chars": " -'ɨ",
+ "forbidden_patterns": [
+  "[bdgfvzrlqcxj]",
+  "(.)\\1\\1",
+  "[^aeiouɨ ]{3,}",
+  "^[ptkmnshwy]*$",
+  "(ng|n|m)[^aeiouɨ ]"
+ ],
+ "syllables_per_word": [
+  2,
+  3,
+  4
+ ],
+ "max_word_length": 14,
+ "sources": [
+  "Miller, Wick R., Numic Languages (Handbook of North American Indians vol. 11), 1986",
+  "Sapir, Edward, Southern Paiute, a Shoshonean language, 1930-31",
+  "Miller, Wick R., Uto-Aztecan Cognate Sets, 1967",
+  "Hill, Jane H., Proto-Uto-Aztecan: A Community of Cultivators in Central Mexico?, American Anthropologist, 2001",
+  "Charney, Jean Ormsbee, A Grammar of Comanche, 1993 (Numic comparison)",
+  "Crum, Beverly and Dayley, Jon, Western Shoshoni Grammar, 1993",
+  "Gould, Drusilla and Loether, Christopher, An Introduction to the Shoshoni Language, 2002",
+  "Glottolog (Numic, Sahaptian, Plateau Penutian entries)",
+  "Starling database (Uto-Aztecan etymologies)",
+  "Jenkins, Dennis L. et al., Clovis age Western Stemmed projectile points and human coprolites at the Paisley Caves, Science, 2012",
+  "Davis, Loren G. et al., Late Upper Paleolithic occupation at Cooper's Ferry, Idaho, Science, 2019"
+ ],
+ "notes": "Language link is speculative: Numic is a late intrusive family and Western Stemmed foragers spoke languages now lost. This proxy supplies phonotactic plausibility only. No word may be identical to a Modern Irish, Scottish Gaelic or Manx word, since this is not a Goidelic culture. Avoid names that exactly match real modern Numic or Sahaptian words used as tribal names.",
+ "unit": "Western Stemmed Tradition",
+ "slug": "western_stemmed_tradition",
+ "model": "claude-sonnet-5-5"
+}

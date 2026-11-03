@@ -1,0 +1,158 @@
+{
+ "proxy_language": "Proto-Semitic (reconstructed), with Proto-Afroasiatic as a deeper fallback; cultural-linguistic link is speculative",
+ "confidence": "speculative",
+ "proxy_rationale": "Mureybet (c. 10,200-8,500 BCE, Epipaleolithic/Natufian-adjacent to PPNA, Middle Euphrates) is known only archaeologically; no language is attested. Some scholars (Bar-Yosef, Renfrew-style arguments, Militarev, Diakonoff on Afroasiatic) tentatively link Levantine Natufian/PPNA foragers and early farmers with Afroasiatic, and the Middle Euphrates later hosts Semitic (Amorite, Eblaite, Mari Akkadian) speakers, but the 9,000+ year gap makes any Proto-Semitic form a stylistic proxy, not a claim. Proto-Semitic is chosen because it is the best-reconstructed language family historically native to the region and has a transparent root-and-pattern morphology a name builder can use consistently. Names should be treated as evocative reconstructions only.",
+ "phonology": "Proto-Semitic consonants (Kogan/Huehnergard): stops b p t d t' (emphatic) k g k' ; fricatives s z s' (emphatic affricate/ejective) sh (sin/s-hat) h x gh (voiced velar) h-bar (pharyngeal) ayin; laryngeals ' (glottal stop) and h; sonorants m n l r; glides w y; interdentals th dh th' (emphatic). Vowels: short a i u, long a: i: u:; diphthongs aw ay. No voiced/voiceless contrast beyond reconstruction; emphatics are glottalic/ejective. Stress predictable, not phonemic.",
+ "phonotactics": "Canonical syllable shapes CV, CVC, CV: (long vowel), no word-initial vowel (words begin with a consonant, often ' glottal stop that is not written in simplified scholarly practice), no initial clusters, no vowel hiatus. Medial CC clusters arise only across syllable boundary (CVC.CV). Word-final is typically a short vowel (case ending -u/-i/-a in nouns) or a consonant after case loss. Roots are triconsonantal (occasionally biconsonantal); the vowels and affixes fill a template.",
+ "orthography": "Use conventional Semitist transliteration simplified to Latin letters: b p t d k g q (emphatic k) ' (glottal stop) ' for ayin written as ` if needed but avoid in game, h, kh/x, gh, sh (for s-hat), s, z, th, dh, m, n, l, r, w, y, plus emphatics rendered with an apostrophe after the consonant (t' s' q written q). Vowels a i u with macron or doubled vowel for length (aa ii uu). Reconstructed forms carry asterisk in glosses but not in the game names themselves.",
+ "morphology": "Root-and-pattern (templatic) system: triconsonantal root + vocalic pattern gives noun/verb meaning, e.g. *k-t-b 'write'. Nouns inflect for gender (masc, fem -at), number (sg, dual -aan/-ayn, pl -uu/-aat or broken plural), and three cases (nominative -u, genitive -i, accusative -a), plus definiteness added later. Common noun patterns: CaCC (qatl), CiCaaC, CuCuuC, maCCaC (place noun), maCCaCat (instrument/place), taCCuCat (abstract). Prefix ma- forms place/instrument nouns; suffix -at feminine/abstract; prefix sha- causative; prefix mu- agent participle.",
+ "compounding": "Compounding is not productive; construct state (genitive chain) is the standard way to express 'X of Y': head noun in construct state (case ending dropped or -u bound form) followed by the dependent noun in genitive: bayt-u 'house of' + X-i. 'X-maker' formed with agent participle mu-CaCCiC + object in genitive or an agent noun CaCCaC (e.g. *haddaad 'smith' pattern). Name builder: head + genitive dependent, optionally with attributive adjective after the noun.",
+ "noun_phrase_order": "Head-initial. Noun + genitive possessor (construct); noun + adjective (adjective agrees in gender, number, case and definiteness); demonstratives may precede or follow; numerals precede the noun for 1-2 and are nominal for higher numbers. Example: *bayt-u shamsh-i 'house of the sun'.",
+ "attested_roots": [
+  {
+   "form": "*ma'ay-",
+   "gloss": "water",
+   "reconstructed": true
+  },
+  {
+   "form": "*nahar-",
+   "gloss": "river",
+   "reconstructed": true
+  },
+  {
+   "form": "*bayt-",
+   "gloss": "house, dwelling",
+   "reconstructed": true
+  },
+  {
+   "form": "*shamsh-",
+   "gloss": "sun",
+   "reconstructed": true
+  },
+  {
+   "form": "*'ar'-",
+   "gloss": "earth, land",
+   "reconstructed": true
+  },
+  {
+   "form": "*'ilu",
+   "gloss": "god, deity",
+   "reconstructed": true
+  },
+  {
+   "form": "*lahm-",
+   "gloss": "bread, food",
+   "reconstructed": true
+  },
+  {
+   "form": "*'ayn-",
+   "gloss": "eye, spring",
+   "reconstructed": true
+  },
+  {
+   "form": "*kalb-",
+   "gloss": "dog",
+   "reconstructed": true
+  },
+  {
+   "form": "*thawr-",
+   "gloss": "bull, wild ox",
+   "reconstructed": true
+  },
+  {
+   "form": "*dam-",
+   "gloss": "blood",
+   "reconstructed": true
+  },
+  {
+   "form": "*'agh(a)l-",
+   "gloss": "calf, young bovine (approx. *'igl-)",
+   "reconstructed": true
+  },
+  {
+   "form": "*qarn-",
+   "gloss": "horn",
+   "reconstructed": true
+  },
+  {
+   "form": "*kawkab-",
+   "gloss": "star",
+   "reconstructed": true
+  },
+  {
+   "form": "*tamr-",
+   "gloss": "date (fruit)",
+   "reconstructed": true
+  },
+  {
+   "form": "*harr-",
+   "gloss": "hot, sun heat (approx.)",
+   "reconstructed": true
+  }
+ ],
+ "worked_examples": [],
+ "allowed_graphemes": [
+  "a",
+  "b",
+  "d",
+  "e",
+  "g",
+  "h",
+  "i",
+  "k",
+  "l",
+  "m",
+  "n",
+  "p",
+  "q",
+  "r",
+  "s",
+  "t",
+  "u",
+  "w",
+  "y",
+  "z",
+  "sh",
+  "kh",
+  "gh",
+  "th",
+  "dh",
+  "aa",
+  "ii",
+  "uu"
+ ],
+ "extra_allowed_chars": " '-",
+ "forbidden_patterns": [
+  "[aeiou]{3,}",
+  "^[aeiou]",
+  "[^aeiou ]{4,}",
+  "(.)\\1\\1",
+  "[cfjvx]",
+  "tsh",
+  "ch",
+  "oo",
+  "ee",
+  "'{2,}"
+ ],
+ "syllables_per_word": [
+  2,
+  3,
+  4
+ ],
+ "max_word_length": 14,
+ "sources": [
+  "Huehnergard, John. 2005. Features of Central Semitic / Proto-Semitic reconstruction",
+  "Kogan, Leonid. 2015. Genealogical Classification of Semitic: The Lexical Isoglosses",
+  "Weninger, Stefan (ed.). 2011. The Semitic Languages: An International Handbook",
+  "Militarev, Alexander and Kogan, Leonid. Semitic Etymological Dictionary (2000, 2005)",
+  "Starling database (Afroasiatic Etymology, Orel and Stolbova 1995 Hamito-Semitic Etymological Dictionary)",
+  "Bar-Yosef, Ofer. 1998. The Natufian culture in the Levant",
+  "Cauvin, Jacques. 2000. The Birth of the Gods and the Origins of Agriculture",
+  "Wiktionary Proto-Semitic reconstruction pages",
+  "Glottolog (Semitic, Afroasiatic)"
+ ],
+ "notes": "The Mureybetian language is entirely unknown; Proto-Semitic is a speculative stylistic proxy only. Avoid claiming genetic linkage. Keep names as templatic noun forms: CV(C)CV(C) with no initial vowels, no clusters at word start, optional case ending -u/-i/-a, feminine -at, and construct chains for compounds. The current game strings (e.g. Ghizagha ma'ig, Cuc'ac citsic) use letters like c and ts that do not belong to this system and should be replaced. No word may be identical to a Modern Irish, Scottish Gaelic or Manx word since this is not a Goidelic language.",
+ "unit": "Mureybetian",
+ "slug": "mureybetian",
+ "model": "claude-sonnet-5-5"
+}
