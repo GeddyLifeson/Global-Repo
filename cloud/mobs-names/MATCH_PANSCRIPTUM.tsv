@@ -1,0 +1,99 @@
+mod	entity	diaithiris_name	status	panscriptum_ids	panscriptum_names
+alexsmobs	tusklin	Tusklán	mod_original_no_entry		
+alexsmobs	rhinoceros	Srónbiendach	species_candidates	AR.diaithir.E3.fauna.005463;AR.diaithir.E3.fauna.005464;AR.diaithir.E3.fauna.005973;AR.diaithir.E3.fauna.006171;AR.diaithir.E3.fauna.006476;AR.diaithir.E3.fauna.007830;AR.diaithir.E3.fauna.007831;AR.diaithir.E3.fauna.007832	European rhinoceros beetle;Japanese rhinoceros beetle;Rhinoceros auklet;Rhinoceros hornbill;Rhinoceros Iguana;Black rhinoceros;Western black rhinoceros;White rhinoceros
+alexsmobs	void_worm	Koilig	mod_original_no_entry		
+alexsmobs	platypus	Ornaitnech	exact	AR.diaithir.E3.fauna.007582	Platypus
+alexsmobs	orca	Orkáin	exact	AR.diaithir.E3.fauna.007637	Orca
+alexsmobs	mungus	Muncháiner	mod_original_no_entry		
+alexsmobs	moose	Fiadadurk	exact	AR.diaithir.E3.fauna.007774	Moose
+alexsmobs	mudskipper	Lúbógu	species_candidates	AR.diaithir.E3.fauna.005097	Giant mudskipper
+alexsmobs	mantis_shrimp	Màistáil	species_candidates	AR.diaithir.E3.fauna.005232	Peacock mantis shrimp
+alexsmobs	maned_wolf	Manedbad	exact	AR.diaithir.E3.fauna.006295	Maned Wolf
+alexsmobs	lobster	Gliumach	species_candidates	AR.diaithir.E3.fauna.005209;AR.diaithir.E3.fauna.005210;AR.diaithir.E3.fauna.005211;AR.diaithir.E3.fauna.005212;AR.diaithir.E3.fauna.005213;AR.diaithir.E3.fauna.005214;AR.diaithir.E3.fauna.005215;AR.diaithir.E3.fauna.005216	American lobster;European lobster;Caribbean spiny lobster;European spiny lobster;Ornate spiny lobster;California spiny lobster;Southern rock lobster;Spanish slipper lobster
+alexsmobs	laviathan	Oldmuir	mod_original_no_entry		
+alexsmobs	komodo_dragon	Driegun	exact	AR.diaithir.E3.fauna.006551	Komodo Dragon
+alexsmobs	jerboa	Siemán	species_candidates	AR.diaithir.E3.fauna.007474	Greater Egyptian jerboa
+alexsmobs	hummingbird	Kolibrí	species_candidates	AR.diaithir.E3.fauna.005413;AR.diaithir.E3.fauna.006139;AR.diaithir.E3.fauna.006140;AR.diaithir.E3.fauna.006141;AR.diaithir.E3.fauna.006142;AR.diaithir.E3.fauna.006143;AR.diaithir.E3.fauna.006144	Hummingbird hawkmoth;Ruby-throated hummingbird;Anna's hummingbird;Rufous hummingbird;Bee hummingbird;Giant hummingbird;Sword-billed hummingbird
+alexsmobs	hammerhead_shark	Siurkach	species_candidates	AR.diaithir.E3.fauna.004872;AR.diaithir.E3.fauna.004885;AR.diaithir.E3.fauna.004886	Great hammerhead;Scalloped hammerhead;Smooth hammerhead
+alexsmobs	grizzly_bear	Broindech	no_entry		
+alexsmobs	gorilla	Gourila	species_candidates	AR.diaithir.E3.fauna.007384;AR.diaithir.E3.fauna.007385;AR.diaithir.E3.fauna.043007;AR.diaithir.E3.fauna.043008	Western lowland gorilla;Mountain gorilla;Conserving the western lowland gorilla;Conserving the mountain gorilla
+alexsmobs	giant_squid	Oldskoid	exact	AR.diaithir.E3.fauna.005159	Giant squid
+alexsmobs	skunk	Sitifind	species_candidates	AR.diaithir.E3.fauna.006382;AR.diaithir.E3.fauna.006383;AR.diaithir.E3.fauna.006384;AR.diaithir.E3.fauna.006385	Striped Skunk;Hooded Skunk;American Hog-nosed Skunk;Eastern Spotted Skunk
+alexsmobs	terrapin	Moirchladuiri	species_candidates	AR.diaithir.E3.fauna.006737;AR.diaithir.E3.fauna.006746	Diamondback Terrapin;Southern River Terrapin
+alexsmobs	seal	Róniond	species_candidates	AR.diaithir.E3.fauna.006421;AR.diaithir.E3.fauna.006422;AR.diaithir.E3.fauna.006423;AR.diaithir.E3.fauna.006424;AR.diaithir.E3.fauna.006425;AR.diaithir.E3.fauna.006426;AR.diaithir.E3.fauna.006427;AR.diaithir.E3.fauna.006428	Northern Fur Seal;Antarctic Fur Seal;Cape Fur Seal;South American Fur Seal;New Zealand Fur Seal;Guadalupe Fur Seal;Juan Fernandez Fur Seal;Galapagos Fur Seal
+alexsmobs	gelada_monkey	Gieladumun	no_entry		
+alexsmobs	spectre	Taibsi	mod_original_no_entry		
+alexsmobs	seagull	Faeileán	species_candidates	AR.diaithir.E3.fauna.006011;AR.diaithir.E3.fauna.006012;AR.diaithir.E3.fauna.006013;AR.diaithir.E3.fauna.006014;AR.diaithir.E3.fauna.006015;AR.diaithir.E3.fauna.006017;AR.diaithir.E3.fauna.006018	Herring gull;Great black-backed gull;Glaucous gull;Black-headed gull;Franklin's gull;Ivory gull;Laughing gull
+alexsmobs	emu	Kosdubchrund	exact	AR.diaithir.E3.fauna.005549	Emu
+alexsmobs	frilled_shark	Sienchuilech	exact	AR.diaithir.E3.fauna.004909	Frilled shark
+alexsmobs	elephant	Eilifinti	species_candidates	AR.diaithir.E3.fauna.005574;AR.diaithir.E3.fauna.005575;AR.diaithir.E3.fauna.005576;AR.diaithir.E3.fauna.006443;AR.diaithir.E3.fauna.006444;AR.diaithir.E3.fauna.006671;AR.diaithir.E3.fauna.007881;AR.diaithir.E3.fauna.007882	Elephant bird;Hildebrandt's elephant bird;Titanic elephant bird;Northern Elephant Seal;Southern Elephant Seal;Elephant Trunk Snake;African bush elephant;African forest elephant
+alexsmobs	dropbear	Dratur	mod_original_no_entry		
+alexsmobs	devils_hole_pupfish	Kripfis	no_entry		
+alexsmobs	cosmic_cod	Forbelach	mod_original_no_entry		
+alexsmobs	crocodile	Krokadul	species_candidates	AR.diaithir.E3.fauna.006448;AR.diaithir.E3.fauna.006449;AR.diaithir.E3.fauna.006450;AR.diaithir.E3.fauna.006453;AR.diaithir.E3.fauna.006462;AR.diaithir.E3.fauna.006463;AR.diaithir.E3.fauna.006464;AR.diaithir.E3.fauna.006465	Nile Crocodile;Saltwater Crocodile;American Crocodile;Orinoco Crocodile;African Dwarf Crocodile;Slender-snouted Crocodile;West African Crocodile;Cuban Crocodile
+alexsmobs	catfish	Príombrek	species_candidates	AR.diaithir.E3.fauna.004760;AR.diaithir.E3.fauna.004761;AR.diaithir.E3.fauna.004762;AR.diaithir.E3.fauna.004763;AR.diaithir.E3.fauna.004765;AR.diaithir.E3.fauna.004766;AR.diaithir.E3.fauna.004767;AR.diaithir.E3.fauna.004770	Blue catfish;Channel catfish;Redtail catfish;Flathead catfish;Wels catfish;Amur catfish;Mekong giant catfish;Piraiba (goliath catfish)
+alexsmobs	caiman	Kaimán	species_candidates	AR.diaithir.E3.fauna.006456;AR.diaithir.E3.fauna.006457;AR.diaithir.E3.fauna.006458;AR.diaithir.E3.fauna.006459;AR.diaithir.E3.fauna.006460;AR.diaithir.E3.fauna.006461;AR.diaithir.E3.fauna.006526	Black Caiman;Spectacled Caiman;Yacare Caiman;Broad-snouted Caiman;Cuvier's Dwarf Caiman;Schneider's Smooth-fronted Caiman;Caiman Lizard
+alexsmobs	crimson_mosquito	Koinlech	mod_original_no_entry		
+alexsmobs	cockroach	Kkarnabuild	species_candidates	AR.diaithir.E3.fauna.005514;AR.diaithir.E3.fauna.005515;AR.diaithir.E3.fauna.005516	Madagascar hissing cockroach;Giant burrowing cockroach;American cockroach
+alexsmobs	bison	Bíousún	species_candidates	AR.diaithir.E3.fauna.007664;AR.diaithir.E3.fauna.007665;AR.diaithir.E3.fauna.007667;AR.diaithir.E3.fauna.007668;AR.diaithir.E3.fauna.007669;AR.diaithir.E3.fauna.043053	Plains bison;European bison;Steppe bison;Ancient bison;Long-horned bison;Conserving the european bison
+alexsmobs	blobfish	Bolgiach	exact	AR.diaithir.E3.fauna.005117	Blobfish
+alexsmobs	bald_eagle	Iulur	exact	AR.diaithir.E3.fauna.005579	Bald eagle
+alexsmobs	anteater	Míoulchú	species_candidates	AR.diaithir.E3.fauna.007589;AR.diaithir.E3.fauna.007592;AR.diaithir.E3.fauna.043037	Giant anteater;Silky anteater;Conserving the giant anteater
+alexsmobs	anaconda	Anakunda	species_candidates	AR.diaithir.E3.fauna.006577;AR.diaithir.E3.fauna.006579	Green Anaconda;Yellow Anaconda
+alexsmobs	alligator_snapping_turtle	Seilidi	exact	AR.diaithir.E3.fauna.006740	Alligator Snapping Turtle
+alexsmobs	bone_serpent	Natuir	mod_original_no_entry		
+alexsmobs	gazelle	Gasuilín	species_candidates	AR.diaithir.E3.fauna.007718;AR.diaithir.E3.fauna.007719;AR.diaithir.E3.fauna.007720;AR.diaithir.E3.fauna.007721;AR.diaithir.E3.fauna.007722;AR.diaithir.E3.fauna.007723;AR.diaithir.E3.fauna.007746;AR.diaithir.E3.fauna.007747	Goitered gazelle;Mountain gazelle;Mongolian gazelle;Przewalski's gazelle;Tibetan gazelle;Queen of Sheba's gazelle;Thomson's gazelle;Grant's gazelle
+alexsmobs	toucan	Toikín	species_candidates	AR.diaithir.E3.fauna.006175;AR.diaithir.E3.fauna.006176	Toco toucan;Keel-billed toucan
+alexsmobs	shoebill	Koildeog	exact	AR.diaithir.E3.fauna.005740	Shoebill
+alexsmobs	tiger	Tíogur	exact	AR.diaithir.E3.fauna.006221	Tiger
+alexsmobs	warped_toad	Brokán	mod_original_no_entry		
+alexsmobs	snow_leopard	Siondach	exact	AR.diaithir.E3.fauna.006235	Snow Leopard
+alexsmobs	underminer	Ísieltulum	mod_original_no_entry		
+alexsmobs	skreecher	Skréachuiri	mod_original_no_entry		
+alexsmobs	kangaroo	Kangurú	species_candidates	AR.diaithir.E3.fauna.005551;AR.diaithir.E3.fauna.007465;AR.diaithir.E3.fauna.007549;AR.diaithir.E3.fauna.007550;AR.diaithir.E3.fauna.007551;AR.diaithir.E3.fauna.007561;AR.diaithir.E3.fauna.007564;AR.diaithir.E3.fauna.043031	Kangaroo Island emu;Merriam's kangaroo rat;Red kangaroo;Eastern grey kangaroo;Western grey kangaroo;Goodfellow's tree-kangaroo;Desert rat-kangaroo;Conserving the goodfellow's tree-kangaroo
+alexsmobs	farseer	Faisnéiseoiri	mod_original_no_entry		
+alexsmobs	enderiophage	Aildedán	mod_original_no_entry		
+alexsmobs	cosmaw	Kosmael	mod_original_no_entry		
+alexsmobs	crow	Dubchaisteoir	species_candidates	AR.diaithir.E3.fauna.006185;AR.diaithir.E3.fauna.006186;AR.diaithir.E3.fauna.006187;AR.diaithir.E3.fauna.006191;AR.diaithir.E3.fauna.006194;AR.diaithir.E3.fauna.006195;AR.diaithir.E3.fauna.006197;AR.diaithir.E3.fauna.006198	Carrion crow;Hooded crow;American crow;Pied crow;Large-billed crow;New Caledonian crow;Torresian crow;Hawaiian crow (alala)
+alexsmobs	comb_jelly	Kíradub	no_entry		
+alexsmobs	raccoon	Bandaeinech	exact	AR.diaithir.E3.fauna.006406	Raccoon
+alexsmobs	rain_frog	Báistech	species_candidates	AR.diaithir.E3.fauna.006803	Cape Rain Frog
+alexsmobs	endergrade	Ifrend	mod_original_no_entry		
+alexsmobs	blue_jay	Gausóg	exact	AR.diaithir.E3.fauna.006204	Blue jay
+alexsmobs	roadrunner	Ritledán	species_candidates	AR.diaithir.E3.fauna.006146	Greater roadrunner
+alexsmobs	triops	Siedán	no_entry		
+alexsmobs	sugar_glider	Ionkumóg	exact	AR.diaithir.E3.fauna.007579	Sugar glider
+alexsmobs	soul_vulture	Anumiach	mod_original_no_entry		
+alexsmobs	sunbird	Gríanéun	mod_original_no_entry		
+alexsmobs	mimicube	Kubuimitéir	mod_original_no_entry		
+alexsmobs	stradpole	Straidpeán	mod_original_no_entry		
+alexsmobs	warped_mosco	Moska	mod_original_no_entry		
+alexsmobs	flying_fish	Eitleogiask	no_entry		
+alexsmobs	sea_bear	Mórblieá	mod_original_no_entry		
+alexsmobs	straddler	Dourcha	mod_original_no_entry		
+alexsmobs	skelewag	Brúnauch	mod_original_no_entry		
+alexsmobs	froststalker	Oigrechálaí	mod_original_no_entry		
+alexsmobs	tasmanian_devil	Diabul	exact	AR.diaithir.E3.fauna.007568	Tasmanian devil
+alexsmobs	tarantula_hawk	Siebak	species_candidates	AR.diaithir.E3.fauna.005443	Tarantula hawk wasp
+alexsmobs	banana_slug	Seilmuk	species_candidates	AR.diaithir.E3.fauna.005286	Pacific banana slug
+alexsmobs	rattlesnake	Klagurnatuir	species_candidates	AR.diaithir.E3.fauna.006572;AR.diaithir.E3.fauna.006576;AR.diaithir.E3.fauna.006632;AR.diaithir.E3.fauna.006633;AR.diaithir.E3.fauna.006634;AR.diaithir.E3.fauna.006640	Eastern Diamondback Rattlesnake;Western Diamondback Rattlesnake;Timber Rattlesnake;Prairie Rattlesnake;Mojave Rattlesnake;South American Rattlesnake
+alexsmobs	capuchin_monkey	Mionkaí	species_candidates	AR.diaithir.E3.fauna.007407	Tufted capuchin
+alexsmobs	mimic_octopus	Siechránach	exact	AR.diaithir.E3.fauna.005173	Mimic octopus
+alexsmobs	leafcutter_ant	Seilgi	exact	AR.diaithir.E3.fauna.005448	Leafcutter ant
+alexsmobs	murmur	Kogur	mod_original_no_entry		
+alexsmobs	rocky_roller	Kloichruldóg	mod_original_no_entry		
+alexsmobs	cachalot_whale	Kétmoirbéul	exact	AR.diaithir.E3.fauna.007634	Sperm whale
+alexsmobs	potoo	Oíchi	no_entry		
+alexsmobs	bunfungus	Boulgán	mod_original_no_entry		
+friendsandfoes	crab	Pourtán	species_candidates	AR.diaithir.E3.fauna.005185;AR.diaithir.E3.fauna.005186;AR.diaithir.E3.fauna.005187;AR.diaithir.E3.fauna.005188;AR.diaithir.E3.fauna.005189;AR.diaithir.E3.fauna.005190;AR.diaithir.E3.fauna.005191;AR.diaithir.E3.fauna.005192	Red king crab;Blue king crab;Golden king crab;Southern king crab (centolla);Spiny king crab;Coconut crab;Japanese spider crab;Tasmanian giant crab
+friendsandfoes	rascal	Knapsaetach	mod_original_no_entry		
+friendsandfoes	penguin	Mienbrundán	species_candidates	AR.diaithir.E3.fauna.005942;AR.diaithir.E3.fauna.005943;AR.diaithir.E3.fauna.005944;AR.diaithir.E3.fauna.005945;AR.diaithir.E3.fauna.005946;AR.diaithir.E3.fauna.005947;AR.diaithir.E3.fauna.005948;AR.diaithir.E3.fauna.005949	Emperor penguin;King penguin;Adelie penguin;Chinstrap penguin;Gentoo penguin;Macaroni penguin;Royal penguin;Southern rockhopper penguin
+friendsandfoes	illusioner	Rabchuiri	mod_original_no_entry		
+friendsandfoes	mauler	Mórchrúbéal	mod_original_no_entry		
+friendsandfoes	barnacle	Klochduirend	mod_original_no_entry		
+friendsandfoes	wildfire	Spréachlasuir	mod_original_no_entry		
+friendsandfoes	tuff_golem	Kloikechloch	mod_original_no_entry		
+friendsandfoes	glare	Gielskian	mod_original_no_entry		
+friendsandfoes	ice_chunk	Oigreán	mod_original_no_entry		
+friendsandfoes	iceologer	Oigredán	mod_original_no_entry		
+friendsandfoes	moobloom	Blátchnok	mod_original_no_entry		

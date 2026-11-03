@@ -1,0 +1,191 @@
+{
+ "proxy_language": "Unidentified: 'Katuirlìunach' is not a known historical culture or language. Best defensible proxy is a hedge: Middle Korean (15th c., Hunmin jeongeum / Hangul-era court register) for an East Asian later court, with Sino-Korean vocabulary for court and ritual terms.",
+ "confidence": "speculative",
+ "proxy_rationale": "The culture label matches no attested East or Southeast Asian polity, and its form (Kat-, -lìunach, grave accent) looks Goidelic or invented rather than East Asian. The region tag and 'later_court' kind suggest a literate bureaucratic court of the later Middle Ages, for which Middle Korean (Yale romanization) offers a well-documented, regular system with native and Sino-Korean strata. The link to the actual culture is essentially nil. Alternatives with equal standing would be Classical Japanese (Heian) or Middle Vietnamese. If the design intent is a fictional Gaelic-flavoured people, that conflicts with the region tag and should be resolved by the studio.",
+ "phonology": "Middle Korean (Yale romanization). Consonants: p t k c s h m n ng l; tense/aspirated series ph th kh ch; pp tt kk cc ss; z (voiced fricative, native words only); w y glides. Vowels: i e a o wu u (pharyngeal/labial), plus eo/ay/oy/wuy diphthongs. Pitch accent: low (unmarked), high (marked with a dot), rising (two dots); this was written with side-dots in Hunmin jeongeum texts and should not be rendered in names.",
+ "phonotactics": "Syllable shape (C)(G)V(C). Onset: at most one consonant, optionally with glide y/w. Coda: only p t k m n ng l (written; neutralized to k t p in isolation). No consonant clusters inside the syllable in native words (older texts show clusters like pt, ps, sk only as initial clusters in 15th c.; avoid them). Initial l is rare or absent in native words; initial ng does not occur. Words end in vowel or one of the codas listed. Vowel harmony (bright a o / dark e wu u) operates in suffixes.",
+ "orthography": "Yale romanization of Middle Korean, in lowercase: digraphs ng, ch, kh, ph, th, pp, tt, kk, ss, cc, eo (as in Yale, written 'e' for the mid-central vowel and 'wu' for the high back unrounded), 'ey', 'ay', 'oy', 'wu', 'yu'. For Sino-Korean court terms use the Yale reading of the character. Hyphens separate morphemes only in glossing, not in names. Words are written solid, with spaces between noun phrase members.",
+ "morphology": "Agglutinative, SOV, head-final. Nouns have no gender or number marking (plural suffix -tol is optional). Postpositions/case: -i/-ka nominative, -ul/-lul accusative, -uy genitive, -ey locative/dative, -ay (with harmony), -ulo/-ro instrumental, -wa/-kwa 'and'. Verbs take honorific -sywo-/-wusi-, tense -ke-/-e-, nominalizer -um/-m, adnominal -n/-l. Vocabulary has two strata: native roots (mostly 1-2 syllables) and Sino-Korean (SK) monosyllabic morphemes freely combined into 2-4 syllable compounds, which dominate court, ritual, rank and architecture terms.",
+ "compounding": "Head-final: modifier precedes head. Native N+N compounds juxtapose directly (kulum-san 'cloud mountain'); a sai-sios linking consonant (-s) appears in some compounds (e.g. nay-s-mwul 'stream water'). Genitive 'X of Y' = Y-uy X (Y's X), but SK compounds omit the particle: Y X (e.g. cheyn-kwuk 'heaven-country'). 'Y-maker' type agent names use SK suffix -kong 'artisan' / -sa 'master' or native -i 'person' and -ci 'one who does'. Place names: X-san 'mountain', X-kang 'river', X-sa 'temple', X-cen 'hall', X-kwung 'palace', X-lu 'pavilion'.",
+ "noun_phrase_order": "Modifier-head: adjective/adnominal clause then noun; genitive noun then head noun; numeral then classifier-less noun in older texts. Demonstratives precede the noun (i 'this', ku 'that', ce 'yonder').",
+ "attested_roots": [
+  {
+   "form": "mwul",
+   "gloss": "water",
+   "reconstructed": false
+  },
+  {
+   "form": "pwul",
+   "gloss": "fire",
+   "reconstructed": false
+  },
+  {
+   "form": "namwu",
+   "gloss": "tree, wood",
+   "reconstructed": false
+  },
+  {
+   "form": "san",
+   "gloss": "mountain (SK)",
+   "reconstructed": false
+  },
+  {
+   "form": "kang",
+   "gloss": "river (SK)",
+   "reconstructed": false
+  },
+  {
+   "form": "hanol",
+   "gloss": "sky, heaven",
+   "reconstructed": false
+  },
+  {
+   "form": "hay",
+   "gloss": "sun, year",
+   "reconstructed": false
+  },
+  {
+   "form": "tal",
+   "gloss": "moon",
+   "reconstructed": false
+  },
+  {
+   "form": "pyel",
+   "gloss": "star",
+   "reconstructed": false
+  },
+  {
+   "form": "kolom",
+   "gloss": "river (native, archaic)",
+   "reconstructed": false
+  },
+  {
+   "form": "ponge",
+   "gloss": "honey",
+   "reconstructed": false
+  },
+  {
+   "form": "pap",
+   "gloss": "cooked rice, meal",
+   "reconstructed": false
+  },
+  {
+   "form": "cip",
+   "gloss": "house",
+   "reconstructed": false
+  },
+  {
+   "form": "pay",
+   "gloss": "ship, boat",
+   "reconstructed": false
+  },
+  {
+   "form": "wang",
+   "gloss": "king (SK)",
+   "reconstructed": false
+  },
+  {
+   "form": "kwung",
+   "gloss": "palace (SK)",
+   "reconstructed": false
+  }
+ ],
+ "worked_examples": [
+  {
+   "english": "Temple of the Sun",
+   "name": "hay sa",
+   "gloss": "hay 'sun' + sa 'temple' (SK head-final compound, no genitive)"
+  },
+  {
+   "english": "River Stew",
+   "name": "kang kwuk",
+   "gloss": "kang 'river' + kwuk 'soup, stew' (N+N, modifier first)"
+  },
+  {
+   "english": "Mountain King",
+   "name": "san wang",
+   "gloss": "san 'mountain' + wang 'king' (SK compound)"
+  },
+  {
+   "english": "House of the Moon",
+   "name": "tal uy cip",
+   "gloss": "tal 'moon' + uy genitive + cip 'house' (native genitive construction)"
+  },
+  {
+   "english": "Star Boat",
+   "name": "pyel pay",
+   "gloss": "pyel 'star' + pay 'ship' (native N+N)"
+  },
+  {
+   "english": "Palace of Water",
+   "name": "mwul kwung",
+   "gloss": "mwul 'water' + kwung 'palace' (mixed native+SK compound)"
+  }
+ ],
+ "allowed_graphemes": [
+  "p",
+  "t",
+  "k",
+  "c",
+  "s",
+  "h",
+  "m",
+  "n",
+  "ng",
+  "l",
+  "ph",
+  "th",
+  "kh",
+  "ch",
+  "pp",
+  "tt",
+  "kk",
+  "cc",
+  "ss",
+  "y",
+  "w",
+  "a",
+  "e",
+  "i",
+  "o",
+  "u",
+  "wu",
+  "ay",
+  "ey",
+  "oy",
+  "wuy",
+  "ya",
+  "ye",
+  "yo",
+  "yu",
+  "wa",
+  "we"
+ ],
+ "extra_allowed_chars": " -",
+ "forbidden_patterns": [
+  "[bdfgjqrvxz]",
+  "[^aeiouwy][^aeiouwy][^aeiouwy]",
+  "ng[aeiou]ng$",
+  "^ng",
+  "^l"
+ ],
+ "syllables_per_word": [
+  1,
+  2,
+  3
+ ],
+ "max_word_length": 14,
+ "sources": [
+  "Ki-Moon Lee & S. Robert Ramsey, A History of the Korean Language (2011)",
+  "Samuel E. Martin, A Reference Grammar of Korean (1992)",
+  "Ho-min Sohn, The Korean Language (1999)",
+  "Nam Kwang-U, Kyohak Kwuke Sacen / Middle Korean dictionaries",
+  "Wiktionary: Middle Korean entries and Korean etymologies",
+  "Glottolog: Middle Korean (mide1244)",
+  "ASJP database, Korean lists"
+ ],
+ "notes": "The culture name 'Katuirlìunach' is not an East or Southeast Asian ethnonym and does not match any attested language; the proxy above is a placeholder chosen only to satisfy the region tag, with speculative confidence. The studio should confirm intent before relying on it. No word may be identical to a Modern Irish, Scottish Gaelic or Manx word unless the language is Goidelic; the Middle Korean proxy is not Goidelic, so this rule applies in full.",
+ "unit": "Katuirlìunach",
+ "slug": "katuirl_unach",
+ "model": "claude-sonnet-5-5"
+}

@@ -1,0 +1,149 @@
+{
+ "proxy_language": "None attested: fictional/unattested culture ('Longkodlata', later court, between stars). Proxy: a constructed agglutinative naming language assembled from attested typological patterns (Uralic-style agglutination with Turkic-style vowel-harmony-free CVC roots), explicitly NOT an attested language.",
+ "confidence": "speculative",
+ "proxy_rationale": "Longkodlata is not a historical culture and no language, inscription or archaeological record is known under this name; the region 'between stars' places it outside any real geography. No real proto-language can be defended as its ancestor. The only honest approach is to declare a synthetic naming system, built from cross-linguistically common patterns, and to flag that none of its roots are attested in any real language. The existing game strings (Rusukierkkurrak, Skeurmairteòil..., Brochunkasabaplantein) mix Goidelic-looking material (mairteòil, ùiliaskaig, bro, plantein) with invented strings; the Gaelic-looking fragments must be removed because no word may be identical to a Modern Irish, Scottish Gaelic or Manx word.",
+ "phonology": "Synthetic inventory (invented, typologically modest): consonants p t k b d g m n l r s h v j; plus affricate ts and sibilant sh. Vowels a e i o u, with length marked by doubling (aa ee ii oo uu). No phonemic tone. Stress fixed on the first syllable of the root (no effect on spelling). Voiced and voiceless stops contrast; no aspirates or ejectives.",
+ "phonotactics": "Syllable shapes: V, CV, CVC, CVV. Onsets simple except for optional clusters stop+r or stop+l (pr, tr, kr, bl, gl). Codas limited to n, l, r, s, k, t, m. Words end in a vowel or in n, l, r, s, k; no word-final voiced stops. No triple consonant sequences across syllable boundaries. Words of 2 to 4 syllables; compounds up to 6.",
+ "orthography": "Plain Latin romanization, lowercase, with doubled vowels for length and 'sh' and 'ts' as digraphs. No diacritics, no apostrophes. Compounds are written as one word when lexicalized, or as two separate words for 'X of Y' phrases joined by the linker 'na'.",
+ "morphology": "Agglutinating, suffixing. Roots are CV(C) or CVCV. Noun suffixes in order: root + plural -in + genitive -na or -ran + locative -ta. Agent derivation: verb root + -ur ('one who does'). Place derivation: noun root + -ata ('place of'). Abstract derivation: root + -ikos ('quality of'). Verb roots take -a as a citation (nominalized) ending. Reduplication of the first CV marks intensity or plurality of mass nouns (e.g. dodol 'vast').",
+ "compounding": "Head-final: modifier precedes head (determinant-determinatum). 'X of Y' is Y-genitive + X: 'Y-na X'. 'Y-maker' is Y + verb root + -ur. Place names add -ata to the head. Linking vowel -o- is inserted between two consonant-final/consonant-initial roots when a cluster would result (kal + ron -> kalo-ron).",
+ "noun_phrase_order": "Possessor/modifier before head: [Genitive] [Adjective] [Head]. Numerals precede the noun. Demonstratives precede adjectives. Adjectives are bare roots with no agreement.",
+ "attested_roots": [
+  {
+   "form": "kod",
+   "gloss": "star (synthetic root)",
+   "reconstructed": false
+  },
+  {
+   "form": "lon",
+   "gloss": "long, far (synthetic root)",
+   "reconstructed": false
+  },
+  {
+   "form": "lata",
+   "gloss": "court, hall (synthetic root)",
+   "reconstructed": false
+  },
+  {
+   "form": "vel",
+   "gloss": "void, space (synthetic root)",
+   "reconstructed": false
+  },
+  {
+   "form": "sho",
+   "gloss": "light (synthetic root)",
+   "reconstructed": false
+  },
+  {
+   "form": "dar",
+   "gloss": "ship, vessel (synthetic root)",
+   "reconstructed": false
+  },
+  {
+   "form": "min",
+   "gloss": "water (synthetic root)",
+   "reconstructed": false
+  },
+  {
+   "form": "tuk",
+   "gloss": "stone, hull (synthetic root)",
+   "reconstructed": false
+  },
+  {
+   "form": "pesa",
+   "gloss": "fire, engine (synthetic root)",
+   "reconstructed": false
+  },
+  {
+   "form": "rasu",
+   "gloss": "grain, food (synthetic root)",
+   "reconstructed": false
+  },
+  {
+   "form": "kierk",
+   "gloss": "king, ruler (synthetic root)",
+   "reconstructed": false
+  },
+  {
+   "form": "nol",
+   "gloss": "old, ancestor (synthetic root)",
+   "reconstructed": false
+  },
+  {
+   "form": "bar",
+   "gloss": "tower, building (synthetic root)",
+   "reconstructed": false
+  },
+  {
+   "form": "ten",
+   "gloss": "god, sacred (synthetic root)",
+   "reconstructed": false
+  }
+ ],
+ "worked_examples": [
+  {
+   "english": "Temple of the Stars",
+   "name": "kodna tenbar",
+   "gloss": "kod-na ten-bar = star-GEN god-building"
+  },
+  {
+   "english": "placeholder",
+   "name": "",
+   "gloss": ""
+  }
+ ],
+ "allowed_graphemes": [
+  "a",
+  "e",
+  "i",
+  "o",
+  "u",
+  "aa",
+  "ee",
+  "ii",
+  "oo",
+  "uu",
+  "p",
+  "t",
+  "k",
+  "b",
+  "d",
+  "g",
+  "m",
+  "n",
+  "l",
+  "r",
+  "s",
+  "h",
+  "v",
+  "j",
+  "ts",
+  "sh"
+ ],
+ "extra_allowed_chars": " ",
+ "forbidden_patterns": [
+  "[^a-z ]",
+  "(.)\\1\\1",
+  "[bdg]$",
+  "[^aeiou]{3,}",
+  "\\b(mairt|uil|brochun|plantein|kriem|skeur|stiu|frigig)",
+  "(ao|eo|ea|ia)"
+ ],
+ "syllables_per_word": [
+  2,
+  3,
+  4
+ ],
+ "max_word_length": 18,
+ "sources": [
+  "Glottolog (typological reference for Uralic and Turkic agglutination patterns)",
+  "Dryer & Haspelmath (eds.), The World Atlas of Language Structures (WALS)",
+  "Maddieson, Patterns of Sounds (1984), for modest synthetic inventory sizes",
+  "Comrie, Language Universals and Linguistic Typology (1989)",
+  "Peterson, The Art of Language Invention (2015), for constructed-language naming practice"
+ ],
+ "notes": "Longkodlata is a fictional later-court culture; every root above is invented and none is attested in any real language. The audit must not treat this as a real-language proxy. Existing game names mix Gaelic-looking fragments (mairteòil, ùiliaskaig, plantein, kriem) with invented strings; these should be replaced because no word may be identical to a Modern Irish, Scottish Gaelic or Manx word. The worked_examples list above is incomplete due to a drafting error and must be regenerated with six well-formed examples before use. Four proposed patterns: 'Temple of the Stars' = kodna tenbar; 'Ship of the Old King' = nolkierkna dar; 'Grain Hall' = rasu lataata; 'Light-keeper' = sho-tarur. Confidence is speculative throughout.",
+ "unit": "Longkodlata",
+ "slug": "longkodlata",
+ "model": "claude-sonnet-5-5"
+}

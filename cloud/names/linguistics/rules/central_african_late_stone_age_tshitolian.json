@@ -1,0 +1,199 @@
+{
+ "proxy_language": "Proto-Bantu (Guthrie/Bastin-Coupez-Mann reconstruction), with attested Kikongo/Kimbundu/Cokwe/Luba lexemes as secondary models",
+ "confidence": "low",
+ "proxy_rationale": "The Tshitolian (c. 15-12 kya to ~Holocene, Congo basin, Angola, Lower Congo) is known only from lithics and sites; its makers' languages are unknown and probably unrelated to later Bantu (they may be ancestral to Central African foragers or lost languages). Bantu expansion reached the region only ~3-4 kya. Proto-Bantu is thus a weak but pragmatic regional proxy, chosen because Bantu is the dominant language family of the Congo basin and Angola and has well-documented roots and word-building rules. Treat as a stylistic proxy, not a claim of linguistic descent.",
+ "phonology": "Proto-Bantu 7-vowel system *i *e *a *o *u plus super-close *į *ų (Bantuist notation); in modern transcription 5 vowels a e i o u (with length optional). Consonants: voiceless stops p t c(k) k; voiced/lenis b d j g (originally *b *d *j *g spirants); nasals m n ny ng'; fricatives s (and * y *w glides; l/r allophones. Prenasalised stops mb nd nj ng and nasal+fricative ns/nz are phonemic or surface clusters. Tone is lexical (high/low) but is not written in practical orthographies.",
+ "phonotactics": "Strictly open syllables: (C)(N)(G)V, i.e. V, CV, NCV, CGV (G = y/w), NCGV. No codas, no word-final consonants. Only clusters are prenasalised stops/affricates and C+glide (kw, gw, ty, ny, mw). Nasal before stop is homorganic (mb, nd, ng, nj). Vowel-initial words occur, especially noun-class prefixes. Typical roots CVC(V)-: *-CV-, *-CVC-, *-CVCV-. Penultimate stress/length in many modern languages, not spelled.",
+ "orthography": "Practical Bantu Latin orthography (Africa Alphabet style): a b c d e f g h i j k l m n o p r s t u v w y z, with digraphs ng, mb, nd, nj, ny, ng' (velar nasal, written ng' or ŋ), ch/sh optional. Reconstructed forms use hyphen-initial roots with asterisk: *-ntu, *-tó. Keep 5 vowels a e i o u. Spaces separate words; hyphens separate prefix-root if used.",
+ "morphology": "Agglutinating, noun-class system (Classes 1/2 mu-/ba- humans, 3/4 mu-/mi- trees and things, 5/6 di-/ma- (li-/ma-), 7/8 ki-/bi- (ki-/vi-) tools/manner/diminutive-augmentative, 9/10 N-/N- animals and loans, 11 lu-, 12/13 ka-/tu- diminutive, 14 bu- abstract/collective, 15 ku- infinitive, 16-18 pa- ku- mu- locatives). Nouns = class prefix + root; plural by class switch (mu-ntu / ba-ntu). Verbs = infinitive ku- + root + final -a (*-tema 'cut'); extensions -il- (applicative), -an- (reciprocal), -ik-/-ek- (stative), -ish-/-is- (causative), -ul- (reversive). Agent nouns by mu-/ba- + verb root + -i or -a: mu-tem-i 'cutter'. Instrument/place nouns in ki-/bi-, ma-, or -ilo suffix: ku-lim-a 'to cultivate' -> ki-lim-o. Adjectives agree by concord prefix.",
+ "compounding": "True compounding is rare; relations are expressed with head-initial genitive/associative linker: head noun + concord-a + modifier, where the linker -a (with class concord) means 'of': e.g. ki-ntu ki-a ma-nzi 'thing of water'; mu-lunga w-a n-tangu 'person of the sun' (w- is class-3/1 concord; vowel coalescence a+a -> a, i+a -> ya/ia, u+a -> wa). 'X-maker' = mu-/ba- + verb + -i (mu-bung-i). Place names often use locative prefixes pa-/ku-/mu- + noun or class 16-18, e.g. mu-ma-nzi 'in the water'. Reduplication marks intensity/repetition and diminutives (ka-ntu ka-ntu).",
+ "noun_phrase_order": "Head noun first, then modifiers: Noun + Adjective/Associative/Possessive/Demonstrative/Numeral, each agreeing with the head class prefix. E.g. mu-ntu mu-nene 'big person'; ki-sa ki-a ma-ti 'house of trees'.",
+ "attested_roots": [
+  {
+   "form": "*-ntu",
+   "gloss": "person (mu-ntu, ba-ntu)",
+   "reconstructed": true
+  },
+  {
+   "form": "*-tí",
+   "gloss": "tree, wood (mu-ti, mi-ti)",
+   "reconstructed": true
+  },
+  {
+   "form": "*-nzi / *-jì",
+   "gloss": "water source; *-nji 'river, water' variants (ma-nzi, ma-ji)",
+   "reconstructed": true
+  },
+  {
+   "form": "*-bádá / *-bandá",
+   "gloss": "fire (mu-lilo, mu-ro reflex of *-tó/-dóó)",
+   "reconstructed": true
+  },
+  {
+   "form": "*-tángú",
+   "gloss": "sun (di-tangu, li-tango)",
+   "reconstructed": true
+  },
+  {
+   "form": "*-cuá",
+   "gloss": "stone, rock (ma-ta; *-báadà 'rock')",
+   "reconstructed": true
+  },
+  {
+   "form": "*-bálà",
+   "gloss": "hill, rocky ground (also *-kúmbá 'pit')",
+   "reconstructed": true
+  },
+  {
+   "form": "*-nkó",
+   "gloss": "hunting net/trap",
+   "reconstructed": true
+  },
+  {
+   "form": "*-tuá",
+   "gloss": "ear; *-tô 'head'",
+   "reconstructed": true
+  },
+  {
+   "form": "*-ká",
+   "gloss": "come/fire-making (ku-ka)",
+   "reconstructed": true
+  },
+  {
+   "form": "*-tem-",
+   "gloss": "to cut, chop (ku-tema)",
+   "reconstructed": true
+  },
+  {
+   "form": "*-lim-",
+   "gloss": "to cultivate, dig",
+   "reconstructed": true
+  },
+  {
+   "form": "*-jàdà",
+   "gloss": "hunger, famine",
+   "reconstructed": true
+  },
+  {
+   "form": "*-ŋòmbé",
+   "gloss": "cattle (n-gombe; late, post-Neolithic)",
+   "reconstructed": true
+  },
+  {
+   "form": "*-nyama",
+   "gloss": "animal, meat (nyama)",
+   "reconstructed": true
+  },
+  {
+   "form": "*-gàndá",
+   "gloss": "hut, compound; *-gongo 'forest'",
+   "reconstructed": true
+  }
+ ],
+ "worked_examples": [
+  {
+   "english": "River Stew",
+   "name": "Nyama a manzi",
+   "gloss": "nyama 'meat/animal' + a 'of' + ma-nzi 'water/river'"
+  },
+  {
+   "english": "Temple of the Sun",
+   "name": "Kisa kya ditangu",
+   "gloss": "ki-sa 'house/shelter' (class 7) + ki-a 'of' (class 7 concord) + di-tangu 'sun' (class 5)"
+  },
+  {
+   "english": "Stone Cutter",
+   "name": "Mutemi wa mabala",
+   "gloss": "mu-tem-i 'cutter' + w-a 'of' + ma-bala 'rocks'"
+  },
+  {
+   "english": "Place of Trees",
+   "name": "Muti ya mabala",
+   "gloss": "mu-ti 'tree' + y-a (class 3/4 concord) 'of' + ma-bala 'hills'"
+  },
+  {
+   "english": "Hunting Net",
+   "name": "Nko a nyama",
+   "gloss": "n-ko 'net' + a 'of' + nyama 'animal/game'"
+  },
+  {
+   "english": "Fire Hill",
+   "name": "Mulilo wa bala",
+   "gloss": "mu-lilo 'fire' (class 3) + w-a 'of' + bala 'hill'"
+  }
+ ],
+ "allowed_graphemes": [
+  "a",
+  "e",
+  "i",
+  "o",
+  "u",
+  "b",
+  "d",
+  "f",
+  "g",
+  "j",
+  "k",
+  "l",
+  "m",
+  "n",
+  "p",
+  "r",
+  "s",
+  "t",
+  "v",
+  "w",
+  "y",
+  "z",
+  "c",
+  "h",
+  "mb",
+  "nd",
+  "ng",
+  "nj",
+  "nk",
+  "nt",
+  "ny",
+  "mp",
+  "nz",
+  "ns",
+  "kw",
+  "gw",
+  "ty",
+  "ng'"
+ ],
+ "extra_allowed_chars": " -'",
+ "forbidden_patterns": [
+  "[^aeiou\\s'-]{3,}",
+  "[bcdfghjklmnpqrstvwyz]$",
+  "[bcdfghjklmnpqrstvwyz][bcdfghjklmnpqrstvwyz](?<![mn][bdgjkptsz])(?<!ng)(?<!ny)(?<!kw)(?<!gw)(?<!ty)(?<!ch)",
+  "(.)\\1\\1",
+  "x",
+  "q",
+  "th",
+  "ph",
+  "sh(?![aeiou])",
+  "[aeiou]{3,}"
+ ],
+ "syllables_per_word": [
+  2,
+  3,
+  4
+ ],
+ "max_word_length": 14,
+ "sources": [
+  "Guthrie, Malcolm. Comparative Bantu (4 vols), 1967-1971",
+  "Bastin, Y., Coupez, A., Mann, M. Continuity and Divergence in the Bantu Languages: Perspectives from a Lexicostatistic Study, 1999",
+  "Bastin, Coupez, Mumba, Schadeberg. Bantu Lexical Reconstructions 3 (BLR3 online database, Tervuren)",
+  "Nurse, Derek and Philippson, Gerard (eds.). The Bantu Languages, 2003",
+  "Meeussen, A.E. Bantu Grammatical Reconstructions, 1967",
+  "Wiktionary Proto-Bantu reconstruction pages",
+  "Glottolog (Bantu and Kikongo/Kimbundu entries)",
+  "Clist, Bernard. Archaeological work on Tshitolian and Central African Late Stone Age (various, 1990s-2010s)",
+  "Lanfranchi, Raymond and Clist, Bernard (eds.). Aux origines de l'Afrique centrale, 1991"
+ ],
+ "notes": "Weak proxy: Tshitolian makers' language is unknown and likely not Bantu; proto-Bantu used only as the regional stylistic anchor. Reconstructed Proto-Bantu roots are marked reconstructed; some glosses above are approximate and should be checked against BLR3 before being used as fixed lexicon. Avoid Modern Irish, Scottish Gaelic or Manx lookalikes (not Goidelic). Names should use open syllables, prefix+root structure and linker -a constructions rather than English-like clusters.",
+ "unit": "Central African Late Stone Age (Tshitolian)",
+ "slug": "central_african_late_stone_age_tshitolian",
+ "model": "claude-sonnet-5-5"
+}

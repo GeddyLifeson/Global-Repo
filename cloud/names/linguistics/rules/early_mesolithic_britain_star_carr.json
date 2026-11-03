@@ -1,0 +1,189 @@
+{
+ "proxy_language": "Proto-Indo-European (late/disintegrating, as a deliberately weak stand-in); optional flavour from reconstructed Proto-Uralic/Palaeo-European hydronymy",
+ "confidence": "speculative",
+ "proxy_rationale": "Star Carr (c. 9000-8500 BC, Yorkshire) is known only archaeologically; no linguistic evidence survives. Indo-European is not plausibly spoken in Britain before the Neolithic-Bronze Age (c. 4000-2500 BC), and the Mesolithic language is unknown and probably unrelated to any surviving family. Because the game requires a defensible, reconstructible morphology, we use Proto-Indo-European notation as a purely conventional placeholder, with Old European-style hydronymic roots (Krahe's Alteuropaeische Hydronymie, e.g. *h2ep-, *sal-, *dru-) as the flavour layer, since river/lake/wood names are the oldest-looking stratum in British toponymy. Players should treat these names as stylised, not as claims about Mesolithic speech.",
+ "phonology": "Reconstructed PIE (Fortson/Beekes conventions): stops *p *t *k *kw (*ke *g *gw), voiced aspirated *bh *dh *gh *gwh (simplify to b d g for readability if desired); fricative *s; laryngeals *h1 *h2 *h3 (often rendered with subscript numbers or dropped in game forms); resonants *m *n *l *r *y *w; vowels *e *o *a *i *u with long variants *e *o. Ablaut (e/o/zero) is productive.",
+ "phonotactics": "Root shape (C)(C)eC(C); syllable nucleus is a vowel or syllabic resonant. Word-initial clusters of s + stop (*sp-, *st-, *sk-) and stop + resonant (*pl-, *tr-, *dr-, *kl-, *gr-) are allowed. Word-final is typically a short vowel or consonant (nom. *-s, *-m, *-os). No word-initial *r- is certain in many reconstructions (debated); avoid initial *r. Avoid tone; stress is mobile/accentual and not spelled.",
+ "orthography": "Use plain Latin transliteration with the stem vowel and, where a reconstruction is meant, an optional leading asterisk dropped in-game. Laryngeals rendered as h (h1 -> h, h2 -> kh or h, h3 -> gh). Palatals and labiovelars simplified: k, g, kw, gw. Aspirates written bh dh gh. Hyphen allowed between compound members.",
+ "morphology": "Roots take thematic (-o-/-e-) or athematic stems; nouns carry case endings (nom. -s, acc. -m, gen. -os/-es/-so for thematic nouns, loc. -i); deadjectival and abstract nouns via suffixes *-ti- (abstract), *-tor/-ter (agent), *-mo/-no- (instrument/result). Reduplication occurs in verbs, rarely in nouns. Adjectives agree with nouns; in names, bare stems or nom. forms suffice.",
+ "compounding": "Root compounds (determinant + head) follow modifier-head order, with the head last and inflecting: *deru-(wood) + *wed- (water) type compounds; linking vowel -o- between members (*-o-). Genitive phrases 'X of Y' are rendered as Y-gen + X (e.g. *wodnos *ph2ter) or as compounds Y-o-X. Agent nouns: root + *-tor / *-ter ('maker/keeper'). Possessive compounds (bahuvrihi) with final stem, e.g. 'red-hand' type: *h1roudho- + *ghes-ro-.",
+ "noun_phrase_order": "Adjective before noun; genitive before head noun; demonstratives before noun; no articles. In names, modifier precedes head.",
+ "attested_roots": [
+  {
+   "form": "wodr",
+   "gloss": "water",
+   "reconstructed": true
+  },
+  {
+   "form": "h2ep",
+   "gloss": "water, river (Old European hydronym root *h2ep-)",
+   "reconstructed": true
+  },
+  {
+   "form": "sal",
+   "gloss": "salt, brine",
+   "reconstructed": true
+  },
+  {
+   "form": "deru",
+   "gloss": "tree, wood, oak",
+   "reconstructed": true
+  },
+  {
+   "form": "swep",
+   "gloss": "sleep",
+   "reconstructed": true
+  },
+  {
+   "form": "ghos",
+   "gloss": "guest, stranger",
+   "reconstructed": true
+  },
+  {
+   "form": "kerw",
+   "gloss": "deer, horned animal",
+   "reconstructed": true
+  },
+  {
+   "form": "wlkwo",
+   "gloss": "wolf",
+   "reconstructed": true
+  },
+  {
+   "form": "mus",
+   "gloss": "mouse",
+   "reconstructed": true
+  },
+  {
+   "form": "peh2wer",
+   "gloss": "fire",
+   "reconstructed": true
+  },
+  {
+   "form": "seh2wel",
+   "gloss": "sun",
+   "reconstructed": true
+  },
+  {
+   "form": "meh1nsos",
+   "gloss": "moon, month",
+   "reconstructed": true
+  },
+  {
+   "form": "stehr",
+   "gloss": "star",
+   "reconstructed": true
+  },
+  {
+   "form": "kwon",
+   "gloss": "dog",
+   "reconstructed": true
+  },
+  {
+   "form": "ped",
+   "gloss": "foot",
+   "reconstructed": true
+  },
+  {
+   "form": "dhghom",
+   "gloss": "earth, ground",
+   "reconstructed": true
+  }
+ ],
+ "worked_examples": [
+  {
+   "english": "River Stew",
+   "name": "wodr-o-kwelos",
+   "gloss": "wodr (water/river) + -o- (linking vowel) + kwel-os (cook/boil, thematic noun) = 'river-boil'"
+  },
+  {
+   "english": "Temple of the Sun",
+   "name": "seh2wel-os domos",
+   "gloss": "seh2wel-os (sun, gen.) + domos (house) = 'house of the sun'"
+  },
+  {
+   "english": "Deer-hunter",
+   "name": "kerw-o-tor",
+   "gloss": "kerw (deer) + -o- + -tor (agent suffix) = 'deer-man/hunter'"
+  },
+  {
+   "english": "Red Lake",
+   "name": "h1roudhos lekus",
+   "gloss": "h1roudhos (red, adj.) + lekus (lake/pool) = 'red lake'"
+  },
+  {
+   "english": "Wolf-Hearth",
+   "name": "wlkwo-sh1ewos",
+   "gloss": "wlkwo (wolf) + -s (compound stem) + h1ewos (hearth/fire place, noun) = 'wolf-hearth'"
+  },
+  {
+   "english": "Place of Birches",
+   "name": "bherh1g-ent",
+   "gloss": "bherh1g (birch) + -ent (place/participial suffix) = 'birch-place'"
+  }
+ ],
+ "allowed_graphemes": [
+  "a",
+  "e",
+  "i",
+  "o",
+  "u",
+  "p",
+  "t",
+  "k",
+  "b",
+  "d",
+  "g",
+  "s",
+  "m",
+  "n",
+  "l",
+  "r",
+  "w",
+  "y",
+  "h",
+  "kw",
+  "gw",
+  "bh",
+  "dh",
+  "gh",
+  "gwh",
+  "sw",
+  "sp",
+  "st",
+  "sk",
+  "pl",
+  "tr",
+  "dr",
+  "kl",
+  "gr"
+ ],
+ "extra_allowed_chars": " -",
+ "forbidden_patterns": [
+  "[xzjqv]",
+  "(.)\\1\\1",
+  "^r",
+  "[aeiou]{3,}",
+  "h{2,}",
+  "[bdg]\\1"
+ ],
+ "syllables_per_word": [
+  2,
+  4
+ ],
+ "max_word_length": 14,
+ "sources": [
+  "Fortson, B. W. IV, Indo-European Language and Culture: An Introduction (2nd ed., 2010)",
+  "Beekes, R. S. P., Comparative Indo-European Linguistics: An Introduction (2nd ed., 2011)",
+  "Mallory, J. P. & Adams, D. Q., Encyclopedia of Indo-European Culture (1997)",
+  "Pokorny, J., Indogermanisches etymologisches Woerterbuch (1959)",
+  "Krahe, H., Unsere altesten Flussnamen (1964) / Alteuropaeische Hydronymie",
+  "Wiktionary Proto-Indo-European reconstruction pages",
+  "Starling database (Starostin) - Indo-European etymologies",
+  "Milisauskas, S. & Clark, J. G. D., Star Carr (1954; archaeological background only)"
+ ],
+ "notes": "All forms are conventional Proto-Indo-European reconstructions used as a stylistic stand-in; the actual Mesolithic language of Star Carr is unknown and probably not Indo-European. Confidence is speculative. No word may be identical to a Modern Irish, Scottish Gaelic or Manx word unless the language is Goidelic; this culture is not Goidelic, so forms such as wodr, kerw, deru must not be replaced by Gaelic cognates (e.g. dair, damh) in output.",
+ "unit": "Early Mesolithic Britain (Star Carr)",
+ "slug": "early_mesolithic_britain_star_carr",
+ "model": "claude-sonnet-5-5"
+}

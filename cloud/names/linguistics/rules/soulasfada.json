@@ -1,0 +1,199 @@
+{
+ "proxy_language": "Old Irish / Classical Gaelic (Goidelic) as a rough proxy, with an admixed Finnic-looking and Norse-looking overlay in the existing game strings. 'Soulasfada' itself looks like Gaelic 'solas fada' (long light)",
+ "confidence": "speculative",
+ "proxy_rationale": "Soulasfada is a fictional 'other worlds' court culture, not an attested language, so nothing can be reconstructed from the real literature. The only defensible anchor is the name itself: 'Soulas' resembles Irish 'solas' (light) and 'fada' is Irish 'fada' (long). The current game strings show a mix of Gaelic-style orthography (-teòil-, -mairt-, -kaig, -deg), Finnic-style gemination (Rusukierkkurrak) and Germanic-style clusters (Stiu-, Skeur-, Frig-). A coherent naming system should pick ONE base. I recommend a Classical Gaelic / Middle Irish base (Goidelic), because it is richly documented, the culture name is already Gaelic, and it supports court-style compounds. Because the culture is Goidelic, Gaelic-form words are permissible here, but the fictional culture is not Irish: avoid whole-word identity with real Modern Irish, Scottish Gaelic or Manx vocabulary by using Old/Middle Irish stems with fictional derivational endings, compounds, or altered vowels, so that names read as a daughter-tongue of Goidelic rather than as Irish itself.",
+ "phonology": "Modelled on Middle Irish / Classical Gaelic. Consonants: stops p t c b d g; fricatives f s h; lenited fricatives written bh dh gh mh th ch ph sh fh; nasals m n; liquids l r; broad vs slender (palatalised) quality is marked by flanking vowels, not by separate letters. Vowels: a e i o u, with long vowels marked by acute accent (á é í ó ú). Diphthongs: ai ei oi ui ia ua ea eo ae ao. Stress falls on the first syllable of the word. Initial mutations (lenition, eclipsis) apply after particles and in genitive/nominative contexts, but for name-building treat them as optional in compounds.",
+ "phonotactics": "Syllable shape (C)(C)V(V)(C)(C): open and closed syllables both allowed. Permitted onset clusters are mostly stop/fricative + liquid (br cr dr fr gr tr bl cl fl gl pl) and s + stop/nasal/liquid (sc sg sp st sm sn sl); no triple onsets except s+stop+liquid (scr spr str). Codas: single consonants or clusters such as rn rl rd rg rt nn ll nt nd ng lt ld lg rm; words end freely in a vowel or in -n -r -l -s -d -g -th -ch. No Finnic doubling of stops (kk, pp, tt) and no Germanic initial sk-/st- + front-rounded vowel; Gaelic long vowels use acute accents. Native Gaelic never has k, w, x, y, z, q, v or j; c is the /k/ letter.",
+ "orthography": "Use Middle Irish / Classical Gaelic spelling in Latin letters with acute-accent length marks (á é í ó ú). Lenition is written with h (bh ch dh fh gh mh ph sh th). Digraph vowels (ai ea ei eo ia io oi ua ui) follow the broad/slender spelling rule: a consonant must be flanked by vowels of the same quality (caol le caol, leathan le leathan), so write 'solas' but 'soilse', 'fada' but 'fhada'. The game strings use grave accents (ò) and k, which are not Gaelic; normalise to á/é/ó and c. Hyphens are not part of standard spelling; compounds are written solid, or hyphenated only for clarity.",
+ "morphology": "Words are root + inflection. Nouns have gender (masculine/feminine), number and case; the genitive is the key case for name-building. Genitive formation is by vowel change, palatalisation (broad to slender), or -a / -e / -ach / -ean endings; e.g. fear 'man' -> fir, bó 'cow' -> bó, tigh 'house' -> tighe, rí 'king' -> ríogh. Adjectives follow the noun and agree in gender, number and case; they may be lenited. Verbal nouns and agent nouns are formed with -ad, -adh, -ach, -óir (e.g. -óir 'doer, -er'). Diminutive -án / -ín, abstract -acht, collective -ach, place suffixes -ach, -án.",
+ "compounding": "Noun + noun compounds are head-FIRST when expressing 'X of Y' (noun + genitive noun), e.g. teach 'house' + rí-gh 'king' (genitive) = teach rígh 'house of a king'; in a fused Old Irish compound the head is last and the determiner first (dún-ríg 'fortress of the king' is a fixed phrase, but true compounds like fírinne are rare). 'Y-maker' type names are built with an agent suffix: noun + -óir or an agentive element (gabha 'smith', cruitire 'harper'). Adjective-modified names follow the noun: 'long light' = solas fada. Names of gods and halls usually use noun + genitive + adjective, e.g. Dún Solais Fhada. A linking vowel is not required; the first element is usually the root form.",
+ "noun_phrase_order": "Head noun first, then genitive noun, then adjective: N + Gen + Adj (teach rígh mhóir 'the great house of the king'). Articles (an, na) precede; demonstratives and possessives follow or precede in fixed ways, but names normally omit the article. Prepositions precede the noun and may trigger mutation.",
+ "attested_roots": [
+  {
+   "form": "solas",
+   "gloss": "light, brightness",
+   "reconstructed": false
+  },
+  {
+   "form": "fada",
+   "gloss": "long",
+   "reconstructed": false
+  },
+  {
+   "form": "rí",
+   "gloss": "king",
+   "reconstructed": false
+  },
+  {
+   "form": "ríoghan",
+   "gloss": "queen",
+   "reconstructed": false
+  },
+  {
+   "form": "dún",
+   "gloss": "fort, stronghold",
+   "reconstructed": false
+  },
+  {
+   "form": "teach",
+   "gloss": "house",
+   "reconstructed": false
+  },
+  {
+   "form": "cruach",
+   "gloss": "hill, heap",
+   "reconstructed": false
+  },
+  {
+   "form": "uisce",
+   "gloss": "water",
+   "reconstructed": false
+  },
+  {
+   "form": "tine",
+   "gloss": "fire",
+   "reconstructed": false
+  },
+  {
+   "form": "crann",
+   "gloss": "tree, mast",
+   "reconstructed": false
+  },
+  {
+   "form": "long",
+   "gloss": "ship",
+   "reconstructed": false
+  },
+  {
+   "form": "clog",
+   "gloss": "bell",
+   "reconstructed": false
+  },
+  {
+   "form": "flaith",
+   "gloss": "lord, sovereignty",
+   "reconstructed": false
+  },
+  {
+   "form": "airgead",
+   "gloss": "silver",
+   "reconstructed": false
+  },
+  {
+   "form": "dearg",
+   "gloss": "red",
+   "reconstructed": false
+  },
+  {
+   "form": "bán",
+   "gloss": "white",
+   "reconstructed": false
+  }
+ ],
+ "worked_examples": [
+  {
+   "english": "Temple of the Long Light",
+   "name": "Teach Solais Fhada",
+   "gloss": "teach 'house' + solais (gen. of solas 'light') + fhada (lenited fada 'long')"
+  },
+  {
+   "english": "Fort of the Queen",
+   "name": "Dún Ríoghna",
+   "gloss": "dún 'fort' + ríoghna (gen. of ríoghan 'queen')"
+  },
+  {
+   "english": "Silver Ship",
+   "name": "Long Airgid",
+   "gloss": "long 'ship' + airgid (gen. of airgead 'silver')"
+  },
+  {
+   "english": "Hill of the Red Fire",
+   "name": "Cruach Tine Deirge",
+   "gloss": "cruach 'hill' + tine 'fire' + deirge (gen. fem. of dearg 'red')"
+  },
+  {
+   "english": "Bellmaker's Hall",
+   "name": "Teach Clogóra",
+   "gloss": "teach 'house' + clogóra (gen. of clogóir 'bell-maker', clog 'bell' + -óir agent suffix)"
+  },
+  {
+   "english": "Water-Lord",
+   "name": "Flaith Uisce",
+   "gloss": "flaith 'lord' + uisce (gen. of uisce 'water')"
+  }
+ ],
+ "allowed_graphemes": [
+  "a",
+  "á",
+  "b",
+  "bh",
+  "c",
+  "ch",
+  "d",
+  "dh",
+  "e",
+  "é",
+  "f",
+  "fh",
+  "g",
+  "gh",
+  "h",
+  "i",
+  "í",
+  "l",
+  "m",
+  "mh",
+  "n",
+  "o",
+  "ó",
+  "p",
+  "ph",
+  "r",
+  "s",
+  "sh",
+  "t",
+  "th",
+  "u",
+  "ú",
+  "ae",
+  "ai",
+  "ao",
+  "ea",
+  "ei",
+  "eo",
+  "ia",
+  "io",
+  "oi",
+  "ua",
+  "ui"
+ ],
+ "extra_allowed_chars": " -'áéíóúÁÉÍÓÚ",
+ "forbidden_patterns": [
+  "[kqvwxyzj]",
+  "(.)\\1\\1",
+  "kk|pp|tt(?!h)",
+  "[bcdfgpt]{3,}(?<!str)(?<!scr)(?<!spr)",
+  "[aeiouáéíóú]{4,}",
+  "ò|à|ì|ù",
+  "sk",
+  "[aeiou]h[aeiou]{2}h"
+ ],
+ "syllables_per_word": [
+  2,
+  3,
+  4
+ ],
+ "max_word_length": 18,
+ "sources": [
+  "Thurneysen, R. A Grammar of Old Irish, 1946 (rev. ed.)",
+  "Dictionary of the Irish Language (eDIL), Royal Irish Academy",
+  "McManus, D. A Guide to Ogam, 1991",
+  "Lehmann, R. P. M. and Lehmann, W. P. An Introduction to Old Irish, 1975",
+  "Gillies, W. 'Scottish Gaelic' in The Celtic Languages, ed. Ball and Müller, 2009",
+  "Glottolog and ASJP entries for Old Irish / Goidelic"
+ ],
+ "notes": "Soulasfada is fictional ('other worlds'), so this is a Goidelic-based design recommendation, not a claim of attestation. The existing game strings (Rusukierkkurrak, Stiubamairteòiliaskaig, Brochunkasabaplantein, etc.) mix incompatible orthographies: k/kk (Finnic or Germanic), grave accents (non-Gaelic), and unbroken run-on compounds longer than 18 letters. They should be regenerated. The culture is Goidelic by proxy, so Gaelic-form words are allowed, but the Diaithiris-style rule still applies in spirit: do not reuse whole real Modern Irish/Scottish Gaelic/Manx words as final names; prefer Old/Middle Irish stems with fictional endings or compounds. No Diaithiris note is needed because this culture is not the Diaithiris.",
+ "unit": "Soulasfada",
+ "slug": "soulasfada",
+ "model": "claude-sonnet-5-5"
+}
