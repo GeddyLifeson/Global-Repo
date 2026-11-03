@@ -328,3 +328,4 @@ world-checks/snow.py	2642	"Snowline check: snow cover fraction by elevation band
 diaithir-ports/diaithir-fauna/tools/libmob_extract.py	3000	Sorts every Library MOB entry onto a fauna body plan (writes the Haiku classify job, 40 entries per row).	no
 diaithir-ports/diaithir-fauna/tools/libmob_run.py	3000	Direct parallel Haiku caller for a compute job folder (24 workers, resumable, cached system prompt, logs to the ledger).	no
 diaithir-ports/diaithir-fauna/tools/libmob_build.py	3000	Merges the classify output into diaithir-fauna library_mobs.tsv.gz (plan, tier, size, temper, element) and writes retry rows.	no
+diaithir-ports/diaithir-fauna/tools/libmob_hab.py	3500	Habitat pass for Library mobs: writes the Haiku job and adds the habitat bitmask column to library_mobs.tsv.gz.	no
