@@ -1,0 +1,1139 @@
+id	path	meta
+D0001	CLAUDE.md	MASTER CLAUDE.md (single source for every repo and session) | 32835 B
+D0002	FINDINGS.md	VS diaithir.8 crash on Marlon's PC (2026-10-24 00:34) | 1479 B
+D0003	GRAMMAR.md	The grammar in brief | 24271 B
+D0004	GRAMMAR_MORPHOLOGY.md	Word forms | 117420 B
+D0005	GRAMMAR_SYNTAX.md	Sentences | 118499 B
+D0006	IFFULL_SHA256SUMS.txt	83d937b201556e1a277394ba3741bce19fa9b47975b0b35ecfd9a1f6f2d8fb6a  IFFULL1.zip.part000 | 7488 B
+D0007	IFFULL_ZIP_SHA256SUMS.txt	cc2a71f9163abcdff1e05750480bf8f9cad5d83c2995ff9db7d326113c9819bb  Industrial Factory 1.zip | 1095 B
+D0008	INDEX.md	Project map (start here) | 3730 B
+D0009	LEXICON.md	Diaithìris – English dictionary | 2219106 B
+D0010	LEXICON_EN.md	English – Diaithìris dictionary | 1552808 B
+D0011	PC_GAME_TEST.md	PC game test (Diaithir pack, review-2 branches) | 10595 B
+D0012	SHA256SUMS-iv-guard2.txt	b4e64e56c939030efc8ccc985067d5a5ca22f4bd0ec79ea226e069d078d49711  pack-iv-guard2.bundle | 200 B
+D0013	SHA256SUMS.txt	30c9276f76933f3d0ee406f4f3b52fe9d11e452a92e507af17c83efd022c238b  IF1.zip.part000 | 5992 B
+D0014	ZIP_SHA256SUMS.txt	e62da49774d3c69c219004d4fc85fec5a13326ae33464204ce44ecd6eb913996  Industrial Factory 1.zip | 1095 B
+D0015	ages/FUTURE_RODOS_ROWS.md	Future (VIII) and Rodos (IX): rows to add (spec from tech-tree thread, 10-27 20:08) | 1307 B
+D0016	alps_diag_client_log_tail.txt	untamedwilds:critter_burrow // untamedwilds.block.blockentity.CritterBurrowBlockEntity@BlockPos{x=244544, y=795, z=-1202 | 7246 B
+D0017	alps_diag_icesheets.txt	Tellus diaithir.16-fantasy.6 on the review pack, fresh world, first join. Client freezes; server thread BLOCKED in IceSh | 9595 B
+D0018	alps_diag_lightmans_untrack.txt	Hang on a far teleport (test instance, fantasy.8, review pack). Server thread, jstack at 08:14:26, 08:14:36, 08:14:47 (s | 5522 B
+D0019	alps_diag_monterosa.txt	Test instance: review pack ports f91bcdf, Tellus diaithir.16-fantasy.8, fresh Tellus world. | 797 B
+D0020	alps_diag_server_thread.txt	Client (integrated server) hung at era/teleport tests. Tellus fantasy.5 (diaithir.16), Prism instance, world playtest_al | 13089 B
+D0021	animals-art/template.html	<title>Ice Age Animal Models</title> | 11566 B
+D0022	animals-art/vanilla/template.html	<title>__TITLE__</title> | 10057 B
+D0023	animals-fossils/PLANS.md	Body plans (shared models) | 2031 B
+D0024	animals-fossils/SCHEMA.md	Catalogue schema | 3095 B
+D0025	animals-fossils/SURVEY.md	Animal, wildlife, prehistoric and fossil mod survey (10-27) | 2176 B
+D0026	assay-c3m/README.md	Assay under Power Law c3m-2.0 | 1349 B
+D0027	assay-c3m/SYSTEM_PROMPT.txt	You read the text pack of one catalogued entity and extract physical feats as data. You never do arithmetic. | 1853 B
+D0028	assay-c3m/merged_shards.txt	assay-all-elder-scrolls-001 | 5878 B
+D0029	assay-c3m/originate/README.md	Originate jobs (replaces the source-entry assay) | 802 B
+D0030	assay-c3m/originate/REDO_ids.txt	GR.fenernareld.E6.weapons.001442 | 267995 B
+D0031	assay-c3m/originate/SYSTEM_PROMPT.txt	You create ONE original entry for an invented omniverse. The brief is a rough description of an existing idea. Use it on | 1467 B
+D0032	assay-c3m/originate/cells/SYSTEM_PROMPT.txt	You write ONE short original entry for an invented omniverse. You are given the universe, its Realm, the Era of the Reco | 1115 B
+D0033	assay-c3m/originate/fill/SYSTEM_PROMPT.txt	You write ONE short original entry for an invented omniverse. You are given the universe, its Realm, the Era of the Reco | 1115 B
+D0034	assay-c3m/originate/final/DONE.txt	rows 173870 | 156 B
+D0035	assay-c3m/originate/merged/leaked_ids.txt	AR.lyirlora.E6.places.007017 | 944 B
+D0036	audit/MORNING_BAT_STEPS.md	"Audit steps for the ONE morning .bat (to fold into ""Reset Diaithir Server.bat"") | 2924 B"
+D0037	audit/pc/client_options.txt	version:4790 | 37267 B
+D0038	audit/pc/client_resourcepacks_list.txt	Industrial Factory 1.zip | 297 B
+D0039	audit/pc/user_jvm_args.txt	-Xms4G | 138 B
+D0040	audit_ftbquests_quests_listing.txt	total 512 | 376 B
+D0041	audit_mods_tellus_lc.txt	Tellus-neoforge-26.1.2-0.8.3-diaithir.11.jar | 178 B
+D0042	audit_world_listing.txt	total 0 | 1307 B
+D0043	audits/DISCARD_BRANCHES.txt	boot-speed | 841 B
+D0044	audits/PANSCRIPTUM_NUMBERS_AUDIT_2026-10-19.md	Panscriptum: how well it produces its numbers | 13228 B
+D0045	audits/SYSTEMS_AUDIT_2026-10-20.md	Systems audit, 2026-10-20 | 39178 B
+D0046	audits/UNUSED_IN_REPO.md	Unused in GeddyLifeson/DiaithirRPG (2026-10-19) | 8639 B
+D0047	audits/pc-compare/pc_compare-20261019T191038-ae6d.md	pc_compare 2026-10-19T13:54:31-05:00 | 666 B
+D0048	audits/pc-compare/pc_compare.md	pc_compare 2026-10-19T13:54:31-05:00 | 359 B
+D0049	brewing-drop/SHA256SUMS.txt	0cc595db5b6bcf72c39cf135cb3a0692cb75b3f48eb8883817898c0c6a01af05  diaithir-brewing-neoforge-26.1.2-0.1.0.jar | 341 B
+D0050	builds/ages-diaithir2/README.txt	diaithir-ages 0.1.0-diaithir.2 (branch claude/ages-diaithir2-canon-fix on DiaithirRPG, commit in ages-diaithir2.diff) | 1448 B
+D0051	builds/ages-diaithir2/SHA256SUMS.txt	e90b509b4dd7c39f9f2baeab1943ca35191e5246d02aa6d927713a5cc76b33e8  diaithir-ages-neoforge-26.1.2-0.1.0-diaithir.2.jar | 117 B
+D0052	builds/ancient-crops/SHA256SUMS.txt	5261bc7b6373bc5e390c89a48f302719654774f3b2738dfadbda1d266b67e4db  content/tech_ages.json | 89 B
+D0053	builds/ancient-crops/SHA256SUMS_v2.txt	5bda7034a3dee39548da3f9028ba26556db10a8605d59dc22f1498c8e97d9262  content/tech_ages.json | 89 B
+D0054	builds/ancient-crops/SHA256SUMS_v3.txt	b9b8438b0669a8c4d43d42a9734de854695405c2e01e7497dc677635ac075bfc  content/tech_ages.json | 89 B
+D0055	builds/audit/SHA256SUMS.txt	396749f6d36d5d4097908ff92ada55f164ac90ceb1692f1d468751e9b966dc44  untamedwilds-26.1.2-3.0.1-diaithir.2.jar | 107 B
+D0056	builds/create/FINDINGS.md	Create and add-ons on NeoForge 26.1.2: findings (2026-10-24) | 5000 B
+D0057	builds/create/REPORT.md	Create port (diaithir_create, namespace create), diaithir.4 | 7105 B
+D0058	builds/create/asset-scan.txt	original assets files: 7266 | 595 B
+D0059	builds/create/diffs/ports-stat.txt	Diaithir.zip                                     | Bin 106694 -> 106694 bytes | 454 B
+D0060	builds/create/diffs/rpg-stat.txt	rpg: content/tech_ages.json, distribution/README.md, distribution/pack.json, distribution/ports/create jar (see bundle) | 120 B
+D0061	builds/food-server-drop/README.md	food-server-drop (for the PC thread) | 4810 B
+D0062	builds/food-server-drop/jar_reassemble.txt	Each jar is split in 8 MB pieces named <jar name>.partNNN (every jar here is under 8 MB, so each has only .part001). | 691 B
+D0063	builds/food-server-drop/server_manifest.patch.txt	server_manifest.csv patch (distribution/server_manifest.csv in DiaithirRPG, columns path,size,sha256,mod_id,mod_version, | 711 B
+D0064	builds/gods/REPORT.md	Diaithir Gods (RPG Gods port) build report | 1908 B
+D0065	builds/jade-drop/README.md	Jade 26.1.12 NeoForge for 26.1.2 (CC-BY-NC-SA-4.0, linked by URL, not rehosted). Add jade.pw.toml to the pack mods folde | 273 B
+D0066	builds/mods-batch2/ATLAS_TELLUS_TEST.md	Atlas on Tellus: test notes and PC recipe | 3732 B
+D0067	builds/mods-batch2/HANDOFF_PAUSE.md	Utility/UI/decoration batch: state at pause (10-28 ~04:10 UTC) | 1466 B
+D0068	builds/myth/REPORT.md	Diaithir Myth Beasts 0.1.0 (diaithir_myth, NeoForge 26.1.2) | 2937 B
+D0069	builds/pack-iv-guard/README.txt	Immersive Vehicles diaithir.1: MultiPackResourceManagerMixin.inject_init guards Minecraft.getInstance() != null before g | 757 B
+D0070	builds/pack-iv-guard/SHA256SUMS.txt	a38add7c66c9254931f39190e2e20670fa9ee8ed2771c341d69932808d41074c  Immersive_Vehicles-26.1-24.0.0-diaithir.1.jar | 276 B
+D0071	builds/pack-sweep-2/DELETED.txt	Delete on the pack branch: | 140 B
+D0072	builds/pack-sweep-2/LICENSES.md	Jars hosted here | 6172 B
+D0073	builds/pack-sweep-2/bench/heap_idle.txt	2664: | 186 B
+D0074	builds/pack-sweep-2/bench/result.txt	startup_s Done (59.168s) | 1315 B
+D0075	builds/pack-sweep-2/client-test/joined.txt	joined_at [23:41:54] | 21 B
+D0076	builds/pack-sweep-3/DELETED.txt	Delete on the pack branch: | 140 B
+D0077	builds/pack-sweep-3/bench-client-fix/result.txt	startup_s Done (36.625s) | 1312 B
+D0078	builds/pack-sweep-3/client-test/joined.txt	joined_at [00:16:48] | 21 B
+D0079	builds/pack-sweep-4/DELETED.txt	Delete on the pack branch: | 140 B
+D0080	builds/pack-sweep-4/LICENSES.md	Jars hosted here | 6553 B
+D0081	builds/pack-sweep-4/bench-client-fix/result.txt	startup_s Done (40.610s) | 1315 B
+D0082	builds/pack-sweep-4/bench/crash-2026-10-22_19.48.00-server.txt	---- Minecraft Crash Report ---- | 124167 B
+D0083	builds/pack-sweep-4/client-test/joined.txt	joined_at [00:51:43] | 21 B
+D0084	builds/pack-sweep/CLIENT_TEST.md	Client test: pack sweep (18 new jars) | 2225 B
+D0085	builds/pack-sweep/CLOUD_CLIENT_TEST.md	Cloud client test of pack-sweep batch 1 (distribution thread, 10-22). PAUSED 20:35Z at Marlon's request. Nothing publish | 6172 B
+D0086	builds/pack-sweep/DELETED.txt	Delete on the pack branch: | 199 B
+D0087	builds/pack-sweep/LICENSES.md	Jars hosted here | 5625 B
+D0088	builds/pack-sweep/bench/base/heap_idle.txt	14929: | 183 B
+D0089	builds/pack-sweep/bench/base/result.txt	startup_s Done (54.960s) | 1315 B
+D0090	builds/pack-sweep/bench/final/heap_idle.txt	13163: | 183 B
+D0091	builds/pack-sweep/bench/final/result.txt	startup_s Done (56.934s) | 1317 B
+D0092	builds/pack-sweep/bench/new/heap_idle.txt	4947: | 186 B
+D0093	builds/pack-sweep/bench/new/result.txt	startup_s Done (74.280s) | 1280 B
+D0094	builds/pack-sweep/client-test/joined.txt	joined_at [22:59:28] | 21 B
+D0095	builds/pack-update-1/REPORT.md	Diaithir pack update 1 (local build, NOT pushed) | 8305 B
+D0096	builds/pack-update-2/tests/singleplayer_timing.txt	[06:01:13] [Render thread/WARN]: Time from main menu to in-game was 270.46384 seconds | 179 B
+D0097	builds/pack-update-3/REPORT.md	Diaithir pack update 3 (local build, NOT pushed) | 7947 B
+D0098	builds/pack-update-4/REPORT.md	Diaithir pack update 4: Lightman's Currency on both sides (local build, NOT pushed) | 8518 B
+D0099	builds/pack-update-4/source/README.txt	Lightman's Currency 26.1-1.0.0.1-diaithir.1. Original by Lightman314, https://github.com/Lightman314/LightmansCurrency | 1736 B
+D0100	builds/pack-update-5/REPORT.md	Diaithir pack update 5: Bestiary 0.3.0 with finished art (local build, NOT pushed) | 7991 B
+D0101	builds/pack-update-5/SHA256SUMS.txt	3c4dc0efd47670cd93800fb8e733c766fba531ebdb80a2228999f31416c97d6a  DiaithirRPG-pack-update-5.bundle | 907 B
+D0102	builds/pack-update-7/REPORT.md	Pack update 7: remove Valkyrien Skies and Eureka (and Create on top as upd-9-create) | 6148 B
+D0103	builds/pack-update-7/boot-upd-7.txt	"[18:12:41] [Server thread/INFO] [minecraft/DedicatedServer]: Done (61.783s)! For help, type ""help"" | 166 B"
+D0104	builds/perf-pass/REPORT.md	Diaithir perf pass 1 (cloud, 10-25) | 4255 B
+D0105	builds/reset-overnight/SHA256SUMS.txt	b650001dd251f3a13ce20b8bba248e67ba3427fb0239cd5c469851adbc1b196a  stage/repo.zip | 410 B
+D0106	builds/reset-overnight/fixspawn/SHA256SUMS.txt	4badafe9b575330e031d23ba9639c92d775d9d2582fd2d55656ec18b13c18126  Fix Spawn.bat | 233 B
+D0107	builds/reset-overnight/jaopca-fix/SHA256SUMS.txt	a38add7c66c9254931f39190e2e20670fa9ee8ed2771c341d69932808d41074c  Immersive Vehicles-26.1-24.0.0-diaithir.1.jar | 112 B
+D0108	builds/reset-overnight/livefix/SHA256SUMS.txt	3ce735835f90595011d22b6005726a8b2941f9fceedabb18b3af27a7aaa93c01  Live Fix.bat | 394 B
+D0109	builds/reset-overnight/rescue/SHA256SUMS.txt	6e5600846877a837503a91582953e24ac2f1e1067ef7876d873564c71fc38fa5  Rescue.bat | 227 B
+D0110	builds/reset-overnight/stage/remove.txt	jars the published pack still carries that must not stay on the server | 314 B
+D0111	builds/ships/screens/crash-2026-10-23_18.27.16-server.txt	---- Minecraft Crash Report ---- | 180913 B
+D0112	builds/ships/screens/crash-2026-10-23_18.51.24-client.txt	---- Minecraft Crash Report ---- | 249944 B
+D0113	builds/ships/screens/crash-2026-10-23_18.56.16-client.txt	---- Minecraft Crash Report ---- | 249955 B
+D0114	builds/ships/untamedwilds-bigcat-npe.md	untamedwilds 3.0.1 (26.1.2) client crash on a dedicated server: big cat NPE | 2195 B
+D0115	builds/sounds/CREDITS.md	Diaithir Sounds credits | 3347 B
+D0116	builds/spawn-fix/README.txt	Two live-server fixes (Marlon 10-24 evening screenshots) | 2361 B
+D0117	builds/texture-fix/README.txt	productivefarming spearmint herb textures stage_0..4 are 19x19. Minecraft cannot mipmap a block atlas that holds a 19x19 | 522 B
+D0118	builds/untamedwilds-fix/NOTES.md	Untamed Wilds 3.0.1-diaithir.1 | 1418 B
+D0119	builds/vs-fix-10/evidence-reproduction-threads28.txt	"""Server thread"" #96 [7238] prio=5 os_prio=0 cpu=68228.56ms elapsed=174.91s tid=0x00007f6b9ee8c750 nid=7238 waiting on co | 3409 B"
+D0120	butchery/CLIENT_TEST.md	Client test: diaithir-butchery (NeoForge 26.1.2) | 2574 B
+D0121	butchery/HANDOFF.md	diaithir-butchery handoff (mod id diaithirbutchery) | 2434 B
+D0122	butchery/SURVEY.md	Butchery and harvesting mods survey (10-27) | 3964 B
+D0123	chunk-feature-order-cycle.txt	---- Minecraft Chunk IO Error Report ---- | 109986 B
+D0124	claude-md-intake/pc/C_Users_imarl_Downloads_panscriptum-library-kit_PACKAGED_2026-08-19__CLAUDE.md	Panscriptum kit brief, OLDER 2026-08-19 packaged version (C:\Users\imarl\Downloads\panscriptum-library-kit_PACKAGED_2026 | 534 B
+D0125	claude-md-intake/pc/C_Users_imarl_Interpretable-Context-Methodology__CLAUDE.md	Interpretable/Interpreted Context Methodology (ICM) (C:\Users\imarl\Interpretable-Context-Methodology) | 503 B
+D0126	claude-md-intake/pc/C_Users_imarl_Interpretable-Context-Methodology_workspaces_course-deck-production__CLAUDE.md	Course Deck Production (ICM workspace, third-party template) | 802 B
+D0127	claude-md-intake/pc/C_Users_imarl_Interpretable-Context-Methodology_workspaces_script-to-animation__CLAUDE.md	Script-to-Animation (ICM workspace, third-party template) | 676 B
+D0128	claude-md-intake/pc/C_Users_imarl_Interpretable-Context-Methodology_workspaces_voice-driven-animation__CLAUDE.md	Voice-Driven Animation (ICM workspace, third-party template) | 799 B
+D0129	claude-md-intake/pc/C_Users_imarl_Interpretable-Context-Methodology_workspaces_workspace-builder__CLAUDE.md	Workspace Builder (ICM workspace, third-party template) | 499 B
+D0130	claude-md-intake/pc/C_Users_imarl_age_sort_wt_panscriptum__CLAUDE.md	The Panscriptum kit brief (root CLAUDE.md; identical in kitpush\panscriptum). Condensed: hard rules only. Orientation: m | 3276 B
+D0131	claude-md-intake/pc/C_Users_imarl_age_sort_wt_panscriptum_map__CLAUDE.md	Panscriptum orientation map (C:\Users\imarl\age_sort_wt\panscriptum\map\CLAUDE.md; identical copy in kitpush\panscriptum | 1097 B
+D0132	claude-md-intake/pc/C_Users_imarl_apify-actors__CLAUDE.md	Apify actors | 929 B
+D0133	claude-md-intake/pc/C_Users_imarl_cascade__CLAUDE.md	Cascade (C:\Users\imarl\cascade) | 811 B
+D0134	claude-md-intake/pc/C_Users_imarl_code-library__CLAUDE.md	code-library (C:\Users\imarl\code-library): Marlon's reusable code library | 571 B
+D0135	claude-md-intake/pc/C_Users_imarl_code_commons__CLAUDE.md	code_commons (C:\Users\imarl\code_commons): master module list | 452 B
+D0136	claude-md-intake/pc/C_Users_imarl_miami-vice-rts__CLAUDE.md	NEON VICE: Cartel Wars (C:\Users\imarl\miami-vice-rts) | 568 B
+D0137	claude-md-intake/pc/C_Users_imarl_modelrouter__CLAUDE.md	ModelRouter (C:\Users\imarl\modelrouter) - same design as cascade (renamed copy) | 672 B
+D0138	claude-md-intake/pc/C_Users_imarl_myth-and-blood__CLAUDE.md	Myth and Blood (C:\Users\imarl\myth-and-blood) | 535 B
+D0139	claude-md-intake/pc/C_Users_imarl_orrery__CLAUDE.md	ORRERY (C:\Users\imarl\orrery) | 696 B
+D0140	claude-md-intake/pc/C_Users_imarl_skill_icm-architect_template__CLAUDE.md	ICM workspace template (C:\Users\imarl\.claude\skills\icm-architect\assets\templates\CLAUDE.md) | 559 B
+D0141	claude-md-intake/pc/C__Users_imarl_.claude__CLAUDE.md	graphify | 8963 B
+D0142	claude-md-intake/pc/C__Users_imarl_Downloads_Diaithir_work_Diaithir__CLAUDE.md	Diaithìr — working brief for Claude Code | 16524 B
+D0143	claude-md-intake/pc/_NOTE_duplicates.md	Duplicates of the Panscriptum root CLAUDE.md (same text as C_Users_imarl_age_sort_wt_panscriptum__CLAUDE.md, not stored  | 430 B
+D0144	client_perf_counters_now.txt	﻿memory\available mbytes=8,372 | memory\pages input/sec=1,240 | memory\page faults/sec=74,402 | physicaldisk(_total)\% d | 514 B
+D0145	client_perf_disk_av_mipmap.txt	﻿== Get-PhysicalDisk | 681 B
+D0146	client_perf_sizes_and_options.txt	mods: 385 files, 1305 MB | 418 B
+D0147	climate-audit/spoilage-economy-wiring.md	Spoilage (PR #163) and economy (PR #160) against the climate API | 4133 B
+D0148	compute/FREE_HOSTS.md	Free compute lanes (updated 2026-10-20) | 1826 B
+D0149	compute/LANES.md	Compute lane map (2026-10-27 18:00 UTC) | 6664 B
+D0150	compute/cleanup-2026-11-01.txt	331720 KB builds/pack-update-1/pack | 2895 B
+D0151	compute/jobs/assay-adventure-time-001/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0152	compute/jobs/assay-adventurers-league-001/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0153	compute/jobs/assay-adventurers-league-002/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0154	compute/jobs/assay-adventurers-league-003/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0155	compute/jobs/assay-all-battlefield-001/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0156	compute/jobs/assay-all-black-ops-001/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0157	compute/jobs/assay-all-black-ops-002/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0158	compute/jobs/assay-all-bloons-td-001/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0159	compute/jobs/assay-all-civilization-games-001/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0160	compute/jobs/assay-all-civilization-games-002/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0161	compute/jobs/assay-all-creeper-world-001/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0162	compute/jobs/assay-all-elder-scrolls-001/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0163	compute/jobs/assay-all-elder-scrolls-002/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0164	compute/jobs/assay-all-elder-scrolls-003/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0165	compute/jobs/assay-all-elder-scrolls-004/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0166	compute/jobs/assay-all-elder-scrolls-005/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0167	compute/jobs/assay-all-elder-scrolls-006/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0168	compute/jobs/assay-all-elder-scrolls-007/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0169	compute/jobs/assay-all-elder-scrolls-008/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0170	compute/jobs/assay-all-elder-scrolls-009/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0171	compute/jobs/assay-all-fallout-001/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0172	compute/jobs/assay-all-fallout-002/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0173	compute/jobs/assay-all-fallout-003/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0174	compute/jobs/assay-all-fallout-004/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0175	compute/jobs/assay-all-fallout-005/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0176	compute/jobs/assay-all-fallout-006/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0177	compute/jobs/assay-all-final-fantasy-001/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0178	compute/jobs/assay-all-final-fantasy-002/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0179	compute/jobs/assay-all-metro-001/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0180	compute/jobs/assay-all-pixar-films-001/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0181	compute/jobs/assay-all-the-fate-series-001/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0182	compute/jobs/assay-arms-001/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0183	compute/jobs/assay-baki-001/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0184	compute/jobs/assay-battlestar-galactica-001/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0185	compute/jobs/assay-bleach-001/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0186	compute/jobs/assay-bone-jeff-smith-001/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0187	compute/jobs/assay-chowder-001/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0188	compute/jobs/assay-city-hunter-001/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0189	compute/jobs/assay-clockwork-angels-rush-001/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0190	compute/jobs/assay-critical-role-tal-dorei-campaign-setting-001/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0191	compute/jobs/assay-dc-001/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0192	compute/jobs/assay-destiny-1-2-001/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0193	compute/jobs/assay-destiny-1-2-002/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0194	compute/jobs/assay-destiny-1-2-003/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0195	compute/jobs/assay-diablo-001/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0196	compute/jobs/assay-diablo-002/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0197	compute/jobs/assay-digimon-001/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0198	compute/jobs/assay-doom-001/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0199	compute/jobs/assay-dragon-ball-z-001/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0200	compute/jobs/assay-dune-001/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0201	compute/jobs/assay-eberron-rising-from-the-last-war-001/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0202	compute/jobs/assay-endwar-001/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0203	compute/jobs/assay-factorio-001/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0204	compute/jobs/assay-fire-emblem-001/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0205	compute/jobs/assay-fire-emblem-002/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0206	compute/jobs/assay-fist-of-the-north-star-001/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0207	compute/jobs/assay-fortnite-001/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0208	compute/jobs/assay-fortnite-002/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0209	compute/jobs/assay-fortnite-003/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0210	compute/jobs/assay-fortnite-004/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0211	compute/jobs/assay-gears-of-war-001/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0212	compute/jobs/assay-ghost-recon-001/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0213	compute/jobs/assay-god-of-war-001/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0214	compute/jobs/assay-guildmasters-guide-to-ravnica-001/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0215	compute/jobs/assay-guildmasters-guide-to-ravnica-002/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0216	compute/jobs/assay-gundam-all-centuries-incl-g-gundam-001/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0217	compute/jobs/assay-half-life-001/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0218	compute/jobs/assay-halo-001/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0219	compute/jobs/assay-halo-002/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0220	compute/jobs/assay-halo-003/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0221	compute/jobs/assay-hawx-001/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0222	compute/jobs/assay-he-man-masters-of-the-universe-001/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0223	compute/jobs/assay-heaven-s-lost-property-001/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0224	compute/jobs/assay-helldivers-1-2-001/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0225	compute/jobs/assay-henry-stickmin-001/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0226	compute/jobs/assay-hotline-miami-001/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0227	compute/jobs/assay-invincible-001/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0228	compute/jobs/assay-jojo-s-bizarre-adventure-001/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0229	compute/jobs/assay-journey-to-the-west-incl-its-associated-adaptations-001/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0230	compute/jobs/assay-katana-zero-001/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0231	compute/jobs/assay-kenichi-the-mightiest-disciple-001/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0232	compute/jobs/assay-killer-instinct-001/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0233	compute/jobs/assay-kingdom-hearts-binding-cosmology-of-the-disney-set-001/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0234	compute/jobs/assay-kinnikuman-001/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0235	compute/jobs/assay-left-4-dead-001/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0236	compute/jobs/assay-legend-of-zelda-001/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0237	compute/jobs/assay-mad-max-001/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0238	compute/jobs/assay-magic-the-gathering-all-planes-001/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0239	compute/jobs/assay-magic-the-gathering-all-planes-002/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0240	compute/jobs/assay-major-live-action-disney-films-001/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0241	compute/jobs/assay-major-live-action-disney-films-002/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0242	compute/jobs/assay-major-live-action-disney-films-003/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0243	compute/jobs/assay-major-live-action-disney-films-004/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0244	compute/jobs/assay-major-live-action-disney-films-005/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0245	compute/jobs/assay-major-live-action-disney-films-006/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0246	compute/jobs/assay-major-live-action-disney-films-007/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0247	compute/jobs/assay-major-live-action-disney-films-008/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0248	compute/jobs/assay-mario-and-his-expanded-universe-001/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0249	compute/jobs/assay-mario-and-his-expanded-universe-002/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0250	compute/jobs/assay-mario-and-his-expanded-universe-003/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0251	compute/jobs/assay-mario-and-his-expanded-universe-004/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0252	compute/jobs/assay-mario-and-his-expanded-universe-005/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0253	compute/jobs/assay-marvel-001/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0254	compute/jobs/assay-mass-effect-001/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0255	compute/jobs/assay-mazinger-001/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0256	compute/jobs/assay-metal-gear-solid-001/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0257	compute/jobs/assay-minecraft-001/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0258	compute/jobs/assay-minecraft-002/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0259	compute/jobs/assay-naruto-001/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0260	compute/jobs/assay-one-piece-001/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0261	compute/jobs/assay-overwatch-001/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0262	compute/jobs/assay-palworld-001/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0263	compute/jobs/assay-path-of-exile-001/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0264	compute/jobs/assay-path-of-exile-002/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0265	compute/jobs/assay-pokemon-001/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0266	compute/jobs/assay-pokemon-002/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0267	compute/jobs/assay-predator-001/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0268	compute/jobs/assay-predator-002/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0269	compute/jobs/assay-problem-solverz-001/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0270	compute/jobs/assay-professional-wrestling-wwe-wcw-aaa-nxt-ecw-tna-aew-001/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0271	compute/jobs/assay-professional-wrestling-wwe-wcw-aaa-nxt-ecw-tna-aew-002/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0272	compute/jobs/assay-professional-wrestling-wwe-wcw-aaa-nxt-ecw-tna-aew-003/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0273	compute/jobs/assay-rainbow-six-001/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0274	compute/jobs/assay-regular-show-001/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0275	compute/jobs/assay-rick-and-morty-001/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0276	compute/jobs/assay-rimworld-001/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0277	compute/jobs/assay-risk-of-rain-001/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0278	compute/jobs/assay-robocop-001/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0279	compute/jobs/assay-rock-of-ages-001/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0280	compute/jobs/assay-rocket-league-001/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0281	compute/jobs/assay-root-the-board-game-001/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0282	compute/jobs/assay-rosario-vampire-001/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0283	compute/jobs/assay-sailor-moon-001/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0284	compute/jobs/assay-sakamoto-days-001/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0285	compute/jobs/assay-soul-calibur-001/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0286	compute/jobs/assay-splinter-cell-001/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0287	compute/jobs/assay-spongebob-squarepants-001/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0288	compute/jobs/assay-starcraft-001/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0289	compute/jobs/assay-street-fighter-001/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0290	compute/jobs/assay-tekken-001/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0291	compute/jobs/assay-terminator-001/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0292	compute/jobs/assay-terraria-001/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0293	compute/jobs/assay-the-amazing-digital-circus-001/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0294	compute/jobs/assay-the-amazing-world-of-gumball-001/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0295	compute/jobs/assay-the-binding-of-isaac-001/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0296	compute/jobs/assay-the-division-001/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0297	compute/jobs/assay-the-grim-adventures-of-billy-mandy-001/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0298	compute/jobs/assay-the-lord-of-the-rings-001/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0299	compute/jobs/assay-the-lord-of-the-rings-002/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0300	compute/jobs/assay-the-lord-of-the-rings-003/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0301	compute/jobs/assay-the-lovecraftian-mythos-001/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0302	compute/jobs/assay-the-lovecraftian-mythos-002/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0303	compute/jobs/assay-thomas-the-tank-engine-001/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0304	compute/jobs/assay-transformers-001/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0305	compute/jobs/assay-twilight-imperium-001/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0306	compute/jobs/assay-uncle-grandpa-001/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0307	compute/jobs/assay-vampire-the-masquerade-001/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0308	compute/jobs/assay-vampire-the-masquerade-002/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0309	compute/jobs/assay-vampire-the-masquerade-003/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0310	compute/jobs/assay-vampire-the-masquerade-004/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0311	compute/jobs/assay-vampire-the-masquerade-005/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0312	compute/jobs/assay-vampyr-001/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0313	compute/jobs/assay-who-framed-roger-rabbit-incl-all-content-from-its-associated-001/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0314	compute/jobs/assay-wizard-with-a-gun-001/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0315	compute/jobs/assay-world-of-warcraft-001/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0316	compute/jobs/assay-world-of-warcraft-002/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0317	compute/jobs/assay-world-of-warcraft-003/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0318	compute/jobs/assay-world-of-warcraft-004/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0319	compute/jobs/assay-world-of-warcraft-005/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0320	compute/jobs/assay-world-of-warcraft-006/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0321	compute/jobs/assay-world-of-warcraft-007/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0322	compute/jobs/assay-world-of-warcraft-008/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0323	compute/jobs/assay-world-of-warcraft-009/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0324	compute/jobs/assay-world-of-warcraft-010/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0325	compute/jobs/assay-world-of-warcraft-011/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0326	compute/jobs/assay-world-of-warcraft-012/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0327	compute/jobs/assay-world-of-warcraft-013/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0328	compute/jobs/assay-world-of-warcraft-014/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0329	compute/jobs/assay-world-of-warcraft-015/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0330	compute/jobs/assay-world-of-warcraft-016/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0331	compute/jobs/assay-world-of-warcraft-017/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0332	compute/jobs/assay-world-of-warcraft-018/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0333	compute/jobs/assay-world-of-warcraft-019/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0334	compute/jobs/assay-world-of-warcraft-020/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0335	compute/jobs/assay-world-of-warcraft-021/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0336	compute/jobs/assay-world-of-warcraft-022/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0337	compute/jobs/assay-world-of-warcraft-023/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0338	compute/jobs/assay-world-of-warcraft-024/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0339	compute/jobs/assay-world-of-warcraft-025/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0340	compute/jobs/assay-world-of-warcraft-026/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0341	compute/jobs/assay-world-of-warcraft-027/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0342	compute/jobs/assay-world-of-warcraft-028/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0343	compute/jobs/assay-world-of-warcraft-029/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0344	compute/jobs/assay-world-of-warcraft-030/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0345	compute/jobs/assay-world-of-warcraft-031/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0346	compute/jobs/assay-world-of-warcraft-032/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0347	compute/jobs/assay-world-of-warcraft-033/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0348	compute/jobs/assay-world-of-warcraft-034/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0349	compute/jobs/assay-world-of-warcraft-035/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0350	compute/jobs/assay-world-of-warcraft-036/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0351	compute/jobs/assay-world-of-warcraft-037/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0352	compute/jobs/assay-world-of-warcraft-038/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0353	compute/jobs/assay-world-of-warcraft-039/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0354	compute/jobs/assay-world-of-warcraft-040/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0355	compute/jobs/assay-world-of-warcraft-041/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0356	compute/jobs/assay-xcom-001/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0357	compute/jobs/assay-xenoblade-001/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0358	compute/jobs/assay-xenoblade-002/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0359	compute/jobs/assay-xenoblade-003/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0360	compute/jobs/assay-xenoblade-004/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0361	compute/jobs/assay-xenoblade-005/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0362	compute/jobs/assay-xenoblade-006/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0363	compute/jobs/assay-yakuza-001/README.md	Source assay shard: one original entry per real source page. Shared instructions first. max_tokens 220, thinking off, JS | 193 B
+D0364	compute/jobs/diaithir-deepen/CHECK.md	Diaithir deepening (Age V, Future 8, Rodos 9). in.jsonl rows {id, prompt, age, locale, kind}; out.jsonl rows {id, text}  | 587 B
+D0365	compute/jobs/library-tagging-2/README.md	Tags for Diaithir records still missing a culture or tech link. Shared prefix first (cacheable). JSON only, thinking off | 204 B
+D0366	compute/jobs/library-tagging-retry/CHECK.md	Retry of library-tagging rows that did not parse. Same format and checks; reply JSON only, thinking off, max_tokens 120. | 121 B
+D0367	compute/jobs/library-tagging/CHECK.md	Library tagging job. in.jsonl rows {id, prompt}; out.jsonl rows {id, text} where text is the JSON reply. | 481 B
+D0368	compute/jobs/packmap-entries-1/README.md	Pack-to-Library entries: one original entry per real registry id of entities, biomes, structures, dimensions and enchant | 305 B
+D0369	compute/jobs/packmap-entries-gap/README.md	Gap fill for pack ids with no Library entry (families + registries). Same prompts as packmap-entries-items and packmap-e | 323 B
+D0370	compute/jobs/packmap-entries-items/README.md	Pack item and block families (23,269): colour, wood, stone and shape variants share one entry. Shared instructions first | 226 B
+D0371	compute/jobs/packmap-entries-ships/README.md	Pack families for the ships jar (Valkyrien Skies and Eureka). max_tokens 200, thinking off, JSON only. Merge: packmap.me | 134 B
+D0372	compute/jobs/packmap-rewrite-1/README.md	Rewrites pack-entry summaries that use meta words. max_tokens 150, thinking off, JSON only. Out rows {id, text}; Claude  | 142 B
+D0373	compute/jobs/settlement-specs-001/README.txt	max_tokens 900 | 102 B
+D0374	compute/jobs/settlement-specs-002/README.txt	max_tokens 900 | 102 B
+D0375	compute/jobs/worldgen-spec/README.md	max_tokens 1200 | 241 B
+D0376	compute/jobs/worldsys-code/README.md	Worldsys clean-room code, one feature per row. max_tokens 16000 | 259 B
+D0377	counters.txt	﻿16:35:17  memory\page faults/sec=130,827 | memory\pages input/sec=5,677 | memory\pages output/sec=0 | memory\available  | 21650 B
+D0378	crash-2026-10-23_23.06.11-server.txt	---- Minecraft Crash Report ---- | 128938 B
+D0379	crash-2026-10-24_00.34.35-server.txt	---- Minecraft Crash Report ---- | 128941 B
+D0380	crash-2026-10-25_09.15.18-client.txt	---- Minecraft Crash Report ---- | 111499 B
+D0381	crash-2026-10-28_16.37.50-server.txt	---- Minecraft Crash Report ---- | 414074 B
+D0382	crash-2026-10-28_17.01.40-server.txt	---- Minecraft Crash Report ---- | 414061 B
+D0383	crash2241_crash-report.txt	---- Minecraft Crash Report ---- | 111149 B
+D0384	create-addons/HANDOFF.md	Create addons hand-off (10-27 20:45 UTC) | 1575 B
+D0385	create-addons/PLAN.md	Create addons: survey and plan (10-27) | 2740 B
+D0386	create-addons/WORKER_BRIEF.md	"Worker brief: bulk Create addon ports (Marlon: ""should have been done long ago"", move fast, batch, never ask him) | 3288 B"
+D0387	crossmod/OPEN_ROWS.md	Cross-mod open rows handed to owning threads (from cross-mod thread, 10-27) | 2433 B
+D0388	crossmod/tech_names_missing.txt	allthemodium.RODOS | 399 B
+D0389	cuisine/FOOD_MODS.md	Food and diet mods with a 26.1.2 build (checked 2026-10-27, Modrinth) | 1734 B
+D0390	dedupe/EffectMerge.java.txt	package net.diaithir.bridges; | 2016 B
+D0391	dh_ignored_dimensions.txt	"ignoredDimensionCsv = ""backrooms:level0,backrooms:level1,backrooms:level10,backrooms:level11,backrooms:level12,backrooms | 3050 B"
+D0392	diaithiris-archaic/BEFORE_AFTER.md	Before and after | 1056 B
+D0393	diaithiris-archaic/CULTURE_NAMES.md	Culture names in archaic Diaithìris | 5820 B
+D0394	diaithiris-archaic/GRAMMAR_ARCHAIC.md	Diaithìris, the archaic layer | 5008 B
+D0395	diaithiris-archaic/LEXICON.md	Diaithìris – English dictionary | 2142116 B
+D0396	diaithiris-archaic/LEXICON_EN.md	English – Diaithìris dictionary | 1505488 B
+D0397	diaithiris-archaic/tools/oldirish_known.txt	lebor cenn ben fer ech craeb samrad tech caill muir sid sìd cuirid mac maccu maqqi athair mathair brathair bráthair sen  | 673 B
+D0398	dishes/CREDITS.md	Dish photo credits | 153637 B
+D0399	dishes/CREDITS_with_composites.md	Dish photo credits | 158218 B
+D0400	distribution/scout_mods.md	Scout mods (DiaithirRPG PR #86, area mc_mod): add / skip, 2026-10-21 | 4067 B
+D0401	e_drive_refs.txt	﻿== Scheduled tasks == | 5386 B
+D0402	earth_maps/biomes_by_age/stage2/template.html	<title>World Biomes By Age</title> | 16715 B
+D0403	earth_maps/biomes_by_age/stage2/template2.html	<title>World Biomes By Age</title> | 24949 B
+D0404	earth_maps/biomes_by_age/template.html	<title>World Biomes By Age</title> | 16715 B
+D0405	economy/ECONOMY_RESEARCH.md	What goes into an economy, and how Diaithir matches it | 3808 B
+D0406	game-plan/antislop/DESIGN.md	Shardfall DESIGN.md | 2915 B
+D0407	game-plan/antislop/GUIDE.md	The antislop guide | 43490 B
+D0408	game-plan/antislop/README.md	"<p align=""center""> | 12279 B"
+D0409	game-plan/antislop/SOURCE.md	antislop in Shardfall | 2301 B
+D0410	game-plan/antislop/antislop.md	name: antislop | 57827 B
+D0411	game-plan/antislop/rules/antislop.md	<EXTREMELY_IMPORTANT> | 1046 B
+D0412	game-plan/antislop/skills/antislop-code/SKILL.md	name: antislop-code | 8944 B
+D0413	game-plan/antislop/skills/antislop-copywriting/SKILL.md	name: antislop-copywriting | 25419 B
+D0414	game-plan/antislop/skills/antislop-human/SKILL.md	name: antislop-human | 11051 B
+D0415	game-plan/antislop/skills/antislop-layoutmobile/SKILL.md	name: antislop-layoutmobile | 16378 B
+D0416	game-plan/antislop/skills/antislop-ui/SKILL.md	name: antislop-ui | 26844 B
+D0417	game-plan/antislop/skills/antislop/SKILL.md	name: antislop | 57827 B
+D0418	game-plan/bible/BIBLE.md	Shardfall Bible | 4477 B
+D0419	game-plan/bible/baseline-2026-10-06.txt	WARN antislop/antislop.md:157 EM_DASH: game text uses an ellipsis or a comma, never an em dash | 13679 B
+D0420	game-plan/bible/canon.md	Canon: story, world, people, names | 12406 B
+D0421	game-plan/bible/decisions.md	Decision log | 28559 B
+D0422	game-plan/bible/presentation.md	Look, UI, copy, audio and licensing | 3271 B
+D0423	game-plan/bible/production.md	Production: pipeline, owners, conventions | 3231 B
+D0424	game-plan/bible/systems.md	Systems and numbers | 5157 B
+D0425	game-plan/data/README.md	Shardfall data: master index | 15439 B
+D0426	game-plan/data/actors/README.md	data/actors (characters and progression) | 1810 B
+D0427	game-plan/data/items/README.md	Shardfall item data (ITM_) | 2641 B
+D0428	game-plan/data/ui/README.md	Shardfall UI text (owned by the UI text thread) | 1348 B
+D0429	game-plan/design/accessibility/README.md	Shardfall accessibility and settings | 3606 B
+D0430	game-plan/design/accessibility/tools/features.txt	Systemic accessibility rules (not menu options). id|area|rule|standards|phase|source | 7778 B
+D0431	game-plan/design/accessibility/tools/gag.txt	Basic|Motor|Allow controls to be remapped / reconfigured|Met|Full remap on controller, keyboard and mouse (OPT_TAB_REMAP | 14718 B
+D0432	game-plan/design/accessibility/tools/opts.txt	str_id|tab|section|label|type|default|values|tooltip|apply|platforms|mp_rule|refs|source | 36122 B
+D0433	game-plan/design/art/01-geometry-textures-naming.md	01 Geometry, textures, materials, LOD and naming | 5348 B
+D0434	game-plan/design/art/02-lighting-guide.md	02 Lighting and post-process guide | 3752 B
+D0435	game-plan/design/art/03-animation-direction.md	03 Animation direction and mocap plan | 4031 B
+D0436	game-plan/design/art/04-outsourcing-spec-pack.md	04 Outsourcing art spec pack | 2447 B
+D0437	game-plan/design/art/05-fonts.md	05 Fonts for all 12 text languages | 4127 B
+D0438	game-plan/design/art/README.md	Shardfall art production standards | 3863 B
+D0439	game-plan/design/audio/README.md	Shardfall audio direction | 7877 B
+D0440	game-plan/design/audio/metasound_specs.md	MetaSound graph specs | 3044 B
+D0441	game-plan/design/audio/summary.txt	Music cues by category (count, unique minutes) | 724 B
+D0442	game-plan/design/audit/check-2026-10-05-summary.md	Project check, 2026-10-05 | 2214 B
+D0443	game-plan/design/campaign/01-lore-bible.md	Shardfall lore bible | 17841 B
+D0444	game-plan/design/campaign/02-characters.md	Shardfall characters | 15895 B
+D0445	game-plan/design/campaign/03-main-story.md	Shardfall main story, beat by beat | 14227 B
+D0446	game-plan/design/campaign/04-choices-and-endings.md	Choices, consequences and endings | 6257 B
+D0447	game-plan/design/campaign/05-story-pass.md	Story pass: making Shardfall compelling and its own | 7918 B
+D0448	game-plan/design/campaign/06-omniverse-spine.md	Shardfall as the spine of the omniverse | 8474 B
+D0449	game-plan/design/campaign/07-omniverse-weave.md	The Long Harvest: one story over 210 universes | 25198 B
+D0450	game-plan/design/campaign/README.md	Shardfall campaign and story | 4832 B
+D0451	game-plan/design/campaign/tools/SEED_SCHEMA.md	Quest seed schema (for workers writing seeds/*.json) | 4133 B
+D0452	game-plan/design/campaign/tools/master-plan.txt	Shardfall: Game Synthesis and Production Plan | 85494 B
+D0453	game-plan/design/cinematics/README.md	Shardfall cinematics | 6472 B
+D0454	game-plan/design/cinematics/summary.txt	76 cinematics (43 CUT, 32 IGC), 927 shots, 20 systemic cameras. | 235 B
+D0455	game-plan/design/companion/README.md	Shardfall Companion (web, iOS, Android) | 5678 B
+D0456	game-plan/design/continuity/README.md	Continuity pass (2026-10-03) | 745 B
+D0457	game-plan/design/controls/README.md	Shardfall controls, camera and game feel | 5361 B
+D0458	game-plan/design/forgeframe/README.md	Forgeframe: the shipped player editor | 5300 B
+D0459	game-plan/design/frontend/README.md	Shardfall front end and extras | 6254 B
+D0460	game-plan/design/levels/cinderreach/01-region-flow.md	Cinderreach: region flow | 4300 B
+D0461	game-plan/design/levels/cinderreach/02-spine-keep.md	Spine Keep: Citadel walkthrough | 4377 B
+D0462	game-plan/design/levels/cinderreach/05-level-sheets.md	Cinderreach level sheets | 48971 B
+D0463	game-plan/design/levels/cinderreach/README.md	Cinderreach levels (Region 1) | 3378 B
+D0464	game-plan/design/levels/glasswaste/README.md	Glasswaste level design (REG_04, levels 32 to 46) | 6023 B
+D0465	game-plan/design/levels/glasswaste/sheets/LOC_CHOIR_REG_04.md	Glass Choir | 1027 B
+D0466	game-plan/design/levels/glasswaste/sheets/LOC_CIT_REG_04.md	The Choir Spire (The Grafted Foundry) | 8446 B
+D0467	game-plan/design/levels/glasswaste/sheets/LOC_DGN_REG_04_01.md	Prism Spire | 2543 B
+D0468	game-plan/design/levels/glasswaste/sheets/LOC_DGN_REG_04_02.md	Dune Hulk | 2063 B
+D0469	game-plan/design/levels/glasswaste/sheets/LOC_DGN_REG_04_03.md	Hall of Panes (Mirror Hall) | 2235 B
+D0470	game-plan/design/levels/glasswaste/sheets/LOC_DGN_REG_04_04.md	Lens Medbay | 2075 B
+D0471	game-plan/design/levels/glasswaste/sheets/LOC_DGN_REG_04_05.md	Prism Stockade | 1560 B
+D0472	game-plan/design/levels/glasswaste/sheets/LOC_DGN_REG_04_06.md	Sand Wreck | 2353 B
+D0473	game-plan/design/levels/glasswaste/sheets/LOC_DGN_REG_04_07.md	Dune Tower | 2079 B
+D0474	game-plan/design/levels/glasswaste/sheets/LOC_DGN_REG_04_08.md	Singing Hollow | 1743 B
+D0475	game-plan/design/levels/glasswaste/sheets/LOC_DGN_REG_04_09.md	Lens Laboratory | 1913 B
+D0476	game-plan/design/levels/glasswaste/sheets/LOC_DGN_REG_04_10.md	Shuttle Bay Wreck (The Last Hangar) | 2352 B
+D0477	game-plan/design/levels/glasswaste/sheets/LOC_DGN_REG_04_11.md	Mirage Hulk | 2196 B
+D0478	game-plan/design/levels/glasswaste/sheets/LOC_DGN_REG_04_12.md	Sun Ossuary | 1935 B
+D0479	game-plan/design/levels/glasswaste/sheets/LOC_DGN_REG_04_13.md	Lens Tower | 2075 B
+D0480	game-plan/design/levels/glasswaste/sheets/LOC_DGN_REG_04_14.md	Mirage Cave | 2043 B
+D0481	game-plan/design/levels/glasswaste/sheets/LOC_DGN_REG_04_15.md	Dune Laboratory | 2507 B
+D0482	game-plan/design/levels/glasswaste/sheets/LOC_FB_BASILISK.md	Glass Basilisk grounds | 759 B
+D0483	game-plan/design/levels/glasswaste/sheets/LOC_FB_HAULER.md	Wandering Hauler grounds | 812 B
+D0484	game-plan/design/levels/glasswaste/sheets/LOC_RELAY_REG_04.md	Glasswaste Relay Tower | 1025 B
+D0485	game-plan/design/levels/glasswaste/sheets/LOC_TOWN_REG_04_01.md	Glassmouth Caravanserai | 1216 B
+D0486	game-plan/design/levels/glasswaste/sheets/LOC_TOWN_REG_04_02.md	Choirtower Hamlet | 914 B
+D0487	game-plan/design/levels/glasswaste/sheets/LOC_VAULT_REG_04_01.md	Dune Choir Vault | 1934 B
+D0488	game-plan/design/levels/glasswaste/sheets/LOC_VAULT_REG_04_02.md	Glass Choir Vault | 1549 B
+D0489	game-plan/design/levels/glasswaste/sheets/LOC_VAULT_REG_04_03.md	Prism Choir Vault | 1549 B
+D0490	game-plan/design/levels/hollowdeep/README.md	Hollowdeep (REG_06) level design | 5632 B
+D0491	game-plan/design/levels/multiplayer/01-strikes.md	Strikes (3 players, level 80) | 23131 B
+D0492	game-plan/design/levels/multiplayer/02-raid.md	Raid: The Quiet (6 players, 4 wings) | 8196 B
+D0493	game-plan/design/levels/multiplayer/03-arena.md	Arena PvP 3v3 | 11426 B
+D0494	game-plan/design/levels/multiplayer/README.md	Multiplayer level design | 3177 B
+D0495	game-plan/design/levels/multiplayer/layouts/ARENA_MP_01.txt	Flight Deck (ARENA_MP_01), 48 x 32 m, cell = 2 m, north up | 644 B
+D0496	game-plan/design/levels/multiplayer/layouts/ARENA_MP_02.txt	Salt Pans (ARENA_MP_02), 76 x 48 m, cell = 2 m, north up | 1178 B
+D0497	game-plan/design/levels/multiplayer/layouts/ARENA_MP_03.txt	Redbark Mill (ARENA_MP_03), 60 x 40 m, cell = 2 m, north up | 865 B
+D0498	game-plan/design/levels/multiplayer/layouts/ARENA_MP_04.txt	Glass Lens (ARENA_MP_04), 84 x 36 m, cell = 2 m, north up | 1017 B
+D0499	game-plan/design/levels/multiplayer/layouts/ARENA_MP_05.txt	Bell Cloister (ARENA_MP_05), 40 x 40 m, cell = 2 m, north up | 666 B
+D0500	game-plan/design/levels/multiplayer/layouts/ARENA_MP_06.txt	Lifted Steps (ARENA_MP_06), 60 x 60 m, cell = 2 m, north up | 1175 B
+D0501	game-plan/design/levels/multiplayer/layouts/ARENA_MP_S1.txt	Undervault Sluice (ARENA_MP_S1), 52 x 40 m, cell = 2 m, north up | 790 B
+D0502	game-plan/design/levels/multiplayer/validation.txt	0 errors | 64 B
+D0503	game-plan/design/levels/orbital-ring/README.md	The Orbital Ring (REG_Q, the Quiet): level design | 7176 B
+D0504	game-plan/design/levels/rimefall/01-region-flow.md	Rimefall level flow (REG_05) | 4700 B
+D0505	game-plan/design/levels/rimefall/02-citadel.md	Saint Drive Abbey: Citadel walkthrough (LOC_CIT_REG_05) | 8942 B
+D0506	game-plan/design/levels/rimefall/README.md	Rimefall levels (REG_05) | 3830 B
+D0507	game-plan/design/levels/rimefall/sheets/LOC_CHOIR_REG_05.md	Rime Choir (LOC_CHOIR_REG_05) | 2370 B
+D0508	game-plan/design/levels/rimefall/sheets/LOC_CIT_REG_05_Z1.md	Pilgrim Stair (LOC_CIT_REG_05_Z1) | 3651 B
+D0509	game-plan/design/levels/rimefall/sheets/LOC_CIT_REG_05_Z2.md	Bell Gate (LOC_CIT_REG_05_Z2) | 3571 B
+D0510	game-plan/design/levels/rimefall/sheets/LOC_CIT_REG_05_Z3.md	Choir Mother Chancel (LOC_CIT_REG_05_Z3) | 2912 B
+D0511	game-plan/design/levels/rimefall/sheets/LOC_CIT_REG_05_Z4.md	Reliquary Walk (LOC_CIT_REG_05_Z4) | 3711 B
+D0512	game-plan/design/levels/rimefall/sheets/LOC_CIT_REG_05_Z5.md	Cloister Snows (LOC_CIT_REG_05_Z5) | 3823 B
+D0513	game-plan/design/levels/rimefall/sheets/LOC_CIT_REG_05_Z6.md	Drive Coolant Crypts (LOC_CIT_REG_05_Z6) | 4218 B
+D0514	game-plan/design/levels/rimefall/sheets/LOC_CIT_REG_05_Z7.md	Abbot Lanterns (LOC_CIT_REG_05_Z7) | 3448 B
+D0515	game-plan/design/levels/rimefall/sheets/LOC_CIT_REG_05_Z8.md	The Rime Altar (LOC_CIT_REG_05_Z8) | 4415 B
+D0516	game-plan/design/levels/rimefall/sheets/LOC_CQ_REG_05_ELK_VALLEY.md	elk valley (LOC_CQ_REG_05_ELK_VALLEY) | 1585 B
+D0517	game-plan/design/levels/rimefall/sheets/LOC_CQ_REG_05_FROZEN_PASS.md	frozen pass (LOC_CQ_REG_05_FROZEN_PASS) | 1658 B
+D0518	game-plan/design/levels/rimefall/sheets/LOC_CQ_REG_05_HEARTHWARD_PASS.md	Rimehold Pass (LOC_CQ_REG_05_HEARTHWARD_PASS) | 1729 B
+D0519	game-plan/design/levels/rimefall/sheets/LOC_CQ_REG_05_HIGH_ROAD.md	high road (LOC_CQ_REG_05_HIGH_ROAD) | 1646 B
+D0520	game-plan/design/levels/rimefall/sheets/LOC_CQ_REG_05_PACT_CAIRN.md	Pact cairn (LOC_CQ_REG_05_PACT_CAIRN) | 1700 B
+D0521	game-plan/design/levels/rimefall/sheets/LOC_CQ_REG_05_SEV_ICEHOUSE.md	Sev icehouse (LOC_CQ_REG_05_SEV_ICEHOUSE) | 1688 B
+D0522	game-plan/design/levels/rimefall/sheets/LOC_CQ_REG_05_WHITE_TOWER_ROAD.md	White Tower road (LOC_CQ_REG_05_WHITE_TOWER_ROAD) | 1650 B
+D0523	game-plan/design/levels/rimefall/sheets/LOC_DGN_REG_05_01.md	Rime Ossuary (LOC_DGN_REG_05_01) | 6357 B
+D0524	game-plan/design/levels/rimefall/sheets/LOC_DGN_REG_05_02.md	Lamp Grotto (LOC_DGN_REG_05_02) | 5574 B
+D0525	game-plan/design/levels/rimefall/sheets/LOC_DGN_REG_05_03.md	Witch's Needle (LOC_DGN_REG_05_03) | 5782 B
+D0526	game-plan/design/levels/rimefall/sheets/LOC_DGN_REG_05_04.md	Frost Hermitage (LOC_DGN_REG_05_04) | 5158 B
+D0527	game-plan/design/levels/rimefall/sheets/LOC_DGN_REG_05_05.md	Hoar Wreck (LOC_DGN_REG_05_05) | 6088 B
+D0528	game-plan/design/levels/rimefall/sheets/LOC_DGN_REG_05_06.md	Bell Hollow (LOC_DGN_REG_05_06) | 5867 B
+D0529	game-plan/design/levels/rimefall/sheets/LOC_DGN_REG_05_07.md	Lamp Crypt (LOC_DGN_REG_05_07) | 5927 B
+D0530	game-plan/design/levels/rimefall/sheets/LOC_DGN_REG_05_08.md	Pale Priory (LOC_DGN_REG_05_08) | 5763 B
+D0531	game-plan/design/levels/rimefall/sheets/LOC_DGN_REG_05_09.md	Snow Fort (LOC_DGN_REG_05_09) | 4952 B
+D0532	game-plan/design/levels/rimefall/sheets/LOC_DGN_REG_05_10.md	Abbot's Crypt (LOC_DGN_REG_05_10) | 6430 B
+D0533	game-plan/design/levels/rimefall/sheets/LOC_DGN_REG_05_11.md	Glacier Cave (LOC_DGN_REG_05_11) | 4714 B
+D0534	game-plan/design/levels/rimefall/sheets/LOC_DGN_REG_05_12.md	Lamp Wreck (LOC_DGN_REG_05_12) | 6772 B
+D0535	game-plan/design/levels/rimefall/sheets/LOC_DGN_REG_05_13.md	Lamp Priory (LOC_DGN_REG_05_13) | 6391 B
+D0536	game-plan/design/levels/rimefall/sheets/LOC_DGN_REG_05_14.md	Frost Fort (LOC_DGN_REG_05_14) | 5097 B
+D0537	game-plan/design/levels/rimefall/sheets/LOC_DGN_REG_05_15.md	Pale Cave (LOC_DGN_REG_05_15) | 6115 B
+D0538	game-plan/design/levels/rimefall/sheets/LOC_EVT_REG_05_01.md	Shard-fall at Pale Wreck fragment (LOC_EVT_REG_05_01) | 2418 B
+D0539	game-plan/design/levels/rimefall/sheets/LOC_EVT_REG_05_02.md	Remnant convoy at Pale Wreck fragment (LOC_EVT_REG_05_02) | 2287 B
+D0540	game-plan/design/levels/rimefall/sheets/LOC_EVT_REG_05_03.md	Hollowed surge at Lamp Wayshrine (LOC_EVT_REG_05_03) | 2281 B
+D0541	game-plan/design/levels/rimefall/sheets/LOC_EVT_REG_05_04.md	Thorn raid on a caravan at Pale Hunting ground (LOC_EVT_REG_05_04) | 2451 B
+D0542	game-plan/design/levels/rimefall/sheets/LOC_FB_ARKKNIGHT.md	Fallen Ark-Knight grounds (LOC_FB_ARKKNIGHT) | 2345 B
+D0543	game-plan/design/levels/rimefall/sheets/LOC_FB_FROSTTITAN.md	Frost Titan grounds (LOC_FB_FROSTTITAN) | 2373 B
+D0544	game-plan/design/levels/rimefall/sheets/LOC_LMK_REG_05_01.md	The Drive Section (LOC_LMK_REG_05_01) | 1385 B
+D0545	game-plan/design/levels/rimefall/sheets/LOC_LMK_REG_05_02.md	Saint Drive Abbey Bells (LOC_LMK_REG_05_02) | 1390 B
+D0546	game-plan/design/levels/rimefall/sheets/LOC_LMK_REG_05_03.md	Frost Titan Throne (LOC_LMK_REG_05_03) | 1403 B
+D0547	game-plan/design/levels/rimefall/sheets/LOC_LMK_REG_05_04.md	Ice-Locked Ark Knight (LOC_LMK_REG_05_04) | 1390 B
+D0548	game-plan/design/levels/rimefall/sheets/LOC_LMK_REG_05_05.md	Lamp Road (LOC_LMK_REG_05_05) | 1413 B
+D0549	game-plan/design/levels/rimefall/sheets/LOC_LMK_REG_05_06.md	Witch Needle (LOC_LMK_REG_05_06) | 1384 B
+D0550	game-plan/design/levels/rimefall/sheets/LOC_LMK_REG_05_07.md	Glacier Mouth (LOC_LMK_REG_05_07) | 1399 B
+D0551	game-plan/design/levels/rimefall/sheets/LOC_POI_REG_05_01.md	Snow Faction camp (LOC_POI_REG_05_01) | 2443 B
+D0552	game-plan/design/levels/rimefall/sheets/LOC_POI_REG_05_02.md	Snow Ruin (LOC_POI_REG_05_02) | 2241 B
+D0553	game-plan/design/levels/rimefall/sheets/LOC_POI_REG_05_03.md	Lamp Wreck fragment (LOC_POI_REG_05_03) | 2002 B
+D0554	game-plan/design/levels/rimefall/sheets/LOC_POI_REG_05_04.md	Hoar Wayshrine (LOC_POI_REG_05_04) | 1767 B
+D0555	game-plan/design/levels/rimefall/sheets/LOC_POI_REG_05_05.md	Lamp Watchtower (LOC_POI_REG_05_05) | 2306 B
+D0556	game-plan/design/levels/rimefall/sheets/LOC_POI_REG_05_06.md	Pale Overturned cart (LOC_POI_REG_05_06) | 1837 B
+D0557	game-plan/design/levels/rimefall/sheets/LOC_POI_REG_05_07.md	Lamp Overlook (LOC_POI_REG_05_07) | 1896 B
+D0558	game-plan/design/levels/rimefall/sheets/LOC_POI_REG_05_08.md	Hoar Hermit hut (LOC_POI_REG_05_08) | 1539 B
+D0559	game-plan/design/levels/rimefall/sheets/LOC_POI_REG_05_09.md	Hoar Grave field (LOC_POI_REG_05_09) | 1955 B
+D0560	game-plan/design/levels/rimefall/sheets/LOC_POI_REG_05_10.md	Frost Shard crater (LOC_POI_REG_05_10) | 2101 B
+D0561	game-plan/design/levels/rimefall/sheets/LOC_POI_REG_05_11.md	Pale Hunting ground (LOC_POI_REG_05_11) | 1977 B
+D0562	game-plan/design/levels/rimefall/sheets/LOC_POI_REG_05_12.md	Lamp Lair (LOC_POI_REG_05_12) | 1855 B
+D0563	game-plan/design/levels/rimefall/sheets/LOC_POI_REG_05_13.md	Bell Trader stop (LOC_POI_REG_05_13) | 1547 B
+D0564	game-plan/design/levels/rimefall/sheets/LOC_POI_REG_05_14.md	Snow Vehicle depot (LOC_POI_REG_05_14) | 2189 B
+D0565	game-plan/design/levels/rimefall/sheets/LOC_POI_REG_05_15.md	Snow Faction camp (LOC_POI_REG_05_15) | 2299 B
+D0566	game-plan/design/levels/rimefall/sheets/LOC_POI_REG_05_16.md	Glacier Ruin (LOC_POI_REG_05_16) | 2066 B
+D0567	game-plan/design/levels/rimefall/sheets/LOC_POI_REG_05_17.md	Glacier Wreck fragment (LOC_POI_REG_05_17) | 2186 B
+D0568	game-plan/design/levels/rimefall/sheets/LOC_POI_REG_05_18.md	Lamp Wayshrine (LOC_POI_REG_05_18) | 1653 B
+D0569	game-plan/design/levels/rimefall/sheets/LOC_POI_REG_05_19.md	Hoar Watchtower (LOC_POI_REG_05_19) | 2642 B
+D0570	game-plan/design/levels/rimefall/sheets/LOC_POI_REG_05_20.md	Bell Overturned cart (LOC_POI_REG_05_20) | 1829 B
+D0571	game-plan/design/levels/rimefall/sheets/LOC_POI_REG_05_21.md	Hoar Overlook (LOC_POI_REG_05_21) | 1589 B
+D0572	game-plan/design/levels/rimefall/sheets/LOC_POI_REG_05_22.md	Hoar Hermit hut (LOC_POI_REG_05_22) | 1407 B
+D0573	game-plan/design/levels/rimefall/sheets/LOC_POI_REG_05_23.md	Pale Grave field (LOC_POI_REG_05_23) | 1921 B
+D0574	game-plan/design/levels/rimefall/sheets/LOC_POI_REG_05_24.md	Lamp Shard crater (LOC_POI_REG_05_24) | 1972 B
+D0575	game-plan/design/levels/rimefall/sheets/LOC_POI_REG_05_25.md	Hoar Hunting ground (LOC_POI_REG_05_25) | 1824 B
+D0576	game-plan/design/levels/rimefall/sheets/LOC_POI_REG_05_26.md	Lamp Lair (LOC_POI_REG_05_26) | 2190 B
+D0577	game-plan/design/levels/rimefall/sheets/LOC_POI_REG_05_27.md	Snow Trader stop (LOC_POI_REG_05_27) | 1416 B
+D0578	game-plan/design/levels/rimefall/sheets/LOC_POI_REG_05_28.md	Rime Vehicle depot (LOC_POI_REG_05_28) | 2120 B
+D0579	game-plan/design/levels/rimefall/sheets/LOC_POI_REG_05_29.md	Glacier Faction camp (LOC_POI_REG_05_29) | 2342 B
+D0580	game-plan/design/levels/rimefall/sheets/LOC_POI_REG_05_30.md	Frost Ruin (LOC_POI_REG_05_30) | 1916 B
+D0581	game-plan/design/levels/rimefall/sheets/LOC_POI_REG_05_31.md	Pale Wreck fragment (LOC_POI_REG_05_31) | 2053 B
+D0582	game-plan/design/levels/rimefall/sheets/LOC_POI_REG_05_32.md	Hoar Wayshrine (LOC_POI_REG_05_32) | 1672 B
+D0583	game-plan/design/levels/rimefall/sheets/LOC_POI_REG_05_33.md	Snow Watchtower (LOC_POI_REG_05_33) | 2148 B
+D0584	game-plan/design/levels/rimefall/sheets/LOC_POI_REG_05_34.md	Hoar Overturned cart (LOC_POI_REG_05_34) | 1820 B
+D0585	game-plan/design/levels/rimefall/sheets/LOC_POI_REG_05_35.md	Pale Overlook (LOC_POI_REG_05_35) | 1627 B
+D0586	game-plan/design/levels/rimefall/sheets/LOC_RELAY_REG_05.md	Rimefall Relay Tower (LOC_RELAY_REG_05) | 2434 B
+D0587	game-plan/design/levels/rimefall/sheets/LOC_TOWN_REG_05_01.md	Rimehold (LOC_TOWN_REG_05_01) | 4939 B
+D0588	game-plan/design/levels/rimefall/sheets/LOC_TOWN_REG_05_02.md	Lampwick (LOC_TOWN_REG_05_02) | 2808 B
+D0589	game-plan/design/levels/rimefall/sheets/LOC_TOWN_REG_05_03.md	Frostgate Hamlet (LOC_TOWN_REG_05_03) | 2379 B
+D0590	game-plan/design/levels/rimefall/sheets/LOC_UV_ENTRY_05.md	Rime Well (Rimefall) (LOC_UV_ENTRY_05) | 1763 B
+D0591	game-plan/design/levels/rimefall/sheets/LOC_VAULT_REG_05_01.md	Snow Choir Vault (LOC_VAULT_REG_05_01) | 5630 B
+D0592	game-plan/design/levels/rimefall/sheets/LOC_VAULT_REG_05_02.md	Glacier Choir Vault (LOC_VAULT_REG_05_02) | 5147 B
+D0593	game-plan/design/levels/rimefall/sheets/LOC_VAULT_REG_05_03.md	Glacier Choir Vault (LOC_VAULT_REG_05_03) | 5404 B
+D0594	game-plan/design/levels/saltmere/README.md	Saltmere (REG_02): level design, top to bottom | 9149 B
+D0595	game-plan/design/levels/thornwood/01-region-flow.md	Thornwood region flow | 4289 B
+D0596	game-plan/design/levels/thornwood/02-citadel-briar-engine.md	The Briar Engine (Thornwood Citadel) | 7078 B
+D0597	game-plan/design/levels/thornwood/03-towns-and-moot.md	Thornwood towns | 3250 B
+D0598	game-plan/design/levels/thornwood/README.md	Thornwood levels (REG_03) | 4721 B
+D0599	game-plan/design/levels/thornwood/level_sheets.md	Thornwood level sheets | 172299 B
+D0600	game-plan/design/levels/undervault/README.md	The Undervault: level design | 6976 B
+D0601	game-plan/design/levels/undervault/sheets/LV_UV_02_ENTRY.md	Drowned Cargo Lift (LV_UV_02_ENTRY) | 2115 B
+D0602	game-plan/design/levels/undervault/sheets/LV_UV_02_S01.md	Hold Nine (LV_UV_02_S01) | 4054 B
+D0603	game-plan/design/levels/undervault/sheets/LV_UV_02_S02.md	The Brine Grotto (LV_UV_02_S02) | 3806 B
+D0604	game-plan/design/levels/undervault/sheets/LV_UV_02_S03.md	Seam Gallery (LV_UV_02_S03) | 3956 B
+D0605	game-plan/design/levels/undervault/sheets/LV_UV_02_S04.md	Junction Station Ka (LV_UV_02_S04) | 3816 B
+D0606	game-plan/design/levels/undervault/sheets/LV_UV_02_S05.md	The Brood Silo (LV_UV_02_S05) | 3872 B
+D0607	game-plan/design/levels/undervault/sheets/LV_UV_02_S06.md	Reactor Cell Three (LV_UV_02_S06) | 4863 B
+D0608	game-plan/design/levels/undervault/sheets/LV_UV_03_ENTRY.md	Root Shaft (LV_UV_03_ENTRY) | 2115 B
+D0609	game-plan/design/levels/undervault/sheets/LV_UV_03_S01.md	Root Hold (LV_UV_03_S01) | 4098 B
+D0610	game-plan/design/levels/undervault/sheets/LV_UV_03_S02.md	The Spore Grotto (LV_UV_03_S02) | 3889 B
+D0611	game-plan/design/levels/undervault/sheets/LV_UV_03_S03.md	Bloomvein Gallery (LV_UV_03_S03) | 3961 B
+D0612	game-plan/design/levels/undervault/sheets/LV_UV_03_S04.md	Junction Station Re (LV_UV_03_S04) | 3822 B
+D0613	game-plan/design/levels/undervault/sheets/LV_UV_03_S05.md	The Hollow Nest (LV_UV_03_S05) | 3823 B
+D0614	game-plan/design/levels/undervault/sheets/LV_UV_03_S06.md	Reactor Cell Seven (LV_UV_03_S06) | 4752 B
+D0615	game-plan/design/levels/undervault/sheets/LV_UV_05_ENTRY.md	Rime Well (LV_UV_05_ENTRY) | 2125 B
+D0616	game-plan/design/levels/undervault/sheets/LV_UV_05_S01.md	Rimed Hold (LV_UV_05_S01) | 4128 B
+D0617	game-plan/design/levels/undervault/sheets/LV_UV_05_S02.md	The Ice Grotto (LV_UV_05_S02) | 3829 B
+D0618	game-plan/design/levels/undervault/sheets/LV_UV_05_S03.md	Frostvein Gallery (LV_UV_05_S03) | 3983 B
+D0619	game-plan/design/levels/undervault/sheets/LV_UV_05_S04.md	Junction Station Su (LV_UV_05_S04) | 3882 B
+D0620	game-plan/design/levels/undervault/sheets/LV_UV_05_S05.md	The Sleeper Nest (LV_UV_05_S05) | 3853 B
+D0621	game-plan/design/levels/undervault/sheets/LV_UV_05_S06.md	Reactor Cell Zero (LV_UV_05_S06) | 4804 B
+D0622	game-plan/design/levels/undervault/sheets/LV_UV_CORE.md	The Engine Heart (LV_UV_CORE) | 6345 B
+D0623	game-plan/design/levels/undervault/sheets/LV_UV_TUN_0203.md	Spine Tunnel East (LV_UV_TUN_0203) | 3104 B
+D0624	game-plan/design/levels/undervault/sheets/LV_UV_TUN_0205.md	Spine Tunnel West (LV_UV_TUN_0205) | 3102 B
+D0625	game-plan/design/licensing/README.md	Licensing, merchandise and transmedia | 7550 B
+D0626	game-plan/design/liveops/README.md	Shardfall live ops and launch plan | 9658 B
+D0627	game-plan/design/loops/01-combat.md	1. Moment-to-moment combat loop | 5047 B
+D0628	game-plan/design/loops/02-encounters.md	2. Encounter loop | 3883 B
+D0629	game-plan/design/loops/03-exploration.md	3. Exploration loop and the 30-minute session | 4514 B
+D0630	game-plan/design/loops/04-progression.md	4. Progression loop | 3381 B
+D0631	game-plan/design/loops/05-economy.md	5. Economy loop (sources and sinks) | 2899 B
+D0632	game-plan/design/loops/06-endgame.md	6. Endgame loop | 4659 B
+D0633	game-plan/design/loops/07-coop-matchmaking.md	7. Co-op and matchmaking loop | 2560 B
+D0634	game-plan/design/loops/08-live-seasons.md	8. Live and seasonal loop | 2333 B
+D0635	game-plan/design/loops/README.md	Shardfall gameplay loops | 2643 B
+D0636	game-plan/design/platform/README.md	Shardfall platform integration | 5816 B
+D0637	game-plan/design/production/README.md	Shardfall production and business plan | 7727 B
+D0638	game-plan/design/production/customer_support.md	Customer support plan | 1572 B
+D0639	game-plan/design/production/legal_eula_privacy.md	EULA, terms of service and privacy policy | 2754 B
+D0640	game-plan/design/production/localization.md	Localization, voice and culturalization | 2343 B
+D0641	game-plan/design/production/marketing_launch.md	Marketing, community and launch plan | 2031 B
+D0642	game-plan/design/production/monetization.md	Monetization model | 2460 B
+D0643	game-plan/design/production/playtest_research_plan.md	Playtest and user research plan | 2571 B
+D0644	game-plan/design/production/qa_cert.md	QA and certification plan | 4924 B
+D0645	game-plan/design/production/ratings_legal.md	Age ratings, legal and IP | 5036 B
+D0646	game-plan/design/production/summary.txt	dev_total_M=254.8 | 320 B
+D0647	game-plan/design/production/tools-2026-10-08.md	New tools survey, 2026-10-08 | 6369 B
+D0648	game-plan/design/research/README.md	Shardfall user research and analytics | 3640 B
+D0649	game-plan/design/research/arma3_fact_sheet.md	Arma 3 design reference for Shardfall | 3783 B
+D0650	game-plan/design/research/darksouls-facts.md	Dark Souls 1-3 fact sheet (public sources) | 6580 B
+D0651	game-plan/design/research/dos2-fact-sheet-status.md	DOS2 fact sheet: stopped, editor not installed | 967 B
+D0652	game-plan/design/research/eldenring-facts.md	Elden Ring fact sheet (public sources) | 4696 B
+D0653	game-plan/design/research/fallout76-facts.md	Fallout 76 fact sheet (public sources) | 4882 B
+D0654	game-plan/design/research/halo-facts.md	Halo fact sheet (official MCC mod tools + public docs) | 5515 B
+D0655	game-plan/design/research/marathon-facts.md	Marathon / Aleph One design facts for Shardfall | 4876 B
+D0656	game-plan/design/research/mhworld-facts.md	Monster Hunter: World fact sheet (public sources) | 4836 B
+D0657	game-plan/design/research/outward-facts.md	Outward fact sheet (public sources) | 4155 B
+D0658	game-plan/design/research/poe2-facts.md	Path of Exile 2 fact sheet (public sources) | 5113 B
+D0659	game-plan/design/research/shardfall_skyrim_factsheet.md	Skyrim SE reference values for Shardfall | 4882 B
+D0660	game-plan/design/research/shardfall_valve_factsheet.md	Shardfall reference: L4D2 and TF2 design data | 2888 B
+D0661	game-plan/design/research/steam-library-shardfall.md	E:\SteamLibrary: Shardfall reference games | 1404 B
+D0662	game-plan/design/simulation/README.md	Shardfall open-world simulation | 4639 B
+D0663	game-plan/design/simulation/sim/README.md	Loot and economy simulator (build package B08) | 2738 B
+D0664	game-plan/design/simulation/sim/report.html	"<!doctype html><html lang=""en""><head><meta charset=""utf-8""><meta name=""viewport"" content=""width=device-width,initial-sca | 41103 B"
+D0665	game-plan/design/social/01-social.md	01 Social systems | 7013 B
+D0666	game-plan/design/social/02-safety.md	02 Player safety | 4069 B
+D0667	game-plan/design/social/03-support.md	03 Player support desk | 4222 B
+D0668	game-plan/design/social/README.md	Shardfall social and player support | 3344 B
+D0669	game-plan/design/standard-2026/01-heritage-start.md	Heritage start (culture picker) | 3138 B
+D0670	game-plan/design/standard-2026/02-tech-lineage.md	Tech tree in Shardfall: the recovery tree | 2043 B
+D0671	game-plan/design/standard-2026/03-heritage-quests.md	Heritage quests | 1510 B
+D0672	game-plan/design/standard-2026/04-history-economy-gods.md	History, economy, gods, de-extinction | 2846 B
+D0673	game-plan/design/standard-2026/05-codex-library.md	Codex as Civilopedia, and Library index | 811 B
+D0674	game-plan/design/standard-2026/GAP_REPORT.md	Shardfall against the 2026-10-27 standard: gap report | 5385 B
+D0675	game-plan/design/systems/README.md	Shardfall systems: stealth, vehicles, onboarding, balance, achievements, character creator | 8824 B
+D0676	game-plan/design/tech/01-code-architecture.md	01 Code architecture | 10026 B
+D0677	game-plan/design/tech/02-online.md	02 Online: co-op, raids, PvP, backend, security | 5910 B
+D0678	game-plan/design/tech/03-save-ai-world.md	03 Save and load, AI, world streaming | 6924 B
+D0679	game-plan/design/tech/04-performance-platforms.md	04 Performance budgets and platforms | 4780 B
+D0680	game-plan/design/tech/05-pipeline-tools.md	05 Build, CI, source control, tools | 4357 B
+D0681	game-plan/design/tech/06-telemetry-crash-liveops.md	06 Analytics, telemetry, crash reporting, live ops | 6299 B
+D0682	game-plan/design/tech/README.md	Shardfall technical design | 3478 B
+D0683	game-plan/design/ui-mockups/index.html	<title>Shardfall Screen Gallery</title> | 256604 B
+D0684	game-plan/design/ui-mockups/src/gi/license.txt	Icons provided under the Creative Commons 3.0 BY or CC0 if mentioned below. | 1421 B
+D0685	game-plan/design/ui-mockups/src/head.html	<title>Shardfall Screen Gallery</title> | 1768 B
+D0686	game-plan/design/world/README.md	Shardfall world and level design | 9241 B
+D0687	game-plan/design/world/future-earth/README.md	Terra at the Shardfall (future Earth reference map) | 6970 B
+D0688	game-plan/design/writing/01-style-guide.md	Shardfall writing style guide | 14241 B
+D0689	game-plan/design/writing/02-world-life.md	Life on Veyl: lore bible chapters for writers | 8094 B
+D0690	game-plan/design/writing/README.md	Shardfall writing | 4603 B
+D0691	game-plan/design/writing/read/01-prologue-and-cinderreach.md	Shardfall scripts: the prologue and Cinderreach | 111084 B
+D0692	game-plan/design/writing/read/02-act1-hold-and-saltmere.md	Shardfall scripts: Act 1, Lantern Hold and Saltmere | 157057 B
+D0693	game-plan/design/writing/read/03-act2.md	Shardfall scripts: Act 2, The Four Hearts | 423130 B
+D0694	game-plan/design/writing/read/04-act3-and-endings.md	Shardfall scripts: Act 3 and the endings | 264845 B
+D0695	game-plan/design/writing/read/05-faction-lines.md	Shardfall scripts: Faction lines | 1025914 B
+D0696	game-plan/design/writing/read/06-companion-quests.md	Shardfall scripts: Companion quests and camp talks | 904210 B
+D0697	game-plan/design/writing/read/07-side-quests.md	Shardfall scripts: Shard-bearer, town and region side quests | 1467634 B
+D0698	game-plan/design/writing/scripts/CONTINUITY.md	Script continuity | 71897 B
+D0699	game-plan/design/writing/scripts/README.md	Shardfall scripts | 4187 B
+D0700	game-plan/design/writing/scripts/act1/MQ_A1_01.md	MQ_A1_01 Smoke on the Hills | 20687 B
+D0701	game-plan/design/writing/scripts/act1/MQ_A1_02.md	MQ_A1_02 The Deserter | 20039 B
+D0702	game-plan/design/writing/scripts/act1/MQ_A1_03.md	MQ_A1_03 Lantern Hold | 33338 B
+D0703	game-plan/design/writing/scripts/act1/MQ_A1_04.md	MQ_A1_04 The Second Star | 26335 B
+D0704	game-plan/design/writing/scripts/act1/MQ_A1_05.md	MQ_A1_05 The Ember Throne | 20008 B
+D0705	game-plan/design/writing/scripts/act1/MQ_A1_05C.md	MQ_A1_05C Spine Keep | 13093 B
+D0706	game-plan/design/writing/scripts/act1/MQ_A1_06.md	MQ_A1_06 Storm Coast | 23102 B
+D0707	game-plan/design/writing/scripts/act1/MQ_A1_07.md	MQ_A1_07 The Drowned Hold | 25492 B
+D0708	game-plan/design/writing/scripts/act1/MQ_A1_08.md	MQ_A1_08 The Storm Deck | 33235 B
+D0709	game-plan/design/writing/scripts/act1/MQ_RT_01.md	MQ_RT_01 The Cinder Tower | 10495 B
+D0710	game-plan/design/writing/scripts/act1/MQ_RT_02.md	MQ_RT_02 The Salt Tower | 15192 B
+D0711	game-plan/design/writing/scripts/act2/MQ_A2_01.md	MQ_A2_01 The Council's Errand | 23442 B
+D0712	game-plan/design/writing/scripts/act2/MQ_A2_02.md	MQ_A2_02 Bloom Heart | 39632 B
+D0713	game-plan/design/writing/scripts/act2/MQ_A2_02C.md	MQ_A2_02C The Briar Engine | 24113 B
+D0714	game-plan/design/writing/scripts/act2/MQ_A2_03.md	MQ_A2_03 The Iron Choir Loft | 36012 B
+D0715	game-plan/design/writing/scripts/act2/MQ_A2_03C.md	MQ_A2_03C The Choir Spire | 17165 B
+D0716	game-plan/design/writing/scripts/act2/MQ_A2_04.md	MQ_A2_04 The Rime Altar | 34989 B
+D0717	game-plan/design/writing/scripts/act2/MQ_A2_04C.md	MQ_A2_04C Saint Drive Abbey | 19750 B
+D0718	game-plan/design/writing/scripts/act2/MQ_A2_05.md	MQ_A2_05 The Twin Throne | 26586 B
+D0719	game-plan/design/writing/scripts/act2/MQ_A2_05C.md	MQ_A2_05C The Lifted City | 21219 B
+D0720	game-plan/design/writing/scripts/act2/MQ_A2_06.md	MQ_A2_06 The Missing Forty Minutes | 39200 B
+D0721	game-plan/design/writing/scripts/act2/MQ_A2_07.md	MQ_A2_07 Silence | 27417 B
+D0722	game-plan/design/writing/scripts/act2/MQ_A2_08.md	MQ_A2_08 The Captain's Mask | 34576 B
+D0723	game-plan/design/writing/scripts/act2/MQ_A2_09.md	MQ_A2_09 Four Hearts | 22193 B
+D0724	game-plan/design/writing/scripts/act2/MQ_RT_03.md	MQ_RT_03 The Tower in the Tree | 16251 B
+D0725	game-plan/design/writing/scripts/act2/MQ_RT_04.md	MQ_RT_04 The Glass Tower | 13393 B
+D0726	game-plan/design/writing/scripts/act2/MQ_RT_05.md	MQ_RT_05 The Rime Tower | 12550 B
+D0727	game-plan/design/writing/scripts/act2/MQ_RT_06.md	MQ_RT_06 The Grey Tower | 14150 B
+D0728	game-plan/design/writing/scripts/act3/MQ_A3_01.md	MQ_A3_01 Betrayal at the Cradle | 24837 B
+D0729	game-plan/design/writing/scripts/act3/MQ_A3_02.md	MQ_A3_02 The Outer Hull Ring | 21805 B
+D0730	game-plan/design/writing/scripts/act3/MQ_A3_03.md	MQ_A3_03 The Granary | 26413 B
+D0731	game-plan/design/writing/scripts/act3/MQ_A3_04.md	MQ_A3_04 The Choir of Copies | 47654 B
+D0732	game-plan/design/writing/scripts/act3/MQ_A3_05.md	MQ_A3_05 The Quiet Core | 28024 B
+D0733	game-plan/design/writing/scripts/act3/MQ_A3_06.md	MQ_A3_06 The Choice | 21678 B
+D0734	game-plan/design/writing/scripts/act3/MQ_END_ANY.md	MQ_END_ANY Epilogue slides: companions and Ires | 15332 B
+D0735	game-plan/design/writing/scripts/act3/MQ_END_B.md	MQ_END_B Bind the Shards | 23780 B
+D0736	game-plan/design/writing/scripts/act3/MQ_END_R.md	MQ_END_R Restore the Meridian | 23310 B
+D0737	game-plan/design/writing/scripts/act3/MQ_END_T.md	MQ_END_T Take the Quiet | 32680 B
+D0738	game-plan/design/writing/scripts/act3/MQ_RT_Q.md	MQ_RT_Q The Quiet's Relay | 14314 B
+D0739	game-plan/design/writing/scripts/barks/BOSSES.md	BARKS_BOSSES Boss intros and deaths | 106101 B
+D0740	game-plan/design/writing/scripts/barks/CMP_C1_a.md	BARKS_CMP_C1_A Kessa Vane, choice, combat and region barks | 61042 B
+D0741	game-plan/design/writing/scripts/barks/CMP_C1_b.md	BARKS_CMP_C1_B Kessa Vane, quest reactions | 136534 B
+D0742	game-plan/design/writing/scripts/barks/CMP_C2_field.md	BARKS_CMP_C2_FIELD Brother Odo, field barks | 60283 B
+D0743	game-plan/design/writing/scripts/barks/CMP_C2_quests.md	BARKS_CMP_C2_QUESTS Brother Odo, quest reactions | 125783 B
+D0744	game-plan/design/writing/scripts/barks/CMP_C3_barks.md	BARKS_CMP_C3 Tamsin Rook barks | 62570 B
+D0745	game-plan/design/writing/scripts/barks/CMP_C3_reactions.md	BARKS_CMP_C3 Tamsin Rook quest reactions | 120819 B
+D0746	game-plan/design/writing/scripts/barks/CMP_C4_barks_a.md	BARKS_CMP_C4 Vey: choices, combat, regions, epilogue | 51394 B
+D0747	game-plan/design/writing/scripts/barks/CMP_C4_barks_b.md	BARKS_CMP_C4_QUESTS Vey: quest reactions | 124309 B
+D0748	game-plan/design/writing/scripts/barks/CMP_C6_a.md	BARKS_CMP_C6_A Sister Calla, choices, combat and regions | 61891 B
+D0749	game-plan/design/writing/scripts/barks/CMP_C6_b.md	BARKS_CMP_C6_B Sister Calla, quest reactions | 137096 B
+D0750	game-plan/design/writing/scripts/barks/CMP_C7_barks.md	BARKS_CMP_C7 Dren Varr barks | 55920 B
+D0751	game-plan/design/writing/scripts/barks/CMP_C7_reactions.md	BARKS_CMP_C7 Dren Varr quest reactions | 138863 B
+D0752	game-plan/design/writing/scripts/barks/CMP_C8_barks.md	BARKS_CMP_C8 Unit 9 barks | 61473 B
+D0753	game-plan/design/writing/scripts/barks/CMP_C8_reactions.md	BARKS_CMP_C8_REACTIONS Unit 9 quest reactions | 144363 B
+D0754	game-plan/design/writing/scripts/barks/CMP_PAIRS_a.md	BARKS_CMP_PAIRS_A Camp pairs: Kessa | 20978 B
+D0755	game-plan/design/writing/scripts/barks/CMP_PAIRS_b.md	BARKS_CMP_PAIRS_B Camp pairs: Odo and Tamsin | 19336 B
+D0756	game-plan/design/writing/scripts/barks/CMP_PAIRS_c.md	BARKS_CMP_PAIRS_C Camp pairs: Tamsin, Vey, Calla | 26596 B
+D0757	game-plan/design/writing/scripts/barks/ECHO.md	BARKS_ECHO Echo summons | 11621 B
+D0758	game-plan/design/writing/scripts/barks/ENEMY_CHOIRBORN.md	BARKS_ENEMY_CHOIRBORN Choirborn combat barks | 46717 B
+D0759	game-plan/design/writing/scripts/barks/ENEMY_HOLLOWED.md	BARKS_ENEMY_HOLLOWED Hollowed combat barks | 43031 B
+D0760	game-plan/design/writing/scripts/barks/ENEMY_REMNANT.md	BARKS_ENEMY_REMNANT Remnant combat barks | 42343 B
+D0761	game-plan/design/writing/scripts/barks/ENEMY_THORN.md	BARKS_ENEMY_THORN Thorn Clan combat barks | 46987 B
+D0762	game-plan/design/writing/scripts/barks/FACTIONS.md	BARKS_FACTIONS Faction rank-ups and hub reactions | 62943 B
+D0763	game-plan/design/writing/scripts/barks/HUSH.md	BARKS_HUSH Hush through the Hollowed | 94631 B
+D0764	game-plan/design/writing/scripts/barks/LORE.md	BARKS_LORE Lore items read aloud | 86940 B
+D0765	game-plan/design/writing/scripts/barks/OSTRA_a1.md	BARKS_OSTRA_A1 Ostra: the Fall, contradictions and the lucid count | 52473 B
+D0766	game-plan/design/writing/scripts/barks/OSTRA_a2.md	BARKS_OSTRA_A2 Ostra on lore items: ship logs, letters, relics | 54049 B
+D0767	game-plan/design/writing/scripts/barks/OSTRA_b1.md	BARKS_OSTRA_B1 Ostra: keys, bosses and sites | 74126 B
+D0768	game-plan/design/writing/scripts/barks/OSTRA_b2.md	BARKS_OSTRA_B2 Ostra: hints | 92874 B
+D0769	game-plan/design/writing/scripts/barks/OSTRA_b3.md	BARKS_OSTRA_B3 Ostra: NG+ and region arrivals (Cinderreach, Saltmere, Thornwood) | 91396 B
+D0770	game-plan/design/writing/scripts/barks/OSTRA_b4.md	BARKS_OSTRA_B4 Ostra: region arrivals (Glasswaste to Lantern Hold) | 81701 B
+D0771	game-plan/design/writing/scripts/barks/PLAYER_A_combat.md	BARKS_PLAYER_A Player voice set A, combat barks | 54561 B
+D0772	game-plan/design/writing/scripts/barks/PLAYER_A_reactions.md	BARKS_PLAYER_A Player voice set A, reactions | 48454 B
+D0773	game-plan/design/writing/scripts/barks/PLAYER_B_combat.md	BARKS_PLAYER_B Player voice set B, combat barks | 54948 B
+D0774	game-plan/design/writing/scripts/barks/PLAYER_B_reactions.md	BARKS_PLAYER_B Player voice set B, reactions | 48151 B
+D0775	game-plan/design/writing/scripts/barks/RADIANT_a1.md	BARKS_RADIANT_A1 Radiant bounties: Hollowed and Remnant | 99540 B
+D0776	game-plan/design/writing/scripts/barks/RADIANT_a2.md	BARKS_RADIANT_A2 Radiant bounties: Clan raiders and field hunts | 94950 B
+D0777	game-plan/design/writing/scripts/barks/RADIANT_b1.md	BARKS_RADIANT_B1 Radiant salvage runs: wreck sections and Undervault shafts | 68755 B
+D0778	game-plan/design/writing/scripts/barks/RADIANT_b2.md	BARKS_RADIANT_B2 Radiant glass runs and caravan rescues | 74675 B
+D0779	game-plan/design/writing/scripts/barks/RADIANT_b3.md	BARKS_RADIANT_B3 Radiant rescue: Hollowing Watch | 47831 B
+D0780	game-plan/design/writing/scripts/barks/RADIANT_c1.md	BARKS_RADIANT_C1 Radiant rescue: Taken by the Choir | 56845 B
+D0781	game-plan/design/writing/scripts/barks/RADIANT_c2.md	BARKS_RADIANT_C2 Radiant rescue: Shard-ghost Recovery | 37953 B
+D0782	game-plan/design/writing/scripts/barks/RADIANT_c3.md	BARKS_RADIANT_C3 Radiant bounty: Rogue Kindled | 56868 B
+D0783	game-plan/design/writing/scripts/barks/TOWN_HUB.md	BARKS_TOWN_HUB Lantern Hold ambient | 59115 B
+D0784	game-plan/design/writing/scripts/barks/TOWN_REG_01_cinderhollow.md	BARKS_TOWN_REG_01_CINDERHOLLOW Cinder Hollow ambient chatter | 41705 B
+D0785	game-plan/design/writing/scripts/barks/TOWN_REG_01_emberwatch.md	BARKS_TOWN_REG_01_EMBERWATCH Emberwatch ambient chatter | 43915 B
+D0786	game-plan/design/writing/scripts/barks/TOWN_REG_01_wreckers.md	BARKS_TOWN_REG_01_WRECKERS Wreckers' Rest ambient chatter | 38960 B
+D0787	game-plan/design/writing/scripts/barks/TOWN_REG_02_a.md	BARKS_TOWN_REG_02_A Stiltmarket ambient | 38621 B
+D0788	game-plan/design/writing/scripts/barks/TOWN_REG_02_b.md	BARKS_TOWN_REG_02_B Brinehook ambient | 36544 B
+D0789	game-plan/design/writing/scripts/barks/TOWN_REG_02_c.md	BARKS_TOWN_REG_02_C Low Tide Chapel ambient | 36710 B
+D0790	game-plan/design/writing/scripts/barks/TOWN_REG_03_01.md	BARKS_TOWN_REG_03_01 Redbark Lodge ambient | 43399 B
+D0791	game-plan/design/writing/scripts/barks/TOWN_REG_03_02.md	BARKS_TOWN_REG_03_02 Thicket Steading ambient | 40730 B
+D0792	game-plan/design/writing/scripts/barks/TOWN_REG_03_03.md	BARKS_TOWN_REG_03_03 Thorn King's Moot ambient | 41784 B
+D0793	game-plan/design/writing/scripts/barks/TOWN_REG_04_01.md	BARKS_TOWN_REG_04_01 Glassmouth Caravanserai ambient | 40500 B
+D0794	game-plan/design/writing/scripts/barks/TOWN_REG_04_02.md	BARKS_TOWN_REG_04_02 Choirtower Hamlet ambient | 41550 B
+D0795	game-plan/design/writing/scripts/barks/TOWN_REG_05_01.md	BARKS_TOWN_REG_05_01 Rimehold ambient | 42182 B
+D0796	game-plan/design/writing/scripts/barks/TOWN_REG_05_02.md	BARKS_TOWN_REG_05_02 Lampwick ambient | 37258 B
+D0797	game-plan/design/writing/scripts/barks/TOWN_REG_05_03.md	BARKS_TOWN_REG_05_03 Frostgate Hamlet ambient | 39723 B
+D0798	game-plan/design/writing/scripts/barks/TOWN_REG_06_01.md	BARKS_TOWN_REG_06_01 Last Light ambient | 39902 B
+D0799	game-plan/design/writing/scripts/barks/TOWN_REG_06_02.md	BARKS_TOWN_REG_06_02 Driftanchor ambient | 38087 B
+D0800	game-plan/design/writing/scripts/barks/VENDORS_a.md	BARKS_VENDORS_A Vendors: Lantern Hold | 46081 B
+D0801	game-plan/design/writing/scripts/barks/VENDORS_b.md	BARKS_VENDORS_B Vendors: wandering traders and Skell | 30918 B
+D0802	game-plan/design/writing/scripts/barks/VENDORS_c.md	BARKS_VENDORS_C Vendors: regional fences | 64993 B
+D0803	game-plan/design/writing/scripts/prologue/MQ_P_01.md	MQ_P_01 Bay 9 | 12156 B
+D0804	game-plan/design/writing/scripts/prologue/MQ_P_02.md	MQ_P_02 The Spine | 14247 B
+D0805	game-plan/design/writing/scripts/side/CMPQ_C1/CMPQ_C1_01.md	CMPQ_C1_01 What She Would Not Burn | 15806 B
+D0806	game-plan/design/writing/scripts/side/CMPQ_C1/CMPQ_C1_02.md	CMPQ_C1_02 The Squad Comes Twice | 17147 B
+D0807	game-plan/design/writing/scripts/side/CMPQ_C1/CMPQ_C1_03.md	CMPQ_C1_03 Desertion Hearing | 23968 B
+D0808	game-plan/design/writing/scripts/side/CMPQ_C1/CMPQ_C1_04.md	CMPQ_C1_04 Letters to Tobin | 16892 B
+D0809	game-plan/design/writing/scripts/side/CMPQ_C1/CMPQ_C1_05.md	CMPQ_C1_05 The Oath of the Vanes | 27050 B
+D0810	game-plan/design/writing/scripts/side/CMPQ_C1/CMP_C1_talks.md	CMP_C1_TALKS Kessa Vane, companion talks | 26802 B
+D0811	game-plan/design/writing/scripts/side/CMPQ_C2/CMPQ_C2_01.md	CMPQ_C2_01 The Page That Should Not Be | 18443 B
+D0812	game-plan/design/writing/scripts/side/CMPQ_C2/CMPQ_C2_02.md	CMPQ_C2_02 Salt in the Scripture | 16512 B
+D0813	game-plan/design/writing/scripts/side/CMPQ_C2/CMPQ_C2_03.md	CMPQ_C2_03 The Confessor's Fire | 22256 B
+D0814	game-plan/design/writing/scripts/side/CMPQ_C2/CMPQ_C2_04.md	CMPQ_C2_04 Map of the Engine Block | 14315 B
+D0815	game-plan/design/writing/scripts/side/CMPQ_C2/CMPQ_C2_05.md	CMPQ_C2_05 The Forty-First Minute | 24848 B
+D0816	game-plan/design/writing/scripts/side/CMPQ_C2/CMP_C2_talks.md	ACT_CMP_C2 Brother Odo, companion talks and camp scenes | 23591 B
+D0817	game-plan/design/writing/scripts/side/CMPQ_C3/CMPQ_C3_01.md	CMPQ_C3_01 Tally of Debts | 15593 B
+D0818	game-plan/design/writing/scripts/side/CMPQ_C3/CMPQ_C3_02.md	CMPQ_C3_02 One Last Job | 16135 B
+D0819	game-plan/design/writing/scripts/side/CMPQ_C3/CMPQ_C3_03.md	CMPQ_C3_03 The Double Cross | 16284 B
+D0820	game-plan/design/writing/scripts/side/CMPQ_C3/CMPQ_C3_04.md	CMPQ_C3_04 Wren | 21655 B
+D0821	game-plan/design/writing/scripts/side/CMPQ_C3/CMPQ_C3_05.md	CMPQ_C3_05 The Rook Sisters | 22635 B
+D0822	game-plan/design/writing/scripts/side/CMPQ_C3/CMP_C3_talks.md	CMP_C3 Tamsin Rook, recruitment, camp and road talks | 26635 B
+D0823	game-plan/design/writing/scripts/side/CMPQ_C4/CMPQ_C4_01.md	CMPQ_C4_01 The Watcher at the Anchor | 15210 B
+D0824	game-plan/design/writing/scripts/side/CMPQ_C4/CMPQ_C4_02.md	CMPQ_C4_02 The Name Inside | 12659 B
+D0825	game-plan/design/writing/scripts/side/CMPQ_C4/CMPQ_C4_03.md	CMPQ_C4_03 The Whisper Gallery | 12970 B
+D0826	game-plan/design/writing/scripts/side/CMPQ_C4/CMPQ_C4_04.md	CMPQ_C4_04 Quill's Trail | 11277 B
+D0827	game-plan/design/writing/scripts/side/CMPQ_C4/CMPQ_C4_05.md	CMPQ_C4_05 Contract Unsigned | 17049 B
+D0828	game-plan/design/writing/scripts/side/CMPQ_C4/CMP_C4_talks.md	CMP_C4 Vey: recruitment, camp talks and road banter | 20591 B
+D0829	game-plan/design/writing/scripts/side/CMPQ_C5/CMPQ_C5_01.md	CMPQ_C5_01 What the Vault Heard | 18545 B
+D0830	game-plan/design/writing/scripts/side/CMPQ_C5/CMPQ_C5_02.md	CMPQ_C5_02 Dampening | 18107 B
+D0831	game-plan/design/writing/scripts/side/CMPQ_C5/CMPQ_C5_03.md	CMPQ_C5_03 The Quiet Grove | 17115 B
+D0832	game-plan/design/writing/scripts/side/CMPQ_C5/CMPQ_C5_04.md	CMPQ_C5_04 Ysse's Ledger | 19207 B
+D0833	game-plan/design/writing/scripts/side/CMPQ_C5/CMPQ_C5_05.md	CMPQ_C5_05 Cut the Song | 20851 B
+D0834	game-plan/design/writing/scripts/side/CMPQ_C5/CMP_C5_talks.md	CMP_C5 Hal Merrow at camp and on the road | 46562 B
+D0835	game-plan/design/writing/scripts/side/CMPQ_C6/CMPQ_C6_01.md	CMPQ_C6_01 Names on Hands | 18021 B
+D0836	game-plan/design/writing/scripts/side/CMPQ_C6/CMPQ_C6_02.md	CMPQ_C6_02 The Half Cure | 17101 B
+D0837	game-plan/design/writing/scripts/side/CMPQ_C6/CMPQ_C6_03.md	CMPQ_C6_03 Green Medicine | 16716 B
+D0838	game-plan/design/writing/scripts/side/CMPQ_C6/CMPQ_C6_04.md	CMPQ_C6_04 What the River Took | 15259 B
+D0839	game-plan/design/writing/scripts/side/CMPQ_C6/CMPQ_C6_05.md	CMPQ_C6_05 Keep the Lamps Lit | 17655 B
+D0840	game-plan/design/writing/scripts/side/CMPQ_C6/CMP_C6_talks.md	CMP_C6 Sister Calla, companion talks | 21373 B
+D0841	game-plan/design/writing/scripts/side/CMPQ_C7/CMPQ_C7_01.md	CMPQ_C7_01 Out of the Cage | 15684 B
+D0842	game-plan/design/writing/scripts/side/CMPQ_C7/CMPQ_C7_02.md	CMPQ_C7_02 The Blood Price | 13992 B
+D0843	game-plan/design/writing/scripts/side/CMPQ_C7/CMPQ_C7_03.md	CMPQ_C7_03 Bones in the Brood | 12895 B
+D0844	game-plan/design/writing/scripts/side/CMPQ_C7/CMPQ_C7_04.md	CMPQ_C7_04 Three Chieftains | 14923 B
+D0845	game-plan/design/writing/scripts/side/CMPQ_C7/CMPQ_C7_05.md	CMPQ_C7_05 The Moot | 24379 B
+D0846	game-plan/design/writing/scripts/side/CMPQ_C7/CMP_C7_talks.md	CMP_C7 Dren: talks and camp | 22762 B
+D0847	game-plan/design/writing/scripts/side/CMPQ_C8/CMPQ_C8_01.md	CMPQ_C8_01 Maintenance Cycle | 13942 B
+D0848	game-plan/design/writing/scripts/side/CMPQ_C8/CMPQ_C8_02.md	CMPQ_C8_02 Command Codes | 12856 B
+D0849	game-plan/design/writing/scripts/side/CMPQ_C8/CMPQ_C8_03.md	CMPQ_C8_03 Engine Block Orders | 12851 B
+D0850	game-plan/design/writing/scripts/side/CMPQ_C8/CMPQ_C8_04.md	CMPQ_C8_04 Overseer | 15778 B
+D0851	game-plan/design/writing/scripts/side/CMPQ_C8/CMPQ_C8_05.md	CMPQ_C8_05 Ship's Orders | 19908 B
+D0852	game-plan/design/writing/scripts/side/CMPQ_C8/CMP_C8_talks.md	CMP_C8 Unit 9: talks and camp | 20562 B
+D0853	game-plan/design/writing/scripts/side/QST_CH/QST_CH_00.md	QST_CH_00 The Listening Room | 18846 B
+D0854	game-plan/design/writing/scripts/side/QST_CH/QST_CH_01.md	QST_CH_01 Stones in the Ash | 12885 B
+D0855	game-plan/design/writing/scripts/side/QST_CH/QST_CH_02.md	QST_CH_02 Forty Days Listening | 13995 B
+D0856	game-plan/design/writing/scripts/side/QST_CH/QST_CH_03.md	QST_CH_03 Charting the Second Star | 12089 B
+D0857	game-plan/design/writing/scripts/side/QST_CH/QST_CH_04.md	QST_CH_04 An Offering of Glass | 15014 B
+D0858	game-plan/design/writing/scripts/side/QST_CH/QST_CH_05.md	QST_CH_05 Ysse's Letters | 15264 B
+D0859	game-plan/design/writing/scripts/side/QST_CH/QST_CH_06.md	QST_CH_06 The Precentor's Hours | 15155 B
+D0860	game-plan/design/writing/scripts/side/QST_CH/QST_CH_07.md	QST_CH_07 The Hollow Chorus | 19439 B
+D0861	game-plan/design/writing/scripts/side/QST_CH/QST_CH_08.md	QST_CH_08 The Undersong | 14809 B
+D0862	game-plan/design/writing/scripts/side/QST_CH/QST_CH_09.md	QST_CH_09 Faith and the Lens | 21317 B
+D0863	game-plan/design/writing/scripts/side/QST_HK/QST_HK_00.md	QST_HK_00 Gate Duty | 21000 B
+D0864	game-plan/design/writing/scripts/side/QST_HK/QST_HK_01.md	QST_HK_01 The Lent Squad | 15681 B
+D0865	game-plan/design/writing/scripts/side/QST_HK/QST_HK_02.md	QST_HK_02 Cinderdeep Muster | 16015 B
+D0866	game-plan/design/writing/scripts/side/QST_HK/QST_HK_03.md	QST_HK_03 Seawall at Stiltmarket | 15811 B
+D0867	game-plan/design/writing/scripts/side/QST_HK/QST_HK_04.md	QST_HK_04 Beacon Line | 13829 B
+D0868	game-plan/design/writing/scripts/side/QST_HK/QST_HK_05.md	QST_HK_05 Thorn Road Column | 17578 B
+D0869	game-plan/design/writing/scripts/side/QST_HK/QST_HK_06.md	QST_HK_06 Hask Returns | 22239 B
+D0870	game-plan/design/writing/scripts/side/QST_HK/QST_HK_07.md	QST_HK_07 Hall of Panes Oath | 17232 B
+D0871	game-plan/design/writing/scripts/side/QST_HK/QST_HK_08.md	QST_HK_08 Founder's Post | 15751 B
+D0872	game-plan/design/writing/scripts/side/QST_HK/QST_HK_09.md	QST_HK_09 The Oath | 21716 B
+D0873	game-plan/design/writing/scripts/side/QST_HK/QST_HK_10.md	QST_HK_10 Rimehold Holds | 17745 B
+D0874	game-plan/design/writing/scripts/side/QST_HK/QST_HK_11.md	QST_HK_11 Last Watch at Last Light | 21680 B
+D0875	game-plan/design/writing/scripts/side/QST_LC/QST_LC_00.md	QST_LC_00 Evening Reading | 20384 B
+D0876	game-plan/design/writing/scripts/side/QST_LC/QST_LC_01.md	QST_LC_01 Lamps in Emberwatch | 15856 B
+D0877	game-plan/design/writing/scripts/side/QST_LC/QST_LC_02.md	QST_LC_02 The Chaplain's Log | 16233 B
+D0878	game-plan/design/writing/scripts/side/QST_LC/QST_LC_03.md	QST_LC_03 Drowned Bells | 16078 B
+D0879	game-plan/design/writing/scripts/side/QST_LC/QST_LC_04.md	QST_LC_04 Pilgrims on the Salt | 15908 B
+D0880	game-plan/design/writing/scripts/side/QST_LC/QST_LC_05.md	QST_LC_05 The Copyist | 16693 B
+D0881	game-plan/design/writing/scripts/side/QST_LC/QST_LC_06.md	QST_LC_06 The Second Copy | 15371 B
+D0882	game-plan/design/writing/scripts/side/QST_LC/QST_LC_07.md	QST_LC_07 Lamps of Glassmouth Caravanserai | 16955 B
+D0883	game-plan/design/writing/scripts/side/QST_LC/QST_LC_08.md	QST_LC_08 The Abbot's Silence | 19808 B
+D0884	game-plan/design/writing/scripts/side/QST_LC/QST_LC_09.md	QST_LC_09 What the Log Leaves Out | 24402 B
+D0885	game-plan/design/writing/scripts/side/QST_LC/QST_LC_10.md	QST_LC_10 The Lamplighters | 16871 B
+D0886	game-plan/design/writing/scripts/side/QST_LC/QST_LC_11.md	QST_LC_11 The Last Entry | 24645 B
+D0887	game-plan/design/writing/scripts/side/QST_QH/QST_QH_00.md	QST_QH_00 The Black Candle | 19743 B
+D0888	game-plan/design/writing/scripts/side/QST_QH/QST_QH_01.md	QST_QH_01 The Toll on Ash Road | 17831 B
+D0889	game-plan/design/writing/scripts/side/QST_QH/QST_QH_02.md	QST_QH_02 Red Tag | 12534 B
+D0890	game-plan/design/writing/scripts/side/QST_QH/QST_QH_03.md	QST_QH_03 Divers at Hull Nine Breaker Yard | 16398 B
+D0891	game-plan/design/writing/scripts/side/QST_QH/QST_QH_04.md	QST_QH_04 The Side Job | 15533 B
+D0892	game-plan/design/writing/scripts/side/QST_QH/QST_QH_05.md	QST_QH_05 Twice-Buried Harl | 16595 B
+D0893	game-plan/design/writing/scripts/side/QST_QH/QST_QH_06.md	QST_QH_06 The Comms Relay | 10691 B
+D0894	game-plan/design/writing/scripts/side/QST_QH/QST_QH_07.md	QST_QH_07 The Iron Confessor | 16869 B
+D0895	game-plan/design/writing/scripts/side/QST_QH/QST_QH_08.md	QST_QH_08 The Kind Freezer | 16093 B
+D0896	game-plan/design/writing/scripts/side/QST_QH/QST_QH_09.md	QST_QH_09 Open Season in Last Light | 12023 B
+D0897	game-plan/design/writing/scripts/side/QST_QH/QST_QH_10.md	QST_QH_10 The First Speaker | 17016 B
+D0898	game-plan/design/writing/scripts/side/QST_QH/QST_QH_11.md	QST_QH_11 The Lamplighter's Clerk | 14018 B
+D0899	game-plan/design/writing/scripts/side/QST_QH/QST_QH_12.md	QST_QH_12 The Whisper Gallery Burns | 12240 B
+D0900	game-plan/design/writing/scripts/side/QST_QH/QST_QH_13.md	QST_QH_13 The Fourteenth Contract | 20845 B
+D0901	game-plan/design/writing/scripts/side/QST_SG/QST_SG_00.md	QST_SG_00 Salvage Docks Dues | 22796 B
+D0902	game-plan/design/writing/scripts/side/QST_SG/QST_SG_01.md	QST_SG_01 Spine Scrap | 14632 B
+D0903	game-plan/design/writing/scripts/side/QST_SG/QST_SG_02.md	QST_SG_02 The Old Smelter Works Job | 17298 B
+D0904	game-plan/design/writing/scripts/side/QST_SG/QST_SG_03.md	QST_SG_03 Hull Nine Breaker Yard Rights | 16988 B
+D0905	game-plan/design/writing/scripts/side/QST_SG/QST_SG_04.md	QST_SG_04 The Sting at Stiltmarket | 15791 B
+D0906	game-plan/design/writing/scripts/side/QST_SG/QST_SG_05.md	QST_SG_05 Strider Run | 15384 B
+D0907	game-plan/design/writing/scripts/side/QST_SG/QST_SG_06.md	QST_SG_06 The Shuttle Bay Wreck | 17576 B
+D0908	game-plan/design/writing/scripts/side/QST_SG/QST_SG_07.md	QST_SG_07 Cold Drive | 15657 B
+D0909	game-plan/design/writing/scripts/side/QST_SG/QST_SG_08.md	QST_SG_08 Engine Bay Nine | 17543 B
+D0910	game-plan/design/writing/scripts/side/QST_SG/QST_SG_09.md	QST_SG_09 Ires's Ledger | 20427 B
+D0911	game-plan/design/writing/scripts/side/QST_SG/QST_SG_10.md	QST_SG_10 Quell's Folly | 18485 B
+D0912	game-plan/design/writing/scripts/side/QST_SG/QST_SG_11.md	QST_SG_11 First Flight | 19769 B
+D0913	game-plan/design/writing/scripts/side/QST_SHB/QST_SHB_A07.md	QST_SHB_A07 A Grove in the Ash | 10884 B
+D0914	game-plan/design/writing/scripts/side/QST_SHB/QST_SHB_A08.md	QST_SHB_A08 What Fell in 702 | 12053 B
+D0915	game-plan/design/writing/scripts/side/QST_SHB/QST_SHB_A09.md	QST_SHB_A09 The Pilot Who Landed | 11313 B
+D0916	game-plan/design/writing/scripts/side/QST_SHB/QST_SHB_A10.md	QST_SHB_A10 Arms Across the Breach | 11167 B
+D0917	game-plan/design/writing/scripts/side/QST_SHB/QST_SHB_A11.md	QST_SHB_A11 The Runner in the Pass | 11786 B
+D0918	game-plan/design/writing/scripts/side/QST_SHB/QST_SHB_A12.md	QST_SHB_A12 Chained to the Clocks | 10546 B
+D0919	game-plan/design/writing/scripts/side/QST_SHB/QST_SHB_A13.md	QST_SHB_A13 One Hundred Falls | 10859 B
+D0920	game-plan/design/writing/scripts/side/QST_SHB/QST_SHB_A14.md	QST_SHB_A14 Walking the Wake | 10825 B
+D0921	game-plan/design/writing/scripts/side/QST_SHB/QST_SHB_A15.md	QST_SHB_A15 The Pilgrim's Boots | 9792 B
+D0922	game-plan/design/writing/scripts/side/QST_SHB/QST_SHB_W11.md	QST_SHB_W11 The Captain's Last Round | 10842 B
+D0923	game-plan/design/writing/scripts/side/QST_SHB/QST_SHB_W12.md	QST_SHB_W12 Holding the Rim | 11095 B
+D0924	game-plan/design/writing/scripts/side/QST_SHB/QST_SHB_W13.md	QST_SHB_W13 The Gate Sentry | 10312 B
+D0925	game-plan/design/writing/scripts/side/QST_SHB/QST_SHB_W14.md	QST_SHB_W14 The Lightning Mast | 10847 B
+D0926	game-plan/design/writing/scripts/side/QST_SHB/QST_SHB_W15.md	QST_SHB_W15 The First Lens | 10606 B
+D0927	game-plan/design/writing/scripts/side/SQ_HUB/SQ_HUB_01.md	SQ_HUB_01 The Captain's Chair | 17935 B
+D0928	game-plan/design/writing/scripts/side/SQ_HUB/SQ_HUB_02.md	SQ_HUB_02 A Lamp for the Anchor | 12196 B
+D0929	game-plan/design/writing/scripts/side/SQ_HUB/SQ_HUB_03.md	SQ_HUB_03 Short Weight | 15780 B
+D0930	game-plan/design/writing/scripts/side/SQ_HUB/SQ_HUB_04.md	SQ_HUB_04 One Last Watch | 15436 B
+D0931	game-plan/design/writing/scripts/side/SQ_HUB/SQ_HUB_05.md	SQ_HUB_05 Moving Stars | 13476 B
+D0932	game-plan/design/writing/scripts/side/SQ_HUB/SQ_HUB_06.md	SQ_HUB_06 Twelve Hundred Lamps | 17553 B
+D0933	game-plan/design/writing/scripts/side/SQ_HUB/SQ_HUB_07.md	SQ_HUB_07 Written on Her Arm | 16034 B
+D0934	game-plan/design/writing/scripts/side/SQ_HUB/SQ_HUB_08.md	SQ_HUB_08 The Last Forty Minutes | 28625 B
+D0935	game-plan/design/writing/scripts/side/SQ_HUB/SQ_HUB_09.md	SQ_HUB_09 Relit Every Morning | 13788 B
+D0936	game-plan/design/writing/scripts/side/SQ_HUB/SQ_HUB_10.md	SQ_HUB_10 A Seat for Pip | 15343 B
+D0937	game-plan/design/writing/scripts/side/SQ_REG_01/SQ_REG_01_01.md	SQ_REG_01_01 Count the Chimneys | 14199 B
+D0938	game-plan/design/writing/scripts/side/SQ_REG_01/SQ_REG_01_02.md	SQ_REG_01_02 The Colossus Walks at Dusk | 13745 B
+D0939	game-plan/design/writing/scripts/side/SQ_REG_01/SQ_REG_01_03.md	SQ_REG_01_03 Night Drake's Tithe | 14630 B
+D0940	game-plan/design/writing/scripts/side/SQ_REG_01/SQ_REG_01_04.md	SQ_REG_01_04 Clay for the Dead | 13545 B
+D0941	game-plan/design/writing/scripts/side/SQ_REG_01/SQ_REG_01_05.md	SQ_REG_01_05 What the Mine Remembers | 15686 B
+D0942	game-plan/design/writing/scripts/side/SQ_REG_01/SQ_REG_01_06.md	SQ_REG_01_06 Feeding the Old Smelter Works | 14071 B
+D0943	game-plan/design/writing/scripts/side/SQ_REG_01/SQ_REG_01_07.md	SQ_REG_01_07 Was He Warm | 15712 B
+D0944	game-plan/design/writing/scripts/side/SQ_REG_01/SQ_REG_01_08.md	SQ_REG_01_08 The Bay 9 Roster | 11945 B
+D0945	game-plan/design/writing/scripts/side/SQ_REG_01/SQ_REG_01_09.md	SQ_REG_01_09 The Emberwatch Door | 14479 B
+D0946	game-plan/design/writing/scripts/side/SQ_REG_01/SQ_REG_01_10.md	SQ_REG_01_10 Warm Ground | 17563 B
+D0947	game-plan/design/writing/scripts/side/SQ_REG_02/SQ_REG_02_01.md	SQ_REG_02_01 The Wrong Lamp | 18977 B
+D0948	game-plan/design/writing/scripts/side/SQ_REG_02/SQ_REG_02_02.md	SQ_REG_02_02 The Leviathan's Debt | 16001 B
+D0949	game-plan/design/writing/scripts/side/SQ_REG_02/SQ_REG_02_03.md	SQ_REG_02_03 Lap Times | 16433 B
+D0950	game-plan/design/writing/scripts/side/SQ_REG_02/SQ_REG_02_04.md	SQ_REG_02_04 Clocked In | 17112 B
+D0951	game-plan/design/writing/scripts/side/SQ_REG_02/SQ_REG_02_05.md	SQ_REG_02_05 Height Marks | 20143 B
+D0952	game-plan/design/writing/scripts/side/SQ_REG_02/SQ_REG_02_06.md	SQ_REG_02_06 Sef's Dog | 12287 B
+D0953	game-plan/design/writing/scripts/side/SQ_REG_02/SQ_REG_02_07.md	SQ_REG_02_07 The Choirboy Under the Water | 18424 B
+D0954	game-plan/design/writing/scripts/side/SQ_REG_02/SQ_REG_02_08.md	SQ_REG_02_08 Names in the Cairns | 16441 B
+D0955	game-plan/design/writing/scripts/side/SQ_REG_02/SQ_REG_02_09.md	SQ_REG_02_09 The Glass Line | 16065 B
+D0956	game-plan/design/writing/scripts/side/SQ_REG_02/SQ_REG_02_10.md	SQ_REG_02_10 High Water Mark | 17949 B
+D0957	game-plan/design/writing/scripts/side/SQ_REG_03/SQ_REG_03_01.md	SQ_REG_03_01 A Hound Without a King | 23229 B
+D0958	game-plan/design/writing/scripts/side/SQ_REG_03/SQ_REG_03_02.md	SQ_REG_03_02 Bog-Lily | 15028 B
+D0959	game-plan/design/writing/scripts/side/SQ_REG_03/SQ_REG_03_03.md	SQ_REG_03_03 The Ferryman's Son | 17467 B
+D0960	game-plan/design/writing/scripts/side/SQ_REG_03/SQ_REG_03_04.md	SQ_REG_03_04 What Pell Owes | 18101 B
+D0961	game-plan/design/writing/scripts/side/SQ_REG_03/SQ_REG_03_05.md	SQ_REG_03_05 Mother in the Tree | 17007 B
+D0962	game-plan/design/writing/scripts/side/SQ_REG_03/SQ_REG_03_06.md	SQ_REG_03_06 Acorn Flour | 20996 B
+D0963	game-plan/design/writing/scripts/side/SQ_REG_03/SQ_REG_03_07.md	SQ_REG_03_07 Flowers Without Thorns | 13503 B
+D0964	game-plan/design/writing/scripts/side/SQ_REG_03/SQ_REG_03_08.md	SQ_REG_03_08 The Teacher Who Was a Warlord | 19416 B
+D0965	game-plan/design/writing/scripts/side/SQ_REG_03/SQ_REG_03_09.md	SQ_REG_03_09 Burn Line | 19619 B
+D0966	game-plan/design/writing/scripts/side/SQ_REG_03/SQ_REG_03_10.md	SQ_REG_03_10 Sorrel's Last Seeds | 22396 B
+D0967	game-plan/design/writing/scripts/side/SQ_REG_04/SQ_REG_04_01.md	SQ_REG_04_01 The Basilisk Road | 14898 B
+D0968	game-plan/design/writing/scripts/side/SQ_REG_04/SQ_REG_04_02.md	SQ_REG_04_02 Hauler on the Salt Line | 20042 B
+D0969	game-plan/design/writing/scripts/side/SQ_REG_04/SQ_REG_04_03.md	SQ_REG_04_03 Letters from Hall of Panes | 19961 B
+D0970	game-plan/design/writing/scripts/side/SQ_REG_04/SQ_REG_04_04.md	SQ_REG_04_04 The Last Evacuation | 19525 B
+D0971	game-plan/design/writing/scripts/side/SQ_REG_04/SQ_REG_04_05.md	SQ_REG_04_05 Who Fired First | 15968 B
+D0972	game-plan/design/writing/scripts/side/SQ_REG_04/SQ_REG_04_06.md	SQ_REG_04_06 Follow the Moths | 9713 B
+D0973	game-plan/design/writing/scripts/side/SQ_REG_04/SQ_REG_04_07.md	SQ_REG_04_07 The Walking Anchor | 16282 B
+D0974	game-plan/design/writing/scripts/side/SQ_REG_04/SQ_REG_04_08.md	SQ_REG_04_08 Ires to the Guildmaster | 17160 B
+D0975	game-plan/design/writing/scripts/side/SQ_REG_04/SQ_REG_04_09.md	SQ_REG_04_09 Open Maintenance Ticket | 13269 B
+D0976	game-plan/design/writing/scripts/side/SQ_REG_04/SQ_REG_04_10.md	SQ_REG_04_10 When the Iron Choir Loft Cools | 14597 B
+D0977	game-plan/design/writing/scripts/side/SQ_REG_05/SQ_REG_05_01.md	SQ_REG_05_01 Old Moss | 17552 B
+D0978	game-plan/design/writing/scripts/side/SQ_REG_05/SQ_REG_05_02.md	SQ_REG_05_02 The Ark-Knight | 16397 B
+D0979	game-plan/design/writing/scripts/side/SQ_REG_05/SQ_REG_05_03.md	SQ_REG_05_03 Names on the Ice | 21554 B
+D0980	game-plan/design/writing/scripts/side/SQ_REG_05/SQ_REG_05_04.md	SQ_REG_05_04 Bread for the Witch | 19541 B
+D0981	game-plan/design/writing/scripts/side/SQ_REG_05/SQ_REG_05_05.md	SQ_REG_05_05 The Abbot's Cold Dead | 18804 B
+D0982	game-plan/design/writing/scripts/side/SQ_REG_05/SQ_REG_05_06.md	SQ_REG_05_06 The Elk Count | 14477 B
+D0983	game-plan/design/writing/scripts/side/SQ_REG_05/SQ_REG_05_07.md	SQ_REG_05_07 She Chose the Pods | 12903 B
+D0984	game-plan/design/writing/scripts/side/SQ_REG_05/SQ_REG_05_08.md	SQ_REG_05_08 Did He Eat | 17795 B
+D0985	game-plan/design/writing/scripts/side/SQ_REG_05/SQ_REG_05_09.md	SQ_REG_05_09 Avalanche Mail | 12373 B
+D0986	game-plan/design/writing/scripts/side/SQ_REG_05/SQ_REG_05_10.md	SQ_REG_05_10 First Boats on the Lake | 14175 B
+D0987	game-plan/design/writing/scripts/side/SQ_REG_06/SQ_REG_06_01.md	SQ_REG_06_01 The Lamp Song | 16564 B
+D0988	game-plan/design/writing/scripts/side/SQ_REG_06/SQ_REG_06_02.md	SQ_REG_06_02 Mother's Ring | 12900 B
+D0989	game-plan/design/writing/scripts/side/SQ_REG_06/SQ_REG_06_03.md	SQ_REG_06_03 Water from Below | 14954 B
+D0990	game-plan/design/writing/scripts/side/SQ_REG_06/SQ_REG_06_04.md	SQ_REG_06_04 Wind the Bell | 15150 B
+D0991	game-plan/design/writing/scripts/side/SQ_REG_06/SQ_REG_06_05.md	SQ_REG_06_05 Carve My Name | 15650 B
+D0992	game-plan/design/writing/scripts/side/SQ_REG_06/SQ_REG_06_06.md	SQ_REG_06_06 Oil for the Lamps | 20752 B
+D0993	game-plan/design/writing/scripts/side/SQ_REG_06/SQ_REG_06_07.md	SQ_REG_06_07 Wick Forgets | 14733 B
+D0994	game-plan/design/writing/scripts/side/SQ_REG_06/SQ_REG_06_08.md	SQ_REG_06_08 Whose Turn to Cook | 12273 B
+D0995	game-plan/design/writing/scripts/side/SQ_REG_06/SQ_REG_06_09.md	SQ_REG_06_09 Past the Lamp Line | 14168 B
+D0996	game-plan/design/writing/scripts/side/SQ_REG_06/SQ_REG_06_10.md	SQ_REG_06_10 Bea Sleeps | 10484 B
+D0997	game-plan/design/writing/scripts/side/SQ_REG_Q/SQ_REG_Q_01.md	SQ_REG_Q_01 Threshing Pens | 19083 B
+D0998	game-plan/design/writing/scripts/side/SQ_REG_Q/SQ_REG_Q_02.md	SQ_REG_Q_02 A House in the Granary | 18958 B
+D0999	game-plan/design/writing/scripts/side/SQ_REG_Q/SQ_REG_Q_03.md	SQ_REG_Q_03 The Tenth Letter | 21445 B
+D1000	game-plan/design/writing/scripts/side/SQ_REG_Q/SQ_REG_Q_04.md	SQ_REG_Q_04 Weeds: Escalate | 23458 B
+D1001	game-plan/design/writing/scripts/side/SQ_REG_U/SQ_REG_U_01.md	SQ_REG_U_01 Shaft Nine | 12452 B
+D1002	game-plan/design/writing/scripts/side/SQ_REG_U/SQ_REG_U_02.md	SQ_REG_U_02 Heat for Cinder Hollow | 9572 B
+D1003	game-plan/design/writing/scripts/side/SQ_REG_U/SQ_REG_U_03.md	SQ_REG_U_03 The Four Hundred | 17025 B
+D1004	game-plan/design/writing/scripts/side/SQ_REG_U/SQ_REG_U_04.md	SQ_REG_U_04 Wyrm in the Coolant | 12879 B
+D1005	game-plan/design/writing/scripts/side/SQ_REG_U/SQ_REG_U_05.md	SQ_REG_U_05 Waking the Engine | 18001 B
+D1006	game-plan/design/writing/scripts/side/SQ_REG_U/SQ_REG_U_06.md	SQ_REG_U_06 Chief Engineer's Locker | 17748 B
+D1007	game-plan/minecraft/ROUTES_PLAN.md	Roads, walkways and railways across the Ages | 17756 B
+D1008	game-plan/minecraft/TIME_PASSAGE.md	Time passage on the Diaithir server | 6748 B
+D1009	game-plan/minecraft/character-and-progression/README.md	Diaithir: character creation and server progression | 21260 B
+D1010	game-plan/minecraft/codex/README.md	"Liebursiubuil, the Portable Codex (name picked by Marlon 2026-10-21 20:03: ""book of the road"") | 15364 B"
+D1011	game-plan/minecraft/codex/RECIPE_BROWSER.md	The Eòlaskeàirdi tab: the Codex's recipe browser (replaces the recipe viewer) | 6819 B
+D1012	game-plan/minecraft/codex/RECORDS_FORMAT.md	Liebursiubuil records: format for generators | 3491 B
+D1013	game-plan/minecraft/dimensions/PLACEMENTS.md	Dimensions in the Diaithir pack: where they sit in the canon | 3784 B
+D1014	game-plan/minecraft/dimensions/PROPOSED_WORLDS.md	Proposed worlds: far worlds of na Speuran and the Backrooms | 5866 B
+D1015	game-plan/minecraft/integration/BRIDGES.md	Diaithir cross-mod bridges | 8769 B
+D1016	game-plan/minecraft/modlist-2026-10-13/modlist.md	Modpack: full mod list | 33153 B
+D1017	game-plan/minecraft/polities/README.md	Diaithir: the living world | 6400 B
+D1018	game-plan/minecraft/shardfall-weapons/README.md	Shardfall weapons for the Minecraft pack | 5903 B
+D1019	game-plan/unreal/README.md	> Code home is now the private repo GeddyLifeson/shardfall-game (B02). This folder is the cloud working copy: generators | 14792 B
+D1020	game-plan/unreal/assets/cinderreach/chars/player/kenney_animated_characters/License.txt	Animated Characters Protagonists (1.1) | 699 B
+D1021	game-plan/unreal/assets/cinderreach/chars/weapons/kenney_blaster_kit/License.txt	Blaster Kit (2.1) | 700 B
+D1022	game-plan/unreal/assets/cinderreach/env/README.md	Cinderreach environment assets (B10, environment half) | 1584 B
+D1023	history/UNITS2_BRIEF.md	Units2 brief (second pass: more dated events and monuments, Ages III to VII) | 1971 B
+D1024	history/UNIT_EVENTS_BRIEF.md	Unit events brief (Anchored History, every culture gets dated events) | 4755 B
+D1025	history/VERIFY_BRIEF.md	Verify the unit events (second pass) | 2004 B
+D1026	history/questlines/HA-III-02_save_the_scrolls.md	Save the Scrolls (HA-III-02, breakable) | 5469 B
+D1027	history/sot_build/BUILD_STEPS.md	HB's Structures Over Time, 26.1.2 NeoForge port: build steps for the PC | 2495 B
+D1028	history/web_verify/BRIEF.md	Web verification of dated events (accuracy pass) | 2348 B
+D1029	jaopca-mods-diff.txt	DIFFERENCE between the two states: diaithir-ages-neoforge-26.1.2-0.1.0-diaithir.1.jar, diaithir-ages-neoforge-26.1.2-0.1 | 87330 B
+D1030	jaopca-npe-frames.txt	[25Oct2026 09:15:09.875] [modloading-worker-0/ERROR] [net.neoforged.fml.javafmlmod.FMLModContainer/]: Exception caught d | 8729 B
+D1031	jobs/bandcheck/README.md	Band cross-check (first pass, free hosts) | 1715 B
+D1032	jobs/weave/PILOT.txt	groktok | 53 B
+D1033	kubejs_errors_20261101.txt	== stack context (latest.log 1363-1380, 1412-1428) | 7654 B
+D1034	library-sync/README.md	Library sync for Diaithir game content | 877 B
+D1035	livefix-fail.txt	time: 2026-10-25 12:52:12 | 4896 B
+D1036	maps/rodos/README.md	Rodos map (design 2026-10-27, no Azgaar source) | 1732 B
+D1037	mod-categories/BATCH1_REPORT.md	Utility, UI, decoration, social: batch 1 report (10-27) | 2580 B
+D1038	mod-categories/worldgen/END_CLEANROOM.md	Clean-room merged End (design, not yet built) | 1716 B
+D1039	mod-ports/BATCH1_RESULT.md	Batch 1 full-pack boot test | 9131 B
+D1040	mod-ports/PLAN.md	Mobs, adventure, equipment, magic: find latest, port older, build our own | 2238 B
+D1041	mod-ports/WORKER_BRIEF.md	Shared brief for mod port / clean-room workers (read fully) | 3492 B
+D1042	mod-ports/laptop-tellus-check.md	Tellus coast check (needs a machine with real internet) | 1474 B
+D1043	mod-ports/pack-config/README.md	Pack config: mob health stacking (for the distribution thread) | 3680 B
+D1044	mods-sweep/create-gallery.html	<title>Diaithir Create Gallery</title> | 1273425 B
+D1045	mods-sweep/creature-gallery.html	<title>Diaithir Creature Gallery</title> | 1140152 B
+D1046	mods-sweep/panscriptum-mod-sweep.html	<title>Panscriptum Mod Sweep</title> | 83859 B
+D1047	mods-sweep/vehicles-preview.html	<title>Diaithir Vehicles and Creatures</title> | 483866 B
+D1048	mythology/DESIGN.md	Gods and myth creatures of Diaithir | 11329 B
+D1049	mythology/forbidden_words.txt	zeus | 872 B
+D1050	mythology/src/age1_generated.txt	T|a1_sahul_pleistocene_core_tool_and_scraper|The Baldakuindsgrìubaid Hearth|Australia|dead|1|invented Age I hearth for S | 35786 B
+D1051	mythology/src/later_ages.txt	T|furnace|The Furnace-and-Rail Court|Age V industrial towns and rail lines|dead|5|invented Age V industrial folk-myth (n | 11967 B
+D1052	mythology/src/pantheons.txt	T id|name_en|region|status|age|basis(WRITERS ONLY, never shown to players)|rules note | 24338 B
+D1053	names/atlas_textures.md	Atlas textures (antique_atlas, Surveyor has only icon.png) | 2315 B
+D1054	names/woodvariants.fallback.txt	aumberoot | 827 B
+D1055	packmap/PC_CRAWL.md	PC crawl for the source coverage gap (wikis block the cloud) | 977 B
+D1056	packmap/goal_skips.txt	SKIP forestry.I: forestry:acacia_fireproof_planks not loaded | 9840 B
+D1057	packmap/tech_missing_ids.txt	ids named in diaithir_tech (tech_tree.json, tech_items.json, tech_rooms.json) that are not in pack_dump.json.gz items (t | 6468 B
+D1058	panscriptum/archive-import/RESUME.md	Archive In Between full import: resume notes (2026-10-18) | 3303 B
+D1059	panscriptum/archive-notes.md	The Archive In Between: notes for the import thread | 1569 B
+D1060	panscriptum/coverage/README.md	Panscriptum coverage | 958 B
+D1061	panscriptum/lol-import/BRIEF.md	League of Legends catalogue batch: worker brief | 1613 B
+D1062	panscriptum/lol-import/existing_names.txt	A Bandle Scout Mission Journal | 9746 B
+D1063	panscriptum/lol-import/pass2/BRIEF.md	LoL pass 2: write catalogue entries from source text | 1551 B
+D1064	panscriptum/scp-backrooms-import/BRIEF.md	SCP / Backrooms catalogue batch: worker brief | 1659 B
+D1065	panscriptum/scp-backrooms-import/BRIEF_BACKROOMS.md	Backrooms catalogue batch: worker brief | 1707 B
+D1066	panscriptum/scp-backrooms-import/batches/bk-raw.txt	"/level-0-1 | normal-levels-i | Level 0.1 - ""Zenith Station"" | featured,level,level-0,mystery,sd-class-0,space,sub-sectio | 452308 B"
+D1067	panscriptum/scp-backrooms-import/batches/goi_hub.txt	rating: +121 + – x See also: International Groups of Interest , GoI Formats GROUPS OF INTEREST The Foundation is not the | 100174 B
+D1068	panscriptum/wh-scifi-import/BRIEF.md	Warhammer / Star Wars / Star Trek catalogue batch: worker brief | 1828 B
+D1069	panscriptum/wh-scifi-import/existing_st.txt	AR-558 | 8815 B
+D1070	panscriptum/wh-scifi-import/existing_sw.txt	4-LOM | 10738 B
+D1071	panscriptum/wh-scifi-import/existing_w40k.txt	10th Black Crusade | 62239 B
+D1072	panscriptum/wh-scifi-import/existing_whf.txt	A Drakwald Betrayal | 105006 B
+D1073	panscriptum/wh-scifi-import/gap/WRITE_JOB.md	Wiki rewrite write jobs (Star Wars, Star Trek, all Warhammer) | 1722 B
+D1074	pc-update/README.txt	"Double-click ""Update Diaithir"" (put it on the desktop). It pulls the latest test pack into the Prism instance at C:\Pris | 716 B"
+D1075	pc-update/out/README.txt	"Double-click ""Update Diaithir"" to pull the latest test pack into Prism (C:\Prism, instance Diaithir) and sync the server | 382 B"
+D1076	pc-world-state.txt	1. FILE LISTS (path size) | 77538 B
+D1077	pc_capabilities_INDEX.md	Capability index | 71119 B
+D1078	pc_code_commons_CATALOG.md	CATALOG | 33950 B
+D1079	pc_ram_top.txt	﻿Captured 2026-10-25 19:15:45 | 6666 B
+D1080	perf/FROM_DISTRIBUTION_THREAD.md	Reply to the diaithir-perf thread from the own-distribution thread (17:56Z 10-21): | 707 B
+D1081	perf/PERF.md	Measurements | 5434 B
+D1082	perf/boot/HOWTO.md	Cloud boot of the full Diaithir pack (own-distribution thread) | 1224 B
+D1083	perf/client_heap.md	Client heap after world load (own-distribution thread, 10-21 18:15Z) | 3871 B
+D1084	plans/ASCENDANT.md	Ascendant: post-endgame boss tiers (original design) | 4489 B
+D1085	plans/FACTORIO_MODS_SURVEY.md	Existing Minecraft mods for Factorio, Cosmoteer and Terraria mechanics (survey, 2026-11-02) | 21670 B
+D1086	plans/FACTORIO_TECH.md	Foundry: Factorio-style tech feature set, built inside the consolidated modules (design, 11-02) | 31240 B
+D1087	plans/INTEGRATION.md	INTEGRATION: everything hooks into everything (Marlon 11-02 22:54 and 22:56) | 6260 B
+D1088	plans/PACK_CONSOLIDATION_AUDIT.md	Pack consolidation audit (pack-v1-3, 546 mods) | 17464 B
+D1089	plans/PC_AGE1_TONIGHT.md	PC run: Age I v1 server tonight (2026-10-24) | 3432 B
+D1090	plans/PLAN_TO_V1.md	Plan to Diaithir server V1 | 7726 B
+D1091	plans/REBUILD_COST.md	Cost to rebuild the pack's mods as Diaithir modules | 8374 B
+D1092	plans/SHIPBUILDING.md	SHIPBUILDING: Diaithir crewed, part-driven ships (2026-11-02) | 7346 B
+D1093	plans/UNITS.md	UNITS: the pack's one set of units of measure (Marlon 11-02: as few as possible, based in the real world) | 4628 B
+D1094	plans/UPGRADES.md	Upgrades: one Factorio-style upgrade system for every working block (design + status, 11-02) | 4364 B
+D1095	plans/V1_PUNCHLIST.md	V1 punch list (2026-11-02 01:05Z) | 1928 B
+D1096	plans/V1_STATUS.md	V1 status (2026-10-28 10:25Z) | 2889 B
+D1097	plans/V1_TEST_CHECKLIST.md	Diaithir V1 test checklist | 23400 B
+D1098	plans/v1-test-logs/age1-last_path_A.txt	[22Oct2026 17:37:41.336] [Server thread/INFO] [DiaithirAges/]: [ages] 0 problems | 2518 B
+D1099	plans/v1-test-logs/age1-last_path_B.txt	[22Oct2026 17:48:06.612] [Server thread/INFO] [DiaithirAges/]: [ages] 0 problems | 2670 B
+D1100	plans/v1-test-logs/boot1-watchdog-crash-locate-biome.txt	---- Minecraft Crash Report ---- | 57437 B
+D1101	plans/v1-test-logs/fix1-watchdog-crash-forceload.txt	---- Minecraft Crash Report ---- | 362854 B
+D1102	plans/v1-test-logs/full-pack-boot1-grieflogger-crash.txt	---- Minecraft Crash Report ---- | 85354 B
+D1103	ports-report/SUMMARY.md	Worldgen ports summary (2026-10-27) | 1383 B
+D1104	ports-report/dimensional-doors.md	Dimensional Doors port to NeoForge 26.1.2.116 / MC 26.1.2 | 6118 B
+D1105	ports-report/eternal-starlight.md	Eternal Starlight port to NeoForge 26.1.2.116 (MC 26.1.2) | 8307 B
+D1106	ports-report/paradise-lost.md	Paradise Lost port to NeoForge 26.1.2.116 / MC 26.1.2 | 7362 B
+D1107	ports-report/ribbits.md	Ribbits port to NeoForge 26.1.2.116 (MC 26.1.2) | 2518 B
+D1108	ports-report/the-graveyard.md	The Graveyard port (MC 26.1.2, NeoForge 26.1.2.116) | 1099 B
+D1109	ports-report/villager-trading-plus.md	Villager Trading Plus (trading-plus) - NeoForge 26.1.2 | 693 B
+D1110	research/wheel-of-faith-notes.md	Wheel of Faith method notes (paused 2026-10-22) | 1924 B
+D1111	stall_log_excerpts.txt	== watchdog_report.md | 617 B
+D1112	stall_watchdog_report.md	Server watchdog: exited | 488 B
+D1113	tech-transport/GT_PC_TEST.md	GregTech CEu Modern, real-world test plan (PC thread) | 5840 B
+D1114	tech-transport/PC_TECH_BUILD.md	PC job: tech/transport batch (10-27) | 809 B
+D1115	tech-transport/PLAN.md	Tech, transport and storage sweep (10-27) | 2776 B
+D1116	tech-transport/PNC_PC_TEST.md	PneumaticCraft: Repressurized, real-world test plan (PC thread) | 5500 B
+D1117	tech-transport/overrides/README.md	Batch A boot fixes (laptop log 10-27). Copy overrides/kubejs into the pack kubejs folder. | 548 B
+D1118	texrun2_options.txt	version:4790 | 37216 B
+D1119	texrun_options.txt	version:4790 | 34582 B
+D1120	texture-pack/build/README.txt	Industrial Factory Texture Pack, 12 zips (10-25, overnight coverage pass: every block, item, entity and GUI texture in t | 406 B
+D1121	texture-pack/build/SHA256SUMS.txt	0c6ccc99a97fb03d8b9246d6d43d68689b9d0378277a432e0d3561204e72da6b  Industrial Factory 1.zip | 1095 B
+D1122	texture-pack/gaps-src/scene_instructions.md	You are a food photographer and 3D scene designer. For ONE dish, output a JSON scene that a Blender script renders as a  | 7615 B
+D1123	texture-pack/shared/FACTORIO_TECH_README.md	Factorio tech look, shared with the Create port (10-24) | 716 B
+D1124	texture-pack/shared/STYLE.md	Diaithir 64x style guide (Factorio method) | 5938 B
+D1125	textures/drinks/README.md	Drink icons wanted (64 px, 3D renders like the dish icons) | 595 B
+D1126	ug_RUN_ON_PC.md	Live underground fix: exact steps for the PC thread | 1875 B
+D1127	ug_SHA256.txt	41965c53853f7621d5149bac2f738e63b07e9fdf98e7461e18174b44807c5380  ug_Tellus-neoforge-26.1.2-0.8.3-diaithir.16.jar.part00 | 687 B
+D1128	ui-reports/PC_TEST_woodvariants_sit.md	PC test: wood-variant furniture (DiaithirRPG #180, commit 9eff8225c or later) | 922 B
+D1129	upstream/untamedwilds-critter-burrow-entitytype.md	untamedwilds: critter_burrow fails to load entityType (3.0.1 for 26.1.2) | 1972 B
+D1130	vshang_server_and_vs_threads.txt	"""Server thread"" #171 [34824] prio=8 os_prio=1 cpu=34453.12ms elapsed=96.14s tid=0x000001ed25155fd0 nid=34824 waiting on  | 3528 B"
+D1131	vshang_user_jvm_args.txt	-Xms4G | 138 B
+D1132	vshang_watchdog_report.md	Server watchdog: slow but progressing | 594 B
+D1133	vshang_win_args.txt	--add-opens java.base/java.lang.invoke=ALL-UNNAMED | 5248 B
+D1134	weakness-probes.txt	"t0 14:02:44 effects: id: ""minecraft:weakness"", duration: -1; | 1237 B"
+D1135	weakness.txt	== time 13:59:33 | 2879 B
+D1136	world-checks/area_views.html	<title>Age I Area Views</title> | 1755450 B
+D1137	world-checks/page_tpl.html	<title>Age I World Checks</title> | 12253 B
+D1138	world-checks/world_checks.html	<title>Age I World Checks</title> | 117347 B

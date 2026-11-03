@@ -1,0 +1,1307 @@
+B0001	RimWorld / Def database @ Steam\steamapps\common\RimWorld\Data\Core\Defs
+B0002	RimWorld / Mod loader @ Steam\steamapps\common\RimWorld\Mods
+B0003	Factorio / Prototype data stage @ Steam\steamapps\common\Factorio\data\base\prototypes
+B0004	Factorio / Mod/DLC packages @ Steam\steamapps\common\Factorio\data
+B0005	Garry's Mod / Lua engine API @ Steam\...\GarrysMod\garrysmod\lua
+B0006	The Binding of Isaac Rebirth / Lua mod API @ Steam\...\The Binding of Isaac Rebirth\resources\scripts
+B0007	Skyrim Special Edition / Papyrus scripts @ Steam\...\Skyrim Special Edition\Data\Scripts
+B0008	Tabletop Simulator / Unity Mono + Lua @ Steam\...\Tabletop Simulator
+B0009	Dwarf Fortress / Raw files @ Steam\steamapps\common\Dwarf Fortress
+B0010	Capitalism 2 / Data tables @ Steam\...\Capitalism 2
+B0011	Prison Architect / Data archives @ Steam\...\Prison Architect
+B0012	Rise to Ruins / Java engine @ Steam\...\Rise to Ruins
+B0013	YourOnlyMoveIsHUSTLE / Godot mod folder @ Steam\...\YourOnlyMoveIsHUSTLE
+B0014	Unity games (Phasmophobia, Everything, Stick Fight, Mr Shifty, Kingdoms and Castles, Cyber Hook) / Unity data @ Steam\steamapps\common\*
+B0015	Wallpaper Engine / Project/pak engine @ Steam\...\wallpaper_engine
+B0016	Steam / Library metadata @ C:\Program Files (x86)\Steam\steamapps
+B0017	Project Ignis EDOPro / Lua card scripts @ C:\ProjectIgnis\script
+B0018	Cockatrice / Card database @ %LOCALAPPDATA%\Cockatrice\Cockatrice
+B0019	BattleScribe / Rules data @ C:\Users\Marlon\BattleScribe and .battlescribe
+B0020	Aurora D&D / Character data @ C:\Users\Marlon\Literally-Everything-for-DND
+B0021	Minecraft Java / NeoForge 26.1 / Server @ C:\Users\Marlon\diaithir-testserver\server
+B0022	Minecraft / KubeJS scripting @ diaithir-testserver\server\kubejs
+B0023	Minecraft / Mod config set @ diaithir-testserver\server\config
+B0024	Minecraft / Prism instance @ %APPDATA%\PrismLauncher\instances\Diaithir
+B0025	Minecraft / Pack workspace bootA @ C:\Users\Marlon\bootA
+B0026	Minecraft / techb builds @ C:\Users\Marlon\techb
+B0027	Minecraft / port workspace @ C:\Users\Marlon\port
+B0028	Minecraft / DiaithirRPG engine @ C:\Users\Marlon\DiaithirRPG\engine
+B0029	Panscriptum / Data library @ C:\Users\Marlon\panscriptum
+B0030	Assay jobs / C:\Users\Marlon\assay-job @ NEEDS_FETCH.tsv, fetched-home.jsonl, fetch.log
+B0031	Kaggle and Modal lanes / C:\Users\Marlon\kr @ tools/kaggle, tools/modal, e/ gap/ out/ Panscriptum clones
+B0032	Shardfall (Unreal) / C:\Users\Marlon\shardfall-game @ Unreal 5 C++ modules Sf* (SfAbility, SfAI, SfAudio, SfCharacter, SfCombat, SfCore)
+B0033	League of Legends skin modding / C:\Users\Marlon\Downloads\cslol-manager @ cslol-tools: mod-tools.exe, wad-extract/make(.exe, -multi.bat), hashes.game.txt
+B0034	Ren'Py and Flashpoint / %APPDATA%\RenPy, BlueMaxima Flashpoint @ Ren'Py games BlackRose, SummertimeSaga saves; Flashpoint launcher
+B0035	Project Zomboid / C:\Users\Marlon\Zomboid @ Lua mods, Workshop, Saves, Sandbox Presets
+B0036	Ollama / C:\Users\Marlon\.ollama @ HTTP API localhost:11434 (/api/generate)
+B0037	Panscriptum crawl gaps / REAL_GAP.tsv @ C:\Users\Marlon\crawl
+B0038	code-library / Reusable code @ C:\Users\Marlon\code-library
+B0039	Diaithir canon / Canon tables @ C:\Users\Marlon\diaithir-laptop
+B0040	E:\SteamLibrary\steamapps\common\yorgio
+B0041	E:\SteamLibrary\steamapps\common\Outer Wilds
+B0042	E:\SteamLibrary\steamapps\common\YourOnlyMoveIsHUSTLE
+B0043	E:\SteamLibrary\steamapps\common\Yooka-Laylee and the Impossible Lair
+B0044	E:\SteamLibrary\steamapps\common\Path of Exile 2
+B0045	E:\SteamLibrary\steamapps\common\Yes, Your Grace
+B0046	E:\SteamLibrary\steamapps\common\Yakuza Kiwami 2
+B0047	E:\SteamLibrary\steamapps\common\Yakuza 3
+B0048	E:\SteamLibrary\steamapps\common\Last Oasis
+B0049	E:\SteamLibrary\steamapps\common\Tropico 6
+B0050	E:\SteamLibrary\steamapps\common\Crying Suns
+B0051	E:\SteamLibrary\steamapps\common\Sid Meier's Civilization VI
+B0052	E:\SteamLibrary\steamapps\common\Palworld
+B0053	E:\SteamLibrary\steamapps\common\Counter-Strike Source
+B0054	E:\SteamLibrary\steamapps\common\Team Fortress 2
+B0055	E:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive
+B0056	E:\SteamLibrary\steamapps\common\GarrysMod
+B0057	E:\SteamLibrary\steamapps\common\Dawn of War Gold
+B0058	E:\SteamLibrary\steamapps\common\112 Operator
+B0059	E:\SteamLibrary\steamapps\common\Dawn of War Dark Crusade
+B0060	E:\SteamLibrary\steamapps\common\Commandos Behind Enemy Lines
+B0061	E:\SteamLibrary\steamapps\common\Commandos Beyond the Call of Duty
+B0062	E:\SteamLibrary\steamapps\common\198X
+B0063	E:\SteamLibrary\steamapps\common\Commandos 2 Men of Courage
+B0064	E:\SteamLibrary\steamapps\common\Commandos 3 Destination Berlin
+B0065	E:\SteamLibrary\steamapps\common\Stubbs the Zombie
+B0066	E:\SteamLibrary\steamapps\common\Sid Meier's Civilization V
+B0067	E:\SteamLibrary\steamapps\common\Dawn of War Soulstorm
+B0068	E:\SteamLibrary\steamapps\common\Total War SHOGUN 2
+B0069	E:\SteamLibrary\steamapps\common\Theatre of War
+B0070	E:\SteamLibrary\steamapps\common\Warhammer 40,000 Space Marine
+B0071	E:\SteamLibrary\steamapps\common\Anomaly Warzone Earth
+B0072	E:\SteamLibrary\steamapps\common\Terraria
+B0073	E:\SteamLibrary\steamapps\common\Arma 3
+B0074	E:\SteamLibrary\steamapps\common\7 Days To Die
+B0075	E:\SteamLibrary\steamapps\common\ProjectZomboid
+B0076	E:\SteamLibrary\steamapps\common\Tomb Raider
+B0077	E:\SteamLibrary\steamapps\common\Crusader Kings II
+B0078	E:\SteamLibrary\steamapps\common\TheBridge
+B0079	E:\SteamLibrary\steamapps\common\Guns of Icarus Online
+B0080	E:\SteamLibrary\steamapps\common\Battle vs Chess
+B0081	E:\SteamLibrary\steamapps\common\Adeptus Titanicus Dominus
+B0082	E:\SteamLibrary\steamapps\common\Starbound
+B0083	E:\SteamLibrary\steamapps\common\Alien Isolation
+B0084	E:\SteamLibrary\steamapps\common\MapleStory
+B0085	E:\SteamLibrary\steamapps\common\hotline_miami
+B0086	E:\SteamLibrary\steamapps\common\dont_starve
+B0087	E:\SteamLibrary\steamapps\common\Kerbal Space Program
+B0088	E:\SteamLibrary\steamapps\common\King of Fighters XIII
+B0089	E:\SteamLibrary\steamapps\common\Baldur's Gate Enhanced Edition
+B0090	E:\SteamLibrary\steamapps\common\Mad Max
+B0091	E:\SteamLibrary\steamapps\common\TheWhiteLaboratory
+B0092	E:\SteamLibrary\steamapps\common\War Thunder
+B0093	E:\SteamLibrary\steamapps\common\8 Doors
+B0094	E:\SteamLibrary\steamapps\common\Anomaly 2
+B0095	E:\SteamLibrary\steamapps\common\Europa Universalis IV
+B0096	E:\SteamLibrary\steamapps\common\The Forest
+B0097	E:\SteamLibrary\steamapps\common\assettocorsa
+B0098	E:\SteamLibrary\steamapps\common\Talisman
+B0099	E:\SteamLibrary\steamapps\common\The Binding of Isaac Rebirth
+B0100	E:\SteamLibrary\steamapps\common\UntitledApp
+B0101	E:\SteamLibrary\steamapps\common\Cities_Skylines
+B0102	E:\SteamLibrary\steamapps\common\SPACECOM
+B0103	E:\SteamLibrary\steamapps\common\Darkwood
+B0104	E:\SteamLibrary\steamapps\common\This War of Mine
+B0105	E:\SteamLibrary\steamapps\common\Endless Legend
+B0106	E:\SteamLibrary\steamapps\common\ADOM
+B0107	E:\SteamLibrary\steamapps\common\Brawlhalla
+B0108	E:\SteamLibrary\steamapps\common\Freddi Fish 5
+B0109	E:\SteamLibrary\steamapps\common\Anomaly Defenders
+B0110	E:\SteamLibrary\steamapps\common\Age of Wonders Planetfall
+B0111	E:\SteamLibrary\steamapps\common\Mount Your Friends
+B0112	E:\SteamLibrary\steamapps\common\The Escapists
+B0113	E:\SteamLibrary\steamapps\common\OfGuardsAndThieves
+B0114	E:\SteamLibrary\steamapps\common\SunlessSea
+B0115	E:\SteamLibrary\steamapps\common\Unturned
+B0116	E:\SteamLibrary\steamapps\common\WeNeedtoGoDeeper
+B0117	E:\SteamLibrary\steamapps\common\StrangeBrigade
+B0118	E:\SteamLibrary\steamapps\common\FRAMED
+B0119	E:\SteamLibrary\steamapps\common\Frostpunk
+B0120	E:\SteamLibrary\steamapps\common\Warhammer Quest
+B0121	E:\SteamLibrary\steamapps\common\ChildrenOfMorta
+B0122	E:\SteamLibrary\steamapps\common\Basement
+B0123	E:\SteamLibrary\steamapps\common\InnerSpace
+B0124	E:\SteamLibrary\steamapps\common\Popup Dungeon
+B0125	E:\SteamLibrary\steamapps\common\Niffelheim
+B0126	E:\SteamLibrary\steamapps\common\Total War WARHAMMER
+B0127	E:\SteamLibrary\steamapps\common\Poly Bridge
+B0128	E:\SteamLibrary\steamapps\common\Starbound - Unstable
+B0129	E:\SteamLibrary\steamapps\common\Ageless
+B0130	E:\SteamLibrary\steamapps\common\Nimbatus
+B0131	E:\SteamLibrary\steamapps\common\SMITE
+B0132	E:\SteamLibrary\steamapps\common\Endless Space 2
+B0133	E:\SteamLibrary\steamapps\common\TSIOQUE
+B0134	E:\SteamLibrary\steamapps\common\Hearts of Iron IV
+B0135	E:\SteamLibrary\steamapps\common\Call of Cthulhu
+B0136	E:\SteamLibrary\steamapps\common\Out of Space
+B0137	E:\SteamLibrary\steamapps\common\Endless Sky
+B0138	E:\SteamLibrary\steamapps\common\Vikings - Wolves of Midgard
+B0139	E:\SteamLibrary\steamapps\common\The Uncertain
+B0140	E:\SteamLibrary\steamapps\common\ELEX
+B0141	E:\SteamLibrary\steamapps\common\AI War 2
+B0142	E:\SteamLibrary\steamapps\common\Metro Exodus
+B0143	E:\SteamLibrary\steamapps\common\Stardew Valley
+B0144	E:\SteamLibrary\steamapps\common\Hellblade
+B0145	E:\SteamLibrary\steamapps\common\Indivisible
+B0146	E:\SteamLibrary\steamapps\common\Vampyr
+B0147	E:\SteamLibrary\steamapps\common\Golf With Your Friends
+B0148	E:\SteamLibrary\steamapps\common\Wildfire
+B0149	E:\SteamLibrary\steamapps\common\Divinity Original Sin 2
+B0150	E:\SteamLibrary\steamapps\common\Niche
+B0151	E:\SteamLibrary\steamapps\common\Mount Your Friends 3D
+B0152	E:\SteamLibrary\steamapps\common\Transport Fever
+B0153	E:\SteamLibrary\steamapps\common\Where The Water Tastes Like Wine
+B0154	E:\SteamLibrary\steamapps\common\Overload
+B0155	E:\SteamLibrary\steamapps\common\Return 2 Games
+B0156	E:\SteamLibrary\steamapps\common\Battle Chasers Nightwar
+B0157	E:\SteamLibrary\steamapps\common\Warhammer 40000 Armageddon - Da Orks
+B0158	E:\SteamLibrary\steamapps\common\CrushCrush
+B0159	E:\SteamLibrary\steamapps\common\Katana ZERO
+B0160	E:\SteamLibrary\steamapps\common\Beat Cop
+B0161	E:\SteamLibrary\steamapps\common\Syberia3
+B0162	E:\SteamLibrary\steamapps\common\Surviving Mars
+B0163	E:\SteamLibrary\steamapps\common\Fury Unleashed
+B0164	E:\SteamLibrary\steamapps\common\Albion Online
+B0165	E:\SteamLibrary\steamapps\common\Legion TD 2
+B0166	E:\SteamLibrary\steamapps\common\Aven Colony
+B0167	E:\SteamLibrary\steamapps\common\Mr Shifty
+B0168	E:\SteamLibrary\steamapps\common\Warhammer 40000 Gladius - Relics of War
+B0169	E:\SteamLibrary\steamapps\common\House Flipper
+B0170	E:\SteamLibrary\steamapps\common\Planet Coaster
+B0171	E:\SteamLibrary\steamapps\common\Warhammer 40000 Sanctus Reach
+B0172	E:\SteamLibrary\steamapps\common\Railway Empire
+B0173	E:\SteamLibrary\steamapps\common\SHENZHEN IO
+B0174	E:\SteamLibrary\steamapps\common\Pathologic
+B0175	E:\SteamLibrary\steamapps\common\Totally Accurate Battle Simulator
+B0176	E:\SteamLibrary\steamapps\common\Just Cause 4
+B0177	E:\SteamLibrary\steamapps\common\Hello Neighbor
+B0178	E:\SteamLibrary\steamapps\common\The Wild Eight
+B0179	E:\SteamLibrary\steamapps\common\Satisfactory
+B0180	E:\SteamLibrary\steamapps\common\Synthetik
+B0181	E:\SteamLibrary\steamapps\common\Tower 57
+B0182	E:\SteamLibrary\steamapps\common\Ancestors The Humankind Odyssey
+B0183	E:\SteamLibrary\steamapps\common\Guts and Glory
+B0184	E:\SteamLibrary\steamapps\common\Battlestar Galactica Deadlock
+B0185	E:\SteamLibrary\steamapps\common\Deep Rock Galactic
+B0186	E:\SteamLibrary\steamapps\common\Warhammer Vermintide 2
+B0187	E:\SteamLibrary\steamapps\common\Warhammer 40,000 Space Wolf
+B0188	E:\SteamLibrary\steamapps\common\The Ambassador
+B0189	E:\SteamLibrary\steamapps\common\LLBlaze
+B0190	E:\SteamLibrary\steamapps\common\Goat of Duty
+B0191	E:\SteamLibrary\steamapps\common\My Friend Pedro
+B0192	E:\SteamLibrary\steamapps\common\Opus Magnum
+B0193	E:\SteamLibrary\steamapps\common\Warstone TD
+B0194	E:\SteamLibrary\steamapps\common\Kingdoms and Castles
+B0195	E:\SteamLibrary\steamapps\common\Raiden V
+B0196	E:\SteamLibrary\steamapps\common\Underhero
+B0197	E:\SteamLibrary\steamapps\common\LittleBigWorkshop
+B0198	E:\SteamLibrary\steamapps\common\sandstorm
+B0199	E:\SteamLibrary\steamapps\common\Monster Hunter World
+B0200	E:\SteamLibrary\steamapps\common\Everything
+B0201	E:\SteamLibrary\steamapps\common\Shadows Awakening
+B0202	E:\SteamLibrary\steamapps\common\Okami
+B0203	E:\SteamLibrary\steamapps\common\Remnants of Naezith
+B0204	E:\SteamLibrary\steamapps\common\American Fugitive
+B0205	E:\SteamLibrary\steamapps\common\Total War WARHAMMER II
+B0206	E:\SteamLibrary\steamapps\common\Sunless Skies
+B0207	E:\SteamLibrary\steamapps\common\Boreal Blade
+B0208	E:\SteamLibrary\steamapps\common\Amnesia Rebirth
+B0209	E:\SteamLibrary\steamapps\common\Valfaris
+B0210	E:\SteamLibrary\steamapps\common\Train Valley 2
+B0211	E:\SteamLibrary\steamapps\common\Mordhau
+B0212	E:\SteamLibrary\steamapps\common\Barotrauma
+B0213	E:\SteamLibrary\steamapps\common\Darksiders 3
+B0214	E:\SteamLibrary\steamapps\common\GreedFall
+B0215	E:\SteamLibrary\steamapps\common\Wargroove
+B0216	E:\SteamLibrary\steamapps\common\Hotshot Racing
+B0217	E:\SteamLibrary\steamapps\common\Fort Triumph
+B0218	E:\SteamLibrary\steamapps\common\Colt Canyon
+B0219	E:\SteamLibrary\steamapps\common\Beat Hazard 2
+B0220	E:\SteamLibrary\steamapps\common\The Swords of Ditto
+B0221	E:\SteamLibrary\steamapps\common\PC Building Simulator
+B0222	E:\SteamLibrary\steamapps\common\Injustice2
+B0223	E:\SteamLibrary\steamapps\common\Hellpoint
+B0224	E:\SteamLibrary\steamapps\common\Horace
+B0225	E:\SteamLibrary\steamapps\common\Total Tank Simulator
+B0226	E:\SteamLibrary\steamapps\common\Maneater
+B0227	E:\SteamLibrary\steamapps\common\Risk of Rain 2
+B0228	E:\SteamLibrary\steamapps\common\Orwell Ignorance is Strength
+B0229	E:\SteamLibrary\steamapps\common\Capitalism 2
+B0230	E:\SteamLibrary\steamapps\common\Pathfinder Kingmaker
+B0231	E:\SteamLibrary\steamapps\common\The Surge 2
+B0232	E:\SteamLibrary\steamapps\common\RiseOfIndustry
+B0233	E:\SteamLibrary\steamapps\common\Desolate
+B0234	E:\SteamLibrary\steamapps\common\Farmer's Dynasty
+B0235	E:\SteamLibrary\steamapps\common\DRAGON BALL FighterZ
+B0236	E:\SteamLibrary\steamapps\common\Night Call
+B0237	E:\SteamLibrary\steamapps\common\Descenders
+B0238	E:\SteamLibrary\steamapps\common\Nowhere Prophet
+B0239	E:\SteamLibrary\steamapps\common\Surviving the Aftermath
+B0240	E:\SteamLibrary\steamapps\common\Shoppe Keep 2
+B0241	E:\SteamLibrary\steamapps\common\Hell Let Loose
+B0242	E:\SteamLibrary\steamapps\common\SUPERHOTMCD
+B0243	E:\SteamLibrary\steamapps\common\Trine 4 The Nightmare Prince
+B0244	E:\SteamLibrary\steamapps\common\Bloodstained Ritual of the Night
+B0245	E:\SteamLibrary\steamapps\common\RoboQuest
+B0246	E:\SteamLibrary\steamapps\common\Fell Seal
+B0247	E:\SteamLibrary\steamapps\common\Kingdom Two Crowns
+B0248	E:\SteamLibrary\steamapps\common\Planet Zoo
+B0249	E:\SteamLibrary\steamapps\common\GRID (2019)
+B0250	E:\SteamLibrary\steamapps\common\GenerationZero
+B0251	E:\SteamLibrary\steamapps\common\DarksidersGenesis
+B0252	E:\SteamLibrary\steamapps\common\Genesis Alpha One
+B0253	E:\SteamLibrary\steamapps\common\SIMULACRA
+B0254	E:\SteamLibrary\steamapps\common\Little Misfortune
+B0255	E:\SteamLibrary\steamapps\common\EXAPUNKS
+B0256	E:\SteamLibrary\steamapps\common\SigmaTheory
+B0257	E:\SteamLibrary\steamapps\common\A Case of Distrust
+B0258	E:\SteamLibrary\steamapps\common\Driftland The Magic Revival
+B0259	E:\SteamLibrary\steamapps\common\Wasteland 3
+B0260	E:\SteamLibrary\steamapps\common\Between the Stars
+B0261	E:\SteamLibrary\steamapps\common\Elderborn
+B0262	E:\SteamLibrary\steamapps\common\Overcooked! 2
+B0263	E:\SteamLibrary\steamapps\common\Raji An Ancient Epic
+B0264	E:\SteamLibrary\steamapps\common\SuperFlight
+B0265	E:\SteamLibrary\steamapps\common\Not Tonight
+B0266	E:\SteamLibrary\steamapps\common\As Far As The Eye
+B0267	E:\SteamLibrary\steamapps\common\Genesis Noir
+B0268	E:\SteamLibrary\steamapps\common\Phasmophobia
+B0269	E:\SteamLibrary\steamapps\common\Drake Hollow
+B0270	E:\SteamLibrary\steamapps\common\Deadly Days
+B0271	E:\SteamLibrary\steamapps\common\Hellblade Senua's Sacrifice - VR
+B0272	E:\SteamLibrary\steamapps\common\Forager
+B0273	E:\SteamLibrary\steamapps\common\Black Future '88
+B0274	E:\SteamLibrary\steamapps\common\A Plague Tale Innocence
+B0275	E:\SteamLibrary\steamapps\common\Family Man
+B0276	E:\SteamLibrary\steamapps\common\DueProcess
+B0277	E:\SteamLibrary\steamapps\common\Iron Danger
+B0278	E:\SteamLibrary\steamapps\common\A Dance of Fire and Ice
+B0279	E:\SteamLibrary\steamapps\common\Atomicrops
+B0280	E:\SteamLibrary\steamapps\common\Hammerting
+B0281	E:\SteamLibrary\steamapps\common\Retimed
+B0282	E:\SteamLibrary\steamapps\common\The Occupation
+B0283	E:\SteamLibrary\steamapps\common\Heaven's Vault
+B0284	E:\SteamLibrary\steamapps\common\Warhammer Chaosbane
+B0285	E:\SteamLibrary\steamapps\common\Project Winter
+B0286	E:\SteamLibrary\steamapps\common\Stygian Reign of the Old Ones
+B0287	E:\SteamLibrary\steamapps\common\DOOMEternal
+B0288	E:\SteamLibrary\steamapps\common\This Is the Police 2
+B0289	E:\SteamLibrary\steamapps\common\Neon Abyss
+B0290	E:\SteamLibrary\steamapps\common\VC4
+B0291	E:\SteamLibrary\steamapps\common\The Bard's Tale Trilogy
+B0292	E:\SteamLibrary\steamapps\common\The Beast Inside
+B0293	E:\SteamLibrary\steamapps\common\Levelhead
+B0294	E:\SteamLibrary\steamapps\common\Outward
+B0295	E:\SteamLibrary\steamapps\common\Axis & Allies Online
+B0296	E:\SteamLibrary\steamapps\common\Railroad Corporation
+B0297	E:\SteamLibrary\steamapps\common\Othercide
+B0298	E:\SteamLibrary\steamapps\common\ShiningResonanceRefrain
+B0299	E:\SteamLibrary\steamapps\common\Autonauts
+B0300	E:\SteamLibrary\steamapps\common\Verlet Swing
+B0301	E:\SteamLibrary\steamapps\common\Supraland
+B0302	E:\SteamLibrary\steamapps\common\Hokko Life
+B0303	E:\SteamLibrary\steamapps\common\The Ascent
+B0304	E:\SteamLibrary\steamapps\common\Iron Harvest
+B0305	E:\SteamLibrary\steamapps\common\Maid of Sker
+B0306	E:\SteamLibrary\steamapps\common\Automachef
+B0307	E:\SteamLibrary\steamapps\common\Tales of the Neon Sea
+B0308	E:\SteamLibrary\steamapps\common\The Stillness of the Wind
+B0309	E:\SteamLibrary\steamapps\common\BannersOfRuin
+B0310	E:\SteamLibrary\steamapps\common\Hiveswap Friendsim
+B0311	E:\SteamLibrary\steamapps\common\TabletopPlayground
+B0312	E:\SteamLibrary\steamapps\common\Phoenix Point
+B0313	E:\SteamLibrary\steamapps\common\The Bard's Tale IV Director's Cut
+B0314	E:\SteamLibrary\steamapps\common\Rustler
+B0315	E:\SteamLibrary\steamapps\common\Creeper World 4
+B0316	E:\SteamLibrary\steamapps\common\Ikenfell
+B0317	E:\SteamLibrary\steamapps\common\Gamedec
+B0318	E:\SteamLibrary\steamapps\common\Void Bastards
+B0319	E:\SteamLibrary\steamapps\common\smite pt
+B0320	E:\SteamLibrary\steamapps\common\Tribes of Midgard
+B0321	E:\SteamLibrary\steamapps\common\Blade Assault
+B0322	E:\SteamLibrary\steamapps\common\ImperatorRome
+B0323	E:\SteamLibrary\steamapps\common\Factory Town
+B0324	E:\SteamLibrary\steamapps\common\Shadow Tactics - Aiko's Choice
+B0325	E:\SteamLibrary\steamapps\common\HITMAN2
+B0326	E:\SteamLibrary\steamapps\common\Rover Mechanic Simulator
+B0327	E:\SteamLibrary\steamapps\common\We Were Here Together
+B0328	E:\SteamLibrary\steamapps\common\Backbone
+B0329	E:\SteamLibrary\steamapps\common\SimpleRockets2
+B0330	E:\SteamLibrary\steamapps\common\Control
+B0331	E:\SteamLibrary\steamapps\common\HentaiGirl
+B0332	E:\SteamLibrary\steamapps\common\ShenmueIII
+B0333	E:\SteamLibrary\steamapps\common\tModLoader
+B0334	E:\SteamLibrary\steamapps\common\In Other Waters
+B0335	E:\SteamLibrary\steamapps\common\Deadlock
+B0336	E:\SteamLibrary\steamapps\common\CatherineClassic
+B0337	E:\SteamLibrary\steamapps\common\Project Warlock
+B0338	E:\SteamLibrary\steamapps\common\Spellcaster University
+B0339	E:\SteamLibrary\steamapps\common\Project Wingman
+B0340	E:\SteamLibrary\steamapps\common\The Survivalists
+B0341	E:\SteamLibrary\steamapps\common\The Shapeshifting Detective
+B0342	E:\SteamLibrary\steamapps\common\Destiny 2
+B0343	E:\SteamLibrary\steamapps\common\Warhammer Quest 2 The End Times
+B0344	E:\SteamLibrary\steamapps\common\Train Station Renovation
+B0345	E:\SteamLibrary\steamapps\common\Endzone - A World Apart
+B0346	E:\SteamLibrary\steamapps\common\Bee Simulator
+B0347	E:\SteamLibrary\steamapps\common\ATOM RPG Trudograd
+B0348	E:\SteamLibrary\steamapps\common\Felix The Reaper
+B0349	E:\SteamLibrary\steamapps\common\Encased
+B0350	E:\SteamLibrary\steamapps\common\F1 2019
+B0351	E:\SteamLibrary\steamapps\common\Swag and Sorcery
+B0352	E:\SteamLibrary\steamapps\common\Townsmen - A Kingdom Rebuilt
+B0353	E:\SteamLibrary\steamapps\common\Darksburg
+B0354	E:\SteamLibrary\steamapps\common\Textorcist
+B0355	E:\SteamLibrary\steamapps\common\HenryStickmin
+B0356	E:\SteamLibrary\steamapps\common\Minoria
+B0357	E:\SteamLibrary\steamapps\common\Relicta
+B0358	E:\SteamLibrary\steamapps\common\SWINE HD Remaster
+B0359	E:\SteamLibrary\steamapps\common\THQBCNP1
+B0360	E:\SteamLibrary\steamapps\common\Fantasy Blacksmith
+B0361	E:\SteamLibrary\steamapps\common\BloonsTD6
+B0362	E:\SteamLibrary\steamapps\common\Hello Neighbor Hide and Seek
+B0363	E:\SteamLibrary\steamapps\common\One Step From Eden
+B0364	E:\SteamLibrary\steamapps\common\Frog_Detective_1
+B0365	E:\SteamLibrary\steamapps\common\Boomerang Fu
+B0366	E:\SteamLibrary\steamapps\common\Omno
+B0367	E:\SteamLibrary\steamapps\common\SpongeBob SquarePants Battle for Bikini Bottom - Rehydrated
+B0368	E:\SteamLibrary\steamapps\common\The Dungeon Of Naheulbeuk The Amulet Of Chaos
+B0369	E:\SteamLibrary\steamapps\common\Rebel Cops
+B0370	E:\SteamLibrary\steamapps\common\Möbius Front '83
+B0371	E:\SteamLibrary\steamapps\common\Sniper Ghost Warrior Contracts
+B0372	E:\SteamLibrary\steamapps\common\Thronebreaker The Witcher Tales
+B0373	E:\SteamLibrary\steamapps\common\Dwarf Fortress
+B0374	E:\SteamLibrary\steamapps\common\PanzerPaladin
+B0375	E:\SteamLibrary\steamapps\common\Effie
+B0376	E:\SteamLibrary\steamapps\common\SizeMatters
+B0377	E:\SteamLibrary\steamapps\common\Emily is Away 3
+B0378	E:\SteamLibrary\steamapps\common\Legend of Keepers
+B0379	E:\SteamLibrary\steamapps\common\Cepheus Protocol
+B0380	E:\SteamLibrary\steamapps\common\Lightmatter
+B0381	E:\SteamLibrary\steamapps\common\Neoverse
+B0382	E:\SteamLibrary\steamapps\common\Fae Tactics
+B0383	E:\SteamLibrary\steamapps\common\Moving Out
+B0384	E:\SteamLibrary\steamapps\common\Ring of Pain
+B0385	E:\SteamLibrary\steamapps\common\Crown Trick
+B0386	E:\SteamLibrary\steamapps\common\CookServeDelicious3
+B0387	E:\SteamLibrary\steamapps\common\WRATH
+B0388	E:\SteamLibrary\steamapps\common\Through The Darkest of Times
+B0389	E:\SteamLibrary\steamapps\common\Tools Up!
+B0390	E:\SteamLibrary\steamapps\common\SIMULACRA 2
+B0391	E:\SteamLibrary\steamapps\common\Peaky Blinders Mastermind
+B0392	E:\SteamLibrary\steamapps\common\PGA TOUR 2K21
+B0393	E:\SteamLibrary\steamapps\common\West of Dead
+B0394	E:\SteamLibrary\steamapps\common\Smile For Me
+B0395	E:\SteamLibrary\steamapps\common\Evoland Legendary Edition
+B0396	E:\SteamLibrary\steamapps\common\Warhammer Underworlds Online
+B0397	E:\SteamLibrary\steamapps\common\WARSAW
+B0398	E:\SteamLibrary\steamapps\common\Mafia Definitive Edition
+B0399	E:\SteamLibrary\steamapps\common\StellarSurvivor
+B0400	E:\SteamLibrary\steamapps\common\Struggling
+B0401	E:\SteamLibrary\steamapps\common\ScourgeBringer
+B0402	E:\SteamLibrary\steamapps\common\Paw Paw Paw
+B0403	E:\SteamLibrary\steamapps\common\DIRT 5
+B0404	E:\SteamLibrary\steamapps\common\Kingdoms of Amalur Re-Reckoning
+B0405	E:\SteamLibrary\steamapps\common\If Found
+B0406	E:\SteamLibrary\steamapps\common\Call of the Sea
+B0407	E:\SteamLibrary\steamapps\common\Deleveled
+B0408	E:\SteamLibrary\steamapps\common\The Coma 2 Vicious Sisters
+B0409	E:\SteamLibrary\steamapps\common\Islanders
+B0410	E:\SteamLibrary\steamapps\common\Frog_Detective_2
+B0411	E:\SteamLibrary\steamapps\common\Superliminal
+B0412	E:\SteamLibrary\steamapps\common\Fling to the Finish
+B0413	E:\SteamLibrary\steamapps\common\Wingspan
+B0414	E:\SteamLibrary\steamapps\common\The Suicide of Rachel Foster
+B0415	E:\SteamLibrary\steamapps\common\Beyond the Wire
+B0416	E:\SteamLibrary\steamapps\common\Conan Chop Chop
+B0417	E:\SteamLibrary\steamapps\common\Embr
+B0418	E:\SteamLibrary\steamapps\common\Vane
+B0419	E:\SteamLibrary\steamapps\common\Still There
+B0420	E:\SteamLibrary\steamapps\common\Röki
+B0421	E:\SteamLibrary\steamapps\common\Narita Boy
+B0422	E:\SteamLibrary\steamapps\common\TOHU
+B0423	E:\SteamLibrary\steamapps\common\Main Assembly
+B0424	E:\SteamLibrary\steamapps\common\F1 2020
+B0425	E:\SteamLibrary\steamapps\common\MultiVersus
+B0426	E:\SteamLibrary\steamapps\common\Fallout76
+B0427	E:\SteamLibrary\steamapps\common\Vampire The Masquerade - Coteries of New York
+B0428	E:\SteamLibrary\steamapps\common\SongOfHorror
+B0429	E:\SteamLibrary\steamapps\common\Rock of Ages III Make & Break
+B0430	E:\SteamLibrary\steamapps\common\Monster Train
+B0431	E:\SteamLibrary\steamapps\common\MOAstray
+B0432	E:\SteamLibrary\steamapps\common\Eldest Souls
+B0433	E:\SteamLibrary\steamapps\common\DesertLegend
+B0434	E:\SteamLibrary\steamapps\common\Shady Part of Me
+B0435	E:\SteamLibrary\steamapps\common\InSoundMind
+B0436	E:\SteamLibrary\steamapps\common\Iris and the giant
+B0437	E:\SteamLibrary\steamapps\common\RISK Global Domination
+B0438	E:\SteamLibrary\steamapps\common\Cyber Hook
+B0439	E:\SteamLibrary\steamapps\common\Morbid
+B0440	E:\SteamLibrary\steamapps\common\Remothered Broken Porcelain
+B0441	E:\SteamLibrary\steamapps\common\Fun with Ragdolls
+B0442	E:\SteamLibrary\steamapps\common\Homestuck Pesterquest
+B0443	E:\SteamLibrary\steamapps\common\Open World Game the Open World Game
+B0444	E:\SteamLibrary\steamapps\common\Warhammer Chaos & Conquest
+B0445	E:\SteamLibrary\steamapps\common\Not For Broadcast
+B0446	E:\SteamLibrary\steamapps\common\Gas Station Simulator
+B0447	E:\SteamLibrary\steamapps\common\Wizard with a Gun
+B0448	E:\SteamLibrary\steamapps\common\Timelie
+B0449	E:\SteamLibrary\steamapps\common\Golf Gang
+B0450	E:\SteamLibrary\steamapps\common\Fallout 76 Playtest
+B0451	E:\SteamLibrary\steamapps\common\Going Under
+B0452	E:\SteamLibrary\steamapps\common\Crusader Kings III
+B0453	E:\SteamLibrary\steamapps\common\Paradise Killer
+B0454	E:\SteamLibrary\steamapps\common\Midnight Protocol
+B0455	E:\SteamLibrary\steamapps\common\Gloria Victis Siege
+B0456	E:\SteamLibrary\steamapps\common\MOLEK-SYNTEZ
+B0457	E:\SteamLibrary\steamapps\common\Carto
+B0458	E:\SteamLibrary\steamapps\common\Industria
+B0459	E:\SteamLibrary\steamapps\common\Metal Unit
+B0460	E:\SteamLibrary\steamapps\common\Kill It With Fire
+B0461	E:\SteamLibrary\steamapps\common\Path of Giants
+B0462	E:\SteamLibrary\steamapps\common\Pathfinder Second Adventure
+B0463	E:\SteamLibrary\steamapps\common\Worms Rumble
+B0464	E:\SteamLibrary\steamapps\common\Pumpkin Jack
+B0465	E:\SteamLibrary\steamapps\common\OlliOlli World
+B0466	E:\SteamLibrary\steamapps\common\The Dark Pictures Anthology - Little Hope
+B0467	E:\SteamLibrary\steamapps\common\UnMetal
+B0468	E:\SteamLibrary\steamapps\common\Super Magbot
+B0469	E:\SteamLibrary\steamapps\common\Turnip Boy Commits Tax Evasion
+B0470	E:\SteamLibrary\steamapps\common\Blue Fire
+B0471	E:\SteamLibrary\steamapps\common\Necromunda Hired Gun
+B0472	E:\SteamLibrary\steamapps\common\Partisans 1941
+B0473	E:\SteamLibrary\steamapps\common\Retrowave
+B0474	E:\SteamLibrary\steamapps\common\Skully
+B0475	E:\SteamLibrary\steamapps\common\DEATHLOOP
+B0476	E:\SteamLibrary\steamapps\common\HOT WHEELS UNLEASHED
+B0477	E:\SteamLibrary\steamapps\common\Vampire The Masquerade - Shadows of New York
+B0478	E:\SteamLibrary\steamapps\common\Leaf Blower Revolution
+B0479	E:\SteamLibrary\steamapps\common\BPM BULLETS PER MINUTE
+B0480	E:\SteamLibrary\steamapps\common\Disciples Liberation
+B0481	E:\SteamLibrary\steamapps\common\FobiaStDinfnaHotel
+B0482	E:\SteamLibrary\steamapps\common\Milky Way Prince – The Vampire Star
+B0483	E:\SteamLibrary\steamapps\common\Voidigo
+B0484	E:\SteamLibrary\steamapps\common\TOEM
+B0485	E:\SteamLibrary\steamapps\common\Greak Memories of Azur
+B0486	E:\SteamLibrary\steamapps\common\Epic Chef
+B0487	E:\SteamLibrary\steamapps\common\shapez.io
+B0488	E:\SteamLibrary\steamapps\common\Roosevelt
+B0489	E:\SteamLibrary\steamapps\common\Werewolf The Apocalypse - Heart of the Forest
+B0490	E:\SteamLibrary\steamapps\common\Five Dates
+B0491	E:\SteamLibrary\steamapps\common\Lacuna
+B0492	E:\SteamLibrary\steamapps\common\Grow Song of the Evertree
+B0493	E:\SteamLibrary\steamapps\common\Mind Scanners
+B0494	E:\SteamLibrary\steamapps\common\John Wick Hex
+B0495	E:\SteamLibrary\steamapps\common\Liftlands Demo
+B0496	E:\SteamLibrary\steamapps\common\Metro Exodus Enhanced Edition
+B0497	E:\SteamLibrary\steamapps\common\The Serpent Rogue
+B0498	E:\SteamLibrary\steamapps\common\The Spell Brigade
+B0499	E:\SteamLibrary\steamapps\common\IAmFish
+B0500	E:\SteamLibrary\steamapps\common\Lawn Mowing Simulator
+B0501	E:\SteamLibrary\steamapps\common\Hell Let Loose (Public Testing)
+B0502	E:\SteamLibrary\steamapps\common\Berry Madness
+B0503	E:\SteamLibrary\steamapps\common\Gotham Knights
+B0504	E:\SteamLibrary\steamapps\common\Forgive me Father
+B0505	E:\SteamLibrary\steamapps\common\Crab Game
+B0506	E:\SteamLibrary\steamapps\common\Blue Fire Void Maker
+B0507	E:\SteamLibrary\steamapps\common\Cepheus Protocol Experimental Branch
+B0508	E:\SteamLibrary\steamapps\common\Masterplan Tycoon Foundations
+B0509	E:\SteamLibrary\steamapps\common\Sould Dub
+B0510	E:\SteamLibrary\steamapps\common\Mechaguard
+B0511	E:\SteamLibrary\steamapps\common\Deep Night Runner
+B0512	E:\SteamLibrary\steamapps\common\Dr. Science quest
+B0513	E:\SteamLibrary\steamapps\common\Fishy Business
+B0514	E:\SteamLibrary\steamapps\common\Plan B Terraform
+B0515	E:\SteamLibrary\steamapps\common\Prince of Suburbia - Part One
+B0516	E:\SteamLibrary\steamapps\common\JUNGLE RUNNER
+B0517	E:\SteamLibrary\steamapps\common\Iron Age
+B0518	E:\SteamLibrary\steamapps\common\Pixel Pirate
+B0519	E:\SteamLibrary\steamapps\common\Winter Stealth
+B0520	E:\SteamLibrary\steamapps\common\Lifecraft_Beta
+B0521	E:\SteamLibrary\steamapps\common\Yu-Gi-Oh!  Master Duel
+B0522	E:\SteamLibrary\steamapps\common\Goose Goose Duck
+B0523	E:\SteamLibrary\steamapps\common\Space Marine 2
+B0524	E:\SteamLibrary\steamapps\common\SovietRepublic
+B0525	E:\SteamLibrary\steamapps\common\YuppiePsycho
+B0526	E:\SteamLibrary\steamapps\common\Cosmoteer
+B0527	E:\SteamLibrary\steamapps\common\Factorio
+B0528	E:\SteamLibrary\steamapps\common\RimWorld
+B0529	E:\SteamLibrary\steamapps\common\Anomaly Korea
+B0530	E:\SteamLibrary\steamapps\common\BeamNG.drive
+B0531	E:\SteamLibrary\steamapps\common\Crash Bandicoot - N Sane Trilogy
+B0532	E:\SteamLibrary\steamapps\common\Cyber Assasin
+B0533	E:\SteamLibrary\steamapps\common\Digital Meow
+B0534	E:\SteamLibrary\steamapps\common\Don't Starve Together
+B0535	E:\SteamLibrary\steamapps\common\Skyrim Special Edition
+B0536	E:\SteamLibrary\steamapps\common\Electoral Carnage
+B0537	E:\SteamLibrary\steamapps\common\Era of Miracles
+B0538	E:\SteamLibrary\steamapps\common\Garage
+B0539	E:\SteamLibrary\steamapps\common\3D Aim Trainer
+B0540	E:\SteamLibrary\steamapps\common\Goblin Gladiators
+B0541	E:\SteamLibrary\steamapps\common\TotallyAccurateBattlegrounds
+B0542	E:\SteamLibrary\steamapps\common\XCOM-Chimera-Squad
+B0543	E:\SteamLibrary\steamapps\common\Subverse
+B0544	E:\SteamLibrary\steamapps\common\Mindustry
+B0545	E:\SteamLibrary\steamapps\common\WWE 2K Battlegrounds
+B0546	E:\SteamLibrary\steamapps\common\Necesse
+B0547	E:\SteamLibrary\steamapps\common\TellMeWhy
+B0548	E:\SteamLibrary\steamapps\common\LEWDAPOCALYPSE
+B0549	E:\SteamLibrary\steamapps\common\Risk of Rain Returns
+B0550	E:\SteamLibrary\steamapps\common\ROUNDS
+B0551	E:\SteamLibrary\steamapps\common\Lust for Speed
+B0552	E:\SteamLibrary\steamapps\common\Hellslave
+B0553	E:\SteamLibrary\steamapps\common\SurrounDead
+B0554	E:\SteamLibrary\steamapps\common\Come Home
+B0555	E:\SteamLibrary\steamapps\common\MarvelRivals
+B0556	E:\SteamLibrary\steamapps\common\LEWD GIRLS Hentai Puzzle
+B0557	E:\SteamLibrary\steamapps\common\Retrowave 2
+B0558	E:\SteamLibrary\steamapps\common\Skate
+B0559	E:\SteamLibrary\steamapps\common\Fireplace Simulator
+B0560	E:\SteamLibrary\steamapps\common\Yakuza Kiwami 2 R
+B0561	E:\SteamLibrary\steamapps\common\Left 4 Dead 2
+B0562	E:\SteamLibrary\steamapps\common\SpeedRunners
+B0563	E:\SteamLibrary\steamapps\common\Stronghold Crusader 2
+B0564	E:\SteamLibrary\steamapps\common\skyrim
+B0565	E:\SteamLibrary\steamapps\common\Total War WARHAMMER III
+B0566	E:\SteamLibrary\steamapps\common\StickFightTheGame
+B0567	E:\SteamLibrary\steamapps\common\Hydroneer
+B0568	E:\SteamLibrary\steamapps\common\Wordle 4
+B0569	E:\SteamLibrary\steamapps\common\Fomon
+B0570	E:\SteamLibrary\steamapps\common\OpenTTD
+B0571	E:\SteamLibrary\steamapps\common\BLACKJACK and WAIFUS
+B0572	E:\SteamLibrary\steamapps\common\Trainz Railroad Simulator 2022
+B0573	E:\SteamLibrary\steamapps\common\Furry Killer
+B0574	E:\SteamLibrary\steamapps\common\Aviassembly
+B0575	E:\SteamLibrary\steamapps\common\Microtopia
+B0576	E:\SteamLibrary\steamapps\common\Stellaris
+B0577	E:\SteamLibrary\steamapps\common\YapWizardsTowerDefence
+B0578	E:\SteamLibrary\steamapps\common\Waifu Shop
+B0579	E:\SteamLibrary\steamapps\common\Prison Architect
+B0580	E:\SteamLibrary\steamapps\common\left 4 dead 2
+B0581	E:\SteamLibrary\steamapps\common\Tabletop Simulator
+B0582	E:\SteamLibrary\steamapps\common\Automation
+B0583	E:\SteamLibrary\steamapps\common\Rise to Ruins
+B0584	E:\SteamLibrary\steamapps\common\Planetbase
+B0585	E:\SteamLibrary\steamapps\common\KARDS
+B0586	E:\SteamLibrary\steamapps\common\Into the Breach
+B0587	E:\SteamLibrary\steamapps\common\Overcrowd
+B0588	E:\SteamLibrary\steamapps\common\First Feudal
+B0589	E:\SteamLibrary\steamapps\common\Death Crown
+B0590	E:\SteamLibrary\steamapps\common\Zwei II
+B0591	E:\SteamLibrary\steamapps\common\Zwei
+B0592	E:\SteamLibrary\steamapps\common\Youropa
+B0593	C:\Program Files (x86)\Steam\steamapps\common\Lust for Speed
+B0594	C:\Program Files (x86)\Steam\steamapps\common\Come Home
+B0595	C:\Program Files (x86)\Steam\steamapps\common\Skyrim Special Edition
+B0596	C:\Program Files (x86)\Steam\steamapps\common\Steamworks Shared
+B0597	C:\Program Files (x86)\Steam\steamapps\common\Prison Architect
+B0598	C:\Program Files (x86)\Steam\steamapps\common\Arma 3 Tools
+B0599	C:\Program Files (x86)\Steam\steamapps\common\Balatro
+B0600	C:\Program Files (x86)\Steam\steamapps\common\skyrim
+B0601	C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine
+B0602	C:\Program Files (x86)\Steam\steamapps\common\VRChat
+B0603	C:\Program Files (x86)\Steam\steamapps\common\The Divinity Engine 2
+B0604	C:\Program Files\Epic Games\UE_5.8
+B0605	E:\Games\Akalabeth - World of Doom
+B0606	E:\Games\Beneath a Steel Sky
+B0607	E:\Games\Bio Menace
+B0608	E:\Games\BioShock 2 Remastered
+B0609	E:\Games\AERMemoriesOfOld
+B0610	E:\Games\BeyondBlue
+B0611	E:\Games\Borderlands2
+B0612	E:\Games\BorderlandsThePreSequel
+B0613	E:\Games\BCTWD
+B0614	E:\Games\DeathsDoor
+B0615	E:\Games\Delores
+B0616	E:\Games\EasternExorcistAZwjf
+B0617	E:\Games\EliteDangerous
+B0618	E:\Games\FarmingSimulator19
+B0619	E:\Games\FootballManager2022
+B0620	E:\Games\Fortnite
+B0621	E:\Games\GTAV
+B0622	E:\Games\HouseofGolf2ETnWH
+B0623	E:\Games\Iratus
+B0624	E:\Games\Ironcast
+B0625	E:\Games\JurassicWorldEvolution
+B0626	E:\Games\Mothergunship
+B0627	E:\Games\Nioh
+B0628	E:\Games\Pathway
+B0629	E:\Games\SaintsRowTheThird
+B0630	E:\Games\Sheltered
+B0631	E:\Games\SkyDriftInfinity
+B0632	E:\Games\Carmageddon TDR2K
+B0633	E:\Games\SonicMania
+B0634	E:\Games\SpeedBrawl
+B0635	E:\Games\STASISBONETOTEM
+B0636	E:\Games\StrangerThings3
+B0637	E:\Games\Tharsis
+B0638	E:\Games\TheSpectrumRetreat
+B0639	E:\Games\TrainSimWorld2
+B0640	E:\Games\TurmoilJIZtC
+B0641	E:\Games\CAYNE
+B0642	E:\Games\The Coma Recut
+B0643	E:\Games\Coromon
+B0644	E:\Games\Deadlight - Director's Cut
+B0645	E:\Games\Disjunction
+B0646	E:\Games\Dragonsphere
+B0647	E:\Games\Eschalon - Book I
+B0648	E:\Games\Europa Universalis III
+B0649	E:\Games\Fallout 2
+B0650	E:\Games\Flight of the Amazon Queen
+B0651	E:\Games\The Gunk
+B0652	E:\Games\Hero's Hour
+B0653	E:\Games\Lure of the Temptress
+B0654	E:\Games\Shadow of Mordor
+B0655	E:\Games\Shadow of War
+B0656	E:\Games\Moonscars
+B0657	E:\Games\Mount and Blade
+B0658	E:\Games\The Outer Worlds
+B0659	E:\Games\Planet of Lana
+B0660	E:\Games\Sang Froid - Tales of Werewolves
+B0661	E:\Games\Shadow Warrior Complete
+B0662	E:\Games\Shogun Showdown
+B0663	E:\Games\Stargunner
+B0664	E:\Games\Sunrider - Mask of Arcadius
+B0665	E:\Games\Treasure Adventure Game
+B0666	E:\Games\Tyrian 2000
+B0667	E:\Games\Ultima 4 - Quest of the Avatar
+B0668	E:\Games\Martian Dreams
+B0669	E:\Games\Warsow
+B0670	E:\Games\The Witcher Enhanced Edition
+B0671	E:\Games\The Savage Empire
+B0672	C:\Users\imarl\Documents\My Games\TurmoilJIZtC
+B0673	E:\DiaithirRPG\tools\backrooms_crawl.py
+B0674	E:\DiaithirRPG\tools\kit_push.ps1
+B0675	E:\DiaithirRPG\tools\launch_hidden.ps1
+B0676	E:\DiaithirRPG\tools\needs_marlon.py
+B0677	E:\DiaithirRPG\tools\needs_marlon_run.ps1
+B0678	E:\DiaithirRPG\tools\shardfall\convert.py
+B0679	E:\DiaithirRPG\tools\shardfall\era.py
+B0680	E:\DiaithirRPG\tools\shardfall\npcs.py
+B0681	E:\DiaithirRPG\tools\shardfall\story.py
+B0682	E:\DiaithirRPG\tools\shardfall\test_gate.py
+B0683	E:\DiaithirRPG\tools\testrig\add_boot_lock.py
+B0684	E:\DiaithirRPG\tools\testrig\apply_boot_speed.py
+B0685	E:\DiaithirRPG\tools\testrig\boot_lock_test.ps1
+B0686	E:\DiaithirRPG\tools\testrig\cmd.py
+B0687	E:\DiaithirRPG\tools\testrig\realm_test.sh
+B0688	E:\DiaithirRPG\tools\testrig\server_watchdog.py
+B0689	E:\DiaithirRPG\tools\testrig\stage_test.sh
+B0690	E:\DiaithirRPG\tools\testrig\start_server.ps1
+B0691	E:\DiaithirRPG\tools\age1\acceptance.sh
+B0692	E:\DiaithirRPG\tools\age1\build_age1.py
+B0693	E:\DiaithirRPG\tools\age1\canon.py
+B0694	E:\DiaithirRPG\tools\age1\check_outcomes.py
+B0695	E:\DiaithirRPG\tools\age1\install.py
+B0696	E:\DiaithirRPG\tools\age1\lint_age1.py
+B0697	E:\DiaithirRPG\tools\age1\test_ages.py
+B0698	E:\DiaithirRPG\tools\age1\test_build.py
+B0699	E:\DiaithirRPG\tools\age1\test_canon.py
+B0700	E:\DiaithirRPG\tools\age1\test_check_outcomes.py
+B0701	E:\DiaithirRPG\tools\age1\test_lint.py
+B0702	E:\DiaithirRPG\tools\age1\test_shipped.py
+B0703	E:\DiaithirRPG\tools\age1\test_tech_ages.py
+B0704	E:\DiaithirRPG\tools\age1\expected\path_a.json
+B0705	E:\DiaithirRPG\tools\age1\expected\path_b.json
+B0706	E:\DiaithirRPG\tools\chars\acceptance_age1.py
+B0707	E:\DiaithirRPG\tools\chars\acceptance_ages.py
+B0708	E:\DiaithirRPG\tools\chars\acceptance_v1.py
+B0709	E:\DiaithirRPG\tools\chars\acceptance_v11.py
+B0710	E:\DiaithirRPG\tools\chars\acceptance_v11_bots.py
+B0711	E:\DiaithirRPG\tools\chars\check_integrations.py
+B0712	E:\DiaithirRPG\tools\chars\gen_placeholder_layers.py
+B0713	E:\DiaithirRPG\tools\chars\gen_ranks.py
+B0714	E:\DiaithirRPG\tools\chars\gradle.sh
+B0715	E:\DiaithirRPG\tools\chars\test_gen_layers.py
+B0716	E:\DiaithirRPG\tools\chars\test_gen_ranks.py
+B0717	E:\DiaithirRPG\tools\chars\test_spec_edit.py
+B0718	E:\DiaithirRPG\tools\release\atm_audit.csv
+B0719	E:\DiaithirRPG\tools\release\atm_audit.py
+B0720	E:\DiaithirRPG\tools\release\build_client.py
+B0721	E:\DiaithirRPG\tools\release\build_release.py
+B0722	E:\DiaithirRPG\tools\release\cf_overrides.json
+B0723	E:\DiaithirRPG\tools\release\collect_reports.py
+B0724	E:\DiaithirRPG\tools\release\install_test.py
+B0725	E:\DiaithirRPG\tools\release\rebrand_support.py
+B0726	E:\DiaithirRPG\tools\release\sync_pack.ps1
+B0727	E:\DiaithirRPG\tools\release\test_build_client.py
+B0728	E:\DiaithirRPG\tools\release\test_build_release.py
+B0729	E:\DiaithirRPG\tools\economy\lc_server_jar.py
+B0730	E:\DiaithirRPG\tools\economy\test_economy.js
+B0731	E:\DiaithirRPG\tools\mcupdate\apply.py
+B0732	E:\DiaithirRPG\tools\mcupdate\conflictcheck.py
+B0733	E:\DiaithirRPG\tools\mcupdate\depcheck.py
+B0734	E:\DiaithirRPG\tools\mcupdate\mbscan.py
+B0735	E:\DiaithirRPG\tools\mcupdate\removedids.py
+B0736	E:\DiaithirRPG\tools\mcupdate\start_server_upd.ps1
+B0737	E:\DiaithirRPG\tools\mcupdate\survey.py
+B0738	E:\DiaithirRPG\tools\safety\apply_safety.py
+B0739	E:\DiaithirRPG\tools\safety\restore_backup.py
+B0740	E:\DiaithirRPG\tools\safety\test_apply_safety.py
+B0741	E:\DiaithirRPG\tools\safety\test_restore_backup.py
+B0742	E:\DiaithirRPG\tools\safety\probe\safety_probe.js
+B0743	E:\DiaithirRPG\tools\loadtest\RESULTS.md
+B0744	E:\DiaithirRPG\tools\loadtest\rc.py
+B0745	E:\DiaithirRPG\tools\loadtest\run_loadtest.py
+B0746	E:\DiaithirRPG\tools\loadtest\start_server.ps1
+B0747	E:\DiaithirRPG\tools\loadtest\start_when_free.ps1
+B0748	E:\DiaithirRPG\tools\loadtest\throttle_kjs.py
+B0749	E:\DiaithirRPG\tools\loadtest\loadbots\build.gradle
+B0750	E:\DiaithirRPG\tools\loadtest\loadbots\gradle.properties
+B0751	E:\DiaithirRPG\tools\loadtest\loadbots\settings.gradle
+B0752	E:\DiaithirRPG\tools\loadtest\loadbots\gradle\wrapper\gradle-wrapper.properties
+B0753	E:\DiaithirRPG\tools\loadtest\loadbots\src\main\resources\META-INF\neoforge.mods.toml
+B0754	E:\DiaithirRPG\tools\ports\fix_atm11_261.py
+B0755	E:\DiaithirRPG\tools\ports\overlay_conflicts.py
+B0756	E:\DiaithirRPG\tools\ports\kubejs116\PATCH.md
+B0757	E:\DiaithirRPG\tools\ports\kubejs116\patch_jar.py
+B0758	E:\DiaithirRPG\tools\omniverse\build.py
+B0759	E:\DiaithirRPG\tools\omniverse\datapack.py
+B0760	E:\DiaithirRPG\tools\omniverse\volumes.py
+B0761	E:\DiaithirRPG\tools\cities\build.py
+B0762	E:\DiaithirRPG\tools\worlds\azgaar_import.py
+B0763	E:\DiaithirRPG\tools\lolwiki\crawl.py
+B0764	E:\DiaithirRPG\tools\failsafe\RECOVERY.md
+B0765	E:\DiaithirRPG\tools\failsafe\install_task.ps1
+B0766	E:\DiaithirRPG\tools\failsafe\setup_msi.ps1
+B0767	E:\DiaithirRPG\tools\failsafe\sync.ps1
+B0768	E:\DiaithirRPG\tools\azure\date_earth.py
+B0769	E:\DiaithirRPG\tools\compute\README.md
+B0770	E:\DiaithirRPG\tools\compute\llm.py
+B0771	E:\DiaithirRPG\tools\kaggle\drive.py
+B0772	E:\DiaithirRPG\tools\kaggle\jobs.json
+B0773	E:\DiaithirRPG\tools\kaggle\rewrite.py
+B0774	E:\DiaithirRPG\tools\kaggle\run.py
+B0775	E:\DiaithirRPG\tools\kaggle\tick.py
+B0776	E:\DiaithirRPG\tools\modal\boot_test.sh
+B0777	E:\DiaithirRPG\tools\modal\jobs.json
+B0778	E:\DiaithirRPG\tools\modal\jobs.py
+B0779	E:\DiaithirRPG\tools\offload\age_turn.py
+B0780	E:\DiaithirRPG\tools\offload\bru_boot.py
+B0781	E:\DiaithirRPG\tools\offload\check_entries.py
+B0782	E:\DiaithirRPG\tools\offload\gate.py
+B0783	E:\DiaithirRPG\tools\offload\jobs.json
+B0784	E:\DiaithirRPG\tools\offload\jobs.ps1
+B0785	E:\DiaithirRPG\tools\offload\mirror_repos.py
+B0786	E:\DiaithirRPG\tools\offload\ocr_pdf.py
+B0787	E:\DiaithirRPG\tools\offload\pr_review.py
+B0788	E:\DiaithirRPG\tools\offload\release_ports.py
+B0789	E:\DiaithirRPG\tools\offload\rewrites.ps1
+B0790	E:\DiaithirRPG\tools\offload\wiki_fetch.py
+B0791	E:\DiaithirRPG\tools\offload\wikidata_names.py
+B0792	E:\DiaithirRPG\tools\offload\write_entries.py
+B0793	E:\DiaithirRPG\tools\techages\classify.py
+B0794	E:\DiaithirRPG\tools\techages\dump_jars.py
+B0795	E:\DiaithirRPG\tools\techages\fetch_jars.py
+B0796	E:\DiaithirRPG\tools\techages\test_classify.py
+B0797	E:\DiaithirRPG\tools\routes\build.py
+B0798	E:\DiaithirRPG\tools\routes\check.py
+B0799	E:\DiaithirRPG\tools\atlas_link\atlas_link.py
+B0800	E:\DiaithirRPG\tools\atlas_link\install.ps1
+B0801	E:\DiaithirRPG\tools\atlas_link\test_atlas_link.py
+B0802	C:\Users\imarl\Downloads\SAM\ARCHITECTURE.md
+B0803	C:\Users\imarl\Downloads\SAM\README.md
+B0804	C:\Users\imarl\Downloads\SAM\RESUME.md
+B0805	C:\Users\imarl\Downloads\SAM\alerts.py
+B0806	C:\Users\imarl\Downloads\SAM\arms_common.py
+B0807	C:\Users\imarl\Downloads\SAM\arms_web_core.py
+B0808	C:\Users\imarl\Downloads\SAM\backfill_players.py
+B0809	C:\Users\imarl\Downloads\SAM\backtest.py
+B0810	C:\Users\imarl\Downloads\SAM\betting_day.py
+B0811	C:\Users\imarl\Downloads\SAM\ci-workflow.yml
+B0812	C:\Users\imarl\Downloads\SAM\cleanup.ps1
+B0813	C:\Users\imarl\Downloads\SAM\cleanup.sh
+B0814	C:\Users\imarl\Downloads\SAM\clv_live.py
+B0815	C:\Users\imarl\Downloads\SAM\clv_strategies.py
+B0816	C:\Users\imarl\Downloads\SAM\clv_tracker.py
+B0817	C:\Users\imarl\Downloads\SAM\concurrency.py
+B0818	C:\Users\imarl\Downloads\SAM\crossbook.py
+B0819	C:\Users\imarl\Downloads\SAM\dependence_backtest.py
+B0820	C:\Users\imarl\Downloads\SAM\dfs.py
+B0821	C:\Users\imarl\Downloads\SAM\ensemble.py
+B0822	C:\Users\imarl\Downloads\SAM\evidence.py
+B0823	C:\Users\imarl\Downloads\SAM\exam.py
+B0824	C:\Users\imarl\Downloads\SAM\integrity.py
+B0825	C:\Users\imarl\Downloads\SAM\learning.py
+B0826	C:\Users\imarl\Downloads\SAM\live_pipeline.py
+B0827	C:\Users\imarl\Downloads\SAM\maintenance.py
+B0828	C:\Users\imarl\Downloads\SAM\markets.py
+B0829	C:\Users\imarl\Downloads\SAM\mypicks.py
+B0830	C:\Users\imarl\Downloads\SAM\newsletter.py
+B0831	C:\Users\imarl\Downloads\SAM\oracle.py
+B0832	C:\Users\imarl\Downloads\SAM\parlays.py
+B0833	C:\Users\imarl\Downloads\SAM\real_betting.py
+B0834	C:\Users\imarl\Downloads\SAM\run_bot.py
+B0835	C:\Users\imarl\Downloads\SAM\sam_model.json
+B0836	C:\Users\imarl\Downloads\SAM\sam_model.py
+B0837	C:\Users\imarl\Downloads\SAM\scheduled.bat
+B0838	C:\Users\imarl\Downloads\SAM\scheduled.py
+B0839	C:\Users\imarl\Downloads\SAM\scout.py
+B0840	C:\Users\imarl\Downloads\SAM\sentinel.py
+B0841	C:\Users\imarl\Downloads\SAM\settlement.py
+B0842	C:\Users\imarl\Downloads\SAM\suite_fantasy.py
+B0843	C:\Users\imarl\Downloads\SAM\suite_markets.py
+B0844	C:\Users\imarl\Downloads\SAM\suite_scouting.py
+B0845	C:\Users\imarl\Downloads\SAM\train_real.py
+B0846	C:\Users\imarl\Downloads\SAM\web_fantasy.py
+B0847	C:\Users\imarl\Downloads\SAM\web_markets.py
+B0848	C:\Users\imarl\Downloads\SAM\web_oracle.py
+B0849	C:\Users\imarl\Downloads\SAM\web_scouting.py
+B0850	C:\Users\imarl\Downloads\SAM\web_sentinel.py
+B0851	C:\Users\imarl\Downloads\SAM\webapp.py
+B0852	C:\Users\imarl\Downloads\SAM\.pytest_cache\README.md
+B0853	C:\Users\imarl\Downloads\SAM\betting_suite\__init__.py
+B0854	C:\Users\imarl\Downloads\SAM\betting_suite\cache.py
+B0855	C:\Users\imarl\Downloads\SAM\betting_suite\fetch.py
+B0856	C:\Users\imarl\Downloads\SAM\betting_suite\legs.py
+B0857	C:\Users\imarl\Downloads\SAM\betting_suite\line_shift.py
+B0858	C:\Users\imarl\Downloads\SAM\betting_suite\pricing.py
+B0859	C:\Users\imarl\Downloads\SAM\betting_suite\projections.py
+B0860	C:\Users\imarl\Downloads\SAM\betting_suite\props_live.py
+B0861	C:\Users\imarl\Downloads\SAM\betting_suite\teamstats.py
+B0862	C:\Users\imarl\Downloads\SAM\betting_suite\top10.py
+B0863	C:\Users\imarl\Downloads\SAM\bot\__init__.py
+B0864	C:\Users\imarl\Downloads\SAM\bot\book_behavior.py
+B0865	C:\Users\imarl\Downloads\SAM\bot\capacity.py
+B0866	C:\Users\imarl\Downloads\SAM\bot\codex_adapter.py
+B0867	C:\Users\imarl\Downloads\SAM\bot\contracts.py
+B0868	C:\Users\imarl\Downloads\SAM\bot\correlation.py
+B0869	C:\Users\imarl\Downloads\SAM\bot\drift_engine.py
+B0870	C:\Users\imarl\Downloads\SAM\bot\execution.py
+B0871	C:\Users\imarl\Downloads\SAM\bot\ingestion.py
+B0872	C:\Users\imarl\Downloads\SAM\bot\killswitch.py
+B0873	C:\Users\imarl\Downloads\SAM\bot\parlay.py
+B0874	C:\Users\imarl\Downloads\SAM\bot\portfolio.py
+B0875	C:\Users\imarl\Downloads\SAM\bot\promotion.py
+B0876	C:\Users\imarl\Downloads\SAM\bot\scenario.py
+B0877	C:\Users\imarl\Downloads\SAM\bot\sizing.py
+B0878	C:\Users\imarl\Downloads\SAM\data\.maintenance.json
+B0879	C:\Users\imarl\Downloads\SAM\data\name_matches.json
+B0880	C:\Users\imarl\Downloads\SAM\data\sam_live.json
+B0881	C:\Users\imarl\Downloads\SAM\data\espn_history\baseball_mlb\202207.json
+B0882	C:\Users\imarl\Downloads\SAM\data\espn_history\baseball_mlb\202208.json
+B0883	C:\Users\imarl\Downloads\SAM\data\espn_history\baseball_mlb\202209.json
+B0884	C:\Users\imarl\Downloads\SAM\data\espn_history\baseball_mlb\202210.json
+B0885	C:\Users\imarl\Downloads\SAM\data\espn_history\baseball_mlb\202211.json
+B0886	C:\Users\imarl\Downloads\SAM\data\espn_history\baseball_mlb\202212.json
+B0887	C:\Users\imarl\Downloads\SAM\data\espn_history\baseball_mlb\202301.json
+B0888	C:\Users\imarl\Downloads\SAM\data\espn_history\baseball_mlb\202302.json
+B0889	C:\Users\imarl\Downloads\SAM\data\espn_history\baseball_mlb\202303.json
+B0890	C:\Users\imarl\Downloads\SAM\data\espn_history\baseball_mlb\202304.json
+B0891	C:\Users\imarl\Downloads\SAM\data\espn_history\baseball_mlb\202305.json
+B0892	C:\Users\imarl\Downloads\SAM\data\espn_history\baseball_mlb\202306.json
+B0893	C:\Users\imarl\Downloads\SAM\data\espn_history\baseball_mlb\202307.json
+B0894	C:\Users\imarl\Downloads\SAM\data\espn_history\baseball_mlb\202308.json
+B0895	C:\Users\imarl\Downloads\SAM\data\espn_history\baseball_mlb\202309.json
+B0896	C:\Users\imarl\Downloads\SAM\data\espn_history\baseball_mlb\202310.json
+B0897	C:\Users\imarl\Downloads\SAM\data\espn_history\baseball_mlb\202311.json
+B0898	C:\Users\imarl\Downloads\SAM\data\espn_history\baseball_mlb\202312.json
+B0899	C:\Users\imarl\Downloads\SAM\data\espn_history\baseball_mlb\202401.json
+B0900	C:\Users\imarl\Downloads\SAM\data\espn_history\baseball_mlb\202402.json
+B0901	C:\Users\imarl\Downloads\SAM\data\espn_history\baseball_mlb\202403.json
+B0902	C:\Users\imarl\Downloads\SAM\data\espn_history\baseball_mlb\202404.json
+B0903	C:\Users\imarl\Downloads\SAM\data\espn_history\baseball_mlb\202405.json
+B0904	C:\Users\imarl\Downloads\SAM\data\espn_history\baseball_mlb\202406.json
+B0905	C:\Users\imarl\Downloads\SAM\data\espn_history\baseball_mlb\202407.json
+B0906	C:\Users\imarl\Downloads\SAM\data\espn_history\baseball_mlb\202408.json
+B0907	C:\Users\imarl\Downloads\SAM\data\espn_history\baseball_mlb\202409.json
+B0908	C:\Users\imarl\Downloads\SAM\data\espn_history\baseball_mlb\202410.json
+B0909	C:\Users\imarl\Downloads\SAM\data\espn_history\baseball_mlb\202411.json
+B0910	C:\Users\imarl\Downloads\SAM\data\espn_history\baseball_mlb\202412.json
+B0911	C:\Users\imarl\Downloads\SAM\data\espn_history\baseball_mlb\202501.json
+B0912	C:\Users\imarl\Downloads\SAM\data\espn_history\baseball_mlb\202502.json
+B0913	C:\Users\imarl\Downloads\SAM\data\espn_history\baseball_mlb\202503.json
+B0914	C:\Users\imarl\Downloads\SAM\data\espn_history\baseball_mlb\202504.json
+B0915	C:\Users\imarl\Downloads\SAM\data\espn_history\baseball_mlb\202505.json
+B0916	C:\Users\imarl\Downloads\SAM\data\espn_history\baseball_mlb\202506.json
+B0917	C:\Users\imarl\Downloads\SAM\data\espn_history\baseball_mlb\202507.json
+B0918	C:\Users\imarl\Downloads\SAM\data\espn_history\baseball_mlb\202508.json
+B0919	C:\Users\imarl\Downloads\SAM\data\espn_history\baseball_mlb\202509.json
+B0920	C:\Users\imarl\Downloads\SAM\data\espn_history\baseball_mlb\202510.json
+B0921	C:\Users\imarl\Downloads\SAM\data\espn_history\baseball_mlb\202511.json
+B0922	C:\Users\imarl\Downloads\SAM\data\espn_history\baseball_mlb\202512.json
+B0923	C:\Users\imarl\Downloads\SAM\data\espn_history\baseball_mlb\202601.json
+B0924	C:\Users\imarl\Downloads\SAM\data\espn_history\baseball_mlb\202602.json
+B0925	C:\Users\imarl\Downloads\SAM\data\espn_history\baseball_mlb\202603.json
+B0926	C:\Users\imarl\Downloads\SAM\data\espn_history\baseball_mlb\202604.json
+B0927	C:\Users\imarl\Downloads\SAM\data\espn_history\baseball_mlb\202605.json
+B0928	C:\Users\imarl\Downloads\SAM\data\espn_history\baseball_mlb\202606.json
+B0929	C:\Users\imarl\Downloads\SAM\data\espn_history\basketball_nba\202207.json
+B0930	C:\Users\imarl\Downloads\SAM\data\espn_history\basketball_nba\202208.json
+B0931	C:\Users\imarl\Downloads\SAM\data\espn_history\basketball_nba\202209.json
+B0932	C:\Users\imarl\Downloads\SAM\data\espn_history\basketball_nba\202210.json
+B0933	C:\Users\imarl\Downloads\SAM\data\espn_history\basketball_nba\202211.json
+B0934	C:\Users\imarl\Downloads\SAM\data\espn_history\basketball_nba\202212.json
+B0935	C:\Users\imarl\Downloads\SAM\data\espn_history\basketball_nba\202301.json
+B0936	C:\Users\imarl\Downloads\SAM\data\espn_history\basketball_nba\202302.json
+B0937	C:\Users\imarl\Downloads\SAM\data\espn_history\basketball_nba\202303.json
+B0938	C:\Users\imarl\Downloads\SAM\data\espn_history\basketball_nba\202304.json
+B0939	C:\Users\imarl\Downloads\SAM\data\espn_history\basketball_nba\202305.json
+B0940	C:\Users\imarl\Downloads\SAM\data\espn_history\basketball_nba\202306.json
+B0941	C:\Users\imarl\Downloads\SAM\data\espn_history\basketball_nba\202307.json
+B0942	C:\Users\imarl\Downloads\SAM\data\espn_history\basketball_nba\202308.json
+B0943	C:\Users\imarl\Downloads\SAM\data\espn_history\basketball_nba\202309.json
+B0944	C:\Users\imarl\Downloads\SAM\data\espn_history\basketball_nba\202310.json
+B0945	C:\Users\imarl\Downloads\SAM\data\espn_history\basketball_nba\202311.json
+B0946	C:\Users\imarl\Downloads\SAM\data\espn_history\basketball_nba\202312.json
+B0947	C:\Users\imarl\Downloads\SAM\data\espn_history\basketball_nba\202401.json
+B0948	C:\Users\imarl\Downloads\SAM\data\espn_history\basketball_nba\202402.json
+B0949	C:\Users\imarl\Downloads\SAM\data\espn_history\basketball_nba\202403.json
+B0950	C:\Users\imarl\Downloads\SAM\data\espn_history\basketball_nba\202404.json
+B0951	C:\Users\imarl\Downloads\SAM\data\espn_history\basketball_nba\202405.json
+B0952	C:\Users\imarl\Downloads\SAM\data\espn_history\basketball_nba\202406.json
+B0953	C:\Users\imarl\Downloads\SAM\data\espn_history\basketball_nba\202407.json
+B0954	C:\Users\imarl\Downloads\SAM\data\espn_history\basketball_nba\202408.json
+B0955	C:\Users\imarl\Downloads\SAM\data\espn_history\basketball_nba\202409.json
+B0956	C:\Users\imarl\Downloads\SAM\data\espn_history\basketball_nba\202410.json
+B0957	C:\Users\imarl\Downloads\SAM\data\espn_history\basketball_nba\202411.json
+B0958	C:\Users\imarl\Downloads\SAM\data\espn_history\basketball_nba\202412.json
+B0959	C:\Users\imarl\Downloads\SAM\data\espn_history\basketball_nba\202501.json
+B0960	C:\Users\imarl\Downloads\SAM\data\espn_history\basketball_nba\202502.json
+B0961	C:\Users\imarl\Downloads\SAM\data\espn_history\basketball_nba\202503.json
+B0962	C:\Users\imarl\Downloads\SAM\data\espn_history\basketball_nba\202504.json
+B0963	C:\Users\imarl\Downloads\SAM\data\espn_history\basketball_nba\202505.json
+B0964	C:\Users\imarl\Downloads\SAM\data\espn_history\basketball_nba\202506.json
+B0965	C:\Users\imarl\Downloads\SAM\data\espn_history\basketball_nba\202507.json
+B0966	C:\Users\imarl\Downloads\SAM\data\espn_history\basketball_nba\202508.json
+B0967	C:\Users\imarl\Downloads\SAM\data\espn_history\basketball_nba\202509.json
+B0968	C:\Users\imarl\Downloads\SAM\data\espn_history\basketball_nba\202510.json
+B0969	C:\Users\imarl\Downloads\SAM\data\espn_history\basketball_nba\202511.json
+B0970	C:\Users\imarl\Downloads\SAM\data\espn_history\basketball_nba\202512.json
+B0971	C:\Users\imarl\Downloads\SAM\data\espn_history\basketball_nba\202601.json
+B0972	C:\Users\imarl\Downloads\SAM\data\espn_history\basketball_nba\202602.json
+B0973	C:\Users\imarl\Downloads\SAM\data\espn_history\basketball_nba\202603.json
+B0974	C:\Users\imarl\Downloads\SAM\data\espn_history\basketball_nba\202604.json
+B0975	C:\Users\imarl\Downloads\SAM\data\espn_history\basketball_nba\202605.json
+B0976	C:\Users\imarl\Downloads\SAM\data\espn_history\basketball_nba\202606.json
+B0977	C:\Users\imarl\Downloads\SAM\data\espn_history\basketball_wnba\202207.json
+B0978	C:\Users\imarl\Downloads\SAM\data\espn_history\basketball_wnba\202208.json
+B0979	C:\Users\imarl\Downloads\SAM\data\espn_history\basketball_wnba\202209.json
+B0980	C:\Users\imarl\Downloads\SAM\data\espn_history\basketball_wnba\202210.json
+B0981	C:\Users\imarl\Downloads\SAM\data\espn_history\basketball_wnba\202211.json
+B0982	C:\Users\imarl\Downloads\SAM\data\espn_history\basketball_wnba\202212.json
+B0983	C:\Users\imarl\Downloads\SAM\data\espn_history\basketball_wnba\202301.json
+B0984	C:\Users\imarl\Downloads\SAM\data\espn_history\basketball_wnba\202302.json
+B0985	C:\Users\imarl\Downloads\SAM\data\espn_history\basketball_wnba\202303.json
+B0986	C:\Users\imarl\Downloads\SAM\data\espn_history\basketball_wnba\202304.json
+B0987	C:\Users\imarl\Downloads\SAM\data\espn_history\basketball_wnba\202305.json
+B0988	C:\Users\imarl\Downloads\SAM\data\espn_history\basketball_wnba\202306.json
+B0989	C:\Users\imarl\Downloads\SAM\data\espn_history\basketball_wnba\202307.json
+B0990	C:\Users\imarl\Downloads\SAM\data\espn_history\basketball_wnba\202308.json
+B0991	C:\Users\imarl\Downloads\SAM\data\espn_history\basketball_wnba\202309.json
+B0992	C:\Users\imarl\Downloads\SAM\data\espn_history\basketball_wnba\202310.json
+B0993	C:\Users\imarl\Downloads\SAM\data\espn_history\basketball_wnba\202311.json
+B0994	C:\Users\imarl\Downloads\SAM\data\espn_history\basketball_wnba\202312.json
+B0995	C:\Users\imarl\Downloads\SAM\data\espn_history\basketball_wnba\202401.json
+B0996	C:\Users\imarl\Downloads\SAM\data\espn_history\basketball_wnba\202402.json
+B0997	C:\Users\imarl\Downloads\SAM\data\espn_history\basketball_wnba\202403.json
+B0998	C:\Users\imarl\Downloads\SAM\data\espn_history\basketball_wnba\202404.json
+B0999	C:\Users\imarl\Downloads\SAM\data\espn_history\basketball_wnba\202405.json
+B1000	C:\Users\imarl\Downloads\SAM\data\espn_history\basketball_wnba\202406.json
+B1001	C:\Users\imarl\Downloads\SAM\data\espn_history\basketball_wnba\202407.json
+B1002	C:\Users\imarl\Downloads\SAM\data\espn_history\basketball_wnba\202408.json
+B1003	C:\Users\imarl\Downloads\SAM\data\espn_history\basketball_wnba\202409.json
+B1004	C:\Users\imarl\Downloads\SAM\data\espn_history\basketball_wnba\202410.json
+B1005	C:\Users\imarl\Downloads\SAM\data\espn_history\basketball_wnba\202411.json
+B1006	C:\Users\imarl\Downloads\SAM\data\espn_history\basketball_wnba\202412.json
+B1007	C:\Users\imarl\Downloads\SAM\data\espn_history\basketball_wnba\202501.json
+B1008	C:\Users\imarl\Downloads\SAM\data\espn_history\basketball_wnba\202502.json
+B1009	C:\Users\imarl\Downloads\SAM\data\espn_history\basketball_wnba\202503.json
+B1010	C:\Users\imarl\Downloads\SAM\data\espn_history\basketball_wnba\202504.json
+B1011	C:\Users\imarl\Downloads\SAM\data\espn_history\basketball_wnba\202505.json
+B1012	C:\Users\imarl\Downloads\SAM\data\espn_history\basketball_wnba\202506.json
+B1013	C:\Users\imarl\Downloads\SAM\data\espn_history\basketball_wnba\202507.json
+B1014	C:\Users\imarl\Downloads\SAM\data\espn_history\basketball_wnba\202508.json
+B1015	C:\Users\imarl\Downloads\SAM\data\espn_history\basketball_wnba\202509.json
+B1016	C:\Users\imarl\Downloads\SAM\data\espn_history\basketball_wnba\202510.json
+B1017	C:\Users\imarl\Downloads\SAM\data\espn_history\basketball_wnba\202511.json
+B1018	C:\Users\imarl\Downloads\SAM\data\espn_history\basketball_wnba\202512.json
+B1019	C:\Users\imarl\Downloads\SAM\data\espn_history\basketball_wnba\202601.json
+B1020	C:\Users\imarl\Downloads\SAM\data\espn_history\basketball_wnba\202602.json
+B1021	C:\Users\imarl\Downloads\SAM\data\espn_history\basketball_wnba\202603.json
+B1022	C:\Users\imarl\Downloads\SAM\data\espn_history\basketball_wnba\202604.json
+B1023	C:\Users\imarl\Downloads\SAM\data\espn_history\basketball_wnba\202605.json
+B1024	C:\Users\imarl\Downloads\SAM\data\espn_history\basketball_wnba\202606.json
+B1025	C:\Users\imarl\Downloads\SAM\data\espn_history\cricket_8048\202207.json
+B1026	C:\Users\imarl\Downloads\SAM\data\espn_history\cricket_8048\202208.json
+B1027	C:\Users\imarl\Downloads\SAM\data\espn_history\cricket_8048\202209.json
+B1028	C:\Users\imarl\Downloads\SAM\data\espn_history\cricket_8048\202210.json
+B1029	C:\Users\imarl\Downloads\SAM\data\espn_history\cricket_8048\202211.json
+B1030	C:\Users\imarl\Downloads\SAM\data\espn_history\cricket_8048\202212.json
+B1031	C:\Users\imarl\Downloads\SAM\data\espn_history\cricket_8048\202301.json
+B1032	C:\Users\imarl\Downloads\SAM\data\espn_history\cricket_8048\202302.json
+B1033	C:\Users\imarl\Downloads\SAM\data\espn_history\cricket_8048\202303.json
+B1034	C:\Users\imarl\Downloads\SAM\data\espn_history\cricket_8048\202304.json
+B1035	C:\Users\imarl\Downloads\SAM\data\espn_history\cricket_8048\202305.json
+B1036	C:\Users\imarl\Downloads\SAM\data\espn_history\cricket_8048\202306.json
+B1037	C:\Users\imarl\Downloads\SAM\data\espn_history\cricket_8048\202307.json
+B1038	C:\Users\imarl\Downloads\SAM\data\espn_history\cricket_8048\202308.json
+B1039	C:\Users\imarl\Downloads\SAM\data\espn_history\cricket_8048\202309.json
+B1040	C:\Users\imarl\Downloads\SAM\data\espn_history\cricket_8048\202310.json
+B1041	C:\Users\imarl\Downloads\SAM\data\espn_history\cricket_8048\202311.json
+B1042	C:\Users\imarl\Downloads\SAM\data\espn_history\cricket_8048\202312.json
+B1043	C:\Users\imarl\Downloads\SAM\data\espn_history\cricket_8048\202401.json
+B1044	C:\Users\imarl\Downloads\SAM\data\espn_history\cricket_8048\202402.json
+B1045	C:\Users\imarl\Downloads\SAM\data\espn_history\cricket_8048\202403.json
+B1046	C:\Users\imarl\Downloads\SAM\data\espn_history\cricket_8048\202404.json
+B1047	C:\Users\imarl\Downloads\SAM\data\espn_history\cricket_8048\202405.json
+B1048	C:\Users\imarl\Downloads\SAM\data\espn_history\cricket_8048\202406.json
+B1049	C:\Users\imarl\Downloads\SAM\data\espn_history\cricket_8048\202407.json
+B1050	C:\Users\imarl\Downloads\SAM\data\espn_history\cricket_8048\202408.json
+B1051	C:\Users\imarl\Downloads\SAM\data\espn_history\cricket_8048\202409.json
+B1052	E:\diaithir-ports-build\repo\.pre-commit-config.yaml
+B1053	E:\diaithir-ports-build\repo\CLAUDE.md
+B1054	E:\diaithir-ports-build\repo\README.md
+B1055	E:\diaithir-ports-build\repo\alexs-caves\PORT_PLAN.md
+B1056	E:\diaithir-ports-build\repo\alexs-caves\TEST.md
+B1057	E:\diaithir-ports-build\repo\alexs-caves\age_gates.json
+B1058	E:\diaithir-ports-build\repo\alexs-caves\build.gradle
+B1059	E:\diaithir-ports-build\repo\alexs-caves\diaithiris_names.json
+B1060	E:\diaithir-ports-build\repo\alexs-caves\gradle.properties
+B1061	E:\diaithir-ports-build\repo\alexs-caves\settings.gradle
+B1062	E:\diaithir-ports-build\repo\alexs-caves\gradle\wrapper\gradle-wrapper.properties
+B1063	E:\diaithir-ports-build\repo\alexs-caves\src\main\resources\META-INF\accesstransformer.cfg
+B1064	E:\diaithir-ports-build\repo\alexs-caves\src\main\resources\META-INF\enumextensions.json
+B1065	E:\diaithir-ports-build\repo\alexs-caves\src\main\resources\META-INF\neoforge.mods.toml
+B1066	E:\diaithir-ports-build\repo\alexs-caves\src\main\resources\assets\alexscaves\sounds.json
+B1067	E:\diaithir-ports-build\repo\alexs-caves\src\main\resources\assets\alexscaves\blockstates\abyssal_altar.json
+B1068	E:\diaithir-ports-build\repo\alexs-caves\src\main\resources\assets\alexscaves\blockstates\abyssmarine.json
+B1069	E:\diaithir-ports-build\repo\alexs-caves\src\main\resources\assets\alexscaves\blockstates\abyssmarine_brick_slab.json
+B1070	E:\diaithir-ports-build\repo\alexs-caves\src\main\resources\assets\alexscaves\blockstates\abyssmarine_brick_stairs.json
+B1071	E:\diaithir-ports-build\repo\alexs-caves\src\main\resources\assets\alexscaves\blockstates\abyssmarine_brick_wall.json
+B1072	E:\diaithir-ports-build\repo\alexs-caves\src\main\resources\assets\alexscaves\blockstates\abyssmarine_bricks.json
+B1073	E:\diaithir-ports-build\repo\alexs-caves\src\main\resources\assets\alexscaves\blockstates\abyssmarine_pillar.json
+B1074	E:\diaithir-ports-build\repo\alexs-caves\src\main\resources\assets\alexscaves\blockstates\abyssmarine_slab.json
+B1075	E:\diaithir-ports-build\repo\alexs-caves\src\main\resources\assets\alexscaves\blockstates\abyssmarine_stairs.json
+B1076	E:\diaithir-ports-build\repo\alexs-caves\src\main\resources\assets\alexscaves\blockstates\abyssmarine_tiles.json
+B1077	E:\diaithir-ports-build\repo\alexs-caves\src\main\resources\assets\alexscaves\blockstates\abyssmarine_wall.json
+B1078	E:\diaithir-ports-build\repo\alexs-caves\src\main\resources\assets\alexscaves\blockstates\acid.json
+B1079	E:\diaithir-ports-build\repo\alexs-caves\src\main\resources\assets\alexscaves\blockstates\acidic_radrock.json
+B1080	E:\diaithir-ports-build\repo\alexs-caves\src\main\resources\assets\alexscaves\blockstates\amber.json
+B1081	E:\diaithir-ports-build\repo\alexs-caves\src\main\resources\assets\alexscaves\blockstates\amber_monolith.json
+B1082	E:\diaithir-ports-build\repo\alexs-caves\src\main\resources\assets\alexscaves\blockstates\ambersol.json
+B1083	E:\diaithir-ports-build\repo\alexs-caves\src\main\resources\assets\alexscaves\blockstates\ambersol_light.json
+B1084	E:\diaithir-ports-build\repo\alexs-caves\src\main\resources\assets\alexscaves\blockstates\ancient_leaves.json
+B1085	E:\diaithir-ports-build\repo\alexs-caves\src\main\resources\assets\alexscaves\blockstates\ancient_sapling.json
+B1086	E:\diaithir-ports-build\repo\alexs-caves\src\main\resources\assets\alexscaves\blockstates\archaic_vine.json
+B1087	E:\diaithir-ports-build\repo\alexs-caves\src\main\resources\assets\alexscaves\blockstates\archaic_vine_plant.json
+B1088	E:\diaithir-ports-build\repo\alexs-caves\src\main\resources\assets\alexscaves\blockstates\atlatitan_egg.json
+B1089	E:\diaithir-ports-build\repo\alexs-caves\src\main\resources\assets\alexscaves\blockstates\azure_magnet.json
+B1090	E:\diaithir-ports-build\repo\alexs-caves\src\main\resources\assets\alexscaves\blockstates\azure_neodymium_node.json
+B1091	E:\diaithir-ports-build\repo\alexs-caves\src\main\resources\assets\alexscaves\blockstates\azure_neodymium_pillar.json
+B1092	E:\diaithir-ports-build\repo\alexs-caves\src\main\resources\assets\alexscaves\blockstates\baleen_bone.json
+B1093	E:\diaithir-ports-build\repo\alexs-caves\src\main\resources\assets\alexscaves\blockstates\beholder.json
+B1094	E:\diaithir-ports-build\repo\alexs-caves\src\main\resources\assets\alexscaves\blockstates\bioluminescent_torch.json
+B1095	E:\diaithir-ports-build\repo\alexs-caves\src\main\resources\assets\alexscaves\blockstates\bioluminescent_wall_torch.json
+B1096	E:\diaithir-ports-build\repo\alexs-caves\src\main\resources\assets\alexscaves\blockstates\block_of_azure_neodymium.json
+B1097	E:\diaithir-ports-build\repo\alexs-caves\src\main\resources\assets\alexscaves\blockstates\block_of_chiseled_chocolate.json
+B1098	E:\diaithir-ports-build\repo\alexs-caves\src\main\resources\assets\alexscaves\blockstates\block_of_chocolate.json
+B1099	E:\diaithir-ports-build\repo\alexs-caves\src\main\resources\assets\alexscaves\blockstates\block_of_chocolate_frosting.json
+B1100	E:\diaithir-ports-build\repo\alexs-caves\src\main\resources\assets\alexscaves\blockstates\block_of_frosted_chocolate.json
+B1101	E:\diaithir-ports-build\repo\alexs-caves\src\main\resources\assets\alexscaves\blockstates\block_of_frosting.json
+B1102	E:\diaithir-ports-build\repo\alexs-caves\src\main\resources\assets\alexscaves\blockstates\block_of_pearl.json
+B1103	E:\diaithir-ports-build\repo\alexs-caves\src\main\resources\assets\alexscaves\blockstates\block_of_polished_chocolate.json
+B1104	E:\diaithir-ports-build\repo\alexs-caves\src\main\resources\assets\alexscaves\blockstates\block_of_scarlet_neodymium.json
+B1105	E:\diaithir-ports-build\repo\alexs-caves\src\main\resources\assets\alexscaves\blockstates\block_of_uranium.json
+B1106	E:\diaithir-ports-build\repo\alexs-caves\src\main\resources\assets\alexscaves\blockstates\block_of_vanilla_frosting.json
+B1107	E:\diaithir-ports-build\repo\alexs-caves\src\main\resources\assets\alexscaves\blockstates\bone_nodule.json
+B1108	E:\diaithir-ports-build\repo\alexs-caves\src\main\resources\assets\alexscaves\blockstates\bone_ribs.json
+B1109	E:\diaithir-ports-build\repo\alexs-caves\src\main\resources\assets\alexscaves\blockstates\bone_worms.json
+B1110	E:\diaithir-ports-build\repo\alexs-caves\src\main\resources\assets\alexscaves\blockstates\cake_layer.json
+B1111	E:\diaithir-ports-build\repo\alexs-caves\src\main\resources\assets\alexscaves\blockstates\candy_cane.json
+B1112	E:\diaithir-ports-build\repo\alexs-caves\src\main\resources\assets\alexscaves\blockstates\candy_cane_block.json
+B1113	E:\diaithir-ports-build\repo\alexs-caves\src\main\resources\assets\alexscaves\blockstates\candy_cane_pole.json
+B1114	E:\diaithir-ports-build\repo\alexs-caves\src\main\resources\assets\alexscaves\blockstates\carmine_froglight.json
+B1115	E:\diaithir-ports-build\repo\alexs-caves\src\main\resources\assets\alexscaves\blockstates\cave_painting_ambersol.json
+B1116	E:\diaithir-ports-build\repo\alexs-caves\src\main\resources\assets\alexscaves\blockstates\cave_painting_dark.json
+B1117	E:\diaithir-ports-build\repo\alexs-caves\src\main\resources\assets\alexscaves\blockstates\cave_painting_dino_nuggets.json
+B1118	E:\diaithir-ports-build\repo\alexs-caves\src\main\resources\assets\alexscaves\blockstates\cave_painting_enderman.json
+B1119	E:\diaithir-ports-build\repo\alexs-caves\src\main\resources\assets\alexscaves\blockstates\cave_painting_footprint.json
+B1120	E:\diaithir-ports-build\repo\alexs-caves\src\main\resources\assets\alexscaves\blockstates\cave_painting_footprints.json
+B1121	E:\diaithir-ports-build\repo\alexs-caves\src\main\resources\assets\alexscaves\blockstates\cave_painting_friendship.json
+B1122	E:\diaithir-ports-build\repo\alexs-caves\src\main\resources\assets\alexscaves\blockstates\cave_painting_grottoceratops.json
+B1123	E:\diaithir-ports-build\repo\alexs-caves\src\main\resources\assets\alexscaves\blockstates\cave_painting_grottoceratops_friend.json
+B1124	E:\diaithir-ports-build\repo\alexs-caves\src\main\resources\assets\alexscaves\blockstates\cave_painting_hunt.json
+B1125	E:\diaithir-ports-build\repo\alexs-caves\src\main\resources\assets\alexscaves\blockstates\cave_painting_mystery_1.json
+B1126	E:\diaithir-ports-build\repo\alexs-caves\src\main\resources\assets\alexscaves\blockstates\cave_painting_mystery_2.json
+B1127	E:\diaithir-ports-build\repo\alexs-caves\src\main\resources\assets\alexscaves\blockstates\cave_painting_mystery_3.json
+B1128	E:\diaithir-ports-build\repo\alexs-caves\src\main\resources\assets\alexscaves\blockstates\cave_painting_mystery_4.json
+B1129	E:\diaithir-ports-build\repo\alexs-caves\src\main\resources\assets\alexscaves\blockstates\cave_painting_mystery_5.json
+B1130	E:\diaithir-ports-build\repo\alexs-caves\src\main\resources\assets\alexscaves\blockstates\cave_painting_mystery_6.json
+B1131	E:\diaithir-ports-build\repo\alexs-caves\src\main\resources\assets\alexscaves\blockstates\cave_painting_mystery_7.json
+B1132	E:\diaithir-ports-build\repo\alexs-caves\src\main\resources\assets\alexscaves\blockstates\cave_painting_mystery_8.json
+B1133	E:\diaithir-ports-build\repo\alexs-caves\src\main\resources\assets\alexscaves\blockstates\cave_painting_mystery_9.json
+B1134	E:\diaithir-ports-build\repo\alexs-caves\src\main\resources\assets\alexscaves\blockstates\cave_painting_pewen.json
+B1135	E:\diaithir-ports-build\repo\alexs-caves\src\main\resources\assets\alexscaves\blockstates\cave_painting_portal.json
+B1136	E:\diaithir-ports-build\repo\alexs-caves\src\main\resources\assets\alexscaves\blockstates\cave_painting_relicheirus.json
+B1137	E:\diaithir-ports-build\repo\alexs-caves\src\main\resources\assets\alexscaves\blockstates\cave_painting_relicheirus_slash.json
+B1138	E:\diaithir-ports-build\repo\alexs-caves\src\main\resources\assets\alexscaves\blockstates\cave_painting_subterranodon.json
+B1139	E:\diaithir-ports-build\repo\alexs-caves\src\main\resources\assets\alexscaves\blockstates\cave_painting_subterranodon_ride.json
+B1140	E:\diaithir-ports-build\repo\alexs-caves\src\main\resources\assets\alexscaves\blockstates\cave_painting_tree_stars.json
+B1141	E:\diaithir-ports-build\repo\alexs-caves\src\main\resources\assets\alexscaves\blockstates\cave_painting_tremorsaurus.json
+B1142	E:\diaithir-ports-build\repo\alexs-caves\src\main\resources\assets\alexscaves\blockstates\cave_painting_tremorsaurus_friend.json
+B1143	E:\diaithir-ports-build\repo\alexs-caves\src\main\resources\assets\alexscaves\blockstates\cave_painting_trilocaris.json
+B1144	E:\diaithir-ports-build\repo\alexs-caves\src\main\resources\assets\alexscaves\blockstates\cave_painting_vallumraptor_chest.json
+B1145	E:\diaithir-ports-build\repo\alexs-caves\src\main\resources\assets\alexscaves\blockstates\cave_painting_vallumraptor_friend.json
+B1146	E:\diaithir-ports-build\repo\alexs-caves\src\main\resources\assets\alexscaves\blockstates\chiseled_candy_cane_block.json
+B1147	E:\diaithir-ports-build\repo\alexs-caves\src\main\resources\assets\alexscaves\blockstates\chocolate_ice_cream.json
+B1148	E:\diaithir-ports-build\repo\alexs-caves\src\main\resources\assets\alexscaves\blockstates\cinder_block.json
+B1149	E:\diaithir-ports-build\repo\alexs-caves\src\main\resources\assets\alexscaves\blockstates\cinder_block_slab.json
+B1150	E:\diaithir-ports-build\repo\alexs-caves\src\main\resources\assets\alexscaves\blockstates\cinder_block_stairs.json
+B1151	E:\diaithir-ports-build\repo\alexs-caves\src\main\resources\assets\alexscaves\blockstates\cinder_block_wall.json
+B1152	E:\diaithir-ports-build\repo\alexs-caves\src\main\resources\assets\alexscaves\blockstates\confection_oven.json
+B1153	E:\diaithir-ports-build\repo\alexs-caves\src\main\resources\assets\alexscaves\blockstates\conversion_crucible.json
+B1154	E:\diaithir-ports-build\repo\alexs-caves\src\main\resources\assets\alexscaves\blockstates\cooked_dinosaur_chop.json
+B1155	E:\diaithir-ports-build\repo\alexs-caves\src\main\resources\assets\alexscaves\blockstates\cookie_block.json
+B1156	E:\diaithir-ports-build\repo\alexs-caves\src\main\resources\assets\alexscaves\blockstates\copper_valve.json
+B1157	E:\diaithir-ports-build\repo\alexs-caves\src\main\resources\assets\alexscaves\blockstates\coprolith.json
+B1158	E:\diaithir-ports-build\repo\alexs-caves\src\main\resources\assets\alexscaves\blockstates\coprolith_coal_ore.json
+B1159	E:\diaithir-ports-build\repo\alexs-caves\src\main\resources\assets\alexscaves\blockstates\coprolith_slab.json
+B1160	E:\diaithir-ports-build\repo\alexs-caves\src\main\resources\assets\alexscaves\blockstates\coprolith_stairs.json
+B1161	E:\diaithir-ports-build\repo\alexs-caves\src\main\resources\assets\alexscaves\blockstates\coprolith_wall.json
+B1162	E:\diaithir-ports-build\repo\alexs-caves\src\main\resources\assets\alexscaves\blockstates\curly_fern.json
+B1163	E:\diaithir-ports-build\repo\alexs-caves\src\main\resources\assets\alexscaves\blockstates\cycad.json
+B1164	E:\diaithir-ports-build\repo\alexs-caves\src\main\resources\assets\alexscaves\blockstates\depth_glass.json
+B1165	E:\diaithir-ports-build\repo\alexs-caves\src\main\resources\assets\alexscaves\blockstates\dinosaur_chop.json
+B1166	E:\diaithir-ports-build\repo\alexs-caves\src\main\resources\assets\alexscaves\blockstates\dough_block.json
+B1167	E:\diaithir-ports-build\repo\alexs-caves\src\main\resources\assets\alexscaves\blockstates\drain.json
+B1168	E:\diaithir-ports-build\repo\alexs-caves\src\main\resources\assets\alexscaves\blockstates\dusk_anemone.json
+B1169	E:\diaithir-ports-build\repo\alexs-caves\src\main\resources\assets\alexscaves\blockstates\energized_galena_azure.json
+B1170	E:\diaithir-ports-build\repo\alexs-caves\src\main\resources\assets\alexscaves\blockstates\energized_galena_neutral.json
+B1171	E:\diaithir-ports-build\repo\alexs-caves\src\main\resources\assets\alexscaves\blockstates\energized_galena_scarlet.json
+B1172	E:\diaithir-ports-build\repo\alexs-caves\src\main\resources\assets\alexscaves\blockstates\enigmatic_engine.json
+B1173	E:\diaithir-ports-build\repo\alexs-caves\src\main\resources\assets\alexscaves\blockstates\fern_thatch.json
+B1174	E:\diaithir-ports-build\repo\alexs-caves\src\main\resources\assets\alexscaves\blockstates\fiddlehead.json
+B1175	E:\diaithir-ports-build\repo\alexs-caves\src\main\resources\assets\alexscaves\blockstates\fissure_primal_magma.json
+B1176	E:\diaithir-ports-build\repo\alexs-caves\src\main\resources\assets\alexscaves\blockstates\flood_basalt.json
+B1177	E:\diaithir-ports-build\repo\alexs-caves\src\main\resources\assets\alexscaves\blockstates\flytrap.json
+B1178	E:\diaithir-ports-build\repo\alexs-caves\src\main\resources\assets\alexscaves\blockstates\forsaken_idol.json
+B1179	E:\diaithir-ports-build\repo\alexs-caves\src\main\resources\assets\alexscaves\blockstates\frosted_gingerbread_block.json
+B1180	E:\diaithir-ports-build\repo\alexs-caves\src\main\resources\assets\alexscaves\blockstates\frosted_gingerbread_brick_slab.json
+B1181	E:\diaithir-ports-build\repo\alexs-caves\src\main\resources\assets\alexscaves\blockstates\frosted_gingerbread_brick_stairs.json
+B1182	E:\diaithir-ports-build\repo\alexs-caves\src\main\resources\assets\alexscaves\blockstates\frosted_gingerbread_brick_wall.json
+B1183	E:\diaithir-ports-build\repo\alexs-caves\src\main\resources\assets\alexscaves\blockstates\frosted_gingerbread_bricks.json
+B1184	E:\diaithir-ports-build\repo\alexs-caves\src\main\resources\assets\alexscaves\blockstates\frosted_gingerbread_door.json
+B1185	E:\diaithir-ports-build\repo\alexs-caves\src\main\resources\assets\alexscaves\blockstates\frosted_gingerbread_slab.json
+B1186	E:\diaithir-ports-build\repo\alexs-caves\src\main\resources\assets\alexscaves\blockstates\frosted_gingerbread_stairs.json
+B1187	E:\diaithir-ports-build\repo\alexs-caves\src\main\resources\assets\alexscaves\blockstates\frosted_gingerbread_wall.json
+B1188	E:\diaithir-ports-build\repo\alexs-caves\src\main\resources\assets\alexscaves\blockstates\frostmint.json
+B1189	E:\diaithir-ports-build\repo\alexs-caves\src\main\resources\assets\alexscaves\blockstates\galena.json
+B1190	E:\diaithir-ports-build\repo\alexs-caves\src\main\resources\assets\alexscaves\blockstates\galena_brick_slab.json
+B1191	E:\diaithir-ports-build\repo\alexs-caves\src\main\resources\assets\alexscaves\blockstates\galena_brick_stairs.json
+B1192	E:\diaithir-ports-build\repo\alexs-caves\src\main\resources\assets\alexscaves\blockstates\galena_brick_wall.json
+B1193	E:\diaithir-ports-build\repo\alexs-caves\src\main\resources\assets\alexscaves\blockstates\galena_bricks.json
+B1194	E:\diaithir-ports-build\repo\alexs-caves\src\main\resources\assets\alexscaves\blockstates\galena_iron_ore.json
+B1195	E:\diaithir-ports-build\repo\alexs-caves\src\main\resources\assets\alexscaves\blockstates\galena_pillar.json
+B1196	E:\diaithir-ports-build\repo\alexs-caves\src\main\resources\assets\alexscaves\blockstates\galena_slab.json
+B1197	E:\diaithir-ports-build\repo\alexs-caves\src\main\resources\assets\alexscaves\blockstates\galena_spire.json
+B1198	E:\diaithir-ports-build\repo\alexs-caves\src\main\resources\assets\alexscaves\blockstates\galena_stairs.json
+B1199	E:\diaithir-ports-build\repo\alexs-caves\src\main\resources\assets\alexscaves\blockstates\galena_wall.json
+B1200	E:\diaithir-ports-build\repo\alexs-caves\src\main\resources\assets\alexscaves\blockstates\geothermal_vent.json
+B1201	E:\diaithir-ports-build\repo\alexs-caves\src\main\resources\assets\alexscaves\blockstates\geothermal_vent_medium.json
+B1202	C:\Users\imarl\Downloads\SAM\.git
+B1203	C:\Users\imarl\Downloads\SAM\.pytest_cache
+B1204	C:\Users\imarl\Downloads\SAM\The Arms
+B1205	C:\Users\imarl\Downloads\SAM\__pycache__
+B1206	C:\Users\imarl\Downloads\SAM\betting_suite
+B1207	C:\Users\imarl\Downloads\SAM\bot
+B1208	C:\Users\imarl\Downloads\SAM\data
+B1209	C:\Users\imarl\Downloads\SAM\docs
+B1210	C:\Users\imarl\Downloads\SAM\nfl
+B1211	C:\Users\imarl\Downloads\SAM\ops
+B1212	C:\Users\imarl\Downloads\SAM\output
+B1213	C:\Users\imarl\Downloads\SAM\research
+B1214	C:\Users\imarl\Downloads\SAM\sam
+B1215	C:\Users\imarl\Downloads\SAM\tests
+B1216	C:\Users\imarl\Downloads\SAM\web
+B1217	E:\DiaithirPorts\Mantle-Unofficial-26.1-Port
+B1218	E:\DiaithirPorts\_built
+B1219	E:\DiaithirPorts\_downloads
+B1220	E:\DiaithirPorts\_jars
+B1221	E:\DiaithirPorts\_notes
+B1222	E:\DiaithirPorts\_probe
+B1223	E:\DiaithirPorts\_ref
+B1224	E:\DiaithirPorts\actuallyadditions
+B1225	E:\DiaithirPorts\almostunified
+B1226	E:\DiaithirPorts\cc-tweaked
+B1227	E:\DiaithirPorts\create
+B1228	E:\DiaithirPorts\createaddition
+B1229	E:\DiaithirPorts\createconnected
+B1230	E:\DiaithirPorts\createdeco
+B1231	E:\DiaithirPorts\createdragonsplus
+B1232	E:\DiaithirPorts\createenchantmentindustry
+B1233	E:\DiaithirPorts\createnewage
+B1234	E:\DiaithirPorts\createoreexcavation
+B1235	E:\DiaithirPorts\equivox
+B1236	E:\DiaithirPorts\esl
+B1237	E:\DiaithirPorts\farmersdelight
+B1238	E:\DiaithirPorts\fluxnetworks
+B1239	E:\DiaithirPorts\flywheel
+B1240	E:\DiaithirPorts\gregtech6
+B1241	E:\DiaithirPorts\industrialforegoing
+B1242	E:\DiaithirPorts\lane2\fluxnetworks
+B1243	E:\DiaithirPorts\lane2\mcjtylib
+B1244	E:\DiaithirPorts\lane2\rftoolsbase
+B1245	E:\DiaithirPorts\lane2\rftoolsutility
+B1246	E:\DiaithirPorts\lane2\rftoolspower
+B1247	E:\DiaithirPorts\lane2\rftoolsbuilder
+B1248	E:\DiaithirPorts\lane2\pneumaticcraft
+B1249	E:\DiaithirPorts\lane2\pnc-client
+B1250	E:\DiaithirPorts\lane2\pnc-common
+B1251	E:\DiaithirPorts\lane2\pnc-tools
+B1252	E:\DiaithirPorts\lane2\blockui
+B1253	E:\DiaithirPorts\lane2\domum
+B1254	E:\DiaithirPorts\lane2\structurize
+B1255	E:\DiaithirPorts\lane2\minecolonies
+B1256	E:\DiaithirPorts\lane2\mc-client
+B1257	E:\DiaithirPorts\lane2\mc-colony
+B1258	E:\DiaithirPorts\lane2\mc-misc
+B1259	E:\DiaithirPorts\lane2\mc-misc-dropped
+B1260	E:\DiaithirPorts\lane3\forestry
+B1261	E:\DiaithirPorts\lane3\ccl
+B1262	E:\DiaithirPorts\lane3\cbmultipart
+B1263	E:\DiaithirPorts\lane3\projectred
+B1264	E:\DiaithirPorts\lane3\notes
+B1265	E:\DiaithirPorts\lane3\_held
+B1266	E:\DiaithirPorts\lane3\bigcannons
+B1267	E:\DiaithirPorts\lane3\rpl
+B1268	E:\DiaithirPorts\lane3\connected
+B1269	E:\DiaithirPorts\lane3\SliceAndDice
+B1270	E:\DiaithirPorts\megacells
+B1271	E:\DiaithirPorts\modern_industrialization
+B1272	E:\DiaithirPorts\nuclearcraft
+B1273	E:\DiaithirPorts\ponder
+B1274	E:\DiaithirPorts\registrate
+B1275	E:\DiaithirPorts\securitycraft
+B1276	E:\DiaithirPorts\sfm
+B1277	E:\DiaithirPorts\tconstruct
+B1278	E:\DiaithirPorts\titanium
+B1279	E:\DiaithirPorts\twilightforest
+B1280	E:\DiaithirTest
+B1281	E:\DiaithirTest\server
+B1282	E:\MCOreTest
+B1283	E:\MCTest
+B1284	E:\MCTest\server
+B1285	E:\MCTest-age1
+B1286	E:\MCTest-age1\server
+B1287	E:\MCTest-chargen
+B1288	E:\MCTest-chargen\server
+B1289	E:\MCTest-kjs116
+B1290	E:\MCTest-loadtest
+B1291	E:\MCTest-loadtest\server
+B1292	E:\MCTest-lowspec
+B1293	E:\MCTest-lowspec\server
+B1294	E:\MCTest-lowspec\inst_Diaithir
+B1295	E:\MCTest-ports
+B1296	E:\MCTest-ports\server
+B1297	E:\MCTest-ports2
+B1298	E:\MCTest-ports2\server
+B1299	E:\MCTest-ports3
+B1300	E:\MCTest-ports3\server
+B1301	E:\MCTest-v11
+B1302	E:\MCTest-v11\server
+B1303	E:\MCTest-weapons
+B1304	E:\MCTest-weapons\server
+B1305	E:\MCTest_omni
+B1306	E:\MCTest_omni_pack
+B1307	E:\MCTest_omni_tellus

@@ -1,0 +1,9 @@
+id	path	meta
+P0001	geddylifeson/diaithirrpg#104	Story outline: place every pack item | merged | claude/project-thread-aa6og9 -> panscriptum-data
+P0002	geddylifeson/diaithirrpg#98	V1 fixes: Age Turn recipe reload, regen hardening, JOIN.md | merged | engine
+P0003	geddylifeson/diaithirrpg#93	Tellus: loop the Earth world east-west and over the poles | merged | tellus-port
+P0004	geddylifeson/diaithirrpg#90	Server ore bands, Tectonic config, Tellus Age I preset | merged | engine
+P0005	geddylifeson/diaithirrpg#80	Atlas link: live server events into the Diaithir Atlas | merged | engine
+P0006	geddylifeson/diaithirrpg#61	One model client and one compute map for every free lane | merged | engine
+P0007	geddylifeson/global-repo	"branch main (this catalogue); open PR 1 from another thread (ID registry fix)	public repo"
+P0008	geddylifeson/shardfall-game	"branch claude/project-thread-4nl7gx	this repo, Unreal game"

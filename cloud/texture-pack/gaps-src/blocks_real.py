@@ -1,10 +1,13 @@
-"""Real-material storage blocks: stacked ingots for metals, faceted mosaics for gems, rock-and-vein masses for raw ore."""
+"""S0268 Real-material storage blocks: stacked ingots for metals, faceted mosaics for gems, rock-and-vein masses for raw ore.
+Bulk placeholders without model calls: python3 blocks_real.py --csv rows.csv --out DIR   (columns in from_csv)"""
 import re, os, sys, json, random, hashlib
 sys.path.insert(0, "/home/user/work/pix"); sys.path.insert(0, "/home/user/work/gaps")
 from PIL import Image
 from pixel_icons import Cv, ramp, poly, sphere_shade, N
-from matlib import resolve, token, METAL, GEM, RAW
-from build_list import jar
+CSV_MODE = "--csv" in sys.argv  # CSV mode needs none of the jar/matlib scans
+if not CSV_MODE:
+    from matlib import resolve, token, METAL, GEM, RAW
+    from build_list import jar
 O = "/home/user/diaithirrpg/tools/art/blender/baked/pixel/assets/"
 def up(cv): return cv.img().resize((64, 64), Image.NEAREST)
 def rr(a): return random.Random(int(hashlib.md5(a.encode()).hexdigest()[:8], 16))
@@ -85,7 +88,27 @@ def save(ns, p, im):
     f = f"{O}{ns}/textures/block/{p}.png"; os.makedirs(os.path.dirname(f), exist_ok=True); im.save(f)
 
 
+def from_csv(path, out):
+    """CSV columns: ns,path,kind,r,g,b  (kind metal|gem|raw|mass; raw takes r,g,b as the vein colour, optional host_r,host_g,host_b).
+    Writes {out}/{ns}/textures/block/{path}.png at 64 px. Example row: mymod,tin_block,metal,200,200,210"""
+    import csv
+    global O; O = out.rstrip("/") + "/"
+    n = 0
+    for r in csv.DictReader(open(path, newline="")):
+        c = (int(r["r"]), int(r["g"]), int(r["b"])); name = r["ns"] + ":" + r["path"]
+        k = r["kind"]
+        if k == "raw":
+            host = (int(r.get("host_r") or 112), int(r.get("host_g") or 106), int(r.get("host_b") or 100)); im = raw_block(host, c, name)
+        elif k == "gem": im = gem_block(c, name)
+        elif k == "mass": im = mass_block(c, name)
+        else: im = metal_block(c, name)
+        save(r["ns"], r["path"], im); n += 1
+    print(n, "blocks")
+
+
 def main():
+    if CSV_MODE:
+        a = sys.argv; return from_csv(a[a.index("--csv") + 1], a[a.index("--out") + 1] if "--out" in a else O)
     # vanilla
     V = {"iron_block": metal_block(METAL["iron"][0], "iron"), "gold_block": metal_block(METAL["gold"][0], "gold"), "copper_block": metal_block((204, 120, 72), "copper"),
          "exposed_copper": metal_block((176, 124, 98), "xc"), "weathered_copper": metal_block((98, 146, 112), "wc"), "oxidized_copper": metal_block((72, 172, 148), "oc"),

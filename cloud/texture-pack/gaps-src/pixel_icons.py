@@ -1,4 +1,4 @@
-"""Hand-drawn style 32 px sprites (shown at 64 px, nearest) for gems, shards, nuggets, raw ore, dust and ingots.
+"""S0294 Hand-drawn style 32 px sprites (shown at 64 px, nearest) for gems, shards, nuggets, raw ore, dust and ingots.
 Each kind has its own silhouette; shape variant, colour ramp and speckle come from the material's colour and name."""
 import colorsys, hashlib, io, math, random, sys, os, json, zipfile, glob
 from PIL import Image, ImageDraw
@@ -188,3 +188,18 @@ KIND = {"gem": gem, "shard": shard, "nugget": nugget, "raw": raw, "dust": dust, 
 def render(kind, name, rgb, cut=None):
     cv = KIND[kind](name, rgb, seeded(name), cut)
     return cv.img().resize((64, 64), Image.NEAREST)
+
+
+def from_csv(path, out):
+    """CSV columns: ns,path,kind,r,g,b  (kind gem|shard|nugget|raw|dust|ingot). Writes {out}/{ns}/textures/item/{path}.png at 64 px.
+    Run: python3 pixel_icons.py --csv rows.csv --out DIR"""
+    import csv
+    n = 0
+    for r in csv.DictReader(open(path, newline="")):
+        im = render(r["kind"], r["ns"] + ":" + r["path"], (int(r["r"]), int(r["g"]), int(r["b"])))
+        f = f"{out.rstrip('/')}/{r['ns']}/textures/item/{r['path']}.png"; os.makedirs(os.path.dirname(f), exist_ok=True); im.save(f); n += 1
+    print(n, "icons")
+
+
+if __name__ == "__main__" and "--csv" in sys.argv:
+    a = sys.argv; from_csv(a[a.index("--csv") + 1], a[a.index("--out") + 1])
