@@ -4,9 +4,10 @@ G=json.load(open(sys.argv[1],encoding='utf-8')); out=sys.argv[2]
 VAN={'wood':'#minecraft:logs','stone':'#minecraft:stone_crafting_materials','flint':'minecraft:flint','clay':'minecraft:clay_ball','sand':'#minecraft:sand'}
 SKIP={'water','wild_game','wild_plants'}  # fluids and world sources are not recipe inputs
 shutil.rmtree(out,ignore_errors=True); R=os.path.join(out,'data','diaithir','recipe'); T=os.path.join(out,'data','diaithir','tags','item','progression')
-os.makedirs(R); os.makedirs(T)
+SR=os.path.join(out,'data','diaithir','diaithir_stations','station_recipe'); AG=G['ages']
+os.makedirs(R); os.makedirs(T); os.makedirs(SR)
 json.dump({"pack":{"description":"Diaithir progression: dormant cross-mod recipes (generated)","min_format":[101,1],"max_format":[101,1]}},open(os.path.join(out,'pack.mcmeta'),'w'),indent=1)
-tags=set(); n_rec=0; skipped=[]
+tags=set(); n_rec=0; n_st=0; skipped=[]
 SP=tuple(G['service_prefixes'])
 def ing(r):
     if r in VAN: return VAN[r]
@@ -18,8 +19,16 @@ for n in G['nodes']:
     if not ins or len(ins)>9: skipped.append(n['id']); continue
     cond=[{"type":"neoforge:item_exists","item":n['item']}]
     cond+=[{"type":"neoforge:not","value":{"type":"neoforge:tag_empty","tag":i[1:]}} for i in ins if i.startswith('#diaithir:')]
+    if n.get('form')=='quick' or not n.get('station'):
+        pass
+    else:
+        st=G['stations'][n['station']]
+        cond=[{"type":"neoforge:mod_loaded","modid":"diaithir_stations"}]+cond
+        oi=[{"tag":i[1:]} if i.startswith('#') else {"item":i} for i in ins]
+        j={"neoforge:conditions":cond,"_node":n['id'],"_age":n['age'],"station":n['station'],"stage":n['form'],"ingredients":oi,"result":{"id":n['item'],"count":1},"time_s":int(n.get('s',{'part':10,'assembly':20,'process':5}[n['form']])),"operator":bool(n['form']=='assembly' and n['station']=='machine.assembler' and AG.index(n['age'])>=6)}
+        json.dump(j,open(os.path.join(SR,'xmod_'+n['id'].replace('.','_')+'.json'),'w'),indent=1); n_rec+=1; n_st+=1; continue
     j={"neoforge:conditions":cond,"_node":n['id'],"_age":n['age'],"type":"minecraft:crafting_shapeless","category":"misc","ingredients":ins,"result":{"id":n['item'],"count":1}}
     json.dump(j,open(os.path.join(R,'xmod_'+n['id'].replace('.','_')+'.json'),'w'),indent=1); n_rec+=1
 for t in sorted(tags): json.dump({"replace":False,"values":[]},open(os.path.join(T,t+'.json'),'w'))
 shutil.copy(sys.argv[1],os.path.join(out,'data','diaithir','progression_graph.json'))
-print(f'{n_rec} recipes, {len(tags)} empty tags for owners to fill; skipped (no inputs or over 9): {len(skipped)}')
+print(f'{n_rec} recipes ({n_st} on stations, {n_rec-n_st} grid), {len(tags)} empty tags for owners to fill; skipped (no inputs or over 9): {len(skipped)}')

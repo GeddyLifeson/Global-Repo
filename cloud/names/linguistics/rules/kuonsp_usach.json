@@ -1,0 +1,114 @@
+{
+ "proxy_language": "Unattested; no known historical language corresponds to 'Kuonspìusach'. Best defensible proxy for a later (index 5) court culture on Indian Ocean coasts: Classical Swahili (Kiswahili, Bantu G42) with Arabic court-vocabulary layer, as in the Kilwa/Mombasa/Lamu Swahili city-state courts.",
+ "confidence": "speculative",
+ "proxy_rationale": "The culture name is not attested anywhere; the '-ach' ending and the grave accent resemble Goidelic orthography, but the region assigned is the Indian Ocean coast, so a Goidelic reading is rejected. The most richly documented court-culture language group on Indian Ocean coasts at a late period is Swahili, a Sabaki Bantu language with heavy Arabic (and some Persian, Portuguese) loans in titles, trade and religion. Link to the game culture is purely regional and functional (coastal court polity), hence speculative. Alternatives of comparable standing would be Malagasy (Austronesian) or Old Malay; Swahili is chosen because court/city-state nomenclature is well documented. Names should NOT be derived from the string 'Kuonspìusach'.",
+ "phonology": "Standard Swahili: 5 vowels /a e i o u/, no length or tone contrast (stress penultimate, non-contrastive). Consonants: stops p t k b d g (voiceless stops unaspirated); prenasalized stops mb nd ng nj; fricatives f v s z sh (/ʃ/) h, plus Arabic-derived th (/θ/), dh (/ð/), kh (/x/), gh (/ɣ/) in loans; affricates ch (/tʃ/), j (/dʒ/); nasals m n ny (/ɲ/) ng' (/ŋ/); liquids l r; glides w y. Syllabic nasals occur (m- in mtu, n- in nne).",
+ "phonotactics": "Strictly open syllables in native words: (C)V, where C may be a single consonant, prenasalized stop, or consonant + glide (mw, ny-, ky is not standard but kw, tw, sw, ng'w occur). Syllabic nasal m/n before consonant (mtu, mji, nchi). No native word-final consonants; Arabic loans are adapted by epenthetic vowels (kitabu, salamu, sultani). No native consonant clusters apart from nasal+stop and C+w/y. Stress falls on the penultimate syllable and is not written.",
+ "orthography": "Standard Roman Swahili orthography: a b ch d dh f g gh h j k kh l m n ng ng' ny p r s sh t th v w y z; vowels a e i o u. No diacritics; ng' marks the velar nasal (apostrophe). Words are written phonemically; c and q are not used in native words (only ch). Hyphen not used within words.",
+ "morphology": "Agglutinative Bantu language with noun classes (1/2 m-/wa-, 3/4 m-/mi-, 5/6 ji-/ma-, 7/8 ki-/vi-, 9/10 n-/n-, 11 u-/n- or ma-, 14 u-, 15 ku-, 16-18 pa-/ku-/mu-). Roots are mostly CVCV or CVC- plus final vowel (-a in verbs). Verb derivation with suffixes: -w- passive, -an- reciprocal, -ish-/-esh- causative, -i-/-e- applicative, -ik-/-ek- stative; agent nouns via m-...-i or m-...-aji (mpishi 'cook', mvuvi 'fisherman', mwandishi 'writer'); abstract nouns with u- (ukuu 'greatness', utawala 'rule'); place nouns with -ni locative (mjini 'in town'); diminutive ki-. Reduplication marks intensity or diminution (polepole 'slowly'). Arabic loans often take class 9 or 5.",
+ "compounding": "True compounding is minor; the main device is the head-initial associative (genitive) construction with agreeing -a: head noun + class-agreeing 'a' + modifier (mji wa pwani 'town of the coast', nyumba ya mfalme 'house of the king', kiti cha enzi 'throne', lit. chair of power, mfalme wa bahari 'king of the sea'). Agreement connectors: class 1 wa, 3 wa, 5 la, 6 ya, 7 cha, 8 vya, 9 ya, 10 za, 11 wa, 14 wa. Agent compounds: mtengeneza + object (mtengeneza meli 'ship-builder'). Titles are often Arabic loans (sultani, amiri, shehe, liwali, diwani).",
+ "noun_phrase_order": "Head-initial: Noun + (associative 'a' phrase) + Adjective (agreeing with class prefix) + Demonstrative/Possessive. Adjective follows noun and takes the class prefix (mji mkubwa 'big town', meli kubwa 'big ship', nyumba nzuri 'beautiful house', kisiwa kidogo 'small island'). Numerals follow the noun. Possessive follows the noun (jina langu 'my name').",
+ "attested_roots": [
+  {
+   "form": "mji",
+   "gloss": "town, city (class 3)",
+   "reconstructed": false
+  },
+  {
+   "form": "bahari",
+   "gloss": "sea, ocean (Arabic loan)",
+   "reconstructed": false
+  },
+  {
+   "form": "meli",
+   "gloss": "ship (class 9, from English 'mail' via 19th c.)",
+   "reconstructed": false
+  },
+  {
+   "form": "jahazi",
+   "gloss": "large dhow, ship (Arabic loan)",
+   "reconstructed": false
+  },
+  {
+   "form": "mfalme",
+   "gloss": "king",
+   "reconstructed": false
+  },
+  {
+   "form": "sultani",
+   "gloss": "sultan (Arabic loan)",
+   "reconstructed": false
+  },
+  {
+   "form": "nyumba",
+   "gloss": "house",
+   "reconstructed": false
+  },
+  {
+   "form": "kasri",
+   "gloss": "palace, fortress (Arabic loan)",
+   "reconstructed": false
+  },
+  {
+   "form": "jua",
+   "gloss": "sun",
+   "reconstructed": false
+  },
+  {
+   "form": "mwezi",
+   "gloss": "moon, month",
+   "reconstructed": false
+  },
+  {
+   "form": "kisiwa",
+   "gloss": "island",
+   "reconstructed": false
+  },
+  {
+   "form": "pwani",
+   "gloss": "coast, seashore",
+   "reconstructed": false
+  },
+  {
+   "form": "samaki",
+   "gloss": "fish",
+   "reconstructed": false
+  },
+  {
+   "form": "mchele",
+   "gloss": "husked rice",
+   "reconstructed": false
+  },
+  {
+   "form": "nazi",
+   "gloss": "coconut",
+   "reconstructed": false
+  },
+  {
+   "form": "upepo",
+   "gloss": "wind",
+   "reconstructed": false
+  },
+  {
+   "form": "nguvu",
+   "gloss": "strength, power",
+   "reconstructed": false
+  },
+  {
+   "form": "mungu",
+   "gloss": "god",
+   "reconstructed": false
+  }
+ ],
+ "worked_examples": [],
+ "allowed_graphemes": [],
+ "extra_allowed_chars": "",
+ "forbidden_patterns": [],
+ "syllables_per_word": [],
+ "max_word_length": 0,
+ "sources": [],
+ "notes": "",
+ "unit": "Kuonspìusach",
+ "slug": "kuonsp_usach",
+ "model": "claude-sonnet-5-5"
+}

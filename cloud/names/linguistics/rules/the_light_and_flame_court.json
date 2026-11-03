@@ -1,0 +1,169 @@
+{
+ "proxy_language": "Middle Persian (Pahlavi, Sasanian-era Zoroastrian court language), with Avestan used for sacral/divine terms",
+ "confidence": "medium",
+ "proxy_rationale": "'Light-and-Flame Court' in Iran/Persia at a later period index strongly suggests a Sasanian-style Zoroastrian fire-temple court (atash/ataxsh, roshan). Middle Persian is well attested (inscriptions, Book Pahlavi, Manichaean and Psalter texts) and is the best proxy; Avestan supplies religious vocabulary. The culture is a game construct, so the link to any specific historical court is loose.",
+ "phonology": "Middle Persian consonants: p b t d k g c j (affricates, written c, j), f s z sh (š) zh (ž) x (voiceless velar fricative) h, m n, r l, y w; gamma and theta/delta only as allophones or in Avestan. Vowels: a ā i ī u ū e ē o ō (long/short contrast; e/o mostly long in later Middle Persian). Avestan adds θ δ γ and many more vowels (ə, ą etc.).",
+ "phonotactics": "Syllables (C)V(C)(C); no initial clusters in native words (Old Persian clusters like *sp- developed prothetic vowels: spah > sipah; *star > istar), so word-initial st-, sp-, sr- are avoided and given a prothetic i- (ist-, isp-). Final clusters are allowed (-st, -nd, -rd, -xt, -ft, -rz). Many words end in a consonant; final -ag/-ig/-ōg adjectival and agentive suffixes are common. Stress is not marked in transliteration.",
+ "orthography": "Scholarly Latin transliteration of Book Pahlavi: a ā b c d e f g h i ī j k l m n o ō p r s š t u ū w x y z ž; long vowels written with macron (ā ī ū ē ō). Plain ASCII versions (sh, zh, ch for c, kh or x for x) are acceptable in a game: sh for š, zh for ž, j, ch for c.",
+ "morphology": "Little inflection: nouns have a singular/plural opposition (-ān for animates, -īhā/-ihā for others), no grammatical gender and no case in later Middle Persian (the oblique case is only remnant). Ezafe particle -ī (-ē/-ī) links head to modifier/genitive. Adjectives follow the noun. Abstract nouns in -īh (-ih), agent nouns in -ag/-ōg/-gar/-bān/-bed, adjectives in -ig/-ag/-ōmand/-ēn, place nouns in -stān/-gāh/-dān (e.g. -gāh 'place', -stān 'land of', -dān 'container'). Verb stems: present stem and past stem, infinitives in -tan/-dan, e.g. kardan, dādan, dīdan.",
+ "compounding": "Head-final determinative compounds (modifier + head): ātaxš-gāh 'fire-place', dar-bān 'door-keeper'. Ezafe construction head + -ī + modifier for 'X of Y': ātaxš ī wahrām 'Fire of Victory' (Bahram fire); dar ī xwadāy 'court of the lord'. Possessive/agentive compounds with -bān 'guardian', -bed 'master/chief' (mowbed 'chief priest'), -gar 'maker', -dār 'holder', -wēnēd. Numerals and adjectives precede nouns only in compounds; independent adjectives follow with ezafe.",
+ "noun_phrase_order": "Head noun first, then ezafe -ī, then modifier(s): dar-ī rōšn 'bright court' (or rōšn dar in compound/adjective-first marked usage); genitive after head: ātaxš ī xwarrah 'fire of glory'. Demonstratives and numerals precede the noun; adjectives follow with ezafe.",
+ "attested_roots": [
+  {
+   "form": "ātaxš",
+   "gloss": "fire",
+   "reconstructed": false
+  },
+  {
+   "form": "rōšn",
+   "gloss": "light, bright",
+   "reconstructed": false
+  },
+  {
+   "form": "rōz",
+   "gloss": "day",
+   "reconstructed": false
+  },
+  {
+   "form": "xwarrah",
+   "gloss": "glory, divine fortune (Av. xᵛarənah)",
+   "reconstructed": false
+  },
+  {
+   "form": "dar",
+   "gloss": "door, court",
+   "reconstructed": false
+  },
+  {
+   "form": "gāh",
+   "gloss": "place, throne, time",
+   "reconstructed": false
+  },
+  {
+   "form": "šāh",
+   "gloss": "king",
+   "reconstructed": false
+  },
+  {
+   "form": "xwadāy",
+   "gloss": "lord, ruler",
+   "reconstructed": false
+  },
+  {
+   "form": "mowbed",
+   "gloss": "chief priest",
+   "reconstructed": false
+  },
+  {
+   "form": "ābān",
+   "gloss": "waters (pl.), month of Abān",
+   "reconstructed": false
+  },
+  {
+   "form": "mihr",
+   "gloss": "Mithra, covenant, sun-god",
+   "reconstructed": false
+  },
+  {
+   "form": "ahlaw",
+   "gloss": "righteous, pure (Av. ašauuan)",
+   "reconstructed": false
+  },
+  {
+   "form": "wahišt",
+   "gloss": "best, paradise",
+   "reconstructed": false
+  },
+  {
+   "form": "bāg",
+   "gloss": "god, garden",
+   "reconstructed": false
+  },
+  {
+   "form": "war",
+   "gloss": "fire-test, ordeal; also hill/wall",
+   "reconstructed": false
+  },
+  {
+   "form": "kōšk",
+   "gloss": "palace, pavilion",
+   "reconstructed": false
+  },
+  {
+   "form": "dēn",
+   "gloss": "religion, vision",
+   "reconstructed": false
+  },
+  {
+   "form": "ardā",
+   "gloss": "holy, righteous",
+   "reconstructed": false
+  }
+ ],
+ "worked_examples": [],
+ "allowed_graphemes": [
+  "a",
+  "ā",
+  "b",
+  "c",
+  "ch",
+  "d",
+  "e",
+  "ē",
+  "f",
+  "g",
+  "h",
+  "i",
+  "ī",
+  "j",
+  "k",
+  "kh",
+  "l",
+  "m",
+  "n",
+  "o",
+  "ō",
+  "p",
+  "r",
+  "s",
+  "sh",
+  "š",
+  "t",
+  "u",
+  "ū",
+  "w",
+  "x",
+  "y",
+  "z",
+  "zh",
+  "ž"
+ ],
+ "extra_allowed_chars": " -āēīōūšž",
+ "forbidden_patterns": [
+  "^(sp|st|sr|sk|sl|sm|sn|sw)",
+  "[qv]",
+  "(.)\\1\\1",
+  "[aeiou]{3,}",
+  "^[bcdfghjklmnprstwxyz]{2}(?!h)"
+ ],
+ "syllables_per_word": [
+  1,
+  2,
+  3,
+  4
+ ],
+ "max_word_length": 16,
+ "sources": [
+  "MacKenzie, A Concise Pahlavi Dictionary (1971)",
+  "Skjærvø, Introduction to Zoroastrianism and Middle Persian materials (2006)",
+  "Brunner, 'Middle Persian' in Compendium Linguarum Iranicarum (1989)",
+  "Nyberg, A Manual of Pahlavi (1964-74)",
+  "Durkin-Meisterernst, Dictionary of Manichaean Middle and New Persian (2004)",
+  "Wiktionary Middle Persian entries and Proto-Iranian reconstruction pages",
+  "Glottolog and Starling Iranian etymological database"
+ ],
+ "notes": "No word may be identical to a Modern Irish, Scottish Gaelic or Manx word. Use Middle Persian forms with ezafe -ī for 'X of Y'. Avoid initial consonant clusters. The earlier game strings (Ruxih ya yuvxu etc.) do not resemble Middle Persian and should be replaced.",
+ "unit": "The Light-and-Flame Court",
+ "slug": "the_light_and_flame_court",
+ "model": "claude-sonnet-5-5"
+}

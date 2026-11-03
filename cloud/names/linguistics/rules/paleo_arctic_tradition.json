@@ -1,0 +1,179 @@
+{
+ "proxy_language": "Proto-Eskimo-Aleut / Proto-Eskimo (primary), with Proto-Athabaskan (Proto-Athabaskan-Eyak) as a secondary option",
+ "confidence": "speculative",
+ "proxy_rationale": "The Paleo-Arctic tradition (c. 14,000-8,000 BP; Beringia, Alaska, Yukon; microblade industries such as Denali and Nenana-adjacent complexes) is known only archaeologically, and its language(s) are unknown. No documented linguistic lineage connects it to any later language. Alaska's two best-documented language families are Eskimo-Aleut (Aleut, Yupik, Inuit) and Na-Dene (Athabaskan-Eyak-Tlingit); most scholars agree both are post-Paleo-Arctic arrivals or expansions, with Eskimo-Aleut reaching the coasts only within the last ~5,000 years. Using Proto-Eskimo (Fortescue, Jacobson and Kaplan 1994 reconstruction) as a stylistic proxy is defensible mainly because the game also needs a distinctive, non-Indo-European Arctic phonology and its morphology is well described and systematically compositional. This is explicitly a proxy for flavor, not a claim about Paleo-Arctic speech. Players should not read these as the real language of that culture.",
+ "phonology": "Proto-Eskimo (after Fortescue et al. 1994; Proto-Eskimo-Aleut work by Bergsland): consonants *p *t *c(=ch/ts-type palatal) *k *q (uvular stop); *v *l *s(=y-sibilant, palatal) *g (velar fricative/ghost-velar) *r (uvular fricative) ; nasals *m *n *ng; voiced *l *y; also *vv, *ll, *gg, *rr, *ss geminates; fricatives contrast with stops; no voicing contrast in stops. Vowels: *i *u *a plus schwa (*e, reduced vowel). Vowel length and gemination are phonemic (vowel length doubled in spelling as ii, uu, aa). Contrast between velar *k and uvular *q is central. Modern Yupik/Inuit descendants: voiceless stops p t k q; fricatives v l s r g; nasals m n ng; high vowels i u, a.",
+ "phonotactics": "Syllable shape (C)V(V)(C); no onset clusters. Word-medial consonant clusters are limited to two (geminates or C+C across syllable boundary); in Proto-Eskimo and Inuit, the second consonant of a medial cluster is usually a stop/nasal after a nasal, and clusters assimilate to geminates. Words typically end in a vowel or in -k, -q, -t, -n (nominal final consonants -k dual, -t plural, -q absolutive sg/ -n, -r; these are inflectional). Native roots are mostly vowel-final; ending in a stop/uvular is common for inflected nouns. Stress/prosody not marked in spelling; vowel length marked by doubling. Long words (4-6 syllables) are normal because of polysynthetic suffixation.",
+ "orthography": "Use a simple Inuit/Yupik-style practical orthography: plain Latin letters p t k q v l s r g m n ng y, vowels i u a, with length written by doubling (aa ii uu) and gemination by doubling consonants (tt, kk, qq, ll, nn). Avoid c, d, b, f, h, j, o, e, w, x, z. Use hyphen to separate a compound root from a derivational suffix when readability requires; apostrophe optional but best omitted. Asterisk is used only for reconstructed forms in documentation, not in game names.",
+ "morphology": "Polysynthetic, strongly suffixing, root-based. Words are built as Root + (derivational postbases)* + inflectional ending (nominal case/number/possession, or verbal mood/person). Noun roots and verb roots are categorically distinct but freely convert via postbases (e.g., noun-forming 'one who', verb-forming 'to have/make/be'). Dual and plural marked: -k dual, -t plural (Proto-Eskimo). Ergative-absolutive alignment with relative/ergative case *-m and absolutive unmarked. Locative cases (e.g., -mi 'in/at', -mun 'toward', -mit 'from'). Possessive suffixes on nouns (e.g., -ma 'my'). No noun classes, no grammatical gender. Reduplication is rare and not productive in Proto-Eskimo; do not rely on it.",
+ "compounding": "True noun-noun compounding is marginal in Eskimo languages; the normal strategy is derivation by suffixed postbases: [Noun-root]-[postbase]. Head is right-final: Modifier root + head postbase/noun. 'Genitive' relation expressed by relative/ergative -m on possessor followed by possessed noun (possessor-m possessed-3sg), e.g., 'Sun's house'. For 'X-maker' use verb root + agentive postbase -si-/-ste- (modern -ghte/-ste; Proto-Eskimo approximate *-sti). 'Place of X' via -vik (*-vik 'place for / time of'), widely attested across Eskimo (Inuit -vik, Yupik -vik). 'Big X' via -rpak/-pak ('large, great', Inuit -ruaq/-pak). 'Small X' via -aq/-gaq (diminutive; Yupik -lleq/-raq approximate). 'One who has X' via -ligaq/-liq.",
+ "noun_phrase_order": "Possessor-ergative (relative case -m) precedes the possessed noun; modifiers are normally postbases suffixed to the noun root rather than separate adjectives; where separate words occur, the modifying (qualifying) word precedes the head noun. Head-final within the word; phrase-final head noun.",
+ "attested_roots": [
+  {
+   "form": "*iglu",
+   "gloss": "house (Proto-Eskimo *iylu / Inuit iglu)",
+   "reconstructed": true
+  },
+  {
+   "form": "*nuna",
+   "gloss": "land, earth",
+   "reconstructed": true
+  },
+  {
+   "form": "*imaq",
+   "gloss": "sea, water",
+   "reconstructed": true
+  },
+  {
+   "form": "*siku",
+   "gloss": "ice",
+   "reconstructed": true
+  },
+  {
+   "form": "*qayaq",
+   "gloss": "kayak, small boat",
+   "reconstructed": true
+  },
+  {
+   "form": "*nanuq",
+   "gloss": "polar bear",
+   "reconstructed": true
+  },
+  {
+   "form": "*tuktu",
+   "gloss": "caribou, reindeer",
+   "reconstructed": true
+  },
+  {
+   "form": "*ulu",
+   "gloss": "woman's knife",
+   "reconstructed": true
+  },
+  {
+   "form": "*ukiuq",
+   "gloss": "winter, year",
+   "reconstructed": true
+  },
+  {
+   "form": "*anguq",
+   "gloss": "man (hunter)",
+   "reconstructed": true
+  },
+  {
+   "form": "*qimuk",
+   "gloss": "sled dog / traction",
+   "reconstructed": true
+  },
+  {
+   "form": "*aput",
+   "gloss": "snow (on ground)",
+   "reconstructed": true
+  },
+  {
+   "form": "*-vik",
+   "gloss": "postbase 'place for / season of'",
+   "reconstructed": true
+  },
+  {
+   "form": "*-pak",
+   "gloss": "postbase 'big, great'",
+   "reconstructed": true
+  },
+  {
+   "form": "*aviq",
+   "gloss": "walrus",
+   "reconstructed": true
+  },
+  {
+   "form": "*nuliaq",
+   "gloss": "wife, spouse",
+   "reconstructed": true
+  }
+ ],
+ "worked_examples": [
+  {
+   "english": "River Stew",
+   "name": "Kuukmiqaq",
+   "gloss": "kuuk 'river' + -mi (locative/genitive link) + -qaq (stew-like food / 'having' postbase)"
+  },
+  {
+   "english": "Temple of the Sun",
+   "name": "Siqiniqvik",
+   "gloss": "siqiniq 'sun' + -vik 'place for'"
+  },
+  {
+   "english": "Caribou Hunter",
+   "name": "Tuktusiq",
+   "gloss": "tuktu 'caribou' + -siq (agentive/'one who works with')"
+  },
+  {
+   "english": "Great Ice",
+   "name": "Sikupak",
+   "gloss": "siku 'ice' + -pak 'big, great'"
+  },
+  {
+   "english": "Boat of the Hunter",
+   "name": "Anguqmi qayaq",
+   "gloss": "anguq 'hunter' + -m (relative/possessor) + qayaq 'boat'"
+  },
+  {
+   "english": "Snow House",
+   "name": "Aputtiglu",
+   "gloss": "aput 'snow' + iglu 'house' (compound, loose)"
+  }
+ ],
+ "allowed_graphemes": [
+  "p",
+  "t",
+  "k",
+  "q",
+  "v",
+  "l",
+  "s",
+  "r",
+  "g",
+  "m",
+  "n",
+  "ng",
+  "y",
+  "a",
+  "i",
+  "u",
+  "aa",
+  "ii",
+  "uu"
+ ],
+ "extra_allowed_chars": " -",
+ "forbidden_patterns": [
+  "[bcdfhjowxz]",
+  "(.)\\1\\1",
+  "[^aiu]{3}",
+  "[aiu]{4}",
+  "^ng",
+  "(?<![aiu])ng(?![aiu])",
+  "[kq][kq](?![aiu])"
+ ],
+ "syllables_per_word": [
+  2,
+  3,
+  4,
+  5
+ ],
+ "max_word_length": 16,
+ "sources": [
+  "Fortescue, Jacobson and Kaplan, Comparative Eskimo Dictionary with Aleut Cognates (1994)",
+  "Fortescue, Language Relations Across Bering Strait (1998)",
+  "Bergsland, Aleut Dictionary (1994)",
+  "Jacobson, Yup'ik Eskimo Dictionary (1984)",
+  "Kaplan, Phonological Issues in North Alaskan Inupiaq (1981)",
+  "Kari and Potter, The Dene-Yeniseian Connection (2010)",
+  "Glottolog: Eskimo-Aleut",
+  "Wiktionary Proto-Eskimo reconstructions",
+  "Dumond, The Eskimos and Aleuts (1987)",
+  "Hoffecker and Elias, Human Ecology of Beringia (2007)"
+ ],
+ "notes": "Language of the Paleo-Arctic tradition is unknown; this is a flavor proxy only (speculative). Proto-Eskimo is not ancestral to Paleo-Arctic speech and Eskimo-Aleut likely arrived much later. Reconstructed forms are approximate and simplified for gameplay. Not Goidelic, so no word may be identical to a Modern Irish, Scottish Gaelic or Manx word.",
+ "unit": "Paleo-Arctic tradition",
+ "slug": "paleo_arctic_tradition",
+ "model": "claude-sonnet-5-5"
+}

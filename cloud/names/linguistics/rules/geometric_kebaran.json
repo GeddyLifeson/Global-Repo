@@ -1,0 +1,183 @@
+{
+ "proxy_language": "Proto-Afroasiatic (reconstructed, Semitic-leaning with Natufian-adjacent Levantine proxy)",
+ "confidence": "speculative",
+ "proxy_rationale": "The Geometric Kebaran (c. 14,500-12,500 BP, Levant and Sinai/Negev) is known only archaeologically (microlith assemblages, mobile foragers). No language can be linked to it. The most defensible, still very weak, proxy is the Proto-Afroasiatic/Proto-Semitic root layer sometimes associated by Ehret and Militarev with Natufian-era Levantine foragers; this is a hypothesis, not evidence. Alternative: Proto-Semitic as reconstructed by Kogan/Huehnergard. Names are best treated as invented words in a Semitic-looking triconsonantal style, flagged as speculative.",
+ "phonology": "Proto-Semitic-style inventory (conventional reconstruction): stops b, t, d, k, g, q (emphatic uvular/velar), t. (emphatic), voiceless/voiced fricatives s, z, s. (emphatic), sh (/s/-like, written s with caron in scholarship), h, h. (pharyngeal fricative), x, gh (voiced velar/uvular), ' (glottal stop), ` (voiced pharyngeal), nasals m, n, liquids l, r, glides w, y. Vowels: short a, i, u and long a:, i:, u: (Proto-Semitic had three vowel qualities with length contrast). For game spelling a simplified set is recommended.",
+ "phonotactics": "Syllables (C)V(C): CV, CVC, CV:C; no initial vowel (glottal stop fills onset); word-initial clusters avoided; medial CC only across syllable boundary (CVC.CV); word-final consonant common, final long vowels rare; geminates allowed medially (e.g. -bb-, -ll-). Roots are typically triconsonantal (CCC), also biconsonantal nominal roots (CVC) inherited from Afroasiatic. Stress not marked in spelling.",
+ "orthography": "Use plain Latin scholarly transliteration with simplified digraphs: sh for /sh/, kh for /x/, gh for voiced velar/uvular fricative, th for interdental, dots/diacritics dropped (emphatics written as plain letters or with q); apostrophe for glottal stop, ` replaced by apostrophe-free 'a'. Long vowels written doubled (aa, ii, uu) or with macron.",
+ "morphology": "Root-and-pattern (templatic) morphology: consonantal root interleaved with vowel patterns (CaCaC, CiCC, CuCC, maCCaC for place, miCCaC for instrument). Gender: masculine unmarked, feminine -at (or -a / -t). Dual -aan / -ayn and plural -uu/-uuna, -aat. Prefixes: ma- (place/instrument), ta- (abstract/reflexive), sa-/sha- (causative). Suffix -y for relational adjective. Definiteness and case endings (-u nominative, -i genitive, -a accusative) in the Proto-Semitic style; may be dropped in names.",
+ "compounding": "Genitive (construct state): head noun first, dependent follows without article: 'X of Y' = X-Y (head + genitive noun), optionally with a linking -i / -u vowel (e.g. bayt-i + noun). 'Y-maker' = ma-/mu-CCiC participle form or head noun 'baal/baali' (owner/lord of) + noun. Adjectives follow nouns. True compounds of the English type are not native; use construct-state juxtaposition.",
+ "noun_phrase_order": "Head noun first; genitive/possessor after head; adjective after noun and agrees in gender/number; demonstratives after noun; numerals before or after (before for low numbers in later Semitic).",
+ "attested_roots": [
+  {
+   "form": "*ma'ay-",
+   "gloss": "water",
+   "reconstructed": true
+  },
+  {
+   "form": "*bayt-",
+   "gloss": "house, shelter",
+   "reconstructed": true
+  },
+  {
+   "form": "*'ar-s.-",
+   "gloss": "earth, land",
+   "reconstructed": true
+  },
+  {
+   "form": "*sham(a)y-",
+   "gloss": "sky, heaven",
+   "reconstructed": true
+  },
+  {
+   "form": "*shamsh-",
+   "gloss": "sun",
+   "reconstructed": true
+  },
+  {
+   "form": "*yarkh-",
+   "gloss": "moon",
+   "reconstructed": true
+  },
+  {
+   "form": "*kalb-",
+   "gloss": "dog",
+   "reconstructed": true
+  },
+  {
+   "form": "*'ayl-",
+   "gloss": "deer, ibex, antelope",
+   "reconstructed": true
+  },
+  {
+   "form": "*'ibn-",
+   "gloss": "stone (cf. 'abn)",
+   "reconstructed": true
+  },
+  {
+   "form": "*'ish-at-",
+   "gloss": "fire",
+   "reconstructed": true
+  },
+  {
+   "form": "*dam-",
+   "gloss": "blood",
+   "reconstructed": true
+  },
+  {
+   "form": "*sha`r-",
+   "gloss": "hair, barley (secondary)",
+   "reconstructed": true
+  },
+  {
+   "form": "*thawr-",
+   "gloss": "bull, wild ox",
+   "reconstructed": true
+  },
+  {
+   "form": "*qarn-",
+   "gloss": "horn",
+   "reconstructed": true
+  },
+  {
+   "form": "*naghal-",
+   "gloss": "stream, wadi (cf. nahl)",
+   "reconstructed": true
+  },
+  {
+   "form": "*ghazal-",
+   "gloss": "gazelle (cf. Arabic ghazaal)",
+   "reconstructed": true
+  }
+ ],
+ "worked_examples": [
+  {
+   "english": "Gazelle Camp",
+   "name": "Bayt Ghazal",
+   "gloss": "bayt 'house/camp' (head) + ghazal 'gazelle' (genitive, construct state)"
+  },
+  {
+   "english": "Stone Blade",
+   "name": "Qarn Abn",
+   "gloss": "qarn 'horn/point' (head) + abn 'stone' (genitive); microlith as stone point"
+  },
+  {
+   "english": "Water of the Sun",
+   "name": "Ma' Shams",
+   "gloss": "ma' 'water' (head) + shams 'sun' (genitive)"
+  },
+  {
+   "english": "Place of Hunting",
+   "name": "Mashyad",
+   "gloss": "ma- 'place' prefix + shayd 'hunt' (root sh-y-d) -> maCCaC place noun"
+  },
+  {
+   "english": "Moon Hill",
+   "name": "Tall Yarkh",
+   "gloss": "tall 'hill, mound' (head) + yarkh 'moon' (genitive)"
+  },
+  {
+   "english": "Wadi Ibex",
+   "name": "Naghal Ayl",
+   "gloss": "naghal 'stream/wadi' (head) + ayl 'ibex' (genitive)"
+  }
+ ],
+ "allowed_graphemes": [
+  "a",
+  "aa",
+  "b",
+  "d",
+  "e",
+  "f",
+  "g",
+  "gh",
+  "h",
+  "i",
+  "ii",
+  "k",
+  "kh",
+  "l",
+  "m",
+  "n",
+  "q",
+  "r",
+  "s",
+  "sh",
+  "t",
+  "th",
+  "u",
+  "uu",
+  "w",
+  "y",
+  "z"
+ ],
+ "extra_allowed_chars": " '-",
+ "forbidden_patterns": [
+  "[cjvxp]",
+  "(.)\\1\\1",
+  "^[aeiou]",
+  "[aeiou]{3,}",
+  "[bdgkqtz]{3,}",
+  "(kh|gh|th|sh)\\1"
+ ],
+ "syllables_per_word": [
+  1,
+  2,
+  3
+ ],
+ "max_word_length": 12,
+ "sources": [
+  "Kogan, Leonid. Genealogical Classification of Semitic: The Lexical Isoglosses (2015)",
+  "Huehnergard, John. Proto-Semitic and Proto-Akkadian, in The Semitic Languages (ed. Hasselbach-Naumann, 2019)",
+  "Militarev, Alexander. Starling database: Afrasian Etymology Database",
+  "Ehret, Christopher. Reconstructing Proto-Afroasiatic (Proto-Afrasian): Vowels, Tone, Consonants, and Vocabulary (1995)",
+  "Bar-Yosef, Ofer. The Natufian Culture in the Levant (1998)",
+  "Kaufman, Daniel. Archaeological perspectives on the origins of modern humans (1999)",
+  "Glottolog entry: Afro-Asiatic and Semitic",
+  "Wiktionary Proto-Semitic reconstruction pages"
+ ],
+ "notes": "No Geometric Kebaran text, name, or linguistic evidence exists; the proxy is a deliberately flagged guess. Names should sound broadly Semitic-style with triconsonantal roots and construct-state genitives, but nothing here claims to reproduce an attested language. No word may be identical to a Modern Irish, Scottish Gaelic or Manx word since the proxy is not Goidelic. Keep the forms simple (CVC/CVCV), avoid overly specific attested Arabic/Hebrew words so names do not read as modern Semitic.",
+ "unit": "Geometric Kebaran",
+ "slug": "geometric_kebaran",
+ "model": "claude-sonnet-5-5"
+}

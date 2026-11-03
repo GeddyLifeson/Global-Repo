@@ -1,0 +1,195 @@
+{
+ "proxy_language": "Old Irish / early Middle Irish (Goidelic) as the historical base for a fictional 'later court' culture, with a thin overlay of Old Norse-style loan elements; Glasdumuin itself is not an attested language",
+ "confidence": "speculative",
+ "proxy_rationale": "Glasdumuin is a fictional culture set 'Beyond Earth' with no attested language. The name itself (glas 'green/grey-blue' + dumuin, cf. Old Irish dumha 'mound', dún 'fort') and the current game strings (-mairteòil-, -kriem, -deg, stiuba-) point to Gaelic-flavoured coinage, with extra Finnic/Norse-looking material (rusu-, kierkku-, -rak, -kurrak) that has no Goidelic basis. The most defensible proxy for a late courtly register is Early Modern Irish / Classical Gaelic (c. 1200-1650), the standardised bardic court language, built on Old and Middle Irish morphology. Any link to a real people is purely a design choice; treat output as an invented 'later court' dialect of Goidelic, not as real Irish.",
+ "phonology": "Based on Old/Middle Irish. Consonants have a broad (velarised) vs slender (palatalised) contrast: stops p b t d c g; fricatives f s h; lenited reflexes written ph/bh, th/dh, ch/gh, mh, fh, sh; nasals m n; liquids l r; lenited and unlenited series. Vowels a e i o u, short and long (marked with acute accent in Old/Middle Irish: á é í ó ú); diphthongs ai, au, ei, éi, oi, ui, ia, ua, ae, ia. Stress is initial in native words. Consonant quality is shown by adjacent vowel letters (e.g. a/o/u for broad, e/i for slender).",
+ "phonotactics": "Native roots are mostly (C)(C)V(C)(C) with onset clusters of obstruent + liquid (br-, cr-, dr-, gr-, tr-, bl-, cl-, gl-, fl-, pl-), s + stop/sonorant (sc-, sl-, sm-, sn-, sp-, st-), and sonorant clusters inside words (-rd-, -rg-, -nn-, -ll-, -rr-, -nd-, -mb-, -ng-, -rc-). Words end in a vowel or in a single consonant or a consonant cluster such as -rt, -nt, -ll, -nn, -rc, -rg, -ch, -th; native words do not end in -k, -z, -w, -q, -x. No native word has the sequences kk, kr, kj, zz, w, x, z, j, y, v (except lenited bh/mh read /v/). Doubled consonants are written for fortis sonorants (ll, nn, rr, mm). Clusters of three consonants are rare and occur only at morpheme joins. Vowel hiatus is common (ia, ua, io, ao in later Irish).",
+ "orthography": "Use the standard scholarly Old/Middle Irish normalised spelling in Latin script: letters a b c d e f g h i l m n o p r s t u; c is always /k/ (no k); lenition shown by following h (ch, th, ph, fh, sh, dh, gh, bh, mh) in Middle/Early Modern orthography; long vowels with acute accent (á é í ó ú) in Old Irish normalisations, or left unmarked in many game contexts. Avoid k, q, v, w, x, y, z. Eclipsis (mb, nd, ng, bhf, gc, dt, bp) appears only after proclitics in later forms and is best avoided or used sparingly. Use hyphen or space between elements; initial mutation (lenition) of the second element after feminine nouns and certain particles is written with h.",
+ "morphology": "Highly inflected with initial mutations. Nouns: three genders in Old Irish (masc., fem., neut.; neuter lost by Middle Irish), five cases (nom., voc., acc., gen., dat.), three numbers (sg., du., pl.), stems by declension class (o-, ā-, i-, u-, n-, r-, s-, t-stems). Genitive is a stem change or ending (e.g. fer 'man' > gen. fir, ben 'woman' > gen. mná, rí 'king' > gen. ríg, tech 'house' > gen. tige). Verbs: initial stress with preverbs (do-, ro-, for-, ad-, ar-, to-), conjunct vs absolute endings. Adjectives agree with nouns in gender, number, and case and follow the noun. Lenition and nasalisation mutate initial consonants after certain words (the article, possessives, prepositions).",
+ "compounding": "Compound nouns are head-final with a prefixed modifier and no linker: determinant + head, e.g. cenn-fáith (cenn 'head' + fáith 'prophet'), mac-lérend 'pupil' (mac + léigend), dún-rath 'fortress-grant', rígdomun. The determinant is in its bare/stem form, causing lenition of the head's initial consonant after many first elements (e.g. mór- 'great' > mór + lenition: mórchath 'great battle' from cath). Genitive phrases are head-first and use the genitive of the dependent noun: 'X of Y' = X Y(gen.), e.g. rí Érenn 'king of Ireland', mac rígh 'son of a king', tech n-óiged 'house of guests', dún na ríg 'fort of the kings'. Agent nouns: -óir/-aid/-ach suffixes (cf. gobae 'smith', bádóir 'boatman', fáith 'seer', ollam 'chief poet'). Abstracts: -echt, -as, -e (nertecht 'strength', ríge 'kingship').",
+ "noun_phrase_order": "Noun-initial: head noun first, then genitive dependent, then adjective, then demonstrative or possessor. 'The green fort' = dún glas; 'the king's fort' = dún ríg; adjective follows and agrees; prepositional attributives follow the noun (tech i mBráig). In compounds the order reverses to modifier-head (glas-dún).",
+ "attested_roots": [
+  {
+   "form": "dún",
+   "gloss": "fort, fortified place",
+   "reconstructed": false
+  },
+  {
+   "form": "glas",
+   "gloss": "green, grey-blue, pale",
+   "reconstructed": false
+  },
+  {
+   "form": "rí",
+   "gloss": "king (gen. ríg)",
+   "reconstructed": false
+  },
+  {
+   "form": "tech",
+   "gloss": "house (gen. tige)",
+   "reconstructed": false
+  },
+  {
+   "form": "cath",
+   "gloss": "battle",
+   "reconstructed": false
+  },
+  {
+   "form": "mór",
+   "gloss": "great, big",
+   "reconstructed": false
+  },
+  {
+   "form": "slíab",
+   "gloss": "mountain",
+   "reconstructed": false
+  },
+  {
+   "form": "loch",
+   "gloss": "lake, sea-inlet",
+   "reconstructed": false
+  },
+  {
+   "form": "sruth",
+   "gloss": "stream, river",
+   "reconstructed": false
+  },
+  {
+   "form": "bó",
+   "gloss": "cow",
+   "reconstructed": false
+  },
+  {
+   "form": "ith",
+   "gloss": "grain, corn",
+   "reconstructed": false
+  },
+  {
+   "form": "lón",
+   "gloss": "provisions, food",
+   "reconstructed": false
+  },
+  {
+   "form": "long",
+   "gloss": "ship",
+   "reconstructed": false
+  },
+  {
+   "form": "cenn",
+   "gloss": "head, end",
+   "reconstructed": false
+  },
+  {
+   "form": "án",
+   "gloss": "bright, splendid",
+   "reconstructed": false
+  },
+  {
+   "form": "dia",
+   "gloss": "god (gen. dé)",
+   "reconstructed": false
+  }
+ ],
+ "worked_examples": [
+  {
+   "english": "Green Fort",
+   "name": "Glasdún",
+   "gloss": "glas 'green' + dún 'fort' (compound, modifier-head)"
+  },
+  {
+   "english": "Fort of the Kings",
+   "name": "Dún na ríg",
+   "gloss": "dún 'fort' + na (gen. pl. article) + ríg (gen. of rí 'king')"
+  },
+  {
+   "english": "Great Hall",
+   "name": "Mórthech",
+   "gloss": "mór 'great' + tech 'house' with lenition (t > th): mórthech"
+  },
+  {
+   "english": "River Stew",
+   "name": "Lón sruithe",
+   "gloss": "lón 'food' + sruithe (gen. of sruth 'stream')"
+  },
+  {
+   "english": "Ship of the Bright God",
+   "name": "Long an dé áin",
+   "gloss": "long 'ship' + an (gen. art.) + dé (gen. of dia 'god') + áin (gen. adj. 'bright')"
+  },
+  {
+   "english": "Head of Battle",
+   "name": "Cennchatha",
+   "gloss": "cenn 'head' + chatha (gen. of cath 'battle', lenited after compound element)"
+  }
+ ],
+ "allowed_graphemes": [
+  "a",
+  "b",
+  "c",
+  "d",
+  "e",
+  "f",
+  "g",
+  "h",
+  "i",
+  "l",
+  "m",
+  "n",
+  "o",
+  "p",
+  "r",
+  "s",
+  "t",
+  "u",
+  "ch",
+  "th",
+  "ph",
+  "sh",
+  "dh",
+  "gh",
+  "bh",
+  "mh",
+  "fh",
+  "ae",
+  "ai",
+  "ei",
+  "oi",
+  "ui",
+  "ia",
+  "ua",
+  "ao"
+ ],
+ "extra_allowed_chars": " -'áéíóú",
+ "forbidden_patterns": [
+  "[kqvwxyz]",
+  "kk",
+  "(.)\\1\\1",
+  "[bcdfghjklmnpqrstvwxz]{4,}",
+  "[kqvwxyz]",
+  "[bdfgkmnpqrstvwxz]$",
+  "ee",
+  "aa",
+  "uu",
+  "ii"
+ ],
+ "syllables_per_word": [
+  2,
+  3,
+  4
+ ],
+ "max_word_length": 22,
+ "sources": [
+  "Thurneysen, R., A Grammar of Old Irish (1946)",
+  "Stifter, D., Sengoidelc: Old Irish for Beginners (2006)",
+  "Dictionary of the Irish Language (eDIL), Royal Irish Academy, online",
+  "McManus, D., A Guide to Ogam (1991) for early Primitive Irish background",
+  "Lehmann, R. and W., An Introduction to Old Irish (1975)",
+  "Ó Dónaill, N. (ed.), Foclóir Gaeilge–Béarla (1977) for later reflexes",
+  "Glottolog entry: Old Irish (olga1234)",
+  "Wiktionary Old Irish and Proto-Celtic reconstruction pages"
+ ],
+ "notes": "Glasdumuin is fictional and 'Beyond Earth'; no word is attested and the Goidelic proxy is a design choice. Because the proxy language is Goidelic, native Irish words are acceptable as models, but game coinages should still follow Old/Middle Irish structure rather than copying Modern Irish verbatim. Current game strings mix incompatible layers: -mairteòil- and -kriem are plausible Gaelic-looking but not real morphs, while rusu-, kierkku-, -kurrak, -rak, -kasa-, -plantein and -deg contain k/w-type letters, Finnic-style clusters and Latinate roots that violate Goidelic phonotactics and should be regenerated from the roots and rules above. Compound with lenition rather than hyphen where possible, keep stress-initial 2-4 syllable words, and use 'na/an' articles with genitives for 'of the' constructions.",
+ "unit": "Glasdumuin",
+ "slug": "glasdumuin",
+ "model": "claude-sonnet-5-5"
+}
