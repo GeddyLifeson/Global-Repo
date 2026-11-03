@@ -4,7 +4,7 @@ sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent.parent))
 from lane import Lane
 PF = '/mnt/project-files/'
 import os
-ARMS = os.environ.get('TANK_ARMS_JAR', PF + 'rewrite-jars/combat-classes/diaithir-arms-neoforge-26.1.2-1.0.1.jar')
+ARMS = os.environ.get('TANK_ARMS_JAR', PF + 'vehicles-test/diaithir-arms-neoforge-26.1.2-1.0.1.jar')
 EXTRA = [x for x in os.environ.get('TANK_EXTRA_JARS', '').split(':') if x]  # e.g. vehicles-test units + carts jars (ignition command /diaithirvehicle)
 JARS = [ARMS, PF + 'Immersive_Vehicles-26.1-24.0.0-diaithir.2.jar'] + EXTRA
 out = sys.argv[1] if len(sys.argv) > 1 else None; rep = {}
@@ -19,13 +19,7 @@ with Lane('tank', JARS, srv_xmx='3G', out=out) as L:
     import re, math
     pos = S('data get entity @e[type=mts:builder_existing,limit=1,sort=nearest] Pos', 1); rep['veh_pos'] = pos
     m = re.search(r'\[(-?[\d.]+)d, (-?[\d.]+)d, (-?[\d.]+)d\]', ' '.join(pos)); vx, vy, vz = (float(m[1]), float(m[2]), float(m[3])) if m else (0.5, -60, 2.5)
-    # first try the vanilla ride command (works when the vehicle exposes a passenger slot), then fall back to scanning for the seat
     import re
-    rep['ride_cmd'] = S('ride Tester mount @e[type=mts:builder_existing,limit=1,sort=nearest]', 1.5)
-    rr = S('data get entity Tester RootVehicle', 0.8)
-    pp = S('data get entity Tester Pos', 0.8); rep['pos_after_ride'] = pp
-    if any('following' in l for l in rr): mounted = True; rep['mounted_via'] = 'ride command'
-    elif any(re.search(r'\[2\.[3-5]\d*d', l) for l in pp): mounted = True; rep['mounted_via'] = 'player at seat 1 world position (2.4, y, z); RootVehicle is not set for IV seats'
     # scan: ring around the vehicle, aim at points up the hull, empty hand, R, test RootVehicle
     for r in ((3.0, 5.0, 2.0) if not mounted else ()):
         for ang in range(0, 360, 45):
@@ -41,12 +35,14 @@ with Lane('tank', JARS, srv_xmx='3G', out=out) as L:
         rep['pos_before'] = S('data get entity @e[type=mts:builder_existing,limit=1,sort=nearest] Pos', 0.8)
         rep['start_cmd'] = S('execute as Tester run diaithirvehicle start', 1.5); time.sleep(1); L.shot('02a_after_start.png')
         VP = "data get entity @e[type=mts:builder_existing,limit=1,sort=nearest] Pos"
-        for label, press_n in (('brake_as_spawned', False), ('brake_toggled_once', True), ('brake_toggled_twice', True)):
-            if press_n: d.key('n'); time.sleep(0.8)
-            p0 = S(VP, 0.6); d.hold('w', 4); time.sleep(0.5); p1 = S(VP, 0.6); rep['gas_' + label] = (p0[-1:], p1[-1:])
-            L.shot(f'03_{label}.png')
-        d.hold('space', 1.0); time.sleep(0.5); L.shot('04_fire.png')
-        rep['server_log_tail'] = L.log_lines('server', r'engine|Engine|fuel|Fuel|tank|Tank')[-6:]
+        DV = lambda c, w=1.2: S('execute as Tester run diaithirvehicle ' + c, w)
+        rep['seat_pos'] = S('data get entity Tester Pos', 0.6)
+        rep['start'] = DV('start'); time.sleep(1.5); rep['status_after_start'] = DV('status'); L.shot('02_hud_after_start.png')
+        d.key('n'); time.sleep(0.5)
+        rep['drive1'] = DV('drive 1'); time.sleep(5); rep['status_5s'] = DV('status'); L.shot('03_hud_drive1_5s.png'); time.sleep(5); rep['status_10s'] = DV('status'); rep['veh_pos_drive1'] = S(VP, 0.6)
+        DV('drive 0'); time.sleep(2); rep['status_stopped'] = DV('status')
+        p0 = S(VP, 0.6); d.hold('w', 5); time.sleep(0.5); rep['w_key_status'] = DV('status'); rep['w_key_pos'] = (p0[-1:], S(VP, 0.6)[-1:]); L.shot('04_after_w.png')
+        d.hold('space', 1.0); time.sleep(0.5); L.shot('05_fire.png')
         L.shot('03_driven.png')
         rep['pos_after'] = S('data get entity Tester Pos', 0.8); rep['veh_pos_after'] = S('data get entity @e[type=mts:builder_existing,limit=1,sort=nearest] Pos', 0.8)
     rep['client_errors'] = [l for l in L.log_lines('client', r'ERROR|Exception') if not any(x in l for x in ('authlib', 'Realms', '401', 'OpenAL', 'profile key', 'SoundSystem', 'MTSERROR: Welcome'))][:10]
