@@ -325,3 +325,4 @@ world-checks/render.py	1634	"Top-down PNG per site: snow white, water blue, land
 world-checks/scan.py	5155	"Scan Tellus region files: per-column ground Y, snow cover, bedrock floor, and every *_ore block position."""""""	yes
 world-checks/sites.py	1510	R = 111319.49166666667 * 180 / math.pi	yes
 world-checks/snow.py	2642	"Snowline check: snow cover fraction by elevation band vs the Age I line (EraMath.age1SnowlineMeters)."""""""	yes
+cloud/animation/set_owner3_status.py	900	S6876 Sets owner-3 (mobs, NPCs, bosses) status in ANIMATIONS_COVERAGE.csv: done for our GeckoLib/boss work, route for third-party mods, todo for own fauna.	yes
