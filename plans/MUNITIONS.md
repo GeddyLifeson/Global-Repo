@@ -47,3 +47,10 @@ Next step is a licence and 26.1 check per row (Modrinth dump), logged to CSV, th
 ## 6. Open items for the coordinator
 - Owner module for the machines (suggest Foundry/tech); Keelwright, aircraft, trucks and transport threads should read section 3 for tag names.
 - Dropped for now: any realistic recipe detail, and WMD-class content beyond game-balance "shard" tiers.
+
+## 7. Containers, feeding and animation (added 11-03 after Marlon's question)
+Gap list, not yet built. Catalog so far covers rounds and their parts only.
+- **Containers as manufactured items:** magazine (per weapon family, capacity in rounds), ammo box (bulk, kg capacity), belt and link (belt segments of N rounds), clip/speedloader, bomb rack and torpedo cradle. Made at the same stations: casing-style part (cast), link or spring part, one-step assembly. Each has a loaded and empty form; loading a container from rounds is a station recipe or an inventory action.
+- **Tags:** `c:ammo_container/magazine|box|belt|clip`, with the weapon family as subtag, so guns and vehicle mounts accept the right ones.
+- **Animation on firing:** per weapon the animation set needs fire, eject, reload, magazine swap, belt feed/advance, and cycle. This belongs to the animation renderer threads (ports #207, #209); this lane supplies the container items, their states (full, partial, empty) and the weapon-to-container tag map so animations can key off them. Vehicle mounts (ship, aircraft, tank, train) reuse the same states.
+- Order: container catalog (data) first, then recipes, then animation hooks with the renderer threads.
