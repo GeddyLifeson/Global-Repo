@@ -7,7 +7,9 @@ f=R/('next_id' if P=='S' else 'next_'+P)
 def g(*x): return subprocess.run(['git','-C',str(R),*x],capture_output=True,text=True)
 for _ in range(8):
     g('pull','-q','--rebase','--autostash','origin','main')
-    cur=int(f.read_text().strip()) if f.exists() else 1; f.write_text(str(cur+n)+'\n')
+    cur=int(f.read_text().strip()) if f.exists() else 1
+    if P=='S': cur=max(cur,6816)  # FLOOR: S0001-S6815 are taken (PC scan)
+     f.write_text(str(cur+n)+'\n')
     g('add',f.name); g('commit','-qm',f'claim {P}{cur:04d}-{P}{cur+n-1:04d}')
     if g('push','-q','origin','main').returncode==0:
         print(' '.join(f'{P}{i:04d}' for i in range(cur,cur+n))); sys.exit(0)
