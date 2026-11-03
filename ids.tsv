@@ -6810,3 +6810,4 @@ S6880	global	diaithir-ports PR 181: port.py (path in repo unconfirmed)
 S6881	global	diaithir-ports PR 181: rcon.py (path in repo unconfirmed)
 S6894	cloud	diaithir-ports/diaithir-wiretech/tools/gen_circuit_assets.py
 S6895	cloud	diaithir-ports/diaithir-wiretech/src/main/java/net/diaithir/wiretech/circuit/CoreCheck.java
+S6896	cloud	diaithir-ports/diaithir-wiretech/tools/circuit_gui_check.py
