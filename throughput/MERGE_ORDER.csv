@@ -73,4 +73,4 @@ wave,repo,number,base,head,partner,title
 0,global-repo,16,main,,,"S6866 animation coverage CSV generator [edits SCRIPTS_INDEX.md and ids.tsv: merge one at a time, rebuild index on conflict]"
 0,global-repo,17,main,,,"Register S6873 gen_gate.py [edits SCRIPTS_INDEX.md and ids.tsv: merge one at a time, rebuild index on conflict]"
 2,ports,224,claude/project-thread-6ik7qb,claude/project-thread-76qqfy,ports#231,"Megamachines: catalogue, dig engine core, Heavy Yard definitions [stacked on #220]"
-2,ports,231,claude/project-thread-76qqfy,claude/survey-megamachines,ports#224,"Megamachines: survey-mod licence audit, RFTools Builder shapes and IF laser drill ports [merge after #224]"
+2,ports,231,claude/project-thread-76qqfy,claude/survey-megamachines,ports#224,"Megamachines: survey-mod licence audit; MIT ports (RFTools Builder, IF laser drill, Aeronautics gantry, Galacticraft dungeons, Northstar structures) and clean-room quarry, drill heads, tracks [merge after #224]"
