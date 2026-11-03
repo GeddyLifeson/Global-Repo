@@ -6814,3 +6814,5 @@ Run hints: .py `python3 <file>` (PC `py`), .ps1 via a hidden launcher (never a v
 | S6826 | cloud | `library-content/place_all.py` | S6823 Gives every Library entry a Collection, class, canon status, spine code and shelfmark from its soil | yes |
 | S6827 | cloud | `names/linguistics/regen_relaxed.py` | S0312 Regenerates every culture name that fails its language rules (Haiku, rules file cached per language, up to 3 repair rounds); writes na | yes |
 | S6829 | global | `tools/omniverse/export_library_books.py` | S6829 exports library books for the omniverse books lane (lives in the DiaithirRPG repo; copy not mirrored yet) | no |
+| S6871 | cloud | `diaithir-animation/tools/run_tests.sh` | S6871 Dependency-free javac tests for the machine/block/vehicle animation core (diaithir-ports PR #165) | yes |
+| S6872 | cloud | `diaithir-animation/tools/gen_coverage.py` | S6872 Routes owner-4 rows of ANIMATIONS_COVERAGE.csv through rules.tsv, keeps statuses (lives in diaithir-ports; copy not mirrored) | no |
