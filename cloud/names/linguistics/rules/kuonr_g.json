@@ -1,0 +1,204 @@
+{
+ "proxy_language": "Old High German / Old Alemannic (with Frankish court register), reading 'Kuonrìg' as a Germanic compound of kuoni 'bold' + rîhhi 'realm/ruler' (cf. Chuonrat/Kuonrat, Kuonrîch type names)",
+ "confidence": "low",
+ "proxy_rationale": "No attested language called 'Kuonrìg' exists. The string looks like a Germanic dithematic name built on OHG kuoni 'bold, keen' (cf. Konrad, Kuno) and -rîg/-rîhhi 'ruler, realm', set in a later court period. For Atlantic Europe, the best-supported proxy for a Germanic court register is Old High German with Frankish/Carolingian-era spelling conventions; Old English or Old Saxon could also fit but OHG matches the name's own phonology (uo diphthong, k- for /k/). The link is weak: this is an inferred proxy for a fictional or obscure culture, and the final ì is not an OHG orthographic feature (circumflex or macron length marks are the scholarly convention).",
+ "phonology": "OHG consonants: stops p t k b d g; affricates pf (ph), ts (z, tz), kx rare; fricatives f v s ʃ(sk>sh later) x/h (ch); nasals m n; liquids l r; glides w j. Vowels: short a e i o u; long ā ē ī ō ū (marked with circumflex or macron in normalized spelling); diphthongs ia/ie, uo, ei, ou, iu (and ea, io in Franconian). Second sound shift: t>ts/z, p>pf/ff, k>x/ch in Upper German (Alemannic/Bavarian) while Frankish varies. Final devoicing common in later texts. Stress on the root (first) syllable; unstressed syllables reduce to e (OHG full vowels in endings: -a, -o, -u, -i).",
+ "phonotactics": "Syllable shape (C)(C)(C)V(V)(C)(C)(C). Initial clusters: sk-/sc-, sp-, st-, str-, scr-, kn-, gn-, hl-, hn-, hr-, hw-/wh-, sl-, sm-, sn-, sw-, pfl-, pfr-, tw-, bl-, br-, dr-, fr-, gr-, kl-, kr-, pr-, tr-, thr-/dr-. Finals: -nt, -ng, -nk, -rt, -rg, -rn, -ld, -lt, -st, -ft, -ht, -cht, -hs, -sk. Word-final voiced stops devoice in spelling in later texts (-d > -t, -g > -c/-k). Dithematic names are typically 2-4 syllables, e.g. Kuon-rât, Hil-te-brant, Wolf-ger, Adal-hard, Ger-hart; theme-final -rîg is rare in Old High German, where the usual form is -rîh, but Gothic/Old Saxon-style -rik/-rîg appears in Latinized sources (Alaricus, Theodericus, Dietrîh).",
+ "orthography": "Normalized scholarly OHG: long vowels with circumflex (â ê î ô û) or macron; uo, ie, ei, ou, iu as digraphs; h for /x/ in codas and clusters (ch in manuscripts: ihh, hh), z/tz for /ts/, pf/ph for /pf/, sc/sk for /sk~ʃ/, v/f variation, w for /w/, qu for /kw/, k or c for /k/ (c in older texts, k in Upper German and normalized), th/dh in earlier texts (Isidor, Tatian) for /d/. Names are capitalized. Latinized forms add -us/-a.",
+ "morphology": "Inflecting language with strong/weak nouns and adjectives, 3 genders (masc, fem, neut), 4 cases (nom, gen, dat, acc; instrumental residual), 2 numbers. Noun stems: a-stems (tag, wort), ja-stems (kuni 'kin'), i-stems (gast), u-stems, n-stems (hano), r-stems, minor. Verbs: strong (ablaut classes I-VII), weak (class I -en/-jan, II -ôn, III -ên), preterite-present. Personal names are mostly uninflected in game use; if inflected, nom. masc. a-stem has zero ending (Kuonrât), weak nouns -o/-a (Hano, Wîba), gen. sg. -es (strong) / -en (weak) / -a (fem. ô-stems -a/-o).",
+ "compounding": "Compounds are head-final: modifier + head (determinative), with the head carrying gender/inflection (e.g. burg-wart 'castle-guard', hûs-herro 'house-master'). The first element is a bare stem or a stem with a linking vowel (-a-, -i-, -o- in OHG: gast-hûs, tag-a-liht-). Dithematic personal names combine two roots, theme-1 (adjective/noun: kuoni, adal 'noble', hild 'battle', wolf, ger 'spear', brant 'sword') + theme-2 (rîh 'ruler', rât 'counsel', hart 'hard', wald 'rule', mund 'protection', frid 'peace', brecht 'bright', bald 'bold'). Place names: X-burg, X-heim, X-dorf, X-aha 'water', X-berg, X-brucca. Genitive constructions: possessor in the genitive before the head (Karles sun 'Charles's son'; also analytic 'the X of Y' with the genitive after in later Middle High German, e.g. Chuonrâtes burg).",
+ "noun_phrase_order": "Mostly modifier-head: article/demonstrative + adjective + noun (der guoto man); genitive modifier usually precedes the head noun in Old High German (Gotes sun), postnominal in later periods; numerals before the head. Adjectives agree in case, gender, number with strong/weak declension.",
+ "attested_roots": [
+  {
+   "form": "kuoni",
+   "gloss": "bold, keen (OHG kuoni, Chuono/Kuno name element)",
+   "reconstructed": false
+  },
+  {
+   "form": "rîhhi",
+   "gloss": "realm, kingdom, rule (OHG rîhhi; noun)",
+   "reconstructed": false
+  },
+  {
+   "form": "rîh",
+   "gloss": "mighty ruler (name element, OHG -rîh)",
+   "reconstructed": false
+  },
+  {
+   "form": "rât",
+   "gloss": "counsel, advice (OHG rât)",
+   "reconstructed": false
+  },
+  {
+   "form": "burg",
+   "gloss": "fortress, town",
+   "reconstructed": false
+  },
+  {
+   "form": "hûs",
+   "gloss": "house",
+   "reconstructed": false
+  },
+  {
+   "form": "hof",
+   "gloss": "court, farmstead, royal court",
+   "reconstructed": false
+  },
+  {
+   "form": "kuning",
+   "gloss": "king",
+   "reconstructed": false
+  },
+  {
+   "form": "hêrro",
+   "gloss": "lord, master",
+   "reconstructed": false
+  },
+  {
+   "form": "wort",
+   "gloss": "word",
+   "reconstructed": false
+  },
+  {
+   "form": "wazzar",
+   "gloss": "water",
+   "reconstructed": false
+  },
+  {
+   "form": "berg",
+   "gloss": "mountain",
+   "reconstructed": false
+  },
+  {
+   "form": "sunna",
+   "gloss": "sun",
+   "reconstructed": false
+  },
+  {
+   "form": "hilt(i)",
+   "gloss": "battle (name element, OHG hiltja/hild)",
+   "reconstructed": false
+  },
+  {
+   "form": "brant",
+   "gloss": "sword, firebrand",
+   "reconstructed": false
+  },
+  {
+   "form": "*kunjam",
+   "gloss": "Proto-Germanic 'kin, race' (basis of OHG kunni and kuni- in names)",
+   "reconstructed": true
+  }
+ ],
+ "worked_examples": [
+  {
+   "english": "Bold Ruler (a court-name)",
+   "name": "Kuonrîh",
+   "gloss": "kuon- 'bold' + -rîh 'ruler', dithematic personal name"
+  },
+  {
+   "english": "Castle of the King",
+   "name": "Kuninges burg",
+   "gloss": "kuning 'king' + gen. -es + burg 'castle', genitive + head"
+  },
+  {
+   "english": "Counsel Hall",
+   "name": "Rât-hûs",
+   "gloss": "rât 'counsel' + hûs 'house', determinative compound, head-final"
+  },
+  {
+   "english": "Sun Court",
+   "name": "Sunnun hof",
+   "gloss": "sunna 'sun' (gen. weak -un) + hof 'court'"
+  },
+  {
+   "english": "Water Fortress",
+   "name": "Wazzar-burg",
+   "gloss": "wazzar 'water' + burg 'fortress', compound with bare first element"
+  },
+  {
+   "english": "Realm of the Bold",
+   "name": "Kuonîro rîhhi",
+   "gloss": "kuoni 'bold' (gen. pl. -iro) + rîhhi 'realm', genitive plural + head"
+  }
+ ],
+ "allowed_graphemes": [
+  "a",
+  "e",
+  "i",
+  "o",
+  "u",
+  "â",
+  "ê",
+  "î",
+  "ô",
+  "û",
+  "ie",
+  "uo",
+  "ei",
+  "ou",
+  "iu",
+  "b",
+  "d",
+  "f",
+  "g",
+  "h",
+  "k",
+  "l",
+  "m",
+  "n",
+  "p",
+  "r",
+  "s",
+  "t",
+  "v",
+  "w",
+  "z",
+  "ch",
+  "pf",
+  "sc",
+  "sk",
+  "th",
+  "tz",
+  "ph"
+ ],
+ "extra_allowed_chars": " -'",
+ "forbidden_patterns": [
+  "[jqxy]",
+  "ñ",
+  "ç",
+  "ß",
+  "ü",
+  "ö",
+  "ä",
+  "(.)\\1\\1",
+  "[aeiou]{4}",
+  "ao",
+  "oe",
+  "ae(?!r)",
+  "gh(?!t)",
+  "ck(?![aeiou])",
+  "ff?[bdgkpt][bdgkpt]",
+  "^[bcdfgklmnprstvwz]{4}"
+ ],
+ "syllables_per_word": [
+  2,
+  3,
+  4
+ ],
+ "max_word_length": 18,
+ "sources": [
+  "Braune/Heidermanns, Althochdeutsche Grammatik I (Laut- und Formenlehre), 2004",
+  "Schützeichel, Althochdeutsches Wörterbuch, 2012",
+  "Köbler, Althochdeutsches Wörterbuch (online), 1993",
+  "Förstemann, Altdeutsches Namenbuch, Personennamen, 1900",
+  "Kluge/Seebold, Etymologisches Wörterbuch der deutschen Sprache, 2011",
+  "Lehmann, Gothic Etymological Dictionary / Proto-Germanic reconstruction (Wiktionary Appendix:Proto-Germanic)",
+  "Glottolog, Old High German entry",
+  "Starling database, Germanic etymologies"
+ ],
+ "notes": "The culture name 'Kuonrìg' is not itself attested Old High German. Its spelling (ì grave, final -rìg) is non-standard and probably a game-internal coinage; the proxy treats it as an OHG-style dithematic name. Scholarly normalized OHG uses circumflex/macron for long vowels, not grave accents, and prefers -rîh/-rîhhi over -rîg. No word may be identical to a Modern Irish, Scottish Gaelic or Manx word since the proxy is Germanic, not Goidelic; the 'Atlantic Europe' setting may justify borrowing Old Norse or Old English elements (e.g. -ric, -wald) for local flavour, but this should be flagged as a hybrid rather than attested OHG. Confidence is low because the proxy is chosen from the form of the culture's own name, not from independent evidence of its language.",
+ "unit": "Kuonrìg",
+ "slug": "kuonr_g",
+ "model": "claude-sonnet-5-5"
+}

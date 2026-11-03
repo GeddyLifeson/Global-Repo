@@ -1,0 +1,171 @@
+{
+ "proxy_language": "Proto-Oceanic (with Proto-Polynesian and Proto-Micronesian reflexes as a later-period layer)",
+ "confidence": "medium",
+ "proxy_rationale": "'Ocean-and-Voyage Court' is a fictional later court in the Pacific islands with no single attested language. The most defensible proxy is Proto-Oceanic (Lapita-era, c. 3000 BP), reconstructed in detail by the Austronesian Comparative Dictionary (ACD) and Ross, Pawley and Osmond's Lexicon of Proto Oceanic. Its vocabulary is rich in seafaring, canoe and navigation terms. Because the period index is late, Proto-Polynesian-style forms (loss of *s, merger of *R and *r, Polynesian-style spelling) can be used for court titles. Linkage to any particular historical court is speculative; the match is areal and genetic, not culture-specific.",
+ "phonology": "Proto-Oceanic consonants: *p *t *k *q (glottal/uvular stop), *b *d *j *g, *bw *mw (labiovelars, often written *pw *mw), *m *n *ng *ny, *s *c (maybe affricate), *r *R *l *w *y. Vowels: *i *u *e *o *a with length not reconstructed. Proto-Polynesian reflexes: p t k ' (glottal stop) f h m n ng l r w v, vowels a e i o u, with phonemic length (Tongan/Samoan macron, long vowels). Court-style names here: p t k m n ng l r w f h s plus a e i o u; avoid unmarked b/d/g/z/c/x/q.",
+ "phonotactics": "Strictly open syllables (C)V; no consonant clusters and no final consonants in Proto-Oceanic, so every syllable ends in a vowel. Vowel sequences are allowed (hiatus, e.g. ua, ia, io). Native roots are mostly CVCV(CV); prefixes and suffixes are also open syllables. Stress falls on the penultimate syllable and is not written.",
+ "orthography": "Use a phonemic Roman orthography in the Austronesian-linguistics style: ng for the velar nasal (as in Fijian g, Samoan g, or Tongan ng); apostrophe or okina for glottal stop; optional macron for long vowels (a, e, i, o, u) in Polynesian-style forms; f vs w/v in Polynesian forms, p/b in Melanesian ones. Capitalise the first letter of each word in names.",
+ "morphology": "Isolating-agglutinating. Roots are mostly disyllabic and unmarked for category. Reduplication (full or partial, first syllable or whole root) forms plurals, intensives or continuatives (e.g. *tasi-tasik 'sea-sea, sailing'). Prefixes: *paka- 'causative' (Polynesian faka-/whaka-), *pa- (causative variant), *ma- (stative/adjectival), *ta- (reciprocal/place), *ka- (verbal/nominalising). Suffixes: *-an(a) (nominal/locative, 'place of'), *-ana, *-aga/-anga (nominaliser in Polynesian). Possession is marked by classifiers: *na- (edible possessions), *no- (general possessions), *ka- (inalienable/kin). Articles/determiners: Proto-Polynesian *te 'the' (singular), *ngā/ngā 'plural'; nouns have no case and no gender.",
+ "compounding": "Head-initial: the noun is followed by its modifier or possessor. Genitive/possessive relations use a particle: Proto-Oceanic *na 'of', Polynesian a/o (a-class = active possession, o-class = inalienable/superior possession). Common compound patterns: N + N (head + modifier), 'X of Y' = X + particle + Y (e.g. fale o te vaka 'house of the canoe'). Agent/maker nouns use *tuku (craftsman) or *tau- (person who does) plus the activity; place nouns use *-an(a)/*-anga. No linkers in compounds; the particle is optional in compound titles.",
+ "noun_phrase_order": "Head noun first, then modifiers (adjective, possessor, demonstrative/article after head in Oceanic; in Polynesian the article *te comes before the head). Typical pattern: [article] + Noun + Adjective + (a/o + Possessor). Numbers and demonstratives follow the head.",
+ "attested_roots": [
+  {
+   "form": "*waka",
+   "gloss": "canoe, boat",
+   "reconstructed": true
+  },
+  {
+   "form": "*tasik",
+   "gloss": "sea, saltwater",
+   "reconstructed": true
+  },
+  {
+   "form": "*laSo / *laso",
+   "gloss": "sun (Proto-Polynesian *la'a)",
+   "reconstructed": true
+  },
+  {
+   "form": "*maqurip",
+   "gloss": "to live; life",
+   "reconstructed": true
+  },
+  {
+   "form": "*rua",
+   "gloss": "two",
+   "reconstructed": true
+  },
+  {
+   "form": "*tolu",
+   "gloss": "three",
+   "reconstructed": true
+  },
+  {
+   "form": "*qapi",
+   "gloss": "fire",
+   "reconstructed": true
+  },
+  {
+   "form": "*qutan",
+   "gloss": "forest",
+   "reconstructed": true
+  },
+  {
+   "form": "*ika",
+   "gloss": "fish",
+   "reconstructed": true
+  },
+  {
+   "form": "*pulo",
+   "gloss": "island",
+   "reconstructed": true
+  },
+  {
+   "form": "*tonga",
+   "gloss": "south, middle",
+   "reconstructed": true
+  },
+  {
+   "form": "*manu",
+   "gloss": "bird",
+   "reconstructed": true
+  },
+  {
+   "form": "*fale / *pale",
+   "gloss": "house, hall (Polynesian)",
+   "reconstructed": true
+  },
+  {
+   "form": "*ariki",
+   "gloss": "chief, lord",
+   "reconstructed": true
+  },
+  {
+   "form": "*atua",
+   "gloss": "god, spirit",
+   "reconstructed": true
+  },
+  {
+   "form": "*langi",
+   "gloss": "sky",
+   "reconstructed": true
+  }
+ ],
+ "worked_examples": [
+  {
+   "english": "Court of the Sea Voyage",
+   "name": "Fale Wakatasi",
+   "gloss": "fale 'house, hall' + waka 'canoe' + tasi 'sea' (head-initial compound; waka-tasi 'sea-canoe voyage')"
+  },
+  {
+   "english": "Temple of the Sun",
+   "name": "Fale a Laso",
+   "gloss": "fale 'house' + a 'of (possessive particle)' + laso 'sun'"
+  },
+  {
+   "english": "Lord of the Canoe",
+   "name": "Ariki Waka",
+   "gloss": "ariki 'chief, lord' + waka 'canoe' (head-initial N N)"
+  },
+  {
+   "english": "River Stew",
+   "name": "Ika Tawai",
+   "gloss": "ika 'fish, food' + ta- 'place/instrument' + wai 'water, river' (loose gloss: fish of the water)"
+  },
+  {
+   "english": "Navigator-Priest",
+   "name": "Tuku Langi",
+   "gloss": "tuku 'craftsman, expert' + langi 'sky' (expert of the sky/stars)"
+  },
+  {
+   "english": "Voyage Island",
+   "name": "Pulo Tasi",
+   "gloss": "pulo 'island' + tasi 'sea' (island of the sea; head-initial)"
+  }
+ ],
+ "allowed_graphemes": [
+  "a",
+  "e",
+  "i",
+  "o",
+  "u",
+  "p",
+  "t",
+  "k",
+  "m",
+  "n",
+  "ng",
+  "l",
+  "r",
+  "w",
+  "f",
+  "h",
+  "s"
+ ],
+ "extra_allowed_chars": " '-\\u0101\\u0113\\u012b\\u014d\\u016b",
+ "forbidden_patterns": [
+  "[bcdgjqvxyz]",
+  "[^aeiou'\\u0101\\u0113\\u012b\\u014d\\u016b\\- ][^aeiou'\\u0101\\u0113\\u012b\\u014d\\u016b\\- ][^aeiou]",
+  "[^aeiou'\\u0101\\u0113\\u012b\\u014d\\u016b\\- ]\\b",
+  "(?<![aeiou'])ng(?![aeiou])",
+  "[^aeiou'\\u0101\\u0113\\u012b\\u014d\\u016b\\- ]$"
+ ],
+ "syllables_per_word": [
+  2,
+  4
+ ],
+ "max_word_length": 14,
+ "sources": [
+  "Ross, Pawley & Osmond (eds.), The Lexicon of Proto Oceanic, vols 1-5 (1998-2016)",
+  "Blust & Trussel, Austronesian Comparative Dictionary (online)",
+  "Lynch, Ross & Crowley (eds.), The Oceanic Languages (2002)",
+  "Biggs, Proto-Polynesian reconstruction work (1978)",
+  "Clark, Proto-Polynesian Lexicon (1976)",
+  "Pawley & Green, Proto-Polynesian lexicon (1971)",
+  "Starling database (Oceanic/Austronesian)",
+  "Glottolog entries for Proto-Oceanic and Polynesian languages"
+ ],
+ "notes": "No word may be identical to a Modern Irish, Scottish Gaelic or Manx word. The existing game names (Peniwik, Fenusor, Lumwi) contain clusters and closed syllables that violate Oceanic phonotactics and should be replaced with open-syllable CV forms. Names follow a head-initial pattern with 'a/o' as optional genitive particles; aim for two to four open syllables per word.",
+ "unit": "The Ocean-and-Voyage Court",
+ "slug": "the_ocean_and_voyage_court",
+ "model": "claude-sonnet-5-5"
+}

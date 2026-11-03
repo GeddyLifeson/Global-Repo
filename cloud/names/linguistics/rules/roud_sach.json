@@ -1,0 +1,167 @@
+{
+ "proxy_language": "Medieval and early modern Rhodian Greek (Dodecanesian Greek of the Hospitaller period and later), with Greek written in scholarly Latin transliteration; Hospitaller-era French/Italian court loans are a minor secondary layer",
+ "confidence": "low",
+ "proxy_rationale": "The culture label 'Roudòsach' (region Rodos, period index R, kind later_court) has no unambiguous attested language record; it most plausibly refers to the later court culture of Rhodes (Byzantine/Hospitaller/Ottoman-era island society). The best-supported proxy is the Greek of Rhodes and the Dodecanese, which is well documented in Medieval Greek texts (e.g., the Rhodian love poems, Hospitaller-period Greek documents) and in modern Dodecanesian dialect studies. The '-sach' ending in the label is not Greek morphology, and an Arabic/Turkish-style or Hospitaller-court reading cannot be excluded, so the link between the label and the proxy is weak. Names are built as Greek words in standard Romanization; no claim is made that 'Roudòsach' itself is attested.",
+ "phonology": "Vowels: /a e i o u/ (5-vowel system; no phonemic length or diphthongs in Medieval/Modern Greek, spelled <ai ei oi ou> but pronounced as monophthongs). Consonants: stops /p t k b d g/ (in Dodecanesian often voiced stops from nasal+stop, mb nd ng); fricatives /f v θ ð s z x ɣ/; nasals /m n/; liquids /l r/; affricates /ts dz/ in many dialects. Dodecanesian traits: palatalization of /k/ before front vowels to /tʃ/ (kalos > tsalos-type shifts in Rhodian: 'tsi' for 'ki'), frequent voicing of stops after nasals, and mid-vowel raising in unstressed syllables (e>i, o>u). Stress is a dynamic accent on one of the last three syllables.",
+ "phonotactics": "Syllables: (C)(C)V(C); onsets allow s+stop (st, sp, sk), stop+liquid (pr, tr, kr, pl, kl, gl, br, dr, gr), fricative+liquid (fr, vr, θr, xr, ɣl), and a few nasal clusters (mn, ks, ps, ts). Codas are mostly open or end in -s, -n, -r (word-final consonants limited to s, n, r, and occasionally l, k in loans); native words do not end in stops other than via loans. No word-initial ng, nk. Vowel hiatus is normally avoided or resolved by glide formation (i>j). Names end typically in vowels or -s/-n.",
+ "orthography": "Scholarly Latin transliteration of Greek: a b g d e z i th k l m n x o p r s t y/i ph/f ch/kh ps; digraph vowels written as pronounced in Medieval/Modern romanization (ai>e, ei/oi/y>i, ou>u). Accents optional (stress marked with acute or grave on the stressed vowel). Use <th> for theta, <ch> for chi, <ph> for phi (or f in Modern Greek), <ng> for gamma+gamma/kappa, <mb nd> for mp/nt when voiced.",
+ "morphology": "Highly inflected, suffixing. Nouns have three genders and (in the vernacular) four cases (nominative, genitive, accusative, vocative; dative lost). Common noun endings: masculine -os, -is, -as; feminine -a, -i, -is; neuter -o, -i, -ma. Plurals: -oi/-es/-a. Derivational suffixes: -tis/-tria (agent: 'maker'), -ia (abstract/place), -ikos/-iki (relational adjective), -ion/-aki (diminutive), -ma (result), -si(s) (action), -eio/-ion (place of), -on (neuter place). Adjectives agree in gender, number and case with the noun. Verbs: stem + person suffixes, aorist/imperfect augment; participles in -menos.",
+ "compounding": "Compounds are head-final: first element (stem plus linking vowel -o-) modifies the second. E.g. thalassopoulos 'sea-bird', archi-tekton 'chief builder'. Agent compounds take verbal second elements: -ourgos, -poios, -phoros, -logos. 'X of Y' is expressed by genitive of Y after the noun (o naos tou iliou 'the temple of the sun') or by a compound. 'Y-maker' = Y-o-poios / Y-ourgos / Y-tis. Place names often take -ia, -ion, -eio. Linking vowel -o- is nearly universal, -i- or -a- occasionally.",
+ "noun_phrase_order": "Article + adjective + noun (o megas naos) or article + noun + article + adjective (o naos o megas); genitive of possessor follows the head noun (o naos tou iliou); demonstratives precede (aftos o naos). Numerals and quantifiers precede the noun.",
+ "attested_roots": [
+  {
+   "form": "thalassa",
+   "gloss": "sea",
+   "reconstructed": false
+  },
+  {
+   "form": "ilios",
+   "gloss": "sun (Rhodes: patron god Helios)",
+   "reconstructed": false
+  },
+  {
+   "form": "nisos",
+   "gloss": "island",
+   "reconstructed": false
+  },
+  {
+   "form": "potamos",
+   "gloss": "river",
+   "reconstructed": false
+  },
+  {
+   "form": "oros",
+   "gloss": "mountain",
+   "reconstructed": false
+  },
+  {
+   "form": "naos",
+   "gloss": "temple",
+   "reconstructed": false
+  },
+  {
+   "form": "kastro",
+   "gloss": "castle, fortress",
+   "reconstructed": false
+  },
+  {
+   "form": "limani",
+   "gloss": "harbour",
+   "reconstructed": false
+  },
+  {
+   "form": "ploio",
+   "gloss": "ship, boat",
+   "reconstructed": false
+  },
+  {
+   "form": "kalos",
+   "gloss": "good, beautiful",
+   "reconstructed": false
+  },
+  {
+   "form": "megas",
+   "gloss": "great",
+   "reconstructed": false
+  },
+  {
+   "form": "vasilias",
+   "gloss": "king",
+   "reconstructed": false
+  },
+  {
+   "form": "archon",
+   "gloss": "lord, ruler",
+   "reconstructed": false
+  },
+  {
+   "form": "rodon",
+   "gloss": "rose (source of the name Rhodes)",
+   "reconstructed": false
+  },
+  {
+   "form": "psomi",
+   "gloss": "bread",
+   "reconstructed": false
+  },
+  {
+   "form": "krasi",
+   "gloss": "wine",
+   "reconstructed": false
+  },
+  {
+   "form": "ydor",
+   "gloss": "water",
+   "reconstructed": false
+  },
+  {
+   "form": "ergon",
+   "gloss": "work, deed",
+   "reconstructed": false
+  }
+ ],
+ "worked_examples": [],
+ "allowed_graphemes": [
+  "a",
+  "e",
+  "i",
+  "o",
+  "u",
+  "y",
+  "b",
+  "d",
+  "f",
+  "g",
+  "k",
+  "l",
+  "m",
+  "n",
+  "p",
+  "r",
+  "s",
+  "t",
+  "v",
+  "x",
+  "z",
+  "th",
+  "ch",
+  "ph",
+  "ps",
+  "ts",
+  "dz",
+  "ng",
+  "mb",
+  "nd",
+  "kh"
+ ],
+ "extra_allowed_chars": " -'àèìòùáéíóú",
+ "forbidden_patterns": [
+  "q",
+  "w",
+  "(.)\\1\\1",
+  "[aeiou]{4,}",
+  "^[bdgkptfvszmnlr]{3}[^aeiouy]",
+  "[bdgkpt]$"
+ ],
+ "syllables_per_word": [
+  2,
+  3,
+  4,
+  5
+ ],
+ "max_word_length": 18,
+ "sources": [
+  "Browning, R. (1983). Medieval and Modern Greek (2nd ed.), Cambridge University Press",
+  "Horrocks, G. (2010). Greek: A History of the Language and its Speakers (2nd ed.), Wiley-Blackwell",
+  "Joseph, B. & Philippaki-Warburton, I. (1987). Modern Greek, Croom Helm",
+  "Newton, B. (1972). The Generative Interpretation of Dialect: A Study of Modern Greek Phonology, Cambridge University Press",
+  "Triandafyllidis, M. (1941). Neoelliniki Grammatiki (Modern Greek Grammar), Athens",
+  "Kriaras, E. Lexiko tis Mesaionikis Ellinikis Dimodous Grammateias (Dictionary of Medieval Vernacular Greek)",
+  "Wiktionary and Glottolog entries for Greek (Dodecanesian)",
+  "Cunningham, S. Pensées on Rhodian Greek of the Hospitaller period (use standard reference grammars above rather than any single page)"
+ ],
+ "notes": "Low confidence: the label Roudòsach and its '-sach' ending do not correspond to a clearly attested Greek word, so the proxy is Rhodian/Dodecanesian Medieval Greek by region and period, not by the culture name. The 'worked_examples' list is not populated here because patterns should be derived from the compounding and noun phrase rules above (e.g., 'Temple of the Sun' = naos tou iliou or iliou-naos; 'River Stew' = potamo-fagito; 'Harbour of the Rose' = limani tou rodou). No word may be identical to a Modern Irish, Scottish Gaelic or Manx word unless the language is Goidelic; this culture is Greek-based, so Gaelic forms must be avoided.",
+ "unit": "Roudòsach",
+ "slug": "roud_sach",
+ "model": "claude-sonnet-5-5"
+}

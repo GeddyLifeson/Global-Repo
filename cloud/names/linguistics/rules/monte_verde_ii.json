@@ -1,0 +1,186 @@
+{
+ "proxy_language": "Mapudungun (Mapuche), with Proto-Mapudungun/Huilliche-Pehuenche forms as a deliberately weak stand-in",
+ "confidence": "speculative",
+ "proxy_rationale": "Monte Verde II (c. 14,500 cal BP, near Puerto Montt, Llanquihue/Los Lagos, S Chile) is a pre-Holocene hunter-gatherer-forager site with no linguistic record; no language family can be demonstrably linked to it, and the Mapuche people and Mapudungun are far later arrivals or expansions (Mapudungun speakers are attested in the area from the colonial period). Mapudungun is used purely as the only living indigenous language of the immediate region whose phonology and word-building are documented, so it supplies a regionally plausible sound shape. Veliche/Huilliche (southern Mapudungun) and Kawesqar/Chono (Patagonian canoe peoples) are alternative regional anchors, but are far less documented. Any link to the actual Monte Verde people is speculative. Names should be read as regionally flavored invention, not reconstruction.",
+ "phonology": "Mapudungun (Salas 1992; Smeets 2008; Sadowsky et al. 2013 Illustration of the IPA). Vowels: /i e a o u ɨ/ (written i e a o u ü; the high central vowel is ɨ, often spelled ü, or v in the Raguileo and Unified alphabets). Consonants: stops p t ch(tʃ) k, plus retroflex tr (tʂ) and dental t-bar (written t with dental mark, often 'th' in the Unified alphabet); voiceless dental/interdental fricative written d or z (ð/θ in Azümchefe 'z'); fricatives f s sh (ʃ) (the last marginal); nasals m n ng (ŋ) ñ (ɲ) plus dental/retroflex variants; liquids l ll (ʎ) r (ɻ, often retroflex approximant); glides w y (ʝ). No phonemic voiced stops, no phonemic length, stress usually on the second syllable (penult) with variation.",
+ "phonotactics": "Basic syllables (C)V(C). Onset: at most one consonant; no initial clusters. Coda: single consonant, typically n, l, m, ng, r, w, y, ñ, or a stop; word-internal clusters of two consonants arise from coda plus onset (e.g. -ng-k-, -n-k-). Words are usually 2-4 syllables; roots tend to be CVC(V) shapes. Vowel hiatus is rare; /ɨ/ (ü) is common in suffixes. Words end in vowels or consonants (n, l, w, y, m, ng common).",
+ "orthography": "Unified Alphabet (Alfabeto Mapuche Unificado) or Azümchefe: a e i o u ü; ch d f g? (only inside ng) k l ll m n ng ñ p r s t tr th w y; sh and z in some orthographies. Use: ü for /ɨ/, ng for /ŋ/, ñ for /ɲ/, tr, ch, ll, th (dental t), d for the interdental fricative (or z in Azümchefe). Do not use b, c (outside ch), g (outside ng), h (outside ch/th/sh), j, q, v, x.",
+ "morphology": "Agglutinative, polysynthetic verb with extensive suffixation; nouns are lightly inflected (no case, number optional via -pu / ta kiñe etc.). Nominal derivation: -tu (do/make/act as, verbalizer), -we (place/instrument; e.g. mapu-we 'in the land'), -ntu (place of), -ñma, -n (nominalizer of verbs: -n, -el, -lu agent/participant participle), -fe (agent, 'one who', e.g. kütral-fe? not attested; use che-fe? use ruka-fe 'house builder'? only moderately attested), -mew (locative/instrumental, 'in/with'), -pu (plural, 'in the places'). Possession expressed by juxtaposition with possessor first (inan wi-?); noun + -ñ (1sg) etc.",
+ "compounding": "Noun-noun compounding is common: modifier precedes head (determined noun last), e.g. mapu 'land' + che 'people' = mapuche 'people of the land'; rüpü 'path'; kullin 'livestock'. Genitive 'X of Y' is typically juxtaposition Y X (possessor before possessed), e.g. ruka 'house' + kuzaw 'work'. Place names often use -ntu or -we (e.g. 'Llanquihue' = ñanki (?) 'mud' + we? treat as scholarly folk etymology and avoid). Locative -mew follows the noun. Agent nouns use -fe or participle -lu. Adjectives: unmarked stative verbs/adjectives follow or precede loosely; adjectives such as fücha 'old', kurü 'black', füta 'big' precede the noun in common speech.",
+ "noun_phrase_order": "Possessor-possessed; modifier-head for compounds; demonstratives (iñchiu? 'this': tüfa; 'that': tüfachi/tüfa) precede the noun; numerals precede nouns (kiñe 'one', epu 'two', küla 'three', meli 'four', kechu 'five'); adjectives usually precede nouns, nominalizations with -lu follow or precede in relative clauses.",
+ "attested_roots": [
+  {
+   "form": "mapu",
+   "gloss": "land, earth, country",
+   "reconstructed": false
+  },
+  {
+   "form": "che",
+   "gloss": "person, people",
+   "reconstructed": false
+  },
+  {
+   "form": "ko",
+   "gloss": "water",
+   "reconstructed": false
+  },
+  {
+   "form": "lafken",
+   "gloss": "sea, lake",
+   "reconstructed": false
+  },
+  {
+   "form": "ruka",
+   "gloss": "house",
+   "reconstructed": false
+  },
+  {
+   "form": "kütral",
+   "gloss": "fire",
+   "reconstructed": false
+  },
+  {
+   "form": "antü",
+   "gloss": "sun, day",
+   "reconstructed": false
+  },
+  {
+   "form": "küyen",
+   "gloss": "moon, month",
+   "reconstructed": false
+  },
+  {
+   "form": "wenu",
+   "gloss": "sky, up",
+   "reconstructed": false
+  },
+  {
+   "form": "pillañ",
+   "gloss": "ancestral spirit, thunder",
+   "reconstructed": false
+  },
+  {
+   "form": "wigkul",
+   "gloss": "hill, mountain",
+   "reconstructed": false
+  },
+  {
+   "form": "rüpü",
+   "gloss": "path, road",
+   "reconstructed": false
+  },
+  {
+   "form": "lil",
+   "gloss": "rock, cliff",
+   "reconstructed": false
+  },
+  {
+   "form": "foye",
+   "gloss": "canelo tree (Drimys winteri)",
+   "reconstructed": false
+  },
+  {
+   "form": "ngürü",
+   "gloss": "fox",
+   "reconstructed": false
+  },
+  {
+   "form": "pewen",
+   "gloss": "araucaria (monkey-puzzle) tree, its seed",
+   "reconstructed": false
+  },
+  {
+   "form": "mamüll",
+   "gloss": "wood, tree trunk",
+   "reconstructed": false
+  }
+ ],
+ "worked_examples": [
+  {
+   "english": "River Stew",
+   "name": "Leufü Ko",
+   "gloss": "leufü 'river' + ko 'water'; modifier before head, conventionally a river-water broth"
+  },
+  {
+   "english": "Fire House",
+   "name": "Kütral Ruka",
+   "gloss": "kütral 'fire' + ruka 'house'; modifier-head compound"
+  },
+  {
+   "english": "People of the Land",
+   "name": "Mapuche",
+   "gloss": "mapu 'land' + che 'people'; well-attested compound"
+  },
+  {
+   "english": "Lake Path",
+   "name": "Lafken Rüpü",
+   "gloss": "lafken 'lake/sea' + rüpü 'path'; modifier-head"
+  },
+  {
+   "english": "Place of the Pewen Tree",
+   "name": "Pewentu",
+   "gloss": "pewen 'araucaria' + -tu 'place of/do'; derivational suffix"
+  },
+  {
+   "english": "House of the Sun",
+   "name": "Antü Ruka",
+   "gloss": "antü 'sun' + ruka 'house'; possessor before possessed"
+  }
+ ],
+ "allowed_graphemes": [
+  "a",
+  "e",
+  "i",
+  "o",
+  "u",
+  "ü",
+  "ch",
+  "d",
+  "f",
+  "k",
+  "l",
+  "ll",
+  "m",
+  "n",
+  "ng",
+  "ñ",
+  "p",
+  "r",
+  "s",
+  "t",
+  "tr",
+  "th",
+  "w",
+  "y"
+ ],
+ "extra_allowed_chars": " -'",
+ "forbidden_patterns": [
+  "[bcgjqvxz]",
+  "h(?!)",
+  "(?<![ct])h",
+  "kk",
+  "ss",
+  "(?<![nt])g",
+  "[aeiouü]{3}",
+  "^[^aeiouü ]{3}"
+ ],
+ "syllables_per_word": [
+  2,
+  4
+ ],
+ "max_word_length": 14,
+ "sources": [
+  "Salas, Adalberto. El mapuche o araucano (1992)",
+  "Smeets, Ineke. A Grammar of Mapuche (2008)",
+  "Sadowsky, Scott et al. 'Mapudungun' in Illustration of the IPA, JIPA 43 (2013)",
+  "Augusta, Fray Félix José de. Diccionario araucano-español (1916)",
+  "Golluscio, Lucía. El mapudungun: una lengua en peligro (2006)",
+  "Dillehay, Tom D. Monte Verde: A Late Pleistocene Settlement in Chile (1989, 1997)",
+  "Glottolog entry for Mapudungun",
+  "ASJP database"
+ ],
+ "notes": "Speculative proxy: no linguistic evidence ties the Monte Verde II foragers (c. 14.5 ka) to Mapudungun; the choice reflects regional plausibility and available documentation. Since the culture is not Goidelic, no generated word may be identical to a Modern Irish, Scottish Gaelic or Manx word. The 'h' forbidden pattern allows only ch, th, sh digraphs. The ASCII/Latin 'g' is allowed only in ng. Current game strings with initial 'z' and 'h' (e.g. Zihuw, Zug) should be reworked: use d or z only if the chosen orthography (Azümchefe) is adopted and avoid 'hu'.",
+ "unit": "Monte Verde II",
+ "slug": "monte_verde_ii",
+ "model": "claude-sonnet-5-5"
+}

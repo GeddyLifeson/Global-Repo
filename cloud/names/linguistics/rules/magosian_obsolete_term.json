@@ -1,0 +1,193 @@
+{
+ "proxy_language": "Proto-Bantu (Common Bantu), reconstructed, as a low-confidence areal proxy; with the caveat that Nilotic and Cushitic (and Khoisan-like) alternatives are equally defensible for Late Pleistocene Uganda/Kenya",
+ "confidence": "speculative",
+ "proxy_rationale": "'Magosian' (Uganda, Magosi site, Karamoja; Wayland and Burkitt 1920s-30s) is an obsolete label for a late Pleistocene industry with microliths, roughly the Later Stone Age transition (c. 20-12 kya in the older literature, now largely abandoned). No language of the makers is recoverable. The region is today Bantu (Luganda, Runyoro, Gikuyu), Nilotic (Karamojong, Luo, Maasai) and Cushitic territory, all arrivals of the last 4,000 years; the earlier population is unknown, possibly related to Khoe-Kwadi/Sandawe/Hadza-like or extinct lineages. Any proxy is anachronistic by 10,000+ years. Proto-Bantu is chosen only as a convenient, well-reconstructed, euphonious system (open CV syllables) that fits the region's modern linguistic landscape and gives names a plausible East African sound, and is NOT claimed to be the Magosian language. The current game names (qiqok, qimangu, Qiqmokka) use q as a stop, which has no basis in Bantu and is replaced here by k/g.",
+ "phonology": "Proto-Bantu (Bantu Reconstructions, Meeussen 1967; Bastin et al.): 7-vowel system *i *e *a *o *u plus very close vowels *\\u012b/*\\u0169 (often written i, u with length); consonants *p *t *c *k, *b *d *j *g, *m *n *\\u00f1 *\\u014b, *s *y *w, with nasal+stop prenasalized clusters (mb, nd, nj, ng) and later *l/*r allophony. Vowel length contrastive in some roots. Tone: high/low, not written.",
+ "phonotactics": "Strictly open syllables: (N)CV, V. Word-final consonants never occur; every word ends in a vowel. Clusters only as prenasalized C (mb nd ng nj nt nk mp) or C+glide (Cw, Cy). No consonant clusters otherwise, no coda consonants. Noun stems typically CVCV or CVCVCV; monosyllabic CV stems exist for some nouns.",
+ "orthography": "Standard Bantuist transliteration without IPA specials: a e i o u; b d g j k l m n p s t w y; mb nd ng nj nk nt mp; ny for the palatal nasal; diacritics and q, x, c, h, v, z, f, r avoided. Class prefixes written attached; hyphen allowed before the stem in glosses, and apostrophe for 'ng' marking omitted. Reconstructions are written with an asterisk in scholarly notation but names are written plain.",
+ "morphology": "Agglutinative, noun-class system. Noun = class prefix + root: 1/2 mu-/ba- (person), 3/4 mu-/mi- (tree, plant, natural entity), 5/6 di-/ma- (large things, liquids ma-), 7/8 ki-/bi- (tools, manner, diminutive), 9/10 N-/N- (animals, general), 11 du-/lu- (long thin things), 12/13 ka-/tu- (diminutive), 14 bu- (abstract, mass, quality), 15 ku- (infinitive), 16-18 pa-/ku-/mu- (locatives). Verb: subject-tense-root-extension-final vowel (-a). Agent nouns by class 1 mu- + verb root -i/-a (mu-bumb-i). Deverbal tool/means nouns in ki- + root-o or -i.",
+ "compounding": "No genuine compounding; the Bantu equivalent is the associative construction head + connective -a (agreeing with the head's class) + dependent: e.g. ki-tu kya mu-ti 'thing of tree'. Connective forms: class 3 gwa, 5 lya, 6 ga, 7 kya, 9 ya, 11 lwa, 12 ka, 14 bwa, 16 pa, 18 mwa. For 'X-maker' use mu- + verb + -i, or mu-ntu wa X. For place names use locative prefixes (ku-, mu-, pa-) or class 14 bu- + stem, or class 5 di- + stem for large features.",
+ "noun_phrase_order": "Head noun first, then modifiers: Noun + associative (-a + Noun) + adjective (class-agreeing) + possessive/demonstrative. E.g. mu-ntu mu-kulu 'old person'; ma-di ga mu-ti 'water of the tree'. Adjectives agree in class with the head.",
+ "attested_roots": [
+  {
+   "form": "*-t\\u00ec",
+   "gloss": "tree, wood",
+   "reconstructed": true
+  },
+  {
+   "form": "*-j\\u00ecdà",
+   "gloss": "water (in ma-: *ma-j\\u00ecd\\u00e0, plural 6)",
+   "reconstructed": true
+  },
+  {
+   "form": "*-j\\u00f9b\\u00e1",
+   "gloss": "sun, heat",
+   "reconstructed": true
+  },
+  {
+   "form": "*-\\u0144\\u00ecmb\\u00e1",
+   "gloss": "hut, house (n-jumba)",
+   "reconstructed": true
+  },
+  {
+   "form": "*-k\\u00e1d\\u00ec",
+   "gloss": "woman, wife",
+   "reconstructed": true
+  },
+  {
+   "form": "*-kúmù",
+   "gloss": "chief, leader",
+   "reconstructed": true
+  },
+  {
+   "form": "*-j\\u00f3g\\u00f2",
+   "gloss": "elephant (n-jogu)",
+   "reconstructed": true
+  },
+  {
+   "form": "*-kòndò",
+   "gloss": "cattle (later)",
+   "reconstructed": true
+  },
+  {
+   "form": "*-bádò",
+   "gloss": "bone",
+   "reconstructed": true
+  },
+  {
+   "form": "*-gùdù",
+   "gloss": "leg, foot",
+   "reconstructed": true
+  },
+  {
+   "form": "*-pànjá",
+   "gloss": "road, path (n-p\\u00e1nj\\u00e1)",
+   "reconstructed": true
+  },
+  {
+   "form": "*-bògò",
+   "gloss": "stone, flint, rock (ma-bwe in daughters)",
+   "reconstructed": true
+  },
+  {
+   "form": "*-jàngá",
+   "gloss": "fire (m-oto in many daughters; *-jàngá attested in some)",
+   "reconstructed": true
+  },
+  {
+   "form": "*-dìmà",
+   "gloss": "to dig, cultivate",
+   "reconstructed": true
+  },
+  {
+   "form": "*-gòmbé",
+   "gloss": "cattle, cow",
+   "reconstructed": true
+  },
+  {
+   "form": "*-n\\u00e1m\\u00e1",
+   "gloss": "animal, meat",
+   "reconstructed": true
+  }
+ ],
+ "worked_examples": [
+  {
+   "english": "River Stew",
+   "name": "Kabalu mbisa",
+   "gloss": "ka-bal-u (diminutive pot) + mbisa (relish/stew); simple CV open syllables, kitchen term"
+  },
+  {
+   "english": "Temple of the Sun",
+   "name": "Nyumba ya juba",
+   "gloss": "n-yumba (house, class 9) + ya (class 9 connective 'of') + juba (sun)"
+  },
+  {
+   "english": "Stone Blade",
+   "name": "Kibogo kya mpiko",
+   "gloss": "ki-bogo (stone, class 7) + kya (class 7 connective) + mpiko (blade, class 9)"
+  },
+  {
+   "english": "Elephant Hunter",
+   "name": "Mujogi",
+   "gloss": "mu- (class 1 person) + jog- (elephant/hunt) + -i (agent suffix)"
+  },
+  {
+   "english": "Great Lake",
+   "name": "Dilanga dikulu",
+   "gloss": "di-langa (large body of water, class 5) + di-kulu (great, class 5 agreement)"
+  },
+  {
+   "english": "Place of Fire",
+   "name": "Kunjanga",
+   "gloss": "ku- (locative class 17) + n-janga (fire, class 9); place at the fire"
+  }
+ ],
+ "allowed_graphemes": [
+  "a",
+  "e",
+  "i",
+  "o",
+  "u",
+  "b",
+  "d",
+  "g",
+  "j",
+  "k",
+  "l",
+  "m",
+  "n",
+  "p",
+  "s",
+  "t",
+  "w",
+  "y",
+  "mb",
+  "nd",
+  "ng",
+  "nj",
+  "nk",
+  "nt",
+  "mp",
+  "ny",
+  "ku",
+  "ki",
+  "ka",
+  "mu",
+  "ma",
+  "di",
+  "bu"
+ ],
+ "extra_allowed_chars": " -",
+ "forbidden_patterns": [
+  "q",
+  "x",
+  "c",
+  "f",
+  "h",
+  "v",
+  "z",
+  "r",
+  "[bcdfghjklmnpqrstvwxyz]{3,}",
+  "[bdgjklpstwy][bcdfghjklmnpqrstvwxyz]",
+  "[bcdfghjklmnpqrstvwxyz]$",
+  "[aeiou]{3,}"
+ ],
+ "syllables_per_word": [
+  2,
+  3,
+  4
+ ],
+ "max_word_length": 14,
+ "sources": [
+  "Meeussen, A.E. Bantu Grammatical Reconstructions, 1967",
+  "Bastin, Coupez, Mann: Bantu Lexical Reconstructions 3 (BLR3), Tervuren",
+  "Nurse and Philippson (eds.), The Bantu Languages, 2003",
+  "Wayland, E.J. and Burkitt, M.C., 'The Magosian Culture of Uganda', 1932",
+  "Glottolog and Wiktionary Proto-Bantu reconstruction pages",
+  "Ehret, C. History and the Testimony of Language, 2011"
+ ],
+ "notes": "Strictly speculative: the Magosian label is obsolete and its makers' language is unknown; Proto-Bantu is a stylistic proxy, anachronistic by many millennia. Do not present it as the actual language. Names should be open-syllable, vowel-final, class-prefixed, with associative -a constructions for 'X of Y'. Avoid q entirely. No word may be identical to a Modern Irish, Scottish Gaelic or Manx word.",
+ "unit": "Magosian (obsolete term)",
+ "slug": "magosian_obsolete_term",
+ "model": "claude-sonnet-5-5"
+}

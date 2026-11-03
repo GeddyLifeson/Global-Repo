@@ -1,0 +1,183 @@
+{
+ "proxy_language": "Classical Nahuatl (Aztec/Mexica of Tenochtitlan, c. 1428-1521 CE)",
+ "confidence": "high",
+ "proxy_rationale": "The 'Fifth Sun' (Nahui Ollin, Ollin Tonatiuh) is the Mexica cosmological era; the court of Tenochtitlan spoke Classical Nahuatl, which is richly attested in Colonial-era alphabetic texts (Florentine Codex, Cantares Mexicanos, Bancroft Dialogues) and dictionaries (Molina 1571). Names can be built directly in attested Nahuatl.",
+ "phonology": "Consonants: p t k kw (spelled c/qu, cu/uc) ; ts (tz) tl (affricate, spelled tl) ch (tS) ; s (c/z) sh (x) ; m n ; l ; w (hu/uh) ; y ; glottal stop (saltillo, written h or ' in some editions). No b d g f r. Vowels: a e i o, with contrastive length (long macron: ā ē ī ō). Stress penultimate (so no stress marking in names).",
+ "phonotactics": "Syllables (C)V(V:)(C). Onsets are single consonants (tl, tz, ch, qu, cu count as single units). No onset clusters. Codas: single consonant or glottal stop (h); word-final tl/tli/tin/in are absolutive suffixes. Final consonants in words are typically -l, -n, -tl, -h, -c, -z, -x. No vowel-initial restrictions (words can start with a vowel). Hiatus occurs (e.g. cuauh-, tlā-oh-). Penultimate stress is predictable, so no accents are written in standard orthography.",
+ "orthography": "Classical (Carochi/Andrews) orthography in Latin script: c (before a,o)/qu (before e,i) = /k/; cu/uc = /kw/; z (before a,o) / c (before e,i) = /s/; tz = /ts/; tl = /tɬ/; ch; x = /ʃ/; hu/uh = /w/; y; h = glottal stop or aspiration; macrons optional for long vowels (can be dropped). No letters b, d, f, g, j, k, r, v in native words. Final -tl, -tli, -li, -in are absolutive suffixes of nouns.",
+ "morphology": "Polysynthetic-leaning, agglutinative; head-final in nominal compounds. Nouns: absolutive suffixes (-tl, -tli, -li, -in; or -0 after consonant stems in a few cases), plural -meh / -tin / reduplication in animates. Possessed nouns lose absolutive and take possessive prefixes (no- my, mo- your, i- his/her, to- our, in/im- their) plus -uh/-huh or -0 suffixes. Verbs: obligatory subject prefix (ni- I, ti- you/we, 0- he/she), object prefixes (k-/qui-, tē- someone, tla- something), tense suffixes, directionals (-ti-, -ko). Reduplication marks plurals and diminutives (e.g. tlācatl -> tlahtlācah). Locative suffixes: -c, -co, -tlan, -tla, -pan, -nahuac, -tzinco. Diminutive/honorific -tzin (reverential, essential on court titles). Agentive nouns: tla-...-ni or -qui, -ni (e.g. tlaquimilolli). Adjectival nouns: -tic, -ac. Relational nouns: -tech, -nahuac, -pan, -tlan.",
+ "compounding": "Compound nouns are head-final: modifier + head with the modifier stripped of its absolutive suffix (atl + tepetl -> altepetl 'city (water-hill)'). 'X of Y' names are formed either by (a) compounding Y-X (xōchi-cihuātl 'flower woman'), or by (b) possessive construction: possessor + possessed with possessive prefix i- (Tōnatiuh itēcpan?), or (c) locative suffixes: Y-tlan 'place of Y', Y-co 'in/at Y', Y-pan 'on Y', Y-tlān 'near/among Y'. Place names: Y-tlan / Y-co / Y-pan / Y-tepēc 'at the hill of Y'. Occupational names: tla- + object + -ni (maker). Divine names: noun + adjective compounds (Huītzilōpōchtli = hummingbird + left; Tezcatlipoca = smoking mirror; Quetzalcōātl = quetzal-feather serpent).",
+ "noun_phrase_order": "Modifier before head (adjective/modifier + noun: yancuic calli 'new house'; possessor before possessed: nicān mo-tlaxcal 'here is your tortilla'). Genitive constructions are possessor-possessed: tlahtoāni icalli 'the ruler's house'. Numerals precede nouns. Relational nouns follow the noun they govern (tēpan 'on the hill' = tepētl-pan).",
+ "attested_roots": [
+  {
+   "form": "tōnatiuh",
+   "gloss": "sun, day, warmth",
+   "reconstructed": false
+  },
+  {
+   "form": "citlalin",
+   "gloss": "star",
+   "reconstructed": false
+  },
+  {
+   "form": "mētztli",
+   "gloss": "moon",
+   "reconstructed": false
+  },
+  {
+   "form": "atl",
+   "gloss": "water",
+   "reconstructed": false
+  },
+  {
+   "form": "tepētl",
+   "gloss": "mountain, hill",
+   "reconstructed": false
+  },
+  {
+   "form": "calli",
+   "gloss": "house",
+   "reconstructed": false
+  },
+  {
+   "form": "xōchitl",
+   "gloss": "flower",
+   "reconstructed": false
+  },
+  {
+   "form": "cuāuhtli",
+   "gloss": "eagle",
+   "reconstructed": false
+  },
+  {
+   "form": "ocēlōtl",
+   "gloss": "jaguar",
+   "reconstructed": false
+  },
+  {
+   "form": "cōātl",
+   "gloss": "serpent",
+   "reconstructed": false
+  },
+  {
+   "form": "quetzalli",
+   "gloss": "quetzal feather; precious",
+   "reconstructed": false
+  },
+  {
+   "form": "chālchihuitl",
+   "gloss": "jade, greenstone",
+   "reconstructed": false
+  },
+  {
+   "form": "teōtl",
+   "gloss": "god; divine",
+   "reconstructed": false
+  },
+  {
+   "form": "tlahtōāni",
+   "gloss": "ruler, speaker",
+   "reconstructed": false
+  },
+  {
+   "form": "tlaxcalli",
+   "gloss": "tortilla",
+   "reconstructed": false
+  },
+  {
+   "form": "nāhui ōllin",
+   "gloss": "Four Movement (name of the Fifth Sun)",
+   "reconstructed": false
+  }
+ ],
+ "worked_examples": [
+  {
+   "english": "Temple of the Sun",
+   "name": "Tonatiuh teocalli",
+   "gloss": "tōnatiuh (sun) + teō-calli (god-house, temple); modifier before head"
+  },
+  {
+   "english": "Jade Serpent",
+   "name": "Chalchicoatl",
+   "gloss": "chālchi(huitl) (jade) + cōātl (serpent); modifier stripped of absolutive"
+  },
+  {
+   "english": "Eagle Mountain / Place of Eagles",
+   "name": "Cuauhtlan",
+   "gloss": "cuāuh(tli) (eagle) + -tlan (place of / near)"
+  },
+  {
+   "english": "Water-Hill (city)",
+   "name": "Altepetl",
+   "gloss": "a(tl) (water) + tepē(tl) (hill); standard Nahuatl idiom for 'city-state'"
+  },
+  {
+   "english": "Quetzal Flower",
+   "name": "Quetzalxochitl",
+   "gloss": "quetzal(li) (precious feather) + xōchi(tl) (flower)"
+  },
+  {
+   "english": "House of the Jaguar",
+   "name": "Ocelocalli",
+   "gloss": "ocēlō(tl) (jaguar) + calli (house); modifier + head compound"
+  }
+ ],
+ "allowed_graphemes": [
+  "a",
+  "e",
+  "i",
+  "o",
+  "ch",
+  "c",
+  "qu",
+  "cu",
+  "uc",
+  "z",
+  "tz",
+  "tl",
+  "x",
+  "hu",
+  "uh",
+  "h",
+  "y",
+  "m",
+  "n",
+  "l",
+  "p",
+  "t",
+  "ll"
+ ],
+ "extra_allowed_chars": " -'ā ē ī ō",
+ "forbidden_patterns": [
+  "[bdfgjkrv]",
+  "[wq](?!u)",
+  "[aeiou]{3,}",
+  "tl[^aeiouāēīō ]",
+  "(?<![aeiou])[nmlpt]{2,}",
+  "ss",
+  "zz",
+  "xx",
+  "tt",
+  "pp",
+  "kk"
+ ],
+ "syllables_per_word": [
+  2,
+  5
+ ],
+ "max_word_length": 18,
+ "sources": [
+  "Andrews, J. Richard, Introduction to Classical Nahuatl (rev. ed., 2003)",
+  "Karttunen, Frances, An Analytical Dictionary of Nahuatl (1983)",
+  "Molina, Alonso de, Vocabulario en lengua castellana y mexicana y mexicana y castellana (1571)",
+  "Launey, Michel, An Introduction to Classical Nahuatl (2011)",
+  "Sahagun, Bernardino de, Florentine Codex (ed. Anderson and Dibble, 1950-1982)",
+  "Lockhart, James, The Nahuas After the Conquest (1992)",
+  "Carochi, Horacio, Arte de la lengua mexicana (1645)",
+  "Glottolog: Classical Nahuatl (nucl1330)"
+ ],
+ "notes": "No word may be identical to a Modern Irish, Scottish Gaelic or Manx word unless the language is Goidelic; Nahuatl is not Goidelic, so avoid any Goidelic lookalikes. Avoid b d f g j k r v in native-style names (the current game strings Tiyeh, Viqote, Nihyaza violate this: v, q without u, and non-Nahuatl shapes). Use the absolutive suffix -tl/-tli/-li/-in only when the word stands alone; strip it inside compounds. Use -tzin for reverential/court titles (tlahtoani -> Tlatoani, Motecuhzoma Xocoyotzin). Nahuatl spelling of 'cu' = /kw/, 'qu' = /k/ before e/i. Avoid inventing Spanish-sounding endings.",
+ "unit": "The Fifth-Sun Court",
+ "slug": "the_fifth_sun_court",
+ "model": "claude-sonnet-5-5"
+}

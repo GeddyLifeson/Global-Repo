@@ -1,0 +1,189 @@
+{
+ "proxy_language": "Proto-Samic (with Proto-Uralic / Proto-Finno-Samic as deeper background); Komsa is a Final Palaeolithic–Early Mesolithic (c. 10,000–8,000 BP) coastal hunter-fisher culture of Finnmark, whose actual language is unknown and probably not Uralic",
+ "confidence": "speculative",
+ "proxy_rationale": "The Komsa people (Finnmark, N Norway, post-glacial coastal settlement) left no linguistic evidence. Their language is unrecoverable and may well have been unrelated to any later language; Uralic is generally thought to have arrived in the region much later. Proto-Samic (Sammallahti 1998; Aikio's work on Saami substrate and the 'Palaeo-Laplandic' pre-Uralic substrate) is the most defensible regional proxy because it is the earliest reconstructable language of the area and preserves layers of non-Uralic, non-Indo-European substrate vocabulary for fauna, landscape, and coastal terms. This is an evocative regional proxy only, not a claim of descent.",
+ "phonology": "Proto-Samic (Sammallahti/Aikio notation). Vowels: *a *e *i *o *u *ā *ē *ī *ō *ū plus the central/reduced vowel *ë and diphthongs such as *ea *ie *uo *oa in later Samic. Consonants: stops *p *t *k *c (affricate, written c) *č; *s *š *ś *h *v *j; nasals *m *n *ń *ŋ; liquids *l *r; geminates and consonant clusters in medial position; consonant gradation (strong/weak grade) is a defining Samic feature affecting stems. Stress on the first syllable.",
+ "phonotactics": "Native roots are typically disyllabic (C)V(C)CV, i.e. stems of the shape CVCV, CVCCV, CVCVC with a medial single consonant or a cluster/geminate, ending in a vowel (*-ë, *-a, *-e, *-i) in the proto-form; word-final consonants were limited (*-k, *-n, *-m, *-s, *-t in later stages). Initial consonant clusters are absent in native words. Vowel harmony of Uralic stems is reflected in backness patterns (a/o/u vs e/i). Medial clusters like -kt-, -st-, -lk-, -rt-, -ŋk-, -mp- are common.",
+ "orthography": "Latin transliteration in scholarly Samic style: c and č for affricates, š, ž, ŋ, đ only in modern Northern Samic; proto-forms use ē ō ā for long vowels and ë for the reduced vowel. For game names use plain, readable Latin without diacritics except optional macrons: a e i o u plus ā ē ī ō ū, consonants p t k c s š h v j m n ŋ l r. Avoid b d g f z q x w y (foreign to Proto-Samic phonology).",
+ "morphology": "Agglutinative, suffixing. Noun stems vowel-final; plural *-t (Samic nom. pl. -t), genitive/accusative *-n, illative/locative cases (*-s locative, *-k lative, *-j- in diphthongal stems). Derivational suffixes: *-ja/-jē (agent noun, 'one who does'), *-s/-ŋ (nominalizers), *-ne/-nē (diminutive or place), *-lē (instrument/ place), *-ta, *-ma (nominalization). Verbs: first-person *-m, third *-j, infinitive *-t; verbal derivation with *-skē- (frequentative), *-t- (causative). No grammatical gender, no articles.",
+ "compounding": "Head-final: modifier precedes head, with the modifier in a bare stem or genitive in *-n (e.g. Saami boazu-guolli 'reindeer meat'; mearra-guolli 'sea fish'). 'X of Y' = Y-n X (genitive Y, then X) or simple compound Y+X. Agent names: object + verbal stem + agent suffix (e.g. guolle-+ -jē 'fish-catcher'). Place names: noun + locative/'place' suffix, or noun + word for 'fjord/bay/island/hill' (Samic vuotna 'fjord', suolu 'island', čohkka 'peak').",
+ "noun_phrase_order": "Modifier (adjective, genitive noun, numeral) precedes head noun; head-final compounds; no articles. A name such as 'Sea-Seal Camp' is Seal-modifier + Camp-head.",
+ "attested_roots": [
+  {
+   "form": "*ëkta",
+   "gloss": "to be the case / (not secure; omit)",
+   "reconstructed": true
+  },
+  {
+   "form": "*jēŋë",
+   "gloss": "ice, glacier (Proto-Samic *jēŋë; cf. N Sami jiekŋa)",
+   "reconstructed": true
+  },
+  {
+   "form": "*mērë",
+   "gloss": "sea (Proto-Samic *mearra; cf. Fi. meri)",
+   "reconstructed": true
+  },
+  {
+   "form": "*kōlë",
+   "gloss": "fish (Proto-Samic *guolë; cf. Fi. kala)",
+   "reconstructed": true
+  },
+  {
+   "form": "*vētë",
+   "gloss": "water (Proto-Uralic *wete; N Sami čáhci is a different word)",
+   "reconstructed": true
+  },
+  {
+   "form": "*tulē",
+   "gloss": "fire (Proto-Uralic *tuli)",
+   "reconstructed": true
+  },
+  {
+   "form": "*kalë",
+   "gloss": "fish (Proto-Uralic *kala)",
+   "reconstructed": true
+  },
+  {
+   "form": "*jëgë",
+   "gloss": "river (Proto-Uralic *joke)",
+   "reconstructed": true
+  },
+  {
+   "form": "*suoluë",
+   "gloss": "island (Proto-Samic *suolo; cf. N Sami sullo)",
+   "reconstructed": true
+  },
+  {
+   "form": "*vuotnë",
+   "gloss": "fjord, bay (N Sami vuotna)",
+   "reconstructed": true
+  },
+  {
+   "form": "*kivë",
+   "gloss": "stone (Proto-Uralic *kiwe)",
+   "reconstructed": true
+  },
+  {
+   "form": "*poatë",
+   "gloss": "reindeer, tame (Proto-Samic *boacu-like; uncertain)",
+   "reconstructed": true
+  },
+  {
+   "form": "*nuolë",
+   "gloss": "arrow (Proto-Uralic *nuwəlka; uncertain form)",
+   "reconstructed": true
+  },
+  {
+   "form": "*sēmë",
+   "gloss": "sinew, thread (Proto-Uralic *sōne; uncertain)",
+   "reconstructed": true
+  },
+  {
+   "form": "*luotë",
+   "gloss": "north (Proto-Samic *luodē, cf. N Sami luotta)",
+   "reconstructed": true
+  },
+  {
+   "form": "*āhtē",
+   "gloss": "father/ancestor-like term (uncertain)",
+   "reconstructed": true
+  }
+ ],
+ "worked_examples": [
+  {
+   "english": "Seal Camp",
+   "name": "Mērëlota",
+   "gloss": "mērë 'sea' + lota (place/camp, formed by analogy with Samic -lota 'place') = sea-place; illustrative construction, not an attested word"
+  },
+  {
+   "english": "Fish Stew",
+   "name": "Kōlëvēt",
+   "gloss": "kōlë 'fish' + vēt(ë) 'water/broth' = fish-water; modifier-head compound"
+  },
+  {
+   "english": "Place of the Ice",
+   "name": "Jēŋëtalu",
+   "gloss": "jēŋë 'ice' + talu 'house/place' (cf. Uralic *tala-) = ice-place; head-final"
+  },
+  {
+   "english": "Fire-Maker",
+   "name": "Tulëtajē",
+   "gloss": "tulë 'fire' + -tajē agent suffix = fire-doer; derived with agentive *-jē"
+  },
+  {
+   "english": "Stone Island",
+   "name": "Kivësuolu",
+   "gloss": "kivë 'stone' + suolu 'island' = stone-island; modifier + head"
+  },
+  {
+   "english": "Fjord of the North",
+   "name": "Luotënvuotnë",
+   "gloss": "luotë 'north' + -n genitive + vuotnë 'fjord' = north's fjord; genitive modifier + head"
+  }
+ ],
+ "allowed_graphemes": [
+  "a",
+  "e",
+  "i",
+  "o",
+  "u",
+  "ā",
+  "ē",
+  "ī",
+  "ō",
+  "ū",
+  "ë",
+  "p",
+  "t",
+  "k",
+  "c",
+  "č",
+  "s",
+  "š",
+  "h",
+  "v",
+  "j",
+  "m",
+  "n",
+  "ŋ",
+  "l",
+  "r",
+  "ts",
+  "kt",
+  "st",
+  "lk",
+  "rt",
+  "ŋk",
+  "mp"
+ ],
+ "extra_allowed_chars": " -āēīōūëčšŋ",
+ "forbidden_patterns": [
+  "[bdgfzqxwy]",
+  "^[^aeiouāēīōūë]{2}",
+  "(.)\\1\\1",
+  "[aeiouāēīōūë]{3}"
+ ],
+ "syllables_per_word": [
+  2,
+  3,
+  4
+ ],
+ "max_word_length": 14,
+ "sources": [
+  "Sammallahti, Pekka. The Saami Languages: An Introduction (1998)",
+  "Aikio, Ante. 'An essay on substrate studies and the origin of Saami' (2004) and 'The Palaeo-Laplandic substrate hypothesis' (2012)",
+  "Lehtiranta, Juhani. Yhteissaamelainen sanasto (1989)",
+  "Álgu database (Samic etymology)",
+  "Sammallahti, Pekka. Saami-English dictionary / Sámi-suoma sátnegirji",
+  "Uralonet / Uralic Etymological Dictionary (Sammallahti, Janhunen, Aikio)",
+  "Starling database, Uralic etymologies",
+  "Glottolog: Samic subgroup",
+  "Wiktionary Proto-Samic and Proto-Uralic reconstruction pages",
+  "Hesjedal, Anita et al. on Komsa archaeology (Komsa culture overview)"
+ ],
+ "notes": "Komsa is known only from stone tools and coastal sites in Finnmark; its language is genuinely unknown and may be pre-Uralic and unrelated to any later language, so all forms here are speculative Proto-Samic/Proto-Uralic-flavoured constructions rather than Komsa words. Several roots above are tagged uncertain in the glosses (the first entry '*ëkta' is a placeholder and should be discarded by the name builder). Names should be built in the Proto-Samic phonotactic style: disyllabic/trisyllabic, vowel-final, first-syllable stress, no initial clusters, head-final compounds with optional genitive -n. No word may be identical to a Modern Irish, Scottish Gaelic or Manx word.",
+ "unit": "Komsa culture",
+ "slug": "komsa_culture",
+ "model": "claude-sonnet-5-5"
+}

@@ -1,0 +1,199 @@
+{
+ "proxy_language": "Japanese (Late Edo to Meiji period, with Thai/Siamese as a secondary court-language layer for the Siam strand)",
+ "confidence": "low",
+ "proxy_rationale": "'Oilen-nuod' is not an attested ethnonym or language name. The region 'Japan, Siam, treaty ports' and the later-court kind point to the 19th-century treaty-port world (Bakumatsu/Meiji Japan, Rattanakosin Siam after the Bowring Treaty of 1855, Yokohama/Kobe/Bangkok). The existing game strings contain the Japanese genitive particle 'no' (Guge no mizog), so Japanese is the best-supported primary proxy, with Siamese (Thai) as an optional second layer. The existing names themselves are not sound Japanese or Thai and are only a rough hint at the intended flavour. The Japanese proxy is well attested (high for Japanese itself) but the link to this specific culture is weak because the culture label is constructed.",
+ "phonology": "Japanese: 5 vowels /a i u e o/ with phonemic length (a, i, u, e, o vs. long forms written with macron or doubled vowel). Consonants: p b t d k g, s z (+ sh, j, ch, ts), h (+ f before u), m n, r (a flap), w, y, plus moraic nasal N and moraic obstruent Q (geminates). Pitch accent, not stress, so no effect on spelling. Siamese layer (optional): 5-tone system, aspirated vs. unaspirated stops (p ph t th k kh), final stops -p -t -k, final nasals -m -n -ng, vowel length contrast; tones are normally omitted in simple Romanization.",
+ "phonotactics": "Japanese: syllable (mora) shapes (C)(y)V, V, CV, Cy+V (kya, kyu, kyo, sha, shu, sho, cha, chu, cho, ja, ju, jo, nya, hya, rya, etc.), plus moraic n and the first half of a geminate (kk, ss, tt, pp, tch/ss etc.). No consonant clusters apart from n + C and geminates; words end in a vowel or n. No syllable-initial l, v, x, q; r is the liquid. si/ti/tu/hu/zi/di/du are written shi, chi, tsu, fu, ji (ji/zu for di/du). Native words do not begin with r (loans from Sino-Japanese may). Siamese layer: CV, CVC with final -p -t -k -m -n -ng only, initial clusters of stop/f + r/l (kr, kl, pr, pl, tr, kw, khw), final vowels of any length.",
+ "orthography": "Modified Hepburn Romanization (long vowels as macrons ō ū or, in plain ASCII, oh/ou/uu; moraic n written n, before b/m/p as n by Modified Hepburn; the particle は read wa written wa, the genitive の written no, the topic/object particles wo/o). Spaces separate content words and particles in name strings ('Fuji no yama'). For a Siamese layer, use the Royal Thai General System of Transcription (RTGS): ph th kh ch ng, aa/ii/uu are reduced to a/i/u in RTGS, vowels ae, oe, ue, ai, ao, etc.",
+ "morphology": "Japanese is agglutinative, SOV, head-final. Nouns are uninflected; case marked by following particles: ga (subject), no (genitive/attributive), wo/o (object), ni (dative/locative), de (locus of action/means), to (comitative), he/e (direction), kara (from), made (until). Native (wago) roots are often 2 to 3 morae (kawa, yama, hana, mizu, kami); Sino-Japanese (kango) roots are typically 1 to 2 morae each, written in on'yomi (suiban, ten, sen, fu, ken, kō). Verbs take stem forms; the continuative (renyōkei) stem can function as a nominal (tsuri 'fishing', kaeri 'return', hakobi 'carrying'). Rendaku (sequential voicing) occurs at the second element of many native compounds (kami + kaze -> kamikaze; yama + tera -> yamadera; hi + hana -> hibana).",
+ "compounding": "Compounds are right-headed: modifier + head (yama-dera 'mountain temple', kawa-bune 'river boat', tsuki-mi 'moon-viewing'). Kango compounds likewise left-modifier, right-head, in Chinese order (kōsen 'iron ship', tetsu 'iron' + sen 'ship'; kōkaijo 'port facility'). Genitive phrases use no: 'Temple of the Sun' = Hi no tera / Nichi no ji (or the Sino-Japanese compound Nichiji); 'X of Y' = Y no X. Agentive 'Y-maker/-er': verb-stem + te/ya/shi/ka or noun + ya ('shop/seller') or -shi ('master'): sake-ya 'sake dealer', kaji-ya 'smith', ue-ki-ya 'gardener'. Place names: element + head (-machi town, -kō port, -minato harbor, -hama beach, -shima island, -zaki cape, -jō castle, -dera/-ji temple, -jinja shrine, -yama mountain). Siamese layer, if used: head-initial genitive and noun-modifier order (ban 'house' + mueang 'city'; wat 'temple' + pho 'banyan' -> Wat Pho; nam 'water' + tok 'fall' -> namtok).",
+ "noun_phrase_order": "Japanese: modifier, then head, strictly head-final (akai hana 'red flower'; chiisai fune 'small boat'; Y no X genitive; relative clauses precede their head). Demonstrative and numeral precede the noun (kono fune, mittsu no fune). Siamese layer: head-initial (noun + adjective: ruea yai 'big boat'; noun + demonstrative; classifier phrases noun-number-classifier).",
+ "attested_roots": [
+  {
+   "form": "yama",
+   "gloss": "mountain",
+   "reconstructed": false
+  },
+  {
+   "form": "kawa",
+   "gloss": "river",
+   "reconstructed": false
+  },
+  {
+   "form": "umi",
+   "gloss": "sea",
+   "reconstructed": false
+  },
+  {
+   "form": "minato",
+   "gloss": "harbor, port",
+   "reconstructed": false
+  },
+  {
+   "form": "fune",
+   "gloss": "ship, boat",
+   "reconstructed": false
+  },
+  {
+   "form": "hi",
+   "gloss": "sun, fire, day",
+   "reconstructed": false
+  },
+  {
+   "form": "tsuki",
+   "gloss": "moon, month",
+   "reconstructed": false
+  },
+  {
+   "form": "hana",
+   "gloss": "flower",
+   "reconstructed": false
+  },
+  {
+   "form": "mizu",
+   "gloss": "water",
+   "reconstructed": false
+  },
+  {
+   "form": "kami",
+   "gloss": "god, deity",
+   "reconstructed": false
+  },
+  {
+   "form": "tera",
+   "gloss": "Buddhist temple",
+   "reconstructed": false
+  },
+  {
+   "form": "shiro",
+   "gloss": "castle",
+   "reconstructed": false
+  },
+  {
+   "form": "kaze",
+   "gloss": "wind",
+   "reconstructed": false
+  },
+  {
+   "form": "hama",
+   "gloss": "beach, seashore",
+   "reconstructed": false
+  },
+  {
+   "form": "tetsu",
+   "gloss": "iron",
+   "reconstructed": false
+  },
+  {
+   "form": "nami",
+   "gloss": "wave",
+   "reconstructed": false
+  }
+ ],
+ "worked_examples": [
+  {
+   "english": "Temple of the Sun",
+   "name": "Hi no tera",
+   "gloss": "hi (sun) + no (GEN) + tera (temple)"
+  },
+  {
+   "english": "River Stew",
+   "name": "Kawa nabe",
+   "gloss": "kawa (river) + nabe (stew pot) in modifier-head order"
+  },
+  {
+   "english": "Harbor of the Moon",
+   "name": "Tsuki no minato",
+   "gloss": "tsuki (moon) + no (GEN) + minato (harbor)"
+  },
+  {
+   "english": "Iron Ship",
+   "name": "Tessen",
+   "gloss": "tetsu (iron) + sen (ship), Sino-Japanese compound; or native Kurogane no fune"
+  },
+  {
+   "english": "Mountain God",
+   "name": "Yama no kami",
+   "gloss": "yama (mountain) + no (GEN) + kami (god)"
+  },
+  {
+   "english": "Sake-maker",
+   "name": "Sakeya",
+   "gloss": "sake (rice wine) + -ya (shop/dealer)"
+  }
+ ],
+ "allowed_graphemes": [
+  "a",
+  "i",
+  "u",
+  "e",
+  "o",
+  "k",
+  "g",
+  "s",
+  "sh",
+  "z",
+  "j",
+  "t",
+  "ch",
+  "ts",
+  "d",
+  "n",
+  "h",
+  "f",
+  "b",
+  "p",
+  "m",
+  "y",
+  "r",
+  "w",
+  "ky",
+  "gy",
+  "ny",
+  "hy",
+  "by",
+  "py",
+  "my",
+  "ry"
+ ],
+ "extra_allowed_chars": " -'āīūēō",
+ "forbidden_patterns": [
+  "[lqvx]",
+  "c(?!h)",
+  "(?<!n)n(?=[bmp])(?!$)",
+  "(?<!s)h(?=[^aeiouāīūēō])",
+  "[aeiou]{3,}",
+  "(?<![aeiouāīūēō])[ywj](?![aeiouāīūēō])",
+  "si",
+  "ti(?!n)",
+  "tu",
+  "hu",
+  "wu",
+  "yi",
+  "ye",
+  "wi",
+  "we",
+  "[^aeioun]\\b",
+  "(?<!n)[bdgkmprstz]{2,}(?!y)"
+ ],
+ "syllables_per_word": [
+  2,
+  3,
+  4
+ ],
+ "max_word_length": 14,
+ "sources": [
+  "Kindaichi Haruhiko (ed.), Shinmeikai Kokugo Jiten / Daijirin (standard Japanese dictionaries)",
+  "Shibatani Masayoshi, The Languages of Japan, 1990",
+  "Kenkyusha's New Japanese-English Dictionary (any current edition)",
+  "Frellesvig Bjarke, A History of the Japanese Language, 2010",
+  "Vance Timothy J., The Sounds of Japanese, 2008",
+  "Royal Institute of Thailand, Royal Thai General System of Transcription (RTGS), 1999",
+  "Haas Mary R., Thai-English Student's Dictionary, 1964",
+  "Glottolog and ASJP entries for Japanese and Thai"
+ ],
+ "notes": "No word may be identical to a Modern Irish, Scottish Gaelic or Manx word unless the language is Goidelic; this culture is not Goidelic, so the Japanese/Thai-based forms must not coincide with Gaelic words. The culture label 'Oilen-nuod' and the existing game strings (Guge no mizog, Depete no watot, Sotzawi, Fareg, Noheb, Fipot) do not correspond to real Japanese or Thai words (e.g. 'zog', 'watot', 'Fareg', 'Noheb', 'Fipot' break phonotactics), so they should be regenerated from the roots above. Keep Japanese as the base layer and mix Thai only for explicitly Siamese objects (wat, nam, ruea). For the 'treaty ports' flavour, a small number of Meiji-era loan adaptations are authentic (e.g. bīru 'beer', ranpu 'lamp', hoteru 'hotel', kōhī 'coffee', ginkō 'bank'), written with katakana-style long vowels, but treaty-port pidgin should not be invented.",
+ "unit": "Oilen-nuod",
+ "slug": "oilen_nuod",
+ "model": "claude-sonnet-5-5"
+}

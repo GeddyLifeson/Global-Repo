@@ -26,6 +26,7 @@ for n in N:
 def need(n):
     r=list(n['needs'])
     if not n.get('gate') and ai[n['age']]>=1: r.append('gate.'+n['age'])
+    if n.get('station') and n['station'] not in r: r.append(n['station'])
     return r
 for n in N:
     if n.get('gate') and n['makes']!=['gate.'+AG[ai[n['age']]+1]]: E.append(n['id']+': gate node must make gate.<next age>')
@@ -80,16 +81,31 @@ for k in G.get('kept',[]):
         if not ps: E.append(f"kept {k['mod']}: {r} not in graph"); continue
         first=min(ai[p['age']] for p in ps)
         if ai[k['age']]<first: E.append(f"kept {k['mod']} (Age {k['age']}) makes {r} before the graph does (Age {AG[first]}): shortcut, raise its Age gate")
+# stations, not grids
+ST=G.get('stations',{}); FORMS=G.get('forms',{}); SP=tuple(G.get('service_prefixes',[])); rec=[n for n in N if 'item' in n]; grid=0
+for n in rec:
+    f=n.get('form')
+    if f not in FORMS: E.append(f"{n['id']}: item needs a form {sorted(FORMS)}"); continue
+    if f=='quick': grid+=1; continue
+    if n.get('station') not in ST: E.append(f"{n['id']}: station {n.get('station')} not in stations registry")
+    if f=='assembly':
+        k=[r for r in n['needs'] if not r.startswith(SP)]
+        if len(k)>6: E.append(f"{n['id']}: assembly has {len(k)} part inputs; join major parts only (max 6)")
+for r in ST:
+    if r not in prod: E.append(f"station {r}: nothing makes it")
+share=grid/len(rec) if rec else 0
+if share>0.15: E.append(f"crafting-grid recipes are {share:.0%} of item recipes (max 15%): move them onto stations")
 # data pack
 if dp:
-    for f in glob.glob(os.path.join(dp,'data','*','recipe','xmod_*.json')):
+    for f in glob.glob(os.path.join(dp,'data','*','recipe','xmod_*.json'))+glob.glob(os.path.join(dp,'data','*','diaithir_stations','station_recipe','xmod_*.json')):
         j=json.load(open(f,encoding='utf-8')); nid=j.get('_node'); n=byid.get(nid)
         if not n: E.append(f"{f}: _node {nid} not in graph"); continue
         if n.get('item') and j['result']['id']!=n['item']: E.append(f"{f}: result {j['result']['id']} != graph item {n['item']}")
-        for i in j.get('ingredients',[])+[x for r in j.get('pattern',[]) for x in []]:
+        for i in [x if isinstance(x,str) else ('#'+x['tag'] if 'tag' in x else x['item']) for x in j.get('ingredients',[])]:
             if i.startswith('#diaithir:progression/'):
                 t=i[1:]; r=t.split('progression/')[1]
                 if r not in prod: E.append(f"{f}: tag {t} maps to unknown resource {r}")
+print(f"item recipes {len(rec)}, on stations {len(rec)-grid}, crafting grid {grid}")
 print(f"nodes {len(N)}, systems {len(sysn)}, resources {len(prod)}, reached {len(done)}/{len(N)}, win {'REACHABLE' if WIN in done else 'NOT REACHABLE'}")
 if rep:
     print('\nsystem | nodes | first Age | feeds | fed by')

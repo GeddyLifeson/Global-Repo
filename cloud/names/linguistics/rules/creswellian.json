@@ -1,0 +1,178 @@
+{
+ "proxy_language": "Proto-Indo-European (late, as a conventional stand-in) — explicitly NOT the Creswellian language",
+ "confidence": "speculative",
+ "proxy_rationale": "The Creswellian (c. 14,500-12,800 BP; Creswell Crags, Gough's Cave, Kendrick's Cave; backed-blade industry of the Late Magdalenian/Epigravettian sphere in Britain) left no linguistic evidence. Its language is wholly unknown and almost certainly belonged to a family long extinct, since Paleolithic Britain was repopulated after the Last Glacial Maximum from a southwestern European refuge (Magdalenian/Villabruna-cluster ancestry) and Indo-European arrived only millennia later (Bronze Age). No proto-language can be linked to them. Pragmatic fallback for a naming engine: use a reconstructed PIE-style phonology as a neutral, internally consistent, pronounceable stand-in, or alternatively the Vasconic/Basque-like pattern sometimes invoked for Western European hunter-gatherers (also unproven). This answer adopts reconstructed PIE-style roots for hunting/landscape/animal vocabulary because the roots are well documented, while flagging that no Creswellian speaker spoke PIE. Names should be understood as invented-but-plausible, not real Creswellian.",
+ "phonology": "Reconstructed PIE (Fortson/Beekes-style, 3-laryngeal): stops *p *t *k *kʷ (*ḱ), voiced *b *d *g *gʷ, aspirated *bʰ *dʰ *gʰ; fricative *s; sonorants *m *n *l *r *y *w; laryngeals *h1 *h2 *h3; vowels *e *o *a (rare) with long variants; vocalic sonorants *r̥ *l̥ *m̥ *n̥. For a simplified game rendering, drop laryngeals to plain vowels/h and aspirates to plain stops or stop+h.",
+ "phonotactics": "Roots are typically CeC(C) with e-grade vowel (e.g. *dʰeh1-, *h2ner-, *ḱwon-). Syllable shapes (C)(C)V(C)(C); onset clusters of s+stop and stop+liquid/sonorant allowed (str-, pl-, kr-, tw-); no vowel-initial roots in the simplified rendering except with h. Codas are sonorants, s, or stops. Words end in a stem vowel, sonorant, s, or m (nominative -s, accusative -m). Stress/ablaut (e/o/zero grade) alters vowel but is not spelled beyond the e/o alternation.",
+ "orthography": "Simplified Latin transliteration of PIE reconstruction notation: plain letters p t k g b d s m n l r w y h a e o i u; use 'kw' for *kʷ, 'gh/dh/bh' for aspirates, 'h' for any laryngeal; omit asterisk and diacritics in names (macrons optional for long vowels); no c, q, x, z, f, v, j.",
+ "morphology": "Inflecting, root-and-suffix. Nouns: root + thematic vowel (-o-/-e-) + case ending (nom. -s, acc. -m, gen. -os/-es/-so, loc. -i, instr. -bʰi); genders masc/fem/neut (fem often -eh2 > -a). Verbs: root + tense/aspect suffixes. Derivation by suffixes: -ent-/-nt- participle/agent, -tor- agent noun, -men-/-mn̥ result noun, -ti- action noun, -ilo-/-lo- diminutive/tool, -eh2 collective/feminine, -yo- adjective/belonging. Reduplication in intensive and present stems (e.g. *dʰe-dʰeh1-).",
+ "compounding": "PIE compounds are head-final: modifier + head, linked by a thematic -o- (e.g. *wl̥kʷo-, name-style compounds like *h2ner-ḱlewes). 'X of Y' is best rendered as a genitive: Y-gen + X (or Y-yo- adjective + X). Agent names: object + agentive (*deh3-tor- 'giver'; 'Y-maker' = Y-o-dʰeh1-s 'Y-doer'). Names of two-element bahuvrihi type (e.g. 'Red-Antler') = adjective-o + noun.",
+ "noun_phrase_order": "Adjective before noun and agreeing in case/number/gender; genitive before head noun (Possessor-gen Head), though postposed forms exist; demonstratives precede noun. In simple names: Modifier + Head.",
+ "attested_roots": [
+  {
+   "form": "h2erḱ-",
+   "gloss": "bear (*h2ŕ̥tḱos, from root)",
+   "reconstructed": true
+  },
+  {
+   "form": "wl̥kʷos",
+   "gloss": "wolf",
+   "reconstructed": true
+  },
+  {
+   "form": "ḱwon-",
+   "gloss": "dog",
+   "reconstructed": true
+  },
+  {
+   "form": "h1ekwos",
+   "gloss": "horse",
+   "reconstructed": true
+  },
+  {
+   "form": "h1elh1en-",
+   "gloss": "deer, hind",
+   "reconstructed": true
+  },
+  {
+   "form": "ǵʰans-",
+   "gloss": "goose",
+   "reconstructed": true
+  },
+  {
+   "form": "h2ewi-",
+   "gloss": "bird",
+   "reconstructed": true
+  },
+  {
+   "form": "h2ŕ̥ǵ-",
+   "gloss": "white, bright, silver",
+   "reconstructed": true
+  },
+  {
+   "form": "h2ekʷeh2",
+   "gloss": "water",
+   "reconstructed": true
+  },
+  {
+   "form": "sh2wel-",
+   "gloss": "sun",
+   "reconstructed": true
+  },
+  {
+   "form": "kerh2-",
+   "gloss": "horn, head, antler",
+   "reconstructed": true
+  },
+  {
+   "form": "peh2wr̥",
+   "gloss": "fire",
+   "reconstructed": true
+  },
+  {
+   "form": "dʰeǵʰom",
+   "gloss": "earth, ground",
+   "reconstructed": true
+  },
+  {
+   "form": "kʷel-",
+   "gloss": "to turn, wheel; also cattle-related",
+   "reconstructed": true
+  },
+  {
+   "form": "h2eǵ-",
+   "gloss": "to drive, lead",
+   "reconstructed": true
+  },
+  {
+   "form": "ped-",
+   "gloss": "foot",
+   "reconstructed": true
+  }
+ ],
+ "worked_examples": [
+  {
+   "english": "Wolf Cave",
+   "name": "Wlkwos ghrom",
+   "gloss": "wlkw-os 'wolf' + ghrom (cave/hollow, schematic); head-final modifier + head"
+  },
+  {
+   "english": "River of the Horse",
+   "name": "Ekwos akweh",
+   "gloss": "ekw-os 'horse' (gen. -os) + akweh 'water' (genitive precedes head)"
+  },
+  {
+   "english": "Bear Hunter",
+   "name": "Artkotor",
+   "gloss": "artk- 'bear' + -o- linker + -tor agent suffix; Object+Agent"
+  },
+  {
+   "english": "White Antler",
+   "name": "Argos keras",
+   "gloss": "arg-os 'white' + kerh2- 'horn/antler'; adjective before noun"
+  },
+  {
+   "english": "Place of Fire",
+   "name": "Pawrtei",
+   "gloss": "pawr- 'fire' + -tei locative-type place suffix (schematic); simplified Latin spelling"
+  },
+  {
+   "english": "Goose Brothers",
+   "name": "Ghansyo bhratere",
+   "gloss": "ghans- 'goose' + -yo- adjectival + bhrater- 'brother' (nom. pl.); Modifier+Head"
+  }
+ ],
+ "allowed_graphemes": [
+  "p",
+  "t",
+  "k",
+  "kw",
+  "b",
+  "d",
+  "g",
+  "gh",
+  "dh",
+  "bh",
+  "s",
+  "m",
+  "n",
+  "l",
+  "r",
+  "w",
+  "y",
+  "h",
+  "a",
+  "e",
+  "o",
+  "i",
+  "u"
+ ],
+ "extra_allowed_chars": " -",
+ "forbidden_patterns": [
+  "[cfjqvxz]",
+  "(.)\\1\\1",
+  "[aeiou]{3,}",
+  "[^aeioulrmnwy\\s-]{4,}",
+  "^[^aeiouy\\s-]*$"
+ ],
+ "syllables_per_word": [
+  2,
+  3,
+  4
+ ],
+ "max_word_length": 14,
+ "sources": [
+  "Fortson, Indo-European Language and Culture (2010)",
+  "Beekes, Comparative Indo-European Linguistics (1995)",
+  "Mallory & Adams, Encyclopedia of Indo-European Culture (1997)",
+  "Wiktionary Proto-Indo-European reconstruction pages",
+  "Pokorny, Indogermanisches etymologisches Wörterbuch (1959)",
+  "Pokorny-based Starling database (starlingdb.org)",
+  "Jacobs et al., 'Late Pleistocene human genome suggests a local origin for the first farmers of central Anatolia' / Fu et al., 'The genetic history of Ice Age Europe', Nature (2016) for population background",
+  "Jacobi, 'Creswellian' and the British Late Upper Palaeolithic (Cheddar/Gough's Cave publications, 1990s)"
+ ],
+ "notes": "The Creswellian language is unrecorded and unrecoverable; PIE is used only as a conventional, internally consistent stand-in and PIE itself postdates this culture by roughly 8,000-10,000 years. Treat all names as invented. Because Creswellian is not Goidelic, no generated name may be identical to a Modern Irish, Scottish Gaelic or Manx word.",
+ "unit": "Creswellian",
+ "slug": "creswellian",
+ "model": "claude-sonnet-5-5"
+}

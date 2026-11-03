@@ -1,0 +1,34 @@
+{
+ "neoforge:conditions": [
+  {
+   "type": "neoforge:item_exists",
+   "item": "diaithir:fertiliser"
+  },
+  {
+   "type": "neoforge:not",
+   "value": {
+    "type": "neoforge:tag_empty",
+    "tag": "diaithir:progression/manure"
+   }
+  },
+  {
+   "type": "neoforge:not",
+   "value": {
+    "type": "neoforge:tag_empty",
+    "tag": "diaithir:progression/herb"
+   }
+  }
+ ],
+ "_node": "farm.fertiliser",
+ "_age": "IV",
+ "type": "minecraft:crafting_shapeless",
+ "category": "misc",
+ "ingredients": [
+  "#diaithir:progression/manure",
+  "#diaithir:progression/herb"
+ ],
+ "result": {
+  "id": "diaithir:fertiliser",
+  "count": 1
+ }
+}

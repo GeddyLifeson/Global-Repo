@@ -1,0 +1,192 @@
+{
+ "proxy_language": "Proto-Japonic (reconstructed ancestor of Japanese and Ryukyuan), with Ainu as a secondary non-Japonic comparandum; Old Japanese (Western Old Japanese, 8th c.) as the nearest attested stage",
+ "confidence": "speculative",
+ "proxy_rationale": "The Incipient Jomon (c. 14,000-8,000 BCE) is known only archaeologically (earliest pottery, microblades, Odai Yamamoto I, Fukui Cave). The language(s) of Pleistocene/early Holocene Japan are unknown and no linguistic family can be tied to them. The Japonic languages are generally thought to arrive with Yayoi-period migration (c. 1000-300 BCE) and the relation between Jomon speakers and Ainu or any other modern language is debated and unproven. The only defensible practice is to use Old Japanese (with Proto-Japonic reconstruction by Vovin, Frellesvig, Whitman and others) as a phonological and morphological model for a plausible Japan-flavored name set, while openly stating it is a convenience proxy, not the actual Jomon language. A few Ainu-style CVC-final words could be a flavor alternative, but Old Japanese is better documented with a regular open-syllable structure.",
+ "phonology": "Old Japanese (Western OJ) consonants: p (later h), t, k, b, d, g (voiced series prenasalized in some analyses: mb nd ng), s, z, m, n, r, w, y (j). Vowels: a, i, u, e, o, plus the Jo-dai vowel contrast of i1/i2, e1/e2, o1/o2 (eight vowels in the Man'yogana system); these distinctions are usually not marked in popular romanization. No phonemic length. Proto-Japonic reconstructions assume *p-, *t, *k, *s, *m, *n, *r, *w, *y and vowels *a *i *u *e *o *ə with *-ai, *-ui etc. as diphthong sequences later monophthongized.",
+ "phonotactics": "Strict open syllables: (C)V only, with syllable shapes V, CV; no coda consonants and no consonant clusters. Sequences of vowels (hiatus) are allowed but disfavored inside native roots; native roots seldom begin with r (word-initial r is rare to absent in native OJ words) or with voiced obstruents (b, d, g, z are not word-initial in native words). Dispreference for more than one vowel in sequence in the same morpheme. In compounds, rendaku (sequential voicing) applies: second member initial voiceless obstruent becomes voiced (k to g, s to z, t to d, h/p to b) in many but not all compounds (Lyman's law blocks it when the second member already contains a voiced obstruent). Moraic structure; Old Japanese had a pitch accent system that is not written.",
+ "orthography": "Use modified Hepburn-style or Frellesvig/Vovin-style transliteration in Latin letters: a i u e o; k g s z t d n h (or p for the archaic OJ stage) b m y r w. Use p for a distinctly archaic flavor (e.g. pito 'person', pana 'flower') or h for the familiar form; do not mix in one name set. No diacritics needed; macrons for long vowels belong to Modern Japanese and should be avoided. Do not use c, q, v, x, l, f, j-before-vowel conventions inconsistent with the chosen scheme; sh, ch, ts, j are Modern Japanese allophones (before i or u) and are best replaced by plain s, t, z in an archaic scheme, but are tolerated as optional.",
+ "morphology": "Agglutinating, head-final, verb-final. Nouns uninflected for number or gender, no noun classes; case/relational particles follow nouns: ga or no (genitive), wo (accusative), ni (dative/locative), ni/yori/to etc. Native roots are mostly bimoraic or trimoraic (2-3 syllables); monosyllabic nominal roots exist (hi 'fire/sun', ki 'tree', me 'eye', te 'hand', ke 'hair', na 'name'). Prefix mi- (honorific/sacred: mi-ya 'palace', mi-kuni), ma- (true, exact: ma-koto), o- (honorific). Suffixes: -ki / -mi / -ra (pluralizer or collective in some stems, e.g. ware-ra), -ta (field), -be (group/occupational band). Verbs form nominalized stems (renyokei, e.g. tsukuri 'making' from tsuku-ru 'make') used as the nominal base in compounds ('Y-maker' = verb stem + agent noun, e.g. kuri-bito or -tsukuri).",
+ "compounding": "Head-final: modifier precedes head. Typical compound = N + N (with possible rendaku on the second element): yama-gawa 'mountain river'. 'X of Y' = Y + no + X (genitive particle, also appearing fossilized in compounds as -tsu-, -na-, -no-: ama-tsu-kami 'heavenly god', mi-na-to 'water-gate/harbor' with na as old genitive of mi 'water'). Place or deity names often follow Y + no + X or Y-nushi/-mimi/-hiko/-hime (male/female) patterns. 'Y-maker' = Y + tsukuri / -be (e.g. kame-tsukuri 'pot-maker'). Adjectival modification: stem + noun, with adjectives in attributive -ki form (taka-ki yama 'high mountain') or stem compounds (taka-yama). Possessor + head always.",
+ "noun_phrase_order": "Modifier-head throughout: genitive/possessor before possessed, adjective or relative clause before noun, demonstrative before noun, numeral + classifier after or before noun with optional case particle after the whole phrase.",
+ "attested_roots": [
+  {
+   "form": "yama",
+   "gloss": "mountain",
+   "reconstructed": false
+  },
+  {
+   "form": "kawa",
+   "gloss": "river",
+   "reconstructed": false
+  },
+  {
+   "form": "umi",
+   "gloss": "sea",
+   "reconstructed": false
+  },
+  {
+   "form": "ki",
+   "gloss": "tree",
+   "reconstructed": false
+  },
+  {
+   "form": "hi",
+   "gloss": "fire, sun, day",
+   "reconstructed": false
+  },
+  {
+   "form": "mizu",
+   "gloss": "water (OJ midu)",
+   "reconstructed": false
+  },
+  {
+   "form": "tsuchi",
+   "gloss": "earth, soil (OJ tuti)",
+   "reconstructed": false
+  },
+  {
+   "form": "kame",
+   "gloss": "pot, jar, vessel",
+   "reconstructed": false
+  },
+  {
+   "form": "ishi",
+   "gloss": "stone (OJ isi)",
+   "reconstructed": false
+  },
+  {
+   "form": "take",
+   "gloss": "bamboo; peak",
+   "reconstructed": false
+  },
+  {
+   "form": "hito",
+   "gloss": "person (OJ pito)",
+   "reconstructed": false
+  },
+  {
+   "form": "kami",
+   "gloss": "god, spirit",
+   "reconstructed": false
+  },
+  {
+   "form": "tori",
+   "gloss": "bird",
+   "reconstructed": false
+  },
+  {
+   "form": "uo",
+   "gloss": "fish (OJ uwo)",
+   "reconstructed": false
+  },
+  {
+   "form": "kusa",
+   "gloss": "grass, herb",
+   "reconstructed": false
+  },
+  {
+   "form": "kuma",
+   "gloss": "bear (also nook, corner)",
+   "reconstructed": false
+  },
+  {
+   "form": "mori",
+   "gloss": "forest, grove",
+   "reconstructed": false
+  },
+  {
+   "form": "shika",
+   "gloss": "deer (OJ sika)",
+   "reconstructed": false
+  }
+ ],
+ "worked_examples": [
+  {
+   "english": "River Stew",
+   "name": "kawa-nabe",
+   "gloss": "kawa 'river' + nabe 'pot, stew'; N+N compound, head last (no rendaku since n is not an obstruent)"
+  },
+  {
+   "english": "Temple of the Sun",
+   "name": "hi no miya",
+   "gloss": "hi 'sun' + no genitive + miya 'sacred house'; Y no X pattern"
+  },
+  {
+   "english": "Pot-maker",
+   "name": "kame-tsukuri",
+   "gloss": "kame 'pot' + tsukuri 'maker' (verb stem tsukuri 'making/maker'); N + agent noun"
+  },
+  {
+   "english": "Mountain God",
+   "name": "yama-tsu-kami",
+   "gloss": "yama 'mountain' + tsu old genitive + kami 'god'; archaic genitive linker compound"
+  },
+  {
+   "english": "Deer Hunters' Camp",
+   "name": "shika-gari no sato",
+   "gloss": "shika 'deer' + kari 'hunt' (rendaku to gari) + no + sato 'village, settlement'; relative-style modifier before head"
+  },
+  {
+   "english": "Stone Boat",
+   "name": "ishi-bune",
+   "gloss": "ishi 'stone' + fune 'boat' (f/h to b by rendaku); N+N compound with sequential voicing"
+  }
+ ],
+ "allowed_graphemes": [
+  "a",
+  "i",
+  "u",
+  "e",
+  "o",
+  "k",
+  "g",
+  "s",
+  "z",
+  "t",
+  "d",
+  "n",
+  "h",
+  "b",
+  "m",
+  "y",
+  "r",
+  "w",
+  "p",
+  "sh",
+  "ch",
+  "ts",
+  "j"
+ ],
+ "extra_allowed_chars": " -",
+ "forbidden_patterns": [
+  "[bcdfghjklmnpqrstvwxyz]{2}(?<!sh)(?<!ch)(?<!ts)",
+  "[bcdfghjklmnpqrstvwxyz]$",
+  "(^|[ -])[bdgzr]",
+  "[cqvxl]",
+  "(.)\\1\\1",
+  "[aeiou]{3}",
+  "[ptkgbdszhmrw]y(?![auo])",
+  "w[iue]"
+ ],
+ "syllables_per_word": [
+  2,
+  3,
+  4
+ ],
+ "max_word_length": 14,
+ "sources": [
+  "Frellesvig, Bjarke. A History of the Japanese Language (2010)",
+  "Vovin, Alexander. A Descriptive and Comparative Grammar of Western Old Japanese (2005-2009)",
+  "Vovin, Alexander. Man'yoshu translation and notes, Brill/Global Oriental (2009-2020)",
+  "Martin, Samuel E. The Japanese Language Through Time (1987)",
+  "Whitman, John. work on Proto-Japonic reconstruction and the Jomon/Yayoi language question (various articles)",
+  "Hudson, Mark J. Ruins of Identity: Ethnogenesis in the Japanese Islands (1999)",
+  "Starling database (Japonic etymologies) and Glottolog Japonic family tree",
+  "Wiktionary Proto-Japonic reconstruction pages",
+  "Habu, Junko. Ancient Jomon of Japan (2004), archaeological background only"
+ ],
+ "notes": "All linguistic content is a proxy: the actual language(s) of Incipient Jomon people are unknown and cannot be linked to Japonic or to Ainu with any certainty. Names built here are therefore archaic-Japanese-flavored, not attested Jomon words. No word may be identical to a Modern Irish, Scottish Gaelic or Manx word. Avoid identity with Modern Japanese place or product names that would read as modern (e.g. do not use modern loanwords, Sino-Japanese compounds, or kanji-reading words of Chinese origin such as san, ji, den). Prefer native (wago) roots only. Existing game strings like 'remruma' (contains cluster mr), 'topken' (closed syllable and cluster pk), and 'panese' (hard to parse) violate Japonic phonotactics; 'momopo', 'miko' and 'mora' are fine as shapes.",
+ "unit": "Incipient Jomon",
+ "slug": "incipient_jomon",
+ "model": "claude-sonnet-5-5"
+}
