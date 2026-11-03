@@ -325,3 +325,6 @@ world-checks/render.py	1634	"Top-down PNG per site: snow white, water blue, land
 world-checks/scan.py	5155	"Scan Tellus region files: per-column ground Y, snow cover, bedrock floor, and every *_ore block position."""""""	yes
 world-checks/sites.py	1510	R = 111319.49166666667 * 180 / math.pi	yes
 world-checks/snow.py	2642	"Snowline check: snow cover fraction by elevation band vs the Age I line (EraMath.age1SnowlineMeters)."""""""	yes
+diaithir-ports/diaithir-fauna/tools/libmob_extract.py	3000	Sorts every Library MOB entry onto a fauna body plan (writes the Haiku classify job, 40 entries per row).	no
+diaithir-ports/diaithir-fauna/tools/libmob_run.py	3000	Direct parallel Haiku caller for a compute job folder (24 workers, resumable, cached system prompt, logs to the ledger).	no
+diaithir-ports/diaithir-fauna/tools/libmob_build.py	3000	Merges the classify output into diaithir-fauna library_mobs.tsv.gz (plan, tier, size, temper, element) and writes retry rows.	no

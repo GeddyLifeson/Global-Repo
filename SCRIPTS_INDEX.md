@@ -6814,3 +6814,6 @@ Run hints: .py `python3 <file>` (PC `py`), .ps1 via a hidden launcher (never a v
 | S6826 | cloud | `library-content/place_all.py` | S6823 Gives every Library entry a Collection, class, canon status, spine code and shelfmark from its soil | yes |
 | S6827 | cloud | `names/linguistics/regen_relaxed.py` | S0312 Regenerates every culture name that fails its language rules (Haiku, rules file cached per language, up to 3 repair rounds); writes na | yes |
 | S6829 | global | `tools/omniverse/export_library_books.py` | S6829 exports library books for the omniverse books lane (lives in the DiaithirRPG repo; copy not mirrored yet) | no |
+| S6832 | cloud | `diaithir-ports/diaithir-fauna/tools/libmob_extract.py` | Sorts every Library MOB entry onto a fauna body plan (writes the Haiku classify job, 40 entries per row). | no |
+| S6833 | cloud | `diaithir-ports/diaithir-fauna/tools/libmob_run.py` | Direct parallel Haiku caller for a compute job folder (24 workers, resumable, cached system prompt, logs to the ledger). | no |
+| S6834 | cloud | `diaithir-ports/diaithir-fauna/tools/libmob_build.py` | Merges the classify output into diaithir-fauna library_mobs.tsv.gz (plan, tier, size, temper, element) and writes retry rows. | no |

@@ -6806,3 +6806,6 @@ S6825	cloud	library-content/finalize.py
 S6826	cloud	library-content/place_all.py
 S6827	cloud	names/linguistics/regen_relaxed.py
 S6829	global	tools/omniverse/export_library_books.py
+S6832	cloud	diaithir-ports/diaithir-fauna/tools/libmob_extract.py
+S6833	cloud	diaithir-ports/diaithir-fauna/tools/libmob_run.py
+S6834	cloud	diaithir-ports/diaithir-fauna/tools/libmob_build.py
