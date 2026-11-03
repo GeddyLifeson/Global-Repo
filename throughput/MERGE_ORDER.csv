@@ -73,3 +73,4 @@ wave,repo,number,base,head,partner,title
 0,global-repo,16,main,,,"S6866 animation coverage CSV generator [edits SCRIPTS_INDEX.md and ids.tsv: merge one at a time, rebuild index on conflict]"
 0,global-repo,17,main,,,"Register S6873 gen_gate.py [edits SCRIPTS_INDEX.md and ids.tsv: merge one at a time, rebuild index on conflict]"
 4,ports,236,diaithircompat,claude/survey-p4-guard-villagers,,"Fold Guard Villagers (CC0) into diaithir-creature-utilities"
+4,ports,235,claude/ships-yard-2,claude/survey-p1-carts,,"Add one-way rail to diaithir-carts (survey p1, clean-room)"
