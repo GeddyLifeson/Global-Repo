@@ -6806,3 +6806,4 @@ S6825	cloud	library-content/finalize.py
 S6826	cloud	library-content/place_all.py
 S6827	cloud	names/linguistics/regen_relaxed.py
 S6829	global	tools/omniverse/export_library_books.py
+S6866	cloud	animations/gen_animations_coverage.py
