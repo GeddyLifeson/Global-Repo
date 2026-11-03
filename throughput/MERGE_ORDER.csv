@@ -77,4 +77,4 @@ wave,repo,number,base,head,partner,title
 2,ports,260,claude/ships-yard-2,claude/survey-p1-lasers,,"diaithir-travel-structures: laser bridges and fences (Laser Bridges & Doors 26.1.2 fold) [merge after #216]"
 2,ports,281,claude/ships-yard-2,claude/survey-p1-iwt,,"diaithir-storagenet: wireless transmitter, cross-dimension storage link (IWT idea) [merge after #216]"
 2,ports,293,claude/ships-yard-2,claude/survey-p1-decks,,"diaithir-ships archimedes: deck walking (Nifty Ships idea) [merge after #216]"
-2,ports,296,claude/ships-yard-2,claude/survey-p1-gantries,,"diaithir-create-gantries: gantry split on the Create port (Extended Gantries GPL-3 fold, needs the claude/create jar to build) [merge after #216]"
+2,ports,300,claude/create,claude/survey-p1-gantries-create,,"target jar create-neoforge (no new jar), module net.diaithir.gantries (GPL-3.0-only, own package/mixin config/namespace/licence/NOTICE): gantry split, Extended Gantries fold; replaces #296 (closed) [merge after #216]"
