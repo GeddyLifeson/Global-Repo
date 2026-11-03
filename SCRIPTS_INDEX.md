@@ -6816,3 +6816,4 @@ Run hints: .py `python3 <file>` (PC `py`), .ps1 via a hidden launcher (never a v
 | S6829 | global | `tools/omniverse/export_library_books.py` | S6829 exports library books for the omniverse books lane (lives in the DiaithirRPG repo; copy not mirrored yet) | no |
 | S6837 | cloud | `DiaithirRPG/tools/library/build_npc_table.py` | Builds the in-game NPC table (npcs.tsv.gz) from the Library NPC entries: role and sex only from words in each entry text. | no |
 | S6840 | cloud | `DiaithirRPG/tools/library/build_planet_outfits.py` | Per-planet NPC outfit colours and garment words counted from each planet's own Library text; soil palette fills gaps. | no |
+| S6846 | cloud | `DiaithirRPG/tools/library/build_settlement_pools.py` | Builds the NPC pool of each of the 19,081 settlement entries: NPCs named in the settlement text first, then same-Era and same-planet people by a call-number seed. | no |

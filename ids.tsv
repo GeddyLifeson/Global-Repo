@@ -6808,3 +6808,4 @@ S6827	cloud	names/linguistics/regen_relaxed.py
 S6829	global	tools/omniverse/export_library_books.py
 S6837	cloud	DiaithirRPG/tools/library/build_npc_table.py
 S6840	cloud	DiaithirRPG/tools/library/build_planet_outfits.py
+S6846	cloud	DiaithirRPG/tools/library/build_settlement_pools.py
