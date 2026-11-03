@@ -6808,3 +6808,4 @@ S6827	cloud	names/linguistics/regen_relaxed.py
 S6829	global	tools/omniverse/export_library_books.py
 S6874	global	tools/animation/gen_clips.py
 S6898	global	tools/animation/csv_apply.py
+S6900	global	tools/animation/queue_row_jobs.py

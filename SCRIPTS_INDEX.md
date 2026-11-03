@@ -6816,3 +6816,4 @@ Run hints: .py `python3 <file>` (PC `py`), .ps1 via a hidden launcher (never a v
 | S6829 | global | `tools/omniverse/export_library_books.py` | S6829 exports library books for the omniverse books lane (lives in the DiaithirRPG repo; copy not mirrored yet) | no |
 | S6874 | global | `diaithir-animation/tools/gen_clips.py` | S6874 generates player animation clips (melee, tools, bows, guns, casting) and item class tags from ANIMATIONS_COVERAGE.csv (lives in diaithir-ports; copy not mirrored yet) | no |
 | S6898 | global | `diaithir-animation/tools/csv_apply.py` | S6898 appends roster-gun rows to ANIMATIONS_COVERAGE.csv and marks them done after an S6866 rerun (lives in diaithir-ports) | no |
+| S6900 | global | `diaithir-animation/tools/queue_row_jobs.py` | S6900 queues ANIMATIONS_COVERAGE.csv rows into compute/jobs/anim_rows-sNN shards of 500 (animation spec per row via Claude batch; lives in diaithir-ports) | no |
