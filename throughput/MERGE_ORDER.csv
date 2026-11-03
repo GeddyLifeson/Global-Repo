@@ -83,3 +83,7 @@ wave,repo,number,base,head,partner,title
 0,ports,297,diaithircompat,claude/survey-p6-client-qol,,"Survey p6: client QoL ports into hud-overlays, tooltipfx, inventory-ui, client-view-input, chat-client"
 0,ports,298,diaithircompat,claude/survey-p6-audio-nav,,"Survey p6: audio folded into clientcore, Structure Compass into worldsys (no new jars)"
 0,ports,299,diaithircompat,claude/survey-p6-server-perf,,"Survey p6: Packet Fixer and Ksyxis folded into crash-tools (Simple Backups is #290)"
+0,ports,287,diaithircompat,claude/survey-p2-combat,,"Survey p2: clean-room sword blocking, buildup and lance in diaithir-combat"
+2,ports,294,claude/project-thread-889fio-hostile,claude/survey-p2-hostile-raided,,"Survey p2: Raided and Zombie Hordes folded into diaithir-hostile-encounters"
+0,ports,301,diaithircompat,claude/survey-p2-bosses,,"Survey p2: Shardfall Gate block (clean-room Boss Checklist) in diaithir-bosses"
+0,ports,302,diaithircompat,claude/survey-p2-toolbelt,273,"Survey p2: Tool Belt port into diaithir-gear (same module as #273)"
