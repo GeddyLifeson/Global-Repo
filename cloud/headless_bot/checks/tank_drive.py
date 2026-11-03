@@ -43,7 +43,7 @@ with Lane('tank', JARS, srv_xmx='3G', out=out) as L:
         DV = lambda c, w=1.2: S('execute as Tester at Tester run diaithirvehicle ' + c, w)
         rep['seat_pos'] = S('data get entity Tester Pos', 0.6)
         rep['start'] = DV('start'); time.sleep(1.5); rep['status_after_start'] = DV('status'); L.shot('02_hud_after_start.png')
-        VL = lambda: [l.split(']: ', 1)[-1] for l in L.log_lines('server', r'Vehicle: engines')]
+        VL = lambda: [l.split(']: ', 1)[-1] for l in L.log_lines('server', r't-\d+s engines')]
         n0 = len(VL()); DV('watch 12', 0.5); d.hold('w', 12); time.sleep(2); rep['watch_W_held'] = VL()[n0:]; L.shot('03_hud_W_held.png')
         n1 = len(VL()); DV('watch 12', 0.5); time.sleep(14); rep['watch_W_released'] = VL()[n1:]
         rep['veh_pos_end'] = S(VP, 0.6)
