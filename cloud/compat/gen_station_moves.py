@@ -7,14 +7,14 @@ Vanilla (family 'vanilla') moves only tools, weapons and armour, Age by material
 Rule: the grid keeps simple everyday things (single-ingredient storage/slab/stair/plank/stick/door/food-style recipes, 2 slots or fewer);
 tools, weapons, armour and multi-part machines (3+ distinct ingredients over 5+ slots) go to a station chosen by the mod's Age:
 I-II hearth bench, III wright bench, IV smeltery (wright bench if no metal), V steam forge, VI-VII assembler, VIII+ fabricator; magic mods use the altar.
-Each moved recipe becomes two files: the original path re-issued with a condition that keeps it only while `diaithir_stations` is NOT loaded,
-and a `diaithir:station_recipe` that is on only when it is. Nothing is lost if the station mod is absent. Ingredients are distinct items/tags, 1 each (owners balance)."""
+Only the five stations #163 registers are used (hearth bench, wright bench, smeltery, steam forge, fabricator); Age VI-VII (assembler) and magic (altar) recipes stay on the grid until those stations exist. Each moved recipe becomes two files: the original path re-issued with a condition that keeps it only while `diaithir_stations` is NOT loaded,
+and a station recipe at data/<ns>/diaithir_stations/station_recipe/<name>.json (ports #163 codec: station key like station.wright_bench, stage, up to 9 {item|tag,count}, result, time_s, operator) that loads only with that mod. Nothing is lost if the station mod is absent. Ingredients are distinct items/tags, 1 each (owners balance)."""
 import glob, json, os, re, sys
 
 TRIVIAL = re.compile(r"(planks|stick|torch|button|pressure_plate|door|trapdoor|fence|gate|slab|stairs|wall|chest|barrel|bowl|boat|sign|bed|ladder|dye|paper|book|bread|cake|cookie|pie|sandwich|stew|soup|salad|juice|jam|block|nugget|ingot|ore|seed|bundle|crate|sack|bag|shelf|carpet|wool|glass|pane|lantern|candle|banner|frame|stone|brick|tile|paving|roof|shutter|pillar|planter|pot)")
 EQUIP_WORDS = set("sword axe pickaxe shovel hoe leggings boots bow crossbow shield spear dagger mace hammer staff wand rifle pistol musket armor armour gun cannon helmet chestplate".split())
 MACHINE = re.compile(r"(machine|generator|furnace|crusher|press|assembler|reactor|turbine|engine|pump|tank|pipe|conduit|cable|battery|capacitor|quarry|miner|smelter|centrifuge|mixer|extractor|compressor|forge|altar|controller|interface|terminal|drive|processor|circuit)")
-STATIONS = ["", "station.hearth_bench", "station.hearth_bench", "station.wright_bench", "station.smeltery", "station.steam_forge", "machine.assembler", "machine.assembler", "station.fabricator"]
+STATIONS = ["", "station.hearth_bench", "station.hearth_bench", "station.wright_bench", "station.smeltery", "station.steam_forge", None, None, "station.fabricator"]  # None: no assembler/altar station registered yet (ports #163), recipe stays on the grid
 METAL = re.compile(r"(ingot|plate|gear|rod|nugget|steel|iron|bronze|copper)")
 
 
@@ -72,17 +72,17 @@ def main(prof, rules, graph, out, stats=None):
                 if form != "part" or set(rid.split(":")[1].split("_")) & {"wooden", "stone", "leather", "turtle"}: kept += 1; continue  # first-hour tools stay on the grid
                 nm = rid.split(":")[1]; a = 7 if "netherite" in nm else 5 if "diamond" in nm else 3 if re.search(r"iron|golden|chainmail|bow|shield|trident|spear", nm) else 2 if "copper" in nm else 1
             if not form: kept += 1; continue
-            st = "altar.basic" if fam.startswith("magic") else STATIONS[a]
+            st = None if fam.startswith("magic") else STATIONS[a]  # altar not registered yet
+            if not st: kept += 1; continue
             if st == "station.smeltery" and not any(METAL.search(i) for i in ings): st = "station.wright_bench"
-            distinct = list(dict.fromkeys(ings))[:6]
+            cnt_by = {i: ings.count(i) for i in dict.fromkeys(ings)}; distinct = list(cnt_by)[:9]
             ns = p["mod_ids"][0] if p["mod_ids"] else path.split("/")[1]; name = os.path.splitext(os.path.basename(path))[0]
             NOT = {"type": "neoforge:not", "value": {"type": "neoforge:mod_loaded", "modid": "diaithir_stations"}}
             j2 = dict(j); j2["neoforge:conditions"] = list(j.get("neoforge:conditions", [])) + [NOT]
             o = os.path.join(out, path); os.makedirs(os.path.dirname(o), exist_ok=True); json.dump(j2, open(o, "w"), indent=1)
-            s = {"neoforge:conditions": [{"type": "neoforge:mod_loaded", "modid": "diaithir_stations"}, {"type": "neoforge:mod_loaded", "modid": ns}] + list(j.get("neoforge:conditions", [])),
-                 "type": "diaithir:station_recipe", "station": stations[st]["block"], "stage": form, "ingredients": distinct,
-                 "result": {"id": rid, "count": cnt}, "time_s": 20 if form == "assembly" else 10}
-            o = os.path.join(out, "data/diaithircompat/recipe", f"station_{ns}_{name}.json".replace("/", "_")); os.makedirs(os.path.dirname(o), exist_ok=True); json.dump(s, open(o, "w"), indent=1)
+            s = {"station": st, "stage": form, "ingredients": [({"tag": i[1:]} if i.startswith("#") else {"item": i}) | {"count": min(64, cnt_by[i])} for i in distinct],
+                 "result": {"id": rid, "count": cnt}, "time_s": 20 if form == "assembly" else 10, "operator": False}
+            o = os.path.join(out, "data", ns, "diaithir_stations/station_recipe", f"{name}.json".replace("/", "_")); os.makedirs(os.path.dirname(o), exist_ok=True); json.dump(s, open(o, "w"), indent=1)
             moved.setdefault(st, 0); moved[st] += 1
     print("moved", sum(moved.values()), moved, "| left on grid", kept)
     if stats: json.dump({"moved": moved, "kept_on_grid": kept}, open(stats, "w"))
