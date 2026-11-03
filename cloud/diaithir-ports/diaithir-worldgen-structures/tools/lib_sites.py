@@ -388,7 +388,9 @@ def main():
                 target=f"{NS}:{bp}"
                 b=bmap.get(planet,{}).get(sbio.get(eid,""))
                 if b: bio=b.split(":")[1][len(planet)+1:] or "x"; bio_ids[(planet,bio)]=b
-            elif planet=="diaithir":
+            else:
+                bio={"harbor":"coast","delve":"cave","bridge":"river"}.get(cls,"land")
+            if cls!="settlement" and planet=="diaithir":
                 tb=terra_build(text,cls)
                 if tb:
                     bpath=f"lib/diaithir/b/{slug}"; cust=(tb[0],tb[1],tb[2]); terra_shapes[tb[3]]+=1
@@ -433,6 +435,11 @@ def main():
         w(f"data/{NS}/worldgen/structure/{sid}.json",structure_json(planet,"settlement",bd,soil,f"{NS}:{pp}","land"))
         sets[(planet,"any","")].append({"structure":f"{NS}:{sid}","weight":len(paths)})
         tags[min(8,opens-1+BANDS[bd][0])].append(f"{NS}:{sid}")
+    HAB={"coast":["shore"],"cave":["hollows","grottoes"],"river":["river"]}
+    TERRA={"coast":["#minecraft:is_beach","#minecraft:is_ocean"],"cave":["minecraft:lush_caves","minecraft:dripstone_caves"],"river":["#minecraft:is_river"]}
+    for planet in {k[0] for k in by}:
+        for h,suf in HAB.items():
+            w(f"data/{NS}/tags/worldgen/biome/lib/{planet}/b/{h}.json",{"values":TERRA[h] if planet=="diaithir" else [{"id":f"diaithir_planets:{planet}_{x}","required":False} for x in suf]})
     for planet in {k[0] for k in anyp}:
         ids=sorted(set(bmap.get(planet,{}).values()))
         w(f"data/{NS}/tags/worldgen/biome/lib/{planet}/b/land.json",{"values":["#minecraft:is_overworld"] if planet=="diaithir" else [{"id":b,"required":False} for b in ids]})
@@ -440,7 +447,7 @@ def main():
         n=sum(x["weight"] for x in lst)
         sp=20 if st=="any" else 24 if st=="settle" else (32 if n<60 else 24 if n<400 else 16)
         salt=int(hashlib.md5(("lib"+planet+str(st)+bio).encode()).hexdigest()[:7],16)
-        w(f"data/{NS}/worldgen/structure_set/lib/{planet}{'_settle_any' if st=='any' else ('_settle_'+bio if bio else '_settle') if st=='settle' else ''}.json",{"structures":lst,"placement":{"type":"minecraft:random_spread","spacing":sp,"separation":sp//3,"salt":salt}})
+        w(f"data/{NS}/worldgen/structure_set/lib/{planet}{'_settle_any' if st=='any' else ('_settle_'+bio if bio else '_settle') if st=='settle' else '_'+(bio or 'land')}.json",{"structures":lst,"placement":{"type":"minecraft:random_spread","spacing":sp,"separation":sp//3,"salt":salt}})
     for planet in planets_used:
         vals=["#minecraft:is_overworld"] if planet=="diaithir" else [{"id":f"#diaithir_planets:{planet}","required":False}]
         w(f"data/{NS}/tags/worldgen/biome/lib/{planet}.json",{"values":vals})
