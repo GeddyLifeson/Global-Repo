@@ -6816,3 +6816,4 @@ Run hints: .py `python3 <file>` (PC `py`), .ps1 via a hidden launcher (never a v
 | S6829 | global | `tools/omniverse/export_library_books.py` | S6829 exports library books for the omniverse books lane (lives in the DiaithirRPG repo; copy not mirrored yet) | no |
 | S6838 | cloud | `diaithir-ports/diaithir-combat/tools/gear_gen.py` | Sorts every Panscriptum WEAPON/ARMOR entry into a weapon class or armor slot from its own summary text and writes gear.tsv.gz (id, tier, Age gate, class, name). | no |
 | S6839 | cloud | `diaithir-ports/diaithir-combat/tools/gear_art.py` | Draws the 64 px two-layer library gear textures, models and item definitions (19 items x 9 Ages). | no |
+| S6841 | cloud | `diaithir-ports/diaithir-combat/tools/gear_recipes.py` | Writes the library gear recipes (class x Age), site loot tables and progression nodes. | no |
