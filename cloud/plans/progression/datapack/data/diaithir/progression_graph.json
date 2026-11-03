@@ -3149,7 +3149,8 @@
     "nether.access"
    ],
    "module": "diaithir-nether",
-   "quest": "q.explore.nether_gate"
+   "quest": "q.explore.nether_gate",
+   "built": true
   },
   {
    "id": "explore.nether_fortress",
@@ -3166,7 +3167,8 @@
     "c:gems/quartz"
    ],
    "module": "diaithir-nether",
-   "quest": "q.explore.nether_fortress"
+   "quest": "q.explore.nether_fortress",
+   "built": true
   },
   {
    "id": "explore.nether_deep",
@@ -3182,7 +3184,8 @@
     "c:ores/netherite_scrap"
    ],
    "module": "diaithir-nether",
-   "quest": "q.explore.nether_deep"
+   "quest": "q.explore.nether_deep",
+   "built": true
   },
   {
    "id": "tech.netherite",
@@ -3215,7 +3218,8 @@
     "end.access"
    ],
    "module": "diaithir-end",
-   "quest": "q.explore.end_gate"
+   "quest": "q.explore.end_gate",
+   "built": true
   },
   {
    "id": "explore.end_cities",
@@ -3233,7 +3237,8 @@
     "end.chorus"
    ],
    "module": "diaithir-end",
-   "quest": "q.explore.end_cities"
+   "quest": "q.explore.end_cities",
+   "built": true
   }
  ],
  "service_prefixes": [
@@ -3385,13 +3390,13 @@
   },
   "diaithir-nether": {
    "target": "diaithir-nether (ports #131)",
-   "jar_state": "not built",
-   "note": "merged Nether overhaul"
+   "jar_state": "built (boots clean headless, ports #131)",
+   "note": "merged Nether overhaul; age tags data/diaithir_nether/tags/*/age/N.json"
   },
   "diaithir-end": {
    "target": "diaithir-end (ports #131)",
-   "jar_state": "not built",
-   "note": "End Remastered, Nullscape, End structures"
+   "jar_state": "built (boots clean headless, ports #131)",
+   "note": "End Remastered, Nullscape, End structures; age tags data/diaithir_end/tags/*/age/N.json"
   }
  },
  "kept": [
