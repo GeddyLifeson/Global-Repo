@@ -281,9 +281,10 @@ def building_nbt(cls,soil,k,custom=None):
         if v.startswith("minecraft:chest"): be={"id":(8,"minecraft:chest"),"LootTable":(8,f"{NS}:lib/loot/{cls}")}
         blocks[(x,y,z)]=(v,be)
     cx=W//2
-    if cls in SPAWN and (cx,F,cx) not in blocks:
-        blocks[(cx,F,cx)]=("minecraft:spawner",{"id":(8,"minecraft:mob_spawner"),"SpawnData":(10,{"entity":(10,{"id":(8,SPAWN[cls])})})})
-    if not any(v[0].startswith("minecraft:chest") for v in blocks.values()) and (cx,F,cx-1) not in blocks:
+    free=next(((x,y,z) for x,y,z in ((cx,F,cx),(cx+1,F,cx),(cx-1,F,cx),(cx,F+1,cx),(cx,F,cx+1)) if blocks.get((x,y,z),("minecraft:air",))[0]=="minecraft:air"),None)
+    if cls in SPAWN and free:
+        blocks[free]=("minecraft:spawner",{"id":(8,"minecraft:mob_spawner"),"SpawnData":(10,{"entity":(10,{"id":(8,SPAWN[cls])})})})
+    if not any(v[0].startswith("minecraft:chest") for v in blocks.values()) and blocks.get((cx,F,cx-1),("minecraft:air",))[0]=="minecraft:air" and (cx,F,cx-1)!=free:
         blocks[(cx,F,cx-1)]=("minecraft:chest[facing=south]",{"id":(8,"minecraft:chest"),"LootTable":(8,f"{NS}:lib/loot/{cls}")})
     blocks[(cx,F,D)]=("minecraft:jigsaw[orientation=south_up]",jig(f"{NS}:lib_site",f"{NS}:lib_site","minecraft:empty","south_up","minecraft:air"))
     return tmpl(blocks,(max(x for x,_,_ in blocks)+1,max(top,max(y for _,y,_ in blocks)+1),max(z for _,_,z in blocks)+1))
