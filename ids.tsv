@@ -6800,3 +6800,8 @@ S6814	pc	E:\diaithir-ports-build\bc\diaithir-routing-networks\buildcraft\build-l
 S6815	pc	E:\diaithir-ports-build\bc\diaithir-routing-networks\buildcraft\builds\26.X\build.neoforge.gradle
 S6818	cloud	DiaithirRPG/tools/codex/module_records.py
 S6819	cloud	diaithir-ports/diaithir-trials-overhaul/tools/gen.py
+S6823	cloud	library-content/build_content.py
+S6824	cloud	library-content/classify.py
+S6825	cloud	library-content/finalize.py
+S6826	cloud	library-content/place_all.py
+S6827	cloud	names/linguistics/regen_relaxed.py

@@ -227,6 +227,10 @@ gcp/pack_server.py	2137	"r""""""Packs the test server (E:\MCTest\diaithir_server
 jar_reassemble.py	1168	Rejoins a jar from its 8 MB parts and checks every sha256.	yes
 jobs/bandcheck/check.py	763	"python3 check.py out-keyed.jsonl: magnitude on the ladder and within the row's ceiling, short basis, no em/en dashes."""""""	yes
 jobs/nemesis/check_names.py	1807	"python check_names.py <outputs.jsonl>: each line {""id"", ""output"": {...}} for the nemesis_age_* jobs. Exit 1 on any problem."""""""	yes
+library-content/build_content.py	2147	S6822 Builds library-content/content.sqlite: form, template, owner module, tier per Library entry	yes
+library-content/classify.py	6329	S6820 Library entries to content form: Haiku classifier (direct parallel calls, cached prompt), resumable	yes
+library-content/finalize.py	1273	S6821 Merges rule and Haiku codes into library_to_content.tsv (id, form, source)	yes
+library-content/place_all.py	2559	S6823 Gives every Library entry a Collection, class, canon status, spine code and shelfmark from its soil	yes
 make_core.py	1347	Make a 'v1 core' copy of a packwiz pack tree: drop the mods in v1_core_cutlist.json (mods with no Age I content).	yes
 marketplace/build_data.py	5924	V = {  # name (lowercase, exact listing name) -> (verdict, note)	yes
 marketplace/mcp_registry.py	1211	out, cur, rows = sys.argv[1], None, {}	yes
@@ -240,7 +244,8 @@ mythology/gen_age1.py	4668	Per-culture Age I hearth courts (3 gods, 2 creatures 
 mythology/later_units.py	2098	"Map the later-era culture units (cultures/LATER_AGE_UNITS.csv) to the invented V-to-Rodos courts. Run: python3 -I later_units.py"""""""	yes
 mythology/placement.py	4373	"Join the fantasy-biome sites (DiaithirRPG PR #146 sites.csv) to courts. Run: python3 -I placement.py"""""""	yes
 names/linguistics/audit_names.py	2219	S0316 Audits every culture name in names/*.json against names/linguistics/rules/<slug>.json (graphemes, forbidden patterns, word length); wr	yes
-names/linguistics/regen_names.py	4871	S0312 Regenerates every culture name that fails its language rules (Haiku, rules file cached per language, up to 3 repair rounds); writes na	yes
+names/linguistics/regen_names.py	5415	S0312 Regenerates every culture name that fails its language rules (Haiku, rules file cached per language, up to 3 repair rounds); writes na	yes
+names/linguistics/regen_relaxed.py	5859	S0312 Regenerates every culture name that fails its language rules (Haiku, rules file cached per language, up to 3 repair rounds); writes na	yes
 names/linguistics/research_rules.py	7192	S0317 One direct cached Claude call per culture language: researches how a linguist builds words there, writes names/linguistics/rules/<slug	yes
 panscriptum/archive-import/assemble.py	4980	"Agent research (aib/*.json) -> kit record + the kit index edits for The Archive In Between."""""""	yes
 panscriptum/archive-import/crawl.py	3829	Pull the free public text of The Archive In Between into raw/ (research only, never committed).	yes
@@ -320,5 +325,3 @@ world-checks/render.py	1634	"Top-down PNG per site: snow white, water blue, land
 world-checks/scan.py	5155	"Scan Tellus region files: per-column ground Y, snow cover, bedrock floor, and every *_ore block position."""""""	yes
 world-checks/sites.py	1510	R = 111319.49166666667 * 180 / math.pi	yes
 world-checks/snow.py	2642	"Snowline check: snow cover fraction by elevation band vs the Age I line (EraMath.age1SnowlineMeters)."""""""	yes
-DiaithirRPG/tools/codex/module_records.py	3600	Builds Codex records, quests and name requests for the overworld-biomes, nether and end modules (S6816).	no
-diaithir-ports/diaithir-trials-overhaul/tools/gen.py	1900	Writes the trials-overhaul Age gate, Codex handbook and quests from the real Not Enough Trials lang file.	no
