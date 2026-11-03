@@ -34,12 +34,37 @@ with open(O/'planets.tsv','w') as f:
     f.write('\t'.join(h)+'\n')
     for x in out: f.write('\t'.join(str(x.get(k,x['forms'].get(k))) for k in h)+'\n')
 D=O/'datapack'; (D/'data/diaithir_planets/dimension').mkdir(parents=True,exist_ok=True)
-(D/'pack.mcmeta').write_text(json.dumps({"pack":{"description":"Panscriptum planets (generated)","pack_format":94}}))
+(D/'pack.mcmeta').write_text(json.dumps({"pack":{"description":"Panscriptum planets (generated)","min_format":84,"max_format":101}}))
 lang={}
+POOL={'Bloom':['plains','forest','flower_forest','meadow'],'Frost':['snowy_plains','ice_spikes','snowy_taiga','frozen_peaks'],
+ 'Storm':['windswept_hills','jagged_peaks','stony_peaks','windswept_forest'],'Hollow':['dripstone_caves','lush_caves','deep_dark','stony_shore'],
+ 'Ember':['nether_wastes','crimson_forest','warped_forest','basalt_deltas'],'Iron':['desert','badlands','savanna','eroded_badlands'],
+ 'Quiet':['end_highlands','end_midlands','end_barrens','small_end_islands']}
+TPL=O/'templates'
+def tint(o,k):
+    if isinstance(o,dict): return {a:tint(b,a) for a,b in o.items()}
+    if isinstance(o,list): return [tint(b,k) for b in o]
+    if isinstance(o,str) and re.fullmatch(r'#[0-9a-f]{6}',o) and 'color' in k:
+        return '#'+''.join('%02x'%max(0,min(255,int(o[i:i+2],16)+d)) for i,d in zip((1,3,5),k_d))
+    return o
+B=D/'data/diaithir_planets/worldgen/biome'; T=D/'data/diaithir_planets/tags/worldgen/biome'
+B.mkdir(parents=True,exist_ok=True); T.mkdir(parents=True,exist_ok=True)
+CELLS=[((-1,0),(-1,0)),((-1,0),(0,1)),((0,1),(-1,0)),((0,1),(0,1))]
 for x in out:
     if x['planet_id']=='diaithir': continue
+    h=int(x['hash'],16); names=POOL[x['soil']]
+    names=names[h%4:]+names[:h%4]
+    global k_d
+    k_d=((h&63)-32,((h>>6)&63)-32,((h>>12)&63)-32)
+    ids=[];cells=[]
+    for n,(t,hu) in zip(names,CELLS):
+        j=json.loads((TPL/(n+'.json')).read_text()); bid=x['planet_id']+'_'+n
+        (B/(bid+'.json')).write_text(json.dumps(tint(j,'')))
+        ids.append('diaithir_planets:'+bid)
+        cells.append({"biome":ids[-1],"parameters":{"temperature":list(map(float,t)),"humidity":list(map(float,hu)),"continentalness":[-1.0,1.0],"erosion":[-1.0,1.0],"depth":[-1.0,1.0],"weirdness":[-1.0,1.0],"offset":0.0}})
+    (T/(x['planet_id']+'.json')).write_text(json.dumps({"values":ids}))
     d={"type":"minecraft:"+x['dimension_type'],"generator":{"type":"minecraft:noise","settings":"minecraft:"+x['noise_settings'],
-       "biome_source":{"type":"minecraft:multi_noise","preset":"minecraft:"+x['biome_source']} if x['biome_source']!='end' else {"type":"minecraft:the_end"}}}
+       "biome_source":{"type":"minecraft:multi_noise","biomes":cells}}}
     (D/'data/diaithir_planets/dimension'/(x['planet_id']+'.json')).write_text(json.dumps(d))
     lang['dimension.diaithir_planets.'+x['planet_id']]=x['name']
 (D/'assets/diaithir_planets/lang').mkdir(parents=True,exist_ok=True)

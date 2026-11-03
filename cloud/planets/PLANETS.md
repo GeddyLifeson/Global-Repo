@@ -14,3 +14,6 @@ Read `planets.tsv` (one row per planet: id, dimension, soil, opens_age, entries 
 
 ## Status
 Done: table, ids, dimension JSON, English names. Untested: dimension JSON has not been booted (no server jar in the cloud); the PC lane or a headless boot must load datapack/ before it ships. Not done: per-planet biome palettes, sky/skybox, Keelwright route data, name pipeline for the 130 cultures (universe names are coined; they keep their own names).
+
+## Biomes and tags (added)
+Each non-Terra planet has 4 of its own biomes `diaithir_planets:<planet>_<kind>` (864 total), cloned from vanilla 26.1.2 biome templates by soil (planets-data/templates, from the 26.1.2 vanilla data) with a per-planet colour shift, placed in four temperature/humidity cells in its dimension. The biome tag `#diaithir_planets:<planet_id>` lists exactly that planet's four biomes, so structures keyed on the tag never leak into Terra. Tested: 216 dimensions and 864 biomes load with no registry errors; chunks generated in one planet per soil and in Ashestith, Alaima and Elaennirlys.
