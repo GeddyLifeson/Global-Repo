@@ -1,0 +1,211 @@
+{
+ "proxy_language": "Classic Maya (Ch'olti'an-Yucatecan hieroglyphic register) with Colonial Yucatec Maya as lexical backup",
+ "confidence": "medium",
+ "proxy_rationale": "A later court in Yucatan with corn and star themes best maps to the Yucatecan Maya of Postclassic and Colonial Yucatan (Mayapan, Chichen Itza-Mayapan period), documented by the Colonial dictionaries (Motul, Vienna, Ticul) and Books of Chilam Balam. Classic Maya hieroglyphic readings (Ch'olti'an) supply sacred and court titles (ajaw, k'uhul, ch'ok, chan). Link to a specific unnamed 'court' is thematic, so confidence is medium. Current game strings (Buxuxu, Momsacin, Jujojmu, Lazebi) do not look like Maya and should be replaced.",
+ "phonology": "Yucatec consonants: stops p, t, k, b' (implosive), ejectives p', t', k', ch' and plain ch; ts, ts'; affricates; fricatives s, x (esh), h; nasals m, n; liquids l, r (rare, loans); glides w, y; glottal stop '. Yucatec has no phonemic r in native words and no d, f, g. Vowels a, e, i, o, u, each short or long (aa, ee, ii, oo, uu) and in Yucatec also with high tone (a-acute) and glottalized/rearticulated vowels (a'a, V'V). Classic Maya (hieroglyphic): k, k', q, q', ch, ch', t, t', p, b', ts/tz, tz', s, x, j (h), h, m, n, l, w, y, ' plus a e i o u with long/complex vowels.",
+ "phonotactics": "Root shape is mostly CVC (stressed, often monosyllabic roots); also CV, CVV, CV'C. Syllable onset is a single consonant (no initial clusters in native words; initial glottal stop is non-phonemic and not written). Codas are single consonants; internal CC across syllable boundary is common (e.g. -kt-, -nk-, -lm-). Words consisting only of vowels do not occur; vowel-initial words get a glottal onset. Native roots are rarely longer than CVC; polysyllabic words are compounds or suffixed forms. Final consonants preserved (including -b', -l, -n, -k, -x). Hiatus is resolved by a glide or glottal stop (a'a, ya).",
+ "orthography": "Colonial/modern Yucatec convention (Academia de la Lengua Maya / APLM): a, b, ch, ch', e, h, i, j, k, k', l, m, n, o, p, s, t, t', ts, ts', u, w, x, y, ' with doubled vowels for length. Epigraphic Mayanist convention: tz, tz', ch, ch', k, k', b', j (for h), x, w, y, ', with ajaw, k'uhul, b'alam, k'inich, etc. Pick one style per name (recommended: modern Mayanist: b', k', ch', tz, tz', j) and use hyphens only to separate morphemes in glosses, not in names.",
+ "morphology": "Agglutinative, head-marking, polysynthetic tendencies. Root classes: nouns, verbs, positionals, adjectives, particles. Possessed nouns take set A prefixes: u- (3rd), in- (1sg), a- (2sg), k- (1pl) with y- before vowels (y-ich 'his eye'). Plural -ob' (Yucatec) or -ob/-oob; plural in Classic -ob'. Numeral classifiers are obligatory with numerals: -p'el (inanimate), -tul (animate), -kuul (plants), -wak'. Agentive prefix aj- (masc/occupation), ix- (fem), x- (fem/ dimin, Colonial), ah- (Colonial spelling of aj-), ah/aj + noun = 'one of' / 'person of'. Place markers: -il (abstract/relational), -al, -ob'. Derivational: -ab' (instrumental, 'that with which'), -bil/-b'il (passive participle), -nal (place of), -tun (stone/year), -kan/-chan (snake/sky homophony).",
+ "compounding": "Noun + noun compounds are head-final: modifier + head (k'in 'sun' + ch'e'n 'well' -> k'in-ch'e'n). Genitive/possessive constructions are head-marked: possessed noun with u- prefix preceding possessor noun: u-na' ajaw 'the mother of the ruler'; 'Temple of the Sun' = u-naah k'in or yotoot k'in ('house of the sun'). Titles: Aj-/Ix- + noun for occupation or person (aj-k'in 'priest of the sun/day', aj-tz'ib' 'scribe'). Dedicatory/Classic formulas: k'uhul 'holy' + title; ch'ok 'young, sprout'; sak 'white/pure' as adjective before noun. Adjectives precede nouns (sak nik 'white flower'). Numerals + classifier precede noun. Place names often Noun + noun (Ox-tun 'three-stone', Chi-ch'e'n 'mouth of the well', Ek'-balam 'black jaguar').",
+ "noun_phrase_order": "Demonstrative/article + numeral-classifier + adjective + noun + possessor; possessor follows possessed head (u-X Y = 'Y's X'). Adjectives and modifiers precede the head noun. Name pattern for 'X of Y': u-[X] [Y] or compound [Y]-[X] when Y is a classifying modifier.",
+ "attested_roots": [
+  {
+   "form": "ixi'im",
+   "gloss": "maize, corn (Yucatec; Classic ixiim/ixim)",
+   "reconstructed": false
+  },
+  {
+   "form": "ixim",
+   "gloss": "maize (Classic/Ch'olan, Tzeltal)",
+   "reconstructed": false
+  },
+  {
+   "form": "ek'",
+   "gloss": "star (Classic/Yucatec ek' 'star' in Colonial; Classic ek' 'black/star' homophone, chan'ek' for stars)",
+   "reconstructed": false
+  },
+  {
+   "form": "lak'in",
+   "gloss": "east (Yucatec)",
+   "reconstructed": false
+  },
+  {
+   "form": "k'iin",
+   "gloss": "sun, day",
+   "reconstructed": false
+  },
+  {
+   "form": "ajaw",
+   "gloss": "lord, ruler",
+   "reconstructed": false
+  },
+  {
+   "form": "k'uhul",
+   "gloss": "holy, divine",
+   "reconstructed": false
+  },
+  {
+   "form": "chan",
+   "gloss": "sky (Classic); also snake in Cholan 'can'",
+   "reconstructed": false
+  },
+  {
+   "form": "kaan",
+   "gloss": "sky (Yucatec)",
+   "reconstructed": false
+  },
+  {
+   "form": "sak",
+   "gloss": "white, pure",
+   "reconstructed": false
+  },
+  {
+   "form": "ya'ax",
+   "gloss": "green, blue-green, first",
+   "reconstructed": false
+  },
+  {
+   "form": "k'an",
+   "gloss": "yellow, ripe, precious",
+   "reconstructed": false
+  },
+  {
+   "form": "chak",
+   "gloss": "red, great",
+   "reconstructed": false
+  },
+  {
+   "form": "b'alam",
+   "gloss": "jaguar",
+   "reconstructed": false
+  },
+  {
+   "form": "ha'",
+   "gloss": "water",
+   "reconstructed": false
+  },
+  {
+   "form": "nal",
+   "gloss": "maize ear, place of (suffix)",
+   "reconstructed": false
+  },
+  {
+   "form": "naah",
+   "gloss": "house, building (Classic)",
+   "reconstructed": false
+  },
+  {
+   "form": "ch'e'n",
+   "gloss": "well, cave, cenote",
+   "reconstructed": false
+  },
+  {
+   "form": "tun",
+   "gloss": "stone, year (360 days)",
+   "reconstructed": false
+  },
+  {
+   "form": "ts'ul",
+   "gloss": "foreigner, lord (Colonial)",
+   "reconstructed": false
+  }
+ ],
+ "worked_examples": [
+  {
+   "english": "House of the Sun",
+   "name": "Yotoot K'iin",
+   "gloss": "y-otoot k'iin = 3SG.POSS-house sun 'his/its house, the sun's'"
+  },
+  {
+   "english": "Star Maize",
+   "name": "Ek' Ixiim",
+   "gloss": "ek' star + ixiim maize; modifier-head compound"
+  },
+  {
+   "english": "Holy Lord of the East",
+   "name": "K'uhul Lak'in Ajaw",
+   "gloss": "k'uhul holy + lak'in east + ajaw lord"
+  },
+  {
+   "english": "White Jaguar Well",
+   "name": "Sak B'alam Ch'e'n",
+   "gloss": "sak white + b'alam jaguar + ch'e'n well/cave; adjective + noun + head"
+  },
+  {
+   "english": "Maize-Scribe",
+   "name": "Aj Ixiim Tz'ib'",
+   "gloss": "aj agentive prefix + ixiim maize + tz'ib' write/paint; agent noun 'one of maize-writing'"
+  },
+  {
+   "english": "Sky Stone Place",
+   "name": "Chan Tun-nal",
+   "gloss": "chan sky + tun stone + -nal place of; 'place of the sky stone'"
+  }
+ ],
+ "allowed_graphemes": [
+  "a",
+  "aa",
+  "e",
+  "ee",
+  "i",
+  "ii",
+  "o",
+  "oo",
+  "u",
+  "uu",
+  "b",
+  "b'",
+  "ch",
+  "ch'",
+  "h",
+  "j",
+  "k",
+  "k'",
+  "l",
+  "m",
+  "n",
+  "p",
+  "p'",
+  "s",
+  "t",
+  "t'",
+  "tz",
+  "tz'",
+  "ts",
+  "ts'",
+  "w",
+  "x",
+  "y",
+  "'"
+ ],
+ "extra_allowed_chars": " -'\"",
+ "forbidden_patterns": [
+  "[dfgqrvz]",
+  "(?<![bcpkt])'(?![aeiou])",
+  "[bcdfghjklmnpqrstvwxyz]{4,}",
+  "^[^aeiou]*$",
+  "(aa|ee|ii|oo|uu){2}",
+  "(?:ph|th|kh|sh|zh)",
+  "ou|ei|ae|ie"
+ ],
+ "syllables_per_word": [
+  1,
+  4
+ ],
+ "max_word_length": 18,
+ "sources": [
+  "Bricker, Po'ot Yah, Dzul 1998, A Maya-English/English-Maya Dictionary",
+  "Barrera Vasquez et al. 1980, Diccionario Maya Cordemex",
+  "Kettunen & Helmke, Introduction to Maya Hieroglyphs",
+  "Coe & Van Stone 2005, Reading the Maya Glyphs",
+  "Kaufman & Norman 1984, An Outline of Proto-Cholan Phonology, Morphology and Vocabulary",
+  "Tozzer 1921, A Maya Grammar",
+  "Roys 1933, The Book of Chilam Balam of Chumayel",
+  "Wiktionary and Glottolog entries for Yucatec Maya, Classic Maya, Proto-Mayan",
+  "Dienhart, Proto-Mayan Vocabulary (Mayan Hieroglyphic Dictionary)"
+ ],
+ "notes": "No word may be identical to a Modern Irish, Scottish Gaelic or Manx word since this is not a Goidelic culture. The existing game names (Buxuxu, Momsacin, Jujojmu, Lazebi etc.) show non-Maya features (z, initial clusters, repeated u-syllables, no glottalization) and should be regenerated. Mesoamerican and Maya sources are biased toward the Classic Ch'olan register (southern lowlands) and Colonial Yucatec; a Postclassic Yucatan court (Mayapan) is documented mainly through Spanish-era Yucatec and ethnohistory. Distinguish c vs k and use tz or ts consistently in Latin script; the audit regex disallows d f g q r v z. Recommend building names from CVC roots plus u-/aj-/-nal/-il to avoid random syllables.",
+ "unit": "The Corn-and-Star Court",
+ "slug": "the_corn_and_star_court",
+ "model": "claude-sonnet-5-5"
+}

@@ -1,0 +1,201 @@
+{
+ "proxy_language": "Classical Tibetan (Wylie transliteration) as primary proxy, with Pali/Sanskrit Buddhist court vocabulary as shared liturgical layer",
+ "confidence": "low",
+ "proxy_rationale": "The culture is a composite Buddhist court sphere spanning Tibetan, Burmese, Khmer, Sinhala and Korean areas; no single language covers it. Classical Tibetan is the best-documented language with a scholarly transliteration and a productive compounding system, and Pali/Sanskrit loanwords (dharma, vihara, stupa, raja, giri, padma) are the genuine common layer across Burma, Cambodia, Sri Lanka and Tibet. Korean is not covered by this proxy. Names should be Tibetan-style native compounds optionally mixed with Pali/Sanskrit Buddhist terms.",
+ "phonology": "Classical Tibetan (Wylie): consonants k kh g ng; c ch j ny; t th d n; p ph b m; ts tsh dz; zh z ' y r l sh s h w; plus prefixed/superscribed/subscribed radicals. Vowels a i u e o. Pali layer: a ā i ī u ū e o; stops with aspirates; retroflexes (ṭ ḍ ṇ), ñ, ṃ.",
+ "phonotactics": "Tibetan syllable = optional prefix (g d b m ') + root initial + optional subscript (y r l w) + vowel + optional final (g ng d n b m ' r l s); optional second final (s, d). Words are mostly 1-2 syllables, polysyllables are compounds; every syllable has a vowel. Pali: open or nasal/consonant-closed syllables, no final clusters, words end in a vowel or ṃ.",
+ "orthography": "Wylie transliteration for Tibetan, with syllables separated by hyphens in names (e.g. gangs-ri, rdo-rje) or fused for readability; Pali/Sanskrit in standard IAST-style Latin (dhamma, vihāra). Keep one consistent layer per name; do not mix Wylie clusters into Pali words.",
+ "morphology": "Tibetan is largely isolating: noun roots are monosyllabic, verbs have stems and particles. Genitive particle -'i / -gi / -kyi / -gyi / -'i (choice conditioned by the preceding final), agentive/ergative -kyis etc., locative -la / -na, plural markers -rnams / -dag. Adjectives follow nouns. Pali: inflected noun stems in -a, -ā, -i, -u with case endings; compounds use bare stems.",
+ "compounding": "Tibetan: head-final for noun+noun compounds (modifier + head), e.g. chu-mig 'water-eye = spring'. Genitive phrases are modifier + genitive particle + head: 'X of Y' = Y-gi X (lha-sa'i pho-brang). Agent nouns by -pa (-ba) 'one who': e.g. lcags-mkhan 'iron-worker', or -mkhan/-pa. Adjectives follow nouns: me-tog dkar-po 'white flower'. Pali/Sanskrit: bare-stem determinative compounds, modifier first (padma-giri 'lotus-mountain', dhamma-rāja 'dharma-king'). Hybrid names pair a Tibetan root with a Sanskrit term as separate words.",
+ "noun_phrase_order": "Tibetan: possessor/modifier-GEN + head noun; head noun + adjective + determiner/number (noun-adj-num-dem); in compounds modifier precedes head. Pali compounds: modifier before head; in phrases adjective typically precedes noun.",
+ "attested_roots": [
+  {
+   "form": "gangs",
+   "gloss": "snow, glacier",
+   "reconstructed": false
+  },
+  {
+   "form": "ri",
+   "gloss": "mountain",
+   "reconstructed": false
+  },
+  {
+   "form": "rtse",
+   "gloss": "peak, summit",
+   "reconstructed": false
+  },
+  {
+   "form": "pad-ma",
+   "gloss": "lotus",
+   "reconstructed": false
+  },
+  {
+   "form": "me-tog",
+   "gloss": "flower",
+   "reconstructed": false
+  },
+  {
+   "form": "chu",
+   "gloss": "water, river",
+   "reconstructed": false
+  },
+  {
+   "form": "nyi-ma",
+   "gloss": "sun",
+   "reconstructed": false
+  },
+  {
+   "form": "zla-ba",
+   "gloss": "moon",
+   "reconstructed": false
+  },
+  {
+   "form": "rdo-rje",
+   "gloss": "vajra, thunderbolt",
+   "reconstructed": false
+  },
+  {
+   "form": "lha",
+   "gloss": "god, deity",
+   "reconstructed": false
+  },
+  {
+   "form": "pho-brang",
+   "gloss": "palace",
+   "reconstructed": false
+  },
+  {
+   "form": "gtsug-lag-khang",
+   "gloss": "temple, monastery hall",
+   "reconstructed": false
+  },
+  {
+   "form": "mchod-rten",
+   "gloss": "stupa, reliquary",
+   "reconstructed": false
+  },
+  {
+   "form": "rgyal-po",
+   "gloss": "king",
+   "reconstructed": false
+  },
+  {
+   "form": "dkar-po",
+   "gloss": "white",
+   "reconstructed": false
+  },
+  {
+   "form": "gser",
+   "gloss": "gold",
+   "reconstructed": false
+  },
+  {
+   "form": "vihāra",
+   "gloss": "monastery (Pali/Skt)",
+   "reconstructed": false
+  },
+  {
+   "form": "dhamma",
+   "gloss": "teaching, law (Pali)",
+   "reconstructed": false
+  }
+ ],
+ "worked_examples": [
+  {
+   "english": "Snow Peak",
+   "name": "gangs-rtse",
+   "gloss": "gangs 'snow' + rtse 'peak', modifier-head compound"
+  },
+  {
+   "english": "Lotus Palace",
+   "name": "pad-ma'i pho-brang",
+   "gloss": "pad-ma 'lotus' + 'i genitive + pho-brang 'palace'"
+  },
+  {
+   "english": "Temple of the Sun",
+   "name": "nyi-ma'i gtsug-lag-khang",
+   "gloss": "nyi-ma 'sun' + 'i genitive + gtsug-lag-khang 'temple'"
+  },
+  {
+   "english": "White Lotus",
+   "name": "pad-ma dkar-po",
+   "gloss": "pad-ma 'lotus' + dkar-po 'white', noun-adjective order"
+  },
+  {
+   "english": "Golden Stupa",
+   "name": "gser-gyi mchod-rten",
+   "gloss": "gser 'gold' + gyi genitive/attributive + mchod-rten 'stupa'"
+  },
+  {
+   "english": "River of the Moon",
+   "name": "zla-ba'i chu",
+   "gloss": "zla-ba 'moon' + 'i genitive + chu 'water, river'"
+  }
+ ],
+ "allowed_graphemes": [
+  "a",
+  "b",
+  "c",
+  "d",
+  "e",
+  "g",
+  "h",
+  "i",
+  "j",
+  "k",
+  "l",
+  "m",
+  "n",
+  "o",
+  "p",
+  "r",
+  "s",
+  "t",
+  "u",
+  "w",
+  "y",
+  "z",
+  "kh",
+  "ch",
+  "th",
+  "ph",
+  "ng",
+  "ny",
+  "ts",
+  "tsh",
+  "dz",
+  "zh",
+  "sh",
+  "gy",
+  "by",
+  "dr",
+  "br",
+  "gr"
+ ],
+ "extra_allowed_chars": " -'",
+ "forbidden_patterns": [
+  "[fqvx]",
+  "(.)\\1\\1",
+  "[^aeiouyṃ'\\s-]{5,}",
+  "^[ngbdmzrlsy]{3,}(?![aeiou])"
+ ],
+ "syllables_per_word": [
+  1,
+  2,
+  3
+ ],
+ "max_word_length": 22,
+ "sources": [
+  "Jäschke, H.A., A Tibetan-English Dictionary (1881)",
+  "Beyer, Stephan, The Classical Tibetan Language (1992)",
+  "Hill, Nathan W., 'A Lexicon of Tibetan Verb Stems' / Wylie transliteration standard (Wylie 1959)",
+  "Turrell Wylie, 'A Standard System of Tibetan Transcription' (1959)",
+  "Geiger, Wilhelm, A Pali Grammar (1943/1994)",
+  "Rhys Davids and Stede, Pali-English Dictionary (1921-25)",
+  "Glottolog; ASJP; Wiktionary Tibetan lexical entries"
+ ],
+ "notes": "Composite culture across five regions: Tibetan was chosen as proxy because it is well documented, but Burmese, Khmer, Sinhala and Korean are not represented; the Pali/Sanskrit layer is the only truly shared element. Treat the proxy as a stylistic approximation, not a claim that this court spoke Tibetan. No word may be identical to a Modern Irish, Scottish Gaelic or Manx word since the language is not Goidelic.",
+ "unit": "The Lotus-and-Peak Court",
+ "slug": "the_lotus_and_peak_court",
+ "model": "claude-sonnet-5-5"
+}

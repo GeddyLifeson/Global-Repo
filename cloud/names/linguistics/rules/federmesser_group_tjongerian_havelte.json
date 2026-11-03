@@ -1,0 +1,200 @@
+{
+ "proxy_language": "Proto-Indo-European (late, Northwest-European/Old European substrate-flavoured reconstruction) used only as a notional stand-in",
+ "confidence": "speculative",
+ "proxy_rationale": "The Federmesser/Tjongerian/Havelte groups (c. 14,000-12,800 BP, Allerod interstadial) are Final Palaeolithic foragers of the NW European lowlands, known only from flint tools, hearths and faunal remains. No language is attested and none can be recovered. Any proxy is a game convention. The least indefensible option is a reconstructed proto-language notation. Proto-Indo-European is NOT claimed to be the language of these hunters (PIE is usually dated millennia later and elsewhere); it is used only because it offers a consistent reconstruction notation and hydronymic/zoonymic roots. Hans Krahe's Old European hydronymy and Theo Vennemann's pre-IE 'Vasconic' hypothesis are contested and must not be presented as established. Names should therefore be understood as invented-but-disciplined reconstruction-style forms, not real Federmesser speech.",
+ "phonology": "Notional PIE-style inventory (Fortson/Beekes/Ringe): stops *p *t *k *kw (*g *gw *d *b rare for *b); voiced aspirates simplified or omitted for the game (use plain *b *d *g); fricative *s; sonorants *m *n *l *r *w *y; vowels *e *o *a *i *u plus length *e: *o:. Laryngeals *h1 *h2 *h3 may be written h (schwa-like colouring) sparingly. No claim of phonemic reality for the historical hunters.",
+ "phonotactics": "Roots typically CVC or CVCC (*CeC, *CeRC); syllable onsets may be s+stop clusters (*sp- *st- *sk-) or stop+liquid (*pl- *tr- *kl- *kr- *gw-r-); codas stop/sonorant/s. Words end in vowel or consonant (thematic -o-/-e- stems are vowel-final in the 'proto-word', e.g. *wlkwos). Avoid *b- initially, avoid two voiced aspirates in a root (Bartholomae/Grassmann-type root constraints), avoid identical consonants flanking *e. No tone; stress not marked in spelling.",
+ "orthography": "Standard PIE reconstruction transliteration, simplified for Latin-script audit: plain lowercase letters, vowel length by macron or doubled vowel optionally, laryngeals as h; reconstructed forms may be shown with leading asterisk in notes but names themselves are written without it. Labiovelars written kw/gw; palatals written k/g (satem/centum distinction ignored); syllabic sonorants written with a vowel (ur, er, el, em, en).",
+ "morphology": "Root + thematic vowel (-o-/-e-) + stem extension; nominal endings (nom. -s, -m acc., -os/-om thematic; feminine -a:/-eh2). Derivation by suffixes: *-ro-/-lo- (adjective), *-ent- (participle, 'one who'), *-tor- (agent noun), *-ti- (abstract/action), *-mo- (superlative/object), *-es-/-os (neuter s-stems), *-ih2/-ya (feminine/collective). Reduplication occurs in verbs, mostly absent in names. For the game, names are built as bare stems or stem+suffix in nominative form.",
+ "compounding": "PIE compounds are head-final (determinant + head): *h2ek'-mon- type; first member usually a bare stem or o-grade stem with linking -o-/-i-. 'X of Y' is expressed either by a genitive (Y-os/-eso) or, preferably in names, a compound Y-o-X. Agent names: object + verbal root + *-o-/*-eh2 (e.g. 'meat-eater'). Adjective + noun order is free but typically adjective precedes noun.",
+ "noun_phrase_order": "Adjective before noun; genitive may precede or follow; in compounds modifier precedes head. Demonstratives precede noun.",
+ "attested_roots": [
+  {
+   "form": "*h2ekwa-",
+   "gloss": "water, river",
+   "reconstructed": true
+  },
+  {
+   "form": "*wed-r/n-",
+   "gloss": "water",
+   "reconstructed": true
+  },
+  {
+   "form": "*h2erg'-",
+   "gloss": "white, bright",
+   "reconstructed": true
+  },
+  {
+   "form": "*h1eks-",
+   "gloss": "ox-like/wild bovine (aurochs, notionally *tauros)",
+   "reconstructed": true
+  },
+  {
+   "form": "*wlkwos",
+   "gloss": "wolf",
+   "reconstructed": true
+  },
+  {
+   "form": "*h2rtk'os",
+   "gloss": "bear",
+   "reconstructed": true
+  },
+  {
+   "form": "*h1elh1en-",
+   "gloss": "deer, elk",
+   "reconstructed": true
+  },
+  {
+   "form": "*h2owis",
+   "gloss": "sheep (usable as 'woolly animal')",
+   "reconstructed": true
+  },
+  {
+   "form": "*peh2wr/pehwr-",
+   "gloss": "fire",
+   "reconstructed": true
+  },
+  {
+   "form": "*dyew-/*dyeus",
+   "gloss": "sky, day, sky-father",
+   "reconstructed": true
+  },
+  {
+   "form": "*seh2wel-",
+   "gloss": "sun",
+   "reconstructed": true
+  },
+  {
+   "form": "*meh1n(s)-",
+   "gloss": "moon, month",
+   "reconstructed": true
+  },
+  {
+   "form": "*dorw-/*dru-",
+   "gloss": "tree, wood, oak",
+   "reconstructed": true
+  },
+  {
+   "form": "*bhehg'os",
+   "gloss": "beech",
+   "reconstructed": true
+  },
+  {
+   "form": "*peku-",
+   "gloss": "cattle, livestock",
+   "reconstructed": true
+  },
+  {
+   "form": "*h2ster-",
+   "gloss": "star",
+   "reconstructed": true
+  },
+  {
+   "form": "*kerh2- ",
+   "gloss": "to burn, hearth",
+   "reconstructed": true
+  },
+  {
+   "form": "*sal-",
+   "gloss": "salt",
+   "reconstructed": true
+  }
+ ],
+ "worked_examples": [
+  {
+   "english": "River Stew",
+   "name": "hekwa-solo",
+   "gloss": "water-stew/pot (hekwa 'water' + -o- linker + *sol- 'cook'/stew, notional)"
+  },
+  {
+   "english": "Temple of the Sun",
+   "name": "sawelo-domos",
+   "gloss": "sun + o-linker + *dom- 'house, dwelling'"
+  },
+  {
+   "english": "Wolf Camp",
+   "name": "wlkwo-dhom",
+   "gloss": "wolf + o-linker + dhom 'dwelling' (simplified to dom)"
+  },
+  {
+   "english": "Fire-Maker",
+   "name": "pehwr-dhoh",
+   "gloss": "fire + *dheh1- 'put, make' (zero-grade/o-grade agent) simplified as peur-do"
+  },
+  {
+   "english": "White Water (river)",
+   "name": "arg-ekwa",
+   "gloss": "*h2erg' 'bright/white' + *h2ekwa 'water'"
+  },
+  {
+   "english": "Bear Spear",
+   "name": "arkto-gwhen",
+   "gloss": "bear + *gwhen- 'strike, kill' (simplified gwen)"
+  }
+ ],
+ "allowed_graphemes": [
+  "p",
+  "t",
+  "k",
+  "kw",
+  "b",
+  "d",
+  "g",
+  "gw",
+  "s",
+  "m",
+  "n",
+  "l",
+  "r",
+  "w",
+  "y",
+  "h",
+  "a",
+  "e",
+  "i",
+  "o",
+  "u",
+  "aa",
+  "ee",
+  "oo"
+ ],
+ "extra_allowed_chars": " -",
+ "forbidden_patterns": [
+  "^[bdg]h",
+  "[aeiou]{3,}",
+  "(.)\\1\\1",
+  "[^aeiou ]{4,}",
+  "^[ptk]{2}",
+  "q",
+  "x",
+  "z",
+  "f",
+  "c",
+  "j",
+  "v",
+  "\\bw[wy]",
+  "[ptk]h[ptk]"
+ ],
+ "syllables_per_word": [
+  2,
+  3,
+  4
+ ],
+ "max_word_length": 14,
+ "sources": [
+  "Fortson, Indo-European Language and Culture (2010)",
+  "Beekes, Comparative Indo-European Linguistics (1995)",
+  "Mallory and Adams, Encyclopedia of Indo-European Culture (1997)",
+  "Pokorny, Indogermanisches etymologisches Woerterbuch (1959)",
+  "Wiktionary Proto-Indo-European reconstruction pages",
+  "Krahe, Unsere aeltesten Flussnamen (1964)",
+  "Vennemann, Europa Vasconica (2003)",
+  "Price, Europe's First Farmers / Final Palaeolithic overviews (Fischer and Price edited volumes)",
+  "Crombe and Verhart, Final Palaeolithic Federmesser in NW Europe (various)",
+  "Glottolog; ASJP"
+ ],
+ "notes": "No attested language; all names are fictional reconstruction-style forms. PIE is used only as a notational convention and is chronologically and geographically unlikely to be the Federmesser language; a pre-IE or entirely lost language is at least as probable. Names should avoid any Modern Irish, Scottish Gaelic or Manx word since the culture is not Goidelic. Avoid cluster and letter strings that look like the existing game names (e.g. 'Xubayir', 'Wuniso'), which contain graphemes (x, b word-initial) and CVCV patterns alien to the PIE-style system.",
+ "unit": "Federmesser group (Tjongerian, Havelte)",
+ "slug": "federmesser_group_tjongerian_havelte",
+ "model": "claude-sonnet-5-5"
+}

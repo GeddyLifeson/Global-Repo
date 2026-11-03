@@ -1,0 +1,163 @@
+{
+ "proxy_language": "Proto-Nilo-Saharan / Proto-Eastern Sudanic / Proto-Nubian (reconstructed), with Old Nubian (attested ca. 8th-15th c. CE) and Nobiin as the nearest attested daughter-language proxies",
+ "confidence": "speculative",
+ "proxy_rationale": "The Sebilian is a Late Pleistocene/Epipaleolithic lithic industry (ca. 13-11 ka) of Kom Ombo/Upper Egypt-Nubia, with no linguistic record. Any language link is hypothetical: the Nile Valley of Nubia is the historical homeland of Nubian languages (Northern Eastern Sudanic), but Proto-Nubian is dated only to ca. 2-3 ka BP at best, and the Sebilian long predates it. Real affiliation of the Sebilian people is unknown (could even be Afroasiatic or an extinct isolate). Proto-Nubian/Old Nubian is used purely as a regional, phonologically coherent stand-in. Weak link; treat as stylistic, not historical.",
+ "phonology": "Proto-Nubian (Bechhaus-Gerst, Rilly): consonants roughly p b t d c j k g (plus w, y), nasals m n ny ng, liquids l r, fricatives s, f (marginal), and h in loans; vowels i e a o u with length contrast (a/aa etc.). Old Nubian (written in Greek-based alphabet with Coptic letters) shows b d g k t p s m n l r w, palatal ny/y, velar nasal ng, vowels a e i o u, plus long vowels. Nobiin has a contrast of geminates and a velar nasal, and implosive-like d. No aspiration, no breathy-voiced or ejective series, no 'dh/kh/th/xh' contrasts of the kind in current game names.",
+ "phonotactics": "Predominantly open or closed CV(C) syllables; words typically 2-3 syllables, roots often CVC(V). Onsets are single consonants; initial consonant clusters are essentially absent (clusters arise only across syllable boundaries, e.g. -ng-, -rk-, -lt-, nasal+stop). Word-final: vowels or sonorants/stops; Old Nubian nouns often end in a vowel or in -l, -n, -r, -s, -k. Verb forms end in suffix vowels. Vowel harmony not robust; stress is lexical or penultimate/initial (poorly attested), without effects on spelling.",
+ "orthography": "Scholarly transliteration of Nobiin/Old Nubian in Latin script: ordinary Latin letters, ny for the palatal nasal (or ñ), ng or ŋ for the velar nasal, long vowels written doubled (aa, ee, ii, oo, uu), y and w as glides, j and c as palatal affricates (Nobiin c, j). Use no h-digraphs for aspiration (avoid th, dh, kh, ph, bh, xh). Reconstruction notation: asterisk-marked Proto-Nubian forms in Rilly's and Bechhaus-Gerst's style.",
+ "morphology": "Agglutinating, mostly suffixing, SOV language type. Nouns: roots plus suffixes for case (Nobiin nominative -ø, accusative -ka/-g, genitive -n(ti), locative/dative -ki/-gi, instrumental -ti(n)), definiteness/number (plural -ti, -i, -ri, -ki variants; Nobiin plural -ti, -i, -ri), and a few derivational suffixes (-in, -kil, -gi/-ki, -si; agent suffix -kal in Old Nubian; Nobiin -kiri). Verbs: root plus tense/aspect/person suffixes; some prefix-like clitics. Reduplication occurs for intensity/plural in some Nubian roots. No noun-class system in Nubian proper (traces of noun-class prefixes may exist in Eastern Sudanic more broadly). Case marking only at the end of the noun phrase.",
+ "compounding": "Compounds are head-final: modifier + head (N-N, with the head last). The genitive precedes the head: possessor + (-n/-in linker) + possessed, e.g. X-n Y 'Y of X'. Attributive adjectives and relative clauses usually follow or precede nominal head depending on the language; Old Nubian places adjectives after the noun, but genitives and compounds go before the head. Agent compounds: object + verb root + agent suffix (e.g., water-carry-er). A name like 'Temple of the Sun' = Sun-GEN temple, e.g. 'wer-in kor'. Avoid inventing precise morphology: use short roots plus simple genitive -n/-in linker, plus -kal/-kiri for agent.",
+ "noun_phrase_order": "Possessor-GEN precedes head noun; modifier compounds precede head; adjectives follow nouns in Old Nubian (N Adj), demonstratives and numerals precede/follow variably; case-marking and plural suffixes attach to the last word of the NP.",
+ "attested_roots": [
+  {
+   "form": "aman",
+   "gloss": "water (Nobiin/Old Nubian aman)",
+   "reconstructed": false
+  },
+  {
+   "form": "essi",
+   "gloss": "water (Nobiin); Old Nubian essi",
+   "reconstructed": false
+  },
+  {
+   "form": "ar",
+   "gloss": "eye/sun (Nobiin ar 'sun, day')",
+   "reconstructed": false
+  },
+  {
+   "form": "ar",
+   "gloss": "sun/day (Old Nubian)",
+   "reconstructed": false
+  },
+  {
+   "form": "ney",
+   "gloss": "father (Nobiin)",
+   "reconstructed": false
+  },
+  {
+   "form": "wer",
+   "gloss": "big/great (Nobiin wer, Old Nubian war)",
+   "reconstructed": false
+  },
+  {
+   "form": "nog",
+   "gloss": "to eat (Nobiin) / Old Nubian nog-",
+   "reconstructed": false
+  },
+  {
+   "form": "kor",
+   "gloss": "stone/rock? (Nobiin kuur, kuru 'mountain, stone')",
+   "reconstructed": false
+  },
+  {
+   "form": "ki",
+   "gloss": "house/place (Nobiin kii, Old Nubian kii)",
+   "reconstructed": false
+  },
+  {
+   "form": "kab",
+   "gloss": "lion? (Nobiin kab)",
+   "reconstructed": false
+  },
+  {
+   "form": "tir",
+   "gloss": "hand? (Nobiin tir, Old Nubian tir)",
+   "reconstructed": false
+  },
+  {
+   "form": "mal",
+   "gloss": "fish/ox? (Old Nubian mal 'sheep, small livestock')",
+   "reconstructed": false
+  },
+  {
+   "form": "nil",
+   "gloss": "river? (Old Nubian; possible loan from Greek/Arabic Nile)",
+   "reconstructed": false
+  },
+  {
+   "form": "-n",
+   "gloss": "genitive suffix (Nobiin -n/-in)",
+   "reconstructed": false
+  },
+  {
+   "form": "-kal",
+   "gloss": "agent suffix (Old Nubian)",
+   "reconstructed": false
+  },
+  {
+   "form": "-ti",
+   "gloss": "plural suffix (Nobiin -ti/-i/-ri)",
+   "reconstructed": false
+  }
+ ],
+ "worked_examples": [],
+ "allowed_graphemes": [
+  "a",
+  "e",
+  "i",
+  "o",
+  "u",
+  "b",
+  "d",
+  "g",
+  "k",
+  "t",
+  "p",
+  "m",
+  "n",
+  "l",
+  "r",
+  "s",
+  "w",
+  "y",
+  "j",
+  "c",
+  "ny",
+  "ng",
+  "aa",
+  "ee",
+  "ii",
+  "oo",
+  "uu"
+ ],
+ "extra_allowed_chars": " -'",
+ "forbidden_patterns": [
+  "[bdgkptc]h",
+  "xh",
+  "th",
+  "dh",
+  "kh",
+  "ph",
+  "bh",
+  "gh",
+  "x",
+  "q",
+  "v",
+  "z",
+  "f",
+  "([bcdfghjklmnpqrstvwxyz])\\1\\1",
+  "^[bcdfghjklmnpqrstvwxyz]{2}(?!y)",
+  "[bcdfghjklmnpqrstvwxyz]{4,}",
+  "[aeiou]{3,}"
+ ],
+ "syllables_per_word": [
+  2,
+  3
+ ],
+ "max_word_length": 12,
+ "sources": [
+  "Rilly, Claude. 2010. Le méroïtique et sa famille linguistique. Peeters.",
+  "Rilly, Claude and de Voogt, Alex. 2012. The Meroitic Language and Writing System. Cambridge University Press.",
+  "Bechhaus-Gerst, Marianne. 1996. Sprachwandel durch Sprachkontakt am Beispiel des Nubischen im Niltal. Köppe.",
+  "Browne, Gerald M. 1996. Old Nubian Dictionary. Peeters.",
+  "Werner, Roland. 1987. Grammatik des Nobiin (Nilnubisch). Buske.",
+  "Thelwall, Robin. 1982. Linguistic aspects of Greater Nubian history. In Ehret & Posnansky (eds.), The Archaeological and Linguistic Reconstruction of African History. University of California Press.",
+  "Ehret, Christopher. 2001. A Historical-Comparative Reconstruction of Nilo-Saharan. Köppe.",
+  "Bender, M. Lionel. 1997. The Nilo-Saharan Languages: A Comparative Essay. Lincom Europa.",
+  "Glottolog and ASJP databases (Nubian, Northern Eastern Sudanic)"
+ ],
+ "notes": "Strictly speculative: the Sebilian industry (Nubia/Upper Egypt, ca. 13-11 ka BP) predates any reconstructable language; Nubian is a regional stylistic proxy only. The current game names (Ngikparhu, Mbopge, Dhoxir, Tjosthu, Huthu) use aspirated/prenasalized clusters (ngikp-, mbo-, dh-, tjo-, -thu) that are not Nubian-like; prefer short CV(C)(V) words, 2-3 syllables, ending in a vowel or in l/n/r/s/g/k, with ny/ng only medially or finally. No word may be identical to a Modern Irish, Scottish Gaelic or Manx word, as Nubian is not Goidelic; avoid accidental matches with Irish (e.g. 'ar', 'mal', 'nil', 'kab' are short and may collide, so extend or inflect them: ar-in, mal-ti, wer-kal). Attested Nubian forms above are given from memory in simplified scholarly transliteration and some glosses (kor, kab, tir, mal, nil) are uncertain; verify in Browne's Old Nubian Dictionary or Werner's Nobiin grammar before treating as authoritative. Worked examples are left empty rather than inventing unverifiable morpheme sequences; the compounding rules above (head-final, genitive -n/-in, plural -ti, agent -kal) can be used to build names such as 'aman-in ki' (house of water) or 'wer-in ar' (great sun) as stylized approximations.",
+ "unit": "Sebilian",
+ "slug": "sebilian",
+ "model": "claude-sonnet-5-5"
+}

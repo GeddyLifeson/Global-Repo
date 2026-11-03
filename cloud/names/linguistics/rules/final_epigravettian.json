@@ -1,0 +1,179 @@
+{
+ "proxy_language": "Proto-Indo-European (late, dialectal) is NOT defensible; best available is a speculative 'Palaeo-European / pre-Indo-European substrate' proxy built from Vasconic-style and Aegean/Italic substrate toponymy, with Proto-Basque as the only reconstructed comparandum",
+ "confidence": "speculative",
+ "proxy_rationale": "The Final Epigravettian (c. 17-10 ka cal BP; Italy, Dalmatia, western Balkans) predates every attested language in the region by 8,000+ years, and nothing links it to any known language family. Indo-European arrived with Neolithic/Bronze Age movements and the earlier Neolithic languages are unknown. The only defensible shortcut is to use (a) the structural profile of reconstructed Proto-Basque (Trask; Mitxelena; Michelena), the sole surviving pre-Indo-European western European language, and (b) the stratum of pre-Indo-European Mediterranean substrate roots in Italy and the Balkans (e.g. *kar(r)a 'stone', *ala/*alb 'height', *drava/*sal 'water' in Hubschmid, Alinei and similar Vasconic and substrate studies, all contested). Both are used only as phonological and morphological models, not as claims about Epigravettian speech. Names should therefore sound plausibly archaic and western-European without resembling any attested Indo-European or Modern Irish word.",
+ "phonology": "Modelled on a conservative substrate/Proto-Basque-like inventory: vowels /a e i o u/ (no length, no nasalization). Consonants: stops /p t k b d g/ (or /p t k/ only, with voiced stops allophonic), affricates /ts tʃ/, fricatives /s ʃ/ (h optional, rare), nasals /m n/, liquids /l r/ (single tap r), glides /j w/. No phonemic tone or stress contrast assumed; stress treated as initial or penultimate and not spelled.",
+ "phonotactics": "Predominantly open syllables: (C)V(C), with V, CV, CVC, CVN/CVr/CVl as attested shapes. Word-initial: single consonant or vowel; no initial clusters. Medial clusters limited to liquid or nasal plus stop (rk, lt, nt, mb, rt, lk, ns, rs), e.g. kar-ta, bel-sa. Word-final: vowel or one of n, r, l, s, k (no final stop-stop or stop clusters). No consonant clusters of three. No geminates except possibly rr, ll in substrate-style spellings. Avoid sequences the Indo-European languages favor, such as initial s+stop (st-, sk-, sp-) and long vowel clusters; allow at most two vowels in sequence (ai, au, ei, oi, ia, ua).",
+ "orthography": "Plain Latin transliteration in lowercase phonemic spelling: a e i o u; p t k b d g; ts, tx (or ch) for affricates, s, x (or sh) for /ʃ/; m n l r; y /j/ and w /w/. Use k never c or q; no diacritics. Optional hyphen between compounded roots. No apostrophes (Basque-like and substrate-like systems have no glottalization).",
+ "morphology": "Assumed agglutinative, suffixing, root-initial, modelled on Basque/Vasconic. Roots are CV(C) or CVCV (mono- or disyllabic), e.g. har- 'stone', ur- 'water', ibai-. Nominal suffixes (Basque-model, not claimed as Epigravettian): -a definite/absolutive (aizkora-a > aizkora), -k plural (ergative -k), -ko / -ren genitive-locative, -tz-/-ts- instrumental or diminutive, -ti / -di / -tegi 'place of, abundance'. Agentives with -le / -gile 'maker, doer'. Reduplication optional for emphasis or plurality (e.g. ur-ur, kal-kal) but not obligatory. No gender, no noun classes.",
+ "compounding": "Right-headed compounds typical of Basque: modifier + head, linked directly or with -a- / -e- vowel (e.g. ur-gain 'water-top'). 'X of Y' formed by genitive: Y-ko X or Y-ren X, or by simple juxtaposition (Y X). 'Y-maker' = Y + -gile or -egile. Place names: root + -ti / -di / -tegi 'place of', or root + -a. Adjectives follow the noun (Basque order) when they take the definite article; for compound names use modifier-head order consistently.",
+ "noun_phrase_order": "Possessor/modifier before head in compounds and genitive phrases (Y-ko X); descriptive adjectives follow the noun in phrases; numerals precede the noun; no prepositions, use postpositional suffixes.",
+ "attested_roots": [
+  {
+   "form": "*ur",
+   "gloss": "water (Proto-Basque *ur)",
+   "reconstructed": true
+  },
+  {
+   "form": "*ibar / ibai",
+   "gloss": "river, valley (Basque ibai, ibar)",
+   "reconstructed": false
+  },
+  {
+   "form": "*harri",
+   "gloss": "stone (Basque harri, Proto-Basque *harri)",
+   "reconstructed": true
+  },
+  {
+   "form": "*aitz",
+   "gloss": "rock, crag (Basque aitz)",
+   "reconstructed": false
+  },
+  {
+   "form": "*mendi",
+   "gloss": "mountain (Basque mendi)",
+   "reconstructed": false
+  },
+  {
+   "form": "*ilun",
+   "gloss": "dark (Basque ilun)",
+   "reconstructed": false
+  },
+  {
+   "form": "*argi",
+   "gloss": "light, bright (Basque argi)",
+   "reconstructed": false
+  },
+  {
+   "form": "*su",
+   "gloss": "fire (Basque su)",
+   "reconstructed": false
+  },
+  {
+   "form": "*ortz",
+   "gloss": "sky, thunder (Basque ortzi)",
+   "reconstructed": false
+  },
+  {
+   "form": "*ar",
+   "gloss": "male, ram (Basque ar)",
+   "reconstructed": false
+  },
+  {
+   "form": "*behi",
+   "gloss": "cow (Basque behi)",
+   "reconstructed": false
+  },
+  {
+   "form": "*zaldi",
+   "gloss": "horse (Basque zaldi)",
+   "reconstructed": false
+  },
+  {
+   "form": "*izar",
+   "gloss": "star (Basque izar)",
+   "reconstructed": false
+  },
+  {
+   "form": "*haitz-gile",
+   "gloss": "stoneworker, 'stone-maker' (constructed with Basque -gile)",
+   "reconstructed": true
+  },
+  {
+   "form": "*haran",
+   "gloss": "valley (Basque haran)",
+   "reconstructed": false
+  },
+  {
+   "form": "*egun",
+   "gloss": "day, light (Basque egun)",
+   "reconstructed": false
+  }
+ ],
+ "worked_examples": [
+  {
+   "english": "River Stew",
+   "name": "ibai-sukalde",
+   "gloss": "ibai 'river' + sukalde 'cooked dish' (modifier-head compound, no linker)"
+  },
+  {
+   "english": "Temple of the Sun",
+   "name": "eguzki-etxe",
+   "gloss": "eguzki 'sun' + etxe 'house' (genitive by juxtaposition, head-final)"
+  },
+  {
+   "english": "Stone Knife",
+   "name": "harri-labana",
+   "gloss": "harri 'stone' + labana 'knife' (modifier-head)"
+  },
+  {
+   "english": "Hunter of Horses",
+   "name": "zaldi-ehiztari",
+   "gloss": "zaldi 'horse' + ehiztari 'hunter'; agentive pattern Y-X"
+  },
+  {
+   "english": "Place of Rocks",
+   "name": "aitzti",
+   "gloss": "aitz 'rock' + -ti 'place of abundance'"
+  },
+  {
+   "english": "Water Spirit",
+   "name": "ur-gizon",
+   "gloss": "ur 'water' + gizon 'person, being'; alternatively ur-ko 'of water' + izpiritu"
+  }
+ ],
+ "allowed_graphemes": [
+  "a",
+  "e",
+  "i",
+  "o",
+  "u",
+  "p",
+  "t",
+  "k",
+  "b",
+  "d",
+  "g",
+  "m",
+  "n",
+  "l",
+  "r",
+  "s",
+  "x",
+  "ts",
+  "tx",
+  "y",
+  "w",
+  "z",
+  "h"
+ ],
+ "extra_allowed_chars": " -",
+ "forbidden_patterns": [
+  "^[bcdfghjklmnpqrstvwxz]{2}",
+  "[bcdfghjklmnpqrstvwxz]{3}",
+  "(c|q|v|f|j)",
+  "[aeiou]{3}",
+  "(ph|th|ch|sh|gh|kh)",
+  "^s[ptk]",
+  "[ptkbdg][ptkbdg]$",
+  "(.)\\1\\1"
+ ],
+ "syllables_per_word": [
+  2,
+  4
+ ],
+ "max_word_length": 12,
+ "sources": [
+  "Trask, R.L., The History of Basque (1997)",
+  "Michelena, L., Fonetica historica vasca (1977)",
+  "Hubschmid, J., Mediterrane Substrate (1960)",
+  "Villar, F., Los indoeuropeos y los origenes de Europa (1991)",
+  "Glottolog: Basque and unclassified Palaeo-European entries",
+  "Starling database: Basque etymologies",
+  "Renfrew, C., Archaeology and Language (1987) for critique of language-archaeology links"
+ ],
+ "notes": "Confidence is speculative: no language is known for Final Epigravettian hunter-gatherers (c. 17-10 ka). The Proto-Basque/Vasconic profile is a stylistic proxy, not a genetic or cultural claim. Names must not coincide with Modern Irish, Scottish Gaelic or Manx words (not a Goidelic culture); avoid obvious Latin, Greek, Slavic, or Celtic words. Do not use Basque words verbatim as final names without altering them, since modern Basque is attested; the listed roots are model patterns.",
+ "unit": "Final Epigravettian",
+ "slug": "final_epigravettian",
+ "model": "claude-sonnet-5-5"
+}

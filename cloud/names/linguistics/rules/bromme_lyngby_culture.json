@@ -1,0 +1,179 @@
+{
+ "proxy_language": "Proto-Indo-European (late/dialectal PIE) as a deeply speculative stand-in; with Hamburgian/Ahrensburgian-era 'Old European' hydronymy as a caveat",
+ "confidence": "speculative",
+ "proxy_rationale": "The Bromme (c. 12,000-10,800 BCE, Allerod) and Lyngby reindeer-hunter cultures of Denmark, S Sweden and Schleswig-Holstein are known only from flint, antler and bone; their language is unrecoverable and almost certainly pre-dates any Indo-European presence in Scandinavia (which is conventionally tied to Corded Ware/Funnel Beaker c. 3000 BCE or later). No genetic or linguistic evidence links them to a known family, and the language was probably extinct without descendants (cf. 'Paleo-European' hypotheses, Vennemann's Vasconic claims are rejected by most scholars). The least misleading option for a game is a reconstructed-looking, phonotactically conservative naming system using a PIE-style root inventory with asterisk-free surface forms avoided; any name should be treated as an invented stand-in, not as attested speech. Alternative proxy of Proto-Uralic or Proto-Eskimo-Aleut-like northern foragers is equally unsupported.",
+ "phonology": "Proxy (reconstructed late PIE, simplified): stops *p *t *k *kw *b *d *g *gw (with *bh *dh *gh *gwh as breathy/aspirated series, optionally collapsed to plain voiced in a simplified transliteration); fricative *s; resonants *m *n *l *r *y *w; laryngeals *h1 *h2 *h3 (optionally dropped or written h); vowels *e *o *a *i *u with length (e.g., e, o, a, i, u and long forms). Stress was pitch-accented and not marked in the orthography.",
+ "phonotactics": "Roots are typically monosyllabic with shape (C)(C)eC(C) with e-grade as the basic vowel; syllable shapes CV, CVC, CCV, CVCC; word-initial clusters limited mainly to s+stop (sp-, st-, sk-) and stop+resonant (pr-, tr-, kl-, gr-, dr-, bl-); no voiced aspirate clusters mixing voiced and voiceless obstruents in a root (Bartholomae/Grassmann constraints: no two plain voiced stops, e.g. *deg- invalid; no *bhedh- in strict forms); no initial *r- (rare); words may end in vowels or -s -m -n -r -t -k. Avoid sequences like 'xu', 'kw' inside native-looking forms beyond labiovelars.",
+ "orthography": "Standard PIE notation with asterisk for reconstruction in scholarly use; for game use, omit asterisk. Plain ASCII transliteration: p t k b d g, bh dh gh (or just b d g), kw, gw, s, m n l r y w, h (for any laryngeal), vowels a e i o u, optional macron or doubling for length. No c, q, x, f, z, j, v (except as w), no apostrophes needed.",
+ "morphology": "Inflectional: root + thematic vowel (-e-/-o-) + ending. Nouns: stem + case/number endings; nominative singular -s (masc/fem) or zero; accusative -m; genitive -os/-es/-s; plural -es. Roots may undergo ablaut (e/o/zero). Derivational suffixes: -ti- (action noun), -tor/-ter (agent), -mo- (superlative/abstract), -ro-/-lo- (adjectival), -ent- (participle), -yo- (relational adjective), -eha2 (collective/feminine), -nt-; adjective formation by -wos/-ent.",
+ "compounding": "Compounds are determinative with the modifier first and head last, joined by a thematic vowel -o- (e.g., *wlk-o- + *deh3-s style). Possessive (bahuvrihi) compounds common. 'X of Y' is rendered with a genitive suffix on Y (Y-os / Y-yo-) preceding X, or as a compound Y-o-X. Agent names via -tor suffix or compound with a verbal root as second member (e.g., X-dheh1-s 'X-placer').",
+ "noun_phrase_order": "Adjective before noun (agreeing in case/number/gender); genitive before head noun; demonstratives before noun; numerals before noun.",
+ "attested_roots": [
+  {
+   "form": "*h2ek'-mon-",
+   "gloss": "stone, sharp stone",
+   "reconstructed": true
+  },
+  {
+   "form": "*h2elk-",
+   "gloss": "elk",
+   "reconstructed": true
+  },
+  {
+   "form": "*h2rtko-",
+   "gloss": "bear",
+   "reconstructed": true
+  },
+  {
+   "form": "*wlkwo-",
+   "gloss": "wolf",
+   "reconstructed": true
+  },
+  {
+   "form": "*h2ap-",
+   "gloss": "water, river",
+   "reconstructed": true
+  },
+  {
+   "form": "*sal-",
+   "gloss": "salt",
+   "reconstructed": true
+  },
+  {
+   "form": "*peh2wr-",
+   "gloss": "fire",
+   "reconstructed": true
+  },
+  {
+   "form": "*kwon-",
+   "gloss": "dog",
+   "reconstructed": true
+  },
+  {
+   "form": "*gwou-",
+   "gloss": "cow, cattle",
+   "reconstructed": true
+  },
+  {
+   "form": "*bhehg-",
+   "gloss": "beech tree",
+   "reconstructed": true
+  },
+  {
+   "form": "*mori-",
+   "gloss": "sea, lake",
+   "reconstructed": true
+  },
+  {
+   "form": "*dheh1-",
+   "gloss": "to put, make",
+   "reconstructed": true
+  },
+  {
+   "form": "*h1ed-",
+   "gloss": "to eat",
+   "reconstructed": true
+  },
+  {
+   "form": "*dyeu-",
+   "gloss": "sky, day",
+   "reconstructed": true
+  },
+  {
+   "form": "*h2ster-",
+   "gloss": "star",
+   "reconstructed": true
+  },
+  {
+   "form": "*swep-",
+   "gloss": "to sleep",
+   "reconstructed": true
+  }
+ ],
+ "worked_examples": [
+  {
+   "english": "Wolf River",
+   "name": "Wlkwo-h2apis",
+   "gloss": "wlkwo- 'wolf' (modifier) + h2ap- 'water' + -is nominative"
+  },
+  {
+   "english": "Bear-Maker",
+   "name": "Rtkodhetor",
+   "gloss": "rtko- 'bear' + dheh1- 'make' + -tor agent suffix"
+  },
+  {
+   "english": "Lake of the Elk",
+   "name": "Elkyo mori",
+   "gloss": "elk- 'elk' + -yo genitive/relational + mori 'lake' (head last)"
+  },
+  {
+   "english": "Salt Fire",
+   "name": "Salo-peur",
+   "gloss": "sal- 'salt' + -o- linker + pehwr- 'fire'"
+  },
+  {
+   "english": "Dog Star",
+   "name": "Kwono-ster",
+   "gloss": "kwon- 'dog' + -o- linker + ster- 'star'"
+  },
+  {
+   "english": "Beech Sleeper",
+   "name": "Bhehgo-swept",
+   "gloss": "bhehg- 'beech' + -o- linker + swep- 'sleep' + -t agent"
+  }
+ ],
+ "allowed_graphemes": [
+  "p",
+  "t",
+  "k",
+  "kw",
+  "b",
+  "d",
+  "g",
+  "gw",
+  "bh",
+  "dh",
+  "gh",
+  "s",
+  "m",
+  "n",
+  "l",
+  "r",
+  "y",
+  "w",
+  "h",
+  "a",
+  "e",
+  "i",
+  "o",
+  "u"
+ ],
+ "extra_allowed_chars": " -",
+ "forbidden_patterns": [
+  "[cfjqvxz]",
+  "'",
+  "(.)\\1\\1",
+  "[aeiou]{3}",
+  "^[nlmrwy][bdgptk]",
+  "(bh|dh|gh)[pt]",
+  "[ptk]h"
+ ],
+ "syllables_per_word": [
+  1,
+  4
+ ],
+ "max_word_length": 16,
+ "sources": [
+  "Mallory, J.P. and Adams, D.Q., Encyclopedia of Indo-European Culture, 1997",
+  "Fortson, Benjamin W., Indo-European Language and Culture: An Introduction, 2010",
+  "Pokorny, Julius, Indogermanisches etymologisches Woerterbuch, 1959",
+  "Wiktionary Proto-Indo-European reconstruction pages",
+  "Starling database (Indo-European etymology)",
+  "Price, T. Douglas, Ancient Scandinavia, 2015",
+  "Glottolog (Indo-European / unclassified Paleo-European)"
+ ],
+ "notes": "All names for this culture are invented stand-ins. The Bromme/Lyngby language is unknown, almost certainly not Indo-European, and no real word of it survives. PIE-style forms are used only to give players internally consistent, root-based naming rather than random syllables; do not present them as the actual speech of these reindeer hunters. No word may be identical to a Modern Irish, Scottish Gaelic or Manx word (the language is not Goidelic). Apply the audit forbidden_patterns to lowercase Latin-script names with the asterisk stripped.",
+ "unit": "Bromme (Lyngby) culture",
+ "slug": "bromme_lyngby_culture",
+ "model": "claude-sonnet-5-5"
+}
