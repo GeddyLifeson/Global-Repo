@@ -6805,3 +6805,4 @@ S6824	cloud	library-content/classify.py
 S6825	cloud	library-content/finalize.py
 S6826	cloud	library-content/place_all.py
 S6827	cloud	names/linguistics/regen_relaxed.py
+S6828	cloud	diaithir-ports/diaithir-druidry/tools/gen_rites.py
