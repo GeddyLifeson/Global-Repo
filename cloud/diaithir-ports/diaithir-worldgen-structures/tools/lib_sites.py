@@ -4,7 +4,7 @@
 (STRUCTURE ids) and planets/planets.tsv. Writes under src/main/resources/data/diaithir_worldgen/: per-entry plaque
 templates, per (planet,class,band) start pools, shared class buildings, structures, one structure_set per planet,
 planet biome tags and Age structure tags. The plaque is a lectern holding a written book with the entry text verbatim."""
-import sqlite3,re,os,sys,json,csv,hashlib,collections
+import math,sqlite3,re,os,sys,json,csv,hashlib,collections
 sys.path.insert(0,os.path.dirname(os.path.abspath(__file__)))
 import gen
 from gen import N,nbt,w,NS,OUT
@@ -144,6 +144,117 @@ def build(cls,soil,k,seed):
         g.box(cx-1,0,cx-1,cx+1,0,cx+1,p["c"]); g.set(cx,1,cx,lamp(p))
     return g.b,W,D
 
+
+# ---- Terra: one building per entry, shaped and made from what its text says ----
+NUM={"two":2,"three":3,"four":4,"five":5,"six":6,"seven":7}
+MATS=[("terracotta|clay","terracotta","bricks"),("red brick|brick","bricks","stone_bricks"),("timber|wooden|wood\\b|thatch","oak_planks","oak_log[axis=y]"),
+("white|limestone|chalk|marble","calcite","smooth_quartz"),("sand|desert|sandstone|dune","sandstone","cut_sandstone"),("copper|bronze","cut_copper","copper_block"),
+("steel|iron|glass|machine","iron_block","glass"),("gold","gold_block","polished_andesite"),("earth|turf|sod","coarse_dirt","dirt"),("ice|snow|cold","packed_ice","snow_block"),("basalt|dark|black","polished_blackstone_bricks","blackstone"),("stone|rock|megalith|boulder","stone_bricks","cobblestone")]
+def terra_build(text,cls):
+    t=text.lower(); t=t.split(" anchor:")[0]
+    wall,acc="stone_bricks","cobblestone"
+    for p,a,b in MATS:
+        if re.search(p,t): wall,acc=a,b; break
+    k=3 if re.search(r"huge|vast|great|giant|widest|enormous|towering",t) else 1 if re.search(r"small|little|tiny|low\b",t) else 2
+    n=next((v for w,v in NUM.items() if re.search(r"\b"+w+r"\b",t)),2)
+    g=G(); W=D=9+4*k; cx=W//2
+    def shape():
+        if re.search(r"pyramid|stepped|ziggurat|layer after layer",t): return "pyramid"
+        if re.search(r"\bring\b|circle|henge|standing stone|stones? (stand|are set|rise)|megalith",t): return "ring"
+        if re.search(r"soldier|figures|rows of",t): return "rows"
+        if re.search(r"cave|overhang|rock shelter|cliff|gorge|rock wall",t): return "cave"
+        if re.search(r"mound|barrow|tumulus|hill (is|was) raised|piled",t): return "mound"
+        if re.search(r"dome",t): return "dome"
+        if re.search(r"\bgate\b",t): return "gate"
+        if re.search(r"walled|citadel|\bcity\b|\btown\b|fort\b|stronghold",t): return "walled"
+        if re.search(r"towers?\b",t): return "towers"
+        if re.search(r"harbou?r|port\b|ships|quay|dock",t): return "harbor"
+        if re.search(r"bridge|crossing",t): return "bridge"
+        return None
+    sh=shape()
+    g.box(0,-F,0,W-1,-1,D-1,"cobblestone")
+    if sh=="pyramid":
+        for y in range(0,(W+1)//2):
+            g.box(y,y,y,W-1-y,y,D-1-y,wall if y%2==0 else acc)
+        g.box(cx,(W+1)//2,cx,cx,(W+1)//2,cx,"gold_block" if "gold" in t else wall); g.set(cx,0,D-1,"air"); g.box(cx,0,D-1,cx,1,D-1,"air")
+    elif sh=="ring":
+        r=W//2-1; m=6+3*k
+        for i in range(m):
+            a=i*6.2832/m; x=int(round(cx+r*math.cos(a))); z=int(round(cx+r*math.sin(a))); g.box(x,0,z,x,2+k,z,wall)
+        for i in range(0,m,2):
+            a=i*6.2832/m; b=(i+1)*6.2832/m
+            x=int(round(cx+r*math.cos((a+b)/2))); z=int(round(cx+r*math.sin((a+b)/2))); g.set(x,3+k,z,wall)
+        g.set(cx,0,cx,acc)
+    elif sh=="rows":
+        g.box(1,-2,1,W-2,-1,D-2,"air")
+        for x in range(2,W-2,2):
+            for z in range(2,D-2,2): g.box(x,-1,z,x,0,z,"terracotta"); g.set(x,1,z,"carved_pumpkin[facing=south]" if False else "terracotta")
+        g.set(cx,-1,cx,"chest[facing=south]")
+    elif sh=="cave":
+        g.box(0,0,0,W-1,hh_:=3+2*k,D-1,wall); g.box(2,0,2,W-3,hh_-2,D-1,"air")
+        for y in range(1,hh_-2):
+            for x in range(3,W-3,2): g.set(x,y,2,"orange_terracotta" if (x+y)%3==0 else acc)
+    elif sh=="mound":
+        r=W//2
+        for x in range(W):
+            for z in range(D):
+                d=((x-cx)**2+(z-cx)**2)**.5
+                if d<=r+.5:
+                    top=int((r-d)*.9)
+                    for y in range(0,top+1): g.set(x,y,z,"coarse_dirt" if y<top else "grass_block")
+        g.box(cx-1,0,cx-1,cx+1,2,cx+1,"air"); g.box(cx,0,cx+1,cx,1,D-1,"air"); g.set(cx,0,cx,"chest[facing=south]")
+    elif sh=="dome":
+        r=W//2
+        for x in range(W):
+            for z in range(D):
+                for y in range(0,r+1):
+                    d=((x-cx)**2+(z-cx)**2+y*y)**.5
+                    if r-1<d<=r+.5: g.set(x,y,z,wall)
+        g.box(cx,0,D-1,cx,2,D-1,"air")
+    elif sh=="gate":
+        for x in (1,2,W-3,W-2): g.box(x,0,cx,x,5+2*k,cx+1,wall)
+        g.box(1,6+2*k,cx,W-2,7+2*k,cx+1,acc); g.box(3,0,cx,W-4,5+2*k,cx+1,"air")
+        g.box(0,0,0,W-1,0,D-1,"cobblestone")
+    elif sh=="walled":
+        g.shell(0,0,0,W-1,3+k,D-1,wall); g.box(1,0,1,W-2,2+k,D-2,"air"); g.box(1,0,1,W-2,0,D-2,"dirt_path")
+        for (x,z) in((0,0),(W-1,0),(0,D-1),(W-1,D-1)): g.box(x,0,z,x,5+k,z,acc)
+        for x in range(2,W-3,4):
+            for z in range(2,D-3,4): g.shell(x,1,z,x+2,3,z+2,"oak_planks" if "brick" not in t else "bricks"); g.box(x+1,1,z+1,x+1,2,z+1,"air")
+        g.box(cx,1,D-1,cx,3,D-1,"air")
+    elif sh=="towers":
+        m=min(n,4)
+        for i in range(m):
+            x0=1+i*((W-4)//max(1,m-1)) if m>1 else cx-1
+            g.shell(x0,0,2,x0+2,10+4*k,4,wall); g.box(x0+1,1,3,x0+1,9+4*k,3,"air"); g.set(x0+1,6+2*k,2,"glass_pane")
+            for y in range(2,10+4*k,3): g.set(x0+1,y,5,"glass_pane")
+        if m>1: g.box(1,8+2*k,3,W-2,8+2*k,3,acc)
+    elif sh=="harbor":
+        g.box(0,0,0,W-1,0,D-1,"spruce_planks")
+        for x in range(0,W,3):
+            for z in range(0,D,3): g.box(x,-F,z,x,-1,z,"spruce_log[axis=y]")
+        for x in (3,W-4): g.box(x,1,3,x,6,3,"spruce_log[axis=y]"); g.box(x,5,3,x,5,D-2,"spruce_fence")
+    elif sh=="bridge":
+        D=9+8*k; g.b.clear(); g.box(1,0,0,W-2,0,D-1,wall)
+        for z in range(D): g.set(1,1,z,"stone_brick_wall"); g.set(W-2,1,z,"stone_brick_wall")
+        for z in range(2,D-2,4): g.box(2,-F,z,W-3,-1,z,wall)
+        g.box(0,-F,0,W-1,-1,0,"cobblestone")
+    else:
+        PAL["_t"]=dict(PAL["Bloom"],w=wall,f=acc,m=acc,c=wall)
+        b,W,D=build(cls,"_t",k,len(text))
+        return b,W,D,"class:"+cls,t
+    return g.b,W,D,sh,t
+
+def loot_json(cls):
+    L={"tomb":["gold_ingot","bone","iron_sword","golden_apple","amethyst_shard"],"delve":["flint","bone","coal","raw_copper","lapis_lazuli"],
+       "temple":["gold_nugget","candle","book","emerald","paper"],"fortress":["iron_ingot","arrow","iron_axe","bread","shield"],
+       "forge":["iron_ingot","coal","iron_pickaxe","redstone","copper_ingot"],"tower":["spyglass","book","paper","ender_pearl","arrow"],
+       "hall":["book","paper","bread","emerald","name_tag"],"harbor":["fishing_rod","cod","string","rope" if False else "lead","compass"],
+       "garden":["wheat_seeds","apple","carrot","potato","bone_meal"],"bridge":["stick","iron_nugget","bread","coal","string"],
+       "ruin":["cobweb","bone","stick","coal","clay_ball"],"landmark":["flint","stick","clay_ball","gold_nugget","amethyst_shard"]}
+    it=[i for i in L[cls] if i in gen.IT]
+    return {"type":"minecraft:chest","pools":[{"rolls":{"type":"minecraft:uniform","min":2,"max":4},"entries":[{"type":"minecraft:item","name":"minecraft:"+i,"weight":10-j,"functions":[{"function":"minecraft:set_count","count":{"type":"minecraft:uniform","min":1,"max":4}}]} for j,i in enumerate(it)]}]}
+SPAWN={"tomb":"minecraft:skeleton","delve":"minecraft:cave_spider","fortress":"minecraft:zombie","ruin":"minecraft:zombie"}
+
 def jig(name,target,pool,orient,final="minecraft:air"):
     return {"id":(8,"minecraft:jigsaw"),"name":(8,name),"target":(8,target),"pool":(8,pool),"joint":(8,"aligned"),"final_state":(8,final),"placement_priority":(3,0),"selection_priority":(3,0)}
 def tmpl(blocks,size,palette_extra=None):
@@ -160,17 +271,22 @@ def tmpl(blocks,size,palette_extra=None):
         pl.append(d)
     return nbt({"size":(9,(3,list(size))),"palette":(9,(10,pl)),"blocks":(9,(10,ents)),"entities":(9,(10,[])),"DataVersion":(3,gen.DV)})
 
-def building_nbt(cls,soil,k):
-    b,W,D=build(cls,soil,k,0)
+def building_nbt(cls,soil,k,custom=None):
+    b,W,D=custom if custom else build(cls,soil,k,0)
     top=max(y for _,y,_ in b)+1
     blocks={}
     for (x,y,z),v in b.items():
-        v=gen.fixblock(v if ":" in v or True else v)
-        blocks[(x,y,z)]=(v,None)
+        v=gen.fixblock(v)
+        be=None
+        if v.startswith("minecraft:chest"): be={"id":(8,"minecraft:chest"),"LootTable":(8,f"{NS}:lib/loot/{cls}")}
+        blocks[(x,y,z)]=(v,be)
     cx=W//2
-    # south edge connector one cell beyond the footprint at floor level, facing south
+    if cls in SPAWN and (cx,F,cx) not in blocks:
+        blocks[(cx,F,cx)]=("minecraft:spawner",{"id":(8,"minecraft:mob_spawner"),"SpawnData":(10,{"entity":(10,{"id":(8,SPAWN[cls])})})})
+    if not any(v[0].startswith("minecraft:chest") for v in blocks.values()) and (cx,F,cx-1) not in blocks:
+        blocks[(cx,F,cx-1)]=("minecraft:chest[facing=south]",{"id":(8,"minecraft:chest"),"LootTable":(8,f"{NS}:lib/loot/{cls}")})
     blocks[(cx,F,D)]=("minecraft:jigsaw[orientation=south_up]",jig(f"{NS}:lib_site",f"{NS}:lib_site","minecraft:empty","south_up","minecraft:air"))
-    return tmpl(blocks,(max(x for x,_,_ in blocks)+1,top,D+1))
+    return tmpl(blocks,(max(x for x,_,_ in blocks)+1,max(top,max(y for _,y,_ in blocks)+1),max(z for _,_,z in blocks)+1))
 
 def pages(text):
     out=[];cur=""
@@ -206,7 +322,7 @@ def main():
     if LIM: rows=rows[:LIM]
     by=collections.defaultdict(list)  # (planet,cls,band) -> [(path)]
     idx=[]
-    seen_b=set()
+    seen_b=set(); terra_shapes=collections.Counter()
     for i in range(0,len(rows),900):
         ch=rows[i:i+900]
         txt={r[0]:r[1] for r in L.execute("select id,summary from entry where id in (%s)"%",".join("?"*len(ch)),[c[0] for c in ch])}
@@ -214,11 +330,20 @@ def main():
             planet=re.sub(r"[^a-z0-9_]","",uni.lower()); pl=P[planet]; soil=pl["soil"]
             text=txt[eid]; cls=classify(text); bd=band(tier or 1)
             slug=re.sub(r"[^a-z0-9_]","_",eid.lower().split(".",1)[1].replace(planet+".","")) if False else re.sub(r"[^a-z0-9]+","_",eid.lower()).strip("_")
-            tp=f"{NS}:lib/{planet}/{cls}/{bd}"
             path=f"lib/{planet}/{slug}"
-            w(f"data/{NS}/structure/{path}.nbt",plaque_nbt(name or eid,text,f"{NS}:lib/bld/{soil.lower()}/{cls}"))
+            target=f"{NS}:lib/bld/{soil.lower()}/{cls}"
+            if planet=="diaithir":
+                tb=terra_build(text,cls)
+                if tb:
+                    bpath=f"lib/diaithir/b/{slug}"; cust=(tb[0],tb[1],tb[2]); terra_shapes[tb[3]]+=1
+                    w(f"data/{NS}/structure/{bpath}.nbt",building_nbt(cls,soil,2,cust))
+                    w(f"data/{NS}/worldgen/template_pool/{bpath}.json",{"name":f"{NS}:{bpath}","fallback":"minecraft:empty","elements":[{"weight":1,"element":{"element_type":"minecraft:single_pool_element","location":f"{NS}:{bpath}","projection":"rigid","processors":"minecraft:empty"}}]})
+                    target=f"{NS}:{bpath}"
+            w(f"data/{NS}/structure/{path}.nbt",plaque_nbt(name or eid,text,target))
             by[(planet,cls,bd)].append(path); idx.append((eid,planet,cls,bd,tier or 1,f"{NS}:{path}"))
             seen_b.add((soil,cls))
+    for c in {c for (_,c,_) in by}: w(f"data/{NS}/loot_table/lib/loot/{c}.json",loot_json(c))
+    print("terra shapes",dict(terra_shapes))
     # shared buildings
     for soil,cls in seen_b:
         els=[]
