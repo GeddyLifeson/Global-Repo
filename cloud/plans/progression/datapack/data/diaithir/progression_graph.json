@@ -207,7 +207,8 @@
    "needs": [
     "ship.drive_air",
     "map.atlas",
-    "ward.field"
+    "ward.field",
+    "end.access"
    ],
    "makes": [
     "map.unwound"
@@ -497,7 +498,8 @@
     "c:plates/copper",
     "wire.copper",
     "resin",
-    "power.grid"
+    "power.grid",
+    "c:gems/quartz"
    ],
    "makes": [
     "circuit.basic"
@@ -879,7 +881,8 @@
     "altar.basic",
     "c:ingots/steel",
     "enchant.basic",
-    "power.mana_feed"
+    "power.mana_feed",
+    "c:rods/blaze"
    ],
    "makes": [
     "altar.adv"
@@ -1114,7 +1117,8 @@
    "needs": [
     "offering.feast",
     "dish.set",
-    "crops.bulk"
+    "crops.bulk",
+    "end.chorus"
    ],
    "makes": [
     "feast.ages"
@@ -1580,7 +1584,8 @@
     "ship.weapons2",
     "altar.adv",
     "arms.steel",
-    "defence.turret"
+    "defence.turret",
+    "end.access"
    ],
    "makes": [
     "boss.catalyst"
@@ -1597,7 +1602,8 @@
    "needs": [
     "c:ingots/hollowsteel",
     "armour.steel",
-    "burrowkin.chitin"
+    "burrowkin.chitin",
+    "c:ingots/netherite"
    ],
    "makes": [
     "armour.hollow"
@@ -1811,7 +1817,8 @@
     "depot.network",
     "store.warehouse",
     "trans.dispatch",
-    "reactor.fusion"
+    "reactor.fusion",
+    "c:shulker_shells"
    ],
    "makes": [
     "depot.global"
@@ -2167,7 +2174,8 @@
     "ship.drive_air",
     "c:plates/nanoalloy",
     "crew.hired",
-    "crops.anyseason"
+    "crops.anyseason",
+    "end.elytra"
    ],
    "makes": [
     "hull.space"
@@ -3126,6 +3134,106 @@
    ],
    "module": "progression",
    "quest": "q.win.gate"
+  },
+  {
+   "id": "explore.nether_gate",
+   "system": "explore",
+   "age": "V",
+   "name": "Light the Nether gate",
+   "needs": [
+    "c:ingots/steel",
+    "compass",
+    "armour.steel"
+   ],
+   "makes": [
+    "nether.access"
+   ],
+   "module": "diaithir-nether",
+   "quest": "q.explore.nether_gate"
+  },
+  {
+   "id": "explore.nether_fortress",
+   "system": "explore",
+   "age": "VI",
+   "name": "Raid the Nether fortress",
+   "needs": [
+    "nether.access",
+    "arms.steel",
+    "ward.stones"
+   ],
+   "makes": [
+    "c:rods/blaze",
+    "c:gems/quartz"
+   ],
+   "module": "diaithir-nether",
+   "quest": "q.explore.nether_fortress"
+  },
+  {
+   "id": "explore.nether_deep",
+   "system": "explore",
+   "age": "VII",
+   "name": "Mine the deep Nether",
+   "needs": [
+    "nether.access",
+    "machine.drill",
+    "armour.steel"
+   ],
+   "makes": [
+    "c:ores/netherite_scrap"
+   ],
+   "module": "diaithir-nether",
+   "quest": "q.explore.nether_deep"
+  },
+  {
+   "id": "tech.netherite",
+   "system": "tech",
+   "age": "VII",
+   "name": "Refine netherite",
+   "needs": [
+    "c:ores/netherite_scrap",
+    "c:ingots/gold",
+    "grid.heat"
+   ],
+   "makes": [
+    "c:ingots/netherite"
+   ],
+   "module": "diaithir-foundry",
+   "quest": "q.tech.netherite"
+  },
+  {
+   "id": "explore.end_gate",
+   "system": "explore",
+   "age": "VII",
+   "name": "Open the End gate",
+   "needs": [
+    "nether.access",
+    "c:rods/blaze",
+    "creature.parts",
+    "map.atlas"
+   ],
+   "makes": [
+    "end.access"
+   ],
+   "module": "diaithir-end",
+   "quest": "q.explore.end_gate"
+  },
+  {
+   "id": "explore.end_cities",
+   "system": "explore",
+   "age": "VIII",
+   "name": "Sail to the End cities",
+   "needs": [
+    "end.access",
+    "ship.drive_air",
+    "armour.hollow"
+   ],
+   "makes": [
+    "c:shulker_shells",
+    "end.elytra",
+    "end.chorus"
+   ],
+   "module": "diaithir-end",
+   "quest": "q.explore.end_cities"
   }
  ],
  "service_prefixes": [
@@ -3274,6 +3382,16 @@
    "target": "none",
    "jar_state": "none",
    "note": "the win node and quest chain only"
+  },
+  "diaithir-nether": {
+   "target": "diaithir-nether (ports #131)",
+   "jar_state": "not built",
+   "note": "merged Nether overhaul"
+  },
+  "diaithir-end": {
+   "target": "diaithir-end (ports #131)",
+   "jar_state": "not built",
+   "note": "End Remastered, Nullscape, End structures"
   }
  },
  "kept": [

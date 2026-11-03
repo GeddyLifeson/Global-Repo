@@ -26,7 +26,8 @@
  "ingredients": [
   "#c:ingots/hollowsteel",
   "#diaithir:progression/armour.steel",
-  "#diaithir:progression/burrowkin.chitin"
+  "#diaithir:progression/burrowkin.chitin",
+  "#c:ingots/netherite"
  ],
  "result": {
   "id": "diaithir:armour_hollow",

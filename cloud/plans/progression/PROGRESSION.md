@@ -2,7 +2,7 @@
 
 Goal: a solo player, like in Factorio, cannot finish the modpack without using every part of it. Every system makes things another system needs, the Ages tree gates the order, and the run ends at one win: **Open the Shardfall Gate** (the pack's rocket launch). The server still has everything. No on/off switches; each step reaches the player as a Codex quest (Bethesda style). Sources: INTEGRATION.md, UNITS.md, UPGRADES.md, FACTORIO_TECH.md, SHIPBUILDING.md, ASCENDANT.md.
 
-Machine-readable source of truth: `graph.json` (182 nodes, 15 systems, 225 resources). Checker: `check_progression.py` (S-ID in Global-Repo). Cross-mod recipes: `datapack/`.
+Machine-readable source of truth: `graph.json` (188 nodes, 15 systems, 225 resources). Checker: `check_progression.py` (S-ID in Global-Repo). Cross-mod recipes: `datapack/`.
 
 ## 1. How the web works
 - A **node** is one thing a player does or builds. It has `needs` (resources), `makes` (resources), an `age`, a `system`, a `module` (which jar owns it), a quest id `q.<node id>`, and optional `item`, `W` (watts drawn) and `s` (job seconds), in SI per UNITS.md.
@@ -105,6 +105,8 @@ Threads run it before delivering any change that touches a node, and update `gra
 - **Company founding follows the code.** `econ.company` now needs a caravan trade route (Safe passage), coin (capital), a town (office) with a warehouse (depot yard) and research pack 3 (writing or railway tech). It no longer needs the bank or civic hall. Founding stays a quest chain.
 - **Module map.** `graph.json` `modules` maps every node module name to its target jar or module and its state (folded, partial, not built, engine). The compat matrix uses it for the per-fold check. The checker fails on a node whose module is missing from the map.
 - **Settlements** thread is closed; the settle rows in the graph are the final spec until someone reopens it.
+
+- **Nether and End (ports #131).** Six explore/tech nodes: nether_gate (V), nether_fortress (VI, blaze rods and quartz), nether_deep (VII, netherite scrap), tech.netherite (VII), end_gate (VII), end_cities (VIII, shulker shells, elytra, chorus). Quartz feeds circuits, blaze rods feed the greater altar and the End gate, netherite goes into hollowsteel armour, the End gate is needed by the base bosses and the Unwound, shells by the global depot, elytra by the space hull, chorus by the Feast of the Ages.
 
 ## 8. What each thread does next
 - **Foundry:** tech and research nodes: Operator seat, research bench Age nodes (`research.gate_*`, packs 1 to 7), `foundry_` ids, W and s per machine.

@@ -27,7 +27,8 @@
   "#c:plates/iron",
   "#c:plates/copper",
   "#diaithir:progression/wire.copper",
-  "#diaithir:progression/resin"
+  "#diaithir:progression/resin",
+  "#c:gems/quartz"
  ],
  "result": {
   "id": "diaithir:foundry_circuit_basic",
