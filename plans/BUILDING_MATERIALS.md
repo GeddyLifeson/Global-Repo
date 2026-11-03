@@ -37,6 +37,14 @@ Per block or per metre, SI, approximate real-world orders of magnitude, tuned in
 - **Evolution rule:** older stages stay craftable at lower speed and quality; refits and upgrade modules raise throughput. Old builds stay valid through id migration.
 - **Panscriptum:** names and descriptions come from real page text only; names go through the 130-culture pipeline.
 
+### Tags other threads consume (requested by the megastructure threads, Global-Repo #33 and diaithir-ports #265)
+| Tag | Age | Class and stage | Note |
+|---|---|---|---|
+| `c:stone/cut` | III | masonry, cut stone (table stage is Age II; the tag opens at III once cut stone is craftable at a station) | stand-in values today: stone bricks |
+| `c:timber/beam` | III | timber, sawn structural beam used for centering and framing | stand-in values today: oak planks |
+| `c:tether/ultrahigh` | VIII | steel class, ultra-high-strength tether fibre (composite stage ahead of the RODOS lattice) | no real item yet |
+Replace the stand-ins in diaithir-ships when the real items exist. Depot rule from the requesting thread: 1 t per pallet item, 20 t if the item also carries `c:container/bulk`. Table rows `timber_beam` and `steel_tether_fibre` get added when the stages are built.
+
 ## 4. Build order (when Marlon says go)
 1. Property table as one data file read by blocks, structures, climate and fire.
 2. Concrete line first (touches trucks, rollers, roads, cranes), then steel sections, glass, roads, lining, roofing, insulation.
