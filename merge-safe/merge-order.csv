@@ -227,3 +227,28 @@ wave,repo,number,base,head,partner,title
 0,rpg,274,engine,claude/project-thread-tjwq65,,Quest goal aliases obtain_item and locate_structure (QuestDefs two-line change)
 0,ports,334,diaithircompat,claude/project-thread-ywzzrh,,"Aurorian: bow, arrows, crystalline beam, sickles, mirror of guidance (last Aurorian port; original jar can be dropped after merge)"
 0,global-repo,51,main,claude/aurorian-script-ids,,"Index S6880 port.py and S6881 rcon.py with real paths [edits SCRIPTS_INDEX.md and ids.tsv: merge one at a time]"
+0,global-repo,45,,,,MERGE_ORDER: reconcile with all open ready PRs (208 rows)
+0,global-repo,46,,,,"Item roles: use scan, 23.8k role assignments, report"
+0,global-repo,47,,,,"MERGE_ORDER: survey p1 carts, harbour module and harbour yards"
+0,global-repo,48,,,,Register S6950 gen_tags_extra and update S0317
+0,ports,297,,,,"Survey p6: client QoL ports (pickup notifier, bars, balloons, AutoHUD, tooltips, mouse tweaks, zoom, GUI scale, chat)"
+0,ports,298,,,,"Survey p6: audio folded into clientcore, Structure Compass into worldsys"
+0,ports,299,,,,Survey p6: Packet Fixer and Ksyxis folded into crash-tools
+0,ports,300,,,,"create-neoforge: gantry split as a separate GPL-3.0 module in the Create port jar (survey p1, replaces #296)"
+0,ports,301,,,,"diaithir-bosses: Shardfall Gate (clean-room Boss Checklist, survey p2)"
+0,ports,302,,,,diaithir-gear: port Tool Belt (BSD-3) to 26.1 (survey p2)
+0,ports,303,,,,"diaithir-carts: cart loader and unloader (clean-room, survey part 1)"
+0,ports,304,,,,"Survey p6: mixin and render perf folds (Alternate Current, Falling Leaves, Sky Aesthetics, ImmediatelyFast, Disable Accessibility)"
+0,ports,306,,,,"diaithir-harbour: new module, mooring bollard (survey part 1, harbours)"
+0,ports,307,,,,"diaithir-arms: 30-item melee roster, Spartan Weaponry behaviour (survey p2)"
+0,ports,308,,,,"diaithir-combat: crit attributes and weapon styles (clean-room, survey p2)"
+0,ports,309,,,,"diaithir-classes: class skill trees (clean-room, survey p2)"
+0,ports,310,,,,"diaithir-harbour: age-evolving harbour office (survey part 1, stations)"
+0,ports,311,,,,"diaithir-harbour: cargo crates on boats (survey part 1, boats)"
+0,ports,312,,,,"diaithir-firearms: ammo box container (clean-room, survey p2)"
+0,ports,313,,,,"diaithir-arms: sentry turret, mining laser, Immersive Armors stage 1 (GPL package) (survey p2)"
+0,ports,315,,,,"diaithir-ships: harbour barge yards, slipway and dry dock (survey part 1, harbours)"
+0,ports,316,,,,"diaithir-relics: Yori3o jewellery stage 1 (MIT, survey p2)"
+0,ports,317,,,,"diaithir-entity-animation: Better Animations Collection stage 1 (clean-room, survey p2)"
+0,ports,318,,,,"Survey p6: clean-room handshake, crash window, test-bot, Structure Memory, updater, Better Clouds"
+0,ports,321,,,,wiretech: compute circuit readers before acting nodes change state
