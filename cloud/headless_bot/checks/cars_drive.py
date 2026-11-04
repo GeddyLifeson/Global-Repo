@@ -41,6 +41,8 @@ with Lane('carsdrive', JARS, srv_xmx='3G', out=out) as L:
         def sample():
             p = lambda c: ' '.join(S('execute at Tester run data get entity ' + c, 0.5))
             f = lambda t: re.findall(r'\[[^\]]*\]', t)[-1:]
+            if os.environ.get('CARS_DETAIL'):
+                return {'veh_pos': f(p('@e[type=mts:builder_existing,distance=..80,limit=1,sort=nearest] Pos')), 'veh_rot': f(p('@e[type=mts:builder_existing,distance=..80,limit=1,sort=nearest] Rotation')), 'disp_pos': f(p('@e[type=block_display,distance=..80,limit=1,sort=nearest] Pos')), 'disp_tr': ' '.join(S('execute at Tester run data get entity @e[type=block_display,distance=..80,limit=1,sort=nearest] transformation', 0.5))[-260:], 'tick': ' '.join(S('tick query', 0.5))[-160:], 'cargo': CG('status', 0.5)[-1:]}
             return {'veh_pos': f(p('@e[type=mts:builder_existing,distance=..80,limit=1,sort=nearest] Pos')), 'disp_pos': f(p('@e[type=block_display,distance=..80,limit=1,sort=nearest] Pos'))}
         rep['samples'] = []
         thw = threading.Thread(target=lambda: d.hold('w', 16)); thw.start(); t0 = time.time(); tha = None
