@@ -6826,6 +6826,9 @@ S6836	cloud	diaithir-ports/diaithir-worldgen-structures/tools/lib_sites.py
 S6844	cloud	tools/mc_fake_player_bot.py
 S6849	cloud	diaithir-ports/diaithir-worldgen-structures/tools/planet_biomes.py
 S6851	cloud	diaithir-ports/diaithir-worldgen-structures/tools/rc_gen.py
+S6880	global	diaithir-ports/diaithir-aurorian/tools/port.py
+S6881	global	diaithir-ports/diaithir-aurorian/tools/rcon.py
+=======
 S6880	global	diaithir-ports PR 181: port.py (path in repo unconfirmed)
 S6881	global	diaithir-ports PR 181: rcon.py (path in repo unconfirmed)
 S6947	global	crawl_all.py
