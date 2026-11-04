@@ -10,7 +10,8 @@
 import json, os, sys, re, glob, random, csv, time, threading, urllib.request
 from concurrent.futures import ThreadPoolExecutor
 LEADS = '/mnt/project-files/assay-c3m/leads'
-POOL = '/mnt/project-files/plans/powers/POWER_POOL.tsv'
+_REPO = os.path.abspath(os.path.join(os.path.dirname(os.path.abspath(__file__)), '../../..'))
+POOL = next((p for p in ('/mnt/project-files/plans/powers/POWER_POOL.tsv', os.path.join(_REPO, 'data/powers/POWER_POOL.tsv'), os.path.join(_REPO, 'plans/powers/POWER_POOL.tsv')) if os.path.exists(p)), '')
 MODEL = os.environ.get('JUDGE_MODEL', 'claude-haiku-5-5')
 API = 'https://api.anthropic.com/v1'
 GLOSS = {'dragon_form': 'shapeshifting, beast/dragon/monster transformation', 'ki_resource': 'user of ki/chi/qi/spirit energy/aura',
@@ -34,7 +35,8 @@ def system_prompt():
     return f"""You judge one wiki page lead (the opening text, name often stripped) for a game that grants superpowers to characters.
 Reply with ONE line of compact JSON and nothing else, whatever the input is. Garbage, code, or anything that is not a page lead gets {{"b":0}}. Never write prose.
 
-STEP 1. Is the page a being: a named character, creature, deity or individual who acts? Episodes, items, places, songs, groups, concepts, game mechanics, real people who are not characters, and image/file junk are not beings. If not a being reply exactly {{"b":0}}.
+STEP 1. Classify the page: a being (named character, creature, deity or individual who acts), a weapon, armor, a vehicle (craft, ship, mech, car, any rideable or piloted machine), or other (episodes, other items, places, songs, groups, concepts, game mechanics, real people who are not characters, image/file junk). If other reply exactly {{"b":0}}.
+STEP 1b. If a weapon, armor or vehicle reply {{"b":2,"k":"weapon|armor|vehicle","n":"<its name as written in the text or empty>","m":<1-10 overall scale of what it can affect or withstand>,"q":"<verbatim quote showing the scale, or empty>","c":"h|m|l","p":[same power entries as below, only if the text states a pool power it grants or fires]}}. Use the same magnitude scale; ordinary gear is 1.
 STEP 2. If a being reply {{"b":1,"n":"<its name as written in the text or empty>","p":[{{"id":"<pool id>","m":<1-10>,"q":"<verbatim quote from the text, max 120 chars>","c":"h|m|l"}}],"x":["<short snake_case name of a power the text states that no pool id covers>"]}}
 - "p": only powers the text states or clearly implies, ids ONLY from this pool:
 {lines}
@@ -149,16 +151,22 @@ def parse(text):
     return json.loads(m.group(0)) if m else None
 
 def validate(text_src, obj, pool_ids):
-    if not isinstance(obj, dict) or obj.get('b') not in (0, 1): return None, 'shape'
+    if not isinstance(obj, dict) or obj.get('b') not in (0, 1, 2): return None, 'shape'
     if obj['b'] == 0: return {'b': 0}, ''
     ps, bad = [], 0
+    if obj['b'] == 2:
+        try: m = int(obj['m']); assert 1 <= m <= 10 and obj['k'] in ('weapon', 'armor', 'vehicle')
+        except Exception: return None, 'shape'
+        q = obj.get('q') or ''
+        obj['p'] = obj.get('p') or []
     for p in obj.get('p', [])[:8]:
         try:
             ok = p['id'] in pool_ids and 1 <= int(p['m']) <= 10 and p.get('q') and p['q'] in text_src and p.get('c') in ('h', 'm', 'l')
         except Exception: ok = False
         if ok: ps.append({'id': p['id'], 'm': int(p['m']), 'q': p['q'], 'c': p['c']})
         else: bad += 1
-    return {'b': 1, 'n': str(obj.get('n', ''))[:80], 'p': ps, 'x': [str(x)[:40] for x in obj.get('x', [])][:8], 'dropped': bad}, ''
+    extra = {'k': obj['k'], 'm': m, 'q': q if q in text_src else '', 'c': obj.get('c', 'l')} if obj['b'] == 2 else {}
+    return {'b': obj['b'], **extra, 'n': str(obj.get('n', ''))[:80], 'p': ps, 'x': [str(x)[:40] for x in obj.get('x', [])][:8], 'dropped': bad}, ''
 
 def cmd_collect(wd):
     rows = [json.loads(l) for l in open(f'{wd}/inputs.jsonl', encoding='utf-8')]
@@ -195,13 +203,13 @@ def pool_rows(): return pool()
 def cmd_tsv(wd, out):
     with open(out, 'w', encoding='utf-8', newline='') as o:
         w = csv.writer(o, delimiter='\t', lineterminator='\n')
-        w.writerow(['source_wiki', 'lead_idx', 'name_in_text', 'power', 'magnitude', 'confidence', 'quote', 'missing_powers'])
+        w.writerow(['source_wiki', 'lead_idx', 'kind', 'item_magnitude', 'name_in_text', 'power', 'magnitude', 'confidence', 'quote', 'missing_powers'])
         for l in open(f'{wd}/results.jsonl', encoding='utf-8'):
             d = json.loads(l)
-            if d.get('b') != 1: continue
+            if d.get('b') not in (1, 2): continue
             wk, i = d['id'].split('|')
             for p in d['p'] or [{'id': '', 'm': '', 'c': '', 'q': ''}]:
-                w.writerow([wk, i, d['n'], p['id'], p['m'], p['c'], p['q'], ','.join(d['x'])])
+                w.writerow([wk, i, d.get('k', 'being'), d.get('m', ''), d['n'], p['id'], p['m'], p['c'], p['q'], ','.join(d['x'])])
 
 if __name__ == '__main__':
     c, wd = sys.argv[1], sys.argv[2]
