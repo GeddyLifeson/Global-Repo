@@ -268,3 +268,4 @@ wave,repo,number,base,head,partner,title
 0,ports,341,,,,Ships carry cargo: yard and Eureka ships as containers-API carriers
 7,global-repo,54,main,,,"Headless bot: cars drive, cargo and nested save tests"
 2,ports,348,diaithircompat,claude/loco-infobox-six,,Carts roster: GG1 power and TGV start year from infoboxes (tiny)
+5,global-repo,52,main,claude/project-thread-ldq153,,Register S6940 gen_farm_assets.py (diaithir-carts reaper)
