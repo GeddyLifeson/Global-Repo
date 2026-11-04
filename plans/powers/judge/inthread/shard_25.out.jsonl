@@ -1,0 +1,250 @@
+{"id": "doom|2988", "b": 0}
+{"id": "doom|3014", "b": 0}
+{"id": "doom|3059", "b": 2, "k": "weapon", "n": "The stick", "m": 1, "q": "a weapon in Hacx", "c": "l", "p": []}
+{"id": "doom|3092", "b": 0}
+{"id": "doom|3096", "b": 0}
+{"id": "doom|3126", "b": 2, "k": "weapon", "n": "The tazer", "m": 1, "q": "tech-weapon", "c": "l", "p": []}
+{"id": "doom|3138", "b": 0}
+{"id": "doom|3182", "b": 0}
+{"id": "doom|3227", "b": 2, "k": "weapon", "n": "The uzi", "m": 1, "q": "a player weapon", "c": "l", "p": []}
+{"id": "doom|3253", "b": 0}
+{"id": "doom|3265", "b": 0}
+{"id": "doom|3274", "b": 0}
+{"id": "doom|3276", "b": 0}
+{"id": "doom|3277", "b": 0}
+{"id": "doom|3279", "b": 0}
+{"id": "doom|3284", "b": 0}
+{"id": "dragon-ball-z|387", "b": 0}
+{"id": "dragon-ball-z|455", "b": 0}
+{"id": "dragon-ball-z|1113", "b": 0}
+{"id": "dragon-ball-z|1322", "b": 0}
+{"id": "dragon-ball-z|1550", "b": 0}
+{"id": "dragon-ball-z|2188", "b": 0}
+{"id": "dune|46", "b": 0}
+{"id": "dune|128", "b": 0}
+{"id": "dune|150", "b": 0}
+{"id": "dune|166", "b": 0}
+{"id": "dune|261", "b": 0}
+{"id": "dune|315", "b": 0}
+{"id": "dune|343", "b": 0}
+{"id": "dune|366", "b": 0}
+{"id": "dune|441", "b": 2, "k": "vehicle", "n": "Ballistas", "m": 5, "q": "largest battleship", "c": "l", "p": []}
+{"id": "dune|452", "b": 0}
+{"id": "dune|471", "b": 0}
+{"id": "dune|478", "b": 0}
+{"id": "dune|513", "b": 0}
+{"id": "dune|514", "b": 0}
+{"id": "dune|515", "b": 0}
+{"id": "dune|517", "b": 0}
+{"id": "dune|576", "b": 2, "k": "weapon", "n": "The baradye pistol", "m": 1, "q": "static-charge dust gun", "c": "l", "p": []}
+{"id": "dune|587", "b": 0}
+{"id": "dune|621", "b": 0}
+{"id": "dune|622", "b": 0}
+{"id": "dune|640", "b": 2, "k": "vehicle", "n": "Blockade runner", "m": 4, "q": "a type of starship", "c": "l", "p": []}
+{"id": "dune|641", "b": 0}
+{"id": "dune|659", "b": 0}
+{"id": "dune|792", "b": 0}
+{"id": "dune|827", "b": 2, "k": "weapon", "n": "Not to be confused with Dart Throwers A Dartgun", "m": 1, "q": "a projectile weapon", "c": "l", "p": []}
+{"id": "dune|1007", "b": 0}
+{"id": "dune|1028", "b": 2, "k": "vehicle", "n": "Frigate", "m": 5, "q": "a class of Starship", "c": "l", "p": []}
+{"id": "dune|1117", "b": 0}
+{"id": "dune|1169", "b": 0}
+{"id": "dune|1293", "b": 0}
+{"id": "dune|1386", "b": 0}
+{"id": "dune|1430", "b": 0}
+{"id": "dune|1459", "b": 0}
+{"id": "dune|1480", "b": 0}
+{"id": "dune|1568", "b": 2, "k": "vehicle", "n": "The Ithaca", "m": 5, "q": "No-ship", "c": "l", "p": []}
+{"id": "dune|1591", "b": 2, "k": "vehicle", "n": "LS Ginjo Explorer", "m": 5, "q": "a capital ship", "c": "l", "p": []}
+{"id": "dune|1592", "b": 2, "k": "vehicle", "n": "LS Zimia", "m": 5, "q": "a capital ship", "c": "l", "p": []}
+{"id": "dune|1594", "b": 2, "k": "vehicle", "n": "LS Recovery", "m": 4, "q": "a HuMed medical ship", "c": "l", "p": []}
+{"id": "dune|1673", "b": 0}
+{"id": "dune|1710", "b": 0}
+{"id": "dune|1748", "b": 2, "k": "vehicle", "n": "No-ship", "m": 5, "q": "a starship", "c": "l", "p": []}
+{"id": "dune|1753", "b": 2, "k": "vehicle", "n": "Monitor", "m": 5, "q": "a space-faring warship", "c": "l", "p": []}
+{"id": "dune|1775", "b": 0}
+{"id": "dune|1810", "b": 0}
+{"id": "dune|1849", "b": 0}
+{"id": "dune|1893", "b": 0}
+{"id": "dune|1935", "b": 0}
+{"id": "dune|1936", "b": 0}
+{"id": "dune|1965", "b": 0}
+{"id": "dune|2004", "b": 2, "k": "weapon", "n": "and Paul Atreides wielding rapiers - Dune: The Graphic Novel", "m": 1, "q": "a melee blade weapon", "c": "l", "p": []}
+{"id": "dune|2057", "b": 0}
+{"id": "dune|2058", "b": 0}
+{"id": "dune|2101", "b": 0}
+{"id": "dune|2131", "b": 0}
+{"id": "dune|2161", "b": 0}
+{"id": "dune|2206", "b": 0}
+{"id": "dune|2209", "b": 2, "k": "armor", "n": "Defensive shield", "m": 2, "q": "A defensive shield", "c": "l", "p": []}
+{"id": "dune|2216", "b": 0}
+{"id": "dune|2239", "b": 0}
+{"id": "dune|2274", "b": 0}
+{"id": "dune|2305", "b": 0}
+{"id": "dune|2344", "b": 2, "k": "vehicle", "n": "Starship Lighter", "m": 4, "q": "a barge-like Spaceship", "c": "l", "p": []}
+{"id": "dune|2346", "b": 0}
+{"id": "dune|2349", "b": 0}
+{"id": "eberron-rising-from-the-last-war|7", "b": 0}
+{"id": "eberron-rising-from-the-last-war|68", "b": 0}
+{"id": "eberron-rising-from-the-last-war|83", "b": 0}
+{"id": "eberron-rising-from-the-last-war|88", "b": 0}
+{"id": "eberron-rising-from-the-last-war|103", "b": 0}
+{"id": "eberron-rising-from-the-last-war|152", "b": 0}
+{"id": "eberron-rising-from-the-last-war|154", "b": 2, "k": "armor", "n": "Adamantine plating", "m": 1, "q": "adamantine plate armor", "c": "l", "p": []}
+{"id": "eberron-rising-from-the-last-war|171", "b": 0}
+{"id": "eberron-rising-from-the-last-war|210", "b": 0}
+{"id": "eberron-rising-from-the-last-war|293", "b": 0}
+{"id": "eberron-rising-from-the-last-war|325", "b": 0}
+{"id": "eberron-rising-from-the-last-war|404", "b": 0}
+{"id": "eberron-rising-from-the-last-war|415", "b": 0}
+{"id": "eberron-rising-from-the-last-war|514", "b": 2, "k": "weapon", "n": "A cutting wheel", "m": 1, "q": "a weapon originating from Sarlona", "c": "l", "p": []}
+{"id": "eberron-rising-from-the-last-war|524", "b": 0}
+{"id": "eberron-rising-from-the-last-war|529", "b": 0}
+{"id": "eberron-rising-from-the-last-war|676", "b": 2, "k": "vehicle", "n": "Cyre 1313", "m": 3, "q": "a lightning rail train", "c": "l", "p": []}
+{"id": "eberron-rising-from-the-last-war|695", "b": 0}
+{"id": "eberron-rising-from-the-last-war|700", "b": 2, "k": "armor", "n": "Clockwork armor", "m": 1, "q": "magical mechanical armor", "c": "l", "p": []}
+{"id": "eberron-rising-from-the-last-war|742", "b": 2, "k": "weapon", "n": "The double scimitar or double-bladed scimitar", "m": 1, "q": "a signature weapon", "c": "l", "p": []}
+{"id": "eberron-rising-from-the-last-war|761", "b": 0}
+{"id": "eberron-rising-from-the-last-war|782", "b": 2, "k": "vehicle", "n": "The Crimson Moon", "m": 3, "q": "an elemental airship", "c": "l", "p": []}
+{"id": "eberron-rising-from-the-last-war|795", "b": 0}
+{"id": "eberron-rising-from-the-last-war|819", "b": 0}
+{"id": "eberron-rising-from-the-last-war|845", "b": 0}
+{"id": "eberron-rising-from-the-last-war|915", "b": 0}
+{"id": "eberron-rising-from-the-last-war|921", "b": 2, "k": "weapon", "n": "A drow long knife", "m": 1, "q": "a weapon used by the drow", "c": "l", "p": []}
+{"id": "eberron-rising-from-the-last-war|955", "b": 0}
+{"id": "eberron-rising-from-the-last-war|959", "b": 2, "k": "weapon", "n": "A galvanic crysteel blade", "m": 1, "q": "is a weapon", "c": "l", "p": []}
+{"id": "eberron-rising-from-the-last-war|1084", "b": 0}
+{"id": "eberron-rising-from-the-last-war|1149", "b": 2, "k": "vehicle", "n": "An elemental airship", "m": 3, "q": "a ship powered", "c": "l", "p": []}
+{"id": "eberron-rising-from-the-last-war|1154", "b": 0}
+{"id": "eberron-rising-from-the-last-war|1235", "b": 0}
+{"id": "eberron-rising-from-the-last-war|1263", "b": 0}
+{"id": "eberron-rising-from-the-last-war|1925", "b": 0}
+{"id": "eberron-rising-from-the-last-war|2456", "b": 2, "k": "weapon", "n": "The tangat, or Talenta tangat,", "m": 1, "q": "a two-handed bladed weapon", "c": "l", "p": []}
+{"id": "eberron-rising-from-the-last-war|2457", "b": 2, "k": "weapon", "n": "A Talenta sharrash", "m": 1, "q": "a two-handed weapon", "c": "l", "p": []}
+{"id": "eberron-rising-from-the-last-war|2486", "b": 0}
+{"id": "eberron-rising-from-the-last-war|2497", "b": 0}
+{"id": "endwar|4", "b": 0}
+{"id": "endwar|5", "b": 0}
+{"id": "endwar|8", "b": 0}
+{"id": "endwar|9", "b": 0}
+{"id": "endwar|16", "b": 0}
+{"id": "endwar|28", "b": 0}
+{"id": "endwar|70", "b": 0}
+{"id": "endwar|75", "b": 0}
+{"id": "endwar|83", "b": 0}
+{"id": "endwar|85", "b": 0}
+{"id": "endwar|86", "b": 0}
+{"id": "endwar|88", "b": 0}
+{"id": "endwar|111", "b": 0}
+{"id": "endwar|112", "b": 0}
+{"id": "endwar|113", "b": 0}
+{"id": "endwar|114", "b": 0}
+{"id": "endwar|126", "b": 0}
+{"id": "factorio|1", "b": 0}
+{"id": "factorio|12", "b": 0}
+{"id": "factorio|25", "b": 0}
+{"id": "factorio|34", "b": 0}
+{"id": "factorio|64", "b": 0}
+{"id": "factorio|117", "b": 0}
+{"id": "factorio|119", "b": 0}
+{"id": "factorio|139", "b": 2, "k": "armor", "n": "Energy shield", "m": 1, "q": "basic protective shield", "c": "l", "p": []}
+{"id": "factorio|140", "b": 2, "k": "armor", "n": "Energy shield MK2", "m": 1, "q": "stronger protective shield", "c": "l", "p": []}
+{"id": "factorio|141", "b": 0}
+{"id": "factorio|149", "b": 0}
+{"id": "factorio|161", "b": 0}
+{"id": "factorio|162", "b": 0}
+{"id": "factorio|163", "b": 0}
+{"id": "factorio|188", "b": 0}
+{"id": "factorio|194", "b": 2, "k": "armor", "n": "Heavy armor", "m": 1, "q": "Heavy armor", "c": "l", "p": []}
+{"id": "factorio|202", "b": 2, "k": "weapon", "n": "The grenade", "m": 1, "q": "explosive weapon", "c": "l", "p": []}
+{"id": "factorio|212", "b": 0}
+{"id": "factorio|251", "b": 0}
+{"id": "factorio|264", "b": 2, "k": "armor", "n": "Light armor", "m": 1, "q": "most basic craftable armor", "c": "l", "p": []}
+{"id": "factorio|270", "b": 0}
+{"id": "factorio|272", "b": 0}
+{"id": "factorio|290", "b": 0}
+{"id": "factorio|293", "b": 0}
+{"id": "factorio|299", "b": 2, "k": "armor", "n": "Modular armor", "m": 1, "q": "Modular armor", "c": "l", "p": []}
+{"id": "factorio|300", "b": 0}
+{"id": "factorio|301", "b": 0}
+{"id": "factorio|302", "b": 0}
+{"id": "factorio|325", "b": 0}
+{"id": "factorio|336", "b": 0}
+{"id": "factorio|339", "b": 0}
+{"id": "factorio|350", "b": 0}
+{"id": "factorio|356", "b": 2, "k": "weapon", "n": "The Pistol", "m": 1, "q": "most basic weapon", "c": "l", "p": []}
+{"id": "factorio|359", "b": 0}
+{"id": "factorio|361", "b": 2, "k": "armor", "n": "Power armor", "m": 1, "q": "Power armor", "c": "l", "p": []}
+{"id": "factorio|362", "b": 2, "k": "armor", "n": "Power armor MK2", "m": 1, "q": "Power armor MK2", "c": "l", "p": []}
+{"id": "factorio|364", "b": 0}
+{"id": "factorio|371", "b": 0}
+{"id": "factorio|376", "b": 0}
+{"id": "factorio|379", "b": 0}
+{"id": "factorio|389", "b": 0}
+{"id": "factorio|390", "b": 0}
+{"id": "factorio|394", "b": 0}
+{"id": "factorio|400", "b": 2, "k": "weapon", "n": "The rocket launcher", "m": 1, "q": "strong weapon", "c": "l", "p": []}
+{"id": "factorio|403", "b": 0}
+{"id": "factorio|438", "b": 2, "k": "weapon", "n": "The railgun", "m": 2, "q": "powerful player-equipped rifle", "c": "l", "p": []}
+{"id": "factorio|441", "b": 0}
+{"id": "factorio|450", "b": 0}
+{"id": "factorio|464", "b": 0}
+{"id": "factorio|468", "b": 0}
+{"id": "factorio|472", "b": 0}
+{"id": "factorio|479", "b": 0}
+{"id": "factorio|490", "b": 0}
+{"id": "factorio|503", "b": 0}
+{"id": "factorio|508", "b": 2, "k": "weapon", "n": "The submachine gun", "m": 1, "q": "an upgrade from the pistol", "c": "l", "p": []}
+{"id": "factorio|511", "b": 0}
+{"id": "factorio|532", "b": 0}
+{"id": "factorio|534", "b": 0}
+{"id": "factorio|536", "b": 2, "k": "weapon", "n": "The tesla gun", "m": 1, "q": "powerful high tech weapon", "c": "l", "p": []}
+{"id": "factorio|539", "b": 0}
+{"id": "factorio|543", "b": 0}
+{"id": "factorio|554", "b": 0}
+{"id": "factorio|568", "b": 0}
+{"id": "factorio|569", "b": 0}
+{"id": "factorio|571", "b": 0}
+{"id": "fire-emblem|84", "b": 0}
+{"id": "fire-emblem|85", "b": 0}
+{"id": "fire-emblem|99", "b": 0}
+{"id": "fire-emblem|400", "b": 0}
+{"id": "fire-emblem|406", "b": 0}
+{"id": "fire-emblem|410", "b": 0}
+{"id": "fire-emblem|415", "b": 2, "k": "weapon", "n": "The Apotheosis Spear", "m": 1, "q": "a Lance", "c": "l", "p": []}
+{"id": "fire-emblem|425", "b": 2, "k": "weapon", "n": "Arden's Blade", "m": 1, "q": "a Sword", "c": "l", "p": []}
+{"id": "fire-emblem|427", "b": 0}
+{"id": "fire-emblem|430", "b": 2, "k": "weapon", "n": "The Armorbane Lance", "m": 1, "q": "a specialised Lance", "c": "l", "p": []}
+{"id": "fire-emblem|431", "b": 2, "k": "weapon", "n": "The Armorbane Bow", "m": 1, "q": "a specialised Bow", "c": "l", "p": []}
+{"id": "fire-emblem|432", "b": 0}
+{"id": "fire-emblem|433", "b": 2, "k": "weapon", "n": "The Amped Sword", "m": 1, "q": "a specialised Sword", "c": "l", "p": []}
+{"id": "fire-emblem|435", "b": 2, "k": "weapon", "n": "The Amped Axe", "m": 1, "q": "a specialised Axe", "c": "l", "p": []}
+{"id": "fire-emblem|436", "b": 2, "k": "weapon", "n": "The Amped Bow", "m": 1, "q": "a specialised Bow", "c": "l", "p": []}
+{"id": "fire-emblem|442", "b": 0}
+{"id": "fire-emblem|443", "b": 2, "k": "weapon", "n": "The Armorpin Dagger", "m": 1, "q": "a Green Dagger", "c": "l", "p": []}
+{"id": "fire-emblem|444", "b": 2, "k": "weapon", "n": "The Ascending Blade", "m": 1, "q": "a Sword", "c": "l", "p": []}
+{"id": "fire-emblem|448", "b": 2, "k": "weapon", "n": "Arcane Éljúðnir", "m": 1, "q": "a Sword", "c": "l", "p": []}
+{"id": "fire-emblem|1552", "b": 0}
+{"id": "fire-emblem|1553", "b": 2, "k": "weapon", "n": "The Campaign Lance", "m": 1, "q": "a Lance", "c": "l", "p": []}
+{"id": "fire-emblem|1555", "b": 2, "k": "weapon", "n": "The Campaign Blade", "m": 1, "q": "a Sword", "c": "l", "p": []}
+{"id": "fire-emblem|1559", "b": 2, "k": "weapon", "n": "Celestial Gungnir", "m": 1, "q": "a weapon seen in", "c": "l", "p": []}
+{"id": "fire-emblem|1562", "b": 2, "k": "weapon", "n": "The Campaign Axe", "m": 1, "q": "an Axe", "c": "l", "p": []}
+{"id": "fire-emblem|1580", "b": 0}
+{"id": "fire-emblem|1582", "b": 0}
+{"id": "fire-emblem|1590", "b": 0}
+{"id": "fire-emblem|1591", "b": 0}
+{"id": "fire-emblem|1752", "b": 0}
+{"id": "fire-emblem|1765", "b": 2, "k": "weapon", "n": "The Coral Saber", "m": 1, "q": "a Sword", "c": "l", "p": []}
+{"id": "fire-emblem|1777", "b": 2, "k": "weapon", "n": "The Crimson Blades", "m": 1, "q": "a Sword", "c": "l", "p": []}
+{"id": "fire-emblem|1778", "b": 2, "k": "weapon", "n": "The Crimson War-Axe", "m": 1, "q": "a Sword", "c": "l", "p": []}
+{"id": "fire-emblem|1782", "b": 2, "k": "weapon", "n": "The Coyote's Lance", "m": 1, "q": "a Lance", "c": "l", "p": []}
+{"id": "fire-emblem|1785", "b": 0}
+{"id": "fire-emblem|1786", "b": 2, "k": "weapon", "n": "The Command Lance", "m": 1, "q": "a Lance", "c": "l", "p": []}
+{"id": "fire-emblem|1787", "b": 0}
+{"id": "fire-emblem|1900", "b": 0}
+{"id": "fire-emblem|1903", "b": 0}
+{"id": "fire-emblem|1914", "b": 2, "k": "weapon", "n": "The Daikon Radish", "m": 1, "q": "a Katana", "c": "l", "p": []}
+{"id": "fire-emblem|1919", "b": 2, "k": "weapon", "n": "Deathly Dagger", "m": 1, "q": "a Dagger", "c": "l", "p": []}
+{"id": "fire-emblem|1922", "b": 0}
+{"id": "fire-emblem|1923", "b": 2, "k": "weapon", "n": "Cupid Arrow", "m": 1, "q": "a bow", "c": "l", "p": []}
+{"id": "fire-emblem|1924", "b": 2, "k": "weapon", "n": "The Cursed Lance", "m": 1, "q": "a Lance", "c": "l", "p": []}
