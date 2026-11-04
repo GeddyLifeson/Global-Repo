@@ -6827,20 +6827,20 @@ S6880	global	diaithir-ports/diaithir-aurorian/tools/port.py
 S6880	global	diaithir-ports PR 181: port.py (path in repo unconfirmed)
 S6881	global	diaithir-ports/diaithir-aurorian/tools/rcon.py
 S6881	global	diaithir-ports PR 181: rcon.py (path in repo unconfirmed)
+S6922	cloud	diaithir-ports/diaithir-overworld-biomes/tools/stellaris_extra.py
+S6899	cloud	cloud/megamachines/gen_megamachines.py
+S6917	cloud	cloud/megamachines/gen_megastructures.py
 S6885	cloud	diaithir-ports/diaithir-worldgen-structures/tools/c_tags.py
 S6894	cloud	diaithir-ports/diaithir-wiretech/tools/gen_circuit_assets.py
 S6895	cloud	diaithir-ports/diaithir-wiretech/src/main/java/net/diaithir/wiretech/circuit/CoreCheck.java
 S6896	cloud	diaithir-ports/diaithir-wiretech/tools/circuit_gui_check.py
 S6898	global	tools/animation/csv_apply.py
-S6899	cloud	cloud/megamachines/gen_megamachines.py
 S6900	global	tools/animation/queue_row_jobs.py
 S6901	cloud	diaithir-ports/diaithir-wiretech/tools/belt_reader_check.py
 S6907	cloud	names/linguistics/names_for_terms.py
 S6912	cloud	diaithir-ports/diaithir-wiretech/tools/rail_reader_check.py
 S6916	cloud	age_balance.py
-S6917	cloud	cloud/megamachines/gen_megastructures.py
 S6919	cloud	integration/integration_matrix.py
-S6922	cloud	diaithir-ports/diaithir-overworld-biomes/tools/stellaris_extra.py
 S6929	cloud	integration/matrix_data.py
 S6930	cloud	integration/pairs_extra.txt
 S6931	global	crawl_all.py
@@ -6857,3 +6857,5 @@ S6964	cloud	tools/panscriptum/master_sheet.py
 S6966	cloud	tools/panscriptum/infer_source_names.py
 S6969	cloud	tools/panscriptum/coverage_check.py
 S6975	cloud	tools/powers/judge_pages.py
+S6951	cloud	library-content/assay_merge.py
+S6952	cloud	library-content/assay_regroup.py
