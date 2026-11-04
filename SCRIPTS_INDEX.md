@@ -6856,3 +6856,7 @@ Run hints: .py `python3 <file>` (PC `py`), .ps1 via a hidden launcher (never a v
 | S6831 | cloud | `diaithir-ports/diaithir-bosses/tools/gen_planet_altars.py` | S6822 Generates the Ascendant altar shrine template and one structure + structure set per planet (216, biome tag diaithir_planets:<id>) | yes |
 | S6880 | global | `diaithir-ports PR 181: port.py (path in repo unconfirmed)` | S6880 Aurorian port script (diaithir-ports PR 181; copy lives in that repo) | no |
 | S6881 | global | `diaithir-ports PR 181: rcon.py (path in repo unconfirmed)` | S6881 Aurorian rcon helper for the port tests (diaithir-ports PR 181; copy lives in that repo) | no |
+| S6920 | cloud | `tools/item_roles/scan_uses.py` | S6920 Scans DiaithirRPG content/ for every priced item id and counts pack-layer uses by category | yes |
+| S6921 | cloud | `tools/item_roles/make_jobs.py` | S6921 Builds item_roles-sNN compute jobs (30 items per row) from the use scan | yes |
+| S6944 | cloud | `tools/item_roles/merge_roles.py` | S6944 Merges item_roles job output into plans/ITEM_ROLES.csv and writes retry rows | yes |
+| S6945 | cloud | `tools/item_roles/report.py` | S6945 Builds plans/ITEM_ROLES.md (classes, link counts, isolated systems, decor) | yes |
