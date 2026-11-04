@@ -354,3 +354,6 @@ compat/gen_rules_api.py	0	Ask Haiku (direct parallel cached calls) which blocks 
 compat/gen_data.py	0	Build the compat datapack: upgrade shim rules, unit stores, Age gaps, Codex and quest links per mod.	yes
 compat/gen_recipes.py	0	Add load conditions to recipes naming absent mods and cross-mod dust/raw smelting to the shared ingot.	yes
 compat/gen_station_moves.py	0	Move non-trivial vanilla and kept-mod grid recipes onto the Age ladder of stations with a fallback grid recipe.	yes
+integration/integration_matrix.py	7000	Build the every-system-by-every-system integration matrix and lane tickets from matrix_data.py (plans/INTEGRATION_MATRIX.md).	yes
+integration/matrix_data.py	35235	Data for S6919: bridges, 32 systems, nouns, hand-written pair interactions, lane owners.	yes
+integration/pairs_extra.txt	18392	Hand-written pair interactions loaded by matrix_data.py.	yes

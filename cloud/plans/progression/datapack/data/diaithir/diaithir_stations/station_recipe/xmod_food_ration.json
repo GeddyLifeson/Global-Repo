@@ -21,6 +21,13 @@
     "type": "neoforge:tag_empty",
     "tag": "diaithir:progression/honey"
    }
+  },
+  {
+   "type": "neoforge:not",
+   "value": {
+    "type": "neoforge:tag_empty",
+    "tag": "diaithir:progression/food.canned"
+   }
   }
  ],
  "_node": "food.ration",
@@ -33,6 +40,9 @@
   },
   {
    "tag": "diaithir:progression/honey"
+  },
+  {
+   "tag": "diaithir:progression/food.canned"
   }
  ],
  "result": {
