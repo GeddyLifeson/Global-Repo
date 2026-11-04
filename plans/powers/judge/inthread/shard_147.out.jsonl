@@ -215,7 +215,7 @@
 {"id": "all-fallout|49076", "b": 0}
 {"id": "all-fallout|49125", "b": 0}
 {"id": "all-fallout|49167", "b": 2, "k": "weapon", "n": "Xuanlong assault rifle", "m": 1, "q": "The Xuanlong assault rifle is a unique Chinese assault rifle in Fallout 3.", "c": "h", "p": []}
-{"id": "all-fallout|49174", "b": 0}
+{"id": "all-fallout|49174", "b": 2, "k": "weapon", "n": "magnetic rail cannon", "m": 2, "q": "magnetic rail cannon is a mentioned-only weapon", "c": "h", "p": []}
 {"id": "all-fallout|49185", "b": 2, "k": "vehicle", "n": "Xian-85 fighter", "m": 2, "q": "Xian-85 fighter was a Chinese aircraft used during the Sino-American War.", "c": "h", "p": []}
 {"id": "all-fallout|49187", "b": 1, "n": "Xuan Duong", "p": [], "x": []}
 {"id": "all-fallout|49211", "b": 2, "k": "weapon", "n": "X-25 Gatling laser", "m": 1, "q": "The X-25 Gatling laser is a non-playable weapon in Fallout: New Vegas.", "c": "h", "p": []}
