@@ -72,3 +72,9 @@ wave,repo,number,base,head,partner,title
 0,global-repo,15,main,,,"Progression graph.json with Foundry item ids; index S6864 [edits SCRIPTS_INDEX.md and ids.tsv: merge one at a time, rebuild index on conflict]"
 0,global-repo,16,main,,,"S6866 animation coverage CSV generator [edits SCRIPTS_INDEX.md and ids.tsv: merge one at a time, rebuild index on conflict]"
 0,global-repo,17,main,,,"Register S6873 gen_gate.py [edits SCRIPTS_INDEX.md and ids.tsv: merge one at a time, rebuild index on conflict]"
+<<<<<<< HEAD
+3,ports,239,claude/diaithir-druidry,claude/port-ars-nouveau,,"Port Ars Nouveau (LGPL-3.0) spell engine into diaithir-druidry/ars-nouveau [draft, partial]"
+=======
+1,ports,243,claude/biomes-dimensions-module,claude/natures-spirit-port,ports#168,"Port Nature's Spirit to NeoForge 26.1.2 inside diaithir-overworld-biomes (draft, merge after #168)"
+>>>>>>> origin/main
+0,global-repo,32,main,claude/project-thread-opeiei,,"Register S6918 gen_containers.py [edits SCRIPTS_INDEX.md: merge one at a time, rebuild index on conflict]"
