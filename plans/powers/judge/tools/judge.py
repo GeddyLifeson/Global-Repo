@@ -13,6 +13,7 @@ O = os.path.join(HERE, '..', 'out') + '/'
 POOLF = os.path.join(HERE, '..', '..', 'POWER_POOL.tsv')
 SCALE = r'planet|stars?\b|galax|universe|continent|ocean|island|mountain|moon|city|cities|building|army|armies|tons?\b|kilomet|miles?\b|mach|light.?speed|destroy|shatter|devastat|invulnerab|immortal|indestructible|unstoppable|omnipot|godlike|supernatural|superhuman'
 VAM = re.compile(r'\b(Lasombra|Gangrel|Nosferatu|Tremere|Ventrue|Toreador|Brujah|Malkavian|Tzimisce|Setite|Assamite|Cappadocian|Hecata|Giovanni|Banu Haqim|Samedi|vampire|Kindred|Followers? of Set|Caitiff|Cainite)\b')
+GAME = {w: 'game' for w in ('world-of-warcraft', 'xenoblade', 'xcom', 'yakuza', 'halo', 'legend-of-zelda', 'minecraft', 'vampire-the-masquerade', 'all-bloons-td')}  # c3m SOURCE_BIAS type
 def pool():
     return list(csv.DictReader(open(POOLF, encoding='utf-8'), delimiter='\t'))
 def rows(n):
@@ -24,7 +25,17 @@ def kw():
         try: out.append(re.compile(p, re.I))
         except re.error: pass
     return out
-def show(n, s=0, e=10**9):
+SEC = re.compile(r'abilit|power|spell|skill|attack|combat|magic|fight|tactics|feats?|techniques?|equipment', re.I)
+def sections(t):
+    """[(heading, body incl. subsections)] of the full page's ability-type sections (where a page states powers)."""
+    hs = [(m.start(), m.end(), len(m.group(1)), m.group(2).strip()) for m in re.finditer(r'^(=+) (.*?) =+$', t, flags=re.M)]
+    out = []
+    for k, (st, en, lv, h) in enumerate(hs):
+        if not SEC.search(h): continue
+        end = next((x[0] for x in hs[k + 1:] if x[2] <= lv), len(t))
+        out.append((h, t[en:end]))
+    return out
+def show(n, s=0, e=10**9, secmax=1500):
     """idx|title|url-tail|lead ## evidence sentences from the FULL page (powers/abilities/scale)."""
     K = kw(); sc = re.compile(SCALE, re.I); R = rows(n); S = pages.srcs(n)
     idx = [i for i in range(len(R)) if s <= i < e]
@@ -34,13 +45,14 @@ def show(n, s=0, e=10**9):
         sents = re.split(r'(?<=[.!?]) ', t)
         ev = [x for x in sents[1:] if sc.search(x) or any(k.search(x) for k in K)]
         head = R[i]['text'].replace('\n', ' ')[:130]
-        print(f"{i}|{S[i]['title'] or 'NO-SOURCE'}|{head}" + (f" ## {' '.join(ev)[:420]}" if ev else ''))
+        sec = ''.join(f" @@{h}: {b.strip()[:secmax]}" for h, b in sections(full[i]))
+        print(f"{i}|{S[i]['title'] or 'NO-SOURCE'}|{head}" + (f" ## {' '.join(ev)[:420]}" if ev else '') + sec)
 def write(n, cfg):
     """cfg keys: d (default 0|1; rows not listed get it), b0 [idx], b1 [idx], n {idx:name},
-    p {idx:[[pool_id,mag,quote,conf]]}, W {idx:[kind,name,mag,quote,conf]} (weapon/armor/vehicle), x {idx:[..]}, auto 1 (vampirism/possession x)"""
+    p {idx:[[pool_id,mag,quote,conf]]}, f {idx:[[AP|Dur|v,quote]]} (c3m feat quotes with a stated number/size/speed; arithmetic is done later by c3m, never here), W {idx:[kind,name,mag,quote,conf]} (weapon/armor/vehicle), x {idx:[..]}, auto 1 (vampirism/possession x)"""
     n = int(n); R = rows(n); S = pages.srcs(n); ids = {r['id'] for r in pool()}
     g = lambda k: {int(a): v for a, v in cfg.get(k, {}).items()}
-    names, P, W, X, SM = g('n'), g('p'), g('W'), g('x'), g('s')
+    names, P, W, X, SM, F = g('n'), g('p'), g('W'), g('x'), g('s'), g('f')
     first = lambda t: re.split(r'(?<=[.!?]) ', t.replace('\n', ' ').strip(), maxsplit=1)[0][:200]
     SM = {i: SM.get(i) or first(R[i]['text']) for i in range(len(R))}
     b0, b1, dflt = set(cfg.get('b0', [])), set(cfg.get('b1', [])), cfg.get('d', 0)
@@ -69,7 +81,11 @@ def write(n, cfg):
             if cfg.get('auto'):
                 if VAM.search(t) and 'vampirism' not in x: x.append('vampirism')
                 if 'possessing' in t and 'possession' not in x: x.append('possession')
-            o = {'id': r['id'], 'b': 1, 'n': nm, 'p': ps, 'x': x, 'u': S[i]['url'], 's': SM.get(i, '')}
+            fs = []
+            for ax, q in F.get(i, []):
+                if ax in ('AP', 'Dur', 'v') and q in t: fs.append({'a': ax, 'q': q})
+                else: err.append((i, f'feat dropped {ax} {q[:30]!r}'))
+            o = {'id': r['id'], 'b': 1, 'n': nm, 'p': ps, 'x': x, 'f': fs, 'st': GAME.get(r['id'].rsplit('|', 1)[0], ''), 'u': S[i]['url'], 's': SM.get(i, '')}
         o['u'] = S[i]['url']; o['t'] = S[i]['title']
         out.append(o)
     path = f'{O}shard_{n}.out.jsonl'
