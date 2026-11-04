@@ -3,7 +3,7 @@
 {"id": "fire-emblem|8906", "b": 2, "k": "weapon", "n": "Windy War Tome", "m": 1, "q": "", "c": "l", "p": []}
 {"id": "fire-emblem|8907", "b": 2, "k": "weapon", "n": "Wild Tiger Fang", "m": 1, "q": "", "c": "l", "p": []}
 {"id": "fire-emblem|8908", "b": 2, "k": "weapon", "n": "Vulture Blade", "m": 1, "q": "", "c": "l", "p": []}
-{"id": "fire-emblem|8909", "b": 2, "k": "weapon", "n": "Wind Caller's Genesis", "m": 1, "q": "", "c": "l", "p": []}
+{"id": "fire-emblem|8909", "b": 2, "k": "weapon", "n": "Wind Caller's Genesis", "m": 2, "q": "Sacred Weapon associated with the Crest of Macuil", "c": "m", "p": []}
 {"id": "fire-emblem|8911", "b": 2, "k": "weapon", "n": "Whitecap Bow", "m": 1, "q": "", "c": "l", "p": []}
 {"id": "fire-emblem|8921", "b": 2, "k": "weapon", "n": "Vulture Axe", "m": 1, "q": "", "c": "l", "p": []}
 {"id": "fire-emblem|8925", "b": 2, "k": "weapon", "n": "Wanderer Blade", "m": 1, "q": "", "c": "l", "p": []}
@@ -33,7 +33,7 @@
 {"id": "fire-emblem|8993", "b": 1, "p": []}
 {"id": "fire-emblem|8994", "b": 2, "k": "weapon", "n": "Wishblade", "m": 1, "q": "", "c": "l", "p": []}
 {"id": "fire-emblem|8995", "b": 1, "p": []}
-{"id": "fire-emblem|9003", "b": 2, "k": "weapon", "n": "Wretched Air", "m": 1, "q": "", "c": "l", "p": []}
+{"id": "fire-emblem|9003", "b": 2, "k": "weapon", "n": "Wretched Air", "m": 2, "q": "This weapon is extremely potent", "c": "m", "p": []}
 {"id": "fire-emblem|9006", "b": 1, "p": []}
 {"id": "fire-emblem|9007", "b": 1, "p": []}
 {"id": "fire-emblem|9009", "b": 2, "k": "weapon", "n": "Wyrmslayer", "m": 1, "q": "", "c": "l", "p": []}
@@ -47,16 +47,16 @@
 {"id": "fire-emblem|9021", "b": 2, "k": "weapon", "n": "Wing Spear", "m": 1, "q": "", "c": "l", "p": []}
 {"id": "fire-emblem|9024", "b": 1, "p": []}
 {"id": "fire-emblem|9039", "b": 2, "k": "weapon", "n": "Wrys Staff", "m": 1, "q": "", "c": "l", "p": []}
-{"id": "fire-emblem|9043", "b": 2, "k": "weapon", "n": "☆Dullahan blade", "m": 1, "q": "", "c": "l", "p": []}
-{"id": "fire-emblem|9044", "b": 2, "k": "weapon", "n": "☆Canaan Lance", "m": 1, "q": "", "c": "l", "p": []}
-{"id": "fire-emblem|9047", "b": 2, "k": "weapon", "n": "☆Leda Lance", "m": 1, "q": "", "c": "l", "p": []}
+{"id": "fire-emblem|9043", "b": 2, "k": "weapon", "n": "☆Dullahan blade", "m": 2, "q": "reviving him when he is slain in battle", "c": "m", "p": []}
+{"id": "fire-emblem|9044", "b": 2, "k": "weapon", "n": "☆Canaan Lance", "m": 2, "q": "The holy lance of Canaan", "c": "m", "p": []}
+{"id": "fire-emblem|9047", "b": 2, "k": "weapon", "n": "☆Leda Lance", "m": 2, "q": "The holy lance of Leda", "c": "m", "p": []}
 {"id": "fire-emblem|9048", "b": 2, "k": "weapon", "n": "☆Dolharken", "m": 1, "q": "", "c": "l", "p": []}
 {"id": "fire-emblem|9049", "b": 2, "k": "weapon", "n": "☆L Breath", "m": 1, "q": "", "c": "l", "p": []}
 {"id": "fire-emblem|9050", "b": 0}
 {"id": "fire-emblem|9052", "b": 2, "k": "armor", "n": "☆Fire Shield", "m": 1, "q": "", "c": "l", "p": []}
-{"id": "fire-emblem|9053", "b": 2, "k": "armor", "n": "☆Goddess Shield", "m": 1, "q": "", "c": "l", "p": []}
-{"id": "fire-emblem|9054", "b": 2, "k": "armor", "n": "☆Dragon Scale", "m": 1, "q": "", "c": "l", "p": []}
-{"id": "fire-emblem|9055", "b": 2, "k": "armor", "n": "☆Dragon Mail", "m": 1, "q": "", "c": "l", "p": []}
+{"id": "fire-emblem|9053", "b": 2, "k": "armor", "n": "☆Goddess Shield", "m": 2, "q": "Personally blessed by the Earth Goddess Miradona", "c": "m", "p": []}
+{"id": "fire-emblem|9054", "b": 2, "k": "armor", "n": "☆Dragon Scale", "m": 2, "q": "raising their Defense and Magic Defense by 40", "c": "m", "p": []}
+{"id": "fire-emblem|9055", "b": 2, "k": "armor", "n": "☆Dragon Mail", "m": 2, "q": "fashioned from the scales of a Dragon", "c": "m", "p": []}
 {"id": "fire-emblem|9056", "b": 2, "k": "weapon", "n": "★Devil Hand", "m": 1, "q": "", "c": "l", "p": []}
 {"id": "fire-emblem|9057", "b": 2, "k": "weapon", "n": "★Devil Claw", "m": 1, "q": "", "c": "l", "p": []}
 {"id": "fire-emblem|9058", "b": 2, "k": "weapon", "n": "★Opus", "m": 1, "q": "", "c": "l", "p": []}
@@ -64,10 +64,10 @@
 {"id": "fire-emblem|9065", "b": 2, "k": "weapon", "n": "☆Defense Staff", "m": 1, "q": "", "c": "l", "p": []}
 {"id": "fire-emblem|9066", "b": 2, "k": "weapon", "n": "☆Anti-Evil Staff", "m": 1, "q": "", "c": "l", "p": []}
 {"id": "fire-emblem|9067", "b": 2, "k": "weapon", "n": "Zombie Staff", "m": 1, "q": "", "c": "l", "p": []}
-{"id": "fire-emblem|9076", "b": 2, "k": "weapon", "n": "Wolf Berg", "m": 1, "q": "", "c": "l", "p": []}
+{"id": "fire-emblem|9076", "b": 2, "k": "weapon", "n": "Wolf Berg", "m": 2, "q": "one of the Valmese Regalia", "c": "m", "p": []}
 {"id": "fire-emblem|9080", "b": 2, "k": "weapon", "n": "Wolt's Bow", "m": 1, "q": "", "c": "l", "p": []}
 {"id": "fire-emblem|9090", "b": 2, "k": "weapon", "n": "Yato", "m": 1, "q": "", "c": "l", "p": []}
-{"id": "fire-emblem|9104", "b": 2, "k": "weapon", "n": "Xander's Lance", "m": 1, "q": "", "c": "l", "p": []}
+{"id": "fire-emblem|9104", "b": 2, "k": "weapon", "n": "Xander's Lance", "m": 2, "q": "an extremely powerful weapon", "c": "m", "p": []}
 {"id": "fire-emblem|9108", "b": 2, "k": "weapon", "n": "Élivágar", "m": 1, "q": "", "c": "l", "p": []}
 {"id": "fire-emblem|9118", "b": 2, "k": "weapon", "n": "Zweihänder", "m": 1, "q": "", "c": "l", "p": []}
 {"id": "fire-emblem|9121", "b": 0}
@@ -106,11 +106,11 @@
 {"id": "fire-emblem|9230", "b": 2, "k": "weapon", "n": "☆Shramm", "m": 1, "q": "", "c": "l", "p": []}
 {"id": "fire-emblem|9231", "b": 2, "k": "weapon", "n": "☆Mainstar", "m": 1, "q": "", "c": "l", "p": []}
 {"id": "fire-emblem|9232", "b": 2, "k": "weapon", "n": "☆Rukuud", "m": 1, "q": "", "c": "l", "p": []}
-{"id": "fire-emblem|9233", "b": 2, "k": "weapon", "n": "☆Seiken Reeve", "m": 1, "q": "", "c": "l", "p": []}
-{"id": "fire-emblem|9234", "b": 2, "k": "weapon", "n": "☆Seiken Salia", "m": 1, "q": "", "c": "l", "p": []}
-{"id": "fire-emblem|9235", "b": 2, "k": "weapon", "n": "☆Seiken Canaan", "m": 1, "q": "", "c": "l", "p": []}
+{"id": "fire-emblem|9233", "b": 2, "k": "weapon", "n": "☆Seiken Reeve", "m": 2, "q": "The holy sword of Reeve", "c": "m", "p": []}
+{"id": "fire-emblem|9234", "b": 2, "k": "weapon", "n": "☆Seiken Salia", "m": 2, "q": "The holy sword of Salia", "c": "m", "p": []}
+{"id": "fire-emblem|9235", "b": 2, "k": "weapon", "n": "☆Seiken Canaan", "m": 2, "q": "The holy sword of Canaan", "c": "m", "p": []}
 {"id": "fire-emblem|9236", "b": 2, "k": "weapon", "n": "☆Seiken Leda", "m": 1, "q": "", "c": "l", "p": []}
-{"id": "fire-emblem|9237", "b": 2, "k": "weapon", "n": "☆Salia Lance", "m": 1, "q": "", "c": "l", "p": []}
+{"id": "fire-emblem|9237", "b": 2, "k": "weapon", "n": "☆Salia Lance", "m": 2, "q": "The holy lance of Salia", "c": "m", "p": []}
 {"id": "fire-emblem|9238", "b": 2, "k": "weapon", "n": "☆S Breath", "m": 1, "q": "", "c": "l", "p": []}
 {"id": "fire-emblem|9241", "b": 2, "k": "armor", "n": "☆Thunder Shield", "m": 1, "q": "", "c": "l", "p": []}
 {"id": "fire-emblem|9242", "b": 2, "k": "armor", "n": "☆Wind Shield", "m": 1, "q": "", "c": "l", "p": []}
