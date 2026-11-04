@@ -1,0 +1,250 @@
+{"id": "all-fallout|20337", "text": "The hunting rifle scope is a weapon mod in Fallout: New Vegas."}
+{"id": "all-fallout|20338", "text": "The hunting rifle custom action is a weapon mod in Fallout: New Vegas."}
+{"id": "all-fallout|20341", "text": "The hunting shotgun choke is a weapon mod in Fallout: New Vegas."}
+{"id": "all-fallout|20368", "text": "Hunting rev. match barrel is a weapon mod added with the Fallout: New Vegas add-on Gun Runners' Arsenal."}
+{"id": "all-fallout|20375", "text": "The hunting rev. scope is a weapon mod which was cut from the final version of the Fallout: New Vegas add-on Gun Runners' Arsenal."}
+{"id": "all-fallout|20445", "text": "The INSTAKILL hammer is a cut weapon from Fallout: Brotherhood of Steel."}
+{"id": "all-fallout|20446", "text": "The INSTAKILL pistol is a cut weapon in Fallout: Brotherhood of Steel."}
+{"id": "all-fallout|20463", "text": "\"I Didn't Know the Gun Was Loaded\" is a song broadcast on Appalachia Radio in Fallout 76. It is performed by Patsy Montana and her Buckaroos."}
+{"id": "all-fallout|20470", "text": "I.O.U. toilet paper is a paper note , written by Charlie Walker."}
+{"id": "all-fallout|20492", "text": "The human cannonball outfit and human cannonball helmet are an unused outfit set ."}
+{"id": "all-fallout|20548", "text": "Hunter's is a first star armor, power armor and weapon legendary mod ."}
+{"id": "all-fallout|20562", "text": "The IPX-02 Code Azure pistol is a weapon in the Fallout 4 Creations content \"Institute Plasma Weapons.\""}
+{"id": "all-fallout|20563", "text": "The IPX-03 Phoenix is a weapon in the Fallout 4 Creations content \"Institute Plasma Weapons.\""}
+{"id": "all-fallout|20564", "text": "The hydraulic fluid canister is a junk item in the Fallout 4 Creations content \"The Varmint Rifle.\""}
+{"id": "all-fallout|20591", "text": "The incendiary mortar is a Big Gun in Fallout: Brotherhood of Steel."}
+{"id": "all-fallout|20599", "text": "Ice cream truck is a vehicle in Fallout: Brotherhood of Steel."}
+{"id": "all-fallout|20635", "text": "The improved short barrel is a weapon mod for the Institute laser, the laser gun and the plasma gun ."}
+{"id": "all-fallout|20637", "text": "The improved long barrel is a weapon mod for the Institute laser and the laser gun . It requires at least rank 2 of the Science! perk."}
+{"id": "all-fallout|20638", "text": "The improved splitter is a weapon mod for the plasma gun . It requires at least rank 3 of the Science! perk to craft."}
+{"id": "all-fallout|20654", "text": "The improved automatic barrel is a weapon mod for the Institute laser, the laser gun and the plasma gun ."}
+{"id": "all-fallout|20655", "text": "The improved sniper barrel is a weapon mod for the laser gun and the plasma gun ."}
+{"id": "all-fallout|20657", "text": "Ingram's UnderArmor is a unique piece of armor in Fallout 4."}
+{"id": "all-fallout|20704", "text": "The Imposter Sheepsquatch outfit and Imposter Sheepsquatch helmet is an outfit set in the Fallout 76 update Wild Appalachia."}
+{"id": "all-fallout|20721", "text": "An Impala was a pre-War car, driven by people in New California."}
+{"id": "all-fallout|20817", "text": "This script is a Papyrus script (Inst307Fight_AirportZoneTriggerScript) that extends ObjectReference in Fallout 4. It manages zone triggers during the Airship Down quest (Inst307) at Boston Airport, reporting the Sole Survivor’s entry and exit to the Inst307FightQuestScript. These triggers are keyword-restricted to only respond to the player. {{Transcript|text= Scriptname Inst307Fight_AirportZoneTriggerScript extends ObjectReference Hidden {Inst307 Fight - All phases. Zone triggers that report entry and exit events to Inst307FightQuestScript.} ; ;These triggers are keyword-restricted to only receive events from the player. Inst307FightQuestScript property Inst307Fight Auto Const Mandatory {Inst307Fight} int property myZoneID Auto Const {ID of the area this trigger represents.} Event OnTriggerEnter(ObjectReference akActionRef) Inst307Fight.ZoneEntered(myZoneID, Self) EndEvent Event OnTriggerLeave(ObjectReference akActionRef) Inst307Fight.ZoneLeft(myZoneID, Self) EndEvent }}"}
+{"id": "all-fallout|20898", "text": "The internment truck is an unmarked location in the Capital Wasteland. It can be found on a highway east from SatCom Array NW-07c and northwest of the abandoned car fort."}
+{"id": "all-fallout|20903", "text": "Iron gloves are a starting weapon in Fallout: Brotherhood of Steel."}
+{"id": "all-fallout|20917", "text": "Isaac is a member of the Gun Runners at the Gun Runner headquarters in 2281."}
+{"id": "all-fallout|20954", "text": "The iron bear claw glove is a unique melee weapon that was to appear in Van Buren, the canceled Fallout 3 by Black Isle Studios."}
+{"id": "all-fallout|20988", "text": "The Institute laser gun is a weapon in Fallout 4. Variants include the Institute pistol and the Institute rifle."}
+{"id": "all-fallout|20992", "text": "The Institute rifle is a weapon that was added to Fallout Shelter with the 1.4 update."}
+{"id": "all-fallout|20994", "text": "The internal database is an armor mod for power armor . It requires Science! rank 2 to construct."}
+{"id": "all-fallout|21035", "text": "The iron helmet is a piece of headwear in the Fallout 4 Creation Club content \"Fantasy Hero Set.\""}
+{"id": "all-fallout|21071", "text": "The iron sights are a weapon mod for the bow, compound bow and crossbow in the Fallout 76 update Wastelanders."}
+{"id": "all-fallout|21115", "text": "Intelligence is a third-star weapon and second star armor and power armor legendary mod ."}
+{"id": "all-fallout|21140", "text": "The Institute plasma pistol is a weapon in the Fallout 4 Creations content \"Institute Plasma Weapons.\""}
+{"id": "all-fallout|21141", "text": "The Institute plasma blaster is a weapon in the Fallout 4 Creations content \"Institute Plasma Weapons.\""}
+{"id": "all-fallout|21142", "text": "The Institute plasma rifle is a weapon in the Fallout 4 Creations content \"Institute Plasma Weapons.\""}
+{"id": "all-fallout|21143", "text": "Ion gun scrap is a miscellaneous item in the Fallout 4 Creations content \"Ion Gun.\""}
+{"id": "all-fallout|21144", "text": "Ion gun parts is a miscellaneous item in the Fallout 4 Creations content \"Ion Gun.\""}
+{"id": "all-fallout|21145", "text": "Ion gun parts is a miscellaneous item in the Fallout 4 Creations content \"Ion Gun.\""}
+{"id": "all-fallout|21193", "text": "Jake is one of the Followers of the Apocalypse from the Boneyard. He is said to be a good fighter."}
+{"id": "all-fallout|21195", "text": "Commander Jabsco is the leader of the Talon Company , and the only member of the organization not to wear its trademark armor. Instead, he wears metal armor and a Talon Company combat helmet, a unique piece of armor, and uses the Occam's Razor unique weapon in close combat, on top of being the boss character of the Fort Bannister dungeon."}
+{"id": "all-fallout|21214", "text": "The jackknifed freeway truck is an unmarked location in the Capital Wasteland, found northeast of Wheaton Armory, or east of the Regulator HQ with the Lawbringer perk."}
+{"id": "all-fallout|21305", "text": "Ivy's story is a paper note in the Fallout 4 Creation Club content \"Anti-Materiel Rifle.\""}
+{"id": "all-fallout|21306", "text": "Ivy is a character in the Fallout 4 Creation Club content \"Anti-Materiel Rifle.\" She can be found in the Prost Bar during The Paper Mirror."}
+{"id": "all-fallout|21337", "text": "The jack o'lantern pant suit and jack o'lantern short suit are two outfits ."}
+{"id": "all-fallout|21344", "text": "The ivory grip is a weapon mod for the single action revolver ."}
+{"id": "all-fallout|21351", "text": "The jaguar pant suit and jaguar short suit are two outfits in the Fallout 76 update Steel Dawn."}
+{"id": "all-fallout|21365", "text": "J. Messier was a member of Sugar Grove's analytical staff in the Signal Intelligence Analysis Division. They were investigating transactions of Mama Dolce's."}
+{"id": "all-fallout|21414", "text": "The Jack Gourdon outfit and Jack-o-lantern helmet was a Fallout 1st members exclusive outfit set in Fallout 76 during September 2021."}
+{"id": "all-fallout|21433", "text": "Jacob Warren is an American stunt performer who played an additional power armor wearer in \"The Radio\" and \"The Beginning\" in season 1 of the Fallout TV series."}
+{"id": "all-fallout|21462", "text": "J. Pratt was a staff member of the New England Technocrat Society."}
+{"id": "all-fallout|21532", "text": "Jar, rifle powder is a miscellaneous item in Fallout: New Vegas."}
+{"id": "all-fallout|21615", "text": "Jan was a high ranking member of the staff at the Bar Harbor Museum in 2076. As a member of the staff she had to deal the with consistent vandalism of the Vim machines on their property. Despite constant vigilance, they were unsuccessful at catching the culprit, however she did learn that Beaver Creek Lanes was also experiencing the same vandalism."}
+{"id": "all-fallout|21705", "text": "James Addison is a deceased member of the Whitespring Resort staff whose body can be found in the Deep in Appalachia."}
+{"id": "all-fallout|21764", "text": "This script is an object script (SCN) that manages the addition of a rifle powder jar item in Fallout: New Vegas. When the jar is added to the player’s inventory, it grants 200 units of Powder, rifle and then removes itself, supporting crafting or reloading mechanics at locations like workbenches or ammo presses."}
+{"id": "all-fallout|21792", "text": "James Walker was an employee working at the Starlight Drive-in in Ohio before the Great War."}
+{"id": "all-fallout|21839", "text": "Jet is a highly addictive chem commonly found throughout the wasteland. Its post-War version is extracted from brahmin dung fumes and commonly administered via an inhaler. Although first available before the Great War in a different form, in the first half of the 23rd century, mob-funded chemist Myron developed Jet into a highly marketable commodity and tool for the enslavement of Redding by the Mordinos of New Reno. Even after Myron's death and the Mordinos' subsequent fall from relevancy, Jet's availability, replicability, and popularity grew exponentially. The introduction of the Jet antidote would barely slow its wide effect and appeal on both the West Coast and the East Coast of the former United States."}
+{"id": "all-fallout|21844", "text": "Jet antidote is a consumable . It cures the addiction effects of Jet."}
+{"id": "all-fallout|21848", "text": "Jet addiction is a form of addiction which can occur in Fallout 2, Fallout 3, Fallout: New Vegas and Fallout 4."}
+{"id": "all-fallout|21877", "text": "Jingwei's shocksword is a unique variant of the Chinese officer's sword in the Fallout 3 add-on Operation: Anchorage."}
+{"id": "all-fallout|21889", "text": "The jet crash site is a location . It is the site of a fighter jet's wreckage that is inhabited by feral ghouls. Despite this, the site has remained virtually untouched for two centuries."}
+{"id": "all-fallout|21895", "text": "Jericho's Chinese assault rifle is a unique, non-playable small gun in Fallout 3."}
+{"id": "all-fallout|21980", "text": "The Jericho's leather armor is a type of armor which was cut from the final version of Fallout Shelter."}
+{"id": "all-fallout|21986", "text": "Jet Fuel addiction is a form of addiction which was cut from Fallout 4."}
+{"id": "all-fallout|22022", "text": "Jet Beta is a next generation Jet strain developed at the Stables in 2241."}
+{"id": "all-fallout|22047", "text": "Joan was a woman associated with Enola Walker before the Great War."}
+{"id": "all-fallout|22053", "text": "The jetliner is a world object and vehicle in Fallout 4 and Fallout 76. Operated principally by Horizon Airlines, it was one of the most impressive achievements of pre-War transportation technology."}
+{"id": "all-fallout|22070", "text": "Jim Walker was a former professional baseball player mentioned ."}
+{"id": "all-fallout|22099", "text": "Jeremy Fitzgerald is a stunt performer who is a stunt double for Kyle MacLachlan as Hank MacLean, and for Aaron Moten as Maximus in power armor, in season 2 of the Fallout TV series. He also plays Knight Riley in \"The Golden Rule,\" and also has an uncredited appearance as either Riley or another knight in the post-credits scene of \"The Strip.\""}
+{"id": "all-fallout|22150", "text": "Jonny's BB gun is a unique Red Ryder BB gun found in Fallout 2."}
+{"id": "all-fallout|22208", "text": "Joshua Graham's armor is a set of armor in the Fallout: New Vegas add-on Honest Hearts."}
+{"id": "all-fallout|22371", "text": "The Joint Chiefs of Staff (abbreviated JCS, JCOS or simply called the Joint Chiefs) were a pre-War advisory board to the President and Secretary of Defense, made up of the top military leaders of the nation."}
+{"id": "all-fallout|22421", "text": "The Judge Ace of Spades card is a weapon mod for the Judge in then Fallout 4 Creations content \"Tale of the Beast Hunter\"."}
+{"id": "all-fallout|22422", "text": "The Judge Ace of Clubs card is a weapon mod for the Judge in then Fallout 4 Creations content \"Tale of the Beast Hunter\"."}
+{"id": "all-fallout|22423", "text": "The Judge Ace of Diamonds card is a weapon mod for the Judge in then Fallout 4 Creations content \"Tale of the Beast Hunter\"."}
+{"id": "all-fallout|22424", "text": "The Judge Ace of Hearts card is a weapon mod for the Judge in then Fallout 4 Creations content \"Tale of the Beast Hunter\"."}
+{"id": "all-fallout|22425", "text": "The Judge is a weapon in the Fallout 4 Creations content \"Tale of the Beast Hunter.\""}
+{"id": "all-fallout|22571", "text": "{{Rotating content |content1 ={{Quotation|{{Tooltip|-Are you MAD?! We can't give it a GUN! GUNS...|{Repeating himself} }}- -{{Tooltip|...wait, I said that already. Yes, I have THE Cyberdog Gun. With the little floppy metal ears and the curious nose sensor. Here.|{Calms down, is actually more calm throughout this line} }}-|Dr. Borous|sound=FNVOWB Borous CyberdogGun.ogg}} |content2 ={{Quotation|{{Tooltip|FINE. DONE. THAT GUN MAKES ME UNCOMFORTABLE ANYWAY, ALWAYS WORRIED ITS GOING TO HUMP MY CHASSIS. ANYTHING ELSE, LOBOTOMITE?|{Grumpy} }}|Dr. Klein}} }} The K9000 cyberdog gun is a weapon ."}
+{"id": "all-fallout|22572", "text": "The K9000 mod - Mentat chow is a weapon mod in the Fallout: New Vegas add-on Old World Blues."}
+{"id": "all-fallout|22573", "text": "The K9000 mod - Resla Roil is a weapon mod in the Fallout: New Vegas add-on Old World Blues."}
+{"id": "all-fallout|22574", "text": "Kael was a Big MT scientist participating in Project X-13, responsible for several breakthroughs in the stealth suit's software and firmware."}
+{"id": "all-fallout|22577", "text": "The junk shotgun is a cut weapon from Fallout: Brotherhood of Steel. It can be seen in the weapons video in the bonus menu after completing the game. Though it was cut, its gameplay model would be used for the Home-Made machine gun. ru:Старый дробовик"}
+{"id": "all-fallout|22669", "text": "The Karma syringe barrel is a weapon mod for Rose's syringer ."}
+{"id": "all-fallout|22908", "text": "The katana authentic blade is a weapon mod added with the Fallout: New Vegas add-on Gun Runners' Arsenal."}
+{"id": "all-fallout|22909", "text": "The katana protective sheath is a weapon mod added with the Gun Runners' Arsenal add-on Gun Runners' Arsenal."}
+{"id": "all-fallout|22910", "text": "The katana balanced grip is a weapon mod added with the Fallout: New Vegas add-on Gun Runners' Arsenal."}
+{"id": "all-fallout|22913", "text": "The Kevlar helmet is a piece of clothing that was to appear in Van Buren, the canceled Fallout 3 by Black Isle Studios."}
+{"id": "all-fallout|22933", "text": "Lancer Captain Kells, registration KS-390LC, is the captain of the Brotherhood of Steel's airship the Prydwen in 2287. He is second-in-command of the Brotherhood's operations in the Commonwealth, reporting directly to Elder Maxson."}
+{"id": "all-fallout|22950", "text": "Kelley was a professional fighter who lived before the Great War. He was involved in a controversy with a fellow fighter Blanks, which was reviewed by Nora in her legal capacity."}
+{"id": "all-fallout|23086", "text": "Kerry's notes are three paper notes in the Fallout 4 Creations content \"The Varmint Rifle.\" They are written by Kerry."}
+{"id": "all-fallout|23094", "text": "Kellogg's armor is a legendary outfit in Fallout Shelter. It was added with update 2.4.0."}
+{"id": "all-fallout|23100", "text": "Kevin Manning is a developer who worked at Obsidian Entertainment on Fallout: New Vegas as a character and weapon artist."}
+{"id": "all-fallout|23128", "text": "A knife is any cutting edge or blade, handheld or otherwise, with or without a handle. Most modern-day knives follow either a fixed-blade or a folding construction style, with blade patterns and styles as varied as their makers and countries of origin. __TOC__"}
+{"id": "all-fallout|23193", "text": "The kitchen knife is a weapon that was to appear in Van Buren, the canceled Fallout 3 by Black Isle Studios. It also appears in the Van Buren tech demo."}
+{"id": "all-fallout|23203", "text": "The LAER mod - auxiliary recharger chip is a weapon mod in the Fallout: New Vegas add-on Old World Blues."}
+{"id": "all-fallout|23204", "text": "The LAER mod - prismatic lens is a weapon mod in the Fallout: New Vegas add-on Old World Blues."}
+{"id": "all-fallout|23232", "text": "Knives is a weapon skill that was planned for inclusion in the canceled Fallout: Brotherhood of Steel 2. Weapon skills would have worked like skills do in other Fallout games, with the exception of Fallout: Brotherhood of Steel. Knives determines a character's effectiveness with bladed weapons, increasing base damage."}
+{"id": "all-fallout|23273", "text": "The kiloton radium rifle is a unique weapon in the Fallout 4 add-on Far Harbor."}
+{"id": "all-fallout|23301", "text": "The Kingfisher is a unique harpoon gun . It is available as a reward for completing the weekly challenge of \"Go on a fishing expedition\" in Survival mode from May 28 to June 2, 2019. The weapon was then made available again from September 10–17, 2019."}
+{"id": "all-fallout|23333", "text": "Kit: Machine gun turret was a miscellaneous item in the Fallout 76 Nuclear Winter battle royale game mode."}
+{"id": "all-fallout|23396", "text": "\")]] The Knuckle Duster is a weapon appearing in the Fallout TV series."}
+{"id": "all-fallout|23434", "text": "Dialogue for the lone raider, a cut character from Fallout {{Transcript|text= {100}{}{Just because you've got a weapon drawn doesn't mean that I'm gonna give you what you want . . .} {101}{}{You've beaten me! What more do you want, dammit!} {102}{}{I don't got nothing to say! Talk is for the weak!} {103}{}{I don't know who you are, but I'll give you a fair warning: anyone who messes with the Khans, dies messy.} {104}{}{You know, if you really thought you were stronger, you'd kill me.} {105}{}{Too bad. I'm messing with you!} {106}{}{Fine. Let's not mess with each other, and we'll be happy.} {107}{}{I surrender. Please don't kill me!} {108}{}{Hngrrr!} {109}{}{Huh?} {110}{}{Hail brother Khan! How goes the hunt? Have many weaklings died today?} {111}{}{Hail sister Khan! How goes the hunt? Have many weaklings died today?} {112}{}{I will save my boasts for the campfire, but I have many tales to tell!} {113}{}{I have seen much blood and taken much plunder.} {114}{}{Not bad. How about you?} {115}{}{I've done better . . .} {116}{}{You are an enemy of the Khans! You attack our warriors and take our women! Give me a reason why I shouldn't cut out your heart!} {117}{}{Cut the bravado. Where's Tandi? Tell me, or you die!} {118}{}{Can't think of anything. Let's fight!} {119}{}{Because we'll both live if you don't try.} {120}{}{I'm in no condition to fight. I surrender.} {121}{}{Are you one of them? One of the mutants?} {122}{}{What do you know about mutants?} {123}{}{Yeah, I'm a mutant!} {"}
+{"id": "all-fallout|23462", "text": "Lag-Bolt's combat armor is a unique variant of Talon combat armor in the Fallout 3 add-on Broken Steel."}
+{"id": "all-fallout|23474", "text": "The laser cannon is a weapon that was to appear in Van Buren, the canceled Fallout 3 by Black Isle Studios."}
+{"id": "all-fallout|23488", "text": "The laser RCW recycler is a weapon mod in Fallout: New Vegas."}
+{"id": "all-fallout|23500", "text": "The laser array gun is a weapon that was to appear in Van Buren, the canceled Fallout 3 by Black Isle Studios. It also appears in the Van Buren tech demo game files."}
+{"id": "all-fallout|23504", "text": "The laser pistol combat sights is a weapon mod added with the Fallout: New Vegas add-on Gun Runners' Arsenal."}
+{"id": "all-fallout|23505", "text": "The laser pistol focus optics is a weapon mod added with the Fallout: New Vegas add-on Gun Runners' Arsenal."}
+{"id": "all-fallout|23506", "text": "The laser pistol recycler is a weapon mod added with the Fallout: New Vegas add-on Gun Runners' Arsenal."}
+{"id": "all-fallout|23536", "text": "The AER9 laser gun is a weapon in Fallout 4. Variants include the laser pistol and laser rifle."}
+{"id": "all-fallout|23578", "text": "The large propellant tank is a weapon mod for the flamer and Pyrolyzer ."}
+{"id": "all-fallout|23666", "text": "The Labs card level 1 and Labs card level 2 are two miscellaneous items in the Fallout 4 Creations content \"The Varmint Rifle.\""}
+{"id": "all-fallout|23672", "text": "The laser barrel is a barrel weapon mod for the Cosmic cannon in the Fallout 4 Creation Club content \"Cosmic Cannon\"."}
+{"id": "all-fallout|23688", "text": "Leather armor and leather jackets are the names given to a variety of lightweight body armor set typically made from tanned animal hide in the Fallout series. __TOC__"}
+{"id": "all-fallout|23727", "text": "The laser rifle scope is a weapon mod in Fallout: New Vegas."}
+{"id": "all-fallout|23728", "text": "The laser rifle focus optics is a weapon mod in Fallout: New Vegas."}
+{"id": "all-fallout|23729", "text": "The laser rifle beam splitter is a weapon mod in Fallout: New Vegas."}
+{"id": "all-fallout|23733", "text": "The Legion recruit armor and the recruit helmet are a Caesar's Legion armor set in Fallout: New Vegas."}
+{"id": "all-fallout|23737", "text": "The Legion centurion armor and centurion helmet are a set of armor ."}
+{"id": "all-fallout|23738", "text": "The leather armor, reinforced is a suit of armor in Fallout: New Vegas."}
+{"id": "all-fallout|23739", "text": "The Legion vexillarius armor is a piece of armor in Fallout: New Vegas."}
+{"id": "all-fallout|23740", "text": "Legion praetorian armor is a piece of Legion armor in Fallout: New Vegas."}
+{"id": "all-fallout|23742", "text": "Legion explorer armor is an armor set in Fallout: New Vegas."}
+{"id": "all-fallout|23743", "text": "The Legate's armor is a piece of armor worn by Legate Lanius ."}
+{"id": "all-fallout|23746", "text": "Legion prime armor is a set of armor in Fallout: New Vegas, used by prime legionaries."}
+{"id": "all-fallout|23747", "text": "Legion veteran armor and the veteran helmet are a Legion armor set found in Fallout: New Vegas."}
+{"id": "all-fallout|23769", "text": "The laser torch is a weapon that was to appear in Van Buren, the canceled Fallout 3 by Black Isle Studios."}
+{"id": "all-fallout|23779", "text": "The Legate armor is a craftable legendary outfit , added in the 2.1.1. update."}
+{"id": "all-fallout|23799", "text": "Lead lining is a weapon mod for the boxing glove . It requires at least rank 1 of the Blacksmith perk to craft."}
+{"id": "all-fallout|23842", "text": "Lieutenant Lazanski is a deceased Gunner in the Glowing Sea in the Fallout 4 Creation Club content \"Tesla Cannon.\""}
+{"id": "all-fallout|23934", "text": "* Fallout 4 legendary armor effects: Effects that can only affect armor recovered from legendary enemies. * Fallout 4 legendary weapon effects: Effects that can only affect weapons recovered from legendary enemies. * Fallout 76 legendary armor effects: Effects that can only affect armor recovered from legendary enemies. * Fallout 76 legendary weapon effects: Effects that can only affect weapons recovered from legendary enemies."}
+{"id": "all-fallout|23938", "text": "The light support weapon (or LSW) is a big gun in Fallout 2."}
+{"id": "all-fallout|23953", "text": "Leroy Walker is a slaver from Paradise Falls residing in the Lincoln Memorial in the Capital Wasteland ."}
+{"id": "all-fallout|23955", "text": "Lincoln's repeater, also called Lincoln's rifle, is a unique weapon ."}
+{"id": "all-fallout|23972", "text": "The lightning gun is a weapon from Broken Steel that is listed in the G.E.C.K., but it was not placed in game. It is a unique AER9 laser rifle."}
+{"id": "all-fallout|23981", "text": "The lightweight leather armor is a piece of armor in Fallout: New Vegas."}
+{"id": "all-fallout|23982", "text": "Lightweight metal armor is a piece of unique armor in Fallout: New Vegas."}
+{"id": "all-fallout|23989", "text": "{{Quotation|{{Tooltip|That blade has split the heads of...|{Voice trembling with rage} }} {{Tooltip|The only reason I give it to you is to force myself to earn another.|{collecting yourself} }} True to Caesar.|Dead Sea}} Liberator is a unique weapon ."}
+{"id": "all-fallout|23992", "text": "The light MG expanded drums is a weapon mod in Fallout: New Vegas."}
+{"id": "all-fallout|24130", "text": "The Liberty Prime power armor skin and the Patriot Prime power armor skin are a set of power armor skins in Fallout 76, introduced in Patch 11 of the Nuclear Winter update."}
+{"id": "all-fallout|24135", "text": "Lily's wedding ring is a miscellaneous item in the Fallout 4 Creation Club content \"CR-74L Combat Rifle.\""}
+{"id": "all-fallout|24151", "text": "Lincoln's repeater paint is a weapon skin for the lever action rifle , introduced in the Fallout 25th Anniversary Bundle for the Prime Gaming loot service."}
+{"id": "all-fallout|24231", "text": "Linden's Outcast power armor is a unique set of power armor ."}
+{"id": "all-fallout|24265", "text": "Little Beard is a gun-for-hire residing in the Atomic Wrangler Casino in Freeside ."}
+{"id": "all-fallout|24284", "text": "A locomotive is a type of railroad vehicle, examples of which can be found in the Mojave Wasteland."}
+{"id": "all-fallout|24291", "text": "The long barrel is a weapon mod for the 10mm pistol, the alien blaster pistol, the assault rifle, the combat rifle, the combat shotgun, the double-barrel shotgun, the flamer, the hunting rifle, the Institute laser, the Junk Jet, the laser gun, the laser musket, the pipe bolt-action pistol, the pipe gun, the pipe revolver, the railway rifle and the Syringer ."}
+{"id": "all-fallout|24292", "text": "The long ported barrel is a weapon mod for the 10mm pistol, the combat rifle, the hunting rifle, the pipe bolt-action pistol, the pipe gun and the pipe revolver ."}
+{"id": "all-fallout|24293", "text": "The long finned barrel is a weapon mod for the pipe bolt-action pistol, the pipe gun and the pipe revolver . It requires at least rank 2 of the Gun Nut perk to craft."}
+{"id": "all-fallout|24296", "text": "The long light barrel is a weapon mod for the 10mm pistol, the combat rifle, the hunting rifle, the pipe bolt-action pistol, the pipe gun and the pipe revolver ."}
+{"id": "all-fallout|24309", "text": "Log - SSG Michael Daly is a holotape . It was made by Staff Sergeant Michael Daly a few days after the Great War. __TOC__"}
+{"id": "all-fallout|24313", "text": "The long light ported barrel is a weapon mod for the 10mm pistol . It requires at least rank 2 of the Gun Nut perk to craft."}
+{"id": "all-fallout|24319", "text": "The long Institute rifle is a variant of the Institute rifle that is added to Fallout Shelter with the 1.4 update."}
+{"id": "all-fallout|24320", "text": "The long pipe rifle is a weapon that is added to Fallout Shelter with the update 1.4"}
+{"id": "all-fallout|24326", "text": "A lobster trap helmet is a piece of headgear that can be obtained in the Fallout 4 add-on Far Harbor."}
+{"id": "all-fallout|24335", "text": "The long covered improved barrel is a barrel weapon mod for the handmade rifle in the Fallout 4 add-on Nuka-World."}
+{"id": "all-fallout|24430", "text": "The Louisville Slugger is a unique baseball bat and melee weapon in Fallout 2."}
+{"id": "all-fallout|24442", "text": "Lucky Harith is a caravan merchant and weapon dealer in the Capital Wasteland ."}
+{"id": "all-fallout|24544", "text": "Lorenzo's suit is a unique outfit worn by Lorenzo Cabot in The Secret of Cabot House."}
+{"id": "all-fallout|24552", "text": "Lucky Eddy is a unique weapon in the Fallout 4 add-on Far Harbor."}
+{"id": "all-fallout|24622", "text": "Lugnuts vehicle modifications is a holotape in the Fallout 76 update Wastelanders."}
+{"id": "all-fallout|24657", "text": "Lucy's vault suit is a legendary outfit in Fallout Shelter. It was added in the 1.16.0 update."}
+{"id": "all-fallout|24699", "text": "Luck is a third-star weapon and second star armor and power armor legendary mod ."}
+{"id": "all-fallout|24709", "text": "Lucid is a first star weapon, armor, and power armor legendary mod ."}
+{"id": "all-fallout|24776", "text": "The M1 Garand is a Small Guns skill weapon in Fallout Tactics."}
+{"id": "all-fallout|24793", "text": "The MPLX Novasurge is a weapon . It is a unique plasma pistol."}
+{"id": "all-fallout|24819", "text": "The MP trooper helmet is a piece of headwear in Fallout: New Vegas."}
+{"id": "all-fallout|24820", "text": "The M-235 missile launcher is a non-playable weapon in Fallout: New Vegas."}
+{"id": "all-fallout|24846", "text": "{{Transcript|text= //=========================================================================== // Speech File for Unique Mission 19 - Brahmin Armor // Version 1.0 // The format for the speech file is explained in the README.txt file in the // speech file directory. // // A special suit of Armor. When worn, player's sprite is replaced by a Brahmin // sprite. Can move unseen through herds of Brahmin! //=========================================================================== //=========================================================================== // Object: Brahmin Armor //=========================================================================== name_CORE_brahminArmor = { Brahmin Armor } dsec_CORE_brahminArmor = { A special suit of Armor. When worn, you can move unseen through herds of brahmin! } }} ru:MIS Z19 Speech.txt"}
+{"id": "all-fallout|24872", "text": "The MPXL Novasurge is a weapon that appears in Fallout Shelter."}
+{"id": "all-fallout|24876", "text": "The Fat Man MIRV launcher is an experimental weapon mod for the Fat Man ."}
+{"id": "all-fallout|24882", "text": "Lyon's Pride armor is a type of armor which was cut from the final version of Fallout Shelter."}
+{"id": "all-fallout|24898", "text": "M. Cortez was a member of Sugar Grove's analytical staff in the Signal Intelligence Analysis Division. They tasked with establishing surveillance of Monongah."}
+{"id": "all-fallout|25050", "text": "This script is an object script (SCN) that manages the behavior of a weapon used by the Super mutant behemoth during the quest Following in His Footsteps in Fallout 3. When the weapon’s effect activates, it pushes any non-player target away from the Super mutant behemoth with a force of 10 units, enhancing combat dynamics at GNR building plaza."}
+{"id": "all-fallout|25590", "text": "The Wattz 1000 magneto-laser pistol is an energy weapon in Fallout 2."}
+{"id": "all-fallout|25594", "text": "{{Transcript|text= {100}{}{It's some kind of huge super mutant creature! And it has a very large gun!} {101}{}{Take him to Harry. He'll know what to do with him.} {102}{}{We should take her to Harry. He has plans for all the women.} }} de:MUTANT2.MSG es:MUTANT2.MSG ru:MUTANT2.MSG uk:MUTANT2.MSG"}
+{"id": "all-fallout|25595", "text": "{{Transcript|text= {100}{}{It's some kind of huge super mutant creature! And it has a very large gun!} }} de:MUTANT3.MSG es:MUTANT3.MSG ru:MUTANT3.MSG uk:MUTANT3.MSG"}
+{"id": "all-fallout|25596", "text": "{{Transcript|text= {100}{}{It's some kind of huge super mutant creature! And it has a very large gun!} }} de:MUTANT4.MSG es:MUTANT4.MSG ru:MUTANT4.MSG uk:MUTANT4.MSG"}
+{"id": "all-fallout|25597", "text": "{{Transcript|text= {100}{}{It's some kind of huge super mutant creature! And it has a very large gun!} }} de:MUTANT5.MSG es:MUTANT5.MSG ru:MUTANT5.MSG uk:MUTANT5.MSG"}
+{"id": "all-fallout|25644", "text": "MS14ArmorVoice (named MS14 Armor Voice Cell on the local map) is a test cell in the game files of Fallout 3."}
+{"id": "all-fallout|25654", "text": "The Magnetron 4000 is a weapon that appears in Fallout Shelter."}
+{"id": "all-fallout|25677", "text": "The magician's tuxedo is a type of suit in the Fallout 4 add-on Nuka-World."}
+{"id": "all-fallout|25750", "text": "\"]] The machinegun turret is a weapon appearing in the Fallout TV series."}
+{"id": "all-fallout|25890", "text": "{{Transcript|text= Scriptname MS13IntroBrawlAliasScript extends ReferenceAlias {script on Paul and Cooke to detect non-brawl hits during intro fight} Weapon Property UnarmedHuman auto const mandatory ReferenceAlias Property Opponent auto const mandatory event OnLoad() ; register in case lose 3D during brawl Quest myQuest = GetOwningQuest() ; if I am hit with any weapon other than hands if myQuest.GetStageDone(12) == true && myQuest.GetStageDone(18) == false InitBrawl() endif endEvent function InitBrawl() RegisterForHitEvent(self) ; let us know when anyone hits us RegisterForMagicEffectApplyEvent(self) ; let us know when anyone hits us with a spell RegisterForAnimationEvent(GetRef(), \"PairEnd\") endFunction Event OnHit(ObjectReference akTarget, ObjectReference akAggressor, Form akWeapon, Projectile akProjectile, bool abPowerAttack, bool abSneakAttack, bool abBashAttack, bool abHitBlocked, string asMaterialName) debug.trace(self + \" hit by \" + akAggressor + \" with weapon = \" + akWeapon + \", Projectile = \" + akProjectile) Quest myQuest = GetOwningQuest() ; if I am hit with any weapon other than hands if myQuest.GetStageDone(12) == true && myQuest.GetStageDone(18) == false Actor pActor = GetActorRef() if akProjectile || (akWeapon && akWeapon != UnarmedHuman) || akAggressor != Opponent.GetActorRef() debug.trace(self + \" hit with weapon or projectile - end intro brawl\") myQuest.SetStage(22) else debug.trace(self + \" fair hit - reregister for OnHit event\") RegisterForHitEvent(self) ;"}
+{"id": "all-fallout|25971", "text": "The Man Opener is a unique auto axe in the Fallout 3 add-on The Pitt."}
+{"id": "all-fallout|26011", "text": "Margie Walker was a union representative before the Great War."}
+{"id": "all-fallout|26050", "text": "The main battle tank is a vehicle used by the United States Armed Forces before the Great War."}
+{"id": "all-fallout|26054", "text": "Mantis armor is a unique set of armor featured in Fallout 4."}
+{"id": "all-fallout|26073", "text": "Sergeant Marcks is a dead Gunner found in the Gauntlet in Nuka-World in 2287."}
+{"id": "all-fallout|26112", "text": "The Manwell carbine is a weapon in the Fallout 4 Creation Club content \"Manwell Rifle Set.\""}
+{"id": "all-fallout|26113", "text": "The Manwell rifle is a weapon in the Fallout 4 Creation Club content \"Manwell Rifle Set.\""}
+{"id": "all-fallout|26124", "text": "Manfred von Richtofen was a German fighter pilot during World War I."}
+{"id": "all-fallout|26152", "text": "Mare's Leg is a weapon that appears in Fallout Shelter. It was added in the 1.16.0 update."}
+{"id": "all-fallout|26243", "text": "Marsha Bailey was a resident of Vault 22. She was a victim of the B. mordicana contagion in the Vault, and can be found as a spore carrier ."}
+{"id": "all-fallout|26245", "text": "The Marksman carbine extended magazine is a weapon mod for the Marksman carbine which was cut from the final version of Fallout: New Vegas before its release."}
+{"id": "all-fallout|26251", "text": "The marked scout armor is a piece of armor in the Fallout: New Vegas add-on Lonesome Road."}
+{"id": "all-fallout|26253", "text": "The marked patrol armor is a piece of armor in the Fallout: New Vegas add-on Lonesome Road."}
+{"id": "all-fallout|26254", "text": "The marked tribal armor is a piece of armor in the Fallout: New Vegas add-on Lonesome Road."}
+{"id": "all-fallout|26257", "text": "The marked beast helmet is a piece of headwear in the Fallout: New Vegas add-on Lonesome Road."}
+{"id": "all-fallout|26259", "text": "The marked beast face helmet is a piece of headwear in the Fallout: New Vegas add-on Lonesome Road."}
+{"id": "all-fallout|26262", "text": "The marked trooper armor is a piece of armor in the Fallout: New Vegas add-on Lonesome Road."}
+{"id": "all-fallout|26263", "text": "The marked beast tribal helmet is a piece of headwear in the Fallout: New Vegas add-on, Lonesome Road."}
+{"id": "all-fallout|26264", "text": "The marked beast eyes helmet is a unique piece of armor in the Fallout: New Vegas add-on Lonesome Road."}
+{"id": "all-fallout|26283", "text": "Mary Anderson (February 19, 1866 – June 17, 1953) was an American real estate developer, rancher, viticulturist and inventor of the windshield wiper blade. In November 1903 Anderson was granted her first patent for an automatic car window cleaning device controlled inside the car, called the windshield wiper."}
+{"id": "all-fallout|26334", "text": "Marine armor is a set of armor in the Fallout 4 add-on Far Harbor."}
+{"id": "all-fallout|26335", "text": "The Marine wetsuit and Marine tactical helmet are a piece of armor in the Fallout 4 add-on Far Harbor."}
+{"id": "all-fallout|26361", "text": "Mark 3 synth armor is a unique legendary set of armor in Fallout 4."}
+{"id": "all-fallout|26362", "text": "Mark 2 synth armor is a unique legendary set of armor in Fallout 4."}
+{"id": "all-fallout|26363", "text": "Mark 4 synth armor is a unique legendary set of armor in Fallout 4."}
+{"id": "all-fallout|26384", "text": "Mary Jane's wedding ring is a miscellaneous item in the Fallout 4 Creation Club content \"CR-74L Combat Rifle.\""}
+{"id": "all-fallout|26394", "text": "Marvin Wexim was the senior staff supervisor at AVR Medical Center before the Great War."}
+{"id": "all-fallout|26481", "text": "* Rivet City market - market in the Rivet City aircraft carrier in Fallout 3 * Diamond City market - market in Diamond City in Fallout 4 * Nuka-Town market - market in Nuka-Town USA in the Fallout add-on Nuka-World. * Gabriel's market - market of New Canaan town in Van Buren"}
+{"id": "all-fallout|26540", "text": "Mayor MacCready's outfit and MacCready's helmet are pieces of clothing in Fallout 3, worn by Mayor MacCready from Little Lamplight."}
+{"id": "all-fallout|26541", "text": "The meat cannon is a unique incendiary mortar and one of three secret weapons in Fallout: Brotherhood of Steel."}
+{"id": "all-fallout|26548", "text": "Master of the Mojave is a challenge and achievement/trophy . It is unlocked by completing the challenge Walker of the Mojave."}
+{"id": "all-fallout|26588", "text": "Max's customized ATV, also referred to simply as the ATV, was a vehicle set to appear in the canceled Fallout film."}
+{"id": "all-fallout|26594", "text": "The meat mine (referred to as meat in-game) is a cut weapon ."}
+{"id": "all-fallout|26622", "text": "The Mechanist's armor and the matching Mechanist's helmet are pieces of armor in the Fallout 4 add-on Automatron."}
+{"id": "all-fallout|26628", "text": "The meat hook is a weapon in the Fallout 4 add-on Far Harbor."}
+{"id": "all-fallout|26657", "text": "The meat cleaver is a throwing weapon in Fallout 76, introduced in the Nuclear Winter update."}
+{"id": "all-fallout|26669", "text": "Matteo Sickle was a member of Sugar Grove's technical staff, responsible for managing data storage requirements."}
+{"id": "all-fallout|26676", "text": "The Mechanist's outfit and Mechanist's helmet are an outfit set ."}
+{"id": "all-fallout|26677", "text": "Matte black paint and Matte black Equalizer power armor paint are a pair of related weapon and power armor paint schemes ."}
+{"id": "all-fallout|26705", "text": "Matt Griff is a stunt performer who provides additional power armor stunts in season 1 of the Fallout TV series."}
+{"id": "all-fallout|26740", "text": "The Maximized Ultracite Gatling laser is a weapon that appears in Fallout Shelter. It was added with the 2.2.0 update as a reward for achieving level 19 in the Ultracite Fever season pass."}
+{"id": "all-fallout|26785", "text": "Meresti Metro station is an underground train station in the Capital Wasteland's Washington, D.C. metro . It is home to the Family."}
+{"id": "all-fallout|26794", "text": "The medic power armor manual is a holotape . It does not provide the Power Armor Training perk."}
+{"id": "all-fallout|26819", "text": "The mercenary's grenade rifle is a unique weapon added with the Mercenary Pack and/or Courier's Stash add-ons."}
+{"id": "all-fallout|26841", "text": "The mega-flamer is a weapon that was to appear in Van Buren, the canceled Fallout 3 by Black Isle Studios."}
+{"id": "all-fallout|26890", "text": "The medium quick eject drum is a magazine weapon mod for the submachine gun ."}
+{"id": "all-fallout|26896", "text": "The mega robo-scorpion claw is a cut content weapon in the Fallout: New Vegas add-on Old World Blues."}
+{"id": "all-fallout|26951", "text": "The medical staff are a group of three Mister Handies in Appalachia."}
+{"id": "all-fallout|26979", "text": "The merc charmer outfit and merc charmer helmet are an outfit set . Other variants include the merc charmer blouse outfit and merc charmer helmet (hooded)."}
+{"id": "all-fallout|26992", "text": "* Prototype medic power armor, a U.S. Army variant of T-45d power armor in Fallout 3. ** Medic power armor manual, a holotape in Fallout 3. * Winterized medic armor, a winterized combat armor variant found in the Fallout 3 add-on Mothership Zeta."}
+{"id": "all-fallout|27003", "text": "Metal armor is the term used for a variety of armor sets that have commonly consisted of metallic components, either forged or cobbled together from scrap, in the Fallout series. __TOC__"}
+{"id": "all-fallout|27037", "text": "The micro sledgehammer is a melee weapon in Fallout Tactics."}
+{"id": "all-fallout|27040", "text": "The Metal Master armor is a unique piece of armor in Fallout 3."}
+{"id": "all-fallout|27045", "text": "The microwave emitter is a unique energy weapon added to Fallout 3 in the Point Lookout add-on as the final reward of the add-on's main questline."}
+{"id": "all-fallout|27051", "text": "Metal armor Mk II is a superior version of the regular metal armor."}
+{"id": "all-fallout|27068", "text": "The metal armor, reinforced and metal helmet, reinforced are armor pieces in Fallout: New Vegas. They also appear on the cover of the graphic novel All Roads."}
+{"id": "all-fallout|27112", "text": "Staff Sergeant Michael \"Mike\" Daly is a mentioned-only character ."}
+{"id": "all-fallout|27184", "text": "Michael \"Brickhouse\" Patrick is a character in the pre-War television series Armor Ace and the Power Patrol and is featured in the March of Freedom board game."}
+{"id": "all-fallout|27302", "text": "Milt is the armor and weapons machining foreman at the Reservation."}
+{"id": "all-fallout|27309", "text": "The mini nuke, or micro-nuke, is a small tactical nuclear warhead designed for use in a nuclear catapult weapon in Fallout 3."}
+{"id": "all-fallout|27310", "text": "Mirelurk bait grenade is a thrown weapon that was cut from Fallout 3."}
+{"id": "all-fallout|27326", "text": "The mini nuke grenade is an explosive thrown weapon from Fallout: Brotherhood of Steel."}
+{"id": "all-fallout|27331", "text": "The minigun damped subframe is a weapon mod in Fallout: New Vegas."}
+{"id": "all-fallout|27332", "text": "The minigun high-speed motor is a weapon mod in Fallout: New Vegas."}
+{"id": "all-fallout|27343", "text": "The mining detonator is a weapon in the Fallout: New Vegas add-on Honest Hearts."}
