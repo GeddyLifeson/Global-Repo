@@ -6844,6 +6844,11 @@ Run hints: .py `python3 <file>` (PC `py`), .ps1 via a hidden launcher (never a v
 | S6948 | cloud | `names/linguistics/audit_names.py` | S0316 Audits every culture name in names/*.json against names/linguistics/rules/<slug>.json (graphemes, forbidden patterns, word length); wr | yes |
 | S6949 | cloud | `names/linguistics/research_rules.py` | S0317 One direct cached Claude call per culture language: researches how a linguist builds words there, writes names/linguistics/rules/<slug | yes |
 | S6950 | cloud | `compat/gen_tags_extra.py` | Name-suffix convention tags (logs, planks, slabs, rails, glass, furniture) for building, tree, furniture and rail jars. | yes |
+| S6920 | cloud | `tools/item_roles/scan_uses.py` | S6920 Scans DiaithirRPG content/ for every priced item id and counts pack-layer uses by category | yes |
+| S6921 | cloud | `tools/item_roles/make_jobs.py` | S6921 Builds item_roles-sNN compute jobs (30 items per row) from the use scan | yes |
+| S6944 | cloud | `tools/item_roles/merge_roles.py` | S6944 Merges item_roles job output into plans/ITEM_ROLES.csv and writes retry rows | yes |
+| S6945 | cloud | `tools/item_roles/report.py` | S6945 Builds plans/ITEM_ROLES.md (classes, link counts, isolated systems, decor) | yes |
+| S6946 | cloud | `tools/item_roles/apply_ages.py` | S6946 Adds the tech_ages.json Age (authoritative) to plans/ITEM_ROLES.csv beside the Haiku draft Age | yes |
 | S6885 | cloud | `diaithir-ports/diaithir-worldgen-structures/tools/c_tags.py` | Generates the c: convention structure and biome tags for the worldgen-structures module (per class, mazes, villages, ruins, dungeons). | yes |
 | S6913 | global | `crawl_all.py` | S0335 crawls /mnt/project-files into catalog/{D,F,M,A,J}.tsv with stable IDs: python3 -I crawl_all.py <repo> | yes |
 | S6914 | cloud | `compat/gen_recipes.py` | Add load conditions to recipes naming absent mods and cross-mod dust/raw smelting to the shared ingot. | yes |
