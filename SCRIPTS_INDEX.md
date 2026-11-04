@@ -6853,11 +6853,18 @@ Run hints: .py `python3 <file>` (PC `py`), .ps1 via a hidden launcher (never a v
 | S6931 | global | `crawl_all.py` | S0335 crawls /mnt/project-files into catalog/{D,F,M,A,J}.tsv with stable IDs: python3 -I crawl_all.py <repo> | yes |
 | S6932 | cloud | `compat/gen_recipes.py` | Add load conditions to recipes naming absent mods and cross-mod dust/raw smelting to the shared ingot. | yes |
 | S6933 | cloud | `compat/gen_station_moves.py` | Move non-trivial vanilla and kept-mod grid recipes onto the Age ladder of stations with a fallback grid recipe. | yes |
+| S6940 | cloud | `diaithir-farmkitchen/tools/gen_farm_assets.py` | (S6940) Write the reaper block textures, model, blockstate, loot, recipe and library entry for diaithir-farmkitchen. | no |
 | S6948 | cloud | `names/linguistics/audit_names.py` | S0316 Audits every culture name in names/*.json against names/linguistics/rules/<slug>.json (graphemes, forbidden patterns, word length); wr | yes |
 | S6949 | cloud | `names/linguistics/research_rules.py` | S0317 One direct cached Claude call per culture language: researches how a linguist builds words there, writes names/linguistics/rules/<slug | yes |
 | S6950 | cloud | `compat/gen_tags_extra.py` | Name-suffix convention tags (logs, planks, slabs, rails, glass, furniture) for building, tree, furniture and rail jars. | yes |
+| S6951 | cloud | `library-content/assay_merge.py` | S6951 Merges assay entry-draft outputs (tail and retry win over originals) and builds JSON-only retry jobs. | yes |
+| S6952 | cloud | `library-content/assay_regroup.py` | S6952 Regroups assay tail and retry outputs into per-slug shards for the existing assay importer (retry wins). | yes |
+| S6954 | cloud | `diaithir-farmkitchen/tools/fold_third_party.py` | (S6954) Copy the MIT mods Agritech: Evolved and Hydrofarm into diaithir-farmkitchen as extra mods of the same jar. | no |
 | S6957 | cloud | `assign_ages.py` | Give every item with no Age one: by-item table, material and namespace rules; writes data/ages/NOAGE_ASSIGNED.csv. | yes |
+| S6962 | cloud | `tools/powers/grant_on_spawn.js` | KubeJS server script in the pack: gives pool powers to mobs and NPCs on load from grants.json (copy of DiaithirRPG distribution/overrides/kubejs/server_scripts/powers). | yes |
+| S6963 | cloud | `tools/powers/build_grants.py` | Builds the pack grants.json (being to pool power ids) from the extraction list; rejects unknown pool ids. | yes |
 | S6964 | cloud | `tools/panscriptum/master_sheet.py` | Builds plans/PANSCRIPTUM_MASTER.tsv: one row per Library being with source wiki, powers, pack entity, card shard. | yes |
+| S6965 | cloud | `tools/powers/build_pool_json.py` | Builds the pack pool.json from POWER_POOL.tsv, adding the mob-side emulation table for active powers. | yes |
 | S6966 | cloud | `tools/panscriptum/infer_source_names.py` | Fills inferred_source in PANSCRIPTUM_MASTER.tsv from wiki lead text, no AI. | yes |
 | S6969 | cloud | `tools/panscriptum/coverage_check.py` | Full source-page coverage: every wiki lead page vs Library entries; unlinked pages list. No AI. | yes |
 | S6975 | cloud | `tools/powers/judge_pages.py` | Judges each wiki lead page with Claude Haiku Batch: being or not, pool powers, magnitude 1-10, evidence quote, missing powers (S6975). | yes |
