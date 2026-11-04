@@ -46,6 +46,15 @@ with Lane('tank', JARS, client_files=CF, srv_xmx='3G', out=out) as L:
         DV = lambda c, w=1.2: S('execute as Tester at Tester run diaithirvehicle ' + c, w)
         rep['seat_pos'] = S('data get entity Tester Pos', 0.6)
         S('gamemode survival Tester'); time.sleep(0.5)
+        if os.environ.get('TANK_PUMP'):  # pump-to-vehicle: loading rack + barrel next to the vehicle, 100 L petrol in the barrel
+            bx, bz = int(vx) + 5, int(vz) - 4
+            S(f'setblock {bx} {int(vy)} {bz} diaithirunits:loading_rack', 0.5); S(f'setblock {bx + 1} {int(vy)} {bz} diaithirunits:fuel_barrel', 0.5)
+            rep['pump_fill'] = S(f'diaithirfuel fill {bx + 1} {int(vy)} {bz} petrol 100', 1.0)
+            rep['pump_barrel_before'] = ''.join(S(f'data get block {bx + 1} {int(vy)} {bz}', 1.0))[-300:]
+            rep['pump_status_before'] = DV('status', 1.5)
+            time.sleep(6)
+            rep['pump_status_after'] = DV('status', 1.5)
+            rep['pump_barrel_after'] = ''.join(S(f'data get block {bx + 1} {int(vy)} {bz}', 1.0))[-300:]
         rep['start'] = DV('start'); time.sleep(1.5); rep['status_after_start'] = DV('status'); L.shot('02_hud_after_start.png')
         d.key('F5'); time.sleep(1.5); L.shot('02c_third_person.png'); d.key('F5'); time.sleep(1.0); L.shot('02d_back_first_person.png')
         if os.environ.get('TANK_FUEL'):
