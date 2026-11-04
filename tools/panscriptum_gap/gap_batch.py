@@ -45,7 +45,12 @@ def submit(jf,chunk=10000):
         if part[0]['id'] in done: continue
         reqs=[{'custom_id':re.sub(r'[^\w-]','_',j['id']),'params':{'model':'claude-haiku-5-5','max_tokens':700,'thinking':{'type':'disabled'},'system':[{'type':'text','text':SYS,'cache_control':{'type':'ephemeral'}}],
           'messages':[{'role':'user','content':json.dumps({'name':j['name'],'text':j['text']},ensure_ascii=False)}]}} for j in part]
-        b=api('/v1/messages/batches',{'requests':reqs}); B.append({'id':b['id'],'first':part[0]['id'],'n':len(part),'file':jf}); json.dump(B,open(bf,'w'))
+        while True:
+            try: b=api('/v1/messages/batches',{'requests':reqs}); break
+            except urllib.error.HTTPError as e:
+                if e.code!=429: raise
+                time.sleep(120)
+        B.append({'id':b['id'],'first':part[0]['id'],'n':len(part),'file':jf}); json.dump(B,open(bf,'w'))
         print('batch',b['id'],len(part),flush=True)
 def grams(s,k=4):
     w=re.findall(r"\w+",s.lower()); return {' '.join(w[i:i+k]) for i in range(len(w)-k+1)}
