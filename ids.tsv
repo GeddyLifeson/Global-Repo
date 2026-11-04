@@ -6815,6 +6815,14 @@ S6830	cloud	names/linguistics/coverage.py
 S6831	cloud	diaithir-ports/diaithir-bosses/tools/gen_planet_altars.py
 S6832	cloud	names/linguistics/dia_names.py
 S6833	cloud	names/linguistics/fill_gaps.py
+S6875	cloud	animations/gen_body.py
+S6877	cloud	cloud/animation/set_owner3_status.py
+S6874	global	tools/animation/gen_clips.py
+S6898	global	tools/animation/csv_apply.py
+S6873	global	ports/diaithir-bosses/tools/gen_gate.py
+S6866	cloud	animations/gen_animations_coverage.py
+S6860	cloud	diaithir-upgrades/gen_shims.py
+S6831	cloud	diaithir-ports/diaithir-bosses/tools/gen_planet_altars.py
 S6836	cloud	diaithir-ports/diaithir-worldgen-structures/tools/lib_sites.py
 S6844	cloud	tools/mc_fake_player_bot.py
 S6849	cloud	diaithir-ports/diaithir-worldgen-structures/tools/planet_biomes.py
@@ -6838,3 +6846,16 @@ S6907	cloud	names/linguistics/names_for_terms.py
 S6908	cloud	compat/gen_recipes.py
 S6909	cloud	compat/gen_station_moves.py
 S6912	cloud	diaithir-ports/diaithir-wiretech/tools/rail_reader_check.py
+S6880	global	diaithir-ports PR 181: port.py (path in repo unconfirmed)
+S6881	global	diaithir-ports PR 181: rcon.py (path in repo unconfirmed)
+S6830	cloud	names/linguistics/coverage.py
+S6832	cloud	names/linguistics/dia_names.py
+S6833	cloud	names/linguistics/fill_gaps.py
+S6900	global	tools/animation/queue_row_jobs.py
+S6885	cloud	diaithir-ports/diaithir-worldgen-structures/tools/c_tags.py
+S6919	cloud	integration/integration_matrix.py
+S6929	cloud	integration/matrix_data.py
+S6930	cloud	integration/pairs_extra.txt
+S6931	global	crawl_all.py
+S6932	cloud	compat/gen_recipes.py
+S6933	cloud	compat/gen_station_moves.py

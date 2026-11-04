@@ -28,6 +28,13 @@
     "type": "neoforge:tag_empty",
     "tag": "diaithir:progression/boss.catalyst_t2"
    }
+  },
+  {
+   "type": "neoforge:not",
+   "value": {
+    "type": "neoforge:tag_empty",
+    "tag": "diaithir:progression/module.nano"
+   }
   }
  ],
  "_node": "upgrade.legendary",
@@ -43,6 +50,9 @@
   },
   {
    "tag": "diaithir:progression/boss.catalyst_t2"
+  },
+  {
+   "tag": "diaithir:progression/module.nano"
   }
  ],
  "result": {
