@@ -261,3 +261,4 @@ wave,repo,number,base,head,partner,title
 0,ports,344,diaithircompat,claude/claims-serverwaypoint,,"claims: move Server Waypoint into diaithir-claims so it compiles alone (merge before the next pack rebuild)"
 2,ports,340,diaithircompat,claude/vehicle-carriers,,"Vehicles carry cargo: cars, trucks, trailers and tanks as cargo carriers (after #221 and #229)"
 2,ports,345,diaithircompat,claude/cars-engine-icons,,"Cars spawn with an engine (petrol engines use the avgas fuel type) and car and truck item icons"
+3,ports,346,claude/vehicle-carriers,claude/nested-bay-save,,"Containers on vehicles keep their loads through a save (stacked on #340: merge #340 first)"
