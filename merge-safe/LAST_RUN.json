@@ -1,11 +1,50 @@
 {
-    "run_utc":  "2026-11-04T00:35:02Z",
+    "run_utc":  "2026-11-04T04:08:01Z",
     "dry_run":  false,
-    "merged_count":  0,
-    "skipped_count":  166,
+    "merged_count":  10,
+    "skipped_count":  168,
     "failed_count":  0,
     "merged":  [
-
+                   {
+                       "pr":  "GeddyLifeson/diaithir-ports#211",
+                       "title":  "Munitions Ages I-VIII: items, containers and station recipes"
+                   },
+                   {
+                       "pr":  "GeddyLifeson/diaithir-ports#216",
+                       "title":  "Ship yard round 2: stats applied, recipes, ages, save/load (vs_yard)"
+                   },
+                   {
+                       "pr":  "GeddyLifeson/diaithir-ports#220",
+                       "title":  "Carts: timetables, scheduled stops, crewed vs autonomous (Age VII)"
+                   },
+                   {
+                       "pr":  "GeddyLifeson/diaithir-ports#244",
+                       "title":  "diaithir-worldsys economy: fill Age I and Age II vendors from real priced items"
+                   },
+                   {
+                       "pr":  "GeddyLifeson/diaithir-ports#268",
+                       "title":  "Redraw combat library icons with the Blender kit"
+                   },
+                   {
+                       "pr":  "GeddyLifeson/diaithir-ports#319",
+                       "title":  "Forgeworks: machines use the shared upgrade system"
+                   },
+                   {
+                       "pr":  "GeddyLifeson/diaithir-ports#320",
+                       "title":  "diaithir-worldsys economy: re-sync data with DiaithirRPG #261"
+                   },
+                   {
+                       "pr":  "GeddyLifeson/diaithir-ports#325",
+                       "title":  "Forgeworks: fold the three augment items into circuit modules"
+                   },
+                   {
+                       "pr":  "GeddyLifeson/DiaithirRPG#255",
+                       "title":  "Stacks: planet labels and planet Age gate"
+                   },
+                   {
+                       "pr":  "GeddyLifeson/DiaithirRPG#258",
+                       "title":  "tech_ages: vs_yard ship yard ids by Age"
+                   }
                ],
     "skipped":  [
                     {
@@ -214,6 +253,11 @@
                         "reason":  "draft and not listed as clear in merge-order.csv"
                     },
                     {
+                        "title":  "Register S6951 assay_merge.py",
+                        "pr":  "GeddyLifeson/Global-Repo#49",
+                        "reason":  "draft and not listed as clear in merge-order.csv"
+                    },
+                    {
                         "title":  "Worldgen structures: clean-room Nether set replacing mns",
                         "pr":  "GeddyLifeson/diaithir-ports#201",
                         "reason":  "draft and not listed as clear in merge-order.csv"
@@ -264,11 +308,6 @@
                         "reason":  "draft and not listed as clear in merge-order.csv"
                     },
                     {
-                        "title":  "Munitions Ages I-VIII: items, containers and station recipes",
-                        "pr":  "GeddyLifeson/diaithir-ports#211",
-                        "reason":  "draft and not listed as clear in merge-order.csv"
-                    },
-                    {
                         "title":  "entity-animation 1.0.2: fix double event subscription crash",
                         "pr":  "GeddyLifeson/diaithir-ports#212",
                         "reason":  "draft and not listed as clear in merge-order.csv"
@@ -284,11 +323,6 @@
                         "reason":  "draft and not listed as clear in merge-order.csv"
                     },
                     {
-                        "title":  "Ship yard round 2: stats applied, recipes, ages, save/load (vs_yard)",
-                        "pr":  "GeddyLifeson/diaithir-ports#216",
-                        "reason":  "draft and not listed as clear in merge-order.csv"
-                    },
-                    {
                         "title":  "Planets: named flora (210 planets) and colony picker (/colony)",
                         "pr":  "GeddyLifeson/diaithir-ports#217",
                         "reason":  "draft and not listed as clear in merge-order.csv"
@@ -296,7 +330,7 @@
                     {
                         "title":  "Remove conflicting keybinds pack-wide (checker + options.txt defaults)",
                         "pr":  "GeddyLifeson/diaithir-ports#218",
-                        "reason":  "draft and not listed as clear in merge-order.csv"
+                        "reason":  "merge conflicts"
                     },
                     {
                         "title":  "Wave 7: fold 17 hosted jars into 5 suites (63 -\u003e 51 jars)",
@@ -304,12 +338,7 @@
                         "reason":  "draft and not listed as clear in merge-order.csv"
                     },
                     {
-                        "title":  "Carts: timetables, scheduled stops, crewed vs autonomous (Age VII)",
-                        "pr":  "GeddyLifeson/diaithir-ports#220",
-                        "reason":  "draft and not listed as clear in merge-order.csv"
-                    },
-                    {
-                        "title":  "Vehicles: record IV pack boot result and NPC driver wage rule",
+                        "title":  "Vehicles: ignition, dashboard, pumps and storage, driven tracked vehicles (after #190 and #288)",
                         "pr":  "GeddyLifeson/diaithir-ports#221",
                         "reason":  "draft and not listed as clear in merge-order.csv"
                     },
@@ -341,12 +370,12 @@
                     {
                         "title":  "Carts: standard and narrow gauge, dual-gauge rail, worldwide roster of 4,181 vehicles",
                         "pr":  "GeddyLifeson/diaithir-ports#228",
-                        "reason":  "draft and not listed as clear in merge-order.csv"
+                        "reason":  "merge conflicts"
                     },
                     {
                         "title":  "Freight layer: pallets, barrels, crates, walkable shipping containers, docks",
                         "pr":  "GeddyLifeson/diaithir-ports#229",
-                        "reason":  "draft and not listed as clear in merge-order.csv"
+                        "reason":  "merge conflicts"
                     },
                     {
                         "title":  "Survey Bannerbound licence; fold Ancient Warfare 2 research tree (GPL module)",
@@ -416,11 +445,6 @@
                     {
                         "title":  "Port Nature\u0027s Spirit (Team-Hibiscus, MIT code) to NeoForge 26.1.2 inside diaithir-overworld-biomes",
                         "pr":  "GeddyLifeson/diaithir-ports#243",
-                        "reason":  "draft and not listed as clear in merge-order.csv"
-                    },
-                    {
-                        "title":  "diaithir-worldsys economy: fill Age I and Age II vendors from real priced items",
-                        "pr":  "GeddyLifeson/diaithir-ports#244",
                         "reason":  "draft and not listed as clear in merge-order.csv"
                     },
                     {
@@ -534,11 +558,6 @@
                         "reason":  "draft and not listed as clear in merge-order.csv"
                     },
                     {
-                        "title":  "Redraw combat library icons with the Blender kit",
-                        "pr":  "GeddyLifeson/diaithir-ports#268",
-                        "reason":  "draft and not listed as clear in merge-order.csv"
-                    },
-                    {
                         "title":  "Survey p3: diaithir-unrest (Unrest field, Meter, nests, wave event; clean-room pollution replacement)",
                         "pr":  "GeddyLifeson/diaithir-ports#269",
                         "reason":  "draft and not listed as clear in merge-order.csv"
@@ -584,7 +603,7 @@
                         "reason":  "draft and not listed as clear in merge-order.csv"
                     },
                     {
-                        "title":  "WIP: Ars Nouveau code port into diaithir-druidry (LGPL-3.0 module)",
+                        "title":  "Port Ars Nouveau to 26.1.2 as a module of diaithir-druidry (LGPL-3.0)",
                         "pr":  "GeddyLifeson/diaithir-ports#278",
                         "reason":  "draft and not listed as clear in merge-order.csv"
                     },
@@ -616,7 +635,7 @@
                     {
                         "title":  "Planets: redraw logs with the Blender bark kit",
                         "pr":  "GeddyLifeson/diaithir-ports#284",
-                        "reason":  "draft and not listed as clear in merge-order.csv"
+                        "reason":  "waiting for predecessor ports#241 to merge (it is skipped: draft and not listed as clear in merge-order.csv)"
                     },
                     {
                         "title":  "Capital taxes and treasury (Tale of Kingdoms idea, clean-room) [stacked on #282]",
@@ -774,8 +793,23 @@
                         "reason":  "draft and not listed as clear in merge-order.csv"
                     },
                     {
-                        "title":  "Stacks: planet labels and planet Age gate",
-                        "pr":  "GeddyLifeson/DiaithirRPG#255",
+                        "title":  "wiretech: compute circuit readers before acting nodes change state",
+                        "pr":  "GeddyLifeson/diaithir-ports#321",
+                        "reason":  "draft and not listed as clear in merge-order.csv"
+                    },
+                    {
+                        "title":  "Updater: apply each keybinds.txt value once so player rebinds survive",
+                        "pr":  "GeddyLifeson/diaithir-ports#322",
+                        "reason":  "draft and not listed as clear in merge-order.csv"
+                    },
+                    {
+                        "title":  "diaithir-worldsys economy: stall hash mixes all 32 bits",
+                        "pr":  "GeddyLifeson/diaithir-ports#323",
+                        "reason":  "draft and not listed as clear in merge-order.csv"
+                    },
+                    {
+                        "title":  "Wave 10: upgrades API and Forgeworks module slots folded into platform-suite",
+                        "pr":  "GeddyLifeson/diaithir-ports#324",
                         "reason":  "draft and not listed as clear in merge-order.csv"
                     },
                     {
@@ -786,11 +820,6 @@
                     {
                         "title":  "Station moves: assembler and altar recipes (diaithir_stations)",
                         "pr":  "GeddyLifeson/DiaithirRPG#257",
-                        "reason":  "draft and not listed as clear in merge-order.csv"
-                    },
-                    {
-                        "title":  "tech_ages: vs_yard ship yard ids by Age",
-                        "pr":  "GeddyLifeson/DiaithirRPG#258",
                         "reason":  "draft and not listed as clear in merge-order.csv"
                     },
                     {
@@ -819,7 +848,7 @@
                         "reason":  "draft and not listed as clear in merge-order.csv"
                     },
                     {
-                        "title":  "Drop Balm, Cristel Lib, Cupboard, Shogi and FTB Library chain (round-2 library audit)",
+                        "title":  "Drop 14 library jars with no dependents (round-2 library audit)",
                         "pr":  "GeddyLifeson/DiaithirRPG#265",
                         "reason":  "draft and not listed as clear in merge-order.csv"
                     },
@@ -836,6 +865,26 @@
                     {
                         "title":  "Wave 8-9 pack inputs: worldgen-structures 1.0.6, client-suite fix, QoL entries",
                         "pr":  "GeddyLifeson/DiaithirRPG#268",
+                        "reason":  "draft and not listed as clear in merge-order.csv"
+                    },
+                    {
+                        "title":  "Codex: Library tab for every Panscriptum entry",
+                        "pr":  "GeddyLifeson/DiaithirRPG#269",
+                        "reason":  "draft and not listed as clear in merge-order.csv"
+                    },
+                    {
+                        "title":  "economy: stall hash mixes all 32 bits (KubeJS reference)",
+                        "pr":  "GeddyLifeson/DiaithirRPG#270",
+                        "reason":  "draft and not listed as clear in merge-order.csv"
+                    },
+                    {
+                        "title":  "Economy: KubeJS reference moves to legacy_js, golden harness (company-ledger)",
+                        "pr":  "GeddyLifeson/DiaithirRPG#271",
+                        "reason":  "draft and not listed as clear in merge-order.csv"
+                    },
+                    {
+                        "title":  "Wave 10 pack inputs: platform-suite with upgrades",
+                        "pr":  "GeddyLifeson/DiaithirRPG#272",
                         "reason":  "draft and not listed as clear in merge-order.csv"
                     }
                 ],
