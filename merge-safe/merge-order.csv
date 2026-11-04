@@ -249,3 +249,6 @@ wave,repo,number,base,head,partner,title
 0,ports,321,,,,wiretech: compute circuit readers before acting nodes change state
 2,ports,336,diaithircompat,claude/project-thread-slgjcj,,"Carts: textures for yards, cranes, parts and all rolling stock (after #206)"
 8,rpg,275,engine,claude/assay-tail-filing,,Panscriptum: file assay tail and retry entries into source universes (data only; 214 source-name hits dropped)
+0,global-repo,50,main,claude/project-thread-87zgrw,,Register S6953 recipes_to_stations.py [edits SCRIPTS_INDEX.md and ids.tsv: merge one at a time]
+0,global-repo,53,main,claude/project-thread-1bf7x4,,Merge order row for ports #339; register S6902 harvest_stock.py
+0,ports,339,diaithircompat,,,Rail wagons as cargo carriers
