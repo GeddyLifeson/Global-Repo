@@ -513,7 +513,9 @@
    "item": "diaithir:foundry_circuit_basic",
    "item_proposed": true,
    "station": "station.steam_forge",
-   "form": "part"
+   "form": "part",
+   "s": 1.5,
+   "W": 30000.0
   },
   {
    "id": "tech.assembler",
@@ -574,7 +576,8 @@
    "item": "diaithir:foundry_arm_inserter",
    "W": 13000.0,
    "station": "machine.assembler",
-   "form": "assembly"
+   "form": "assembly",
+   "s": 0.8
   },
   {
    "id": "tech.miner",
@@ -594,7 +597,8 @@
    "item": "diaithir:foundry_drill",
    "W": 90000.0,
    "station": "machine.assembler",
-   "form": "assembly"
+   "form": "assembly",
+   "s": 4.0
   },
   {
    "id": "tech.circuits_adv",
@@ -615,7 +619,9 @@
    "item": "diaithir:foundry_circuit_advanced",
    "item_proposed": true,
    "station": "machine.assembler",
-   "form": "process"
+   "form": "process",
+   "s": 3.0,
+   "W": 60000.0
   },
   {
    "id": "tech.operator",
@@ -635,7 +641,8 @@
    "item": "diaithircrafting:foundry_operator_seat",
    "station": "machine.assembler",
    "form": "assembly",
-   "item_final": true
+   "item_final": true,
+   "W": 100.0
   },
   {
    "id": "tech.reclaimer",
@@ -655,7 +662,9 @@
    "quest": "q.tech.reclaimer",
    "item": "diaithir:foundry_reclaimer",
    "station": "machine.assembler",
-   "form": "assembly"
+   "form": "assembly",
+   "s": 3.0,
+   "W": 100000.0
   },
   {
    "id": "tech.lochrand",
@@ -724,7 +733,8 @@
    "item": "diaithir:foundry_core_drill",
    "W": 2000000.0,
    "station": "machine.assembler",
-   "form": "assembly"
+   "form": "assembly",
+   "s": 20.0
   },
   {
    "id": "tech.fusion",
@@ -909,7 +919,8 @@
     "c:ingots/steel",
     "enchant.basic",
     "power.mana_feed",
-    "c:rods/blaze"
+    "c:rods/blaze",
+    "alchemy.still"
    ],
    "makes": [
     "altar.adv"
@@ -941,7 +952,8 @@
    "needs": [
     "altar.adv",
     "dust.lamp",
-    "mana"
+    "mana",
+    "glyph.set"
    ],
    "makes": [
     "rite.focus"
@@ -1098,7 +1110,8 @@
    "needs": [
     "food.dish",
     "food.preserved",
-    "honey"
+    "honey",
+    "food.canned"
    ],
    "makes": [
     "ration.worker"
@@ -1337,7 +1350,8 @@
     "belt.lane",
     "inserter.arm",
     "farm.irrigated",
-    "crops.anyseason"
+    "crops.anyseason",
+    "farm.mechanised"
    ],
    "makes": [
     "crops.bulk"
@@ -1466,7 +1480,8 @@
     "c:foods/meat",
     "food.dish",
     "creature.horse",
-    "creature.parts"
+    "creature.parts",
+    "creature.hound"
    ],
    "makes": [
     "creature.bonded_kin"
@@ -1689,7 +1704,8 @@
    "needs": [
     "boss.hollow_core",
     "armour.hollow",
-    "ward.field"
+    "ward.field",
+    "arms.plasma"
    ],
    "makes": [
     "boss.sovereign_core"
@@ -2065,7 +2081,8 @@
     "wood",
     "fiber",
     "fuel.charcoal",
-    "station.slipway"
+    "station.slipway",
+    "hull.dugout"
    ],
    "makes": [
     "hull.timber"
@@ -2246,7 +2263,8 @@
    "name": "Fold drive",
    "needs": [
     "hull.space",
-    "reactor.fusion"
+    "reactor.fusion",
+    "ward.paracausal"
    ],
    "makes": [
     "ship.drive_fold"
@@ -2295,7 +2313,8 @@
     "trade.barter",
     "c:ingots/silver",
     "culture.currency",
-    "tool.iron"
+    "tool.iron",
+    "trade.weights"
    ],
    "makes": [
     "money.coin"
@@ -2449,7 +2468,8 @@
    "needs": [
     "market.exchange",
     "c:ores/shard_metal",
-    "econ.company"
+    "econ.company",
+    "market.orbital"
    ],
    "makes": [
     "treasury.shard"
@@ -2549,7 +2569,8 @@
     "settle.defence",
     "store.warehouse",
     "culture.architecture",
-    "research.bench"
+    "research.bench",
+    "store.granary"
    ],
    "makes": [
     "settle.town"
@@ -2601,7 +2622,8 @@
     "settle.city",
     "store.cold",
     "market.exchange",
-    "accord.rodos"
+    "accord.rodos",
+    "settle.station"
    ],
    "makes": [
     "settle.capital"
@@ -2730,7 +2752,8 @@
    "needs": [
     "civics.policy",
     "envoy.contact",
-    "rite.focus"
+    "rite.focus",
+    "accord.star"
    ],
    "makes": [
     "accord.rodos"
@@ -2767,7 +2790,10 @@
     "research.pack_1"
    ],
    "module": "diaithir-automation-crafting",
-   "quest": "q.research.pack_1"
+   "quest": "q.research.pack_1",
+   "item": "diaithircrafting:foundry_research_pack_1",
+   "form": "quick",
+   "note": "Age I clay tablet, before any bench exists; grid allowed"
   },
   {
    "id": "research.pack_2",
@@ -3182,7 +3208,8 @@
     "module.t3",
     "quality.grade",
     "rush.cleared",
-    "boss.catalyst_t2"
+    "boss.catalyst_t2",
+    "module.nano"
    ],
    "makes": [
     "module.legendary"
@@ -3215,7 +3242,9 @@
     "accord.rodos",
     "module.legendary",
     "shard_land.access",
-    "planner"
+    "planner",
+    "feast.shard",
+    "store.shard_vault"
    ],
    "makes": [
     "win.modpack_complete"
@@ -3699,6 +3728,311 @@
    ],
    "module": "diaithir-ships",
    "quest": "q.ships.spaceyard"
+  },
+  {
+   "id": "ship.dugout",
+   "system": "ships",
+   "age": "I",
+   "name": "Hollow a dugout",
+   "needs": [
+    "wood",
+    "tool.flint"
+   ],
+   "makes": [
+    "hull.dugout"
+   ],
+   "module": "diaithir-ships",
+   "quest": "q.ship.dugout"
+  },
+  {
+   "id": "econ.weights",
+   "system": "econ",
+   "age": "II",
+   "name": "Cast weights and scales",
+   "needs": [
+    "trade.barter",
+    "c:ingots/bronze"
+   ],
+   "makes": [
+    "trade.weights"
+   ],
+   "module": "diaithir-economy",
+   "quest": "q.econ.weights"
+  },
+  {
+   "id": "store.granary",
+   "system": "store",
+   "age": "III",
+   "name": "Raise a granary",
+   "needs": [
+    "container.crate",
+    "c:crops/grain",
+    "stone"
+   ],
+   "makes": [
+    "store.granary"
+   ],
+   "module": "diaithir-storage-logistics",
+   "quest": "q.store.granary"
+  },
+  {
+   "id": "creature.hounds",
+   "system": "creature",
+   "age": "IV",
+   "name": "Keep hunting hounds",
+   "needs": [
+    "creature.livestock",
+    "c:foods/cooked_meat",
+    "tool.iron"
+   ],
+   "makes": [
+    "creature.hound"
+   ],
+   "module": "diaithir-creatures",
+   "quest": "q.creature.hounds"
+  },
+  {
+   "id": "magic.alchemy",
+   "system": "magic",
+   "age": "V",
+   "name": "Still and distil",
+   "needs": [
+    "altar.basic",
+    "brew.base",
+    "c:plates/iron"
+   ],
+   "makes": [
+    "alchemy.still"
+   ],
+   "module": "diaithir-magic",
+   "quest": "q.magic.alchemy"
+  },
+  {
+   "id": "food.canning",
+   "system": "food",
+   "age": "V",
+   "name": "Can and tin",
+   "needs": [
+    "food.dish",
+    "c:plates/iron",
+    "heat.fire"
+   ],
+   "makes": [
+    "food.canned"
+   ],
+   "module": "diaithir-kitchen-brewing",
+   "quest": "q.food.canning"
+  },
+  {
+   "id": "farm.reaper",
+   "system": "farm",
+   "age": "V",
+   "name": "Horse-drawn reaper",
+   "needs": [
+    "c:plates/iron",
+    "creature.horse",
+    "c:crops/grain"
+   ],
+   "makes": [
+    "farm.reaper"
+   ],
+   "module": "diaithir-blocks-decor-farming",
+   "quest": "q.farm.reaper"
+  },
+  {
+   "id": "farm.tractor",
+   "system": "farm",
+   "age": "VI",
+   "name": "Tractor and combine",
+   "needs": [
+    "farm.reaper",
+    "power.grid",
+    "c:plates/steel"
+   ],
+   "makes": [
+    "farm.mechanised"
+   ],
+   "module": "diaithir-blocks-decor-farming",
+   "quest": "q.farm.tractor"
+  },
+  {
+   "id": "magic.glyphs",
+   "system": "magic",
+   "age": "VI",
+   "name": "Inscribe glyphs",
+   "needs": [
+    "altar.basic",
+    "power.mana_feed",
+    "parchment",
+    "ink"
+   ],
+   "makes": [
+    "glyph.set"
+   ],
+   "module": "diaithir-magic",
+   "quest": "q.magic.glyphs"
+  },
+  {
+   "id": "farm.hydroponics",
+   "system": "farm",
+   "age": "VIII",
+   "name": "Hydroponic racks",
+   "needs": [
+    "crops.bulk",
+    "power.grid",
+    "c:plates/nanoalloy",
+    "water"
+   ],
+   "makes": [
+    "crops.vertical"
+   ],
+   "module": "diaithir-blocks-decor-farming",
+   "quest": "q.farm.hydroponics"
+  },
+  {
+   "id": "magic.paracausal",
+   "system": "magic",
+   "age": "VIII",
+   "name": "Paracausal craft",
+   "needs": [
+    "ward.field",
+    "reactor.fusion",
+    "rite.focus"
+   ],
+   "makes": [
+    "ward.paracausal"
+   ],
+   "module": "diaithir-magic",
+   "quest": "q.magic.paracausal"
+  },
+  {
+   "id": "econ.orbital_exchange",
+   "system": "econ",
+   "age": "VIII",
+   "name": "Orbital exchange",
+   "needs": [
+    "market.exchange",
+    "pad.launch",
+    "hull.space"
+   ],
+   "makes": [
+    "market.orbital"
+   ],
+   "module": "diaithir-economy",
+   "quest": "q.econ.orbital_exchange"
+  },
+  {
+   "id": "settle.station",
+   "system": "settle",
+   "age": "VIII",
+   "name": "Found a station",
+   "needs": [
+    "settle.city",
+    "hull.space",
+    "pad.launch",
+    "crops.vertical"
+   ],
+   "makes": [
+    "settle.station"
+   ],
+   "module": "diaithir-settlements",
+   "quest": "q.settle.station"
+  },
+  {
+   "id": "culture.star_concord",
+   "system": "culture",
+   "age": "VIII",
+   "name": "Sign the Star Concord",
+   "needs": [
+    "civics.policy",
+    "envoy.contact",
+    "reactor.fusion"
+   ],
+   "makes": [
+    "accord.star"
+   ],
+   "module": "diaithir-culture-start",
+   "quest": "q.culture.star_concord"
+  },
+  {
+   "id": "upgrade.nano_mod",
+   "system": "upgrade",
+   "age": "VIII",
+   "name": "Nano module",
+   "needs": [
+    "module.t3",
+    "c:plates/nanoalloy"
+   ],
+   "makes": [
+    "module.nano"
+   ],
+   "module": "diaithir-automation-crafting",
+   "quest": "q.upgrade.nano_mod"
+  },
+  {
+   "id": "combat.plasma",
+   "system": "combat",
+   "age": "VIII",
+   "name": "Plasma arms",
+   "needs": [
+    "reactor.fusion",
+    "c:plates/nanoalloy",
+    "ammo.basic"
+   ],
+   "makes": [
+    "arms.plasma"
+   ],
+   "module": "diaithir-combat-classes",
+   "quest": "q.combat.plasma"
+  },
+  {
+   "id": "creature.shard_kin",
+   "system": "creature",
+   "age": "RODOS",
+   "name": "Wake the shard kin",
+   "needs": [
+    "creature.menagerie",
+    "focus.shard",
+    "c:ores/shard_metal"
+   ],
+   "makes": [
+    "creature.shard_kin"
+   ],
+   "module": "diaithir-creatures",
+   "quest": "q.creature.shard_kin"
+  },
+  {
+   "id": "food.shard_table",
+   "system": "food",
+   "age": "RODOS",
+   "name": "Set the shard table",
+   "needs": [
+    "feast.ages",
+    "farm.living_seed",
+    "focus.shard",
+    "creature.shard_kin"
+   ],
+   "makes": [
+    "feast.shard"
+   ],
+   "module": "diaithir-kitchen-brewing",
+   "quest": "q.food.shard_table"
+  },
+  {
+   "id": "store.shard_vault",
+   "system": "store",
+   "age": "RODOS",
+   "name": "Shard vault",
+   "needs": [
+    "depot.global",
+    "c:ores/shard_metal",
+    "store.vault"
+   ],
+   "makes": [
+    "store.shard_vault"
+   ],
+   "module": "diaithir-storage-logistics",
+   "quest": "q.store.shard_vault"
   }
  ],
  "service_prefixes": [
