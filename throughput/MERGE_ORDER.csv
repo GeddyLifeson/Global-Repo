@@ -69,6 +69,7 @@ wave,repo,number,base,head,partner,title
 0,ports,263,diaithircompat,claude/survey-p4-more-professions,,Fold More Professions (MIT) into diaithir-worldsys [same files as #252: merge one at a time]
 0,ports,276,diaithircompat,claude/survey-p4-better-caravans,,Fold Better Caravans (MIT) into diaithir-worldsys [same files as #252: merge one at a time]
 0,global-repo,32,main,claude/project-thread-opeiei,,"Register S6918 gen_containers.py [edits SCRIPTS_INDEX.md: merge one at a time, rebuild index on conflict]"
+1,rpg,265,claude/pack-v1-3-wave7,claude/project-thread-o1c0y3,,"Drop Balm, Cristel Lib, Cupboard, Shogi and FTB Library chain; flood.js uses Diaithir Claims [stacked on RPG #260 (wave 7); no world migration]"
 1,ports,134,claude/project-thread-celestials,claude/project-thread-889fio-hostile,,Hostile encounters: caravans and undead nights content (stacked on #113)
 1,ports,180,diaithircompat,claude/project-thread-87zgrw,,"Gear: parts stations (smithy, workshop bench, gunsmith bench) [merge after #198]"
 1,ports,187,claude/project-thread-daq0av,claude/project-thread-oo83zf,,"diaithir-animation: vanilla-body and first-person pose layer (87 clips, item-kind tags)"
