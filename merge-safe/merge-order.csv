@@ -210,7 +210,6 @@ wave,repo,number,base,head,partner,title
 10,ports,324,claude/pack-v1-3-wave9,claude/pack-v1-3-wave10,rpg#272,Wave 10: upgrades API and Forgeworks module slots folded into platform-suite [merge after ports #295 and RPG #268]
 10,rpg,272,claude/pack-v1-3-wave9,claude/pack-v1-3-wave10,ports#324,Wave 10 pack inputs: platform-suite with upgrades [merge with ports #324]
 10,ports,325,claude/project-thread-mhfa65,,,Forgeworks augment-to-module fold [merge AFTER ports #319 and #324; then rebuild Forgeworks inside the platform suite from #325]
-0,global-repo,49,main,claude/project-thread-rzjwzu,,"Register S6951 assay_merge.py [edits SCRIPTS_INDEX.md and ids.tsv: merge one at a time, rebuild index on conflict]"
 0,ports,327,diaithircompat,claude/project-thread-celestials-2,,Blood Moon fold (retargeted to diaithircompat after #134 merged)
 10,ports,326,diaithircompat,claude/workshop-historical-bows,,"Workshop Bench blueprints for 15 historical bows and crossbows (after #203, merged)"
 10,ports,328,diaithircompat,claude/historical-throwables,,diaithir-arms: 16 historical throwables and slings (data-driven thrown-weapon entity)
@@ -218,7 +217,6 @@ wave,repo,number,base,head,partner,title
 10,ports,333,claude/workshop-historical-bows,claude/workshop-historical-thrown-siege,ports#326,Workshop Bench blueprints for historical throwables and siege engines [stacked on ports #326; after ports #328 and #331]
 0,rpg,274,engine,claude/project-thread-tjwq65,,Quest goal aliases obtain_item and locate_structure (QuestDefs two-line change)
 0,ports,334,diaithircompat,claude/project-thread-ywzzrh,,"Aurorian: bow, arrows, crystalline beam, sickles, mirror of guidance (last Aurorian port; original jar can be dropped after merge)"
-0,global-repo,51,main,claude/aurorian-script-ids,,Index S6880 port.py and S6881 rcon.py with real paths [edits SCRIPTS_INDEX.md and ids.tsv: merge one at a time]
 0,global-repo,45,,,,MERGE_ORDER: reconcile with all open ready PRs (208 rows)
 0,global-repo,46,,,,"Item roles: use scan, 23.8k role assignments, report"
 0,global-repo,47,,,,"MERGE_ORDER: survey p1 carts, harbour module and harbour yards"
@@ -244,8 +242,6 @@ wave,repo,number,base,head,partner,title
 0,ports,321,,,,wiretech: compute circuit readers before acting nodes change state
 2,ports,336,diaithircompat,claude/project-thread-slgjcj,,"Carts: textures for yards, cranes, parts and all rolling stock (after #206)"
 8,rpg,275,engine,claude/assay-tail-filing,,Panscriptum: file assay tail and retry entries into source universes (data only; 214 source-name hits dropped)
-0,global-repo,50,main,claude/project-thread-87zgrw,,Register S6953 recipes_to_stations.py [edits SCRIPTS_INDEX.md and ids.tsv: merge one at a time]
-0,global-repo,53,main,claude/project-thread-1bf7x4,,Merge order row for ports #339; register S6902 harvest_stock.py
 0,ports,339,diaithircompat,,,Rail wagons as cargo carriers
 11,ports,330,claude/pack-v1-3-wave10,claude/pack-v1-3-wave11,rpg#273,"Wave 11: rebuilt claims, hud-overlays, world-visuals, voice-interaction and worldsys (pack-version sender) in the suites [merge after ports #324 and #325]"
 11,rpg,273,claude/pack-v1-3-wave10,claude/pack-v1-3-wave11,ports#330,Wave 11 pack inputs [merge with ports #330]
@@ -260,21 +256,14 @@ wave,repo,number,base,head,partner,title
 0,ports,337,,,,"diaithir-animation-machines: own package and mod id, bone-derived rules for 450 machines"
 0,ports,338,,,,Fold Agritech: Evolved and Hydrofarm into diaithir-farmkitchen; move the reaper there
 0,ports,341,,,,Ships carry cargo: yard and Eureka ships as containers-API carriers
-0,global-repo,54,main,,,"Headless bot: cars drive, cargo and nested save tests"
 2,ports,348,diaithircompat,claude/loco-infobox-six,,Carts roster: GG1 power and TGV start year from infoboxes (tiny)
-0,global-repo,52,main,claude/project-thread-ldq153,,Register S6940 gen_farm_assets.py (diaithir-carts reaper)
-0,global-repo,56,main,claude/project-thread-66n6wn,,"Assign an Age to every item with none (assign_ages.py S6957) [edits SCRIPTS_INDEX.md and ids.tsv: merge one at a time, rebuild index on conflict]"
 2,ports,352,,claude/ships-runclasspath-fix,,Ships: run classpath fix (dev server starts, self-test passes)
 15,ports,353,claude/pack-v1-3,claude/pack-v1-3-wave15,,"Wave 15: biomes module (Aerial Hell, Aether II, Undergarden, Backwoods) in worldgen suite, sound occlusion NPE fix (client 87, server 76) [merge with RPG #281]"
 2,ports,354,,claude/buildcraft-build-fix,,BuildCraft build fix: upgrades dependency, 26.X-only config
 0,shardfall,20,main,claude/project-thread-bu0cng,,Add 25% context handoff rule to essentials
 0,rpg,284,engine,claude/project-thread-a9iuyi,global-repo#59,"Balance magic vs tech: 17 Age nodes, Age II magic, ki, innate tags"
-0,global-repo,59,main,claude/project-thread-a9iuyi,rpg#284,"Add magic vs tech balance report and S6958 index row [edits SCRIPTS_INDEX.md: merge one at a time]"
-0,global-repo,60,main,claude/project-thread-npt56y,,"Add shared NPC power pool (38 powers) [edits SCRIPTS_INDEX.md: merge one at a time]"
-0,global-repo,63,main,claude/project-thread-ccm5bi,,"Add Panscriptum master sheet builder (S6964) [edits SCRIPTS_INDEX.md and ids.tsv: merge one at a time]"
-0,global-repo,62,main,claude/project-thread-2a8d1j,,"S6961 extract_being_powers: Panscriptum cards to power ids [edits SCRIPTS_INDEX.md: merge one at a time]"
+0,global-repo,60,main,claude/project-thread-npt56y,,Add shared NPC power pool (38 powers) [edits SCRIPTS_INDEX.md: merge one at a time]
 17,ports,355,diaithircompat,,,Stellaris module source and fixes
 16,ports,356,claude/pack-v1-3,claude/pack-v1-3-wave16,,Pack wave16: farmkitchen fold, productivebees fix
 17,ports,359,claude/pack-v1-3,claude/pack-v1-3-wave17,,Pack wave17: Stellaris fixes (full-pack join passed 17:52Z)
-0,global-repo,61,main,claude/project-thread-eezipe,,"Index grant-on-spawn script and grants builder (S6962, S6963) [edits ids.tsv: merge one at a time]"
-0,global-repo,67,main,claude/project-thread-sn9a7h,,Remove stray ======= separator from plans/MERGE_ORDER.csv
+0,global-repo,68,main,claude/project-thread-2xfzmi,,Merge the stale index PRs into one [edits SCRIPTS_INDEX.md and ids.tsv]
