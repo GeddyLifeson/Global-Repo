@@ -226,3 +226,4 @@ wave,repo,number,base,head,partner,title
 
 0,rpg,274,engine,claude/project-thread-tjwq65,,Quest goal aliases obtain_item and locate_structure (QuestDefs two-line change)
 0,ports,334,diaithircompat,claude/project-thread-ywzzrh,,"Aurorian: bow, arrows, crystalline beam, sickles, mirror of guidance (last Aurorian port; original jar can be dropped after merge)"
+0,global-repo,51,main,claude/aurorian-script-ids,,"Index S6880 port.py and S6881 rcon.py with real paths [edits SCRIPTS_INDEX.md and ids.tsv: merge one at a time]"
