@@ -6860,3 +6860,4 @@ Run hints: .py `python3 <file>` (PC `py`), .ps1 via a hidden launcher (never a v
 | S6921 | cloud | `tools/item_roles/make_jobs.py` | S6921 Builds item_roles-sNN compute jobs (30 items per row) from the use scan | yes |
 | S6944 | cloud | `tools/item_roles/merge_roles.py` | S6944 Merges item_roles job output into plans/ITEM_ROLES.csv and writes retry rows | yes |
 | S6945 | cloud | `tools/item_roles/report.py` | S6945 Builds plans/ITEM_ROLES.md (classes, link counts, isolated systems, decor) | yes |
+| S6946 | cloud | `tools/item_roles/apply_ages.py` | S6946 Adds the tech_ages.json Age (authoritative) to plans/ITEM_ROLES.csv beside the Haiku draft Age | yes |

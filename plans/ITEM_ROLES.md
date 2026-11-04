@@ -84,3 +84,6 @@ These need a pass: either real parts are missing (vehicle/ship/rail part items, 
 
 ## Files
 `plans/ITEM_ROLES.csv` (id, role_class, role, where, props, links, decor_only), `plans/ITEM_ROLES_ORPHANS.txt` (zero-mention ids).
+
+## Ages (Age balance thread ruling 11-04)
+`age` column in the CSV = tech_ages.json (item/decided entry, else namespace), which wins. `draft_age` = Haiku's station Age, only a suggestion; it is used only where tech_ages has no row (579 items have neither and need an Age). 7,117 drafts differ (mostly II vs I, IV vs II/III); none were applied, so the thin Ages stay as tech_ages sets them (VIII 75, RODOS 18, V 1,169 items).
