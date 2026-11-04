@@ -259,3 +259,5 @@ wave,repo,number,base,head,partner,title
 13,ports,343,claude/pack-v1-3-wave12,claude/pack-v1-3-wave13,rpg#277,"Wave 13: client suite absorbs four client jars (client 106 jars) [merge after ports #342]"
 13,rpg,277,claude/pack-v1-3-wave12,claude/pack-v1-3-wave13,ports#343,"Wave 13 pack inputs [merge with ports #343]"
 0,ports,344,diaithircompat,claude/claims-serverwaypoint,,"claims: move Server Waypoint into diaithir-claims so it compiles alone (merge before the next pack rebuild)"
+2,ports,340,diaithircompat,claude/vehicle-carriers,,"Vehicles carry cargo: cars, trucks, trailers and tanks as cargo carriers (after #221 and #229)"
+2,ports,345,diaithircompat,claude/cars-engine-icons,,"Cars spawn with an engine (petrol engines use the avgas fuel type) and car and truck item icons"
