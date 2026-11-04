@@ -253,3 +253,4 @@ wave,repo,number,base,head,partner,title
 0,ports,318,,,,"Survey p6: clean-room handshake, crash window, test-bot, Structure Memory, updater, Better Clouds"
 0,ports,321,,,,wiretech: compute circuit readers before acting nodes change state
 2,ports,336,diaithircompat,claude/project-thread-slgjcj,,"Carts: textures for yards, cranes, parts and all rolling stock (after #206)"
+8,rpg,275,engine,claude/assay-tail-filing,,"Panscriptum: file assay tail and retry entries into source universes (data only; 214 source-name hits dropped)"
