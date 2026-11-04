@@ -20,20 +20,66 @@
     return g.powers.slice(0, n)
   }
 
+  // NeoOrigins only runs persistent_effect and mob_behavior powers on mobs; every other passive type is applied here from its JSON.
+  var NATIVE = {  // neoorigins powers in the pool, written as the same config shape as the JSON files
+    'neoorigins:draconic_flight': { type: 'fly' }, 'neoorigins:elytrian_flight': { type: 'fly' }, 'neoorigins:phantom_flight': { type: 'fly' },
+    'neoorigins:qi_core_pressure': { type: 'neoorigins:modify_damage', direction: 'out', multiplier: 1.3 },
+    'neoorigins:golden_bell_diamond_body': { type: 'neoorigins:attribute_modifier', attribute: 'minecraft:armor_toughness', amount: 6, operation: 'add_value' },
+    'neoorigins:golden_bell_iron_shirt': { type: 'neoorigins:attribute_modifier', attribute: 'minecraft:armor', amount: 8, operation: 'add_value' },
+    'neoorigins:jianxian_immortal_body': { type: 'nofall' },
+    'neoorigins:class_rogue_stealth': { type: 'invisible' },
+    'neoorigins:class_titan_size': { type: 'neoorigins:attribute_modifier', attribute: 'minecraft:scale', amount: 0.25, operation: 'add_multiplied_base' }
+  }
+  var OPS = { add_value: 'addition', add_multiplied_base: 'multiply_base', add_multiplied_total: 'multiply_total' }
+  var cache = {}
+  var dmgIn = {}, dmgOut = {}, noFall = {}  // uuid -> multiplier / flag, rebuilt on load
+
+  function configOf(id) {
+    if (NATIVE[id]) return NATIVE[id]
+    if (id.indexOf('diaithirpowers:') != 0) return null
+    if (!(id in cache)) {
+      try { cache[id] = JsonIO.read('kubejs/data/diaithirpowers/origins/powers/' + id.substring(15) + '.json') } catch (e) { cache[id] = null }
+    }
+    return cache[id]
+  }
+
+  function applyConfig(entity, id, c) {
+    var u = '' + entity.uuid
+    if (c.type == 'neoorigins:attribute_modifier') entity.modifyAttribute(c.attribute, 'diaithir:' + id.replace(':', '_'), c.amount, OPS[c.operation] || 'addition')
+    else if (c.type == 'neoorigins:modify_damage') { var t = c.direction == 'in' ? dmgIn : dmgOut; t[u] = (t[u] == null ? 1 : t[u]) * c.multiplier }
+    else if (c.type == 'fly') entity.potionEffects.add('minecraft:slow_falling', 999999, 0, false, false)
+    else if (c.type == 'nofall') noFall[u] = true
+    else if (c.type == 'invisible') entity.potionEffects.add('minecraft:invisibility', 999999, 0, false, false)
+    else return false
+    return true
+  }
+
   function applyPassive(entity, ids) {
     for (var i = 0; i < ids.length; i++) {
       try {
+        var c = configOf(ids[i])
+        if (c && applyConfig(entity, ids[i], c)) continue
         var h = PDM.INSTANCE.getPower(Ident.parse(ids[i]))
         if (h != null && h.appliesToMobs()) h.applyToMob(entity)
       } catch (e) { console.error('[powers] ' + ids[i] + ': ' + e) }
     }
   }
 
+  EntityEvents.hurt(function (event) {
+    var u = '' + event.entity.uuid
+    if (noFall[u] && '' + event.source.type == 'minecraft:fall') { event.cancel(); return }
+    if (dmgIn[u] != null) event.damage = event.damage * dmgIn[u]
+    var a = event.source.actual
+    if (a != null && dmgOut['' + a.uuid] != null) event.damage = event.damage * dmgOut['' + a.uuid]
+  })
+
   EntityEvents.spawned(function (event) {
     var entity = event.entity
     if (!entity.isLiving() || entity.isPlayer()) return
     var list = grantList(entity)
     if (list == null) return
+    var u = '' + entity.uuid
+    delete dmgIn[u]; delete dmgOut[u]; delete noFall[u]
     var acts = []
     for (var i = 0; i < list.length; i++) {
       var parts = ('' + list[i]).split(':'), p = pool[parts[0]]
