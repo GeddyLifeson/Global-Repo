@@ -256,3 +256,5 @@ wave,repo,number,base,head,partner,title
 11,rpg,273,claude/pack-v1-3-wave10,claude/pack-v1-3-wave11,ports#330,"Wave 11 pack inputs [merge with ports #330]"
 12,ports,342,claude/pack-v1-3-wave11,claude/pack-v1-3-wave12,rpg#276,"Wave 12: 88 open-licence downloads folded into seven suites (client 110 jars, server 95) [merge after ports #330]"
 12,rpg,276,claude/pack-v1-3-wave11,claude/pack-v1-3-wave12,ports#342,"Wave 12 pack inputs [merge with ports #342]"
+13,ports,343,claude/pack-v1-3-wave12,claude/pack-v1-3-wave13,rpg#277,"Wave 13: client suite absorbs four client jars (client 106 jars) [merge after ports #342]"
+13,rpg,277,claude/pack-v1-3-wave12,claude/pack-v1-3-wave13,ports#343,"Wave 13 pack inputs [merge with ports #343]"
