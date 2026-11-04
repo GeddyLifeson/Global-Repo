@@ -1,5 +1,5 @@
-# S6976 Haiku pass for the 6,032 unlinked assay beings: build a compute job (each being plus its 12 best TF-IDF candidate leads), then merge the picks into the master sheet.
-# Usage: relink_haiku.py jobs MASTER.tsv UNIVERSE_MAP.json LEADS_DIR CARDS_DIR JOB_DIR | apply MASTER.tsv JOB_DIR LEADS_DIR OUT_MASTER.tsv UNLINKED.tsv OUT_UNLINKED.tsv COVERAGE.tsv OUT_COVERAGE.tsv
+# S6976 Sonnet pass for the 6,032 unlinked assay beings: build a compute job (each being plus its 12 best TF-IDF candidate leads), then merge the picks into the master sheet.
+# Usage: relink_llm.py jobs MASTER.tsv UNIVERSE_MAP.json LEADS_DIR CARDS_DIR JOB_DIR | apply MASTER.tsv JOB_DIR LEADS_DIR OUT_MASTER.tsv UNLINKED.tsv OUT_UNLINKED.tsv COVERAGE.tsv OUT_COVERAGE.tsv
 import csv,glob,json,os,sys,collections,re
 K=12
 SYS=("You match a rewritten game-wiki entry to the wiki page it was rewritten from. Names, places and numbers were changed, but the kind of being, traits and events stay. "
@@ -36,19 +36,19 @@ def apply(master,jd,leads_dir,out,unl,out_unl,cov,out_cov):
     pick={}
     for l in open(jd+'/out.jsonl',encoding='utf-8'):
         d=json.loads(l)
-        try: pick[d['id']]=int(json.loads(re.search(r'\{.*\}',d['text'],re.S).group())['pick'])
+        try: pick[d['id']]=int(json.loads(re.findall(r'\{\s*"pick"\s*:\s*\d+\s*\}',d['text'])[-1])['pick'])
         except Exception: pass
-    rows=list(csv.DictReader(open(master,encoding='utf-8'),delimiter='\t')); cols=list(rows[0].keys())+['haiku_wiki','haiku_lead_idx','haiku_status']
+    rows=list(csv.DictReader(open(master,encoding='utf-8'),delimiter='\t')); cols=list(rows[0].keys())+['llm_wiki','llm_lead_idx','llm_status']
     for r in rows:
-        r.update(haiku_wiki='',haiku_lead_idx='',haiku_status='')
+        r.update(llm_wiki='',llm_lead_idx='',llm_status='')
         if r['id'] in meta:
             p=pick.get(r['id'])
-            if p is None: r['haiku_status']='failed'
-            elif p==0 or p>len(meta[r['id']][1]): r['haiku_status']='none'
-            else: r.update(haiku_wiki=meta[r['id']][0],haiku_lead_idx=meta[r['id']][1][p-1],haiku_status='match')
+            if p is None: r['llm_status']='failed'
+            elif p==0 or p>len(meta[r['id']][1]): r['llm_status']='none'
+            else: r.update(llm_wiki=meta[r['id']][0],llm_lead_idx=meta[r['id']][1][p-1],llm_status='match')
     with open(out,'w',encoding='utf-8',newline='') as o:
         w=csv.DictWriter(o,cols,delimiter='\t',lineterminator='\n'); w.writeheader(); w.writerows(rows)
-    got={(r['haiku_wiki'],str(r['haiku_lead_idx'])) for r in rows if r['haiku_status']=='match'}
+    got={(r['llm_wiki'],str(r['llm_lead_idx'])) for r in rows if r['llm_status']=='match'}
     old=collections.Counter(); new=collections.Counter()
     with open(unl,encoding='utf-8') as f,open(out_unl,'w',encoding='utf-8',newline='') as o:
         for n,l in enumerate(f):
@@ -61,5 +61,5 @@ def apply(master,jd,leads_dir,out,unl,out_unl,cov,out_cov):
         if k:
             for c,s in(('no_entry',-1),('entry_not_in_library',1)): r[h.index(c)]=str(int(r[h.index(c)])+s*k)
     csv.writer(open(out_cov,'w',encoding='utf-8',newline=''),delimiter='\t',lineterminator='\n').writerows(cr)
-    print(collections.Counter(r['haiku_status'] for r in rows if r['haiku_status']),'gaps closed',sum(old.values())-sum(new.values()))
+    print(collections.Counter(r['llm_status'] for r in rows if r['llm_status']),'gaps closed',sum(old.values())-sum(new.values()))
 a=sys.argv[1:]; {'jobs':jobs,'apply':apply}[a[0]](*a[1:])
