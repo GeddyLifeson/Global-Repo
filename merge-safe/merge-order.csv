@@ -222,3 +222,4 @@ wave,repo,number,base,head,partner,title
 10,ports,326,diaithircompat,claude/workshop-historical-bows,,"Workshop Bench blueprints for 15 historical bows and crossbows (after #203, merged)"
 10,ports,328,diaithircompat,claude/historical-throwables,,"diaithir-arms: 16 historical throwables and slings (data-driven thrown-weapon entity)"
 10,ports,331,claude/historical-throwables,claude/historical-siege,ports#328,"diaithir-arms: 27 historical siege engines (stacked on #328: merge #328 first)"
+10,ports,333,claude/workshop-historical-bows,claude/workshop-historical-thrown-siege,ports#326,"Workshop Bench blueprints for historical throwables and siege engines [stacked on ports #326; after ports #328 and #331]"
