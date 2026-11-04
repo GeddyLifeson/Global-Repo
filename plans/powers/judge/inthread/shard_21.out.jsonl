@@ -85,12 +85,12 @@
 {"id": "diablo|1710", "b": 0}
 {"id": "diablo|1729", "b": 2, "k": "armor", "n": "The Cloth Tunic", "m": 1, "q": "", "c": "l", "p": []}
 {"id": "diablo|1733", "b": 2, "k": "weapon", "n": "Cluckeye", "m": 1, "q": "", "c": "l", "p": []}
-{"id": "diablo|1736", "b": 0}
+{"id": "diablo|1736", "b": 2, "k": "weapon", "n": "The Conquest Staff", "m": 1, "q": "", "c": "l", "p": []}
 {"id": "diablo|1737", "b": 2, "k": "weapon", "n": "The Claw", "m": 1, "q": "", "c": "l", "p": []}
 {"id": "diablo|1738", "b": 2, "k": "weapon", "n": "The Colossus Axe", "m": 1, "q": "", "c": "l", "p": []}
 {"id": "diablo|1739", "b": 0}
 {"id": "diablo|1747", "b": 2, "k": "armor", "n": "Coven's Criterion", "m": 1, "q": "", "c": "l", "p": []}
-{"id": "diablo|1750", "b": 0}
+{"id": "diablo|1750", "b": 2, "k": "armor", "n": "The Conquest Shield", "m": 1, "q": "", "c": "l", "p": []}
 {"id": "diablo|1804", "b": 2, "k": "armor", "n": "", "m": 1, "q": "", "c": "l", "p": []}
 {"id": "diablo|1812", "b": 2, "k": "armor", "n": "", "m": 1, "q": "", "c": "l", "p": []}
 {"id": "diablo|1819", "b": 2, "k": "armor", "n": "", "m": 1, "q": "", "c": "l", "p": []}
@@ -181,9 +181,9 @@
 {"id": "diablo|2669", "b": 2, "k": "weapon", "n": "The Exalted Crag Hammer", "m": 1, "q": "", "c": "l", "p": []}
 {"id": "diablo|2670", "b": 2, "k": "weapon", "n": "The Exalted Fine Crag Hammer", "m": 1, "q": "", "c": "l", "p": []}
 {"id": "diablo|2671", "b": 2, "k": "weapon", "n": "The Exalted Grand Crag Hammer", "m": 1, "q": "", "c": "l", "p": []}
-{"id": "diablo|2672", "b": 0}
-{"id": "diablo|2673", "b": 0}
-{"id": "diablo|2674", "b": 0}
+{"id": "diablo|2672", "b": 2, "k": "weapon", "n": "The Exalted Conquest Sword", "m": 1, "q": "", "c": "l", "p": []}
+{"id": "diablo|2673", "b": 2, "k": "weapon", "n": "The Exalted Fine Conquest Sword", "m": 1, "q": "", "c": "l", "p": []}
+{"id": "diablo|2674", "b": 2, "k": "weapon", "n": "The Exalted Grand Conquest Sword", "m": 1, "q": "", "c": "l", "p": []}
 {"id": "diablo|2678", "b": 2, "k": "weapon", "n": "The Exalted Golden Talon", "m": 1, "q": "", "c": "l", "p": []}
 {"id": "diablo|2679", "b": 2, "k": "weapon", "n": "The Exalted Fine Golden Talon", "m": 1, "q": "", "c": "l", "p": []}
 {"id": "diablo|2680", "b": 2, "k": "weapon", "n": "The Exalted Grand Golden Talon", "m": 1, "q": "", "c": "l", "p": []}
