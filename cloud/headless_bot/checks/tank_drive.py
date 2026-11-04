@@ -46,6 +46,14 @@ with Lane('tank', JARS, client_files=CF, srv_xmx='3G', out=out) as L:
         S('gamemode survival Tester'); time.sleep(0.5)
         rep['start'] = DV('start'); time.sleep(1.5); rep['status_after_start'] = DV('status'); L.shot('02_hud_after_start.png')
         d.key('F5'); time.sleep(1.5); L.shot('02c_third_person.png'); d.key('F5'); time.sleep(1.0); L.shot('02d_back_first_person.png')
+        if os.environ.get('TANK_FUEL'):
+            rep['fuel_drive1'] = DV('drive 1')
+            rep['fuel_status'] = []
+            for _ in range(3):
+                rep['fuel_status'].append(DV('status')); time.sleep(5)
+            L.shot('06_fuel_drive1.png')
+            json.dump(rep, open(os.path.join(sys.argv[1], 'tank_report.json'), 'w'), indent=1, default=str)
+            raise SystemExit
         VL = lambda: [l.split(']: ', 1)[-1] for l in L.log_lines('server', r't-\d+s engines')]
         n0 = len(VL()); DV('watch 12', 0.5); d.hold('w', 12); time.sleep(2); rep['watch_W_held'] = VL()[n0:]; L.shot('03_hud_W_held.png')
         n1 = len(VL()); DV('watch 12', 0.5); time.sleep(14); rep['watch_W_released'] = VL()[n1:]
