@@ -1,0 +1,37 @@
+structure	stage	kind	builder	amount	unit	pallets	bulk_containers	blocks	fleet	hours	crew_hours	function_share	real_phase
+megamachines:aqueduct_arcade	1	place	megamachines:treadwheel_crane	2700.0	t	2700	0	1400	1	46.0	183.9	0	Pont du Gard lower tier: 6 arches on river piers
+megamachines:aqueduct_arcade	2	place	megamachines:treadwheel_crane	2520.0	t	2522	0	1200	1	42.9	171.7	0	11 arches carried on the lower tier
+megamachines:aqueduct_arcade	3	place	megamachines:treadwheel_crane	2880.0	t	2880	0	1000	1	49.1	196.2	0	35 small arches carrying the channel
+megamachines:aqueduct_arcade	4	place	megamachines:treadwheel_crane	900.0	t	270	32	400	1	15.3	61.3	1.0	Waterproof specus lined with hydraulic mortar
+megamachines:ship_lock_flight	1	dig	megamachines:walking_dragline	1440000	m3	0	0	1800	5	145.5	2181.8	0	Three Gorges: lock chambers cut into granite, 5 steps
+megamachines:ship_lock_flight	2	place	megamachines:steam_navvy	90000.0	t	90000	0	3600	3	116.8	700.7	0	Culverts fill and drain each chamber
+megamachines:ship_lock_flight	3	place	megamachines:steam_navvy	120000.0	t	120000	0	4200	3	155.7	934.3	0	Masonry walls hold the water head
+megamachines:ship_lock_flight	4	place	megamachines:steam_navvy	60000.0	t	60000	0	1800	2	116.8	467.1	0.5	Miter gates on iron frames
+megamachines:ship_lock_flight	5	place	megamachines:steam_navvy	30000.0	t	30000	0	600	1	116.8	233.6	1.0	Operating machinery; ships can transit
+megamachines:great_dam	1	dig	megamachines:tunnel_borer	817128.2	m3	0	0	3000	35	166.3	34920.0	0	Hoover Dam: 4 diversion tunnels, 17 m bore
+megamachines:great_dam	2	dig	megamachines:bucket_wheel_excavator	2400000	m3	0	0	3000	3	161.6	2424.2	0	Canyon walls cut back to sound rock
+megamachines:great_dam	3	place	megamachines:crawler_crane	875000.0	t	700000	8750	18000	3	119.2	715.3	0	Poured in columns with cooling pipes
+megamachines:great_dam	4	place	megamachines:crawler_crane	875000.0	t	700000	8750	18000	3	119.2	715.3	0	Crest road on the arch-gravity wall
+megamachines:great_dam	5	place	megamachines:crawler_crane	250000.0	t	250000	0	6000	1	102.2	204.4	0	Steel penstocks to the powerhouse
+megamachines:great_dam	6	place	megamachines:crawler_crane	500000.0	t	500000	0	12000	2	102.2	408.8	1.0	Turbine halls start generating one by one
+megamachines:arcology_tower	1	dig	megamachines:autonomous_wheel_excavator	1200000	m3	0	0	1600	2	110.2	660.9	0	Burj Khalifa: 192 piles, 3.7 m mat
+megamachines:arcology_tower	2	place	megamachines:crawler_crane	225000.0	t	225000	0	9600	3	127.7	766.4	0	Piled raft foundation
+megamachines:arcology_tower	3	place	megamachines:crawler_crane	330000.0	t	330000	0	17600	4	140.5	1124.1	0.25	Buttressed core; lower floors open as the hub
+megamachines:arcology_tower	4	place	megamachines:crawler_crane	375000.0	t	375000	0	19200	4	159.7	1277.3	0.6	Setbacks reduce wind load
+megamachines:arcology_tower	5	place	megamachines:crawler_crane	195000.0	t	195000	0	9600	2	166.1	664.2	0.85	Steel spire on the top
+megamachines:arcology_tower	6	place	megamachines:crawler_crane	375000.0	t	375000	0	22400	4	159.7	1277.3	1.0	Curtain wall; 10,000 residents
+megamachines:space_elevator	1	dig	megamachines:mountain_strip_miner	600000	m3	0	0	1200	1	92.6	370.4	0	Anchor at the equator, ocean platform in the real proposals
+megamachines:space_elevator	2	place	megamachines:crawler_crane	4800.0	t	4800	0	16000	1	8.2	16.4	0	Ground terminal and climber platform
+megamachines:space_elevator	3	place	megamachines:crawler_crane	3200.0	t	3200	0	22800	1	5.5	10.9	0.2	Literal blocks end here; the rest is data
+megamachines:space_elevator	4	remote	megamachines:crawler_transporter	11200.0	t	11201	0	0	1	118.2	236.4	0.45	Carbon-nanotube tether, climbers by laser power
+megamachines:space_elevator	5	remote	megamachines:crawler_transporter	11200.0	t	11201	0	0	1	118.2	236.4	0.75	Tether reaches geostationary height
+megamachines:space_elevator	6	remote	megamachines:crawler_transporter	9600.0	t	9600	0	0	1	101.3	202.7	1.0	35,786 km tether to GEO
+megamachines:orbital_ring	1	place	megamachines:terraform_builder	50000.0	t	20000	1500	45000	1	0.1	0.3	0	Birch ring: towers to ground at intervals
+megamachines:orbital_ring	2	remote	megamachines:terraform_builder	112500.0	t	0	5625	11250	1	103.1	618.8	0.25	Ring at ~300 km, spun to hold itself up
+megamachines:orbital_ring	3	remote	megamachines:terraform_builder	112500.0	t	0	5625	11250	1	103.1	618.8	0.5	Segments joined edge to edge
+megamachines:orbital_ring	4	remote	megamachines:terraform_builder	112500.0	t	0	5625	11250	1	103.1	618.8	0.75	Segments joined edge to edge
+megamachines:orbital_ring	5	remote	megamachines:terraform_builder	112500.0	t	0	5625	11250	1	103.1	618.8	1.0	Ring closes; transit opens
+megamachines:dyson_swarm	1	remote	megamachines:terraform_builder	50000.0	t	0	2500	17500	1	86.8	520.8	0.15	Statite collectors on solar-radiation pressure
+megamachines:dyson_swarm	2	remote	megamachines:terraform_builder	50000.0	t	0	2500	17500	1	86.8	520.8	0.4	Swarm density grows with each launch
+megamachines:dyson_swarm	3	remote	megamachines:terraform_builder	50000.0	t	0	2500	17500	1	86.8	520.8	0.7	Collectors beam power to the Gate launch bank
+megamachines:dyson_swarm	4	remote	megamachines:terraform_builder	50000.0	t	0	2500	17500	1	86.8	520.8	1.0	Supplies the Shardfall Gate launch bank
