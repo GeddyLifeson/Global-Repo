@@ -1,21 +1,92 @@
 {
-    "run_utc":  "2026-11-04T13:38:53Z",
+    "run_utc":  "2026-11-04T14:14:01Z",
     "dry_run":  false,
-    "merged_count":  1,
-    "skipped_count":  44,
+    "merged_count":  20,
+    "skipped_count":  26,
     "failed_count":  0,
     "merged":  [
                    {
-                       "pr":  "GeddyLifeson/Global-Repo#47",
-                       "title":  "MERGE_ORDER: survey p1 carts, harbour module and harbour yards"
+                       "pr":  "GeddyLifeson/Global-Repo#46",
+                       "title":  "Item roles: use scan, 23.8k role assignments, report"
+                   },
+                   {
+                       "pr":  "GeddyLifeson/diaithir-ports#225",
+                       "title":  "Fix diaithirvehicles: complete spawn, enterable, icons, starting fuel"
+                   },
+                   {
+                       "pr":  "GeddyLifeson/diaithir-ports#231",
+                       "title":  "Megamachines: survey-mod port licence audit"
+                   },
+                   {
+                       "pr":  "GeddyLifeson/diaithir-ports#313",
+                       "title":  "diaithir-arms: sentry turret, mining laser, Immersive Armors stage 1 (GPL package) (survey p2)"
+                   },
+                   {
+                       "pr":  "GeddyLifeson/diaithir-ports#318",
+                       "title":  "Survey p6: clean-room handshake, crash window, test-bot, Structure Memory, updater, Better Clouds"
+                   },
+                   {
+                       "pr":  "GeddyLifeson/diaithir-ports#324",
+                       "title":  "Wave 10: upgrades API and Forgeworks module slots folded into platform-suite"
+                   },
+                   {
+                       "pr":  "GeddyLifeson/diaithir-ports#330",
+                       "title":  "Pack V1 wave11: rebuilt claims, hud-overlays, world-visuals, voice-interaction (ports #233)"
+                   },
+                   {
+                       "pr":  "GeddyLifeson/diaithir-ports#337",
+                       "title":  "diaithir-animation-machines: own package and mod id, bone-derived rules for 450 machines"
+                   },
+                   {
+                       "pr":  "GeddyLifeson/diaithir-ports#338",
+                       "title":  "Fold Agritech: Evolved and Hydrofarm into diaithir-farmkitchen; move the reaper there"
+                   },
+                   {
+                       "pr":  "GeddyLifeson/diaithir-ports#341",
+                       "title":  "Ships carry cargo: yard and Eureka ships as containers-API carriers, loads drawn in the ship render transform"
+                   },
+                   {
+                       "pr":  "GeddyLifeson/diaithir-ports#342",
+                       "title":  "Pack V1 wave12: open-licence downloads folded into seven suites (client 110 jars, server 95)"
+                   },
+                   {
+                       "pr":  "GeddyLifeson/diaithir-ports#343",
+                       "title":  "Pack V1 wave13: client suite absorbs four client jars (client 106 jars)"
+                   },
+                   {
+                       "pr":  "GeddyLifeson/diaithir-ports#347",
+                       "title":  "Pack V1 wave14: drop 14 library and FTB jars (client 91, server 80)"
+                   },
+                   {
+                       "pr":  "GeddyLifeson/diaithir-ports#348",
+                       "title":  "Carts roster: GG1 power and TGV start year from infoboxes"
+                   },
+                   {
+                       "pr":  "GeddyLifeson/DiaithirRPG#268",
+                       "title":  "Wave 8-9 pack inputs: worldgen-structures 1.0.6, client-suite fix, QoL entries"
+                   },
+                   {
+                       "pr":  "GeddyLifeson/DiaithirRPG#272",
+                       "title":  "Wave 10 pack inputs: platform-suite with upgrades"
+                   },
+                   {
+                       "pr":  "GeddyLifeson/DiaithirRPG#273",
+                       "title":  "Pack V1 wave11 inputs: rebuilt claims, hud-overlays, world-visuals, voice-interaction"
+                   },
+                   {
+                       "pr":  "GeddyLifeson/DiaithirRPG#276",
+                       "title":  "Pack V1 wave12 inputs: open-licence downloads folded into seven suites"
+                   },
+                   {
+                       "pr":  "GeddyLifeson/DiaithirRPG#277",
+                       "title":  "Pack V1 wave13 inputs: client suite absorbs four client jars"
+                   },
+                   {
+                       "pr":  "GeddyLifeson/DiaithirRPG#278",
+                       "title":  "Pack V1 wave14 inputs: RPG #265 library and FTB drops"
                    }
                ],
     "skipped":  [
-                    {
-                        "title":  "Item roles: use scan, 23.8k role assignments, report",
-                        "pr":  "GeddyLifeson/Global-Repo#46",
-                        "reason":  "per-run cap: 1 global-repo PR(s) per run, the rest wait for the next run"
-                    },
                     {
                         "title":  "Register S6950 gen_tags_extra and update S0317",
                         "pr":  "GeddyLifeson/Global-Repo#48",
@@ -37,8 +108,18 @@
                         "reason":  "per-run cap: 1 global-repo PR(s) per run, the rest wait for the next run"
                     },
                     {
+                        "title":  "Register S6940 gen_farm_assets.py (diaithir-carts reaper)",
+                        "pr":  "GeddyLifeson/Global-Repo#52",
+                        "reason":  "per-run cap: 1 global-repo PR(s) per run, the rest wait for the next run"
+                    },
+                    {
                         "title":  "Merge order row for ports #339; register S6902 harvest_stock.py",
                         "pr":  "GeddyLifeson/Global-Repo#53",
+                        "reason":  "per-run cap: 1 global-repo PR(s) per run, the rest wait for the next run"
+                    },
+                    {
+                        "title":  "Headless bot: cars drive, cargo and nested save tests",
+                        "pr":  "GeddyLifeson/Global-Repo#54",
                         "reason":  "per-run cap: 1 global-repo PR(s) per run, the rest wait for the next run"
                     },
                     {
@@ -59,22 +140,7 @@
                     {
                         "title":  "diaithir-carts: cart loader and unloader (clean-room, survey part 1)",
                         "pr":  "GeddyLifeson/diaithir-ports#303",
-                        "reason":  "waiting for predecessor ports#251 to merge"
-                    },
-                    {
-                        "title":  "diaithir-arms: sentry turret, mining laser, Immersive Armors stage 1 (GPL package) (survey p2)",
-                        "pr":  "GeddyLifeson/diaithir-ports#313",
-                        "reason":  "merge conflicts"
-                    },
-                    {
-                        "title":  "Survey p6: clean-room handshake, crash window, test-bot, Structure Memory, updater, Better Clouds",
-                        "pr":  "GeddyLifeson/diaithir-ports#318",
-                        "reason":  "merge conflicts"
-                    },
-                    {
-                        "title":  "Megamachines: survey-mod port licence audit",
-                        "pr":  "GeddyLifeson/diaithir-ports#231",
-                        "reason":  "merge conflicts"
+                        "reason":  "waiting for predecessor ports#251 to merge (it is skipped: draft and not listed as clear in merge-order.csv)"
                     },
                     {
                         "title":  "diaithir-ships keelwright: Create: Propulsion fold (survey p1)",
@@ -112,78 +178,8 @@
                         "reason":  "merge conflicts"
                     },
                     {
-                        "title":  "Wave 8-9 pack inputs: worldgen-structures 1.0.6, client-suite fix, QoL entries",
-                        "pr":  "GeddyLifeson/DiaithirRPG#268",
-                        "reason":  "merge conflicts"
-                    },
-                    {
-                        "title":  "Fix diaithirvehicles: complete spawn, enterable, icons, starting fuel",
-                        "pr":  "GeddyLifeson/diaithir-ports#225",
-                        "reason":  "merge conflicts"
-                    },
-                    {
-                        "title":  "diaithir-carts: destination rail and cart labels (clean-room, survey part 1)",
-                        "pr":  "GeddyLifeson/diaithir-ports#251",
-                        "reason":  "waiting for predecessor ports#235 to merge (it is skipped: draft and not listed as clear in merge-order.csv)"
-                    },
-                    {
-                        "title":  "Wave 10: upgrades API and Forgeworks module slots folded into platform-suite",
-                        "pr":  "GeddyLifeson/diaithir-ports#324",
-                        "reason":  "waiting for predecessor rpg#268 to merge"
-                    },
-                    {
-                        "title":  "Wave 10 pack inputs: platform-suite with upgrades",
-                        "pr":  "GeddyLifeson/DiaithirRPG#272",
-                        "reason":  "waiting for predecessor rpg#268 to merge"
-                    },
-                    {
-                        "title":  "Pack V1 wave11: rebuilt claims, hud-overlays, world-visuals, voice-interaction (ports #233)",
-                        "pr":  "GeddyLifeson/diaithir-ports#330",
-                        "reason":  "waiting for predecessor ports#324 to merge"
-                    },
-                    {
-                        "title":  "Pack V1 wave11 inputs: rebuilt claims, hud-overlays, world-visuals, voice-interaction",
-                        "pr":  "GeddyLifeson/DiaithirRPG#273",
-                        "reason":  "waiting for predecessor rpg#272 to merge"
-                    },
-                    {
-                        "title":  "Pack V1 wave12: open-licence downloads folded into seven suites (client 110 jars, server 95)",
-                        "pr":  "GeddyLifeson/diaithir-ports#342",
-                        "reason":  "waiting for predecessor ports#330 to merge"
-                    },
-                    {
-                        "title":  "Pack V1 wave12 inputs: open-licence downloads folded into seven suites",
-                        "pr":  "GeddyLifeson/DiaithirRPG#276",
-                        "reason":  "waiting for predecessor rpg#273 to merge"
-                    },
-                    {
-                        "title":  "Pack V1 wave13: client suite absorbs four client jars (client 106 jars)",
-                        "pr":  "GeddyLifeson/diaithir-ports#343",
-                        "reason":  "waiting for predecessor ports#342 to merge"
-                    },
-                    {
-                        "title":  "Pack V1 wave13 inputs: client suite absorbs four client jars",
-                        "pr":  "GeddyLifeson/DiaithirRPG#277",
-                        "reason":  "waiting for predecessor rpg#276 to merge"
-                    },
-                    {
-                        "title":  "Pack V1 wave14: drop 14 library and FTB jars (client 91, server 80)",
-                        "pr":  "GeddyLifeson/diaithir-ports#347",
-                        "reason":  "waiting for predecessor ports#343 to merge"
-                    },
-                    {
-                        "title":  "Pack V1 wave14 inputs: RPG #265 library and FTB drops",
-                        "pr":  "GeddyLifeson/DiaithirRPG#278",
-                        "reason":  "waiting for predecessor rpg#277 to merge"
-                    },
-                    {
-                        "title":  "Register S6940 gen_farm_assets.py (diaithir-carts reaper)",
-                        "pr":  "GeddyLifeson/Global-Repo#52",
-                        "reason":  "per-run cap: 1 global-repo PR(s) per run, the rest wait for the next run"
-                    },
-                    {
-                        "title":  "Headless bot: cars drive, cargo and nested save tests",
-                        "pr":  "GeddyLifeson/Global-Repo#54",
+                        "title":  "V1 audit against the plans",
+                        "pr":  "GeddyLifeson/Global-Repo#55",
                         "reason":  "draft and not listed as clear in merge-order.csv"
                     },
                     {
@@ -202,6 +198,11 @@
                         "reason":  "draft and not listed as clear in merge-order.csv"
                     },
                     {
+                        "title":  "diaithir-carts: destination rail and cart labels (clean-room, survey part 1)",
+                        "pr":  "GeddyLifeson/diaithir-ports#251",
+                        "reason":  "draft and not listed as clear in merge-order.csv"
+                    },
+                    {
                         "title":  "Port Ars Nouveau to 26.1.2 as a module of diaithir-druidry (LGPL-3.0)",
                         "pr":  "GeddyLifeson/diaithir-ports#278",
                         "reason":  "draft and not listed as clear in merge-order.csv"
@@ -209,21 +210,6 @@
                     {
                         "title":  "Botania port into diaithir-druidry (WIP: API shell compiles)",
                         "pr":  "GeddyLifeson/diaithir-ports#280",
-                        "reason":  "draft and not listed as clear in merge-order.csv"
-                    },
-                    {
-                        "title":  "diaithir-animation-machines: own package and mod id, bone-derived rules for 450 machines",
-                        "pr":  "GeddyLifeson/diaithir-ports#337",
-                        "reason":  "draft and not listed as clear in merge-order.csv"
-                    },
-                    {
-                        "title":  "Fold Agritech: Evolved and Hydrofarm into diaithir-farmkitchen; move the reaper there",
-                        "pr":  "GeddyLifeson/diaithir-ports#338",
-                        "reason":  "draft and not listed as clear in merge-order.csv"
-                    },
-                    {
-                        "title":  "Ships carry cargo: yard and Eureka ships as containers-API carriers, loads drawn in the ship render transform",
-                        "pr":  "GeddyLifeson/diaithir-ports#341",
                         "reason":  "draft and not listed as clear in merge-order.csv"
                     },
                     {

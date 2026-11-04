@@ -6840,6 +6840,11 @@ Run hints: .py `python3 <file>` (PC `py`), .ps1 via a hidden launcher (never a v
 | S6877 | cloud | `cloud/animation/set_owner3_status.py` | S6876 Sets owner-3 (mobs, NPCs, bosses) status in ANIMATIONS_COVERAGE.csv: done for our GeckoLib/boss work, route for third-party mods, todo for own fauna. | yes |
 | S6880 | global | `diaithir-ports PR 181: port.py (path in repo unconfirmed)` | S6880 Aurorian port script (diaithir-ports PR 181; copy lives in that repo) | no |
 | S6881 | global | `diaithir-ports PR 181: rcon.py (path in repo unconfirmed)` | S6881 Aurorian rcon helper for the port tests (diaithir-ports PR 181; copy lives in that repo) | no |
+| S6920 | cloud | `tools/item_roles/scan_uses.py` | S6920 Scans DiaithirRPG content/ for every priced item id and counts pack-layer uses by category | yes |
+| S6921 | cloud | `tools/item_roles/make_jobs.py` | S6921 Builds item_roles-sNN compute jobs (30 items per row) from the use scan | yes |
+| S6944 | cloud | `tools/item_roles/merge_roles.py` | S6944 Merges item_roles job output into plans/ITEM_ROLES.csv and writes retry rows | yes |
+| S6945 | cloud | `tools/item_roles/report.py` | S6945 Builds plans/ITEM_ROLES.md (classes, link counts, isolated systems, decor) | yes |
+| S6946 | cloud | `tools/item_roles/apply_ages.py` | S6946 Adds the tech_ages.json Age (authoritative) to plans/ITEM_ROLES.csv beside the Haiku draft Age | yes |
 | S6885 | cloud | `diaithir-ports/diaithir-worldgen-structures/tools/c_tags.py` | Generates the c: convention structure and biome tags for the worldgen-structures module (per class, mazes, villages, ruins, dungeons). | yes |
 | S6894 | cloud | `diaithir-ports/diaithir-wiretech/tools/gen_circuit_assets.py` | Diaithir Wiretech circuit network assets: textures, models, blockstates, lang, recipes and age gate for the combinator blocks; run after gen_assets.py. | no |
 | S6895 | cloud | `diaithir-ports/diaithir-wiretech/src/main/java/net/diaithir/wiretech/circuit/CoreCheck.java` | Plain-Java check of the circuit core (signals, combinators, solver, tiers): javac then java -ea. | no |
