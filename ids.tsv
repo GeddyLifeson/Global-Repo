@@ -6822,7 +6822,8 @@ S6873	global	ports/diaithir-bosses/tools/gen_gate.py
 S6880	global	diaithir-ports PR 181: port.py (path in repo unconfirmed)
 S6881	global	diaithir-ports PR 181: rcon.py (path in repo unconfirmed)
 S6885	cloud	diaithir-ports/diaithir-worldgen-structures/tools/c_tags.py
-S6940	cloud	diaithir-carts/tools/gen_farm_assets.py
+S6940	cloud	diaithir-farmkitchen/tools/gen_farm_assets.py
 S6941	global	crawl_all.py
 S6942	cloud	compat/gen_recipes.py
 S6943	cloud	compat/gen_station_moves.py
+S6954	cloud	diaithir-farmkitchen/tools/fold_third_party.py

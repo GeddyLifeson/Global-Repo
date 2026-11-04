@@ -6836,7 +6836,8 @@ Run hints: .py `python3 <file>` (PC `py`), .ps1 via a hidden launcher (never a v
 | S6880 | global | `diaithir-ports PR 181: port.py (path in repo unconfirmed)` | S6880 Aurorian port script (diaithir-ports PR 181; copy lives in that repo) | no |
 | S6881 | global | `diaithir-ports PR 181: rcon.py (path in repo unconfirmed)` | S6881 Aurorian rcon helper for the port tests (diaithir-ports PR 181; copy lives in that repo) | no |
 | S6885 | cloud | `diaithir-ports/diaithir-worldgen-structures/tools/c_tags.py` | Generates the c: convention structure and biome tags for the worldgen-structures module (per class, mazes, villages, ruins, dungeons). | yes |
-| S6940 | cloud | `diaithir-carts/tools/gen_farm_assets.py` | (S6940) Write the reaper block assets, recipe, age gate, tags, lang and library entry for diaithir-carts. | no |
+| S6940 | cloud | `diaithir-farmkitchen/tools/gen_farm_assets.py` | (S6940) Write the reaper block textures, model, blockstate, loot, recipe and library entry for diaithir-farmkitchen. | no |
 | S6941 | global | `crawl_all.py` | S0335 crawls /mnt/project-files into catalog/{D,F,M,A,J}.tsv with stable IDs: python3 -I crawl_all.py <repo> | yes |
 | S6942 | cloud | `compat/gen_recipes.py` | Add load conditions to recipes naming absent mods and cross-mod dust/raw smelting to the shared ingot. | yes |
 | S6943 | cloud | `compat/gen_station_moves.py` | Move non-trivial vanilla and kept-mod grid recipes onto the Age ladder of stations with a fallback grid recipe. | yes |
+| S6954 | cloud | `diaithir-farmkitchen/tools/fold_third_party.py` | (S6954) Copy the MIT mods Agritech: Evolved and Hydrofarm into diaithir-farmkitchen as extra mods of the same jar. | no |
