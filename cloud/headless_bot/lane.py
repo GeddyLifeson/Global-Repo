@@ -18,14 +18,14 @@ MCDIR = os.environ.get('MCDIR', '/tmp/claude-0/mc')
 BASE = ROOT / 'srv-base'   # one-time installer output (libraries, unix_args): java -jar neoforge-installer --install-server
 
 class Lane:
-    def __init__(self, name, jars, server_jars=None, client_jars=None, props=None, client_files=None, srv_xmx='2500M', cl_xmx='3G', user='Tester', out=None):
+    def __init__(self, name, jars, server_jars=None, client_jars=None, props=None, client_files=None, server_dirs=None, srv_xmx='2500M', cl_xmx='3G', user='Tester', out=None):
         self.name, self.user = name, user
         self.dir = ROOT / name; self.srv = self.dir / 'server'; self.cl = self.dir / 'client'
         self.out = pathlib.Path(out or os.environ.get('OUT', self.dir / 'out')); self.out.mkdir(parents=True, exist_ok=True)
         self.jars = [pathlib.Path(j) for j in jars]
         self.sj = [pathlib.Path(j) for j in (server_jars if server_jars is not None else jars)]
         self.cj = [pathlib.Path(j) for j in (client_jars if client_jars is not None else jars)]
-        self.props = props or {}; self.client_files = client_files or {}; self.srv_xmx, self.cl_xmx = srv_xmx, cl_xmx
+        self.props = props or {}; self.client_files = client_files or {}; self.server_dirs = server_dirs or {}; self.srv_xmx, self.cl_xmx = srv_xmx, cl_xmx
         self.sproc = self.cproc = None; self.xvfb = None
     # ---------- setup ----------
     def _prep(self):
@@ -43,6 +43,8 @@ class Lane:
         for tgt, js in ((self.srv / 'mods', self.sj), (self.cl / 'mods', self.cj)):
             tgt.mkdir()
             for j in js: shutil.copy(j, tgt / j.name)
+        for rel, src in self.server_dirs.items():  # e.g. {'kubejs': '/path/to/kubejs'} copied into the server dir
+            shutil.copytree(src, self.srv / rel, dirs_exist_ok=True)
         for rel, txt in self.client_files.items():  # e.g. {'config/diaithirctm-client.toml': 'enabled = true\n'}
             fp = self.cl / rel; fp.parent.mkdir(parents=True, exist_ok=True); fp.write_text(txt)
         (self.cl / 'options.txt').write_text('\n'.join([
