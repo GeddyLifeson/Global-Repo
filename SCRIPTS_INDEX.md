@@ -6836,6 +6836,8 @@ Run hints: .py `python3 <file>` (PC `py`), .ps1 via a hidden launcher (never a v
 | S6851 | cloud | `diaithir-ports/diaithir-worldgen-structures/tools/rc_gen.py` | Clean-room Recurrent Complex function group: jigsaw mazes in five themes, biome transformer processor lists, themed chest loot tables, Age tags. | yes |
 | S6860 | cloud | `diaithir-upgrades/gen_shims.py` | Write upgrade compat shims: scan a mod's real blockstates for working-block names and emit upgrade target rules. | yes |
 | S6866 | cloud | `animations/gen_animations_coverage.py` | Generates plans/ANIMATIONS_COVERAGE.csv (+STATIC): one row per entity, block entity, interactive block, item use action, profession, spell, vehicle and player action; owner helpers 1-4; reruns keep status. | yes |
+| S6880 | global | `diaithir-ports/diaithir-aurorian/tools/port.py` | S6880 Regenerates the whole diaithir-aurorian module (items, blocks, recipes, tags, loot, worldgen, assets) from upstream TheAurorian: python3 -I tools/port.py <TheAurorian checkout> . (diaithir-ports #130, #181, #204, #334) | no |
+| S6881 | global | `diaithir-ports/diaithir-aurorian/tools/rcon.py` | S6881 Tiny rcon client for headless server tests: python3 -I tools/rcon.py <port> <password> <command>... (diaithir-aurorian) | no |
 | S6880 | global | `diaithir-ports PR 181: port.py (path in repo unconfirmed)` | S6880 Aurorian port script (diaithir-ports PR 181; copy lives in that repo) | no |
 | S6881 | global | `diaithir-ports PR 181: rcon.py (path in repo unconfirmed)` | S6881 Aurorian rcon helper for the port tests (diaithir-ports PR 181; copy lives in that repo) | no |
 | S6947 | global | `crawl_all.py` | S0335 crawls /mnt/project-files into catalog/{D,F,M,A,J}.tsv with stable IDs: python3 -I crawl_all.py <repo> | yes |
@@ -6871,3 +6873,4 @@ Run hints: .py `python3 <file>` (PC `py`), .ps1 via a hidden launcher (never a v
 | S6933 | cloud | `compat/gen_station_moves.py` | Move non-trivial vanilla and kept-mod grid recipes onto the Age ladder of stations with a fallback grid recipe. | yes |
 | S6918 | cloud | `diaithir-ports/diaithir-firearms/tools/gen_containers.py` | S6918 Writes container_kinds.json and the diaithircrafting uses_container and ammo_class item tags for diaithir-firearms (munitions container contract) | yes |
 | S6902 | cloud | `diaithir-ports/diaithir-carts/tools/harvest_stock.py` | S6902 Harvests every standard and narrow gauge locomotive, multiple unit, tram, coach and wagon class on Wikipedia (Wikidata lists, category crawl, infobox) into data/stock_raw.csv for the rolling-stock roster | no |
+| S6955 | cloud | `tools/item_roles/export_kubejs.py` | S6955 Writes ITEM_ROLES.csv as per-namespace kubejs JSON for the pack | yes |
