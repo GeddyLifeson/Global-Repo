@@ -33,5 +33,16 @@ with Lane('cargo1', JARS, srv_xmx='3G', out=out) as L:
     rep['status_nudge'] = CG('status', 1.0); L.shot('05_after_nudge2.png')
     rep['veh_after'] = ''.join(S('data get entity @e[type=mts:builder_existing,limit=1,sort=nearest] Pos', 1.0))[-60:]
     rep['bd_after'] = [x[-200:] for x in S('execute as @e[type=block_display] run data get entity @s Pos', 1.5)]
+    # drive test: ford_f1 loaded with a pallet, engine started and throttle held by command (no rider)
+    S('tp Tester 20.5 -60 0.5 0 35', 1); S('item replace entity Tester hotbar.0 with mts:diaithirvehicles.ford_f1'); d.key('1'); time.sleep(0.5); d.key('r'); time.sleep(9); S('item replace entity Tester hotbar.0 with minecraft:air')
+    S('tp Tester 24 -60 4 90 20', 1.2)
+    DVc = lambda c, w=1.2: S('execute as Tester at Tester run diaithirvehicle ' + c, w)
+    rep['f1_pos0'] = ''.join(S('data get entity @e[type=mts:builder_existing,distance=..12,limit=1,sort=nearest] Pos', 1.0))[-60:]
+    rep['f1_load'] = CG('load pallet', 1.5); rep['f1_status0'] = CG('status', 1.0)
+    rep['f1_start'] = DVc('start'); time.sleep(2); rep['f1_drive'] = DVc('drive 1'); L.shot('06_f1_before.png')
+    time.sleep(6)
+    rep['f1_status_moving'] = CG('status', 1.0); rep['f1_veh_status'] = DVc('status', 1.0)
+    rep['f1_pos1'] = ''.join(S('data get entity @e[type=mts:builder_existing,distance=..40,limit=1,sort=nearest] Pos', 1.0))[-60:]
+    L.shot('07_f1_after_drive.png'); DVc('drive 0'); DVc('stop')
 json.dump(rep, open((out or '.') + '/cargo_one_report.json', 'w'), indent=1)
 for k, v in rep.items(): print(k, str(v)[:900])
