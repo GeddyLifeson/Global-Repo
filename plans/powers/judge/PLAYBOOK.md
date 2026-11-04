@@ -1,11 +1,10 @@
 # Judge playbook (in-session, no API). Read only this page.
-Helper: `python3 /mnt/project-files/plans/powers/judge/tools/judge.py` (3 commands). Test shard 106 cost about 12k tokens of reading.
+Batches: plans/powers/judge/batches/shard_160..927.jsonl (250 pages each, beings first).. Test shard 106 cost about 12k tokens of reading.
 
 ## Loop
-1. `judge.py claim <your-tag> 80 159` prints shard N (atomic; skips claimed/judged). "none" = stop and resolve. Judge only N.
-2. `judge.py show N` prints `idx|first sentence ## power/scale sentences only` for 250 pages (about 8k tokens). Needs no other reading. Use `show N 0 80` for halves.
-3. Decide per row, then ONE `judge.py write N '<json>'`; it validates and writes shard_NN.out.jsonl and lists problems by idx. Fix and re-run (it overwrites).
-4. Commit + push shard_NN.out.jsonl to your branch (Global-Repo plans/powers/judge/inthread/). Claim next.
+1. Your batch number N is given by the coordinator (no claiming). `python3 plans/powers/judge/tools/judge.py show N` prints `idx|first sentence ## power/scale sentences only` for 250 pages (about 8k tokens). Needs no other reading. Use `show N 0 80` for halves.
+2. Decide per row, then ONE `judge.py write N '<json>'`; it validates and writes shard_NN.out.jsonl and lists problems by idx. Fix and re-run (it overwrites).
+3. Commit + push plans/powers/judge/out/shard_N.out.jsonl to your own branch (Global-Repo). Resolve the thread.
 
 ## Rules (unchanged)
 - Page by page, exact source page = the row id (`wiki|lead_idx`). Quote must be verbatim from the text; no quote, no power.

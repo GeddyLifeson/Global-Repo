@@ -1,18 +1,19 @@
 #!/usr/bin/env python3
-"""Judge-thread helper (S6975 companion). One command each: claim, show, write. See ../PLAYBOOK.md.
-  judge.py claim TAG [FIRST LAST]    claim next free shard (atomic), print N
+"""Judge-thread helper (S6975 companion). One command each: show, write. See ../PLAYBOOK.md.
   judge.py show N [START END]        compact page print: idx | head | power/scale evidence sentences
   judge.py write N 'JSON'            validate + write shard_NN.out.jsonl (nothing else needed)
 """
-import json, re, sys, csv, subprocess, os
-D = '/mnt/project-files/plans/powers/judge/inthread/'
-POOLF = '/mnt/project-files/plans/powers/POWER_POOL.tsv'
+import json, re, sys, csv, os
+HERE = os.path.dirname(os.path.abspath(__file__))
+B = os.path.join(HERE, '..', 'batches') + '/'
+O = os.path.join(HERE, '..', 'out') + '/'
+POOLF = os.path.join(HERE, '..', '..', 'POWER_POOL.tsv')
 SCALE = r'planet|stars?\b|galax|universe|continent|ocean|island|mountain|moon|city|cities|building|army|armies|tons?\b|kilomet|miles?\b|mach|light.?speed|destroy|shatter|devastat|invulnerab|immortal|indestructible|unstoppable|omnipot|godlike|supernatural|superhuman'
 VAM = re.compile(r'\b(Lasombra|Gangrel|Nosferatu|Tremere|Ventrue|Toreador|Brujah|Malkavian|Tzimisce|Setite|Assamite|Cappadocian|Hecata|Giovanni|Banu Haqim|Samedi|vampire|Kindred|Followers? of Set|Caitiff|Cainite)\b')
 def pool():
     return list(csv.DictReader(open(POOLF, encoding='utf-8'), delimiter='\t'))
 def rows(n):
-    return [json.loads(l) for l in open(f'{D}shard_{int(n):02d}.jsonl', encoding='utf-8')]
+    return [json.loads(l) for l in open(f'{B}shard_{int(n)}.jsonl', encoding='utf-8')]
 def kw():
     parts = [r['keywords_strong'] for r in pool() if r['keywords_strong']] + [r['keywords_weak'] for r in pool() if r['keywords_weak']]
     out = []
@@ -20,9 +21,6 @@ def kw():
         try: out.append(re.compile(p, re.I))
         except re.error: pass
     return out
-def claim(tag, a='16', b='99'):
-    p = subprocess.run(['bash', D + 'claim_shard.sh', a, b, tag], capture_output=True, text=True)
-    print(p.stdout.strip() or 'none')
 def show(n, s=0, e=10**9):
     K = kw(); sc = re.compile(SCALE, re.I)
     for i, r in enumerate(rows(n)):
@@ -62,13 +60,12 @@ def write(n, cfg):
                 if 'possessing' in t and 'possession' not in x: x.append('possession')
             o = {'id': r['id'], 'b': 1, 'n': nm, 'p': ps, 'x': x}
         out.append(o)
-    path = f'{D}shard_{n:02d}.out.jsonl'
+    path = f'{O}shard_{n}.out.jsonl'
     open(path, 'w', encoding='utf-8').write(''.join(json.dumps(o, ensure_ascii=False) + '\n' for o in out))
     print(f"wrote {path}: {len(out)} rows, beings {sum(o['b']==1 for o in out)}, gear {sum(o['b']==2 for o in out)}, powers {sum(len(o.get('p',[])) for o in out)}, problems {len(err)}")
     for e in err: print('  ', e)
 if __name__ == '__main__':
     a = sys.argv[1:]
-    if a[0] == 'claim': claim(*a[1:])
-    elif a[0] == 'show': show(a[1], *map(int, a[2:]))
+    if a[0] == 'show': show(a[1], *map(int, a[2:]))
     elif a[0] == 'write': write(a[1], json.loads(a[2]))
     else: print(__doc__)

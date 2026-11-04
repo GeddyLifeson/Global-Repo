@@ -1,0 +1,250 @@
+{"id": "world-of-warcraft|86592", "text": "Carvo Blastbolt is a gnome quest giver and member of S.A.F.E. who can be found in the Loading Room of Gnomeregan."}
+{"id": "world-of-warcraft|86593", "text": "GS-9x Multi-Bot is a companion provided for the quest A Job for the Multi-Bot. Players simply need to lead it to the green puddles and it will clean them up. When it does this, the canisters on its back will fill with green liquid. The Multi-Bot may occasionally despawn if the player is idle for a time. Simply talk to Tock Sprysprocket and he will give you another."}
+{"id": "world-of-warcraft|86595", "text": "Furybound Waistplate is a quest reward from Narkrall, The Drake-Tamer."}
+{"id": "world-of-warcraft|86597", "text": "GUIDs uniquely identify almost everything the player character can interact with in World of Warcraft -- including players, pets, vehicle, and interactive world objects (think Midsummer bonfires). GUIDs are represented in WoW as a long string of hex numbers separated by hyphens. __TOC__"}
+{"id": "world-of-warcraft|86598", "text": "__NOTOC__ Gaahl is a pygmy witch doctor of Oostan Nord village located on Lost Isles."}
+{"id": "world-of-warcraft|86599", "text": "The Fury of Angerforge is a melee trinket that drops from trash mobs in the Blackwing Descent."}
+{"id": "world-of-warcraft|86601", "text": "Fylla Ingadottir is a frost vrykul vendor found in the Brunnhildar Village of the Storm Peaks. So long as adventurers appear to be one of them, she'll do business with them."}
+{"id": "world-of-warcraft|86604", "text": ".]] Ga'trul was a Horde warlock who took the reins as commander of the fleet in the southern Jade Forest at Garrosh'ar Point, with Twinspire Keep as his main base. The orc grew increasingly paranoid as his time on Pandaria continued, and seemed to have a great disdain for the Forsaken."}
+{"id": "world-of-warcraft|86605", "text": "'s Logs]] Ga'trul's Logs is a logbook containing the events of Ga'trul and fleet. It's found in the Twinspire Keep in the Jade Forest."}
+{"id": "world-of-warcraft|86608", "text": "G91 Landshark is created with Engineering (525); taught by trainers. It is also a common drop from Blingtron 4000 Gift Package."}
+{"id": "world-of-warcraft|86611", "text": "Gagoon is a level 90 hozen gladiator found in the Unga Ingoo scenario. Gagoon and Oku-Oku attack when Brewmaster Bo approaches them."}
+{"id": "world-of-warcraft|86612", "text": "G.G. Engineering, comprised of goblin Max Megablast and gnome Bo Bobble, is the first rank 7 fight of the Brawler's Guild. The pair later travels to Vashj'ir during the Vashj'ir Diving Day."}
+{"id": "world-of-warcraft|86618", "text": "The Fusion Core is located on the M.A.C. Diver at the Cursed Landing in Uldum."}
+{"id": "world-of-warcraft|86621", "text": "Gaarn the Toxic is a rare mogu found within the Ruins of Dojan in Krasarang Wilds. Gaarn is a pandarian champion."}
+{"id": "world-of-warcraft|86622", "text": "The Gahrron are a small human family who once owned Gahrron's Withering."}
+{"id": "world-of-warcraft|86624", "text": "__NOTOC__ Fusespark Gloves drop from Siegecrafter Blackfuse in the Siege of Orgrimmar."}
+{"id": "world-of-warcraft|86625", "text": "Fired when the guild messages of the day is shown. GUILD_MOTD: motdText"}
+{"id": "world-of-warcraft|86626", "text": "Fired for each slot that changes when the active talent group changes. Does not fire when a glyph slot retains the same glyph in the same slot. \"GLYPH_UPDATED\""}
+{"id": "world-of-warcraft|86627", "text": "? Probably fired when a glyph slot becomes locked? ?? (How exactly would this happen, anyway?) \"GLYPH_DISABLED\""}
+{"id": "world-of-warcraft|86628", "text": "Fired when queries the server for an uncached item and the reponse has arrived. GET_ITEM_INFO_RECEIVED: itemID, success"}
+{"id": "world-of-warcraft|86629", "text": "Fired when you close the talk window for an npc. (Seems to be called twice) GOSSIP_CLOSED"}
+{"id": "world-of-warcraft|86630", "text": "Fired whenever a group or raid is formed or disbanded, players are leaving or joining the group or raid. GROUP_ROSTER_UPDATE"}
+{"id": "world-of-warcraft|86631", "text": "Fires when you are invited to join a guild. GUILD_INVITE_REQUEST: inviter, guildName, guildAchievementPoints, oldGuildName, isNewGuild, tabardInfo"}
+{"id": "world-of-warcraft|86632", "text": "Fired when the client's guild info cache has been updated after a call to or after any data change in any of the guild's data, excluding the Guild Information window. GUILD_ROSTER_UPDATE: canRequestRosterUpdate"}
+{"id": "world-of-warcraft|86633", "text": "Fired when any changes are made to ranks or rank permission flags. GUILD_RANKS_UPDATE"}
+{"id": "world-of-warcraft|86635", "text": "Fired when a glyph is added to a socket. Also fires for a socket when changing the talent group causes that socket to change from an empty to a used state. \"GLYPH_ADDED\""}
+{"id": "world-of-warcraft|86636", "text": "Fired when the guild-bank log is updated. GUILDBANKLOG_UPDATE"}
+{"id": "world-of-warcraft|86637", "text": "? Probably fired when a glyph slot becomes unlocked? ?? ??? \"GLYPH_ENABLED\""}
+{"id": "world-of-warcraft|86638", "text": "Fired when the guild-bank frame is opened. GUILDBANKFRAME_OPENED"}
+{"id": "world-of-warcraft|86639", "text": "Needs summary. GUILD_CHALLENGE_COMPLETED: challengeType, currentCount, maxCount, goldAwarded"}
+{"id": "world-of-warcraft|86640", "text": "Fired when a glyph is removed from a socket. This can be done with either shift-right-clicking the socket, or by repalcing it with another glyph. If another glyph replaces this one, this is fired at the start of (before) the cast. Also fired when changing the active talent group changes a socket to empty. \"GLYPH_REMOVED\""}
+{"id": "world-of-warcraft|86641", "text": "Fired when the guild invitation is declined. GUILD_INVITE_CANCEL"}
+{"id": "world-of-warcraft|86642", "text": "Fired when the guild-bank frame is closed. GUILDBANKFRAME_CLOSED"}
+{"id": "world-of-warcraft|86644", "text": "Fired when the guild-bank contents change. GUILDBANKBAGSLOTS_CHANGED"}
+{"id": "world-of-warcraft|86645", "text": "__NOTOC__ Fusion-Fire Core drops from the Norushen encounter in the Siege of Orgrimmar."}
+{"id": "world-of-warcraft|86646", "text": "GUMM-E is purchased from the engineering follower in the Engineering Works building in the garrisons, as well as Miri Fiddlewizz in Boralus for ."}
+{"id": "world-of-warcraft|86650", "text": "Gadoon is an ettin probably captured by the Horde in Gilneas. Garrosh Hellscream used him to test Ji Firepaw and the new Horde pandaren in the Ring of Valor."}
+{"id": "world-of-warcraft|86652", "text": "The Fuzzy Green Lounge Cushion may be found in the Stolen Present under the tree from December 25 to January 2 during the Feast of Winter Veil."}
+{"id": "world-of-warcraft|86653", "text": "Fired when the player leaves an Architect Table. GARRISON_ARCHITECT_CLOSED"}
+{"id": "world-of-warcraft|86654", "text": "Fired when the player leaves a Command Table. GARRISON_MISSION_NPC_CLOSED"}
+{"id": "world-of-warcraft|86655", "text": "Fired when the player opens a Command Table. GARRISON_MISSION_NPC_OPENED: followerTypeID"}
+{"id": "world-of-warcraft|86656", "text": "Fired when the player opens an Architect Table. GARRISON_ARCHITECT_OPENED: followerTypeID"}
+{"id": "world-of-warcraft|86657", "text": "Fires when the player views the outcome of missions at a Command Table. GARRISON_MISSION_COMPLETE_RESPONSE: missionID, canComplete, success, overmaxSucceeded, followerDeaths, autoCombatResult"}
+{"id": "world-of-warcraft|86658", "text": "Fires when the player receives a bonus item reward for successful Garrison Missions. GARRISON_MISSION_BONUS_ROLL_LOOT: itemID, quantity"}
+{"id": "world-of-warcraft|86659", "text": "Fired after player clicks bonus chest in the Garrison Missions interface. GARRISON_MISSION_BONUS_ROLL_COMPLETE: missionID, success"}
+{"id": "world-of-warcraft|86660", "text": "Fired when the player sends followers on a mission. GARRISON_MISSION_STARTED: garrFollowerTypeID, missionID"}
+{"id": "world-of-warcraft|86662", "text": "Gabriel Bybee is a worgen located at Lunarfall in . He can only be recruited using the Headhunter's Harvest from Lunarfall Inn."}
+{"id": "world-of-warcraft|86667", "text": "Gagrog the Brutal is an gronn located at the Earthshaker Gorge in ."}
+{"id": "world-of-warcraft|86668", "text": "Gazmolf Futzwangler is willing to trade this item for Steamwheedle Preservation Society reputaion."}
+{"id": "world-of-warcraft|86669", "text": "Fuzzy Pears can be found in lvl 3 Herb Gardens. Occassionally when looting these, a Perfect Fuzzy Pear may drop."}
+{"id": "world-of-warcraft|86670", "text": "G'Hanir, the Mother Tree is the artifact used by restoration druids in World of Warcraft: Legion."}
+{"id": "world-of-warcraft|86671", "text": "Gaho is a tauren follower located at Frostwall in Frostfire Ridge. She can only be recruited using the Headhunter's Harvest from Frostwall Tavern."}
+{"id": "world-of-warcraft|86675", "text": "Fury of the Stonemother is one of the artifacts used by enhancement shaman in World of Warcraft: Legion. It is automatically equipped in the off hand when wielding the Doomhammer."}
+{"id": "world-of-warcraft|86678", "text": "__NOTOC__ Furystone can be found when Prospecting Felslate and Leystone Ore."}
+{"id": "world-of-warcraft|86679", "text": "Adam Gifford is a voice actor who has provided several voices for World of Warcraft and its various expansions."}
+{"id": "world-of-warcraft|86686", "text": "The quest is available after reaching the Trusted Bodyguard rank with Leorajh."}
+{"id": "world-of-warcraft|86687", "text": "Gaal is a Broken located in Krokul Hovel in Krokuun. As an eredar, Gaal forged the key to the Armory of the Triumvirate for Captain Fareeya."}
+{"id": "world-of-warcraft|86688", "text": "Fuselight Bruisers are goblins located in Fuselight in the Badlands."}
+{"id": "world-of-warcraft|86690", "text": "G'norz the Crazed is a n'raqi located in Tirisfal Glades. He appears during The Silver Hand (quest)."}
+{"id": "world-of-warcraft|86691", "text": "Future is the publisher who published several Warcraft magazines."}
+{"id": "world-of-warcraft|86702", "text": "Fury of the Valarjar is a Fury warrior artifact trait. It is linked to the Pulse of Battle trait."}
+{"id": "world-of-warcraft|86704", "text": "Fury of Ashamane is a Feral druid artifact trait. It is linked to the Thrashing Claws (artifact trait) and Bloodletter's Frailty traits."}
+{"id": "world-of-warcraft|86705", "text": "G'Hanir's Bloom is a Restoration druid artifact trait. It is only available after acquiring all other artifact traits."}
+{"id": "world-of-warcraft|86708", "text": "Fury of the Storms is an Elemental shaman artifact trait. It is linked to the Call the Thunder (artifact trait) trait."}
+{"id": "world-of-warcraft|86710", "text": "Fury of the Scorned drops from Thrashbite the Scornful in the Cathedral of Eternal Night."}
+{"id": "world-of-warcraft|86711", "text": "The Fury of the Sunwell trailer is the official trailer for Fury of the Sunwell Patch 2.4."}
+{"id": "world-of-warcraft|86712", "text": "Fused-Slag Girdle drops from the Azerite-Infused Slag in Nazmir."}
+{"id": "world-of-warcraft|86716", "text": "The G.M.O.D. (acronym for Gallywix's Mech of Death) drops from Lady Jaina Proudmoore in the Battle of Dazar'alor on Raid Finder difficulty, and from High Tinker Mekkatorque on all other difficulties."}
+{"id": "world-of-warcraft|86717", "text": "Fuzzy Creepling drops from Venomarus in the Arathi Highlands."}
+{"id": "world-of-warcraft|86718", "text": "Fury of Vol'jamba is an enchanted tiki located in Tal'gurub in Zuldazar."}
+{"id": "world-of-warcraft|86721", "text": "__NOTOC__ G'Naat is a naga brute located in Atal'Gral in Zuldazar."}
+{"id": "world-of-warcraft|86724", "text": "Needs summary. GARRISON_BUILDING_ACTIVATED: garrisonPlotInstanceID, garrisonBuildingID"}
+{"id": "world-of-warcraft|86726", "text": "Needs summary. GARRISON_BUILDING_ACTIVATABLE: buildingName, garrisonType"}
+{"id": "world-of-warcraft|86727", "text": "Needs summary. GARRISON_BUILDING_UPDATE: garrisonBuildingID, garrPlotInstanceID"}
+{"id": "world-of-warcraft|86728", "text": "Needs summary. GARRISON_BUILDING_PLACED: garrisonPlotInstanceID, newPlacement"}
+{"id": "world-of-warcraft|86729", "text": "Needs summary. GARRISON_BUILDING_REMOVED: garrPlotInstanceID, garrBuildingID"}
+{"id": "world-of-warcraft|86731", "text": "Needs summary. GARRISON_FOLLOWER_LIST_UPDATE: followerTypeID"}
+{"id": "world-of-warcraft|86733", "text": "Needs summary. GARRISON_FOLLOWER_ADDED: followerDbID, followerName, followerClassName, followerLevel, followerQuality, isUpgraded, textureKit, followerTypeID"}
+{"id": "world-of-warcraft|86737", "text": "Needs summary. GARRISON_FOLLOWER_XP_CHANGED: garrFollowerTypeID, followerDbID, xpChange, oldFollowerXp, oldFollowerLevel, oldFollowerQuality"}
+{"id": "world-of-warcraft|86743", "text": "Needs summary. GARRISON_MISSION_LIST_UPDATE: garrFollowerTypeID"}
+{"id": "world-of-warcraft|86744", "text": "Needs summary. GARRISON_MISSION_FINISHED: followerTypeID, missionID"}
+{"id": "world-of-warcraft|86745", "text": "Needs summary. GARRISON_MISSION_REWARD_INFO: missionID, followerDbID"}
+{"id": "world-of-warcraft|86749", "text": "Needs summary. GARRISON_MONUMENT_SELECTED_TROPHY_ID_LOADED: success"}
+{"id": "world-of-warcraft|86751", "text": "Needs summary. GARRISON_RANDOM_MISSION_ADDED: followerTypeID, missionID"}
+{"id": "world-of-warcraft|86753", "text": "Needs summary. GARRISON_RECALL_PORTAL_LAST_USED_TIME: success, recallPortalLastUsedTime"}
+{"id": "world-of-warcraft|86757", "text": "Needs summary. GARRISON_RECRUITMENT_NPC_OPENED: followerTypeID"}
+{"id": "world-of-warcraft|86764", "text": "Needs summary. GARRISON_TALENT_COMPLETE: garrTypeID, doAlert"}
+{"id": "world-of-warcraft|86765", "text": "Needs summary. GARRISON_TALENT_NPC_OPENED: garrisonTypeID, garrisonTalentTreeID"}
+{"id": "world-of-warcraft|86767", "text": "Needs summary. GARRISON_UPGRADEABLE_RESULT: garrisonUpgradeable"}
+{"id": "world-of-warcraft|86788", "text": "Fired when the player enters a group. GROUP_JOINED: category, partyGUID"}
+{"id": "world-of-warcraft|86795", "text": "Fuselight Engineers are goblins located in Fuselight in the Badlands."}
+{"id": "world-of-warcraft|86796", "text": "G & R's Restful Nook is a shop located in the first half of the backstreets of Old Stratholme. The passage from the town hall leads to this store."}
+{"id": "world-of-warcraft|86800", "text": "The appearance of G.E.A.R. Commander's Stompers is unlocked as a reward from G.E.A.R. Up."}
+{"id": "world-of-warcraft|86801", "text": "The appearance of G.E.A.R. Commander's Wristbands is unlocked as a reward from G.E.A.R. Up."}
+{"id": "world-of-warcraft|86802", "text": "The appearance of G.E.A.R. Commander's Buckle is unlocked as a reward from G.E.A.R. Up."}
+{"id": "world-of-warcraft|86803", "text": "The appearance of G.E.A.R. Commander's Cloak is unlocked as a reward from G.E.A.R. Up."}
+{"id": "world-of-warcraft|86805", "text": "The appearance of G.E.A.R. Commander's Chestpiece is unlocked as a reward from G.E.A.R. Up."}
+{"id": "world-of-warcraft|86806", "text": "The appearance of G.E.A.R. Commander's Goggles is unlocked as a reward from G.E.A.R. Up."}
+{"id": "world-of-warcraft|86809", "text": "The appearance of G.E.A.R. Commander's Legguards is unlocked as a reward from G.E.A.R. Up."}
+{"id": "world-of-warcraft|86811", "text": "The appearance of G.E.A.R. Commander's Shoulderguards is unlocked as a reward from G.E.A.R. Up."}
+{"id": "world-of-warcraft|86812", "text": "The appearance of G.E.A.R. Commander's Handgrips is unlocked as a reward from G.E.A.R. Up."}
+{"id": "world-of-warcraft|86813", "text": "Fires whenever you press a mouse button. GLOBAL_MOUSE_DOWN: button"}
+{"id": "world-of-warcraft|86814", "text": "Fires whenever a mouse button gets released. GLOBAL_MOUSE_UP: button"}
+{"id": "world-of-warcraft|86817", "text": "__NOTOC__ Furies of Azshara are arcanamentals located in Nazjatar."}
+{"id": "world-of-warcraft|86818", "text": "The Fury of the Forge drops from Witch Lord Morkurk at the Throne of the Witch Lord in Talador."}
+{"id": "world-of-warcraft|86820", "text": "Fusion Core Activation Switch is a switch which can be use by Decaying Fusion Core. While activated you turn into a Fusion Core which can roll over Amathet tol'vir."}
+{"id": "world-of-warcraft|86822", "text": "G.H.O.S.T. is the mechanostrider companion of Fizzi Tinkerbow and accompanies her throughout the Heritage of Gnomeregan questline. He first appears next to Fizzi in New Tinkertown for Gnomeregan's Finest, followed by the Fizzcrank Airstrip in the Borean Tundra for A Tundra Conundrum and the Terrace of the Makers in Storm Peaks for Gnomercy!, and finally, he accompanies her in battle in the Halls of Stone during For Gnomeregan!."}
+{"id": "world-of-warcraft|86823", "text": "GS-10x Multi-Bots are clockwork robots—equipped with water tanks on their backs and brushes on their arms—that walk around the Loading Room and Train Depot in Dun Morogh during Shadowed Halls and Dusty Cogs. Several are seen following Sanitation Technicians who are spraying water around the corridors."}
+{"id": "world-of-warcraft|86824", "text": "GS-2x Demo-Bots are pounder robots seen pummeling at piles of debris in the Loading Room and Train Depot in Dun Morogh during Shadowed Halls and Dusty Cogs."}
+{"id": "world-of-warcraft|86825", "text": "GS-5x Cargo-Bots are mechanostriders carrying toolboxes seen in the Loading Room and Train Depot in Dun Morogh during Shadowed Halls and Dusty Cogs. Some walk around the corridors, while others are standing still and being tinkered with by Sanitation Technicians."}
+{"id": "world-of-warcraft|86827", "text": "G.U.A.R.D. is a mechanical wolf located in Operation: Mechagon."}
+{"id": "world-of-warcraft|86828", "text": "Fusion Hacker drops from HK-8 Aerial Oppression Unit in Operation: Mechagon."}
+{"id": "world-of-warcraft|86829", "text": "The G.E.T.A. is a goblin or gnome organization. It appears to focus on the welfare treatment of animals. The parrot Opus mentions that Kibler is being investigated by them and the Empty Worg Pup Cage is G.E.T.A. approved."}
+{"id": "world-of-warcraft|86830", "text": "Fury of Xuen is an Azerite trait available to Windwalker monks."}
+{"id": "world-of-warcraft|86832", "text": "The Fused Bone Greatbelt drops from Blightbone in the Necrotic Wake."}
+{"id": "world-of-warcraft|86833", "text": "Ga'nar's Shackle Key drops from Overseer Gotrigg in Blackrock Quarry in Tanaan Jungle during the Assault on the Dark Portal."}
+{"id": "world-of-warcraft|86834", "text": "Fused Spineguard is looted from the Oily Invertebrate in Maldraxxus."}
+{"id": "world-of-warcraft|86835", "text": "Fury of the Sands was an Azerite trait for all classes. It was removed from the database around the time the Battle for Azeroth beta ended."}
+{"id": "world-of-warcraft|86836", "text": "Fired when the stored configurations for gamepads are changed. GAME_PAD_CONFIGS_CHANGED"}
+{"id": "world-of-warcraft|86837", "text": "Fired when a gamepad is initially connected to the host system. GAME_PAD_CONNECTED"}
+{"id": "world-of-warcraft|86838", "text": "Fired when a gamepad is disconnected from the host system. GAME_PAD_DISCONNECTED"}
+{"id": "world-of-warcraft|86839", "text": "Needs summary. GARRISON_TALENT_EVENT_UPDATE: eventType, eventID"}
+{"id": "world-of-warcraft|86840", "text": "Needs summary. GARRISON_TALENT_RESEARCH_STARTED: garrTypeID, garrisonTalentTreeID, garrTalentID"}
+{"id": "world-of-warcraft|86847", "text": "Fused Stygia are death elementals located in the Marrow's Coppice of the Beastwarrens in the Maw. Defeating them are an objective of Hunt: Death Elementals"}
+{"id": "world-of-warcraft|86848", "text": "G0-4W4Y Crowd Repeller drops from Coin-Operated Crowd Pummeler in the MOTHERLODE!!."}
+{"id": "world-of-warcraft|86851", "text": "Gahiji the Tomb Raider is a soul located in the Halls of Atonement in Revendreth."}
+{"id": "world-of-warcraft|86853", "text": "Needs summary. GARRISON_SPEC_GROUP_UPDATED: garrTypeID, specID"}
+{"id": "world-of-warcraft|86856", "text": "Fuse-Cutter Knife is a quest reward from The Final Voyage of the Brashtide."}
+{"id": "world-of-warcraft|86857", "text": "Fury of the Skies is a conduit for balance druids. It drops from Margrave Stradama in Plaguefall and Halondrus in the Sepulcher of the First Ones. It is also sold by Zo'sorg in Oribos for ."}
+{"id": "world-of-warcraft|86860", "text": "__NOTOC__ Fusethrian is a dracthyr innkeeper and vendor located at the Old Weyrn Grounds in the Forbidden Reach. After the return to Forbidden Reach, he can be found by the renown envoys of Morqut Village."}
+{"id": "world-of-warcraft|86861", "text": "Fussy Swoglets are small hornswogs found at the Wild Coast in the Waking Shores. They are often found near Cantankerous Hornswog."}
+{"id": "world-of-warcraft|86862", "text": "Fury of the Aspects is a spell for evokers. It is the class's way of providing a Bloodlust effect."}
+{"id": "world-of-warcraft|86863", "text": "Fused Shale Waistband drops from Terros in the Vault of the Incarnates."}
+{"id": "world-of-warcraft|86864", "text": "__NOTOC__ Furyforged Plating is a crafting reagent that drops from the last boss in the Neltharus dungeon."}
+{"id": "world-of-warcraft|86869", "text": "__NOTOC__ Gahz'raxes, spawn of Gahz'ragon, is a rare elite hydra located in an underwater cave in the Tempest Cove of western Forbidden Reach."}
+{"id": "world-of-warcraft|86871", "text": "Fyrakk Assaults are a feature added in patch 10.1.0 where Primalists take advantage of Fyrakk's chaos to take over an area of the Ohn'ahran Plains or Azure Span. An elite world quest tasks players with a few tasks to clear out the camp. Players are initially introduced via Fyrakk's Forces from an image of Kalecgos at Loamm in Zaralek Cavern."}
+{"id": "world-of-warcraft|86872", "text": "Future Aspects begins the second chapter of the Embers of Neltharion campaign: \"Sundered Legacy\"."}
+{"id": "world-of-warcraft|86874", "text": "Fyrakk's Forces introduces players to Fyrakk Assaults in the Ohn'ahran Plains and Azure Span."}
+{"id": "world-of-warcraft|86875", "text": "Fussele is a niffen located at Scrybbil's shop in Loamm in Zaralek Cavern. She can be find throwing firecrackers on the floor from time to time."}
+{"id": "world-of-warcraft|86876", "text": "__NOTOC__ Gaelzion is an air elemental located on the Dragon Isles during Primal Storms."}
+{"id": "world-of-warcraft|86877", "text": "Fyrakk's Frenzy drops from Kretchenwrath and Shadeisethal. Using it summons a smaller Fyrakk who uses flame."}
+{"id": "world-of-warcraft|86878", "text": "Fury of Giants is a dungeon & raid achievement earned by defeating the following bosses in the wing of Aberrus, the Shadowed Crucible."}
+{"id": "world-of-warcraft|86879", "text": "Fury of the Caldera is an unbound fire elemental in the Zaqali Caldera in Zaralek Cavern. It is being summoned by a Primalist Summoner and a Zaqali Summoner."}
+{"id": "world-of-warcraft|86881", "text": "Fuzzy Shimmermoth is sold by Cortinarius at the Ring in Ardenweald for ."}
+{"id": "world-of-warcraft|86885", "text": "A GM is an acronym that could refer to several things in World of Warcraft: *Game Masters, Blizzard Entertainment employees who assist with in-game support *Guild leader, the leader of a guild (also commonly referred to as \"GM\" - \"Guild Master\") *The Guild Master, an NPC who helps players form a guild *Gold Mine (Arathi Basin), a subzone in Arathi Basin that serves as a resource node *Grand Marshal (Legacy), the Alliance PvP rank 14 before Patch 2.0"}
+{"id": "world-of-warcraft|86886", "text": "GL might be abbreviation for one of the following: *Ghostlands, a blood elf zone. *Group Loot, a method of distributing loot. *Group Leader, the leader of a group. *Gruul's Lair, a 25-man raid instance in the Burning Crusade expansion. *Guild Leader, the leader of a guild. *Good luck."}
+{"id": "world-of-warcraft|86887", "text": "GH may refer to: *Greater Heal (Classic) *Grizzly Hills *Great hall"}
+{"id": "world-of-warcraft|86889", "text": "Game Masters, or GMs, are Blizzard employees who oversee World of Warcraft and watch over a server to solve problems, disputes, and sometimes punish people disobeying the Terms of Use policy Blizzard set forth. Players can create an in-game petition (usually called a \"ticket\") to alert the GMs of certain problems they are experiencing. GMs are reactive in their response to problems, and as a result won't take action until a ticket has been filed and they have been informed about the issue. The issue must be one they can assist with and they must be able to verify that action is required, which is done entirely via internal logs. The term GM or Game Master has been occasionally and incorrectl"}
+{"id": "world-of-warcraft|86890", "text": "The Galak centaur inhabit Thousand Needles. Their founding leader, or Khan, was Khan Veng, the fifth of the alleged offspring of Zaetar and Princess Theradras. They are currently ruled by no definitive Khan. The Galak hold no alliance with their brother tribes, but have been known to act both hostile and passive towards members of the Alliance and Horde."}
+{"id": "world-of-warcraft|86892", "text": "Galak Centaur are centaur who roam eastern Mulgore, near the border with the Barrens. They sometimes move two and two, other times accompanied by a Galak Outrunner."}
+{"id": "world-of-warcraft|86893", "text": "__NOTOC__ Gammerita is a turtle found patrolling the coastline of the Hinterlands. She is easily spotted, being at least four times bigger than the other Saltwater Snapjaws and blue instead of red. Daryn Lightwind wanted a Snapshot of Gammerita. Katoom the Angler lost his best lure to Gammerita, and also mentions that she is the leader of the Snapjaws on that coast."}
+{"id": "world-of-warcraft|86896", "text": "Gann Stonespire is a tauren located on the outskirts of Bael Modan in the Southern Barrens."}
+{"id": "world-of-warcraft|86900", "text": "Gaining Acceptance is a quest that can be completed in order to gain reputation points with the Thorium Brotherhood. It will be offered after the quest Welcome to the Brotherhood. Players originally had this quest only available from to with the Thorium Brotherhood, and having completed What the Flux?."}
+{"id": "world-of-warcraft|86903", "text": "__NOTOC__ Galgar is an orc quest giver located in the Valley of Trials in Durotar. He sends fledgling adventurers to collect cactus apples so he can make some of his famous cactus apple surprise. According to Galgar himself, this is an intentionally easy task that he gives to all young orcs. Appearing as Provisioner Galgar, he is found in Axefall in Spires of Arak if a commander chooses the Smuggler's Den. He brought some crates of his cactus apple surprise with him."}
+{"id": "world-of-warcraft|86905", "text": "This is an ultra-lite library for retrieving server time in second + millisecond precision. It will stay at hour+minute precision for the first minute played, but will be accurate after that. hour, minute, second = &lt;PREFIX&gt;_GameTime:Get()"}
+{"id": "world-of-warcraft|86907", "text": "Gameplay refers to game features that affect play experience. * Combat ** Player vs Player ** Honor * Quests * Raids * Events"}
+{"id": "world-of-warcraft|86913", "text": "Gant is a goblin food and drink vendor located at Area 52 in the Netherstorm."}
+{"id": "world-of-warcraft|86914", "text": "Gan'arg are stunted mo'arg and serve the Burning Legion as engineers. Smart and fast-thinking, the gan'arg make new inventions and delight in using them to further their own purposes. These stunted mo'arg are very clever, and are often employed as helpers for their larger brethren. Mischievous by nature, they are fond of employing their own hastily-constructed technologies."}
+{"id": "world-of-warcraft|86916", "text": "__NOTOC__ Galen Goodward is a human quest giver located in a cage in Fallow Sanctuary in the Swamp of Sorrows. He has been missing since the Cataclysm. It is possible given his escape from a traumatic imprisonment that he has abandoned the Swamp of Sorrows altogether, never to return."}
+{"id": "world-of-warcraft|86917", "text": "__NOTOC__ Galamav the Marksman is a tauren quest giver located in Blackrock Depths. Before the Cataclysm, he could be found in Kargath in Badlands."}
+{"id": "world-of-warcraft|86920", "text": "Galgann's Fireblaster is a gun with a chance to proc and deal extra fire damage."}
+{"id": "world-of-warcraft|86921", "text": "Galgann's Firehammer is a one handed mace that has a chance to proc and cause fire damage."}
+{"id": "world-of-warcraft|86922", "text": "Use your game controllers rather than the keyboard and mouse in World of Warcraft. A must for any die-hard fans that are developing carpal tunnel. ;) I have developed a WoW game-controller script written in a free scripting language called AutoHotKey (http://www.autohotkey.com). AutoHotKey is scripting language specifically designed for using game controllers to control the keyboard and mouse. Download the script and AutoHotKey at http://www.mirc-dll.com/wow/."}
+{"id": "world-of-warcraft|86923", "text": "Galak Packhounds are three hyenas who accompany the rare spawn Achellios the Banished in the Thousand Needles."}
+{"id": "world-of-warcraft|86924", "text": "__NOTOC__ Ganaar is a draenei pet trainer located at the Trader's Tier in the Exodar. During the Battle for the Exodar, he was inside Velen's protective shield."}
+{"id": "world-of-warcraft|86928", "text": "Gan'arg Servants are gan'arg found in the Hellfire Peninsula."}
+{"id": "world-of-warcraft|86931", "text": "__NOTOC__ Galaen's Corpse is a draenei quest giver located at the Cryo-Core on Bloodmyst Isle. He survived the crash, only to be slain by blood elves."}
+{"id": "world-of-warcraft|86932", "text": "Gambarinka is a jungle troll trade goods vendor located at Zabra'jin in Zangarmarsh."}
+{"id": "world-of-warcraft|86933", "text": "Game In Session is a buff (with a debuff-like effect) placed on all players once the Chess Event in Karazhan has been initiated. The debuff applies a blanket silence and pacify effect. Once the initial Chess Event is completed and the dusty chest with loot appears, the debuff is removed. However, if players re-initiate the Chess Event afterwards, this debuff is re-applied to all players, making any further progress in the dungeon difficult."}
+{"id": "world-of-warcraft|86935", "text": "__NOTOC__ The Galak Messenger is a centaur who gallops back and forth along a set route in north-west Thousand Needles, from Splithoof Crag in the east to Camp E'thok in the west, mostly along the road near Whitereach Post."}
+{"id": "world-of-warcraft|86938", "text": "Gan'zulah's Head drops from Gan'zulah at the Ruins of Zul'Kunda in Stranglethorn Vale."}
+{"id": "world-of-warcraft|86944", "text": "Gallywix's Head drops from Grand Foreman Puzik Gallywix in the Barrens for Mission: Possible But Not Probable."}
+{"id": "world-of-warcraft|86946", "text": "__NOTOC__ Galak Scouts are centaurs found in Thousand Needles."}
+{"id": "world-of-warcraft|86947", "text": "__NOTOC__ Galak Wranglers are centaur found in Splithoof Heights in Thousand Needles."}
+{"id": "world-of-warcraft|86948", "text": "__NOTOC__ Galak Windchasers are centaur found in Thousand Needles."}
+{"id": "world-of-warcraft|86950", "text": "__NOTOC__ Gangled Cannibals are ghouls found in the Ghostlands."}
+{"id": "world-of-warcraft|86951", "text": "The text of Galaen's Journal describes how both Galaen and Vindicator Saruan were beaten by Matis the Cruel, on orders from Sironas."}
+{"id": "world-of-warcraft|86954", "text": "A galley is a three-masted ship with seventy oars on either side and a total crew of two hundred. This ship is 130 feet long and 20 feet wide, and it can carry up to 150 tons of cargo or 250 soldiers. It can be fitted with a ram and castles with firing platforms fore, aft and amidships. This ship cannot make sea voyages and sticks to the coast. It moves about 4 miles per hour when being rowed or under sail."}
+{"id": "world-of-warcraft|86958", "text": "__NOTOC__ Gankly Rottenfist is a Forsaken located at Nesingwary Safari in Nagrand. He attacks Kristen Dipswitch while she delivers a bundle of skins to the camp."}
+{"id": "world-of-warcraft|86960", "text": "Gaily Wrapped Present is a quest reward from A Gaily Wrapped Present."}
+{"id": "world-of-warcraft|86961", "text": "The Gallery of Treasures is the fourth area of the Scarlet Halls. It lies beyond the Footman's Armory, and is full of members of the Scarlet Crusade. Numerous paintings and artifacts line the halls, and small chambers containing books and other works of art dot the passageway. The gallery leads on into the Athenaeum."}
+{"id": "world-of-warcraft|86962", "text": ".]] The Gallant, once captained by Ulysses Rackmore, is a ship that now lies underwater on Slitherblade Shore near the shore of Desolace."}
+{"id": "world-of-warcraft|86963", "text": "Gangled Flesheaters are ghouls who guard the lost caravan of for the quest Tomber's Supplies in the Ghostlands."}
+{"id": "world-of-warcraft|86964", "text": "Galaen's Journal can be found next to Galaen's body in Bloodmyst Isle. It starts the quest Galaen's Journal - The Fate of Vindicator Saruan. The book can also be read, through the object. The journal is written in Draenei, so it cannot be read by non-draenei players."}
+{"id": "world-of-warcraft|86967", "text": "__NOTOC__ Gan'arg Mekgineers are gan'arg found in the Netherstorm."}
+{"id": "world-of-warcraft|86968", "text": "__NOTOC__ Gallywix's Lockbox is a chest guarded by Puzik Gallywix in the Sludge Fen area of northeast Barrens."}
+{"id": "world-of-warcraft|86969", "text": "]] The Gamesman's Hall is located near the top of Karazhan. Here the players must play a game of chess against Medivh before they can proceed to Prince Malchezaar."}
+{"id": "world-of-warcraft|86971", "text": "Galathryn was one of the NPCs that could spawn by using an Amani Hex Stick on one of the wandering Forest Frogs within the old version of Zul'Aman. Once spawned, she would walk to the entrance of the instance and cheer players on when they walked by."}
+{"id": "world-of-warcraft|86972", "text": ": This page exists to keep the files out of the unused files list. Gallery of player forum avatars that were used on the original World of Warcraft forums."}
+{"id": "world-of-warcraft|86973", "text": ".]] Gambler is a character class introduced in the World of Warcraft TCG. Landro Longshot is goblin gambler."}
+{"id": "world-of-warcraft|86978", "text": "Gamel the Cruel is a kvaldir who makes his camp at a cave in the Riplash Strand in the Borean Tundra, guarded by two of his raiders. He is the main leader of the vicious Skadir."}
+{"id": "world-of-warcraft|86980", "text": "Galakrond's Rest is a massive boneyard, located in the Dragon Wastes of the Dragonblight. The skeleton that's half-emerged from the ice is far larger than any dragon that's darkened the skies of Azeroth in living memory. Those are the bones of Galakrond, a massive proto-dragon known as the \"progenitor of dragonkind\", and this is the place he fell at his death. During the war against the Lich King, the Scourge and the Cult of the Damned tried to dig Galakrond up and raise him as a frost wyrm, but they were driven away before they could manage it."}
+{"id": "world-of-warcraft|86983", "text": "A game demo (also called shareware or trialware) is a version of a game that is limited in some way (lower level cap, time limited, reduced features, etc.) but otherwise gives a player a first impression of the full game. A game demo is an often, but not always, freely distributed demonstration or preview of an upcoming or recently released computer or video game. Game demos of Warcraft: Orcs & Humans, Warcraft II: Tides of Darkness and Warcraft III: Reign of Chaos have been released. Warcraft II and III do not have game demos of their expansions; Warcraft I never had an expansion. World of Warcraft formerly had a trial version of its own which was replaced by the World of Warcraft Starter E"}
+{"id": "world-of-warcraft|86984", "text": "Gangris Riverpaw is a gnoll warlord featured in DC Direct's series 4 of World of Warcraft action figures. He has not yet appeared elsewhere."}
+{"id": "world-of-warcraft|86993", "text": "Galadin is the younger twin brother of Giramar and is one of Rhonin and Vereesa's twin half-elf sons. They are both completely identical and share their father's red hair and mother's eyes."}
+{"id": "world-of-warcraft|86995", "text": "Gale Winds is a talent in the Balance tree. This talent is sometimes taken by raiding Balance druids, as it can significantly improve the damage output of Hurricane, making it a very potent aoe ideal for damaging multiple enemies around the tank. Typhoon is a poor choice for spell use in an instance, however."}
+{"id": "world-of-warcraft|86997", "text": "Gammoth is area within the Bloodspore Plains in the Borean Tundra. It is the home of the magnataur Gammothra the Tormentor."}
+{"id": "world-of-warcraft|86999", "text": "__NOTOC__ Gan'jo is an ice troll quest giver located in the Grizzly Hills."}
+{"id": "world-of-warcraft|87000", "text": "The Gammoth herd is a herd of both magnataurs and snobolds found in the Borean Tundra."}
+{"id": "world-of-warcraft|87002", "text": "__NOTOC__ Galathia Brightdawn is a blood elf found at the Sunreaver Pavilion in the Argent Tournament Grounds in Icecrown as part of the Argent Tournament. She was present during Death Rising."}
+{"id": "world-of-warcraft|87003", "text": "The Gan'jo's Chest can be found within the Drakil'jin Ruins while ... in Grizzly Hills."}
+{"id": "world-of-warcraft|87007", "text": "Gallywix Laborer's Gloves is a quest reward from The Gallywix Labor Mine."}
+{"id": "world-of-warcraft|87010", "text": "Galen's Fall was a Forsaken camp along Thoradin's Wall near the entrance into the Hillsbrad Foothills from the Arathi Highlands."}
+{"id": "world-of-warcraft|87014", "text": "Gallow's End Gauntlets are a quest reward from Holland's Experiment."}
+{"id": "world-of-warcraft|87018", "text": "The Gallywix Rocketway Exchange is a station of the Bilgewater Cartel Rocketway, located near the Gallywix Pleasure Palace. The Rocket-jockey will greet successful arrivals with, \"Welcome to the Gallywix Rocketway Exchange! Debts to pay or get the heck away.\""}
+{"id": "world-of-warcraft|87019", "text": "Gally Lumpstain is a goblin of the Argent Dawn and a prisoner of the death knights in the Scarlet Enclave."}
+{"id": "world-of-warcraft|87020", "text": "Gail Nozzywig is a goblin quest giver found in Razor Hill in Durotar."}
+{"id": "world-of-warcraft|87022", "text": "Gallywix Labor Mine is a kaja'mite mine built into the volcano on the Lost Isles. The entrance is at Sky Falls. It's here the Trade Prince brought all the goblins he captured from Town-In-A-Box while the volcano was erupting. The trade prince, using Blastshadow the Brutemaster and his Brute Overseers, makes sure the goblins mine the kaja'mite, even though the volcano is erupting."}
+{"id": "world-of-warcraft|87025", "text": "Galerek's Remorse is a Horde ship floating on the surface above the Shimmering Expanse in Vashj'ir. It is one of three Horde ships in the area searching for survivors of the ships that are wrecked at the start of the Vashj'ir storyline."}
+{"id": "world-of-warcraft|87026", "text": "These are alternative ways to play World of Warcraft which are supported very little, if at all, by the game itself. For the most part, they represent variations created by players with self-enforced rules. Rule often work well in conjunction with others. They work best when combined with a coherent role-playing narrative."}
+{"id": "world-of-warcraft|87028", "text": "Gang War is a quest achievement earned for winning a duel in Sethria's Roost whiling on the The Protectors of Hyjal quest. Requirement for the meta-achievement Veteran of the Molten Front."}
+{"id": "world-of-warcraft|87029", "text": "Gan'zulah's Body drops from Gan'zulah in Northern Stranglethorn."}
+{"id": "world-of-warcraft|87030", "text": "Gamella Cracklefizz is a goblin quest giver located near the ramp to Eastwall Tower in the Eastern Plaguelands."}
+{"id": "world-of-warcraft|87032", "text": "Galra is a Horde heirloom vendor in Orgrimmar. After Vol'jin's death, she was seen speaking with Councilor Arial D'Anastasis‎."}
+{"id": "world-of-warcraft|87033", "text": "Gammoth Tenders are snobolds located at Gammoth in the Borean Tundra."}
+{"id": "world-of-warcraft|87034", "text": "Gai Lan is a pandaren farmer who lives in the Valley of the Four Winds. His farm is constantly plagued by massive weeds which he deals with by using weed killer. He also appeared at the Celestial Court on the Timeless Isle."}
+{"id": "world-of-warcraft|87037", "text": "Galus' Chamber is a room at the end of the southern wing of the Cursed Depths where Archmage Galus resides."}
+{"id": "world-of-warcraft|87038", "text": "Galleon is part of Salyis's Warband, a world boss introduced in World of Warcraft: Mists of Pandaria."}
+{"id": "world-of-warcraft|87039", "text": "The Gai-Cho Battlefield lies between Fire Camp Gai-Cho and Kri'vess in northern Townlong Steppes. A great many Gai-Cho gatewatchers, boltshooters, and cauterizers are defending the path up to the fire camp, but the yaungol are beset by Kri'thik swarm mantid in the form of Kri'thik aggressors and elite screechers."}
+{"id": "world-of-warcraft|87040", "text": "__NOTOC__ Gaivan Shadewalker is a night elf quest giver patrolling the entrance to the Dor'Danil Barrow Den in Ashenvale. He is part of the Druids of the Claw. He would like the adventurer to take care of a few druids who turned insane."}
+{"id": "world-of-warcraft|87041", "text": "The Game Menu, often referred to as the options, can be accessed by either pressing 'Esc' or pushing the button on the Micro Menu. ;Character selection screen only: *Credits *Cinematics, see the movies released for WoW and its expansions. ;In-game only: *Customer Support, also known as Help. *In-Game Store, known simply as Shop. This can also be accessed on the micro menu pushing the button. *What's New, displays the new features/additions added to the game. **Character Boost, replaces What's New, displays only for newly created characters from a character boost. This will change back to What's New once the character has each certain requirements. *Interface, used to change nearly every type"}
+{"id": "world-of-warcraft|87042", "text": "Gai-Cho Yaungol are yaungol located at Fire Camp Gai-Cho in Townlong Steppes."}
+{"id": "world-of-warcraft|87043", "text": "__NOTOC__ Gai-Cho Pitchthrowers are yaungol located at Fire Camp Gai-Cho in Townlong Steppes."}
+{"id": "world-of-warcraft|87044", "text": "__NOTOC__ Gai-Cho Earthtalkers are yaungol located at Fire Camp Gai-Cho in Townlong Steppes."}
+{"id": "world-of-warcraft|87046", "text": "__NOTOC__ Gai-Cho Boltshooters are yaungol located at the Gai-Cho Battlefield in Townlong Steppes."}
+{"id": "world-of-warcraft|87047", "text": "__NOTOC__ Gai-Cho Cauterizers are yaungol located at the Gai-Cho Battlefield in Townlong Steppes."}
+{"id": "world-of-warcraft|87048", "text": "Gai-Cho Gatewatchers are yaungol located at the Gai-Cho Battlefield in Townlong Steppes."}
+{"id": "world-of-warcraft|87049", "text": "Gao's Keg Tapper drops from Yan-Zhu the Uncasked in Stormstout Brewery."}
+{"id": "world-of-warcraft|87055", "text": "Gan Darkcask is a pandaren found in Mandori Village on the Wandering Isle. He seems to be speaking with Gao Longwagon."}
+{"id": "world-of-warcraft|87056", "text": "Galenges is a flamewaker located at the Flamewake in Mount Hyjal."}
+{"id": "world-of-warcraft|87057", "text": "Galkara the Assassin is an orc located at the Circle of Wills in the Underbelly."}
+{"id": "world-of-warcraft|87058", "text": "Galakras is the fifth boss of Siege of Orgrimmar. It is Warlord Zaela's proto-drake and a descendant of Galakrond. The encounter involves splitting the raid into two groups: one that aides the faction leaders at the beach while the second takes the towers to bring down Galakras."}
+{"id": "world-of-warcraft|87059", "text": "Gamon Will Save Us! is an achievement that is awarded for defeating General Nazgrim in the Siege of Orgrimmar raid instance while Gamon is alive and participating in the battle."}
+{"id": "world-of-warcraft|87060", "text": "__NOTOC__ Galakrond Control Band drops from Galakras in the Siege of Orgrimmar."}
+{"id": "world-of-warcraft|87061", "text": "Gaja's War-Wolf is a wolf located at Lion's Landing in the Lion's Landing scenario."}
+{"id": "world-of-warcraft|87062", "text": "Gal'dorak is a rare rhino found just to the east of Frostfire Hot Springs in Winterspring."}
+{"id": "world-of-warcraft|87066", "text": "Galu Wellspring is a jinyu vendor found in the Timeless Isle."}
+{"id": "world-of-warcraft|87068", "text": "Gai Lan Junior is a pandaren located at The Heartland in the Valley of the Four Winds."}
+{"id": "world-of-warcraft|87069", "text": "Galzomar is one of three rotating rare demons that spawns at the Burning Front in Talador. The other two are Kharazos the Triumphant and Sikthiss, Maiden of Slaughter. They each drop the Burning Legion Missive (toy)."}
+{"id": "world-of-warcraft|87070", "text": "Gamon's Braid is a toy item that turns the player into Gamon, the (in)famous tauren from Orgrimmar, for 10 minutes. The transformation is accompanied by a voiced yell: : During combat, the player will randomly yell out various soundclips originally used by Gamon during the Siege of Orgrimmar, such as or ."}
+{"id": "world-of-warcraft|87071", "text": "The Gai-Cho are a tribe of yaungol raiders in Townlong Steppes that are locked in combat with the Krik'thik swarm of mantid from Kri'vess, as well as the Shado-Pan. They are allies of the nearby Osul tribe, having helped them with their push into Kun-Lai Summit at the Ox Gate. During the Siege of Orgrimmar, some Gai-Cho were found locked away in The Menagerie, led by Montak."}
+{"id": "world-of-warcraft|87073", "text": "Galestriker Halanai is a draenei located at the Lunarfall in . Can only be recruited using the Headhunter's Harvest from Lunarfall Inn."}
+{"id": "world-of-warcraft|87074", "text": "The Gaiju Pearl was a drop from the Gaiju in Tanaan Jungle on the PTR for Patch 6.2.0, but the summoning event was cut before the patch went live."}
+{"id": "world-of-warcraft|87076", "text": "__NOTOC__ Galthenos is a nathrezim located at the in Tanaan Jungle."}
+{"id": "world-of-warcraft|87077", "text": "Gamescom (stylized as gamescom) is the world's largest gaming event and Europe's biggest for video games, held annually at the Koelnmesse in Cologne, Germany. It is used by many video game developers to exhibit their upcoming games, including Blizzard Entertainment present nearly every year."}
+{"id": "world-of-warcraft|87078", "text": "Gallywix's Garage is a sub-zone of Warspear's goblin district in Ashran."}
+{"id": "world-of-warcraft|87079", "text": "The unnamed mother of Jastor Gallywix was a goblin pirate. She left her family when Jastor was very young in favor of a life of piracy. She tried to kill her own son twice. Nonetheless, Jastor had a painting commissioned in her likeness after her death and later hung it in his villa on Kezan."}
+{"id": "world-of-warcraft|87080", "text": "Gakkiz Blusterblast is a goblin follower located at Frostwall in Frostfire Ridge. He can only be recruited using the Headhunter's Harvest from Frostwall Tavern. He later traveled to the Wandering Isle as a member of the Order of the Broken Temple and is seen sitting with Xiang Grumblebelly in the Laughing Crane."}
+{"id": "world-of-warcraft|87081", "text": "Gannon Forecastle is a forsaken located at Frostwall in Frostfire Ridge."}
+{"id": "world-of-warcraft|87083", "text": "Gaiju was a Rare Elite beast located at the Scuttler's Coast in Tanaan Jungle. In order to summon the mob, two players were required in order to pilot the Yaeger-367. The vignette event was removed from the PTR before the release of patch 6.2.0."}

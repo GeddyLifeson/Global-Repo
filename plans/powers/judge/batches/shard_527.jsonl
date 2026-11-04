@@ -1,0 +1,250 @@
+{"id": "world-of-warcraft|175643", "text": "The Sabertron Technician is a goblin located in a cave on the Jeweled Coast in Stormsong Valley."}
+{"id": "world-of-warcraft|175645", "text": "Sable Polecats are injured ferrets found lying around the Prickly Grove in Vol'dun."}
+{"id": "world-of-warcraft|175650", "text": "__NOTOC__ Sabertusk Empresses are sabertusks located in Zuldazar. One of them is caged."}
+{"id": "world-of-warcraft|175653", "text": "__NOTOC__ Ryul the Fading is a skeleton located at the end of the Wailing Halls in Tomb of Sargeras when the world quest is up."}
+{"id": "world-of-warcraft|175654", "text": "Sabersnout Sharks are sharks located in the waters along the southern coast of Drustvar and northern coast of Vol'dun."}
+{"id": "world-of-warcraft|175655", "text": "SI:7 Underwater Bomber is a submarine located in Nazmir during the Faction Assaults."}
+{"id": "world-of-warcraft|175656", "text": "The Sablehide Gloves are a quest reward from The Farmsteads."}
+{"id": "world-of-warcraft|175657", "text": "The Sablehide Waistcord is a quest reward from The Farmsteads."}
+{"id": "world-of-warcraft|175658", "text": "The Sablehide Armbands are a quest reward from Maiev's Trail."}
+{"id": "world-of-warcraft|175659", "text": "Sabatons of the Illidari Crusade is rewarded from Soul Prism of the Illidari (quest)."}
+{"id": "world-of-warcraft|175660", "text": "The Sabatons of the Receding Nightmare are a quest reward from Darkheart Thicket: Enter the Nightmare."}
+{"id": "world-of-warcraft|175662", "text": "Saberon Pridematron is a saberon located in Frostfire Ridge."}
+{"id": "world-of-warcraft|175667", "text": "Needs summary. STREAM_VIEW_MARKER_UPDATED: clubId, streamId, lastReadTime"}
+{"id": "world-of-warcraft|175670", "text": "Needs summary. SHIPMENT_CRAFTER_INFO: success, shipmentCount, maxShipments, ownedShipments, plotInstanceID"}
+{"id": "world-of-warcraft|175671", "text": "Needs summary. SHIPMENT_CRAFTER_OPENED: charShipmentContainerID"}
+{"id": "world-of-warcraft|175672", "text": "Needs summary. SHIPMENT_UPDATE: shipmentStarted, hasAttachedFollower"}
+{"id": "world-of-warcraft|175680", "text": "Needs summary. SHOW_LOOT_TOAST_UPGRADE: itemLink, quantity, specID, sex, baseQuality, personalLootToast, lessAwesome"}
+{"id": "world-of-warcraft|175681", "text": "Needs summary. SHOW_RATED_PVP_REWARD_TOAST: typeIdentifier, itemLink, quantity, specID, sex, personalLootToast, lessAwesome"}
+{"id": "world-of-warcraft|175682", "text": "Needs summary. SHOW_PVP_FACTION_LOOT_TOAST: typeIdentifier, itemLink, quantity, specID, sex, personalLootToast, lessAwesome"}
+{"id": "world-of-warcraft|175685", "text": "Needs summary. SUPER_TRACKED_QUEST_CHANGED: superTrackedQuestID"}
+{"id": "world-of-warcraft|175689", "text": "Needs summary. SCENARIO_BONUS_OBJECTIVE_COMPLETE: bonusObjectiveID"}
+{"id": "world-of-warcraft|175698", "text": "Needs summary. SCRAPPING_MACHINE_ITEM_REMOVED_OR_CANCELLED: index"}
+{"id": "world-of-warcraft|175702", "text": "Fires when the user halts offering money or items to a stranger, after receiving a warning dialog. SECURE_TRANSFER_CANCEL"}
+{"id": "world-of-warcraft|175703", "text": "Fires when mailing money or items to a stranger. SECURE_TRANSFER_CONFIRM_SEND_MAIL"}
+{"id": "world-of-warcraft|175704", "text": "Fires when trading money or items to a stranger. SECURE_TRANSFER_CONFIRM_TRADE_ACCEPT"}
+{"id": "world-of-warcraft|175706", "text": "Needs summary. SOCIAL_QUEUE_UPDATE: groupGUID, numAddedItems"}
+{"id": "world-of-warcraft|175707", "text": "Indicates a sound has finished playing, but only if the fourth argument in was set to true. SOUNDKIT_FINISHED: soundHandle"}
+{"id": "world-of-warcraft|175709", "text": "Information about the player's sound input or output devices has changed or become available. SOUND_DEVICE_UPDATE"}
+{"id": "world-of-warcraft|175712", "text": "Fires when data is available in response to . SPELL_DATA_LOAD_RESULT: spellID, success"}
+{"id": "world-of-warcraft|175715", "text": "Needs summary. SPELL_PUSHED_TO_ACTIONBAR: spellID, slot, page"}
+{"id": "world-of-warcraft|175724", "text": "Needs summary. START_TIMER: timerType, timeRemaining, totalTime"}
+{"id": "world-of-warcraft|175725", "text": "SI:7 Technicians are gnomes located in the Clearcut and near Warfang Hold in Stormsong Valley. Some of them operate and guard SI:7 Listening Devices or standing next to sabotaged shredders."}
+{"id": "world-of-warcraft|175726", "text": "The Sablehide Handguards are a quest reward from Totemic Call (quest)."}
+{"id": "world-of-warcraft|175727", "text": "The Sablehide Belt is a quest reward from Totemic Call (quest)."}
+{"id": "world-of-warcraft|175731", "text": "__NOTOC__ SI:7 Scouts are located at Dead Man's Pass in Vol'dun during the Faction Assaults."}
+{"id": "world-of-warcraft|175734", "text": "Saberon Bodyguard is a saberon summoned by Saberon Protector."}
+{"id": "world-of-warcraft|175737", "text": "Saber of the Ebon Blade are swords given to champions of the Knights of the Ebon Blade."}
+{"id": "world-of-warcraft|175738", "text": "Ryuxi is the cloud serpent master of the Rajani mogu, located outside the Silent Sanctuary in the Vale of Eternal Blossoms."}
+{"id": "world-of-warcraft|175739", "text": "The Sabatons of the Endless Vigil drop from Egyl the Enduring in Stormheim."}
+{"id": "world-of-warcraft|175740", "text": "Saber Flanks drop from Twilight Prowlers near the Dunwald Ruins in the Twilight Highlands."}
+{"id": "world-of-warcraft|175741", "text": "The Sablehide Shoulders are a quest reward from To Old Friends."}
+{"id": "world-of-warcraft|175742", "text": "TheSablehide Footwraps are a quest reward from To Old Friends."}
+{"id": "world-of-warcraft|175743", "text": "Ryson's All Seeing Eye is a crystal ball located in Winterax Cave in Alterac Valley. It belonged to Syndicate Master Ryson but was stolen by the Winterax trolls. It can only be picked up once per fight. The eye will be lost upon death, stealthing and mounting. Druids may shapeshift, but players must generally be very careful when bringing it back to Ryson in the Veiled Cleft."}
+{"id": "world-of-warcraft|175744", "text": "Sabatons of the Stalwart drop from Abyssal Commander Sivara in the Eternal Palace."}
+{"id": "world-of-warcraft|175745", "text": "Sa'rii appears to have been a Zandalari troll. Her plaque can be found at the Edge of Oblivion inside the Necropolis in Nazmir."}
+{"id": "world-of-warcraft|175747", "text": "Sabertron Assemble is an quest achievement that requires to kill all five Sabertrons."}
+{"id": "world-of-warcraft|175748", "text": "Saba-tok is a titanic watcher created by the Amathet. It appears during Assault: Amathet Advance."}
+{"id": "world-of-warcraft|175749", "text": "SI:7 Informants are humans located in the Old Town in the Vision of Stormwind."}
+{"id": "world-of-warcraft|175750", "text": "SI:7 Light-Hunters are humans located in the Old Town in the Vision of Stormwind."}
+{"id": "world-of-warcraft|175751", "text": "Sa'tiib appears to have been a Zandalari troll. His plaque can be found in the chamber where an unnamed queen was laid to rest; inside the Necropolis Catacombs in Nazmir."}
+{"id": "world-of-warcraft|175752", "text": "SI:7 Enforcers are humans located in the Vision of Stormwind."}
+{"id": "world-of-warcraft|175754", "text": "Sabletalon is a bird summoned by placing a bait on Sabletalon's Rock in Stormwing Peak in Stormheim."}
+{"id": "world-of-warcraft|175755", "text": "Sabatons of Coruscating Energy drop from the Adderis and Aspix encounter in the Temple of Sethraliss."}
+{"id": "world-of-warcraft|175756", "text": "Sabina is a venthyr located in Revendreth. She had three companions, Miron, Lenusa, and Remus, but captors found her and shackled her to a post with a chain, while being exposed to the light at the Desiccation. After the Maw Walker freed her she turned into ash ghoul which the Maw Walker had to kill her."}
+{"id": "world-of-warcraft|175757", "text": "Sabertusk Cubs are sabertusks located in Old Merchant Road in Zuldazar."}
+{"id": "world-of-warcraft|175763", "text": "Sabatons of Radiating Ire drop from Tho'gar Gorefist in the Iron Front in Tanaan Jungle."}
+{"id": "world-of-warcraft|175766", "text": "Fires when the player is in Chromie Time, queued for a dungeon, and has been waiting in the queue for enough time to trigger the \"expand your search\" popup. SHOW_LFG_EXPAND_SEARCH_PROMPT"}
+{"id": "world-of-warcraft|175770", "text": "Needs summary. SOULBIND_CONDUIT_COLLECTION_REMOVED: conduitID"}
+{"id": "world-of-warcraft|175771", "text": "Needs summary. SOULBIND_CONDUIT_COLLECTION_UPDATED: collectionData"}
+{"id": "world-of-warcraft|175780", "text": "Needs summary. SOULBIND_PENDING_CONDUIT_CHANGED: nodeID, conduitID"}
+{"id": "world-of-warcraft|175781", "text": "Fired when the actively tracked location is changed. SUPER_TRACKING_CHANGED"}
+{"id": "world-of-warcraft|175785", "text": "The Saber of Dread Pirate Lockwood drops from Dread Captain Lockwood in the Siege of Boralus."}
+{"id": "world-of-warcraft|175788", "text": "Sabbath Nightshade is a skeleton and one of the Calling quest givers for the Necrolord Covenant, located in the library in the southwestern part of the Seat of the Primus."}
+{"id": "world-of-warcraft|175791", "text": "Sabatons of Rampaging Elements drop from Azerokk in the MOTHERLODE!!."}
+{"id": "world-of-warcraft|175792", "text": "SQUAAAWK! is a vulture located in Boulderfist Hall in the Arathi Highlands. It is the pet of Man-Hunter Rog."}
+{"id": "world-of-warcraft|175793", "text": "The Sabatons of the Towering Construct drop from the Towering Exterminator in Korthia."}
+{"id": "world-of-warcraft|175794", "text": "Ryuja Shockfist is a Maldraxxi gladiator located in Coldheart Interstitia."}
+{"id": "world-of-warcraft|175795", "text": "Sabatons of Measured Time are dropped by Zo'gron in Tazavesh, the Veiled Market."}
+{"id": "world-of-warcraft|175796", "text": "Saber's Eye of Agility is created with Legion Jewelcrafting (80); taught by Design: Saber's Eye of Agility."}
+{"id": "world-of-warcraft|175797", "text": "Saber's Eye of Intellect is created with Legion Jewelcrafting (80); taught by Design: Saber's Eye of Intellect."}
+{"id": "world-of-warcraft|175799", "text": "Sabatons of the Rushing Juggernaut drops from Kryxis the Voracious in Sanguine Depths."}
+{"id": "world-of-warcraft|175802", "text": "__NOTOC__ Sable Drakonid are black drakonid located in Azshara."}
+{"id": "world-of-warcraft|175803", "text": "Sable \"Soup\" can be purchased from Broker Ve'nott or Broker Ve'ken for in stacks of 5."}
+{"id": "world-of-warcraft|175804", "text": "Sabatons of the Blightcaller is a quest reward from A Grim Trophy."}
+{"id": "world-of-warcraft|175814", "text": "Saberon-Fang Shanker is looted from a Bone-Carved Dagger in ."}
+{"id": "world-of-warcraft|175816", "text": "S.B.R.B. Prototype 3 is a quest reward from Zombies vs. Super Booster Rocket Boots."}
+{"id": "world-of-warcraft|175820", "text": "The Sabatons of Ceaseless Assault drop from Pit Lord Vilemus in Aurinor and Occularus in Val."}
+{"id": "world-of-warcraft|175821", "text": "Triggered when user interface settings are ready to be queried. SETTINGS_LOADED"}
+{"id": "world-of-warcraft|175822", "text": "S.E.A.T. is crafted with Dragon Isles Engineering (); taught by..."}
+{"id": "world-of-warcraft|175823", "text": "__NOTOC__ Sabigosa is a blue whelp located in the Sapphire Enclave in Valdrakken. She lives with Zelagosa, Hildegosa, and their cat Peabody."}
+{"id": "world-of-warcraft|175825", "text": "Needs summary. SKILL_LINE_SPECS_UNLOCKED: skillLineID, tradeSkillID"}
+{"id": "world-of-warcraft|175827", "text": "__NOTOC__ Sable is a vulpin companion who is a reward from each covenant's unique covenant feature: * Path of Ascension — Purchased from Zeleskos at Elysian Hold for 250 . Requires Charmed, I'm Sure. * Abominable Stitching — Purchased from Atticus for 1,000 Reservoir Anima. Requires with the Stitchmasters, and you must craft Atticus with Abominable Stitching. * Queen's Conservatory — Can drop from Queen's Conservatory Caches given by any quality of Dutiful Spirit that had Wildseed Root Grain planted in two adjacent Anima Catalyst Plots. Requires rank 2 of the Queen's Conservatory. * Ember Court — Can drop from tributes that Kleia and Pelagos give at the end of the scenario."}
+{"id": "world-of-warcraft|175831", "text": "S.C.A.N.N.E.R. Mk3 is obtainable through the Recruit A Friend system with the fifth month."}
+{"id": "world-of-warcraft|175833", "text": "__NOTOC__ Sable Drakes are black drakes located in Sable Ridge in Azshara."}
+{"id": "world-of-warcraft|175838", "text": "Sabellian's Tunic is an appearance unlocked through the use of Ensemble: Sabellian's Battlegear Cloth Armor."}
+{"id": "world-of-warcraft|175839", "text": "Sabellian's Cloak is an appearance unlocked through the use of Ensemble: Sabellian's Battlegear Cloth Armor."}
+{"id": "world-of-warcraft|175840", "text": "Sabellian's Gloves is an appearance unlocked through the use of Ensemble: Sabellian's Battlegear Cloth Armor."}
+{"id": "world-of-warcraft|175841", "text": "Sabellian's Boots is an appearance unlocked through the use of Ensemble: Sabellian's Battlegear Cloth Armor."}
+{"id": "world-of-warcraft|175842", "text": "Sabellian's Leggings is an appearance unlocked through the use of Ensemble: Sabellian's Battlegear Cloth Armor."}
+{"id": "world-of-warcraft|175843", "text": "Sabellian's Sash is an appearance unlocked through the use of Ensemble: Sabellian's Battlegear Cloth Armor."}
+{"id": "world-of-warcraft|175844", "text": "Sabellian's Mantle is an appearance unlocked through the use of Ensemble: Sabellian's Battlegear Cloth Armor."}
+{"id": "world-of-warcraft|175845", "text": "Sabellian's Robes is an appearance unlocked through the use of Ensemble: Sabellian's Battlegear Cloth Armor."}
+{"id": "world-of-warcraft|175847", "text": "Sabatons of the Honored Valarjar is an appearance unlocked through the use of Ensemble: Chains of the Honored Valarjar."}
+{"id": "world-of-warcraft|175848", "text": "SP1-R1-73D Orthogonal Optics are created with Kul Tiran Engineering or Zandalari Engineering (100); taught by Schematic: SP1-R1-73D Orthogonal Optics."}
+{"id": "world-of-warcraft|175849", "text": "SP1-R1-73D Bionic Bifocals are created with Kul Tiran Engineering or Zandalari Engineering (100); taught by Schematic: SP1-R1-73D Bionic Bifocals."}
+{"id": "world-of-warcraft|175850", "text": "SP1-R1-73D Gearspun Goggles are created with Kul Tiran Engineering or Zandalari Engineering (100); taught by Schematic: SP1-R1-73D Gearspun Goggles."}
+{"id": "world-of-warcraft|175851", "text": "SP1-R1-73D Synthetic Specs are created with Kul Tiran Engineering or Zandalari Engineering (100); taught by Schematic: SP1-R1-73D Synthetic Specs."}
+{"id": "world-of-warcraft|175852", "text": "Sabatons of the Renewed Warpath are sold by Ransa Greyfeather in Dazar'alor for ."}
+{"id": "world-of-warcraft|175853", "text": "SI:7 Intelligence Report was written by a member of SI:7 and adressed to Mathias Shaw."}
+{"id": "world-of-warcraft|175854", "text": "Sabatons of the Chosen Dead is an appearance unlocked through the use of Ensemble: Chains of the Chosen Dead."}
+{"id": "world-of-warcraft|175856", "text": "ST may refer to: *Temple of Atal'Hakkar, commonly known as ST (standing for Sunken Temple) *Stables (Arathi Basin), a subzone in Arathi Basin that serves as a resource node. Commonly known as ST (sometimes SB is used)."}
+{"id": "world-of-warcraft|175861", "text": "SB can refer to several things in World of Warcraft. Which one do you mean? *Shadow Bolt, a Warlock Spell *Stables (Arathi Basin), a subzone in Arathi Basin that serves as a resource node. More commonly known as ST"}
+{"id": "world-of-warcraft|175862", "text": "SXSW Interactive is a part of the South by Southwest festival. In 2008, our own Kirkburn was one of the featured speakers for the Screen Burn panel \"Edit Me! How Gamers are Adopting the Wiki Way\"."}
+{"id": "world-of-warcraft|175863", "text": "State of the Art Toys or SOTA for short was a maker of a limited edition set World of Warcraft action figures, but has since discontinued making them."}
+{"id": "world-of-warcraft|175864", "text": "Were you looking for... * The Sons of the Storm? :&ndash;OR&ndash; * The Scale of the Sands?"}
+{"id": "world-of-warcraft|175865", "text": "Saberon Protector is a reputation reward; you must be with Arakkoa Outcasts to purchase it from the following vendors for : * in Stormshield * in Warspear It has a chance to summon a Saberon Bodyguard."}
+{"id": "world-of-warcraft|175866", "text": "The S.E.L.F.I.E. Camera MkII is the upgraded version of the S.E.L.F.I.E. Camera."}
+{"id": "world-of-warcraft|175868", "text": "Safety First is a neutral quest in the quest chain. In this quest, players are sent by Razzeric the goblin pilot to Gadgetzan to discuss modifications to his seaforium booster with the engineer Shreev."}
+{"id": "world-of-warcraft|175870", "text": "Sage Truthbearer was a paladin protecting King Terenas's urn alongside Uther Lightbringer and Ballador the Bright. He and his Champions of Truth were slain by Arthas in Andorhal. He would eventually make an appearance in World of Warcraft: Season of Discovery, known simply as Gregory, during a Paladin specific quest chain in Felwood however, it has been revealed that he had been returned as a Death Knight."}
+{"id": "world-of-warcraft|175871", "text": "The Salamander is a draenei unit that helped kill the fel orcs when Illidan was closing the Portals on Outland to prevent Magtheridon's demons from getting through. They are trained at the Draenei Barracks. They are found in the Warcraft III: The Frozen Throne Human campaign."}
+{"id": "world-of-warcraft|175873", "text": "s.]] Saldean's Farm is unique in Westfall in that it is the only farm that was never completely overrun by the Defias Brotherhood. Though Defias harvest golems roam the fields, Farmer Saldean and his wife Salma Saldean have stubbornly refused to leave. The farmhouse has been serving as a halfway house for years, and the couple does its best to keep their guests alive."}
+{"id": "world-of-warcraft|175874", "text": "Saenorion is a night elf leatherworking vendor located in the Craftsmen's Terrace in Darnassus. During the Burning of Teldrassil, he was caught in the chaos and could be saved."}
+{"id": "world-of-warcraft|175875", "text": "Sacred Cloth is a tailoring quest available from Meilosh at Timbermaw Hold in Felwood. You must be at least with Timbermaw Hold before it becomes available. You must also be a tailor with a minimum skill level of 280."}
+{"id": "world-of-warcraft|175876", "text": "Sageblade is crafted with Blacksmithing (300); taught by Plans: Sageblade."}
+{"id": "world-of-warcraft|175878", "text": "Sage Truthseeker is a tauren located on the lower rise in Thunder Bluff."}
+{"id": "world-of-warcraft|175880", "text": "Salfa is a furbolg quest giver located by the entrance to Timbermaw Hold in Winterspring."}
+{"id": "world-of-warcraft|175881", "text": "Sacred Candles are used in rituals that will invoke the favors of the gods. Previously, Priests used Sacred Candles as a reagent in the following, now removed spells: * Prayer of Fortitude * Prayer of Spirit * Prayer of Shadow Protection"}
+{"id": "world-of-warcraft|175882", "text": "The Sacred Burial Trousers was a quest reward from Battle of Hillsbrad (7) (Classic) which started with High Executor Darthalia in Tarren Mill in the Hillsbrad Foothills."}
+{"id": "world-of-warcraft|175883", "text": "Salamander Scale Pants are leather leg armor with intellect, stamina and fire resistance. They increase healing done by spells and restore mana every five seconds. These pants are definitely more competitive than Cenarion Leggings, and are regarded to be very slightly better than Stormrage Legguards (situationally)."}
+{"id": "world-of-warcraft|175885", "text": "Sadist's Collar drops from Gothik the Harvester in Naxxramas."}
+{"id": "world-of-warcraft|175886", "text": "Safe Fall is a passive skill which allows rogues to fall from greater heights without taking as much damage as they normally would."}
+{"id": "world-of-warcraft|175889", "text": "__NOTOC__ Sah'rhee was a ogre mage located inside Razorfen Downs within the Murder Pens section of that instance. He had been trapped by the undead quilboar and put in a cage, and would thank those who freed him from his predicament. Sah'rhee is later found in the updated version as deceased and his body can be interacted with to fight him as a ghost."}
+{"id": "world-of-warcraft|175890", "text": "The Sack of Spoils is a quest reward from Signet of the Dukes and Abyssal Signets (quest)."}
+{"id": "world-of-warcraft|175892", "text": "Sacred Mallet drops from Qiaga the Keeper at the Altar of Zul in the Hinterlands."}
+{"id": "world-of-warcraft|175893", "text": "Sage Korolusk is a tauren located at Camp Mojache in Feralas. He is an associate, or former associate, of the night elf Scholar Runethorn, who was likewise seeking Telmius Dreamseeker in Dire Maul."}
+{"id": "world-of-warcraft|175894", "text": "__NOTOC__ Salia is a succubus found in Shadow Hold in Felwood. She and Moora are servants of Shadow Lord Fel'dan. Andalar Shadevale wants them all killed."}
+{"id": "world-of-warcraft|175895", "text": "Sacred Protector is a quest reward from The Scarlet Oracle, Demetria and Order Must Be Restored."}
+{"id": "world-of-warcraft|175897", "text": "__NOTOC__ Sailor Melinan is a blood elf drink vendor located at the fortified camp just east of Sunsail Anchorage in Eversong Woods."}
+{"id": "world-of-warcraft|175898", "text": "This item is sold by Logistics Officer Ulrike in Honor Hold. You must have reputation with Honor Hold to purchase."}
+{"id": "world-of-warcraft|175900", "text": "Sacred Duty is the Protection paladin secondary stat attunement, focusing on Haste."}
+{"id": "world-of-warcraft|175904", "text": "Sack of Murloc Heads is provided by Lieutenant Farren Orinelle as a quest objective for delivery to Marshal Redpath in Farren's Proof (2)."}
+{"id": "world-of-warcraft|175906", "text": "Sagebrush Girdle is a quest reward from Vyletongue Corruption"}
+{"id": "world-of-warcraft|175910", "text": "Sacred Feather Vest is a quest reward from Grillok \"Darkeye\" (quest) and Zeth'Gor Must Burn! (Alliance)."}
+{"id": "world-of-warcraft|175912", "text": "The Sacred Frostsaber Meat drops from Frostsabers in northern Winterspring. It has a very low drop rate (approximately 1%-2%)."}
+{"id": "world-of-warcraft|175917", "text": "The Sack of Corn can be found in the little camp at Wavestrider Beach in Tanaris."}
+{"id": "world-of-warcraft|175925", "text": "The title sage is a term used by many races including the tauren, pandaren, arakkoa, mogu and others."}
+{"id": "world-of-warcraft|175926", "text": "Sailing ships are a type of ships. When Princess Poobah was trapped on the Jaguero Isle, she saw large sailing ships in the distance."}
+{"id": "world-of-warcraft|175939", "text": ".]] The term sailor generically refers to those who sail the seas of Azeroth and their practices range from benign to despicable. Humans are well known for their sailing prowess, but many races have proficiency on the waters of Azeroth. The basic sailor, sometimes called a crewman, performs all the basic duties aboard a ship that usually don't involve cooking food or maintaining machines aboard. The head cook on a ship is usually called the galley chief. The engineer maintains machines and mechanisms. The leaders of most sailors and the boats they serve on are called captains. The more skilled among them are usually called mates and navigators who serve their captain and act as the captain's"}
+{"id": "world-of-warcraft|175940", "text": "Sahvan Bloodshadow is a Forsaken found walking in Brill in Tirisfal Glades. Occasionally he stops at a grave in the cemetery before continuing along his path."}
+{"id": "world-of-warcraft|175941", "text": "A Sack of Homemade Bread is a package of five loaves of pledge gifts, and is the first hierarchical combining of the pledge items given out by various Stormwind NPCs during the Love is in the Air seasonal event. All of the Love is in the Air pledge gift packages are non-functional as regards their name and picture. You cannot obtain bread from a Sack of Homemade Bread. __NOTOC__"}
+{"id": "world-of-warcraft|175942", "text": "Sack of Supplies is contained in Stolen Supply Sack in Durotar."}
+{"id": "world-of-warcraft|175944", "text": "Sage Palerunner is a tauren located at Camp Mojache in Feralas."}
+{"id": "world-of-warcraft|175945", "text": "Sack of Meats are sacks located throughout the Magram Village in Desolace."}
+{"id": "world-of-warcraft|175948", "text": "The Sacred Fire of Life can be found on Darkcloud Pinnacle in Thousand Needles."}
+{"id": "world-of-warcraft|175949", "text": "The Sacred Artifact is recovered by players deep in the Utgarde Catacombs before being handed off to Lord Irulon Trueblade and Tirion Fordring in Valgarde. It is then revealed that the artifact is in fact the Ashbringer."}
+{"id": "world-of-warcraft|175950", "text": "Salanar the Horseman is the leader of the Dark Riders of Acherus. He is in charge of equipping the new Death Knights with the means to acquire their Deathchargers. His steed Fury can be found nearby during Phase One. He is able to send players to the Realm of Shadows when they are attempting to claim their own Deathcharger. While in the Realm of Shadows one can find Shadowy Tormentors and Dark Riders of Acherus all around the area. During Phase Two, he is found, mounted on Fury, near the stage Prince Valanar is standing on while giving a speech to the death knights. His Dark Riders, now friendly, are found patrolling around. After the revolt against the Lich King, Salanar returned to the Rea"}
+{"id": "world-of-warcraft|175952", "text": "Sagan can be found in Area 52 in the Netherstorm. It is Ravandwyr's familiar."}
+{"id": "world-of-warcraft|175953", "text": "Sage Aeire is a taunka in Taunka'le Village in the Borean Tundra."}
+{"id": "world-of-warcraft|175956", "text": "__NOTOC__ Sairuk is a tuskarr Kalu'ak faction quartermaster found at Moa'ki Harbor in the Dragonblight. He is found southeast of the inn."}
+{"id": "world-of-warcraft|175957", "text": "Salandria's Shiny Copper Coin is fished from the fountain in Dalaran."}
+{"id": "world-of-warcraft|175958", "text": "Sage Edan is a level 71 taunka quest giver at Camp Winterhoof in the Howling Fjord."}
+{"id": "world-of-warcraft|175960", "text": "Sacred Mojo is dropped by Drakari Protectors and Oracles found in the Drakil'jin Ruins. It is used to summon the Image of Drakuru for Voices From the Dust."}
+{"id": "world-of-warcraft|175961", "text": "__NOTOC__ Sage Earth and Sky is a taunka quest giver located inside Taunka'le Village in the Borean Tundra."}
+{"id": "world-of-warcraft|175968", "text": "Sage Paluna is a taunka found within Camp Oneqwah in Grizzly Hills. Tormak the Scarred asked her to accompany him on an adventure across Azeroth. They eventually ended up on , appearing in Frostwall if the stables are built."}
+{"id": "world-of-warcraft|175970", "text": "Sage Highmesa is a taunka located in the Borean Tundra. In order to obtain her quests (beginning with the quest A Proper Death) you must first complete Sage Highmesa is Missing which is available in Taunka'le Village."}
+{"id": "world-of-warcraft|175971", "text": "Sage Mistwalker is a taunka quest giver overlooking the Steel Gate site in Howling Fjord."}
+{"id": "world-of-warcraft|175972", "text": "Safe Deposit is a character achievement earned for buying the remaining bank slots for bank mules."}
+{"id": "world-of-warcraft|175978", "text": "__NOTOC__ Sabriana Sorrowgaze is a high elf located near the Magus Commerce Exchange in Dalaran. She can provide directions for various locations in the Dalaran."}
+{"id": "world-of-warcraft|175979", "text": "__NOTOC__ Saedelin Whitedawn is a blood elf paladin who wanders around Dalaran and acts like a player (using Hearthstone, training professions, checking the bank, etc.)."}
+{"id": "world-of-warcraft|175984", "text": ".]] Saegan was a dwarven fisherman who supplied the Huntress Swiftriver with fish during the War Effort."}
+{"id": "world-of-warcraft|175987", "text": "Sailor's Leggings is a quest reward from The Enemy of My Enemy (Lost Isles)."}
+{"id": "world-of-warcraft|175988", "text": "Saldean's Working Gloves is a quest reward from It's Alive! (Westfall)."}
+{"id": "world-of-warcraft|175989", "text": "Sacred Nectar can be used at Aviana's Burial Circle to summon an image of Aviana."}
+{"id": "world-of-warcraft|175990", "text": "Sage's Lightning Rod is provided as an objective for Weakness to Lightning."}
+{"id": "world-of-warcraft|175992", "text": "Sacrificed Trolls are skeletal trolls found in Zul'Gurub, in the sacrificial pit near Jin'do the Hexxer. They respawn quickly when killed."}
+{"id": "world-of-warcraft|175993", "text": "The Sacred Cord is provided as an objective for A Collection of Heads. It is used to create the Gurubashi Head Collection."}
+{"id": "world-of-warcraft|175996", "text": "Safety Goggles are a quest reward from A Strange Request (Badlands)."}
+{"id": "world-of-warcraft|176006", "text": "The Sack of Grain is a quest reward from They Took Me Pants!"}
+{"id": "world-of-warcraft|176007", "text": "The Sacred Wildhammer Ale is looted from the Sacred Ale Tap in the Dunwald Ruins in the Twilight Highlands."}
+{"id": "world-of-warcraft|176009", "text": "Safeguard Spaulders is a quest reward from Draconic Mending."}
+{"id": "world-of-warcraft|176011", "text": ".]] Salhet is a tol'vir and a soldier of the Sword of Ramkahen (the Ramkahen army). Until the player arrives, he is considered the weakest link of the Sword of Ramkahen, and is often sent by High Commander Kamses to \"special missions\" (training his skills on killing hyenas). He is not a very good archer and also can't connect with his sword, missing most of his targets. After his failure in killing the hyenas, he tells the player that ever since he was a cub he wanted to be a general and was eager to join the army, but as you've seen he lacks the coordination and skill a combat soldier needs. However, he is sent so often to kill hyenas that he befriended some lions and trained them to do his"}
+{"id": "world-of-warcraft|176013", "text": "Sacrificial Blade is a quest reward from Demon Seed (quest)."}
+{"id": "world-of-warcraft|176019", "text": "Saboteur Kip'tilak is the first boss of Gate of the Setting Sun."}
+{"id": "world-of-warcraft|176021", "text": "Sage Liao is a pandaren located in Zouchin Strand in Kun-Lai Summit. Liao is a healer in the strand's village where he lived with his family and friends. Having been wounded and left on the beach near his house by the Blackmane Mercenaries when the Zandalari Invaders invaded Zouchin, his cousin Li Hai sent an adventurer to check up on Liao. Being the sole survivor, the adventurer healed him. Once on his feet, he asked the adventurer to bring justice by killing Captain Ripflesh and his gnoll mercenaries. He also resolved to bury the dead, and for that he needed materials for an incense and graves. Once justice was enacted and materials collected, Liao sent the adventurer back to inform Li Hai"}
+{"id": "world-of-warcraft|176022", "text": "Saito the Sleeping Shadow is a pandaren located at Longying Outpost in Townlong Steppes."}
+{"id": "world-of-warcraft|176023", "text": "Sage Ja-Ro is a pandaren located in the Jade Temple Grounds in the Jade Forest."}
+{"id": "world-of-warcraft|176028", "text": "Scout Dorli is a gnome quest giver located at the Farstrider Lodge in Loch Modan. She loves to play it safe by annihilating Bobcats and collecting Stabthistle Seeds to reduce the seed related injuries among hunters. She does not understand what hunting in the wild means."}
+{"id": "world-of-warcraft|176029", "text": "__NOTOC__ Sagepaw is a rare gnoll located west of Thelsamar. He is part of the Axis of Awful and is the leader of the Mosshide gnolls in Loch Modan."}
+{"id": "world-of-warcraft|176041", "text": "Sacks of Expired Pet Food are sometimes found in Sack of Pet Supplies."}
+{"id": "world-of-warcraft|176042", "text": "Sahn Tidehunter is a level 91 rare jinyu found in the Vale of Eternal Blossoms. His notable drop is Aqua Jewel, an item that grants underwater breathing and increased swim speed for 10 minutes, on a one hour cooldown. He can be found kneeling by the corpse of Carapin, a giant crab. Sahn is a pandarian champion."}
+{"id": "world-of-warcraft|176044", "text": "Safari Hat is a reward from the battle pet achievement Taming the World."}
+{"id": "world-of-warcraft|176072", "text": "Sagai is a jungle troll located at the Warsong Hold in the Borean Tundra."}
+{"id": "world-of-warcraft|176080", "text": "Sailor Zazzuk's 180-Proof Rum is found at in the tin shack between the two oil containers in Pinchwhistle Point in southern Spires of Arak. Interact with the object to pick up roughly ten bottles of rum."}
+{"id": "world-of-warcraft|176082", "text": "The Sack of Starfish is from the Throne of the Tides expansion of the TCG. The item can be redeemed at Landro Longshot in Booty Bay."}
+{"id": "world-of-warcraft|176085", "text": "The Safari Lounge Cushion may be found in the Stolen Present under the tree from December 25 to January 2 during the Feast of Winter Veil."}
+{"id": "world-of-warcraft|176086", "text": "__NOTOC__ Salamander Lords are salamander creeps that can be encountered in the Dungeon and Underground tilesets."}
+{"id": "world-of-warcraft|176087", "text": "__NOTOC__ Salamander Viziers are salamander creeps that can be encountered in the Dungeon and Underground tilesets."}
+{"id": "world-of-warcraft|176089", "text": "Salamander Hatchlings are salamander creeps that can be encountered in the Dungeon and Underground tilesets."}
+{"id": "world-of-warcraft|176092", "text": "The Sack of Spectral Spiders drops from Arachnis, a rare spider that spawns in Lunarfall and Frostwall during Hallow's End, in garrisons that have purchased and used the Creepy Crawlers. Note that the condition applies to the garrison, and not to the player, so realm hopping using Group Finder will work to get to a garrison that has the spider. Arachnis can only be looted once daily, but respawns every few minutes. If Arachnis does not drop the toy, do not loot it, and wait for the next respawn."}
+{"id": "world-of-warcraft|176095", "text": "__NOTOC__ Sal'Vendris is a nathrezim located at the in Tanaan Jungle."}
+{"id": "world-of-warcraft|176097", "text": "Sahale is a tauren follower located at Frostwall in Frostfire Ridge. He can only be recruited using the Headhunter's Harvest from Frostwall Tavern. Prior to the Battle for the Broken Shore, like many other followers, he appears at the Dranosh'ar Blockade at the sparring ring, where champions duel in preparation for the assault on the Broken Shore."}
+{"id": "world-of-warcraft|176099", "text": "Sael'orn is an aranasi and one of the possible end bosses of the Assault on Violet Hold dungeon."}
+{"id": "world-of-warcraft|176100", "text": "Sack o' Frogs are used for the quest Frogs Away! to place attuned frogs on Echo Isles."}
+{"id": "world-of-warcraft|176103", "text": "Saga of the Shield Seeker is an in-game book found at Shield Hill in Howling Fjord. It's related to the Truthguard quest chain."}
+{"id": "world-of-warcraft|176106", "text": "A Sack of Salvaged Goods contains a small amount of Garrison Resources and, rarely, trade goods."}
+{"id": "world-of-warcraft|176108", "text": "The Saga of the Valarjar is a stone tablet found at Skyhold which contains lore about the warrior artifacts."}
+{"id": "world-of-warcraft|176110", "text": "Saboteur Aronson is a forsaken found in Stormheim. He is hanging from a tree. Houndmaster Ely interrogates him."}
+{"id": "world-of-warcraft|176111", "text": "__NOTOC__ Salan Sunthread is a blood elf shirt vendor located at the Threads of Fate in Dalaran."}
+{"id": "world-of-warcraft|176112", "text": "Sacrifice of the Just is a Protection paladin artifact trait. It is linked to the Faith's Armor (artifact trait) and Scatter the Shadows traits."}
+{"id": "world-of-warcraft|176115", "text": "__NOTOC__ Sacheverell Leburque is a nightborne located at the Twilight Vineyards in Suramar."}
+{"id": "world-of-warcraft|176117", "text": "Saga of the Shadowblade is a hidden achievement awarded for completing the Rogue Campaign and earning the Rogue Class Mount."}
+{"id": "world-of-warcraft|176118", "text": "Sorcerer-Lord Salavass was the leader of the Skalaxi order, a faction of the Apexis arakkoa, during the final years of the civilization's existence around 1,200 years before the opening of the Dark Portal."}
+{"id": "world-of-warcraft|176121", "text": "The Sacristy of Elune is the top floor of the Cathedral of Eternal Night and thus the Tomb of Sargeras itself. Domatrax and Mephistroth both attempted to stop the Armies of Legionfall from placing the Aegis of Aggramar on the pedestal here."}
+{"id": "world-of-warcraft|176122", "text": "The Sacks of Roasted Grain are found in the Imperial Granary in the Valley of the Four Winds."}
+{"id": "world-of-warcraft|176123", "text": "__NOTOC__ Sadeen is a Lightforged draenei located aboard the Vindicaar on Krokuun."}
+{"id": "world-of-warcraft|176124", "text": "Saddle Sore is a Player vs. Player achievement earned from completing Bareback Brawl in Stormheim 20 times."}
+{"id": "world-of-warcraft|176125", "text": "Salethan the Broodwalker is a felbat located at Screaming Cliffs on the Broken Shore."}
+{"id": "world-of-warcraft|176130", "text": "Salhet's Lions are a trio of lions located atop Sunwatcher's Ridge in Uldum. As the name suggests, they have been befriended by Salhet and trained to fight for him. During Salhet the Tactician, players take the role of Salhet and command the lions to kill packs of approaching Bloodsnarl Hyenas."}
+{"id": "world-of-warcraft|176133", "text": "{{tooltip-wc3 |mode={} |arg={} |name=Sacrificial Skull }} Sacrificial Skull creates an area of Blight at a target location."}
+{"id": "world-of-warcraft|176135", "text": "Sagehold is a settlement in Stormsong Valley, nestled in the Tidebreak Foothills and below Stormwatch Peak. The Tidesages study here. It is overrun with k'thir and n'raqi, led by Wavespeaker Reid. The Rod of Tides is kept here. After the death of the Wavespeaker, the town is under the control of the Kul Tirans and the Alliance under the leadership of Captain Malia and Commander Augustine. Sagehold was attacked by the Horde shortly afterwards, who intended to leave it for Lord Stormsong's tidesages to reclaim."}
+{"id": "world-of-warcraft|176136", "text": "Safety Valve is a reward from Preparations for Invasion: Ship-Shape."}
+{"id": "world-of-warcraft|176140", "text": "Sacks of Herbs are created with Alchemy (10); taught by trainers."}
+{"id": "world-of-warcraft|176141", "text": "The Sack of \"Discarded\" Hearthstones can be purchased from Griftah in Dazar'alor for . It is a currency for Much-Too-Hot Pepper."}
+{"id": "world-of-warcraft|176143", "text": "Sack of Solid Stone is exactly that, a sack of solid stone. This item is a requirement for A Huge Package."}
+{"id": "world-of-warcraft|176149", "text": "Sailor Macias Jr. is a human crewman of The Relentless, the boat that runs between Stormwind Harbor and Boralus."}
+{"id": "world-of-warcraft|176155", "text": "Sailor's Pie is created with Kul Tiran and Zandalari Cooking (50); taught by Recipe: Sailor's Pie."}
+{"id": "world-of-warcraft|176156", "text": "Sacred Timber was looted from Wood Piles at the Ruins of Mathystra in Darkshore."}
+{"id": "world-of-warcraft|176157", "text": "Permanently enchant bracers to create a shield while using a hearthstone while in Kul Tiras or Zandalar."}
+{"id": "world-of-warcraft|176158", "text": "The Sacrosanct item collection is awarded from completing world quests in Darkshore during the War of the Thorns. Though not a proper set (with no set bonuses), all nine pieces share a name:"}
+{"id": "world-of-warcraft|176159", "text": "Sailcloth Waistband drops from the Council o' Captains encounter in Freehold."}
+{"id": "world-of-warcraft|176160", "text": "The Sailing Master's Sash is a reputation reward; you must be with the Proudmoore Admiralty to purchase this item from Provisioner Fray in Boralus for ."}
+{"id": "world-of-warcraft|176163", "text": "Sagging Shoulderpads of the Merciless drop from chess pieces in Return to Karazhan."}
+{"id": "world-of-warcraft|176165", "text": "Sacker Bhatgo is a skeletal troll conversing with Toe-Taker Jakko in the central Port of Zem'lan in Vol'dun."}
+{"id": "world-of-warcraft|176166", "text": "The Sacks of Booty are located in Daelin's Gate in Tiragarde Sound."}
+{"id": "world-of-warcraft|176169", "text": "Sacha Dhawan is a voice actor who has provided several voices for World of Warcraft."}
+{"id": "world-of-warcraft|176170", "text": "Sailor's Choice Coffee is sold by Barserver Aspen and the Bored Barkeep in Boralus."}
+{"id": "world-of-warcraft|176173", "text": "__NOTOC__ The Sacred Sands is a partially sand-covered area that extends west from the central plaza of Skycallers' Spire in northern Vol'dun. It appears to primarily be a haunt for the Faithless' scrollkeepers, and is also where the Faithless hoard several ancient artifacts of Sethraliss. Tales of de Loa: Sethraliss is lying next to an altar in the northernmost corner of the Sacred Sands, guarded by a scrollkeeper and spireguard."}
+{"id": "world-of-warcraft|176177", "text": "The Sailing Wolves are a bandit group located in Tiragarde Sound. Wolf's Den was their outpost until it was taken by the Horde."}
+{"id": "world-of-warcraft|176179", "text": "__NOTOC__ Sacrificed Vilebranches are deceased forest trolls located at Jintha'Alor in the Hinterlands."}
+{"id": "world-of-warcraft|176181", "text": "Sal Atwater, also known as Old Atwater, is a human located at Atwater Stead in Stormsong Valley. After the re-emergence of the Dragon Isles, Sal and Dorian can be found in Iskaara in the Azure Span. He is eating a soup."}
+{"id": "world-of-warcraft|176182", "text": "Sail Canvases are looted from Canvas Bolts and Crates of Canvas in Tiragarde Sound."}
+{"id": "world-of-warcraft|176186", "text": "Safe Haven is a cinematic that sees Varok Saurfang traveling to Nagrand to seek out Thrall and ask him to fight for the Horde's honor. Set before the events of Patch 8.2: Rise of Azshara, Safe Haven was released on May 15, 2019."}
+{"id": "world-of-warcraft|176188", "text": "__NOTOC__ Sage Agates are obtained by Prospecting Osmenite Ore."}
+{"id": "world-of-warcraft|176190", "text": "Sacks of Fish Bones are looted from Blingtron 7000 Gift Package."}
+{"id": "world-of-warcraft|176194", "text": "Salgos the Eternal is an unbound earth elemental summoned in Mardivas's Laboratory in Nazjatar."}
+{"id": "world-of-warcraft|176195", "text": "Salgos' Volatile Basher drops from Salgos the Eternal in Mardivas's Laboratory in Nazjatar."}
+{"id": "world-of-warcraft|176197", "text": "Sacrificed Drudges are deceased blood trolls located in Nazmir."}
+{"id": "world-of-warcraft|176198", "text": "The Sacrosanct Barbute was awarded from Darkshore world quests and looted from War Supply Chests during the War of the Thorns."}
+{"id": "world-of-warcraft|176199", "text": "The Sacrosanct Pauldrons were awarded from Darkshore world quests and looted from War Supply Chests during the War of the Thorns."}
+{"id": "world-of-warcraft|176200", "text": "The Sacrosanct Breastplate was awarded from Darkshore world quests and looted from War Supply Chests during the War of the Thorns."}
+{"id": "world-of-warcraft|176201", "text": "The Sacrosanct Vambraces were awarded from Darkshore world quests and looted from War Supply Chests during the War of the Thorns."}
+{"id": "world-of-warcraft|176202", "text": "The Sacrosanct Gauntlets were awarded from Darkshore world quests and looted from War Supply Chests during the War of the Thorns."}
+{"id": "world-of-warcraft|176203", "text": "The Sacrosanct Faulds were awarded from Darkshore world quests and looted from War Supply Chests during the War of the Thorns."}
+{"id": "world-of-warcraft|176204", "text": "The Sacrosanct Legplates were awarded from Darkshore world quests and looted from War Supply Chests during the War of the Thorns."}
+{"id": "world-of-warcraft|176205", "text": "The Sacrosanct Greaves were awarded from Darkshore world quests and looted from War Supply Chests during the War of the Thorns."}
+{"id": "world-of-warcraft|176206", "text": "The Sacrosanct Scepter was awarded from Darkshore world quests and looted from War Supply Chests during the War of the Thorns."}
+{"id": "world-of-warcraft|176207", "text": "The Sacrosanct Sword was awarded from Darkshore world quests and looted from War Supply Chests during the War of the Thorns."}
+{"id": "world-of-warcraft|176208", "text": "The Sacrosanct Warmaul was awarded from Darkshore world quests and looted from War Supply Chests during the War of the Thorns."}
+{"id": "world-of-warcraft|176209", "text": "The Sacrosanct Protector was awarded from Darkshore world quests and looted from War Supply Chests during the War of the Thorns."}
+{"id": "world-of-warcraft|176211", "text": "The Sacred Ale Tap is located in the Dunwald Ruins in the Twilight Highlands."}

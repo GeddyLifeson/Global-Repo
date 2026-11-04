@@ -1,0 +1,250 @@
+{"id": "world-of-warcraft|151186", "text": "This appears to be fired when a player is gkicked, gquits, etc. PLAYER_GUILD_UPDATE: unitTarget"}
+{"id": "world-of-warcraft|151187", "text": "Fired when pet spells are dragged from the pet spellbook or the PetActionBar. PET_BAR_SHOWGRID"}
+{"id": "world-of-warcraft|151188", "text": "Fired when a specific party member is still connected. PARTY_MEMBER_ENABLE: unitTarget"}
+{"id": "world-of-warcraft|151189", "text": "Fired when the player's pet begins attacking. PET_ATTACK_START"}
+{"id": "world-of-warcraft|151190", "text": "Fired when the player is alive after being a ghost. PLAYER_UNGHOST"}
+{"id": "world-of-warcraft|151191", "text": "Triggered immediately before on login and UI Reload, but NOT when entering/leaving instances. PLAYER_LOGIN"}
+{"id": "world-of-warcraft|151192", "text": "Fired when the player's insignia is removed in a Battleground. PLAYER_SKINNED: hasFreeRepop"}
+{"id": "world-of-warcraft|151195", "text": "Fired when a petition is closed, e.g. by you signing it. PETITION_CLOSED"}
+{"id": "world-of-warcraft|151196", "text": "Fired when pet spells are dropped into the PetActionBar. PET_BAR_HIDEGRID"}
+{"id": "world-of-warcraft|151197", "text": "Fires when a pre-rendered movie should be played. PLAY_MOVIE: movieID"}
+{"id": "world-of-warcraft|151199", "text": "Fired when the player's spec has changed. PLAYER_SPECIALIZATION_CHANGED: unitTarget"}
+{"id": "world-of-warcraft|151200", "text": "Fired when a player engages auto-attack. Note that firing a gun or a spell, or getting aggro, does NOT trigger this event. PLAYER_ENTER_COMBAT"}
+{"id": "world-of-warcraft|151202", "text": "Fired when the player starts or stops resting, i.e. when entering/leaving inns/major towns. PLAYER_UPDATE_RESTING"}
+{"id": "world-of-warcraft|151203", "text": "Fired whenever the player gains or loses money. PLAYER_MONEY"}
+{"id": "world-of-warcraft|151204", "text": "Fired when the player's XP is updated (due quest completion or killing). PLAYER_XP_UPDATE: unitTarget"}
+{"id": "world-of-warcraft|151205", "text": "Fired when a pet spell cooldown starts. It is not called when the cooldown ends. PET_BAR_UPDATE_COOLDOWN"}
+{"id": "world-of-warcraft|151206", "text": "Fires whenever the player is unable to control the character. Examples are when afflicted by fear, mind controlled, or when using a taxi. PLAYER_CONTROL_LOST"}
+{"id": "world-of-warcraft|151209", "text": "Fired when a specific party member is offline or dead. PARTY_MEMBER_DISABLE: unitTarget"}
+{"id": "world-of-warcraft|151211", "text": "Called when a buff or debuff is either applied to a unit or is removed from the player. (Further details to follow, study needed). Also fired when you start eating and/or drinking (which really is only a buff being applied like any other). \"PLAYER_AURAS_CHANGED\", Druid"}
+{"id": "world-of-warcraft|151212", "text": "This event is fired whenever the player's focus target (/focus) is changed, including when the focus target is lost or cleared. PLAYER_FOCUS_CHANGED"}
+{"id": "world-of-warcraft|151213", "text": "Fired when a player logs out and possibly at other situations as well. PLAYER_LEAVING_WORLD"}
+{"id": "world-of-warcraft|151214", "text": "Fired whenever you enter combat, as normal regen rates are disabled during combat. This means that either you are in the hate list of a NPC or that you've been taking part in a pvp action (either as attacker or victim). PLAYER_REGEN_DISABLED"}
+{"id": "world-of-warcraft|151215", "text": "Fires when a player invite you to party. PARTY_INVITE_REQUEST: name, isTank, isHealer, isDamage, isNativeRealm, allowMultipleRoles, inviterGUID, questSessionActive"}
+{"id": "world-of-warcraft|151217", "text": "Fired when you are shown a petition to create a guild or arena team. This can be due to someone offering you to sign it, or because of you clicking your own charter in your inventory. See . PETITION_SHOW"}
+{"id": "world-of-warcraft|151218", "text": "Fired after ending combat, as regen rates return to normal. Useful for determining when a player has left combat. This occurs when you are not on the hate list of any NPC, or a few seconds after the latest pvp attack that you were involved with. PLAYER_REGEN_ENABLED"}
+{"id": "world-of-warcraft|151219", "text": "Fired when the player is camping (logging out). PLAYER_CAMPING"}
+{"id": "world-of-warcraft|151220", "text": "Fired when a battle pet levels. PET_BATTLE_LEVEL_CHANGED: owner, petIndex, newLevel"}
+{"id": "world-of-warcraft|151221", "text": "Fires after the event, when control has been restored to the player. PLAYER_CONTROL_GAINED"}
+{"id": "world-of-warcraft|151223", "text": "Fired when the player changes between dual talent specs, and possibly when learning or unlearning talents and when a player levels up, before is fired. PLAYER_TALENT_UPDATE"}
+{"id": "world-of-warcraft|151224", "text": "Fired when you get credit for killing an enemy player. Only honorable kills will trigger this event. PLAYER_PVP_KILLS_CHANGED: unitTarget"}
+{"id": "world-of-warcraft|151225", "text": "This event is fired when the players gear changes. PLAYER_EQUIPMENT_CHANGED: equipmentSlot, hasCurrent"}
+{"id": "world-of-warcraft|151226", "text": "Fired when a battle pet gains experience during a pet battle. PET_BATTLE_XP_CHANGED: owner, petIndex, xpChange"}
+{"id": "world-of-warcraft|151227", "text": "Fired when a team's active battle pet changes. PET_BATTLE_PET_CHANGED: owner"}
+{"id": "world-of-warcraft|151228", "text": "Fired at the end of the final round of a pet battle. PET_BATTLE_FINAL_ROUND: owner"}
+{"id": "world-of-warcraft|151229", "text": "Fired when the pet battle is over, and all combat actions have been resolved. PET_BATTLE_OVER"}
+{"id": "world-of-warcraft|151230", "text": "Fired twice when the client exists a Pet Battle. PET_BATTLE_CLOSE"}
+{"id": "world-of-warcraft|151231", "text": "Fired when a pet in the journal is caged. PET_JOURNAL_PET_DELETED: battlePetGUID"}
+{"id": "world-of-warcraft|151232", "text": "Fired when the pet journal is updated. PET_JOURNAL_LIST_UPDATE"}
+{"id": "world-of-warcraft|151233", "text": "__NOTOC__ Pack Boars are boars located in the Burning Glacier in Frostfire Ridge. They follow Bladespire Lookouts."}
+{"id": "world-of-warcraft|151235", "text": "The Pack of Hearthstone Cards was sold by Benjamin Brode at Lunarfall and Frostwall during the Warlords of Draenor beta, but did not make it live. It is possible the concept of the item was split into the Winning Hand and the Hearthstone Board for the release."}
+{"id": "world-of-warcraft|151236", "text": "Fired when a pet battle ends, if the player successfully captured a battle pet. PET_BATTLE_CAPTURED: owner, petIndex"}
+{"id": "world-of-warcraft|151237", "text": "An unobtainable item that remains in the game files. It was likely involved with the testing of the Abrogator Stones in some way."}
+{"id": "world-of-warcraft|151239", "text": "Packleader Vitale is a worgen located in Lunarfall in . He appears in the garrison's Town Hall when a level 3 Barracks is built."}
+{"id": "world-of-warcraft|151245", "text": "The Bag of Shiny Things is a reward for completing the following daily fishing quests at the Fishing Shack in the Garrisons: *Abyssal Gulper Eel (quest) *Blackwater Whiptail (quest) *Blind Lake Sturgeon (quest) *Fat Sleeper (quest) *Fire Ammonite (quest) *Jawless Skulker (quest)"}
+{"id": "world-of-warcraft|151258", "text": "__NOTOC__ Pain Mistress Nikta is a man'ari eredar who appears alongside Lady Tyrana to attack the warlock player in Felsoul Hold in Suramar during Dark Whispers (quest)."}
+{"id": "world-of-warcraft|151259", "text": "Begins the transition between the current UI to the Pet Battle one. PET_BATTLE_OPENING_START"}
+{"id": "world-of-warcraft|151260", "text": "Event fired at the end of camera transitioning for the pet battle PET_BATTLE_OPENING_DONE"}
+{"id": "world-of-warcraft|151261", "text": "Painful Truths is a Protection paladin artifact trait. It is linked to the Resolve of Truth and Consecration in Flame (artifact trait) traits."}
+{"id": "world-of-warcraft|151262", "text": "The Pages from The Purple Hills of Eredath can be looted from Demonic Archaeology Find digsites in Val'sharah, while one is provided for the quest. It is also dropped by Wyrmtongue Collectors in that zone. Forty pages are needed to be turned into a Chapter from The Purple Hills of Eredath."}
+{"id": "world-of-warcraft|151264", "text": "Pain is in Your Mind is a Discipline priest artifact trait. It is linked to the Vestments of Discipline, Doomsayer (priest artifact trait) and Barrier for the Devoted traits."}
+{"id": "world-of-warcraft|151266", "text": "Pact of the Val'kyr is a carrier located at the Frostwall Shipyard in Frostfire Ridge."}
+{"id": "world-of-warcraft|151267", "text": "Paal the Cazarian is an eredar located on the Dreadsoul above the Broken Shore."}
+{"id": "world-of-warcraft|151268", "text": "Pacifying Dust dropped from Royal Teromoths in Terokkar Forest."}
+{"id": "world-of-warcraft|151270", "text": "Pa'ku, also known as the Master of Winds, is a pterrordax loa worshiped by the Zandalari. Pa'ku is the master of the Zandalari's navy, and her high priest is Hexlord Raal. The followers of Pa'ku and Gonk do not get along."}
+{"id": "world-of-warcraft|151271", "text": "Packs are the standard organization for feral worgen, as well as some other beast or beast-like creatures, like gnolls."}
+{"id": "world-of-warcraft|151277", "text": "__NOTOC__ Pack Leader Asenya is a wolf located in the Snowpelt Den in Tiragarde Sound."}
+{"id": "world-of-warcraft|151278", "text": "PAX East is a trade fair for a released video game held annually at the Koelnmesse in Cologne, Germany."}
+{"id": "world-of-warcraft|151279", "text": "The Pack of Rats is provided as an objective for Mighty Grokkfist."}
+{"id": "world-of-warcraft|151280", "text": "The Pack of Many Pockets is a reputation reward; you must be with the Voldunai to purchase this item from Hoarder Jena in Vol'dun for . Upon changing factions, the bag is renamed to Desert Rucksack and loses its flavor text and reputation requirements."}
+{"id": "world-of-warcraft|151282", "text": "This event only fires when bank bags slots are purchased. It no longer fires when bags in the slots are changed. Instead, when the bags are changed, will fire, and arg1 will be NUM_BANKGENERIC_SLOTS + BagIndex. PLAYERBANKBAGSLOTS_CHANGED"}
+{"id": "world-of-warcraft|151284", "text": "Fired when the One of the slots in the player's 24 bank slots has changed, or when any of the equipped bank bags have changed. Does not fire when an item is added to or removed from a bank bag. PLAYERBANKSLOTS_CHANGED: slot"}
+{"id": "world-of-warcraft|151285", "text": "Removed as of 3.02. Use UNIT_COMBO_POINTS instead. \"PLAYER_COMBO_POINTS\", arg1 Fired when your combo points change. ;arg1: always \"player\", not the number of combo points you have. Use the GetComboPoints() API to get the exact number of combo points you have. Note: This event fires for Warriors at seemingly random times."}
+{"id": "world-of-warcraft|151288", "text": "(SEEMS TO BE OBSOLETE - use UNIT_PET, ... = 'player') Fired when a player's pet changes. \"PLAYER_PET_CHANGED\""}
+{"id": "world-of-warcraft|151291", "text": "Pachu is a Zandalari troll located at the Zocalo in Dazar'alor."}
+{"id": "world-of-warcraft|151292", "text": "button location in Gnomeregan]] PUSH ME! is a tiny button that appears on the back of the first column to the left in the Tinkers' Court of Gnomeregan after defeating Mekgineer Thermaplugg. Pushing it will spawn the hidden max-level boss Endgineer Omegaplugg."}
+{"id": "world-of-warcraft|151293", "text": "Pack of Ghouls are ghouls located in Acherus: The Ebon Hold near the Broken Shore, trained by Dark Summoner Marogh. They serve as the troops accompanying the Class Hall champions."}
+{"id": "world-of-warcraft|151295", "text": "Packaged Ceremonial Karabor Finery was bought from Vindicator Krethos at Lion's Watch in Tanaan Jungle for . It required reputation to purchase."}
+{"id": "world-of-warcraft|151296", "text": "Pa'ku Windrider Girdle is a quest reward from world quests on Zandalar."}
+{"id": "world-of-warcraft|151297", "text": "PAX West is a trade fair for a released video game held annually at the Seattle in Washington, USA."}
+{"id": "world-of-warcraft|151298", "text": "Pa'ku-Blessed Greatbow is a quest reward from Dire Situation."}
+{"id": "world-of-warcraft|151299", "text": "Permanently enchant a ring to increase critical strike by 37."}
+{"id": "world-of-warcraft|151305", "text": "Pa'kura Priests are Zandalari trolls located in Dazar'alor. One is seen in the Royal Armory communing with Pa'ku. During Talanji's coronation, one appeared in the Hall of the High Priests."}
+{"id": "world-of-warcraft|151306", "text": "Pack Beasts are kodo pack mules that can be hired by Rexxar at the Orgrimmar Barracks and Watch Post Barracks during To Tame a Land. They can carry up to six loot items."}
+{"id": "world-of-warcraft|151308", "text": "Padded-Link Sniper Leggings drop from Dread-Rider Cortis in Stormheim."}
+{"id": "world-of-warcraft|151309", "text": "The Pa'kura are a group of Zandalari trolls. They are followers of the loa Pa'ku. Several members joined the Warpack and accompanied Rastakhan and the loa into Atal'Dazar."}
+{"id": "world-of-warcraft|151310", "text": "Pa'kura Kash'jani is a Zandalari troll located in Dazar'alor. He is present in the Hall of the High Priests during Talanji's coronation."}
+{"id": "world-of-warcraft|151311", "text": "Pa'kura Skai is a Zandalari troll located in Dazar'alor. She is present in the Hall of the High Priests during Talanji's coronation."}
+{"id": "world-of-warcraft|151312", "text": "Pa'kura Priestesses are Zandalari trolls located in Zuldazar."}
+{"id": "world-of-warcraft|151314", "text": "Pa'ku Adherent's Talons are a quest reward from Dire Situation."}
+{"id": "world-of-warcraft|151318", "text": "Pack Goats are goats located in the Vale of Eternal Blossoms and at the Tavern in the Mists of the Veiled Stair. Some of them are ridden by Hozen Traders."}
+{"id": "world-of-warcraft|151320", "text": "Pack Mooks are hobgoblins located in Deliverance Point on the Broken Shore. They only appear when the Uncrowned control the area."}
+{"id": "world-of-warcraft|151321", "text": "The PX83-Enigmatron was provided as an objective for The Tomb of the Seven."}
+{"id": "world-of-warcraft|151330", "text": "Fires when the camera starts free looking by clicking the left mouse button in the game world. PLAYER_STARTED_LOOKING"}
+{"id": "world-of-warcraft|151331", "text": "Fires when the player starts turning by clicking the right mouse button in the game world. PLAYER_STARTED_TURNING"}
+{"id": "world-of-warcraft|151332", "text": "Fires when the camera stops free looking by releasing the left mouse button. PLAYER_STOPPED_LOOKING"}
+{"id": "world-of-warcraft|151333", "text": "Fires when the player stops turning by releasing the right mouse button. PLAYER_STOPPED_TURNING"}
+{"id": "world-of-warcraft|151337", "text": "Needs summary. PET_BATTLE_AURA_CANCELED: owner, petIndex, auraInstanceID"}
+{"id": "world-of-warcraft|151338", "text": "Needs summary. PET_BATTLE_AURA_CHANGED: owner, petIndex, auraInstanceID"}
+{"id": "world-of-warcraft|151339", "text": "Needs summary. PET_BATTLE_AURA_APPLIED: owner, petIndex, auraInstanceID"}
+{"id": "world-of-warcraft|151340", "text": "Needs summary. PET_BATTLE_HEALTH_CHANGED: owner, petIndex, healthChange"}
+{"id": "world-of-warcraft|151341", "text": "Needs summary. PET_BATTLE_MAX_HEALTH_CHANGED: owner, petIndex, healthChange"}
+{"id": "world-of-warcraft|151342", "text": "Needs summary. PET_BATTLE_PET_ROUND_PLAYBACK_COMPLETE: roundNumber"}
+{"id": "world-of-warcraft|151344", "text": "Needs summary. PET_BATTLE_PET_TYPE_CHANGED: owner, petIndex, stateValue"}
+{"id": "world-of-warcraft|151352", "text": "Needs summary. PET_BATTLE_LOOT_RECEIVED: typeIdentifier, itemLink, quantity"}
+{"id": "world-of-warcraft|151354", "text": "This event fires when the player's item level changes, and it fires on both maximum item level changes (when you acquire a new piece of soulbound armor of your armor type that has the highest item level in that slot) and equipped item level changes (equipping or removing armor). This event will therefore fire when you gain azerite if it levels up your Heart of Azeroth. It fires three times in all of these scenarios: * Equipping armor in an empty slot * Removing armor to leave that slot empty * Equipping armor in a slot where it would automatically remove another armor *Using the equipment manager to equip and remove multiple pieces of armor at once. The following scenarios still need to be t"}
+{"id": "world-of-warcraft|151360", "text": "Needs summary. PET_FORCE_NAME_DECLENSION: name, declinedName1, declinedName2, declinedName3, declinedName4, declinedName5"}
+{"id": "world-of-warcraft|151362", "text": "Needs summary. PET_JOURNAL_AUTO_SLOTTED_PET: slotIndex, battlePetGUID"}
+{"id": "world-of-warcraft|151374", "text": "Needs summary. PVP_TYPES_ENABLED: wargameBattlegrounds, ratedBattlegrounds, ratedArenas, ratedSoloShuffle"}
+{"id": "world-of-warcraft|151390", "text": "Needs summary. PLAYER_LEVEL_CHANGED: oldLevel, newLevel, real"}
+{"id": "world-of-warcraft|151399", "text": "Needs summary. PLAYER_GAINS_VEHICLE_DATA: unitTarget, vehicleUIIndicatorID"}
+{"id": "world-of-warcraft|151401", "text": "Pa'ku's Aspect is a Zandalari troll located in the Battle of Dazar'alor."}
+{"id": "world-of-warcraft|151403", "text": "Fired when the player enables autoattack. PLAYER_TARGET_SET_ATTACKING: unitTarget"}
+{"id": "world-of-warcraft|151404", "text": "Paigory Ramfin is a gilgoblin located in Maedin's Challenge in Nazjatar."}
+{"id": "world-of-warcraft|151406", "text": "[PH] Treasure Rewards are looted from Amathet Coffers in Uldum during the Assault in Uldum and chests in the Vale of Eternal Blossoms during the Assault in the Vale of Eternal Blossoms."}
+{"id": "world-of-warcraft|151413", "text": "Pa'ku Windrider Treads are a quest reward from world quests on Zandalar."}
+{"id": "world-of-warcraft|151414", "text": "Pa'ku Windrider Helm is a quest reward from world quests on Zandalar."}
+{"id": "world-of-warcraft|151415", "text": "Pa'ku Windrider Jerkin is a quest reward from world quests on Zandalar."}
+{"id": "world-of-warcraft|151416", "text": "Pa'ku Windrider Shoulderguards are a quest reward from world quests on Zandalar."}
+{"id": "world-of-warcraft|151417", "text": "Pa'ku Windrider Bracers are a quest reward from world quests on Zandalar."}
+{"id": "world-of-warcraft|151418", "text": "Pa'ku Windrider Breeches are a quest reward from world quests on Zandalar."}
+{"id": "world-of-warcraft|151419", "text": "Pa'ku Windrider Gloves are a quest reward from world quests on Zandalar."}
+{"id": "world-of-warcraft|151420", "text": "Packaged Relics are located in Gol Thovas in Tiragarde Sound."}
+{"id": "world-of-warcraft|151423", "text": "Pack Alpha was an Azerite trait available to Beast Mastery hunters."}
+{"id": "world-of-warcraft|151424", "text": "Packmother Soulfang is a darkhound located in the Grove of Terror in Revendreth. She can be found feasting on the remains of Soulwatcher Abel."}
+{"id": "world-of-warcraft|151425", "text": "PHA7-YNX is created with Engineering (100); taught by trainers and Schematic: PHA7-YNX."}
+{"id": "world-of-warcraft|151428", "text": "Pack Tauralus are tauralus located at the Theater of Pain in Maldraxxus."}
+{"id": "world-of-warcraft|151430", "text": "Pain Transformation is a conduit for discipline priests. It drops from Ingra Maloch in the Mists of Tirna Scithe and Artificer Xy'mox in the Sepulcher of the First Ones. It can also be purchased from Zo'sorg in Oribos for ."}
+{"id": "world-of-warcraft|151431", "text": "Page 76 of the Necronom-i-nom can be fed to The Necronom-i-nom. It is looted from the Ritualist's Cache in the Hall of Cantrips in the House of Rituals in Maldraxxus."}
+{"id": "world-of-warcraft|151440", "text": "Packaged Soul Ash is sold by Bonesmith Heirmir at Keeper's Respite in Korthia once players clear a layer 9 or above wing in Torghast, Tower of the Damned. The item allows players to transfer Soul Ash between alts."}
+{"id": "world-of-warcraft|151441", "text": "Pa'hix's Runepuzzles are sold by the Toy Vendor for in Tazavesh, the Veiled Market."}
+{"id": "world-of-warcraft|151442", "text": "__NOTOC__ Painbringer Volklana is a Maw caster located in the Seeker's Quorum of Korthia. Volklana drops the Lodestaff Shaft for The Sundered Staff and also grants progress for Continued Efforts: Seeker's Quorum."}
+{"id": "world-of-warcraft|151443", "text": "Package Protector is dropped by the P.O.S.T. Master in Tazavesh, the Veiled Market."}
+{"id": "world-of-warcraft|151445", "text": "Pack Mushan are two mushan accompanying Jon Greentill in the Valley of the Four Winds. In Thirsty Alley, Jon handles them several barrels and return to Stoneplow."}
+{"id": "world-of-warcraft|151449", "text": "Padawsen's Squished Pauldrons drop from Humongris in Val'sharah."}
+{"id": "world-of-warcraft|151450", "text": "Padawsen's Unlucky Charm drops from Humongris in Val'sharah."}
+{"id": "world-of-warcraft|151457", "text": "Packed Packers are grummle who accompany the adventurer in the Dooker Dome in Kun-Lai Summit during Grummle! Grummle! Grummle!. They are the Packless Packers who pick up Grummle Gears."}
+{"id": "world-of-warcraft|151458", "text": "Painbringer's Back-Prison drops from the bosses found at the end of the Adamant Vaults in Torghast, Tower of the Damned: Troz'igal the Oppressor, Vault Sentinel and Vault Aegis."}
+{"id": "world-of-warcraft|151459", "text": "Packaged Soul Cinders is sold by Bonesmith Heirmir / Vision of Bonesmith Heirmir in Keeper's Respite in Korthia for 300 Soul Cinders."}
+{"id": "world-of-warcraft|151464", "text": "Pagius is a steward located in Agthia's Repose in Bastion. She may be an objective for the Steward of the Day."}
+{"id": "world-of-warcraft|151465", "text": "Pack Musken are musken located at Timberstep Outpost in the Ohn'ahran Plains."}
+{"id": "world-of-warcraft|151466", "text": "Paa is a tuskarr child located next to Skygazer Paatu in Iskaara in the Azure Span."}
+{"id": "world-of-warcraft|151468", "text": "Needs summary. PROFESSION_EQUIPMENT_CHANGED: skillLineID, isTool"}
+{"id": "world-of-warcraft|151473", "text": "Needs summary. PLAYER_SOFT_INTERACT_CHANGED: oldTarget, newTarget"}
+{"id": "world-of-warcraft|151481", "text": "Paarun is a draenei located in Apex Observatory in the Waking Shores."}
+{"id": "world-of-warcraft|151482", "text": "Needs summary. PERKS_ACTIVITIES_TRACKED_UPDATED: trackedPerksActivities"}
+{"id": "world-of-warcraft|151487", "text": "Needs summary. PERKS_PROGRAM_CURRENCY_REFRESH: oldValue, newValue"}
+{"id": "world-of-warcraft|151489", "text": "Needs summary. PERKS_PROGRAM_DATA_SPECIFIC_ITEM_REFRESH: vendorItemID"}
+{"id": "world-of-warcraft|151500", "text": "Needs summary. PERKS_PROGRAM_ADD_PENDING_SHOP_ITEM: vendorItemID"}
+{"id": "world-of-warcraft|151501", "text": "Needs summary. PERKS_PROGRAM_REMOVE_PENDING_SHOP_ITEM: vendorItemID"}
+{"id": "world-of-warcraft|151503", "text": "Needs summary. PING_PIN_FRAME_ADDED: region, uiTextureKit, isWorldPoint"}
+{"id": "world-of-warcraft|151505", "text": "Needs summary. PING_PIN_FRAME_SCREEN_CLAMP_STATE_UPDATED: region, state"}
+{"id": "world-of-warcraft|151506", "text": "Fires when the ping wheel parent frame has been created. PING_RADIAL_WHEEL_FRAME_CREATED: region"}
+{"id": "world-of-warcraft|151508", "text": "Pack Leader's Pelt drops from Groffnar at Nokhudon Hold in the Ohn'ahran Plains."}
+{"id": "world-of-warcraft|151513", "text": "The Pacifist Challenge is a popular challenge of gameplay where one must level a character in very unusual circumstances. This challenge is not regulated as much as the Ironman Challenge and the only rule is no killing. The most important thing to remember is this is a self-challenge, not a competition."}
+{"id": "world-of-warcraft|151515", "text": "The base attributes of each race are standard and increase at predictable rates with leveling. Obtaining equipment with bonuses to the various attributes is essential to the paladin's development. Choosing the best attribute bonuses is a challenging and ongoing process. This article is a guide on Paladin attributes."}
+{"id": "world-of-warcraft|151521", "text": "Pandaren Xpress is a fictional food-delivery service integrated into World of Warcraft announced by Blizzard on April 1st, 2005. It was a parody of a real life business deal between and , in which typing \"/pizza\" from within EQ2 allowed players to order pizza from the comfort of their gaming chair. The name \"Pandaren Xpress\" is a reference to , a restaurant chain operating in the United States. The announcement was posted as an Underdev article on the official site."}
+{"id": "world-of-warcraft|151524", "text": "and Arthas Menethil in the gardens of Lordaeron's palace.]] The Palace Gardens was the location that the dreadlords who were left in charge in Lordaeron were found by the death knight Arthas Menethil upon his return from Kalimdor. The gardens were rotting as well as their populace."}
+{"id": "world-of-warcraft|151525", "text": "The pandaren relaxation area is an in-game secret behind trees on the undead campaign mission, Digging up the Dead, where Arthas Menethil retrieves Kel'Thuzad's remains in Warcraft III: Reign of Chaos. The map flashes a picture of two pandaren and says that the player found a secret. There are actually no pandaren characters there."}
+{"id": "world-of-warcraft|151526", "text": "Painted Chain Gloves are a quest reward from The Hunt Begins."}
+{"id": "world-of-warcraft|151527", "text": "Painted Chain Belt is a quest reward from The Hunt Continues."}
+{"id": "world-of-warcraft|151528", "text": "Painted Chain Leggings are a quest reward from Break Sharptusk!"}
+{"id": "world-of-warcraft|151529", "text": "__NOTOC__ Pand Stonebinder is a tauren first aid trainer located in the Spiritual Healing tent on Spirit Rise in Thunder Bluff."}
+{"id": "world-of-warcraft|151532", "text": ":This article is about the former Community MVP. For the magnataur boss in Utgarde Pinnacle, see Gortok Palehoof. As of 06/17/2009 09:27:30 PM UTC: * Guild: Enveloping Shadows * Realm: Lightninghoof Palehoof resigned from the MVP program on February 20, 2011. His leaving post can be found [http://www.mmo-champion.com/threads/855085-Palehoof-s-quit-post-on-WoW-General-Forum#6 here]."}
+{"id": "world-of-warcraft|151534", "text": "Pamela Redpath is a quest giver located in Darrowshire in the Eastern Plaguelands. She is the youngest daughter of Joseph Redpath, who was corrupted at the Battle of Darrowshire."}
+{"id": "world-of-warcraft|151535", "text": "Pandemonius is the first boss of the Mana-Tombs in Auchindoun. He is a gigantic armor-plated Voidlord."}
+{"id": "world-of-warcraft|151537", "text": "Pandaren wardancers are a pandaren warrior variant. Pandaren are by all accounts graceful and skilled warriors. Their wardancers epitomize the pandaren art of warfare — and for the wardancers, battle is indeed an art. Their title does not come coincidentally. Their movements are precise and fluid; they appear to dance through a battlefield, their blades flashing silver, blood spraying into the air, and bodies toppling as they move. While wardancers are deadly, they, like all pandaren, are inherently peaceful. The greatest hope of the wardancer is to not have to use his skills. However, in Azeroth’s current age, the wardancers’ skills are needed more than ever. Wardancers move out to confront"}
+{"id": "world-of-warcraft|151539", "text": "The Palemane gnolls is a tribe of blue-skinned gnolls found in Mulgore, specifically in the cave Palemane Rock in western Mulgore and two small camps south of Bloodhoof Village along the cliff that rises to the Red Cloud Mesa. Their culture revolves around leather, as their tribesmen are called skinners, tanners, and poachers. The only named one is the rare mob Snagglespear, and may be their leader. The gnolls slay Mulgore's wildlife and the tauren tried to speak with them but failed. Thus the tauren send adventurers to cull their numbers. According to Zekhan's report after the Fourth War, the tauren in Mulgore are still facing the threats of the gnolls."}
+{"id": "world-of-warcraft|151544", "text": "__NOTOC__ Paniar is a blood elf stable master located at Tranquillien in the Ghostlands."}
+{"id": "world-of-warcraft|151545", "text": "Pairs of Ivory Tusks drop from Wild Elekks throughout Nagrand."}
+{"id": "world-of-warcraft|151548", "text": "Palm Frond Mantle was a quest reward from Bad Medicine (Classic)."}
+{"id": "world-of-warcraft|151552", "text": "Palestrider Gloves are a quest reward from Protect Kanati Greycloud."}
+{"id": "world-of-warcraft|151556", "text": "This article lists the races that are able to become paladins, along with the lore behind each."}
+{"id": "world-of-warcraft|151557", "text": "The Pamela's Doll's Head is located in Darrowshire of Eastern Plaguelands."}
+{"id": "world-of-warcraft|151558", "text": "Pamela's Doll's Left Side is located in Darrowshire of Eastern Plaguelands."}
+{"id": "world-of-warcraft|151559", "text": "Pamela's Doll's Right Side is located in Darrowshire of Eastern Plaguelands."}
+{"id": "world-of-warcraft|151563", "text": "Pantaloons of Growing Strife are epic cloth legs armor for casters."}
+{"id": "world-of-warcraft|151564", "text": "Pantaloons of Calming Strife are epic cloth legs armor for casters."}
+{"id": "world-of-warcraft|151565", "text": "Painted Gnoll Armband drops from Riverpaw Outrunners and Riverpaw Runts in Elwynn Forest."}
+{"id": "world-of-warcraft|151566", "text": "__NOTOC__ The Paladin Trainer is a goblin paladin wearing . He can be found in all races' starting areas on the Arena Tournament realm, standing near the other class trainers."}
+{"id": "world-of-warcraft|151571", "text": "__NOTOC__ Palemane Poachers are Palemane gnolls found in both Palemane Rock and the gnoll camp under Red Cloud Mesa in Mulgore."}
+{"id": "world-of-warcraft|151572", "text": "__NOTOC__ Palemane Skinners are Palemane gnolls found in both Palemane Rock and the gnoll camp under Red Cloud Mesa in Mulgore."}
+{"id": "world-of-warcraft|151580", "text": "Pan'ya is a Zandalari troll innkeeper found at Zim'Torga in Zul'Drak."}
+{"id": "world-of-warcraft|151583", "text": "The Palebone Robes drop from Scourgelord Tyrannus in the Pit of Saron."}
+{"id": "world-of-warcraft|151586", "text": "The Pale Roost is an area on the upper shelf of northern Deepholm. It is here the stone dragons call home. Terrath the Steady is here in an attempt to bring the stone dragons back into the fold. After Geth'xun fell into Deepholm, he corrupted the stone troggs that became known as the Felrock. They attacked the area, subduing drakes on the ground. Aeosera, however, refused to leave her eggs. Therazane sent the Farseer of the Earthen Ring to rescue the stone drakes, kill the corrupted troggs, and reassemble fallen Opalescent Guardians in order to carry Aeosera's eggs to safety. Opal Defenders were also throwing boulders onto the enemies."}
+{"id": "world-of-warcraft|151590", "text": "The pandaren are an old and refined culture with many traditions and arts important to their way of life, none of which have influenced the pandaren so thoroughly as the art of brewing. Drink is in every aspect of pandaren life; and because of the craft involved, a tradition of brewing potent fluids has become a cultural institution for the gentle people of Pandaria. The pandaren brewmasters travel the world for new and exotic ingredients and recipes. These affable yet deadly warriors practice a unique combination of healing arts and martial skill. With their knowledge of alchemy, potion-making and brewery, the pandaren have created superb ales and liquors that have become a welcome drink at"}
+{"id": "world-of-warcraft|151591", "text": "Paintinator is provided as an objective for Paint it Black (Alliance)."}
+{"id": "world-of-warcraft|151592", "text": "Painstakingly Crafted Belt is a quest reward from Samophlange (4)."}
+{"id": "world-of-warcraft|151593", "text": "Pank is, along with Binzella, Fibi and Vink one of four bankers in the Orgrimmar Counting House which is located in the Valley of Honor of Orgrimmar. He was present at the funeral ceremony of Vol'jin in the Dranosh'ar Blockade."}
+{"id": "world-of-warcraft|151595", "text": "Pandriarch Goldendraft is a pandaren located at the Shrine of the Dawn in the Jade Forest."}
+{"id": "world-of-warcraft|151596", "text": "Pandriarch Bramblestaff is a pandaren located at Shrine of the Dawn in the Jade Forest."}
+{"id": "world-of-warcraft|151597", "text": "Pangolins can be found in the Pei-Wu Forest on the Wandering Isle."}
+{"id": "world-of-warcraft|151598", "text": "Pandriarch Windfur is one of the three pandriarchs at the Shrine of the Dawn in the Jade Forest."}
+{"id": "world-of-warcraft|151599", "text": "Paint Soaked Brushes are brushes soaked in red paint that belongs to the pandaren from the Ridge of Laughing Winds on the Wandering Isle that has been stolen by the Fe-Feng Wisemen to write over the Scrolls of Wisdom their own wisdom."}
+{"id": "world-of-warcraft|151601", "text": "Pang's Stead is the home of Pang Thunderfoot, owner of the Thunderfoot Fields in the Valley of the Four Winds. It can be found not far from the eastern border of the Valley of the Four Winds. This is also the location of Thunderfoot Inn, the only inn on the east side of the Valley. Just to the southwest is the Thunderfoot Farm, and down the hill to the west is the Thunderfoot Ranch."}
+{"id": "world-of-warcraft|151602", "text": "Pang Thunderfoot is a pandaren at Pang's Stead in the Valley of the Four Winds. He came with Miss Fanny to aid Stoneplow against the Ik'thik mantid. He brought with him the following supplies: *Pang's Extra-Spicy Tofu *Ang's Giant Pink Turnip *Ang's Summer Watermelon"}
+{"id": "world-of-warcraft|151603", "text": "Pandaria proficiency Alchemy proficiency can be trained as early as level 80, permits progression up to75 skill, and access to the following recipes: The following skill levels have not been updated following the Battle for Azeroth profession destacking."}
+{"id": "world-of-warcraft|151605", "text": "Pandaren Prisoners are pandaren located at Fire Camp Ordo in Kun-Lai Summit."}
+{"id": "world-of-warcraft|151606", "text": "Palewind Villagers are dead yaungol located at Hatred's Vice in Townlong Steppes."}
+{"id": "world-of-warcraft|151607", "text": "The Palewind Chief is the deceased leader of the decimated Palewind tribe of yaungol. He can be found in Hatred's Vice, lying in a pool of the oil that the yaungol so covet. He and his people died when Suna Silentstrike came, bringing with her the Sha of Hatred. Possessed by hatred, he could not maintain order, and his people slaughtered themselves."}
+{"id": "world-of-warcraft|151608", "text": "Palewind Refugees are dead yaungol located at Dampsoil Burrow in Townlong Steppes."}
+{"id": "world-of-warcraft|151609", "text": "__NOTOC__ Pan is a pandaren found in The Drunken Hozen, the inn and bar of the town of Dawn's Blossom in the Jade Forest of Pandaria. She is drinking with Lee and Bolo. During Chen Stormstout's stay in Dawn's Blossom, Stormstout told a better tale than Pan."}
+{"id": "world-of-warcraft|151610", "text": "This article lists micro dungeon maps for micro dungeons appearing on Pandaria, regardless of expansion."}
+{"id": "world-of-warcraft|151611", "text": "Pandaren Fishing Pole is sold by at Anglers Wharf in Krasarang Wilds for . It requires reputation with the Anglers to purchase."}
+{"id": "world-of-warcraft|151612", "text": "Pandaren Fighting Tactics is a wood-panel scroll found at , leaning on the outside corner of home in the Paoquan Hollow of northwestern Valley of the Four Winds. Interacting with the scroll is an objective of the Pandaria exploration achievement What Is Worth Fighting For."}
+{"id": "world-of-warcraft|151613", "text": "Pako the Speaker is a pandaren located at the Golden Stair in the Vale of Eternal Blossoms."}
+{"id": "world-of-warcraft|151614", "text": "Panic Clutch can be found in the shadow of Kypari Ik on the southern fork of the Horrid March in central Dread Wastes. Northwest is Klaxxi'vess."}
+{"id": "world-of-warcraft|151615", "text": "Paleblade Flesheaters are saurok that have been mind-controlled by the mogu in the area. Most of them are dead since the sha corrupted the area."}
+{"id": "world-of-warcraft|151617", "text": "Palanaar's Elekk is the elekk mount of Vindicator Palanaar. It can be found in Astranaar in Ashenvale. During A Helping Hand (Ashenvale), this elekk can be taken for a ride to Forest Song."}
+{"id": "world-of-warcraft|151618", "text": "Paleblade Slithertongues are saurok found around Whitepetal Lake in the Vale of Eternal Blossoms. Most of them are dead since the sha corrupted the area."}
+{"id": "world-of-warcraft|151621", "text": "__NOTOC__ A Pandaren Pottery Shard is an archaeology keystone. It acts as twenty Pandaren Archaeology Fragment in research on pandaren archaeology finds that have 'sockets'."}
+{"id": "world-of-warcraft|151623", "text": "The Pandaren Game Board is a common pandaren archaeology artifact, created from 40xPandaren Archaeology Fragment. A pristine version can also be crafted."}
+{"id": "world-of-warcraft|151624", "text": "The Pandaren Tea Set is a common pandaren archaeology artifact, created from 50xPandaren Archaeology Fragment. Up to one Pandaren Pottery Shard may be used to solve this artifact. A pristine version can also be crafted."}
+{"id": "world-of-warcraft|151627", "text": "__NOTOC__ Pandarian Garnet is obtained by prospecting Pandarian ores."}
+{"id": "world-of-warcraft|151630", "text": "Pandaren Scroll is provided for Dawn's Blossom (quest). Delivered to Grookin Hill, Chief Kah Kah gave it to General Nazgrim to pass on to the adventurer."}
+{"id": "world-of-warcraft|151631", "text": "Pandaria proficiency, formerly known as Zen Master, is the eighth stage of a profession learned at the appropriate profession trainer when a character has reached at least level 78. It unlocks the use and development of profession related skills in Pandaria related content. Not counting racial or other bonuses, it allows skill ups to a maximum of 75 points."}
+{"id": "world-of-warcraft|151632", "text": "Pandaren Master of All is a profession achievement earned for raising all primary professions to 75 skill points in the Pandaria category."}
+{"id": "world-of-warcraft|151633", "text": "This article lists recipes in Cooking at Zen Master-level, which spans from skill 525 to 600."}
+{"id": "world-of-warcraft|151635", "text": "Pandaren Cuisine is an exploration achievement earned for you to sample each food purchased from Pandaria food vendors."}
+{"id": "world-of-warcraft|151636", "text": "Pandaren Delicacies is an exploration achievement earned for you to sample each food created from cooking on Pandaria."}
+{"id": "world-of-warcraft|151637", "text": "Pandaren Scarecrow is a reputation reward; you must be with The Tillers to purchase this item for from in Valley of the Four Winds. It comes with a Cocky Crow."}
+{"id": "world-of-warcraft|151638", "text": "Pandarian Angler is an achievement earned for fishing up each type of fish located in Pandaria."}
+{"id": "world-of-warcraft|151640", "text": "Pandaren Slayer is a PvP guild achievement requiring an honorable kill on all Pandaren classes."}
+{"id": "world-of-warcraft|151642", "text": "The Pandaren Kite String is a reward for completing the achievement Pandaren Ambassador, which requires reaching standing with all of the Pandarian reputation factions."}
+{"id": "world-of-warcraft|151644", "text": "Pandaren Healing Draught is looted from Sage Liao's Belongings on the counter in his house on Zouchin Strand in northeastern Kun-Lai Summit."}
+{"id": "world-of-warcraft|151645", "text": "The Pandaren Revolution was an armed uprising, initially consisting of pandaren monks, which sought to overthrow the oppressive and decadent mogu empire who held them in a state of slavery, around 12,000 years before the opening of the Dark Portal. Utilizing a new, unusual, but highly effective form of unarmed combat, the pandaren achieved stunning victories against seemingly superior mogu forces under Emperor Lao-Fe. These victories gave heart to the many other races in mogu servitude, and the rebellion quickly began to grow to encompass a wide range of different races, such as the jinyu and hozen, united by a common cause, and whose racial skills greatly contributed to the revolution's con"}
+{"id": "world-of-warcraft|151646", "text": "Pandaria proficiency Jewelcrafting can be trained as early as level 80, permits progression up to 75 skill, and access to the following designs: Note: The following skill levels have not been updated following the Battle for Azeroth profession destacking."}
+{"id": "world-of-warcraft|151647", "text": "Pandaria Enchanting proficiency can be trained as early as level 78, permits progression up to 75 skill, and access to the following formulas:"}
+{"id": "world-of-warcraft|151648", "text": "Pandaria Dungeon Hero is a meta dungeon & raids achievement earned for completing all nine Pandaria 5-man dungeons on heroic mode."}
+{"id": "world-of-warcraft|151650", "text": "Palace Antechamber is the entrance area into the Heart of Fear. A few mantid, likely Klaxxi members, are found staked in the hallway still twitching."}
+{"id": "world-of-warcraft|151657", "text": "Were you looking for: *The Mists of Pandaria phase of the Alliance-Horde war? :&ndash;OR&ndash; *The Operation: Shieldwall and Dominance Offensive quest chains in patch 5.1.0?"}
+{"id": "world-of-warcraft|151660", "text": "Pandaria Leatherworking proficiency can be trained as early as level 78, permits progression up to 75 skill, and access to the following patterns:"}
+{"id": "world-of-warcraft|151661", "text": "The Paleblade tribe of saurok are seen around the Whitepetal Lake often being mind controlled by the mogu and used to attack the pandaren in Vale of Eternal Blossoms. It's unknown where these displaced saurok normally call home."}
+{"id": "world-of-warcraft|151669", "text": "Pandaren Cannoneers are pandaren found at the Gate of the Setting Sun."}
+{"id": "world-of-warcraft|151670", "text": "Pandaren Disciples are pandaren located at the Gate of the Setting Sun."}
+{"id": "world-of-warcraft|151672", "text": "Pandaren Spirit Pet Supplies are a reward from the following dailies: *Burning Pandaren Spirit (quest) *Flowing Pandaren Spirit (quest) *Thundering Pandaren Spirit (quest) *Whispering Pandaren Spirit (quest)"}
+{"id": "world-of-warcraft|151673", "text": "__NOTOC__ The Pandaren Water Spirit is one of the possible rewards from Pandaren Spirit Tamer (quest). Additionally, it also has a small chance of appearing in the Pandaren Spirit Pet Supplies obtained by completing Flowing Pandaren Spirit (quest)."}
+{"id": "world-of-warcraft|151674", "text": "__NOTOC__ The Pandaren Fire Spirit is one of the possible rewards from Pandaren Spirit Tamer (quest). Additionally, it also has a small chance of appearing in the Pandaren Spirit Pet Supplies obtained by completing Burning Pandaren Spirit (quest)."}
+{"id": "world-of-warcraft|151675", "text": "__NOTOC__ The Pandaren Earth Spirit is one of the possible rewards from Pandaren Spirit Tamer (quest). Additionally, it also has a small chance of appearing in the Pandaren Spirit Pet Supplies obtained by completing Thundering Pandaren Spirit (quest)."}
+{"id": "world-of-warcraft|151676", "text": "__NOTOC__ The Pandaren Air Spirit is one of the possible rewards from Pandaren Spirit Tamer (quest). Additionally, it also has a small chance of appearing in the Pandaren Spirit Pet Supplies obtained by completing Whispering Pandaren Spirit (quest)."}
+{"id": "world-of-warcraft|151677", "text": "Pandarian Mix Master is an achievement that is awarded for creat 1,000 Mists of Pandaria flasks."}
+{"id": "world-of-warcraft|151678", "text": "Pale Fog creatures appear in the Watcher's Sanctum when a Hidden Fog creature is killed."}
+{"id": "world-of-warcraft|151680", "text": "Pan of the Martial Spirit is a pandaren monk trainer located at the Ring of Arms in the Exodar. During the Battle for the Exodar, he was inside Velen's protective shield."}
+{"id": "world-of-warcraft|151681", "text": "Pandaria Cook is an achievement that requires the character to obtain 75 skill points in the \"Pandaria\" category of cooking."}
+{"id": "world-of-warcraft|151684", "text": "Pandaren Ambassador is an achievement for getting exalted with all pandaren factions (excluding Operation: Shieldwall, Dominance Offensive, Kirin Tor Offensive, Sunreaver Onslaught and Shado-Pan Assault)."}
+{"id": "world-of-warcraft|151685", "text": "Pandaren Angler is an achievement that is awarded for catch 25,000 fish from Pandaria fishing pools."}
+{"id": "world-of-warcraft|151686", "text": "Pandaren Embassy is a guild achievement for getting exalted with all pandaren factions (excluding Operation: Shieldwall, Dominance Offensive, Kirin Tor Offensive, Sunreaver Onslaught and Shado-Pan Assault). This achievement requires that, for each of the below factions, there be at least one guild member who has achieved reputation with that faction."}
+{"id": "world-of-warcraft|151689", "text": "Pandaria proficiency Tailoring proficiency can be trained as early as level 80, permits progression up to 75 skill, and access to the following patterns: Skill levels shown are have not been updated to include the Battle for Azeroth profession squish."}
+{"id": "world-of-warcraft|151690", "text": ":The fruit! The fizz! Drink too much of this shtuff and even Jogu the Drunk will start to sound shober to you. Pandaren Plum Wine is a strong alcoholic beverage common on Pandaria."}
+{"id": "world-of-warcraft|151692", "text": "Pamela's Muuscat Wrap is a possible drop from Ordos, the world boss yaungol on the Timeless Isle."}
+{"id": "world-of-warcraft|151693", "text": "Pandaren Gravestone can found all over Tu Shen Burial Ground in the Vale of Eternal Blossoms, and is the final resting place for the pandaren who fought in the uprising so long ago."}
+{"id": "world-of-warcraft|151694", "text": "Pandaren Treasure Noodle Cart Kit is a cooking item used primarily for raiding. It produces Pandaren Treasure Noodle Soup for party members."}
+{"id": "world-of-warcraft|151696", "text": "__NOTOC__ Pandaren Roofsprinters drop from Spoils of Pandaria in the Siege of Orgrimmar."}
+{"id": "world-of-warcraft|151697", "text": "__NOTOC__ Pan-Seared Talbuk is created with Cooking (1); taught by Recipe Idea: Pan-Seared Talbuk."}
+{"id": "world-of-warcraft|151703", "text": "The Pale Fishmonger is a pale orc vignette located in the Pale Cove in Frostfire Ridge. He thrives on ambushing the unsuspecting for anything that shines."}
+{"id": "world-of-warcraft|151704", "text": "The Pale Loot Sack is found at at the back of Shivertail's Den north of Wor'gol in Frostfire Ridge. It contains roughly 30-40x Garrison Resources."}
+{"id": "world-of-warcraft|151706", "text": "Pale Devourers are pale orcs located in Eventide Landing in ."}
+{"id": "world-of-warcraft|151708", "text": "__NOTOC__ Painter Mikkal is a draenei located at the Rangari Enclave in ."}
+{"id": "world-of-warcraft|151709", "text": "Pan the Kind Hand is a pandaren stable master located at the Jade Temple Grounds in the Jade Forest. During the Burning Legion's third invasion of Azeroth, she joined the Unseen Path in the Trueshot Lodge. She later traveled to Deliverance Point on the Broken Shore. As a member of the Dragonscale Expedition, Pan is seen at Apex Observatory in the Waking Shores. Next to her is Feathers."}
+{"id": "world-of-warcraft|151710", "text": "Pale Crawlers are pale orcs located in the Bloodthorn Cave in ."}
+{"id": "world-of-warcraft|151711", "text": "__NOTOC__ Painter Phaeren is a draenei who roams the Alliance garrison."}

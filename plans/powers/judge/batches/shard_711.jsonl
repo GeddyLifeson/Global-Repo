@@ -1,0 +1,250 @@
+{"id": "world-of-warcraft|264169", "text": "{| class=\"sortable darktable zebra col1-center\" |+ | {{#if:{}||Enum.UIWidgetFlag}} ! Value !! Field !! Description |- | 1 || || |}"}
+{"id": "world-of-warcraft|264170", "text": "{| class=\"sortable darktable zebra col1-center\" |+ | {{#if:{}||Enum.UIWidgetHorizontalDirection}} ! Value !! Field !! Description |- | 0 || || |- | 1 || || |}"}
+{"id": "world-of-warcraft|264171", "text": "{| class=\"sortable darktable zebra col1-center\" |+ | {{#if:{}||Enum.UIWidgetRewardShownState}} ! Value !! Field !! Description |- | 0 || || |- | 1 || || |- | 2 || || |}"}
+{"id": "world-of-warcraft|264172", "text": "{| class=\"sortable darktable zebra col1-center\" |+ | {{#if:{}||Enum.UIWidgetSetLayoutDirection}} ! Value !! Field !! Description |- | 0 || || |- | 1 || || |- | 2 || || |}"}
+{"id": "world-of-warcraft|264173", "text": "{| class=\"sortable darktable zebra col1-center\" |+ | {{#if:{}||Enum.UIWidgetSpellButtonCooldownType}} ! Value !! Field !! Description |- | 0 || || |- | 1 || || |- | 2 || || |}"}
+{"id": "world-of-warcraft|264174", "text": "{| class=\"sortable darktable zebra col1-center\" |+ | {{#if:{}||Enum.UIWidgetTextFormatType}} ! Value !! Field !! Description |- | 0 || || |- | 1 || || |- | 2 || || |- | 3 || || |}"}
+{"id": "world-of-warcraft|264175", "text": "{| class=\"sortable darktable zebra col1-center\" |+ | {{#if:{}||Enum.UnitMirrorPetFlags}} ! Value !! Field !! Description |- | 0x1 || || |- | 0x2 || || |- | 0x4 || || |- | 0x8 || || |- | 0x10 || || |}"}
+{"id": "world-of-warcraft|264176", "text": "{| class=\"sortable darktable zebra col1-center\" |+ | {{#if:{}||Enum.VasTransactionPurchaseResult}} ! Value !! Field !! Description |- | 0 || || |- | 1 || || |- | 2 || || |- | 3 || || |- | 4 || || |- | 5 || || |- | 6 || || |- | 7 || || |- | 8 || || |- | 9 || || |- | 10 || || |- | 11 || || |- | 12 || || |- | 13 || || |- | 14 || || |- | 15 || || |- | 16 || || |- | 17 || || |- | 18 || || |- | 19 || || |- | 20 || || |- | 21 || || |- | 22 || || |- | 23 || || |- | 24 || || |- | 25 || || |- | 26 || || |- | 27 || || |- | 28 || || |- | 29 || || |- | 30 || || |- | 31 || || |- | 32 || || |- | 33 || || |- | 34 || || |- | 35 || || |- | 36 || || |- | 37 || || |- | 38 || || |- | 39 || || |- | 40 || || |- | "}
+{"id": "world-of-warcraft|264177", "text": "{| class=\"sortable darktable zebra col1-center\" |+ | {{#if:{}||Enum.ViewArenaSize}} ! Value !! Field !! Description |- | 0 || || |- | 1 || || |}"}
+{"id": "world-of-warcraft|264178", "text": "{| class=\"sortable darktable zebra col1-center\" |+ | {{#if:{}||Enum.ViewRaidSize}} ! Value !! Field !! Description |- | 0 || || |- | 1 || || |- | 2 || || |}"}
+{"id": "world-of-warcraft|264179", "text": "{| class=\"sortable darktable zebra col1-center\" |+ | {{#if:{}||Enum.VignetteObjectiveType}} ! Value !! Field !! Description |- | 0 || || |- | 1 || || |- | 2 || || |}"}
+{"id": "world-of-warcraft|264180", "text": "{| class=\"sortable darktable zebra col1-center\" |+ | {{#if:{}||Enum.VignetteType}} ! Value !! Field !! Description |- | 0 || || |- | 1 || || |- | 2 || || |- | 3 || || |- | 4 || || |}"}
+{"id": "world-of-warcraft|264181", "text": "{| class=\"sortable darktable zebra col1-center\" |+ | {{#if:{}||Enum.VoiceChannelErrorReason}} ! Value !! Field !! Description |- | 0 || || |- | 1 || || |}"}
+{"id": "world-of-warcraft|264182", "text": "{| class=\"sortable darktable zebra col1-center\" |+ | {{#if:{}||Enum.WarbandEventState}} ! Value !! Field !! Description |- | 0 || || |- | 1 || || |- | 2 || || |- | 3 || || |- | 4 || || |- | 5 || || |- | 6 || || |- | 7 || || |}"}
+{"id": "world-of-warcraft|264183", "text": "{| class=\"sortable darktable zebra col1-center\" |+ | {{#if:{}||Enum.WarbandPlacementDisplayInfoType}} ! Value !! Field !! Description |- | 0 || || |- | 1 || || |- | 2 || || |}"}
+{"id": "world-of-warcraft|264184", "text": "{| class=\"sortable darktable zebra col1-center\" |+ | {{#if:{}||Enum.WarbandSceneAnimationEvent}} ! Value !! Field !! Description |- | 0 || || |- | 1 || || |- | 2 || || |- | 3 || || |- | 4 || || |- | 5 || || |- | 6 || || |- | 7 || || |- | 8 || || |- | 9 || || |}"}
+{"id": "world-of-warcraft|264185", "text": "{| class=\"sortable darktable zebra col1-center\" |+ | {{#if:{}||Enum.WarbandSceneAnimationSheatheState}} ! Value !! Field !! Description |- | 0 || || |- | 1 || || |- | 2 || || |}"}
+{"id": "world-of-warcraft|264186", "text": "{| class=\"sortable darktable zebra col1-center\" |+ | {{#if:{}||Enum.WarbandSceneAnimationStandState}} ! Value !! Field !! Description |- | 0 || || |- | 1 || || |- | 2 || || |- | 3 || || |- | 4 || || |- | 5 || || |- | 6 || || |- | 7 || || |- | 8 || || |}"}
+{"id": "world-of-warcraft|264187", "text": "{| class=\"sortable darktable zebra col1-center\" |+ | {{#if:{}||Enum.WarbandSceneAnimationStandStateFlags}} ! Value !! Field !! Description |- | 0x1 || || |- | 0x2 || || |- | 0x4 || || |- | 0x8 || || |- | 0x10 || || |- | 0x20 || || |- | 0x40 || || |- | 0x80 || || |- | 0x100 || || |}"}
+{"id": "world-of-warcraft|264188", "text": "{| class=\"sortable darktable zebra col1-center\" |+ | {{#if:{}||Enum.WarbandSceneFlags}} ! Value !! Field !! Description |- | 0x1 || || |- | 0x2 || || |- | 0x4 || || |- | 0x8 || || |- | 0x10 || || |}"}
+{"id": "world-of-warcraft|264189", "text": "{| class=\"sortable darktable zebra col1-center\" |+ | {{#if:{}||Enum.WarbandScenePlacementType}} ! Value !! Field !! Description |- | 0 || || |- | 1 || || |- | 2 || || |}"}
+{"id": "world-of-warcraft|264190", "text": "{| class=\"sortable darktable zebra col1-center\" |+ | {{#if:{}||Enum.WeaponSlot}} ! Value !! Field !! Description |- | 0 || || |- | 1 || || |- | 2 || || |}"}
+{"id": "world-of-warcraft|264191", "text": "{| class=\"sortable darktable zebra col1-center\" |+ | {{#if:{}||Enum.WidgetCurrencyClass}} ! Value !! Field !! Description |- | 0 || || |- | 1 || || |}"}
+{"id": "world-of-warcraft|264193", "text": "{| class=\"sortable darktable zebra col1-center\" |+ | {{#if:{}||Enum.WoWClientCursorSize}} ! Value !! Field !! Description |- | 0 || || |- | 1 || || |- | 2 || || |- | 3 || || |- | 4 || || |}"}
+{"id": "world-of-warcraft|264194", "text": "{| class=\"sortable darktable zebra col1-center\" |+ | {{#if:{}||Enum.WorldCursorAnchorType}} ! Value !! Field !! Description |- | 0 || || |- | 1 || || |- | 2 || || |- | 3 || || |}"}
+{"id": "world-of-warcraft|264195", "text": "{| class=\"sortable darktable zebra col1-center\" |+ | {{#if:{}||Enum.WorldElapsedTimerTypes}} ! Value !! Field !! Description |- | 0 || || |- | 1 || || |- | 2 || || |}"}
+{"id": "world-of-warcraft|264196", "text": "{| class=\"sortable darktable zebra col1-center\" |+ | {{#if:{}||Enum.WorldQuestQuality}} ! Value !! Field !! Description |- | 0 || || |- | 1 || || |- | 2 || || |}"}
+{"id": "world-of-warcraft|264197", "text": "{| class=\"sortable darktable zebra col1-center\" |+ | {{#if:{}||Enum.VisualAlertType}} ! Value !! Field !! Description |- | 1 || || |- | 2 || || |- | 3 || || |- | 4 || || |- | 5 || || |- | 6 || || |- | 7 || || |- | 8 || || |- | 9 || || |- | 10 || || |}"}
+{"id": "world-of-warcraft|264201", "text": "{| class=\"sortable darktable zebra col1-center\" |+ | {{#if:{}||Enum.UnitAuraSoundTrigger}} ! Value !! Field !! Description |- | 0 || || |- | 1 || || |- | 2 || || |}"}
+{"id": "world-of-warcraft|264202", "text": "Epaulets of Jan'alai's Chosen is an appearance unlocked through the use of Ensemble: Vestments of Jan'alai's Chosen."}
+{"id": "world-of-warcraft|264204", "text": "{| class=\"sortable darktable zebra col1-center\" |+ | {{#if:{}||Enum.WeatherType}} ! Value !! Field !! Description |- | 0 || || |- | 1 || || |- | 2 || || |- | 3 || || |- | 4 || || |}"}
+{"id": "world-of-warcraft|264206", "text": "{| class=\"sortable darktable zebra col1-center\" |+ | {{#if:{}||Enum.TraitVendorResetFailureReason}} ! Value !! Field !! Description |- | 0 || || |- | 1 || || |- | 2 || || |}"}
+{"id": "world-of-warcraft|264207", "text": "{| class=\"sortable darktable zebra col1-center\" |+ | {{#if:{}||Enum.TrainerType}} ! Value !! Field !! Description |- | 0 || || |- | 1 || || |- | 2 || || |- | 3 || || |}"}
+{"id": "world-of-warcraft|264208", "text": "{| class=\"sortable darktable zebra col1-center\" |+ | {{#if:{}||Enum.TransmogSettingsUpdateType}} ! Value !! Field !! Description |- | 0 || || |- | 1 || || |}"}
+{"id": "world-of-warcraft|264210", "text": "Eralysa Sunshot is an ally card from the Throne of the Tides set."}
+{"id": "world-of-warcraft|264212", "text": "Errant Crusader's Helm was available for purchase at the Trading Post for 225 Trader's Tender."}
+{"id": "world-of-warcraft|264213", "text": "Erletha is a green drakonid found in the Wellspring Overlook in the Emerald Dream."}
+{"id": "world-of-warcraft|264217", "text": "Erupting Magmas are lava elementals located at the Erupting Cavern in the Waking Shores."}
+{"id": "world-of-warcraft|264218", "text": "Erupting Droplets are lava elementals located at the Erupting Cavern in the Waking Shores."}
+{"id": "world-of-warcraft|264219", "text": "Erden's Notes on Symbiotic Spores are provided by Erden for Handling It: Glowspore Grip."}
+{"id": "world-of-warcraft|264220", "text": "Erden's Symbiotic Glowspore Grip is provided by Erden for To the Test: Symbiotic Glowspore Grip."}
+{"id": "world-of-warcraft|264223", "text": "Eratus, the Unwoven Paradox is a sand elemental located in the Timeless Shore on the Timeless Isle."}
+{"id": "world-of-warcraft|264224", "text": "Erus is an infinite drakonid found at Infinite Bazaars during the WoW Remix events, including at the Timeless Shore on the Timeless Isle during Pandaria Remix. He sells replacement starter-level weapons should they accidentally get scrapped."}
+{"id": "world-of-warcraft|264228", "text": "Erosion Polished Slate has a chance to drop from mining nodes in Khaz Algar, up to 1 each week. It can only drop after all 5 for the week have dropped. When used, it grants 3 points of Khaz Algar Mining Knowledge."}
+{"id": "world-of-warcraft|264235", "text": "Erol Ellimoore is an Arathi located in Light's Blooming in Hallowfall."}
+{"id": "world-of-warcraft|264236", "text": "Eruption's Boots, Legs, and Shoulders Set is a quest reward from Anthion's Parting Words (Horde SoD)."}
+{"id": "world-of-warcraft|264237", "text": "Eruption's Gloves and Belt Set is a quest reward from Just Compensation (Horde SoD)."}
+{"id": "world-of-warcraft|264238", "text": "Eruption's Helm and Chestpiece Set is a quest reward from Saving the Best for Last (Horde SoD)."}
+{"id": "world-of-warcraft|264239", "text": "Escaped Cutthroat is a Forsaken located on the Isle of Dorn. A former inmate of the Violet Hold, she is sitting at a campfire on Oztan Isle."}
+{"id": "world-of-warcraft|264240", "text": "Erica Schroeder is a voice actor who has provided several voices for World of Warcraft."}
+{"id": "world-of-warcraft|264241", "text": "Erika Ishii is a voice actor who has provided several voices for World of Warcraft."}
+{"id": "world-of-warcraft|264242", "text": "Eruption of the Ten Storms is the Tier 2 armor set for Elemental Shamans."}
+{"id": "world-of-warcraft|264243", "text": "Esgal Flamesnout is a magmammoth located in the Ohn'ahran Plains."}
+{"id": "world-of-warcraft|264244", "text": "Eratin the Barber is an ettin located in the Forbidden Reach."}
+{"id": "world-of-warcraft|264249", "text": "Erus's Aggression is a Legion: Remix artifact trait. It costs ."}
+{"id": "world-of-warcraft|264252", "text": "Ered'ruin Helm is an appearance unlocked through the use of Ensemble: Ered'ruin Scalemail."}
+{"id": "world-of-warcraft|264253", "text": "Ered'ruin Pauldrons is an appearance unlocked through the use of Ensemble: Ered'ruin Scalemail."}
+{"id": "world-of-warcraft|264254", "text": "Ered'ruin Haubergeon is an appearance unlocked through the use of Ensemble: Ered'ruin Scalemail."}
+{"id": "world-of-warcraft|264255", "text": "Ered'ruin Sabatons is an appearance unlocked through the use of Ensemble: Ered'ruin Scalemail."}
+{"id": "world-of-warcraft|264256", "text": "Ered'ruin Vambraces is an appearance unlocked through the use of Ensemble: Ered'ruin Scalemail."}
+{"id": "world-of-warcraft|264257", "text": "Ered'ruin Gauntlets is an appearance unlocked through the use of Ensemble: Ered'ruin Scalemail."}
+{"id": "world-of-warcraft|264258", "text": "Ered'ruin Shroud is an appearance unlocked through the use of Ensemble: Ered'ruin Scalemail."}
+{"id": "world-of-warcraft|264259", "text": "Ered'ruin Cloak is an appearance unlocked through the use of Ensemble: Ered'ruin Scalemail."}
+{"id": "world-of-warcraft|264260", "text": "Ered'ruin Shawl is an appearance unlocked through the use of Ensemble: Ered'ruin Scalemail."}
+{"id": "world-of-warcraft|264261", "text": "Ered'ruin Draping Shroud is an appearance unlocked through the use of Ensemble: Drapes of Devouring Night."}
+{"id": "world-of-warcraft|264262", "text": "Ered'ruin Draping Shawl is an appearance unlocked through the use of Ensemble: Drapes of Devouring Night."}
+{"id": "world-of-warcraft|264263", "text": "Eredar Battle Cloak is an appearance unlocked through the use of Ensemble: Eredar Battle Capes."}
+{"id": "world-of-warcraft|264264", "text": "Eredar Battle Shroud is an appearance unlocked through the use of Ensemble: Eredar Battle Capes."}
+{"id": "world-of-warcraft|264265", "text": "Erupting Oozes are oozelings summoned by Doctor Ickus in Plaguefall."}
+{"id": "world-of-warcraft|264266", "text": "Escaped Witherbark Pango teaches the Witherbark Pango mount. This item has a chance to drop from rare mobs in Zul'Aman."}
+{"id": "world-of-warcraft|264268", "text": "Eruundi is a voidscarred located in Masters' Perch in the Voidstorm."}
+{"id": "world-of-warcraft|264269", "text": "Eredar Doomchanters are man'ari eredar found on the Broken Isles during Legion Assaults."}
+{"id": "world-of-warcraft|264271", "text": "Eredar Incantators are man'ari eredar found at the Sylvan Vale in Val'sharah during Legion Assaults when The Fel and the Fawns is up."}
+{"id": "world-of-warcraft|264272", "text": "Eredar Soulflayers are man'ari eredar found at the Emerald Bay in Val'sharah during Legion Assaults when Defense of Emerald Bay is up."}
+{"id": "world-of-warcraft|264273", "text": "Eredar Felbinders are man'ari eredar found at Shield's Rest in Stormheim during Legion Assaults."}
+{"id": "world-of-warcraft|264274", "text": "Eredar Doomweavers are man'ari eredar found at Felsoul Hold in Suramar during stage 1 of Dark Whispers (quest)."}
+{"id": "world-of-warcraft|264275", "text": "Erratic Imps are imps that spawn alongside the Volatile Imp when it is summoned from an Unstable Nether Portal on the Broken Shore."}
+{"id": "world-of-warcraft|264276", "text": "Eredar Invaders are man'ari eredar who spawn in the Assault on Violet Hold."}
+{"id": "world-of-warcraft|264277", "text": "Ermal is a niffen riding on Shelldon around Mmarl in Azj-Kahet."}
+{"id": "world-of-warcraft|264278", "text": "Eredar Portal-Lords are man'ari eredar found in Niskara during Rescue Mission."}
+{"id": "world-of-warcraft|264279", "text": "Eredar Enslavers are man'ari eredar found on the Broken Shore during Return to the Broken Shore."}
+{"id": "world-of-warcraft|264280", "text": "Eredar Mageslayers are man'ari eredar found at Black Rook Hold during Ravencrest's Legacy (quest)."}
+{"id": "world-of-warcraft|264281", "text": "Errant Stoneborn are stoneborn found in Torghast, Tower of the Damned."}
+{"id": "world-of-warcraft|264282", "text": "Escaped Ritualists are kvaldir found in Torghast, Tower of the Damned."}
+{"id": "world-of-warcraft|264283", "text": "Escaped Subjects are rats located in the Vatworks in Undermine."}
+{"id": "world-of-warcraft|264284", "text": "Errant Scrollsage's Hood drops from The Lost Explorers in the Venomous Abyss."}
+{"id": "world-of-warcraft|264285", "text": "Escaped Gormlings are gormlings found in the Ember Court. With the player controlling Niya, they have to be rescued by picking them up and bringing them to Enchanted Crates for +Clean."}
+{"id": "world-of-warcraft|264286", "text": "Escaped Prisoners are venthyr found in the Ember Court during the Prison Break event. Killing them will give +Safe."}
+{"id": "world-of-warcraft|264287", "text": "Ersatz Venom Splatter is housing decor created with Midnight Alchemy (50); taught by Recipe: Ersatz Venom Splatter."}
+{"id": "world-of-warcraft|264288", "text": "Erupting Lashers are fire elementals found in the Erupting Cavern on the Waking Shores."}
+{"id": "world-of-warcraft|264289", "text": "Erratic Light Wyrm are mana wyrms located in Fairbreeze Village in Eversong Woods. When killed, they spawn Suspicious Spores."}
+{"id": "world-of-warcraft|264290", "text": "Ermie is a goblin located in the Weaver's Lair in Azj-Kahet."}
+{"id": "world-of-warcraft|264291", "text": "Escaped Fledglings are dragonhawks located in Fairbreeze Village in Eversong Woods."}
+{"id": "world-of-warcraft|264294", "text": "Essence of Dreams is located on a root in the air in the Wakeful Vista in the Emerald Dream."}
+{"id": "world-of-warcraft|264295", "text": "Essence of Endless Flame drops from Incendiary Elementals in the Emerald Dream."}
+{"id": "world-of-warcraft|264296", "text": "Essence of the Dreamfused Skull is sold by Sylvia Whisperbloom and Talisa Whisperbloom in the Emerald Dream for ."}
+{"id": "world-of-warcraft|264297", "text": "Eternal Aspirant's Chain Headguard is sold by Purveyor Zo'kuul in Oribos for ."}
+{"id": "world-of-warcraft|264298", "text": "Eternal Aspirant's Silk Cover is sold by Purveyor Zo'kuul in Oribos for ."}
+{"id": "world-of-warcraft|264299", "text": "Eternal Aspirant's Plate Stompers are sold by Purveyor Zo'kuul in Oribos for ."}
+{"id": "world-of-warcraft|264300", "text": "Essence of a Broken Dream begins a quest chain that eventually rewards the Incandescent Essence. To begin, defeat Gnarlroot and loot the Twisted Dreaming Essence from its corpse. Turn in to Merithra, who is located inside the raid."}
+{"id": "world-of-warcraft|264301", "text": "Two Etched Carvings can be found in the at . Reading one as a Mage will cause a series of green circles to appear. Use Blink to move through the circles to the other carving without taking any steps, and read it to learn the Living Bomb (mage rune) rune."}
+{"id": "world-of-warcraft|264302", "text": "Eternal Black Rose is a cosmetic helm available for purchase during Love is in the Air for 20x Love Token from Hana Breezeheart and Davil Ersthwhyl in Durotar and Sylandra Silverbreeze in Elwynn Forest."}
+{"id": "world-of-warcraft|264303", "text": "Eternal Blue Rose is a cosmetic helm available for purchase during Love is in the Air for 20x Love Token from Hana Breezeheart and Davil Ersthwhyl in Durotar and Sylandra Silverbreeze in Elwynn Forest."}
+{"id": "world-of-warcraft|264305", "text": "Eternal Blossom Pantsis an appearance unlocked through the use of Ensemble: Vestments of the Eternal Blossom."}
+{"id": "world-of-warcraft|264306", "text": "Eternal Blossom Cinch is an appearance unlocked through the use of Ensemble: Vestments of the Eternal Blossom."}
+{"id": "world-of-warcraft|264307", "text": "Eternal Blossom Hands is an appearance unlocked through the use of Ensemble: Vestments of the Eternal Blossom."}
+{"id": "world-of-warcraft|264308", "text": "Eternal Blossom Cap is an appearance unlocked through the use of Ensemble: Vestments of the Eternal Blossom."}
+{"id": "world-of-warcraft|264309", "text": "Eternal Blossom Treads is an appearance unlocked through the use of Ensemble: Vestments of the Eternal Blossom."}
+{"id": "world-of-warcraft|264310", "text": "Eternal Blossom Jerkin is an appearance unlocked through the use of Ensemble: Vestments of the Eternal Blossom."}
+{"id": "world-of-warcraft|264311", "text": "Eternal Blossom Wraps is an appearance unlocked through the use of Ensemble: Vestments of the Eternal Blossom."}
+{"id": "world-of-warcraft|264312", "text": "Eternal Blossom Bindings is an appearance unlocked through the use of Ensemble: Vestments of the Eternal Blossom#Heroic."}
+{"id": "world-of-warcraft|264313", "text": "Eternal Blossom Vest is an appearance unlocked through the use of Ensemble: Vestments of the Eternal Blossom#Heroic."}
+{"id": "world-of-warcraft|264314", "text": "Eternal Blossom Footguards is an appearance unlocked through the use of Ensemble: Vestments of the Eternal Blossom#Heroic."}
+{"id": "world-of-warcraft|264315", "text": "Eternal Blossom Waistband is an appearance unlocked through the use of Ensemble: Vestments of the Eternal Blossom#Heroic."}
+{"id": "world-of-warcraft|264316", "text": "Eternal Blossom Shoulderpads is an appearance unlocked through the use of Ensemble: Vestments of the Eternal Blossom#Raid Finder."}
+{"id": "world-of-warcraft|264317", "text": "Eternal Blossom Belt is an appearance unlocked through the use of Ensemble: Vestments of the Eternal Blossom#Raid Finder."}
+{"id": "world-of-warcraft|264318", "text": "Eternal Blossom Boots is an appearance unlocked through the use of Ensemble: Vestments of the Eternal Blossom#Raid Finder."}
+{"id": "world-of-warcraft|264319", "text": "Eternal Blossom Bracers is an appearance unlocked through the use of Ensemble: Vestments of the Eternal Blossom#Raid Finder."}
+{"id": "world-of-warcraft|264321", "text": "The Essence of the Eastern Kingdoms is created by combining 20 , which have a chance to drop from Radiant Echoes objectives in the Searing Gorge. This item can in turn be combined with the Lifeless Stone Ring along with the other essences (Essence of Kalimdor and the Essence of Northrend) to create a Band of Radiant Echoes, an heirloom ring."}
+{"id": "world-of-warcraft|264322", "text": "The Essence of Northrend is created by combining 20 , which have a chance to drop from Radiant Echoes objectives in the Dragonblight. This item can in turn be combined with the Lifeless Stone Ring along with the other essences (Essence of Kalimdor and the Essence of the Eastern Kingdoms) to create a Band of Radiant Echoes, an heirloom ring."}
+{"id": "world-of-warcraft|264323", "text": "The Essence of Kalimdor is created by combining 20 , which have a chance to drop from Radiant Echoes objectives in Dustwallow Marsh. This item can in turn be combined with the Lifeless Stone Ring along with the other essences (Essence of the Eastern Kingdoms and the Essence of Northrend) to create a Band of Radiant Echoes, an heirloom ring."}
+{"id": "world-of-warcraft|264324", "text": "Essence of Holy Fire is located in Light's Redoubt in Hallowfall."}
+{"id": "world-of-warcraft|264325", "text": "Esteemed Earthen Emblem is a quest reward from the Into the Machine."}
+{"id": "world-of-warcraft|264327", "text": "Esteemed Nerubian's Mantle drops from Skirmisher Sa'zryk at Arathi's End in Azj-Kahet."}
+{"id": "world-of-warcraft|264328", "text": "Eternal Belt of Ten Storms is an appearance unlocked through the use of Ensemble: Eternal Ten Storms."}
+{"id": "world-of-warcraft|264329", "text": "Eternal Blouse of Transcendence is an appearance unlocked through the use of Ensemble: Eternal Vestments of Transcendence."}
+{"id": "world-of-warcraft|264331", "text": "Eternal Bindings of the August Acolyte are an appearance unlocked through the use of Ensemble: Eternal Battlegear of the August Acolyte."}
+{"id": "world-of-warcraft|264332", "text": "Eternal Bloodfang Belt is an appearance unlocked through the use of Ensemble: Eternal Bloodfang Armor."}
+{"id": "world-of-warcraft|264333", "text": "Eternal Bloodfang Boots are an appearance unlocked through the use of Ensemble: Eternal Bloodfang Armor."}
+{"id": "world-of-warcraft|264334", "text": "Eternal Bloodfang Bracers are an appearance unlocked through the use of Ensemble: Eternal Bloodfang Armor."}
+{"id": "world-of-warcraft|264335", "text": "Eternal Bloodfang Chestpieces are an appearance unlocked through the use of Ensemble: Eternal Bloodfang Armor."}
+{"id": "world-of-warcraft|264336", "text": "Eternal Bloodfang Cloak is an appearance unlocked through the use of Ensemble: Eternal Bloodfang Armor."}
+{"id": "world-of-warcraft|264337", "text": "Eternal Bloodfang Gloves are an appearance unlocked through the use of Ensemble: Eternal Bloodfang Armor."}
+{"id": "world-of-warcraft|264338", "text": "Eternal Bloodfang Hood is an appearance unlocked through the use of Ensemble: Eternal Bloodfang Armor."}
+{"id": "world-of-warcraft|264339", "text": "Eternal Bloodfang Pants are an appearance unlocked through the use of Ensemble: Eternal Bloodfang Armor."}
+{"id": "world-of-warcraft|264340", "text": "Eternal Bloodfang Spaulders are an appearance unlocked through the use of Ensemble: Eternal Bloodfang Armor."}
+{"id": "world-of-warcraft|264341", "text": "Eternal Belt of Transcendence is an appearance unlocked through the use of Ensemble: Eternal Vestments of Transcendence."}
+{"id": "world-of-warcraft|264342", "text": "Eternal Bindings of Transcendence are an appearance unlocked through the use of Ensemble: Eternal Vestments of Transcendence."}
+{"id": "world-of-warcraft|264343", "text": "Eternal Boots of Transcendence are an appearance unlocked through the use of Ensemble: Eternal Vestments of Transcendence."}
+{"id": "world-of-warcraft|264344", "text": "Essence of Dread is a sha located in Dread Wastes. It is visible during Dark Skies (quest)."}
+{"id": "world-of-warcraft|264345", "text": "Essence of Horror is a sha located in Dread Wastes. It is visible during Dark Skies (quest)."}
+{"id": "world-of-warcraft|264346", "text": "Essence of Panic is a sha located in Dread Wastes. It is visible during Dark Skies (quest)."}
+{"id": "world-of-warcraft|264347", "text": "Essence of Kaja'mite is the Catalyst currency during The War Within Season 2. It accumulates by one every two weeks up to a total of 8. Players also earn one from the Crystallized Essence of Kaja'mite from The War Within Season 2: Master Blaster."}
+{"id": "world-of-warcraft|264348", "text": "The Etched Machine Speaker's Reliquary is located all over the Ringing Deeps."}
+{"id": "world-of-warcraft|264350", "text": "Essence Collector is provided by Xal'atath for Tempest Clefts."}
+{"id": "world-of-warcraft|264351", "text": "Essence Scanner is provided by Deputy Zo'mi for Tazavesh Facade (quest). It is also provided by Acquisitioner Xy'gui after accepting Umbral Facade (quest)."}
+{"id": "world-of-warcraft|264352", "text": "Etched Fragments are looted from enemies in the Archival Assault delve during Arcane Runed Sigil (quest)."}
+{"id": "world-of-warcraft|264354", "text": "Essences of Doubt are air revenants that can be found at the Cloudtop Terrace in Uldum. They drop no loot."}
+{"id": "world-of-warcraft|264355", "text": "Etched Scrolls are located throughough the northern parts of the Isle of Quel'Danas during the assault by the Devouring Host. They grant the following buff: *"}
+{"id": "world-of-warcraft|264356", "text": "Essence of Lumber is obtained extremely rarely while harvesting lumber. It can be exchanged with Lestia Goldenstrike in Founder's Point or with Xiz'ro in Razorwind Shores for 20 lumber of the player's choice."}
+{"id": "world-of-warcraft|264358", "text": "The Estate Guardian is a stoneborn found at the Caretaker's Manor in Revendreth during The Tithelord (quest)."}
+{"id": "world-of-warcraft|264361", "text": "Essence Trap is a curio for Valeera Sanguinar during Midnight Season 2. The baseline version is found in low-tier delves, and higher-rank versions are found in higher-tier delves, all the way up to the Rank 4 version in Tier 8 delves. Rank 5 can be obtained from the Labyrinth of Kindo'jan after reaching rank 1 in Kindo'jan's Labyrinth Journey."}
+{"id": "world-of-warcraft|264366", "text": "Eternal Kindler's Greatstaff drops from Tindral Sageswift in Amirdrassil, the Dream's Hope."}
+{"id": "world-of-warcraft|264367", "text": "Eternal Sentinel's Cord drops from Nymue in Amirdrassil, the Dream's Hope."}
+{"id": "world-of-warcraft|264369", "text": "Eternal Orange Rose is a cosmetic helm available for purchase during Love is in the Air for 20x Love Token from Hana Breezeheart and Davil Ersthwhyl in Durotar and Sylandra Silverbreeze in Elwynn Forest."}
+{"id": "world-of-warcraft|264370", "text": "Eternal Pink Rose is a cosmetic helm available for purchase during Love is in the Air for 20x Love Token from Hana Breezeheart and Davil Ersthwhyl in Durotar and Sylandra Silverbreeze in Elwynn Forest."}
+{"id": "world-of-warcraft|264371", "text": "Eternal White Rose is a cosmetic helm available for purchase during Love is in the Air for 20x Love Token from Hana Breezeheart and Davil Ersthwhyl in Durotar and Sylandra Silverbreeze in Elwynn Forest."}
+{"id": "world-of-warcraft|264372", "text": "Eternal Yellow Rose is a cosmetic helm available for purchase during Love is in the Air for 20x Love Token from Hana Breezeheart and Davil Ersthwhyl in Durotar and Sylandra Silverbreeze in Elwynn Forest."}
+{"id": "world-of-warcraft|264376", "text": "The Ether House is an ethereal-run shop located in the Fissure in Dornogal. The ethereals here offer transmogrification services. It sits across from the Lapidarium near the front of the Fissure."}
+{"id": "world-of-warcraft|264378", "text": "Ethereal Mistwalker Boots drop from Festering Rotslime in the Temple of Atal'Hakkar."}
+{"id": "world-of-warcraft|264379", "text": "Eternal Embrace of the Wind Serpent drops from the Avatar of Hakkar in the Temple of Atal'Hakkar."}
+{"id": "world-of-warcraft|264381", "text": "The Eternity's End Launch Trailer is the official trailer for Patch 9.2.0: Eternity's End."}
+{"id": "world-of-warcraft|264384", "text": "Eternal Nemesis Belt is an appearance unlocked through the use of Ensemble: Eternal Nemesis Raiment."}
+{"id": "world-of-warcraft|264385", "text": "Eternal Nemesis Cloak is an appearance unlocked through the use of Ensemble: Eternal Nemesis Raiment."}
+{"id": "world-of-warcraft|264386", "text": "Eternal Nemesis Skullcap is an appearance unlocked through the use of Ensemble: Eternal Nemesis Raiment."}
+{"id": "world-of-warcraft|264387", "text": "Eternal Nemesis Spaulders is an appearance unlocked through the use of Ensemble: Eternal Nemesis Raiment."}
+{"id": "world-of-warcraft|264388", "text": "Eternal Nemesis Robes is an appearance unlocked through the use of Ensemble: Eternal Nemesis Raiment."}
+{"id": "world-of-warcraft|264389", "text": "Eternal Nemesis Gloves is an appearance unlocked through the use of Ensemble: Eternal Nemesis Raiment."}
+{"id": "world-of-warcraft|264390", "text": "Eternal Nemesis Leggings is an appearance unlocked through the use of Ensemble: Eternal Nemesis Raiment."}
+{"id": "world-of-warcraft|264391", "text": "Eternal Nemesis Boots is an appearance unlocked through the use of Ensemble: Eternal Nemesis Raiment."}
+{"id": "world-of-warcraft|264392", "text": "Eternal Nemesis Bracers is an appearance unlocked through the use of Ensemble: Eternal Nemesis Raiment."}
+{"id": "world-of-warcraft|264393", "text": "Eternal Nemesis Blouse is an appearance unlocked through the use of Ensemble: Eternal Nemesis Raiment."}
+{"id": "world-of-warcraft|264394", "text": "Eternal Judgment Crown is an appearance unlocked through the use of Ensemble: Eternal Judgment Armor."}
+{"id": "world-of-warcraft|264395", "text": "Eternal Judgment Spaulders is an appearance unlocked through the use of Ensemble: Eternal Judgment Armor."}
+{"id": "world-of-warcraft|264396", "text": "Eternal Judgment Breastplate is an appearance unlocked through the use of Ensemble: Eternal Judgment Armor."}
+{"id": "world-of-warcraft|264397", "text": "Eternal Judgment Belt is an appearance unlocked through the use of Ensemble: Eternal Judgment Armor."}
+{"id": "world-of-warcraft|264398", "text": "Eternal Judgment Bindings is an appearance unlocked through the use of Ensemble: Eternal Judgment Armor."}
+{"id": "world-of-warcraft|264399", "text": "Eternal Judgment Gauntlets is an appearance unlocked through the use of Ensemble: Eternal Judgment Armor."}
+{"id": "world-of-warcraft|264400", "text": "Eternal Judgment Cloak is an appearance unlocked through the use of Ensemble: Eternal Judgment Armor."}
+{"id": "world-of-warcraft|264401", "text": "Eternal Judgment Legplates is an appearance unlocked through the use of Ensemble: Eternal Judgment Armor."}
+{"id": "world-of-warcraft|264402", "text": "Eternal Judgment Sabatons is an appearance unlocked through the use of Ensemble: Eternal Judgment Armor."}
+{"id": "world-of-warcraft|264403", "text": "Eternal Judgment Greaves is an appearance unlocked through the use of Ensemble: Eternal Judgment Armor."}
+{"id": "world-of-warcraft|264404", "text": "Eternal Helmet of Ten Storms is an appearance unlocked through the use of Ensemble: Eternal Ten Storms."}
+{"id": "world-of-warcraft|264405", "text": "Eternal Epaulets of Ten Storms is an appearance unlocked through the use of Ensemble: Eternal Ten Storms."}
+{"id": "world-of-warcraft|264406", "text": "Eternal Breastplate of Ten Storms is an appearance unlocked through the use of Ensemble: Eternal Ten Storms."}
+{"id": "world-of-warcraft|264407", "text": "Eternal Bracers of Ten Storms is an appearance unlocked through the use of Ensemble: Eternal Ten Storms."}
+{"id": "world-of-warcraft|264408", "text": "Eternal Gauntlets of Ten Storms is an appearance unlocked through the use of Ensemble: Eternal Ten Storms."}
+{"id": "world-of-warcraft|264409", "text": "Eternal Kilt of Ten Storms is an appearance unlocked through the use of Ensemble: Eternal Ten Storms."}
+{"id": "world-of-warcraft|264410", "text": "Eternal Greaves of Ten Storms is an appearance unlocked through the use of Ensemble: Eternal Ten Storms."}
+{"id": "world-of-warcraft|264411", "text": "Eternal Cloak of Ten Storms is an appearance unlocked through the use of Ensemble: Eternal Ten Storms."}
+{"id": "world-of-warcraft|264412", "text": "Eternal Stormrage Cover is an appearance unlocked through the use of Ensemble: Eternal Stormrage Armor."}
+{"id": "world-of-warcraft|264413", "text": "Eternal Stormrage Pauldrons is an appearance unlocked through the use of Ensemble: Eternal Stormrage Armor."}
+{"id": "world-of-warcraft|264414", "text": "Eternal Stormrage Robe is an appearance unlocked through the use of Ensemble: Eternal Stormrage Armor."}
+{"id": "world-of-warcraft|264415", "text": "Eternal Stormrage Bracers is an appearance unlocked through the use of Ensemble: Eternal Stormrage Armor."}
+{"id": "world-of-warcraft|264416", "text": "Eternal Stormrage Handguards is an appearance unlocked through the use of Ensemble: Eternal Stormrage Armor."}
+{"id": "world-of-warcraft|264417", "text": "Eternal Stormrage Belt is an appearance unlocked through the use of Ensemble: Eternal Stormrage Armor."}
+{"id": "world-of-warcraft|264418", "text": "Eternal Stormrage Chestguard is an appearance unlocked through the use of Ensemble: Eternal Stormrage Armor."}
+{"id": "world-of-warcraft|264419", "text": "Eternal Stormrage Legguards is an appearance unlocked through the use of Ensemble: Eternal Stormrage Armor."}
+{"id": "world-of-warcraft|264420", "text": "Eternal Stormrage Boots is an appearance unlocked through the use of Ensemble: Eternal Stormrage Armor."}
+{"id": "world-of-warcraft|264421", "text": "Eternal Stormrage Cloak is an appearance unlocked through the use of Ensemble: Eternal Stormrage Armor."}
+{"id": "world-of-warcraft|264422", "text": "Eternal Netherwind Blouse is an appearance unlocked through the use of Ensemble: Eternal Netherwind Regalia."}
+{"id": "world-of-warcraft|264423", "text": "Eternal Netherwind Belt is an appearance unlocked through the use of Ensemble: Eternal Netherwind Regalia."}
+{"id": "world-of-warcraft|264424", "text": "Eternal Netherwind Bindings are an appearance unlocked through the use of Ensemble: Eternal Netherwind Regalia."}
+{"id": "world-of-warcraft|264425", "text": "Eternal Netherwind Boots are an appearance unlocked through the use of Ensemble: Eternal Netherwind Regalia."}
+{"id": "world-of-warcraft|264426", "text": "Eternal Netherwind Cloak is an appearance unlocked through the use of Ensemble: Eternal Netherwind Regalia."}
+{"id": "world-of-warcraft|264427", "text": "Eternal Netherwind Crown is an appearance unlocked through the use of Ensemble: Eternal Netherwind Regalia."}
+{"id": "world-of-warcraft|264428", "text": "Eternal Netherwind Gloves are an appearance unlocked through the use of Ensemble: Eternal Netherwind Regalia."}
+{"id": "world-of-warcraft|264429", "text": "Eternal Netherwind Mantle is an appearance unlocked through the use of Ensemble: Eternal Netherwind Regalia."}
+{"id": "world-of-warcraft|264430", "text": "Eternal Netherwind Pants are an appearance unlocked through the use of Ensemble: Eternal Netherwind Regalia."}
+{"id": "world-of-warcraft|264431", "text": "Eternal Netherwind Robes are an appearance unlocked through the use of Ensemble: Eternal Netherwind Regalia."}
+{"id": "world-of-warcraft|264432", "text": "Eternal Cloak of the August Acolyte is an appearance unlocked through the use of Ensemble: Eternal Battlegear of the August Acolyte."}
+{"id": "world-of-warcraft|264433", "text": "Eternal Cord of the August Acolyte is an appearance unlocked through the use of Ensemble: Eternal Battlegear of the August Acolyte."}
+{"id": "world-of-warcraft|264434", "text": "Eternal Grips of the August Acolyte are an appearance unlocked through the use of Ensemble: Eternal Battlegear of the August Acolyte."}
+{"id": "world-of-warcraft|264435", "text": "Eternal Helm of the August Acolyte is an appearance unlocked through the use of Ensemble: Eternal Battlegear of the August Acolyte."}
+{"id": "world-of-warcraft|264436", "text": "Eternal Pants of the August Acolyte are an appearance unlocked through the use of Ensemble: Eternal Battlegear of the August Acolyte."}
+{"id": "world-of-warcraft|264437", "text": "Eternal Spaulders of the August Acolyte are an appearance unlocked through the use of Ensemble: Eternal Battlegear of the August Acolyte."}
+{"id": "world-of-warcraft|264438", "text": "Eternal Talons of the August Acolyte are an appearance unlocked through the use of Ensemble: Eternal Battlegear of the August Acolyte."}
+{"id": "world-of-warcraft|264439", "text": "Eternal Vest of the August Acolyte is an appearance unlocked through the use of Ensemble: Eternal Battlegear of the August Acolyte."}
+{"id": "world-of-warcraft|264440", "text": "Eternal Bracelets of Wrath are an appearance unlocked through the use of Ensemble: Eternal Battlegear of Wrath."}
+{"id": "world-of-warcraft|264441", "text": "Eternal Breastplate of Wrath is an appearance unlocked through the use of Ensemble: Eternal Battlegear of Wrath."}
+{"id": "world-of-warcraft|264442", "text": "Eternal Cloak of Wrath is an appearance unlocked through the use of Ensemble: Eternal Battlegear of Wrath."}
+{"id": "world-of-warcraft|264443", "text": "Eternal Gauntlets of Wrath are an appearance unlocked through the use of Ensemble: Eternal Battlegear of Wrath."}
+{"id": "world-of-warcraft|264444", "text": "Eternal Helm of Wrath is an appearance unlocked through the use of Ensemble: Eternal Battlegear of Wrath."}
+{"id": "world-of-warcraft|264445", "text": "Eternal Legplates of Wrath are an appearance unlocked through the use of Ensemble: Eternal Battlegear of Wrath."}
+{"id": "world-of-warcraft|264446", "text": "Eternal Pauldrons of Wrath are an appearance unlocked through the use of Ensemble: Eternal Battlegear of Wrath."}
+{"id": "world-of-warcraft|264447", "text": "Eternal Sabatons of Wrath are an appearance unlocked through the use of Ensemble: Eternal Battlegear of Wrath."}
+{"id": "world-of-warcraft|264448", "text": "Eternal Waistband of Wrath is an appearance unlocked through the use of Ensemble: Eternal Battlegear of Wrath."}
+{"id": "world-of-warcraft|264449", "text": "Eternal Cloak of Transcendence is an appearance unlocked through the use of Ensemble: Eternal Vestments of Transcendence."}
+{"id": "world-of-warcraft|264450", "text": "Eternal Halo of Transcendence is an appearance unlocked through the use of Ensemble: Eternal Vestments of Transcendence."}
+{"id": "world-of-warcraft|264451", "text": "Eternal Handguards of Transcendence are an appearance unlocked through the use of Ensemble: Eternal Vestments of Transcendence."}
+{"id": "world-of-warcraft|264452", "text": "Eternal Leggings of Transcendence are an appearance unlocked through the use of Ensemble: Eternal Vestments of Transcendence."}
+{"id": "world-of-warcraft|264453", "text": "Eternal Pauldrons of Transcendence are an appearance unlocked through the use of Ensemble: Eternal Vestments of Transcendence."}
+{"id": "world-of-warcraft|264454", "text": "Eternal Robes of Transcendence are an appearance unlocked through the use of Ensemble: Eternal Vestments of Transcendence."}
+{"id": "world-of-warcraft|264456", "text": "Ethereal Mind-Scrapers are void ethereals located in the Vatworks in Undermine."}
+{"id": "world-of-warcraft|264457", "text": "Ethereal Invasion is one of the two quests that begins the fourth chapter of the Undermine(d) campaign: \"Breaking the Shackles\"."}
+{"id": "world-of-warcraft|264458", "text": "Ethereal Heartseekers are void ethereals located in the Heaps in Undermine."}
+{"id": "world-of-warcraft|264459", "text": "Eternal Palace sets are the appearance sets associated with patch 8.2.0 and the Eternal Palace. They are visually themed after the raid and offer no set bonuses. There are a total of four Eternal Palace appearance sets, one for each armor type. Despite not being proper tier sets, they are sometimes colloquially called Tier 24. Completing one of these sets will grant the Under the Seams achievement."}
+{"id": "world-of-warcraft|264460", "text": "Eternal Curator's Protectorate is the Uldir set for plate-wearers. Several items can count towards collecting the appearance for each armor slot. Zandalar and Kul Tiras world bosses, along with a few pieces that can be crafted with Battle for Azeroth Blacksmithing, can unlock the normal difficulty appearance. Completing the set grants the New Mog, G'huun This? achievement."}
+{"id": "world-of-warcraft|264461", "text": "Eternal Curator's Chains is the Uldir set for mail-wearers. Several items can count towards collecting the appearance for each armor slot. Zandalar and Kul Tiras world bosses, along with a few pieces that can be crafted with Battle for Azeroth Leatherworking, can unlock the normal difficulty appearance. Completing the set grants the New Mog, G'huun This? achievement."}
+{"id": "world-of-warcraft|264462", "text": "Eternal Curator's Vestment is the Uldir set for cloth-wearers. Several items can count towards collecting the appearance for each armor slot. Zandalar and Kul Tiras world bosses, along with a few pieces that can be crafted with Battle for Azeroth Tailoring, can unlock the normal difficulty appearance. Completing the set grants the New Mog, G'huun This? achievement."}
+{"id": "world-of-warcraft|264463", "text": "Eternal Curator's Garb is the Uldir set for leather-wearers. Several items can count towards collecting the appearance for each armor slot. Zandalar and Kul Tiras world bosses, along with a few pieces that can be crafted with Battle for Azeroth Leatherworking, can unlock the normal difficulty appearance. Completing the set grants the New Mog, G'huun This? achievement."}
+{"id": "world-of-warcraft|264464", "text": "Ethereal Crests are the seasonal crests used to upgrade The War Within Season 3 gear:"}
+{"id": "world-of-warcraft|264467", "text": "Ethereral Delves begins the third season of delves in . This quest starts automatically on login after the launch of Season 3 the week of 12 August 2025, and the quest chain eventually rewards the Etheric Victory toy."}
+{"id": "world-of-warcraft|264468", "text": "__NOTOC__ Ethereal Energy Converter is a curio for Brann Bronzebeard during The War Within Season 3. The baseline version is found in low-tier delves, and higher-rank versions are found in higher-tier delves, all the way up to the Rank 4 version in Tier 8 delves."}
+{"id": "world-of-warcraft|264471", "text": "Eterni-tea is found on the table behind Lindormi at the Millennia's Threshold. Taking a sip provides the following flavor buff that lasts for 30 seconds. *"}
+{"id": "world-of-warcraft|264472", "text": "Ethereal Pocket-Storage are treasures found throughout K'aresh and Tazavesh, the Veiled Market. In order to see them and interact with them, the player must be Renown 4 or higher with the K'aresh Trust."}
+{"id": "world-of-warcraft|264473", "text": "Ethereal Pylon Conduit is a item that can be found in Ethereal Pocket-Storage and delves."}
+{"id": "world-of-warcraft|264474", "text": "Ethereal Equipment Chest is sold by Agmera in Dornogal in exchange for 350 Valorstones."}
+{"id": "world-of-warcraft|264476", "text": "Eternus's Trial: Sands of Time is an affix for WoW Remix: Legion Mythic+. It is one of the four unique affixes applied to keystones at level 2 or higher."}
+{"id": "world-of-warcraft|264477", "text": "Eternus's Trial: Dusk of the Infinite is an affix for WoW Remix: Legion Mythic+. It is one of the four unique affixes applied to keystones at level 2 or higher."}

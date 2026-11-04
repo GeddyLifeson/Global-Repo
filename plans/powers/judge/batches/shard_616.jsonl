@@ -1,0 +1,250 @@
+{"id": "world-of-warcraft|223606", "text": "Fired when a unit's spellcast is delayed, including party/raid members or the player. UNIT_SPELLCAST_DELAYED: unitTarget, castGUID, spellID"}
+{"id": "world-of-warcraft|223607", "text": "Fired when your character's reputation of some faction has changed. UPDATE_FACTION"}
+{"id": "world-of-warcraft|223610", "text": "Fired when the chat colour needs to be updated. Refer to for details on the parameters. UPDATE_CHAT_COLOR: name, r, g, b"}
+{"id": "world-of-warcraft|223611", "text": "Fires while a unit is channeling. Received for party/raid members, as well as the player. UNIT_SPELLCAST_CHANNEL_UPDATE: unitTarget, castGUID, spellID"}
+{"id": "world-of-warcraft|223612", "text": "Fired when a spell is cast successfully. Event is received even if spell is resisted. UNIT_SPELLCAST_SUCCEEDED: unitTarget, castGUID, spellID"}
+{"id": "world-of-warcraft|223616", "text": "Fired when the mouseover object needs to be updated. UPDATE_MOUSEOVER_UNIT"}
+{"id": "world-of-warcraft|223617", "text": "Fired when an available unit on an available mob's threat list moves past another unit on that list. UNIT_THREAT_SITUATION_UPDATE: unitTarget"}
+{"id": "world-of-warcraft|223618", "text": "Fired when a unit stops casting, including party/raid members or the player. UNIT_SPELLCAST_STOP: unitTarget, castGUID, spellID"}
+{"id": "world-of-warcraft|223619", "text": "Fired when a unit's spellcast fails, including party/raid members or the player. UNIT_SPELLCAST_FAILED: unitTarget, castGUID, spellID"}
+{"id": "world-of-warcraft|223620", "text": "Fired on load when chat settings are available for chat windows. UPDATE_CHAT_WINDOWS"}
+{"id": "world-of-warcraft|223621", "text": "Fired when the shaman totem multicast bar needs an update. UPDATE_MULTI_CAST_ACTIONBAR"}
+{"id": "world-of-warcraft|223622", "text": "Fired when a unit's ranged damage changes. UNIT_RANGEDDAMAGE: unitTarget"}
+{"id": "world-of-warcraft|223623", "text": "Fired when a units stats are available. UNIT_STATS: unitTarget"}
+{"id": "world-of-warcraft|223624", "text": "Fired when the keybindings are changed. Fired after completion of , , and (and its derivatives). UPDATE_BINDINGS"}
+{"id": "world-of-warcraft|223625", "text": "Fired when the client receives updated threat information from the server, if an available mob's threat list has changed at all (i.e. anybody in combat with it has done anything). UNIT_THREAT_LIST_UPDATE: unitTarget"}
+{"id": "world-of-warcraft|223626", "text": "Fired whenever joining a queue, leaving a queue, battlefield to join is changed, when you can join a battlefield, or if somebody wins the battleground. UPDATE_BATTLEFIELD_STATUS: battleFieldIndex"}
+{"id": "world-of-warcraft|223627", "text": "Fired when a unit's spellcast is interrupted, including party/raid members or the player. UNIT_SPELLCAST_INTERRUPTED: unitTarget, castGUID, spellID"}
+{"id": "world-of-warcraft|223628", "text": "Fired within Battlefields when certain things occur such as a flag being captured. \"UPDATE_WORLD_STATES\" Also seen in the outdoor world occasionlly, but it's not clear what triggers it."}
+{"id": "world-of-warcraft|223629", "text": "Fired when a unit begins channeling in the course of casting a spell. Received for party/raid members as well as the player. UNIT_SPELLCAST_CHANNEL_START: unitTarget, castGUID, spellID"}
+{"id": "world-of-warcraft|223630", "text": "Needs summary. UNIT_SPELLCAST_FAILED_QUIET: unitTarget, castGUID, spellID"}
+{"id": "world-of-warcraft|223632", "text": "Fired when the target of yourself, raid, and party members change UNIT_TARGET: unitTarget"}
+{"id": "world-of-warcraft|223635", "text": "Fired when your character's XP exhaustion (i.e. the amount of your character's rested bonus) changes. Use to query the current value. UPDATE_EXHAUSTION"}
+{"id": "world-of-warcraft|223636", "text": "Fired when the units resistance changes UNIT_RESISTANCES: unitTarget"}
+{"id": "world-of-warcraft|223637", "text": "When fired prompts the LFG UI to update the list of LFG players. Signals LFG query results are available. UPDATE_LFG_LIST"}
+{"id": "world-of-warcraft|223638", "text": "Fired whenever new battlefield score data has been recieved, this is usually fired after is called. UPDATE_BATTLEFIELD_SCORE"}
+{"id": "world-of-warcraft|223639", "text": "__NOTOC__ Uduji Berserkers are jungle trolls located at Lion's Landing in the Lion's Landing scenario."}
+{"id": "world-of-warcraft|223640", "text": "Uduji Hexers are jungle trolls located at Lion's Landing in the Lion's Landing scenario."}
+{"id": "world-of-warcraft|223641", "text": "Uduji is a jungle troll hexer of the Kor'kron during the Lion's Landing scenario. He leads Uduji Hexers and Uduji Berserkers."}
+{"id": "world-of-warcraft|223642", "text": "Fired when a battle pet-summoning action might need to be updated. UPDATE_SUMMONPETS_ACTION"}
+{"id": "world-of-warcraft|223643", "text": "__NOTOC__ Ultimate Gnomish Army Knife is crafted with Draenor Engineering (100); taught by Draenor Engineering (item)."}
+{"id": "world-of-warcraft|223644", "text": "__NOTOC__ Ula is a genesaur found fighting with Tog the Earthrender at the Fertile Ground in Gorgrond."}
+{"id": "world-of-warcraft|223645", "text": "Ujia is a jungle troll stable master found in Warspear's troll section in Ashran."}
+{"id": "world-of-warcraft|223649", "text": "Umbrafen Spore can be obtained by interacting with Strange Spore in ."}
+{"id": "world-of-warcraft|223650", "text": "Uktar's Belt of Chiming Rings drops from The Iron Maidens in Blackrock Foundry."}
+{"id": "world-of-warcraft|223655", "text": "__NOTOC__ An Ultra Healing Potion is a by-product of the Alchemy skill-up item Impotent Healing Potion."}
+{"id": "world-of-warcraft|223660", "text": "__NOTOC__ Ugbright is an ogre located at the Broken Precipice in ."}
+{"id": "world-of-warcraft|223661", "text": "The Uberzeppelin is the personal zeppelin of Trade Prince Gallywix. From its deck, the Trade Prince oversaw the Plundersquad Initiative and \"inspire\" his troops. However, by spending most of his time aboard the flagship hosting parties and living in comfort (the uberzeppelin boasted both rum slides and pudding jacuzzis) had evoked only contempt. At the start of the Burning Legion's third invasion, the uberzeppelin was advertised in a Doomsayers's pamphlet."}
+{"id": "world-of-warcraft|223662", "text": "Ulthalesh, the Deadwind Harvester is the artifact used by affliction warlocks in World of Warcraft: Legion."}
+{"id": "world-of-warcraft|223663", "text": "Umbrafen Point is located outside Umbrafen. It is the coast for Deadwalker Pass."}
+{"id": "world-of-warcraft|223664", "text": "__NOTOC__ Ug'lok the Frozen is an ogre located at the Stonefury Cliffs in Frostfire Ridge."}
+{"id": "world-of-warcraft|223666", "text": "Ularogg Cragshaper is a drogbar located in Neltharion's Lair. He was confronted by Navarrogg at the Lost Road. Refusing to see Navarrogg's reasoning, Ularogg sent Rokmora against the adventurers."}
+{"id": "world-of-warcraft|223671", "text": "Larthogg is a mo'arg brute that appears at the Snowblind Mesa during a Legion Assault. He previously appeared at the Orgrimmar Rear Gate in Azshara."}
+{"id": "world-of-warcraft|223672", "text": "Uldgar is a vrykul ghost located in the Field of Fallen Kings in Stormheim."}
+{"id": "world-of-warcraft|223673", "text": "Ulthalesh is a nathrezim who once ruled the prison dimension of Mardum and who refused to join Sargeras when the latter formed the Burning Legion. As punishment, Sargeras imprisoned Ulthalesh's spirit in the scythe of the same name."}
+{"id": "world-of-warcraft|223678", "text": "__NOTOC__ Ulaani is a draenei located in Bizmo's Brawlpub underneath the Deeprun Tram."}
+{"id": "world-of-warcraft|223681", "text": "__NOTOC__ Ualair is a gyreworm found in Leyhollow in Azsuna."}
+{"id": "world-of-warcraft|223684", "text": "Umbrafen Slavebinders are Lost Ones located in Umbrafen Village in Zangarmarsh. They attack the player while escorting Kayra Longmane during the Escape from Umbrafen quest."}
+{"id": "world-of-warcraft|223685", "text": "Umbrafen Seers are Lost Ones located in Umbrafen Village in Zangarmarsh."}
+{"id": "world-of-warcraft|223686", "text": "Umbrafen Oracles are Lost Ones located in Umbrafen Village in Zangarmarsh."}
+{"id": "world-of-warcraft|223689", "text": "Umbral War-Adepts are void ethereals located at the Seat of the Triumvirate in Eredath."}
+{"id": "world-of-warcraft|223690", "text": "Umbraliss is a rare elite voidstalker located in the Umbra Hollows in Eredath."}
+{"id": "world-of-warcraft|223692", "text": "Ulduar Monitors are titan orbs located in the Terrestrial Watchtower in the Halls of Lightning."}
+{"id": "world-of-warcraft|223697", "text": "Umbral Rangers are void elves located around the edges of Telogrus Rift. Some are accompanied by pet voidstalkers."}
+{"id": "world-of-warcraft|223699", "text": "Umbric's Notes - Andilien Estate can be found in the Andilien Estate in the Ghostlands."}
+{"id": "world-of-warcraft|223704", "text": "__NOTOC__ Ultramarine Pigment is milled from any herb found on Kul Tiras and Zandalar."}
+{"id": "world-of-warcraft|223705", "text": "Ultramarine Ink is created with Inscription (1); taught by trainers."}
+{"id": "world-of-warcraft|223707", "text": "Ulvareth is a Blizzard employee and Community Manager for the EU forums."}
+{"id": "world-of-warcraft|223709", "text": "Uldaz is a titan facility mentioned by the Maiden of Vitality in the Chamber of Heart and in the equip effect of The Infinite Hand."}
+{"id": "world-of-warcraft|223715", "text": "Umbral Hulks are n'raqi located in Sagehold in Stormsong Valley."}
+{"id": "world-of-warcraft|223719", "text": "Uldir Guild Run is a raid achievement earned for defeating the bosses in Uldir on Normal difficulty or higher while in a guild group."}
+{"id": "world-of-warcraft|223721", "text": "These are unique IDs for zone maps and can be returned from (\"player\") for the current zone or WorldMapFrame:GetMapID() for the currently viewed map. They can be passed to () or WorldMapFrame:SetMapID(). The values are defined in * See InstanceID for identifying map instances instead of UI maps. * In Patch 8.0.1 the map API was updated, replacing WorldMapAreaID and DungeonMapID with UiMapID. __TOC__"}
+{"id": "world-of-warcraft|223722", "text": "__NOTOC__ The Umber Shore is a stretch of coastline along the south side of Tiragarde Sound's bay. The area has been split open with the emergence of :Azerite, which has attracted rogue tidesages and Stormsong loyalists intent on exploiting it. The shore is also home to a large amount of seals and hosts several shipwrecks."}
+{"id": "world-of-warcraft|223726", "text": "Umbo the Sneak is a skeletal troll located in the northeastern Port of Zem'lan in Vol'dun, accompanied by a Soulspitter Cobra."}
+{"id": "world-of-warcraft|223727", "text": "as he appeared in life.]] Ugly Zul is a skeletal troll conversing with Bos'n Sno in the eastern Port of Zem'lan in Vol'dun. A Vision of Ugly Zul appears during The First Time I Died as one of the pirates who gathered at the Cursed Altar of Zem'lan to witness the ritual in which Pirate-King Zem'lan cursed his crew into skeletons. When First Mate Jamboya was turned into a skeleton, Zul was seen cowering in fear."}
+{"id": "world-of-warcraft|223729", "text": "Umbral Archers are night elf ghosts located in the Apostate's Reach in the Tomb of Sargeras."}
+{"id": "world-of-warcraft|223730", "text": "Umbral Priestesses are night elf ghosts located in the Apostate's Reach in the Tomb of Sargeras."}
+{"id": "world-of-warcraft|223734", "text": "Uguu the Feared is a sand dire troll located on the expedition isles."}
+{"id": "world-of-warcraft|223735", "text": "The Ub3r-Spanner is created with Zandalari Engineering and Kul Tiran Engineering. It is learned via a quest line which becomes available with 150 skill. Layla Evenkeel offers the initial quest for the Alliance, and Shuga Blastcaps offers it for the Horde. Aside from creating Ub3r-Constructs, it can also replace the Arclight Spanner used for older creations."}
+{"id": "world-of-warcraft|223739", "text": "Ulfar's Den is a hidden cave on the northern slopes of Mount Cortis, east of Arom's Stand in Drustvar. It is here that Ulfar, the last of the Drust Thornspeakers, trains his students."}
+{"id": "world-of-warcraft|223740", "text": "Ultra-Electrified Reflector can be bought from the followers with the engineering trait in the garrisons for . It used to be sold by Miri Fiddlewizz in Boralus."}
+{"id": "world-of-warcraft|223746", "text": "Ultra-Refined Nutrient Spheres are located in the Riverbeast Den in Gorgrond. They are thrown by the Malfunctioning Feederbot 7000 during the encounter with Berthora. Whoever grabs it first will have their damage increased by 100% for a short while."}
+{"id": "world-of-warcraft|223747", "text": "Needs summary. UPDATE_CHAT_COLOR_NAME_BY_CLASS: name, colorNameByClass"}
+{"id": "world-of-warcraft|223748", "text": "Needs summary. UPDATE_WEB_TICKET: hasTicket, numTickets, ticketStatus, caseIndex, waitTimeMinutes, waitMessage"}
+{"id": "world-of-warcraft|223759", "text": "Called after applying or cancelling changes to a macro's content, name and/or icon. UPDATE_MACROS"}
+{"id": "world-of-warcraft|223761", "text": "Returns updated UI widget information. UPDATE_UI_WIDGET: widgetInfo"}
+{"id": "world-of-warcraft|223764", "text": "Fires when a player enters or leaves stealth. UPDATE_STEALTH"}
+{"id": "world-of-warcraft|223765", "text": "Ulmath is a merciless one world boss located at Zin-Azshari in Nazjatar."}
+{"id": "world-of-warcraft|223766", "text": "Umbra'jin is a raptor located in the Lair of Umbra'jin in Zuldazar."}
+{"id": "world-of-warcraft|223767", "text": "__NOTOC__ Umbra'rix is a spider located in the Garden of the Loa in Zuldazar."}
+{"id": "world-of-warcraft|223770", "text": "Initial realms for Character Creation: https://us.forums.blizzard.com/en/wow/t/wow-classic-realm-names-and-types/246645 Additional Realm during early Character Creation: https://us.forums.blizzard.com/en/wow/t/new-wow-classic-realm-opening-today/253667 https://us.forums.blizzard.com/en/wow/t/new-wow-classic-realms-opening-monday-august-26/263309/22 https://us.forums.blizzard.com/en/wow/t/four-new-realms-opened-today-august-27/274061 https://us.forums.blizzard.com/en/wow/t/new-realm-now-open-aug-27-5-45-p-m-pdt/273691 https://us.forums.blizzard.com/en/wow/t/two-new-wow-classic-realms-opening-in-this-region/277464"}
+{"id": "world-of-warcraft|223772", "text": "Ultra Magnetizor is placed by Gelbin Mekkatorque on the G.M.O.D on The Strider in Tiragarde Sound during the Horde War Campaign."}
+{"id": "world-of-warcraft|223773", "text": "The Uldum Accord is a reputation faction in Uldum that opposes the encroaching forces of N'Zoth as well as the Amathet tol'vir. It is comprised of various denizens of Uldum, including the Ramkahen, Explorers' League, and Wastewander nomads."}
+{"id": "world-of-warcraft|223775", "text": "The Uldum Accord Supplies are a quest reward from Supplies from the Uldum Accord."}
+{"id": "world-of-warcraft|223776", "text": "The Uldum Accord Tabard is a reputation reward; you must be with Uldum Accord to purchase this item from Provisioner Qorra at the Seat of Ramkahen in Uldum for ."}
+{"id": "world-of-warcraft|223779", "text": "Uat-ka the Sun's Wrath is a bound fire elemental summoned by three Suntouched Amulets in Uldum."}
+{"id": "world-of-warcraft|223780", "text": "Ulduar Defense Constructs are stationary and unattackable clockwork giants located on the Terrace of the Makers and the exterior of Ulduar in the Storm Peaks during Operation: Troggageddon."}
+{"id": "world-of-warcraft|223781", "text": "Umbral Phalynx are phalynx located at the Walk of Recollection in Bastion."}
+{"id": "world-of-warcraft|223782", "text": "Umbral Ink is created with Inscription (15); taught by trainers."}
+{"id": "world-of-warcraft|223784", "text": "The Umbral Plume drops from Darkwing at the Greatwing Roost in Bastion."}
+{"id": "world-of-warcraft|223785", "text": "Uldum Under Assault is a quest achievement earned by protecting the denizens of Uldum from each of the Assaults."}
+{"id": "world-of-warcraft|223786", "text": "Umbrawing Monarchs are glimmerfliess located in northwestern Bastion, near Transfer Station Ta and at Shrine of the Silver Wind, Terrace of the Collectors, and Steward's Rest."}
+{"id": "world-of-warcraft|223787", "text": "Umbrawing Flitters are glimmerflies located throughout Bastion."}
+{"id": "world-of-warcraft|223788", "text": "Umbi is a tortollan child who appears to follow the player in Seekers' Vista in Stormsong Valley during the completion of Battle Victorious and Turtle Tactics."}
+{"id": "world-of-warcraft|223789", "text": "__NOTOC__ Umbryl is obtained by prospecting ore from the Shadowlands."}
+{"id": "world-of-warcraft|223790", "text": "This is an incomplete list of widget set IDs. {| class=\"sortable darktable zebra\" style=\"margin-left: 2em\" |+ {{#if:{}||UiWidgetSetID}} ! ID !! align=\"left\" | Location Function |- | align=\"center\" | 1 || () |- | align=\"center\" | 2 || () |- | align=\"center\" | 240 || () |- | align=\"center\" | 283 || () |}"}
+{"id": "world-of-warcraft|223792", "text": "Umbral Blaze is an Azerite trait available to Demonology warlocks."}
+{"id": "world-of-warcraft|223797", "text": "Umber Lurkers are krolusks located on the Umber Shore in Tiragarde Sound."}
+{"id": "world-of-warcraft|223799", "text": "Fired when the user-controllable waypoint is changed via `C_Map.SetUserWaypoint`. USER_WAYPOINT_UPDATED"}
+{"id": "world-of-warcraft|223800", "text": "Source: [https://www.townlong-yak.com/framexml/live/ObjectAPI/UiMapPoint.lua ObjectAPI/UiMapPoint.lua]"}
+{"id": "world-of-warcraft|223801", "text": "Umbral Drudges are vargul located at Malykriss: The Vile Hold in Icecrown."}
+{"id": "world-of-warcraft|223802", "text": "Needs summary. UPDATE_EXPANSION_LEVEL: unk1, unk2, oldExpansion, unk3, upgFromExpTrial"}
+{"id": "world-of-warcraft|223803", "text": "Umbrawing Dusters are glimmerflies located at the Temple of Humility in Bastion."}
+{"id": "world-of-warcraft|223811", "text": "Umbral Supplicants are eredar located in the Halls of the Sargerei in ."}
+{"id": "world-of-warcraft|223834", "text": "Ukorz's Chain Leggings drop from Chief Ukorz Sandscalp in Zul'Farrak."}
+{"id": "world-of-warcraft|223842", "text": "UNUSED - Sneaky Devil's Throwing Knives were never made available to players."}
+{"id": "world-of-warcraft|223843", "text": "Ularogg's Crystal Charm would have dropped from Ularogg Cragshaper in Neltharion's Lair."}
+{"id": "world-of-warcraft|223847", "text": "The Ultimus Locus Arrangement is located on a pillar at the Resonant Peaks in Zereth Mortis. The area is reached by going to the sixth floor of the Gravid Repose in Zereth Mortis."}
+{"id": "world-of-warcraft|223849", "text": "Umi's New and Improved Mechanical Yeti was never made available."}
+{"id": "world-of-warcraft|223850", "text": "Uldir Subject Manifest drops from MOTHER in Uldir. It is also looted from Cache of Uldir Treasures and MOTHER's Cache."}
+{"id": "world-of-warcraft|223852", "text": "Umbral Intensity is a conduit for balance druids. It drops from Artificer Xy'mox in Castle Nathria, Hakkar the Soulflayer in De Other Side, and the Vigilant Guardian in the Sepulcher of the First Ones."}
+{"id": "world-of-warcraft|223856", "text": "Ukhel Ancestry Beads drop from Teera and Maruuk in the Nokhud Offensive."}
+{"id": "world-of-warcraft|223857", "text": "Uktulut Protectors are tuskarr located at Uktulut Backwater in the Waking Shores. Some are mounted on ottuk."}
+{"id": "world-of-warcraft|223858", "text": "Uktulut Trainees are tuskarr located at Uktulut Backwater in the Waking Shores. Some are seen training on Tuskarr Training Dummies, while others sparr with each other. A few can also be seen training their Ottuk companions."}
+{"id": "world-of-warcraft|223859", "text": "Ultimate Form is a soulbind trait granted by Plague Deviser Marileth."}
+{"id": "world-of-warcraft|223860", "text": "Uka is a tuskarr child listening to Elder Poa's stories in the Filled Bowl in the Azure Span."}
+{"id": "world-of-warcraft|223862", "text": "__NOTOC__ Uirreg Stoutbrow is a Dark Iron dwarf stable master located at the Obsidian Throne in the Waking Shores."}
+{"id": "world-of-warcraft|223863", "text": "Uktulut Wanderers are tuskarr located at the Hissing Grotto in the Waking Shores. They can be seen jumping from the springboards and into the waters of the Bubble Bath below."}
+{"id": "world-of-warcraft|223869", "text": "__NOTOC__ Uluami is a Zandalari troll jewelcrafting trainer located in Emberwatch in the Ohn'ahran Plains."}
+{"id": "world-of-warcraft|223874", "text": "Uktulut Villagers are tuskarr located in Uktulut Backwater in the Waking Shores."}
+{"id": "world-of-warcraft|223875", "text": "Uldum Tour Challenge: Bronze is an expansion feature achievement earned by completing Kalimdor Uldum Tour Challenge."}
+{"id": "world-of-warcraft|223876", "text": "Uldum Tour Challenge: Gold is an expansion feature achievement earned by getting Gold ranked time for Kalimdor Uldum Tour Challenge."}
+{"id": "world-of-warcraft|223877", "text": "Uldum Tour Challenge: Silver is an expansion feature achievement earned by getting Silver ranked time for Kalimdor Uldum Tour Challenge."}
+{"id": "world-of-warcraft|223878", "text": "Uldum Tour Reverse Challenge: Bronze is an expansion feature achievement earned by completing Kalimdor Uldum Tour Reverse Challenge."}
+{"id": "world-of-warcraft|223879", "text": "Uldum Tour Reverse Challenge: Gold is an expansion feature achievement earned by getting Gold ranked time for Kalimdor Uldum Tour Reverse Challenge."}
+{"id": "world-of-warcraft|223880", "text": "Uldum Tour Reverse Challenge: Silver is an expansion feature achievement earned by getting Silver ranked time for Kalimdor Uldum Tour Reverse Challenge."}
+{"id": "world-of-warcraft|223881", "text": "Needs summary. UNIT_SPELLCAST_RETICLE_CLEAR: unitTarget, castGUID, spellID"}
+{"id": "world-of-warcraft|223882", "text": "Needs summary. UNIT_SPELLCAST_RETICLE_TARGET: unitTarget, castGUID, spellID"}
+{"id": "world-of-warcraft|223886", "text": "Ultrasafe Personnel Launchers are located at Steelgrill's Depot in Dun Morogh. They are maintained by Technicians and guarded by Covert Operatives."}
+{"id": "world-of-warcraft|223887", "text": "Umbraclaws a large omnivorous mammals resembling a cross between an eagle-owl and a bear. They are found mainly in the Emerald Dream in small groups or alone. They are tameable as feathermanes."}
+{"id": "world-of-warcraft|223888", "text": "The Ultrasafe Transporter: Gadgetzan is the latest in highly-safe Gnomish transportation. This little gadget will send you whisking through the Hyper-Never-Ether and land you with not even a bump at Gadgetzan! How can it go wrong?"}
+{"id": "world-of-warcraft|223889", "text": "Uld is a prefix found in the names of several titan-related locations. * Uldaman in the Badlands. * Uldaz, unknown location. * Uldir in Nazmir. * Uldis in the Storm Peaks. * Uldorus (Tyrhold) in Thaldraszus * Ulduar and its raid instance in the Storm Peaks. * Uldum in southern Kalimdor."}
+{"id": "world-of-warcraft|223890", "text": "This transporter has a chance to backfire as many engineering devices do."}
+{"id": "world-of-warcraft|223891", "text": "The US forums of World of Warcraft allow unrestricted access to anyone, but posting can only be done through an account obtained by purchasing a retail version of the game, and paying for an account. There are a number of sections all dealing with various aspects of the game, with the [http://forums.worldofwarcraft.com/board.html?forumId=10001&sid=1 General Forum] being the most popular due to its wide range of topics."}
+{"id": "world-of-warcraft|223892", "text": "Umbranse's Staff is a quest reward from Umbranse's Deliverance."}
+{"id": "world-of-warcraft|223893", "text": "The Un'Goro Crater (occasionally spelled as Un'goro Crater and pronounced uhn-GOH-roh) means \"God Lands\" in the Qiraji language. It lies at the central part of Southern Kalimdor, between Tanaris, Silithus and Uldum. Although the area is almost completely isolated from the rest of the world and sandwiched between three deserts, the crater is filled with exotic plant life and even more exotic creatures. Ranging from peaceful earth elementals to raging devilsaurs, the locals are not to be trifled with. Players will want to farm Ravasaur Hatchling and do dailies for Whistle of the Venomhide Ravasaur in this zone. In addition, circling the border of Un'goro is an excellent way to farm Thorium Ore"}
+{"id": "world-of-warcraft|223895", "text": "Uncategorized creatures are those that do not fall into one of the standard World of Warcraft creature types."}
+{"id": "world-of-warcraft|223897", "text": "Unbridled Wrath gives a chance to gain 1 Rage whenever a melee hit is landed. It is most useful for warriors who dual wield two fast weapons."}
+{"id": "world-of-warcraft|223901", "text": "__NOTOC__ Un'Goro Gorillas are gorillas native to Un'Goro Crater, they are found at Fungal Rock. They call for help when their health drops under 25%, so it advised to pull them away from other gorillas in the vicinity."}
+{"id": "world-of-warcraft|223902", "text": "__NOTOC__ Un'Goro Stompers are gorillas native to Un'Goro Crater, they are found at Fungal Rock. They get angry when their health drops under 50%, increasing their attack speed."}
+{"id": "world-of-warcraft|223903", "text": "__NOTOC__ Un'Goro Thunderers are gorillas native to Un'Goro Crater, they are found at Fungal Rock."}
+{"id": "world-of-warcraft|223905", "text": "This is one of three quests you can get initially from Nathanos Blightcaller. Completion of these three quests (To Kill With Purpose, Un-Life's Little Annoyances, and The Ranger Lord's Behest) opens up a quest chain that ends with The Scarlet Oracle, Demetria."}
+{"id": "world-of-warcraft|223906", "text": "__NOTOC__ Umpi is a frog found at Tarren Mill in the Hillsbrad Foothills as the assistant to Apothecary Lydon."}
+{"id": "world-of-warcraft|223907", "text": "The Uncatalogued Species are found rarely inside the Package of Identified Plants."}
+{"id": "world-of-warcraft|223911", "text": "Unbreakable Will is a Priest talent that decreases the duration of Stun, Fear, and Silence effects."}
+{"id": "world-of-warcraft|223913", "text": "The Unadorned Seal of Ascension dropped from mobs in the Lower Blackrock Spire."}
+{"id": "world-of-warcraft|223915", "text": "Un'Goro Ash drops from the following fire elementals in Un'Goro Crater: *Living Blaze *Blazerunner *Scorching Elemental *Blazing Invader *Baron Charr"}
+{"id": "world-of-warcraft|223917", "text": "This is a list of all Un'Goro Crater quests in table format."}
+{"id": "world-of-warcraft|223918", "text": "Un'Goro Slime Samples drop from the following oozes in Un'Goro Crater: * Muculent Ooze * Glutinous Ooze * Primal Ooze"}
+{"id": "world-of-warcraft|223919", "text": "Un'Goro Thunderer Pelt drops from Un'Goro Thunderers in Un'Goro Crater."}
+{"id": "world-of-warcraft|223921", "text": "Unadorned Chain Leggings are sold by: * in Eversong Woods * in Howling Fjord"}
+{"id": "world-of-warcraft|223926", "text": "Un'Goro Gorilla Pelt drops from Un'Goro Gorillas in Un'Goro Crater."}
+{"id": "world-of-warcraft|223927", "text": "Un'Goro Stomper Pelt drops from Un'Goro Stomper in Un'Goro Crater."}
+{"id": "world-of-warcraft|223928", "text": "The Unarmed Gladiator is a half-naked level 70 dwarf engaged in a duel with the . He can be found in all races' starting areas on the Arena Tournament realm, standing inside the circle of class trainers."}
+{"id": "world-of-warcraft|223933", "text": "The Un'Goro Flat Rock can be found at in Un'Goro Crater. It is used to summon Lar'korwi."}
+{"id": "world-of-warcraft|223934", "text": "__NOTOC__ Unbound Ents are treants that wander the Unbound Thicket of Crystalsong Forest."}
+{"id": "world-of-warcraft|223937", "text": "Unbound Seers are crystal satyrs found in the Forlorn Woods in Crystalsong Forest."}
+{"id": "world-of-warcraft|223939", "text": "Unbound Fragments of Val'anyr is a legendary material item used during the encounter with Yogg-Saron"}
+{"id": "world-of-warcraft|223940", "text": "__NOTOC__ Unbound Dryads are crystal dryads found in eastern Crystalsong Forest."}
+{"id": "world-of-warcraft|223942", "text": "Unbound Firestorms are fire revenants found in the the Halls of Lightning. They travel in groups together and are accompanied by Blistering Steamragers."}
+{"id": "world-of-warcraft|223943", "text": "Unbound Tricksters are crystal satyrs found in the Forlorn Woods in Crystalsong Forest."}
+{"id": "world-of-warcraft|223944", "text": "Unbound Corrupters are crystal satyrs found in the Forlorn Woods in Crystalsong Forest."}
+{"id": "world-of-warcraft|223945", "text": "The Unbound are crystal satyrs in the Forlorn Woods in Crystalsong Forest. They are the last living remnants of the Highborne that once inhabited the Ruins of Shandaral; having been transformed after a disastrous spell backfired and wiped out their civilization. \"Unbound\" is a prefix that exists on a few other entities in Crystalsong Forest beyond just the satyrs."}
+{"id": "world-of-warcraft|223946", "text": "Un'Goro Tested Sample is rewarded from the repeatable quest Testing for Impurities - Un'Goro Crater."}
+{"id": "world-of-warcraft|223948", "text": "The Unabashed Vest was a quest reward from A Hunter's Challenge."}
+{"id": "world-of-warcraft|223951", "text": "Una Kobuna is a jungle troll vendor found at Dragonmaw Port in the Twilight Highlands, after the Dragonmaw clan joins the Horde."}
+{"id": "world-of-warcraft|223952", "text": "Unbountied Cloak was a quest reward from Dread Head Redemption."}
+{"id": "world-of-warcraft|223953", "text": "Un'Goro Mantle is a quest reward from Ever Watching From Above."}
+{"id": "world-of-warcraft|223954", "text": "Unbound elementals are a type of elemental that do not wear the bracers that bind them to Azeroth. Though many elementals have titles of nobility, a subcategory of unbound elementals are \"elemental nobles\", which are armored (but not bound) fire, lava, and air elementals."}
+{"id": "world-of-warcraft|223957", "text": "Unbreakable Guardian is created with Blacksmithing (525); taught by Plans: Unbreakable Guardian."}
+{"id": "world-of-warcraft|223958", "text": "Unbound Smoldering Elemental are lava elementals found in the Firelands."}
+{"id": "world-of-warcraft|223959", "text": "__NOTOC__ Unbound Fire Elementals are fire elementals found at the Blazing Strand in Darkshore."}
+{"id": "world-of-warcraft|223960", "text": "Unbound Flame Spirits are unbound fire elementals around the Verdant Thicket in Mount Hyjal."}
+{"id": "world-of-warcraft|223963", "text": "Unbound Pyrelords are unbound fire elementals found in the Firelands."}
+{"id": "world-of-warcraft|223969", "text": "Una Wildmane is a level 10 quest giver located in Camp Sungraze in the tauren starting zone of Mulgore. She helps Tauren characters cleanse the last water well tainted by the Grimtotem."}
+{"id": "world-of-warcraft|223974", "text": "Unbound Nightlords appear in the Shrine of Lost Souls after defeating the Essence of Order in the Pursuing the Black Harvest scenario."}
+{"id": "world-of-warcraft|223975", "text": "Unbound Bonemenders appear in the Shrine of Lost Souls after defeating the Essence of Order in the Pursuing the Black Harvest scenario."}
+{"id": "world-of-warcraft|223976", "text": "Unbound Centurions are felguard that appear in the Shrine of Lost Souls after defeating the Essence of Order in the Pursuing the Black Harvest scenario."}
+{"id": "world-of-warcraft|223977", "text": "Unbound Rogues appear in the Den of Mortal Delights after defeating the Essence of Order in the Pursuing the Black Harvest scenario."}
+{"id": "world-of-warcraft|223978", "text": "Unbound Succubi appear in the Den of Mortal Delights after defeating the Essence of Order in the Pursuing the Black Harvest scenario."}
+{"id": "world-of-warcraft|223979", "text": "Unbound Shivarra appear in the Den of Mortal Delights after defeating the Essence of Order in the Pursuing the Black Harvest scenario."}
+{"id": "world-of-warcraft|223983", "text": "__NOTOC__ Unborn Val'kyr are Val'kyr companions found in the Borean Tundra, Grizzly Hills, and Sholazar Basin."}
+{"id": "world-of-warcraft|223986", "text": "Unblemished Carapaces drop mostly from insects and arthropods on ."}
+{"id": "world-of-warcraft|223987", "text": "Unburdened is an Alliance-only reputation and experience gain bonus that is available only during the Hallow's End seasonal event. To acquire the buff, a player uses the bonfire in front of the Wickerman at the gates of Stormwind. A Time to Gain instructs players to perform this ritual, but it is not required for the buff. The buff can be obtained as many times as desired at any time during the holiday. It does not persist through death."}
+{"id": "world-of-warcraft|223988", "text": "The Unbreakable Band of Zoronos is a world drop from level 90 - 102 mobs."}
+{"id": "world-of-warcraft|223989", "text": "__NOTOC__ An Unbendable Card is a by-product of the Inscription skill-up item Torn Card."}
+{"id": "world-of-warcraft|223990", "text": "__NOTOC__ Unbound Ancients are ancient protectors found in the Unbound Thicket in eastern Crystalsong Forest."}
+{"id": "world-of-warcraft|223992", "text": "__NOTOC__ Unblinking Gaze of Sethe drops from Gorefiend in ."}
+{"id": "world-of-warcraft|223995", "text": "Un'Goro Crater is a level zone in Southern Kalimdor. All quests here are neutral and concern exploring the primal wilderness of the crater and its creatures, culminating in a revelation about the purpose of Un'Goro Crater and its connection to the titans. The progression of the storyline is tracked in the achievement Un'Goro Crater Quests."}
+{"id": "world-of-warcraft|224000", "text": "Unbound Freedom is a paladin class talent, improving Blessing of Freedom by increasing the paladin's movement speed by 30% while it remains active. It is only available to Protection and Retribution paladins."}
+{"id": "world-of-warcraft|224003", "text": "Unbending Potions are crafted with Alchemy; taught by Recipe: Unbending Potion. The potion can also be looted from Mana-Tinged Pack and Skyhold Chest of Riches."}
+{"id": "world-of-warcraft|224004", "text": "Unbound Reality Mask drops from Viz'aduum the Watcher in the Return to Karazhan."}
+{"id": "world-of-warcraft|224008", "text": "The Unbalanced Glaive Tossers is a world drop from the Broken Isles."}
+{"id": "world-of-warcraft|224010", "text": "Unblemished Leaf of Shaladrassil is a quest reward from Grovebound."}
+{"id": "world-of-warcraft|224011", "text": "Unbroken Darkhunters are unbroken creeps that can be encountered in the Icecrown Glacier tileset."}
+{"id": "world-of-warcraft|224012", "text": "Unbroken Ragers are unbroken creeps that can be encountered in the Icecrown Glacier tileset."}
+{"id": "world-of-warcraft|224013", "text": "Unbroken Darkweavers are unbroken creeps that can be encountered in the Icecrown Glacier tileset."}
+{"id": "world-of-warcraft|224014", "text": "Unbound Cyclones are whirling cyclones found in Westfall. Anything they come into contact with will be sent skyward."}
+{"id": "world-of-warcraft|224015", "text": "Uncalibrated Malloric Burettes are provided as an objective for An Imprecise Burette and Calibration Experts."}
+{"id": "world-of-warcraft|224024", "text": "Unbound Abomination is the last boss of the Underrot. The creature itself is made of underrot, G'huun's corruption in Nazmir."}
+{"id": "world-of-warcraft|224025", "text": "Unbound Stormsurges are unbound water elementals in Twin Rivers in Stormsong Valley. They, along with the Squall, are tormenting the local Mill Workers."}
+{"id": "world-of-warcraft|224028", "text": "Unattuned Portal Stones are looted from treasure chests located on Argus."}
+{"id": "world-of-warcraft|224029", "text": "Unblemished Sigil of Argus is contained in Unsullied Trinket and Relinquished Trinket."}
+{"id": "world-of-warcraft|224031", "text": "Una'fe Watchers are tauren guards located in the Southern Barrens."}
+{"id": "world-of-warcraft|224032", "text": "The Un'Goro Coconut can be found just south of Fungal Rock in Un'Goro Crater."}
+{"id": "world-of-warcraft|224035", "text": "Unakk is a tuskarr located in the Sand Bar in Zuldazar. He is seen speaking with Shornai."}
+{"id": "world-of-warcraft|224037", "text": "Unbound Azerite is an Azerite elemental located in Blackrock Depths during Blackrock Depths (quest)."}
+{"id": "world-of-warcraft|224038", "text": "__NOTOC__ Unbound Deluges are water elementals located in Stormsong Valley."}
+{"id": "world-of-warcraft|224044", "text": "Unagi Skewer is created with Cooking (170); taught by Recipe: Unagi Skewer."}
+{"id": "world-of-warcraft|224045", "text": "Un'gol Ruins Salvage is bought for from Captain Nightrunner in Boralus and Captain Kitt in Dazar'alor."}
+{"id": "world-of-warcraft|224046", "text": "Unbound Essences were to drop from Ley Line Prowlers and Unbound Ancients."}
+{"id": "world-of-warcraft|224048", "text": "Unamused Imps are imps summoned by Imp-Binding Contract in the Underbelly of Dalaran."}
+{"id": "world-of-warcraft|224049", "text": "Unbroken Makrura Carapaces drop from the following makrura in Zuldazar: *Bittertide Brinetail *Bittertide Guillotine *Bittertide Spineclaw"}
+{"id": "world-of-warcraft|224051", "text": "Unassuming Chickens are chickens located in Tiragarde Sound."}
+{"id": "world-of-warcraft|224052", "text": "The Unbound Azerite Slivershards can be purchased for 10 Prismatic Manapearl from from the following vendors in Nazjatar after reaching with their respective faction: * Speaker Utia of the Waveblade Ankoan, found in Mezzamere * Atolia Seapearl of the Unshackled, found in Newhome Infusing the item at the Heart Forge will grant Rank 1 of The Unbound Force Essence and leave behind Inert Slivers."}
+{"id": "world-of-warcraft|224054", "text": "Unbeelievable Quality is a weekly quest that turns 35x Royal Jelly (Stormsong Valley) into 850 rep with Storm's Wake and a jug of Mildenhall Mead. In order to purchase the Collected Tidebloom Honey from the Honeyback Hivemother, players must be exalted with the Honeyback Hive and have acquired the Honeyback Harvester's Harness from Leaving the Hive by maxing out friendship with the bee."}
+{"id": "world-of-warcraft|224057", "text": "__NOTOC__ Unbidden Worldeaters are devourers located in the Endmire in Revendreth."}
+{"id": "world-of-warcraft|224063", "text": "Unbruised Yak Haunch drop from the following yaks in the Dread Wastes: *Pengsong *Wasteland Calf *Wasteland Yak"}
+{"id": "world-of-warcraft|224064", "text": "__NOTOC__ Unbreakable Urtz is a molten giant located in the Theater of Pain in Maldraxxus."}
+{"id": "world-of-warcraft|224065", "text": "Unbreakable Crystal is crafted with Shadowlands Enchanting (1)."}
+{"id": "world-of-warcraft|224068", "text": "Unbroken Bonds concludes the week five chapter of the Night Fae Campaign. At Renown (Shadowlands) 17, first achievable the week of December 29, the campaign continues with Containing the Night."}
+{"id": "world-of-warcraft|224069", "text": "Using the Scroll of Illusion on Gral's Tooth at Atal'Gral in Zuldazar causes it to be disguised as an Unassuming Rock."}
+{"id": "world-of-warcraft|224071", "text": "Unbroken Goresnouts are boars located in Bladespire Citadel in Frostfire Ridge."}
+{"id": "world-of-warcraft|224072", "text": "Unbound Reality Fragment is sold by Ve'nari for 500x Stygia at her refuge in the Maw for players with a Cordial standing with her."}
+{"id": "world-of-warcraft|224075", "text": "Unbound Deathwalkers are death elementals roaming the Iron Trench in Maldraxxus. __NOTOC__"}
+{"id": "world-of-warcraft|224077", "text": "Unbreakable Defenders are training dummies located in the cave in the southern end of the Seat of the Primus."}
+{"id": "world-of-warcraft|224079", "text": "Undying Shademongrels are skeletal hounds located in the Maw."}
+{"id": "world-of-warcraft|224086", "text": "Unbudging Rocks are located at Sunsong Ranch in the Valley of the Four Winds."}
+{"id": "world-of-warcraft|224087", "text": "Unbalanced Riftstone is provided for A Shady Place, one of the Night Fae Assault quests in the Maw. This riftstone provides access to the same rift that the Rift Portals do in Korthia, so take advantage of that to find some rift-only treasure chests for the Jailer's Personal Stash achievement. The quest item is reusable, but players must be in the Maw to use it, and cannot enter Korthia after using this item to enter the Rift. One caveat is that the riftstone only works in Calcis and the Crucible of the Damned, but not elsewhere. So no killing Torglluun or the Blinding Shadow. Players will be in the rift for ten minutes after using the quest item: :"}
+{"id": "world-of-warcraft|224088", "text": "Uncertain Aspirant's Spear drops from Aspirant Eolis or can be looted from Aspirant's Belongings in Bastion."}
+{"id": "world-of-warcraft|224091", "text": "The Unchained Gladiator's Shackles of Malediction are a quest reward from New Opportunities Await. After New Opportunities Await is completed, this item can also be purchased for from Zo'sorg in the Enclave in Oribos."}
+{"id": "world-of-warcraft|224092", "text": "Uncanny Combatant's Intuitive Staff is created with Kul Tiran Jewelcrafting (165); taught by Seshuli/Samuel D. Colton III and Recipe: Uncanny Combatant's Intuitive Staff."}
+{"id": "world-of-warcraft|224093", "text": "Unbound Alchemist Stone is created with Kul Tiran Alchemy (165); taught by Recipe: Unbound Alchemist Stone."}
+{"id": "world-of-warcraft|224094", "text": "Unchained Gladiator's Medallion is sold by Zo'sorg in Oribos for ."}
+{"id": "world-of-warcraft|224095", "text": "Unchained Gladiator's Dory is sold by Zo'sorg in Oribos for ."}
+{"id": "world-of-warcraft|224096", "text": "Unchained Gladiator's Ritual Dagger is sold by Zo'sorg in Oribos for ."}
+{"id": "world-of-warcraft|224097", "text": "Unchained Gladiator's Xiphos is sold by Zo'sorg in Oribos for ."}
+{"id": "world-of-warcraft|224098", "text": "Unchained Gladiator's Hacker is sold by Zo'sorg in Oribos for ."}
+{"id": "world-of-warcraft|224099", "text": "Unchained Gladiator's Greatcloak is sold by Zo'sorg in Oribos for ."}
+{"id": "world-of-warcraft|224100", "text": "Unchained Gladiator's Warglaive is sold by Zo'sorg in Oribos for ."}
+{"id": "world-of-warcraft|224101", "text": "Unchained Aspirant's Sigil of Adaptation is sold by Purveyor Zo'kuul in Oribos for ."}
+{"id": "world-of-warcraft|224102", "text": "Unchained Aspirant's Relentless Brooch is sold by Purveyor Zo'kuul in Oribos for ."}
+{"id": "world-of-warcraft|224103", "text": "Unchained Aspirant's Medallion is sold by Purveyor Zo'kuul in Oribos for ."}
+{"id": "world-of-warcraft|224104", "text": "Unchained Aspirant's Crescent is sold by Purveyor Zo'kuul in Oribos for ."}
+{"id": "world-of-warcraft|224105", "text": "Unchained Aspirant's Blackjack is sold by Purveyor Zo'kuul in Oribos for ."}
+{"id": "world-of-warcraft|224106", "text": "Unchained Gladiator's Sigil of Adaptation is sold by Zo'sorg in Oribos for ."}
+{"id": "world-of-warcraft|224107", "text": "Unchained Gladiator's Relentless Brooch is sold by Zo'sorg in Oribos for ."}
+{"id": "world-of-warcraft|224110", "text": "Unchained Gladiator's Greataxe is sold by Zo'sorg in Oribos for ."}
+{"id": "world-of-warcraft|224111", "text": "Unchained Gladiator's Vesper is sold by Zo'sorg in Oribos for ."}
+{"id": "world-of-warcraft|224112", "text": "Unchained Aspirant's Blade is sold by Purveyor Zo'kuul in Oribos for ."}
+{"id": "world-of-warcraft|224113", "text": "Unchained Aspirant's Longspear is sold by Purveyor Zo'kuul in Oribos for ."}
