@@ -1,0 +1,200 @@
+{"id": "all-the-fate-series|118", "b": 0, "by": "router"}
+{"id": "adventurers-league|13472", "b": 1, "n": "Delban", "p": [], "x": [], "dropped": 0, "by": "router"}
+{"id": "guildmasters-guide-to-ravnica|1546", "b": 0, "by": "router"}
+{"id": "magic-the-gathering-all-planes|1484", "b": 0, "by": "router"}
+{"id": "adventure-time|197", "b": 1, "n": "Dr. Donut", "p": [], "x": [], "dropped": 0, "by": "router"}
+{"id": "adventure-time|137", "b": 1, "n": "Lollipop Girl", "p": [], "x": [], "dropped": 0, "by": "router"}
+{"id": "major-live-action-disney-films|8867", "b": 1, "n": "Dark One Worm", "p": [{"id": "invulnerability_3", "m": 10, "q": "end creation", "c": "h"}, {"id": "invulnerability_3", "m": 10, "q": "destroy the universe", "c": "h"}, {"id": "invulnerability_3", "m": 10, "q": "sealed within the core of countless planets", "c": "h"}], "x": [], "dropped": 0, "by": "router"}
+{"id": "major-live-action-disney-films|12433", "b": 1, "n": "End of Time", "p": [{"id": "time_stop", "m": 10, "q": "the highest authority in the universe", "c": "h"}], "x": [], "dropped": 0, "by": "router"}
+{"id": "the-lovecraftian-mythos|2480", "b": 1, "n": "Hytherion", "p": [{"id": "time_stop", "m": 10, "q": "multiversal Lovecraftian-like entity", "c": "h"}], "x": [], "dropped": 0, "by": "router"}
+{"id": "major-live-action-disney-films|12609", "b": 1, "n": "Evangeline", "p": [{"id": "invulnerability_3", "m": 10, "q": "a star, whom others wish upon in hopes of having their dreams come true", "c": "h"}], "x": [], "dropped": 0, "by": "router"}
+{"id": "all-elder-scrolls|2974", "b": 1, "n": "Anu", "p": [], "x": [], "dropped": 0, "by": "router"}
+{"id": "all-elder-scrolls|48064", "b": 1, "n": "Sithis", "p": [{"id": "invulnerability_3", "m": 10, "q": "a deity representative of emptiness and the Void", "c": "h"}, {"id": "invulnerability_3", "m": 10, "q": "a representation of utter misanthropy", "c": "h"}], "x": [], "dropped": 0, "by": "router"}
+{"id": "adventure-time|201", "b": 1, "n": "The Dream Warrior", "p": [], "x": [], "dropped": 0, "by": "router"}
+{"id": "the-lovecraftian-mythos|4468", "b": 1, "n": "Shatterer of Worlds", "p": [], "x": ["extra_dimensional"], "dropped": 0, "by": "router"}
+{"id": "adventure-time|266", "b": 1, "n": "Flame Person 1", "p": [], "x": [], "dropped": 0, "by": "router"}
+{"id": "the-lovecraftian-mythos|6589", "b": 1, "n": "Yhidothrus", "p": [], "x": [], "dropped": 1, "by": "router"}
+{"id": "vampire-the-masquerade|10522", "b": 1, "n": "God", "p": [{"id": "invulnerability_3", "m": 10, "q": "infinite and transcendent intelligence", "c": "h"}, {"id": "time_stop", "m": 10, "q": "established the foundations of Creation", "c": "h"}], "x": [], "dropped": 0, "by": "router"}
+{"id": "adventure-time|124", "b": 2, "k": "vehicle", "m": 1, "q": "Buck Pudding's pickup truck is a vehicle seen parked outside Pudding's Hardware", "c": "l", "n": "Buck Pudding's pickup truck", "p": [], "x": [], "dropped": 0, "by": "router"}
+{"id": "all-the-fate-series|5", "b": 1, "n": "Angra Mainyu", "p": [], "x": [], "dropped": 0, "by": "router"}
+{"id": "vampire-the-masquerade|25447", "b": 1, "n": "Unconquered Sun", "p": [{"id": "invulnerability_3", "m": 10, "q": "Mightiest of the Celestial Incarna, architect of the Primordial War", "c": "h"}, {"id": "invulnerability_3", "m": 10, "q": "the Unconquered Sun is the supreme God of Creation in Exalted", "c": "h"}, {"id": "invulnerability_3", "m": 10, "q": "the Unconquered Sun continued to advise his Chosen in their rule of Creation", "c": "h"}], "x": [], "dropped": 4, "by": "router"}
+{"id": "world-of-warcraft|59617", "b": 1, "n": "Dimensius the All-Devouring", "p": [], "x": ["void_manipulation"], "dropped": 0, "by": "router"}
+{"id": "adventure-time|638", "b": 0, "by": "router"}
+{"id": "all-elder-scrolls|33945", "b": 1, "n": "Mehrunes Dagon", "p": [], "x": [], "dropped": 0, "by": "router"}
+{"id": "adventure-time|663", "b": 0, "by": "router"}
+{"id": "destiny-1-2|6855", "b": 1, "n": "Argos, Planetary Core", "p": [{"id": "invulnerability_3", "m": 10, "q": "massive Vex Hydra", "c": "h"}, {"id": "regeneration_fast", "m": 10, "q": "massive Vex Hydra", "c": "h"}], "x": [], "dropped": 0, "by": "router"}
+{"id": "destiny-1-2|6599", "b": 1, "n": "Achronos, Infinite Proxy", "p": [{"id": "invulnerability_3", "m": 10, "q": "protect the Infinite Mind", "c": "l"}, {"id": "regeneration_fast", "m": 10, "q": "would fail and be destroyed", "c": "l"}], "x": [], "dropped": 0, "by": "router"}
+{"id": "adventurers-league|5194", "b": 1, "n": "Atropus", "p": [{"id": "invulnerability_3", "m": 10, "q": "an alien entity whose coming was a harbinger of death and destruction", "c": "m"}, {"id": "immortal_body", "m": 10, "q": "an undead primordial", "c": "m"}], "x": [], "dropped": 0, "by": "router"}
+{"id": "adventure-time|268", "b": 0, "by": "router"}
+{"id": "digimon|1117", "b": 1, "n": "Gaiamon", "p": [], "x": [], "dropped": 4, "by": "router"}
+{"id": "world-of-warcraft|42142", "b": 1, "n": "Chronikar", "p": [{"id": "time_stop", "m": 10, "q": "Chronikar is an infinite drakonid located in the Sanctum of Chronology in the Dawn of the Infinite.", "c": "l"}], "x": [], "dropped": 0, "by": "router"}
+{"id": "major-live-action-disney-films|30948", "b": 1, "n": "Poseidon", "p": [], "x": [], "dropped": 0, "by": "router"}
+{"id": "critical-role-tal-dorei-campaign-setting|3997", "b": 1, "n": "Pelor", "p": [{"id": "invulnerability_3", "m": 10, "q": "god of the sun, summer, and agriculture, and is generally worshiped by farmers and people who live off the land. He is one of the prime creator gods of Exandria.", "c": "h"}, {"id": "time_stop", "m": 10, "q": "god of the sun, summer, and agriculture, and is generally worshiped by farmers and people who live off the land. He is one of the prime creator gods of Exandria.", "c": "h"}], "x": [], "dropped": 0, "by": "router"}
+{"id": "guildmasters-guide-to-ravnica|2196", "b": 0, "by": "router"}
+{"id": "adventure-time|690", "b": 0, "by": "router"}
+{"id": "adventure-time|696", "b": 2, "k": "weapon", "m": 1, "q": "", "c": "l", "n": "Catuambivolcusorix", "p": [], "x": [], "dropped": 0, "by": "router"}
+{"id": "rick-and-morty|283", "b": 1, "n": "Elle", "p": [{"id": "time_stop", "m": 10, "q": "the power to control and manipulate time", "c": "h"}], "x": [], "dropped": 0, "by": "router"}
+{"id": "eberron-rising-from-the-last-war|852", "b": 1, "n": "Falazure", "p": [{"id": "dragon_form", "m": 10, "q": "the draconic god of death and decay", "c": "h"}], "x": [], "dropped": 0, "by": "router"}
+{"id": "major-live-action-disney-films|9341", "b": 1, "n": "Death", "p": [{"id": "invulnerability_3", "m": 10, "q": "the living personification of death", "c": "h"}], "x": [], "dropped": 0, "by": "router"}
+{"id": "adventurers-league|0", "b": 0, "by": "router"}
+{"id": "vampire-the-masquerade|9909", "b": 1, "n": "Gaia", "p": [], "x": [], "dropped": 0, "by": "router"}
+{"id": "magic-the-gathering-all-planes|8506", "b": 1, "n": "Isilu", "p": [{"id": "invulnerability_3", "m": 10, "q": "the living embodiment of Shadowmoor", "c": "h"}, {"id": "time_stop", "m": 10, "q": "the living embodiment of Shadowmoor", "c": "h"}, {"id": "invisibility", "m": 10, "q": "a symbol of the moon", "c": "h"}], "x": [], "dropped": 0, "by": "router"}
+{"id": "the-lovecraftian-mythos|3634", "b": 1, "n": "Māna-Yood-Sushāī", "p": [{"id": "invulnerability_3", "m": 10, "q": "slumbers after creating the gods", "c": "h"}], "x": [], "dropped": 1, "by": "router"}
+{"id": "transformers|1843", "b": 1, "n": "Grand Galvatron", "p": [{"id": "invulnerability_3", "m": 10, "q": "forged from the planet Earth as well as the corpses of the most elite warriors", "c": "h"}, {"id": "giant_size", "m": 10, "q": "forged from the planet Earth as well as the corpses of the most elite warriors", "c": "h"}], "x": [], "dropped": 0, "by": "router"}
+{"id": "transformers|4598", "b": 1, "n": "The One", "p": [{"id": "time_stop", "m": 10, "q": "an extradimensional entity from before time", "c": "h"}, {"id": "invulnerability_3", "m": 10, "q": "an extradimensional entity from before time", "c": "h"}, {"id": "immortal_body", "m": 10, "q": "an extradimensional entity from before time", "c": "h"}], "x": [], "dropped": 0, "by": "router"}
+{"id": "pokemon|12325", "b": 1, "n": "Primal Dialga", "p": [], "x": [], "dropped": 0, "by": "router"}
+{"id": "adventurers-league|276", "b": 0, "by": "router"}
+{"id": "world-of-warcraft|12348", "b": 1, "n": "An'she", "p": [{"id": "ki_resource", "m": 1, "q": "the sun god", "c": "l"}], "x": ["deity"], "dropped": 0, "by": "router"}
+{"id": "vampire-the-masquerade|23800", "b": 1, "n": "T'ai-Shen", "p": [], "x": ["cosmos_mastery"], "dropped": 0, "by": "router"}
+{"id": "adventurers-league|281", "b": 0, "by": "router"}
+{"id": "adventurers-league|242", "b": 0, "by": "router"}
+{"id": "adventurers-league|15391", "b": 1, "n": "Draunn", "p": [], "x": ["immortal_body"], "dropped": 0, "by": "router"}
+{"id": "vampire-the-masquerade|19286", "b": 1, "n": "The Pale Brother", "p": [], "x": [], "dropped": 2, "by": "router"}
+{"id": "adventurers-league|333", "b": 0, "by": "router"}
+{"id": "adventurers-league|18252", "b": 1, "n": "Felarathael", "p": [{"id": "invulnerability_3", "m": 10, "q": "Their might was so great that some elves, especially gold elves, considered them to be demipowers in their own right", "c": "l"}], "x": [], "dropped": 0, "by": "router"}
+{"id": "adventurers-league|18396", "b": 1, "n": "Finder Wyvernspur", "p": [{"id": "invulnerability_3", "m": 10, "q": "reached apotheosis", "c": "h"}], "x": [], "dropped": 0, "by": "router"}
+{"id": "adventurers-league|357", "b": 0, "by": "router"}
+{"id": "adventurers-league|12127", "b": 1, "n": "Cronus", "p": [{"id": "invulnerability_3", "m": 10, "q": "a greater titan and deity of sinister ambition", "c": "h"}, {"id": "invulnerability_3", "m": 10, "q": "banishing Cronus and his siblings to the depths of Carceri, the plane of imprisonment", "c": "h"}, {"id": "invulnerability_3", "m": 10, "q": "Some claimed that he was a greater power, others believed he and the other Greater Titans were all intermediate deities", "c": "h"}], "x": [], "dropped": 0, "by": "router"}
+{"id": "all-elder-scrolls|28203", "b": 1, "n": "Jyggalag", "p": [{"id": "time_stop", "m": 10, "q": "has taken account of every detail of the world and of every action that has ever taken place on Mundus or Oblivion, long before they actually happen", "c": "h"}], "x": [], "dropped": 0, "by": "router"}
+{"id": "world-of-warcraft|12349", "b": 1, "n": "Anachronos the Ancient", "p": [{"id": "time_stop", "m": 10, "q": "child and heir of Nozdormu the Timeless One", "c": "h"}, {"id": "ki_resource", "m": 10, "q": "prominent member of the bronze flight", "c": "h"}], "x": [], "dropped": 0, "by": "router"}
+{"id": "all-elder-scrolls|27845", "b": 1, "n": "Ithelia", "p": [{"id": "time_stop", "m": 10, "q": "alter fate and shape destiny to her liking", "c": "h"}], "x": [], "dropped": 0, "by": "router"}
+{"id": "all-elder-scrolls|1097", "b": 1, "n": "Akatosh", "p": [{"id": "time_stop", "m": 10, "q": "the Dragon God of Time, is the chief deity of the Divines, the official religion of the human empires throughout much of Tamriel's history.", "c": "h"}, {"id": "invulnerability_3", "m": 10, "q": "the qualities of endurance, invincibility, and everlasting legitimacy.", "c": "h"}], "x": [], "dropped": 0, "by": "router"}
+{"id": "all-elder-scrolls|50773", "b": 1, "n": "Sygria", "p": [{"id": "invulnerability_3", "m": 10, "q": "godlike beings", "c": "m"}, {"id": "telepathy", "m": 1, "q": "surrounded by a host of minor Sylphim", "c": "h"}], "x": [], "dropped": 0, "by": "router"}
+{"id": "adventurers-league|9143", "b": 1, "n": "Caitlan Moonsong", "p": [], "x": ["god_avatar"], "dropped": 3, "by": "router"}
+{"id": "vampire-the-masquerade|13985", "b": 1, "n": "Planetary Incarna of the Sun", "p": [], "x": [], "dropped": 0, "by": "router"}
+{"id": "dc|30734", "b": 1, "n": "Eobard Thawne", "p": [{"id": "blink", "m": 3, "q": "he is a time-traveler", "c": "l"}], "x": ["negative_speed_force"], "dropped": 0, "by": "router"}
+{"id": "dc|10984", "b": 1, "n": "Walter West", "p": [{"id": "super_speed_3", "m": 3, "q": "a version of Wally West aka the Flash from an alternate timeline", "c": "l"}], "x": [], "dropped": 0, "by": "router"}
+{"id": "adventurers-league|465", "b": 0, "by": "router"}
+{"id": "all-final-fantasy|9219", "b": 0, "by": "router"}
+{"id": "adventurers-league|385", "b": 0, "by": "router"}
+{"id": "adventurers-league|508", "b": 0, "by": "router"}
+{"id": "diablo|8159", "b": 1, "n": "Sunbird", "p": [{"id": "fireball", "m": 10, "q": "swallowed the sun whole", "c": "h"}], "x": [], "dropped": 0, "by": "router"}
+{"id": "critical-role-tal-dorei-campaign-setting|3473", "b": 1, "n": "Scrag", "p": [{"id": "giant_size", "m": 10, "q": "a gargantuan vidulch", "c": "h"}], "x": [], "dropped": 0, "by": "router"}
+{"id": "diablo|3415", "b": 1, "n": "Ghom, Lord of Gluttony", "p": [{"id": "super_strength_3", "m": 10, "q": "the largest of Azmodan's generals", "c": "l"}], "x": [], "dropped": 0, "by": "router"}
+{"id": "adventurers-league|524", "b": 0, "by": "router"}
+{"id": "dc|11114", "b": 1, "n": "Darkseid", "p": [], "x": [], "dropped": 3, "by": "router"}
+{"id": "doom|2707", "b": 1, "n": "The Old Ones", "p": [{"id": "invulnerability_3", "m": 10, "q": "rule over the Cosmic Realm", "c": "l"}, {"id": "telepathy", "m": 10, "q": "worshiped by the Witch and her followers", "c": "l"}], "x": [], "dropped": 0, "by": "router"}
+{"id": "eberron-rising-from-the-last-war|853", "b": 1, "n": "Garyx", "p": [{"id": "dragon_form", "m": 10, "q": "the draconic god of chaos and destruction", "c": "h"}], "x": [], "dropped": 0, "by": "router"}
+{"id": "critical-role-tal-dorei-campaign-setting|4024", "b": 1, "n": "Tharizdun", "p": [{"id": "invulnerability_3", "m": 10, "q": "one of the Elder Evils", "c": "m"}, {"id": "energy_beam", "m": 10, "q": "dreams the infinite Abyss and its demon hordes into being", "c": "m"}, {"id": "dragon_form", "m": 10, "q": "dreams aberrations into being beneath Exandria", "c": "m"}], "x": ["creation"], "dropped": 0, "by": "router"}
+{"id": "diablo|10004", "b": 1, "n": "Xipil", "p": [{"id": "ki_resource", "m": 10, "q": "Spiritborn", "c": "h"}, {"id": "fireball", "m": 10, "q": "tore the sun free from the bird's gullet", "c": "h"}], "x": [], "dropped": 0, "by": "router"}
+{"id": "doom|2491", "b": 1, "n": "Maykrs", "p": [{"id": "invulnerability_3", "m": 10, "q": "They are a hive-mind race, lead by the Khan Maykr. The Maykr species is believed to be ancient, and they generally consider themselves to be gods and far beyond the lives of other species, whom they refer to only as 'mortals'.", "c": "l"}], "x": [], "dropped": 0, "by": "router"}
+{"id": "digimon|1188", "b": 1, "n": "Megidramon", "p": [{"id": "invulnerability_3", "m": 10, "q": "proves to be beyond Beelzemon's power to stop...as well as Takato's or anyone else's", "c": "h"}, {"id": "time_stop", "m": 10, "q": "its very existence begins to tear the worlds apart", "c": "h"}], "x": [], "dropped": 0, "by": "router"}
+{"id": "adventurers-league|525", "b": 0, "by": "router"}
+{"id": "guildmasters-guide-to-ravnica|1037", "b": 0, "by": "router"}
+{"id": "guildmasters-guide-to-ravnica|2855", "b": 1, "n": "Grothama", "p": [], "x": ["dragon_form"], "dropped": 0, "by": "router"}
+{"id": "fire-emblem|8492", "b": 1, "n": "Validar", "p": [], "x": [], "dropped": 0, "by": "router"}
+{"id": "adventurers-league|527", "b": 0, "by": "router"}
+{"id": "adventurers-league|547", "b": 0, "by": "router"}
+{"id": "guildmasters-guide-to-ravnica|1326", "b": 1, "n": "God-Mother Chimil", "p": [{"id": "energy_beam", "m": 8, "q": "the sun of Ixalan's Core", "c": "h"}, {"id": "invulnerability_3", "m": 10, "q": "the sun of Ixalan's Core", "c": "h"}, {"id": "immortal_body", "m": 10, "q": "the sun of Ixalan's Core", "c": "h"}], "x": [], "dropped": 0, "by": "router"}
+{"id": "guildmasters-guide-to-ravnica|6138", "b": 1, "n": "Serra", "p": [{"id": "flight", "m": 6, "q": "create her plane - Serra's Realm", "c": "l"}, {"id": "invulnerability_3", "m": 10, "q": "immensely powerful, enough to create her plane", "c": "l"}, {"id": "ki_resource", "m": 10, "q": "immensely powerful, enough to create her plane", "c": "l"}], "x": [], "dropped": 0, "by": "router"}
+{"id": "guildmasters-guide-to-ravnica|3600", "b": 1, "n": "Keruga", "p": [{"id": "invulnerability_2", "m": 6, "q": "near-infinite knowledge", "c": "l"}, {"id": "ki_resource", "m": 6, "q": "near-infinite knowledge", "c": "l"}], "x": [], "dropped": 0, "by": "router"}
+{"id": "adventurers-league|549", "b": 0, "by": "router"}
+{"id": "kinnikuman|464", "b": 1, "n": "Endeman", "p": [], "x": ["time_manipulation"], "dropped": 0, "by": "router"}
+{"id": "guildmasters-guide-to-ravnica|7526", "b": 1, "n": "Ulamog", "p": [{"id": "immortal_body", "m": 8, "q": "one of the three Eldrazi titans", "c": "l"}], "x": ["eldrazi"], "dropped": 0, "by": "router"}
+{"id": "magic-the-gathering-all-planes|146", "b": 1, "n": "Aclazotz", "p": [{"id": "immortal_body", "m": 7, "q": "the eternal enemy of the Threefold Sun", "c": "l"}], "x": ["vampirism"], "dropped": 0, "by": "router"}
+{"id": "guildmasters-guide-to-ravnica|6976", "b": 1, "n": "Teferi Akosa", "p": [], "x": ["planeswalker"], "dropped": 1, "by": "router"}
+{"id": "halo|7239", "b": 0, "by": "router"}
+{"id": "guildmasters-guide-to-ravnica|7168", "b": 1, "n": "Terashi", "p": [], "x": [], "dropped": 0, "by": "router"}
+{"id": "adventurers-league|637", "b": 0, "by": "router"}
+{"id": "adventurers-league|548", "b": 0, "by": "router"}
+{"id": "magic-the-gathering-all-planes|970", "b": 1, "n": "Brokkos, the Forever-Beast", "p": [], "x": [], "dropped": 0, "by": "router"}
+{"id": "adventurers-league|766", "b": 0, "by": "router"}
+{"id": "magic-the-gathering-all-planes|2751", "b": 1, "n": "Grothama", "p": [], "x": [], "dropped": 0, "by": "router"}
+{"id": "magic-the-gathering-all-planes|7264", "b": 1, "n": "Ulamog", "p": [{"id": "giant_size", "m": 10, "q": "one of the three Eldrazi titans", "c": "m"}], "x": [], "dropped": 0, "by": "router"}
+{"id": "adventurers-league|816", "b": 0, "by": "router"}
+{"id": "magic-the-gathering-all-planes|1280", "b": 1, "n": "Chimil", "p": [], "x": [], "dropped": 3, "by": "router"}
+{"id": "magic-the-gathering-all-planes|7402", "b": 1, "n": "Valgavoth", "p": [{"id": "invulnerability_3", "m": 10, "q": "extremely powerful", "c": "l"}, {"id": "dragon_form", "m": 10, "q": "elder moth demon", "c": "l"}], "x": [], "dropped": 0, "by": "router"}
+{"id": "magic-the-gathering-all-planes|6731", "b": 1, "n": "Teferi Akosa", "p": [{"id": "blink", "m": 10, "q": "a planeswalker who lost his spark, later regained it, and lost it as part of the consequences of New Phyrexia's Invasion of the Multiverse", "c": "h"}, {"id": "phase", "m": 10, "q": "phasing of the kingdom earned him the nickname Destroyer of Zhalfir", "c": "h"}], "x": [], "dropped": 0, "by": "router"}
+{"id": "magic-the-gathering-all-planes|2556", "b": 1, "n": "The Great Spirit", "p": [{"id": "telepathy", "m": 1, "q": "told Jared Carthalion that Ravidel was alive", "c": "h"}], "x": [], "dropped": 2, "by": "router"}
+{"id": "major-live-action-disney-films|2785", "b": 1, "n": "En Sabah Nur", "p": [], "x": [], "dropped": 2, "by": "router"}
+{"id": "magic-the-gathering-all-planes|15", "b": 1, "n": "Abu Ja'far", "p": [], "x": [], "dropped": 1, "by": "router"}
+{"id": "adventurers-league|821", "b": 0, "by": "router"}
+{"id": "adventurers-league|825", "b": 0, "by": "router"}
+{"id": "major-live-action-disney-films|43927", "b": 1, "n": "Ultron-Sigma", "p": [], "x": ["fusion"], "dropped": 0, "by": "router"}
+{"id": "major-live-action-disney-films|3107", "b": 1, "n": "Aslan", "p": [{"id": "invulnerability_3", "m": 10, "q": "the Primordial Creator and True King of Narnia", "c": "h"}, {"id": "regeneration_fast", "m": 10, "q": "the Primordial Creator and True King of Narnia", "c": "h"}, {"id": "time_stop", "m": 10, "q": "the Primordial Creator and True King of Narnia", "c": "h"}, {"id": "immortal_body", "m": 10, "q": "a mysterious and peaceful world similar to the afterlife, the spirit world or Heaven itself", "c": "h"}], "x": [], "dropped": 0, "by": "router"}
+{"id": "minecraft|7692", "b": 1, "n": "Zeus", "p": [], "x": [], "dropped": 0, "by": "router"}
+{"id": "major-live-action-disney-films|12045", "b": 1, "n": "Ego the Living Planet", "p": [{"id": "giant_size", "m": 10, "q": "he is a sentient planet", "c": "h"}, {"id": "ki_resource", "m": 10, "q": "he is a sentient planet", "c": "l"}], "x": ["terraforming"], "dropped": 0, "by": "router"}
+{"id": "major-live-action-disney-films|24156", "b": 1, "n": "Makkari", "p": [{"id": "super_speed_1", "m": 1, "q": "Makkari uses her speed to protect the innocent and fight Deviants.", "c": "l"}], "x": [], "dropped": 0, "by": "router"}
+{"id": "the-lovecraftian-mythos|6", "b": 1, "n": "Ammutseba", "p": [], "x": [], "dropped": 0, "by": "router"}
+{"id": "adventurers-league|831", "b": 0, "by": "router"}
+{"id": "the-lord-of-the-rings|2663", "b": 1, "n": "Great Eagle", "p": [{"id": "flight", "m": 6, "q": "Lord of the Eagles of Middle-earth", "c": "l"}], "x": [], "dropped": 0, "by": "router"}
+{"id": "starcraft|4468", "b": 1, "n": "Ouros", "p": [{"id": "immortal_body", "m": 10, "q": "last xel'naga alive", "c": "h"}], "x": [], "dropped": 0, "by": "router"}
+{"id": "the-lovecraftian-mythos|2776", "b": 1, "n": "Idh-yaa", "p": [], "x": [], "dropped": 2, "by": "router"}
+{"id": "adventurers-league|919", "b": 0, "by": "router"}
+{"id": "adventurers-league|920", "b": 0, "by": "router"}
+{"id": "the-lovecraftian-mythos|4391", "b": 1, "n": "The Player From Beyond The Void", "p": [{"id": "blink", "m": 10, "q": "travel through reality", "c": "m"}], "x": [], "dropped": 0, "by": "router"}
+{"id": "sailor-moon|1530", "b": 1, "n": "Queen Metalia", "p": [{"id": "energy_beam", "m": 6, "q": "malignant and amorphous energy being", "c": "l"}], "x": [], "dropped": 0, "by": "router"}
+{"id": "marvel|17250", "b": 1, "n": "Chronicom", "p": [{"id": "invulnerability_1", "m": 1, "q": "Made of plastic alloy and powered with batteries; have no internal organs", "c": "h"}, {"id": "immortal_body", "m": 10, "q": "At least 30,000 years", "c": "h"}], "x": [], "dropped": 0, "by": "router"}
+{"id": "vampire-the-masquerade|3502", "b": 1, "n": "Artemis", "p": [], "x": [], "dropped": 3, "by": "router"}
+{"id": "the-lovecraftian-mythos|12", "b": 1, "n": "Arkya", "p": [{"id": "invulnerability_3", "m": 10, "q": "god-like", "c": "m"}, {"id": "immortal_body", "m": 10, "q": "god-like", "c": "m"}, {"id": "invisibility", "m": 1, "q": "vampiric night-creature", "c": "h"}], "x": [], "dropped": 0, "by": "router"}
+{"id": "vampire-the-masquerade|8042", "b": 1, "n": "Doyen", "p": [{"id": "telepathy", "m": 10, "q": "masters of psionic manipulation", "c": "h"}, {"id": "energy_beam", "m": 10, "q": "exist only as energy", "c": "h"}, {"id": "ki_resource", "m": 10, "q": "masters of psionic manipulation", "c": "h"}], "x": [], "dropped": 0, "by": "router"}
+{"id": "adventurers-league|982", "b": 0, "by": "router"}
+{"id": "the-lovecraftian-mythos|6551", "b": 1, "n": "Yaggdytha", "p": [], "x": [], "dropped": 3, "by": "router"}
+{"id": "vampire-the-masquerade|8326", "b": 1, "n": "Eater-of-Souls", "p": [{"id": "ki_resource", "m": 3, "q": "feasting on matter, energy, and spirit with equal relish", "c": "l"}], "x": ["consumption"], "dropped": 0, "by": "router"}
+{"id": "vampire-the-masquerade|10829", "b": 1, "n": "Grandmother", "p": [{"id": "ki_resource", "m": 7, "q": "vast primordial intelligence whose hunger threatens the entirety of Creation", "c": "l"}], "x": ["oblivion_manipulation"], "dropped": 0, "by": "router"}
+{"id": "vampire-the-masquerade|9896", "b": 1, "n": "Five Elemental Dragons", "p": [{"id": "dragon_form", "m": 6, "q": "the apotheosis of spiritual development and the lords of Creation", "c": "l"}], "x": ["elemental_manipulation"], "dropped": 0, "by": "router"}
+{"id": "vampire-the-masquerade|12825", "b": 1, "n": "Jade Emperor", "p": [{"id": "ki_resource", "m": 7, "q": "powerful spirit who has mastery over the cosmos", "c": "m"}], "x": ["cosmic_mastery"], "dropped": 0, "by": "router"}
+{"id": "vampire-the-masquerade|8659", "b": 1, "n": "Elohim", "p": [{"id": "ki_resource", "m": 7, "q": "celestial beings created from the divine essence of God", "c": "m"}], "x": ["divine_authority"], "dropped": 0, "by": "router"}
+{"id": "predator|6965", "b": 1, "n": "Superman", "p": [], "x": [], "dropped": 8, "by": "router"}
+{"id": "adventurers-league|1018", "b": 0, "by": "router"}
+{"id": "vampire-the-masquerade|19068", "b": 0, "by": "router"}
+{"id": "adventurers-league|1328", "b": 0, "by": "router"}
+{"id": "adventurers-league|1335", "b": 0, "by": "router"}
+{"id": "vampire-the-masquerade|24822", "b": 1, "n": "Ti-tsang Wang", "p": [], "x": [], "dropped": 1, "by": "router"}
+{"id": "vampire-the-masquerade|14014", "b": 1, "n": "Kalka", "p": [{"id": "time_stop", "m": 10, "q": "exists outside of time, created as a failsafe", "c": "h"}], "x": [], "dropped": 0, "by": "router"}
+{"id": "vampire-the-masquerade|15583", "b": 1, "n": "Luna", "p": [{"id": "invulnerability_3", "m": 10, "q": "spiritual embodiment of Earth's Moon", "c": "h"}, {"id": "ki_resource", "m": 10, "q": "Celestine", "c": "h"}], "x": [], "dropped": 0, "by": "router"}
+{"id": "vampire-the-masquerade|24082", "b": 1, "n": "Telluric", "p": [{"id": "dragon_form", "m": 6, "q": "They shine with empyrean light, have hair like a starry nebula, or are marked with the signs of a specific planet — the red skin and fiery temper of Mars, the quicksilver wit and quicksilver hair of Mercury, the pale beauty of the moon.", "c": "m"}], "x": [], "dropped": 0, "by": "router"}
+{"id": "adventurers-league|1337", "b": 0, "by": "router"}
+{"id": "adventurers-league|1338", "b": 0, "by": "router"}
+{"id": "world-of-warcraft|33915", "b": 1, "n": "bronze wyrm", "p": [], "x": [], "dropped": 0, "by": "router"}
+{"id": "adventurers-league|12217", "b": 1, "n": "Dagon", "p": [], "x": ["obyrith", "demon lord"], "dropped": 0, "by": "router"}
+{"id": "adventure-time|422", "b": 2, "k": "weapon", "m": 4, "q": "The Blade was made to kill the other Cosmic Elementals", "c": "m", "n": "Blade of the Defender", "p": [], "x": [], "dropped": 0, "by": "router"}
+{"id": "adventurers-league|1343", "b": 0, "by": "router"}
+{"id": "critical-role-tal-dorei-campaign-setting|4331", "b": 0, "by": "router"}
+{"id": "dc|12286", "b": 0, "by": "router"}
+{"id": "world-of-warcraft|18458", "b": 1, "n": "Athair", "p": [], "x": [], "dropped": 0, "by": "router"}
+{"id": "all-final-fantasy|9413", "b": 1, "n": "Nox Suzaku", "p": [], "x": [], "dropped": 0, "by": "router"}
+{"id": "all-fallout|17930", "b": 1, "n": "Gigapede", "p": [{"id": "giant_size", "m": 6, "q": "a massive creature", "c": "m"}], "x": [], "dropped": 0, "by": "router"}
+{"id": "all-elder-scrolls|32390", "b": 1, "n": "Macius Cento", "p": [{"id": "invulnerability_3", "m": 10, "q": "powerful Lich", "c": "l"}], "x": [], "dropped": 0, "by": "router"}
+{"id": "all-elder-scrolls|32459", "b": 1, "n": "The Mad Architect", "p": [{"id": "invulnerability_3", "m": 10, "q": "a powerful Lich", "c": "l"}], "x": [], "dropped": 0, "by": "router"}
+{"id": "adventurers-league|1461", "b": 0, "by": "router"}
+{"id": "adventurers-league|1462", "b": 0, "by": "router"}
+{"id": "guildmasters-guide-to-ravnica|1000", "b": 1, "n": "Brokkos, the Forever-Beast", "p": [], "x": [], "dropped": 0, "by": "router"}
+{"id": "god-of-war|1290", "b": 0, "by": "router"}
+{"id": "dc|38123", "b": 1, "n": "Superman", "p": [{"id": "super_strength_2", "m": 2, "q": "Superman harnesses his powers to generate a devastating twister, destroying Imperiex's planet-destroying machine.", "c": "h"}, {"id": "invulnerability_2", "m": 2, "q": "Mongul seizes the opportunity to backstab Superman. Thanks to the training Mongul himself put him through, however, Superman gains the upper hand with ease.", "c": "h"}], "x": [], "dropped": 0, "by": "router"}
+{"id": "dc|37270", "b": 1, "n": "Supergirl", "p": [{"id": "flight", "m": 6, "q": "adventures have been published in different books and magazines", "c": "l"}, {"id": "invulnerability_2", "m": 6, "q": "one of the oldest, most enduring and most famous female super-heroes", "c": "l"}, {"id": "super_strength_2", "m": 6, "q": "one of the oldest, most enduring and most famous female super-heroes", "c": "l"}], "x": [], "dropped": 0, "by": "router"}
+{"id": "eberron-rising-from-the-last-war|121", "b": 1, "n": "angel", "p": [{"id": "flight", "m": 6, "q": "Angels have also on occasion been seen travelling across the planes hunting evil wherever it incarnates.", "c": "l"}, {"id": "invulnerability_1", "m": 3, "q": "When angels of Syrania become corrupted, they are cast out by their brethren, ripped of their wings and sent to the Material Plane.", "c": "l"}, {"id": "invulnerability_2", "m": 3, "q": "When angels of Syrania become corrupted, they are cast out by their brethren, ripped of their wings and sent to the Material Plane.", "c": "l"}, {"id": "energy_beam", "m": 3, "q": "Angels have been seen bringing their righteous wrath to everywhere from Shavarath to the Demon Wastes.", "c": "l"}], "x": [], "dropped": 0, "by": "router"}
+{"id": "adventurers-league|1492", "b": 0, "by": "router"}
+{"id": "dc|37999", "b": 1, "n": "Superman", "p": [{"id": "flight", "m": 10, "q": "Superman is a classic and enduring character in the DC Universe, one of the first and greatest super-heroes of all time, as well as one of the most famous and recognizable fictional characters of all time.", "c": "h"}, {"id": "invulnerability_3", "m": 10, "q": "Superman is a classic and enduring character in the DC Universe, one of the first and greatest super-heroes of all time, as well as one of the most famous and recognizable fictional characters of all time.", "c": "h"}, {"id": "super_strength_3", "m": 10, "q": "Superman is a classic and enduring character in the DC Universe, one of the first and greatest super-heroes of all time, as well as one of the most famous and recognizable fictional characters of all time.", "c": "h"}, {"id": "ki_resource", "m": 10, "q": "Superman is a classic and enduring character in the DC Universe, one of the first and greatest super-heroes of all time, as well as one of the most famous and recognizable fictional characters of all time.", "c": "h"}], "x": [], "dropped": 0, "by": "router"}
+{"id": "dc|37263", "b": 1, "n": "Supergirl", "p": [{"id": "flight", "m": 10, "q": "When Krypton blew up, you were not the only one to escape alive...", "c": "h"}, {"id": "invulnerability_3", "m": 10, "q": "When Krypton blew up, you were not the only one to escape alive...", "c": "h"}, {"id": "super_strength_3", "m": 10, "q": "When Krypton blew up, you were not the only one to escape alive...", "c": "h"}, {"id": "ki_resource", "m": 10, "q": "When Krypton blew up, you were not the only one to escape alive...", "c": "h"}], "x": [], "dropped": 0, "by": "router"}
+{"id": "magic-the-gathering-all-planes|7341", "b": 1, "n": "Tromokratis", "p": [], "x": [], "dropped": 0, "by": "router"}
+{"id": "adventurers-league|1493", "b": 0, "by": "router"}
+{"id": "guildmasters-guide-to-ravnica|6244", "b": 1, "n": "Scion of the Ur-Dragon", "p": [{"id": "dragon_form", "m": 10, "q": "a legendary dragon avatar", "c": "h"}], "x": [], "dropped": 0, "by": "router"}
+{"id": "magic-the-gathering-all-planes|7085", "b": 1, "n": "Toxrill", "p": [], "x": [], "dropped": 0, "by": "router"}
+{"id": "guildmasters-guide-to-ravnica|1016", "b": 1, "n": "Blood Avatar", "p": [], "x": ["huge"], "dropped": 0, "by": "router"}
+{"id": "magic-the-gathering-all-planes|2935", "b": 1, "n": "Gyruda", "p": [], "x": ["demonic_kraken"], "dropped": 0, "by": "router"}
+{"id": "adventurers-league|1489", "b": 0, "by": "router"}
+{"id": "magic-the-gathering-all-planes|1485", "b": 1, "n": "Cosima", "p": [], "x": [], "dropped": 0, "by": "router"}
+{"id": "adventurers-league|1540", "b": 1, "n": "Athauglas", "p": [], "x": [], "dropped": 0, "by": "router"}
+{"id": "adventurers-league|1496", "b": 0, "by": "router"}
+{"id": "marvel|86943", "b": 0, "by": "router"}
+{"id": "major-live-action-disney-films|42648", "b": 1, "n": "Thor Odinson", "p": [], "x": [], "dropped": 0, "by": "router"}
+{"id": "major-live-action-disney-films|37609", "b": 1, "n": "Thanos", "p": [{"id": "invulnerability_2", "m": 6, "q": "a powerful and feared alien warlord known across the universe", "c": "l"}, {"id": "ki_resource", "m": 6, "q": "harnessing the power of the Infinity Stones using the Infinity Gauntlet", "c": "l"}], "x": [], "dropped": 0, "by": "router"}
+{"id": "major-live-action-disney-films|36933", "b": 1, "n": "Surtur", "p": [{"id": "fireball", "m": 6, "q": "lord of the Fire Demons from the extra-dimensional planes of Muspelheim", "c": "l"}], "x": [], "dropped": 0, "by": "router"}
+{"id": "magic-the-gathering-all-planes|8278", "b": 1, "n": "Eirdu", "p": [{"id": "invulnerability_3", "m": 10, "q": "the living embodiment of Lorwyn", "c": "h"}, {"id": "energy_beam", "m": 10, "q": "a symbol of the sun", "c": "h"}], "x": [], "dropped": 0, "by": "router"}
+{"id": "the-lord-of-the-rings|2657", "b": 1, "n": "Ulmo", "p": [], "x": ["water_control"], "dropped": 0, "by": "router"}
+{"id": "adventurers-league|1541", "b": 0, "by": "router"}
+{"id": "vampire-the-masquerade|19633", "b": 1, "n": "Phyre", "p": [], "x": ["vampire"], "dropped": 0, "by": "router"}
+{"id": "vampire-the-masquerade|10264", "b": 1, "n": "Ghede", "p": [], "x": [], "dropped": 0, "by": "router"}
+{"id": "adventure-time|547", "b": 1, "n": "Perry the Living Island of Insight", "p": [{"id": "giant_size", "m": 3, "q": "large, living island", "c": "m"}], "x": [], "dropped": 0, "by": "router"}
+{"id": "world-of-warcraft|29128", "b": 1, "n": "Malygos", "p": [{"id": "freeze_breath", "m": 3, "q": "can breathe frost or arcane magic", "c": "m"}, {"id": "ki_resource", "m": 4, "q": "power over the arcane", "c": "m"}], "x": ["arcane_magic"], "dropped": 0, "by": "router"}
+{"id": "adventurers-league|1545", "b": 0, "by": "router"}
+{"id": "adventurers-league|2645", "b": 1, "n": "Adamantine dragons", "p": [{"id": "dragon_form", "m": 3, "q": "one of the mightiest species of planar dragon", "c": "l"}], "x": [], "dropped": 0, "by": "router"}
+{"id": "adventurers-league|19842", "b": 1, "n": "Freya", "p": [], "x": [], "dropped": 0, "by": "router"}
+{"id": "adventurers-league|1683", "b": 1, "n": "Kahla Deepwinter", "p": [{"id": "spectral_flight", "m": 1, "q": "becomes the Ghost of Heroes' Garden", "c": "l"}], "x": ["ghost"], "dropped": 0, "by": "router"}
+{"id": "adventurers-league|1687", "b": 0, "by": "router"}
+{"id": "adventurers-league|19924", "b": 1, "n": "The Furies", "p": [{"id": "ki_resource", "m": 7, "q": "living aspects of the universal force that was divine vengeance", "c": "m"}], "x": ["divine_vengeance"], "dropped": 0, "by": "router"}
+{"id": "all-elder-scrolls|28214", "b": 1, "n": "Jurgen Windcaller", "p": [], "x": ["tongue"], "dropped": 0, "by": "router"}
+{"id": "all-elder-scrolls|29721", "b": 1, "n": "Kruziikrel", "p": [], "x": ["dragon_form"], "dropped": 0, "by": "router"}
+{"id": "all-elder-scrolls|27815", "b": 1, "n": "Jaciel Morgen", "p": [], "x": [], "dropped": 0, "by": "router"}
+{"id": "all-elder-scrolls|36423", "b": 1, "n": "Nahviintaas", "p": [], "x": [], "dropped": 0, "by": "router"}
