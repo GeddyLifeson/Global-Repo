@@ -6811,6 +6811,7 @@ S6826	cloud	library-content/place_all.py
 S6827	cloud	names/linguistics/regen_relaxed.py
 S6828	cloud	diaithir-ports/diaithir-druidry/tools/gen_rites.py
 S6829	global	tools/omniverse/export_library_books.py
+S6877	cloud	cloud/animation/set_owner3_status.py
 S6874	global	tools/animation/gen_clips.py
 S6898	global	tools/animation/csv_apply.py
 S6873	global	ports/diaithir-bosses/tools/gen_gate.py
