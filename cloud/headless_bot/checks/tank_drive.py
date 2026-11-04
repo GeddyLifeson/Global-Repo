@@ -56,6 +56,33 @@ with Lane('tank', JARS, client_files=CF, srv_xmx='3G', out=out) as L:
             L.shot('06_fuel_drive1.png')
             json.dump(rep, open(os.path.join(sys.argv[1], 'tank_report.json'), 'w'), indent=1, default=str)
             raise SystemExit
+        if os.environ.get('TANK_CARGO'):  # pallet follow test: load, drive by command, sample vehicle vs display each second, then steer with A
+            import threading
+            CGc = lambda c, w=1.2: S('execute as Tester at Tester run diaithircargo ' + c, w)
+            DVc = lambda c, w=1.2: S('execute as Tester at Tester run diaithirvehicle ' + c, w)
+            d.key('F5'); time.sleep(1.2); d.key('F5'); time.sleep(1.0)  # same focus/camera toggles as the plain drive run, W is flaky without them
+            rep['cargo_load'] = CGc('load pallet', 1.5)
+            def sample():
+                ve = ''.join(S('execute at Tester run data get entity @e[type=mts:builder_existing,distance=..60,limit=1,sort=nearest] {Pos,Rotation}', 0.7)) if False else ''
+                v = ' '.join(S('execute at Tester run data get entity @e[type=mts:builder_existing,distance=..60,limit=1,sort=nearest] Pos', 0.5))
+                vr = ' '.join(S('execute at Tester run data get entity @e[type=mts:builder_existing,distance=..60,limit=1,sort=nearest] Rotation', 0.5))
+                bd = ' '.join(S('execute at Tester run data get entity @e[type=block_display,distance=..60,limit=1,sort=nearest] Pos', 0.5))
+                br = ' '.join(S('execute at Tester run data get entity @e[type=block_display,distance=..60,limit=1,sort=nearest] Rotation', 0.5))
+                f = lambda t: re.findall(r'\[[^\]]*\]', t)[-1:]
+                return {'veh_pos': f(v), 'veh_rot': f(vr), 'disp_pos': f(bd), 'disp_rot': f(br)}
+            rep['cargo_status_before'] = [x[-200:] for x in CGc('status', 1.0)]
+            rep['cargo_sample_before'] = sample()
+            rep['cargo_samples'] = []
+            thw = threading.Thread(target=lambda: d.hold('w', 16)); thw.start(); t0 = time.time(); started_a = False; tha = None
+            while thw.is_alive():
+                el = time.time() - t0
+                if el > 7 and not started_a: tha = threading.Thread(target=lambda: d.hold('a', 5)); tha.start(); started_a = True
+                if el > 6.5 and 'cargo_status_moving' not in rep: rep['cargo_status_moving'] = [x[-200:] for x in CGc('status', 0.8)]; L.shot('08_cargo_moving.png')
+                rep['cargo_samples'].append(dict(t=round(el, 1), turning=bool(tha and tha.is_alive()), **sample()))
+            if tha: tha.join()
+            rep['cargo_status_turned'] = [x[-200:] for x in CGc('status', 1.0)]; L.shot('09_cargo_turned.png')
+            DVc('drive 0'); DVc('stop')
+            json.dump(rep, open((out or '.') + '/tank_report.json', 'w'), indent=1, default=str); raise SystemExit
         if os.environ.get('TANK_FIRE_FIRST'):  # fire while seated, stopped, before driving (a tp after driving drops the seat)
             ENT0 = "execute as Tester at Tester run say ents: @e[distance=..80,type=!player]"
             ents0 = lambda: ' '.join(S(ENT0, 1.0)).split('ents: ')[-1]
