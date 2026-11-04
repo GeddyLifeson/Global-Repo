@@ -252,3 +252,4 @@ wave,repo,number,base,head,partner,title
 0,ports,317,,,,"diaithir-entity-animation: Better Animations Collection stage 1 (clean-room, survey p2)"
 0,ports,318,,,,"Survey p6: clean-room handshake, crash window, test-bot, Structure Memory, updater, Better Clouds"
 0,ports,321,,,,wiretech: compute circuit readers before acting nodes change state
+2,ports,336,diaithircompat,claude/project-thread-slgjcj,,"Carts: textures for yards, cranes, parts and all rolling stock (after #206)"
