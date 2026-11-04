@@ -31,15 +31,16 @@ if SH:
         if d.get('b') == 1 and not d.get('p'): hint[d['id']] = len(d.get('x') or [])
         elif d.get('b') == 0: hint.setdefault(d['id'], -1)
     judged = set(hint) | set(score)
-    g2, b2, u2 = [], [], []
+    SCALE = re.compile(r'planet|galax|universe|continent|moon|ocean|mountain|island|city|cities|destroy|reality|dimension|indestructible|invincible|legendary|divine|god', re.I)
+    g2, g3, b2, u2 = [], [], [], []
     for w, i, t in iter_leads():
         k = f'{w}|{i}'
         if k in skip or k in qids or k in score or junk(t): continue
-        if GEAR.search(t[:160]): g2.append((k, t))
+        if GEAR.search(t[:160]): (g2 if SCALE.search(t) else g3).append((k, t))
         elif hint.get(k, -2) >= 0: b2.append((hint[k], k, t))
         elif k not in judged: u2.append((k, t))
     b2.sort(key=lambda x: -x[0])
-    seq = g2 + [(k, t) for _, k, t in b2] + u2
+    seq = [(k, t) for _, k, t in b2] + g2 + u2 + g3
     print('gear', len(g2), 'beings-no-power', len(b2), 'unjudged', len(u2))
     for n in range(count):
         ch = seq[n * 250:(n + 1) * 250]
