@@ -219,3 +219,6 @@ wave,repo,number,base,head,partner,title
 0,global-repo,49,main,claude/project-thread-rzjwzu,,"Register S6951 assay_merge.py [edits SCRIPTS_INDEX.md and ids.tsv: merge one at a time, rebuild index on conflict]"
 
 0,ports,327,diaithircompat,claude/project-thread-celestials-2,,Blood Moon fold (retargeted to diaithircompat after #134 merged)
+10,ports,326,diaithircompat,claude/workshop-historical-bows,,"Workshop Bench blueprints for 15 historical bows and crossbows (after #203, merged)"
+10,ports,328,diaithircompat,claude/historical-throwables,,"diaithir-arms: 16 historical throwables and slings (data-driven thrown-weapon entity)"
+10,ports,331,claude/historical-throwables,claude/historical-siege,ports#328,"diaithir-arms: 27 historical siege engines (stacked on #328: merge #328 first)"
