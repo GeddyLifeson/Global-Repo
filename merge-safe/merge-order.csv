@@ -264,10 +264,7 @@ wave,repo,number,base,head,partner,title
 2,ports,348,diaithircompat,claude/loco-infobox-six,,Carts roster: GG1 power and TGV start year from infoboxes (tiny)
 0,global-repo,52,main,claude/project-thread-ldq153,,Register S6940 gen_farm_assets.py (diaithir-carts reaper)
 0,global-repo,56,main,claude/project-thread-66n6wn,,"Assign an Age to every item with none (assign_ages.py S6957) [edits SCRIPTS_INDEX.md and ids.tsv: merge one at a time, rebuild index on conflict]"
-0,global-repo,57,main,claude/project-thread-o0km67,,"Item roles: retry results (29,967), kubejs exporter, merge row [edits SCRIPTS_INDEX.md and ids.tsv: merge one at a time, rebuild index on conflict]"
 2,ports,352,,claude/ships-runclasspath-fix,,Ships: run classpath fix (dev server starts, self-test passes)
 15,ports,353,claude/pack-v1-3,claude/pack-v1-3-wave15,,"Wave 15: biomes module (Aerial Hell, Aether II, Undergarden, Backwoods) in worldgen suite, sound occlusion NPE fix (client 87, server 76) [merge with RPG #281]"
-0,shardfall,19,main,claude/remove-local-jobs,,Remove local-jobs/ from main
-0,global-repo,58,main,claude/localsync-text,,localsync: accept output as well as text in PC results (S6878)
 2,ports,354,,claude/buildcraft-build-fix,,BuildCraft build fix: upgrades dependency, 26.X-only config
 0,shardfall,20,main,claude/project-thread-bu0cng,,Add 25% context handoff rule to essentials
