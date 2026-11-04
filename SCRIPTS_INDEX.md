@@ -327,6 +327,8 @@ Run hints: .py `python3 <file>` (PC `py`), .ps1 via a hidden launcher (never a v
 | S0315 | cloud | `compat/gen_data.py` | Build the compat datapack: upgrade shim rules, unit stores, Age gaps, Codex and quest links per mod. | yes |
 | S0316 | cloud | `compat/gen_recipes.py` | Add load conditions to recipes naming absent mods and cross-mod dust/raw smelting to the shared ingot. | yes |
 | S0317 | cloud | `compat/gen_station_moves.py` | Move non-trivial vanilla and kept-mod grid recipes onto the Age ladder of stations with a fallback grid recipe. | yes |
+| S0316 | cloud | `names/linguistics/audit_names.py` | S0316 Audits every culture name in names/*.json against names/linguistics/rules/<slug>.json (graphemes, forbidden patterns, word length); wr | yes |
+| S0317 | cloud | `names/linguistics/research_rules.py` | S0317 One direct cached Claude call per culture language: researches how a linguist builds words there, writes names/linguistics/rules/<slug | yes |
 | S0322 | global | `claim_id.py` | S0322 atomically claims the next free script ID(s) via next_id (pull --rebase, bump, push, retry): python3 -I claim_id.py [count] | yes |
 | S0331 | cloud | `tools/harness/srvup.sh` | S0331 srvup.sh SRV LOG : boot a NeoForge server and leave it running; commands go to LOG.in (use cmd.sh). Prints Done/failed line. | yes |
 | S0332 | cloud | `tools/harness/cmd.sh` | S0332 cmd.sh LOG "command" : send a console command to a server started by srvup.sh (rcon alternative: S0071 rcon.py) | yes |
@@ -337,8 +339,10 @@ Run hints: .py `python3 <file>` (PC `py`), .ps1 via a hidden launcher (never a v
 | S0337 | cloud | `pc_scan/fix_atm11_261.py` | Fixes ATM11 pack scripts for the 26.1.2 builds of their mods. Safe to rerun. Usage: python -I fix_atm11_261.py <kubejs dir>... | yes |
 | S0338 | cloud | `pc_scan/mod_conflict_scan.py` | Find mods that conflict with the Tellus fork's chunk generator, by boot test. | yes |
 | S0339 | cloud | `pc_scan/overlay_conflicts.py` | For each overlay conflict on a target: if the target still holds the previous overlay version (OLD commit), or the | yes |
+| S0340 | cloud | `plans/progression/check_progression.py` | Validates the progression graph: every system required, solo-completable, no dead ends, Age-ordered, interlocked. | yes |
 | S0340 | cloud | `plans/progression/check_progression.py` | S0337 Validates progression/graph.json: every system is required to finish the pack, no dead ends, solo-completable, Age-gated, interlocked; | yes |
 | S0341 | cloud | `plans/progression/gen_progression_recipes.py` | S0338 Writes the dormant cross-mod recipe data pack from progression/graph.json: one shapeless recipe per node with an item, tags as inputs, | yes |
+| S0341 | cloud | `plans/progression/gen_progression_recipes.py` | Writes the dormant cross-mod recipe data pack from the progression graph. | yes |
 | S0342 | pc | `C:\Users\imarl\gui_test_valid.py` | --- Config --- [python] was PS00001 | no |
 | S0343 | pc | `C:\Users\imarl\trader.py` | --- Config --- [python] was PS00002 | no |
 | S0344 | pc | `C:\Users\imarl\trader_script_gui_cleaned_final.py` | --- Config --- [python] was PS00003 | no |
@@ -6813,15 +6817,58 @@ Run hints: .py `python3 <file>` (PC `py`), .ps1 via a hidden launcher (never a v
 | S6813 | pc | `E:\diaithir-ports-build\bc\diaithir-routing-networks\buildcraft\build-logic\loaders\forge-target.gradle` | Forge-specific target adapter. Plugin resolution remains in the build-root shim. [gradle] was PS13023 | no |
 | S6814 | pc | `E:\diaithir-ports-build\bc\diaithir-routing-networks\buildcraft\build-logic\loaders\neoforge-target.gradle` | NeoForge-specific target adapter. Plugin resolution remains in the build-root shim. [gradle] was PS13024 | no |
 | S6815 | pc | `E:\diaithir-ports-build\bc\diaithir-routing-networks\buildcraft\builds\26.X\build.neoforge.gradle` |  [gradle] was PS13025 | no |
-| S6823 | cloud | `library-content/build_content.py` | S6822 Builds library-content/content.sqlite: form, template, owner module, tier per Library entry | yes |
-| S6824 | cloud | `library-content/classify.py` | S6820 Library entries to content form: Haiku classifier (direct parallel calls, cached prompt), resumable | yes |
-| S6825 | cloud | `library-content/finalize.py` | S6821 Merges rule and Haiku codes into library_to_content.tsv (id, form, source) | yes |
+| S6818 | cloud | `DiaithirRPG/tools/codex/module_records.py` | Builds Codex records, quests and name requests for the overworld-biomes, nether and end modules (S6816). | no |
+| S6819 | cloud | `diaithir-ports/diaithir-trials-overhaul/tools/gen.py` | Writes the trials-overhaul Age gate, Codex handbook and quests from the real Not Enough Trials lang file. | no |
+| S6820 | cloud | `library-content/classify.py` | Library entries to in-game content form with Haiku (S6820). | no |
+| S6820 | cloud | `library-content/classify.py` | S6820 Library entries to content form: Haiku classifier (direct parallel calls, cached prompt), resumable | yes |
+| S6821 | cloud | `library-content/finalize.py` | S6821 Merges rule and Haiku codes into library_to_content.tsv (id, form, source) | yes |
+| S6821 | cloud | `library-content/finalize.py` | Merges rule and model codes into library_to_content.tsv (S6821). | no |
+| S6822 | cloud | `library-content/build_content.py` | S6822 Builds library-content/content.sqlite: form, template, owner module, tier per Library entry | yes |
+| S6822 | cloud | `library-content/build_content.py` | Builds content.sqlite with form, template, owner module and tier per entry (S6822). | no |
 | S6826 | cloud | `library-content/place_all.py` | S6823 Gives every Library entry a Collection, class, canon status, spine code and shelfmark from its soil | yes |
+| S6826 | cloud | `library-content/place_all.py` | Places every Library entry: Collection, class, canon status, spine code, shelfmark (S6823). | no |
 | S6827 | cloud | `names/linguistics/regen_relaxed.py` | S0312 Regenerates every culture name that fails its language rules (Haiku, rules file cached per language, up to 3 repair rounds); writes na | yes |
 | S6829 | global | `tools/omniverse/export_library_books.py` | S6829 exports library books for the omniverse books lane (lives in the DiaithirRPG repo; copy not mirrored yet) | no |
+| S6830 | cloud | `names/linguistics/coverage.py` | Name coverage per module: ids in rewrite jars vs names drops, writes pending.json. | yes |
+| S6832 | cloud | `names/linguistics/dia_names.py` | Diaithiris names for an id-to-English file via classical kenning plus archaic.py. | yes |
+| S6833 | cloud | `names/linguistics/fill_gaps.py` | Fills empty language slots with repair rounds and relaxed fallbacks. | yes |
+| S6836 | cloud | `diaithir-ports/diaithir-worldgen-structures/tools/lib_sites.py` | Turns the 44,015 Panscriptum STRUCTURE entries into jigsaw sites: lectern plaque with the entry text verbatim, class buildings, structures and sets per planet. | yes |
+| S6844 | cloud | `tools/mc_fake_player_bot.py` | Headless fake player for Minecraft 26.1.2 servers (login, keep-alive, chunk batch, teleport confirm) so spawners and altars can be triggered in cloud tests. | yes |
+| S6849 | cloud | `diaithir-ports/diaithir-worldgen-structures/tools/planet_biomes.py` | Maps settlement biome entries to each planet's biome ids (from #145 specs and planet stems) for biome-keyed settlement placement. | yes |
+| S6851 | cloud | `diaithir-ports/diaithir-worldgen-structures/tools/rc_gen.py` | Clean-room Recurrent Complex function group: jigsaw mazes in five themes, biome transformer processor lists, themed chest loot tables, Age tags. | yes |
+| S6860 | cloud | `diaithir-upgrades/gen_shims.py` | Write upgrade compat shims: scan a mod's real blockstates for working-block names and emit upgrade target rules. | yes |
+| S6866 | cloud | `animations/gen_animations_coverage.py` | Generates plans/ANIMATIONS_COVERAGE.csv (+STATIC): one row per entity, block entity, interactive block, item use action, profession, spell, vehicle and player action; owner helpers 1-4; reruns keep status. | yes |
 | S6880 | global | `diaithir-ports PR 181: port.py (path in repo unconfirmed)` | S6880 Aurorian port script (diaithir-ports PR 181; copy lives in that repo) | no |
 | S6881 | global | `diaithir-ports PR 181: rcon.py (path in repo unconfirmed)` | S6881 Aurorian rcon helper for the port tests (diaithir-ports PR 181; copy lives in that repo) | no |
 | S6947 | global | `crawl_all.py` | S0335 crawls /mnt/project-files into catalog/{D,F,M,A,J}.tsv with stable IDs: python3 -I crawl_all.py <repo> | yes |
 | S6948 | cloud | `names/linguistics/audit_names.py` | S0316 Audits every culture name in names/*.json against names/linguistics/rules/<slug>.json (graphemes, forbidden patterns, word length); wr | yes |
 | S6949 | cloud | `names/linguistics/research_rules.py` | S0317 One direct cached Claude call per culture language: researches how a linguist builds words there, writes names/linguistics/rules/<slug | yes |
 | S6950 | cloud | `compat/gen_tags_extra.py` | Name-suffix convention tags (logs, planks, slabs, rails, glass, furniture) for building, tree, furniture and rail jars. | yes |
+| S6885 | cloud | `diaithir-ports/diaithir-worldgen-structures/tools/c_tags.py` | Generates the c: convention structure and biome tags for the worldgen-structures module (per class, mazes, villages, ruins, dungeons). | yes |
+| S6913 | global | `crawl_all.py` | S0335 crawls /mnt/project-files into catalog/{D,F,M,A,J}.tsv with stable IDs: python3 -I crawl_all.py <repo> | yes |
+| S6914 | cloud | `compat/gen_recipes.py` | Add load conditions to recipes naming absent mods and cross-mod dust/raw smelting to the shared ingot. | yes |
+| S6915 | cloud | `compat/gen_station_moves.py` | Move non-trivial vanilla and kept-mod grid recipes onto the Age ladder of stations with a fallback grid recipe. | yes |
+| S6916 | cloud | `age_balance.py` | Build the per-Age coverage matrix (nodes, mod items by function, era-index feeds) and flag thin Ages. | yes |
+| S6875 | cloud | `animations/gen_body.py` | Generates the diaithir-animation vanilla-body clips (body.json), held-item kind tags and body_clips.json from the coverage csv. | yes |
+| S6877 | cloud | `cloud/animation/set_owner3_status.py` | S6876 Sets owner-3 (mobs, NPCs, bosses) status in ANIMATIONS_COVERAGE.csv: done for our GeckoLib/boss work, route for third-party mods, todo for own fauna. | yes |
+| S6910 | cloud | `diaithir-ports/diaithir-carts/tools/gen_freight_assets.py` | S6910 Freight layer: textures, models, blockstates, lang, loot, tags, age gate, library entries and station recipe rows for pallets, containers and docks | yes |
+| S6899 | cloud | `cloud/megamachines/gen_megamachines.py` | S6899 Builds and validates the mega vehicle and megastructure catalogue (dig rate = power x efficiency / specific energy); writes plans/megamachines/catalog.json and .tsv | yes |
+| S6917 | cloud | `cloud/megamachines/gen_megastructures.py` | S6917 Builds and validates staged-construction blueprints for the 7 megastructures (stages, builders, material tags, pallets, fleet hours, function share); writes plans/megamachines/blueprints.json, stages.tsv, codex_megastructures.tsv; --selftest injects faults | yes |
+| S6894 | cloud | `diaithir-ports/diaithir-wiretech/tools/gen_circuit_assets.py` | Diaithir Wiretech circuit network assets: textures, models, blockstates, lang, recipes and age gate for the combinator blocks; run after gen_assets.py. | no |
+| S6895 | cloud | `diaithir-ports/diaithir-wiretech/src/main/java/net/diaithir/wiretech/circuit/CoreCheck.java` | Plain-Java check of the circuit core (signals, combinators, solver, tiers): javac then java -ea. | no |
+| S6896 | cloud | `diaithir-ports/diaithir-wiretech/tools/circuit_gui_check.py` | Opens the wiretech circuit program screens on a real headless client and screenshots them (lane S6854). | no |
+| S6901 | cloud | `diaithir-ports/diaithir-wiretech/tools/belt_reader_check.py` | Circuit reader against a real belt chute (belt fork jar) on the headless client lane. | no |
+| S6906 | global | `crawl_all.py` | S0335 crawls /mnt/project-files into catalog/{D,F,M,A,J}.tsv with stable IDs: python3 -I crawl_all.py <repo> | yes |
+| S6907 | cloud | `names/linguistics/names_for_terms.py` | Names for an id-to-English file in 130 culture languages against the rules files. | yes |
+| S6908 | cloud | `compat/gen_recipes.py` | Add load conditions to recipes naming absent mods and cross-mod dust/raw smelting to the shared ingot. | yes |
+| S6909 | cloud | `compat/gen_station_moves.py` | Move non-trivial vanilla and kept-mod grid recipes onto the Age ladder of stations with a fallback grid recipe. | yes |
+| S6912 | cloud | `diaithir-ports/diaithir-wiretech/tools/rail_reader_check.py` | Circuit reader against a real destination rail and block signal (diaithir-carts) on the headless client lane. | no |
+| S6883 | global | `diaithir-ports PR 188: diaithir-arms/tools/gen_aircraft.py` | S6883 Aircraft pack generator for Immersive Vehicles (diaithir-ports PR 188; copy lives in that repo) | no |
+| S6900 | global | `diaithir-animation/tools/queue_row_jobs.py` | S6900 queues ANIMATIONS_COVERAGE.csv rows into compute/jobs/anim_rows-sNN shards of 500 (animation spec per row via Claude batch; lives in diaithir-ports) | no |
+| S6919 | cloud | `integration/integration_matrix.py` | Build the every-system-by-every-system integration matrix and lane tickets from matrix_data.py (plans/INTEGRATION_MATRIX.md). | yes |
+| S6929 | cloud | `integration/matrix_data.py` | Data for S6919: bridges, 32 systems, nouns, hand-written pair interactions, lane owners. | yes |
+| S6930 | cloud | `integration/pairs_extra.txt` | Hand-written pair interactions loaded by matrix_data.py. | yes |
+| S6931 | global | `crawl_all.py` | S0335 crawls /mnt/project-files into catalog/{D,F,M,A,J}.tsv with stable IDs: python3 -I crawl_all.py <repo> | yes |
+| S6932 | cloud | `compat/gen_recipes.py` | Add load conditions to recipes naming absent mods and cross-mod dust/raw smelting to the shared ingot. | yes |
+| S6933 | cloud | `compat/gen_station_moves.py` | Move non-trivial vanilla and kept-mod grid recipes onto the Age ladder of stations with a fallback grid recipe. | yes |
+| S6918 | cloud | `diaithir-ports/diaithir-firearms/tools/gen_containers.py` | S6918 Writes container_kinds.json and the diaithircrafting uses_container and ammo_class item tags for diaithir-firearms (munitions container contract) | yes |

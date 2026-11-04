@@ -325,6 +325,30 @@ world-checks/render.py	1634	"Top-down PNG per site: snow white, water blue, land
 world-checks/scan.py	5155	"Scan Tellus region files: per-column ground Y, snow cover, bedrock floor, and every *_ore block position."""""""	yes
 world-checks/sites.py	1510	R = 111319.49166666667 * 180 / math.pi	yes
 world-checks/snow.py	2642	"Snowline check: snow cover fraction by elevation band vs the Age I line (EraMath.age1SnowlineMeters)."""""""	yes
+diaithir-ports/diaithir-wiretech/tools/gen_circuit_assets.py	10834	Diaithir Wiretech circuit network assets: textures, models, blockstates, lang, recipes and age gate for the combinator blocks; run after gen_assets.py.	no
+diaithir-ports/diaithir-wiretech/src/main/java/net/diaithir/wiretech/circuit/CoreCheck.java	6998	Plain-Java check of the circuit core (signals, combinators, solver, tiers): javac then java -ea.	no
+diaithir-ports/diaithir-wiretech/tools/circuit_gui_check.py	2400	Opens the wiretech circuit program screens on a real headless client and screenshots them (lane S6854).	no
+names/linguistics/coverage.py	0	Name coverage per module: ids in rewrite jars vs names drops, writes pending.json.	yes
+names/linguistics/names_for_terms.py	0	Names for an id-to-English file in 130 culture languages against the rules files.	yes
+names/linguistics/dia_names.py	0	Diaithiris names for an id-to-English file via classical kenning plus archaic.py.	yes
+names/linguistics/fill_gaps.py	0	Fills empty language slots with repair rounds and relaxed fallbacks.	yes
+animations/gen_body.py	23429	Generates the diaithir-animation vanilla-body clips (body.json), held-item kind tags and body_clips.json from the coverage csv.	yes
+cloud/animation/set_owner3_status.py	900	S6876 Sets owner-3 (mobs, NPCs, bosses) status in ANIMATIONS_COVERAGE.csv: done for our GeckoLib/boss work, route for third-party mods, todo for own fauna.	yes
+animations/gen_animations_coverage.py	15950	Generates plans/ANIMATIONS_COVERAGE.csv (+STATIC): one row per entity, block entity, interactive block, item use action, profession, spell, vehicle and player action; owner helpers 1-4; reruns keep status.	yes
+diaithir-upgrades/gen_shims.py	1854	Write upgrade compat shims: scan a mod's real blockstates for working-block names and emit upgrade target rules.	yes
+diaithir-ports/diaithir-worldgen-structures/tools/lib_sites.py	16768	Turns the 44,015 Panscriptum STRUCTURE entries into jigsaw sites: lectern plaque with the entry text verbatim, class buildings, structures and sets per planet.	yes
+tools/mc_fake_player_bot.py	2665	Headless fake player for Minecraft 26.1.2 servers (login, keep-alive, chunk batch, teleport confirm) so spawners and altars can be triggered in cloud tests.	yes
+diaithir-ports/diaithir-worldgen-structures/tools/planet_biomes.py	1454	Maps settlement biome entries to each planet's biome ids (from #145 specs and planet stems) for biome-keyed settlement placement.	yes
+diaithir-ports/diaithir-worldgen-structures/tools/rc_gen.py	8972	Clean-room Recurrent Complex function group: jigsaw mazes in five themes, biome transformer processor lists, themed chest loot tables, Age tags.	yes
+diaithir-ports/diaithir-worldgen-structures/tools/c_tags.py	1546	Generates the c: convention structure and biome tags for the worldgen-structures module (per class, mazes, villages, ruins, dungeons).	yes
+DiaithirRPG/tools/codex/module_records.py	3600	Builds Codex records, quests and name requests for the overworld-biomes, nether and end modules (S6816).	no
+diaithir-ports/diaithir-trials-overhaul/tools/gen.py	1900	Writes the trials-overhaul Age gate, Codex handbook and quests from the real Not Enough Trials lang file.	no
+library-content/classify.py	6300	Library entries to in-game content form with Haiku (S6820).	no
+library-content/finalize.py	1300	Merges rule and model codes into library_to_content.tsv (S6821).	no
+library-content/build_content.py	2200	Builds content.sqlite with form, template, owner module and tier per entry (S6822).	no
+library-content/place_all.py	2900	Places every Library entry: Collection, class, canon status, spine code, shelfmark (S6823).	no
+plans/progression/check_progression.py	4811	Validates the progression graph: every system required, solo-completable, no dead ends, Age-ordered, interlocked.	yes
+plans/progression/gen_progression_recipes.py	2156	Writes the dormant cross-mod recipe data pack from the progression graph.	yes
 tools/get_jdk25.sh	600	Installs Temurin JDK 25 in the cloud container (gradle toolchain for NeoForge 26.1.2); source it, then ./gradlew compileJava -Porg.gradle.java.installations.paths=$JAVA_HOME.	yes
 tools/compile_fix_loop.py	4500	Compile-fix loop for diaithir modules: gradle errors + real 26.1.2 class candidates go to Sonnet, fixed files written back, up to 5 rounds.	yes
 compat/profile_jars.py	0	Download each kept pack jar from its pack link, profile its blocks, items, recipes and c: tags, delete the jar.	yes
@@ -334,3 +358,10 @@ compat/gen_data.py	0	Build the compat datapack: upgrade shim rules, unit stores,
 compat/gen_recipes.py	0	Add load conditions to recipes naming absent mods and cross-mod dust/raw smelting to the shared ingot.	yes
 compat/gen_station_moves.py	0	Move non-trivial vanilla and kept-mod grid recipes onto the Age ladder of stations with a fallback grid recipe.	yes
 compat/gen_tags_extra.py	0	Name-suffix convention tags (logs, planks, slabs, rails, glass, furniture) for building, tree, furniture and rail jars.	yes
+diaithir-ports/diaithir-overworld-biomes/tools/stellaris_extra.py	1100	S6922 Writes the recipes for the hand-written Stellaris pieces (rocket, suit, oxygen module, distributor, fluid cell).	no
+age_balance.py	3370	Build the per-Age coverage matrix (nodes, mod items by function, era-index feeds) and flag thin Ages.	yes
+diaithir-ports/diaithir-wiretech/tools/belt_reader_check.py	1800	Circuit reader against a real belt chute (belt fork jar) on the headless client lane.	no
+diaithir-ports/diaithir-wiretech/tools/rail_reader_check.py	1492	Circuit reader against a real destination rail and block signal (diaithir-carts) on the headless client lane.	no
+integration/integration_matrix.py	7000	Build the every-system-by-every-system integration matrix and lane tickets from matrix_data.py (plans/INTEGRATION_MATRIX.md).	yes
+integration/matrix_data.py	35235	Data for S6919: bridges, 32 systems, nouns, hand-written pair interactions, lane owners.	yes
+integration/pairs_extra.txt	18392	Hand-written pair interactions loaded by matrix_data.py.	yes

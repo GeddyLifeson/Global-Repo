@@ -1,0 +1,64 @@
+{
+ "neoforge:conditions": [
+  {
+   "type": "neoforge:mod_loaded",
+   "modid": "diaithir_stations"
+  },
+  {
+   "type": "neoforge:item_exists",
+   "item": "diaithir:foundry_module_legendary"
+  },
+  {
+   "type": "neoforge:not",
+   "value": {
+    "type": "neoforge:tag_empty",
+    "tag": "diaithir:progression/module.t3"
+   }
+  },
+  {
+   "type": "neoforge:not",
+   "value": {
+    "type": "neoforge:tag_empty",
+    "tag": "diaithir:progression/quality.grade"
+   }
+  },
+  {
+   "type": "neoforge:not",
+   "value": {
+    "type": "neoforge:tag_empty",
+    "tag": "diaithir:progression/boss.catalyst_t2"
+   }
+  },
+  {
+   "type": "neoforge:not",
+   "value": {
+    "type": "neoforge:tag_empty",
+    "tag": "diaithir:progression/module.nano"
+   }
+  }
+ ],
+ "_node": "upgrade.legendary",
+ "_age": "RODOS",
+ "station": "station.fabricator",
+ "stage": "assembly",
+ "ingredients": [
+  {
+   "tag": "diaithir:progression/module.t3"
+  },
+  {
+   "tag": "diaithir:progression/quality.grade"
+  },
+  {
+   "tag": "diaithir:progression/boss.catalyst_t2"
+  },
+  {
+   "tag": "diaithir:progression/module.nano"
+  }
+ ],
+ "result": {
+  "id": "diaithir:foundry_module_legendary",
+  "count": 1
+ },
+ "time_s": 20,
+ "operator": false
+}
