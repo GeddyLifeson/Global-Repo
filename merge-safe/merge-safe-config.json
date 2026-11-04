@@ -51,5 +51,8 @@
     "repo": "GeddyLifeson/Global-Repo",
     "ref": "claude/project-thread-zuc996",
     "path": "merge-safe"
+  },
+  "max_merges_per_repo": {
+    "global-repo": 1
   }
 }
