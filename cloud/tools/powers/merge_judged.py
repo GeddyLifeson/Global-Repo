@@ -8,7 +8,7 @@ import judge_pages as jp
 out, files = sys.argv[1], sys.argv[2:]
 R = '/mnt/project-files/plans'
 text = {}
-for f in glob.glob('/mnt/project-files/plans/powers/judge/inthread/shard_??.jsonl') + glob.glob(os.path.join(os.path.dirname(os.path.abspath(__file__)), '../../../plans/powers/pcrun/priority.jsonl.gz')):
+for f in glob.glob('/mnt/project-files/plans/powers/judge/inthread/shard_??.jsonl') + glob.glob('/mnt/project-files/plans/powers/judge/inthread/shard_???.jsonl') + glob.glob(os.path.join(os.path.dirname(os.path.abspath(__file__)), '../../../plans/powers/pcrun/priority.jsonl.gz')):
     for l in (gzip.open(f, 'rt', encoding='utf-8') if f.endswith('.gz') else open(f, encoding='utf-8')):
         d = json.loads(l); text[d['id']] = d['text']
 ids = {r['id'] for r in jp.pool_rows()}
