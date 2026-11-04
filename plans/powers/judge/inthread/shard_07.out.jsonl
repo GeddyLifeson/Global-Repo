@@ -1,0 +1,250 @@
+{"id": "world-of-warcraft|39451", "b": 1, "n": "Centaur Firecallers", "p": [{"id": "fireball", "m": 1, "q": "centaur pyromancers", "c": "l"}], "x": []}
+{"id": "world-of-warcraft|38019", "b": 1, "n": "", "p": [], "x": []}
+{"id": "world-of-warcraft|37301", "b": 1, "n": "", "p": [], "x": []}
+{"id": "world-of-warcraft|33214", "b": 1, "n": "", "p": [], "x": []}
+{"id": "world-of-warcraft|30037", "b": 1, "n": "Bonechewer Behemoths", "p": [{"id": "giant_size", "m": 1, "q": "giant fel orcs", "c": "l"}], "x": []}
+{"id": "world-of-warcraft|29222", "b": 1, "n": "", "p": [], "x": []}
+{"id": "world-of-warcraft|25189", "b": 1, "n": "", "p": [], "x": []}
+{"id": "world-of-warcraft|23340", "b": 1, "n": "Belnistrasz", "p": [{"id": "dragon_form", "m": 1, "q": "He appears as a human.", "c": "m"}], "x": []}
+{"id": "world-of-warcraft|22289", "b": 0}
+{"id": "world-of-warcraft|21475", "b": 1, "n": "Baron Geddon", "p": [{"id": "fireball", "m": 3, "q": "fire elemental boss", "c": "l"}], "x": []}
+{"id": "world-of-warcraft|19803", "b": 0}
+{"id": "world-of-warcraft|19711", "b": 1, "n": "", "p": [], "x": ["ash_manipulation"]}
+{"id": "world-of-warcraft|16915", "b": 1, "n": "Arnokk the Burner", "p": [{"id": "fireball", "m": 1, "q": "incinerating everything in his path", "c": "m"}], "x": []}
+{"id": "world-of-warcraft|16078", "b": 1, "n": "", "p": [], "x": ["flame_control"]}
+{"id": "world-of-warcraft|15302", "b": 1, "n": "", "p": [], "x": []}
+{"id": "world-of-warcraft|14684", "b": 1, "n": "", "p": [], "x": []}
+{"id": "world-of-warcraft|13205", "b": 1, "n": "", "p": [], "x": []}
+{"id": "world-of-warcraft|12128", "b": 1, "n": "Amelia Clarke", "p": [{"id": "dragon_form", "m": 1, "q": "dragon disguised as a human", "c": "m"}], "x": []}
+{"id": "world-of-warcraft|11705", "b": 0}
+{"id": "world-of-warcraft|11491", "b": 1, "n": "", "p": [], "x": []}
+{"id": "world-of-warcraft|11274", "b": 1, "n": "", "p": [], "x": []}
+{"id": "world-of-warcraft|11148", "b": 1, "n": "Algeth'ar Acolytes", "p": [{"id": "dragon_form", "m": 1, "q": "dragons in elf visages", "c": "m"}], "x": []}
+{"id": "world-of-warcraft|10984", "b": 1, "n": "", "p": [], "x": []}
+{"id": "world-of-warcraft|10496", "b": 1, "n": "", "p": [], "x": []}
+{"id": "vampire-the-masquerade|9032", "b": 1, "n": "Eternal of Sothis", "p": [{"id": "immortal_body", "m": 1, "q": "lived through an entire Sothic Turn", "c": "m"}], "x": []}
+{"id": "vampire-the-masquerade|8669", "b": 1, "n": "El Cuchillo", "p": [{"id": "super_speed", "m": 1, "q": "his superspeed and agility", "c": "m"}], "x": []}
+{"id": "vampire-the-masquerade|7920", "b": 1, "n": "Dian Cécht", "p": [{"id": "qi_heal", "m": 2, "q": "most prominent healer", "c": "l"}], "x": []}
+{"id": "vampire-the-masquerade|4890", "b": 1, "n": "Cabiri", "p": [{"id": "immortal_body", "m": 1, "q": "They're Immortals", "c": "m"}], "x": []}
+{"id": "vampire-the-masquerade|4712", "b": 1, "n": "Bolade Atwan", "p": [{"id": "blink", "m": 1, "q": "Proxy of teleportation", "c": "m"}], "x": []}
+{"id": "vampire-the-masquerade|3947", "b": 1, "n": "Benoit Goubeaux", "p": [{"id": "regeneration", "m": 1, "q": "his ability to Regenerate", "c": "m"}], "x": []}
+{"id": "vampire-the-masquerade|3793", "b": 1, "n": "Balam-Colop", "p": [{"id": "dragon_form", "m": 1, "q": "shapeshifting humanoid jaguars", "c": "m"}], "x": []}
+{"id": "vampire-the-masquerade|3197", "b": 1, "n": "Arbina", "p": [{"id": "dragon_form", "m": 1, "q": "can take on human form", "c": "m"}, {"id": "qi_heal", "m": 1, "q": "sap that possesses healing properties", "c": "l"}], "x": []}
+{"id": "vampire-the-masquerade|3182", "b": 1, "n": "Araska", "p": [{"id": "immortal_body", "m": 2, "q": "Araska is immortal", "c": "m"}], "x": []}
+{"id": "vampire-the-masquerade|3179", "b": 1, "n": "", "p": [], "x": []}
+{"id": "vampire-the-masquerade|25496", "b": 1, "n": "Unicorn", "p": [{"id": "qi_heal", "m": 1, "q": "totem spirit of peace, harmony, and healing", "c": "l"}], "x": []}
+{"id": "vampire-the-masquerade|2473", "b": 1, "n": "Ambrose Gant", "p": [{"id": "telepathy", "m": 1, "q": "powerful psychic", "c": "l"}], "x": []}
+{"id": "vampire-the-masquerade|23371", "b": 1, "n": "Swara", "p": [{"id": "super_speed", "m": 1, "q": "they are extremely fast", "c": "m"}], "x": []}
+{"id": "vampire-the-masquerade|22424", "b": 0}
+{"id": "vampire-the-masquerade|22411", "b": 1, "n": "Shih", "p": [{"id": "ki_resource", "m": 1, "q": "using their own Chi", "c": "m"}], "x": []}
+{"id": "vampire-the-masquerade|21388", "b": 0}
+{"id": "vampire-the-masquerade|21383", "b": 0}
+{"id": "vampire-the-masquerade|20970", "b": 1, "n": "Rebecca Bue Li", "p": [{"id": "telepathy", "m": 1, "q": "proxy of telepathy", "c": "m"}], "x": []}
+{"id": "vampire-the-masquerade|20691", "b": 1, "n": "Renders", "p": [{"id": "super_speed", "m": 1, "q": "their unnatural speed", "c": "m"}], "x": []}
+{"id": "vampire-the-masquerade|20478", "b": 1, "n": "", "p": [], "x": []}
+{"id": "vampire-the-masquerade|2037", "b": 1, "n": "", "p": [], "x": []}
+{"id": "vampire-the-masquerade|1969", "b": 1, "n": "Adonijah", "p": [{"id": "immortal_body", "m": 1, "q": "is a true immortal", "c": "m"}], "x": []}
+{"id": "vampire-the-masquerade|19345", "b": 1, "n": "", "p": [], "x": []}
+{"id": "vampire-the-masquerade|1915", "b": 1, "n": "Abominable Snowman", "p": [{"id": "super_strength", "m": 1, "q": "of great strength", "c": "m"}], "x": []}
+{"id": "vampire-the-masquerade|18542", "b": 1, "n": "", "p": [], "x": []}
+{"id": "vampire-the-masquerade|18239", "b": 1, "n": "Nian Shun", "p": [{"id": "immortal_body", "m": 1, "q": "is an immortal", "c": "m"}], "x": []}
+{"id": "vampire-the-masquerade|17856", "b": 1, "n": "", "p": [], "x": ["emp_pulse"]}
+{"id": "vampire-the-masquerade|17347", "b": 1, "n": "", "p": [], "x": []}
+{"id": "vampire-the-masquerade|16954", "b": 1, "n": "Melissanda Estevez", "p": [{"id": "blink", "m": 1, "q": "current teleporter for Team Tomorrow", "c": "m"}], "x": []}
+{"id": "vampire-the-masquerade|16342", "b": 1, "n": "Marianna", "p": [{"id": "time_stop", "m": 3, "q": "Correspondence, Life, Matter, Mind, and Time", "c": "l"}], "x": []}
+{"id": "vampire-the-masquerade|16001", "b": 1, "n": "", "p": [], "x": []}
+{"id": "vampire-the-masquerade|15973", "b": 1, "n": "", "p": [], "x": []}
+{"id": "vampire-the-masquerade|15280", "b": 1, "n": "", "p": [], "x": []}
+{"id": "vampire-the-masquerade|14967", "b": 1, "n": "Liche", "p": [{"id": "immortal_body", "m": 1, "q": "methods to achieve immortality", "c": "m"}], "x": []}
+{"id": "vampire-the-masquerade|14170", "b": 1, "n": "Kelly Finnegan", "p": [{"id": "fireball", "m": 3, "q": "used his powers to burn down a empty hotel", "c": "m"}], "x": []}
+{"id": "vampire-the-masquerade|12681", "b": 1, "n": "", "p": [], "x": []}
+{"id": "vampire-the-masquerade|12221", "b": 1, "n": "Gereon Ignatius", "p": [{"id": "immortal_body", "m": 1, "q": "too powerful and too stubborn to die", "c": "l"}], "x": []}
+{"id": "vampire-the-masquerade|12027", "b": 1, "n": "", "p": [], "x": []}
+{"id": "vampire-the-masquerade|10575", "b": 1, "n": "", "p": [], "x": ["shadow_manipulation"]}
+{"id": "transformers|786", "b": 1, "n": "", "p": [], "x": []}
+{"id": "transformers|535", "b": 1, "n": "", "p": [], "x": []}
+{"id": "transformers|5026", "b": 0}
+{"id": "transformers|4146", "b": 1, "n": "", "p": [], "x": []}
+{"id": "transformers|4131", "b": 1, "n": "Strong-Bot", "p": [{"id": "super_strength", "m": 1, "q": "strongest Go-Bot", "c": "l"}], "x": []}
+{"id": "transformers|4116", "b": 1, "n": "", "p": [], "x": []}
+{"id": "transformers|3951", "b": 1, "n": "Sights", "p": [{"id": "dragon_form", "m": 1, "q": "Sights can transform", "c": "l"}], "x": []}
+{"id": "transformers|3949", "b": 1, "n": "", "p": [], "x": []}
+{"id": "transformers|3907", "b": 1, "n": "", "p": [], "x": []}
+{"id": "transformers|3871", "b": 1, "n": "Scorpulator", "p": [{"id": "energy_beam", "m": 1, "q": "lasers", "c": "l"}], "x": []}
+{"id": "transformers|2978", "b": 1, "n": "Noctorro", "p": [{"id": "super_strength", "m": 1, "q": "great strength", "c": "m"}], "x": []}
+{"id": "transformers|2584", "b": 1, "n": "Shellshock", "p": [{"id": "energy_beam", "m": 1, "q": "unleashes several volleys of plasma", "c": "m"}], "x": []}
+{"id": "transformers|2494", "b": 1, "n": "Lionbreast", "p": [{"id": "dragon_form", "m": 1, "q": "transform into both a mechnical lion", "c": "m"}], "x": []}
+{"id": "transformers|1926", "b": 1, "n": "", "p": [], "x": []}
+{"id": "transformers|1877", "b": 1, "n": "Gravity", "p": [{"id": "gravity_repulse", "m": 1, "q": "manipulate gravitational forces", "c": "m"}], "x": []}
+{"id": "transformers|1831", "b": 1, "n": "", "p": [], "x": []}
+{"id": "transformers|1432", "b": 1, "n": "Fast-Bot", "p": [{"id": "super_speed", "m": 1, "q": "powerful high-speed racer", "c": "m"}], "x": []}
+{"id": "the-lovecraftian-mythos|6860", "b": 1, "n": "", "p": [], "x": ["mind_control"]}
+{"id": "the-lovecraftian-mythos|6859", "b": 1, "n": "Voltiyig", "p": [{"id": "fireball", "m": 1, "q": "flaming nostrils", "c": "l"}], "x": []}
+{"id": "the-lovecraftian-mythos|3633", "b": 1, "n": "Night-gaunts", "p": [{"id": "flight", "m": 1, "q": "flying creatures", "c": "m"}], "x": []}
+{"id": "the-lord-of-the-rings|9841", "b": 1, "n": "Itangast", "p": [{"id": "fireball", "m": 2, "q": "Fire-drake", "c": "l"}], "x": []}
+{"id": "the-lord-of-the-rings|7986", "b": 1, "n": "", "p": [], "x": []}
+{"id": "the-lord-of-the-rings|723", "b": 1, "n": "Bears", "p": [{"id": "dragon_form", "m": 1, "q": "skin-changers who could appear in the form of either Men or bears", "c": "m"}], "x": []}
+{"id": "the-lord-of-the-rings|14514", "b": 0}
+{"id": "terraria|2744", "b": 1, "n": "Stargazer", "p": [{"id": "energy_beam", "m": 1, "q": "Stardust Laser", "c": "m"}], "x": []}
+{"id": "terminator|939", "b": 1, "n": "", "p": [], "x": []}
+{"id": "terminator|706", "b": 1, "n": "", "p": [], "x": []}
+{"id": "terminator|18", "b": 2, "k": "vehicle", "m": 2, "q": "unmanned aerial weapons system", "c": "m"}
+{"id": "tekken|1542", "b": 0}
+{"id": "starcraft|6066", "b": 1, "n": "Stone Zealots", "p": [{"id": "energy_beam", "m": 1, "q": "eyebeam weapons", "c": "m"}], "x": []}
+{"id": "starcraft|5732", "b": 1, "n": "", "p": [], "x": []}
+{"id": "starcraft|5663", "b": 1, "n": "", "p": [], "x": ["psionics"]}
+{"id": "starcraft|5497", "b": 1, "n": "", "p": [], "x": ["psionics"]}
+{"id": "starcraft|4941", "b": 1, "n": "", "p": [], "x": []}
+{"id": "starcraft|4776", "b": 0}
+{"id": "starcraft|4167", "b": 1, "n": "", "p": [], "x": []}
+{"id": "starcraft|3474", "b": 1, "n": "", "p": [], "x": []}
+{"id": "starcraft|2849", "b": 1, "n": "", "p": [], "x": ["mind_control"]}
+{"id": "starcraft|2720", "b": 1, "n": "", "p": [], "x": []}
+{"id": "starcraft|2376", "b": 1, "n": "Glistrup", "p": [{"id": "gravity_repulse", "m": 1, "q": "power of telekinesis", "c": "m"}], "x": []}
+{"id": "starcraft|2080", "b": 0}
+{"id": "starcraft|2045", "b": 0}
+{"id": "starcraft|1573", "b": 1, "n": "", "p": [], "x": []}
+{"id": "starcraft|1458", "b": 0}
+{"id": "starcraft|1455", "b": 0}
+{"id": "starcraft|1401", "b": 0}
+{"id": "sailor-moon|481", "b": 1, "n": "Housenka", "p": [{"id": "ki_blast", "m": 1, "q": "shoot several small spheres similar to seeds", "c": "m"}], "x": []}
+{"id": "sailor-moon|461", "b": 1, "n": "Campanula", "p": [{"id": "flight", "m": 1, "q": "flying Flower Youma", "c": "m"}], "x": []}
+{"id": "sailor-moon|225", "b": 1, "n": "", "p": [], "x": ["gravity_barrier"]}
+{"id": "sailor-moon|1028", "b": 1, "n": "Nipas", "p": [{"id": "freeze_breath", "m": 1, "q": "freeze people with her breath", "c": "m"}], "x": []}
+{"id": "rosario-vampire|164", "b": 0}
+{"id": "professional-wrestling-wwe-wcw-aaa-nxt-ecw-tna-aew|18097", "b": 0}
+{"id": "predator|8087", "b": 1, "n": "", "p": [], "x": []}
+{"id": "predator|7993", "b": 1, "n": "", "p": [], "x": []}
+{"id": "predator|6967", "b": 1, "n": "Snatcher", "p": [{"id": "super_speed", "m": 1, "q": "unparalleled speed", "c": "m"}], "x": []}
+{"id": "predator|4193", "b": 1, "n": "Chameleons", "p": [{"id": "giant_size", "m": 1, "q": "huge, unintelligent, reptilian creatures", "c": "l"}], "x": []}
+{"id": "predator|3786", "b": 1, "n": "Jockey-Xenomorph", "p": [{"id": "giant_size", "m": 2, "q": "usually massive in size", "c": "m"}], "x": []}
+{"id": "predator|3757", "b": 1, "n": "Isabella Borgia", "p": [{"id": "immortal_body", "m": 1, "q": "lifespan was unnaturally prolonged", "c": "l"}], "x": []}
+{"id": "predator|3450", "b": 1, "n": "", "p": [], "x": []}
+{"id": "predator|2633", "b": 1, "n": "Fire-Eater Alien", "p": [{"id": "fireball", "m": 1, "q": "can spit fire by the mouth", "c": "m"}], "x": []}
+{"id": "predator|1355", "b": 1, "n": "Bat Aliens", "p": [{"id": "flight", "m": 1, "q": "ability to achieve powered flight", "c": "m"}], "x": []}
+{"id": "pokemon|1", "b": 1, "n": "Pokemon", "p": [{"id": "whirlwind", "m": 2, "q": "hides itself by whipping up blizzards", "c": "m"}], "x": []}
+{"id": "path-of-exile|3900", "b": 1, "n": "Flame of Truth", "p": [{"id": "fireball", "m": 1, "q": "ignited the ground when he died", "c": "m"}], "x": []}
+{"id": "path-of-exile|2961", "b": 1, "n": "Wilhelm Flamebrand", "p": [], "x": []}
+{"id": "path-of-exile|11399", "b": 1, "n": "Trinian", "p": [{"id": "whirlwind", "m": 1, "q": "a spell in the form of a whirlwind", "c": "m"}], "x": []}
+{"id": "path-of-exile|10355", "b": 1, "n": "Goddess of Purity", "p": [{"id": "freeze_breath", "m": 1, "q": "She uses Ice Nova", "c": "m"}], "x": []}
+{"id": "overwatch|1887", "b": 1, "n": "", "p": [{"id": "freeze_breath", "m": 1, "q": "Ice Storm", "c": "l"}], "x": []}
+{"id": "overwatch|1432", "b": 1, "n": "", "p": [{"id": "super_strength", "m": 1, "q": "Super Punch", "c": "l"}, {"id": "gravity_repulse", "m": 1, "q": "Shockwave", "c": "l"}], "x": []}
+{"id": "one-piece|4078", "b": 1, "n": "Karoo", "p": [{"id": "super_speed", "m": 1, "q": "one of the fastest modes of transportation", "c": "l"}], "x": []}
+{"id": "one-piece|4037", "b": 1, "n": "Iscat", "p": [{"id": "giant_size", "m": 2, "q": "giant cat", "c": "l"}], "x": []}
+{"id": "one-piece|3581", "b": 0}
+{"id": "one-piece|284", "b": 1, "n": "Biblo", "p": [{"id": "giant_size", "m": 2, "q": "giant owl", "c": "l"}], "x": []}
+{"id": "naruto|990", "b": 0}
+{"id": "naruto|989", "b": 0}
+{"id": "naruto|977", "b": 0}
+{"id": "naruto|969", "b": 0}
+{"id": "naruto|934", "b": 0}
+{"id": "naruto|918", "b": 0}
+{"id": "naruto|878", "b": 0}
+{"id": "naruto|860", "b": 0}
+{"id": "naruto|818", "b": 0}
+{"id": "naruto|732", "b": 0}
+{"id": "naruto|729", "b": 0}
+{"id": "naruto|662", "b": 0}
+{"id": "naruto|652", "b": 0}
+{"id": "naruto|595", "b": 0}
+{"id": "naruto|580", "b": 0}
+{"id": "naruto|519", "b": 0}
+{"id": "naruto|504", "b": 0}
+{"id": "naruto|483", "b": 0}
+{"id": "naruto|4631", "b": 0}
+{"id": "naruto|4593", "b": 0}
+{"id": "naruto|4520", "b": 0}
+{"id": "naruto|4518", "b": 0}
+{"id": "naruto|4496", "b": 0}
+{"id": "naruto|4483", "b": 0}
+{"id": "naruto|4481", "b": 0}
+{"id": "naruto|4466", "b": 0}
+{"id": "naruto|4460", "b": 0}
+{"id": "naruto|4451", "b": 0}
+{"id": "naruto|4398", "b": 0}
+{"id": "naruto|4395", "b": 0}
+{"id": "naruto|4317", "b": 0}
+{"id": "naruto|4255", "b": 0}
+{"id": "naruto|4222", "b": 0}
+{"id": "naruto|4193", "b": 0}
+{"id": "naruto|4055", "b": 0}
+{"id": "naruto|4035", "b": 0}
+{"id": "naruto|3962", "b": 0}
+{"id": "naruto|366", "b": 0}
+{"id": "naruto|352", "b": 0}
+{"id": "naruto|3510", "b": 0}
+{"id": "naruto|346", "b": 0}
+{"id": "naruto|3416", "b": 0}
+{"id": "naruto|3342", "b": 0}
+{"id": "naruto|3326", "b": 0}
+{"id": "naruto|3319", "b": 0}
+{"id": "naruto|3303", "b": 0}
+{"id": "naruto|3243", "b": 0}
+{"id": "naruto|3225", "b": 0}
+{"id": "naruto|3162", "b": 0}
+{"id": "naruto|316", "b": 0}
+{"id": "naruto|3098", "b": 0}
+{"id": "naruto|3080", "b": 0}
+{"id": "naruto|3079", "b": 0}
+{"id": "naruto|3074", "b": 0}
+{"id": "naruto|2969", "b": 0}
+{"id": "naruto|2958", "b": 0}
+{"id": "naruto|2941", "b": 0}
+{"id": "naruto|2916", "b": 0}
+{"id": "naruto|2901", "b": 0}
+{"id": "naruto|2884", "b": 0}
+{"id": "naruto|2745", "b": 0}
+{"id": "naruto|2670", "b": 0}
+{"id": "naruto|2634", "b": 0}
+{"id": "naruto|2629", "b": 0}
+{"id": "naruto|2616", "b": 0}
+{"id": "naruto|2614", "b": 0}
+{"id": "naruto|2581", "b": 0}
+{"id": "naruto|2553", "b": 0}
+{"id": "naruto|2465", "b": 0}
+{"id": "naruto|2398", "b": 0}
+{"id": "naruto|2391", "b": 0}
+{"id": "naruto|2283", "b": 0}
+{"id": "naruto|2253", "b": 0}
+{"id": "naruto|2248", "b": 0}
+{"id": "naruto|2241", "b": 0}
+{"id": "naruto|2222", "b": 0}
+{"id": "naruto|220", "b": 1, "n": "", "p": [{"id": "giant_size", "m": 1, "q": "giant insect", "c": "l"}], "x": []}
+{"id": "naruto|2175", "b": 0}
+{"id": "naruto|2145", "b": 0}
+{"id": "naruto|2134", "b": 0}
+{"id": "naruto|210", "b": 0}
+{"id": "naruto|2099", "b": 0}
+{"id": "naruto|2082", "b": 0}
+{"id": "naruto|2006", "b": 0}
+{"id": "naruto|1977", "b": 0}
+{"id": "naruto|1882", "b": 0}
+{"id": "naruto|1803", "b": 0}
+{"id": "naruto|180", "b": 0}
+{"id": "naruto|1747", "b": 0}
+{"id": "naruto|1714", "b": 0}
+{"id": "naruto|1694", "b": 0}
+{"id": "naruto|153", "b": 0}
+{"id": "naruto|1498", "b": 0}
+{"id": "naruto|1471", "b": 0}
+{"id": "naruto|1407", "b": 0}
+{"id": "naruto|1270", "b": 0}
+{"id": "naruto|1242", "b": 0}
+{"id": "naruto|123", "b": 0}
+{"id": "naruto|1223", "b": 0}
+{"id": "naruto|1214", "b": 0}
+{"id": "naruto|1208", "b": 0}
+{"id": "naruto|1202", "b": 0}
+{"id": "naruto|1177", "b": 0}
+{"id": "naruto|1175", "b": 0}
+{"id": "naruto|1168", "b": 0}
+{"id": "naruto|1114", "b": 0}
+{"id": "naruto|1071", "b": 0}
+{"id": "naruto|1070", "b": 0}
+{"id": "minecraft|622", "b": 1, "n": "Bat", "p": [{"id": "flight", "m": 1, "q": "flying mammal", "c": "m"}], "x": []}
+{"id": "minecraft|4900", "b": 1, "n": "Mega-Mobbo", "p": [{"id": "giant_size", "m": 2, "q": "ginormous golem", "c": "m"}], "x": []}
+{"id": "minecraft|2550", "b": 1, "n": "Guardians", "p": [{"id": "energy_beam", "m": 1, "q": "slow-charging laser beam", "c": "m"}], "x": []}
+{"id": "metal-gear-solid|350", "b": 1, "n": "Elisa", "p": [{"id": "telepathy", "m": 1, "q": "powerful ESP and psychic abilities", "c": "m"}], "x": []}
+{"id": "metal-gear-solid|1425", "b": 1, "n": "Tigrex", "p": [{"id": "hard_body", "m": 1, "q": "rock-solid body", "c": "m"}], "x": []}
+{"id": "mazinger|283", "b": 1, "n": "Gold Phoenix", "p": [], "x": []}
+{"id": "mass-effect|731", "b": 1, "n": "Matriarch Benezia", "p": [], "x": ["biotics"]}

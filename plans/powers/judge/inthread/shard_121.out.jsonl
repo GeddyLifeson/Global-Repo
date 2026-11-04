@@ -31,7 +31,7 @@
 {"id": "all-black-ops|7761", "b": 0}
 {"id": "all-black-ops|7762", "b": 2, "k": "weapon", "n": "SKS", "m": 1, "q": "", "c": "l", "p": []}
 {"id": "all-black-ops|7766", "b": 2, "k": "vehicle", "n": "Samaritan", "m": 1, "q": "", "c": "l", "p": []}
-{"id": "all-black-ops|7771", "b": 2, "k": "weapon", "n": "", "m": 1, "q": "", "c": "l", "p": []}
+{"id": "all-black-ops|7771", "b": 2, "k": "weapon", "n": "", "m": 1, "q": "The , also referred to as the SIG556, is an assault rifle featured in ", "c": "l", "p": []}
 {"id": "all-black-ops|7772", "b": 0}
 {"id": "all-black-ops|7773", "b": 2, "k": "weapon", "n": "SMR", "m": 1, "q": "", "c": "l", "p": []}
 {"id": "all-black-ops|7774", "b": 2, "k": "vehicle", "n": "SOC-T", "m": 1, "q": "", "c": "l", "p": []}
@@ -228,11 +228,11 @@
 {"id": "all-black-ops|8684", "b": 0}
 {"id": "all-black-ops|8685", "b": 0}
 {"id": "all-black-ops|8686", "b": 2, "k": "weapon", "n": "Stake Knife", "m": 1, "q": "", "c": "l", "p": []}
-{"id": "all-black-ops|8697", "b": 2, "k": "weapon", "n": "", "m": 1, "q": "", "c": "l", "p": []}
+{"id": "all-black-ops|8697", "b": 2, "k": "weapon", "n": "", "m": 1, "q": "The [http://modernfirearms.net/en/submachine-guns/u-s-a-submachine-gun", "c": "l", "p": []}
 {"id": "all-black-ops|8710", "b": 2, "k": "vehicle", "n": "Squad Transport", "m": 1, "q": "", "c": "l", "p": []}
 {"id": "all-black-ops|8717", "b": 0}
 {"id": "all-black-ops|8718", "b": 2, "k": "armor", "n": "Stealth Plate Carrier", "m": 1, "q": "", "c": "l", "p": []}
-{"id": "all-black-ops|8719", "b": 2, "k": "weapon", "n": "", "m": 1, "q": "", "c": "l", "p": []}
+{"id": "all-black-ops|8719", "b": 2, "k": "weapon", "n": "", "m": 1, "q": "The [http://modernfirearms.net/en/submachine-guns/u-s-a-submachine-gun", "c": "l", "p": []}
 {"id": "all-black-ops|8720", "b": 0}
 {"id": "all-black-ops|8721", "b": 0}
 {"id": "all-black-ops|8728", "b": 0}
@@ -247,4 +247,4 @@
 {"id": "all-black-ops|8776", "b": 0}
 {"id": "all-black-ops|8778", "b": 0}
 {"id": "all-black-ops|8780", "b": 0}
-{"id": "all-black-ops|8786", "b": 2, "k": "weapon", "n": "", "m": 1, "q": "", "c": "l", "p": []}
+{"id": "all-black-ops|8786", "b": 2, "k": "weapon", "n": "", "m": 1, "q": "The , referred to as Tavor within game files, is a bullpup assault rif", "c": "l", "p": []}

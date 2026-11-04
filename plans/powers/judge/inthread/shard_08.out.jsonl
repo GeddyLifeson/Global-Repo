@@ -1,0 +1,250 @@
+{"id": "marvel|57125", "b": 1, "n": "Lycana", "p": [], "x": []}
+{"id": "marvel|18537", "b": 0}
+{"id": "mario-and-his-expanded-universe|9515", "b": 1, "n": "Bruno", "p": [], "x": []}
+{"id": "mario-and-his-expanded-universe|9194", "b": 1, "n": "Boss Galaga", "p": [], "x": ["tractor_beam"]}
+{"id": "mario-and-his-expanded-universe|8049", "b": 1, "n": "Alice", "p": [], "x": []}
+{"id": "mario-and-his-expanded-universe|6913", "b": 1, "n": "Toxic Toad Z", "p": [], "x": []}
+{"id": "mario-and-his-expanded-universe|6351", "b": 1, "n": "Super Big Tap-Tap", "p": [{"id": "invulnerability", "m": 2, "c": "m", "q": "is indestructible and cannot be destroyed in any way"}], "x": []}
+{"id": "mario-and-his-expanded-universe|2635", "b": 1, "n": "Giant Donkey Kong", "p": [{"id": "giant_size", "m": 2, "c": "m", "q": "an increase in size often triggered by Super Mushrooms"}], "x": []}
+{"id": "mario-and-his-expanded-universe|22901", "b": 1, "n": "Tetris Mario", "p": [{"id": "energy_beam", "m": 1, "c": "l", "q": "zap away rows of blocks and debris"}], "x": []}
+{"id": "mario-and-his-expanded-universe|22751", "b": 1, "n": "Ten", "p": [], "x": ["arm_cannon"]}
+{"id": "mario-and-his-expanded-universe|22356", "b": 1, "n": "Super Power-Up Mario", "p": [{"id": "fireball", "m": 1, "c": "l", "q": "Fire Mario"}, {"id": "invulnerability", "m": 1, "c": "l", "q": "Invincible Mario"}], "x": []}
+{"id": "mario-and-his-expanded-universe|1995", "b": 1, "n": "Evoglobin", "p": [], "x": []}
+{"id": "mario-and-his-expanded-universe|19754", "b": 1, "n": "Roc", "p": [{"id": "whirlwind", "m": 2, "c": "l", "q": "creating wind"}], "x": ["shadow_meteor"]}
+{"id": "mario-and-his-expanded-universe|17704", "b": 1, "n": "Mushroom rebel", "p": [], "x": []}
+{"id": "mario-and-his-expanded-universe|13277", "b": 1, "n": "Hercufleas", "p": [{"id": "super_strength", "m": 1, "c": "l", "q": "large, powerful hero"}], "x": []}
+{"id": "mario-and-his-expanded-universe|12977", "b": 1, "n": "Grave Tusk", "p": [{"id": "energy_beam", "m": 1, "c": "m", "q": "it gains a laser attack"}], "x": []}
+{"id": "mario-and-his-expanded-universe|12778", "b": 1, "n": "Golden Mario", "p": [{"id": "invulnerability", "m": 1, "c": "l", "q": "variation of the invincible form in which Mario becomes completely gold"}], "x": []}
+{"id": "mario-and-his-expanded-universe|11397", "b": 0}
+{"id": "mario-and-his-expanded-universe|10843", "b": 1, "n": "Debeso", "p": [{"id": "telepathy", "m": 1, "c": "m", "q": "magic powers (which also includes telepathy)"}], "x": []}
+{"id": "major-live-action-disney-films|8759", "b": 1, "n": "Dallben", "p": [], "x": []}
+{"id": "major-live-action-disney-films|8077", "b": 1, "n": "Crud", "p": [{"id": "giant_size", "m": 1, "c": "l", "q": "giant green slime monster"}], "x": []}
+{"id": "major-live-action-disney-films|7379", "b": 1, "n": "Clip", "p": [{"id": "giant_size", "m": 2, "c": "l", "q": "grows larger"}], "x": []}
+{"id": "major-live-action-disney-films|6777", "b": 1, "n": "Charlie-27", "p": [{"id": "super_strength", "m": 1, "c": "m", "q": "superhuman strength"}], "x": []}
+{"id": "major-live-action-disney-films|6760", "b": 1, "n": "Charoca", "p": [{"id": "fireball", "m": 1, "c": "l", "q": "fiery tantrum"}], "x": []}
+{"id": "major-live-action-disney-films|6508", "b": 1, "n": "Carly", "p": [{"id": "super_speed", "m": 1, "c": "l", "q": "Speedy Twins"}], "x": []}
+{"id": "major-live-action-disney-films|6507", "b": 1, "n": "Cartoka", "p": [{"id": "super_speed", "m": 1, "c": "l", "q": "Speedy Twins"}], "x": []}
+{"id": "major-live-action-disney-films|6348", "b": 1, "n": "Catfish Booray", "p": [], "x": []}
+{"id": "major-live-action-disney-films|6181", "b": 1, "n": "Captain Carter", "p": [{"id": "super_strength", "m": 1, "c": "l", "q": "transformed her into a super soldier"}], "x": []}
+{"id": "major-live-action-disney-films|46940", "b": 1, "n": "Zap", "p": [{"id": "energy_beam", "m": 1, "c": "l", "q": "designed to be a living laser bolt"}], "x": []}
+{"id": "major-live-action-disney-films|46664", "b": 1, "n": "Xerek", "p": [], "x": []}
+{"id": "major-live-action-disney-films|46231", "b": 1, "n": "Woola", "p": [{"id": "super_speed", "m": 1, "c": "m", "q": "possesses super-speed"}], "x": []}
+{"id": "major-live-action-disney-films|44694", "b": 1, "n": "Violeta Rodriguez", "p": [{"id": "super_speed", "m": 1, "c": "m", "q": "a superheroine with super speed"}], "x": []}
+{"id": "major-live-action-disney-films|43471", "b": 1, "n": "Transylvia", "p": [], "x": []}
+{"id": "major-live-action-disney-films|4271", "b": 1, "n": "Big Bart", "p": [], "x": []}
+{"id": "major-live-action-disney-films|42234", "b": 1, "n": "Thena", "p": [], "x": ["energy_construct"]}
+{"id": "major-live-action-disney-films|40740", "b": 1, "n": "The Overseer", "p": [{"id": "super_strength", "m": 1, "c": "m", "q": "a superhero with super strength"}], "x": []}
+{"id": "major-live-action-disney-films|39098", "b": 0}
+{"id": "major-live-action-disney-films|3773", "b": 1, "n": "Baron Mordo", "p": [], "x": []}
+{"id": "major-live-action-disney-films|3764", "b": 1, "n": "Beauregard", "p": [], "x": []}
+{"id": "major-live-action-disney-films|35839", "b": 1, "n": "Sproing", "p": [{"id": "super_strength", "m": 1, "c": "l", "q": "launch boulders"}], "x": []}
+{"id": "major-live-action-disney-films|34664", "b": 2, "k": "vehicle", "n": "The Silent Mary", "m": 1, "q": "a Spanish Royal Navy ship of the line", "c": "l", "p": []}
+{"id": "major-live-action-disney-films|34586", "b": 1, "n": "The Shocker", "p": [], "x": ["electricity_control"]}
+{"id": "major-live-action-disney-films|33746", "b": 1, "n": "Sasha Baptiste", "p": [{"id": "telepathy", "m": 1, "c": "m", "q": "read emotions and control thoughts"}], "x": []}
+{"id": "major-live-action-disney-films|33620", "b": 1, "n": "Saloso", "p": [{"id": "dragon_form", "m": 1, "c": "m", "q": "shapeshifting malandro"}], "x": []}
+{"id": "major-live-action-disney-films|33503", "b": 1, "n": "Captain America", "p": [{"id": "flight", "m": 1, "c": "l", "q": "advanced flight harness equipped with mechanical wings"}], "x": []}
+{"id": "major-live-action-disney-films|32845", "b": 1, "n": "Romeo", "p": [], "x": []}
+{"id": "major-live-action-disney-films|32459", "b": 1, "n": "Rey", "p": [], "x": ["force_user"]}
+{"id": "major-live-action-disney-films|31037", "b": 1, "n": "Prince Phobos", "p": [{"id": "immortal_body", "m": 2, "c": "l", "q": "considered an immortal and may be thousands of years old"}], "x": []}
+{"id": "major-live-action-disney-films|30371", "b": 1, "n": "Plasmoid", "p": [{"id": "ki_blast", "m": 1, "c": "m", "q": "firing balls of plasma from his scorpion-like tail"}], "x": []}
+{"id": "major-live-action-disney-films|29836", "b": 1, "n": "Peter Pegasus", "p": [{"id": "flight", "m": 1, "c": "l", "q": "fly with his family"}], "x": []}
+{"id": "major-live-action-disney-films|29713", "b": 1, "n": "Periwinkle", "p": [{"id": "freeze_breath", "m": 1, "c": "l", "q": "frost-talent fairy"}], "x": []}
+{"id": "major-live-action-disney-films|29448", "b": 1, "n": "Jeffrey Mace", "p": [], "x": []}
+{"id": "major-live-action-disney-films|27344", "b": 1, "n": "Najma", "p": [], "x": []}
+{"id": "major-live-action-disney-films|26428", "b": 1, "n": "Morgana Le Fay", "p": [], "x": []}
+{"id": "major-live-action-disney-films|26198", "b": 1, "n": "Moon Knight", "p": [{"id": "super_strength", "m": 1, "c": "m", "q": "gives him superhuman strength"}], "x": []}
+{"id": "major-live-action-disney-films|24853", "b": 1, "n": "Mayoi", "p": [{"id": "giant_size", "m": 1, "c": "l", "q": "they can grow to become vicious monsters"}], "x": []}
+{"id": "major-live-action-disney-films|24192", "b": 1, "n": "Man Baby", "p": [{"id": "giant_size", "m": 1, "c": "m", "q": "became a giant after messing with his father"}], "x": []}
+{"id": "major-live-action-disney-films|24002", "b": 1, "n": "Mangani", "p": [{"id": "qi_heal", "m": 1, "c": "m", "q": "curing the sick and the wounded animals in need of healing"}], "x": []}
+{"id": "major-live-action-disney-films|23735", "b": 1, "n": "Madame Web", "p": [{"id": "telepathy", "m": 1, "c": "l", "q": "A teenage psychic"}], "x": []}
+{"id": "major-live-action-disney-films|23537", "b": 1, "n": "Luis Madrigal", "p": [{"id": "super_strength", "m": 1, "c": "m", "q": "powers of super strength"}], "x": []}
+{"id": "major-live-action-disney-films|22597", "b": 1, "n": "The Liquidator", "p": [{"id": "dragon_form", "m": 1, "c": "l", "q": "power to assume a viscous form"}], "x": ["water_control"]}
+{"id": "major-live-action-disney-films|19837", "b": 1, "n": "Jiaying", "p": [{"id": "immortal_body", "m": 1, "c": "m", "q": "gifted with longevity"}], "x": []}
+{"id": "major-live-action-disney-films|19544", "b": 1, "n": "Jaquins", "p": [{"id": "flight", "m": 1, "c": "m", "q": "magical flying creatures"}], "x": []}
+{"id": "major-live-action-disney-films|19314", "b": 1, "n": "Jack Frost", "p": [{"id": "freeze_breath", "m": 3, "c": "l", "q": "responsible for snow, ice, and cold weather"}], "x": []}
+{"id": "major-live-action-disney-films|19313", "b": 1, "n": "Jack Skellington", "p": [{"id": "immortal_body", "m": 1, "c": "m", "q": "As a living skeleton, he is immortal"}], "x": []}
+{"id": "major-live-action-disney-films|18951", "b": 1, "n": "Iron Hulk", "p": [{"id": "super_strength", "m": 1, "c": "m", "q": "suit of armor that gives him super-strength"}], "x": []}
+{"id": "major-live-action-disney-films|18849", "b": 1, "n": "Ironheart", "p": [], "x": []}
+{"id": "major-live-action-disney-films|18739", "b": 1, "n": "Isis Vanderchill", "p": [{"id": "freeze_breath", "m": 1, "c": "m", "q": "granted her ice-based powers"}], "x": []}
+{"id": "major-live-action-disney-films|18051", "b": 1, "n": "Huckleberry Knucklehead", "p": [{"id": "giant_size", "m": 1, "c": "l", "q": "He is a giant baby"}], "x": []}
+{"id": "major-live-action-disney-films|17961", "b": 1, "n": "Huggo", "p": [], "x": ["constriction"]}
+{"id": "major-live-action-disney-films|17864", "b": 1, "n": "Hua Mulan", "p": [{"id": "ki_resource", "m": 1, "c": "m", "q": "her chi powers"}], "x": []}
+{"id": "major-live-action-disney-films|16882", "b": 1, "n": "Heat", "p": [{"id": "energy_beam", "m": 1, "c": "m", "q": "fire orange heat lasers"}], "x": []}
+{"id": "major-live-action-disney-films|16040", "b": 1, "n": "Gravitas", "p": [{"id": "gravity_repulse", "m": 1, "c": "l", "q": "shoot liquid that negates targets' gravity"}], "x": ["gravity_negation"]}
+{"id": "major-live-action-disney-films|15770", "b": 1, "n": "Gravitina", "p": [{"id": "gravity_repulse", "m": 2, "c": "l", "q": "ability to control gravitational fields"}], "x": []}
+{"id": "major-live-action-disney-films|15130", "b": 1, "n": "Ginorma", "p": [{"id": "giant_size", "m": 1, "c": "l", "q": "A giant woman"}], "x": []}
+{"id": "major-live-action-disney-films|13015", "b": 1, "n": "Fashoom", "p": [{"id": "giant_size", "m": 1, "c": "l", "q": "evil giant cyclops"}, {"id": "energy_beam", "m": 1, "c": "l", "q": "an eye of destructive power"}], "x": []}
+{"id": "major-live-action-disney-films|12142", "b": 0}
+{"id": "magic-the-gathering-all-planes|9418", "b": 1, "n": "Yannik", "p": [{"id": "giant_size", "m": 1, "c": "l", "q": "a giant Hyena Beast"}], "x": []}
+{"id": "magic-the-gathering-all-planes|9312", "b": 1, "n": "Tam", "p": [{"id": "telepathy", "m": 1, "c": "l", "q": "his equal in magecraft and telepathy"}], "x": []}
+{"id": "magic-the-gathering-all-planes|9185", "b": 1, "n": "The Speed Demon", "p": [{"id": "super_speed", "m": 1, "c": "l", "q": "races among the possessed and the damned"}], "x": []}
+{"id": "magic-the-gathering-all-planes|907", "b": 1, "n": "Boom", "p": [], "x": []}
+{"id": "magic-the-gathering-all-planes|8436", "b": 1, "n": "Greta Gorunn", "p": [{"id": "super_strength", "m": 1, "c": "l", "q": "her physical strength"}], "x": []}
+{"id": "magic-the-gathering-all-planes|8029", "b": 1, "n": "Barrow and Zeph", "p": [], "x": ["electricity_control"]}
+{"id": "magic-the-gathering-all-planes|7721", "b": 1, "n": "King Yorvo", "p": [{"id": "giant_size", "m": 1, "c": "l", "q": "is a giant noble"}], "x": []}
+{"id": "magic-the-gathering-all-planes|7461", "b": 1, "n": "Wasitora", "p": [{"id": "qi_heal", "m": 1, "c": "m", "q": "natural green-mana healing abilities"}], "x": []}
+{"id": "magic-the-gathering-all-planes|7218", "b": 1, "n": "Lady Verdenth", "p": [], "x": []}
+{"id": "magic-the-gathering-all-planes|72", "b": 1, "n": "Agnomakhos", "p": [], "x": []}
+{"id": "magic-the-gathering-all-planes|7132", "b": 1, "n": "Tover Giants-Blood", "p": [{"id": "giant_size", "m": 1, "c": "m", "q": "is a giant human warrior"}], "x": []}
+{"id": "magic-the-gathering-all-planes|634", "b": 1, "n": "Baltrice", "p": [{"id": "fireball", "m": 1, "c": "m", "q": "Being a pyromancer"}], "x": []}
+{"id": "magic-the-gathering-all-planes|4668", "b": 1, "n": "Nevinyrral", "p": [{"id": "immortal_body", "m": 1, "c": "l", "q": "a lich and necromancer"}], "x": ["necromancy"]}
+{"id": "magic-the-gathering-all-planes|4592", "b": 1, "n": "Mina and Denn", "p": [], "x": ["nature_magic"]}
+{"id": "magic-the-gathering-all-planes|3698", "b": 1, "n": "Kothophed", "p": [], "x": []}
+{"id": "magic-the-gathering-all-planes|3627", "b": 1, "n": "Kolo Meha", "p": [{"id": "fireball", "m": 2, "c": "l", "q": "a pyromancer of tremendous power"}], "x": []}
+{"id": "magic-the-gathering-all-planes|3417", "b": 0}
+{"id": "magic-the-gathering-all-planes|3334", "b": 1, "n": "Jodah", "p": [{"id": "immortal_body", "m": 1, "c": "l", "q": "Jodah the Eternal"}], "x": []}
+{"id": "magic-the-gathering-all-planes|1665", "b": 1, "n": "Derevi", "p": [{"id": "flight", "m": 1, "c": "l", "q": "she soars above the battlefield"}], "x": []}
+{"id": "magic-the-gathering-all-planes|162", "b": 1, "n": "Akiri", "p": [], "x": []}
+{"id": "legend-of-zelda|2717", "b": 1, "n": "Seismic Talus", "p": [{"id": "hard_body", "m": 1, "c": "l", "q": "massive rock-like creature"}], "x": []}
+{"id": "kinnikuman|29", "b": 1, "n": "Invincible Body Báilóng", "p": [], "x": []}
+{"id": "kingdom-hearts-binding-cosmology-of-the-disney-set|5635", "b": 1, "n": "Xehanort", "p": [], "x": []}
+{"id": "kingdom-hearts-binding-cosmology-of-the-disney-set|394", "b": 0}
+{"id": "kenichi-the-mightiest-disciple|990", "b": 0}
+{"id": "kenichi-the-mightiest-disciple|923", "b": 0}
+{"id": "kenichi-the-mightiest-disciple|873", "b": 0}
+{"id": "kenichi-the-mightiest-disciple|729", "b": 0}
+{"id": "kenichi-the-mightiest-disciple|1021", "b": 0}
+{"id": "helldivers-1-2|310", "b": 1, "n": "Voteless giant", "p": [{"id": "giant_size", "m": 1, "c": "m", "q": "Mutated into a towering giant"}], "x": []}
+{"id": "he-man-masters-of-the-universe|877", "b": 1, "n": "Slotto", "p": [], "x": []}
+{"id": "he-man-masters-of-the-universe|865", "b": 1, "n": "Snake Goddess", "p": [{"id": "immortal_body", "m": 1, "c": "m", "q": "She seems to be immortal"}], "x": []}
+{"id": "he-man-masters-of-the-universe|770", "b": 1, "n": "Plasmar", "p": [], "x": ["weapon_replication"]}
+{"id": "he-man-masters-of-the-universe|607", "b": 1, "n": "Ogres", "p": [{"id": "super_strength", "m": 1, "c": "l", "q": "large, powerful, and aggressive"}], "x": []}
+{"id": "he-man-masters-of-the-universe|480", "b": 1, "n": "Krytis Birds", "p": [{"id": "flight", "m": 1, "c": "m", "q": "pterodactyl like flying beasts"}], "x": []}
+{"id": "he-man-masters-of-the-universe|1177", "b": 1, "n": "West-Star Horses", "p": [{"id": "flight", "m": 1, "c": "m", "q": "lifted off and began to fly"}], "x": []}
+{"id": "halo|8512", "b": 0}
+{"id": "halo|535", "b": 1, "n": "B-054-846", "p": [], "x": []}
+{"id": "halo|4712", "b": 1, "n": "Pluton", "p": [{"id": "super_strength", "m": 1, "c": "l", "q": "designed to counter the strength of the Spartans"}], "x": []}
+{"id": "halo|3901", "b": 1, "n": "Mgalekgolo", "p": [{"id": "super_strength", "m": 1, "c": "l", "q": "increased strength at the cost of maneuverability"}], "x": []}
+{"id": "halo|12522", "b": 1, "n": "Rangmejo", "p": [{"id": "flight", "m": 1, "c": "l", "q": "pterosaur-like creatures with dual sets of wings"}], "x": []}
+{"id": "guildmasters-guide-to-ravnica|7999", "b": 1, "n": "King Yorvo", "p": [{"id": "giant_size", "m": 1, "c": "l", "q": "is a giant noble"}], "x": []}
+{"id": "guildmasters-guide-to-ravnica|7971", "b": 1, "n": "Zilgeth", "p": [{"id": "fireball", "m": 1, "c": "m", "q": "Incinerate spell"}], "x": []}
+{"id": "guildmasters-guide-to-ravnica|7838", "b": 0}
+{"id": "guildmasters-guide-to-ravnica|7837", "b": 1, "n": "Will Kenrith", "p": [{"id": "freeze_breath", "m": 1, "c": "m", "q": "specializes in ice magic"}], "x": []}
+{"id": "guildmasters-guide-to-ravnica|7724", "b": 1, "n": "Wasitora", "p": [{"id": "qi_heal", "m": 1, "c": "m", "q": "natural green-mana healing abilities"}], "x": []}
+{"id": "guildmasters-guide-to-ravnica|756", "b": 1, "n": "Atsushi", "p": [], "x": []}
+{"id": "guildmasters-guide-to-ravnica|7156", "b": 1, "n": "Tarem", "p": [{"id": "telepathy", "m": 1, "c": "m", "q": "able to steal thoughts, memories, and experiences"}], "x": []}
+{"id": "guildmasters-guide-to-ravnica|6574", "b": 1, "n": "Snapdax", "p": [], "x": []}
+{"id": "guildmasters-guide-to-ravnica|6050", "b": 1, "n": "Revin Skoros", "p": [], "x": []}
+{"id": "guildmasters-guide-to-ravnica|4573", "b": 1, "n": "Mochi", "p": [], "x": []}
+{"id": "guildmasters-guide-to-ravnica|4072", "b": 0}
+{"id": "guildmasters-guide-to-ravnica|3839", "b": 1, "n": "Kothophed", "p": [], "x": []}
+{"id": "guildmasters-guide-to-ravnica|3551", "b": 0}
+{"id": "guildmasters-guide-to-ravnica|3436", "b": 1, "n": "Jhoira", "p": [{"id": "immortal_body", "m": 1, "c": "m", "q": "nearly immortal"}], "x": []}
+{"id": "guildmasters-guide-to-ravnica|3375", "b": 1, "n": "Syr Imodane", "p": [{"id": "fireball", "m": 1, "c": "m", "q": "pyromancer"}], "x": []}
+{"id": "guildmasters-guide-to-ravnica|3321", "b": 1, "n": "Jegantha", "p": [], "x": ["magic_amplification"]}
+{"id": "guildmasters-guide-to-ravnica|3132", "b": 1, "n": "Holger Burk", "p": [{"id": "dragon_form", "m": 1, "c": "m", "q": "became a werewolf"}], "x": []}
+{"id": "guildmasters-guide-to-ravnica|3127", "b": 1, "n": "Hypatia", "p": [], "x": []}
+{"id": "guildmasters-guide-to-ravnica|2964", "b": 1, "n": "Hidetsugu", "p": [{"id": "fireball", "m": 2, "c": "l", "q": "master of blood and fire magic"}], "x": []}
+{"id": "guildmasters-guide-to-ravnica|2906", "b": 1, "n": "Halfdane", "p": [{"id": "dragon_form", "m": 1, "c": "m", "q": "was a shapeshifter"}], "x": []}
+{"id": "guildmasters-guide-to-ravnica|2807", "b": 1, "n": "Giada", "p": [], "x": []}
+{"id": "guildmasters-guide-to-ravnica|1936", "b": 1, "n": "Eliza", "p": [], "x": ["necromancy"]}
+{"id": "guildmasters-guide-to-ravnica|1734", "b": 1, "n": "Derevi", "p": [{"id": "flight", "m": 1, "c": "l", "q": "she soars above the battlefield"}], "x": []}
+{"id": "god-of-war|1632", "b": 1, "n": "Troll", "p": [{"id": "giant_size", "m": 1, "c": "l", "q": "Troll are even larger than Ogres"}], "x": ["elemental_totem"]}
+{"id": "fist-of-the-north-star|1171", "b": 1, "n": "Colonel Van der Kool", "p": [], "x": []}
+{"id": "fire-emblem|8486", "b": 1, "n": "Verna", "p": [], "x": []}
+{"id": "fire-emblem|5146", "b": 1, "n": "M-DEUS", "p": [], "x": []}
+{"id": "fire-emblem|2866", "b": 1, "n": "Fetra", "p": [{"id": "whirlwind", "m": 1, "c": "l", "q": "Fetra's being Wind"}], "x": []}
+{"id": "fire-emblem|2379", "b": 1, "n": "St. Elimine", "p": [{"id": "qi_heal", "m": 1, "c": "l", "q": "healing staff known as the Staff of the Saint"}], "x": []}
+{"id": "fire-emblem|1561", "b": 1, "n": "Children of the Goddess", "p": [], "x": []}
+{"id": "eberron-rising-from-the-last-war|952", "b": 1, "n": "Dusk", "p": [], "x": []}
+{"id": "eberron-rising-from-the-last-war|339", "b": 1, "n": "Calmachia", "p": [], "x": []}
+{"id": "eberron-rising-from-the-last-war|337", "b": 1, "n": "Behir", "p": [], "x": ["electric_breath"]}
+{"id": "eberron-rising-from-the-last-war|336", "b": 1, "n": "Chaos roc", "p": [{"id": "energy_beam", "m": 1, "c": "m", "q": "blast prismatic spray from their eyes"}, {"id": "giant_size", "m": 1, "c": "l", "q": "gargantuan predatory birds"}], "x": []}
+{"id": "eberron-rising-from-the-last-war|1373", "b": 1, "n": "Hell hound", "p": [{"id": "fireball", "m": 1, "c": "m", "q": "fire-breathing dogs"}], "x": []}
+{"id": "eberron-rising-from-the-last-war|1371", "b": 1, "n": "Gorgon", "p": [{"id": "iron_shirt", "m": 1, "c": "l", "q": "covered in iron plates"}], "x": []}
+{"id": "eberron-rising-from-the-last-war|1329", "b": 1, "n": "Gennara ir'Damilek", "p": [{"id": "fireball", "m": 1, "c": "m", "q": "silver pyromancer"}], "x": []}
+{"id": "eberron-rising-from-the-last-war|1314", "b": 1, "n": "Grell", "p": [{"id": "levitation", "m": 1, "c": "l", "q": "giant floating brains"}], "x": []}
+{"id": "eberron-rising-from-the-last-war|1198", "b": 1, "n": "Harpy", "p": [{"id": "flight", "m": 1, "c": "m", "q": "ability to fly"}], "x": []}
+{"id": "eberron-rising-from-the-last-war|1133", "b": 1, "n": "Gatesmasher", "p": [{"id": "super_strength", "m": 3, "c": "l", "q": "massive clay golem found in Shavarath, built for destroying fortifications"}], "x": []}
+{"id": "dune|409", "b": 1, "n": "Abu Zide", "p": [], "x": ["spacefolding"]}
+{"id": "dune|2190", "b": 1, "n": "Slarpons", "p": [{"id": "iron_shirt", "m": 1, "c": "l", "q": "thick body armor"}], "x": []}
+{"id": "doom|2628", "b": 1, "n": "Monstruct", "p": [], "x": []}
+{"id": "digimon|9981", "b": 1, "n": "Demon", "p": [], "x": []}
+{"id": "digimon|996", "b": 1, "n": "Eaglemon", "p": [{"id": "invulnerability", "m": 2, "c": "m", "q": "it deflects every attack"}, {"id": "energy_beam", "m": 2, "c": "m", "q": "Fires a white ray which reduces the opponent to ash"}], "x": []}
+{"id": "digimon|8700", "b": 1, "n": "Chimairamon", "p": [], "x": []}
+{"id": "digimon|3134", "b": 1, "n": "XrosUpDorulumon", "p": [{"id": "whirlwind", "m": 1, "c": "m", "q": "creating a tornado with energy blades"}], "x": []}
+{"id": "digimon|3129", "b": 1, "n": "XrosUpGumdramon", "p": [{"id": "fireball", "m": 1, "c": "l", "q": "leaving a fire trail"}], "x": []}
+{"id": "digimon|3111", "b": 1, "n": "Wankomon", "p": [], "x": []}
+{"id": "digimon|3079", "b": 1, "n": "Warudamon", "p": [{"id": "giant_size", "m": 1, "c": "l", "q": "turn into a giant, pink, squid-like monster"}], "x": []}
+{"id": "digimon|3074", "b": 1, "n": "XrosUpArresterdramon", "p": [], "x": []}
+{"id": "digimon|2996", "b": 1, "n": "Uka no Mitama", "p": [{"id": "giant_size", "m": 1, "c": "l", "q": "gigantic fox spirit"}], "x": []}
+{"id": "digimon|2968", "b": 1, "n": "Tripmon", "p": [{"id": "blink", "m": 1, "c": "m", "q": "ability to warp from its own bag into someone else's"}], "x": []}
+{"id": "digimon|2935", "b": 1, "n": "Tylomon X", "p": [{"id": "super_speed", "m": 1, "c": "l", "q": "without dropping its linear speed"}], "x": []}
+{"id": "digimon|2641", "b": 1, "n": "Takutoumon", "p": [], "x": []}
+{"id": "digimon|2606", "b": 1, "n": "Shoutmon X6", "p": [{"id": "fireball", "m": 1, "c": "l", "q": "light its mic in hellfire"}], "x": []}
+{"id": "digimon|2534", "b": 1, "n": "Snowmanmon", "p": [], "x": []}
+{"id": "digimon|2460", "b": 1, "n": "Sethmon Wild Mode", "p": [{"id": "fireball", "m": 1, "c": "l", "q": "Unleashes a powerful blazing wind"}], "x": []}
+{"id": "digimon|2342", "b": 1, "n": "Rosemon X", "p": [], "x": []}
+{"id": "digimon|2330", "b": 1, "n": "RampageGreymon", "p": [], "x": []}
+{"id": "digimon|2321", "b": 1, "n": "Regulumon", "p": [{"id": "ki_blast", "m": 1, "c": "m", "q": "Releases a blast of energy from its hand"}], "x": []}
+{"id": "digimon|2299", "b": 1, "n": "QueenBeemon", "p": [], "x": []}
+{"id": "digimon|2277", "b": 1, "n": "Pistmon", "p": [], "x": []}
+{"id": "digimon|2215", "b": 1, "n": "Omnimon", "p": [], "x": []}
+{"id": "digimon|2062", "b": 1, "n": "Offmon", "p": [{"id": "ki_blast", "m": 2, "c": "l", "q": "small energy orb"}], "x": []}
+{"id": "digimon|2042", "b": 1, "n": "NeoCrimson", "p": [{"id": "energy_beam", "m": 1, "c": "m", "q": "to fire a huge bolt of electricity"}], "x": []}
+{"id": "digimon|2040", "b": 1, "n": "Musimon", "p": [{"id": "ki_blast", "m": 1, "c": "m", "q": "release 5 rainbow colored, energy music staffs"}], "x": []}
+{"id": "digimon|1971", "b": 1, "n": "Myotismon X", "p": [], "x": []}
+{"id": "digimon|1949", "b": 1, "n": "Musclemon", "p": [], "x": []}
+{"id": "digimon|1919", "b": 1, "n": "Missimon", "p": [{"id": "flight", "m": 1, "c": "m", "q": "sends it flying non-stop"}], "x": []}
+{"id": "digimon|1880", "b": 1, "n": "Medusamon", "p": [], "x": []}
+{"id": "digimon|1822", "b": 1, "n": "MetalMamemon X", "p": [{"id": "ki_blast", "m": 2, "c": "l", "q": "Fires a blast from its Psycho Blaster"}], "x": []}
+{"id": "digimon|1772", "b": 1, "n": "Manticoremon", "p": [], "x": []}
+{"id": "digimon|17131", "b": 1, "n": "V-mon", "p": [], "x": []}
+{"id": "digimon|1702", "b": 1, "n": "Kyaromon", "p": [], "x": []}
+{"id": "digimon|1626", "b": 1, "n": "Lillymon X", "p": [], "x": []}
+{"id": "digimon|1487", "b": 1, "n": "Jetmon", "p": [{"id": "flight", "m": 1, "c": "m", "q": "It can fly with people or luggage on its back"}], "x": []}
+{"id": "digimon|14561", "b": 0}
+{"id": "digimon|1401", "b": 1, "n": "Hiyarimon", "p": [{"id": "freeze_breath", "m": 1, "c": "m", "q": "Spews cold breath"}], "x": []}
+{"id": "digimon|1337", "b": 1, "n": "HippoGryphonmon", "p": [{"id": "fireball", "m": 1, "c": "l", "q": "Spews out an extremely high-temperature wind"}], "x": []}
+{"id": "digimon|1294", "b": 1, "n": "IceDevimon-Daipenmon Enhancement", "p": [{"id": "freeze_breath", "m": 1, "c": "l", "q": "Releases a big blow of crushed ice from its mouth-dispenser"}], "x": []}
+{"id": "digimon|1259", "b": 1, "n": "Groundramon", "p": [], "x": []}
+{"id": "digimon|1187", "b": 1, "n": "Fujinmon", "p": [{"id": "whirlwind", "m": 1, "c": "m", "q": "Knocks the enemy away with strong winds"}], "x": []}
+{"id": "digimon|1159", "b": 1, "n": "Fumamon", "p": [], "x": []}
+{"id": "digimon|1147", "b": 1, "n": "Gogmamon", "p": [{"id": "giant_size", "m": 1, "c": "l", "q": "an enormous body"}], "x": []}
+{"id": "digimon|1108", "b": 1, "n": "Gabumon X", "p": [{"id": "fireball", "m": 1, "c": "m", "q": "Releases a stream of blue ice-like flames"}], "x": []}
+{"id": "diablo|9397", "b": 1, "n": "Vess", "p": [{"id": "time_stop", "m": 1, "c": "l", "q": "using his time-manipulation ability"}], "x": []}
+{"id": "diablo|9126", "b": 0}
+{"id": "diablo|3844", "b": 1, "n": "Grotesque Wyrm", "p": [], "x": []}
+{"id": "diablo|1911", "b": 1, "n": "Dark Lord", "p": [{"id": "fireball", "m": 1, "c": "m", "q": "use both Wall of Fires and Meteors"}], "x": []}
+{"id": "destiny-1-2|9837", "b": 1, "n": "Kelgorath", "p": [{"id": "immortal_body", "m": 1, "c": "m", "q": "Able to repeatedly return from death"}], "x": []}
+{"id": "destiny-1-2|9824", "b": 1, "n": "Keviks", "p": [], "x": ["stasis"]}
+{"id": "destiny-1-2|9574", "b": 1, "n": "Inquisitor Mind", "p": [{"id": "giant_size", "m": 1, "c": "l", "q": "form of a giant Minotaur"}], "x": []}
+{"id": "destiny-1-2|9332", "b": 1, "n": "Haliekron", "p": [{"id": "giant_size", "m": 1, "c": "m", "q": "is a giant Vex Minotaur"}], "x": []}
+{"id": "destiny-1-2|9219", "b": 1, "n": "Hasapiko", "p": [{"id": "super_strength", "m": 1, "c": "l", "q": "extremely powerful Vex Minotaur"}], "x": []}
+{"id": "destiny-1-2|9059", "b": 1, "n": "Gideon Tepin", "p": [], "x": []}
+{"id": "destiny-1-2|8530", "b": 1, "n": "The Enduring Executioner", "p": [{"id": "invulnerability", "m": 1, "c": "m", "q": "completly invincible"}], "x": []}
+{"id": "destiny-1-2|5185", "b": 1, "n": "Thalor", "p": [{"id": "invulnerability", "m": 1, "c": "l", "q": "considered to be invincible in the Crucible"}], "x": []}
+{"id": "destiny-1-2|5086", "b": 1, "n": "Soul of Crota", "p": [{"id": "ki_blast", "m": 1, "c": "m", "q": "launching energy blasts"}], "x": []}
+{"id": "destiny-1-2|2452", "b": 1, "n": "Harbinger", "p": [], "x": []}
+{"id": "destiny-1-2|2045", "b": 1, "n": "Fikrul", "p": [{"id": "immortal_body", "m": 1, "c": "m", "q": "can seemingly never truly be killed"}], "x": []}
+{"id": "destiny-1-2|13523", "b": 1, "n": "Valus Tlu'urn", "p": [], "x": []}
+{"id": "destiny-1-2|12496", "b": 1, "n": "Sylok", "p": [], "x": ["psychic_compulsion"]}
+{"id": "destiny-1-2|11522", "b": 1, "n": "Qabix", "p": [], "x": []}
+{"id": "destiny-1-2|11419", "b": 1, "n": "Psionically Enhanced Centurion", "p": [{"id": "invulnerability", "m": 1, "c": "l", "q": "psionic shields that cannot be broken"}], "x": []}
+{"id": "destiny-1-2|10546", "b": 1, "n": "Modular Sigma", "p": [], "x": ["shield_projection"]}
+{"id": "dc|8823", "b": 1, "n": "Cicada", "p": [{"id": "immortal_body", "m": 1, "c": "m", "q": "given immortality"}], "x": []}
+{"id": "dc|6935", "b": 1, "n": "Bonfire", "p": [{"id": "fireball", "m": 1, "c": "m", "q": "pyrokinetic powers"}], "x": []}
+{"id": "dc|34919", "b": 1, "n": "Spartan", "p": [{"id": "regeneration", "m": 1, "c": "m", "q": "the ability to repair himself"}], "x": []}
+{"id": "dc|34495", "b": 1, "n": "Silver Scarab", "p": [{"id": "flight", "m": 1, "c": "l", "q": "the same material that his parents use to simulate flight"}], "x": []}
+{"id": "dc|32862", "b": 1, "n": "Sargon the Sorcerer", "p": [], "x": []}
+{"id": "dc|30446", "b": 1, "n": "Powerhaus", "p": [{"id": "super_strength", "m": 1, "c": "m", "q": "convert them into physical strength"}], "x": []}
+{"id": "dc|30307", "b": 1, "n": "Polka Dot Man", "p": [{"id": "ki_blast", "m": 1, "c": "m", "q": "fires his deadly polka dots"}], "x": []}
+{"id": "dc|27983", "b": 1, "n": "Negative Man", "p": [], "x": ["astral_projection"]}
+{"id": "dc|27065", "b": 1, "n": "Mister Zero", "p": [], "x": []}
+{"id": "dc|27051", "b": 1, "n": "Mister Hyde", "p": [], "x": []}
+{"id": "dc|25534", "b": 1, "n": "Major Force", "p": [], "x": ["nuclear_energy"]}
+{"id": "dc|24654", "b": 1, "n": "Livewire", "p": [{"id": "energy_beam", "m": 1, "c": "m", "q": "super-villain with electricity powers"}], "x": []}
+{"id": "critical-role-tal-dorei-campaign-setting|4780", "b": 1, "n": "Vrock", "p": [{"id": "flight", "m": 1, "c": "m", "q": "flying vulture-like demons"}], "x": []}
+{"id": "critical-role-tal-dorei-campaign-setting|4487", "b": 1, "n": "Toriz", "p": [{"id": "giant_size", "m": 1, "c": "l", "q": "giant toad-like creature"}], "x": []}
+{"id": "critical-role-tal-dorei-campaign-setting|4399", "b": 1, "n": "Udah the Undying", "p": [{"id": "immortal_body", "m": 1, "c": "l", "q": "Udah the Undying"}], "x": []}
+{"id": "critical-role-tal-dorei-campaign-setting|3775", "b": 1, "n": "Taliesin's dragonborn paladin", "p": [{"id": "freeze_breath", "m": 1, "c": "m", "q": "cold breath weapon"}], "x": []}
+{"id": "critical-role-tal-dorei-campaign-setting|3101", "b": 1, "n": "Pango Small", "p": [{"id": "giant_size", "m": 1, "c": "l", "q": "giant guardian"}], "x": []}
+{"id": "critical-role-tal-dorei-campaign-setting|2889", "b": 1, "n": "Phase spider", "p": [{"id": "blink", "m": 1, "c": "m", "q": "transport between that plane and the Material Plane at will"}, {"id": "giant_size", "m": 1, "c": "l", "q": "giant arachnid monstrosities"}], "x": []}
+{"id": "critical-role-tal-dorei-campaign-setting|2568", "b": 1, "n": "Obatalá", "p": [], "x": []}
+{"id": "critical-role-tal-dorei-campaign-setting|2526", "b": 1, "n": "Mind flayer", "p": [{"id": "telepathy", "m": 1, "c": "l", "q": "potent psionic abilities"}], "x": []}
+{"id": "critical-role-tal-dorei-campaign-setting|2131", "b": 1, "n": "Kaldon Thunderhead", "p": [{"id": "whirlwind", "m": 2, "c": "l", "q": "manifested storm powers"}], "x": []}
+{"id": "critical-role-tal-dorei-campaign-setting|1822", "b": 1, "n": "Gold dragon", "p": [{"id": "dragon_form", "m": 1, "c": "m", "q": "assume humanoid or beast forms"}], "x": []}
+{"id": "critical-role-tal-dorei-campaign-setting|1715", "b": 2, "k": "weapon", "n": "", "m": 1, "q": "a sentient greatsword", "c": "l", "p": [{"id": "telepathy", "m": 1, "c": "m", "q": "called out telepathically for a new wielder"}]}
+{"id": "critical-role-tal-dorei-campaign-setting|1667", "b": 1, "n": "Ganix", "p": [], "x": []}
+{"id": "bone-jeff-smith|37", "b": 1, "n": "Balsaad", "p": [], "x": []}
+{"id": "bleach|777", "b": 1, "n": "Disguiser Dragon", "p": [{"id": "dragon_form", "m": 1, "c": "l", "q": "masquerading as"}], "x": []}
