@@ -38,7 +38,7 @@
     for (var i = 0; i < list.length; i++) {
       var parts = ('' + list[i]).split(':'), p = pool[parts[0]]
       if (!p) { console.warn('[powers] unknown pool id ' + list[i]); continue }
-      if (p.kind == 'A') acts.push({ p: p.mob, next: 0 })
+      if (p.kind == 'A') acts.push({ p: p.mob, m: +(parts[1] || 5), next: 0 })
       else applyPassive(entity, p.sources.map(function (s) { return s.replace('{m}', parts[1] || '1') }))
     }
     if (acts.length) active['' + entity.uuid] = { entity: entity, acts: acts }
@@ -49,18 +49,18 @@
   }
 
   function fire(m, a, now, t) {
-    var e = m.entity, p = a.p
-    if (p.k == 'self') { if (e.target) e.potionEffects.add('minecraft:' + p.e, p.t, p.a, false, false) }
+    var e = m.entity, p = a.p, f = a.m / 5  // magnitude 5 = table values
+    if (p.k == 'self') { if (e.target) e.potionEffects.add('minecraft:' + p.e, Math.ceil(p.t * f), p.a, false, false) }
     else if (p.k == 'aoe') {
       var ps = near(e, p.r)
       if (!ps.length) return false
       ps.forEach(function (x) {
-        x.potionEffects.add('minecraft:' + p.e, p.t, p.a)
+        x.potionEffects.add('minecraft:' + p.e, Math.ceil(p.t * f), p.a)
         if (p.push) x.addMotion((x.x - e.x) * 0.2 * p.push, 0.4, (x.z - e.z) * 0.2 * p.push)
       })
     } else {
-      if (!t || e.distanceToEntity(t) > p.range) return false
-      if (p.k == 'ray') { t.attack(p.dmg); if (p.fire) t.setSecondsOnFire(p.fire) }
+      if (!t || e.distanceToEntity(t) > p.range * f) return false
+      if (p.k == 'ray') { t.attack(p.dmg * f); if (p.fire) t.setSecondsOnFire(p.fire) }
       else if (p.k == 'blink') e.setPosition(t.x, t.y, t.z)
     }
     if (p.p) e.server.runCommandSilent('execute as ' + e.uuid + ' at @s run particle ' + p.p + ' ~ ~1 ~ 0.4 0.4 0.4 0.05 12')
