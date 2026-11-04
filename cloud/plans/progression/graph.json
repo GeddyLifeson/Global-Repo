@@ -14,68 +14,52 @@
  ],
  "owners": {
   "tech": {
-   "owner": "foundry",
-   "thread": "cmsg_01EpyoqYuwV3X4z3b4zk5pEKMtMhuihS69mMbYC8J7vAri"
+   "owner": "foundry"
   },
   "research": {
-   "owner": "foundry",
-   "thread": "cmsg_01EpyoqYuwV3X4z3b4zk5pEKMtMhuihS69mMbYC8J7vAri"
+   "owner": "foundry"
   },
   "upgrade": {
-   "owner": "upgrades",
-   "thread": "cmsg_01EpyoqYuwV3X4z3b4zk5pEK5mUQv1nJw5RFmiRUQtKBuU"
+   "owner": "upgrades"
   },
   "magic": {
-   "owner": "consolidation",
-   "thread": "cmsg_01EpyoqYuwV3X4z3b4zk5pEKV5AQgLv4EX8UDW6NaNWpph"
+   "owner": "consolidation"
   },
   "food": {
-   "owner": "consolidation",
-   "thread": "cmsg_01EpyoqYuwV3X4z3b4zk5pEKV5AQgLv4EX8UDW6NaNWpph"
+   "owner": "consolidation"
   },
   "farm": {
-   "owner": "rewrite-blocks-decor-farming",
-   "thread": "cmsg_01EpyoqYuwV3X4z3b4zk5pEKBVioMerPUZwzy32T8LPDXX"
+   "owner": "rewrite-blocks-decor-farming"
   },
   "creature": {
-   "owner": "mobs",
-   "thread": "cmsg_01EpyoqYuwV3X4z3b4zk5pEKHUAx3dK8iggbr5bCt8wJFv"
+   "owner": "mobs"
   },
   "combat": {
-   "owner": "rewrite-combat-classes",
-   "thread": "cmsg_01EpyoqYuwV3X4z3b4zk5pEKN7D6ckAvuGZcHKNHcnB5p9"
+   "owner": "rewrite-combat-classes"
   },
   "store": {
-   "owner": "rewrite-storage-logistics",
-   "thread": "cmsg_01EpyoqYuwV3X4z3b4zk5pEK3cD9eRYtcDJ5Z2t2eW8diS"
+   "owner": "rewrite-storage-logistics"
   },
   "trans": {
-   "owner": "transport",
-   "thread": "cmsg_01EpyoqYuwV3X4z3b4zk5pEKNFS1XTxqo1otqdsb4f35eJ"
+   "owner": "transport"
   },
   "ships": {
-   "owner": "keelwright",
-   "thread": "cmsg_01EpyoqYuwV3X4z3b4zk5pEKHdjsySqGHkZiVPSjxjF1KQ"
+   "owner": "keelwright"
   },
   "econ": {
-   "owner": "economy",
-   "thread": "cmsg_01EpyoqYuwV3X4z3b4zk5pEKBskW7piGt6e6WeqGf38yS3"
+   "owner": "economy"
   },
   "settle": {
-   "owner": "settlements",
-   "thread": "cmsg_01EpyoqYuwV3X4z3b4zk5pEKX62BeVvhRj58ufSW1hAqHU"
+   "owner": "settlements"
   },
   "culture": {
-   "owner": "culture-start",
-   "thread": "cmsg_01EpyoqYuwV3X4z3b4zk5pEKUkHYdJjDnDsmgPozmCGRnh"
+   "owner": "culture-start"
   },
   "explore": {
-   "owner": "rewrite-worldgen-structures",
-   "thread": "cmsg_01EpyoqYuwV3X4z3b4zk5pEK96zRDV91kRPU1Qa8sNhtaK"
+   "owner": "rewrite-worldgen-structures"
   },
   "win": {
-   "owner": "progression",
-   "thread": null
+   "owner": "progression"
   }
  },
  "nodes": [
@@ -449,7 +433,9 @@
    "module": "diaithir-foundry",
    "quest": "q.tech.compass",
    "item": "diaithir:foundry_compass",
-   "item_proposed": true
+   "item_proposed": true,
+   "station": "station.wright_bench",
+   "form": "assembly"
   },
   {
    "id": "tech.boiler",
@@ -485,7 +471,9 @@
    "quest": "q.tech.engine",
    "W": 150000.0,
    "item": "diaithir:foundry_machine_engine",
-   "item_proposed": true
+   "item_proposed": true,
+   "station": "station.steam_forge",
+   "form": "assembly"
   },
   {
    "id": "tech.dynamo",
@@ -524,8 +512,10 @@
    "quest": "q.tech.circuits",
    "item": "diaithir:foundry_circuit_basic",
    "item_proposed": true,
-   "W": 30000.0,
-   "s": 1.5
+   "station": "station.steam_forge",
+   "form": "part",
+   "s": 1.5,
+   "W": 30000.0
   },
   {
    "id": "tech.assembler",
@@ -545,7 +535,9 @@
    "quest": "q.tech.assembler",
    "item": "diaithir:foundry_assembler",
    "W": 75000.0,
-   "s": 2.0
+   "s": 2.0,
+   "station": "station.steam_forge",
+   "form": "assembly"
   },
   {
    "id": "tech.belts",
@@ -562,7 +554,9 @@
    ],
    "module": "diaithir-foundry",
    "quest": "q.tech.belts",
-   "item": "diaithir:foundry_lane_belt"
+   "item": "diaithir:foundry_lane_belt",
+   "station": "machine.assembler",
+   "form": "assembly"
   },
   {
    "id": "tech.inserter",
@@ -581,6 +575,8 @@
    "quest": "q.tech.inserter",
    "item": "diaithir:foundry_arm_inserter",
    "W": 13000.0,
+   "station": "machine.assembler",
+   "form": "assembly",
    "s": 0.8
   },
   {
@@ -600,6 +596,8 @@
    "quest": "q.tech.miner",
    "item": "diaithir:foundry_drill",
    "W": 90000.0,
+   "station": "machine.assembler",
+   "form": "assembly",
    "s": 4.0
   },
   {
@@ -620,8 +618,10 @@
    "quest": "q.tech.circuits_adv",
    "item": "diaithir:foundry_circuit_advanced",
    "item_proposed": true,
-   "W": 60000.0,
-   "s": 3.0
+   "station": "machine.assembler",
+   "form": "process",
+   "s": 3.0,
+   "W": 60000.0
   },
   {
    "id": "tech.operator",
@@ -639,6 +639,9 @@
    "module": "diaithir-foundry",
    "quest": "q.tech.operator",
    "item": "diaithircrafting:foundry_operator_seat",
+   "station": "machine.assembler",
+   "form": "assembly",
+   "item_final": true,
    "W": 100.0
   },
   {
@@ -658,8 +661,10 @@
    "module": "diaithir-foundry",
    "quest": "q.tech.reclaimer",
    "item": "diaithir:foundry_reclaimer",
-   "W": 100000.0,
-   "s": 3.0
+   "station": "machine.assembler",
+   "form": "assembly",
+   "s": 3.0,
+   "W": 100000.0
   },
   {
    "id": "tech.lochrand",
@@ -727,6 +732,8 @@
    "quest": "q.tech.core_drill",
    "item": "diaithir:foundry_core_drill",
    "W": 2000000.0,
+   "station": "machine.assembler",
+   "form": "assembly",
    "s": 20.0
   },
   {
@@ -828,7 +835,9 @@
    "module": "diaithir-magic",
    "quest": "q.magic.cauldron",
    "item": "diaithir:brew_base",
-   "item_proposed": true
+   "item_proposed": true,
+   "station": "station.hearth_bench",
+   "form": "process"
   },
   {
    "id": "magic.circle",
@@ -862,7 +871,9 @@
    "module": "diaithir-magic",
    "quest": "q.magic.enchant",
    "item": "diaithir:enchant_basic",
-   "item_proposed": true
+   "item_proposed": true,
+   "station": "altar.basic",
+   "form": "process"
   },
   {
    "id": "magic.wardstones",
@@ -908,7 +919,8 @@
     "c:ingots/steel",
     "enchant.basic",
     "power.mana_feed",
-    "c:rods/blaze"
+    "c:rods/blaze",
+    "alchemy.still"
    ],
    "makes": [
     "altar.adv"
@@ -940,7 +952,8 @@
    "needs": [
     "altar.adv",
     "dust.lamp",
-    "mana"
+    "mana",
+    "glyph.set"
    ],
    "makes": [
     "rite.focus"
@@ -1044,7 +1057,9 @@
    "module": "diaithir-kitchen-brewing",
    "quest": "q.food.brew",
    "item": "diaithir:drink_ale",
-   "item_proposed": true
+   "item_proposed": true,
+   "station": "station.kitchen",
+   "form": "process"
   },
   {
    "id": "food.spice_blend",
@@ -1061,7 +1076,9 @@
    "module": "diaithir-kitchen-brewing",
    "quest": "q.food.spice_blend",
    "item": "diaithir:food_spice_blend",
-   "item_proposed": true
+   "item_proposed": true,
+   "station": "station.kitchen",
+   "form": "process"
   },
   {
    "id": "food.cuisine",
@@ -1081,7 +1098,9 @@
    "module": "diaithir-kitchen-brewing",
    "quest": "q.food.cuisine",
    "item": "diaithir:food_dish",
-   "item_proposed": true
+   "item_proposed": true,
+   "station": "station.kitchen",
+   "form": "process"
   },
   {
    "id": "food.ration",
@@ -1091,7 +1110,8 @@
    "needs": [
     "food.dish",
     "food.preserved",
-    "honey"
+    "honey",
+    "food.canned"
    ],
    "makes": [
     "ration.worker"
@@ -1099,7 +1119,9 @@
    "module": "diaithir-kitchen-brewing",
    "quest": "q.food.ration",
    "item": "diaithirfarmkitchen:ration",
-   "item_final": true
+   "item_final": true,
+   "station": "station.kitchen",
+   "form": "process"
   },
   {
    "id": "food.cold_store",
@@ -1133,7 +1155,9 @@
    "module": "diaithir-kitchen-brewing",
    "quest": "q.food.offering",
    "item": "diaithirfarmkitchen:offering_feast",
-   "item_final": true
+   "item_final": true,
+   "station": "station.kitchen",
+   "form": "process"
   },
   {
    "id": "food.feast",
@@ -1263,7 +1287,8 @@
    "module": "diaithir-blocks-decor-farming",
    "quest": "q.farm.fertiliser",
    "item": "diaithir:fertiliser",
-   "item_proposed": true
+   "item_proposed": true,
+   "form": "quick"
   },
   {
    "id": "farm.apiary",
@@ -1325,7 +1350,8 @@
     "belt.lane",
     "inserter.arm",
     "farm.irrigated",
-    "crops.anyseason"
+    "crops.anyseason",
+    "farm.mechanised"
    ],
    "makes": [
     "crops.bulk"
@@ -1454,7 +1480,8 @@
     "c:foods/meat",
     "food.dish",
     "creature.horse",
-    "creature.parts"
+    "creature.parts",
+    "creature.hound"
    ],
    "makes": [
     "creature.bonded_kin"
@@ -1509,7 +1536,9 @@
    "module": "diaithir-combat-classes",
    "quest": "q.combat.bronze",
    "item": "diaithir:arms_bronze",
-   "item_proposed": true
+   "item_proposed": true,
+   "station": "station.hearth_bench",
+   "form": "part"
   },
   {
    "id": "combat.iron",
@@ -1528,7 +1557,9 @@
    "module": "diaithir-combat-classes",
    "quest": "q.combat.iron",
    "item": "diaithir:arms_iron",
-   "item_proposed": true
+   "item_proposed": true,
+   "station": "station.wright_bench",
+   "form": "part"
   },
   {
    "id": "combat.ballista",
@@ -1562,7 +1593,9 @@
    "module": "diaithir-combat-classes",
    "quest": "q.combat.ammo",
    "item": "diaithir:ammo_basic",
-   "item_proposed": true
+   "item_proposed": true,
+   "station": "station.munitions_line",
+   "form": "process"
   },
   {
    "id": "combat.steel",
@@ -1580,7 +1613,9 @@
    "module": "diaithir-combat-classes",
    "quest": "q.combat.steel",
    "item": "diaithir:arms_steel",
-   "item_proposed": true
+   "item_proposed": true,
+   "station": "station.steam_forge",
+   "form": "part"
   },
   {
    "id": "combat.turret",
@@ -1599,7 +1634,9 @@
    "module": "diaithir-combat-classes",
    "quest": "q.combat.turret",
    "item": "diaithir:foundry_turret",
-   "W": 40000.0
+   "W": 40000.0,
+   "station": "machine.assembler",
+   "form": "assembly"
   },
   {
    "id": "combat.bosses",
@@ -1637,7 +1674,9 @@
    "module": "diaithir-combat-classes",
    "quest": "q.combat.hollow_arms",
    "item": "diaithir:armour_hollow",
-   "item_proposed": true
+   "item_proposed": true,
+   "station": "machine.assembler",
+   "form": "assembly"
   },
   {
    "id": "combat.asc1",
@@ -1665,7 +1704,8 @@
    "needs": [
     "boss.hollow_core",
     "armour.hollow",
-    "ward.field"
+    "ward.field",
+    "arms.plasma"
    ],
    "makes": [
     "boss.sovereign_core"
@@ -1818,7 +1858,9 @@
    ],
    "module": "diaithir-storage-logistics",
    "quest": "q.store.depot",
-   "item": "diaithir:foundry_depot"
+   "item": "diaithir:foundry_depot",
+   "station": "machine.assembler",
+   "form": "assembly"
   },
   {
    "id": "store.plan_table",
@@ -2038,7 +2080,9 @@
    "needs": [
     "wood",
     "fiber",
-    "fuel.charcoal"
+    "fuel.charcoal",
+    "station.slipway",
+    "hull.dugout"
    ],
    "makes": [
     "hull.timber"
@@ -2117,7 +2161,8 @@
    "needs": [
     "ship.helm",
     "c:plates/steel",
-    "compass"
+    "compass",
+    "station.drydock"
    ],
    "makes": [
     "hull.iron"
@@ -2202,7 +2247,8 @@
     "c:plates/nanoalloy",
     "crew.hired",
     "crops.anyseason",
-    "end.elytra"
+    "end.elytra",
+    "station.spaceyard"
    ],
    "makes": [
     "hull.space"
@@ -2217,7 +2263,8 @@
    "name": "Fold drive",
    "needs": [
     "hull.space",
-    "reactor.fusion"
+    "reactor.fusion",
+    "ward.paracausal"
    ],
    "makes": [
     "ship.drive_fold"
@@ -2266,7 +2313,8 @@
     "trade.barter",
     "c:ingots/silver",
     "culture.currency",
-    "tool.iron"
+    "tool.iron",
+    "trade.weights"
    ],
    "makes": [
     "money.coin"
@@ -2274,7 +2322,9 @@
    "module": "diaithir-economy",
    "quest": "q.econ.coin",
    "item": "diaithir:money_coin",
-   "item_proposed": true
+   "item_proposed": true,
+   "station": "station.wright_bench",
+   "form": "process"
   },
   {
    "id": "econ.market",
@@ -2418,7 +2468,8 @@
    "needs": [
     "market.exchange",
     "c:ores/shard_metal",
-    "econ.company"
+    "econ.company",
+    "market.orbital"
    ],
    "makes": [
     "treasury.shard"
@@ -2518,7 +2569,8 @@
     "settle.defence",
     "store.warehouse",
     "culture.architecture",
-    "research.bench"
+    "research.bench",
+    "store.granary"
    ],
    "makes": [
     "settle.town"
@@ -2570,7 +2622,8 @@
     "settle.city",
     "store.cold",
     "market.exchange",
-    "accord.rodos"
+    "accord.rodos",
+    "settle.station"
    ],
    "makes": [
     "settle.capital"
@@ -2687,7 +2740,9 @@
    "module": "diaithir-culture-start",
    "quest": "q.culture.dish_set",
    "item": "diaithir:dish_set",
-   "item_proposed": true
+   "item_proposed": true,
+   "station": "station.kitchen",
+   "form": "process"
   },
   {
    "id": "culture.accord",
@@ -2697,7 +2752,8 @@
    "needs": [
     "civics.policy",
     "envoy.contact",
-    "rite.focus"
+    "rite.focus",
+    "accord.star"
    ],
    "makes": [
     "accord.rodos"
@@ -2735,7 +2791,9 @@
    ],
    "module": "diaithir-automation-crafting",
    "quest": "q.research.pack_1",
-   "item": "diaithircrafting:foundry_research_pack_1"
+   "item": "diaithircrafting:foundry_research_pack_1",
+   "form": "quick",
+   "note": "Age I clay tablet, before any bench exists; grid allowed"
   },
   {
    "id": "research.pack_2",
@@ -2752,7 +2810,10 @@
    ],
    "module": "diaithir-automation-crafting",
    "quest": "q.research.pack_2",
-   "item": "diaithircrafting:foundry_research_pack_2"
+   "item": "diaithircrafting:foundry_research_pack_2",
+   "station": "research.bench",
+   "form": "process",
+   "item_final": true
   },
   {
    "id": "research.pack_3",
@@ -2770,7 +2831,10 @@
    ],
    "module": "diaithir-automation-crafting",
    "quest": "q.research.pack_3",
-   "item": "diaithircrafting:foundry_research_pack_3"
+   "item": "diaithircrafting:foundry_research_pack_3",
+   "station": "research.bench",
+   "form": "process",
+   "item_final": true
   },
   {
    "id": "research.pack_4",
@@ -2787,7 +2851,10 @@
    ],
    "module": "diaithir-automation-crafting",
    "quest": "q.research.pack_4",
-   "item": "diaithircrafting:foundry_research_pack_4"
+   "item": "diaithircrafting:foundry_research_pack_4",
+   "station": "research.bench",
+   "form": "process",
+   "item_final": true
   },
   {
    "id": "research.pack_5",
@@ -2804,7 +2871,10 @@
    ],
    "module": "diaithir-automation-crafting",
    "quest": "q.research.pack_5",
-   "item": "diaithircrafting:foundry_research_pack_5"
+   "item": "diaithircrafting:foundry_research_pack_5",
+   "station": "research.bench",
+   "form": "process",
+   "item_final": true
   },
   {
    "id": "research.pack_6",
@@ -2821,7 +2891,10 @@
    ],
    "module": "diaithir-automation-crafting",
    "quest": "q.research.pack_6",
-   "item": "diaithircrafting:foundry_research_pack_6"
+   "item": "diaithircrafting:foundry_research_pack_6",
+   "station": "research.bench",
+   "form": "process",
+   "item_final": true
   },
   {
    "id": "research.pack_7",
@@ -2838,7 +2911,10 @@
    ],
    "module": "diaithir-automation-crafting",
    "quest": "q.research.pack_7",
-   "item": "diaithircrafting:foundry_research_pack_7"
+   "item": "diaithircrafting:foundry_research_pack_7",
+   "station": "research.bench",
+   "form": "process",
+   "item_final": true
   },
   {
    "id": "research.gate_II",
@@ -2983,7 +3059,9 @@
    "module": "diaithir-automation-crafting",
    "quest": "q.upgrade.magic_mod",
    "item": "diaithir:foundry_module_magic_t1",
-   "item_proposed": true
+   "item_proposed": true,
+   "station": "altar.basic",
+   "form": "process"
   },
   {
    "id": "upgrade.food_mod",
@@ -3001,7 +3079,9 @@
    "module": "diaithir-automation-crafting",
    "quest": "q.upgrade.food_mod",
    "item": "diaithir:foundry_module_food_t1",
-   "item_proposed": true
+   "item_proposed": true,
+   "station": "station.kitchen",
+   "form": "process"
   },
   {
    "id": "upgrade.tech_mod",
@@ -3018,7 +3098,9 @@
    ],
    "module": "diaithir-automation-crafting",
    "quest": "q.upgrade.tech_mod",
-   "item": "diaithir:foundry_module_speed_1"
+   "item": "diaithir:foundry_module_speed_1",
+   "station": "machine.assembler",
+   "form": "process"
   },
   {
    "id": "upgrade.beacon",
@@ -3037,7 +3119,9 @@
    "module": "diaithir-automation-crafting",
    "quest": "q.upgrade.beacon",
    "item": "diaithir:foundry_beacon",
-   "W": 480000.0
+   "W": 480000.0,
+   "station": "machine.assembler",
+   "form": "assembly"
   },
   {
    "id": "upgrade.module_t2",
@@ -3056,7 +3140,9 @@
    "module": "diaithir-automation-crafting",
    "quest": "q.upgrade.module_t2",
    "item": "diaithir:foundry_module_t2",
-   "item_proposed": true
+   "item_proposed": true,
+   "station": "machine.assembler",
+   "form": "assembly"
   },
   {
    "id": "upgrade.quality",
@@ -3075,7 +3161,9 @@
    "module": "diaithir-automation-crafting",
    "quest": "q.upgrade.quality",
    "item": "diaithir:foundry_quality_grade",
-   "item_proposed": true
+   "item_proposed": true,
+   "station": "machine.reclaimer",
+   "form": "process"
   },
   {
    "id": "upgrade.planner",
@@ -3107,7 +3195,9 @@
    "module": "diaithir-automation-crafting",
    "quest": "q.upgrade.module_t3",
    "item": "diaithir:foundry_module_t3",
-   "item_proposed": true
+   "item_proposed": true,
+   "station": "machine.assembler",
+   "form": "assembly"
   },
   {
    "id": "upgrade.legendary",
@@ -3118,7 +3208,8 @@
     "module.t3",
     "quality.grade",
     "rush.cleared",
-    "boss.catalyst_t2"
+    "boss.catalyst_t2",
+    "module.nano"
    ],
    "makes": [
     "module.legendary"
@@ -3126,7 +3217,9 @@
    "module": "diaithir-automation-crafting",
    "quest": "q.upgrade.legendary",
    "item": "diaithir:foundry_module_legendary",
-   "item_proposed": true
+   "item_proposed": true,
+   "station": "station.fabricator",
+   "form": "assembly"
   },
   {
    "id": "win.gate",
@@ -3149,7 +3242,9 @@
     "accord.rodos",
     "module.legendary",
     "shard_land.access",
-    "planner"
+    "planner",
+    "feast.shard",
+    "store.shard_vault"
    ],
    "makes": [
     "win.modpack_complete"
@@ -3276,7 +3371,9 @@
    ],
    "module": "diaithir-combat-classes",
    "quest": "q.combat.tempered",
-   "item": "diaithirarms:tempered_ingot"
+   "item": "diaithirarms:tempered_ingot",
+   "station": "station.smeltery",
+   "form": "part"
   },
   {
    "id": "combat.rodos_alloy",
@@ -3293,7 +3390,9 @@
    ],
    "module": "diaithir-combat-classes",
    "quest": "q.combat.rodos_alloy",
-   "item": "diaithirarms:rodos_alloy_ingot"
+   "item": "diaithirarms:rodos_alloy_ingot",
+   "station": "station.fabricator",
+   "form": "part"
   },
   {
    "id": "combat.gear_a1",
@@ -3308,7 +3407,9 @@
    ],
    "module": "diaithir-combat-classes",
    "quest": "q.combat.gear_a1",
-   "item": "diaithircombat:lib_sword"
+   "item": "diaithircombat:lib_sword",
+   "station": "station.hearth_bench",
+   "form": "part"
   },
   {
    "id": "combat.gear_a2",
@@ -3326,7 +3427,9 @@
    ],
    "module": "diaithir-combat-classes",
    "quest": "q.combat.gear_a2",
-   "item": "diaithircombat:lib_sword"
+   "item": "diaithircombat:lib_sword",
+   "station": "station.hearth_bench",
+   "form": "part"
   },
   {
    "id": "combat.gear_a3",
@@ -3344,7 +3447,9 @@
    ],
    "module": "diaithir-combat-classes",
    "quest": "q.combat.gear_a3",
-   "item": "diaithircombat:lib_sword"
+   "item": "diaithircombat:lib_sword",
+   "station": "station.wright_bench",
+   "form": "part"
   },
   {
    "id": "combat.gear_a4",
@@ -3362,7 +3467,9 @@
    ],
    "module": "diaithir-combat-classes",
    "quest": "q.combat.gear_a4",
-   "item": "diaithircombat:lib_sword"
+   "item": "diaithircombat:lib_sword",
+   "station": "station.smeltery",
+   "form": "part"
   },
   {
    "id": "combat.gear_a5",
@@ -3380,7 +3487,9 @@
    ],
    "module": "diaithir-combat-classes",
    "quest": "q.combat.gear_a5",
-   "item": "diaithircombat:lib_sword"
+   "item": "diaithircombat:lib_sword",
+   "station": "station.steam_forge",
+   "form": "part"
   },
   {
    "id": "combat.gear_a6",
@@ -3398,7 +3507,9 @@
    ],
    "module": "diaithir-combat-classes",
    "quest": "q.combat.gear_a6",
-   "item": "diaithircombat:lib_sword"
+   "item": "diaithircombat:lib_sword",
+   "station": "machine.assembler",
+   "form": "part"
   },
   {
    "id": "combat.gear_a7",
@@ -3416,7 +3527,9 @@
    ],
    "module": "diaithir-combat-classes",
    "quest": "q.combat.gear_a7",
-   "item": "diaithircombat:lib_sword"
+   "item": "diaithircombat:lib_sword",
+   "station": "machine.assembler",
+   "form": "part"
   },
   {
    "id": "combat.gear_a8",
@@ -3434,7 +3547,9 @@
    ],
    "module": "diaithir-combat-classes",
    "quest": "q.combat.gear_a8",
-   "item": "diaithircombat:lib_sword"
+   "item": "diaithircombat:lib_sword",
+   "station": "station.fabricator",
+   "form": "part"
   },
   {
    "id": "combat.gear_a9",
@@ -3452,7 +3567,472 @@
    ],
    "module": "diaithir-combat-classes",
    "quest": "q.combat.gear_a9",
-   "item": "diaithircombat:lib_sword"
+   "item": "diaithircombat:lib_sword",
+   "station": "station.fabricator",
+   "form": "part"
+  },
+  {
+   "id": "tech.hearth_bench",
+   "system": "tech",
+   "age": "I",
+   "name": "Set up the hearth bench",
+   "needs": [
+    "stone",
+    "wood",
+    "clay"
+   ],
+   "makes": [
+    "station.hearth_bench"
+   ],
+   "module": "diaithir-foundry",
+   "quest": "q.tech.hearth_bench"
+  },
+  {
+   "id": "food.counter",
+   "system": "food",
+   "age": "I",
+   "name": "Set up the kitchen counter",
+   "needs": [
+    "stone",
+    "wood"
+   ],
+   "makes": [
+    "station.kitchen"
+   ],
+   "module": "diaithir-kitchen-brewing",
+   "quest": "q.food.counter"
+  },
+  {
+   "id": "tech.wright_bench",
+   "system": "tech",
+   "age": "III",
+   "name": "Build the wright bench",
+   "needs": [
+    "wood",
+    "c:ingots/iron",
+    "tool.iron"
+   ],
+   "makes": [
+    "station.wright_bench"
+   ],
+   "module": "diaithir-foundry",
+   "quest": "q.tech.wright_bench"
+  },
+  {
+   "id": "tech.smeltery",
+   "system": "tech",
+   "age": "IV",
+   "name": "Build the smeltery",
+   "needs": [
+    "fuel.coke",
+    "clay",
+    "c:ingots/iron"
+   ],
+   "makes": [
+    "station.smeltery"
+   ],
+   "module": "diaithir-foundry",
+   "quest": "q.tech.smeltery"
+  },
+  {
+   "id": "tech.steam_forge",
+   "system": "tech",
+   "age": "V",
+   "name": "Build the steam forge",
+   "needs": [
+    "power.steam",
+    "c:plates/steel",
+    "station.smeltery"
+   ],
+   "makes": [
+    "station.steam_forge"
+   ],
+   "module": "diaithir-foundry",
+   "quest": "q.tech.steam_forge"
+  },
+  {
+   "id": "tech.fabricator",
+   "system": "tech",
+   "age": "VIII",
+   "name": "Build the fabricator",
+   "needs": [
+    "c:plates/nanoalloy",
+    "circuit.advanced",
+    "machine.assembler"
+   ],
+   "makes": [
+    "station.fabricator"
+   ],
+   "module": "diaithir-foundry",
+   "quest": "q.tech.fabricator"
+  },
+  {
+   "id": "combat.munitions",
+   "system": "combat",
+   "age": "V",
+   "name": "Set up the munitions line",
+   "needs": [
+    "c:ingots/iron",
+    "mech.rotation",
+    "station.wright_bench"
+   ],
+   "makes": [
+    "station.munitions_line"
+   ],
+   "module": "diaithir-combat-classes",
+   "quest": "q.combat.munitions"
+  },
+  {
+   "id": "ships.slipway",
+   "system": "ships",
+   "age": "II",
+   "name": "Cut the slipway",
+   "needs": [
+    "wood",
+    "fiber"
+   ],
+   "makes": [
+    "station.slipway"
+   ],
+   "module": "diaithir-ships",
+   "quest": "q.ships.slipway"
+  },
+  {
+   "id": "ships.drydock",
+   "system": "ships",
+   "age": "V",
+   "name": "Dig the drydock",
+   "needs": [
+    "c:plates/steel",
+    "hull.timber",
+    "station.slipway"
+   ],
+   "makes": [
+    "station.drydock"
+   ],
+   "module": "diaithir-ships",
+   "quest": "q.ships.drydock"
+  },
+  {
+   "id": "ships.spaceyard",
+   "system": "ships",
+   "age": "VIII",
+   "name": "Raise the spaceyard",
+   "needs": [
+    "c:plates/nanoalloy",
+    "ship.heartcore",
+    "station.drydock"
+   ],
+   "makes": [
+    "station.spaceyard"
+   ],
+   "module": "diaithir-ships",
+   "quest": "q.ships.spaceyard"
+  },
+  {
+   "id": "ship.dugout",
+   "system": "ships",
+   "age": "I",
+   "name": "Hollow a dugout",
+   "needs": [
+    "wood",
+    "tool.flint"
+   ],
+   "makes": [
+    "hull.dugout"
+   ],
+   "module": "diaithir-ships",
+   "quest": "q.ship.dugout"
+  },
+  {
+   "id": "econ.weights",
+   "system": "econ",
+   "age": "II",
+   "name": "Cast weights and scales",
+   "needs": [
+    "trade.barter",
+    "c:ingots/bronze"
+   ],
+   "makes": [
+    "trade.weights"
+   ],
+   "module": "diaithir-economy",
+   "quest": "q.econ.weights"
+  },
+  {
+   "id": "store.granary",
+   "system": "store",
+   "age": "III",
+   "name": "Raise a granary",
+   "needs": [
+    "container.crate",
+    "c:crops/grain",
+    "stone"
+   ],
+   "makes": [
+    "store.granary"
+   ],
+   "module": "diaithir-storage-logistics",
+   "quest": "q.store.granary"
+  },
+  {
+   "id": "creature.hounds",
+   "system": "creature",
+   "age": "IV",
+   "name": "Keep hunting hounds",
+   "needs": [
+    "creature.livestock",
+    "c:foods/cooked_meat",
+    "tool.iron"
+   ],
+   "makes": [
+    "creature.hound"
+   ],
+   "module": "diaithir-creatures",
+   "quest": "q.creature.hounds"
+  },
+  {
+   "id": "magic.alchemy",
+   "system": "magic",
+   "age": "V",
+   "name": "Still and distil",
+   "needs": [
+    "altar.basic",
+    "brew.base",
+    "c:plates/iron"
+   ],
+   "makes": [
+    "alchemy.still"
+   ],
+   "module": "diaithir-magic",
+   "quest": "q.magic.alchemy"
+  },
+  {
+   "id": "food.canning",
+   "system": "food",
+   "age": "V",
+   "name": "Can and tin",
+   "needs": [
+    "food.dish",
+    "c:plates/iron",
+    "heat.fire"
+   ],
+   "makes": [
+    "food.canned"
+   ],
+   "module": "diaithir-kitchen-brewing",
+   "quest": "q.food.canning"
+  },
+  {
+   "id": "farm.reaper",
+   "system": "farm",
+   "age": "V",
+   "name": "Horse-drawn reaper",
+   "needs": [
+    "c:plates/iron",
+    "creature.horse",
+    "c:crops/grain"
+   ],
+   "makes": [
+    "farm.reaper"
+   ],
+   "module": "diaithir-blocks-decor-farming",
+   "quest": "q.farm.reaper"
+  },
+  {
+   "id": "farm.tractor",
+   "system": "farm",
+   "age": "VI",
+   "name": "Tractor and combine",
+   "needs": [
+    "farm.reaper",
+    "power.grid",
+    "c:plates/steel"
+   ],
+   "makes": [
+    "farm.mechanised"
+   ],
+   "module": "diaithir-blocks-decor-farming",
+   "quest": "q.farm.tractor"
+  },
+  {
+   "id": "magic.glyphs",
+   "system": "magic",
+   "age": "VI",
+   "name": "Inscribe glyphs",
+   "needs": [
+    "altar.basic",
+    "power.mana_feed",
+    "parchment",
+    "ink"
+   ],
+   "makes": [
+    "glyph.set"
+   ],
+   "module": "diaithir-magic",
+   "quest": "q.magic.glyphs"
+  },
+  {
+   "id": "farm.hydroponics",
+   "system": "farm",
+   "age": "VIII",
+   "name": "Hydroponic racks",
+   "needs": [
+    "crops.bulk",
+    "power.grid",
+    "c:plates/nanoalloy",
+    "water"
+   ],
+   "makes": [
+    "crops.vertical"
+   ],
+   "module": "diaithir-blocks-decor-farming",
+   "quest": "q.farm.hydroponics"
+  },
+  {
+   "id": "magic.paracausal",
+   "system": "magic",
+   "age": "VIII",
+   "name": "Paracausal craft",
+   "needs": [
+    "ward.field",
+    "reactor.fusion",
+    "rite.focus"
+   ],
+   "makes": [
+    "ward.paracausal"
+   ],
+   "module": "diaithir-magic",
+   "quest": "q.magic.paracausal"
+  },
+  {
+   "id": "econ.orbital_exchange",
+   "system": "econ",
+   "age": "VIII",
+   "name": "Orbital exchange",
+   "needs": [
+    "market.exchange",
+    "pad.launch",
+    "hull.space"
+   ],
+   "makes": [
+    "market.orbital"
+   ],
+   "module": "diaithir-economy",
+   "quest": "q.econ.orbital_exchange"
+  },
+  {
+   "id": "settle.station",
+   "system": "settle",
+   "age": "VIII",
+   "name": "Found a station",
+   "needs": [
+    "settle.city",
+    "hull.space",
+    "pad.launch",
+    "crops.vertical"
+   ],
+   "makes": [
+    "settle.station"
+   ],
+   "module": "diaithir-settlements",
+   "quest": "q.settle.station"
+  },
+  {
+   "id": "culture.star_concord",
+   "system": "culture",
+   "age": "VIII",
+   "name": "Sign the Star Concord",
+   "needs": [
+    "civics.policy",
+    "envoy.contact",
+    "reactor.fusion"
+   ],
+   "makes": [
+    "accord.star"
+   ],
+   "module": "diaithir-culture-start",
+   "quest": "q.culture.star_concord"
+  },
+  {
+   "id": "upgrade.nano_mod",
+   "system": "upgrade",
+   "age": "VIII",
+   "name": "Nano module",
+   "needs": [
+    "module.t3",
+    "c:plates/nanoalloy"
+   ],
+   "makes": [
+    "module.nano"
+   ],
+   "module": "diaithir-automation-crafting",
+   "quest": "q.upgrade.nano_mod"
+  },
+  {
+   "id": "combat.plasma",
+   "system": "combat",
+   "age": "VIII",
+   "name": "Plasma arms",
+   "needs": [
+    "reactor.fusion",
+    "c:plates/nanoalloy",
+    "ammo.basic"
+   ],
+   "makes": [
+    "arms.plasma"
+   ],
+   "module": "diaithir-combat-classes",
+   "quest": "q.combat.plasma"
+  },
+  {
+   "id": "creature.shard_kin",
+   "system": "creature",
+   "age": "RODOS",
+   "name": "Wake the shard kin",
+   "needs": [
+    "creature.menagerie",
+    "focus.shard",
+    "c:ores/shard_metal"
+   ],
+   "makes": [
+    "creature.shard_kin"
+   ],
+   "module": "diaithir-creatures",
+   "quest": "q.creature.shard_kin"
+  },
+  {
+   "id": "food.shard_table",
+   "system": "food",
+   "age": "RODOS",
+   "name": "Set the shard table",
+   "needs": [
+    "feast.ages",
+    "farm.living_seed",
+    "focus.shard",
+    "creature.shard_kin"
+   ],
+   "makes": [
+    "feast.shard"
+   ],
+   "module": "diaithir-kitchen-brewing",
+   "quest": "q.food.shard_table"
+  },
+  {
+   "id": "store.shard_vault",
+   "system": "store",
+   "age": "RODOS",
+   "name": "Shard vault",
+   "needs": [
+    "depot.global",
+    "c:ores/shard_metal",
+    "store.vault"
+   ],
+   "makes": [
+    "store.shard_vault"
+   ],
+   "module": "diaithir-storage-logistics",
+   "quest": "q.store.shard_vault"
   }
  ],
  "service_prefixes": [
@@ -3749,5 +4329,88 @@
    ],
    "rule": "recipes/world gen for these must be Age-gated at this Age or later (tech_ages); source plans/KEPT_MOD_PROGRESSION_OVERLAP.md"
   }
- ]
+ ],
+ "stations": {
+  "station.hearth_bench": {
+   "block": "diaithir_stations:foundry_hearth_bench",
+   "kind": "bench",
+   "note": "Age I-II hand bench: knap, bind, forge rough parts",
+   "built": "diaithir-ports #163"
+  },
+  "station.kitchen": {
+   "block": "diaithirfarmkitchen:kitchen_counter",
+   "kind": "kitchen",
+   "note": "built: right-click crafts from nearby chests"
+  },
+  "station.wright_bench": {
+   "block": "diaithir_stations:foundry_wright_bench",
+   "kind": "bench",
+   "note": "Age III: join iron and timber parts, press coin",
+   "built": "diaithir-ports #163"
+  },
+  "station.smeltery": {
+   "block": "diaithir_stations:foundry_smeltery",
+   "kind": "cast",
+   "note": "Age IV multiblock: pour molten metal into casts, like a Tinkers smeltery",
+   "built": "diaithir-ports #163"
+  },
+  "station.steam_forge": {
+   "block": "diaithir_stations:foundry_steam_forge",
+   "kind": "forge",
+   "note": "Age V: boiler-powered forge for steel parts and engines",
+   "built": "diaithir-ports #163"
+  },
+  "machine.assembler": {
+   "block": "diaithir:foundry_assembler",
+   "kind": "machine",
+   "note": "Age VI: assembles major parts, speed tier by modules"
+  },
+  "station.fabricator": {
+   "block": "diaithir_stations:foundry_fabricator",
+   "kind": "machine",
+   "note": "Age VIII: nanoalloy parts and top modules",
+   "built": "diaithir-ports #163"
+  },
+  "altar.basic": {
+   "block": "diaithir:altar_basic",
+   "kind": "altar",
+   "note": "ritual circle"
+  },
+  "research.bench": {
+   "block": "diaithir:foundry_research_bench",
+   "kind": "bench",
+   "note": "Researcher bench"
+  },
+  "machine.reclaimer": {
+   "block": "diaithir:foundry_reclaimer",
+   "kind": "machine",
+   "note": "Grade and regrade"
+  },
+  "station.munitions_line": {
+   "block": "diaithir:foundry_munitions_line",
+   "kind": "line",
+   "note": "ammunition and powder work"
+  },
+  "station.slipway": {
+   "block": "diaithir:shipyard_slipway",
+   "kind": "yard",
+   "note": "Age II-IV ship parts"
+  },
+  "station.drydock": {
+   "block": "diaithir:shipyard_drydock",
+   "kind": "yard",
+   "note": "Age V-VII ship parts"
+  },
+  "station.spaceyard": {
+   "block": "diaithir:shipyard_spaceyard",
+   "kind": "yard",
+   "note": "Age VIII+ ship parts"
+  }
+ },
+ "forms": {
+  "part": "cast, forged or pressed at a station from raw material",
+  "assembly": "join a few major parts at a station (an engine, a transmission), never sub-components",
+  "process": "a machine or bench works one input into one output over time",
+  "quick": "simple everyday item; the crafting grid is allowed"
+ }
 }
