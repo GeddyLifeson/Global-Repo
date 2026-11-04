@@ -1,0 +1,403 @@
+{
+ "_doc": "Proposed nodes in plans/progression/graph.json schema (DiaithirRPG). Fill the empty system/Age cells found in AGE_BALANCE.md. Merge into graph.json and run check_progression.py --report.",
+ "nodes": [
+  {
+   "id": "ship.dugout",
+   "system": "ships",
+   "age": "I",
+   "name": "Hollow a dugout",
+   "needs": [
+    "wood",
+    "tool.flint"
+   ],
+   "makes": [
+    "hull.dugout"
+   ],
+   "module": "diaithir-ships",
+   "quest": "q.ship.dugout"
+  },
+  {
+   "id": "econ.weights",
+   "system": "econ",
+   "age": "II",
+   "name": "Cast weights and scales",
+   "needs": [
+    "trade.barter",
+    "c:ingots/bronze"
+   ],
+   "makes": [
+    "trade.weights"
+   ],
+   "module": "diaithir-economy",
+   "quest": "q.econ.weights"
+  },
+  {
+   "id": "store.granary",
+   "system": "store",
+   "age": "III",
+   "name": "Raise a granary",
+   "needs": [
+    "container.crate",
+    "c:crops/grain",
+    "stone"
+   ],
+   "makes": [
+    "store.granary"
+   ],
+   "module": "diaithir-storage-logistics",
+   "quest": "q.store.granary"
+  },
+  {
+   "id": "creature.hounds",
+   "system": "creature",
+   "age": "IV",
+   "name": "Keep hunting hounds",
+   "needs": [
+    "creature.livestock",
+    "c:foods/cooked_meat",
+    "tool.iron"
+   ],
+   "makes": [
+    "creature.hound"
+   ],
+   "module": "diaithir-creatures",
+   "quest": "q.creature.hounds"
+  },
+  {
+   "id": "magic.alchemy",
+   "system": "magic",
+   "age": "V",
+   "name": "Still and distil",
+   "needs": [
+    "altar.basic",
+    "brew.base",
+    "c:plates/iron"
+   ],
+   "makes": [
+    "alchemy.still"
+   ],
+   "module": "diaithir-magic",
+   "quest": "q.magic.alchemy"
+  },
+  {
+   "id": "food.canning",
+   "system": "food",
+   "age": "V",
+   "name": "Can and tin",
+   "needs": [
+    "food.dish",
+    "c:plates/iron",
+    "heat.fire"
+   ],
+   "makes": [
+    "food.canned"
+   ],
+   "module": "diaithir-kitchen-brewing",
+   "quest": "q.food.canning"
+  },
+  {
+   "id": "farm.reaper",
+   "system": "farm",
+   "age": "V",
+   "name": "Horse-drawn reaper",
+   "needs": [
+    "c:plates/iron",
+    "creature.horse",
+    "c:crops/grain"
+   ],
+   "makes": [
+    "farm.reaper"
+   ],
+   "module": "diaithir-blocks-decor-farming",
+   "quest": "q.farm.reaper"
+  },
+  {
+   "id": "farm.tractor",
+   "system": "farm",
+   "age": "VI",
+   "name": "Tractor and combine",
+   "needs": [
+    "farm.reaper",
+    "power.grid",
+    "c:plates/steel"
+   ],
+   "makes": [
+    "farm.mechanised"
+   ],
+   "module": "diaithir-blocks-decor-farming",
+   "quest": "q.farm.tractor"
+  },
+  {
+   "id": "magic.glyphs",
+   "system": "magic",
+   "age": "VI",
+   "name": "Inscribe glyphs",
+   "needs": [
+    "altar.basic",
+    "power.mana_feed",
+    "parchment",
+    "ink"
+   ],
+   "makes": [
+    "glyph.set"
+   ],
+   "module": "diaithir-magic",
+   "quest": "q.magic.glyphs"
+  },
+  {
+   "id": "farm.hydroponics",
+   "system": "farm",
+   "age": "VIII",
+   "name": "Hydroponic racks",
+   "needs": [
+    "crops.bulk",
+    "power.grid",
+    "c:plates/nanoalloy",
+    "water"
+   ],
+   "makes": [
+    "crops.vertical"
+   ],
+   "module": "diaithir-blocks-decor-farming",
+   "quest": "q.farm.hydroponics"
+  },
+  {
+   "id": "magic.paracausal",
+   "system": "magic",
+   "age": "VIII",
+   "name": "Paracausal craft",
+   "needs": [
+    "ward.field",
+    "reactor.fusion",
+    "rite.focus"
+   ],
+   "makes": [
+    "ward.paracausal"
+   ],
+   "module": "diaithir-magic",
+   "quest": "q.magic.paracausal"
+  },
+  {
+   "id": "econ.orbital_exchange",
+   "system": "econ",
+   "age": "VIII",
+   "name": "Orbital exchange",
+   "needs": [
+    "market.exchange",
+    "pad.launch",
+    "hull.space"
+   ],
+   "makes": [
+    "market.orbital"
+   ],
+   "module": "diaithir-economy",
+   "quest": "q.econ.orbital_exchange"
+  },
+  {
+   "id": "settle.station",
+   "system": "settle",
+   "age": "VIII",
+   "name": "Found a station",
+   "needs": [
+    "settle.city",
+    "hull.space",
+    "pad.launch",
+    "crops.vertical"
+   ],
+   "makes": [
+    "settle.station"
+   ],
+   "module": "diaithir-settlements",
+   "quest": "q.settle.station"
+  },
+  {
+   "id": "culture.star_concord",
+   "system": "culture",
+   "age": "VIII",
+   "name": "Sign the Star Concord",
+   "needs": [
+    "civics.policy",
+    "envoy.contact",
+    "reactor.fusion"
+   ],
+   "makes": [
+    "accord.star"
+   ],
+   "module": "diaithir-culture-start",
+   "quest": "q.culture.star_concord"
+  },
+  {
+   "id": "upgrade.nano_mod",
+   "system": "upgrade",
+   "age": "VIII",
+   "name": "Nano module",
+   "needs": [
+    "module.t3",
+    "c:plates/nanoalloy"
+   ],
+   "makes": [
+    "module.nano"
+   ],
+   "module": "diaithir-automation-crafting",
+   "quest": "q.upgrade.nano_mod"
+  },
+  {
+   "id": "combat.plasma",
+   "system": "combat",
+   "age": "VIII",
+   "name": "Plasma arms",
+   "needs": [
+    "reactor.fusion",
+    "c:plates/nanoalloy",
+    "ammo.basic"
+   ],
+   "makes": [
+    "arms.plasma"
+   ],
+   "module": "diaithir-combat-classes",
+   "quest": "q.combat.plasma"
+  },
+  {
+   "id": "creature.shard_kin",
+   "system": "creature",
+   "age": "RODOS",
+   "name": "Wake the shard kin",
+   "needs": [
+    "creature.menagerie",
+    "focus.shard",
+    "c:ores/shard_metal"
+   ],
+   "makes": [
+    "creature.shard_kin"
+   ],
+   "module": "diaithir-creatures",
+   "quest": "q.creature.shard_kin"
+  },
+  {
+   "id": "food.shard_table",
+   "system": "food",
+   "age": "RODOS",
+   "name": "Set the shard table",
+   "needs": [
+    "feast.ages",
+    "farm.living_seed",
+    "focus.shard",
+    "creature.shard_kin"
+   ],
+   "makes": [
+    "feast.shard"
+   ],
+   "module": "diaithir-kitchen-brewing",
+   "quest": "q.food.shard_table"
+  },
+  {
+   "id": "store.shard_vault",
+   "system": "store",
+   "age": "RODOS",
+   "name": "Shard vault",
+   "needs": [
+    "depot.global",
+    "c:ores/shard_metal",
+    "store.vault"
+   ],
+   "makes": [
+    "store.shard_vault"
+   ],
+   "module": "diaithir-storage-logistics",
+   "quest": "q.store.shard_vault"
+  }
+ ],
+ "wires": [
+  {
+   "node": "ship.hull_timber",
+   "add_needs": [
+    "hull.dugout"
+   ]
+  },
+  {
+   "node": "econ.coin",
+   "add_needs": [
+    "trade.weights"
+   ]
+  },
+  {
+   "node": "settle.town",
+   "add_needs": [
+    "store.granary"
+   ]
+  },
+  {
+   "node": "creature.bond",
+   "add_needs": [
+    "creature.hound"
+   ]
+  },
+  {
+   "node": "magic.altar_adv",
+   "add_needs": [
+    "alchemy.still"
+   ]
+  },
+  {
+   "node": "food.ration",
+   "add_needs": [
+    "food.canned"
+   ]
+  },
+  {
+   "node": "farm.auto",
+   "add_needs": [
+    "farm.mechanised"
+   ]
+  },
+  {
+   "node": "magic.dust_rite",
+   "add_needs": [
+    "glyph.set"
+   ]
+  },
+  {
+   "node": "ship.fold",
+   "add_needs": [
+    "ward.paracausal"
+   ]
+  },
+  {
+   "node": "econ.treasury",
+   "add_needs": [
+    "market.orbital"
+   ]
+  },
+  {
+   "node": "settle.capital",
+   "add_needs": [
+    "settle.station"
+   ]
+  },
+  {
+   "node": "culture.accord",
+   "add_needs": [
+    "accord.star"
+   ]
+  },
+  {
+   "node": "upgrade.legendary",
+   "add_needs": [
+    "module.nano"
+   ]
+  },
+  {
+   "node": "combat.asc2",
+   "add_needs": [
+    "arms.plasma"
+   ]
+  },
+  {
+   "node": "win.gate",
+   "add_needs": [
+    "feast.shard",
+    "store.shard_vault"
+   ]
+  }
+ ]
+}
