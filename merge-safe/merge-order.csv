@@ -217,3 +217,5 @@ wave,repo,number,base,head,partner,title
 10,rpg,272,claude/pack-v1-3-wave9,claude/pack-v1-3-wave10,ports#324,"Wave 10 pack inputs: platform-suite with upgrades [merge with ports #324]"
 10,ports,325,claude/project-thread-mhfa65,,,"Forgeworks augment-to-module fold [merge AFTER ports #319 and #324; then rebuild Forgeworks inside the platform suite from #325]"
 0,global-repo,49,main,claude/project-thread-rzjwzu,,"Register S6951 assay_merge.py [edits SCRIPTS_INDEX.md and ids.tsv: merge one at a time, rebuild index on conflict]"
+
+0,ports,327,diaithircompat,claude/project-thread-celestials-2,,Blood Moon fold (retargeted to diaithircompat after #134 merged)
