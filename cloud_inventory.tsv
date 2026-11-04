@@ -362,6 +362,7 @@ integration/matrix_data.py	35235	Data for S6919: bridges, 32 systems, nouns, han
 integration/pairs_extra.txt	18392	Hand-written pair interactions loaded by matrix_data.py.	yes
 library-content/assay_merge.py	2900	S6951 Merges assay entry-draft outputs (tail and retry win over originals) and builds JSON-only retry jobs.	yes
 library-content/assay_regroup.py	2400	S6952 Regroups assay tail and retry outputs into per-slug shards for the existing assay importer (retry wins).	yes
+compat/gen_tags_extra.py	0	Name-suffix convention tags (logs, planks, slabs, rails, glass, furniture) for building, tree, furniture and rail jars.	yes
 diaithir-ports/diaithir-overworld-biomes/tools/stellaris_extra.py	1100	S6922 Writes the recipes for the hand-written Stellaris pieces (rocket, suit, oxygen module, distributor, fluid cell).	no
 age_balance.py	3370	Build the per-Age coverage matrix (nodes, mod items by function, era-index feeds) and flag thin Ages.	yes
 diaithir-ports/diaithir-wiretech/tools/belt_reader_check.py	1800	Circuit reader against a real belt chute (belt fork jar) on the headless client lane.	no
