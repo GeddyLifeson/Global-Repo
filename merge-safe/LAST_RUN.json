@@ -1,144 +1,19 @@
 {
-    "run_utc":  "2026-11-04T13:16:37Z",
+    "run_utc":  "2026-11-04T13:38:53Z",
     "dry_run":  false,
-    "merged_count":  31,
-    "skipped_count":  41,
-    "failed_count":  1,
+    "merged_count":  1,
+    "skipped_count":  44,
+    "failed_count":  0,
     "merged":  [
                    {
-                       "pr":  "GeddyLifeson/Global-Repo#19",
-                       "title":  "Headless client test lane (cloud): lane.py, drive.py, checks"
-                   },
-                   {
-                       "pr":  "GeddyLifeson/diaithir-ports#208",
-                       "title":  "Gear: bow blueprints on the Workshop Bench; combat, classes and relics recipes move to the Age stations"
-                   },
-                   {
-                       "pr":  "GeddyLifeson/diaithir-ports#221",
-                       "title":  "Vehicles: ignition, dashboard, pumps and storage, driven tracked vehicles (after #190 and #288)"
-                   },
-                   {
-                       "pr":  "GeddyLifeson/diaithir-ports#224",
-                       "title":  "Megamachines: catalogue, dig engine core, Heavy Yard definitions"
-                   },
-                   {
-                       "pr":  "GeddyLifeson/diaithir-ports#246",
-                       "title":  "Survey p3: pack sources for Traveler\u0027s Backpack and Hydrofarm (26.1.2 NeoForge builds)"
-                   },
-                   {
-                       "pr":  "GeddyLifeson/diaithir-ports#247",
-                       "title":  "Clean-room round 2: Stellaris realm and FTB Chunks feature set (folded into existing jars)"
-                   },
-                   {
-                       "pr":  "GeddyLifeson/diaithir-ports#255",
-                       "title":  "diaithir-vehicles: jerry can, FuelHolder and burn maths on the #257 fuels and #277 Carrier Tank (survey p1)"
-                   },
-                   {
-                       "pr":  "GeddyLifeson/diaithir-ports#256",
-                       "title":  "Macaw-style building set, BOP gap blocks and 32 species bees (clean-room, data-driven)"
-                   },
-                   {
-                       "pr":  "GeddyLifeson/diaithir-ports#265",
-                       "title":  "Megastructures: site office, depot, stage engine, function hooks"
-                   },
-                   {
-                       "pr":  "GeddyLifeson/diaithir-ports#271",
-                       "title":  "diaithir-vehicles-crayfish: fuel pump, trailer hitch, vehicle crash and repair (GPL-3 fold, survey p1)"
-                   },
-                   {
-                       "pr":  "GeddyLifeson/diaithir-ports#274",
-                       "title":  "diaithir-vehicles: skid-steer tracked drive and chassis (Flan\u0027s tank-track fold, clean-room, survey p1)"
-                   },
-                   {
-                       "pr":  "GeddyLifeson/diaithir-ports#285",
-                       "title":  "Capital taxes and treasury (Tale of Kingdoms idea, clean-room) [stacked on #282]"
-                   },
-                   {
-                       "pr":  "GeddyLifeson/diaithir-ports#294",
-                       "title":  "diaithir-hostile-encounters: fold Raided and Zombie Hordes (survey part 2)"
-                   },
-                   {
-                       "pr":  "GeddyLifeson/diaithir-ports#295",
-                       "title":  "Wave 8-9: worldgen-structures 1.0.6, client-suite package fix, entity-animation 1.0.2"
-                   },
-                   {
-                       "pr":  "GeddyLifeson/diaithir-ports#297",
-                       "title":  "Survey p6: client QoL ports (pickup notifier, bars, balloons, AutoHUD, tooltips, mouse tweaks, zoom, GUI scale, chat)"
-                   },
-                   {
-                       "pr":  "GeddyLifeson/diaithir-ports#299",
-                       "title":  "Survey p6: Packet Fixer and Ksyxis folded into crash-tools"
-                   },
-                   {
-                       "pr":  "GeddyLifeson/diaithir-ports#301",
-                       "title":  "diaithir-bosses: Shardfall Gate (clean-room Boss Checklist, survey p2)"
-                   },
-                   {
-                       "pr":  "GeddyLifeson/diaithir-ports#302",
-                       "title":  "diaithir-gear: port Tool Belt (BSD-3) to 26.1 (survey p2)"
-                   },
-                   {
-                       "pr":  "GeddyLifeson/diaithir-ports#304",
-                       "title":  "Survey p6: mixin and render perf folds (Alternate Current, Falling Leaves, Sky Aesthetics, ImmediatelyFast, Disable Accessibility)"
-                   },
-                   {
-                       "pr":  "GeddyLifeson/diaithir-ports#307",
-                       "title":  "diaithir-arms: 30-item melee roster, Spartan Weaponry behaviour (survey p2)"
-                   },
-                   {
-                       "pr":  "GeddyLifeson/diaithir-ports#312",
-                       "title":  "diaithir-firearms: ammo box container (clean-room, survey p2)"
-                   },
-                   {
-                       "pr":  "GeddyLifeson/diaithir-ports#336",
-                       "title":  "Carts: textures for yards, cranes, parts and all rolling stock"
-                   },
-                   {
-                       "pr":  "GeddyLifeson/diaithir-ports#339",
-                       "title":  "Carts: rail wagons as cargo carriers, loads drawn on the wagon"
-                   },
-                   {
-                       "pr":  "GeddyLifeson/diaithir-ports#340",
-                       "title":  "Vehicles carry cargo: cars, trucks, trailers and tanks as cargo carriers"
-                   },
-                   {
-                       "pr":  "GeddyLifeson/diaithir-ports#344",
-                       "title":  "claims: move Server Waypoint into diaithir-claims so it compiles alone"
-                   },
-                   {
-                       "pr":  "GeddyLifeson/diaithir-ports#345",
-                       "title":  "Cars spawn with an engine; car and truck item icons"
-                   },
-                   {
-                       "pr":  "GeddyLifeson/diaithir-ports#346",
-                       "title":  "Freight: containers on vehicles keep their loads through a save"
-                   },
-                   {
-                       "pr":  "GeddyLifeson/DiaithirRPG#259",
-                       "title":  "NPC wages: weekly payroll, employer accounts, strikes and revolts"
-                   },
-                   {
-                       "pr":  "GeddyLifeson/DiaithirRPG#264",
-                       "title":  "Age V alchemy and Age VI glyph nodes, Theurgy and Roots Classic gates"
-                   },
-                   {
-                       "pr":  "GeddyLifeson/DiaithirRPG#265",
-                       "title":  "Drop 14 library jars with no dependents (round-2 library audit)"
-                   },
-                   {
-                       "pr":  "GeddyLifeson/DiaithirRPG#267",
-                       "title":  "Economy: drop three 12-ingredient shapeless recipes invalid in 26.1"
+                       "pr":  "GeddyLifeson/Global-Repo#47",
+                       "title":  "MERGE_ORDER: survey p1 carts, harbour module and harbour yards"
                    }
                ],
     "skipped":  [
                     {
                         "title":  "Item roles: use scan, 23.8k role assignments, report",
                         "pr":  "GeddyLifeson/Global-Repo#46",
-                        "reason":  "per-run cap: 1 global-repo PR(s) per run, the rest wait for the next run"
-                    },
-                    {
-                        "title":  "MERGE_ORDER: survey p1 carts, harbour module and harbour yards",
-                        "pr":  "GeddyLifeson/Global-Repo#47",
                         "reason":  "per-run cap: 1 global-repo PR(s) per run, the rest wait for the next run"
                     },
                     {
@@ -237,6 +112,11 @@
                         "reason":  "merge conflicts"
                     },
                     {
+                        "title":  "Wave 8-9 pack inputs: worldgen-structures 1.0.6, client-suite fix, QoL entries",
+                        "pr":  "GeddyLifeson/DiaithirRPG#268",
+                        "reason":  "merge conflicts"
+                    },
+                    {
                         "title":  "Fix diaithirvehicles: complete spawn, enterable, icons, starting fuel",
                         "pr":  "GeddyLifeson/diaithir-ports#225",
                         "reason":  "merge conflicts"
@@ -249,12 +129,12 @@
                     {
                         "title":  "Wave 10: upgrades API and Forgeworks module slots folded into platform-suite",
                         "pr":  "GeddyLifeson/diaithir-ports#324",
-                        "reason":  "waiting for predecessor rpg#268 to merge (it failed)"
+                        "reason":  "waiting for predecessor rpg#268 to merge"
                     },
                     {
                         "title":  "Wave 10 pack inputs: platform-suite with upgrades",
                         "pr":  "GeddyLifeson/DiaithirRPG#272",
-                        "reason":  "waiting for predecessor rpg#268 to merge (it failed)"
+                        "reason":  "waiting for predecessor rpg#268 to merge"
                     },
                     {
                         "title":  "Pack V1 wave11: rebuilt claims, hud-overlays, world-visuals, voice-interaction (ports #233)",
@@ -287,9 +167,24 @@
                         "reason":  "waiting for predecessor rpg#276 to merge"
                     },
                     {
+                        "title":  "Pack V1 wave14: drop 14 library and FTB jars (client 91, server 80)",
+                        "pr":  "GeddyLifeson/diaithir-ports#347",
+                        "reason":  "waiting for predecessor ports#343 to merge"
+                    },
+                    {
+                        "title":  "Pack V1 wave14 inputs: RPG #265 library and FTB drops",
+                        "pr":  "GeddyLifeson/DiaithirRPG#278",
+                        "reason":  "waiting for predecessor rpg#277 to merge"
+                    },
+                    {
                         "title":  "Register S6940 gen_farm_assets.py (diaithir-carts reaper)",
                         "pr":  "GeddyLifeson/Global-Repo#52",
                         "reason":  "per-run cap: 1 global-repo PR(s) per run, the rest wait for the next run"
+                    },
+                    {
+                        "title":  "Headless bot: cars drive, cargo and nested save tests",
+                        "pr":  "GeddyLifeson/Global-Repo#54",
+                        "reason":  "draft and not listed as clear in merge-order.csv"
                     },
                     {
                         "title":  "Fold Titanium and AE2 into libraries and ae2-extensions supermodules",
@@ -338,10 +233,6 @@
                     }
                 ],
     "failed":  [
-                   {
-                       "title":  "Wave 8-9 pack inputs: worldgen-structures 1.0.6, client-suite fix, QoL entries",
-                       "error":  "merge failed: GitHub would not merge it: The remote server returned an error: (405) Method Not Allowed.",
-                       "pr":  "GeddyLifeson/DiaithirRPG#268"
-                   }
+
                ]
 }
