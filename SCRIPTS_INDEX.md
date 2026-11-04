@@ -6860,3 +6860,4 @@ Run hints: .py `python3 <file>` (PC `py`), .ps1 via a hidden launcher (never a v
 | S6964 | cloud | `tools/panscriptum/master_sheet.py` | Builds plans/PANSCRIPTUM_MASTER.tsv: one row per Library being with source wiki, powers, pack entity, card shard. | yes |
 | S6966 | cloud | `tools/panscriptum/infer_source_names.py` | Fills inferred_source in PANSCRIPTUM_MASTER.tsv from wiki lead text, no AI. | yes |
 | S6969 | cloud | `tools/panscriptum/coverage_check.py` | Full source-page coverage: every wiki lead page vs Library entries; unlinked pages list. No AI. | yes |
+| S6975 | cloud | `tools/powers/judge_pages.py` | Judges each wiki lead page with Claude Haiku Batch: being or not, pool powers, magnitude 1-10, evidence quote, missing powers (S6975). | yes |
