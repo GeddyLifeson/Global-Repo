@@ -6862,3 +6862,5 @@ S6965	cloud	tools/powers/build_pool_json.py
 S6966	cloud	tools/panscriptum/infer_source_names.py
 S6969	cloud	tools/panscriptum/coverage_check.py
 S6975	cloud	tools/powers/judge_pages.py
+S6986	cloud	cloud/headless_bot/everything/manifest.py
+S6987	cloud	cloud/headless_bot/everything/run_all.py
