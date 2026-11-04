@@ -1,34 +1,11 @@
 {
-    "run_utc":  "2026-11-04T00:34:43Z",
+    "run_utc":  "2026-11-04T00:35:02Z",
     "dry_run":  false,
-    "merged_count":  6,
-    "skipped_count":  165,
-    "failed_count":  1,
+    "merged_count":  0,
+    "skipped_count":  166,
+    "failed_count":  0,
     "merged":  [
-                   {
-                       "pr":  "GeddyLifeson/Global-Repo#35",
-                       "title":  "MERGE_ORDER: ports#243 Nature\u0027s Spirit port"
-                   },
-                   {
-                       "pr":  "GeddyLifeson/Global-Repo#40",
-                       "title":  "Integration matrix: every system with every other (S6919)"
-                   },
-                   {
-                       "pr":  "GeddyLifeson/diaithir-ports#214",
-                       "title":  "wiretech: Factorio-style circuit network (wires, combinators, gate, lamp, speaker, reader, GUI)"
-                   },
-                   {
-                       "pr":  "GeddyLifeson/diaithir-ports#227",
-                       "title":  "diaithir-animation: 3D skin layers (voxel hat, jacket, sleeves, pants)"
-                   },
-                   {
-                       "pr":  "GeddyLifeson/diaithir-ports#257",
-                       "title":  "diaithir-units: magic as a fuel carrier, arcane_motor engine class"
-                   },
-                   {
-                       "pr":  "GeddyLifeson/DiaithirRPG#261",
-                       "title":  "Magnitude as a reading of the c3m assay"
-                   }
+
                ],
     "skipped":  [
                     {
@@ -175,6 +152,11 @@
                         "title":  "Progression: restore stations layer and land age-balance nodes",
                         "pr":  "GeddyLifeson/Global-Repo#34",
                         "reason":  "draft and not listed as clear in merge-order.csv"
+                    },
+                    {
+                        "title":  "MERGE_ORDER: ports#239 Ars Nouveau port",
+                        "pr":  "GeddyLifeson/Global-Repo#36",
+                        "reason":  "merge conflicts"
                     },
                     {
                         "title":  "Register S6922 stellaris_extra.py (cloud inventory and id)",
@@ -858,10 +840,6 @@
                     }
                 ],
     "failed":  [
-                   {
-                       "title":  "MERGE_ORDER: ports#239 Ars Nouveau port",
-                       "error":  "merge failed: GitHub would not merge it: The remote server returned an error: (405) Method Not Allowed.",
-                       "pr":  "GeddyLifeson/Global-Repo#36"
-                   }
+
                ]
 }
