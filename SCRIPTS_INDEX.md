@@ -6839,6 +6839,10 @@ Run hints: .py `python3 <file>` (PC `py`), .ps1 via a hidden launcher (never a v
 | S6866 | cloud | `animations/gen_animations_coverage.py` | Generates plans/ANIMATIONS_COVERAGE.csv (+STATIC): one row per entity, block entity, interactive block, item use action, profession, spell, vehicle and player action; owner helpers 1-4; reruns keep status. | yes |
 | S6880 | global | `diaithir-ports PR 181: port.py (path in repo unconfirmed)` | S6880 Aurorian port script (diaithir-ports PR 181; copy lives in that repo) | no |
 | S6881 | global | `diaithir-ports PR 181: rcon.py (path in repo unconfirmed)` | S6881 Aurorian rcon helper for the port tests (diaithir-ports PR 181; copy lives in that repo) | no |
+| S6947 | global | `crawl_all.py` | S0335 crawls /mnt/project-files into catalog/{D,F,M,A,J}.tsv with stable IDs: python3 -I crawl_all.py <repo> | yes |
+| S6948 | cloud | `names/linguistics/audit_names.py` | S0316 Audits every culture name in names/*.json against names/linguistics/rules/<slug>.json (graphemes, forbidden patterns, word length); wr | yes |
+| S6949 | cloud | `names/linguistics/research_rules.py` | S0317 One direct cached Claude call per culture language: researches how a linguist builds words there, writes names/linguistics/rules/<slug | yes |
+| S6950 | cloud | `compat/gen_tags_extra.py` | Name-suffix convention tags (logs, planks, slabs, rails, glass, furniture) for building, tree, furniture and rail jars. | yes |
 | S6885 | cloud | `diaithir-ports/diaithir-worldgen-structures/tools/c_tags.py` | Generates the c: convention structure and biome tags for the worldgen-structures module (per class, mazes, villages, ruins, dungeons). | yes |
 | S6913 | global | `crawl_all.py` | S0335 crawls /mnt/project-files into catalog/{D,F,M,A,J}.tsv with stable IDs: python3 -I crawl_all.py <repo> | yes |
 | S6914 | cloud | `compat/gen_recipes.py` | Add load conditions to recipes naming absent mods and cross-mod dust/raw smelting to the shared ingot. | yes |
