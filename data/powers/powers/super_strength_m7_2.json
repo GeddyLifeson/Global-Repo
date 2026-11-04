@@ -1,0 +1,6 @@
+{
+ "type": "neoorigins:attribute_modifier",
+ "attribute": "minecraft:attack_knockback",
+ "amount": 2.1,
+ "operation": "add_value"
+}
