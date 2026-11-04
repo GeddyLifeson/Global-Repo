@@ -6825,6 +6825,10 @@ S6873	global	ports/diaithir-bosses/tools/gen_gate.py
 S6874	global	tools/animation/gen_clips.py
 S6875	cloud	animations/gen_body.py
 S6877	cloud	cloud/animation/set_owner3_status.py
+=======
+S6880	global	diaithir-ports/diaithir-aurorian/tools/port.py
+S6881	global	diaithir-ports/diaithir-aurorian/tools/rcon.py
+=======
 S6880	global	diaithir-ports PR 181: port.py (path in repo unconfirmed)
 S6881	global	diaithir-ports PR 181: rcon.py (path in repo unconfirmed)
 =======
