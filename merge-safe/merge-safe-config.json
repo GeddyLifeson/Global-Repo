@@ -39,6 +39,24 @@
     "ports#221": [
       "ports#190",
       "ports#288"
+    ],
+    "global-repo#48": [
+      "global-repo#46"
+    ],
+    "global-repo#49": [
+      "global-repo#48"
+    ],
+    "global-repo#50": [
+      "global-repo#49"
+    ],
+    "global-repo#52": [
+      "global-repo#50"
+    ],
+    "global-repo#53": [
+      "global-repo#52"
+    ],
+    "global-repo#54": [
+      "global-repo#53"
     ]
   },
   "pairs": [
@@ -53,6 +71,6 @@
     "path": "merge-safe"
   },
   "max_merges_per_repo": {
-    "global-repo": 4
+    "global-repo": 7
   }
 }

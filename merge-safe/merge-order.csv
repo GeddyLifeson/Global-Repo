@@ -193,7 +193,6 @@ wave,repo,number,base,head,partner,title
 2,rpg,255,omniverse,claude/project-thread-tw3yu0,,Stacks: planet labels and planet Age gate
 2,rpg,257,claude/pack-v1-3-compat-matrix,claude/project-thread-9cmcx3,,Station moves: assembler and altar recipes
 2,rpg,261,engine,claude/project-thread-bpk1za,,Magnitude as a reading of the c3m assay
-2,ports,251,claude/survey-p1-carts,claude/survey-p1-destination-rails,,diaithir-carts: destination rail and cart labels
 2,ports,255,claude/bridges-fuel-ports,claude/survey-p1-fuel,,"diaithir-vehicles: jerry can, FuelHolder and burn maths"
 2,ports,284,claude/project-thread-wn0g9i,claude/project-thread-gjopep-planet,,Planets: redraw logs with the Blender bark kit
 2,ports,294,claude/project-thread-889fio-hostile,claude/survey-p2-hostile-raided,,diaithir-hostile-encounters: fold Raided and Zombie Hordes
@@ -213,7 +212,7 @@ wave,repo,number,base,head,partner,title
 10,ports,324,claude/pack-v1-3-wave9,claude/pack-v1-3-wave10,rpg#272,Wave 10: upgrades API and Forgeworks module slots folded into platform-suite [merge after ports #295 and RPG #268]
 10,rpg,272,claude/pack-v1-3-wave9,claude/pack-v1-3-wave10,ports#324,Wave 10 pack inputs: platform-suite with upgrades [merge with ports #324]
 10,ports,325,claude/project-thread-mhfa65,,,Forgeworks augment-to-module fold [merge AFTER ports #319 and #324; then rebuild Forgeworks inside the platform suite from #325]
-0,global-repo,49,main,claude/project-thread-rzjwzu,,"Register S6951 assay_merge.py [edits SCRIPTS_INDEX.md and ids.tsv: merge one at a time, rebuild index on conflict]"
+3,global-repo,49,main,claude/project-thread-rzjwzu,,"Register S6951 assay_merge.py [edits SCRIPTS_INDEX.md and ids.tsv: merge one at a time, rebuild index on conflict]"
 0,ports,327,diaithircompat,claude/project-thread-celestials-2,,Blood Moon fold (retargeted to diaithircompat after #134 merged)
 10,ports,326,diaithircompat,claude/workshop-historical-bows,,"Workshop Bench blueprints for 15 historical bows and crossbows (after #203, merged)"
 10,ports,328,diaithircompat,claude/historical-throwables,,diaithir-arms: 16 historical throwables and slings (data-driven thrown-weapon entity)
@@ -223,9 +222,9 @@ wave,repo,number,base,head,partner,title
 0,ports,334,diaithircompat,claude/project-thread-ywzzrh,,"Aurorian: bow, arrows, crystalline beam, sickles, mirror of guidance (last Aurorian port; original jar can be dropped after merge)"
 0,global-repo,51,main,claude/aurorian-script-ids,,Index S6880 port.py and S6881 rcon.py with real paths [edits SCRIPTS_INDEX.md and ids.tsv: merge one at a time]
 0,global-repo,45,,,,MERGE_ORDER: reconcile with all open ready PRs (208 rows)
-0,global-repo,46,,,,"Item roles: use scan, 23.8k role assignments, report"
+1,global-repo,46,,,,"Item roles: use scan, 23.8k role assignments, report"
 0,global-repo,47,,,,"MERGE_ORDER: survey p1 carts, harbour module and harbour yards"
-0,global-repo,48,,,,Register S6950 gen_tags_extra and update S0317
+2,global-repo,48,,,,Register S6950 gen_tags_extra and update S0317
 0,ports,297,,,,"Survey p6: client QoL ports (pickup notifier, bars, balloons, AutoHUD, tooltips, mouse tweaks, zoom, GUI scale, chat)"
 0,ports,298,,,,"Survey p6: audio folded into clientcore, Structure Compass into worldsys"
 0,ports,299,,,,Survey p6: Packet Fixer and Ksyxis folded into crash-tools
@@ -249,23 +248,23 @@ wave,repo,number,base,head,partner,title
 0,ports,321,,,,wiretech: compute circuit readers before acting nodes change state
 2,ports,336,diaithircompat,claude/project-thread-slgjcj,,"Carts: textures for yards, cranes, parts and all rolling stock (after #206)"
 8,rpg,275,engine,claude/assay-tail-filing,,Panscriptum: file assay tail and retry entries into source universes (data only; 214 source-name hits dropped)
-0,global-repo,50,main,claude/project-thread-87zgrw,,Register S6953 recipes_to_stations.py [edits SCRIPTS_INDEX.md and ids.tsv: merge one at a time]
-0,global-repo,53,main,claude/project-thread-1bf7x4,,Merge order row for ports #339; register S6902 harvest_stock.py
+4,global-repo,50,main,claude/project-thread-87zgrw,,Register S6953 recipes_to_stations.py [edits SCRIPTS_INDEX.md and ids.tsv: merge one at a time]
+6,global-repo,53,main,claude/project-thread-1bf7x4,,Merge order row for ports #339; register S6902 harvest_stock.py
 0,ports,339,diaithircompat,,,Rail wagons as cargo carriers
 11,ports,330,claude/pack-v1-3-wave10,claude/pack-v1-3-wave11,rpg#273,"Wave 11: rebuilt claims, hud-overlays, world-visuals, voice-interaction and worldsys (pack-version sender) in the suites [merge after ports #324 and #325]"
-11,rpg,273,claude/pack-v1-3-wave10,claude/pack-v1-3-wave11,ports#330,"Wave 11 pack inputs [merge with ports #330]"
+11,rpg,273,claude/pack-v1-3-wave10,claude/pack-v1-3-wave11,ports#330,Wave 11 pack inputs [merge with ports #330]
 12,ports,342,claude/pack-v1-3-wave11,claude/pack-v1-3-wave12,rpg#276,"Wave 12: 88 open-licence downloads folded into seven suites (client 110 jars, server 95) [merge after ports #330]"
-12,rpg,276,claude/pack-v1-3-wave11,claude/pack-v1-3-wave12,ports#342,"Wave 12 pack inputs [merge with ports #342]"
-13,ports,343,claude/pack-v1-3-wave12,claude/pack-v1-3-wave13,rpg#277,"Wave 13: client suite absorbs four client jars (client 106 jars) [merge after ports #342]"
-13,rpg,277,claude/pack-v1-3-wave12,claude/pack-v1-3-wave13,ports#343,"Wave 13 pack inputs [merge with ports #343]"
-0,ports,344,diaithircompat,claude/claims-serverwaypoint,,"claims: move Server Waypoint into diaithir-claims so it compiles alone (merge before the next pack rebuild)"
+12,rpg,276,claude/pack-v1-3-wave11,claude/pack-v1-3-wave12,ports#342,Wave 12 pack inputs [merge with ports #342]
+13,ports,343,claude/pack-v1-3-wave12,claude/pack-v1-3-wave13,rpg#277,Wave 13: client suite absorbs four client jars (client 106 jars) [merge after ports #342]
+13,rpg,277,claude/pack-v1-3-wave12,claude/pack-v1-3-wave13,ports#343,Wave 13 pack inputs [merge with ports #343]
+0,ports,344,diaithircompat,claude/claims-serverwaypoint,,claims: move Server Waypoint into diaithir-claims so it compiles alone (merge before the next pack rebuild)
 2,ports,340,diaithircompat,claude/vehicle-carriers,,"Vehicles carry cargo: cars, trucks, trailers and tanks as cargo carriers (after #221 and #229)"
-2,ports,345,diaithircompat,claude/cars-engine-icons,,"Cars spawn with an engine (petrol engines use the avgas fuel type) and car and truck item icons"
+2,ports,345,diaithircompat,claude/cars-engine-icons,,Cars spawn with an engine (petrol engines use the avgas fuel type) and car and truck item icons
 3,ports,346,diaithircompat,claude/nested-bay-save,,"Containers on vehicles keep their loads through a save (after #340, merged)"
 14,ports,347,claude/pack-v1-3-wave13,claude/pack-v1-3-wave14,rpg#278,"Wave 14: drop 14 library and FTB jars per RPG #265 (client 91, server 80) [merge after ports #343]"
-14,rpg,278,claude/pack-v1-3-wave13,claude/pack-v1-3-wave14,ports#347,"Wave 14 pack inputs [merge with ports #347]"
+14,rpg,278,claude/pack-v1-3-wave13,claude/pack-v1-3-wave14,ports#347,Wave 14 pack inputs [merge with ports #347]
 0,ports,337,,,,"diaithir-animation-machines: own package and mod id, bone-derived rules for 450 machines"
 0,ports,338,,,,Fold Agritech: Evolved and Hydrofarm into diaithir-farmkitchen; move the reaper there
 0,ports,341,,,,Ships carry cargo: yard and Eureka ships as containers-API carriers
-0,global-repo,54,main,,,"Headless bot: cars drive, cargo and nested save tests"
-2,ports,348,diaithircompat,claude/loco-infobox-six,,"Carts roster: GG1 power and TGV start year from infoboxes (tiny)"
+7,global-repo,54,main,,,"Headless bot: cars drive, cargo and nested save tests"
+2,ports,348,diaithircompat,claude/loco-infobox-six,,Carts roster: GG1 power and TGV start year from infoboxes (tiny)
