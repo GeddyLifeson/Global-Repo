@@ -1,0 +1,198 @@
+{
+ "proxy_language": "Proto-Indo-European (late/Northwest-European dialect zone) as a deliberately weak proxy; alternative would be Proto-Uralic, rejected for primary use",
+ "confidence": "speculative",
+ "proxy_rationale": "The Swiderian (c. 11,000-9,000 BCE, Final Palaeolithic/early Mesolithic reindeer-hunting tool-making culture of the Polish-Belarusian-Baltic sandy plains, successor to Federmesser/Creswellian-type groups) is known only from stone tools (tanged points) and sites. No language can be linked. The region's later languages were Baltic and Finnic/Saami (Uralic) and, before them, unknown Mesolithic tongues, and the Old European hydronymy (Krahe) in the Baltic basin is traditionally read as an early Indo-European layer. For a game, PIE reconstruction notation gives a principled, phonotactically coherent system but with no claim of historical identity. The Swiderian language was almost certainly not PIE (PIE is conventionally dated to c. 4500-3500 BCE) and is not recoverable; treat this as a naming convention only. Use reconstructed roots (asterisked) and never present results as attested.",
+ "phonology": "Conventional PIE (Fortson/Ringe/Beekes notation). Stops: *p *t *k *kw (labiovelar; palatovelar *k' and plain *k collapsed to k for simplicity), *b *d *g *gw, aspirates *bh *dh *gh *gwh (collapsed to bh dh gh for the game). Fricative *s. Nasals *m *n. Liquids *r *l. Glides *y *w. Laryngeals h1 h2 h3 (written h1/h2/h3 or collapsed to h). Vowels *e *o *a (rare), long variants, plus syllabic resonants. No real attested Swiderian phonology exists.",
+ "phonotactics": "Roots are normally monosyllabic of shape (s)C(C)eC(C) with e-grade; maximum one stem vowel e/o. Initial clusters: s+stop (st, sp, sk), stop+liquid/glide (pr, tr, kr, pl, kl, tw, kw), s+resonant. Final clusters limited: -rt, -nt, -st, -ks. Syllabic resonants (r, l, m, n) may serve as nuclei between consonants. Words in game use: CV(C), CVC, CVCV(C) shapes, vowels e/o/a/i/u. No voiced aspirate + voiceless stop adjacency (bh-t, gh-t etc. assimilate). Roots do not begin and end with plain voiced stops of the same type (the b-e-d / d-e-g constraint).",
+ "orthography": "Reconstruction notation in plain Latin letters without asterisk in names: h for laryngeals (h1/h2/h3 simplified to h), kw gw gwh for labiovelars, bh dh gh for voiced aspirates, y w for glides, long vowels as doubled letters or macrons (e.g. ee/oo or e/o with macron). Syllabic resonants not marked. Case/ending vowels written -os, -om, -a, -i, -u, -es.",
+ "morphology": "Root + suffix structure: root (monosyllabic) + thematic vowel -e-/-o- + case ending. Nominative -s (masc/fem), neuter -m / zero; accusative -m, genitive -s/-es/-os/-syo (thematic), locative -i, ablative -(o)s/-ed, instrumental -(e)h1. Collective/feminine -eh2 (-a). Derivation: -ti- (action nouns), -tor- (agent), -yo- (adjective/relational), -mn (result/instrument), -tro-/-dhlo- (tool nouns), -ent-/-went- (possessor), -ko- (adjective), -ro- (adjective). Reduplication used in presents and some nouns (e.g. *kwekwlo-).",
+ "compounding": "Compounds are head-final determinative compounds: modifier stem + head noun, with a linking -o- (e.g. *ph2tr-o-... or *newo-bhrh2tr-). Possessive (bahuvrihi) compounds also head-final: 'X-having'. Genitive phrase 'Y of X': head noun + genitive of X, or compound X-o-Y. Agent names: noun + -tor / -o- + root, e.g. 'deer-hunter' = *g'hwer-o-wiHkwo. For game: 'X of Y' as Y-genitive after head or compound Y-o-X; 'Y-maker' as Y + -o- + root-agent.",
+ "noun_phrase_order": "Adjective + noun, genitive + noun in compounds; in free syntax PIE order was flexible (SOV default); adjectives agree in case/number/gender; genitive before head noun is the default for the game. Demonstrative before noun.",
+ "attested_roots": [
+  {
+   "form": "*h2ekwa-",
+   "gloss": "water, river",
+   "reconstructed": true
+  },
+  {
+   "form": "*h2elh1-",
+   "gloss": "to nourish, grow (elk? cf. *h1elh1en-)",
+   "reconstructed": true
+  },
+  {
+   "form": "*h1olh1en",
+   "gloss": "elk, deer",
+   "reconstructed": true
+  },
+  {
+   "form": "*h3rbhos",
+   "gloss": "orphan/reindeer-adjacent (unreliable); use *rwo (reindeer, uncertain)",
+   "reconstructed": true
+  },
+  {
+   "form": "*ph2ter-",
+   "gloss": "father",
+   "reconstructed": true
+  },
+  {
+   "form": "*dyew-",
+   "gloss": "sky, day, god",
+   "reconstructed": true
+  },
+  {
+   "form": "*seh2wl-",
+   "gloss": "sun",
+   "reconstructed": true
+  },
+  {
+   "form": "*meh1n-",
+   "gloss": "moon, month",
+   "reconstructed": true
+  },
+  {
+   "form": "*h2ster-",
+   "gloss": "star",
+   "reconstructed": true
+  },
+  {
+   "form": "*weh1d-r / *wod-r",
+   "gloss": "water",
+   "reconstructed": true
+  },
+  {
+   "form": "*h2egros",
+   "gloss": "field, pasture",
+   "reconstructed": true
+  },
+  {
+   "form": "*bheh2g'os",
+   "gloss": "beech tree, forest",
+   "reconstructed": true
+  },
+  {
+   "form": "*gwheh2n-",
+   "gloss": "to strike, kill (spear, arrow)",
+   "reconstructed": true
+  },
+  {
+   "form": "*peku",
+   "gloss": "livestock, wealth (late; use with caution)",
+   "reconstructed": true
+  },
+  {
+   "form": "*h1ey-",
+   "gloss": "to go",
+   "reconstructed": true
+  },
+  {
+   "form": "*steh2-",
+   "gloss": "to stand, place",
+   "reconstructed": true
+  },
+  {
+   "form": "*dhghom",
+   "gloss": "earth",
+   "reconstructed": true
+  },
+  {
+   "form": "*gwhen-",
+   "gloss": "to strike, hunt",
+   "reconstructed": true
+  }
+ ],
+ "worked_examples": [
+  {
+   "english": "Elk River",
+   "name": "Olenaquo",
+   "gloss": "olen-a (elk) + aqu-o (water, compound with -o-) -> 'elk-water'"
+  },
+  {
+   "english": "Sun Hunter",
+   "name": "Sawelgwhentor",
+   "gloss": "sawel (sun) + gwhen (strike) + -tor (agent) -> 'sun-striker'"
+  },
+  {
+   "english": "Sky Father",
+   "name": "Dyewpater",
+   "gloss": "dyew (sky) + pater (father), vocative-type compound"
+  },
+  {
+   "english": "Place of the Moon",
+   "name": "Menosdhom",
+   "gloss": "menos (moon, gen.) + dhom (earth/place) -> 'moon's ground'"
+  },
+  {
+   "english": "Beech Camp",
+   "name": "Bhagostat",
+   "gloss": "bhag-os (beech) + stat (place/stand, from *steh2-)"
+  },
+  {
+   "english": "Star Spear",
+   "name": "Sterogwhenos",
+   "gloss": "ster (star) + o + gwhen-os (striker, spear) -> 'star-striker'"
+  }
+ ],
+ "allowed_graphemes": [
+  "p",
+  "t",
+  "k",
+  "kw",
+  "b",
+  "d",
+  "g",
+  "gw",
+  "bh",
+  "dh",
+  "gh",
+  "gwh",
+  "s",
+  "m",
+  "n",
+  "r",
+  "l",
+  "y",
+  "w",
+  "h",
+  "e",
+  "o",
+  "a",
+  "i",
+  "u",
+  "ee",
+  "oo"
+ ],
+ "extra_allowed_chars": " -",
+ "forbidden_patterns": [
+  "[qxfzjc]",
+  "(.)\\1\\1",
+  "[aeiou]{3}",
+  "^[bdg]e[bdg]",
+  "(bh|dh|gh)[pt]",
+  "ng",
+  "tl",
+  "sr",
+  "hh",
+  "bh?bh",
+  "[^aeiouyhw]{4}"
+ ],
+ "syllables_per_word": [
+  2,
+  3,
+  4
+ ],
+ "max_word_length": 14,
+ "sources": [
+  "Fortson, Indo-European Language and Culture (2nd ed. 2010)",
+  "Ringe, From Proto-Indo-European to Proto-Germanic (2006)",
+  "Beekes, Comparative Indo-European Linguistics (1995)",
+  "Wiktionary Proto-Indo-European reconstruction pages",
+  "Pokorny, Indogermanisches etymologisches Woerterbuch (1959)",
+  "Krahe, Unsere aeltesten Fluszsnamen (1964)",
+  "Schild & Wiktor, Late Pleistocene Swiderian culture overview (Polish archaeological literature, e.g. Schild 1975)",
+  "Glottolog"
+ ],
+ "notes": "Swiderian has no linguistic evidence at all; this is a naming proxy. The game's placeholder names (Xubayir wunis; Wudik puworwa) contain letters (x, b-ay-ir) and cluster types not allowed in the proxy. No word may be identical to a Modern Irish, Scottish Gaelic or Manx word since PIE reconstructions are not Goidelic; avoid accidental matches such as 'mena' or 'bo'.",
+ "unit": "Swiderian",
+ "slug": "swiderian",
+ "model": "claude-sonnet-5-5"
+}

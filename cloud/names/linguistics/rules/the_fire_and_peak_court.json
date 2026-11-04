@@ -1,0 +1,187 @@
+{
+ "proxy_language": "Classical Armenian (Grabar), with Old Georgian as secondary comparandum and Commagenian Greek/Iranian theonyms (Nemrud Dag inscription) for court and cult vocabulary",
+ "confidence": "medium",
+ "proxy_rationale": "The label combines Armenia, Georgia and Commagene: a Hellenistic-Iranian court culture of fire-cult, mountain sanctuaries and royal tombs (Antiochus I of Commagene, Armenian Artaxiads/Arsacids, Iberian Kartli). Armenian is the best-attested language of the core region, rich in Iranian loanwords (Parthian) for court, religion and rank. Old Georgian (5th c. onward) is attested later but a defensible Kartvelian proxy for Iberia/Colchis. Commagene texts are in Greek, so Armenian (with Iranian-derived court and cult terms) is the main proxy and Georgian a flavour option. Link to any single 'court' is indirect, hence medium.",
+ "phonology": "Classical Armenian consonants: stops/affricates in three series (voiceless aspirated p' t' c' ch' k', voiced b d dz j g, voiceless unaspirated/ejective-reflex p t c ch k), fricatives s z sh zh x gh h v, sonorants m n r (trill) rr l, y. Vowels: a e i o u and the schwa-like ə (often unwritten). Old Georgian: five vowels a e i o u; ejectives p' t' k' q' c' ch' alongside aspirated p t k and voiced b d g; uvular q, gh, x; clusters allowed (e.g. mts-, bgh-, tskh-).",
+ "phonotactics": "Armenian: syllables (C)(C)V(C)(C); initial clusters occur (sk-, st-, sp-, kr-, tr-, pr-), but many Iranian loans keep clusters like 'ast-'; in native words an epenthetic ə-/e- is inserted before initial r- (erkir 'earth', erku 'two'). Words end in vowels or consonants (-n, -r, -s, -k', -ts). Stress falls on the last syllable (or penult before a final ə). Georgian: heavy consonant clusters (gvprtskvni), no stress effect on spelling. Native Armenian words rarely start with vowel+r clusters.",
+ "orthography": "Use the standard scholarly Hubschmann/Meillet Latin transliteration of Classical Armenian: aspirates written with an apostrophe or modifier (p' t' k' c' ch'), plus sh zh gh kh dz. For a simplified audit Latin spelling, use plain digraphs: ch, sh, zh, gh, kh, dz and treat aspirates as unmarked. Georgian: Latin romanization (national system) with apostrophe for ejectives optional.",
+ "morphology": "Armenian nouns decline for seven cases (nom, acc, gen, dat, abl, instr, loc) and two numbers (plural -k' / -er, -ner later); stems vowel-final (a-, i-, o-, u-stems) or consonantal. Genitive often -i, -oy, -u; ablative -e/-ê; instrumental -ov. Derivational suffixes: -ut'iwn (abstract, 'ness'), -ik (diminutive), -ean (patronymic/belonging), -akan (adjectival), -ar (agent/place), -ean, -ik. Adjectives follow agreement-free rules (no gender; case endings only). Georgian: agglutinative prefix-suffix morphology; nominal suffixes -i (nom), -is (gen), -s (dat), -it (instr); circumfix mi-...-eli for agents.",
+ "compounding": "Armenian compounds are head-final with a linking vowel -a- or -o- (-a- after most stems): erkir-a-gund 'globe', mard-a-sirt 'man-loving'. Examples: hur 'fire' + hrdeh; sar 'mountain/ridge' + berd 'fortress'. The genitive construction 'X of Y' is Y-genitive + X (e.g. tun azgi 'house of the nation'), but name-compounds typically use the linking vowel: Y-a-X (Ara-mazd, Vahagn, Mihr-a-kan 'of Mithra'). Agent nouns: stem + -ich or -ol ('maker' type). Georgian compounds also head-final with -a-/-o- linkers (mta-mtsvane).",
+ "noun_phrase_order": "Armenian: adjective before noun (Classical: bari 'good' + nom; mets 'great' + t'agavor 'king'), genitive before head (Hayots' ashkharh 'the land of the Armenians'); demonstratives precede. Georgian: adjective and genitive also precede the head noun. Prepositions are postposed in some Armenian constructions (i + abl).",
+ "attested_roots": [
+  {
+   "form": "hur",
+   "gloss": "fire",
+   "reconstructed": false
+  },
+  {
+   "form": "lear",
+   "gloss": "mountain (Armenian lerr, lear)",
+   "reconstructed": false
+  },
+  {
+   "form": "sar",
+   "gloss": "mountain, peak",
+   "reconstructed": false
+  },
+  {
+   "form": "ayr",
+   "gloss": "man",
+   "reconstructed": false
+  },
+  {
+   "form": "t'agawor",
+   "gloss": "king (Armenian t'agavor)",
+   "reconstructed": false
+  },
+  {
+   "form": "aryun",
+   "gloss": "blood",
+   "reconstructed": false
+  },
+  {
+   "form": "ar\\u00ear",
+   "gloss": "sun (arev, ariw)",
+   "reconstructed": false
+  },
+  {
+   "form": "lusin",
+   "gloss": "moon",
+   "reconstructed": false
+  },
+  {
+   "form": "astgh",
+   "gloss": "star",
+   "reconstructed": false
+  },
+  {
+   "form": "ostan",
+   "gloss": "royal court (Armenian ostan)",
+   "reconstructed": false
+  },
+  {
+   "form": "tur",
+   "gloss": "gift",
+   "reconstructed": false
+  },
+  {
+   "form": "erkir",
+   "gloss": "earth, land",
+   "reconstructed": false
+  },
+  {
+   "form": "get",
+   "gloss": "river (Armenian get)",
+   "reconstructed": false
+  },
+  {
+   "form": "mta",
+   "gloss": "mountain (Old Georgian)",
+   "reconstructed": false
+  },
+  {
+   "form": "mepe",
+   "gloss": "king (Old Georgian)",
+   "reconstructed": false
+  },
+  {
+   "form": "cecxli",
+   "gloss": "fire (Old Georgian)",
+   "reconstructed": false
+  }
+ ],
+ "worked_examples": [
+  {
+   "english": "Fire of the King",
+   "name": "T'agawori hur",
+   "gloss": "king-GEN fire"
+  },
+  {
+   "english": "Mountain Fortress",
+   "name": "Sarberd",
+   "gloss": "mountain + fortress"
+  },
+  {
+   "english": "Sun Mountain",
+   "name": "Arewlear",
+   "gloss": "sun + mountain (linked)"
+  },
+  {
+   "english": "Star Court",
+   "name": "Astghostan",
+   "gloss": "star + court"
+  },
+  {
+   "english": "River of Fire",
+   "name": "Hrageti",
+   "gloss": "fire-GEN? river (stem+get)"
+  },
+  {
+   "english": "King of the Peaks",
+   "name": "Sari t'agawor",
+   "gloss": "peak-GEN king"
+  }
+ ],
+ "allowed_graphemes": [
+  "a",
+  "e",
+  "i",
+  "o",
+  "u",
+  "y",
+  "b",
+  "d",
+  "g",
+  "gh",
+  "j",
+  "k",
+  "kh",
+  "l",
+  "m",
+  "n",
+  "p",
+  "r",
+  "s",
+  "sh",
+  "t",
+  "ts",
+  "ch",
+  "v",
+  "z",
+  "zh",
+  "x",
+  "h",
+  "dz"
+ ],
+ "extra_allowed_chars": " -'",
+ "forbidden_patterns": [
+  "^r",
+  "(.)\\1\\1",
+  "[qwf]",
+  "aa",
+  "ii",
+  "uu",
+  "ey[aeiou]"
+ ],
+ "syllables_per_word": [
+  2,
+  3,
+  4
+ ],
+ "max_word_length": 14,
+ "sources": [
+  "Hubschmann, Armenische Grammatik (1897)",
+  "Meillet, Esquisse d'une grammaire comparee de l'armenien classique (1936)",
+  "Schmitt (ed.), Classical Armenian Grammar (various)",
+  "Martirosyan, Etymological Dictionary of the Armenian Inherited Lexicon (2010)",
+  "Hewsen, Armenia: A Historical Atlas (2001)",
+  "Fahnrich, Altgeorgische Grammatik / Kartwelisches etymologisches Worterbuch (2007)",
+  "Wiktionary Proto-Kartvelian and Classical Armenian pages",
+  "Glottolog (Armenic, Kartvelian)",
+  "Sanders, Der Nemrud Dag Inschriften (Commagene) / Waldmann on Antiochus I"
+ ],
+ "notes": "No word may be identical to a Modern Irish, Scottish Gaelic or Manx word. The sample strings in the game (Hexyu siva, Moga monak, Genib, Wipbo, Gobyab, Hezi) are not Armenian-like and use unlicensed x/w/y patterns; names should instead use Armenian-style stems with -a-/-o- linkers and genitive -i/-oy/-ean. The Commagene component is only indirectly attested (Greek inscriptions with Iranian theonyms: Oromasdes, Artagnes, Verethragna); for such names use Armenian reflexes (Aramazd, Vahagn, Mihr) rather than invention.",
+ "unit": "The Fire-and-Peak Court",
+ "slug": "the_fire_and_peak_court",
+ "model": "claude-sonnet-5-5"
+}

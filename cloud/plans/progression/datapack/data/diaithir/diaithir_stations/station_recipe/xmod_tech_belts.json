@@ -1,0 +1,30 @@
+{
+ "neoforge:conditions": [
+  {
+   "type": "neoforge:mod_loaded",
+   "modid": "diaithir_stations"
+  },
+  {
+   "type": "neoforge:item_exists",
+   "item": "diaithir:foundry_lane_belt"
+  }
+ ],
+ "_node": "tech.belts",
+ "_age": "VI",
+ "station": "machine.assembler",
+ "stage": "assembly",
+ "ingredients": [
+  {
+   "tag": "c:plates/iron"
+  },
+  {
+   "tag": "c:gears/iron"
+  }
+ ],
+ "result": {
+  "id": "diaithir:foundry_lane_belt",
+  "count": 1
+ },
+ "time_s": 20,
+ "operator": false
+}

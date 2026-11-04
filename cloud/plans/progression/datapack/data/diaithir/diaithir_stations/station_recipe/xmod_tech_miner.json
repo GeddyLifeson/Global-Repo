@@ -1,0 +1,37 @@
+{
+ "neoforge:conditions": [
+  {
+   "type": "neoforge:mod_loaded",
+   "modid": "diaithir_stations"
+  },
+  {
+   "type": "neoforge:item_exists",
+   "item": "diaithir:foundry_drill"
+  },
+  {
+   "type": "neoforge:not",
+   "value": {
+    "type": "neoforge:tag_empty",
+    "tag": "diaithir:progression/circuit.basic"
+   }
+  }
+ ],
+ "_node": "tech.miner",
+ "_age": "VI",
+ "station": "machine.assembler",
+ "stage": "assembly",
+ "ingredients": [
+  {
+   "tag": "diaithir:progression/circuit.basic"
+  },
+  {
+   "tag": "c:plates/steel"
+  }
+ ],
+ "result": {
+  "id": "diaithir:foundry_drill",
+  "count": 1
+ },
+ "time_s": 4,
+ "operator": false
+}

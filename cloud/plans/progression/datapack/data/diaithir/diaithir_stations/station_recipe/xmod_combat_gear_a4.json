@@ -1,0 +1,47 @@
+{
+ "neoforge:conditions": [
+  {
+   "type": "neoforge:mod_loaded",
+   "modid": "diaithir_stations"
+  },
+  {
+   "type": "neoforge:item_exists",
+   "item": "diaithircombat:lib_sword"
+  },
+  {
+   "type": "neoforge:not",
+   "value": {
+    "type": "neoforge:tag_empty",
+    "tag": "diaithir:progression/leather"
+   }
+  },
+  {
+   "type": "neoforge:not",
+   "value": {
+    "type": "neoforge:tag_empty",
+    "tag": "diaithir:progression/libgear.a3"
+   }
+  }
+ ],
+ "_node": "combat.gear_a4",
+ "_age": "IV",
+ "station": "station.smeltery",
+ "stage": "part",
+ "ingredients": [
+  {
+   "tag": "c:ingots/iron"
+  },
+  {
+   "tag": "diaithir:progression/leather"
+  },
+  {
+   "tag": "diaithir:progression/libgear.a3"
+  }
+ ],
+ "result": {
+  "id": "diaithircombat:lib_sword",
+  "count": 1
+ },
+ "time_s": 10,
+ "operator": false
+}

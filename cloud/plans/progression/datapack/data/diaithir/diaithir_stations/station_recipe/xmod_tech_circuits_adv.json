@@ -1,0 +1,47 @@
+{
+ "neoforge:conditions": [
+  {
+   "type": "neoforge:mod_loaded",
+   "modid": "diaithir_stations"
+  },
+  {
+   "type": "neoforge:item_exists",
+   "item": "diaithir:foundry_circuit_advanced"
+  },
+  {
+   "type": "neoforge:not",
+   "value": {
+    "type": "neoforge:tag_empty",
+    "tag": "diaithir:progression/circuit.basic"
+   }
+  },
+  {
+   "type": "neoforge:not",
+   "value": {
+    "type": "neoforge:tag_empty",
+    "tag": "diaithir:progression/machine.assembler"
+   }
+  }
+ ],
+ "_node": "tech.circuits_adv",
+ "_age": "VII",
+ "station": "machine.assembler",
+ "stage": "process",
+ "ingredients": [
+  {
+   "tag": "diaithir:progression/circuit.basic"
+  },
+  {
+   "tag": "c:ingots/gold"
+  },
+  {
+   "tag": "diaithir:progression/machine.assembler"
+  }
+ ],
+ "result": {
+  "id": "diaithir:foundry_circuit_advanced",
+  "count": 1
+ },
+ "time_s": 3,
+ "operator": false
+}

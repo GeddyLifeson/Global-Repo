@@ -1,0 +1,201 @@
+{
+ "proxy_language": "Old Japanese (Nara period, 8th c., as recorded in Man'yoshu, Kojiki, Nihon Shoki, Fudoki, Engishiki norito) with Heian Classical Japanese Sino-Japanese court vocabulary as a secondary layer",
+ "confidence": "high",
+ "proxy_rationale": "The Kami Court, a later Japanese court of kami-worship and imperial ritual (Yamato/Nara/Heian era shrine and court religion), is directly attested in Old Japanese, the language of the Kojiki, Man'yoshu and the Shinto liturgies (norito, Engishiki). Native (Yamato kotoba) words are preferred for kami, places and ritual items; Sino-Japanese (on'yomi) compounds are a later, court-prestige layer.",
+ "phonology": "Old Japanese (Western Old Japanese) had about 8 vowels in the Man'yoshu kana record: a, i1 (kou-rui i), i2 (otsu-rui i), u, e1, e2, o1, o2 (o2 central/mid-back unrounded), commonly romanized as a i u e o with optional type-distinction marks; for a game, simplified five-vowel Hepburn-style romanization (a i u e o) is acceptable. Consonants: p (later h), t, k, s (probably ts or sh-ish), m, n, r, y, w, b, d, g, z (prenasalized voiced stops, mb nd ng nz, in voiced series). Moraic structure; length of vowels not phonemic in OJ.",
+ "phonotactics": "Strictly (C)V open syllables (mora = syllable shape: V, CV, CjV via y/w glides). No consonant clusters, no word-final consonants except the moraic nasal in later periods (n appears as N only in Sino-Japanese loans, from Heian on). Native Yamato words never begin with r, and voiced obstruents (b d g z) do not begin native words (Rendaku and Lyman's law operate in compounds). Vowel hiatus is avoided or resolved by elision/contraction at morpheme boundaries (e.g. ame + no -> ama-no, ki + no -> ko-no/ki-no). Pitch accent exists but is not written.",
+ "orthography": "Modified Hepburn / Nihon-shiki-style romanization: a i u e o; k s t n h(p) m y r w; g z d b; sh ch ts j; long vowels as macron or doubled for Sino-Japanese words (omit macrons for game audit if needed); in OJ philology p- is reconstructed for later h-, but Hepburn h is the standard scholarly form for the Heian-and-later court. Use hyphens to mark morpheme boundaries in compounds when helpful.",
+ "morphology": "Agglutinating, SOV, postpositions. Native nouns are uninflected; case particles: no (genitive, 'of'), ga (genitive, subject/humble or pejorative), ni (dative/locative), wo/o (accusative), to (comitative), ya (vocative or listing), mo (also, topic). Verb roots are agglutinated with attached verbal suffixes (-mu, -ki, -ri). Plurals formed by -ra, -domo, -tachi, -gimi (and reduplication of nouns, e.g. hito-bito, kuni-guni, yama-yama).",
+ "compounding": "Head-final: modifier + head. Native compounds join directly with rendaku (voicing of initial consonant of second element, e.g. ama + kaze -> amagaze not common; fune + hito -> funabito), or with the genitive linker no/tsu/na (relic genitives: tsu in ama-tsu 'of heaven', kuni-tsu 'of the land', na in mi-na-to 'water-gate', minato). 'X of Y' = Y no X (e.g. ame no mikoto, ame no mi-naka-nushi no kami). Names of kami are commonly built as place/quality/function + nushi/mikoto/kami/hiko/hime/mi. Agent nouns formed with -shi, -bito, -be (occupational group), -nushi (master).",
+ "noun_phrase_order": "Modifier before head; genitive before head noun with no (Y no X); relative clause before noun; adjectives (stem forms ending -ki in attributive, e.g. takaki yama 'tall mountain') precede the noun; numerals/classifiers follow the noun or precede with ko (Sino) classifiers in later usage.",
+ "attested_roots": [
+  {
+   "form": "kami",
+   "gloss": "deity, spirit, god",
+   "reconstructed": false
+  },
+  {
+   "form": "ame",
+   "gloss": "heaven, sky (also rain)",
+   "reconstructed": false
+  },
+  {
+   "form": "tsuchi",
+   "gloss": "earth, soil",
+   "reconstructed": false
+  },
+  {
+   "form": "yama",
+   "gloss": "mountain",
+   "reconstructed": false
+  },
+  {
+   "form": "kawa",
+   "gloss": "river",
+   "reconstructed": false
+  },
+  {
+   "form": "umi",
+   "gloss": "sea",
+   "reconstructed": false
+  },
+  {
+   "form": "hi",
+   "gloss": "sun, fire, day",
+   "reconstructed": false
+  },
+  {
+   "form": "tsuki",
+   "gloss": "moon, month",
+   "reconstructed": false
+  },
+  {
+   "form": "kaze",
+   "gloss": "wind",
+   "reconstructed": false
+  },
+  {
+   "form": "ki",
+   "gloss": "tree",
+   "reconstructed": false
+  },
+  {
+   "form": "mizu",
+   "gloss": "water",
+   "reconstructed": false
+  },
+  {
+   "form": "kuni",
+   "gloss": "land, country",
+   "reconstructed": false
+  },
+  {
+   "form": "miya",
+   "gloss": "shrine, palace, august house",
+   "reconstructed": false
+  },
+  {
+   "form": "mikoto",
+   "gloss": "honorific for kami and princes (lit. august thing/word)",
+   "reconstructed": false
+  },
+  {
+   "form": "nushi",
+   "gloss": "master, lord, owner",
+   "reconstructed": false
+  },
+  {
+   "form": "hime",
+   "gloss": "princess, female noble or deity",
+   "reconstructed": false
+  },
+  {
+   "form": "hiko",
+   "gloss": "prince, male noble or deity",
+   "reconstructed": false
+  },
+  {
+   "form": "ine",
+   "gloss": "rice plant",
+   "reconstructed": false
+  },
+  {
+   "form": "sake",
+   "gloss": "rice wine",
+   "reconstructed": false
+  },
+  {
+   "form": "fune",
+   "gloss": "ship, boat",
+   "reconstructed": false
+  }
+ ],
+ "worked_examples": [
+  {
+   "english": "Temple of the Sun",
+   "name": "Hi no Miya",
+   "gloss": "sun GEN shrine"
+  },
+  {
+   "english": "Mountain Spirit",
+   "name": "Yama no Kami",
+   "gloss": "mountain GEN kami"
+  },
+  {
+   "english": "River Stew",
+   "name": "Kawa no Nimono",
+   "gloss": "river GEN simmered-thing (ni- 'simmer' + mono 'thing')"
+  },
+  {
+   "english": "Sky Ship",
+   "name": "Ame no Fune",
+   "gloss": "heaven GEN ship"
+  },
+  {
+   "english": "Lord of the Rice Fields",
+   "name": "Ine no Nushi",
+   "gloss": "rice-plant GEN master"
+  },
+  {
+   "english": "Sacred Sake of the Sea",
+   "name": "Umi no Miki",
+   "gloss": "sea GEN august-sake (mi- honorific + ki 'liquor')"
+  }
+ ],
+ "allowed_graphemes": [
+  "a",
+  "i",
+  "u",
+  "e",
+  "o",
+  "k",
+  "g",
+  "s",
+  "z",
+  "t",
+  "d",
+  "n",
+  "h",
+  "b",
+  "p",
+  "m",
+  "y",
+  "r",
+  "w",
+  "sh",
+  "ch",
+  "ts",
+  "j",
+  "f"
+ ],
+ "extra_allowed_chars": " -'\ba\b|āīūēō",
+ "forbidden_patterns": [
+  "[^aiueo]{2}(?<!sh)(?<!ch)(?<!ts)",
+  "(?<![aiueo])n(?![aiueo])$",
+  "(^|[ -])[bdgzr]",
+  "[aiueo]{3}",
+  "(q|x|v|l|c(?!h))"
+ ],
+ "syllables_per_word": [
+  2,
+  3,
+  4,
+  5
+ ],
+ "max_word_length": 14,
+ "sources": [
+  "Frellesvig, Bjarke - A History of the Japanese Language (2010)",
+  "Vovin, Alexander - A Descriptive and Comparative Grammar of Western Old Japanese (2005)",
+  "Miyake, Marc Hideo - Old Japanese: A Phonetic Reconstruction (2003)",
+  "Martin, Samuel E. - The Japanese Language Through Time (1987)",
+  "Omodaka Hisataka et al. - Jidaibetsu Kokugo Daijiten: Jodai-hen (1967)",
+  "Philippi, Donald - Kojiki (1968, translation and notes)",
+  "Aston, W. G. - Nihongi (1896, translation)",
+  "Bock, Felicia - Engi-shiki: Procedures of the Engi Era (1970-72)",
+  "Glottolog and Wiktionary Old Japanese entries (for lexical checks)"
+ ],
+ "notes": "No word may be identical to a Modern Irish, Scottish Gaelic or Manx word (the Kami Court is not Goidelic); the Old Japanese forms above are cross-checked against that constraint in a mechanical sense only (short Japanese forms like ki or mi coincide with Gaelic homographs only by chance and should be compared against the audit list). Current game strings (e.g. Pomus, Kupuko, Gewuma, Kesidis, Yutewig) violate OJ phonotactics (closed syllables, ew/ig clusters, ge- onset forms, -s endings). Names should be Y no X / X-nushi / X-hime / X-hiko / X-no-mikoto patterns built from the roots above. Voiced initials b d g z r should appear only in non-initial positions of a compound (rendaku) or in Sino-Japanese loanwords; the forbidden_patterns regex list is applied after lowercasing and is a heuristic for the audit (the first pattern flags non-sh/ch/ts consonant pairs). Long vowels in Sino-Japanese words may be written with macrons or doubled vowels (extra_allowed_chars includes macron vowels).",
+ "unit": "The Kami Court",
+ "slug": "the_kami_court",
+ "model": "claude-sonnet-5-5"
+}

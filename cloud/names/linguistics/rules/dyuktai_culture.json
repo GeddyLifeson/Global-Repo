@@ -1,0 +1,144 @@
+{
+ "proxy_language": "Proto-Yeniseian (with Ket as the attested descendant) as primary proxy; Proto-Tungusic/Even-Evenki and Yukaghir as secondary regional comparanda",
+ "confidence": "speculative",
+ "proxy_rationale": "The Dyuktai culture (c. 35,000-10,000 BP, Aldan basin, Yakutia; bearers of microblade/wedge-shaped core technology ancestral to Beringian and some Native American populations) predates any language attested or reconstructable by the comparative method (time depth limit ~8-10 kya). No language can be tied to it demonstrably. The least indefensible proxy is Yeniseian (Ket, Kott, Yugh; reconstructed Proto-Yeniseian) because it is the sole surviving family in Central Siberia with deep, non-Altaic, non-Uralic roots and Ket hydronymy covers a wide area, plus Dene-Yeniseian hypothesis links it to Na-Dene (contested). Yukaghir (Kolyma/Tundra Yukaghir, Uralic-connected possibly) is the other candidate for Yakutia-Kolyma aboriginal language; Turkic Sakha and Tungusic are late arrivals (<1500 years) and should be avoided. Linkage is archaeologically motivated only; names are evocative, not claims of actual Dyuktai speech.",
+ "phonology": "Ket (Vajda 2004; Georg 2007): consonants p b t d k q (uvular) g? s h x(velar fricative) ts, tʃ-like affricates, m n ŋ, l, j, w; ɬ marginal. Vowels i e a o u plus central ɨ/ə; five tone-like pitch contours in Ket (falling, rising, glottalization/laryngealization), represented in Latin transcriptions with diacritics or digits. Proto-Yeniseian reconstruction (Starostin, Vajda) has a voicing/aspiration-ish contrast in stops, uvular q, and glottalized elements. Reconstructed forms are tentative.",
+ "phonotactics": "Mostly (C)V(C) syllables; monosyllabic and disyllabic roots dominate (Ket noun roots typically CV(C) or CVC). Onset clusters absent or very limited in roots; codas restricted to simple consonants (n, t, k, s, l, ŋ, m). Words rarely end in voiced stops. Verb complex is large but nouns are short. Recommended game shape: CV, CVC, CVCV, CVCVC with no clusters except across syllable boundary (-ŋ-, -nt-, -lk-).",
+ "orthography": "Use simplified Latin Ket-style transliteration: p b t d k q g s x h m n ŋ l r? (avoid r word-initially) j w; affricates written ts and ch; vowels a e i o u and ɨ approximated as y; diacritics avoided. Digraphs: ts, ch, ng (for ŋ), kh (for x). Apostrophe may mark glottalization (e.g. k'). Hyphen separates morphemes or head-modifier in compounds.",
+ "morphology": "Ket nouns have three genders (masculine, feminine, inanimate/neuter) marked on agreement not on the noun; plural suffixes -n, -ŋ, -aŋ, -naŋ, -ŋa (variable); possessive and case suffixes: locative -da/-ga, ablative -ka? , dative-like -ta, instrumental -ʔn? (details approximate). Verbs are polysynthetic with prefix chains. For naming purposes use bare noun roots, optionally with plural/collective -n or -ŋ, or a locative -da/-ga for places.",
+ "compounding": "Ket forms compounds by juxtaposition of noun roots, modifier before head (N-N), e.g. possessor + possessed: kɨt (dog) + tul? type compounds; heads are final. Genitive/possessive relation shown by possessor noun preceding possessed noun, often with a possessive prefix on the head or simple juxtaposition. Agentive 'X-maker' formed by deverbal nominalizer on a verb root after object noun (approximate: object + verb-root-nominalized). Game recommendation: Modifier-Head order, joined with hyphen, e.g. qaʔ-tul.",
+ "noun_phrase_order": "Modifier-head: possessor/adjective/attributive noun precedes head noun; numerals and demonstratives precede. Adjectives are largely stative verbs or nouns in attributive position.",
+ "attested_roots": [
+  {
+   "form": "dɛŋ",
+   "gloss": "water, river (Ket)",
+   "reconstructed": false
+  },
+  {
+   "form": "qɔt",
+   "gloss": "fire",
+   "reconstructed": false
+  },
+  {
+   "form": "ses",
+   "gloss": "river (Ket)",
+   "reconstructed": false
+  },
+  {
+   "form": "kɨt",
+   "gloss": "dog",
+   "reconstructed": false
+  },
+  {
+   "form": "ul",
+   "gloss": "water, wet (Ket/Yeniseian cognate)",
+   "reconstructed": false
+  },
+  {
+   "form": "kɔl",
+   "gloss": "sun, day (Ket qɔl-like)",
+   "reconstructed": false
+  },
+  {
+   "form": "bɔk",
+   "gloss": "father (Ket)",
+   "reconstructed": false
+  },
+  {
+   "form": "ʔaʔ",
+   "gloss": "mother (Ket)",
+   "reconstructed": false
+  },
+  {
+   "form": "tuj",
+   "gloss": "stone (Ket)",
+   "reconstructed": false
+  },
+  {
+   "form": "hɨtn",
+   "gloss": "tree, wood (Ket approx.)",
+   "reconstructed": false
+  },
+  {
+   "form": "ʔas",
+   "gloss": "reindeer/animal (approx. Ket)",
+   "reconstructed": false
+  },
+  {
+   "form": "*qɔj",
+   "gloss": "moon (Proto-Yeniseian, approximate)",
+   "reconstructed": true
+  },
+  {
+   "form": "*ʔɔl",
+   "gloss": "house/dwelling (Proto-Yeniseian, approximate)",
+   "reconstructed": true
+  },
+  {
+   "form": "*kɨn",
+   "gloss": "star (Proto-Yeniseian, approximate)",
+   "reconstructed": true
+  },
+  {
+   "form": "*dɛ",
+   "gloss": "earth/land (Proto-Yeniseian, approximate)",
+   "reconstructed": true
+  }
+ ],
+ "worked_examples": [],
+ "allowed_graphemes": [
+  "a",
+  "e",
+  "i",
+  "o",
+  "u",
+  "y",
+  "p",
+  "b",
+  "t",
+  "d",
+  "k",
+  "q",
+  "g",
+  "s",
+  "x",
+  "h",
+  "m",
+  "n",
+  "ng",
+  "l",
+  "j",
+  "w",
+  "ts",
+  "ch",
+  "kh"
+ ],
+ "extra_allowed_chars": " -'",
+ "forbidden_patterns": [
+  "[aeiouy]{3,}",
+  "[bcdfghjklmnpqrstvwxz]{3,}",
+  "^[ng]",
+  "[bdg]$",
+  "(.)\\1{2,}",
+  "[cfrvz]",
+  "(kk|tt|pp|ss|ll|nn|mm)[kptsbdg]"
+ ],
+ "syllables_per_word": [
+  1,
+  2,
+  3
+ ],
+ "max_word_length": 12,
+ "sources": [
+  "Vajda, Edward. 2004. Ket. Languages of the World/Materials 204. Lincom Europa.",
+  "Georg, Stefan. 2007. A Descriptive Grammar of Ket (Yenisei-Ostyak). Global Oriental.",
+  "Starostin, Sergei. Yeniseian etymological database (Starling database, starling.rinet.ru).",
+  "Vajda, Edward and Werner, Heinrich. Proto-Yeniseian reconstructions (Dene-Yeniseian work).",
+  "Glottolog: Yeniseian family entry.",
+  "Mochanov, Yuri. 1977. Drevneyshie etapy zaseleniya chelovekom Severo-Vostochnoy Azii (Dyuktai culture archaeology)."
+ ],
+ "notes": "The Dyuktai culture has no linguistic attestation; any proxy is speculative. Yeniseian is used only for plausibility of Siberian phonotactics (short CV(C) roots, modifier-head compounds), not as a historical claim. Reconstructed Proto-Yeniseian forms listed are approximate and should be treated as sound-shape models rather than precise etyma. Avoid words identical to Sakha (Turkic), Evenki (Tungusic) or Russian items. No word may be identical to a Modern Irish, Scottish Gaelic or Manx word since this culture is not Goidelic.",
+ "unit": "Dyuktai culture",
+ "slug": "dyuktai_culture",
+ "model": "claude-sonnet-5-5"
+}
