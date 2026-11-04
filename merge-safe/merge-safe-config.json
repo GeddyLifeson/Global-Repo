@@ -42,5 +42,10 @@
       "ports#151",
       "rpg#241"
     ]
-  ]
+  ],
+  "sync": {
+    "repo": "GeddyLifeson/Global-Repo",
+    "ref": "claude/project-thread-zuc996",
+    "path": "merge-safe"
+  }
 }
