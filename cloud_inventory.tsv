@@ -369,3 +369,7 @@ assign_ages.py	4810	Give every item with no Age one: by-item table, material and
 tools/powers/build_grants.py	862	Builds the pack grants.json (being to pool power ids) from the extraction list; rejects unknown pool ids.	yes
 tools/powers/grant_on_spawn.js	3742	KubeJS server script in the pack: gives pool powers to mobs and NPCs on load from grants.json (copy of DiaithirRPG distribution/overrides/kubejs/server_scripts/powers).	yes
 tools/powers/build_pool_json.py	1914	Builds the pack pool.json from POWER_POOL.tsv, adding the mob-side emulation table for active powers.	yes
+tools/panscriptum/master_sheet.py	1747	Builds plans/PANSCRIPTUM_MASTER.tsv: one row per Library being with source wiki, powers, pack entity, card shard.	yes
+tools/panscriptum/infer_source_names.py	1331	Fills inferred_source in PANSCRIPTUM_MASTER.tsv from wiki lead text, no AI.	yes
+tools/panscriptum/coverage_check.py	2294	Full source-page coverage: every wiki lead page vs Library entries; unlinked pages list. No AI.	yes
+tools/powers/judge_pages.py	14082	Judges each wiki lead page with Claude Haiku Batch: being or not, pool powers, magnitude 1-10, evidence quote, missing powers (S6975).	yes
