@@ -66,8 +66,9 @@ with Lane('tank', JARS, client_files=CF, srv_xmx='3G', out=out) as L:
             rep['ff_gun_before'] = gunstate()
             rep['ff_before'] = ents0(); nl = len(L.log_lines('server', r'.'))
             if os.environ.get('TANK_FIRE_CMD'):
+                rep['ff_status_before'] = S('execute as Tester at Tester run diaithirvehicle status', 1.0)
                 rep['ff_cmd'] = S('execute as Tester at Tester run diaithirvehicle fire 60', 1.0); time.sleep(1.5); L.shot('05c_fire_cmd_1.png'); time.sleep(2.5)
-                rep['ff_ents_cmd'] = ents0(); rep['ff_gun_cmd'] = gunstate(); L.shot('05d_fire_cmd_2.png')
+                rep['ff_status_after'] = S('execute as Tester at Tester run diaithirvehicle status', 1.0); rep['ff_ents_cmd'] = ents0(); rep['ff_gun_cmd'] = gunstate(); L.shot('05d_fire_cmd_2.png')
             d.hold('space', 3.0); time.sleep(0.5); L.shot('05a_fire_seated.png'); d.hold('space', 0.2); time.sleep(0.3); L.shot('05b_fire_seated_tap.png')
             rep['ff_gun_after'] = gunstate()
             rep['ff_after'] = ents0(); rep['ff_server_lines'] = [l[:240] for l in L.log_lines('server', r'.')[nl:] if 'ents:' not in l][:15]
