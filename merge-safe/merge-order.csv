@@ -262,3 +262,5 @@ wave,repo,number,base,head,partner,title
 2,ports,340,diaithircompat,claude/vehicle-carriers,,"Vehicles carry cargo: cars, trucks, trailers and tanks as cargo carriers (after #221 and #229)"
 2,ports,345,diaithircompat,claude/cars-engine-icons,,"Cars spawn with an engine (petrol engines use the avgas fuel type) and car and truck item icons"
 3,ports,346,diaithircompat,claude/nested-bay-save,,"Containers on vehicles keep their loads through a save (after #340, merged)"
+14,ports,347,claude/pack-v1-3-wave13,claude/pack-v1-3-wave14,rpg#278,"Wave 14: drop 14 library and FTB jars per RPG #265 (client 91, server 80) [merge after ports #343]"
+14,rpg,278,claude/pack-v1-3-wave13,claude/pack-v1-3-wave14,ports#347,"Wave 14 pack inputs [merge with ports #347]"
