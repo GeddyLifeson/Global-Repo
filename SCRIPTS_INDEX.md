@@ -6866,3 +6866,4 @@ Run hints: .py `python3 <file>` (PC `py`), .ps1 via a hidden launcher (never a v
 | S6957 | cloud | `assign_ages.py` | Give every item with no Age one: by-item table, material and namespace rules; writes data/ages/NOAGE_ASSIGNED.csv. | yes |
 | S6918 | cloud | `diaithir-ports/diaithir-firearms/tools/gen_containers.py` | S6918 Writes container_kinds.json and the diaithircrafting uses_container and ammo_class item tags for diaithir-firearms (munitions container contract) | yes |
 | S6955 | cloud | `tools/item_roles/export_kubejs.py` | S6955 Writes ITEM_ROLES.csv as per-namespace kubejs JSON for the pack | yes |
+| S6961 | cloud | `tools/powers/extract_being_powers.py` | S6961 Scan every Panscriptum being card (name+summary) for POWER_POOL keywords, write BEING_POWERS.tsv (key, power ids, count); no AI | yes |
