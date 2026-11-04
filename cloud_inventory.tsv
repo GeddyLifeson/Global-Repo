@@ -368,3 +368,4 @@ integration/pairs_extra.txt	18392	Hand-written pair interactions loaded by matri
 assign_ages.py	4810	Give every item with no Age one: by-item table, material and namespace rules; writes data/ages/NOAGE_ASSIGNED.csv.	yes
 tools/panscriptum/master_sheet.py	1747	Builds plans/PANSCRIPTUM_MASTER.tsv: one row per Library being with source wiki, powers, pack entity, card shard.	yes
 tools/panscriptum/infer_source_names.py	1331	Fills inferred_source in PANSCRIPTUM_MASTER.tsv from wiki lead text, no AI.	yes
+tools/panscriptum/coverage_check.py	2294	Full source-page coverage: every wiki lead page vs Library entries; unlinked pages list. No AI.	yes
