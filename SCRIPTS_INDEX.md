@@ -325,6 +325,8 @@ Run hints: .py `python3 <file>` (PC `py`), .ps1 via a hidden launcher (never a v
 | S0313 | cloud | `compat/gen_tags.py` | Union material-named ingots, plates, gears, dusts, ores into c: convention tag files with required=false. | yes |
 | S0314 | cloud | `compat/gen_rules_api.py` | Ask Haiku (direct parallel cached calls) which blocks per mod are working blocks, with slots, kinds, units, Age. | yes |
 | S0315 | cloud | `compat/gen_data.py` | Build the compat datapack: upgrade shim rules, unit stores, Age gaps, Codex and quest links per mod. | yes |
+| S0316 | cloud | `compat/gen_recipes.py` | Add load conditions to recipes naming absent mods and cross-mod dust/raw smelting to the shared ingot. | yes |
+| S0317 | cloud | `compat/gen_station_moves.py` | Move non-trivial vanilla and kept-mod grid recipes onto the Age ladder of stations with a fallback grid recipe. | yes |
 | S0316 | cloud | `names/linguistics/audit_names.py` | S0316 Audits every culture name in names/*.json against names/linguistics/rules/<slug>.json (graphemes, forbidden patterns, word length); wr | yes |
 | S0317 | cloud | `names/linguistics/research_rules.py` | S0317 One direct cached Claude call per culture language: researches how a linguist builds words there, writes names/linguistics/rules/<slug | yes |
 | S0322 | global | `claim_id.py` | S0322 atomically claims the next free script ID(s) via next_id (pull --rebase, bump, push, retry): python3 -I claim_id.py [count] | yes |
@@ -6840,11 +6842,10 @@ Run hints: .py `python3 <file>` (PC `py`), .ps1 via a hidden launcher (never a v
 | S6877 | cloud | `cloud/animation/set_owner3_status.py` | S6876 Sets owner-3 (mobs, NPCs, bosses) status in ANIMATIONS_COVERAGE.csv: done for our GeckoLib/boss work, route for third-party mods, todo for own fauna. | yes |
 | S6880 | global | `diaithir-ports PR 181: port.py (path in repo unconfirmed)` | S6880 Aurorian port script (diaithir-ports PR 181; copy lives in that repo) | no |
 | S6881 | global | `diaithir-ports PR 181: rcon.py (path in repo unconfirmed)` | S6881 Aurorian rcon helper for the port tests (diaithir-ports PR 181; copy lives in that repo) | no |
-| S6920 | cloud | `tools/item_roles/scan_uses.py` | S6920 Scans DiaithirRPG content/ for every priced item id and counts pack-layer uses by category | yes |
-| S6921 | cloud | `tools/item_roles/make_jobs.py` | S6921 Builds item_roles-sNN compute jobs (30 items per row) from the use scan | yes |
-| S6944 | cloud | `tools/item_roles/merge_roles.py` | S6944 Merges item_roles job output into plans/ITEM_ROLES.csv and writes retry rows | yes |
-| S6945 | cloud | `tools/item_roles/report.py` | S6945 Builds plans/ITEM_ROLES.md (classes, link counts, isolated systems, decor) | yes |
-| S6946 | cloud | `tools/item_roles/apply_ages.py` | S6946 Adds the tech_ages.json Age (authoritative) to plans/ITEM_ROLES.csv beside the Haiku draft Age | yes |
+| S6947 | global | `crawl_all.py` | S0335 crawls /mnt/project-files into catalog/{D,F,M,A,J}.tsv with stable IDs: python3 -I crawl_all.py <repo> | yes |
+| S6948 | cloud | `names/linguistics/audit_names.py` | S0316 Audits every culture name in names/*.json against names/linguistics/rules/<slug>.json (graphemes, forbidden patterns, word length); wr | yes |
+| S6949 | cloud | `names/linguistics/research_rules.py` | S0317 One direct cached Claude call per culture language: researches how a linguist builds words there, writes names/linguistics/rules/<slug | yes |
+| S6950 | cloud | `compat/gen_tags_extra.py` | Name-suffix convention tags (logs, planks, slabs, rails, glass, furniture) for building, tree, furniture and rail jars. | yes |
 | S6885 | cloud | `diaithir-ports/diaithir-worldgen-structures/tools/c_tags.py` | Generates the c: convention structure and biome tags for the worldgen-structures module (per class, mazes, villages, ruins, dungeons). | yes |
 | S6894 | cloud | `diaithir-ports/diaithir-wiretech/tools/gen_circuit_assets.py` | Diaithir Wiretech circuit network assets: textures, models, blockstates, lang, recipes and age gate for the combinator blocks; run after gen_assets.py. | no |
 | S6895 | cloud | `diaithir-ports/diaithir-wiretech/src/main/java/net/diaithir/wiretech/circuit/CoreCheck.java` | Plain-Java check of the circuit core (signals, combinators, solver, tiers): javac then java -ea. | no |
