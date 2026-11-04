@@ -1,0 +1,19 @@
+{
+ "neoforge:conditions": [
+  {
+   "type": "neoforge:item_exists",
+   "item": "diaithircrafting:foundry_research_pack_1"
+  }
+ ],
+ "_node": "research.pack_1",
+ "_age": "I",
+ "type": "minecraft:crafting_shapeless",
+ "category": "misc",
+ "ingredients": [
+  "minecraft:clay_ball"
+ ],
+ "result": {
+  "id": "diaithircrafting:foundry_research_pack_1",
+  "count": 1
+ }
+}
