@@ -267,5 +267,3 @@ wave,repo,number,base,head,partner,title
 16,ports,356,claude/pack-v1-3,claude/pack-v1-3-wave16,,Pack wave16: farmkitchen fold, productivebees fix
 17,ports,359,claude/pack-v1-3,claude/pack-v1-3-wave17,,Pack wave17: Stellaris fixes (full-pack join passed 17:52Z)
 0,global-repo,68,main,claude/project-thread-2xfzmi,,Merge the stale index PRs into one [edits SCRIPTS_INDEX.md and ids.tsv]
-0,global-repo,65,main,claude/project-thread-dbu33i,,Relink assayed Panscriptum beings to source pages (S6974)
-0,global-repo,66,main,claude/project-thread-28p9u0,,Panscriptum gap fill: DC characters (23764) with source page ids
