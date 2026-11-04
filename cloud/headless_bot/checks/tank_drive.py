@@ -8,7 +8,8 @@ ARMS = os.environ.get('TANK_ARMS_JAR', PF + 'vehicles-test/diaithir-arms-neoforg
 EXTRA = [x for x in os.environ.get('TANK_EXTRA_JARS', '').split(':') if x]  # e.g. vehicles-test units + carts jars (ignition command /diaithirvehicle)
 JARS = [ARMS, PF + 'Immersive_Vehicles-26.1-24.0.0-diaithir.2.jar'] + EXTRA
 out = sys.argv[1] if len(sys.argv) > 1 else None; rep = {}
-with Lane('tank', JARS, srv_xmx='3G', out=out) as L:
+CF = {'config/mtsconfigclient.json': open(os.environ['TANK_CLIENT_CFG']).read()} if os.environ.get('TANK_CLIENT_CFG') else None  # e.g. fullHUD_1P=true variant
+with Lane('tank', JARS, client_files=CF, srv_xmx='3G', out=out) as L:
     L.start_client(); d = L.drive; S = L.server_cmd
     S('time set day'); S('gamemode creative Tester'); S('clear Tester'); S('tp Tester 0.5 -60 0.5 0 35', 1)
     S('item replace entity Tester hotbar.0 with mts:diaithirtanks.tank_mk1'); L.wait_render(); d.key('1'); time.sleep(0.5); L.shot('01_icon_held.png')
@@ -48,6 +49,7 @@ with Lane('tank', JARS, srv_xmx='3G', out=out) as L:
         n0 = len(VL()); DV('watch 12', 0.5); d.hold('w', 12); time.sleep(2); rep['watch_W_held'] = VL()[n0:]; L.shot('03_hud_W_held.png')
         n1 = len(VL()); DV('watch 12', 0.5); time.sleep(14); rep['watch_W_released'] = VL()[n1:]
         rep['veh_pos_end'] = S(VP, 0.6)
+        d.key('f5'); time.sleep(1.5); L.shot('04b_third_person.png'); d.key('f5'); time.sleep(1.0)
         d.hold('space', 1.0); time.sleep(0.5); L.shot('05_fire.png')
         L.shot('03_driven.png')
         rep['pos_after'] = S('data get entity Tester Pos', 0.8); rep['veh_pos_after'] = S('data get entity @e[type=mts:builder_existing,limit=1,sort=nearest] Pos', 0.8)
