@@ -3249,253 +3249,253 @@
 {"id": "world-of-warcraft|55585", "b": 0}
 {"id": "mario-and-his-expanded-universe|8017", "b": 1, "n": "Alkementor", "p": [], "x": [], "dropped": 0}
 {"id": "gundam-all-centuries-incl-g-gundam|807", "b": 1, "n": "Fire Pattern", "p": [], "x": [], "dropped": 0}
-{"id": "battlestar-galactica|2185", "b": 2, "k": "vehicle", "m": 2, "q": "large capital warship", "c": "l", "n": "", "p": [], "x": [], "dropped": 0}
+{"id": "battlestar-galactica|2185", "b": 2, "k": "vehicle", "m": 4, "q": "large capital warship", "c": "m", "n": "Baltifer's basestar", "p": [], "x": [], "dropped": 0}
 {"id": "diablo|5135", "b": 0}
 {"id": "halo|449", "b": 0}
-{"id": "halo|1052", "b": 2, "k": "armor", "m": 1, "q": "", "c": "l", "n": "", "p": [], "x": [], "dropped": 0}
+{"id": "halo|1052", "b": 2, "k": "armor", "m": 1, "q": "", "c": "l", "n": "Bungie Armor", "p": [], "x": [], "dropped": 0}
 {"id": "mario-and-his-expanded-universe|9102", "b": 0}
-{"id": "major-live-action-disney-films|17194", "b": 2, "k": "vehicle", "m": 1, "q": "", "c": "l", "n": "", "p": [], "x": [], "dropped": 0}
-{"id": "all-battlefield|1926", "b": 2, "k": "weapon", "m": 1, "q": "", "c": "l", "n": "", "p": [], "x": [], "dropped": 0}
-{"id": "mario-and-his-expanded-universe|7113", "b": 0}
-{"id": "all-battlefield|1938", "b": 2, "k": "weapon", "m": 1, "q": "", "c": "l", "n": "", "p": [], "x": [], "dropped": 0}
-{"id": "ghost-recon|469", "b": 2, "k": "weapon", "m": 1, "q": "", "c": "l", "n": "", "p": [], "x": [], "dropped": 0}
+{"id": "major-live-action-disney-films|17194", "b": 2, "k": "vehicle", "m": 1, "q": "", "c": "m", "n": "Hispaniola", "p": [], "x": [], "dropped": 0}
+{"id": "all-battlefield|1926", "b": 2, "k": "weapon", "m": 1, "q": "", "c": "m", "n": "MP5", "p": [], "x": [], "dropped": 0}
+{"id": "mario-and-his-expanded-universe|7113", "b": 2, "k": "vehicle", "m": 1, "q": "coin-filled airship", "c": "m", "n": "Treasure Ship", "p": [], "x": [], "dropped": 0}
+{"id": "all-battlefield|1938", "b": 2, "k": "weapon", "m": 3, "q": "the standard anti-vehicle rocket launcher of the European Union", "c": "m", "n": "Mitchell AV-18", "p": [], "x": [], "dropped": 0}
+{"id": "ghost-recon|469", "b": 2, "k": "weapon", "m": 1, "q": "", "c": "m", "n": "M240", "p": [], "x": [], "dropped": 0}
 {"id": "fire-emblem|8000", "b": 0}
 {"id": "halo|3070", "b": 0}
-{"id": "ghost-recon|459", "b": 2, "k": "weapon", "m": 1, "q": "", "c": "l", "n": "", "p": [], "x": [], "dropped": 0}
-{"id": "mario-and-his-expanded-universe|11895", "b": 2, "k": "weapon", "m": 1, "q": "", "c": "l", "n": "", "p": [], "x": [], "dropped": 0}
-{"id": "terraria|1145", "b": 2, "k": "weapon", "m": 1, "q": "", "c": "l", "n": "", "p": [], "x": [], "dropped": 0}
+{"id": "ghost-recon|459", "b": 2, "k": "weapon", "m": 1, "q": "", "c": "m", "n": "M40", "p": [], "x": [], "dropped": 0}
+{"id": "mario-and-his-expanded-universe|11895", "b": 2, "k": "weapon", "m": 1, "q": "deals fire-elemental damage", "c": "m", "n": "Fire Hammer", "p": [], "x": [], "dropped": 0}
+{"id": "terraria|1145", "b": 2, "k": "weapon", "m": 1, "q": "", "c": "m", "n": "Flying Knife", "p": [], "x": [], "dropped": 0}
 {"id": "all-final-fantasy|14053", "b": 1, "n": "Vermin", "p": [], "x": [], "dropped": 0}
-{"id": "all-black-ops|10275", "b": 2, "k": "weapon", "m": 1, "q": "", "c": "l", "n": "", "p": [], "x": [], "dropped": 0}
-{"id": "fire-emblem|4981", "b": 2, "k": "weapon", "m": 1, "q": "", "c": "l", "n": "", "p": [], "x": [], "dropped": 0}
-{"id": "all-battlefield|2885", "b": 2, "k": "weapon", "m": 1, "q": "", "c": "l", "n": "", "p": [], "x": [], "dropped": 0}
-{"id": "mario-and-his-expanded-universe|17195", "b": 2, "k": "vehicle", "m": 1, "q": "a giant mecha", "c": "l", "n": "", "p": [], "x": [], "dropped": 0}
-{"id": "doom|954", "b": 2, "k": "weapon", "m": 1, "q": "", "c": "l", "n": "", "p": [{"id": "fireball", "m": 1, "q": "magical flaming hammers can be thrown", "c": "m"}], "x": [], "dropped": 0}
-{"id": "all-battlefield|2493", "b": 2, "k": "weapon", "m": 1, "q": "", "c": "l", "n": "", "p": [], "x": [], "dropped": 0}
+{"id": "all-black-ops|10275", "b": 2, "k": "weapon", "m": 1, "q": "", "c": "m", "n": "XM-LAR", "p": [], "x": [], "dropped": 0}
+{"id": "fire-emblem|4981", "b": 2, "k": "weapon", "m": 1, "q": "", "c": "m", "n": "Longsword", "p": [], "x": [], "dropped": 0}
+{"id": "all-battlefield|2885", "b": 2, "k": "weapon", "m": 1, "q": "", "c": "m", "n": "Type 5", "p": [], "x": [], "dropped": 0}
+{"id": "mario-and-his-expanded-universe|17195", "b": 2, "k": "vehicle", "m": 2, "q": "giant mecha", "c": "l", "n": "Mecha Hammer Mario", "p": [], "x": [], "dropped": 0}
+{"id": "doom|954", "b": 2, "k": "weapon", "m": 2, "q": "magical flaming hammers can be thrown", "c": "m", "n": "Hammer of Retribution", "p": [{"id": "fireball", "m": 2, "q": "magical flaming hammers can be thrown", "c": "m"}], "x": [], "dropped": 0}
+{"id": "all-battlefield|2493", "b": 2, "k": "weapon", "m": 1, "q": "", "c": "m", "n": "Rorsch Mk-4", "p": [], "x": [], "dropped": 0}
 {"id": "fire-emblem|7721", "b": 0}
 {"id": "all-final-fantasy|1249", "b": 0}
 {"id": "wizard-with-a-gun|3", "b": 0}
 {"id": "mario-and-his-expanded-universe|14086", "b": 1, "n": "Junker Can X", "p": [], "x": [], "dropped": 0}
-{"id": "halo|8578", "b": 2, "k": "vehicle", "m": 1, "q": "", "c": "l", "n": "", "p": [], "x": [], "dropped": 0}
+{"id": "halo|8578", "b": 2, "k": "vehicle", "m": 4, "q": "superluminal communications", "c": "l", "n": "Courier", "p": [], "x": [], "dropped": 0}
 {"id": "naruto|2385", "b": 0}
 {"id": "gundam-all-centuries-incl-g-gundam|1869", "b": 0}
 {"id": "halo|1775", "b": 0}
 {"id": "fire-emblem|3587", "b": 0}
-{"id": "halo|8168", "b": 2, "k": "weapon", "m": 1, "q": "", "c": "l", "n": "", "p": [], "x": [], "dropped": 0}
-{"id": "diablo|4397", "b": 2, "k": "weapon", "m": 1, "q": "", "c": "l", "n": "", "p": [], "x": [], "dropped": 0}
-{"id": "predator|6459", "b": 2, "k": "weapon", "m": 1, "q": "", "c": "l", "n": "", "p": [], "x": [], "dropped": 0}
-{"id": "terraria|1110", "b": 2, "k": "armor", "m": 1, "q": "", "c": "l", "n": "", "p": [{"id": "freeze_breath", "m": 1, "q": "inflict Frostbite / Frostburn on enemies", "c": "m"}], "x": [], "dropped": 0}
+{"id": "halo|8168", "b": 2, "k": "weapon", "m": 1, "q": "", "c": "m", "n": "burnblade", "p": [], "x": [], "dropped": 0}
+{"id": "diablo|4397", "b": 2, "k": "weapon", "m": 1, "q": "", "c": "m", "n": "In-Geom", "p": [], "x": [], "dropped": 0}
+{"id": "predator|6459", "b": 2, "k": "weapon", "m": 1, "q": "", "c": "m", "n": "Scimitar", "p": [], "x": [], "dropped": 0}
+{"id": "terraria|1110", "b": 2, "k": "armor", "m": 1, "q": "inflict Frostbite / Frostburn on enemies", "c": "m", "n": "Frost armor", "p": [{"id": "freeze_breath", "m": 1, "q": "inflict Frostbite / Frostburn on enemies", "c": "m"}], "x": [], "dropped": 0}
 {"id": "all-black-ops|638", "b": 0}
 {"id": "metal-gear-solid|425", "b": 0}
 {"id": "diablo|4346", "b": 0}
-{"id": "the-lord-of-the-rings|7847", "b": 2, "k": "weapon", "m": 1, "q": "", "c": "l", "n": "", "p": [], "x": [], "dropped": 0}
-{"id": "all-civilization-games|854", "b": 2, "k": "weapon", "m": 1, "q": "", "c": "l", "n": "", "p": [], "x": [], "dropped": 0}
+{"id": "the-lord-of-the-rings|7847", "b": 2, "k": "weapon", "m": 1, "q": "", "c": "m", "n": "Blunderbuss", "p": [], "x": [], "dropped": 0}
+{"id": "all-civilization-games|854", "b": 2, "k": "weapon", "m": 2, "q": "", "c": "l", "n": "Biological Warfare Missile", "p": [], "x": [], "dropped": 0}
 {"id": "all-bloons-td|2860", "b": 0}
-{"id": "all-battlefield|1739", "b": 2, "k": "weapon", "m": 1, "q": "", "c": "l", "n": "", "p": [], "x": [], "dropped": 0}
-{"id": "major-live-action-disney-films|35201", "b": 2, "k": "vehicle", "m": 1, "q": "", "c": "l", "n": "", "p": [], "x": [], "dropped": 0}
-{"id": "all-battlefield|1271", "b": 2, "k": "weapon", "m": 1, "q": "", "c": "l", "n": "", "p": [], "x": [], "dropped": 0}
+{"id": "all-battlefield|1739", "b": 2, "k": "weapon", "m": 1, "q": "", "c": "m", "n": "Krag–Jørgensen", "p": [], "x": [], "dropped": 0}
+{"id": "major-live-action-disney-films|35201", "b": 2, "k": "vehicle", "m": 2, "q": "futuristic bulk transport vehicle", "c": "m", "n": "Solar Sailer", "p": [], "x": [], "dropped": 0}
+{"id": "all-battlefield|1271", "b": 2, "k": "weapon", "m": 1, "q": "", "c": "m", "n": "Dylan's Destructive Duplex", "p": [], "x": [], "dropped": 0}
 {"id": "diablo|5511", "b": 0}
-{"id": "doom|2564", "b": 2, "k": "weapon", "m": 1, "q": "", "c": "l", "n": "", "p": [{"id": "fireball", "m": 1, "q": "launches fireballs that explode with splash damage", "c": "m"}], "x": [], "dropped": 0}
-{"id": "all-battlefield|384", "b": 2, "k": "vehicle", "m": 1, "q": "", "c": "l", "n": "", "p": [], "x": [], "dropped": 0}
+{"id": "doom|2564", "b": 2, "k": "weapon", "m": 2, "q": "launches fireballs that explode with splash damage", "c": "m", "n": "Phoenix Rod", "p": [{"id": "fireball", "m": 2, "q": "launches fireballs that explode with splash damage", "c": "m"}], "x": [], "dropped": 0}
+{"id": "all-battlefield|384", "b": 2, "k": "vehicle", "m": 2, "q": "heavily modified GAZ-3937 Vodnik", "c": "m", "n": "Barsuk", "p": [], "x": [], "dropped": 0}
 {"id": "all-elder-scrolls|46674", "b": 0}
-{"id": "starcraft|5722", "b": 2, "k": "weapon", "m": 1, "q": "", "c": "l", "n": "", "p": [], "x": [], "dropped": 0}
-{"id": "halo|1765", "b": 2, "k": "vehicle", "m": 1, "q": "", "c": "l", "n": "", "p": [], "x": [], "dropped": 0}
-{"id": "major-live-action-disney-films|6434", "b": 2, "k": "vehicle", "m": 1, "q": "", "c": "l", "n": "", "p": [], "x": [], "dropped": 0}
+{"id": "starcraft|5722", "b": 2, "k": "weapon", "m": 3, "q": "fire shells of superheated tungsten", "c": "m", "n": "shock cannon", "p": [], "x": [], "dropped": 0}
+{"id": "halo|1765", "b": 2, "k": "vehicle", "m": 3, "q": "military craft that can deliver troops from space to the surface of a planet", "c": "m", "n": "dropship", "p": [], "x": [], "dropped": 0}
+{"id": "major-live-action-disney-films|6434", "b": 2, "k": "vehicle", "m": 1, "q": "built in the style of a real car", "c": "m", "n": "Cat-Car", "p": [], "x": [], "dropped": 0}
 {"id": "major-live-action-disney-films|26805", "b": 0}
-{"id": "doom|677", "b": 2, "k": "weapon", "m": 1, "q": "", "c": "l", "n": "", "p": [], "x": [], "dropped": 0}
+{"id": "doom|677", "b": 2, "k": "weapon", "m": 1, "q": "supplementary weapon", "c": "m", "n": "Fléchette", "p": [], "x": [], "dropped": 0}
 {"id": "fire-emblem|2110", "b": 1, "n": "Dory", "p": [], "x": [], "dropped": 0}
 {"id": "all-black-ops|9449", "b": 0}
-{"id": "helldivers-1-2|88", "b": 2, "k": "vehicle", "m": 2, "q": "faster-than-light capable warship", "c": "l", "n": "", "p": [], "x": [], "dropped": 0}
-{"id": "all-battlefield|2896", "b": 2, "k": "weapon", "m": 1, "q": "", "c": "l", "n": "", "p": [], "x": [], "dropped": 0}
-{"id": "all-black-ops|474", "b": 2, "k": "vehicle", "m": 1, "q": "", "c": "l", "n": "", "p": [], "x": [], "dropped": 0}
-{"id": "diablo|9134", "b": 2, "k": "armor", "m": 1, "q": "", "c": "l", "n": "", "p": [], "x": [], "dropped": 0}
+{"id": "helldivers-1-2|88", "b": 2, "k": "vehicle", "m": 5, "q": "faster-than-light capable warship", "c": "m", "n": "Automaton Fleet Destroyer", "p": [], "x": [], "dropped": 0}
+{"id": "all-battlefield|2896", "b": 2, "k": "weapon", "m": 1, "q": "", "c": "m", "n": "Turcotte Rapid SMG", "p": [], "x": [], "dropped": 0}
+{"id": "all-black-ops|474", "b": 2, "k": "vehicle", "m": 3, "q": "an upgrade of Arleigh Burke-class destroyers", "c": "l", "n": "Aegis-class combat ship", "p": [], "x": [], "dropped": 0}
+{"id": "diablo|9134", "b": 2, "k": "armor", "m": 1, "q": "rune word for body armor", "c": "m", "n": "Treachery", "p": [], "x": [], "dropped": 0}
 {"id": "rocket-league|105", "b": 0}
-{"id": "battlestar-galactica|4092", "b": 0}
-{"id": "kingdom-hearts-binding-cosmology-of-the-disney-set|471", "b": 2, "k": "weapon", "m": 1, "q": "", "c": "l", "n": "", "p": [], "x": [], "dropped": 0}
-{"id": "terraria|2241", "b": 2, "k": "weapon", "m": 1, "q": "", "c": "l", "n": "", "p": [], "x": [], "dropped": 0}
-{"id": "doom|2781", "b": 2, "k": "weapon", "m": 1, "q": "", "c": "l", "n": "", "p": [], "x": [], "dropped": 0}
-{"id": "factorio|172", "b": 0}
+{"id": "battlestar-galactica|4092", "b": 2, "k": "weapon", "m": 1, "q": "created as a weapon of war", "c": "m", "n": "memory inducer", "p": [{"id": "telepathy", "m": 2, "q": "retrieve information from people's minds", "c": "m"}], "x": [], "dropped": 0}
+{"id": "kingdom-hearts-binding-cosmology-of-the-disney-set|471", "b": 2, "k": "weapon", "m": 1, "q": "", "c": "m", "n": "Keyblade", "p": [], "x": [], "dropped": 0}
+{"id": "terraria|2241", "b": 2, "k": "weapon", "m": 1, "q": "", "c": "m", "n": "Psycho Knife", "p": [], "x": [], "dropped": 0}
+{"id": "doom|2781", "b": 2, "k": "weapon", "m": 1, "q": "fires fast-moving magical blue darts", "c": "m", "n": "Sapphire Wand", "p": [{"id": "ki_blast", "m": 1, "q": "fires fast-moving magical blue darts", "c": "m"}], "x": [], "dropped": 0}
+{"id": "factorio|172", "b": 2, "k": "weapon", "m": 2, "q": "their damage and piercing power is increased", "c": "l", "n": "explosive uranium cannon shells", "p": [], "x": [], "dropped": 0}
 {"id": "halo|1842", "b": 0}
-{"id": "doom|2565", "b": 2, "k": "weapon", "m": 1, "q": "", "c": "l", "n": "", "p": [], "x": [], "dropped": 0}
+{"id": "doom|2565", "b": 2, "k": "weapon", "m": 2, "q": "", "c": "l", "n": "Quietus", "p": [], "x": [], "dropped": 0}
 {"id": "mario-and-his-expanded-universe|24324", "b": 0}
 {"id": "soul-calibur|3704", "b": 0}
-{"id": "all-battlefield|2314", "b": 2, "k": "vehicle", "m": 1, "q": "", "c": "l", "n": "", "p": [], "x": [], "dropped": 0}
-{"id": "all-battlefield|2226", "b": 2, "k": "weapon", "m": 1, "q": "", "c": "l", "n": "", "p": [], "x": [], "dropped": 0}
+{"id": "all-battlefield|2314", "b": 2, "k": "vehicle", "m": 1, "q": "Russian heavy armored car", "c": "m", "n": "Garford-Putilov", "p": [], "x": [], "dropped": 0}
+{"id": "all-battlefield|2226", "b": 2, "k": "weapon", "m": 3, "q": "shoulder-launched, anti-tank, propelled grenade launcher", "c": "m", "n": "hand-held anti-tank grenade launcher", "p": [], "x": [], "dropped": 0}
 {"id": "all-final-fantasy|754", "b": 0}
 {"id": "mario-and-his-expanded-universe|10980", "b": 0}
 {"id": "all-battlefield|193", "b": 0}
 {"id": "fire-emblem|7968", "b": 0}
-{"id": "mario-and-his-expanded-universe|14322", "b": 2, "k": "weapon", "m": 1, "q": "", "c": "l", "n": "", "p": [], "x": [], "dropped": 0}
+{"id": "mario-and-his-expanded-universe|14322", "b": 2, "k": "weapon", "m": 1, "q": "", "c": "m", "n": "Kinoko Sword", "p": [], "x": [], "dropped": 0}
 {"id": "terraria|586", "b": 0}
-{"id": "ghost-recon|1093", "b": 2, "k": "weapon", "m": 1, "q": "", "c": "l", "n": "", "p": [], "x": [], "dropped": 0}
+{"id": "ghost-recon|1093", "b": 2, "k": "weapon", "m": 1, "q": "", "c": "m", "n": "HK XM8", "p": [], "x": [], "dropped": 0}
 {"id": "all-black-ops|8586", "b": 0}
-{"id": "diablo|1871", "b": 2, "k": "armor", "m": 1, "q": "", "c": "l", "n": "", "p": [], "x": [], "dropped": 0}
-{"id": "all-battlefield|2882", "b": 2, "k": "weapon", "m": 1, "q": "", "c": "l", "n": "", "p": [], "x": [], "dropped": 0}
-{"id": "mario-and-his-expanded-universe|20100", "b": 2, "k": "weapon", "m": 1, "q": "", "c": "l", "n": "", "p": [], "x": [], "dropped": 0}
+{"id": "diablo|1871", "b": 2, "k": "armor", "m": 1, "q": "rune word for helms", "c": "m", "n": "Coven", "p": [], "x": [], "dropped": 0}
+{"id": "all-battlefield|2882", "b": 2, "k": "weapon", "m": 1, "q": "", "c": "m", "n": "UZI", "p": [], "x": [], "dropped": 0}
+{"id": "mario-and-his-expanded-universe|20100", "b": 2, "k": "weapon", "m": 1, "q": "", "c": "m", "n": "SFC Controller Nunchaku", "p": [], "x": [], "dropped": 0}
 {"id": "rimworld|1280", "b": 0}
-{"id": "all-battlefield|1414", "b": 2, "k": "weapon", "m": 1, "q": "", "c": "l", "n": "", "p": [], "x": [], "dropped": 0}
+{"id": "all-battlefield|1414", "b": 2, "k": "weapon", "m": 2, "q": "electrically-driven Rotary cannon that fires the .50 BMG", "c": "m", "n": "GAU-19/A", "p": [], "x": [], "dropped": 0}
 {"id": "halo|13259", "b": 0}
-{"id": "all-elder-scrolls|7233", "b": 2, "k": "armor", "m": 1, "q": "", "c": "l", "n": "", "p": [], "x": [], "dropped": 0}
+{"id": "all-elder-scrolls|7233", "b": 2, "k": "armor", "m": 1, "q": "a set of medium armor", "c": "m", "n": "Bonemold Armor", "p": [], "x": [], "dropped": 0}
 {"id": "terraria|1741", "b": 0}
 {"id": "battlestar-galactica|4373", "b": 0}
 {"id": "fire-emblem|4113", "b": 0}
 {"id": "battlestar-galactica|4334", "b": 1, "n": "Nadu", "p": [], "x": [], "dropped": 0}
 {"id": "digimon|10266", "b": 0}
-{"id": "ghost-recon|456", "b": 2, "k": "weapon", "m": 1, "q": "", "c": "l", "n": "", "p": [], "x": [], "dropped": 0}
+{"id": "ghost-recon|456", "b": 2, "k": "weapon", "m": 1, "q": "", "c": "m", "n": "L22A2", "p": [], "x": [], "dropped": 0}
 {"id": "halo|12203", "b": 0}
-{"id": "halo|4061", "b": 2, "k": "weapon", "m": 1, "q": "", "c": "l", "n": "", "p": [], "x": [], "dropped": 0}
-{"id": "mario-and-his-expanded-universe|13648", "b": 2, "k": "weapon", "m": 1, "q": "", "c": "l", "n": "", "p": [], "x": [], "dropped": 0}
-{"id": "all-battlefield|2", "b": 2, "k": "weapon", "m": 1, "q": "", "c": "l", "n": "", "p": [], "x": [], "dropped": 0}
-{"id": "all-battlefield|946", "b": 2, "k": "weapon", "m": 1, "q": "", "c": "l", "n": "", "p": [], "x": [], "dropped": 0}
+{"id": "halo|4061", "b": 0}
+{"id": "mario-and-his-expanded-universe|13648", "b": 2, "k": "weapon", "m": 1, "q": "deals ice-element damage", "c": "m", "n": "Ice Hammer", "p": [], "x": [], "dropped": 0}
+{"id": "all-battlefield|2", "b": 2, "k": "weapon", "m": 1, "q": "", "c": "m", "n": "AEK-971", "p": [], "x": [], "dropped": 0}
+{"id": "all-battlefield|946", "b": 2, "k": "weapon", "m": 1, "q": "", "c": "m", "n": "Chauchat", "p": [], "x": [], "dropped": 0}
 {"id": "battlestar-galactica|2592", "b": 1, "n": "Charka", "p": [], "x": [], "dropped": 0}
-{"id": "all-battlefield|0", "b": 2, "k": "weapon", "m": 1, "q": "", "c": "l", "n": "", "p": [], "x": [], "dropped": 0}
+{"id": "all-battlefield|0", "b": 2, "k": "weapon", "m": 1, "q": "", "c": "m", "n": "AK-47", "p": [], "x": [], "dropped": 0}
 {"id": "doom|2666", "b": 0}
 {"id": "doom|2579", "b": 0}
-{"id": "diablo|2397", "b": 2, "k": "armor", "m": 1, "q": "", "c": "l", "n": "", "p": [], "x": [], "dropped": 0}
-{"id": "helldivers-1-2|105", "b": 2, "k": "vehicle", "m": 1, "q": "walking tank", "c": "l", "n": "", "p": [], "x": [], "dropped": 0}
-{"id": "all-battlefield|420", "b": 2, "k": "weapon", "m": 1, "q": "", "c": "l", "n": "", "p": [], "x": [], "dropped": 0}
-{"id": "mario-and-his-expanded-universe|8778", "b": 2, "k": "weapon", "m": 2, "q": "massive cannon", "c": "l", "n": "", "p": [], "x": [], "dropped": 0}
-{"id": "mario-and-his-expanded-universe|23818", "b": 2, "k": "vehicle", "m": 1, "q": "", "c": "l", "n": "", "p": [], "x": [], "dropped": 0}
+{"id": "diablo|2397", "b": 2, "k": "armor", "m": 1, "q": "Rune Word for helms or off-hand armor", "c": "m", "n": "Dream", "p": [], "x": [], "dropped": 0}
+{"id": "helldivers-1-2|105", "b": 2, "k": "vehicle", "m": 3, "q": "walking tank", "c": "m", "n": "Hulk", "p": [], "x": [], "dropped": 0}
+{"id": "all-battlefield|420", "b": 0}
+{"id": "mario-and-his-expanded-universe|8778", "b": 2, "k": "weapon", "m": 3, "q": "", "c": "l", "n": "Big Bob", "p": [], "x": [], "dropped": 0}
+{"id": "mario-and-his-expanded-universe|23818", "b": 2, "k": "vehicle", "m": 1, "q": "one of four vehicles leased by Funky Kong", "c": "m", "n": "Turbo Ski", "p": [], "x": [], "dropped": 0}
 {"id": "transformers|539", "b": 0}
 {"id": "fire-emblem|3092", "b": 0}
 {"id": "all-bloons-td|1058", "b": 0}
 {"id": "halo|2639", "b": 0}
 {"id": "the-lord-of-the-rings|3181", "b": 0}
-{"id": "destiny-1-2|4674", "b": 2, "k": "weapon", "m": 1, "q": "", "c": "l", "n": "", "p": [], "x": [], "dropped": 0}
-{"id": "terraria|2122", "b": 2, "k": "weapon", "m": 1, "q": "", "c": "l", "n": "", "p": [], "x": [], "dropped": 0}
-{"id": "halo|1021", "b": 2, "k": "vehicle", "m": 1, "q": "", "c": "l", "n": "", "p": [], "x": [], "dropped": 0}
-{"id": "mario-and-his-expanded-universe|12315", "b": 2, "k": "vehicle", "m": 1, "q": "", "c": "l", "n": "", "p": [], "x": [], "dropped": 0}
-{"id": "mario-and-his-expanded-universe|19609", "b": 2, "k": "vehicle", "m": 1, "q": "", "c": "l", "n": "", "p": [], "x": [], "dropped": 0}
+{"id": "destiny-1-2|4674", "b": 2, "k": "weapon", "m": 1, "q": "", "c": "m", "n": "Ruinous Effigy", "p": [], "x": [], "dropped": 0}
+{"id": "terraria|2122", "b": 2, "k": "weapon", "m": 1, "q": "auto-fires four arrows at once", "c": "m", "n": "Phantasm", "p": [], "x": [], "dropped": 0}
+{"id": "halo|1021", "b": 2, "k": "vehicle", "m": 4, "q": "general starship classification", "c": "l", "n": "Carrier", "p": [], "x": [], "dropped": 0}
+{"id": "mario-and-his-expanded-universe|12315", "b": 2, "k": "vehicle", "m": 1, "q": "three-wheeled vehicle", "c": "m", "n": "Funky Dorrie", "p": [], "x": [], "dropped": 0}
+{"id": "mario-and-his-expanded-universe|19609", "b": 2, "k": "vehicle", "m": 1, "q": "type of Koopa Clown Car", "c": "m", "n": "Remote-Controlled Clown Car", "p": [], "x": [], "dropped": 0}
 {"id": "tekken|4711", "b": 0}
-{"id": "kingdom-hearts-binding-cosmology-of-the-disney-set|837", "b": 2, "k": "weapon", "m": 1, "q": "", "c": "l", "n": "", "p": [], "x": [], "dropped": 0}
-{"id": "all-battlefield|1534", "b": 2, "k": "weapon", "m": 1, "q": "", "c": "l", "n": "", "p": [], "x": [], "dropped": 0}
-{"id": "mario-and-his-expanded-universe|20503", "b": 1, "n": "Shageki Gata UFO", "p": [], "x": [], "dropped": 0}
-{"id": "halo|11825", "b": 2, "k": "weapon", "m": 1, "q": "", "c": "l", "n": "", "p": [], "x": [], "dropped": 0}
+{"id": "kingdom-hearts-binding-cosmology-of-the-disney-set|837", "b": 2, "k": "weapon", "m": 1, "q": "", "c": "m", "n": "Keyblade", "p": [], "x": [], "dropped": 0}
+{"id": "all-battlefield|1534", "b": 2, "k": "weapon", "m": 1, "q": "", "c": "m", "n": "Huot Automatic Rifle", "p": [], "x": [], "dropped": 0}
+{"id": "mario-and-his-expanded-universe|20503", "b": 1, "n": "Shageki Gata UFO", "p": [{"id": "flight", "m": 1, "q": "living green UFOs with wings", "c": "m"}], "x": [], "dropped": 0}
+{"id": "halo|11825", "b": 2, "k": "weapon", "m": 1, "q": "", "c": "m", "n": "Okarda'phaa-pattern Rifle", "p": [], "x": [], "dropped": 0}
 {"id": "mario-and-his-expanded-universe|18534", "b": 1, "n": "Paper Spear Guy", "p": [], "x": [], "dropped": 0}
-{"id": "all-battlefield|1330", "b": 2, "k": "weapon", "m": 1, "q": "", "c": "l", "n": "", "p": [], "x": [], "dropped": 0}
-{"id": "tekken|4319", "b": 2, "k": "weapon", "m": 4, "q": "weapon of mass destruction", "c": "l", "n": "", "p": [{"id": "energy_beam", "m": 4, "q": "capable of shooting a red laser down to the surface", "c": "l"}], "x": [], "dropped": 0}
-{"id": "mario-and-his-expanded-universe|17263", "b": 2, "k": "weapon", "m": 1, "q": "", "c": "l", "n": "", "p": [], "x": [], "dropped": 0}
-{"id": "helldivers-1-2|433", "b": 2, "k": "weapon", "m": 1, "q": "", "c": "l", "n": "", "p": [], "x": [], "dropped": 0}
-{"id": "all-battlefield|1396", "b": 2, "k": "vehicle", "m": 1, "q": "", "c": "l", "n": "", "p": [], "x": [], "dropped": 0}
-{"id": "ghost-recon|1084", "b": 2, "k": "weapon", "m": 1, "q": "", "c": "l", "n": "", "p": [], "x": [], "dropped": 0}
+{"id": "all-battlefield|1330", "b": 2, "k": "weapon", "m": 1, "q": "", "c": "m", "n": "G3", "p": [], "x": [], "dropped": 0}
+{"id": "tekken|4319", "b": 2, "k": "weapon", "m": 4, "q": "weapon of mass destruction", "c": "m", "n": "orbital laser satellite", "p": [{"id": "energy_beam", "m": 4, "q": "orbital laser satellite", "c": "m"}], "x": [], "dropped": 0}
+{"id": "mario-and-his-expanded-universe|17263", "b": 2, "k": "weapon", "m": 1, "q": "five-star attack power rating", "c": "m", "n": "Megaflash Burnhammer", "p": [], "x": [], "dropped": 0}
+{"id": "helldivers-1-2|433", "b": 2, "k": "weapon", "m": 2, "q": "Explosive Weapon", "c": "m", "n": "R-36 Eruptor", "p": [], "x": [], "dropped": 0}
+{"id": "all-battlefield|1396", "b": 2, "k": "vehicle", "m": 2, "q": "armored vehicle equipped with an incinedary weapon", "c": "m", "n": "flame tank", "p": [], "x": [], "dropped": 0}
+{"id": "ghost-recon|1084", "b": 2, "k": "weapon", "m": 1, "q": "", "c": "m", "n": "XM29 OICW", "p": [], "x": [], "dropped": 0}
 {"id": "halo|2119", "b": 1, "n": "FitzGibbon", "p": [], "x": [], "dropped": 0}
 {"id": "fire-emblem|4347", "b": 1, "n": "Kenneth", "p": [], "x": [], "dropped": 0}
-{"id": "all-fallout|19529", "b": 2, "k": "weapon", "m": 1, "q": "", "c": "l", "n": "", "p": [], "x": [], "dropped": 0}
+{"id": "all-fallout|19529", "b": 2, "k": "weapon", "m": 1, "q": "\"bio-weapon\"", "c": "l", "n": "Hedgehog", "p": [], "x": [], "dropped": 0}
 {"id": "all-pixar-films|984", "b": 0}
-{"id": "mario-and-his-expanded-universe|23116", "b": 2, "k": "vehicle", "m": 1, "q": "", "c": "l", "n": "", "p": [], "x": [], "dropped": 0}
-{"id": "all-elder-scrolls|58516", "b": 2, "k": "weapon", "m": 1, "q": "", "c": "l", "n": "", "p": [], "x": [], "dropped": 0}
+{"id": "mario-and-his-expanded-universe|23116", "b": 2, "k": "vehicle", "m": 1, "q": "a cruise ship named after Princess Peach", "c": "m", "n": "Princess Peach", "p": [], "x": [], "dropped": 0}
+{"id": "all-elder-scrolls|58516", "b": 2, "k": "weapon", "m": 1, "q": "traditional Argonian weapon", "c": "m", "n": "tusik", "p": [], "x": [], "dropped": 0}
 {"id": "destiny-1-2|13315", "b": 0}
-{"id": "doom|408", "b": 2, "k": "weapon", "m": 1, "q": "", "c": "l", "n": "", "p": [], "x": [], "dropped": 0}
-{"id": "terraria|797", "b": 2, "k": "weapon", "m": 1, "q": "", "c": "l", "n": "", "p": [], "x": [], "dropped": 0}
-{"id": "battlestar-galactica|3740", "b": 2, "k": "vehicle", "m": 1, "q": "", "c": "l", "n": "", "p": [], "x": [], "dropped": 0}
+{"id": "doom|408", "b": 2, "k": "weapon", "m": 1, "q": "rapid-fires hitscan energy bolts", "c": "m", "n": "Dragon Claw", "p": [{"id": "ki_blast", "m": 1, "q": "rapid-fires hitscan energy bolts", "c": "m"}], "x": [], "dropped": 0}
+{"id": "terraria|797", "b": 2, "k": "weapon", "m": 1, "q": "summons a Desert Tiger that deals contact damage to enemies", "c": "m", "n": "Desert Tiger Staff", "p": [], "x": [], "dropped": 0}
+{"id": "battlestar-galactica|3740", "b": 2, "k": "vehicle", "m": 2, "q": "suborbital vehicle employed by civilians", "c": "m", "n": "jump ship", "p": [], "x": [], "dropped": 0}
 {"id": "terraria|2172", "b": 0}
-{"id": "all-battlefield|1260", "b": 2, "k": "weapon", "m": 1, "q": "", "c": "l", "n": "", "p": [], "x": [], "dropped": 0}
+{"id": "all-battlefield|1260", "b": 2, "k": "weapon", "m": 1, "q": "", "c": "m", "n": "Erma Maschinenpistole", "p": [], "x": [], "dropped": 0}
 {"id": "all-black-ops|10068", "b": 0}
-{"id": "major-live-action-disney-films|24988", "b": 2, "k": "vehicle", "m": 1, "q": "", "c": "l", "n": "", "p": [], "x": [], "dropped": 0}
-{"id": "all-battlefield|2971", "b": 2, "k": "weapon", "m": 1, "q": "", "c": "l", "n": "", "p": [], "x": [], "dropped": 0}
-{"id": "kingdom-hearts-binding-cosmology-of-the-disney-set|472", "b": 2, "k": "armor", "m": 1, "q": "", "c": "l", "n": "", "p": [], "x": [], "dropped": 0}
-{"id": "all-battlefield|2621", "b": 2, "k": "weapon", "m": 1, "q": "", "c": "l", "n": "", "p": [], "x": [], "dropped": 0}
+{"id": "major-live-action-disney-films|24988", "b": 2, "k": "vehicle", "m": 1, "q": "promotional vehicle", "c": "m", "n": "Mickey's Mouseorail", "p": [], "x": [], "dropped": 0}
+{"id": "all-battlefield|2971", "b": 2, "k": "weapon", "m": 3, "q": "early cruise missile", "c": "m", "n": "V-1 flying bomb", "p": [], "x": [], "dropped": 0}
+{"id": "kingdom-hearts-binding-cosmology-of-the-disney-set|472", "b": 2, "k": "weapon", "m": 1, "q": "", "c": "m", "n": "Keyblade", "p": [], "x": [], "dropped": 0}
+{"id": "all-battlefield|2621", "b": 2, "k": "weapon", "m": 1, "q": "", "c": "m", "n": "Spencer Repeating Rifle", "p": [], "x": [], "dropped": 0}
 {"id": "mario-and-his-expanded-universe|9634", "b": 0}
-{"id": "mario-and-his-expanded-universe|14444", "b": 2, "k": "vehicle", "m": 1, "q": "", "c": "l", "n": "", "p": [], "x": [], "dropped": 0}
+{"id": "mario-and-his-expanded-universe|14444", "b": 2, "k": "vehicle", "m": 2, "q": "weaponized mecha", "c": "m", "n": "Komoringā", "p": [], "x": [], "dropped": 0}
 {"id": "pokemon|3864", "b": 0}
-{"id": "battlestar-galactica|3366", "b": 2, "k": "vehicle", "m": 1, "q": "", "c": "l", "n": "", "p": [], "x": [], "dropped": 0}
+{"id": "battlestar-galactica|3366", "b": 0}
 {"id": "chowder|505", "b": 0}
 {"id": "all-elder-scrolls|57151", "b": 0}
 {"id": "world-of-warcraft|27147", "b": 0}
-{"id": "starcraft|4930", "b": 2, "k": "vehicle", "m": 1, "q": "", "c": "l", "n": "", "p": [], "x": [], "dropped": 0}
-{"id": "terminator|631", "b": 2, "k": "vehicle", "m": 1, "q": "", "c": "l", "n": "", "p": [], "x": [], "dropped": 0}
+{"id": "starcraft|4930", "b": 2, "k": "vehicle", "m": 1, "q": "multi-purpose terran vehicle used for agriculture", "c": "m", "n": "Robo-harvester", "p": [], "x": [], "dropped": 0}
+{"id": "terminator|631", "b": 2, "k": "vehicle", "m": 1, "q": "heavy-class transportation and general fighting vehicle", "c": "m", "n": "Integrators Heavy Technical", "p": [], "x": [], "dropped": 0}
 {"id": "battlestar-galactica|2030", "b": 1, "n": "Arvin Tyler", "p": [], "x": [], "dropped": 0}
-{"id": "kingdom-hearts-binding-cosmology-of-the-disney-set|470", "b": 2, "k": "weapon", "m": 1, "q": "", "c": "l", "n": "", "p": [], "x": [], "dropped": 0}
-{"id": "terraria|2963", "b": 2, "k": "weapon", "m": 1, "q": "", "c": "l", "n": "", "p": [], "x": [], "dropped": 0}
-{"id": "mario-and-his-expanded-universe|21864", "b": 2, "k": "vehicle", "m": 1, "q": "", "c": "l", "n": "", "p": [], "x": [], "dropped": 0}
-{"id": "major-live-action-disney-films|16204", "b": 2, "k": "weapon", "m": 1, "q": "", "c": "l", "n": "", "p": [], "x": [], "dropped": 0}
-{"id": "battlestar-galactica|3266", "b": 2, "k": "vehicle", "m": 1, "q": "", "c": "l", "n": "", "p": [], "x": [], "dropped": 0}
-{"id": "all-battlefield|2399", "b": 2, "k": "weapon", "m": 1, "q": "", "c": "l", "n": "", "p": [], "x": [], "dropped": 0}
-{"id": "mario-and-his-expanded-universe|18489", "b": 2, "k": "weapon", "m": 1, "q": "", "c": "l", "n": "", "p": [], "x": [], "dropped": 0}
-{"id": "helldivers-1-2|52", "b": 2, "k": "weapon", "m": 1, "q": "", "c": "l", "n": "", "p": [], "x": [], "dropped": 0}
-{"id": "world-of-warcraft|19257", "b": 2, "k": "armor", "m": 1, "q": "", "c": "l", "n": "", "p": [], "x": [], "dropped": 0}
+{"id": "kingdom-hearts-binding-cosmology-of-the-disney-set|470", "b": 2, "k": "weapon", "m": 1, "q": "", "c": "m", "n": "Keyblade", "p": [], "x": [], "dropped": 0}
+{"id": "terraria|2963", "b": 2, "k": "weapon", "m": 1, "q": "unobtainable magic weapon", "c": "m", "n": "Bejeweled Staff", "p": [], "x": [], "dropped": 0}
+{"id": "mario-and-his-expanded-universe|21864", "b": 2, "k": "vehicle", "m": 2, "q": "vehicle that Ludwig von Koopa uses", "c": "m", "n": "Super Ludship", "p": [], "x": [], "dropped": 0}
+{"id": "major-live-action-disney-films|16204", "b": 2, "k": "weapon", "m": 3, "q": "ancient magical spear", "c": "l", "n": "Gnoc Neer", "p": [], "x": [], "dropped": 0}
+{"id": "battlestar-galactica|3266", "b": 2, "k": "vehicle", "m": 2, "q": "Boeing 747-100 civilian passenger aircraft", "c": "m", "n": "Flight 2", "p": [], "x": [], "dropped": 0}
+{"id": "all-battlefield|2399", "b": 2, "k": "weapon", "m": 1, "q": "", "c": "m", "n": "SCAR-H", "p": [], "x": [], "dropped": 0}
+{"id": "mario-and-his-expanded-universe|18489", "b": 2, "k": "weapon", "m": 1, "q": "weapon for Mario", "c": "m", "n": "Paratroopa Shell", "p": [], "x": [], "dropped": 0}
+{"id": "helldivers-1-2|52", "b": 2, "k": "weapon", "m": 2, "q": "static weapon emplacement", "c": "m", "n": "Cannon Tower", "p": [], "x": [], "dropped": 0}
+{"id": "world-of-warcraft|19257", "b": 2, "k": "armor", "m": 2, "q": "", "c": "l", "n": "Azerite Armor", "p": [], "x": [], "dropped": 0}
 {"id": "all-fallout|4683", "b": 0}
-{"id": "fire-emblem|4972", "b": 2, "k": "weapon", "m": 1, "q": "", "c": "l", "n": "", "p": [], "x": [], "dropped": 0}
-{"id": "halo|135", "b": 0}
-{"id": "terraria|1976", "b": 2, "k": "armor", "m": 1, "q": "", "c": "l", "n": "", "p": [], "x": [], "dropped": 0}
-{"id": "battlestar-galactica|5098", "b": 2, "k": "vehicle", "m": 1, "q": "", "c": "l", "n": "", "p": [], "x": [], "dropped": 0}
-{"id": "mario-and-his-expanded-universe|9858", "b": 2, "k": "vehicle", "m": 1, "q": "", "c": "l", "n": "", "p": [], "x": [], "dropped": 0}
-{"id": "all-battlefield|534", "b": 2, "k": "weapon", "m": 1, "q": "", "c": "l", "n": "", "p": [], "x": [], "dropped": 0}
-{"id": "mario-and-his-expanded-universe|19479", "b": 2, "k": "vehicle", "m": 1, "q": "", "c": "l", "n": "", "p": [], "x": [], "dropped": 0}
-{"id": "mario-and-his-expanded-universe|15012", "b": 2, "k": "vehicle", "m": 1, "q": "", "c": "l", "n": "", "p": [], "x": [], "dropped": 0}
-{"id": "ghost-recon|472", "b": 2, "k": "weapon", "m": 1, "q": "", "c": "l", "n": "", "p": [], "x": [], "dropped": 0}
-{"id": "factorio|169", "b": 0}
+{"id": "fire-emblem|4972", "b": 2, "k": "weapon", "m": 2, "q": "high-levelled Light magic tome", "c": "m", "n": "Luce", "p": [], "x": [], "dropped": 0}
+{"id": "halo|135", "b": 2, "k": "weapon", "m": 2, "q": "effective against vehicles", "c": "m", "n": "12.7x99mm Armor-Piercing", "p": [], "x": [], "dropped": 0}
+{"id": "terraria|1976", "b": 2, "k": "armor", "m": 1, "q": "Hardmode armor set", "c": "m", "n": "Orichalcum armor", "p": [], "x": [], "dropped": 0}
+{"id": "battlestar-galactica|5098", "b": 2, "k": "vehicle", "m": 2, "q": "Recon Viper 1", "c": "l", "n": "Starchaser", "p": [], "x": [], "dropped": 0}
+{"id": "mario-and-his-expanded-universe|9858", "b": 2, "k": "vehicle", "m": 1, "q": "monster truck", "c": "m", "n": "Chargin' Truck", "p": [], "x": [], "dropped": 0}
+{"id": "all-battlefield|534", "b": 2, "k": "weapon", "m": 1, "q": "", "c": "m", "n": "Bianchi FA-6", "p": [], "x": [], "dropped": 0}
+{"id": "mario-and-his-expanded-universe|19479", "b": 2, "k": "vehicle", "m": 1, "q": "based on a real life rally motorcycle", "c": "m", "n": "Rally Bike", "p": [], "x": [], "dropped": 0}
+{"id": "mario-and-his-expanded-universe|15012", "b": 2, "k": "vehicle", "m": 1, "q": "designed after a toy dump truck", "c": "m", "n": "Li'l Dumpy", "p": [], "x": [], "dropped": 0}
+{"id": "ghost-recon|472", "b": 2, "k": "weapon", "m": 2, "q": "anti-materiel rifle", "c": "m", "n": "M82", "p": [], "x": [], "dropped": 0}
+{"id": "factorio|169", "b": 2, "k": "weapon", "m": 2, "q": "basic ammunition for the Tank", "c": "l", "n": "explosive cannon shells", "p": [], "x": [], "dropped": 0}
 {"id": "god-of-war|997", "b": 0}
-{"id": "all-battlefield|1967", "b": 2, "k": "weapon", "m": 1, "q": "", "c": "l", "n": "", "p": [], "x": [], "dropped": 0}
+{"id": "all-battlefield|1967", "b": 2, "k": "weapon", "m": 1, "q": "", "c": "m", "n": "SIG Sauer MPX", "p": [], "x": [], "dropped": 0}
 {"id": "halo|402", "b": 0}
-{"id": "helldivers-1-2|21", "b": 2, "k": "weapon", "m": 1, "q": "", "c": "l", "n": "", "p": [], "x": [], "dropped": 0}
+{"id": "helldivers-1-2|21", "b": 2, "k": "weapon", "m": 1, "q": "", "c": "m", "n": "MG-43", "p": [], "x": [], "dropped": 0}
 {"id": "street-fighter|2297", "b": 0}
-{"id": "all-black-ops|2593", "b": 2, "k": "weapon", "m": 4, "q": "umbrellas over cities", "c": "l", "n": "", "p": [], "x": [], "dropped": 0}
+{"id": "all-black-ops|2593", "b": 2, "k": "weapon", "m": 3, "q": "Directed Energy Air Defense", "c": "l", "n": "Directed Energy Air Defense", "p": [], "x": [], "dropped": 0}
 {"id": "soul-calibur|5925", "b": 0}
-{"id": "all-battlefield|2391", "b": 2, "k": "weapon", "m": 1, "q": "", "c": "l", "n": "", "p": [], "x": [], "dropped": 0}
+{"id": "all-battlefield|2391", "b": 2, "k": "weapon", "m": 1, "q": "explosive device launched from the muzzle of a rifle", "c": "m", "n": "Rifle Grenade", "p": [], "x": [], "dropped": 0}
 {"id": "path-of-exile|2611", "b": 0}
 {"id": "starcraft|2082", "b": 0}
 {"id": "the-lord-of-the-rings|5261", "b": 0}
 {"id": "mario-and-his-expanded-universe|23749", "b": 0}
-{"id": "terraria|515", "b": 2, "k": "weapon", "m": 1, "q": "", "c": "l", "n": "", "p": [], "x": [], "dropped": 0}
-{"id": "all-elder-scrolls|11662", "b": 2, "k": "vehicle", "m": 1, "q": "", "c": "l", "n": "", "p": [], "x": [], "dropped": 0}
-{"id": "all-elder-scrolls|12584", "b": 2, "k": "weapon", "m": 1, "q": "", "c": "l", "n": "", "p": [], "x": [], "dropped": 0}
+{"id": "terraria|515", "b": 2, "k": "weapon", "m": 1, "q": "fires ornament projectiles when swung", "c": "m", "n": "Christmas Tree Sword", "p": [], "x": [], "dropped": 0}
+{"id": "all-elder-scrolls|11662", "b": 2, "k": "vehicle", "m": 1, "q": "a ship full of Knahaten Flu-ridden Kothringi passengers", "c": "m", "n": "Crimson Ship", "p": [], "x": [], "dropped": 0}
+{"id": "all-elder-scrolls|12584", "b": 0}
 {"id": "dune|1803", "b": 1, "n": "Orak Tho", "p": [], "x": [], "dropped": 0}
 {"id": "mario-and-his-expanded-universe|20942", "b": 0}
-{"id": "all-black-ops|517", "b": 2, "k": "vehicle", "m": 2, "q": "largest capital ship", "c": "l", "n": "", "p": [], "x": [], "dropped": 0}
-{"id": "predator|7869", "b": 2, "k": "vehicle", "m": 1, "q": "", "c": "l", "n": "", "p": [], "x": [], "dropped": 0}
-{"id": "factorio|463", "b": 2, "k": "weapon", "m": 1, "q": "", "c": "l", "n": "", "p": [], "x": [], "dropped": 0}
+{"id": "all-black-ops|517", "b": 2, "k": "vehicle", "m": 5, "q": "largest capital ship in service to the United Nations Space Alliance", "c": "m", "n": "Admiral-class Space Warfare Carrier", "p": [], "x": [], "dropped": 0}
+{"id": "predator|7869", "b": 2, "k": "vehicle", "m": 4, "q": "colony ship", "c": "l", "n": "Type 3300B Deucalion-class colony carrier", "p": [], "x": [], "dropped": 0}
+{"id": "factorio|463", "b": 2, "k": "weapon", "m": 1, "q": "fires in a spread pattern", "c": "m", "n": "shotgun", "p": [], "x": [], "dropped": 0}
 {"id": "doom|664", "b": 1, "n": "Ettin", "p": [], "x": [], "dropped": 0}
-{"id": "mario-and-his-expanded-universe|10834", "b": 2, "k": "vehicle", "m": 1, "q": "", "c": "l", "n": "", "p": [], "x": [], "dropped": 0}
+{"id": "mario-and-his-expanded-universe|10834", "b": 2, "k": "vehicle", "m": 1, "q": "a vehicle in Princess Peach: Showtime!", "c": "m", "n": "Dark Locomotive", "p": [], "x": [], "dropped": 0}
 {"id": "mario-and-his-expanded-universe|19275", "b": 1, "n": "Proto Mecha King Bob-omb", "p": [], "x": [], "dropped": 0}
 {"id": "fire-emblem|8719", "b": 0}
 {"id": "factorio|261", "b": 0}
 {"id": "factorio|363", "b": 0}
-{"id": "doom|2780", "b": 2, "k": "weapon", "m": 1, "q": "", "c": "l", "n": "", "p": [], "x": [], "dropped": 0}
-{"id": "major-live-action-disney-films|2535", "b": 2, "k": "vehicle", "m": 1, "q": "", "c": "l", "n": "", "p": [], "x": [], "dropped": 0}
+{"id": "doom|2780", "b": 2, "k": "weapon", "m": 1, "q": "heavy, metallic gauntlets with spikes", "c": "m", "n": "Spiked Gauntlets", "p": [], "x": [], "dropped": 0}
+{"id": "major-live-action-disney-films|2535", "b": 2, "k": "vehicle", "m": 1, "q": "underwater vehicle used to transport passengers", "c": "m", "n": "Aqua-Evac", "p": [], "x": [], "dropped": 0}
 {"id": "diablo|3849", "b": 0}
-{"id": "halo|1024", "b": 2, "k": "vehicle", "m": 1, "q": "", "c": "l", "n": "", "p": [], "x": [], "dropped": 0}
-{"id": "all-battlefield|2246", "b": 2, "k": "weapon", "m": 1, "q": "", "c": "l", "n": "", "p": [], "x": [], "dropped": 0}
-{"id": "doom|951", "b": 2, "k": "weapon", "m": 1, "q": "", "c": "l", "n": "", "p": [{"id": "freeze_breath", "m": 1, "q": "magical ice darts which can freeze enemies", "c": "m"}], "x": [], "dropped": 0}
-{"id": "all-battlefield|1368", "b": 2, "k": "weapon", "m": 1, "q": "", "c": "l", "n": "", "p": [], "x": [], "dropped": 0}
-{"id": "all-black-ops|9788", "b": 2, "k": "weapon", "m": 1, "q": "", "c": "l", "n": "", "p": [], "x": [], "dropped": 0}
+{"id": "halo|1024", "b": 2, "k": "vehicle", "m": 3, "q": "Covenant CAR-class frigate", "c": "l", "n": "Covenant CAR-class frigate", "p": [], "x": [], "dropped": 0}
+{"id": "all-battlefield|2246", "b": 2, "k": "weapon", "m": 2, "q": "anti-vehicle rifle", "c": "m", "n": "Pilum H-AVR", "p": [], "x": [], "dropped": 0}
+{"id": "doom|951", "b": 2, "k": "weapon", "m": 1, "q": "", "c": "l", "n": "Frost Shards", "p": [], "x": [], "dropped": 0}
+{"id": "all-battlefield|1368", "b": 2, "k": "weapon", "m": 1, "q": "", "c": "m", "n": "G36", "p": [], "x": [], "dropped": 0}
+{"id": "all-black-ops|9788", "b": 0}
 {"id": "rocket-league|199", "b": 0}
-{"id": "terraria|139", "b": 2, "k": "weapon", "m": 1, "q": "", "c": "l", "n": "", "p": [], "x": [], "dropped": 0}
-{"id": "major-live-action-disney-films|33145", "b": 2, "k": "vehicle", "m": 1, "q": "", "c": "l", "n": "", "p": [], "x": [], "dropped": 0}
-{"id": "destiny-1-2|9212", "b": 2, "k": "weapon", "m": 1, "q": "", "c": "l", "n": "", "p": [], "x": [], "dropped": 0}
-{"id": "fire-emblem|4090", "b": 2, "k": "weapon", "m": 1, "q": "", "c": "l", "n": "", "p": [], "x": [], "dropped": 0}
-{"id": "the-division|1207", "b": 2, "k": "weapon", "m": 1, "q": "", "c": "l", "n": "", "p": [], "x": [], "dropped": 0}
-{"id": "all-battlefield|2414", "b": 2, "k": "weapon", "m": 1, "q": "", "c": "l", "n": "", "p": [], "x": [], "dropped": 0}
+{"id": "terraria|139", "b": 2, "k": "weapon", "m": 1, "q": "summons the Abigail minion", "c": "m", "n": "Abigail's Flower", "p": [], "x": [], "dropped": 0}
+{"id": "major-live-action-disney-films|33145", "b": 2, "k": "vehicle", "m": 1, "q": "cruise ship belonging to London Tipton's father", "c": "m", "n": "SS Tipton", "p": [], "x": [], "dropped": 0}
+{"id": "destiny-1-2|9212", "b": 2, "k": "weapon", "m": 1, "q": "", "c": "m", "n": "Hammerhead", "p": [], "x": [], "dropped": 0}
+{"id": "fire-emblem|4090", "b": 2, "k": "weapon", "m": 1, "q": "", "c": "m", "n": "Iron Poleax", "p": [], "x": [], "dropped": 0}
+{"id": "the-division|1207", "b": 2, "k": "weapon", "m": 1, "q": "", "c": "m", "n": "Huntsman", "p": [], "x": [], "dropped": 0}
+{"id": "all-battlefield|2414", "b": 2, "k": "weapon", "m": 1, "q": "", "c": "m", "n": "SR-25", "p": [], "x": [], "dropped": 0}
 {"id": "all-black-ops|7376", "b": 0}
 {"id": "fire-emblem|4980", "b": 0}
 {"id": "kingdom-hearts-binding-cosmology-of-the-disney-set|961", "b": 0}
 {"id": "mario-and-his-expanded-universe|8099", "b": 0}
 {"id": "all-black-ops|407", "b": 0}
-{"id": "all-battlefield|2681", "b": 2, "k": "vehicle", "m": 1, "q": "", "c": "l", "n": "", "p": [], "x": [], "dropped": 0}
+{"id": "all-battlefield|2681", "b": 2, "k": "vehicle", "m": 2, "q": "ground-attack aircraft", "c": "m", "n": "Sukhoi Su-25", "p": [], "x": [], "dropped": 0}
 {"id": "mario-and-his-expanded-universe|9658", "b": 0}
-{"id": "the-division|410", "b": 2, "k": "weapon", "m": 1, "q": "", "c": "l", "n": "", "p": [], "x": [], "dropped": 0}
-{"id": "all-battlefield|23", "b": 2, "k": "weapon", "m": 1, "q": "", "c": "l", "n": "", "p": [], "x": [], "dropped": 0}
-{"id": "terraria|2582", "b": 2, "k": "weapon", "m": 1, "q": "", "c": "l", "n": "", "p": [], "x": [], "dropped": 0}
-{"id": "halo|11098", "b": 2, "k": "vehicle", "m": 1, "q": "", "c": "l", "n": "", "p": [], "x": [], "dropped": 0}
+{"id": "the-division|410", "b": 2, "k": "weapon", "m": 1, "q": "", "c": "m", "n": "CMMG Banshee", "p": [], "x": [], "dropped": 0}
+{"id": "all-battlefield|23", "b": 2, "k": "weapon", "m": 1, "q": "", "c": "m", "n": "AK-74", "p": [], "x": [], "dropped": 0}
+{"id": "terraria|2582", "b": 2, "k": "weapon", "m": 1, "q": "fires a bullet with extremely high damage and velocity", "c": "m", "n": "Sniper Rifle", "p": [], "x": [], "dropped": 0}
+{"id": "halo|11098", "b": 2, "k": "vehicle", "m": 2, "q": "fast attack vehicle", "c": "m", "n": "M12 Warthog", "p": [], "x": [], "dropped": 0}
 {"id": "all-fallout|2229", "b": 0}
-{"id": "terraria|649", "b": 2, "k": "armor", "m": 1, "q": "", "c": "l", "n": "", "p": [], "x": [], "dropped": 0}
+{"id": "terraria|649", "b": 2, "k": "armor", "m": 1, "q": "Hardmode armor set", "c": "m", "n": "Cobalt armor", "p": [], "x": [], "dropped": 0}
 {"id": "all-battlefield|2591", "b": 0}
 {"id": "halo|10864", "b": 1, "n": "Kyla Emmett", "p": [], "x": [], "dropped": 0}
-{"id": "world-of-warcraft|15932", "b": 2, "k": "weapon", "m": 1, "q": "", "c": "l", "n": "", "p": [], "x": [], "dropped": 0}
-{"id": "mario-and-his-expanded-universe|17264", "b": 2, "k": "weapon", "m": 1, "q": "", "c": "l", "n": "", "p": [], "x": [], "dropped": 0}
+{"id": "world-of-warcraft|15932", "b": 2, "k": "weapon", "m": 2, "q": "weapon to siphon the essence of a mage", "c": "m", "n": "Arcane Vessel", "p": [], "x": [], "dropped": 0}
+{"id": "mario-and-his-expanded-universe|17264", "b": 2, "k": "weapon", "m": 1, "q": "five-star attack power rating", "c": "m", "n": "Megaflash Baahammer", "p": [], "x": [], "dropped": 0}
 {"id": "all-black-ops|10108", "b": 0}
 {"id": "mario-and-his-expanded-universe|3594", "b": 1, "n": "Limbo Guy", "p": [], "x": [], "dropped": 0}
 {"id": "rainbow-six|1408", "b": 0}
-{"id": "ghost-recon|1085", "b": 2, "k": "weapon", "m": 1, "q": "", "c": "l", "n": "", "p": [], "x": [], "dropped": 0}
-{"id": "all-battlefield|1062", "b": 2, "k": "weapon", "m": 2, "q": "massive damage", "c": "l", "n": "", "p": [], "x": [], "dropped": 0}
-{"id": "critical-role-tal-dorei-campaign-setting|4339", "b": 2, "k": "vehicle", "m": 1, "q": "", "c": "l", "n": "", "p": [], "x": [], "dropped": 0}
+{"id": "ghost-recon|1085", "b": 2, "k": "weapon", "m": 3, "q": "Anti-Tank weapon", "c": "m", "n": "Zeus T2", "p": [], "x": [], "dropped": 0}
+{"id": "all-battlefield|1062", "b": 2, "k": "weapon", "m": 3, "q": "self-propelled aircraft containing a significant explosive payload", "c": "m", "n": "cruise missile", "p": [], "x": [], "dropped": 0}
+{"id": "critical-role-tal-dorei-campaign-setting|4339", "b": 2, "k": "vehicle", "m": 1, "q": "merchant ship that operated in the Menagerie Coast", "c": "m", "n": "Tide's Breath", "p": [], "x": [], "dropped": 0}
 {"id": "fortnite|23536", "b": 0}
 {"id": "metal-gear-solid|6", "b": 0}
 {"id": "world-of-warcraft|44220", "b": 0}
-{"id": "all-battlefield|1730", "b": 2, "k": "weapon", "m": 1, "q": "", "c": "l", "n": "", "p": [], "x": [], "dropped": 0}
-{"id": "mario-and-his-expanded-universe|20547", "b": 2, "k": "vehicle", "m": 1, "q": "", "c": "l", "n": "", "p": [], "x": [], "dropped": 0}
-{"id": "all-battlefield|1866", "b": 2, "k": "weapon", "m": 1, "q": "", "c": "l", "n": "", "p": [], "x": [], "dropped": 0}
-{"id": "all-battlefield|1933", "b": 2, "k": "weapon", "m": 1, "q": "", "c": "l", "n": "", "p": [], "x": [], "dropped": 0}
-{"id": "all-battlefield|2881", "b": 2, "k": "weapon", "m": 1, "q": "", "c": "l", "n": "", "p": [], "x": [], "dropped": 0}
+{"id": "all-battlefield|1730", "b": 2, "k": "weapon", "m": 1, "q": "", "c": "m", "n": "Lebel Model 1886", "p": [], "x": [], "dropped": 0}
+{"id": "mario-and-his-expanded-universe|20547", "b": 2, "k": "vehicle", "m": 1, "q": "armored vehicle", "c": "m", "n": "Shell Body", "p": [], "x": [], "dropped": 0}
+{"id": "all-battlefield|1866", "b": 2, "k": "weapon", "m": 1, "q": "", "c": "m", "n": "MG 08", "p": [], "x": [], "dropped": 0}
+{"id": "all-battlefield|1933", "b": 2, "k": "weapon", "m": 1, "q": "excellent capabilities against body armor", "c": "m", "n": "PDW", "p": [], "x": [], "dropped": 0}
+{"id": "all-battlefield|2881", "b": 2, "k": "weapon", "m": 1, "q": "", "c": "m", "n": "UMP", "p": [], "x": [], "dropped": 0}
 {"id": "tekken|4638", "b": 0}
 {"id": "adventure-time|135", "b": 1, "n": "Chocolate Bar Guy", "p": [], "x": [], "dropped": 0}
 {"id": "all-battlefield|1868", "b": 2, "k": "weapon", "m": 1, "q": "French designed light machine gun", "c": "m", "n": "Hotchkiss Mle. 1909", "p": [], "x": [], "dropped": 0}
