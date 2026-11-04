@@ -25,7 +25,7 @@ with Lane('tank', JARS, client_files=CF, srv_xmx='3G', out=out) as L:
     # instrument item on the hull: stand 3 blocks off the hull side, aim at it, right-click with mts:diaithirtanks.speedo in hand
     S('item replace entity Tester hotbar.1 with mts:diaithirtanks.speedo'); S(f'tp Tester {vx + 3.0:.2f} {vy:.2f} {vz:.2f} 90 20', 0.8); d.key('2'); time.sleep(0.5); d.key('r'); time.sleep(1.5); L.shot('01b_speedo_on_hull.png')
     rep['after_speedo_click'] = S('data get entity @e[type=mts:builder_existing,limit=1,sort=nearest]', 1.5)[0][-400:] if True else ''
-    S('item replace entity Tester hotbar.1 with minecraft:air'); d.key('1'); time.sleep(0.4)
+    S('item replace entity Tester hotbar.1 with minecraft:air'); d.key('1'); time.sleep(0.4); S(f'tp Tester {vx + 4.0:.2f} {vy:.2f} {vz:.2f} 90 15', 1.0); time.sleep(1.5); L.shot('01c_parked_engine_off_nearby.png')
     # scan: ring around the vehicle, aim at points up the hull, empty hand, R, test RootVehicle
     for r in ((3.0, 5.0, 2.0) if not mounted else ()):
         for ang in range(0, 360, 45):
@@ -50,6 +50,11 @@ with Lane('tank', JARS, client_files=CF, srv_xmx='3G', out=out) as L:
         n0 = len(VL()); DV('watch 12', 0.5); d.hold('w', 12); time.sleep(2); rep['watch_W_held'] = VL()[n0:]; L.shot('03_hud_W_held.png')
         n1 = len(VL()); DV('watch 12', 0.5); time.sleep(14); rep['watch_W_released'] = VL()[n1:]
         rep['veh_pos_end'] = S(VP, 0.6)
+        DV('drive 0'); DV('stop'); time.sleep(6)
+        vp = re.search(r'\[(-?[\d.]+)d, (-?[\d.]+)d, (-?[\d.]+)d\]', ' '.join(S(VP, 0.6)))
+        if vp:
+            S(f'tp Tester {float(vp[1]) + 4.0:.2f} {float(vp[2]):.2f} {float(vp[3]):.2f} 90 15', 1.0); time.sleep(2); L.shot('04c_stopped_engine_off_nearby.png')
+            S(f'tp Tester {float(vp[1]) + 2.4:.2f} {float(vp[2]):.2f} {float(vp[3]):.2f} 90 15', 1.0)
         d.hold('space', 1.0); time.sleep(0.5); L.shot('05_fire.png')
         L.shot('03_driven.png')
         rep['pos_after'] = S('data get entity Tester Pos', 0.8); rep['veh_pos_after'] = S('data get entity @e[type=mts:builder_existing,limit=1,sort=nearest] Pos', 0.8)
