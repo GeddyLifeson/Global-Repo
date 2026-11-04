@@ -6867,3 +6867,4 @@ Run hints: .py `python3 <file>` (PC `py`), .ps1 via a hidden launcher (never a v
 | S6918 | cloud | `diaithir-ports/diaithir-firearms/tools/gen_containers.py` | S6918 Writes container_kinds.json and the diaithircrafting uses_container and ammo_class item tags for diaithir-firearms (munitions container contract) | yes |
 | S6955 | cloud | `tools/item_roles/export_kubejs.py` | S6955 Writes ITEM_ROLES.csv as per-namespace kubejs JSON for the pack | yes |
 | S6958 | cloud | `diaithirrpg/tools/innate/innate_tags.py` | Tags pack-linked Library beings with innate abilities (flight, ki, shapeshift, regen) from real entry text; writes content/innate/innate_abilities.json | yes |
+| S6959 | cloud | `diaithirrpg/tools/innate/innate_scan_all.py` | Pure keyword scan of all Library beings; writes content/innate/innate_all.tsv (one row per being with a power tag) | yes |
