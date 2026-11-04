@@ -29,6 +29,16 @@ S = [
  ("orbital_ring","Orbital ring","RODOS","transport",0,0,500000,-2000.0,90000,"Birch orbital ring: ring at ~300 km, towers to ground"),
  ("dyson_swarm","Dyson collector swarm","RODOS","power",0,0,200000,50000.0,70000,"Statite collector swarm; supplies the Gate launch bank"),
 ]
+# Engine classes (diaithir-units Fuels/Engine ids, PR 257). First entry is the stock engine; arcane_motor is accepted from Age VI (matches the magic fuel gate).
+KNOWN_ENGINES = {"draft_animal","steam_piston","petrol_engine","diesel_engine","avgas_piston","jet_turbine","electric_motor","fuel_cell","arcane_motor"}
+ENGINES = {
+ "treadwheel_crane":["draft_animal"], "steam_navvy":["steam_piston"], "walking_dragline":["steam_piston","electric_motor"],
+ "tunnel_borer":["electric_motor","arcane_motor"], "haul_truck":["diesel_engine","electric_motor","arcane_motor"],
+ "crawler_crane":["diesel_engine","electric_motor","arcane_motor"], "bucket_wheel_excavator":["electric_motor","arcane_motor"],
+ "crawler_transporter":["diesel_engine","arcane_motor"], "autonomous_wheel_excavator":["electric_motor","arcane_motor"],
+ "autonomous_haul_fleet":["electric_motor","fuel_cell","arcane_motor"], "mountain_strip_miner":["electric_motor","fuel_cell","arcane_motor"],
+ "terraform_builder":["arcane_motor","fuel_cell"],
+}
 CAPABLE={"autonomous_wheel_excavator","autonomous_haul_fleet","mountain_strip_miner","terraform_builder"}
 def vid(r): return "megamachines:"+r[0]
 def validate(rows_v, rows_s):
@@ -41,6 +51,9 @@ def validate(rows_v, rows_s):
             if abs(calc-rate)/rate>0.25: err.append(f"{i}: dig rate {rate} m3/s vs power*eta/E = {calc:.3f}")
         if crew<=0: err.append(f"{i}: crew seats removed (seats stay; crewless run needs the autonomy module)")
         if (age in("VII","VIII","RODOS"))!=(i in CAPABLE): err.append(f"{i}: autonomy_capable must be set exactly for Age VII+")
+        eng=ENGINES.get(i)
+        if not eng or not set(eng)<=KNOWN_ENGINES: err.append(f"{i}: engines missing or unknown {eng}")
+        elif "arcane_motor" in eng and AGES.index(age)<5: err.append(f"{i}: arcane_motor before Age VI")
         if deck<=0: err.append(f"{i}: no walkable deck")
         if P/m*1e6>10000: err.append(f"{i}: power/mass above 10 kW/t")
     for r in rows_s:
@@ -58,6 +71,7 @@ def main(out):
          "structures":[dict(zip(sk,("megamachines:"+r[0],)+r[1:])) for r in S],
          "specific_energy_MJ_m3":E}
     for v in cat["vehicles"]:
+        v["engines"]=ENGINES[v["id"].split(":")[1]]
         v["autonomy_capable"]=v["id"].split(":")[1] in CAPABLE
         v["dig_m3_s_calc"]=round(v["power_MW"]*v["eta"]/E[v["medium"]],3) if v["eta"] else 0
     (out/"catalog.json").write_text(json.dumps(cat,indent=1))

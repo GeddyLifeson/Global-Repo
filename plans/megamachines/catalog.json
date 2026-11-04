@@ -13,6 +13,9 @@
    "crew": 4,
    "deck_m2": 12,
    "real_basis": "Roman/medieval man-powered wheel crane; lifts 6 t",
+   "engines": [
+    "draft_animal"
+   ],
    "autonomy_capable": false,
    "dig_m3_s_calc": 0.001
   },
@@ -29,6 +32,9 @@
    "crew": 2,
    "deck_m2": 10,
    "real_basis": "1840s Otis/Smith steam shovel, 0.6 m3 bucket",
+   "engines": [
+    "steam_piston"
+   ],
    "autonomy_capable": false,
    "dig_m3_s_calc": 0.007
   },
@@ -45,6 +51,10 @@
    "crew": 3,
    "deck_m2": 60,
    "real_basis": "Bucyrus-Erie style; walks on shoes, 20-60 m3 bucket",
+   "engines": [
+    "steam_piston",
+    "electric_motor"
+   ],
    "autonomy_capable": false,
    "dig_m3_s_calc": 0.55
   },
@@ -61,6 +71,10 @@
    "crew": 6,
    "deck_m2": 80,
    "real_basis": "Channel Tunnel TBM 8.7 m bore, 5-10 m/hour in chalk",
+   "engines": [
+    "electric_motor",
+    "arcane_motor"
+   ],
    "autonomy_capable": false,
    "dig_m3_s_calc": 0.039
   },
@@ -77,6 +91,11 @@
    "crew": 1,
    "deck_m2": 25,
    "real_basis": "Belaz 75710 class, 450 t payload, 2 x 2.3 MW",
+   "engines": [
+    "diesel_engine",
+    "electric_motor",
+    "arcane_motor"
+   ],
    "autonomy_capable": false,
    "dig_m3_s_calc": 0
   },
@@ -93,6 +112,11 @@
    "crew": 2,
    "deck_m2": 30,
    "real_basis": "Liebherr LR 13000 class, 3000 t lift",
+   "engines": [
+    "diesel_engine",
+    "electric_motor",
+    "arcane_motor"
+   ],
    "autonomy_capable": false,
    "dig_m3_s_calc": 0
   },
@@ -109,6 +133,10 @@
    "crew": 5,
    "deck_m2": 420,
    "real_basis": "Bagger 293: 14,200 t, 16.6 MW, ~240,000 m3/day",
+   "engines": [
+    "electric_motor",
+    "arcane_motor"
+   ],
    "autonomy_capable": false,
    "dig_m3_s_calc": 1.375
   },
@@ -125,6 +153,10 @@
    "crew": 2,
    "deck_m2": 500,
    "real_basis": "KSC crawler-transporter, 2,700 t, carries 8,000 t",
+   "engines": [
+    "diesel_engine",
+    "arcane_motor"
+   ],
    "autonomy_capable": false,
    "dig_m3_s_calc": 0
   },
@@ -141,6 +173,10 @@
    "crew": 3,
    "deck_m2": 420,
    "real_basis": "Bagger 293 under remote autopilot, no operators",
+   "engines": [
+    "electric_motor",
+    "arcane_motor"
+   ],
    "autonomy_capable": true,
    "dig_m3_s_calc": 1.513
   },
@@ -157,6 +193,11 @@
    "crew": 1,
    "deck_m2": 25,
    "real_basis": "Komatsu FrontRunner driverless haulage",
+   "engines": [
+    "electric_motor",
+    "fuel_cell",
+    "arcane_motor"
+   ],
    "autonomy_capable": true,
    "dig_m3_s_calc": 0
   },
@@ -173,6 +214,11 @@
    "crew": 4,
    "deck_m2": 2500,
    "real_basis": "Scaled-up BWE chain, fusion cell fed; removes ridge lines",
+   "engines": [
+    "electric_motor",
+    "fuel_cell",
+    "arcane_motor"
+   ],
    "autonomy_capable": true,
    "dig_m3_s_calc": 1.8
   },
@@ -189,6 +235,10 @@
    "crew": 6,
    "deck_m2": 6000,
    "real_basis": "Planet-scale bulk builder; prints stone, soil, water from shard-fed feedstock",
+   "engines": [
+    "arcane_motor",
+    "fuel_cell"
+   ],
    "autonomy_capable": true,
    "dig_m3_s_calc": 10.5
   }
