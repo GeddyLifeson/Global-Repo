@@ -1,0 +1,39 @@
+id	name	slot	tier	kind	source_power	keywords
+flight	Flight	mobility	3	P	neoorigins:draconic_flight	fly|flight|flies|flying|airborne|soar|levitat|winged
+glide	Gliding	mobility	1	P	neoorigins:elytrian_flight	glide|gliding|wings|winged
+spectral_flight	Spectral Flight	mobility	2	P	neoorigins:phantom_flight	ghost|spectr|ethereal|phantom
+levitation	Levitation	mobility	1	A	neoorigins:gravity_mage_levitation	levitat|hover|float|telekin
+super_speed_1	Super Speed I	mobility	1	P	diaithirpowers:super_speed_1,diaithirpowers:super_speed_1_2	swift|fleet|fast|quick|speedster
+super_speed_2	Super Speed II	mobility	2	P	diaithirpowers:super_speed_2,diaithirpowers:super_speed_2_2	super.?speed|blur|lightning.?fast|hypersonic
+super_speed_3	Super Speed III	mobility	3	P	diaithirpowers:super_speed_3,diaithirpowers:super_speed_3_2	speed.?force|faster than light|speedster|run.{0,12}(light|sound)|vibrat
+dash	Dash	mobility	1	A	neoorigins:windwalker_gale_dash	dash|burst of speed|lunge|charge
+blink	Blink	mobility	2	A	neoorigins:enderian_teleport	teleport|blink|instant transmission|warp
+phase	Phase	mobility	3	A	neoorigins:voidwalker_active_phase	phase|intangib|pass through|wall.?walk
+super_strength_1	Super Strength I	offense	1	P	diaithirpowers:super_strength_1,diaithirpowers:super_strength_1_2	strong|mighty|powerful|brawn|herculean
+super_strength_2	Super Strength II	offense	2	P	diaithirpowers:super_strength_2,diaithirpowers:super_strength_2_2	super.?human strength|superhuman|crush|shatter|titanic strength
+super_strength_3	Super Strength III	offense	3	P	diaithirpowers:super_strength_3,diaithirpowers:super_strength_3_2	super.?strength|move mountains|lift.{0,15}(planet|mountain)|limitless strength
+barrage	Barrage	offense	2	P	diaithirpowers:barrage,diaithirpowers:barrage_2	barrage|flurry|rapid.{0,10}(punch|strike|blow)|hundred.{0,10}fist|ora
+pressure_strike	Pressure-Point Strike	offense	2	P	neoorigins:qi_core_pressure	pressure.?point|nerve strike|meridian|death touch|hokuto
+vibrating_palm	Vibrating Palm	offense	2	A	neoorigins:qi_vibrating_palm	palm|vibrating|inner.?force|shockwave strike
+ki_blast	Ki Blast	offense	2	A	diaithirpowers:ki_blast	ki blast|energy blast|kamehameha|chi blast|spirit blast|aura blast
+energy_beam	Energy Beam	offense	3	A	diaithirpowers:energy_beam	beam|laser|heat.?vision|eye.?beam|optic blast|ray
+fireball	Fireball	offense	2	A	neoorigins:draconic_active_fireball	fireball|fire.?breath|flame|blaze|pyro
+freeze_breath	Freeze Aura	offense	2	A	neoorigins:frostborn_freeze_aura	freez|frost|ice|cryo|cold breath
+whirlwind	Whirlwind	offense	2	A	neoorigins:air_mage_whirlwind	whirlwind|cyclone|tornado|gale|wind blast
+gravity_repulse	Repulse	offense	2	A	neoorigins:gravity_mage_repulse	repel|repulse|force push|telekinetic blast|gravity
+flying_sword	Flying Sword	offense	3	A	neoorigins:qi_flying_sword	flying sword|sword qi|spirit blade|sword saint
+invulnerability_1	Tough Hide	defense	1	P	diaithirpowers:invulnerability_1,diaithirpowers:invulnerability_1_2,diaithirpowers:invulnerability_1_3	tough|hardy|thick.?skin|resilien
+invulnerability_2	Near Invulnerability	defense	2	P	diaithirpowers:invulnerability_2,diaithirpowers:invulnerability_2_2,diaithirpowers:invulnerability_2_3	bulletproof|impervious|invulnerab|unbreakable
+invulnerability_3	Invulnerability	defense	3	P	diaithirpowers:invulnerability_3,diaithirpowers:invulnerability_3_2,diaithirpowers:invulnerability_3_3	invulnerab|invincib|indestructible|immortal|cannot be (harmed|hurt)
+hard_body	Diamond Body	defense	2	P	neoorigins:golden_bell_diamond_body	iron body|diamond body|golden bell|steel skin|body of
+iron_shirt	Iron Shirt	defense	1	P	neoorigins:golden_bell_iron_shirt	iron shirt|armou?red skin|hardened
+regeneration	Regeneration	defense	2	P	neoorigins:verdant_apex_regeneration	regenerat|heal(s|ing)? (quickly|rapidly)|self.?heal|rapid heal
+regeneration_fast	Rapid Regeneration	defense	3	P	diaithirpowers:regeneration_fast	rapid regeneration|instant heal|heal.{0,10}wounds
+qi_heal	Meditative Healing	defense	1	A	neoorigins:qi_meditation_heal	meditat|inner peace|qi heal|restor
+immortal_body	Immortal Body	defense	2	P	neoorigins:jianxian_immortal_body	immortal|ageless|deathless|undying|no fall
+time_stop	Time Stop	utility	3	A	diaithirpowers:time_stop	time stop|stop(s|ped)? time|freez(e|es|ing) time|the world|chronos|temporal
+telepathy	Telepathy	utility	1	A	diaithirpowers:telepathy	telepath|mind.?read|read minds|psychic|sense
+invisibility	Invisibility	utility	2	P	neoorigins:class_rogue_stealth	invisib|unseen|vanish|cloak|stealth
+giant_size	Giant Size	utility	2	P	neoorigins:class_titan_size	giant|colossal|titan|grow.{0,10}(huge|giant)
+dragon_form	Dragon Form	utility	3	A	neoorigins:cave_dragon_form	shapeshift|dragon form|transform|beast form|polymorph
+ki_resource	Ki Reserve	utility	1	P	neoorigins:qi_resource	ki|chi|qi|aura|spirit energy|ki.?user

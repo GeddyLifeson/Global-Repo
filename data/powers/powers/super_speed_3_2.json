@@ -1,0 +1,13 @@
+{
+ "type": "neoorigins:persistent_effect",
+ "toggleable": false,
+ "ambient": true,
+ "show_particles": false,
+ "show_icon": false,
+ "effects": [
+  {
+   "effect": "minecraft:speed",
+   "amplifier": 2
+  }
+ ]
+}
