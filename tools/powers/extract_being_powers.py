@@ -14,8 +14,8 @@ ap.add_argument('--stats', action='store_true')
 ap.add_argument("--find", nargs="*", default=None, help='archetype names from ARCHETYPE_GRANTS (or all)')
 a = ap.parse_args()
 
-def rx(kw):
-    return re.compile(r'\b(?:' + '|'.join(k.strip() for k in kw.split('|') if k.strip()) + r')\b', re.I)
+def rx(x):
+    return re.compile(x, re.I) if x else None
 
 # scale words -> magnitude 1-10 (README.md in plans/powers); highest hit wins, default 1
 SCALE = [(10, r'splits? (whole )?worlds?|shatters? (stars?|worlds?)|stars?-scale|universe|omniverse|galax\w+'), (9, r'planets?|planetary'),
@@ -26,22 +26,29 @@ def magnitude(text):
     return next((m for m, r in SCALE if r.search(text)), 1)
 
 pool = list(csv.DictReader(open(a.pool), delimiter='\t'))
-pat = {p['id']: rx(p['keywords']) for p in pool}
+strong = {p['id']: rx(p['keywords_strong']) for p in pool}
+weak = {p['id']: rx(p['keywords_weak']) for p in pool}
+realms = {p['id']: rx(p['realms']) for p in pool}
 scalable = {p['id'] for p in pool if p['magnitude'] != '-'}
-slot = {p['id']: p['slot'] for p in pool}
 
-def powers(text):
-    m = magnitude(text)
-    hits = [pid + (':%d' % m if pid in scalable else '') for pid, r in pat.items() if r.search(text)]
-    return hits
+def powers(text, realm):
+    """Order: strong hits, weak hits in a matching realm, other weak hits. Weak scalable magnitude capped at 2."""
+    m = magnitude(text); out = {}
+    def add(pid, mag, rank):
+        if pid not in out: out[pid] = (rank, pid + (':%d' % mag if pid in scalable else ''))
+    for pid in strong:
+        if strong[pid] and strong[pid].search(text): add(pid, m, 0)
+        elif pid == 'ki_resource' and realms[pid] and realms[pid].search(realm): add(pid, 1, 0)  # realm Ki is the main signal
+    for pid in weak:
+        if weak[pid] and weak[pid].search(text): add(pid, min(m, 2), 1 if realms[pid] and realms[pid].search(realm) else 2)
+    return [v for _, v in sorted(out.values())]
 
 c = sqlite3.connect('file:%s?mode=ro' % a.db, uri=True)
 cnt, n, withp = Counter(), 0, 0
 rows = []
 for i, nm, realm, s in c.execute("select id,name,realm,summary from entry where kind='being'"):
     n += 1
-    ps = powers(nm + '. ' + (s or ''))
-    if realm == 'Ki' and 'ki_resource' not in ps: ps.append('ki_resource')
+    ps = powers(nm + '. ' + (s or ''), realm)
     if ps:
         withp += 1; cnt.update(ps)
         rows.append((i, nm, realm, ','.join(ps)))
