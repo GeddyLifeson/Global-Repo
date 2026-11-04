@@ -1,0 +1,250 @@
+{"id": "vampire-the-masquerade|27327", "b": 0}
+{"id": "vampire-the-masquerade|27316", "b": 0}
+{"id": "vampire-the-masquerade|26499", "b": 1, "n": "Walter Stanford", "p": [], "x": [], "dropped": 0}
+{"id": "vampire-the-masquerade|25695", "b": 1, "n": "Uthra Suri", "p": [], "x": [], "dropped": 0}
+{"id": "vampire-the-masquerade|25516", "b": 1, "n": "Ugallu", "p": [{"id": "flight", "m": 1, "q": "They often take the form of flying monsters such as rocs, gryphons or dragons", "c": "l"}], "x": [], "dropped": 0}
+{"id": "vampire-the-masquerade|25455", "b": 1, "n": "Uratha", "p": [], "x": [], "dropped": 0}
+{"id": "vampire-the-masquerade|2534", "b": 1, "n": "Amaroq", "p": [], "x": [], "dropped": 0}
+{"id": "vampire-the-masquerade|24038", "b": 0}
+{"id": "vampire-the-masquerade|23739", "b": 1, "n": "Tarique", "p": [], "x": [], "dropped": 0}
+{"id": "vampire-the-masquerade|23430", "b": 1, "n": "Stephen Thundran", "p": [], "x": [], "dropped": 0}
+{"id": "vampire-the-masquerade|23426", "b": 1, "n": "Suleiman", "p": [], "x": [], "dropped": 0}
+{"id": "vampire-the-masquerade|23418", "b": 1, "n": "Stonebones", "p": [{"id": "hard_body", "m": 1, "q": "Theirs is the blessing of Obdurate Skin", "c": "l"}], "x": [], "dropped": 0}
+{"id": "vampire-the-masquerade|23245", "b": 0}
+{"id": "vampire-the-masquerade|22415", "b": 1, "n": "Shazear", "p": [{"id": "dragon_form", "m": 2, "q": "He is able to shapeshift and assume human form", "c": "m"}], "x": [], "dropped": 0}
+{"id": "vampire-the-masquerade|22278", "b": 1, "n": "Protected People", "p": [], "x": [], "dropped": 0}
+{"id": "vampire-the-masquerade|22226", "b": 1, "n": "Seçil", "p": [], "x": [], "dropped": 0}
+{"id": "vampire-the-masquerade|21927", "b": 1, "n": "Scourgelings", "p": [], "x": [], "dropped": 0}
+{"id": "vampire-the-masquerade|2190", "b": 1, "n": "Aeon of Spirit", "p": [{"id": "dragon_form", "m": 3, "q": "A shapeshifter whose form often reflects the symbolic tastes of visitors", "c": "l"}], "x": [], "dropped": 0}
+{"id": "vampire-the-masquerade|21898", "b": 1, "n": "Scarlett Grant", "p": [], "x": [], "dropped": 0}
+{"id": "vampire-the-masquerade|21546", "b": 1, "n": "Salomon ibn Jedah ibn Gabirol", "p": [{"id": "invisibility", "m": 1, "q": "able to hide himself and his Jewish people in shadows", "c": "l"}], "x": [], "dropped": 0}
+{"id": "vampire-the-masquerade|21539", "b": 1, "n": "S.B. Ronson", "p": [{"id": "dragon_form", "m": 1, "q": "transform themself into a wolf-shifter", "c": "l"}], "x": [], "dropped": 0}
+{"id": "vampire-the-masquerade|20992", "b": 1, "n": "Rob \"Superbeast\" Steele", "p": [{"id": "dragon_form", "m": 2, "q": "morph into a large muscular beast", "c": "m"}], "x": [], "dropped": 0}
+{"id": "vampire-the-masquerade|20926", "b": 1, "n": "Rhea O'Connor", "p": [], "x": [], "dropped": 0}
+{"id": "vampire-the-masquerade|20791", "b": 1, "n": "Reuben Trimby", "p": [], "x": [], "dropped": 0}
+{"id": "vampire-the-masquerade|20503", "b": 1, "n": "Rafeeq", "p": [], "x": [], "dropped": 0}
+{"id": "vampire-the-masquerade|20125", "b": 1, "n": "Pythagoras", "p": [], "x": [], "dropped": 0}
+{"id": "vampire-the-masquerade|20076", "b": 1, "n": "Pumonca", "p": [], "x": [], "dropped": 0}
+{"id": "vampire-the-masquerade|19813", "b": 1, "n": "Prias", "p": [{"id": "regeneration", "m": 1, "q": "abilities comparable to an elder vampire", "c": "l"}], "x": [], "dropped": 0}
+{"id": "vampire-the-masquerade|19768", "b": 1, "n": "Pooka", "p": [{"id": "dragon_form", "m": 1, "q": "Each is able to take on the form of a specific animal", "c": "m"}], "x": [], "dropped": 0}
+{"id": "vampire-the-masquerade|19344", "b": 1, "n": "Pansy Ledbedder", "p": [], "x": [], "dropped": 0}
+{"id": "vampire-the-masquerade|18994", "b": 1, "n": "Old Man Fisher", "p": [], "x": [], "dropped": 0}
+{"id": "vampire-the-masquerade|18414", "b": 1, "n": "Nittu Ronchetti", "p": [], "x": [], "dropped": 0}
+{"id": "vampire-the-masquerade|18080", "b": 1, "n": "The Musician", "p": [], "x": [], "dropped": 0}
+{"id": "vampire-the-masquerade|17898", "b": 1, "n": "Mysancta", "p": [], "x": [], "dropped": 0}
+{"id": "vampire-the-masquerade|17882", "b": 1, "n": "Nar-Sheptha", "p": [], "x": [], "dropped": 0}
+{"id": "vampire-the-masquerade|17876", "b": 1, "n": "Neith", "p": [], "x": [], "dropped": 0}
+{"id": "vampire-the-masquerade|17022", "b": 1, "n": "Melody Trelawny", "p": [], "x": [], "dropped": 0}
+{"id": "vampire-the-masquerade|16945", "b": 0}
+{"id": "vampire-the-masquerade|16652", "b": 1, "n": "Mazen ibn Tarique", "p": [], "x": [], "dropped": 0}
+{"id": "vampire-the-masquerade|16433", "b": 1, "n": "Marcus Kiley", "p": [], "x": [], "dropped": 0}
+{"id": "vampire-the-masquerade|16315", "b": 1, "n": "Mao Lun", "p": [], "x": [], "dropped": 0}
+{"id": "vampire-the-masquerade|15958", "b": 1, "n": "Lynx-Killer", "p": [], "x": [], "dropped": 0}
+{"id": "vampire-the-masquerade|15406", "b": 0}
+{"id": "vampire-the-masquerade|15305", "b": 1, "n": "Linda Smith-Nevans", "p": [], "x": [], "dropped": 0}
+{"id": "vampire-the-masquerade|15118", "b": 1, "n": "Letitia Shy", "p": [], "x": [], "dropped": 0}
+{"id": "vampire-the-masquerade|14724", "b": 1, "n": "Lady Bolevile", "p": [], "x": [], "dropped": 0}
+{"id": "vampire-the-masquerade|14723", "b": 1, "n": "Laughing Ones", "p": [{"id": "dragon_form", "m": 1, "q": "capricious, shapeshifting hobs", "c": "l"}], "x": [], "dropped": 0}
+{"id": "vampire-the-masquerade|14679", "b": 1, "n": "Kànbujiàn", "p": [], "x": [], "dropped": 0}
+{"id": "vampire-the-masquerade|14619", "b": 1, "n": "Lammasu", "p": [], "x": [], "dropped": 0}
+{"id": "vampire-the-masquerade|14614", "b": 1, "n": "Lawgiver", "p": [], "x": [], "dropped": 0}
+{"id": "vampire-the-masquerade|14505", "b": 1, "n": "King Semyonov", "p": [{"id": "dragon_form", "m": 1, "q": "born with the ability to change form", "c": "m"}], "x": [], "dropped": 0}
+{"id": "vampire-the-masquerade|14328", "b": 1, "n": "Khara", "p": [], "x": [], "dropped": 0}
+{"id": "vampire-the-masquerade|13965", "b": 1, "n": "Kahina", "p": [], "x": [], "dropped": 0}
+{"id": "vampire-the-masquerade|13477", "b": 1, "n": "Jebediah Roney", "p": [], "x": [], "dropped": 0}
+{"id": "vampire-the-masquerade|13246", "b": 0}
+{"id": "vampire-the-masquerade|12575", "b": 1, "n": "Isamu Harujiro", "p": [], "x": [], "dropped": 0}
+{"id": "vampire-the-masquerade|12191", "b": 0}
+{"id": "vampire-the-masquerade|11570", "b": 1, "n": "Hiram \"Slag\" Goldberg", "p": [{"id": "fireball", "m": 2, "q": "he had the power to manipulate flames and molten metal", "c": "l"}], "x": [], "dropped": 0}
+{"id": "vampire-the-masquerade|11532", "b": 1, "n": "Hispo", "p": [], "x": [], "dropped": 0}
+{"id": "vampire-the-masquerade|11515", "b": 1, "n": "Hiram Bollingsworth", "p": [], "x": [], "dropped": 0}
+{"id": "vampire-the-masquerade|11379", "b": 1, "n": "Hautala", "p": [], "x": [], "dropped": 0}
+{"id": "transformers|647", "b": 1, "n": "Centurion Droids", "p": [], "x": [], "dropped": 0}
+{"id": "transformers|523", "b": 1, "n": "Beck", "p": [{"id": "super_strength", "m": 1, "q": "Beck is a very strong Go-Bot", "c": "l"}], "x": [], "dropped": 0}
+{"id": "transformers|5177", "b": 1, "n": "Twitcher F451", "p": [], "x": [], "dropped": 0}
+{"id": "transformers|4857", "b": 0}
+{"id": "transformers|4303", "b": 1, "n": "Swarms", "p": [], "x": [], "dropped": 0}
+{"id": "transformers|4021", "b": 1, "n": "Speed-Bot", "p": [{"id": "super_speed", "m": 2, "q": "Speed-Bot is the fastest of all the Go-Bots", "c": "l"}], "x": [], "dropped": 0}
+{"id": "transformers|3967", "b": 1, "n": "Shotgunner", "p": [], "x": [], "dropped": 0}
+{"id": "transformers|3717", "b": 1, "n": "Rhinobreast", "p": [], "x": [], "dropped": 0}
+{"id": "transformers|3485", "b": 1, "n": "Radrogue", "p": [{"id": "super_speed", "m": 1, "q": "the fast-running leader", "c": "l"}], "x": [], "dropped": 0}
+{"id": "transformers|2516", "b": 1, "n": "Madmachine", "p": [{"id": "energy_beam", "m": 1, "q": "It projects electromagnetic beams from its forward protrusions", "c": "l"}], "x": [], "dropped": 0}
+{"id": "transformers|2495", "b": 1, "n": "Koala Gray", "p": [], "x": [], "dropped": 0}
+{"id": "transformers|2487", "b": 1, "n": "Kreb", "p": [], "x": [], "dropped": 0}
+{"id": "transformers|1860", "b": 1, "n": "Haywire", "p": [], "x": [], "dropped": 0}
+{"id": "the-lovecraftian-mythos|6501", "b": 1, "n": "Thoth-Amon", "p": [], "x": [], "dropped": 0}
+{"id": "the-lovecraftian-mythos|4441", "b": 1, "n": "Shoggoths", "p": [{"id": "dragon_form", "m": 2, "q": "amorphous, shapeshifting beings", "c": "l"}], "x": [], "dropped": 0}
+{"id": "the-lovecraftian-mythos|4135", "b": 1, "n": "R. Layamon", "p": [], "x": [], "dropped": 0}
+{"id": "the-lovecraftian-mythos|2819", "b": 1, "n": "Lobon", "p": [], "x": [], "dropped": 0}
+{"id": "the-lovecraftian-mythos|2626", "b": 1, "n": "Harpies", "p": [{"id": "flight", "m": 1, "q": "winged female creatures", "c": "l"}], "x": [], "dropped": 0}
+{"id": "the-lovecraftian-mythos|2460", "b": 1, "n": "Intelligent mollusks", "p": [{"id": "telepathy", "m": 2, "q": "a telepathic race of creatures", "c": "l"}], "x": [], "dropped": 0}
+{"id": "the-lord-of-the-rings|5977", "b": 1, "n": "Witnesses of Manwë", "p": [], "x": [], "dropped": 0}
+{"id": "the-lord-of-the-rings|5926", "b": 1, "n": "Werewolves", "p": [], "x": [], "dropped": 0}
+{"id": "the-lord-of-the-rings|3814", "b": 1, "n": "Rogash", "p": [{"id": "super_strength", "m": 1, "q": "He had the built and strength of an average troll", "c": "l"}], "x": [], "dropped": 0}
+{"id": "the-lord-of-the-rings|247", "b": 1, "n": "Asfaloth", "p": [{"id": "super_speed", "m": 1, "q": "naturally faster than ordinary horses", "c": "l"}], "x": [], "dropped": 0}
+{"id": "terraria|1501", "b": 1, "n": "Ice Golem", "p": [{"id": "freeze_breath", "m": 1, "q": "fires blue Frost Beam projectiles that chill and occasionally freeze players", "c": "l"}], "x": [], "dropped": 0}
+{"id": "terraria|1266", "b": 1, "n": "Granite Golem", "p": [{"id": "invulnerability", "m": 1, "q": "shield itself from all attacks making it completely invulnerable", "c": "l"}], "x": [], "dropped": 0}
+{"id": "terminator|924", "b": 1, "n": "CSM-107 T-810", "p": [], "x": [], "dropped": 0}
+{"id": "terminator|434", "b": 0}
+{"id": "terminator|1044", "b": 1, "n": "TE-X30", "p": [], "x": [], "dropped": 0}
+{"id": "street-fighter|2807", "b": 0}
+{"id": "street-fighter|2538", "b": 0}
+{"id": "street-fighter|1533", "b": 1, "n": "Nakagami Yousuke", "p": [{"id": "super_strength", "m": 1, "q": "shatters PC monitors with an intense punch", "c": "l"}], "x": [], "dropped": 0}
+{"id": "street-fighter|1255", "b": 1, "n": "Killer Chefs", "p": [], "x": [], "dropped": 0}
+{"id": "starcraft|6049", "b": 1, "n": "Ted Samsa", "p": [], "x": [], "dropped": 0}
+{"id": "starcraft|6030", "b": 1, "n": "Temlaa", "p": [], "x": [], "dropped": 0}
+{"id": "starcraft|5540", "b": 1, "n": "Space Pirates", "p": [], "x": [], "dropped": 0}
+{"id": "starcraft|5056", "b": 1, "n": "Rimmicu", "p": [], "x": [], "dropped": 0}
+{"id": "starcraft|5002", "b": 1, "n": "Rook", "p": [], "x": [], "dropped": 0}
+{"id": "starcraft|4860", "b": 1, "n": "Rhynadon", "p": [], "x": [], "dropped": 0}
+{"id": "starcraft|4786", "b": 0}
+{"id": "starcraft|4781", "b": 2, "k": "weapon", "m": 1, "q": "These blades are made of a solid material as opposed to the usual psionic blades of the protoss", "c": "l", "n": "Purifier blades", "p": [], "x": [], "dropped": 0}
+{"id": "starcraft|4749", "b": 0}
+{"id": "starcraft|4609", "b": 0}
+{"id": "starcraft|4442", "b": 1, "n": "Oma", "p": [], "x": [], "dropped": 0}
+{"id": "starcraft|4343", "b": 1, "n": "Octavia Bren", "p": [{"id": "telepathy", "m": 1, "q": "unregistered, untrained telepath", "c": "l"}], "x": [], "dropped": 0}
+{"id": "starcraft|3949", "b": 1, "n": "Mecha lurker", "p": [], "x": [], "dropped": 0}
+{"id": "starcraft|3885", "b": 0}
+{"id": "starcraft|3614", "b": 0}
+{"id": "starcraft|3388", "b": 1, "n": "Ladranix", "p": [], "x": [], "dropped": 0}
+{"id": "starcraft|3283", "b": 1, "n": "Kasai flyers", "p": [{"id": "levitation", "m": 1, "q": "possess the ability to float above the ground", "c": "m"}], "x": [], "dropped": 0}
+{"id": "starcraft|2662", "b": 1, "n": "Guraj", "p": [], "x": [], "dropped": 0}
+{"id": "starcraft|2250", "b": 1, "n": "Gestalt Zero", "p": [], "x": [], "dropped": 0}
+{"id": "starcraft|2196", "b": 1, "n": "Lieutenant Commander Fleet", "p": [], "x": [], "dropped": 0}
+{"id": "starcraft|1323", "b": 1, "n": "Colin Phash", "p": [], "x": [], "dropped": 0}
+{"id": "sailor-moon|493", "b": 1, "n": "Hurdle", "p": [{"id": "super_speed", "m": 1, "q": "is a fast runner", "c": "l"}], "x": [], "dropped": 0}
+{"id": "sailor-moon|1836", "b": 1, "n": "Sakiko", "p": [], "x": [], "dropped": 0}
+{"id": "rosario-vampire|94", "b": 1, "n": "Mizuki Ueshiba", "p": [], "x": [], "dropped": 0}
+{"id": "rosario-vampire|258", "b": 1, "n": "Sirens", "p": [], "x": [], "dropped": 0}
+{"id": "rosario-vampire|191", "b": 0}
+{"id": "rosario-vampire|130", "b": 1, "n": "Onimodoki", "p": [{"id": "dragon_form", "m": 1, "q": "shape-shifting monster that can duplicate a monster's features at will", "c": "m"}], "x": [], "dropped": 0}
+{"id": "rock-of-ages|55", "b": 1, "n": "Hand of the Titan", "p": [], "x": [], "dropped": 0}
+{"id": "risk-of-rain|123", "b": 1, "n": "Floating mask monster", "p": [{"id": "levitation", "m": 1, "q": "floating mask monster", "c": "l"}], "x": [], "dropped": 0}
+{"id": "rainbow-six|724", "b": 1, "n": "Lurkers", "p": [{"id": "invisibility", "m": 1, "q": "capable of making themselves and other enemies invisible", "c": "m"}], "x": [], "dropped": 0}
+{"id": "predator|713", "b": 1, "n": "Alan Decker", "p": [{"id": "telepathy", "m": 1, "q": "an empath, which is a low level telepath", "c": "l"}], "x": [], "dropped": 0}
+{"id": "predator|7029", "b": 1, "n": "Subotai", "p": [{"id": "immortal_body", "m": 1, "q": "an immortal Japanese samurai", "c": "l"}], "x": [], "dropped": 0}
+{"id": "predator|6457", "b": 1, "n": "Runner", "p": [{"id": "super_speed", "m": 1, "q": "Runners, as their name implies, are fast and agile", "c": "l"}], "x": [], "dropped": 0}
+{"id": "predator|6314", "b": 1, "n": "Raptor", "p": [{"id": "flight", "m": 1, "q": "leathery wings with a ten-foot span", "c": "l"}], "x": [], "dropped": 0}
+{"id": "predator|2245", "b": 1, "n": "Dawn", "p": [{"id": "telepathy", "m": 1, "q": "tell a human exactly what they were thinking", "c": "l"}], "x": [], "dropped": 0}
+{"id": "predator|2222", "b": 1, "n": "Defender", "p": [{"id": "iron_shirt", "m": 1, "q": "bullet-resistant mesoskeleton", "c": "l"}], "x": [], "dropped": 0}
+{"id": "path-of-exile|7723", "b": 1, "n": "Pocked Lanternbearer", "p": [{"id": "fireball", "m": 1, "q": "throw firebombs which leave a yellow burning ground", "c": "l"}], "x": [], "dropped": 0}
+{"id": "path-of-exile|7434", "b": 1, "n": "Paradisae Venenum", "p": [], "x": [], "dropped": 0}
+{"id": "path-of-exile|1573", "b": 1, "n": "Cannibal Fire-eater", "p": [{"id": "fireball", "m": 1, "q": "Has a fire breath attack", "c": "l"}], "x": [], "dropped": 0}
+{"id": "path-of-exile|1449", "b": 1, "n": "Carrion Queens", "p": [{"id": "fireball", "m": 1, "q": "shoots Fireball-like projectiles", "c": "l"}], "x": [], "dropped": 0}
+{"id": "path-of-exile|12580", "b": 1, "n": "Vultures", "p": [{"id": "flight", "m": 1, "q": "large flying monsters", "c": "l"}], "x": [], "dropped": 0}
+{"id": "path-of-exile|12504", "b": 1, "n": "Voidbearers", "p": [{"id": "fireball", "m": 1, "q": "They breathe fire", "c": "m"}], "x": [], "dropped": 0}
+{"id": "path-of-exile|11839", "b": 1, "n": "Vaal Arsonist", "p": [{"id": "fireball", "m": 1, "q": "ranged fire attack", "c": "l"}], "x": [], "dropped": 0}
+{"id": "one-piece|4348", "b": 1, "n": "Kouzuki Toki", "p": [], "x": [], "dropped": 0}
+{"id": "one-piece|3827", "b": 1, "n": "Hanafuda", "p": [], "x": [], "dropped": 0}
+{"id": "naruto|987", "b": 0}
+{"id": "naruto|979", "b": 0}
+{"id": "naruto|964", "b": 0}
+{"id": "naruto|838", "b": 0}
+{"id": "naruto|821", "b": 0}
+{"id": "naruto|807", "b": 0}
+{"id": "naruto|757", "b": 0}
+{"id": "naruto|676", "b": 0}
+{"id": "naruto|588", "b": 0}
+{"id": "naruto|578", "b": 0}
+{"id": "naruto|505", "b": 0}
+{"id": "naruto|5", "b": 0}
+{"id": "naruto|48", "b": 0}
+{"id": "naruto|4627", "b": 0}
+{"id": "naruto|4598", "b": 0}
+{"id": "naruto|4597", "b": 0}
+{"id": "naruto|4578", "b": 0}
+{"id": "naruto|4577", "b": 0}
+{"id": "naruto|4530", "b": 0}
+{"id": "naruto|450", "b": 0}
+{"id": "naruto|4485", "b": 0}
+{"id": "naruto|4465", "b": 0}
+{"id": "naruto|4412", "b": 0}
+{"id": "naruto|4321", "b": 0}
+{"id": "naruto|4286", "b": 0}
+{"id": "naruto|4278", "b": 0}
+{"id": "naruto|4182", "b": 0}
+{"id": "naruto|4120", "b": 0}
+{"id": "naruto|412", "b": 0}
+{"id": "naruto|4071", "b": 0}
+{"id": "naruto|3931", "b": 0}
+{"id": "naruto|368", "b": 0}
+{"id": "naruto|3640", "b": 0}
+{"id": "naruto|3446", "b": 0}
+{"id": "naruto|344", "b": 0}
+{"id": "naruto|3235", "b": 0}
+{"id": "naruto|3232", "b": 0}
+{"id": "naruto|321", "b": 0}
+{"id": "naruto|3142", "b": 0}
+{"id": "naruto|3123", "b": 0}
+{"id": "naruto|3085", "b": 0}
+{"id": "naruto|3062", "b": 0}
+{"id": "naruto|3033", "b": 0}
+{"id": "naruto|3011", "b": 0}
+{"id": "naruto|2994", "b": 0}
+{"id": "naruto|2894", "b": 0}
+{"id": "naruto|2746", "b": 0}
+{"id": "naruto|2713", "b": 0}
+{"id": "naruto|2657", "b": 0}
+{"id": "naruto|2636", "b": 0}
+{"id": "naruto|2609", "b": 0}
+{"id": "naruto|2582", "b": 0}
+{"id": "naruto|2559", "b": 0}
+{"id": "naruto|2544", "b": 0}
+{"id": "naruto|2540", "b": 0}
+{"id": "naruto|2532", "b": 0}
+{"id": "naruto|2422", "b": 0}
+{"id": "naruto|2412", "b": 0}
+{"id": "naruto|2258", "b": 0}
+{"id": "naruto|2183", "b": 0}
+{"id": "naruto|2149", "b": 0}
+{"id": "naruto|2137", "b": 0}
+{"id": "naruto|2122", "b": 0}
+{"id": "naruto|2041", "b": 0}
+{"id": "naruto|2033", "b": 0}
+{"id": "naruto|1943", "b": 0}
+{"id": "naruto|1761", "b": 0}
+{"id": "naruto|1724", "b": 0}
+{"id": "naruto|1637", "b": 0}
+{"id": "naruto|1615", "b": 0}
+{"id": "naruto|1607", "b": 0}
+{"id": "naruto|1606", "b": 0}
+{"id": "naruto|1568", "b": 0}
+{"id": "naruto|1532", "b": 0}
+{"id": "naruto|1525", "b": 0}
+{"id": "naruto|1470", "b": 0}
+{"id": "naruto|146", "b": 0}
+{"id": "naruto|1416", "b": 0}
+{"id": "naruto|1372", "b": 0}
+{"id": "naruto|1044", "b": 0}
+{"id": "minecraft|4902", "b": 1, "n": "Medusa", "p": [], "x": [], "dropped": 0}
+{"id": "metal-gear-solid|63", "b": 1, "n": "B.B.", "p": [], "x": [], "dropped": 0}
+{"id": "metal-gear-solid|1113", "b": 0}
+{"id": "mazinger|691", "b": 1, "n": "Monkey Robot duo", "p": [{"id": "flight", "m": 1, "q": "They could fly through the air using unseen rockets", "c": "m"}], "x": [], "dropped": 0}
+{"id": "mazinger|467", "b": 1, "n": "Mamirez", "p": [], "x": [], "dropped": 0}
+{"id": "mazinger|424", "b": 1, "n": "Commander Hulk", "p": [{"id": "dragon_form", "m": 1, "q": "special equipment that allows him to shapeshift", "c": "m"}], "x": [], "dropped": 0}
+{"id": "mazinger|397", "b": 1, "n": "Mario N7", "p": [{"id": "flight", "m": 1, "q": "flying saucer-like", "c": "l"}], "x": [], "dropped": 0}
+{"id": "mass-effect|938", "b": 1, "n": "Phantom", "p": [], "x": [], "dropped": 0}
+{"id": "mass-effect|901", "b": 1, "n": "Rachni Brood Warriors", "p": [{"id": "super_strength", "m": 1, "q": "much larger and stronger than normal Rachni Soldiers", "c": "l"}], "x": [], "dropped": 0}
+{"id": "mass-effect|852", "b": 1, "n": "Observer", "p": [{"id": "levitation", "m": 1, "q": "floating overhead", "c": "l"}], "x": [], "dropped": 0}
+{"id": "mass-effect|1233", "b": 0}
+{"id": "mass-effect|1208", "b": 1, "n": "Major Kyle", "p": [], "x": [], "dropped": 0}
+{"id": "marvel|94034", "b": 0}
+{"id": "mario-and-his-expanded-universe|9565", "b": 1, "n": "Buzzard", "p": [], "x": [], "dropped": 0}
+{"id": "mario-and-his-expanded-universe|8936", "b": 1, "n": "Bilin Usagi no Ōjo", "p": [], "x": [], "dropped": 0}
+{"id": "mario-and-his-expanded-universe|7935", "b": 1, "n": "Aiko", "p": [], "x": [], "dropped": 0}
+{"id": "mario-and-his-expanded-universe|7624", "b": 1, "n": "Yukimaru", "p": [{"id": "freeze_breath", "m": 1, "q": "they breathe snowflakes at Wario", "c": "m"}], "x": [], "dropped": 0}
+{"id": "mario-and-his-expanded-universe|7540", "b": 1, "n": "Yeti", "p": [{"id": "freeze_breath", "m": 1, "q": "shooting icy breaths", "c": "m"}], "x": [], "dropped": 0}
+{"id": "mario-and-his-expanded-universe|7171", "b": 1, "n": "Vine Slimes", "p": [{"id": "invulnerability", "m": 1, "q": "Vine Slimes are indestructible", "c": "m"}], "x": [], "dropped": 0}
+{"id": "mario-and-his-expanded-universe|7169", "b": 1, "n": "Water Crystal", "p": [], "x": [], "dropped": 0}
+{"id": "mario-and-his-expanded-universe|683", "b": 1, "n": "Blowtorch Guy", "p": [{"id": "fireball", "m": 1, "q": "attacks using a blowtorch", "c": "l"}], "x": [], "dropped": 0}
+{"id": "mario-and-his-expanded-universe|6716", "b": 1, "n": "Tanoombas", "p": [{"id": "dragon_form", "m": 1, "q": "able to shapeshift into different objects and different creatures", "c": "m"}], "x": [], "dropped": 0}
+{"id": "mario-and-his-expanded-universe|422", "b": 1, "n": "Beam Robota", "p": [{"id": "energy_beam", "m": 1, "q": "shooting beam blades at him", "c": "l"}], "x": [], "dropped": 0}
+{"id": "mario-and-his-expanded-universe|2936", "b": 1, "n": "Boar-like creature", "p": [], "x": [], "dropped": 0}
+{"id": "mario-and-his-expanded-universe|2843", "b": 1, "n": "Hebarii", "p": [{"id": "energy_beam", "m": 1, "q": "shooting beams at Wario", "c": "l"}], "x": [], "dropped": 0}
+{"id": "mario-and-his-expanded-universe|2774", "b": 1, "n": "Gray Magikoopa", "p": [{"id": "invisibility", "m": 1, "q": "can turn allies invisible", "c": "m"}], "x": [], "dropped": 0}
+{"id": "mario-and-his-expanded-universe|2442", "b": 1, "n": "Fred de Fillet", "p": [{"id": "giant_size", "m": 1, "q": "enlarged with Kamek's hammer", "c": "l"}], "x": [], "dropped": 0}
+{"id": "mario-and-his-expanded-universe|2441", "b": 1, "n": "Fwoosh", "p": [{"id": "whirlwind", "m": 1, "q": "blowing strong gusts of wind", "c": "m"}], "x": [], "dropped": 0}
+{"id": "mario-and-his-expanded-universe|24334", "b": 1, "n": "Water Stream Mario", "p": [], "x": [], "dropped": 0}
+{"id": "mario-and-his-expanded-universe|23998", "b": 1, "n": "Unchimu", "p": [{"id": "energy_beam", "m": 1, "q": "shocking Yoshi with a laser from its mouth", "c": "l"}], "x": [], "dropped": 0}
+{"id": "mario-and-his-expanded-universe|23862", "b": 1, "n": "Uckykongs", "p": [], "x": [], "dropped": 0}
+{"id": "mario-and-his-expanded-universe|22750", "b": 1, "n": "Tamagadon", "p": [], "x": [], "dropped": 0}
