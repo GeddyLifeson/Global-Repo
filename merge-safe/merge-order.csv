@@ -271,3 +271,5 @@ wave,repo,number,base,head,partner,title
 0,global-repo,52,main,claude/project-thread-ldq153,,Register S6940 gen_farm_assets.py (diaithir-carts reaper)
 0,global-repo,56,main,claude/project-thread-66n6wn,rpg#280,"Assign an Age to every item with none (assign_ages.py S6957) [edits SCRIPTS_INDEX.md and ids.tsv: merge one at a time, rebuild index on conflict]"
 0,rpg,280,engine,claude/project-thread-66n6wn,global-repo#56,"tech_ages: an Age for every item (V1 audit 5,989 no-Age ids to 0)"
+2,ports,350,diaithircompat,claude/project-thread-i08s9l,,"Woodvariants: own diaithirtrees woods (about 4,000 broken models fixed) + gapfill tool"
+2,ports,351,claude/pack-v1-3,claude/gapfill-overlay,,"Pack: kubejs overlay for 181 unresolved textures and 57 missing parent models"
