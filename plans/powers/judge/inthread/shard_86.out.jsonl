@@ -13,12 +13,12 @@
 {"id": "destiny-1-2|14105", "b": 1, "n": "Zatocc", "p": [], "x": []}
 {"id": "diablo|2545", "b": 1, "n": "Ebewaka", "p": [], "x": []}
 {"id": "diablo|3774", "b": 1, "n": "Gorejaw", "p": [], "x": []}
-{"id": "adventurers-league|8922", "b": 2, "k": "weapon", "n": "brilliant staff of the legendary wizard", "m": 1, "q": "", "c": "l", "p": [], "x": []}
+{"id": "adventurers-league|8922", "b": 2, "k": "weapon", "n": "The brilliant staff of the legendary wizard", "m": 1, "q": "", "c": "l", "p": [], "x": []}
 {"id": "diablo|3967", "b": 0}
 {"id": "diablo|4086", "b": 1, "n": "Gulag", "p": [], "x": []}
 {"id": "diablo|4446", "b": 1, "n": "Ikonoth", "p": [], "x": []}
-{"id": "adventurers-league|8934", "b": 2, "k": "vehicle", "n": "Broadback", "m": 1, "q": "", "c": "l", "p": [], "x": []}
-{"id": "diablo|4509", "b": 1, "n": "Immortal", "p": [], "x": []}
+{"id": "adventurers-league|8934", "b": 2, "k": "vehicle", "n": "The Broadback", "m": 1, "q": "", "c": "l", "p": [], "x": []}
+{"id": "diablo|4509", "b": 1, "n": "The Immortal", "p": [], "x": []}
 {"id": "diablo|4724", "b": 1, "n": "Izilech the Misshapen", "p": [], "x": []}
 {"id": "diablo|4750", "b": 1, "n": "Irina Coldheart", "p": [], "x": []}
 {"id": "adventurers-league|8961", "b": 0}
@@ -37,25 +37,25 @@
 {"id": "digimon|1269", "b": 1, "n": "Greymon O", "p": [], "x": []}
 {"id": "digimon|1287", "b": 0}
 {"id": "digimon|1415", "b": 1, "n": "Kaminarimon", "p": [], "x": []}
-{"id": "adventurers-league|9016", "b": 0}
+{"id": "adventurers-league|9016", "b": 1, "n": "Caldreth's Cobbling", "p": [], "x": []}
 {"id": "digimon|1895", "b": 1, "n": "MetalGreymon X", "p": [], "x": []}
 {"id": "digimon|1902", "b": 1, "n": "MegaGranKuwagamon", "p": [], "x": []}
 {"id": "digimon|2041", "b": 1, "n": "Okuwamon X", "p": [], "x": []}
 {"id": "adventurers-league|9028", "b": 0}
 {"id": "digimon|2221", "b": 1, "n": "Ouryumon", "p": [], "x": []}
 {"id": "digimon|2241", "b": 1, "n": "The Reaper", "p": [], "x": []}
-{"id": "digimon|2363", "b": 1, "n": "Revivemon", "p": [], "x": []}
+{"id": "digimon|2363", "b": 1, "n": "Revivemon", "p": [{"id": "energy_beam", "m": 1, "q": "Fires a beam that can restore any Appmon to its normal state", "c": "m"}], "x": []}
 {"id": "adventurers-league|9032", "b": 1, "n": "Caelar Argent", "p": [], "x": []}
 {"id": "digimon|2537", "b": 0}
 {"id": "digimon|2560", "b": 1, "n": "Splashmon Darkness Mode 1", "p": [], "x": []}
 {"id": "digimon|3132", "b": 1, "n": "XrosUpSabmarimon", "p": [], "x": []}
 {"id": "adventurers-league|9060", "b": 2, "k": "weapon", "n": "Calathangas", "m": 1, "q": "", "c": "l", "p": [], "x": []}
-{"id": "digimon|3133", "b": 1, "n": "XrosUpBallistamon", "p": [], "x": []}
+{"id": "digimon|3133", "b": 1, "n": "XrosUpBallistamon", "p": [{"id": "ki_blast", "m": 1, "q": "Fires an energy shot surrounded by sonic waves", "c": "m"}], "x": []}
 {"id": "digimon|3135", "b": 1, "n": "XrosUpMervamon", "p": [], "x": []}
 {"id": "digimon|3178", "b": 1, "n": "Zubamon", "p": [], "x": []}
 {"id": "adventurers-league|9101", "b": 0}
-{"id": "digimon|6884", "b": 1, "n": "The Beast Spirit of Fire", "p": [], "x": []}
-{"id": "digimon|12913", "b": 0}
+{"id": "digimon|6884", "b": 0}
+{"id": "digimon|12913", "b": 1, "n": "Gokumon", "p": [], "x": []}
 {"id": "digimon|13405", "b": 1, "n": "Kanada Genjo", "p": [], "x": []}
 {"id": "adventurers-league|9121", "b": 2, "k": "weapon", "n": "Cairn Blade", "m": 1, "q": "", "c": "l", "p": [], "x": []}
 {"id": "digimon|14502", "b": 0}
@@ -65,8 +65,8 @@
 {"id": "dragon-ball-z|1520", "b": 0}
 {"id": "dune|1193", "b": 0}
 {"id": "dune|1427", "b": 0}
-{"id": "adventurers-league|9145", "b": 2, "k": "armor", "n": "Bulwark of the Great Dragon", "m": 1, "q": "", "c": "l", "p": [], "x": []}
-{"id": "dune|1745", "b": 0}
+{"id": "adventurers-league|9145", "b": 2, "k": "armor", "n": "The Bulwark of the Great Dragon", "m": 1, "q": "", "c": "l", "p": [], "x": []}
+{"id": "dune|1745", "b": 1, "n": "Omnius", "p": [], "x": []}
 {"id": "dune|2306", "b": 0}
 {"id": "eberron-rising-from-the-last-war|0", "b": 0}
 {"id": "adventurers-league|9159", "b": 1, "n": "The Cabal of Purple", "p": [], "x": []}
@@ -81,7 +81,7 @@
 {"id": "eberron-rising-from-the-last-war|547", "b": 0}
 {"id": "eberron-rising-from-the-last-war|684", "b": 0}
 {"id": "eberron-rising-from-the-last-war|716", "b": 1, "n": "Denkirk", "p": [], "x": []}
-{"id": "adventurers-league|9203", "b": 2, "k": "weapon", "n": "Cadorna family sword", "m": 1, "q": "", "c": "l", "p": [], "x": []}
+{"id": "adventurers-league|9203", "b": 2, "k": "weapon", "n": "The Cadorna family sword", "m": 1, "q": "", "c": "l", "p": [], "x": []}
 {"id": "eberron-rising-from-the-last-war|954", "b": 0}
 {"id": "eberron-rising-from-the-last-war|990", "b": 0}
 {"id": "eberron-rising-from-the-last-war|993", "b": 0}
@@ -90,10 +90,10 @@
 {"id": "eberron-rising-from-the-last-war|1199", "b": 1, "n": "Geth", "p": [], "x": []}
 {"id": "eberron-rising-from-the-last-war|1324", "b": 0}
 {"id": "adventurers-league|9236", "b": 0}
-{"id": "eberron-rising-from-the-last-war|1448", "b": 1, "n": "Girallons", "p": [], "x": []}
+{"id": "eberron-rising-from-the-last-war|1448", "b": 0}
 {"id": "endwar|102", "b": 1, "n": "Major Talberg", "p": [], "x": []}
 {"id": "fire-emblem|1796", "b": 0}
-{"id": "adventurers-league|9237", "b": 2, "k": "weapon", "n": "caduceus staff", "m": 1, "q": "", "c": "l", "p": [], "x": []}
+{"id": "adventurers-league|9237", "b": 0}
 {"id": "fire-emblem|2017", "b": 0}
 {"id": "fire-emblem|2358", "b": 1, "n": "Eda", "p": [], "x": []}
 {"id": "fire-emblem|2397", "b": 1, "n": "Eliu", "p": [], "x": []}
@@ -117,12 +117,12 @@
 {"id": "fire-emblem|6075", "b": 1, "n": "Rajaion", "p": [], "x": []}
 {"id": "fire-emblem|6660", "b": 1, "n": "Rumel", "p": [], "x": []}
 {"id": "fire-emblem|8295", "b": 0}
-{"id": "adventurers-league|9344", "b": 2, "k": "vehicle", "n": "carrack", "m": 1, "q": "", "c": "l", "p": [], "x": []}
-{"id": "fortnite|100", "b": 1, "n": "AMIE", "p": [], "x": []}
+{"id": "adventurers-league|9344", "b": 0}
+{"id": "fortnite|100", "b": 1, "n": "AMIE", "p": [{"id": "immortal_body", "m": 1, "q": "unkillable AI assistant", "c": "l"}], "x": []}
 {"id": "fortnite|1138", "b": 1, "n": "Banshee", "p": [], "x": []}
 {"id": "fortnite|14058", "b": 1, "n": "The Storm King", "p": [], "x": []}
-{"id": "adventurers-league|9345", "b": 2, "k": "vehicle", "n": "caravel", "m": 1, "q": "", "c": "l", "p": [], "x": []}
-{"id": "fortnite|14060", "b": 1, "n": "Ned", "p": [], "x": []}
+{"id": "adventurers-league|9345", "b": 0}
+{"id": "fortnite|14060", "b": 1, "n": "Ned", "p": [{"id": "blink", "m": 1, "q": "trapped in a time loop and teleporting to various places", "c": "l"}], "x": []}
 {"id": "fortnite|17745", "b": 1, "n": "Revin the Cube", "p": [], "x": []}
 {"id": "fortnite|20051", "b": 1, "n": "Spitfire", "p": [], "x": []}
 {"id": "adventurers-league|9356", "b": 1, "n": "Catalan Bree", "p": [], "x": []}
@@ -140,28 +140,28 @@
 {"id": "adventurers-league|9371", "b": 1, "n": "Carrackus", "p": [], "x": []}
 {"id": "guildmasters-guide-to-ravnica|748", "b": 1, "n": "Beledros Witherbloom", "p": [], "x": []}
 {"id": "guildmasters-guide-to-ravnica|789", "b": 1, "n": "Lady Beluna Grandsquall", "p": [], "x": []}
-{"id": "guildmasters-guide-to-ravnica|1059", "b": 1, "n": "Baron Bertram Graywater", "p": [], "x": ["vampirism"]}
+{"id": "guildmasters-guide-to-ravnica|1059", "b": 1, "n": "Baron Bertram Graywater", "p": [], "x": []}
 {"id": "adventurers-league|9372", "b": 1, "n": "Carbos", "p": [], "x": []}
 {"id": "guildmasters-guide-to-ravnica|1066", "b": 1, "n": "Bori Andon", "p": [], "x": []}
 {"id": "guildmasters-guide-to-ravnica|1071", "b": 1, "n": "Brannon", "p": [], "x": []}
 {"id": "guildmasters-guide-to-ravnica|1078", "b": 1, "n": "Bernatheen", "p": [], "x": []}
-{"id": "adventurers-league|9409", "b": 0}
+{"id": "adventurers-league|9409", "b": 1, "n": "The Carnath Roadhouse", "p": [], "x": []}
 {"id": "guildmasters-guide-to-ravnica|1181", "b": 1, "n": "Chandra Nalaar", "p": [], "x": []}
 {"id": "guildmasters-guide-to-ravnica|1182", "b": 1, "n": "Colfenor", "p": [], "x": []}
 {"id": "guildmasters-guide-to-ravnica|1780", "b": 1, "n": "Dew", "p": [], "x": []}
 {"id": "adventurers-league|9417", "b": 1, "n": "Carmen", "p": [], "x": []}
 {"id": "guildmasters-guide-to-ravnica|1883", "b": 1, "n": "Eight-and-a-Half-Tails", "p": [], "x": []}
 {"id": "guildmasters-guide-to-ravnica|1904", "b": 1, "n": "Elesh Norn", "p": [], "x": []}
-{"id": "guildmasters-guide-to-ravnica|1937", "b": 1, "n": "Edgar Markov", "p": [], "x": ["vampirism"]}
+{"id": "guildmasters-guide-to-ravnica|1937", "b": 1, "n": "Edgar Markov", "p": [], "x": []}
 {"id": "adventurers-league|9436", "b": 0}
-{"id": "guildmasters-guide-to-ravnica|1986", "b": 1, "n": "Baron Eckhart Von Falkenrath", "p": [], "x": ["vampirism"]}
+{"id": "guildmasters-guide-to-ravnica|1986", "b": 1, "n": "Baron Eckhart Von Falkenrath", "p": [], "x": []}
 {"id": "guildmasters-guide-to-ravnica|2028", "b": 1, "n": "Draco", "p": [], "x": []}
 {"id": "guildmasters-guide-to-ravnica|2108", "b": 1, "n": "Eusomon\u00e9", "p": [], "x": []}
-{"id": "adventurers-league|9441", "b": 2, "k": "armor", "n": "Cast-off armor", "m": 1, "q": "", "c": "l", "p": [], "x": []}
+{"id": "adventurers-league|9441", "b": 0}
 {"id": "guildmasters-guide-to-ravnica|2371", "b": 1, "n": "Ertai", "p": [], "x": []}
 {"id": "guildmasters-guide-to-ravnica|2416", "b": 1, "n": "Pierakor az Vinrenn D'rav", "p": [], "x": []}
-{"id": "guildmasters-guide-to-ravnica|2544", "b": 1, "n": "Florian Voldaren", "p": [], "x": ["vampirism"]}
-{"id": "adventurers-league|9471", "b": 2, "k": "weapon", "n": "catapult", "m": 1, "q": "", "c": "l", "p": [], "x": []}
+{"id": "guildmasters-guide-to-ravnica|2544", "b": 1, "n": "Florian Voldaren", "p": [], "x": []}
+{"id": "adventurers-league|9471", "b": 0}
 {"id": "guildmasters-guide-to-ravnica|2567", "b": 1, "n": "Gadwick", "p": [], "x": []}
 {"id": "guildmasters-guide-to-ravnica|2631", "b": 1, "n": "Glissa Sunseeker", "p": [], "x": []}
 {"id": "guildmasters-guide-to-ravnica|2783", "b": 1, "n": "Grakmaw", "p": [], "x": []}
@@ -184,7 +184,7 @@
 {"id": "adventurers-league|9525", "b": 0}
 {"id": "guildmasters-guide-to-ravnica|4142", "b": 1, "n": "Macher", "p": [], "x": []}
 {"id": "guildmasters-guide-to-ravnica|4153", "b": 1, "n": "Lyra Dawnbringer", "p": [], "x": []}
-{"id": "guildmasters-guide-to-ravnica|6056", "b": 1, "n": "Rodolf Duskbringer", "p": [], "x": ["vampirism"]}
+{"id": "guildmasters-guide-to-ravnica|6056", "b": 1, "n": "Rodolf Duskbringer", "p": [], "x": []}
 {"id": "adventurers-league|9530", "b": 0}
 {"id": "guildmasters-guide-to-ravnica|6257", "b": 1, "n": "Seshiro", "p": [], "x": []}
 {"id": "guildmasters-guide-to-ravnica|6374", "b": 1, "n": "Seble", "p": [], "x": []}
@@ -193,14 +193,14 @@
 {"id": "guildmasters-guide-to-ravnica|6749", "b": 1, "n": "Svogthir", "p": [], "x": []}
 {"id": "guildmasters-guide-to-ravnica|6824", "b": 1, "n": "Talrand", "p": [], "x": []}
 {"id": "guildmasters-guide-to-ravnica|6884", "b": 1, "n": "Tanazir Quandrix", "p": [], "x": []}
-{"id": "adventurers-league|9557", "b": 2, "k": "armor", "n": "Captain's helmet", "m": 1, "q": "", "c": "l", "p": [], "x": []}
+{"id": "adventurers-league|9557", "b": 2, "k": "armor", "n": "The Captain's helmet", "m": 1, "q": "", "c": "l", "p": [], "x": []}
 {"id": "guildmasters-guide-to-ravnica|6987", "b": 1, "n": "Tetsuo Umezawa", "p": [], "x": []}
-{"id": "guildmasters-guide-to-ravnica|7012", "b": 1, "n": "The Guardians original name", "p": [], "x": []}
+{"id": "guildmasters-guide-to-ravnica|7012", "b": 1, "n": "", "p": [], "x": []}
 {"id": "guildmasters-guide-to-ravnica|7138", "b": 1, "n": "Tayam", "p": [], "x": []}
 {"id": "adventurers-league|9565", "b": 2, "k": "armor", "n": "Captain Herab's leather armor", "m": 1, "q": "", "c": "l", "p": [], "x": []}
 {"id": "guildmasters-guide-to-ravnica|7159", "b": 1, "n": "Tenri", "p": [], "x": []}
 {"id": "guildmasters-guide-to-ravnica|7259", "b": 1, "n": "Saint Traft", "p": [], "x": []}
-{"id": "guildmasters-guide-to-ravnica|7267", "b": 1, "n": "Tovolar", "p": [], "x": ["lycanthropy"]}
+{"id": "guildmasters-guide-to-ravnica|7267", "b": 1, "n": "Tovolar", "p": [], "x": []}
 {"id": "adventurers-league|9580", "b": 1, "n": "Carngaur", "p": [], "x": []}
 {"id": "guildmasters-guide-to-ravnica|7290", "b": 1, "n": "Thraximundar", "p": [], "x": []}
 {"id": "guildmasters-guide-to-ravnica|7326", "b": 1, "n": "Toggo", "p": [], "x": []}
@@ -213,16 +213,16 @@
 {"id": "guildmasters-guide-to-ravnica|7616", "b": 1, "n": "Veyran", "p": [], "x": []}
 {"id": "guildmasters-guide-to-ravnica|7945", "b": 1, "n": "Yawgmoth", "p": [], "x": []}
 {"id": "guildmasters-guide-to-ravnica|7952", "b": 1, "n": "\u00c9lan d'Avenant", "p": [], "x": []}
-{"id": "adventurers-league|9647", "b": 2, "k": "vehicle", "n": "Captain's Pride", "m": 1, "q": "", "c": "l", "p": [], "x": []}
+{"id": "adventurers-league|9647", "b": 2, "k": "vehicle", "n": "The Captain's Pride", "m": 1, "q": "", "c": "l", "p": [], "x": []}
 {"id": "guildmasters-guide-to-ravnica|7958", "b": 1, "n": "Zirilan of the Claw", "p": [], "x": []}
 {"id": "guildmasters-guide-to-ravnica|8038", "b": 1, "n": "Xolatoyac", "p": [], "x": []}
 {"id": "gundam-all-centuries-incl-g-gundam|732", "b": 1, "n": "The Feather Dragon", "p": [], "x": []}
 {"id": "adventurers-league|9661", "b": 1, "n": "Carliela Benstyl", "p": [], "x": []}
 {"id": "gundam-all-centuries-incl-g-gundam|1037", "b": 1, "n": "The Griffin", "p": [], "x": []}
 {"id": "gundam-all-centuries-incl-g-gundam|1297", "b": 1, "n": "Gundam Sarutahiko", "p": [], "x": []}
-{"id": "gundam-all-centuries-incl-g-gundam|1762", "b": 2, "k": "vehicle", "n": "M4AA2R BGR", "m": 1, "q": "", "c": "l", "p": [], "x": []}
-{"id": "adventurers-league|9678", "b": 2, "k": "armor", "n": "Chainmail", "m": 1, "q": "", "c": "l", "p": [], "x": []}
-{"id": "gundam-all-centuries-incl-g-gundam|1826", "b": 2, "k": "vehicle", "n": "MSZ-006H Hyper Zeta Gundam Honoo", "m": 1, "q": "", "c": "l", "p": [], "x": []}
+{"id": "gundam-all-centuries-incl-g-gundam|1762", "b": 2, "k": "vehicle", "n": "M4AA2R BGR", "m": 2, "q": "", "c": "l", "p": [], "x": []}
+{"id": "adventurers-league|9678", "b": 0}
+{"id": "gundam-all-centuries-incl-g-gundam|1826", "b": 2, "k": "vehicle", "n": "MSZ-006H Hyper Zeta Gundam Honoo", "m": 2, "q": "", "c": "l", "p": [], "x": []}
 {"id": "gundam-all-centuries-incl-g-gundam|3300", "b": 1, "n": "The Steel Dragon", "p": [], "x": []}
 {"id": "half-life|620", "b": 0}
 {"id": "adventurers-league|9683", "b": 0}
@@ -232,11 +232,11 @@
 {"id": "adventurers-league|9688", "b": 1, "n": "Cephas", "p": [], "x": []}
 {"id": "halo|1467", "b": 1, "n": "Colony", "p": [], "x": []}
 {"id": "halo|2159", "b": 1, "n": "Faber-Of-Will-And-Might", "p": [], "x": []}
-{"id": "halo|3191", "b": 1, "n": "Master Chief Petty Officer John-117", "p": [], "x": []}
+{"id": "halo|3191", "b": 1, "n": "John-117", "p": [], "x": []}
 {"id": "adventurers-league|9701", "b": 0}
 {"id": "halo|3443", "b": 1, "n": "Keiichi-047", "p": [], "x": []}
 {"id": "halo|3545", "b": 1, "n": "", "p": [], "x": []}
-{"id": "halo|4005", "b": 1, "n": "Master Chief Petty Officer John-117", "p": [], "x": []}
+{"id": "halo|4005", "b": 1, "n": "John-117", "p": [], "x": []}
 {"id": "adventurers-league|9712", "b": 0}
 {"id": "halo|4017", "b": 0}
 {"id": "halo|4603", "b": 1, "n": "Owen Uduike", "p": [], "x": []}
