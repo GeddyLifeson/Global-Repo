@@ -86,4 +86,7 @@ def text(url, limit=12000):
     d = api(h, {'action': 'query', 'prop': 'extracts', 'explaintext': 1, 'titles': t})
     x = (d['query']['pages'][0].get('extract', '') or '')[:limit]
     open(f, 'w', encoding='utf-8').write(x); return x
+def exists(url):
+    h, t = url.split('/')[2], urllib.parse.unquote(url.split('/wiki/', 1)[1]).replace('_', ' ')
+    return not any(x.get('missing') for x in api(h, {'action': 'query', 'titles': t})['query']['pages'])
 if __name__ == '__main__' and sys.argv[1] == 'resolve': resolve(int(sys.argv[2]))

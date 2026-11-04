@@ -6871,3 +6871,5 @@ Run hints: .py `python3 <file>` (PC `py`), .ps1 via a hidden launcher (never a v
 | S6978 | cloud | `tools/powers/judge_pc.py` | Runs the S6975 judge prompt over a page queue on OpenAI-compatible endpoints (model router, Ollama); resumable, validated, optional git push. | yes |
 | S6979 | cloud | `tools/powers/pc_priority.py` | Builds the PC judging queue (~20k pages: strongest Haiku power beings plus weapon/armor/vehicle candidates, minus shard pages). | yes |
 | S6980 | cloud | `tools/powers/merge_judged.py` | Merges validated judge results (shards, PC run) into BEING_POWER_EVIDENCE.tsv, BEING_POWERS.tsv and GEAR_SCALE.tsv via PANSCRIPTUM_MASTER source links. | yes |
+| S6984 | cloud | `plans/powers/judge/tools/pages.py` | Resolves each judge batch row to its wiki page (title, URL) and fetches the full page text for judges and the validator. | yes |
+| S6985 | cloud | `plans/powers/judge/tools/validate.py` | Rejects a judge shard unless every row passes: source page, verbatim quotes, fields, pool ids, Abilities rule, gear rule, c3m feat maths, totals (with feats.py, selftest.py). | yes |

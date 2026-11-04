@@ -5,7 +5,7 @@
 """
 import json, re, sys, csv, os
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-import pages
+import pages, feats
 from concurrent.futures import ThreadPoolExecutor
 HERE = os.path.dirname(os.path.abspath(__file__))
 B = os.path.join(HERE, '..', 'batches') + '/'
@@ -49,10 +49,11 @@ def show(n, s=0, e=10**9, secmax=1500):
         print(f"{i}|{S[i]['title'] or 'NO-SOURCE'}|{head}" + (f" ## {' '.join(ev)[:420]}" if ev else '') + sec)
 def write(n, cfg):
     """cfg keys: d (default 0|1; rows not listed get it), b0 [idx], b1 [idx], n {idx:name},
-    p {idx:[[pool_id,mag,quote,conf]]}, f {idx:[[AP|Dur|v,quote]]} (c3m feat quotes with a stated number/size/speed; arithmetic is done later by c3m, never here), W {idx:[kind,name,mag,quote,conf]} (weapon/armor/vehicle), x {idx:[..]}, auto 1 (vampirism/possession x)"""
+    p {idx:[[pool_id,mag,quote,conf]]}, f {idx:[[AP|Dur|v,quote,template,{input:[value,unit,method]},canon]]} (c3m feat per assay-c3m/SYSTEM_PROMPT.txt; write computes the tier with c3m, validate.py recomputes it), z {idx:'none stated: reason'}, W {idx:[kind,name,mag,quote,conf]} (weapon/armor/vehicle), x {idx:[..]}, auto 1 (vampirism/possession x)"""
     n = int(n); R = rows(n); S = pages.srcs(n); ids = {r['id'] for r in pool()}
     g = lambda k: {int(a): v for a, v in cfg.get(k, {}).items()}
     names, P, W, X, SM, F = g('n'), g('p'), g('W'), g('x'), g('s'), g('f')
+    Z = g('z')
     first = lambda t: re.split(r'(?<=[.!?]) ', t.replace('\n', ' ').strip(), maxsplit=1)[0][:200]
     SM = {i: SM.get(i) or first(R[i]['text']) for i in range(len(R))}
     b0, b1, dflt = set(cfg.get('b0', [])), set(cfg.get('b1', [])), cfg.get('d', 0)
@@ -82,14 +83,20 @@ def write(n, cfg):
                 if VAM.search(t) and 'vampirism' not in x: x.append('vampirism')
                 if 'possessing' in t and 'possession' not in x: x.append('possession')
             fs = []
-            for ax, q in F.get(i, []):
-                if ax in ('AP', 'Dur', 'v') and q in t: fs.append({'a': ax, 'q': q})
-                else: err.append((i, f'feat dropped {ax} {q[:30]!r}'))
-            o = {'id': r['id'], 'b': 1, 'n': nm, 'p': ps, 'x': x, 'f': fs, 'st': GAME.get(r['id'].rsplit('|', 1)[0], ''), 'u': S[i]['url'], 's': SM.get(i, '')}
+            for ax, q, tpl, inp, canon in F.get(i, []):
+                f = {'a': ax, 'q': q, 'tpl': tpl, 'in': inp, 'canon': canon, 'st': GAME.get(r['id'].rsplit('|', 1)[0], '')}
+                try:
+                    if q not in t: raise feats.FeatError('quote not in page')
+                    f.update(feats.compute(f)); fs.append(f)
+                except (feats.FeatError, KeyError, TypeError) as ex: err.append((i, f'feat dropped {q[:30]!r}: {ex}'))
+            o = {'id': r['id'], 'b': 1, 'n': nm, 'p': ps, 'x': x, 'f': fs, 'z': Z.get(i, ''), 'st': GAME.get(r['id'].rsplit('|', 1)[0], ''), 'u': S[i]['url'], 's': SM.get(i, '')}
         o['u'] = S[i]['url']; o['t'] = S[i]['title']
         out.append(o)
     path = f'{O}shard_{n}.out.jsonl'
     open(path, 'w', encoding='utf-8').write(''.join(json.dumps(o, ensure_ascii=False) + '\n' for o in out))
+    json.dump({'rows': len(out), 'beings': sum(o['b'] == 1 for o in out), 'gear': sum(o['b'] == 2 for o in out), 'powers': sum(len(o.get('p', [])) for o in out), 'feats': sum(len(o.get('f', [])) for o in out)}, open(f'{O}shard_{n}.meta.json', 'w'))
+    import subprocess
+    r = subprocess.run([sys.executable, os.path.join(HERE, 'validate.py'), str(n)], capture_output=True, text=True); print(r.stdout.strip())
     print(f"wrote {path}: {len(out)} rows, beings {sum(o['b']==1 for o in out)}, gear {sum(o['b']==2 for o in out)}, powers {sum(len(o.get('p',[])) for o in out)}, problems {len(err)}")
     for e in err: print('  ', e)
 if __name__ == '__main__':

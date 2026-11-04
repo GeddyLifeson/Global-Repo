@@ -6,6 +6,16 @@ import json, sys, os, csv, gzip, glob, collections
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import judge_pages as jp
 out, files = sys.argv[1], sys.argv[2:]
+# S6985 fold gate: shards from plans/powers/judge/out must pass validate.py (re-fetches pages, re-computes c3m maths) or nothing is merged.
+JT = os.path.join(os.path.dirname(os.path.abspath(__file__)), '../../../plans/powers/judge/tools')
+sys.path.insert(0, JT)
+import re as _re
+for f in list(files):
+    m = _re.search(r'judge/out/shard_(\d+)\.out\.jsonl$', f.replace(os.sep, '/'))
+    if m:
+        import validate
+        er = validate.check(int(m.group(1)))
+        if er: sys.exit(f'REJECTED shard {m.group(1)}: {len(er)} problems, first: row {er[0][0]} {er[0][1]}')
 R = '/mnt/project-files/plans'
 text = {}
 for f in glob.glob('/mnt/project-files/plans/powers/judge/inthread/shard_??.jsonl') + glob.glob('/mnt/project-files/plans/powers/judge/inthread/shard_???.jsonl') + glob.glob(os.path.join(os.path.dirname(os.path.abspath(__file__)), '../../../plans/powers/pcrun/priority.jsonl.gz')):
