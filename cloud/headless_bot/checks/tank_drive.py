@@ -70,10 +70,16 @@ with Lane('tank', JARS, client_files=CF, srv_xmx='3G', out=out) as L:
                     S('difficulty easy')
                     for x in (12, 20, 30, 45): S(f'summon minecraft:pig {x}.5 -60 2.5 {{NoAI:1b,Silent:1b}}', 0.3)
                     S('fill 60 -60 0 60 -57 5 minecraft:stone', 0.5); S('setblock 25 -60 2 minecraft:tnt', 0.3)
+                    TG = {}
+                    for nm, (dx, dz) in {'px': (1, 0), 'mx': (-1, 0), 'pz': (0, 1), 'mz': (0, -1)}.items():
+                        for dist in (12, 20):
+                            tg = f't_{nm}{dist}'; TG[tg] = 1
+                            S(f'summon minecraft:villager {0.5 + dx * dist:.1f} -60 {2.5 + dz * dist:.1f} {{NoAI:1b,Silent:1b,Tags:["{tg}"],Health:10f}}', 0.25)
+                    rep['impact_tags'] = list(TG)
                     rep['impact_before'] = ents0()
                 rep['ff_status_before'] = S('execute as Tester at Tester run diaithirvehicle status', 1.0)
                 rep['ff_cmd'] = S('execute as Tester at Tester run diaithirvehicle fire ' + os.environ.get('TANK_FIRE_TICKS', '60'), 1.0); time.sleep(1.5); L.shot('05c_fire_cmd_1.png'); time.sleep(2.5)
-                rep['ff_status_after'] = S('execute as Tester at Tester run diaithirvehicle status', 1.0); rep['ff_ents_cmd'] = ents0(); rep['impact_blocks'] = S('execute if block 60 -58 2 minecraft:stone run say stone_intact', 0.5) + S('execute if block 25 -60 2 minecraft:tnt run say tnt_intact', 0.5); rep['ff_gun_cmd'] = gunstate(); L.shot('05d_fire_cmd_2.png')
+                rep['ff_status_after'] = S('execute as Tester at Tester run diaithirvehicle status', 1.0); rep['ff_ents_cmd'] = ents0(); rep['impact_alive'] = {t: any('alive' in l for l in S(f'execute if entity @e[tag={t}] run say alive', 0.3)) for t in rep.get('impact_tags', [])}; rep['impact_blocks'] = S('execute if block 60 -58 2 minecraft:stone run say stone_intact', 0.5) + S('execute if block 25 -60 2 minecraft:tnt run say tnt_intact', 0.5); rep['ff_gun_cmd'] = gunstate(); L.shot('05d_fire_cmd_2.png')
             d.hold('space', 3.0); time.sleep(0.5); L.shot('05a_fire_seated.png'); d.hold('space', 0.2); time.sleep(0.3); L.shot('05b_fire_seated_tap.png')
             rep['ff_gun_after'] = gunstate()
             rep['ff_after'] = ents0(); rep['ff_server_lines'] = [l[:240] for l in L.log_lines('server', r'.')[nl:] if 'ents:' not in l][:15]
