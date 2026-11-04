@@ -6835,7 +6835,6 @@ S6913	global	crawl_all.py
 S6914	cloud	compat/gen_recipes.py
 S6915	cloud	compat/gen_station_moves.py
 S6916	cloud	age_balance.py
-S6899	cloud	cloud/megamachines/gen_megamachines.py
 S6894	cloud	diaithir-ports/diaithir-wiretech/tools/gen_circuit_assets.py
 S6895	cloud	diaithir-ports/diaithir-wiretech/src/main/java/net/diaithir/wiretech/circuit/CoreCheck.java
 S6896	cloud	diaithir-ports/diaithir-wiretech/tools/circuit_gui_check.py
