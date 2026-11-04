@@ -26,6 +26,7 @@ with Lane('tank', JARS, client_files=CF, srv_xmx='3G', out=out) as L:
     S('item replace entity Tester hotbar.1 with mts:diaithirtanks.speedo'); S(f'tp Tester {vx + 3.0:.2f} {vy:.2f} {vz:.2f} 90 20', 0.8); d.key('2'); time.sleep(0.5); d.key('r'); time.sleep(1.5); L.shot('01b_speedo_on_hull.png')
     rep['after_speedo_click'] = S('data get entity @e[type=mts:builder_existing,limit=1,sort=nearest]', 1.5)[0][-400:] if True else ''
     S('item replace entity Tester hotbar.1 with minecraft:air'); d.key('1'); time.sleep(0.4); S(f'tp Tester {vx + 4.0:.2f} {vy:.2f} {vz:.2f} 90 15', 1.0); time.sleep(1.5); L.shot('01c_parked_engine_off_nearby.png')
+    if os.environ.get('TANK_SURV'): S('clear Tester'); time.sleep(0.5); d.key('1'); time.sleep(0.3)  # survival: drop the join handbook so R is an empty-hand click and no GUI eats keys
     # scan: ring around the vehicle, aim at points up the hull, empty hand, R, test RootVehicle
     for r in ((3.0, 5.0, 2.0) if not mounted else ()):
         for ang in range(0, 360, 45):
@@ -54,7 +55,7 @@ with Lane('tank', JARS, client_files=CF, srv_xmx='3G', out=out) as L:
             L.shot('06_fuel_drive1.png')
             json.dump(rep, open(os.path.join(sys.argv[1], 'tank_report.json'), 'w'), indent=1, default=str)
             raise SystemExit
-        VL = lambda: [l.split(']: ', 1)[-1] for l in L.log_lines('server', r't-\d+s engines')]
+        VL = lambda: [l.split(']: ', 1)[-1] for l in L.log_lines('server', r't-\d+s .*engines=')]
         n0 = len(VL()); DV('watch 12', 0.5); d.hold('w', 12); time.sleep(2); rep['watch_W_held'] = VL()[n0:]; L.shot('03_hud_W_held.png')
         n1 = len(VL()); DV('watch 12', 0.5); time.sleep(14); rep['watch_W_released'] = VL()[n1:]
         rep['veh_pos_end'] = S(VP, 0.6)
@@ -63,7 +64,15 @@ with Lane('tank', JARS, client_files=CF, srv_xmx='3G', out=out) as L:
         if vp:
             S(f'tp Tester {float(vp[1]) + 4.0:.2f} {float(vp[2]):.2f} {float(vp[3]):.2f} 90 15', 1.0); time.sleep(2); L.shot('04c_stopped_engine_off_nearby.png')
             S(f'tp Tester {float(vp[1]) + 2.4:.2f} {float(vp[2]):.2f} {float(vp[3]):.2f} 90 15', 1.0)
-        d.hold('space', 1.0); time.sleep(0.5); L.shot('05_fire.png')
+        ENT = "execute as Tester at Tester run say ents: @e[distance=..60,type=!player]"
+        def ents():
+            return ' '.join(S(ENT, 1.0)).split('ents: ')[-1]
+        rep['veh_full'] = ''.join(S('data get entity @e[type=mts:builder_existing,limit=1,sort=nearest]', 1.5)); import re as _re; rep['veh_parts'] = _re.findall(r'systemName: "([^"]+)"', rep['veh_full'])
+        rep['fire_entities_before'] = ents(); nl0 = len(L.log_lines('server', r'.'))
+        d.hold('space', 3.0); time.sleep(0.5); L.shot('05_fire.png')
+        rep['fire_entities_after'] = ents()
+        rep['fire_new_server_lines'] = [l[:240] for l in L.log_lines('server', r'.')[nl0:] if 'ents:' not in l][:15]
+        rep['fire_client_lines'] = [l[:200] for l in L.log_lines('client', r'(?i)fire|shell|bullet|gun|cannon|projectile')][-8:]
         L.shot('03_driven.png')
         rep['pos_after'] = S('data get entity Tester Pos', 0.8); rep['veh_pos_after'] = S('data get entity @e[type=mts:builder_existing,limit=1,sort=nearest] Pos', 0.8)
     rep['client_instrument_lines'] = L.log_lines('client', r'(?i)instrument|speedo|tacho|diaithirtanks:|instruments\.png|gauge|null')[:40]
