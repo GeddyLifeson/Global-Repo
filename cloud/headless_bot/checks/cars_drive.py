@@ -2,7 +2,7 @@
 import sys, time, pathlib, json, os, re, math, threading
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent.parent))
 from lane import Lane
-V = '/mnt/project-files/vehicles-test/'; E = V + 'engfix2/'
+V = '/mnt/project-files/vehicles-test/'; E = V + os.environ.get('ARMS_DIR', 'engfix2') + '/'
 UNITS = os.environ.get('UNITS_JAR', '/tmp/claude-0/unitsjar/diaithir-units-neoforge-26.1.2-1.0.0.jar')
 CARTS = os.environ.get('CARTS_JAR', V + 'nested-carts.jar')
 JARS = [E + 'diaithir-arms-neoforge-26.1.2-1.0.1.jar', '/mnt/project-files/Immersive_Vehicles-26.1-24.0.0-diaithir.2.jar', CARTS, UNITS]
