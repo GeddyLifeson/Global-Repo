@@ -264,3 +264,7 @@ wave,repo,number,base,head,partner,title
 3,ports,346,diaithircompat,claude/nested-bay-save,,"Containers on vehicles keep their loads through a save (after #340, merged)"
 14,ports,347,claude/pack-v1-3-wave13,claude/pack-v1-3-wave14,rpg#278,"Wave 14: drop 14 library and FTB jars per RPG #265 (client 91, server 80) [merge after ports #343]"
 14,rpg,278,claude/pack-v1-3-wave13,claude/pack-v1-3-wave14,ports#347,"Wave 14 pack inputs [merge with ports #347]"
+0,ports,337,,,,"diaithir-animation-machines: own package and mod id, bone-derived rules for 450 machines"
+0,ports,338,,,,Fold Agritech: Evolved and Hydrofarm into diaithir-farmkitchen; move the reaper there
+0,ports,341,,,,Ships carry cargo: yard and Eureka ships as containers-API carriers
+0,global-repo,54,main,,,"Headless bot: cars drive, cargo and nested save tests"
