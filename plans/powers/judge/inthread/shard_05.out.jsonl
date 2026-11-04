@@ -1,0 +1,250 @@
+{"id": "naruto|4547", "b": 0}
+{"id": "naruto|446", "b": 0}
+{"id": "naruto|4309", "b": 0}
+{"id": "naruto|4287", "b": 0}
+{"id": "naruto|3234", "b": 0}
+{"id": "naruto|3126", "b": 0}
+{"id": "naruto|3117", "b": 0}
+{"id": "naruto|3022", "b": 0}
+{"id": "naruto|2948", "b": 0}
+{"id": "naruto|2947", "b": 0}
+{"id": "naruto|2823", "b": 0}
+{"id": "naruto|281", "b": 0}
+{"id": "naruto|2698", "b": 0}
+{"id": "naruto|257", "b": 0}
+{"id": "minecraft|2169", "b": 1, "n": "Enderman", "p": [{"id": "blink", "m": 1, "q": "Endermen teleport erratically", "c": "m"}], "x": []}
+{"id": "marvel|1263", "b": 0}
+{"id": "mario-and-his-expanded-universe|8630", "b": 1, "n": "Bea", "p": [], "x": []}
+{"id": "mario-and-his-expanded-universe|503", "b": 1, "n": "Beezos", "p": [{"id": "flight", "m": 1, "q": "insect-like wings on their back, which allow them to fly", "c": "m"}], "x": []}
+{"id": "mario-and-his-expanded-universe|2615", "b": 1, "n": "Ghost Piranhas", "p": [], "x": []}
+{"id": "mario-and-his-expanded-universe|24526", "b": 1, "n": "Wigglevines", "p": [], "x": []}
+{"id": "mario-and-his-expanded-universe|24087", "b": 1, "n": "Valkyries", "p": [], "x": []}
+{"id": "mario-and-his-expanded-universe|23816", "b": 1, "n": "Tweeter Bat", "p": [], "x": []}
+{"id": "mario-and-his-expanded-universe|20237", "b": 1, "n": "Scorchits", "p": [{"id": "fireball", "m": 1, "q": "fire four balls of fire", "c": "m"}], "x": []}
+{"id": "mario-and-his-expanded-universe|19820", "b": 1, "n": "Robobees", "p": [], "x": ["electricity_emission"]}
+{"id": "mario-and-his-expanded-universe|19472", "b": 1, "n": "Radiant Peach", "p": [], "x": []}
+{"id": "mario-and-his-expanded-universe|17233", "b": 1, "n": "MegaDragonBowser", "p": [], "x": []}
+{"id": "mario-and-his-expanded-universe|1685", "b": 1, "n": "Dark Longator", "p": [], "x": []}
+{"id": "mario-and-his-expanded-universe|12687", "b": 1, "n": "Glohm Magikoopas", "p": [], "x": []}
+{"id": "mario-and-his-expanded-universe|12029", "b": 1, "n": "Flurl", "p": [], "x": []}
+{"id": "mario-and-his-expanded-universe|11473", "b": 1, "n": "Ecks", "p": [{"id": "levitation", "m": 1, "q": "floating, magenta being", "c": "l"}], "x": []}
+{"id": "major-live-action-disney-films|6636", "b": 1, "n": "Chase Davenport", "p": [{"id": "super_strength", "m": 1, "q": "including super strength and super speed", "c": "m"}, {"id": "super_speed", "m": 1, "q": "including super strength and super speed", "c": "m"}], "x": []}
+{"id": "major-live-action-disney-films|44759", "b": 1, "n": "Vidia", "p": [{"id": "flight", "m": 1, "q": "fast-flying fairy", "c": "m"}], "x": []}
+{"id": "major-live-action-disney-films|43720", "b": 1, "n": "Underdog", "p": [], "x": []}
+{"id": "major-live-action-disney-films|34933", "b": 1, "n": "Skrulls", "p": [{"id": "dragon_form", "m": 1, "q": "shape-shifting aliens", "c": "m"}], "x": []}
+{"id": "major-live-action-disney-films|33563", "b": 1, "n": "Saffron", "p": [{"id": "flight", "m": 1, "q": "flying horse", "c": "m"}], "x": []}
+{"id": "major-live-action-disney-films|29661", "b": 1, "n": "Pedro", "p": [], "x": []}
+{"id": "major-live-action-disney-films|25737", "b": 1, "n": "Miranda", "p": [{"id": "dragon_form", "m": 1, "q": "Miranda is a shape-shifter", "c": "m"}], "x": []}
+{"id": "major-live-action-disney-films|22507", "b": 1, "n": "Liam Williams", "p": [{"id": "gravity_repulse", "m": 1, "q": "telekinetic and telepathic powers", "c": "m"}, {"id": "telepathy", "m": 1, "q": "telekinetic and telepathic powers", "c": "m"}], "x": []}
+{"id": "major-live-action-disney-films|18253", "b": 1, "n": "Hyper-Potamus", "p": [{"id": "flight", "m": 1, "q": "robotic purple hippo who can fly", "c": "m"}], "x": []}
+{"id": "major-live-action-disney-films|17588", "b": 1, "n": "Houdini", "p": [{"id": "invisibility", "m": 1, "q": "made himself invisible", "c": "m"}], "x": []}
+{"id": "major-live-action-disney-films|1218", "b": 1, "n": "Agent 33", "p": [{"id": "dragon_form", "m": 1, "q": "ability to shapeshift due to the Nano Mask", "c": "m"}], "x": []}
+{"id": "magic-the-gathering-all-planes|721", "b": 1, "n": "Basri Ket", "p": [], "x": ["sand_manipulation"]}
+{"id": "magic-the-gathering-all-planes|6907", "b": 1, "n": "Tarem", "p": [], "x": ["thought_theft"]}
+{"id": "magic-the-gathering-all-planes|4132", "b": 1, "n": "Lord Magnus", "p": [], "x": ["plant_control"]}
+{"id": "magic-the-gathering-all-planes|1383", "b": 1, "n": "Cullinarn", "p": [], "x": []}
+{"id": "kingdom-hearts-binding-cosmology-of-the-disney-set|628", "b": 1, "n": "Gargoyle Knight", "p": [], "x": []}
+{"id": "kenichi-the-mightiest-disciple|989", "b": 0}
+{"id": "jojo-s-bizarre-adventure|518", "b": 1, "n": "DIO (Heaven)", "p": [], "x": ["god_like_powers"]}
+{"id": "jojo-s-bizarre-adventure|3974", "b": 1, "n": "Sasha", "p": [{"id": "ki_resource", "m": 1, "q": "skilled Ripple user", "c": "m"}], "x": []}
+{"id": "jojo-s-bizarre-adventure|3066", "b": 0}
+{"id": "helldivers-1-2|109", "b": 1, "n": "Impaler", "p": [], "x": []}
+{"id": "guildmasters-guide-to-ravnica|7750", "b": 1, "n": "Wrizfar Barkfeather", "p": [], "x": []}
+{"id": "guildmasters-guide-to-ravnica|7013", "b": 1, "n": "Thaddeus", "p": [{"id": "telepathy", "m": 1, "q": "semi-telepathic bond", "c": "m"}], "x": []}
+{"id": "guildmasters-guide-to-ravnica|6695", "b": 1, "n": "Shiko", "p": [], "x": []}
+{"id": "guildmasters-guide-to-ravnica|1208", "b": 1, "n": "Cockatrice", "p": [{"id": "flight", "m": 1, "q": "Cockatrices are flying creatures", "c": "m"}], "x": ["petrification"]}
+{"id": "guildmasters-guide-to-ravnica|1150", "b": 1, "n": "Chromium Rhuell", "p": [{"id": "dragon_form", "m": 3, "q": "Elder Dragon with shapeshifting powers", "c": "l"}], "x": []}
+{"id": "eberron-rising-from-the-last-war|812", "b": 1, "n": "Dah'mir", "p": [{"id": "dragon_form", "m": 1, "q": "shapechanging copper dragon", "c": "m"}], "x": []}
+{"id": "eberron-rising-from-the-last-war|322", "b": 1, "n": "Arstyvrax", "p": [], "x": ["necromancy"]}
+{"id": "eberron-rising-from-the-last-war|1327", "b": 1, "n": "Kastighur", "p": [{"id": "blink", "m": 1, "q": "They teleport around the field of battle", "c": "m"}], "x": []}
+{"id": "eberron-rising-from-the-last-war|1147", "b": 0}
+{"id": "doom|985", "b": 0}
+{"id": "digimon|3142", "b": 1, "n": "Virusmon", "p": [], "x": ["poison"]}
+{"id": "digimon|2326", "b": 1, "n": "Puroromon", "p": [{"id": "flight", "m": 1, "q": "It flies freely", "c": "m"}], "x": []}
+{"id": "digimon|2281", "b": 1, "n": "Puyoyomon", "p": [], "x": []}
+{"id": "digimon|1506", "b": 1, "n": "Kotemon", "p": [{"id": "fireball", "m": 1, "q": "Headbutts the enemy with a flaming mask", "c": "l"}], "x": []}
+{"id": "digimon|1494", "b": 1, "n": "Jazamon", "p": [{"id": "glide", "m": 1, "q": "capable of gliding from high places using its wings", "c": "m"}], "x": []}
+{"id": "digimon|1056", "b": 1, "n": "ForgeBeemon", "p": [], "x": []}
+{"id": "diablo|5350", "b": 1, "n": "Spiteful Sprite", "p": [], "x": []}
+{"id": "destiny-1-2|7828", "b": 1, "n": "Conflux Watch Prime", "p": [{"id": "blink", "m": 1, "q": "the Prime will teleport", "c": "m"}], "x": []}
+{"id": "destiny-1-2|5910", "b": 1, "n": "Vandals", "p": [], "x": []}
+{"id": "destiny-1-2|12641", "b": 1, "n": "Stealth Captains", "p": [{"id": "invisibility", "m": 1, "q": "invisibility tech", "c": "l"}], "x": []}
+{"id": "dc|46295", "b": 1, "n": "Zatanna", "p": [], "x": ["spellcasting"]}
+{"id": "dc|2065", "b": 0}
+{"id": "dc|18755", "b": 1, "n": "Tommy Monaghan", "p": [], "x": []}
+{"id": "critical-role-tal-dorei-campaign-setting|2077", "b": 1, "n": "Invisible stalker", "p": [{"id": "invisibility", "m": 1, "q": "An invisible stalker is an elemental assassin", "c": "l"}], "x": []}
+{"id": "critical-role-tal-dorei-campaign-setting|1732", "b": 1, "n": "Harpies", "p": [{"id": "flight", "m": 1, "q": "Harpies are flying monstrosities", "c": "m"}], "x": []}
+{"id": "chowder|402", "b": 1, "n": "Poultrygeist", "p": [], "x": []}
+{"id": "all-final-fantasy|7702", "b": 0}
+{"id": "all-final-fantasy|5886", "b": 1, "n": "G Scutatus", "p": [], "x": []}
+{"id": "all-fallout|3945", "b": 0}
+{"id": "all-fallout|18750", "b": 1, "n": "Hakunin", "p": [{"id": "telepathy", "m": 1, "q": "Possessing apparent psychic abilities", "c": "l"}], "x": []}
+{"id": "all-elder-scrolls|8933", "b": 1, "n": "Cassius Olcinius", "p": [{"id": "invisibility", "m": 1, "q": "turned invisible by a local wizard", "c": "m"}], "x": []}
+{"id": "all-elder-scrolls|51325", "b": 1, "n": "Taebod the Gatekeeper", "p": [{"id": "levitation", "m": 1, "q": "levitating in front of the large blue portal", "c": "m"}], "x": ["summoning"]}
+{"id": "all-elder-scrolls|49106", "b": 1, "n": "Spider Daedra", "p": [], "x": []}
+{"id": "all-elder-scrolls|46743", "b": 1, "n": "Shagol gro-Bumph", "p": [{"id": "invisibility", "m": 1, "q": "turned invisible by a spell", "c": "m"}], "x": []}
+{"id": "all-elder-scrolls|31170", "b": 0}
+{"id": "all-elder-scrolls|2669", "b": 1, "n": "Annaïg Hoïnart", "p": [], "x": []}
+{"id": "all-elder-scrolls|2595", "b": 1, "n": "Ancient Ghost", "p": [{"id": "invisibility", "m": 1, "q": "It can turn itself invisible", "c": "m"}], "x": []}
+{"id": "all-elder-scrolls|18212", "b": 1, "n": "Faolchu the Reborn", "p": [], "x": []}
+{"id": "all-elder-scrolls|12698", "b": 1, "n": "Dagi-raht", "p": [], "x": []}
+{"id": "all-elder-scrolls|10340", "b": 1, "n": "Claude Maric", "p": [{"id": "invisibility", "m": 1, "q": "will be an invisible blur", "c": "l"}], "x": []}
+{"id": "adventurers-league|7853", "b": 1, "n": "Boggle", "p": [{"id": "invisibility", "m": 1, "q": "disappear from sight", "c": "m"}], "x": []}
+{"id": "adventurers-league|6432", "b": 1, "n": "Beast of Malar", "p": [{"id": "dragon_form", "m": 1, "q": "savage shape-changing creature", "c": "m"}], "x": []}
+{"id": "adventurers-league|6366", "b": 1, "n": "Basal golem", "p": [{"id": "dragon_form", "m": 1, "q": "transformed into a variety of structures and creatures", "c": "m"}], "x": []}
+{"id": "adventurers-league|19988", "b": 1, "n": "Furlinastis", "p": [], "x": []}
+{"id": "adventurers-league|18838", "b": 1, "n": "Filbert", "p": [], "x": []}
+{"id": "adventurers-league|10213", "b": 1, "n": "Chezzaran", "p": [], "x": []}
+{"id": "adventurers-league|10123", "b": 1, "n": "Chartilifax", "p": [], "x": []}
+{"id": "world-of-warcraft|59795", "b": 0}
+{"id": "world-of-warcraft|55523", "b": 1, "n": "Deathly Usher", "p": [{"id": "blink", "m": 1, "q": "It offers teleportation to the top of the rise", "c": "l"}], "x": []}
+{"id": "vampire-the-masquerade|20802", "b": 1, "n": "Reremouse", "p": [], "x": []}
+{"id": "transformers|4602", "b": 1, "n": "Tigertron", "p": [{"id": "super_speed", "m": 1, "q": "speed and agility are unmatched when in tiger form", "c": "m"}, {"id": "dragon_form", "m": 1, "q": "unmatched when in tiger form", "c": "l"}], "x": []}
+{"id": "starcraft|4674", "b": 0}
+{"id": "starcraft|3933", "b": 1, "n": "Mecha zergling", "p": [], "x": ["egonergy"]}
+{"id": "sailor-moon|490", "b": 1, "n": "Giwaku", "p": [], "x": ["cloning", "hallucination"]}
+{"id": "minecraft|1153", "b": 1, "n": "Blaze", "p": [{"id": "fireball", "m": 1, "q": "shooting volleys of three small fireballs", "c": "m"}, {"id": "levitation", "m": 1, "q": "often floats upward while targeting a player", "c": "m"}], "x": []}
+{"id": "mario-and-his-expanded-universe|345", "b": 1, "n": "Attacky Sack", "p": [], "x": []}
+{"id": "mario-and-his-expanded-universe|24945", "b": 1, "n": "Yoshi Kid", "p": [], "x": []}
+{"id": "mario-and-his-expanded-universe|20840", "b": 1, "n": "Singing Blusterwing", "p": [], "x": ["weather_control"]}
+{"id": "major-live-action-disney-films|35827", "b": 1, "n": "Sprites", "p": [], "x": []}
+{"id": "major-live-action-disney-films|34429", "b": 1, "n": "Sentry", "p": [], "x": []}
+{"id": "major-live-action-disney-films|18963", "b": 1, "n": "Infinity Ultron", "p": [], "x": []}
+{"id": "guildmasters-guide-to-ravnica|882", "b": 1, "n": "Boris Devilboon", "p": [{"id": "fireball", "m": 1, "q": "create tiny creatures made of flames", "c": "l"}], "x": []}
+{"id": "eberron-rising-from-the-last-war|2465", "b": 1, "n": "Skinweavers", "p": [], "x": []}
+{"id": "digimon|2629", "b": 1, "n": "Sunarizamon", "p": [{"id": "dragon_form", "m": 1, "q": "expand, contract, and transform its limbs and tail", "c": "m"}], "x": ["sand_body"]}
+{"id": "digimon|2219", "b": 1, "n": "Pafumon", "p": [{"id": "levitation", "m": 1, "q": "constantly drifting through the air", "c": "m"}], "x": []}
+{"id": "digimon|1664", "b": 1, "n": "LadyDevimon X", "p": [], "x": ["paralysis_gaze"]}
+{"id": "digimon|1156", "b": 1, "n": "Gammamon", "p": [{"id": "flight", "m": 1, "q": "capable of flying for a short period", "c": "m"}], "x": []}
+{"id": "dc|25610", "b": 1, "n": "Majestic", "p": [], "x": []}
+{"id": "dc|17615", "b": 1, "n": "Gypsy", "p": [{"id": "invisibility", "m": 1, "q": "make herself invisible", "c": "m"}], "x": ["illusion", "precognition"]}
+{"id": "critical-role-tal-dorei-campaign-setting|2564", "b": 1, "n": "Manticore", "p": [], "x": []}
+{"id": "all-pixar-films|1329", "b": 1, "n": "HAN-S", "p": [], "x": []}
+{"id": "all-elder-scrolls|48114", "b": 1, "n": "Skakmat", "p": [], "x": ["fog_creation"]}
+{"id": "all-elder-scrolls|31189", "b": 1, "n": "Lilija Snow-Shod", "p": [], "x": []}
+{"id": "all-elder-scrolls|26170", "b": 1, "n": "Illia", "p": [], "x": ["ice_magic"]}
+{"id": "the-grim-adventures-of-billy-mandy|465", "b": 1, "n": "Vampires", "p": [{"id": "dragon_form", "m": 1, "q": "turn into bats", "c": "m"}], "x": []}
+{"id": "naruto|1017", "b": 0}
+{"id": "mario-and-his-expanded-universe|17484", "b": 1, "n": "Mo-Hog", "p": [], "x": []}
+{"id": "major-live-action-disney-films|18540", "b": 1, "n": "Ikaris", "p": [], "x": []}
+{"id": "magic-the-gathering-all-planes|7309", "b": 1, "n": "Ur-Dragon", "p": [{"id": "immortal_body", "m": 7, "q": "An entity from the dawn of time", "c": "l"}], "x": []}
+{"id": "guildmasters-guide-to-ravnica|7572", "b": 1, "n": "Ur-Dragon", "p": [{"id": "immortal_body", "m": 7, "q": "An entity from the dawn of time", "c": "l"}], "x": []}
+{"id": "digimon|2867", "b": 1, "n": "Tinmon", "p": [{"id": "energy_beam", "m": 1, "q": "Fires a thunder bolt", "c": "m"}], "x": []}
+{"id": "diablo|9842", "b": 1, "n": "Winged Fiend", "p": [{"id": "flight", "m": 1, "q": "small, screeching flying beasts", "c": "m"}], "x": []}
+{"id": "world-of-warcraft|10642", "b": 1, "n": "Akainu", "p": [{"id": "fireball", "m": 5, "q": "molten powers could shape an entire landscape", "c": "m"}], "x": []}
+{"id": "vampire-the-masquerade|17569", "b": 0}
+{"id": "one-piece|6178", "b": 1, "n": "Surume", "p": [], "x": []}
+{"id": "major-live-action-disney-films|46255", "b": 1, "n": "Wormhole", "p": [{"id": "blink", "m": 10, "q": "generate portals to parallel universes", "c": "m"}], "x": []}
+{"id": "major-live-action-disney-films|3916", "b": 1, "n": "Beta Ray Bill", "p": [], "x": []}
+{"id": "major-live-action-disney-films|38364", "b": 1, "n": "The Commander", "p": [{"id": "super_strength", "m": 1, "q": "superhuman strength and invulnerability", "c": "m"}, {"id": "invulnerability", "m": 1, "q": "superhuman strength and invulnerability", "c": "m"}], "x": []}
+{"id": "fire-emblem|2614", "b": 1, "n": "Enteh", "p": [{"id": "dragon_form", "m": 1, "q": "transform herself into the holy Water Dragon", "c": "m"}], "x": []}
+{"id": "doom|2512", "b": 1, "n": "Maligog", "p": [{"id": "giant_size", "m": 3, "q": "enormous Titan, dwarfing even the Icon of Sin in size", "c": "m"}], "x": []}
+{"id": "diablo|2388", "b": 1, "n": "Dreamer", "p": [], "x": []}
+{"id": "destiny-1-2|4658", "b": 1, "n": "Riven", "p": [], "x": ["wish_granting"]}
+{"id": "all-elder-scrolls|12329", "b": 1, "n": "Daedra", "p": [{"id": "immortal_body", "m": 6, "q": "immortal entities", "c": "l"}], "x": []}
+{"id": "vampire-the-masquerade|10708", "b": 1, "n": "Goddess of the Salt River", "p": [{"id": "dragon_form", "m": 1, "q": "she frequently appears as a beautiful woman", "c": "m"}], "x": []}
+{"id": "transformers|778", "b": 1, "n": "Command Units", "p": [], "x": []}
+{"id": "minecraft|1183", "b": 1, "n": "Bee", "p": [{"id": "flight", "m": 1, "q": "flying arthropodan neutral mob", "c": "m"}], "x": []}
+{"id": "mario-and-his-expanded-universe|3391", "b": 1, "n": "Koopeleons", "p": [{"id": "invisibility", "m": 1, "q": "ability to turn invisible", "c": "m"}], "x": []}
+{"id": "mario-and-his-expanded-universe|23591", "b": 1, "n": "Tracks", "p": [], "x": []}
+{"id": "mario-and-his-expanded-universe|14990", "b": 1, "n": "Li'l Scorchers", "p": [{"id": "fireball", "m": 1, "q": "blow a slow-moving fireball", "c": "m"}], "x": []}
+{"id": "major-live-action-disney-films|12040", "b": 1, "n": "Ellroy", "p": [{"id": "flight", "m": 1, "q": "he can use his arms as both hands and wings to fly", "c": "m"}], "x": []}
+{"id": "jojo-s-bizarre-adventure|950", "b": 0}
+{"id": "halo|14406", "b": 1, "n": "Vero 'Ahtulai", "p": [], "x": []}
+{"id": "guildmasters-guide-to-ravnica|1064", "b": 1, "n": "Bird Maidens of Rabiah", "p": [{"id": "flight", "m": 1, "q": "capable of flight", "c": "m"}], "x": []}
+{"id": "digimon|3071", "b": 1, "n": "Weddinmon", "p": [], "x": []}
+{"id": "digimon|3024", "b": 1, "n": "Umon", "p": [{"id": "regeneration", "m": 1, "q": "governs over \"Regeneration\"", "c": "l"}], "x": []}
+{"id": "digimon|2611", "b": 1, "n": "Syakomon X", "p": [], "x": []}
+{"id": "digimon|1627", "b": 1, "n": "Kunemon", "p": [], "x": []}
+{"id": "digimon|1233", "b": 1, "n": "Gurimon", "p": [], "x": []}
+{"id": "destiny-1-2|2123", "b": 1, "n": "Harpies", "p": [{"id": "flight", "m": 1, "q": "smaller, flying enemies", "c": "m"}], "x": []}
+{"id": "destiny-1-2|12708", "b": 1, "n": "Susan", "p": [], "x": []}
+{"id": "critical-role-tal-dorei-campaign-setting|4361", "b": 1, "n": "Blue dragon", "p": [], "x": []}
+{"id": "all-pixar-films|2445", "b": 1, "n": "Omar Harris", "p": [{"id": "flight", "m": 1, "q": "Omar is the only JOX member with the ability to fly", "c": "m"}], "x": []}
+{"id": "all-final-fantasy|9104", "b": 1, "n": "Myconid", "p": [{"id": "flight", "m": 1, "q": "flying enemy", "c": "m"}], "x": []}
+{"id": "all-elder-scrolls|6876", "b": 1, "n": "Blooded Vampire", "p": [], "x": []}
+{"id": "all-elder-scrolls|61143", "b": 1, "n": "Wereboar", "p": [{"id": "dragon_form", "m": 1, "q": "Wereboar is a type of Lycanthrope", "c": "l"}], "x": []}
+{"id": "adventurers-league|18871", "b": 0}
+{"id": "major-live-action-disney-films|2548", "b": 1, "n": "Asgardians", "p": [], "x": []}
+{"id": "all-elder-scrolls|14848", "b": 1, "n": "Dragons", "p": [], "x": ["thuum"]}
+{"id": "world-of-warcraft|57114", "b": 1, "n": "Demigods", "p": [{"id": "immortal_body", "m": 4, "q": "creatures eternal in nature", "c": "l"}], "x": []}
+{"id": "world-of-warcraft|51974", "b": 1, "n": "Cyrrigos", "p": [{"id": "dragon_form", "m": 1, "q": "blue dragon in high elf form", "c": "m"}], "x": []}
+{"id": "world-of-warcraft|41963", "b": 1, "n": "Chronomancer Inara", "p": [{"id": "time_stop", "m": 2, "q": "one who has control over time", "c": "m"}], "x": []}
+{"id": "world-of-warcraft|24091", "b": 1, "n": "Big Mama", "p": [{"id": "super_strength", "m": 1, "q": "pick up the ranishu, and hurl it a long distance away", "c": "m"}], "x": []}
+{"id": "world-of-warcraft|18659", "b": 1, "n": "Avatar of Hakkar", "p": [{"id": "immortal_body", "m": 6, "q": "the immortal presence of the god Hakkar the Soulflayer", "c": "l"}], "x": []}
+{"id": "world-of-warcraft|14220", "b": 1, "n": "Antaen", "p": [{"id": "giant_size", "m": 3, "q": "mistook the top of one's head for a siege weapon", "c": "m"}], "x": ["portal_summoning"]}
+{"id": "vampire-the-masquerade|4560", "b": 0}
+{"id": "vampire-the-masquerade|3957", "b": 1, "n": "Beast-of-War", "p": [], "x": []}
+{"id": "vampire-the-masquerade|25122", "b": 1, "n": "Timor", "p": [], "x": []}
+{"id": "vampire-the-masquerade|14801", "b": 1, "n": "Kung Kung", "p": [], "x": []}
+{"id": "transformers|5329", "b": 0}
+{"id": "transformers|1263", "b": 0}
+{"id": "one-piece|6747", "b": 1, "n": "Zunesha", "p": [{"id": "super_strength", "m": 6, "q": "carries the island of Zou on its back", "c": "m"}], "x": []}
+{"id": "one-piece|3887", "b": 1, "n": "Island Eater", "p": [{"id": "giant_size", "m": 3, "q": "giant goldfish", "c": "l"}], "x": []}
+{"id": "one-piece|3418", "b": 1, "n": "Evil Guardian", "p": [], "x": []}
+{"id": "naruto|616", "b": 0}
+{"id": "naruto|3207", "b": 0}
+{"id": "naruto|2991", "b": 0}
+{"id": "naruto|2112", "b": 0}
+{"id": "naruto|196", "b": 0}
+{"id": "naruto|1915", "b": 0}
+{"id": "naruto|1331", "b": 0}
+{"id": "naruto|1217", "b": 0}
+{"id": "marvel|96822", "b": 1, "n": "Suma-Ket", "p": [], "x": []}
+{"id": "mario-and-his-expanded-universe|8470", "b": 1, "n": "Banana Queen", "p": [{"id": "giant_size", "m": 1, "q": "giant multi-colored Banana Bird", "c": "l"}], "x": []}
+{"id": "mario-and-his-expanded-universe|14542", "b": 1, "n": "Kyodai Togemetto", "p": [{"id": "giant_size", "m": 1, "q": "is a giant Spiny", "c": "l"}], "x": []}
+{"id": "major-live-action-disney-films|43709", "b": 1, "n": "Tsukán", "p": [{"id": "giant_size", "m": 2, "q": "giant ancient snake", "c": "l"}], "x": []}
+{"id": "major-live-action-disney-films|42067", "b": 1, "n": "Therru", "p": [{"id": "dragon_form", "m": 1, "q": "She is a dragon born as a young human girl", "c": "m"}], "x": []}
+{"id": "major-live-action-disney-films|33886", "b": 1, "n": "Seaclops", "p": [{"id": "giant_size", "m": 3, "q": "enormous aquatic cyclops", "c": "l"}], "x": []}
+{"id": "magic-the-gathering-all-planes|9269", "b": 1, "n": "Teval", "p": [], "x": []}
+{"id": "magic-the-gathering-all-planes|733", "b": 1, "n": "Bahamut", "p": [], "x": []}
+{"id": "magic-the-gathering-all-planes|6742", "b": 1, "n": "Tetsuo Umezawa", "p": [], "x": []}
+{"id": "magic-the-gathering-all-planes|4652", "b": 1, "n": "Myojin of Night's Reach", "p": [], "x": []}
+{"id": "magic-the-gathering-all-planes|434", "b": 1, "n": "Arasta", "p": [{"id": "giant_size", "m": 2, "q": "gigantic humanoid spider", "c": "l"}], "x": []}
+{"id": "magic-the-gathering-all-planes|3685", "b": 1, "n": "Kokusho", "p": [], "x": []}
+{"id": "magic-the-gathering-all-planes|3376", "b": 1, "n": "Jugan", "p": [], "x": []}
+{"id": "magic-the-gathering-all-planes|3375", "b": 1, "n": "Keiga", "p": [], "x": []}
+{"id": "magic-the-gathering-all-planes|1391", "b": 1, "n": "Colossus of Sardia", "p": [{"id": "giant_size", "m": 3, "q": "massive golem", "c": "l"}], "x": []}
+{"id": "kenichi-the-mightiest-disciple|998", "b": 0}
+{"id": "jojo-s-bizarre-adventure|3489", "b": 1, "n": "Kenshiro", "p": [], "x": []}
+{"id": "guildmasters-guide-to-ravnica|7165", "b": 1, "n": "Taniwha", "p": [], "x": []}
+{"id": "guildmasters-guide-to-ravnica|3885", "b": 1, "n": "Kolaghan", "p": [{"id": "energy_beam", "m": 3, "q": "able to breathe lightning", "c": "m"}, {"id": "giant_size", "m": 3, "q": "She is titanic", "c": "m"}], "x": []}
+{"id": "guildmasters-guide-to-ravnica|3856", "b": 1, "n": "Koth of the Hammer", "p": [{"id": "gravity_repulse", "m": 5, "q": "spells that move mountains, shatter stone, and melt iron", "c": "m"}], "x": ["geomancy"]}
+{"id": "god-of-war|1182", "b": 1, "n": "Logi", "p": [{"id": "fireball", "m": 4, "q": "embodiment of fire", "c": "l"}], "x": []}
+{"id": "fire-emblem|5614", "b": 1, "n": "Neyfa", "p": [{"id": "dragon_form", "m": 1, "q": "transform herself into the holy Wind Dragon", "c": "m"}], "x": []}
+{"id": "fire-emblem|4823", "b": 1, "n": "Lilith", "p": [], "x": []}
+{"id": "fire-emblem|2402", "b": 0}
+{"id": "eberron-rising-from-the-last-war|942", "b": 1, "n": "Dral Khatuur", "p": [{"id": "freeze_breath", "m": 5, "q": "dominion over cold and winter", "c": "l"}], "x": []}
+{"id": "eberron-rising-from-the-last-war|683", "b": 1, "n": "Dracolich", "p": [{"id": "immortal_body", "m": 1, "q": "staved off death by becoming a form of undead", "c": "m"}], "x": []}
+{"id": "eberron-rising-from-the-last-war|426", "b": 1, "n": "Devourer of Dreams", "p": [], "x": ["spirit_communion"]}
+{"id": "eberron-rising-from-the-last-war|294", "b": 1, "n": "Azraxror-Shien", "p": [], "x": []}
+{"id": "eberron-rising-from-the-last-war|123", "b": 1, "n": "Aboleths", "p": [], "x": ["mind_control"]}
+{"id": "doom|3072", "b": 1, "n": "Titan", "p": [{"id": "giant_size", "m": 4, "q": "enormous size and strength", "c": "m"}], "x": []}
+{"id": "digimon|955", "b": 1, "n": "Dorbickmon Darkness Mode One", "p": [{"id": "fireball", "m": 1, "q": "Exhales a burst of extremely high-temperature breath", "c": "m"}], "x": []}
+{"id": "digimon|2290", "b": 1, "n": "Proximamon", "p": [], "x": ["creation_destruction"]}
+{"id": "destiny-1-2|13574", "b": 1, "n": "Val Pros", "p": [], "x": []}
+{"id": "dc|6177", "b": 1, "n": "Black Alice", "p": [], "x": ["ability_theft"]}
+{"id": "dc|30709", "b": 1, "n": "Promethean Giants", "p": [{"id": "giant_size", "m": 10, "q": "Light-years in length", "c": "m"}], "x": []}
+{"id": "critical-role-tal-dorei-campaign-setting|4797", "b": 0}
+{"id": "critical-role-tal-dorei-campaign-setting|2110", "b": 1, "n": "Elven wizard", "p": [], "x": []}
+{"id": "critical-role-tal-dorei-campaign-setting|2031", "b": 1, "n": "Idok", "p": [], "x": []}
+{"id": "all-pixar-films|523", "b": 1, "n": "Brick", "p": [{"id": "super_strength", "m": 1, "q": "super strength and invulnerability", "c": "m"}, {"id": "invulnerability", "m": 1, "q": "super strength and invulnerability", "c": "m"}], "x": []}
+{"id": "all-fallout|42042", "b": 1, "n": "Swan", "p": [], "x": []}
+{"id": "all-fallout|13159", "b": 1, "n": "Earle Williams", "p": [], "x": []}
+{"id": "all-fallout|11493", "b": 1, "n": "Great Glowing One", "p": [{"id": "giant_size", "m": 1, "q": "giant glowing ghoul", "c": "l"}], "x": []}
+{"id": "all-elder-scrolls|51058", "b": 1, "n": "Syrabane", "p": [], "x": []}
+{"id": "all-elder-scrolls|38314", "b": 1, "n": "Ofglog gro-Barkbite", "p": [], "x": []}
+{"id": "all-elder-scrolls|33873", "b": 1, "n": "Matriarch Rathila", "p": [], "x": []}
+{"id": "all-elder-scrolls|29128", "b": 1, "n": "King Anumaril", "p": [], "x": []}
+{"id": "all-elder-scrolls|15825", "b": 1, "n": "Earil", "p": [{"id": "time_stop", "m": 1, "q": "slow down their body so they may be preserved forever", "c": "m"}], "x": []}
+{"id": "adventurers-league|9651", "b": 1, "n": "Casarial", "p": [], "x": []}
+{"id": "adventurers-league|9044", "b": 1, "n": "Caiphon", "p": [], "x": []}
+{"id": "adventurers-league|6262", "b": 1, "n": "Bazim-Gorag", "p": [{"id": "fireball", "m": 7, "q": "sought to set the Realms on fire", "c": "l"}], "x": []}
+{"id": "adventurers-league|2594", "b": 1, "n": "Adamantine golem", "p": [{"id": "super_strength", "m": 2, "q": "extraordinarily powerful construct of unmatched strength", "c": "m"}, {"id": "giant_size", "m": 2, "q": "huge", "c": "l"}], "x": []}
+{"id": "adventurers-league|13546", "b": 1, "n": "Demonweb terrors", "p": [{"id": "giant_size", "m": 2, "q": "monstrously sized spider", "c": "m"}], "x": []}
+{"id": "vampire-the-masquerade|15670", "b": 1, "n": "Lord Kerne", "p": [{"id": "fireball", "m": 3, "q": "the Master of Balefire", "c": "l"}], "x": []}
+{"id": "world-of-warcraft|59333", "b": 1, "n": "Desperiona", "p": [], "x": []}
+{"id": "world-of-warcraft|44617", "b": 1, "n": "Colossus", "p": [{"id": "giant_size", "m": 3, "q": "mountain giant", "c": "l"}, {"id": "hard_body", "m": 1, "q": "Their flesh is stony", "c": "m"}], "x": []}
+{"id": "world-of-warcraft|38894", "b": 1, "n": "Celastrasza", "p": [], "x": []}
+{"id": "world-of-warcraft|33932", "b": 1, "n": "Broodmother Slivina", "p": [], "x": []}
+{"id": "world-of-warcraft|30411", "b": 0}
