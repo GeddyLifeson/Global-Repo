@@ -47,14 +47,6 @@ wave,repo,number,base,head,partner,title
 0,rpg,251,engine,claude/project-thread-v4y3xu,,"Wave 2 culture names: rewrite jars, Archimedes, Diaithiris gaps"
 0,rpg,252,claude/pack-v1-3-compat-matrix,claude/project-thread-9cmcx3,,Compat datapack: move grid recipes onto the station ladder
 0,rpg,253,engine,claude/project-thread-q46iss,ports#200,Pack: entity-animation 1.0.1 (boot crash fix)
-1,ports,134,claude/project-thread-celestials,claude/project-thread-889fio-hostile,,Hostile encounters: caravans and undead nights content (stacked on #113)
-1,ports,180,diaithircompat,claude/project-thread-87zgrw,,"Gear: parts stations (smithy, workshop bench, gunsmith bench) [merge after #198]"
-1,ports,187,claude/project-thread-daq0av,claude/project-thread-oo83zf,,"diaithir-animation: vanilla-body and first-person pose layer (87 clips, item-kind tags)"
-1,ports,195,claude/project-thread-xprg0c,claude/project-thread-fej6a7,,Farm equipment: 35 machines and implements from digging stick to combine harvester
-6,ports,175,claude/pack-v1-3,claude/pack-v1-3-wave6,rpg#248,"Wave 6: BoP/Nature's Spirit/Productive/Macaw/Blockheads dropped for rewrite jars, rewrites [needs migrate_world.py run once on the world before first boot; merge with RPG #248]"
-6,rpg,248,claude/pack-v1-3,claude/pack-v1-3-wave6,ports#175,"Wave 6 pack inputs: overworld drop-in, rewrites refresh [needs migrate_world.py; merge with ports #175]"
-7,ports,177,claude/pack-v1-3-supermods,claude/project-thread-igzesi,rpg#249,Fold Titanium and AE2 into libraries and ae2-extensions supermodules
-7,rpg,249,claude/pack-v1-3-supermods,claude/project-thread-igzesi,ports#177,Pack inputs: fold Titanium and AE2 into supermodules
 0,global-repo,1,main,,,"Register S0312 gradle mirror init script [edits SCRIPTS_INDEX.md and ids.tsv: merge one at a time, rebuild index on conflict]"
 0,global-repo,2,main,,,"Culture names: linguistics rules for 130 languages [edits SCRIPTS_INDEX.md and ids.tsv: merge one at a time, rebuild index on conflict]"
 0,global-repo,3,main,,,"Register compat data-pack scripts S0312-S0316 [edits SCRIPTS_INDEX.md and ids.tsv: merge one at a time, rebuild index on conflict]"
@@ -72,4 +64,44 @@ wave,repo,number,base,head,partner,title
 0,global-repo,15,main,,,"Progression graph.json with Foundry item ids; index S6864 [edits SCRIPTS_INDEX.md and ids.tsv: merge one at a time, rebuild index on conflict]"
 0,global-repo,16,main,,,"S6866 animation coverage CSV generator [edits SCRIPTS_INDEX.md and ids.tsv: merge one at a time, rebuild index on conflict]"
 0,global-repo,17,main,,,"Register S6873 gen_gate.py [edits SCRIPTS_INDEX.md and ids.tsv: merge one at a time, rebuild index on conflict]"
+0,ports,258,diaithircompat,claude/survey-p4-server-waypoint,,Fold Server Waypoint (MIT) into diaithir-waypoints
+0,ports,252,diaithircompat,claude/survey-p4-chapters,,"Fold Chapters (MIT) into diaithir-worldsys [edits DiaithirWorldSys.java and en_us.json: merge one of #252, #263, #276 at a time, resolve the register-line conflict]"
+0,ports,263,diaithircompat,claude/survey-p4-more-professions,,Fold More Professions (MIT) into diaithir-worldsys [same files as #252: merge one at a time]
+0,ports,276,diaithircompat,claude/survey-p4-better-caravans,,Fold Better Caravans (MIT) into diaithir-worldsys [same files as #252: merge one at a time]
+0,global-repo,32,main,claude/project-thread-opeiei,,"Register S6918 gen_containers.py [edits SCRIPTS_INDEX.md: merge one at a time, rebuild index on conflict]"
+1,ports,134,claude/project-thread-celestials,claude/project-thread-889fio-hostile,,Hostile encounters: caravans and undead nights content (stacked on #113)
+1,ports,180,diaithircompat,claude/project-thread-87zgrw,,"Gear: parts stations (smithy, workshop bench, gunsmith bench) [merge after #198]"
+1,ports,187,claude/project-thread-daq0av,claude/project-thread-oo83zf,,"diaithir-animation: vanilla-body and first-person pose layer (87 clips, item-kind tags)"
+1,ports,195,claude/project-thread-xprg0c,claude/project-thread-fej6a7,,Farm equipment: 35 machines and implements from digging stick to combine harvester
+1,rpg,265,claude/pack-v1-3-wave7,claude/project-thread-o1c0y3,,"Drop Balm, Cristel Lib, Cupboard, Shogi and FTB Library chain; flood.js uses Diaithir Claims [stacked on RPG #260 (wave 7); no world migration]"
 1,ports,243,claude/biomes-dimensions-module,claude/natures-spirit-port,ports#168,"Port Nature's Spirit to NeoForge 26.1.2 inside diaithir-overworld-biomes (draft, merge after #168)"
+2,ports,248,claude/ships-yard-2,claude/survey-p1-aircraft,,diaithir-arms aircraft: Simple Planes upgrade and helicopter data fold (LGPL) [merge after #216]
+2,ports,249,claude/ships-yard-2,claude/survey-p1-propulsion,,"diaithir-ships keelwright: Create: Propulsion fold, propeller/thruster/clamp/gyro parts and fuel table [merge after #216]"
+2,ports,260,claude/ships-yard-2,claude/survey-p1-lasers,,diaithir-travel-structures: laser bridges and fences (Laser Bridges & Doors 26.1.2 fold) [merge after #216]
+2,ports,281,claude/ships-yard-2,claude/survey-p1-iwt,,"diaithir-storagenet: wireless transmitter, cross-dimension storage link (IWT idea) [merge after #216]"
+2,ports,293,claude/ships-yard-2,claude/survey-p1-decks,,diaithir-ships archimedes: deck walking (Nifty Ships idea) [merge after #216]
+2,ports,300,claude/create,claude/survey-p1-gantries-create,,"target jar create-neoforge (no new jar), module net.diaithir.gantries (GPL-3.0-only, own package/mixin config/namespace/licence/NOTICE): gantry split, Extended Gantries fold; replaces #296 (closed) [merge after #216]"
+2,ports,256,claude/biomes-dimensions-module,claude/macaws-bop-bees,,"Macaw-style set, BOP gap blocks and 32 species bees (clean-room, data-driven) [draft]"
+2,ports,224,claude/project-thread-6ik7qb,claude/project-thread-76qqfy,ports#231,"Megamachines: catalogue, dig engine core, Heavy Yard definitions [stacked on #220]"
+2,ports,231,claude/project-thread-76qqfy,claude/survey-megamachines,ports#224,"Megamachines: survey-mod licence audit; MIT ports (RFTools Builder, IF laser drill, Aeronautics gantry, Galacticraft dungeons, Northstar structures) and clean-room quarry, drill heads, tracks [merge after #224]"
+3,ports,255,claude/bridges-fuel-ports,claude/survey-p1-fuel,ports#277,"diaithir-vehicles: jerry can, FuelHolder, burn maths on the #257 fuels and #277 Carrier Tank (survey p1) [merge after #257 and #277; #271 and #274 stack on this]"
+3,ports,259,diaithircompat,claude/survey-p4-nutritional-balance,,Fold Nutritional Balance (GPL-3.0) into diaithir-butchery [drop nutritionalbalance-26.1 jar]
+3,ports,262,diaithircompat,claude/survey-p4-epitaphs,,"Graves package in diaithir-claims, clean-room Epitaphs replacement [drop epitaphs and gravestone jars]"
+3,ports,267,diaithircompat,claude/survey-p4-permissiongate,,Fold PermissionGate (MIT) into diaithir-claims as permission nodes
+3,ports,272,diaithircompat,claude/survey-p4-ore-detector,,Fold Ore Detector (MIT) into diaithir-miners
+3,ports,279,diaithircompat,claude/survey-p4-not-quests,,"Clean-room quest engine in diaithir-worldsys questbook (Not Quests behaviour, stage 1)"
+3,ports,282,diaithircompat,claude/survey-p4-mca-capitals,ports#285,"Capitals (monarchy over claims) in diaithir-claims, clean-room MCA Capitals stage 1"
+3,ports,283,diaithircompat,claude/survey-p4-open-parties,,"Parties on top of claims in diaithir-claims (Open Parties and Claims behaviour, clean-room stage 1)"
+3,ports,285,claude/survey-p4-mca-capitals,claude/survey-p4-tale-of-kingdoms,ports#282,"Capital taxes and treasury (Tale of Kingdoms idea, clean-room) [stacked on #282]"
+3,ports,289,diaithircompat,claude/survey-p4-law,,"Handcuffs and bounties in diaithir-claims (Cuffed and Bountycraft behaviour, clean-room)"
+3,ports,290,diaithircompat,claude/survey-p4-simple-backups,,Fold Simple Backups (Apache-2.0) into diaithir-crash-tools
+3,ports,291,diaithircompat,claude/survey-p4-grief-logger,,"Grief log with inspect and rollback in diaithir-claims (GriefLogger behaviour, clean-room stage 1)"
+3,ports,292,diaithircompat,claude/survey-p4-structural-safety,,"Structure protection in diaithir-claims (Structural Safety behaviour, clean-room)"
+3,ports,239,claude/diaithir-druidry,claude/port-ars-nouveau,,"Port Ars Nouveau (LGPL-3.0) spell engine into diaithir-druidry/ars-nouveau [draft, partial]"
+4,ports,271,claude/survey-p1-fuel,claude/survey-p1-crayfish,ports#255,"diaithir-vehicles-crayfish: fuel pump, trailer hitch, vehicle crash and repair (GPL-3 fold) [merge after #257, #277 and #255]"
+4,ports,274,claude/survey-p1-fuel,claude/survey-p1-tracks,ports#255,"diaithir-vehicles: skid-steer tracked drive and chassis (Flan's tank-track clean-room) [merge after #257, #277 and #255]"
+6,ports,175,claude/pack-v1-3,claude/pack-v1-3-wave6,rpg#248,"Wave 6: BoP/Nature's Spirit/Productive/Macaw/Blockheads dropped for rewrite jars, rewrites [needs migrate_world.py run once on the world before first boot; merge with RPG #248]"
+6,rpg,248,claude/pack-v1-3,claude/pack-v1-3-wave6,ports#175,"Wave 6 pack inputs: overworld drop-in, rewrites refresh [needs migrate_world.py; merge with ports #175]"
+7,ports,177,claude/pack-v1-3-supermods,claude/project-thread-igzesi,rpg#249,Fold Titanium and AE2 into libraries and ae2-extensions supermodules
+7,rpg,249,claude/pack-v1-3-supermods,claude/project-thread-igzesi,ports#177,Pack inputs: fold Titanium and AE2 into supermodules
+wave,repo,number,base,head,partner,title
