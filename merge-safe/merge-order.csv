@@ -252,3 +252,7 @@ wave,repo,number,base,head,partner,title
 0,global-repo,50,main,claude/project-thread-87zgrw,,Register S6953 recipes_to_stations.py [edits SCRIPTS_INDEX.md and ids.tsv: merge one at a time]
 0,global-repo,53,main,claude/project-thread-1bf7x4,,Merge order row for ports #339; register S6902 harvest_stock.py
 0,ports,339,diaithircompat,,,Rail wagons as cargo carriers
+11,ports,330,claude/pack-v1-3-wave10,claude/pack-v1-3-wave11,rpg#273,"Wave 11: rebuilt claims, hud-overlays, world-visuals, voice-interaction and worldsys (pack-version sender) in the suites [merge after ports #324 and #325]"
+11,rpg,273,claude/pack-v1-3-wave10,claude/pack-v1-3-wave11,ports#330,"Wave 11 pack inputs [merge with ports #330]"
+12,ports,342,claude/pack-v1-3-wave11,claude/pack-v1-3-wave12,rpg#276,"Wave 12: 88 open-licence downloads folded into seven suites (client 110 jars, server 95) [merge after ports #330]"
+12,rpg,276,claude/pack-v1-3-wave11,claude/pack-v1-3-wave12,ports#342,"Wave 12 pack inputs [merge with ports #342]"
