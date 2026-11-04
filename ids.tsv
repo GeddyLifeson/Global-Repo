@@ -6867,3 +6867,4 @@ S6969	cloud	tools/panscriptum/coverage_check.py
 S6975	cloud	tools/powers/judge_pages.py
 S6951	cloud	library-content/assay_merge.py
 S6952	cloud	library-content/assay_regroup.py
+S6902	cloud	diaithir-ports/diaithir-carts/tools/harvest_stock.py

@@ -69,6 +69,7 @@ wave,repo,number,base,head,partner,title
 0,ports,263,diaithircompat,claude/survey-p4-more-professions,,Fold More Professions (MIT) into diaithir-worldsys [same files as #252: merge one at a time]
 0,ports,276,diaithircompat,claude/survey-p4-better-caravans,,Fold Better Caravans (MIT) into diaithir-worldsys [same files as #252: merge one at a time]
 0,global-repo,32,main,claude/project-thread-opeiei,,"Register S6918 gen_containers.py [edits SCRIPTS_INDEX.md: merge one at a time, rebuild index on conflict]"
+0,ports,339,diaithircompat,claude/project-thread-1bf7x4,,"Carts: rail wagons as cargo carriers, loads drawn on the wagon"
 1,ports,306,claude/ships-yard-2,claude/survey-p1-mooring,,"diaithir-harbour: new module, mooring bollard (survey p1)"
 1,ports,310,claude/survey-p1-mooring,claude/survey-p1-harbour-office,ports#306,diaithir-harbour: age-evolving harbour office (stacked on #306)
 1,ports,311,claude/survey-p1-harbour-office,claude/survey-p1-boat-cargo,ports#310,diaithir-harbour: cargo crates on boats (stacked on #310; check overlap with #229 freight layer)
