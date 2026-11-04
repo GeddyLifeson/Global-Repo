@@ -6846,6 +6846,7 @@ Run hints: .py `python3 <file>` (PC `py`), .ps1 via a hidden launcher (never a v
 | S6851 | cloud | `diaithir-ports/diaithir-worldgen-structures/tools/rc_gen.py` | Clean-room Recurrent Complex function group: jigsaw mazes in five themes, biome transformer processor lists, themed chest loot tables, Age tags. | yes |
 | S6880 | global | `diaithir-ports PR 181: port.py (path in repo unconfirmed)` | S6880 Aurorian port script (diaithir-ports PR 181; copy lives in that repo) | no |
 | S6881 | global | `diaithir-ports PR 181: rcon.py (path in repo unconfirmed)` | S6881 Aurorian rcon helper for the port tests (diaithir-ports PR 181; copy lives in that repo) | no |
+| S6883 | global | `diaithir-ports PR 188: diaithir-arms/tools/gen_aircraft.py` | S6883 Aircraft pack generator for Immersive Vehicles (diaithir-ports PR 188; copy lives in that repo) | no |
 | S6900 | global | `diaithir-animation/tools/queue_row_jobs.py` | S6900 queues ANIMATIONS_COVERAGE.csv rows into compute/jobs/anim_rows-sNN shards of 500 (animation spec per row via Claude batch; lives in diaithir-ports) | no |
 | S6885 | cloud | `diaithir-ports/diaithir-worldgen-structures/tools/c_tags.py` | Generates the c: convention structure and biome tags for the worldgen-structures module (per class, mazes, villages, ruins, dungeons). | yes |
 | S6919 | cloud | `integration/integration_matrix.py` | Build the every-system-by-every-system integration matrix and lane tickets from matrix_data.py (plans/INTEGRATION_MATRIX.md). | yes |
