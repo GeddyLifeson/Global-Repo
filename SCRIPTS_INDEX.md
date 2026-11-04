@@ -6867,3 +6867,4 @@ Run hints: .py `python3 <file>` (PC `py`), .ps1 via a hidden launcher (never a v
 | S6918 | cloud | `diaithir-ports/diaithir-firearms/tools/gen_containers.py` | S6918 Writes container_kinds.json and the diaithircrafting uses_container and ammo_class item tags for diaithir-firearms (munitions container contract) | yes |
 | S6955 | cloud | `tools/item_roles/export_kubejs.py` | S6955 Writes ITEM_ROLES.csv as per-namespace kubejs JSON for the pack | yes |
 | S6960 | cloud | `tools/powers/gen_power_pool.py` | S6960 Writes the shared NPC power pool (POWER_POOL.tsv), designed NeoOrigins power JSONs and archetype grants | yes |
+| S6974 | cloud | `tools/panscriptum/relink_assayed.py` | S6974 Recovers source wiki pages for Panscriptum beings that lost their link (TF-IDF, no AI); adds relink columns to PANSCRIPTUM_MASTER.tsv and trims coverage gaps | yes |
