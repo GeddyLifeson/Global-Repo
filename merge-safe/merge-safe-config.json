@@ -12,7 +12,9 @@
   "skip": {
     "ports#108": "BuildCraft CE vendor: art not cleared, not compiled; #119 wins the BuildCraft slot",
     "ports#111": "overlaps #113 (meteor, blood moon); fold caravan and golden hour into hostile-encounters, then close",
-    "ports#223": "work in progress"
+    "ports#223": "work in progress",
+    "ports#353": "hold: wave 15 owner marks these ready themselves; remove this entry when they say so",
+    "rpg#281": "hold: wave 15 owner marks these ready themselves; remove this entry when they say so"
   },
   "meteor": {
     "prs": [
