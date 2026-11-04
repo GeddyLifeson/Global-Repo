@@ -6828,6 +6828,13 @@ S6849	cloud	diaithir-ports/diaithir-worldgen-structures/tools/planet_biomes.py
 S6851	cloud	diaithir-ports/diaithir-worldgen-structures/tools/rc_gen.py
 S6880	global	diaithir-ports/diaithir-aurorian/tools/port.py
 S6881	global	diaithir-ports/diaithir-aurorian/tools/rcon.py
+=======
+S6880	global	diaithir-ports PR 181: port.py (path in repo unconfirmed)
+S6881	global	diaithir-ports PR 181: rcon.py (path in repo unconfirmed)
+S6947	global	crawl_all.py
+S6948	cloud	names/linguistics/audit_names.py
+S6949	cloud	names/linguistics/research_rules.py
+S6950	cloud	compat/gen_tags_extra.py
 S6922	cloud	diaithir-ports/diaithir-overworld-biomes/tools/stellaris_extra.py
 S6899	cloud	cloud/megamachines/gen_megamachines.py
 S6917	cloud	cloud/megamachines/gen_megastructures.py

@@ -21,6 +21,17 @@ own_mail={'cloud':{'pc','laptop'},'pc':{'coordinator'}}[side]
 def cp(a,b):
     if not b.exists() or a.read_bytes()!=b.read_bytes(): b.parent.mkdir(parents=True,exist_ok=True); shutil.copyfile(a,b); return 1
     return 0
+import json
+def fixout(a,b):
+    # the PC poller writes {"output":...}; job owners expect {"text":...}. Accept both: add "text" when only "output" is present.
+    out=[]
+    for ln in a.read_text(encoding='utf-8').splitlines():
+        try: o=json.loads(ln)
+        except ValueError: out.append(ln); continue
+        if 'text' not in o and 'output' in o: o['text']=o['output']
+        o.setdefault('lane','local'); out.append(json.dumps(o,ensure_ascii=False))
+    t='\n'.join(out)+'\n'
+    if not b.exists() or b.read_text(encoding='utf-8')!=t: b.parent.mkdir(parents=True,exist_ok=True); b.write_text(t,encoding='utf-8')
 n=0
 # outbound
 if J.is_dir():
@@ -33,7 +44,9 @@ for box in own_mail:
 inb={'cloud':{'out.jsonl'},'pc':{'in.jsonl','README','README.md'}}[side]
 for d in (L/'jobs').iterdir() if (L/'jobs').is_dir() else []:
     for f in d.iterdir():
-        if f.name in inb: cp(f,J/d.name/f.name)
+        if f.name in inb:
+            if f.name=='out.jsonl': fixout(f,J/d.name/f.name)
+            else: cp(f,J/d.name/f.name)
 inbox={'cloud':{'coordinator'},'pc':{'pc'}}[side]
 for box in inbox:
     for f in (L/'mailbox'/box).glob('*.msg') if (L/'mailbox'/box).is_dir() else []: cp(f,M/box/f.name)
