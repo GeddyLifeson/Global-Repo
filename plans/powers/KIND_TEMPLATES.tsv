@@ -1,0 +1,57 @@
+kind	scope	powers	n	source_page	source	note
+android	*	super_strength:1,super_speed:1,hard_body:1	59	mario-and-his-expanded-universe|22405	seed	observed powers first, then genre baseline (seed); refine
+android	all-pixar-films	energy_beam:1,flight:1	6	all-pixar-films|1076	observed	
+android	mario-and-his-expanded-universe	flight:1	11	mario-and-his-expanded-universe|22405	observed	
+angel	*	flight:1,energy_beam:1	72	digimon|2193	seed	observed powers first, then genre baseline (seed); refine
+angel	world-of-warcraft	flight:1	7	world-of-warcraft|296241	observed	
+cyborg	*	super_strength:1,hard_body:1	48	digimon|1326	seed	observed powers first, then genre baseline (seed); refine
+deity	*	immortal_body:1	245	digimon|1975	seed	observed powers first, then genre baseline (seed); refine
+deity	one-piece	giant_size:2	4	one-piece|4037	observed	
+deity	the-lovecraftian-mythos	flight:1	11	the-lovecraftian-mythos|2492	observed	
+demon	*	flight:1,fireball:1,super_strength:1	156	digimon|1770	seed	observed powers first, then genre baseline (seed); refine
+demon	all-elder-scrolls	flight:1	4	all-elder-scrolls|26136	observed	
+demon	all-final-fantasy	dragon_form:1	7	all-final-fantasy|13778	observed	
+demon	critical-role-tal-dorei-campaign-setting	flight:1	7	critical-role-tal-dorei-campaign-setting|3406	observed	
+demon	diablo	flight:1	16	diablo|3173	observed	
+demon	doom	fireball:1	5	doom|2582	observed	
+dragon	*	flight:1,fireball:1,hard_body:1,giant_size:2	580	digimon|1335	seed	observed powers first, then genre baseline (seed); refine
+dragon	diablo	giant_size:9,flight:1	4	diablo|3190	observed	
+dragon	guildmasters-guide-to-ravnica	flight:1	46	guildmasters-guide-to-ravnica|1854	observed	
+dragon	magic-the-gathering-all-planes	flight:1	48	magic-the-gathering-all-planes|1782	observed	
+dragon	mario-and-his-expanded-universe	giant_size:2	6	mario-and-his-expanded-universe|8023	observed	
+dragon	rocket-league	flight:1	2	rocket-league|176	observed	
+elemental	*		114	guildmasters-guide-to-ravnica|2539	seed	no baseline; varies by being
+elemental	major-live-action-disney-films	whirlwind:2	4	major-live-action-disney-films|34848	observed	
+fae	*	levitation:1,invisibility:1	57	digimon|2422	seed	observed powers first, then genre baseline (seed); refine
+ghost	*	phase:1,invisibility:1,spectral_flight:1	389	digimon|1148	seed	observed powers first, then genre baseline (seed); refine
+ghost	adventure-time	blink:1,flight:1,invisibility:1,levitation:1	2	adventure-time|252	observed	
+ghost	all-elder-scrolls	invisibility:1	172	all-elder-scrolls|2595	observed	
+ghost	digimon	phase:1	4	digimon|1148	observed	
+ghost	doom	invisibility:1	2	doom|3243	observed	
+ghost	starcraft	flight:1	31	starcraft|4508	observed	
+giant	*	giant_size:2,super_strength:1	293	digimon|1308	seed	observed powers first, then genre baseline (seed); refine
+giant	all-elder-scrolls	super_strength:1	41	all-elder-scrolls|21370	observed	
+giant	all-fallout	giant_size:2	3	all-fallout|11493	observed	
+giant	critical-role-tal-dorei-campaign-setting	giant_size:1	7	critical-role-tal-dorei-campaign-setting|2982	observed	
+giant	he-man-masters-of-the-universe	flight:1	4	he-man-masters-of-the-universe|607	observed	
+giant	mario-and-his-expanded-universe	giant_size:2	19	mario-and-his-expanded-universe|12583	observed	
+giant	metal-gear-solid	giant_size:2	3	metal-gear-solid|641	observed	
+golem	*	super_strength:1,hard_body:1	35	halo|9685	seed	observed powers first, then genre baseline (seed); refine
+golem	guildmasters-guide-to-ravnica	super_strength:3	4	guildmasters-guide-to-ravnica|1446	observed	
+golem	magic-the-gathering-all-planes	giant_size:3	3	magic-the-gathering-all-planes|1391	observed	
+golem	minecraft	giant_size:2	4	minecraft|4900	observed	
+lycanthrope	*	dragon_form:1,super_strength:1,super_speed:1,regeneration:1	129	guildmasters-guide-to-ravnica|7754	observed+seed	observed powers first, then genre baseline (seed); refine
+lycanthrope	guildmasters-guide-to-ravnica	dragon_form:1,super_strength:1	7	guildmasters-guide-to-ravnica|7754	observed	
+lycanthrope	magic-the-gathering-all-planes	dragon_form:1,super_strength:1	6	magic-the-gathering-all-planes|7490	observed	
+mutant	*		42	digimon|2525	seed	no baseline; varies by being
+mutant	major-live-action-disney-films	super_strength:1	17	major-live-action-disney-films|27257	observed	
+shapeshifter	*	dragon_form:1	56	all-elder-scrolls|61520	observed	no baseline; varies by being
+shapeshifter	all-elder-scrolls	dragon_form:1	5	all-elder-scrolls|61520	observed	
+shapeshifter	guildmasters-guide-to-ravnica	dragon_form:2	6	guildmasters-guide-to-ravnica|6178	observed	
+shapeshifter	magic-the-gathering-all-planes	dragon_form:2	5	magic-the-gathering-all-planes|2539	observed	
+shapeshifter	world-of-warcraft	dragon_form:1	4	world-of-warcraft|133948	observed	
+undead	*	immortal_body:1	294	digimon|1065	seed	observed powers first, then genre baseline (seed); refine
+undead	minecraft	fireball:2,flight:1	3	minecraft|7370	observed	
+vampire	*	super_strength:1,super_speed:1,regeneration:1,dragon_form:1	794	major-live-action-disney-films|44234	seed	observed powers first, then genre baseline (seed); refine
+zombie	*	immortal_body:1,super_strength:1	40	guildmasters-guide-to-ravnica|6050	seed	observed powers first, then genre baseline (seed); refine
+zombie	half-life	super_speed:1	5	half-life|384	observed	
