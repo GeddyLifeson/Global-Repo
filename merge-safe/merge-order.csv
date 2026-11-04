@@ -225,3 +225,4 @@ wave,repo,number,base,head,partner,title
 10,ports,333,claude/workshop-historical-bows,claude/workshop-historical-thrown-siege,ports#326,"Workshop Bench blueprints for historical throwables and siege engines [stacked on ports #326; after ports #328 and #331]"
 
 0,rpg,274,engine,claude/project-thread-tjwq65,,Quest goal aliases obtain_item and locate_structure (QuestDefs two-line change)
+0,ports,334,diaithircompat,claude/project-thread-ywzzrh,,"Aurorian: bow, arrows, crystalline beam, sickles, mirror of guidance (last Aurorian port; original jar can be dropped after merge)"
