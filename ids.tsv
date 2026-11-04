@@ -6853,3 +6853,4 @@ S6957	cloud	assign_ages.py
 S6964	cloud	tools/panscriptum/master_sheet.py
 S6966	cloud	tools/panscriptum/infer_source_names.py
 S6969	cloud	tools/panscriptum/coverage_check.py
+S6975	cloud	tools/powers/judge_pages.py
