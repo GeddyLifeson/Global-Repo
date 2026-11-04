@@ -269,3 +269,5 @@ wave,repo,number,base,head,partner,title
 0,global-repo,54,main,,,"Headless bot: cars drive, cargo and nested save tests"
 2,ports,348,diaithircompat,claude/loco-infobox-six,,Carts roster: GG1 power and TGV start year from infoboxes (tiny)
 0,global-repo,52,main,claude/project-thread-ldq153,,Register S6940 gen_farm_assets.py (diaithir-carts reaper)
+0,global-repo,56,main,claude/project-thread-66n6wn,rpg#280,"Assign an Age to every item with none (assign_ages.py S6957) [edits SCRIPTS_INDEX.md and ids.tsv: merge one at a time, rebuild index on conflict]"
+0,rpg,280,engine,claude/project-thread-66n6wn,global-repo#56,"tech_ages: an Age for every item (V1 audit 5,989 no-Age ids to 0)"
