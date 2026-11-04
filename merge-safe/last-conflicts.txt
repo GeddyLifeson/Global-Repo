@@ -1,0 +1,5 @@
+# Merge Safe: PRs skipped for merge conflicts in the 05:02Z live run (from the PC log). Rebase these onto their base.
+global-repo: 18-27, 29, 30, 31, 33, 37, 39, 41, 42, 43, 44
+ports: 123 208 209 213 221 222 224 229 240 246 247 248 249 253 256 258 260 262 263 266 267 275 276 281 282 283 288 289 291 292 293
+rpg: 264
+# Global-Repo conflicts are mostly shared SCRIPTS_INDEX.md/ids.tsv edits: merge one at a time and rebuild the index.
