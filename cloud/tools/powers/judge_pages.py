@@ -10,7 +10,8 @@
 import json, os, sys, re, glob, random, csv, time, threading, urllib.request
 from concurrent.futures import ThreadPoolExecutor
 LEADS = '/mnt/project-files/assay-c3m/leads'
-POOL = '/mnt/project-files/plans/powers/POWER_POOL.tsv'
+_REPO = os.path.abspath(os.path.join(os.path.dirname(os.path.abspath(__file__)), '../../..'))
+POOL = next((p for p in ('/mnt/project-files/plans/powers/POWER_POOL.tsv', os.path.join(_REPO, 'data/powers/POWER_POOL.tsv'), os.path.join(_REPO, 'plans/powers/POWER_POOL.tsv')) if os.path.exists(p)), '')
 MODEL = os.environ.get('JUDGE_MODEL', 'claude-haiku-5-5')
 API = 'https://api.anthropic.com/v1'
 GLOSS = {'dragon_form': 'shapeshifting, beast/dragon/monster transformation', 'ki_resource': 'user of ki/chi/qi/spirit energy/aura',
