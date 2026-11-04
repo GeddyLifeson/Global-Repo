@@ -267,3 +267,4 @@ wave,repo,number,base,head,partner,title
 0,global-repo,57,main,claude/project-thread-o0km67,,"Item roles: retry results (29,967), kubejs exporter, merge row [edits SCRIPTS_INDEX.md and ids.tsv: merge one at a time, rebuild index on conflict]"
 2,ports,352,,claude/ships-runclasspath-fix,,Ships: run classpath fix (dev server starts, self-test passes)
 15,ports,353,claude/pack-v1-3,claude/pack-v1-3-wave15,rpg#281,"Wave 15: biomes module (Aerial Hell, Aether II, Undergarden, Backwoods) in worldgen suite, sound occlusion NPE fix (client 87, server 76) [merge with RPG #281]"
+0,shardfall,19,main,claude/remove-local-jobs,,Remove local-jobs/ from main

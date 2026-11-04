@@ -3,7 +3,8 @@
   "repos": {
     "ports": "GeddyLifeson/diaithir-ports",
     "rpg": "GeddyLifeson/DiaithirRPG",
-    "global-repo": "GeddyLifeson/Global-Repo"
+    "global-repo": "GeddyLifeson/Global-Repo",
+    "shardfall": "GeddyLifeson/shardfall-game"
   },
   "hold_labels": [
     "hold",
