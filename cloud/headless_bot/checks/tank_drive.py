@@ -59,8 +59,14 @@ with Lane('tank', JARS, client_files=CF, srv_xmx='3G', out=out) as L:
             ENT0 = "execute as Tester at Tester run say ents: @e[distance=..80,type=!player]"
             ents0 = lambda: ' '.join(S(ENT0, 1.0)).split('ents: ')[-1]
             rep['ff_seat_check'] = S('data get entity Tester RootVehicle', 0.6)
+            import re as _r
+            def gunstate():
+                t = ''.join(S('data get entity @e[type=mts:builder_existing,limit=1,sort=nearest]', 1.5)); i = t.find('systemName: "tank_gun_105"'); j = t.rfind('part_', 0, i)
+                return _r.findall(r'(loadedBullet\d: \{[^}]*\}|internalAngles[xy]: [-\d.]+|state: \d+|bulletsLeft: [\d.]+|reload\w*: [-\d.]+|firing\w*: \w+)', t[j:i + 400])
+            rep['ff_gun_before'] = gunstate()
             rep['ff_before'] = ents0(); nl = len(L.log_lines('server', r'.'))
             d.hold('space', 3.0); time.sleep(0.5); L.shot('05a_fire_seated.png'); d.hold('space', 0.2); time.sleep(0.3); L.shot('05b_fire_seated_tap.png')
+            rep['ff_gun_after'] = gunstate()
             rep['ff_after'] = ents0(); rep['ff_server_lines'] = [l[:240] for l in L.log_lines('server', r'.')[nl:] if 'ents:' not in l][:15]
             rep['ff_vehicle_after'] = ''.join(S('data get entity @e[type=mts:builder_existing,limit=1,sort=nearest]', 1.5))[:100]
         VL = lambda: [l.split(']: ', 1)[-1] for l in L.log_lines('server', r't-\d+s .*engines=')]
