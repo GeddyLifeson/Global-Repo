@@ -368,3 +368,4 @@ integration/pairs_extra.txt	18392	Hand-written pair interactions loaded by matri
 assign_ages.py	4810	Give every item with no Age one: by-item table, material and namespace rules; writes data/ages/NOAGE_ASSIGNED.csv.	yes
 tools/powers/build_grants.py	862	Builds the pack grants.json (being to pool power ids) from the extraction list; rejects unknown pool ids.	yes
 tools/powers/grant_on_spawn.js	3742	KubeJS server script in the pack: gives pool powers to mobs and NPCs on load from grants.json (copy of DiaithirRPG distribution/overrides/kubejs/server_scripts/powers).	yes
+tools/powers/build_pool_json.py	1914	Builds the pack pool.json from POWER_POOL.tsv, adding the mob-side emulation table for active powers.	yes

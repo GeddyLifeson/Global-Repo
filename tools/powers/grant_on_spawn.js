@@ -1,6 +1,6 @@
 // S6961 Grant pool powers to mobs and NPCs when they load. One generic mechanism, nothing per character.
 // data/diaithir/powers/pool.json: pool id -> NeoOrigins power ids (+ "mob" emulation for active powers).
-// data/diaithir/powers/grants.json: library id or entity type id -> pool ids (array) or {count, powers}.
+// data/diaithir/powers/grants.json: library id or entity type id -> pool ids, 'id' or 'id:magnitude' (array) or {count, powers}.
 (function () {
   var PDM = Java.loadClass('com.cyberday1.neoorigins.data.PowerDataManager')
   var Ident = Java.loadClass('net.minecraft.resources.Identifier')
@@ -36,10 +36,10 @@
     if (list == null) return
     var acts = []
     for (var i = 0; i < list.length; i++) {
-      var p = pool[list[i]]
+      var parts = ('' + list[i]).split(':'), p = pool[parts[0]]
       if (!p) { console.warn('[powers] unknown pool id ' + list[i]); continue }
       if (p.kind == 'A') acts.push({ p: p.mob, next: 0 })
-      else applyPassive(entity, p.sources)
+      else applyPassive(entity, p.sources.map(function (s) { return s.replace('{m}', parts[1] || '1') }))
     }
     if (acts.length) active['' + entity.uuid] = { entity: entity, acts: acts }
   })

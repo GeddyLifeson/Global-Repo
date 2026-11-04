@@ -6861,3 +6861,4 @@ S6933	cloud	compat/gen_station_moves.py
 S6957	cloud	assign_ages.py
 S6962	cloud	tools/powers/grant_on_spawn.js
 S6963	cloud	tools/powers/build_grants.py
+S6965	cloud	tools/powers/build_pool_json.py
