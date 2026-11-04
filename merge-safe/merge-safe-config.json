@@ -13,7 +13,10 @@
     "ports#108": "BuildCraft CE vendor: art not cleared, not compiled; #119 wins the BuildCraft slot",
     "ports#112": "shares diaithir-logistics-utilities skeleton with #114; rebase onto #114 after it merges",
     "ports#111": "overlaps #113 (meteor, blood moon); fold caravan and golden hour into hostile-encounters, then close",
-    "ports#223": "work in progress"
+    "ports#223": "work in progress",
+    "global-repo#52": "hold: #52 diff looks too large (40 commits, 36k lines); waiting for the conflict fixer to confirm it is clean",
+    "global-repo#53": "hold: #52 diff looks too large (40 commits, 36k lines); waiting for the conflict fixer to confirm it is clean",
+    "global-repo#54": "hold: #52 diff looks too large (40 commits, 36k lines); waiting for the conflict fixer to confirm it is clean"
   },
   "meteor": {
     "prs": [
