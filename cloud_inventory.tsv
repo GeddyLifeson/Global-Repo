@@ -376,3 +376,4 @@ tools/panscriptum/master_sheet.py	1747	Builds plans/PANSCRIPTUM_MASTER.tsv: one 
 tools/panscriptum/infer_source_names.py	1331	Fills inferred_source in PANSCRIPTUM_MASTER.tsv from wiki lead text, no AI.	yes
 tools/panscriptum/coverage_check.py	2294	Full source-page coverage: every wiki lead page vs Library entries; unlinked pages list. No AI.	yes
 tools/powers/judge_pages.py	14082	Judges each wiki lead page with Claude Haiku Batch: being or not, pool powers, magnitude 1-10, evidence quote, missing powers (S6975).	yes
+compat/gen_tags_extra.py	0	Name-suffix convention tags (logs, planks, slabs, rails, glass, furniture) for building, tree, furniture and rail jars.	yes
