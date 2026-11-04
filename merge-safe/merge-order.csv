@@ -157,7 +157,7 @@ wave,repo,number,base,head,partner,title
 1,ports,180,diaithircompat,claude/project-thread-87zgrw,,"Gear: parts stations (smithy, workshop bench, gunsmith bench) [merge after #198]"
 1,ports,187,claude/project-thread-daq0av,claude/project-thread-oo83zf,,"diaithir-animation: vanilla-body and first-person pose layer (87 clips, item-kind tags)"
 1,ports,195,claude/project-thread-xprg0c,claude/project-thread-fej6a7,,Farm equipment: 35 machines and implements from digging stick to combine harvester
-1,ports,208,diaithircompat,claude/project-thread-87zgrw,,Gear: Workshop Bench blueprints for the 15 historical bows and crossbows (after #203)
+1,ports,208,diaithircompat,claude/project-thread-87zgrw,,"Gear: bow blueprints on the Workshop Bench (after #203) + combat, classes and relics recipes move to the Age stations (needs the Foundry station framework from #163)"
 1,ports,216,diaithircompat,claude/ships-yard-2,rpg#258,Ship yard round 2 (after #191)
 1,ports,221,diaithircompat,claude/project-thread-1lvuxy,,"Vehicles: ignition, dashboard, pumps and storage, driven tracked vehicles (after #190 and #288)"
 1,ports,222,diaithircompat,claude/project-thread-daq0av,,"diaithir-animation: gun reload variants, casings, belt links (after #209)"
