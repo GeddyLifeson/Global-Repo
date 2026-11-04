@@ -1,0 +1,46 @@
+{
+  "login": "GeddyLifeson",
+  "repos": {
+    "ports": "GeddyLifeson/diaithir-ports",
+    "rpg": "GeddyLifeson/DiaithirRPG",
+    "global-repo": "GeddyLifeson/Global-Repo"
+  },
+  "hold_labels": [
+    "hold",
+    "do-not-merge"
+  ],
+  "skip": {
+    "ports#108": "BuildCraft CE vendor: art not cleared, not compiled; #119 wins the BuildCraft slot",
+    "ports#112": "shares diaithir-logistics-utilities skeleton with #114; rebase onto #114 after it merges",
+    "ports#111": "overlaps #113 (meteor, blood moon); fold caravan and golden hour into hostile-encounters, then close",
+    "ports#223": "work in progress"
+  },
+  "meteor": {
+    "prs": [
+      "ports#111",
+      "ports#113"
+    ],
+    "chosen": "ports#113"
+  },
+  "after": {
+    "ports#155": [
+      "ports#125"
+    ],
+    "ports#151": [
+      "ports#116"
+    ],
+    "rpg#241": [
+      "ports#151"
+    ],
+    "rpg#244": [
+      "rpg#241",
+      "rpg#235"
+    ]
+  },
+  "pairs": [
+    [
+      "ports#151",
+      "rpg#241"
+    ]
+  ]
+}
