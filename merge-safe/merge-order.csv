@@ -268,3 +268,5 @@ wave,repo,number,base,head,partner,title
 15,ports,353,claude/pack-v1-3,claude/pack-v1-3-wave15,,"Wave 15: biomes module (Aerial Hell, Aether II, Undergarden, Backwoods) in worldgen suite, sound occlusion NPE fix (client 87, server 76) [merge with RPG #281]"
 2,ports,354,,claude/buildcraft-build-fix,,BuildCraft build fix: upgrades dependency, 26.X-only config
 0,shardfall,20,main,claude/project-thread-bu0cng,,Add 25% context handoff rule to essentials
+0,rpg,284,engine,claude/project-thread-a9iuyi,global-repo#59,"Balance magic vs tech: 17 Age nodes, Age II magic, ki, innate tags"
+0,global-repo,59,main,claude/project-thread-a9iuyi,rpg#284,"Add magic vs tech balance report and S6958 index row [edits SCRIPTS_INDEX.md: merge one at a time]"
