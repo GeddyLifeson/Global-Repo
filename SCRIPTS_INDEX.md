@@ -6842,3 +6842,4 @@ Run hints: .py `python3 <file>` (PC `py`), .ps1 via a hidden launcher (never a v
 | S6931 | global | `crawl_all.py` | S0335 crawls /mnt/project-files into catalog/{D,F,M,A,J}.tsv with stable IDs: python3 -I crawl_all.py <repo> | yes |
 | S6932 | cloud | `compat/gen_recipes.py` | Add load conditions to recipes naming absent mods and cross-mod dust/raw smelting to the shared ingot. | yes |
 | S6933 | cloud | `compat/gen_station_moves.py` | Move non-trivial vanilla and kept-mod grid recipes onto the Age ladder of stations with a fallback grid recipe. | yes |
+| S6951 | cloud | `library-content/assay_merge.py` | Merges assay entry-draft outputs (tail and retry win over originals) and builds JSON-only retry jobs. | yes |
