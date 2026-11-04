@@ -6836,13 +6836,17 @@ Run hints: .py `python3 <file>` (PC `py`), .ps1 via a hidden launcher (never a v
 | S6851 | cloud | `diaithir-ports/diaithir-worldgen-structures/tools/rc_gen.py` | Clean-room Recurrent Complex function group: jigsaw mazes in five themes, biome transformer processor lists, themed chest loot tables, Age tags. | yes |
 | S6860 | cloud | `diaithir-upgrades/gen_shims.py` | Write upgrade compat shims: scan a mod's real blockstates for working-block names and emit upgrade target rules. | yes |
 | S6866 | cloud | `animations/gen_animations_coverage.py` | Generates plans/ANIMATIONS_COVERAGE.csv (+STATIC): one row per entity, block entity, interactive block, item use action, profession, spell, vehicle and player action; owner helpers 1-4; reruns keep status. | yes |
-| S6875 | cloud | `animations/gen_body.py` | Generates the diaithir-animation vanilla-body clips (body.json), held-item kind tags and body_clips.json from the coverage csv. | yes |
-| S6877 | cloud | `cloud/animation/set_owner3_status.py` | S6876 Sets owner-3 (mobs, NPCs, bosses) status in ANIMATIONS_COVERAGE.csv: done for our GeckoLib/boss work, route for third-party mods, todo for own fauna. | yes |
 | S6880 | global | `diaithir-ports PR 181: port.py (path in repo unconfirmed)` | S6880 Aurorian port script (diaithir-ports PR 181; copy lives in that repo) | no |
 | S6881 | global | `diaithir-ports PR 181: rcon.py (path in repo unconfirmed)` | S6881 Aurorian rcon helper for the port tests (diaithir-ports PR 181; copy lives in that repo) | no |
+| S6885 | cloud | `diaithir-ports/diaithir-worldgen-structures/tools/c_tags.py` | Generates the c: convention structure and biome tags for the worldgen-structures module (per class, mazes, villages, ruins, dungeons). | yes |
+| S6913 | global | `crawl_all.py` | S0335 crawls /mnt/project-files into catalog/{D,F,M,A,J}.tsv with stable IDs: python3 -I crawl_all.py <repo> | yes |
+| S6914 | cloud | `compat/gen_recipes.py` | Add load conditions to recipes naming absent mods and cross-mod dust/raw smelting to the shared ingot. | yes |
+| S6915 | cloud | `compat/gen_station_moves.py` | Move non-trivial vanilla and kept-mod grid recipes onto the Age ladder of stations with a fallback grid recipe. | yes |
+| S6916 | cloud | `age_balance.py` | Build the per-Age coverage matrix (nodes, mod items by function, era-index feeds) and flag thin Ages. | yes |
+| S6875 | cloud | `animations/gen_body.py` | Generates the diaithir-animation vanilla-body clips (body.json), held-item kind tags and body_clips.json from the coverage csv. | yes |
+| S6877 | cloud | `cloud/animation/set_owner3_status.py` | S6876 Sets owner-3 (mobs, NPCs, bosses) status in ANIMATIONS_COVERAGE.csv: done for our GeckoLib/boss work, route for third-party mods, todo for own fauna. | yes |
 | S6910 | cloud | `diaithir-ports/diaithir-carts/tools/gen_freight_assets.py` | S6910 Freight layer: textures, models, blockstates, lang, loot, tags, age gate, library entries and station recipe rows for pallets, containers and docks | yes |
 | S6899 | cloud | `cloud/megamachines/gen_megamachines.py` | S6899 Builds and validates the mega vehicle and megastructure catalogue (dig rate = power x efficiency / specific energy); writes plans/megamachines/catalog.json and .tsv | yes |
-| S6885 | cloud | `diaithir-ports/diaithir-worldgen-structures/tools/c_tags.py` | Generates the c: convention structure and biome tags for the worldgen-structures module (per class, mazes, villages, ruins, dungeons). | yes |
 | S6894 | cloud | `diaithir-ports/diaithir-wiretech/tools/gen_circuit_assets.py` | Diaithir Wiretech circuit network assets: textures, models, blockstates, lang, recipes and age gate for the combinator blocks; run after gen_assets.py. | no |
 | S6895 | cloud | `diaithir-ports/diaithir-wiretech/src/main/java/net/diaithir/wiretech/circuit/CoreCheck.java` | Plain-Java check of the circuit core (signals, combinators, solver, tiers): javac then java -ea. | no |
 | S6896 | cloud | `diaithir-ports/diaithir-wiretech/tools/circuit_gui_check.py` | Opens the wiretech circuit program screens on a real headless client and screenshots them (lane S6854). | no |
