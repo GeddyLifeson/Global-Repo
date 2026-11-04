@@ -62,7 +62,31 @@ with open(f'{OUT}/NOAGE_ASSIGNED.csv','w',newline='') as f:
 # defaults so items not in the snapshot (new or renamed ids) still get an Age
 D={'diaithirtrees':'I','diaithir_planets':'VIII','diaithir':'III','jaopca':'VI','alltheores':'VI','mts':'VI','jdturrets':'VI','modulargolems':'IV','mutantmonsters':'V','deepworlds':'VII','vs_eureka':'III','valkyrienskies':'III','betterarcheology':'III','untamedwilds':'I',
  'minecraft':'I','regions_unexplored':'I','biomesoplenty':'I','lightmanscurrency':'I'}
+# Namespaces the V1 audit found with no default (theme to Age follows plans/progression/graph.json).
+D.update({'ae2wtlib':'VII','appflux':'VII','merequester':'VII','diaithirlinkedstorage':'VII','simpleteleporters':'VII','diaithirbosses':'VII',
+ 'archimedes':'IV','theaurorian':'IV','toms_storage':'IV','diaithircompass':'IV','diaithirwaypoints':'IV','diaithirfirearms':'IV','nutritionalbalance':'IV','yo_hooks':'IV',
+ 'diaithirarms':'V','diaithirbuildcraft':'V','diaithirbuildcraft2':'V','immersive_machinery':'V','netherchested':'V',
+ 'copperhopper':'VI','hoppergadgetry':'VI','tinypipes':'VI','diaithircomputing':'VI','diaithircropgenes':'VI','diaithirfilters':'VI','hangglider':'VI','quarry':'VI',
+ 'diaithirfoundry':'III','extendedcrafting':'III','diaithirupgrades':'III','echochest':'III','horseman':'III','horsepowered':'III','justhammers':'III','linkedchests':'III',
+ 'colossalchests':'II','diaithircarts':'II','diaithirfarmkitchen':'II','diaithirfurniture':'II','storagedrawers':'II',
+ 'diaithirclaims':'I','diaithircreatureutils':'I','effortlessbuilding':'I','homeostatic':'I','immersive_melodies':'I','moblassos':'I','natures_spirit':'I','solonion':'I'})
 for n in ta['nontech']: D.setdefault(n,'I')
 json.dump({'_doc':'Namespace default Age for namespaces that had none (nontech list, new modules). Item rows in NOAGE_ASSIGNED.csv override. Merge into content/tech_ages.json namespaces; nontech list then empties.','namespaces':dict(sorted(D.items()))},open(f'{OUT}/NAMESPACE_DEFAULTS.json','w'),indent=1)
 print(len(rows),'assigned,',len(unk),'unassigned',unk[:10]); print(SRC.most_common())
 print(collections.Counter(a for _,a,_ in rows))
+
+# Optional merge: python3 -I assign_ages.py PROJECT_FILES OUT_DIR TECH_AGES.json AUDIT_NOAGE_IDS.txt
+if len(sys.argv)>4:
+    tf=sys.argv[3]; T=json.load(open(tf,encoding='utf-8'))
+    audit=[l.strip() for l in open(sys.argv[4]) if l.strip()]
+    use={i.split(':')[0] for i in audit}|{r[0].split(':')[0] for r in rows}
+    for ns,a in D.items():
+        if ns in use and ns not in T['namespaces']: T['namespaces'][ns]=a
+        if ns in T['namespaces'] and ns in T['nontech']: T['nontech'].remove(ns)
+    for i,a,w in rows:
+        if i in T['items'] or i in T['decided']: continue
+        if a==T['namespaces'].get(i.split(':')[0]): continue
+        (T['items'] if w.startswith('tech_ages_by_item') else T['decided'])[i]=a
+    T['nontech']=[n for n in T['nontech'] if n not in T['namespaces']]  # a namespace with an Age is not non-tech (test_tech_ages)
+    open(tf,'w',encoding='utf-8').write(json.dumps(T,indent=2,ensure_ascii=False))
+    print('merged into',tf,len(T['namespaces']),'namespaces',len(T['items']),'items',len(T['decided']),'decided',len(T['nontech']),'nontech')
