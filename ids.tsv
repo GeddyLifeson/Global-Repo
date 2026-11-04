@@ -6826,9 +6826,6 @@ S6836	cloud	diaithir-ports/diaithir-worldgen-structures/tools/lib_sites.py
 S6844	cloud	tools/mc_fake_player_bot.py
 S6849	cloud	diaithir-ports/diaithir-worldgen-structures/tools/planet_biomes.py
 S6851	cloud	diaithir-ports/diaithir-worldgen-structures/tools/rc_gen.py
-S6860	cloud	diaithir-upgrades/gen_shims.py
-S6866	cloud	animations/gen_animations_coverage.py
-S6873	global	ports/diaithir-bosses/tools/gen_gate.py
 S6880	global	diaithir-ports PR 181: port.py (path in repo unconfirmed)
 S6881	global	diaithir-ports PR 181: rcon.py (path in repo unconfirmed)
 S6885	cloud	diaithir-ports/diaithir-worldgen-structures/tools/c_tags.py
@@ -6837,12 +6834,9 @@ S6941	global	crawl_all.py
 S6942	cloud	compat/gen_recipes.py
 S6943	cloud	compat/gen_station_moves.py
 S6954	cloud	diaithir-farmkitchen/tools/fold_third_party.py
-S6880	global	diaithir-ports PR 181: port.py (path in repo unconfirmed)
-S6881	global	diaithir-ports PR 181: rcon.py (path in repo unconfirmed)
 S6922	cloud	diaithir-ports/diaithir-overworld-biomes/tools/stellaris_extra.py
 S6899	cloud	cloud/megamachines/gen_megamachines.py
 S6917	cloud	cloud/megamachines/gen_megastructures.py
-S6885	cloud	diaithir-ports/diaithir-worldgen-structures/tools/c_tags.py
 S6913	global	crawl_all.py
 S6914	cloud	compat/gen_recipes.py
 S6915	cloud	compat/gen_station_moves.py
