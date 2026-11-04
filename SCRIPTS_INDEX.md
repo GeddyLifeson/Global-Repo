@@ -6827,28 +6827,31 @@ Run hints: .py `python3 <file>` (PC `py`), .ps1 via a hidden launcher (never a v
 | S6826 | cloud | `library-content/place_all.py` | Places every Library entry: Collection, class, canon status, spine code, shelfmark (S6823). | no |
 | S6827 | cloud | `names/linguistics/regen_relaxed.py` | S0312 Regenerates every culture name that fails its language rules (Haiku, rules file cached per language, up to 3 repair rounds); writes na | yes |
 | S6829 | global | `tools/omniverse/export_library_books.py` | S6829 exports library books for the omniverse books lane (lives in the DiaithirRPG repo; copy not mirrored yet) | no |
-| S6875 | cloud | `animations/gen_body.py` | Generates the diaithir-animation vanilla-body clips (body.json), held-item kind tags and body_clips.json from the coverage csv. | yes |
-| S6877 | cloud | `cloud/animation/set_owner3_status.py` | S6876 Sets owner-3 (mobs, NPCs, bosses) status in ANIMATIONS_COVERAGE.csv: done for our GeckoLib/boss work, route for third-party mods, todo for own fauna. | yes |
-| S6874 | global | `diaithir-animation/tools/gen_clips.py` | S6874 generates player animation clips (melee, tools, bows, guns, casting) and item class tags from ANIMATIONS_COVERAGE.csv (lives in diaithir-ports; copy not mirrored yet) | no |
-| S6898 | global | `diaithir-animation/tools/csv_apply.py` | S6898 appends roster-gun rows to ANIMATIONS_COVERAGE.csv and marks them done after an S6866 rerun (lives in diaithir-ports) | no |
-| S6873 | global | `ports/diaithir-bosses/tools/gen_gate.py` | S6873 adds the Shardfall Gate lang, Codex quests and handbook chapter to diaithir-bosses: python3 -I tools/gen_gate.py | yes |
-| S6866 | cloud | `animations/gen_animations_coverage.py` | Generates plans/ANIMATIONS_COVERAGE.csv (+STATIC): one row per entity, block entity, interactive block, item use action, profession, spell, vehicle and player action; owner helpers 1-4; reruns keep status. | yes |
-| S6864 | global | `tools/progression/gen_quests.py` | S6864 writes one Codex quest per progression graph node, per-Age journal files (lives in the DiaithirRPG repo; copy not mirrored yet) | no |
-| S6865 | cloud | `cloud/library-content/assay_decimals.py` | S6865 derives charter assay decimals (M band + fraction, +- interval) from scored c3m P into content.sqlite table assay_decimal (149,976 rows) | yes |
-| S6860 | cloud | `diaithir-upgrades/gen_shims.py` | Write upgrade compat shims: scan a mod's real blockstates for working-block names and emit upgrade target rules. | yes |
-| S6847 | cloud | `diaithir-ports/diaithir-overworld-biomes/tools/realms_gen.py` | S6847 Clean-room realm generator: ids list in, manifest, models, loot, recipes, tags, dimension, biomes, migrations, quest and Codex entry out (Undergarden, Backwoods, Bumblezone, Aether II) | yes |
-| S6838 | cloud | `diaithir-ports/diaithir-combat/tools/gear_gen.py` | Sorts every Panscriptum WEAPON/ARMOR entry into a weapon class or armor slot from its own summary text and writes gear.tsv.gz (id, tier, Age gate, class, name). | no |
-| S6839 | cloud | `diaithir-ports/diaithir-combat/tools/gear_art.py` | Draws the 64 px two-layer library gear textures, models and item definitions (19 items x 9 Ages). | no |
-| S6841 | cloud | `diaithir-ports/diaithir-combat/tools/gear_recipes.py` | Writes the library gear recipes (class x Age), site loot tables and progression nodes. | no |
+| S6830 | cloud | `names/linguistics/coverage.py` | Name coverage per module: ids in rewrite jars vs names drops, writes pending.json. | yes |
+| S6832 | cloud | `names/linguistics/dia_names.py` | Diaithiris names for an id-to-English file via classical kenning plus archaic.py. | yes |
+| S6833 | cloud | `names/linguistics/fill_gaps.py` | Fills empty language slots with repair rounds and relaxed fallbacks. | yes |
 | S6836 | cloud | `diaithir-ports/diaithir-worldgen-structures/tools/lib_sites.py` | Turns the 44,015 Panscriptum STRUCTURE entries into jigsaw sites: lectern plaque with the entry text verbatim, class buildings, structures and sets per planet. | yes |
 | S6844 | cloud | `tools/mc_fake_player_bot.py` | Headless fake player for Minecraft 26.1.2 servers (login, keep-alive, chunk batch, teleport confirm) so spawners and altars can be triggered in cloud tests. | yes |
 | S6849 | cloud | `diaithir-ports/diaithir-worldgen-structures/tools/planet_biomes.py` | Maps settlement biome entries to each planet's biome ids (from #145 specs and planet stems) for biome-keyed settlement placement. | yes |
 | S6851 | cloud | `diaithir-ports/diaithir-worldgen-structures/tools/rc_gen.py` | Clean-room Recurrent Complex function group: jigsaw mazes in five themes, biome transformer processor lists, themed chest loot tables, Age tags. | yes |
+| S6860 | cloud | `diaithir-upgrades/gen_shims.py` | Write upgrade compat shims: scan a mod's real blockstates for working-block names and emit upgrade target rules. | yes |
+| S6866 | cloud | `animations/gen_animations_coverage.py` | Generates plans/ANIMATIONS_COVERAGE.csv (+STATIC): one row per entity, block entity, interactive block, item use action, profession, spell, vehicle and player action; owner helpers 1-4; reruns keep status. | yes |
+| S6875 | cloud | `animations/gen_body.py` | Generates the diaithir-animation vanilla-body clips (body.json), held-item kind tags and body_clips.json from the coverage csv. | yes |
+| S6877 | cloud | `cloud/animation/set_owner3_status.py` | S6876 Sets owner-3 (mobs, NPCs, bosses) status in ANIMATIONS_COVERAGE.csv: done for our GeckoLib/boss work, route for third-party mods, todo for own fauna. | yes |
 | S6880 | global | `diaithir-ports PR 181: port.py (path in repo unconfirmed)` | S6880 Aurorian port script (diaithir-ports PR 181; copy lives in that repo) | no |
 | S6881 | global | `diaithir-ports PR 181: rcon.py (path in repo unconfirmed)` | S6881 Aurorian rcon helper for the port tests (diaithir-ports PR 181; copy lives in that repo) | no |
+| S6885 | cloud | `diaithir-ports/diaithir-worldgen-structures/tools/c_tags.py` | Generates the c: convention structure and biome tags for the worldgen-structures module (per class, mazes, villages, ruins, dungeons). | yes |
+| S6894 | cloud | `diaithir-ports/diaithir-wiretech/tools/gen_circuit_assets.py` | Diaithir Wiretech circuit network assets: textures, models, blockstates, lang, recipes and age gate for the combinator blocks; run after gen_assets.py. | no |
+| S6895 | cloud | `diaithir-ports/diaithir-wiretech/src/main/java/net/diaithir/wiretech/circuit/CoreCheck.java` | Plain-Java check of the circuit core (signals, combinators, solver, tiers): javac then java -ea. | no |
+| S6896 | cloud | `diaithir-ports/diaithir-wiretech/tools/circuit_gui_check.py` | Opens the wiretech circuit program screens on a real headless client and screenshots them (lane S6854). | no |
+| S6901 | cloud | `diaithir-ports/diaithir-wiretech/tools/belt_reader_check.py` | Circuit reader against a real belt chute (belt fork jar) on the headless client lane. | no |
+| S6906 | global | `crawl_all.py` | S0335 crawls /mnt/project-files into catalog/{D,F,M,A,J}.tsv with stable IDs: python3 -I crawl_all.py <repo> | yes |
+| S6907 | cloud | `names/linguistics/names_for_terms.py` | Names for an id-to-English file in 130 culture languages against the rules files. | yes |
+| S6908 | cloud | `compat/gen_recipes.py` | Add load conditions to recipes naming absent mods and cross-mod dust/raw smelting to the shared ingot. | yes |
+| S6909 | cloud | `compat/gen_station_moves.py` | Move non-trivial vanilla and kept-mod grid recipes onto the Age ladder of stations with a fallback grid recipe. | yes |
+| S6912 | cloud | `diaithir-ports/diaithir-wiretech/tools/rail_reader_check.py` | Circuit reader against a real destination rail and block signal (diaithir-carts) on the headless client lane. | no |
 | S6883 | global | `diaithir-ports PR 188: diaithir-arms/tools/gen_aircraft.py` | S6883 Aircraft pack generator for Immersive Vehicles (diaithir-ports PR 188; copy lives in that repo) | no |
 | S6900 | global | `diaithir-animation/tools/queue_row_jobs.py` | S6900 queues ANIMATIONS_COVERAGE.csv rows into compute/jobs/anim_rows-sNN shards of 500 (animation spec per row via Claude batch; lives in diaithir-ports) | no |
-| S6885 | cloud | `diaithir-ports/diaithir-worldgen-structures/tools/c_tags.py` | Generates the c: convention structure and biome tags for the worldgen-structures module (per class, mazes, villages, ruins, dungeons). | yes |
 | S6919 | cloud | `integration/integration_matrix.py` | Build the every-system-by-every-system integration matrix and lane tickets from matrix_data.py (plans/INTEGRATION_MATRIX.md). | yes |
 | S6929 | cloud | `integration/matrix_data.py` | Data for S6919: bridges, 32 systems, nouns, hand-written pair interactions, lane owners. | yes |
 | S6930 | cloud | `integration/pairs_extra.txt` | Hand-written pair interactions loaded by matrix_data.py. | yes |
