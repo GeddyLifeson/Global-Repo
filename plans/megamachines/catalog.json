@@ -1,0 +1,339 @@
+{
+ "vehicles": [
+  {
+   "id": "megamachines:treadwheel_crane",
+   "name": "Treadwheel crane",
+   "age": "III",
+   "class": "crane",
+   "mass_t": 30,
+   "power_MW": 0.004,
+   "medium": "soil",
+   "eta": 0.5,
+   "dig_m3_s": 0,
+   "crew": 4,
+   "deck_m2": 12,
+   "real_basis": "Roman/medieval man-powered wheel crane; lifts 6 t",
+   "engines": [
+    "draft_animal"
+   ],
+   "autonomy_capable": false,
+   "dig_m3_s_calc": 0.001
+  },
+  {
+   "id": "megamachines:steam_navvy",
+   "name": "Steam navvy",
+   "age": "V",
+   "class": "shovel",
+   "mass_t": 25,
+   "power_MW": 0.04,
+   "medium": "soil",
+   "eta": 0.35,
+   "dig_m3_s": 0.007,
+   "crew": 2,
+   "deck_m2": 10,
+   "real_basis": "1840s Otis/Smith steam shovel, 0.6 m3 bucket",
+   "engines": [
+    "steam_piston"
+   ],
+   "autonomy_capable": false,
+   "dig_m3_s_calc": 0.007
+  },
+  {
+   "id": "megamachines:walking_dragline",
+   "name": "Walking dragline",
+   "age": "V",
+   "class": "dragline",
+   "mass_t": 1200,
+   "power_MW": 6.0,
+   "medium": "overburden",
+   "eta": 0.55,
+   "dig_m3_s": 0.55,
+   "crew": 3,
+   "deck_m2": 60,
+   "real_basis": "Bucyrus-Erie style; walks on shoes, 20-60 m3 bucket",
+   "engines": [
+    "steam_piston",
+    "electric_motor"
+   ],
+   "autonomy_capable": false,
+   "dig_m3_s_calc": 0.55
+  },
+  {
+   "id": "megamachines:tunnel_borer",
+   "name": "Tunnel boring machine",
+   "age": "VI",
+   "class": "tbm",
+   "mass_t": 900,
+   "power_MW": 3.5,
+   "medium": "rock",
+   "eta": 0.45,
+   "dig_m3_s": 0.04,
+   "crew": 6,
+   "deck_m2": 80,
+   "real_basis": "Channel Tunnel TBM 8.7 m bore, 5-10 m/hour in chalk",
+   "engines": [
+    "electric_motor",
+    "arcane_motor"
+   ],
+   "autonomy_capable": false,
+   "dig_m3_s_calc": 0.039
+  },
+  {
+   "id": "megamachines:haul_truck",
+   "name": "Mining haul truck",
+   "age": "VI",
+   "class": "truck",
+   "mass_t": 400,
+   "power_MW": 3.0,
+   "medium": "soil",
+   "eta": 0.0,
+   "dig_m3_s": 0,
+   "crew": 1,
+   "deck_m2": 25,
+   "real_basis": "Belaz 75710 class, 450 t payload, 2 x 2.3 MW",
+   "engines": [
+    "diesel_engine",
+    "electric_motor",
+    "arcane_motor"
+   ],
+   "autonomy_capable": false,
+   "dig_m3_s_calc": 0
+  },
+  {
+   "id": "megamachines:crawler_crane",
+   "name": "Crawler crane",
+   "age": "VI",
+   "class": "crane",
+   "mass_t": 650,
+   "power_MW": 1.0,
+   "medium": "soil",
+   "eta": 0.0,
+   "dig_m3_s": 0,
+   "crew": 2,
+   "deck_m2": 30,
+   "real_basis": "Liebherr LR 13000 class, 3000 t lift",
+   "engines": [
+    "diesel_engine",
+    "electric_motor",
+    "arcane_motor"
+   ],
+   "autonomy_capable": false,
+   "dig_m3_s_calc": 0
+  },
+  {
+   "id": "megamachines:bucket_wheel_excavator",
+   "name": "Bucket-wheel excavator",
+   "age": "VI",
+   "class": "bwe",
+   "mass_t": 13500,
+   "power_MW": 16.5,
+   "medium": "overburden",
+   "eta": 0.5,
+   "dig_m3_s": 1.4,
+   "crew": 5,
+   "deck_m2": 420,
+   "real_basis": "Bagger 293: 14,200 t, 16.6 MW, ~240,000 m3/day",
+   "engines": [
+    "electric_motor",
+    "arcane_motor"
+   ],
+   "autonomy_capable": false,
+   "dig_m3_s_calc": 1.375
+  },
+  {
+   "id": "megamachines:crawler_transporter",
+   "name": "Crawler transporter",
+   "age": "VI",
+   "class": "transporter",
+   "mass_t": 2700,
+   "power_MW": 4.0,
+   "medium": "soil",
+   "eta": 0.0,
+   "dig_m3_s": 0,
+   "crew": 2,
+   "deck_m2": 500,
+   "real_basis": "KSC crawler-transporter, 2,700 t, carries 8,000 t",
+   "engines": [
+    "diesel_engine",
+    "arcane_motor"
+   ],
+   "autonomy_capable": false,
+   "dig_m3_s_calc": 0
+  },
+  {
+   "id": "megamachines:autonomous_wheel_excavator",
+   "name": "Autonomous bucket-wheel excavator",
+   "age": "VII",
+   "class": "bwe",
+   "mass_t": 13500,
+   "power_MW": 16.5,
+   "medium": "overburden",
+   "eta": 0.55,
+   "dig_m3_s": 1.6,
+   "crew": 3,
+   "deck_m2": 420,
+   "real_basis": "Bagger 293 under remote autopilot, no operators",
+   "engines": [
+    "electric_motor",
+    "arcane_motor"
+   ],
+   "autonomy_capable": true,
+   "dig_m3_s_calc": 1.513
+  },
+  {
+   "id": "megamachines:autonomous_haul_fleet",
+   "name": "Autonomous haul truck",
+   "age": "VII",
+   "class": "truck",
+   "mass_t": 400,
+   "power_MW": 3.0,
+   "medium": "soil",
+   "eta": 0.0,
+   "dig_m3_s": 0,
+   "crew": 1,
+   "deck_m2": 25,
+   "real_basis": "Komatsu FrontRunner driverless haulage",
+   "engines": [
+    "electric_motor",
+    "fuel_cell",
+    "arcane_motor"
+   ],
+   "autonomy_capable": true,
+   "dig_m3_s_calc": 0
+  },
+  {
+   "id": "megamachines:mountain_strip_miner",
+   "name": "Mountain strip miner",
+   "age": "VIII",
+   "class": "bwe",
+   "mass_t": 90000,
+   "power_MW": 120.0,
+   "medium": "rock",
+   "eta": 0.6,
+   "dig_m3_s": 1.5,
+   "crew": 4,
+   "deck_m2": 2500,
+   "real_basis": "Scaled-up BWE chain, fusion cell fed; removes ridge lines",
+   "engines": [
+    "electric_motor",
+    "fuel_cell",
+    "arcane_motor"
+   ],
+   "autonomy_capable": true,
+   "dig_m3_s_calc": 1.8
+  },
+  {
+   "id": "megamachines:terraform_builder",
+   "name": "Terraform builder",
+   "age": "RODOS",
+   "class": "builder",
+   "mass_t": 400000,
+   "power_MW": 900.0,
+   "medium": "regolith",
+   "eta": 0.7,
+   "dig_m3_s": 10.0,
+   "crew": 6,
+   "deck_m2": 6000,
+   "real_basis": "Planet-scale bulk builder; prints stone, soil, water from shard-fed feedstock",
+   "engines": [
+    "arcane_motor",
+    "fuel_cell"
+   ],
+   "autonomy_capable": true,
+   "dig_m3_s_calc": 10.5
+  }
+ ],
+ "structures": [
+  {
+   "id": "megamachines:aqueduct_arcade",
+   "name": "Aqueduct arcade",
+   "age": "III",
+   "kind": "water",
+   "footprint_m": 300,
+   "height_m": 25,
+   "cost_t": 9000,
+   "power_MW": 0.0,
+   "blocks": 4000,
+   "real_basis": "Pont du Gard: 275 m, 49 m, 50,000 t"
+  },
+  {
+   "id": "megamachines:great_dam",
+   "name": "Great dam",
+   "age": "VI",
+   "kind": "power",
+   "footprint_m": 400,
+   "height_m": 120,
+   "cost_t": 2500000,
+   "power_MW": 500.0,
+   "blocks": 60000,
+   "real_basis": "Hoover Dam: 379 m x 221 m, 2.5 Mt concrete, 2.08 GW"
+  },
+  {
+   "id": "megamachines:ship_lock_flight",
+   "name": "Ship lock flight",
+   "age": "V",
+   "kind": "water",
+   "footprint_m": 600,
+   "height_m": 40,
+   "cost_t": 300000,
+   "power_MW": 0.0,
+   "blocks": 12000,
+   "real_basis": "Three Gorges lock flight 113 m lift"
+  },
+  {
+   "id": "megamachines:arcology_tower",
+   "name": "Arcology tower",
+   "age": "VII",
+   "kind": "habitat",
+   "footprint_m": 200,
+   "height_m": 500,
+   "cost_t": 1500000,
+   "power_MW": -20.0,
+   "blocks": 80000,
+   "real_basis": "Burj Khalifa 828 m, 500 kt; settlement hub, 10,000 residents"
+  },
+  {
+   "id": "megamachines:space_elevator",
+   "name": "Space elevator",
+   "age": "VIII",
+   "kind": "transport",
+   "footprint_m": 100,
+   "height_m": 36000,
+   "cost_t": 40000,
+   "power_MW": -50.0,
+   "blocks": 40000,
+   "real_basis": "Tether to GEO 35,786 km; scaled 1:5 world height, climbers by laser power"
+  },
+  {
+   "id": "megamachines:orbital_ring",
+   "name": "Orbital ring",
+   "age": "RODOS",
+   "kind": "transport",
+   "footprint_m": 0,
+   "height_m": 0,
+   "cost_t": 500000,
+   "power_MW": -2000.0,
+   "blocks": 90000,
+   "real_basis": "Birch orbital ring: ring at ~300 km, towers to ground"
+  },
+  {
+   "id": "megamachines:dyson_swarm",
+   "name": "Dyson collector swarm",
+   "age": "RODOS",
+   "kind": "power",
+   "footprint_m": 0,
+   "height_m": 0,
+   "cost_t": 200000,
+   "power_MW": 50000.0,
+   "blocks": 70000,
+   "real_basis": "Statite collector swarm; supplies the Gate launch bank"
+  }
+ ],
+ "specific_energy_MJ_m3": {
+  "soil": 2.0,
+  "overburden": 6.0,
+  "rock": 40.0,
+  "ore": 25.0,
+  "regolith": 60.0
+ }
+}
