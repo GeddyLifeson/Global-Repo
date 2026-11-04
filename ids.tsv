@@ -6821,9 +6821,6 @@ S6836	cloud	diaithir-ports/diaithir-worldgen-structures/tools/lib_sites.py
 S6844	cloud	tools/mc_fake_player_bot.py
 S6849	cloud	diaithir-ports/diaithir-worldgen-structures/tools/planet_biomes.py
 S6851	cloud	diaithir-ports/diaithir-worldgen-structures/tools/rc_gen.py
-S6860	cloud	diaithir-upgrades/gen_shims.py
-S6866	cloud	animations/gen_animations_coverage.py
-S6873	global	ports/diaithir-bosses/tools/gen_gate.py
 S6880	global	diaithir-ports PR 181: port.py (path in repo unconfirmed)
 S6881	global	diaithir-ports PR 181: rcon.py (path in repo unconfirmed)
 S6900	global	tools/animation/queue_row_jobs.py
