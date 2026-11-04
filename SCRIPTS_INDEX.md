@@ -6843,3 +6843,4 @@ Run hints: .py `python3 <file>` (PC `py`), .ps1 via a hidden launcher (never a v
 | S6932 | cloud | `compat/gen_recipes.py` | Add load conditions to recipes naming absent mods and cross-mod dust/raw smelting to the shared ingot. | yes |
 | S6933 | cloud | `compat/gen_station_moves.py` | Move non-trivial vanilla and kept-mod grid recipes onto the Age ladder of stations with a fallback grid recipe. | yes |
 | S6951 | cloud | `library-content/assay_merge.py` | Merges assay entry-draft outputs (tail and retry win over originals) and builds JSON-only retry jobs. | yes |
+| S6952 | cloud | `library-content/assay_regroup.py` | Regroups assay tail and retry outputs into per-slug shards for the existing assay importer (retry wins). | yes |

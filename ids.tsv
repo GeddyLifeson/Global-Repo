@@ -6829,3 +6829,4 @@ S6931	global	crawl_all.py
 S6932	cloud	compat/gen_recipes.py
 S6933	cloud	compat/gen_station_moves.py
 S6951	cloud	library-content/assay_merge.py
+S6952	cloud	library-content/assay_regroup.py
