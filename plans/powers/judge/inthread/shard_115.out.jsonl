@@ -27,11 +27,11 @@
 {"id": "magic-the-gathering-all-planes|6660", "b": 1, "n": "Stephan", "p": [], "x": []}
 {"id": "magic-the-gathering-all-planes|6913", "b": 1, "n": "Thatu Reiniger", "p": [], "x": []}
 {"id": "magic-the-gathering-all-planes|6963", "b": 1, "n": "Towser", "p": [], "x": []}
-{"id": "all-black-ops|5461", "b": 2, "k": "weapon", "n": "", "m": 1, "q": "The M40A3 is a bolt-action sniper rifle featured in Call of ", "c": "h", "p": []}
+{"id": "all-black-ops|5461", "b": 2, "k": "weapon", "n": "M40A3", "m": 1, "q": "The M40A3 is a bolt-action sniper rifle featured in Call of ", "c": "h", "p": []}
 {"id": "magic-the-gathering-all-planes|7059", "b": 1, "n": "Thrasios", "p": [], "x": []}
 {"id": "magic-the-gathering-all-planes|7199", "b": 1, "n": "Valthus", "p": [], "x": []}
 {"id": "magic-the-gathering-all-planes|7306", "b": 1, "n": "Varnel Buckara", "p": [], "x": []}
-{"id": "all-black-ops|5463", "b": 2, "k": "weapon", "n": "", "m": 1, "q": "The M16A4 is a burst firing assault rifle featured in Call o", "c": "h", "p": []}
+{"id": "all-black-ops|5463", "b": 2, "k": "weapon", "n": "M16A4", "m": 1, "q": "The M16A4 is a burst firing assault rifle featured in Call o", "c": "h", "p": []}
 {"id": "magic-the-gathering-all-planes|7308", "b": 1, "n": "Varena", "p": [], "x": []}
 {"id": "magic-the-gathering-all-planes|7485", "b": 1, "n": "Voja Fenstalker", "p": [], "x": []}
 {"id": "magic-the-gathering-all-planes|7506", "b": 1, "n": "Warree Tarcha", "p": [], "x": ["teleport others"]}
@@ -43,7 +43,7 @@
 {"id": "magic-the-gathering-all-planes|7702", "b": 1, "n": "Zegana", "p": [], "x": []}
 {"id": "magic-the-gathering-all-planes|7742", "b": 1, "n": "Yedora", "p": [], "x": []}
 {"id": "magic-the-gathering-all-planes|7945", "b": 1, "n": "Aphelia", "p": [], "x": []}
-{"id": "all-black-ops|5467", "b": 2, "k": "weapon", "n": "", "m": 1, "q": "The MG34 (Maschinengewehr 34) is a German machine gun featur", "c": "h", "p": []}
+{"id": "all-black-ops|5467", "b": 2, "k": "weapon", "n": "MG34", "m": 1, "q": "The MG34 (Maschinengewehr 34) is a German machine gun featur", "c": "h", "p": []}
 {"id": "magic-the-gathering-all-planes|8611", "b": 1, "n": "Lagorin", "p": [], "x": []}
 {"id": "magic-the-gathering-all-planes|8629", "b": 1, "n": "General Kreat", "p": [], "x": []}
 {"id": "magic-the-gathering-all-planes|8805", "b": 0}
@@ -51,7 +51,7 @@
 {"id": "magic-the-gathering-all-planes|8819", "b": 1, "n": "Neerdiv", "p": [], "x": []}
 {"id": "magic-the-gathering-all-planes|8893", "b": 1, "n": "Princess Lucrezia", "p": [], "x": []}
 {"id": "magic-the-gathering-all-planes|8915", "b": 0}
-{"id": "all-black-ops|5470", "b": 2, "k": "weapon", "n": "", "m": 1, "q": "The MAS 38 is a French submachine gun featured in Call of Du", "c": "h", "p": []}
+{"id": "all-black-ops|5470", "b": 2, "k": "weapon", "n": "MAS 38", "m": 1, "q": "The MAS 38 is a French submachine gun featured in Call of Du", "c": "h", "p": []}
 {"id": "magic-the-gathering-all-planes|9155", "b": 1, "n": "Lin Sivvi en-Vec", "p": [], "x": []}
 {"id": "major-live-action-disney-films|16", "b": 1, "n": "80s Robot", "p": [], "x": []}
 {"id": "major-live-action-disney-films|453", "b": 0}
@@ -63,7 +63,7 @@
 {"id": "major-live-action-disney-films|1460", "b": 1, "n": "Ajed Al-Gebraic", "p": [], "x": []}
 {"id": "major-live-action-disney-films|1494", "b": 1, "n": "Aldrich Killian", "p": [], "x": []}
 {"id": "major-live-action-disney-films|1613", "b": 0}
-{"id": "all-black-ops|5473", "b": 2, "k": "weapon", "n": "", "m": 1, "q": "The M1 Carbine (in some cases M1A1 Carbine) is an American s", "c": "h", "p": []}
+{"id": "all-black-ops|5473", "b": 2, "k": "weapon", "n": "M1 Carbine", "m": 1, "q": "The M1 Carbine (in some cases M1A1 Carbine) is an American s", "c": "h", "p": []}
 {"id": "major-live-action-disney-films|2241", "b": 1, "n": "Agent Antoine \"Trip\" Triplett", "p": [], "x": []}
 {"id": "major-live-action-disney-films|2459", "b": 1, "n": "Archimedes", "p": [], "x": []}
 {"id": "major-live-action-disney-films|2691", "b": 1, "n": "Artemis Fowl II", "p": [], "x": []}
@@ -95,7 +95,7 @@
 {"id": "major-live-action-disney-films|6973", "b": 1, "n": "Christopher Robin", "p": [], "x": []}
 {"id": "major-live-action-disney-films|6981", "b": 1, "n": "Chick Hicks", "p": [], "x": []}
 {"id": "major-live-action-disney-films|7062", "b": 1, "n": "Chilly", "p": [], "x": []}
-{"id": "all-black-ops|5484", "b": 2, "k": "vehicle", "n": "", "m": 2, "q": "The M104 Wolverine Heavy Assault Bridge is an armored combat", "c": "h", "p": []}
+{"id": "all-black-ops|5484", "b": 2, "k": "vehicle", "n": "M104 Wolverine Heavy Assault Bridge", "m": 2, "q": "The M104 Wolverine Heavy Assault Bridge is an armored combat", "c": "h", "p": []}
 {"id": "major-live-action-disney-films|7087", "b": 0}
 {"id": "major-live-action-disney-films|7237", "b": 1, "n": "Chips", "p": [], "x": []}
 {"id": "major-live-action-disney-films|7255", "b": 0}
@@ -115,11 +115,11 @@
 {"id": "major-live-action-disney-films|8302", "b": 1, "n": "Crosshair", "p": [], "x": []}
 {"id": "major-live-action-disney-films|8382", "b": 0}
 {"id": "major-live-action-disney-films|8403", "b": 1, "n": "Daedalus", "p": [], "x": []}
-{"id": "all-black-ops|5491", "b": 2, "k": "weapon", "n": "", "m": 1, "q": "The M40 is a bolt-action sniper rifle in Call of Duty: Black", "c": "h", "p": []}
+{"id": "all-black-ops|5491", "b": 2, "k": "weapon", "n": "M40", "m": 1, "q": "The M40 is a bolt-action sniper rifle in Call of Duty: Black", "c": "h", "p": []}
 {"id": "major-live-action-disney-films|8527", "b": 1, "n": "Professor Cumulus Isobar", "p": [], "x": []}
 {"id": "major-live-action-disney-films|8576", "b": 1, "n": ":This article", "p": [], "x": []}
 {"id": "major-live-action-disney-films|8884", "b": 1, "n": "Daphne Duck", "p": [], "x": []}
-{"id": "all-black-ops|5493", "b": 2, "k": "vehicle", "n": "", "m": 1, "q": "The M35 is a truck utilized by the United States Armed Force", "c": "h", "p": []}
+{"id": "all-black-ops|5493", "b": 2, "k": "vehicle", "n": "M35", "m": 1, "q": "The M35 is a truck utilized by the United States Armed Force", "c": "h", "p": []}
 {"id": "major-live-action-disney-films|8895", "b": 1, "n": "Daniel Davenport", "p": [], "x": []}
 {"id": "major-live-action-disney-films|8908", "b": 1, "n": "Dave Douglas", "p": [], "x": []}
 {"id": "major-live-action-disney-films|8953", "b": 1, "n": "Dark Wizard", "p": [], "x": []}
@@ -131,19 +131,19 @@
 {"id": "major-live-action-disney-films|9186", "b": 1, "n": "Dean Abigail Hardscrabble", "p": [], "x": []}
 {"id": "major-live-action-disney-films|9490", "b": 1, "n": "Diablo", "p": [], "x": []}
 {"id": "major-live-action-disney-films|9632", "b": 1, "n": "DiVine", "p": [], "x": []}
-{"id": "all-black-ops|5497", "b": 2, "k": "weapon", "n": "", "m": 1, "q": "The M320 GLM is a single-shot hand-held Grenade Launcher and", "c": "h", "p": []}
+{"id": "all-black-ops|5497", "b": 2, "k": "weapon", "n": "M320 GLM", "m": 1, "q": "The M320 GLM is a single-shot hand-held Grenade Launcher and", "c": "h", "p": []}
 {"id": "major-live-action-disney-films|9654", "b": 1, "n": "Don Diego de la Vega", "p": [], "x": []}
 {"id": "major-live-action-disney-films|9746", "b": 1, "n": "Din Djarin", "p": [], "x": []}
 {"id": "major-live-action-disney-films|10581", "b": 1, "n": "Doctor Vulter", "p": [], "x": []}
-{"id": "all-black-ops|5498", "b": 2, "k": "weapon", "n": "", "m": 1, "q": "The MK46 is a light machine gun that appears in Call of Duty", "c": "h", "p": []}
+{"id": "all-black-ops|5498", "b": 2, "k": "weapon", "n": "MK46", "m": 1, "q": "The MK46 is a light machine gun that appears in Call of Duty", "c": "h", "p": []}
 {"id": "major-live-action-disney-films|10784", "b": 1, "n": "Dolores Madrigal", "p": [], "x": []}
 {"id": "major-live-action-disney-films|11070", "b": 0}
 {"id": "major-live-action-disney-films|11605", "b": 1, "n": "Dug", "p": [], "x": []}
-{"id": "all-black-ops|5499", "b": 2, "k": "weapon", "n": "", "m": 1, "q": "The MK14 is a semi-automatic assault rifle that appears in C", "c": "h", "p": []}
+{"id": "all-black-ops|5499", "b": 2, "k": "weapon", "n": "MK14", "m": 1, "q": "The MK14 is a semi-automatic assault rifle that appears in C", "c": "h", "p": []}
 {"id": "major-live-action-disney-films|11648", "b": 1, "n": "Dupe", "p": [], "x": []}
 {"id": "major-live-action-disney-films|11649", "b": 1, "n": "Drowsy", "p": [], "x": []}
 {"id": "major-live-action-disney-films|11929", "b": 1, "n": "Helen Parr", "p": [], "x": ["elastic body"]}
-{"id": "all-black-ops|5500", "b": 2, "k": "weapon", "n": "", "m": 1, "q": ":For the assault rifle variants, see G36C, G37H and Holger 5", "c": "h", "p": []}
+{"id": "all-black-ops|5500", "b": 2, "k": "weapon", "n": "For the assault rifle variants", "m": 1, "q": ":For the assault rifle variants, see G36C, G37H and Holger 5", "c": "h", "p": []}
 {"id": "major-live-action-disney-films|12049", "b": 1, "n": "Electra", "p": [], "x": []}
 {"id": "major-live-action-disney-films|12075", "b": 0}
 {"id": "major-live-action-disney-films|12216", "b": 0}
@@ -155,7 +155,7 @@
 {"id": "major-live-action-disney-films|12749", "b": 1, "n": "Evil Alex", "p": [], "x": []}
 {"id": "major-live-action-disney-films|12933", "b": 1, "n": "Felix", "p": [], "x": []}
 {"id": "major-live-action-disney-films|13051", "b": 1, "n": "Fanny", "p": [], "x": []}
-{"id": "all-black-ops|5509", "b": 2, "k": "weapon", "n": "", "m": 1, "q": "The M8A1 is a four-round burst rifle appearing as an assault", "c": "h", "p": []}
+{"id": "all-black-ops|5509", "b": 2, "k": "weapon", "n": "M8A1", "m": 1, "q": "The M8A1 is a four-round burst rifle appearing as an assault", "c": "h", "p": []}
 {"id": "major-live-action-disney-films|13181", "b": 1, "n": "Fennec Shand", "p": [], "x": []}
 {"id": "major-live-action-disney-films|15306", "b": 1, "n": "Ginny", "p": [], "x": []}
 {"id": "major-live-action-disney-films|15473", "b": 1, "n": "Gorthan", "p": [], "x": []}
@@ -163,7 +163,7 @@
 {"id": "major-live-action-disney-films|15567", "b": 1, "n": "Goose Lee", "p": [], "x": []}
 {"id": "major-live-action-disney-films|15761", "b": 1, "n": "Guido", "p": [], "x": []}
 {"id": "major-live-action-disney-films|15837", "b": 1, "n": "The Green Goblin", "p": [], "x": []}
-{"id": "all-black-ops|5512", "b": 2, "k": "weapon", "n": "", "m": 1, "q": "The MK12 SPR is a cut Sniper Rifle in Call of Duty: Modern W", "c": "h", "p": []}
+{"id": "all-black-ops|5512", "b": 2, "k": "weapon", "n": "MK12 SPR", "m": 1, "q": "The MK12 SPR is a cut Sniper Rifle in Call of Duty: Modern W", "c": "h", "p": []}
 {"id": "major-live-action-disney-films|15849", "b": 1, "n": "Grand Pabbie", "p": [], "x": []}
 {"id": "major-live-action-disney-films|15877", "b": 1, "n": "Greylock the Grand", "p": [], "x": []}
 {"id": "major-live-action-disney-films|15926", "b": 1, "n": "Gramma Tala", "p": [], "x": []}
@@ -175,7 +175,7 @@
 {"id": "major-live-action-disney-films|17221", "b": 1, "n": "Hocker", "p": [], "x": []}
 {"id": "major-live-action-disney-films|17242", "b": 1, "n": "Hista", "p": [], "x": []}
 {"id": "major-live-action-disney-films|17512", "b": 1, "n": "Horace Horsecollar", "p": [], "x": []}
-{"id": "all-black-ops|5515", "b": 2, "k": "weapon", "n": "", "m": 1, "q": "The M1927, also known as the Tommy Gun in an early trailer, ", "c": "h", "p": []}
+{"id": "all-black-ops|5515", "b": 2, "k": "weapon", "n": "M1927", "m": 1, "q": "The M1927, also known as the Tommy Gun in an early trailer, ", "c": "h", "p": []}
 {"id": "major-live-action-disney-films|17706", "b": 1, "n": "Honey Buttowski", "p": [], "x": []}
 {"id": "major-live-action-disney-films|18821", "b": 1, "n": "Indigo", "p": [], "x": []}
 {"id": "major-live-action-disney-films|18969", "b": 1, "n": "Irma Lair", "p": [], "x": []}
@@ -183,47 +183,47 @@
 {"id": "major-live-action-disney-films|19329", "b": 1, "n": "Jacob Marley", "p": [], "x": []}
 {"id": "major-live-action-disney-films|19452", "b": 1, "n": "Jacques", "p": [], "x": []}
 {"id": "major-live-action-disney-films|19486", "b": 1, "n": "Jay", "p": [], "x": []}
-{"id": "all-black-ops|5518", "b": 2, "k": "weapon", "n": "", "m": 1, "q": "The M27-IAR is a light machine gun that appears in Call of D", "c": "h", "p": []}
+{"id": "all-black-ops|5518", "b": 2, "k": "weapon", "n": "M27-IAR", "m": 1, "q": "The M27-IAR is a light machine gun that appears in Call of D", "c": "h", "p": []}
 {"id": "major-live-action-disney-films|19525", "b": 1, "n": "Jaguar", "p": [], "x": []}
 {"id": "major-live-action-disney-films|19591", "b": 0}
 {"id": "major-live-action-disney-films|19600", "b": 0}
-{"id": "all-black-ops|5520", "b": 2, "k": "weapon", "n": "", "m": 1, "q": ":For similarly named arsenal, see SMAW and P.A.W.W.S.", "c": "h", "p": []}
+{"id": "all-black-ops|5520", "b": 2, "k": "weapon", "n": "For similarly named arsenal", "m": 1, "q": ":For similarly named arsenal, see SMAW and P.A.W.W.S.", "c": "h", "p": []}
 {"id": "major-live-action-disney-films|19695", "b": 0}
 {"id": "major-live-action-disney-films|19699", "b": 1, "n": "Jiminy Cricket", "p": [], "x": []}
 {"id": "major-live-action-disney-films|19903", "b": 0}
-{"id": "all-black-ops|5521", "b": 2, "k": "vehicle", "n": "", "m": 1, "q": "The MATV is a 4-door armoured vehicle that appears in Call o", "c": "h", "p": []}
+{"id": "all-black-ops|5521", "b": 2, "k": "vehicle", "n": "MATV", "m": 1, "q": "The MATV is a 4-door armoured vehicle that appears in Call o", "c": "h", "p": []}
 {"id": "major-live-action-disney-films|19933", "b": 1, "n": "Jeff Gorvette", "p": [], "x": []}
 {"id": "major-live-action-disney-films|20025", "b": 0}
 {"id": "major-live-action-disney-films|20145", "b": 0}
-{"id": "all-black-ops|5523", "b": 2, "k": "weapon", "n": "", "m": 1, "q": "The M4A1 Tech is an assault rifle featured in Call of Duty O", "c": "h", "p": []}
+{"id": "all-black-ops|5523", "b": 2, "k": "weapon", "n": "M4A1 Tech", "m": 1, "q": "The M4A1 Tech is an assault rifle featured in Call of Duty O", "c": "h", "p": []}
 {"id": "major-live-action-disney-films|20283", "b": 0}
 {"id": "major-live-action-disney-films|22174", "b": 1, "n": "Lady Bullseye", "p": [], "x": []}
 {"id": "major-live-action-disney-films|22297", "b": 1, "n": "Alexandra \"Lexi\" May Adams", "p": [], "x": []}
-{"id": "all-black-ops|5524", "b": 2, "k": "weapon", "n": "", "m": 1, "q": "The MORS (Military Operated Rail Sniper) is a single-shot sn", "c": "h", "p": []}
+{"id": "all-black-ops|5524", "b": 2, "k": "weapon", "n": "MORS", "m": 1, "q": "The MORS (Military Operated Rail Sniper) is a single-shot sn", "c": "h", "p": []}
 {"id": "major-live-action-disney-films|22301", "b": 0}
 {"id": "major-live-action-disney-films|22331", "b": 1, "n": "Leilani", "p": [], "x": []}
 {"id": "major-live-action-disney-films|22575", "b": 1, "n": "Lenny", "p": [], "x": []}
-{"id": "all-black-ops|5527", "b": 2, "k": "vehicle", "n": "", "m": 1, "q": "The MD Turret is a vehicle in Call of Duty: Advanced Warfare", "c": "h", "p": []}
+{"id": "all-black-ops|5527", "b": 2, "k": "vehicle", "n": "MD Turret", "m": 1, "q": "The MD Turret is a vehicle in Call of Duty: Advanced Warfare", "c": "h", "p": []}
 {"id": "major-live-action-disney-films|22946", "b": 1, "n": "Lola Boa is", "p": [], "x": []}
 {"id": "major-live-action-disney-films|23134", "b": 1, "n": "Little Leota or The Ghostess", "p": [], "x": []}
 {"id": "major-live-action-disney-films|23215", "b": 1, "n": "Lumiere", "p": [], "x": []}
-{"id": "all-black-ops|5529", "b": 2, "k": "weapon", "n": "", "m": 1, "q": "The M4LMG is a light machine gun featured in Call of Duty On", "c": "h", "p": []}
+{"id": "all-black-ops|5529", "b": 2, "k": "weapon", "n": "M4LMG", "m": 1, "q": "The M4LMG is a light machine gun featured in Call of Duty On", "c": "h", "p": []}
 {"id": "major-live-action-disney-films|23470", "b": 1, "n": "Lorenzo Paguro", "p": [], "x": []}
 {"id": "major-live-action-disney-films|23554", "b": 1, "n": "M-O", "p": [], "x": []}
 {"id": "major-live-action-disney-films|23640", "b": 1, "n": "The Magic Man", "p": [], "x": []}
-{"id": "all-black-ops|5531", "b": 2, "k": "weapon", "n": "", "m": 1, "q": "The M1 Irons is a DLC weapon in Call of Duty: Advanced Warfa", "c": "h", "p": []}
+{"id": "all-black-ops|5531", "b": 2, "k": "weapon", "n": "M1 Irons", "m": 1, "q": "The M1 Irons is a DLC weapon in Call of Duty: Advanced Warfa", "c": "h", "p": []}
 {"id": "major-live-action-disney-films|23645", "b": 1, "n": "Mace Windu", "p": [], "x": []}
 {"id": "major-live-action-disney-films|23658", "b": 1, "n": "Machana", "p": [], "x": []}
 {"id": "major-live-action-disney-films|23715", "b": 1, "n": "Magical Wishing Starfish", "p": [], "x": []}
-{"id": "all-black-ops|5532", "b": 2, "k": "weapon", "n": "", "m": 1, "q": "The M160 is an assault rifle cut from Call of Duty: Advanced", "c": "h", "p": []}
+{"id": "all-black-ops|5532", "b": 2, "k": "weapon", "n": "M160", "m": 1, "q": "The M160 is an assault rifle cut from Call of Duty: Advanced", "c": "h", "p": []}
 {"id": "major-live-action-disney-films|23858", "b": 1, "n": "Mabel Tanaka", "p": [], "x": []}
 {"id": "major-live-action-disney-films|23859", "b": 0}
 {"id": "major-live-action-disney-films|23864", "b": 1, "n": "Madame de Garderobe", "p": [], "x": []}
-{"id": "all-black-ops|5533", "b": 2, "k": "weapon", "n": "", "m": 1, "q": ": The M8A7 is a burst fire assault rifle featured in Call of", "c": "h", "p": []}
+{"id": "all-black-ops|5533", "b": 2, "k": "weapon", "n": "M8A7", "m": 1, "q": ": The M8A7 is a burst fire assault rifle featured in Call of", "c": "h", "p": []}
 {"id": "major-live-action-disney-films|23985", "b": 1, "n": "Man-Thing", "p": [], "x": []}
 {"id": "major-live-action-disney-films|24288", "b": 1, "n": "Marnie Piper", "p": [], "x": []}
 {"id": "major-live-action-disney-films|24350", "b": 1, "n": "Marshmallow", "p": [], "x": []}
-{"id": "all-black-ops|5534", "b": 2, "k": "weapon", "n": "", "m": 1, "q": "The M1928 is a submachine gun featured in Call of Duty: WWII", "c": "h", "p": []}
+{"id": "all-black-ops|5534", "b": 2, "k": "weapon", "n": "M1928", "m": 1, "q": "The M1928 is a submachine gun featured in Call of Duty: WWII", "c": "h", "p": []}
 {"id": "major-live-action-disney-films|24470", "b": 0}
 {"id": "major-live-action-disney-films|24609", "b": 1, "n": "Medusa", "p": [], "x": []}
 {"id": "major-live-action-disney-films|24610", "b": 0}
