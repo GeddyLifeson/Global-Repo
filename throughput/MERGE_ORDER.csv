@@ -74,3 +74,80 @@ wave,repo,number,base,head,partner,title
 0,global-repo,17,main,,,"Register S6873 gen_gate.py [edits SCRIPTS_INDEX.md and ids.tsv: merge one at a time, rebuild index on conflict]"
 2,ports,224,claude/project-thread-6ik7qb,claude/project-thread-76qqfy,ports#231,"Megamachines: catalogue, dig engine core, Heavy Yard definitions [stacked on #220]"
 2,ports,231,claude/project-thread-76qqfy,claude/survey-megamachines,ports#224,"Megamachines: survey-mod licence audit; MIT ports (RFTools Builder, IF laser drill, Aeronautics gantry, Galacticraft dungeons, Northstar structures) and clean-room quarry, drill heads, tracks [merge after #224]"
+wave,repo,number,base,head,partner,title
+0,ports,107,diaithircompat,claude/project-thread-7zs4l7,,"Port Terrastorage quick stack, restock and sort into diaithir-storagenet"
+0,ports,108,diaithircompat,claude/port-buildcraft-ce,,Port BuildCraft Community Edition 8.0.26 into diaithir-routing-networks
+0,ports,111,diaithircompat,claude/port-global-events,,"Port Global Events (meteors, blood moon, caravan, golden hour) to NeoForge 26.1.2"
+0,ports,112,diaithircompat,claude/foundry-logistics-depot,,Foundry: courier depots and ghost placement (clean-room)
+0,ports,113,diaithircompat,claude/project-thread-celestials,,Port Enhanced Celestials lunar events into diaithir-hostile-encounters
+0,ports,114,diaithircompat,claude/port-notlogisticspipes,,Port Not Logistics Pipes to 26.1.2 (diaithir-logistics-utilities)
+0,ports,119,diaithircompat,claude/project-thread-16rt8f,,diaithir-buildcraft: clean-room building families (slice 1)
+0,ports,121,diaithircompat,claude/foundry-routing-sorters,,"Foundry: Day Barrel, Sieve and Sorting Router (Factorization port, routing-networks)"
+0,ports,123,diaithircompat,claude/storage-logistics-cleanroom,,"Clean-room storage and logistics: pipes, linked storage, routing, portable, filters, found"
+0,ports,163,diaithircompat,claude/foundry-operator-research,,"Foundry: Operator Seat, research packs 1-7, machine W/s, Age gate research (automation-cra"
+0,ports,164,diaithircompat,claude/project-thread-o4oztu,,"Ascendant biomes (Thornwake, Cinderfen, The Unwound) and hidden rite sites"
+0,ports,165,diaithircompat,claude/project-thread-t3du39,,"diaithir-animation: machine, block and vehicle animation core + rules (4,994 coverage rows"
+0,ports,166,diaithircompat,claude/project-thread-mhfa65,,"Upgrades: module slot menu and screen, fake-player selftest"
+0,ports,167,claude/project-thread-cbk1ux,claude/project-thread-60ba9h,,"diaithir-bosses: Shardfall Gate (win.gate) block, rite and win ceremony"
+0,ports,168,diaithircompat,claude/biomes-dimensions-module,,Add compat sapling growth check command for the biomes module
+0,ports,169,diaithircompat,claude/port-opencomputers,,"OpenComputers port step 1: Sedna, Ceres and Minux loader compile on 26.1.2"
+0,ports,170,diaithircompat,claude/project-thread-tmt98v,,Archimedes' Ships: Age gates and Diaithiris names
+0,ports,171,diaithircompat,claude/project-thread-daq0av,,"Add diaithir-animation: melee, tool, bow and gun player animations (PAL)"
+0,ports,172,claude/project-thread-yttm0n,claude/project-thread-daq0av-firearms-anim,,"diaithir-firearms: animation hooks for fire, dry and reload"
+0,ports,173,diaithircompat,claude/project-thread-g6du6a,,"worldsys: in-world self-test, breeder crash fix, units text"
+0,ports,174,diaithircompat,claude/project-thread-u1pv7x,,"diaithir-miners: fix electric miner power draw, add headless Tellus tests"
+0,ports,176,diaithircompat,claude/project-thread-xbh7r7,,"Clean-room realms slices 4-6: mobs, structures, gear (Undergarden, Backwoods, Bumblezone, "
+0,ports,178,diaithircompat,claude/project-thread-vni8bz,,firearms: add 248 real mass-produced designs (1288 to 2019)
+0,ports,179,diaithircompat,claude/project-thread-ouqmxz,,"Animate planet bosses and bestiary creatures (attack, rise, death, hurt, spawn)"
+0,ports,181,diaithircompat,claude/project-thread-ywzzrh,,"Aurorian follow-up: portal, machines, mobs, boss spawner"
+0,ports,182,diaithircompat,claude/historical-melee-weapons,,spartan-weaponry: 168 historical melee weapons (one per design)
+0,ports,183,diaithircompat,claude/project-thread-fiihld,,"diaithir-fauna: Library mob habitats, planet biome spawns, Alex's Mobs bases"
+0,ports,184,diaithircompat,claude/project-thread-b0jj7z,,Fix diaithir-ctm: connected textures now take effect
+0,ports,185,diaithircompat,claude/project-thread-xprg0c,,"Everyday objects roster: 460 tools, kitchen and household items"
+0,ports,186,diaithircompat,claude/project-thread-slgjcj,,"Assembly yard API spec (rail, ship, space yards, cranes)"
+0,ports,188,diaithircompat,claude/project-thread-yeztwj,,Add aircraft roster for the Immersive Vehicles pack
+0,ports,189,diaithircompat,claude/project-thread-cacmxi,,"arms: semi tractors, trailers and construction vehicles for Immersive Vehicles"
+0,ports,190,diaithircompat,claude/project-thread-1lvuxy,,"Add vehicle roster, road-vehicle pack and shared fuel API"
+0,ports,191,claude/ships-vs-tournament,claude/ships-yard,,Ship yard on the Assembly Yard API (vs_yard)
+0,ports,193,diaithircompat,claude/project-thread-y8x934,,"Munitions catalog: rounds, parts, stations (data only)"
+0,ports,194,diaithircompat,claude/project-thread-d11ly8,,Keelwright: assign yard stations to major parts
+0,ports,196,diaithircompat,claude/panscriptum-structures-ctags,,Worldgen structures: c: convention tags
+0,ports,197,diaithircompat,claude/project-thread-cxa836,,"Move combat, class and relic recipes onto Foundry stations"
+0,ports,198,claude/project-thread-87zgrw,claude/fix-firearms-shoot-stack-pr180,,Fix firearms compile error in #180 (shoot() missing stack) [merge BEFORE #180: it targets #180's branch]
+0,ports,199,diaithircompat,claude/project-thread-65rzpi,,"diaithir-carts: one-way rail, destination rail (routing), cart loader"
+0,ports,200,diaithircompat,claude/project-thread-q46iss,rpg#253,Fix entity-animation boot crash (config read in constructor)
+0,rpg,245,engine,claude/foundry-tech-ages-rows,,tech_ages: rows for diaithirpipes/portable/routing/worldsys and Foundry crafting items
+0,rpg,246,engine,claude/progression-glue,,"Progression glue: node quests, Gate rite, operator seat, Unrest, win ceremony"
+0,rpg,247,engine,claude/project-thread-bjpm5a-featurediff,,Feature diff of clean-room modules; re-land retargets and Ages
+0,rpg,250,omniverse,claude/project-thread-tw3yu0,,"Entry books: boot-tested fixes and the Stacks (1,245 shelves)"
+0,rpg,251,engine,claude/project-thread-v4y3xu,,"Wave 2 culture names: rewrite jars, Archimedes, Diaithiris gaps"
+0,rpg,252,claude/pack-v1-3-compat-matrix,claude/project-thread-9cmcx3,,Compat datapack: move grid recipes onto the station ladder
+0,rpg,253,engine,claude/project-thread-q46iss,ports#200,Pack: entity-animation 1.0.1 (boot crash fix)
+0,global-repo,1,main,,,"Register S0312 gradle mirror init script [edits SCRIPTS_INDEX.md and ids.tsv: merge one at a time, rebuild index on conflict]"
+0,global-repo,2,main,,,"Culture names: linguistics rules for 130 languages [edits SCRIPTS_INDEX.md and ids.tsv: merge one at a time, rebuild index on conflict]"
+0,global-repo,3,main,,,"Register compat data-pack scripts S0312-S0316 [edits SCRIPTS_INDEX.md and ids.tsv: merge one at a time, rebuild index on conflict]"
+0,global-repo,4,main,,,"Progression: solo dependency graph, checker and dormant recipes [edits SCRIPTS_INDEX.md and ids.tsv: merge one at a time, rebuild index on conflict]"
+0,global-repo,5,main,,,"Register library-to-content scripts S6820-S6822 [edits SCRIPTS_INDEX.md and ids.tsv: merge one at a time, rebuild index on conflict]"
+0,global-repo,6,main,,,"Register S6828 gen_rites.py [edits SCRIPTS_INDEX.md and ids.tsv: merge one at a time, rebuild index on conflict]"
+0,global-repo,7,main,,,"Panscriptum planets: one planet per universe (217) [edits SCRIPTS_INDEX.md and ids.tsv: merge one at a time, rebuild index on conflict]"
+0,global-repo,8,main,,,"Index S6835 lib_sites.py [edits SCRIPTS_INDEX.md and ids.tsv: merge one at a time, rebuild index on conflict]"
+0,global-repo,9,main,,,"Register S6830 gear_gen and S6831 gear_art [edits SCRIPTS_INDEX.md and ids.tsv: merge one at a time, rebuild index on conflict]"
+0,global-repo,10,main,,,"Index S6847 realms_gen.py [edits SCRIPTS_INDEX.md and ids.tsv: merge one at a time, rebuild index on conflict]"
+0,global-repo,11,main,,,"Register S6860 gen_shims.py [edits SCRIPTS_INDEX.md and ids.tsv: merge one at a time, rebuild index on conflict]"
+0,global-repo,12,main,,,"Throughput tools (S6861-S6863) [edits SCRIPTS_INDEX.md and ids.tsv: merge one at a time, rebuild index on conflict]"
+0,global-repo,13,main,,,"Register S6865 assay decimals, mob match table, Sedna build script [edits SCRIPTS_INDEX.md and ids.tsv: merge one at a time, rebuild index on conflict]"
+0,global-repo,14,main,,,"Animation pack plan and coverage inventory [edits SCRIPTS_INDEX.md and ids.tsv: merge one at a time, rebuild index on conflict]"
+0,global-repo,15,main,,,"Progression graph.json with Foundry item ids; index S6864 [edits SCRIPTS_INDEX.md and ids.tsv: merge one at a time, rebuild index on conflict]"
+0,global-repo,16,main,,,"S6866 animation coverage CSV generator [edits SCRIPTS_INDEX.md and ids.tsv: merge one at a time, rebuild index on conflict]"
+0,global-repo,17,main,,,"Register S6873 gen_gate.py [edits SCRIPTS_INDEX.md and ids.tsv: merge one at a time, rebuild index on conflict]"
+0,global-repo,32,main,claude/project-thread-opeiei,,"Register S6918 gen_containers.py [edits SCRIPTS_INDEX.md: merge one at a time, rebuild index on conflict]"
+1,ports,134,claude/project-thread-celestials,claude/project-thread-889fio-hostile,,Hostile encounters: caravans and undead nights content (stacked on #113)
+1,ports,180,diaithircompat,claude/project-thread-87zgrw,,"Gear: parts stations (smithy, workshop bench, gunsmith bench) [merge after #198]"
+1,ports,187,claude/project-thread-daq0av,claude/project-thread-oo83zf,,"diaithir-animation: vanilla-body and first-person pose layer (87 clips, item-kind tags)"
+1,ports,195,claude/project-thread-xprg0c,claude/project-thread-fej6a7,,Farm equipment: 35 machines and implements from digging stick to combine harvester
+1,ports,243,claude/biomes-dimensions-module,claude/natures-spirit-port,ports#168,"Port Nature's Spirit to NeoForge 26.1.2 inside diaithir-overworld-biomes (draft, merge after #168)"
+3,ports,239,claude/diaithir-druidry,claude/port-ars-nouveau,,"Port Ars Nouveau (LGPL-3.0) spell engine into diaithir-druidry/ars-nouveau [draft, partial]"
+6,ports,175,claude/pack-v1-3,claude/pack-v1-3-wave6,rpg#248,"Wave 6: BoP/Nature's Spirit/Productive/Macaw/Blockheads dropped for rewrite jars, rewrites [needs migrate_world.py run once on the world before first boot; merge with RPG #248]"
+6,rpg,248,claude/pack-v1-3,claude/pack-v1-3-wave6,ports#175,"Wave 6 pack inputs: overworld drop-in, rewrites refresh [needs migrate_world.py; merge with ports #175]"
+7,ports,177,claude/pack-v1-3-supermods,claude/project-thread-igzesi,rpg#249,Fold Titanium and AE2 into libraries and ae2-extensions supermodules
+7,rpg,249,claude/pack-v1-3-supermods,claude/project-thread-igzesi,ports#177,Pack inputs: fold Titanium and AE2 into supermodules
