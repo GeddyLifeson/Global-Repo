@@ -207,4 +207,6 @@ wave,repo,number,base,head,partner,title
 8,ports,177,claude/pack-v1-3-supermods,claude/project-thread-igzesi,rpg#249,Fold Titanium and AE2 into libraries and ae2-extensions supermodules
 8,rpg,249,claude/pack-v1-3-supermods,claude/project-thread-igzesi,ports#177,Pack inputs: fold Titanium and AE2 into supermodules
 8,rpg,254,engine,claude/project-thread-rzjwzu,,Library: /ages library stock lays a planet shelf wall (stacks on merged #237)
+0,global-repo,56,main,claude/project-thread-66n6wn,,"Assign an Age to every item with none (V1 audit hole) [edits SCRIPTS_INDEX.md and ids.tsv: merge one at a time, rebuild index on conflict]"
+=======
 0,rpg,279,claude/pack-v1-3,claude/project-thread-o0km67,,Item roles module: role data for 30k items

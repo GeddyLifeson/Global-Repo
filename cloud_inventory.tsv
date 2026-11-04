@@ -365,3 +365,4 @@ diaithir-ports/diaithir-wiretech/tools/rail_reader_check.py	1492	Circuit reader 
 integration/integration_matrix.py	7000	Build the every-system-by-every-system integration matrix and lane tickets from matrix_data.py (plans/INTEGRATION_MATRIX.md).	yes
 integration/matrix_data.py	35235	Data for S6919: bridges, 32 systems, nouns, hand-written pair interactions, lane owners.	yes
 integration/pairs_extra.txt	18392	Hand-written pair interactions loaded by matrix_data.py.	yes
+assign_ages.py	4810	Give every item with no Age one: by-item table, material and namespace rules; writes data/ages/NOAGE_ASSIGNED.csv.	yes
