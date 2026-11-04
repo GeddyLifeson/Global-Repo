@@ -1,26 +1,36 @@
 {
-    "run_utc":  "2026-11-04T13:38:53Z",
+    "run_utc":  "2026-11-04T14:39:26Z",
     "dry_run":  false,
-    "merged_count":  1,
-    "skipped_count":  44,
-    "failed_count":  0,
+    "merged_count":  6,
+    "skipped_count":  22,
+    "failed_count":  1,
     "merged":  [
                    {
-                       "pr":  "GeddyLifeson/Global-Repo#47",
-                       "title":  "MERGE_ORDER: survey p1 carts, harbour module and harbour yards"
+                       "pr":  "GeddyLifeson/Global-Repo#48",
+                       "title":  "Register S6950 gen_tags_extra and update S0317"
+                   },
+                   {
+                       "pr":  "GeddyLifeson/diaithir-ports#249",
+                       "title":  "diaithir-ships keelwright: Create: Propulsion fold (survey p1)"
+                   },
+                   {
+                       "pr":  "GeddyLifeson/diaithir-ports#286",
+                       "title":  "Megamachines: dig head block, assay hook, dig core moved into ships"
+                   },
+                   {
+                       "pr":  "GeddyLifeson/diaithir-ports#303",
+                       "title":  "diaithir-carts: cart loader and unloader (clean-room, survey part 1)"
+                   },
+                   {
+                       "pr":  "GeddyLifeson/diaithir-ports#350",
+                       "title":  "Woodvariants: use own diaithirtrees woods (fixes ~4,000 missing-texture models); add gapfill tool"
+                   },
+                   {
+                       "pr":  "GeddyLifeson/diaithir-ports#351",
+                       "title":  "Pack: overlay for 181 unresolved textures and 57 missing parent models"
                    }
                ],
     "skipped":  [
-                    {
-                        "title":  "Item roles: use scan, 23.8k role assignments, report",
-                        "pr":  "GeddyLifeson/Global-Repo#46",
-                        "reason":  "per-run cap: 1 global-repo PR(s) per run, the rest wait for the next run"
-                    },
-                    {
-                        "title":  "Register S6950 gen_tags_extra and update S0317",
-                        "pr":  "GeddyLifeson/Global-Repo#48",
-                        "reason":  "per-run cap: 1 global-repo PR(s) per run, the rest wait for the next run"
-                    },
                     {
                         "title":  "Register S6951 assay_merge.py",
                         "pr":  "GeddyLifeson/Global-Repo#49",
@@ -37,8 +47,23 @@
                         "reason":  "per-run cap: 1 global-repo PR(s) per run, the rest wait for the next run"
                     },
                     {
+                        "title":  "Register S6940 gen_farm_assets.py (diaithir-carts reaper)",
+                        "pr":  "GeddyLifeson/Global-Repo#52",
+                        "reason":  "per-run cap: 1 global-repo PR(s) per run, the rest wait for the next run"
+                    },
+                    {
                         "title":  "Merge order row for ports #339; register S6902 harvest_stock.py",
                         "pr":  "GeddyLifeson/Global-Repo#53",
+                        "reason":  "per-run cap: 1 global-repo PR(s) per run, the rest wait for the next run"
+                    },
+                    {
+                        "title":  "Headless bot: cars drive, cargo and nested save tests",
+                        "pr":  "GeddyLifeson/Global-Repo#54",
+                        "reason":  "per-run cap: 1 global-repo PR(s) per run, the rest wait for the next run"
+                    },
+                    {
+                        "title":  "Assign an Age to every item with none (V1 audit hole)",
+                        "pr":  "GeddyLifeson/Global-Repo#56",
                         "reason":  "per-run cap: 1 global-repo PR(s) per run, the rest wait for the next run"
                     },
                     {
@@ -57,34 +82,9 @@
                         "reason":  "shares diaithir-logistics-utilities skeleton with #114; rebase onto #114 after it merges"
                     },
                     {
-                        "title":  "diaithir-carts: cart loader and unloader (clean-room, survey part 1)",
-                        "pr":  "GeddyLifeson/diaithir-ports#303",
-                        "reason":  "waiting for predecessor ports#251 to merge"
-                    },
-                    {
-                        "title":  "diaithir-arms: sentry turret, mining laser, Immersive Armors stage 1 (GPL package) (survey p2)",
-                        "pr":  "GeddyLifeson/diaithir-ports#313",
-                        "reason":  "merge conflicts"
-                    },
-                    {
-                        "title":  "Survey p6: clean-room handshake, crash window, test-bot, Structure Memory, updater, Better Clouds",
-                        "pr":  "GeddyLifeson/diaithir-ports#318",
-                        "reason":  "merge conflicts"
-                    },
-                    {
-                        "title":  "Megamachines: survey-mod port licence audit",
-                        "pr":  "GeddyLifeson/diaithir-ports#231",
-                        "reason":  "merge conflicts"
-                    },
-                    {
-                        "title":  "diaithir-ships keelwright: Create: Propulsion fold (survey p1)",
-                        "pr":  "GeddyLifeson/diaithir-ports#249",
-                        "reason":  "merge conflicts"
-                    },
-                    {
-                        "title":  "diaithir-travel-structures: laser bridges and fences (survey p1, MIT fold)",
-                        "pr":  "GeddyLifeson/diaithir-ports#260",
-                        "reason":  "merge conflicts"
+                        "title":  "tech_ages: an Age for every item (V1 audit: 5,989 no-Age ids to 0)",
+                        "pr":  "GeddyLifeson/DiaithirRPG#280",
+                        "reason":  "per-run cap: 1 global-repo PR(s) per run, the rest wait for the next run"
                     },
                     {
                         "title":  "Survey p3: demolition marks for Foundry depots (Buzzy Bees deconstruction idea)",
@@ -102,104 +102,24 @@
                         "reason":  "merge conflicts"
                     },
                     {
-                        "title":  "Megamachines: dig head block, assay hook, dig core moved into ships",
-                        "pr":  "GeddyLifeson/diaithir-ports#286",
-                        "reason":  "merge conflicts"
-                    },
-                    {
                         "title":  "diaithir-ships archimedes: deck walking, Nifty Ships idea (survey p1)",
                         "pr":  "GeddyLifeson/diaithir-ports#293",
                         "reason":  "merge conflicts"
                     },
                     {
-                        "title":  "Wave 8-9 pack inputs: worldgen-structures 1.0.6, client-suite fix, QoL entries",
-                        "pr":  "GeddyLifeson/DiaithirRPG#268",
-                        "reason":  "merge conflicts"
-                    },
-                    {
-                        "title":  "Fix diaithirvehicles: complete spawn, enterable, icons, starting fuel",
-                        "pr":  "GeddyLifeson/diaithir-ports#225",
-                        "reason":  "merge conflicts"
-                    },
-                    {
-                        "title":  "diaithir-carts: destination rail and cart labels (clean-room, survey part 1)",
-                        "pr":  "GeddyLifeson/diaithir-ports#251",
-                        "reason":  "waiting for predecessor ports#235 to merge (it is skipped: draft and not listed as clear in merge-order.csv)"
-                    },
-                    {
-                        "title":  "Wave 10: upgrades API and Forgeworks module slots folded into platform-suite",
-                        "pr":  "GeddyLifeson/diaithir-ports#324",
-                        "reason":  "waiting for predecessor rpg#268 to merge"
-                    },
-                    {
-                        "title":  "Wave 10 pack inputs: platform-suite with upgrades",
-                        "pr":  "GeddyLifeson/DiaithirRPG#272",
-                        "reason":  "waiting for predecessor rpg#268 to merge"
-                    },
-                    {
-                        "title":  "Pack V1 wave11: rebuilt claims, hud-overlays, world-visuals, voice-interaction (ports #233)",
-                        "pr":  "GeddyLifeson/diaithir-ports#330",
-                        "reason":  "waiting for predecessor ports#324 to merge"
-                    },
-                    {
-                        "title":  "Pack V1 wave11 inputs: rebuilt claims, hud-overlays, world-visuals, voice-interaction",
-                        "pr":  "GeddyLifeson/DiaithirRPG#273",
-                        "reason":  "waiting for predecessor rpg#272 to merge"
-                    },
-                    {
-                        "title":  "Pack V1 wave12: open-licence downloads folded into seven suites (client 110 jars, server 95)",
-                        "pr":  "GeddyLifeson/diaithir-ports#342",
-                        "reason":  "waiting for predecessor ports#330 to merge"
-                    },
-                    {
-                        "title":  "Pack V1 wave12 inputs: open-licence downloads folded into seven suites",
-                        "pr":  "GeddyLifeson/DiaithirRPG#276",
-                        "reason":  "waiting for predecessor rpg#273 to merge"
-                    },
-                    {
-                        "title":  "Pack V1 wave13: client suite absorbs four client jars (client 106 jars)",
-                        "pr":  "GeddyLifeson/diaithir-ports#343",
-                        "reason":  "waiting for predecessor ports#342 to merge"
-                    },
-                    {
-                        "title":  "Pack V1 wave13 inputs: client suite absorbs four client jars",
-                        "pr":  "GeddyLifeson/DiaithirRPG#277",
-                        "reason":  "waiting for predecessor rpg#276 to merge"
-                    },
-                    {
-                        "title":  "Pack V1 wave14: drop 14 library and FTB jars (client 91, server 80)",
-                        "pr":  "GeddyLifeson/diaithir-ports#347",
-                        "reason":  "waiting for predecessor ports#343 to merge"
-                    },
-                    {
-                        "title":  "Pack V1 wave14 inputs: RPG #265 library and FTB drops",
-                        "pr":  "GeddyLifeson/DiaithirRPG#278",
-                        "reason":  "waiting for predecessor rpg#277 to merge"
-                    },
-                    {
-                        "title":  "Register S6940 gen_farm_assets.py (diaithir-carts reaper)",
-                        "pr":  "GeddyLifeson/Global-Repo#52",
-                        "reason":  "per-run cap: 1 global-repo PR(s) per run, the rest wait for the next run"
-                    },
-                    {
-                        "title":  "Headless bot: cars drive, cargo and nested save tests",
-                        "pr":  "GeddyLifeson/Global-Repo#54",
+                        "title":  "V1 audit against the plans",
+                        "pr":  "GeddyLifeson/Global-Repo#55",
                         "reason":  "draft and not listed as clear in merge-order.csv"
                     },
                     {
-                        "title":  "Fold Titanium and AE2 into libraries and ae2-extensions supermodules",
-                        "pr":  "GeddyLifeson/diaithir-ports#177",
+                        "title":  "Item roles: retry results (29,967), kubejs exporter, merge row",
+                        "pr":  "GeddyLifeson/Global-Repo#57",
                         "reason":  "draft and not listed as clear in merge-order.csv"
                     },
                     {
                         "title":  "OpenComputers port step 2: OC2R sources in tree, first 26.1 fixes (work in progress)",
                         "pr":  "GeddyLifeson/diaithir-ports#223",
                         "reason":  "work in progress"
-                    },
-                    {
-                        "title":  "diaithir-carts: one-way rail (survey p1, clean-room)",
-                        "pr":  "GeddyLifeson/diaithir-ports#235",
-                        "reason":  "draft and not listed as clear in merge-order.csv"
                     },
                     {
                         "title":  "Port Ars Nouveau to 26.1.2 as a module of diaithir-druidry (LGPL-3.0)",
@@ -212,27 +132,21 @@
                         "reason":  "draft and not listed as clear in merge-order.csv"
                     },
                     {
-                        "title":  "diaithir-animation-machines: own package and mod id, bone-derived rules for 450 machines",
-                        "pr":  "GeddyLifeson/diaithir-ports#337",
+                        "title":  "Fix ships dev server start: keep @Mod entrypoints out of the yardsApi source set",
+                        "pr":  "GeddyLifeson/diaithir-ports#352",
                         "reason":  "draft and not listed as clear in merge-order.csv"
                     },
                     {
-                        "title":  "Fold Agritech: Evolved and Hydrofarm into diaithir-farmkitchen; move the reaper there",
-                        "pr":  "GeddyLifeson/diaithir-ports#338",
-                        "reason":  "draft and not listed as clear in merge-order.csv"
-                    },
-                    {
-                        "title":  "Ships carry cargo: yard and Eureka ships as containers-API carriers, loads drawn in the ship render transform",
-                        "pr":  "GeddyLifeson/diaithir-ports#341",
-                        "reason":  "draft and not listed as clear in merge-order.csv"
-                    },
-                    {
-                        "title":  "Pack inputs: fold Titanium and AE2 into supermodules",
-                        "pr":  "GeddyLifeson/DiaithirRPG#249",
+                        "title":  "Item roles module: role data for 30k items, global.itemRole, tooltip",
+                        "pr":  "GeddyLifeson/DiaithirRPG#279",
                         "reason":  "draft and not listed as clear in merge-order.csv"
                     }
                 ],
     "failed":  [
-
+                   {
+                       "title":  "diaithir-travel-structures: laser bridges and fences (survey p1, MIT fold)",
+                       "error":  "merge failed: GitHub would not merge it: The remote server returned an error: (405) Method Not Allowed.",
+                       "pr":  "GeddyLifeson/diaithir-ports#260"
+                   }
                ]
 }
