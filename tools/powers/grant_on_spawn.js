@@ -11,11 +11,11 @@
 
   function grantList(entity) {
     var key = null
-    try { var lid = entity.persistentData.getString('library_id'); if (lid && grants[lid]) key = lid } catch (e) {}
+    try { var nd = entity.nbt.get('NeoForgeData'); var lid = nd ? '' + nd.getString('library_id').orElse('') : ''; if (lid && grants[lid]) key = lid } catch (e) {}
     if (!key && grants['' + entity.type]) key = '' + entity.type
     if (!key) return null
     var g = grants[key]
-    if (Array.isArray(g)) return g
+    if (g.powers == null) return g
     var n = g.count == null ? g.powers.length : g.count
     return g.powers.slice(0, n)
   }
@@ -43,13 +43,15 @@
     return cache[id]
   }
 
+  function cmd(e, c) { e.server.runCommandSilent('execute as ' + e.uuid + ' run ' + c) }
+
   function applyConfig(entity, id, c) {
     var u = '' + entity.uuid
-    if (c.type == 'neoorigins:attribute_modifier') entity.modifyAttribute(c.attribute, 'diaithir:' + id.replace(':', '_'), c.amount, OPS[c.operation] || 'addition')
+    if (c.type == 'neoorigins:attribute_modifier') cmd(entity, 'attribute @s ' + c.attribute + ' modifier add diaithir:' + id.replace(':', '_') + ' ' + c.amount + ' ' + (c.operation || 'add_value'))
     else if (c.type == 'neoorigins:modify_damage') { var t = c.direction == 'in' ? dmgIn : dmgOut; t[u] = (t[u] == null ? 1 : t[u]) * c.multiplier }
-    else if (c.type == 'fly') entity.potionEffects.add('minecraft:slow_falling', 999999, 0, false, false)
+    else if (c.type == 'fly') cmd(entity, 'effect give @s minecraft:slow_falling infinite 0 true')
     else if (c.type == 'nofall') noFall[u] = true
-    else if (c.type == 'invisible') entity.potionEffects.add('minecraft:invisibility', 999999, 0, false, false)
+    else if (c.type == 'invisible') cmd(entity, 'effect give @s minecraft:invisibility infinite 0 true')
     else return false
     return true
   }
@@ -65,7 +67,7 @@
     }
   }
 
-  EntityEvents.hurt(function (event) {
+  EntityEvents.beforeHurt(function (event) {
     var u = '' + event.entity.uuid
     if (noFall[u] && '' + event.source.type == 'minecraft:fall') { event.cancel(); return }
     if (dmgIn[u] != null) event.damage = event.damage * dmgIn[u]
@@ -75,7 +77,7 @@
 
   EntityEvents.spawned(function (event) {
     var entity = event.entity
-    if (!entity.isLiving() || entity.isPlayer()) return
+    if (entity.maxHealth == null || entity.isPlayer()) return
     var list = grantList(entity)
     if (list == null) return
     var u = '' + entity.uuid
@@ -91,22 +93,22 @@
   })
 
   function near(entity, r) {
-    return entity.level.getEntitiesWithin(entity.boundingBox.inflate(r)).filter(function (e) { return e.isPlayer() })
+    return entity.server.players.filter(function (x) { return x.level == entity.level && entity.distanceToEntity(x) <= r })
   }
 
   function fire(m, a, now, t) {
     var e = m.entity, p = a.p, f = a.m / 5  // magnitude 5 = table values
-    if (p.k == 'self') { if (e.target) e.potionEffects.add('minecraft:' + p.e, Math.ceil(p.t * f), p.a, false, false) }
+    if (p.k == 'self') { if (e.target) cmd(e, 'effect give @s minecraft:' + p.e + ' ' + Math.ceil(p.t * f / 20) + ' ' + p.a + ' true') }
     else if (p.k == 'aoe') {
       var ps = near(e, p.r)
       if (!ps.length) return false
       ps.forEach(function (x) {
-        x.potionEffects.add('minecraft:' + p.e, Math.ceil(p.t * f), p.a)
+        cmd(x, 'effect give @s minecraft:' + p.e + ' ' + Math.ceil(p.t * f / 20) + ' ' + p.a)
         if (p.push) x.addMotion((x.x - e.x) * 0.2 * p.push, 0.4, (x.z - e.z) * 0.2 * p.push)
       })
     } else {
       if (!t || e.distanceToEntity(t) > p.range * f) return false
-      if (p.k == 'ray') { t.attack(p.dmg * f); if (p.fire) t.setSecondsOnFire(p.fire) }
+      if (p.k == 'ray') { t.attack(p.dmg * f); if (p.fire) t.igniteForSeconds(p.fire) }
       else if (p.k == 'blink') e.setPosition(t.x, t.y, t.z)
     }
     if (p.p) e.server.runCommandSilent('execute as ' + e.uuid + ' at @s run particle ' + p.p + ' ~ ~1 ~ 0.4 0.4 0.4 0.05 12')
