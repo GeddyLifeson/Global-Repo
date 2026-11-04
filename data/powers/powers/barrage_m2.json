@@ -1,0 +1,6 @@
+{
+ "type": "neoorigins:attribute_modifier",
+ "attribute": "minecraft:attack_speed",
+ "amount": 0.8,
+ "operation": "add_value"
+}

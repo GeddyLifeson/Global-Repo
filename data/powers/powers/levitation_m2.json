@@ -1,0 +1,11 @@
+{
+ "type": "neoorigins:active_ability",
+ "cooldown_icon": "minecraft:feather",
+ "cooldown_ticks": 180,
+ "entity_action": {
+  "type": "neoorigins:apply_effect",
+  "effect": "minecraft:levitation",
+  "amplifier": 0,
+  "duration": 80
+ }
+}

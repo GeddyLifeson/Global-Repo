@@ -1,0 +1,28 @@
+{
+ "type": "neoorigins:active_ability",
+ "cooldown_icon": "minecraft:echo_shard",
+ "cooldown_ticks": 97,
+ "entity_action": {
+  "type": "neoorigins:area_of_effect",
+  "radius": 7.8999999999999995,
+  "include_source": false,
+  "entity_action": {
+   "type": "neoorigins:and",
+   "actions": [
+    {
+     "type": "neoorigins:apply_effect",
+     "effect": "minecraft:slowness",
+     "amplifier": 2,
+     "duration": 110
+    },
+    {
+     "type": "neoorigins:damage",
+     "amount": 5.8999999999999995,
+     "source": {
+      "name": "magic"
+     }
+    }
+   ]
+  }
+ }
+}

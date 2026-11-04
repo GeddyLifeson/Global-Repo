@@ -1,0 +1,6 @@
+{
+ "type": "neoorigins:active_phase",
+ "cooldown_icon": "minecraft:phantom_membrane",
+ "max_depth": 16,
+ "cooldown_ticks": 122
+}

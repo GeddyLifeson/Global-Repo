@@ -1,0 +1,29 @@
+{
+ "type": "neoorigins:active_ability",
+ "cooldown_icon": "minecraft:fire_charge",
+ "cooldown_ticks": 54,
+ "entity_action": {
+  "type": "neoorigins:spawn_projectile",
+  "entity_type": "neoorigins:magic_orb",
+  "effect_type": "fire",
+  "speed": 1.6,
+  "inaccuracy": 0.0,
+  "on_hit_action": {
+   "type": "neoorigins:area_of_effect",
+   "radius": 4.4,
+   "include_source": false,
+   "entity_action": {
+    "type": "neoorigins:and",
+    "actions": [
+     {
+      "type": "neoorigins:damage",
+      "amount": 14.0,
+      "source": {
+       "name": "magic"
+      }
+     }
+    ]
+   }
+  }
+ }
+}

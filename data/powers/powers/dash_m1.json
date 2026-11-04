@@ -1,0 +1,7 @@
+{
+ "type": "neoorigins:active_dash",
+ "cooldown_icon": "minecraft:breeze_rod",
+ "power": 1.1,
+ "cooldown_ticks": 102,
+ "allow_vertical": true
+}

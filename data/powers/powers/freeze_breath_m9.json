@@ -1,0 +1,28 @@
+{
+ "type": "neoorigins:active_ability",
+ "cooldown_icon": "minecraft:powder_snow_bucket",
+ "cooldown_ticks": 112,
+ "entity_action": {
+  "type": "neoorigins:area_of_effect",
+  "radius": 8.399999999999999,
+  "include_source": false,
+  "entity_action": {
+   "type": "neoorigins:and",
+   "actions": [
+    {
+     "type": "neoorigins:apply_effect",
+     "effect": "minecraft:slowness",
+     "amplifier": 5,
+     "duration": 240
+    },
+    {
+     "type": "neoorigins:damage",
+     "amount": 4.5,
+     "source": {
+      "name": "freeze"
+     }
+    }
+   ]
+  }
+ }
+}

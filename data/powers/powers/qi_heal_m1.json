@@ -1,0 +1,11 @@
+{
+ "type": "neoorigins:active_ability",
+ "cooldown_icon": "minecraft:golden_apple",
+ "cooldown_ticks": 285,
+ "entity_action": {
+  "type": "neoorigins:apply_effect",
+  "effect": "minecraft:regeneration",
+  "amplifier": 0,
+  "duration": 80
+ }
+}

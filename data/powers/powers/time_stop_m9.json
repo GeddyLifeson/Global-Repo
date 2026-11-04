@@ -1,0 +1,33 @@
+{
+ "type": "neoorigins:active_ability",
+ "cooldown_icon": "minecraft:clock",
+ "cooldown_ticks": 400,
+ "entity_action": {
+  "type": "neoorigins:area_of_effect",
+  "radius": 44,
+  "include_source": false,
+  "entity_action": {
+   "type": "neoorigins:and",
+   "actions": [
+    {
+     "type": "neoorigins:apply_effect",
+     "effect": "minecraft:slowness",
+     "amplifier": 254,
+     "duration": 200
+    },
+    {
+     "type": "neoorigins:apply_effect",
+     "effect": "minecraft:weakness",
+     "amplifier": 254,
+     "duration": 200
+    },
+    {
+     "type": "neoorigins:apply_effect",
+     "effect": "minecraft:mining_fatigue",
+     "amplifier": 254,
+     "duration": 200
+    }
+   ]
+  }
+ }
+}

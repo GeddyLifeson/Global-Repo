@@ -1,0 +1,29 @@
+{
+ "type": "neoorigins:active_ability",
+ "cooldown_icon": "minecraft:iron_sword",
+ "cooldown_ticks": 72,
+ "entity_action": {
+  "type": "neoorigins:spawn_projectile",
+  "entity_type": "neoorigins:magic_orb",
+  "effect_type": "air",
+  "speed": 3.0,
+  "inaccuracy": 0.0,
+  "on_hit_action": {
+   "type": "neoorigins:area_of_effect",
+   "radius": 1.2,
+   "include_source": false,
+   "entity_action": {
+    "type": "neoorigins:and",
+    "actions": [
+     {
+      "type": "neoorigins:damage",
+      "amount": 8,
+      "source": {
+       "name": "magic"
+      }
+     }
+    ]
+   }
+  }
+ }
+}

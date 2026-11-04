@@ -1,0 +1,6 @@
+{
+ "type": "neoorigins:attribute_modifier",
+ "attribute": "minecraft:max_health",
+ "amount": 8,
+ "operation": "add_value"
+}

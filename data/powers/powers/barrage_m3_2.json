@@ -1,0 +1,6 @@
+{
+ "type": "neoorigins:attribute_modifier",
+ "attribute": "minecraft:attack_damage",
+ "amount": 2.4,
+ "operation": "add_value"
+}

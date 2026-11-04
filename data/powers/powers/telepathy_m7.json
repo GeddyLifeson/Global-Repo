@@ -1,0 +1,21 @@
+{
+ "type": "neoorigins:active_ability",
+ "cooldown_icon": "minecraft:ender_eye",
+ "cooldown_ticks": 225,
+ "entity_action": {
+  "type": "neoorigins:area_of_effect",
+  "radius": 58,
+  "include_source": false,
+  "entity_action": {
+   "type": "neoorigins:and",
+   "actions": [
+    {
+     "type": "neoorigins:apply_effect",
+     "effect": "minecraft:glowing",
+     "amplifier": 0,
+     "duration": 520
+    }
+   ]
+  }
+ }
+}

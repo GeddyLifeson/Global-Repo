@@ -1,0 +1,6 @@
+{
+ "type": "neoorigins:attribute_modifier",
+ "attribute": "minecraft:follow_range",
+ "amount": 40,
+ "operation": "add_value"
+}

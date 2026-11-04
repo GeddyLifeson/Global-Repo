@@ -1,0 +1,28 @@
+{
+ "type": "neoorigins:active_ability",
+ "cooldown_icon": "minecraft:blaze_rod",
+ "cooldown_ticks": 70,
+ "entity_action": {
+  "type": "neoorigins:area_of_effect",
+  "radius": 4.0,
+  "include_source": false,
+  "entity_action": {
+   "type": "neoorigins:and",
+   "actions": [
+    {
+     "type": "neoorigins:apply_effect",
+     "effect": "minecraft:weakness",
+     "amplifier": 1,
+     "duration": 110
+    },
+    {
+     "type": "neoorigins:damage",
+     "amount": 10,
+     "source": {
+      "name": "magic"
+     }
+    }
+   ]
+  }
+ }
+}

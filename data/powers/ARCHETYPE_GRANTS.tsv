@@ -1,6 +1,6 @@
 archetype	powers_in_priority_order
-superman_analog	flight,super_strength:9,invulnerability:9,energy_beam:7,super_speed:8,freeze_breath,regeneration:5
-kenshiro_analog	ki_resource,pressure_strike,barrage,hard_body,super_strength:6,vibrating_palm,super_speed:4
-goku_analog	ki_resource,flight,ki_blast:9,energy_beam:9,super_strength:9,super_speed:8,blink,regeneration:6,qi_heal
-jotaro_analog	barrage,super_strength:7,time_stop,invulnerability:4,super_speed:4,regeneration:3
-flash_analog	super_speed:10,phase,dash,regeneration:8,invulnerability:2
+superman_analog	flight:9,super_strength:9,invulnerability:9,energy_beam:7,super_speed:8,freeze_breath:7,regeneration:5,telepathy:2
+kenshiro_analog	ki_resource:7,pressure_strike:9,barrage:8,hard_body:6,super_strength:6,vibrating_palm:7,super_speed:4
+goku_analog	ki_resource:9,flight:8,ki_blast:9,energy_beam:9,super_strength:9,super_speed:8,blink:8,regeneration:6,qi_heal:6
+jotaro_analog	barrage:8,super_strength:7,time_stop:4,invulnerability:4,super_speed:4,regeneration:3
+flash_analog	super_speed:10,phase:7,dash:9,regeneration:8,invulnerability:2

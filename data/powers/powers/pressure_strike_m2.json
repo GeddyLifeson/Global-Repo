@@ -1,0 +1,5 @@
+{
+ "type": "neoorigins:modify_damage",
+ "direction": "out",
+ "multiplier": 1.12
+}
