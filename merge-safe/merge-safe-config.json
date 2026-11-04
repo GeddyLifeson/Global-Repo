@@ -53,6 +53,6 @@
     "path": "merge-safe"
   },
   "max_merges_per_repo": {
-    "global-repo": 4
+    "global-repo": 50
   }
 }
