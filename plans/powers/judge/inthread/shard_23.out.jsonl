@@ -1,6 +1,6 @@
 {"id": "diablo|4898", "b": 2, "k": "weapon", "n": "The Labrys", "m": 1, "q": "", "c": "l", "p": []}
 {"id": "diablo|4900", "b": 2, "k": "weapon", "n": "The Kilij", "m": 1, "q": "", "c": "l", "p": []}
-{"id": "diablo|4902", "b": 0}
+{"id": "diablo|4902", "b": 2, "k": "weapon", "n": "The Kris Blade", "m": 1, "q": "", "c": "l", "p": []}
 {"id": "diablo|4903", "b": 2, "k": "weapon", "n": "The Knuckles", "m": 1, "q": "", "c": "l", "p": []}
 {"id": "diablo|4904", "b": 2, "k": "weapon", "n": "The Kastet", "m": 1, "q": "", "c": "l", "p": []}
 {"id": "diablo|4912", "b": 2, "k": "weapon", "n": "Kridershot", "m": 1, "q": "", "c": "l", "p": []}
@@ -19,7 +19,7 @@
 {"id": "diablo|5060", "b": 2, "k": "armor", "n": "Knoutguard", "m": 1, "q": "", "c": "l", "p": []}
 {"id": "diablo|5061", "b": 2, "k": "armor", "n": "", "m": 1, "q": "", "c": "l", "p": []}
 {"id": "diablo|5096", "b": 0}
-{"id": "diablo|5098", "b": 0}
+{"id": "diablo|5098", "b": 2, "k": "armor", "n": "The Leather of Aut, like most unique armor in Diablo I,", "m": 1, "q": "", "c": "l", "p": []}
 {"id": "diablo|5100", "b": 0}
 {"id": "diablo|5102", "b": 0}
 {"id": "diablo|5103", "b": 0}
@@ -94,7 +94,7 @@
 {"id": "diablo|5586", "b": 2, "k": "armor", "n": "The Master Pelta", "m": 1, "q": "", "c": "l", "p": []}
 {"id": "diablo|5590", "b": 2, "k": "weapon", "n": "The Master Siege Bow", "m": 1, "q": "", "c": "l", "p": []}
 {"id": "diablo|5594", "b": 2, "k": "weapon", "n": "The Master Claymore", "m": 1, "q": "", "c": "l", "p": []}
-{"id": "diablo|5596", "b": 0}
+{"id": "diablo|5596", "b": 2, "k": "weapon", "n": "The Master Sacrifice Blade", "m": 1, "q": "", "c": "l", "p": []}
 {"id": "diablo|5597", "b": 2, "k": "weapon", "n": "The Master Breaker", "m": 1, "q": "", "c": "l", "p": []}
 {"id": "diablo|5600", "b": 2, "k": "weapon", "n": "The Master Scythe", "m": 1, "q": "", "c": "l", "p": []}
 {"id": "diablo|5603", "b": 0}
@@ -128,7 +128,7 @@
 {"id": "diablo|6060", "b": 2, "k": "weapon", "n": "The Nodachi", "m": 1, "q": "", "c": "l", "p": []}
 {"id": "diablo|6061", "b": 2, "k": "weapon", "n": "The Oni Blade", "m": 1, "q": "", "c": "l", "p": []}
 {"id": "diablo|6075", "b": 2, "k": "weapon", "n": "Odyssey's End", "m": 1, "q": "", "c": "l", "p": []}
-{"id": "diablo|6086", "b": 0}
+{"id": "diablo|6086", "b": 2, "k": "weapon", "n": "The Ox Bone Blade", "m": 1, "q": "", "c": "l", "p": []}
 {"id": "diablo|6091", "b": 2, "k": "weapon", "n": "Oathkeeper", "m": 1, "q": "", "c": "l", "p": []}
 {"id": "diablo|6803", "b": 2, "k": "armor", "n": "The Resplendent Defender", "m": 1, "q": "", "c": "l", "p": []}
 {"id": "diablo|6805", "b": 2, "k": "weapon", "n": "The Ripper Axe", "m": 1, "q": "", "c": "l", "p": []}
@@ -170,7 +170,7 @@
 {"id": "diablo|8033", "b": 2, "k": "weapon", "n": "The Steppes Smasher", "m": 1, "q": "", "c": "l", "p": []}
 {"id": "diablo|8034", "b": 2, "k": "weapon", "n": "Stalgard's Decimator", "m": 1, "q": "", "c": "l", "p": []}
 {"id": "diablo|8035", "b": 0}
-{"id": "diablo|8038", "b": 0}
+{"id": "diablo|8038", "b": 2, "k": "weapon", "n": "Staff of Kyro", "m": 1, "q": "", "c": "l", "p": []}
 {"id": "diablo|8039", "b": 2, "k": "armor", "n": "Sublime Conviction", "m": 1, "q": "", "c": "l", "p": []}
 {"id": "diablo|8050", "b": 2, "k": "armor", "n": "The Stalwart Guardian", "m": 1, "q": "", "c": "l", "p": []}
 {"id": "diablo|8056", "b": 2, "k": "weapon", "n": "SuWong Diviner", "m": 1, "q": "", "c": "l", "p": []}
@@ -208,7 +208,7 @@
 {"id": "diablo|8399", "b": 2, "k": "weapon", "n": "", "m": 1, "q": "", "c": "l", "p": []}
 {"id": "diablo|8408", "b": 2, "k": "armor", "n": "", "m": 1, "q": "", "c": "l", "p": []}
 {"id": "diablo|8415", "b": 2, "k": "armor", "n": "Ten-Thorn", "m": 1, "q": "", "c": "l", "p": []}
-{"id": "diablo|8442", "b": 0}
+{"id": "diablo|8442", "b": 2, "k": "armor", "n": "The Berserker Armor", "m": 1, "q": "", "c": "l", "p": []}
 {"id": "diablo|8454", "b": 2, "k": "armor", "n": "", "m": 1, "q": "", "c": "l", "p": []}
 {"id": "diablo|8488", "b": 0}
 {"id": "diablo|8492", "b": 0}
@@ -217,7 +217,7 @@
 {"id": "diablo|8519", "b": 2, "k": "weapon", "n": "The Defender", "m": 1, "q": "", "c": "l", "p": []}
 {"id": "diablo|8520", "b": 2, "k": "weapon", "n": "The Falcon's Talon", "m": 1, "q": "", "c": "l", "p": []}
 {"id": "diablo|8521", "b": 2, "k": "weapon", "n": "The Executioner's Blade", "m": 1, "q": "", "c": "l", "p": []}
-{"id": "diablo|8523", "b": 0}
+{"id": "diablo|8523", "b": 2, "k": "weapon", "n": "The Grizzly", "m": 1, "q": "", "c": "l", "p": []}
 {"id": "diablo|8530", "b": 0}
 {"id": "diablo|8540", "b": 2, "k": "weapon", "n": "The Fist of Az'Turrasq", "m": 1, "q": "", "c": "l", "p": []}
 {"id": "diablo|8541", "b": 2, "k": "weapon", "n": "The Executioner", "m": 1, "q": "", "c": "l", "p": []}
