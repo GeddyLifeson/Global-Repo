@@ -1,29 +1,17 @@
 {
-    "run_utc":  "2026-11-04T04:39:43Z",
+    "run_utc":  "2026-11-04T04:41:08Z",
     "dry_run":  false,
-    "merged_count":  5,
+    "merged_count":  2,
     "skipped_count":  118,
     "failed_count":  0,
     "merged":  [
                    {
-                       "pr":  "GeddyLifeson/diaithir-ports#326",
-                       "title":  "diaithir-gear: Workshop Bench blueprints for 15 historical bows and crossbows"
+                       "pr":  "GeddyLifeson/diaithir-ports#332",
+                       "title":  "Wire the materials table: fire odds, road speed, Codex entries, lookup API"
                    },
                    {
-                       "pr":  "GeddyLifeson/diaithir-ports#327",
-                       "title":  "Hostile encounters: fold Blood Moon (KS) into the lunar blood moon, quest hook"
-                   },
-                   {
-                       "pr":  "GeddyLifeson/diaithir-ports#328",
-                       "title":  "diaithir-arms: 16 historical throwables and slings (one per design)"
-                   },
-                   {
-                       "pr":  "GeddyLifeson/diaithir-ports#329",
-                       "title":  "Build the other eight building-material classes from the property table"
-                   },
-                   {
-                       "pr":  "GeddyLifeson/diaithir-ports#331",
-                       "title":  "diaithir-arms: 27 historical siege engines (one block per design)"
+                       "pr":  "GeddyLifeson/diaithir-ports#333",
+                       "title":  "diaithir-gear: Workshop Bench blueprints for historical throwables and siege engines"
                    }
                ],
     "skipped":  [
