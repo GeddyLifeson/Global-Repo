@@ -6825,6 +6825,9 @@ S6849	cloud	diaithir-ports/diaithir-worldgen-structures/tools/planet_biomes.py
 S6851	cloud	diaithir-ports/diaithir-worldgen-structures/tools/rc_gen.py
 S6880	global	diaithir-ports PR 181: port.py (path in repo unconfirmed)
 S6881	global	diaithir-ports PR 181: rcon.py (path in repo unconfirmed)
+S6830	cloud	names/linguistics/coverage.py
+S6832	cloud	names/linguistics/dia_names.py
+S6833	cloud	names/linguistics/fill_gaps.py
 S6900	global	tools/animation/queue_row_jobs.py
 S6885	cloud	diaithir-ports/diaithir-worldgen-structures/tools/c_tags.py
 S6919	cloud	integration/integration_matrix.py
