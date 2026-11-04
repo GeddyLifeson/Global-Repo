@@ -325,10 +325,6 @@ Run hints: .py `python3 <file>` (PC `py`), .ps1 via a hidden launcher (never a v
 | S0313 | cloud | `compat/gen_tags.py` | Union material-named ingots, plates, gears, dusts, ores into c: convention tag files with required=false. | yes |
 | S0314 | cloud | `compat/gen_rules_api.py` | Ask Haiku (direct parallel cached calls) which blocks per mod are working blocks, with slots, kinds, units, Age. | yes |
 | S0315 | cloud | `compat/gen_data.py` | Build the compat datapack: upgrade shim rules, unit stores, Age gaps, Codex and quest links per mod. | yes |
-| S0316 | cloud | `compat/gen_recipes.py` | Add load conditions to recipes naming absent mods and cross-mod dust/raw smelting to the shared ingot. | yes |
-| S0317 | cloud | `compat/gen_station_moves.py` | Move non-trivial vanilla and kept-mod grid recipes onto the Age ladder of stations with a fallback grid recipe. | yes |
-| S0316 | cloud | `names/linguistics/audit_names.py` | S0316 Audits every culture name in names/*.json against names/linguistics/rules/<slug>.json (graphemes, forbidden patterns, word length); wr | yes |
-| S0317 | cloud | `names/linguistics/research_rules.py` | S0317 One direct cached Claude call per culture language: researches how a linguist builds words there, writes names/linguistics/rules/<slug | yes |
 | S0322 | global | `claim_id.py` | S0322 atomically claims the next free script ID(s) via next_id (pull --rebase, bump, push, retry): python3 -I claim_id.py [count] | yes |
 | S0331 | cloud | `tools/harness/srvup.sh` | S0331 srvup.sh SRV LOG : boot a NeoForge server and leave it running; commands go to LOG.in (use cmd.sh). Prints Done/failed line. | yes |
 | S0332 | cloud | `tools/harness/cmd.sh` | S0332 cmd.sh LOG "command" : send a console command to a server started by srvup.sh (rcon alternative: S0071 rcon.py) | yes |
@@ -6840,14 +6836,8 @@ Run hints: .py `python3 <file>` (PC `py`), .ps1 via a hidden launcher (never a v
 | S6866 | cloud | `animations/gen_animations_coverage.py` | Generates plans/ANIMATIONS_COVERAGE.csv (+STATIC): one row per entity, block entity, interactive block, item use action, profession, spell, vehicle and player action; owner helpers 1-4; reruns keep status. | yes |
 | S6875 | cloud | `animations/gen_body.py` | Generates the diaithir-animation vanilla-body clips (body.json), held-item kind tags and body_clips.json from the coverage csv. | yes |
 | S6877 | cloud | `cloud/animation/set_owner3_status.py` | S6876 Sets owner-3 (mobs, NPCs, bosses) status in ANIMATIONS_COVERAGE.csv: done for our GeckoLib/boss work, route for third-party mods, todo for own fauna. | yes |
-| S6880 | global | `diaithir-ports/diaithir-aurorian/tools/port.py` | S6880 Regenerates the whole diaithir-aurorian module (items, blocks, recipes, tags, loot, worldgen, assets) from upstream TheAurorian: python3 -I tools/port.py <TheAurorian checkout> . (diaithir-ports #130, #181, #204, #334) | no |
-| S6881 | global | `diaithir-ports/diaithir-aurorian/tools/rcon.py` | S6881 Tiny rcon client for headless server tests: python3 -I tools/rcon.py <port> <password> <command>... (diaithir-aurorian) | no |
 | S6880 | global | `diaithir-ports PR 181: port.py (path in repo unconfirmed)` | S6880 Aurorian port script (diaithir-ports PR 181; copy lives in that repo) | no |
 | S6881 | global | `diaithir-ports PR 181: rcon.py (path in repo unconfirmed)` | S6881 Aurorian rcon helper for the port tests (diaithir-ports PR 181; copy lives in that repo) | no |
-| S6947 | global | `crawl_all.py` | S0335 crawls /mnt/project-files into catalog/{D,F,M,A,J}.tsv with stable IDs: python3 -I crawl_all.py <repo> | yes |
-| S6948 | cloud | `names/linguistics/audit_names.py` | S0316 Audits every culture name in names/*.json against names/linguistics/rules/<slug>.json (graphemes, forbidden patterns, word length); wr | yes |
-| S6949 | cloud | `names/linguistics/research_rules.py` | S0317 One direct cached Claude call per culture language: researches how a linguist builds words there, writes names/linguistics/rules/<slug | yes |
-| S6950 | cloud | `compat/gen_tags_extra.py` | Name-suffix convention tags (logs, planks, slabs, rails, glass, furniture) for building, tree, furniture and rail jars. | yes |
 | S6885 | cloud | `diaithir-ports/diaithir-worldgen-structures/tools/c_tags.py` | Generates the c: convention structure and biome tags for the worldgen-structures module (per class, mazes, villages, ruins, dungeons). | yes |
 | S6894 | cloud | `diaithir-ports/diaithir-wiretech/tools/gen_circuit_assets.py` | Diaithir Wiretech circuit network assets: textures, models, blockstates, lang, recipes and age gate for the combinator blocks; run after gen_assets.py. | no |
 | S6895 | cloud | `diaithir-ports/diaithir-wiretech/src/main/java/net/diaithir/wiretech/circuit/CoreCheck.java` | Plain-Java check of the circuit core (signals, combinators, solver, tiers): javac then java -ea. | no |
@@ -6863,7 +6853,10 @@ Run hints: .py `python3 <file>` (PC `py`), .ps1 via a hidden launcher (never a v
 | S6931 | global | `crawl_all.py` | S0335 crawls /mnt/project-files into catalog/{D,F,M,A,J}.tsv with stable IDs: python3 -I crawl_all.py <repo> | yes |
 | S6932 | cloud | `compat/gen_recipes.py` | Add load conditions to recipes naming absent mods and cross-mod dust/raw smelting to the shared ingot. | yes |
 | S6933 | cloud | `compat/gen_station_moves.py` | Move non-trivial vanilla and kept-mod grid recipes onto the Age ladder of stations with a fallback grid recipe. | yes |
+| S6948 | cloud | `names/linguistics/audit_names.py` | S0316 Audits every culture name in names/*.json against names/linguistics/rules/<slug>.json (graphemes, forbidden patterns, word length); wr | yes |
+| S6949 | cloud | `names/linguistics/research_rules.py` | S0317 One direct cached Claude call per culture language: researches how a linguist builds words there, writes names/linguistics/rules/<slug | yes |
+| S6950 | cloud | `compat/gen_tags_extra.py` | Name-suffix convention tags (logs, planks, slabs, rails, glass, furniture) for building, tree, furniture and rail jars. | yes |
 | S6957 | cloud | `assign_ages.py` | Give every item with no Age one: by-item table, material and namespace rules; writes data/ages/NOAGE_ASSIGNED.csv. | yes |
-| S6918 | cloud | `diaithir-ports/diaithir-firearms/tools/gen_containers.py` | S6918 Writes container_kinds.json and the diaithircrafting uses_container and ammo_class item tags for diaithir-firearms (munitions container contract) | yes |
-| S6955 | cloud | `tools/item_roles/export_kubejs.py` | S6955 Writes ITEM_ROLES.csv as per-namespace kubejs JSON for the pack | yes |
-| S6960 | cloud | `tools/powers/gen_power_pool.py` | S6960 Writes the shared NPC power pool (POWER_POOL.tsv), designed NeoOrigins power JSONs and archetype grants | yes |
+| S6964 | cloud | `tools/panscriptum/master_sheet.py` | Builds plans/PANSCRIPTUM_MASTER.tsv: one row per Library being with source wiki, powers, pack entity, card shard. | yes |
+| S6966 | cloud | `tools/panscriptum/infer_source_names.py` | Fills inferred_source in PANSCRIPTUM_MASTER.tsv from wiki lead text, no AI. | yes |
+| S6969 | cloud | `tools/panscriptum/coverage_check.py` | Full source-page coverage: every wiki lead page vs Library entries; unlinked pages list. No AI. | yes |
