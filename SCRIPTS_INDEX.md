@@ -6868,3 +6868,4 @@ Run hints: .py `python3 <file>` (PC `py`), .ps1 via a hidden launcher (never a v
 | S6955 | cloud | `tools/item_roles/export_kubejs.py` | S6955 Writes ITEM_ROLES.csv as per-namespace kubejs JSON for the pack | yes |
 | S6960 | cloud | `tools/powers/gen_power_pool.py` | S6960 Writes the shared NPC power pool (POWER_POOL.tsv), designed NeoOrigins power JSONs and archetype grants | yes |
 | S6974 | cloud | `tools/panscriptum/relink_assayed.py` | S6974 Recovers source wiki pages for Panscriptum beings that lost their link (TF-IDF, no AI); adds relink columns to PANSCRIPTUM_MASTER.tsv and trims coverage gaps | yes |
+| S6976 | cloud | `tools/panscriptum/relink_haiku.py` | S6976 Builds the Haiku job that picks each unlinked assay being's source lead from 12 TF-IDF candidates, then merges the picks into the master sheet and coverage | yes |
