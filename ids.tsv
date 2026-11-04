@@ -6850,6 +6850,9 @@ S6948	cloud	names/linguistics/audit_names.py
 S6949	cloud	names/linguistics/research_rules.py
 S6950	cloud	compat/gen_tags_extra.py
 S6957	cloud	assign_ages.py
+S6962	cloud	tools/powers/grant_on_spawn.js
+S6963	cloud	tools/powers/build_grants.py
+S6965	cloud	tools/powers/build_pool_json.py
 S6964	cloud	tools/panscriptum/master_sheet.py
 S6966	cloud	tools/panscriptum/infer_source_names.py
 S6969	cloud	tools/panscriptum/coverage_check.py
