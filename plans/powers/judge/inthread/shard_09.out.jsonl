@@ -1,0 +1,250 @@
+{"id": "battlestar-galactica|5018", "b": 1, "n": "Countess Sephoni", "p": [{"id": "telepathy", "m": 1, "q": "is a well-renown psionic", "c": "l"}], "x": []}
+{"id": "battlestar-galactica|3357", "b": 1, "n": "Freddy", "p": [], "x": []}
+{"id": "battlestar-galactica|3255", "b": 2, "k": "weapon", "n": "Energy bazooka", "m": 3, "q": "large-scale artillery weapon", "c": "m", "p": []}
+{"id": "all-the-fate-series|222", "b": 0}
+{"id": "all-pixar-films|1407", "b": 1, "n": "Hank Knapp", "p": [], "x": []}
+{"id": "all-final-fantasy|996", "b": 1, "n": "Anastasis", "p": [], "x": ["dream_walking"]}
+{"id": "all-final-fantasy|9693", "b": 1, "n": "Oretoise", "p": [], "x": []}
+{"id": "all-final-fantasy|8102", "b": 1, "n": "Lizardman King", "p": [{"id": "giant_size", "m": 2, "q": "colossal in size", "c": "l"}], "x": []}
+{"id": "all-final-fantasy|3010", "b": 1, "n": "Cynico", "p": [{"id": "invulnerability", "m": 1, "q": "He cannot be defeated or damaged", "c": "l"}], "x": []}
+{"id": "all-final-fantasy|2653", "b": 1, "n": "Colonel Faith", "p": [{"id": "flight", "m": 1, "q": "flying bipedal magitek armor", "c": "l"}], "x": []}
+{"id": "all-final-fantasy|2519", "b": 1, "n": "Cinque", "p": [], "x": []}
+{"id": "all-final-fantasy|14863", "b": 1, "n": "Zenobia", "p": [], "x": []}
+{"id": "all-final-fantasy|14056", "b": 1, "n": "Veriaulde", "p": [{"id": "immortal_body", "m": 1, "q": "He was made immortal", "c": "m"}], "x": []}
+{"id": "all-final-fantasy|12570", "b": 1, "n": "The Deathlord", "p": [{"id": "immortal_body", "m": 2, "q": "He is an immortal dark elf", "c": "m"}], "x": ["undead_army"]}
+{"id": "all-fallout|49298", "b": 1, "n": "Yas", "p": [], "x": []}
+{"id": "all-fallout|48802", "b": 1, "n": "Wendigo colossi", "p": [], "x": []}
+{"id": "all-elder-scrolls|60876", "b": 1, "n": "Warchief Kurog", "p": [{"id": "invulnerability", "m": 1, "q": "immune to regular weapons", "c": "m"}], "x": []}
+{"id": "all-elder-scrolls|60850", "b": 1, "n": "Wallbreaker", "p": [{"id": "giant_size", "m": 1, "q": "oversized giant", "c": "l"}], "x": []}
+{"id": "all-elder-scrolls|59130", "b": 1, "n": "Urrai", "p": [{"id": "fireball", "m": 1, "q": "fiery powers", "c": "l"}], "x": []}
+{"id": "all-elder-scrolls|58668", "b": 1, "n": "Undead Werewolves", "p": [], "x": []}
+{"id": "all-elder-scrolls|57458", "b": 1, "n": "Tosh Raka", "p": [{"id": "dragon_form", "m": 3, "q": "morph into a Dragon", "c": "m"}], "x": []}
+{"id": "all-elder-scrolls|48663", "b": 1, "n": "Skylamps", "p": [{"id": "flight", "m": 1, "q": "Skylamps are volant creatures", "c": "m"}], "x": []}
+{"id": "all-elder-scrolls|47983", "b": 1, "n": "Sir Byric of the Flame", "p": [], "x": []}
+{"id": "all-elder-scrolls|45098", "b": 1, "n": "Sahrotnax", "p": [], "x": []}
+{"id": "all-elder-scrolls|44859", "b": 1, "n": "Sai", "p": [], "x": ["luck_manipulation"]}
+{"id": "all-elder-scrolls|43902", "b": 1, "n": "Rock Spiders", "p": [{"id": "invulnerability", "m": 1, "q": "cannot be harmed nor defended against", "c": "l"}], "x": []}
+{"id": "all-elder-scrolls|42562", "b": 1, "n": "Relonikiv", "p": [], "x": []}
+{"id": "all-elder-scrolls|40823", "b": 1, "n": "Prince Bathorgh", "p": [{"id": "invulnerability", "m": 1, "q": "The Man Who Cannot Be Hit", "c": "l"}], "x": []}
+{"id": "all-elder-scrolls|3739", "b": 1, "n": "Arniel's Shade", "p": [], "x": []}
+{"id": "all-elder-scrolls|34601", "b": 1, "n": "Merethrin", "p": [], "x": ["tree_form"]}
+{"id": "all-elder-scrolls|33539", "b": 1, "n": "Master of the Hunt", "p": [{"id": "invulnerability", "m": 2, "q": "made invulnerable", "c": "m"}], "x": []}
+{"id": "all-elder-scrolls|32897", "b": 1, "n": "Marara", "p": [], "x": []}
+{"id": "all-elder-scrolls|32185", "b": 1, "n": "Lost Fleet Admiral", "p": [], "x": ["mind_control"]}
+{"id": "all-elder-scrolls|30330", "b": 1, "n": "Lady Malygda", "p": [{"id": "energy_beam", "m": 1, "q": "multiple moving lightning bolts", "c": "m"}], "x": ["summoning"]}
+{"id": "all-elder-scrolls|30040", "b": 1, "n": "Lame Corprus", "p": [{"id": "super_strength", "m": 1, "q": "greatly increases the victim's Strength", "c": "m"}], "x": []}
+{"id": "all-elder-scrolls|29244", "b": 1, "n": "Khasda Coldcaster", "p": [], "x": ["frost_magic"]}
+{"id": "all-elder-scrolls|27270", "b": 1, "n": "Iron Atronach", "p": [], "x": ["electricity_immunity"]}
+{"id": "all-elder-scrolls|26398", "b": 1, "n": "Immolator Charr", "p": [{"id": "fireball", "m": 1, "q": "attacks with large fire AoEs", "c": "l"}], "x": []}
+{"id": "all-elder-scrolls|24914", "b": 1, "n": "Herne Egahirn", "p": [{"id": "invulnerability", "m": 2, "q": "invulnerable to all weapons and magic", "c": "m"}], "x": []}
+{"id": "all-elder-scrolls|24644", "b": 1, "n": "Hindaril", "p": [{"id": "invulnerability", "m": 2, "q": "no one who tried could kill him", "c": "l"}], "x": []}
+{"id": "all-elder-scrolls|23277", "b": 1, "n": "Gurlak", "p": [], "x": []}
+{"id": "all-elder-scrolls|22734", "b": 1, "n": "Great Zoraluma", "p": [{"id": "giant_size", "m": 1, "q": "giant spider boss", "c": "l"}], "x": []}
+{"id": "all-elder-scrolls|22082", "b": 1, "n": "Gormlaith Golden-Hilt", "p": [{"id": "super_strength", "m": 3, "q": "single-handedly slaying four dragons in one day", "c": "l"}], "x": []}
+{"id": "all-elder-scrolls|21370", "b": 1, "n": "Giants", "p": [{"id": "giant_size", "m": 1, "q": "large humanoids", "c": "m"}, {"id": "super_strength", "m": 2, "q": "immense strength", "c": "m"}], "x": []}
+{"id": "all-elder-scrolls|20662", "b": 1, "n": "Garlythi", "p": [{"id": "invulnerability", "m": 1, "q": "magically shield themselves from damage", "c": "m"}], "x": []}
+{"id": "all-elder-scrolls|19131", "b": 1, "n": "Fire Daedra", "p": [{"id": "fireball", "m": 1, "q": "use several fire-based spells", "c": "m"}], "x": []}
+{"id": "all-elder-scrolls|18362", "b": 1, "n": "Faolchu the Changeling", "p": [], "x": []}
+{"id": "all-elder-scrolls|17009", "b": 1, "n": "Er-Teeus", "p": [{"id": "invulnerability", "m": 1, "q": "He is unkillable before completion", "c": "l"}], "x": []}
+{"id": "all-elder-scrolls|16923", "b": 1, "n": "Ember", "p": [], "x": []}
+{"id": "all-elder-scrolls|15662", "b": 1, "n": "Durgoc", "p": [{"id": "invulnerability", "m": 1, "q": "immune to regular weapons", "c": "m"}], "x": []}
+{"id": "all-elder-scrolls|15458", "b": 1, "n": "Dukaanfinsot", "p": [], "x": []}
+{"id": "all-elder-scrolls|15247", "b": 1, "n": "Dukaan", "p": [], "x": []}
+{"id": "all-elder-scrolls|14409", "b": 1, "n": "Diodata", "p": [{"id": "telepathy", "m": 2, "q": "ability of seeing through the eyes of other vampires", "c": "m"}], "x": []}
+{"id": "all-elder-scrolls|1338", "b": 1, "n": "Akiirdal", "p": [{"id": "fireball", "m": 2, "q": "powerful Dragon Priest pyromancer", "c": "l"}], "x": []}
+{"id": "all-elder-scrolls|1255", "b": 1, "n": "Aesar the Hatespinner", "p": [{"id": "giant_size", "m": 1, "q": "giant spider", "c": "l"}], "x": []}
+{"id": "all-elder-scrolls|12409", "b": 1, "n": "Daedra Seducer", "p": [{"id": "invulnerability", "m": 1, "q": "can only be damaged with mithril weapons or better", "c": "l"}], "x": []}
+{"id": "all-elder-scrolls|12336", "b": 1, "n": "Daedra Lord", "p": [{"id": "invulnerability", "m": 1, "q": "can only be damaged with Mithril Weapons or better", "c": "l"}], "x": []}
+{"id": "all-elder-scrolls|10111", "b": 1, "n": "Chieftain Suhlak", "p": [{"id": "immortal_body", "m": 1, "q": "immortal in death", "c": "l"}], "x": []}
+{"id": "all-bloons-td|2227", "b": 1, "n": "Mini Vengeful Sun Avatar", "p": [], "x": []}
+{"id": "all-bloons-td|1962", "b": 1, "n": "Lava Phoenix", "p": [], "x": []}
+{"id": "all-black-ops|565", "b": 1, "n": "Aether Worms", "p": [], "x": []}
+{"id": "adventurers-league|9898", "b": 1, "n": "Chalk Destrier", "p": [], "x": []}
+{"id": "adventurers-league|9297", "b": 1, "n": "Cactus the Hedgehog", "p": [], "x": []}
+{"id": "adventurers-league|9168", "b": 1, "n": "Caldauvur Maerglauthyn", "p": [{"id": "dragon_form", "m": 3, "q": "He was a weredragon", "c": "m"}], "x": []}
+{"id": "adventurers-league|9110", "b": 1, "n": "Burning devils", "p": [], "x": []}
+{"id": "adventurers-league|8877", "b": 1, "n": "Broadbeak", "p": [], "x": []}
+{"id": "adventurers-league|8861", "b": 1, "n": "Brimstone Speakers", "p": [{"id": "fireball", "m": 1, "q": "allowed them to breathe flame", "c": "m"}], "x": []}
+{"id": "adventurers-league|8436", "b": 1, "n": "The Breath of Winter", "p": [{"id": "freeze_breath", "m": 1, "q": "mysterious, icy creature", "c": "l"}], "x": []}
+{"id": "adventurers-league|8338", "b": 1, "n": "Borea", "p": [{"id": "freeze_breath", "m": 2, "q": "fearsome powers of freezing cold", "c": "l"}], "x": []}
+{"id": "adventurers-league|8025", "b": 1, "n": "Bootara", "p": [], "x": []}
+{"id": "adventurers-league|7930", "b": 1, "n": "Blue Bane minion", "p": [{"id": "energy_beam", "m": 1, "q": "breathe a stream of electricity", "c": "m"}], "x": []}
+{"id": "adventurers-league|7890", "b": 1, "n": "The Bonebreaker", "p": [], "x": []}
+{"id": "adventurers-league|7737", "b": 1, "n": "Blindheim", "p": [{"id": "energy_beam", "m": 1, "q": "project beams of light from their huge eyes", "c": "h"}], "x": []}
+{"id": "adventurers-league|6544", "b": 1, "n": "Basalin", "p": [], "x": []}
+{"id": "adventurers-league|6313", "b": 1, "n": "Behir", "p": [{"id": "energy_beam", "m": 1, "q": "electrical breath", "c": "m"}], "x": []}
+{"id": "adventurers-league|5973", "b": 1, "n": "Balagos", "p": [{"id": "flight", "m": 1, "q": "Flying Flame", "c": "l"}, {"id": "fireball", "m": 2, "q": "Flying Flame", "c": "l"}], "x": []}
+{"id": "adventurers-league|5948", "b": 1, "n": "Balinaikal", "p": [], "x": []}
+{"id": "adventurers-league|5606", "b": 1, "n": "Azhaq", "p": [], "x": []}
+{"id": "adventurers-league|5528", "b": 1, "n": "Athauglas", "p": [], "x": []}
+{"id": "adventurers-league|5399", "b": 1, "n": "Aungahlaumitor", "p": [], "x": []}
+{"id": "adventurers-league|5196", "b": 1, "n": "Aundra Blacklock", "p": [], "x": []}
+{"id": "adventurers-league|3771", "b": 1, "n": "Anaxaster", "p": [], "x": []}
+{"id": "adventurers-league|2846", "b": 1, "n": "Albert", "p": [], "x": []}
+{"id": "adventurers-league|2593", "b": 0}
+{"id": "adventurers-league|2591", "b": 1, "n": "Agyrtclughwaur", "p": [], "x": []}
+{"id": "adventurers-league|2520", "b": 1, "n": "Adnan al-Raqi", "p": [{"id": "invisibility", "m": 1, "q": "Master of the Invisible", "c": "l"}], "x": []}
+{"id": "adventurers-league|2087", "b": 1, "n": "Abazigal", "p": [], "x": []}
+{"id": "adventurers-league|19007", "b": 1, "n": "Firenewts", "p": [{"id": "fireball", "m": 1, "q": "gained the ability to breathe fire", "c": "m"}], "x": []}
+{"id": "adventurers-league|18930", "b": 1, "n": "Fll'Yissetat", "p": [], "x": []}
+{"id": "adventurers-league|18747", "b": 1, "n": "Fire spiders", "p": [], "x": []}
+{"id": "adventurers-league|18474", "b": 1, "n": "Chief Fedduk", "p": [{"id": "giant_size", "m": 1, "q": "hill giant", "c": "l"}], "x": []}
+{"id": "adventurers-league|15408", "b": 1, "n": "Dran Draggore", "p": [], "x": []}
+{"id": "adventurers-league|15203", "b": 0}
+{"id": "adventurers-league|14299", "b": 1, "n": "Dorath Wyvernspur", "p": [{"id": "dragon_form", "m": 2, "q": "able to transform into an actual wyvern", "c": "m"}], "x": []}
+{"id": "adventurers-league|14229", "b": 1, "n": "Domborcojh", "p": [], "x": []}
+{"id": "adventurers-league|13761", "b": 0}
+{"id": "adventurers-league|13402", "b": 1, "n": "Demascus", "p": [{"id": "immortal_body", "m": 1, "q": "always resurrected with little memory", "c": "m"}], "x": []}
+{"id": "adventurers-league|13375", "b": 1, "n": "Deep diviners", "p": [], "x": []}
+{"id": "adventurers-league|12404", "b": 1, "n": "Daganisoraan", "p": [{"id": "giant_size", "m": 2, "q": "gigantic size and age", "c": "m"}], "x": []}
+{"id": "adventurers-league|10244", "b": 1, "n": "Chever", "p": [{"id": "telepathy", "m": 1, "q": "well-renowned mentalist", "c": "l"}], "x": []}
+{"id": "adventurers-league|10131", "b": 1, "n": "Chardansearavitriol", "p": [], "x": []}
+{"id": "adventurers-league|10007", "b": 1, "n": "Chalintash", "p": [], "x": []}
+{"id": "all-the-fate-series|124", "b": 2, "k": "weapon", "n": "Amasakahoko", "m": 7, "q": "heavenly divine spear used to sew together the heavens and the earth", "c": "l", "p": []}
+{"id": "all-final-fantasy|6155", "b": 1, "n": "Gigas", "p": [{"id": "giant_size", "m": 2, "q": "enormous members", "c": "m"}], "x": []}
+{"id": "adventurers-league|17034", "b": 1, "n": "Elli", "p": [{"id": "giant_size", "m": 1, "q": "frost giant", "c": "l"}], "x": []}
+{"id": "world-of-warcraft|53137", "b": 1, "n": "Dark phoenixes", "p": [], "x": []}
+{"id": "world-of-warcraft|26502", "b": 1, "n": "Blazing Firewing", "p": [], "x": []}
+{"id": "world-of-warcraft|14868", "b": 1, "n": "Arakkoa", "p": [], "x": []}
+{"id": "vampire-the-masquerade|3147", "b": 1, "n": "Archangels", "p": [], "x": []}
+{"id": "vampire-the-masquerade|20746", "b": 0}
+{"id": "vampire-the-masquerade|16046", "b": 1, "n": "Tsiang Wo", "p": [], "x": []}
+{"id": "the-lord-of-the-rings|5680", "b": 1, "n": "Two Watchers", "p": [], "x": ["force_barrier"]}
+{"id": "terminator|971", "b": 1, "n": "T-801 Terminator", "p": [{"id": "regeneration", "m": 1, "q": "adaptive repair subroutines", "c": "m"}], "x": []}
+{"id": "predator|8301", "b": 1, "n": "Warden", "p": [], "x": []}
+{"id": "naruto|4367", "b": 0}
+{"id": "naruto|2392", "b": 0}
+{"id": "naruto|125", "b": 0}
+{"id": "mario-and-his-expanded-universe|3170", "b": 1, "n": "Klobber", "p": [], "x": []}
+{"id": "mario-and-his-expanded-universe|18510", "b": 0}
+{"id": "mario-and-his-expanded-universe|1337", "b": 1, "n": "Clefts", "p": [], "x": []}
+{"id": "major-live-action-disney-films|6963", "b": 1, "n": "Chaac", "p": [], "x": ["weather_control"]}
+{"id": "major-live-action-disney-films|24663", "b": 1, "n": "Maul", "p": [], "x": []}
+{"id": "major-live-action-disney-films|23916", "b": 1, "n": "Maleficent", "p": [], "x": []}
+{"id": "magic-the-gathering-all-planes|447", "b": 1, "n": "Alrund", "p": [], "x": []}
+{"id": "magic-the-gathering-all-planes|4007", "b": 1, "n": "Lividus", "p": [], "x": []}
+{"id": "helldivers-1-2|543", "b": 1, "n": "Overseers", "p": [], "x": []}
+{"id": "guildmasters-guide-to-ravnica|2773", "b": 1, "n": "Goreclaw", "p": [{"id": "giant_size", "m": 2, "q": "rival the dragons in size and ferocity", "c": "l"}], "x": []}
+{"id": "fire-emblem|9022", "b": 1, "n": "Xemcel", "p": [], "x": []}
+{"id": "digimon|3146", "b": 1, "n": "Zudomon", "p": [], "x": []}
+{"id": "digimon|2496", "b": 1, "n": "Sharkmon", "p": [], "x": []}
+{"id": "digimon|2150", "b": 1, "n": "Omedamon", "p": [], "x": []}
+{"id": "digimon|10594", "b": 0}
+{"id": "diablo|4260", "b": 1, "n": "Hluttred", "p": [], "x": []}
+{"id": "destiny-1-2|9979", "b": 1, "n": "Lord Saladin Forge", "p": [], "x": []}
+{"id": "dc|28783", "b": 1, "n": "Ocean Master", "p": [], "x": []}
+{"id": "dc|2461", "b": 1, "n": "Anima", "p": [], "x": []}
+{"id": "all-final-fantasy|8120", "b": 1, "n": "Liquid Flame", "p": [], "x": ["shapeshifting"]}
+{"id": "all-elder-scrolls|21764", "b": 1, "n": "Gnarls", "p": [], "x": []}
+{"id": "all-elder-scrolls|20254", "b": 1, "n": "Frost Trolls", "p": [], "x": []}
+{"id": "adventurers-league|8968", "b": 1, "n": "Caelynna", "p": [], "x": []}
+{"id": "adventurers-league|7067", "b": 1, "n": "Bheurs", "p": [], "x": []}
+{"id": "adventurers-league|5329", "b": 1, "n": "Astarion Ancunín", "p": [], "x": []}
+{"id": "adventurers-league|15236", "b": 1, "n": "Dragonfire adepts", "p": [{"id": "dragon_form", "m": 1, "q": "emulated draconic powers", "c": "l"}], "x": []}
+{"id": "world-of-warcraft|54294", "b": 1, "n": "Dawnstar Summoners", "p": [{"id": "fireball", "m": 1, "q": "ridiculously strong Incinerate", "c": "l"}], "x": []}
+{"id": "terminator|925", "b": 1, "n": "T-808", "p": [], "x": []}
+{"id": "major-live-action-disney-films|22719", "b": 1, "n": "Lincoln Campbell", "p": [], "x": ["electricity_manipulation"]}
+{"id": "magic-the-gathering-all-planes|2649", "b": 1, "n": "Gurias of Tolaria", "p": [], "x": []}
+{"id": "halo|11803", "b": 1, "n": "Nicolae-068", "p": [], "x": []}
+{"id": "guildmasters-guide-to-ravnica|2749", "b": 1, "n": "Gurias of Tolaria", "p": [], "x": []}
+{"id": "digimon|2264", "b": 1, "n": "Rafflesimon", "p": [], "x": []}
+{"id": "digimon|13216", "b": 0}
+{"id": "dc|6178", "b": 1, "n": "Black Hand", "p": [], "x": ["energy_drain"]}
+{"id": "dc|34239", "b": 1, "n": "Silver Banshee", "p": [], "x": ["sonic_scream"]}
+{"id": "critical-role-tal-dorei-campaign-setting|2375", "b": 1, "n": "Lorkathar", "p": [], "x": []}
+{"id": "adventurers-league|18901", "b": 1, "n": "Fire Reaver Lord", "p": [], "x": []}
+{"id": "world-of-warcraft|9851", "b": 1, "n": "Aerial Patroller XZ-2", "p": [], "x": []}
+{"id": "world-of-warcraft|9678", "b": 1, "n": "Aethas Sunreaver", "p": [], "x": []}
+{"id": "world-of-warcraft|9602", "b": 1, "n": "Agathelos the Raging", "p": [{"id": "giant_size", "m": 1, "q": "colossal armored boar", "c": "m"}], "x": []}
+{"id": "world-of-warcraft|9595", "b": 1, "n": "Aendel Windspear", "p": [], "x": []}
+{"id": "world-of-warcraft|9144", "b": 1, "n": "Adazius", "p": [], "x": []}
+{"id": "world-of-warcraft|64299", "b": 1, "n": "Dredbats", "p": [{"id": "flight", "m": 1, "q": "patrol the skies of Revendreth", "c": "m"}], "x": []}
+{"id": "world-of-warcraft|62774", "b": 1, "n": "Drakan", "p": [], "x": []}
+{"id": "world-of-warcraft|62543", "b": 1, "n": "Dragoncaller Alanna", "p": [{"id": "fireball", "m": 1, "q": "elven fire mage", "c": "l"}], "x": []}
+{"id": "world-of-warcraft|61059", "b": 1, "n": "Dolt", "p": [], "x": []}
+{"id": "world-of-warcraft|60812", "b": 1, "n": "Doctor Weavil", "p": [], "x": ["mind_control"]}
+{"id": "world-of-warcraft|56747", "b": 1, "n": "Defias Pillagers", "p": [{"id": "fireball", "m": 1, "q": "high damage fireballs", "c": "h"}], "x": []}
+{"id": "world-of-warcraft|56642", "b": 1, "n": "Deep Sea Kraken", "p": [], "x": []}
+{"id": "world-of-warcraft|55828", "b": 1, "n": "Deathsworn Captain", "p": [], "x": []}
+{"id": "world-of-warcraft|54336", "b": 1, "n": "Daschla", "p": [{"id": "flight", "m": 1, "q": "flies around the Deathknell Graves", "c": "m"}], "x": []}
+{"id": "world-of-warcraft|50630", "b": 1, "n": "Crystalline Frayers", "p": [{"id": "regeneration", "m": 1, "q": "will regenerate shortly after being killed", "c": "m"}], "x": []}
+{"id": "world-of-warcraft|50429", "b": 1, "n": "Crusader Lenuvas", "p": [{"id": "flight", "m": 1, "q": "He flies in to the Ironwall Rampart", "c": "l"}], "x": []}
+{"id": "world-of-warcraft|50428", "b": 1, "n": "Crusader Blair", "p": [{"id": "flight", "m": 1, "q": "She flies in to the Ironwall Rampart", "c": "l"}], "x": []}
+{"id": "world-of-warcraft|49977", "b": 1, "n": "Crooked Pete", "p": [], "x": []}
+{"id": "world-of-warcraft|49083", "b": 1, "n": "Crazed Obliterator", "p": [], "x": []}
+{"id": "world-of-warcraft|47157", "b": 1, "n": "Corvax", "p": [{"id": "flight", "m": 1, "q": "found flying with Rook", "c": "l"}], "x": []}
+{"id": "world-of-warcraft|44585", "b": 1, "n": "Coldostos", "p": [{"id": "dragon_form", "m": 2, "q": "blue dragon in a blood elf visage", "c": "m"}], "x": []}
+{"id": "world-of-warcraft|42807", "b": 1, "n": "Claudia Albright", "p": [{"id": "blink", "m": 1, "q": "she teleports her pets and herself away", "c": "h"}], "x": []}
+{"id": "world-of-warcraft|42801", "b": 1, "n": "Clara Spelldriver", "p": [], "x": []}
+{"id": "world-of-warcraft|42152", "b": 1, "n": "Chrombee", "p": [], "x": []}
+{"id": "world-of-warcraft|42036", "b": 1, "n": "Chronicler Te'ra", "p": [{"id": "dragon_form", "m": 2, "q": "bronze dragon in high elf form", "c": "m"}], "x": []}
+{"id": "world-of-warcraft|41761", "b": 1, "n": "Chrono Lord Deja", "p": [], "x": []}
+{"id": "world-of-warcraft|39666", "b": 1, "n": "Challe", "p": [], "x": ["shapeshifting"]}
+{"id": "world-of-warcraft|39469", "b": 1, "n": "Certified Explosives Expert", "p": [], "x": []}
+{"id": "world-of-warcraft|39174", "b": 1, "n": "Celetiros", "p": [], "x": []}
+{"id": "world-of-warcraft|37810", "b": 1, "n": "Captain Shivers", "p": [], "x": []}
+{"id": "world-of-warcraft|37156", "b": 1, "n": "Captain Edward Hanes", "p": [], "x": []}
+{"id": "world-of-warcraft|37140", "b": 1, "n": "Captain Galvangar", "p": [], "x": []}
+{"id": "world-of-warcraft|36424", "b": 1, "n": "Caedmos", "p": [], "x": []}
+{"id": "world-of-warcraft|36311", "b": 1, "n": "CHOW Guard", "p": [{"id": "levitation", "m": 1, "q": "float around above an area", "c": "l"}], "x": []}
+{"id": "world-of-warcraft|35695", "b": 1, "n": "Buzzing Venomfly", "p": [{"id": "flight", "m": 1, "q": "Mostly found flying high overhead", "c": "m"}], "x": []}
+{"id": "world-of-warcraft|35312", "b": 1, "n": "Burning Embers", "p": [], "x": []}
+{"id": "world-of-warcraft|35221", "b": 1, "n": "Burning Spirits", "p": [], "x": []}
+{"id": "world-of-warcraft|35182", "b": 1, "n": "Burning Exiles", "p": [], "x": []}
+{"id": "world-of-warcraft|34282", "b": 1, "n": "Brother Ravenoak", "p": [], "x": []}
+{"id": "world-of-warcraft|34213", "b": 1, "n": "Bronze Citizens", "p": [{"id": "dragon_form", "m": 2, "q": "bronze dragons in blood elf and human visages", "c": "l"}], "x": []}
+{"id": "world-of-warcraft|33645", "b": 1, "n": "Broken-Bone", "p": [], "x": []}
+{"id": "world-of-warcraft|33503", "b": 1, "n": "Bristlefur", "p": [], "x": []}
+{"id": "world-of-warcraft|33144", "b": 1, "n": "Brightwing", "p": [], "x": []}
+{"id": "world-of-warcraft|33030", "b": 1, "n": "Brighteyes", "p": [{"id": "invisibility", "m": 1, "q": "slip undetected into a guarded camp", "c": "l"}], "x": []}
+{"id": "world-of-warcraft|32986", "b": 1, "n": "Brienna Starglow", "p": [{"id": "fireball", "m": 1, "q": "uses holy fire against her enemies", "c": "m"}], "x": []}
+{"id": "world-of-warcraft|31970", "b": 1, "n": "Braedan Whitewall", "p": [], "x": []}
+{"id": "world-of-warcraft|316", "b": 1, "n": "Granny", "p": [], "x": []}
+{"id": "world-of-warcraft|29901", "b": 1, "n": "Bone golems", "p": [{"id": "super_strength", "m": 1, "q": "despite their strength", "c": "l"}], "x": []}
+{"id": "world-of-warcraft|29697", "b": 1, "n": "Bo'ja", "p": [], "x": []}
+{"id": "world-of-warcraft|28695", "b": 1, "n": "Bloodwarder Falconers", "p": [], "x": []}
+{"id": "world-of-warcraft|26959", "b": 1, "n": "Blindlight", "p": [{"id": "invulnerability", "m": 1, "q": "rendering it unkillable while the orb is active", "c": "m"}], "x": []}
+{"id": "world-of-warcraft|26520", "b": 1, "n": "Blazing Servitors", "p": [], "x": []}
+{"id": "world-of-warcraft|25983", "b": 1, "n": "Blade Lord Ta'yak", "p": [], "x": []}
+{"id": "world-of-warcraft|25846", "b": 1, "n": "Blackwing Spellbinders", "p": [{"id": "dragon_form", "m": 2, "q": "reveal their true draconic forms", "c": "m"}], "x": []}
+{"id": "world-of-warcraft|25560", "b": 1, "n": "Blackrock Drake", "p": [{"id": "flight", "m": 1, "q": "can be found flying around the Molten Span", "c": "m"}], "x": []}
+{"id": "world-of-warcraft|24510", "b": 1, "n": "The Bilewing Queen", "p": [{"id": "flight", "m": 1, "q": "flies around the Four Stingers", "c": "m"}], "x": []}
+{"id": "world-of-warcraft|23933", "b": 1, "n": "Bielara Ivyshroud", "p": [{"id": "blink", "m": 1, "q": "teleport players back to the surface", "c": "l"}], "x": []}
+{"id": "world-of-warcraft|23125", "b": 1, "n": "Beasttamer Zov'jin", "p": [], "x": []}
+{"id": "world-of-warcraft|21998", "b": 1, "n": "Bathran", "p": [], "x": []}
+{"id": "world-of-warcraft|21528", "b": 1, "n": "Barthamus", "p": [{"id": "dragon_form", "m": 2, "q": "a nether dragon disguising himself as a high elf", "c": "m"}], "x": []}
+{"id": "world-of-warcraft|21252", "b": 1, "n": "Bao", "p": [], "x": []}
+{"id": "world-of-warcraft|20922", "b": 1, "n": "Ban-Lu", "p": [], "x": []}
+{"id": "world-of-warcraft|19227", "b": 1, "n": "Azalina Soulthief", "p": [], "x": []}
+{"id": "world-of-warcraft|19011", "b": 1, "n": "Auctioneer Antiqdormi", "p": [{"id": "dragon_form", "m": 2, "q": "She cycles through her various forms throughout the day", "c": "m"}], "x": []}
+{"id": "world-of-warcraft|18811", "b": 1, "n": "Auridormi", "p": [{"id": "dragon_form", "m": 2, "q": "bronze dragon in a high elf form", "c": "m"}], "x": []}
+{"id": "world-of-warcraft|18748", "b": 1, "n": "Avatar of Sathal", "p": [], "x": []}
+{"id": "world-of-warcraft|18689", "b": 1, "n": "Aurosalia", "p": [], "x": []}
+{"id": "world-of-warcraft|17654", "b": 1, "n": "Askara", "p": [{"id": "qi_heal", "m": 1, "q": "one of the greatest healers the draenei have ever known", "c": "m"}], "x": []}
+{"id": "world-of-warcraft|17140", "b": 1, "n": "Artep", "p": [], "x": []}
+{"id": "world-of-warcraft|16655", "b": 1, "n": "Arganax", "p": [], "x": []}
+{"id": "world-of-warcraft|15111", "b": 1, "n": "Apprentice Karyn", "p": [{"id": "blink", "m": 1, "q": "she teleports herself away", "c": "h"}], "x": []}
+{"id": "world-of-warcraft|14942", "b": 1, "n": "Aquel'Luer'Thala", "p": [], "x": []}
+{"id": "world-of-warcraft|14354", "b": 1, "n": "Anima wyrms", "p": [{"id": "flight", "m": 1, "q": "flying, anima-infused, serpentine creatures", "c": "m"}], "x": []}
+{"id": "world-of-warcraft|14025", "b": 1, "n": "Andustrasza", "p": [], "x": []}
+{"id": "world-of-warcraft|13000", "b": 1, "n": "Ancient Drakkari Kings", "p": [], "x": []}
+{"id": "world-of-warcraft|11949", "b": 1, "n": "Ambassador Galavosh", "p": [], "x": []}
+{"id": "world-of-warcraft|11848", "b": 0}
+{"id": "world-of-warcraft|11748", "b": 1, "n": "Alverian Valerias", "p": [], "x": []}
+{"id": "world-of-warcraft|11167", "b": 1, "n": "Alliance Spirit Guides", "p": [{"id": "qi_heal", "m": 1, "q": "spirit healers", "c": "l"}], "x": []}
+{"id": "world-of-warcraft|10337", "b": 1, "n": "Agorithos", "p": [], "x": []}
+{"id": "vampire-the-masquerade|9492", "b": 1, "n": "Federico Rizzetti", "p": [], "x": []}
+{"id": "vampire-the-masquerade|9023", "b": 1, "n": "Euryale", "p": [], "x": []}
+{"id": "vampire-the-masquerade|8917", "b": 1, "n": "Eleonora Ferrante", "p": [], "x": []}
+{"id": "vampire-the-masquerade|8497", "b": 1, "n": "Edward Brake", "p": [], "x": []}
+{"id": "vampire-the-masquerade|8325", "b": 1, "n": "E-Demon", "p": [], "x": ["electronics_control"]}
+{"id": "vampire-the-masquerade|7619", "b": 1, "n": "Demon Lover", "p": [], "x": []}
+{"id": "vampire-the-masquerade|6794", "b": 1, "n": "Crawlerling", "p": [], "x": []}
+{"id": "vampire-the-masquerade|5022", "b": 1, "n": "Bull-People", "p": [], "x": []}
+{"id": "vampire-the-masquerade|4897", "b": 1, "n": "Bubasti", "p": [], "x": []}
+{"id": "vampire-the-masquerade|4887", "b": 1, "n": "Caiaphas Smith", "p": [{"id": "immortal_body", "m": 1, "q": "prolongs his own life through the ingestion of vampire blood", "c": "m"}], "x": []}
+{"id": "vampire-the-masquerade|4302", "b": 1, "n": "Blackfang", "p": [], "x": []}
+{"id": "vampire-the-masquerade|3936", "b": 1, "n": "Bastet", "p": [], "x": []}
+{"id": "vampire-the-masquerade|3658", "b": 1, "n": "Bagheera", "p": [], "x": []}
+{"id": "vampire-the-masquerade|3540", "b": 1, "n": "Atlocatl", "p": [], "x": []}
+{"id": "vampire-the-masquerade|3396", "b": 1, "n": "Asekh-Sen", "p": [], "x": []}
