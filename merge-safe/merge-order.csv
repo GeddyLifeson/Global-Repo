@@ -273,3 +273,4 @@ wave,repo,number,base,head,partner,title
 0,global-repo,60,main,claude/project-thread-npt56y,,"Add shared NPC power pool (38 powers) [edits SCRIPTS_INDEX.md: merge one at a time]"
 0,global-repo,63,main,claude/project-thread-ccm5bi,,"Add Panscriptum master sheet builder (S6964) [edits SCRIPTS_INDEX.md and ids.tsv: merge one at a time]"
 0,global-repo,62,main,claude/project-thread-2a8d1j,,"S6961 extract_being_powers: Panscriptum cards to power ids [edits SCRIPTS_INDEX.md: merge one at a time]"
+17,ports,355,diaithircompat,,,Stellaris module source and fixes
