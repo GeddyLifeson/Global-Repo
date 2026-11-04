@@ -6811,16 +6811,19 @@ S6826	cloud	library-content/place_all.py
 S6827	cloud	names/linguistics/regen_relaxed.py
 S6828	cloud	diaithir-ports/diaithir-druidry/tools/gen_rites.py
 S6829	global	tools/omniverse/export_library_books.py
+S6874	global	tools/animation/gen_clips.py
+S6898	global	tools/animation/csv_apply.py
+S6873	global	ports/diaithir-bosses/tools/gen_gate.py
+S6866	cloud	animations/gen_animations_coverage.py
+S6860	cloud	diaithir-upgrades/gen_shims.py
 S6831	cloud	diaithir-ports/diaithir-bosses/tools/gen_planet_altars.py
 S6836	cloud	diaithir-ports/diaithir-worldgen-structures/tools/lib_sites.py
 S6844	cloud	tools/mc_fake_player_bot.py
 S6849	cloud	diaithir-ports/diaithir-worldgen-structures/tools/planet_biomes.py
 S6851	cloud	diaithir-ports/diaithir-worldgen-structures/tools/rc_gen.py
-S6860	cloud	diaithir-upgrades/gen_shims.py
-S6866	cloud	animations/gen_animations_coverage.py
-S6873	global	ports/diaithir-bosses/tools/gen_gate.py
 S6880	global	diaithir-ports PR 181: port.py (path in repo unconfirmed)
 S6881	global	diaithir-ports PR 181: rcon.py (path in repo unconfirmed)
+S6900	global	tools/animation/queue_row_jobs.py
 S6885	cloud	diaithir-ports/diaithir-worldgen-structures/tools/c_tags.py
 S6919	cloud	integration/integration_matrix.py
 S6929	cloud	integration/matrix_data.py
