@@ -270,3 +270,4 @@ wave,repo,number,base,head,partner,title
 0,shardfall,19,main,claude/remove-local-jobs,,Remove local-jobs/ from main
 0,global-repo,58,main,claude/localsync-text,,localsync: accept output as well as text in PC results (S6878)
 2,ports,354,,claude/buildcraft-build-fix,,BuildCraft build fix: upgrades dependency, 26.X-only config
+0,shardfall,20,main,claude/project-thread-bu0cng,,Add 25% context handoff rule to essentials
