@@ -276,3 +276,4 @@ wave,repo,number,base,head,partner,title
 17,ports,355,diaithircompat,,,Stellaris module source and fixes
 16,ports,356,claude/pack-v1-3,claude/pack-v1-3-wave16,,Pack wave16: farmkitchen fold, productivebees fix
 17,ports,359,claude/pack-v1-3,claude/pack-v1-3-wave17,,Pack wave17: Stellaris fixes (full-pack join passed 17:52Z)
+0,global-repo,61,main,claude/project-thread-eezipe,,"Index grant-on-spawn script and grants builder (S6962, S6963) [edits ids.tsv: merge one at a time]"
