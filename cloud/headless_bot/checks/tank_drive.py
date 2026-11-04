@@ -11,7 +11,7 @@ out = sys.argv[1] if len(sys.argv) > 1 else None; rep = {}
 CF = {'config/mtsconfigclient.json': open(os.environ['TANK_CLIENT_CFG']).read()} if os.environ.get('TANK_CLIENT_CFG') else None  # e.g. fullHUD_1P=true variant
 with Lane('tank', JARS, client_files=CF, srv_xmx='3G', out=out) as L:
     L.start_client(); d = L.drive; S = L.server_cmd
-    S('time set day'); S('gamemode creative Tester'); S('clear Tester'); S('tp Tester 0.5 -60 0.5 0 35', 1)
+    S('time set day'); S('gamemode ' + ('survival' if os.environ.get('TANK_SURV') else 'creative') + ' Tester'); S('clear Tester'); S('tp Tester 0.5 -60 0.5 0 35', 1)
     S('item replace entity Tester hotbar.0 with mts:diaithirtanks.tank_mk1'); L.wait_render(); d.key('1'); time.sleep(0.5); L.shot('01_icon_held.png')
     d.key('r'); time.sleep(5); S('item replace entity Tester hotbar.0 with minecraft:air')
     rep['missing_texture_warnings'] = len(L.log_lines('client', r'Missing textures in model mts:item/diaithirtanks'))
