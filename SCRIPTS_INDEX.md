@@ -6868,3 +6868,5 @@ Run hints: .py `python3 <file>` (PC `py`), .ps1 via a hidden launcher (never a v
 | S6966 | cloud | `tools/panscriptum/infer_source_names.py` | Fills inferred_source in PANSCRIPTUM_MASTER.tsv from wiki lead text, no AI. | yes |
 | S6969 | cloud | `tools/panscriptum/coverage_check.py` | Full source-page coverage: every wiki lead page vs Library entries; unlinked pages list. No AI. | yes |
 | S6975 | cloud | `tools/powers/judge_pages.py` | Judges each wiki lead page with Claude Haiku Batch: being or not, pool powers, magnitude 1-10, evidence quote, missing powers (S6975). | yes |
+| S6978 | cloud | `tools/powers/judge_pc.py` | Runs the S6975 judge prompt over a page queue on OpenAI-compatible endpoints (model router, Ollama); resumable, validated, optional git push. | yes |
+| S6979 | cloud | `tools/powers/pc_priority.py` | Builds the PC judging queue (~20k pages: strongest Haiku power beings plus weapon/armor/vehicle candidates, minus shard pages). | yes |
