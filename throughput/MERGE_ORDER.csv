@@ -75,6 +75,12 @@ wave,repo,number,base,head,partner,title
 1,ports,195,claude/project-thread-xprg0c,claude/project-thread-fej6a7,,Farm equipment: 35 machines and implements from digging stick to combine harvester
 1,rpg,265,claude/pack-v1-3-wave7,claude/project-thread-o1c0y3,,"Drop Balm, Cristel Lib, Cupboard, Shogi and FTB Library chain; flood.js uses Diaithir Claims [stacked on RPG #260 (wave 7); no world migration]"
 1,ports,243,claude/biomes-dimensions-module,claude/natures-spirit-port,ports#168,"Port Nature's Spirit to NeoForge 26.1.2 inside diaithir-overworld-biomes (draft, merge after #168)"
+2,ports,248,claude/ships-yard-2,claude/survey-p1-aircraft,,diaithir-arms aircraft: Simple Planes upgrade and helicopter data fold (LGPL) [merge after #216]
+2,ports,249,claude/ships-yard-2,claude/survey-p1-propulsion,,"diaithir-ships keelwright: Create: Propulsion fold, propeller/thruster/clamp/gyro parts and fuel table [merge after #216]"
+2,ports,260,claude/ships-yard-2,claude/survey-p1-lasers,,diaithir-travel-structures: laser bridges and fences (Laser Bridges & Doors 26.1.2 fold) [merge after #216]
+2,ports,281,claude/ships-yard-2,claude/survey-p1-iwt,,"diaithir-storagenet: wireless transmitter, cross-dimension storage link (IWT idea) [merge after #216]"
+2,ports,293,claude/ships-yard-2,claude/survey-p1-decks,,diaithir-ships archimedes: deck walking (Nifty Ships idea) [merge after #216]
+2,ports,300,claude/create,claude/survey-p1-gantries-create,,"target jar create-neoforge (no new jar), module net.diaithir.gantries (GPL-3.0-only, own package/mixin config/namespace/licence/NOTICE): gantry split, Extended Gantries fold; replaces #296 (closed) [merge after #216]"
 2,ports,256,claude/biomes-dimensions-module,claude/macaws-bop-bees,,"Macaw-style set, BOP gap blocks and 32 species bees (clean-room, data-driven) [draft]"
 2,ports,224,claude/project-thread-6ik7qb,claude/project-thread-76qqfy,ports#231,"Megamachines: catalogue, dig engine core, Heavy Yard definitions [stacked on #220]"
 2,ports,231,claude/project-thread-76qqfy,claude/survey-megamachines,ports#224,"Megamachines: survey-mod licence audit; MIT ports (RFTools Builder, IF laser drill, Aeronautics gantry, Galacticraft dungeons, Northstar structures) and clean-room quarry, drill heads, tracks [merge after #224]"
