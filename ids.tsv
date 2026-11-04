@@ -6819,8 +6819,8 @@ S6851	cloud	diaithir-ports/diaithir-worldgen-structures/tools/rc_gen.py
 S6860	cloud	diaithir-upgrades/gen_shims.py
 S6866	cloud	animations/gen_animations_coverage.py
 S6873	global	ports/diaithir-bosses/tools/gen_gate.py
-S6880	global	diaithir-ports PR 181: port.py (path in repo unconfirmed)
-S6881	global	diaithir-ports PR 181: rcon.py (path in repo unconfirmed)
+S6880	global	diaithir-ports/diaithir-aurorian/tools/port.py
+S6881	global	diaithir-ports/diaithir-aurorian/tools/rcon.py
 S6885	cloud	diaithir-ports/diaithir-worldgen-structures/tools/c_tags.py
 S6919	cloud	integration/integration_matrix.py
 S6929	cloud	integration/matrix_data.py
