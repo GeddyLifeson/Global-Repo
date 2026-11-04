@@ -263,7 +263,4 @@ wave,repo,number,base,head,partner,title
 0,shardfall,20,main,claude/project-thread-bu0cng,,Add 25% context handoff rule to essentials
 0,rpg,284,engine,claude/project-thread-a9iuyi,global-repo#59,"Balance magic vs tech: 17 Age nodes, Age II magic, ki, innate tags"
 0,global-repo,60,main,claude/project-thread-npt56y,,Add shared NPC power pool (38 powers) [edits SCRIPTS_INDEX.md: merge one at a time]
-17,ports,355,diaithircompat,,,Stellaris module source and fixes
-16,ports,356,claude/pack-v1-3,claude/pack-v1-3-wave16,,Pack wave16: farmkitchen fold, productivebees fix
-17,ports,359,claude/pack-v1-3,claude/pack-v1-3-wave17,,Pack wave17: Stellaris fixes (full-pack join passed 17:52Z)
 0,rpg,288,engine,claude/project-thread-eezipe,,Fix grant_on_spawn for KubeJS 8.0.6 (test-bot verified)
