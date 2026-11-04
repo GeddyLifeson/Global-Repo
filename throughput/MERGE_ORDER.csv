@@ -70,12 +70,19 @@ wave,repo,number,base,head,partner,title
 0,ports,276,diaithircompat,claude/survey-p4-better-caravans,,Fold Better Caravans (MIT) into diaithir-worldsys [same files as #252: merge one at a time]
 0,global-repo,32,main,claude/project-thread-opeiei,,"Register S6918 gen_containers.py [edits SCRIPTS_INDEX.md: merge one at a time, rebuild index on conflict]"
 0,ports,339,diaithircompat,claude/project-thread-1bf7x4,,"Carts: rail wagons as cargo carriers, loads drawn on the wagon"
+1,ports,306,claude/ships-yard-2,claude/survey-p1-mooring,,"diaithir-harbour: new module, mooring bollard (survey p1)"
+1,ports,310,claude/survey-p1-mooring,claude/survey-p1-harbour-office,ports#306,diaithir-harbour: age-evolving harbour office (stacked on #306)
+1,ports,311,claude/survey-p1-harbour-office,claude/survey-p1-boat-cargo,ports#310,diaithir-harbour: cargo crates on boats (stacked on #310; check overlap with #229 freight layer)
+1,ports,315,claude/ships-yard-2,claude/survey-p1-harbour-yard,,diaithir-ships: harbour barge slipway and dry dock yard data (survey p1)
 1,ports,134,claude/project-thread-celestials,claude/project-thread-889fio-hostile,,Hostile encounters: caravans and undead nights content (stacked on #113)
 1,ports,180,diaithircompat,claude/project-thread-87zgrw,,"Gear: parts stations (smithy, workshop bench, gunsmith bench) [merge after #198]"
 1,ports,187,claude/project-thread-daq0av,claude/project-thread-oo83zf,,"diaithir-animation: vanilla-body and first-person pose layer (87 clips, item-kind tags)"
 1,ports,195,claude/project-thread-xprg0c,claude/project-thread-fej6a7,,Farm equipment: 35 machines and implements from digging stick to combine harvester
 1,rpg,265,claude/pack-v1-3-wave7,claude/project-thread-o1c0y3,,"Drop Balm, Cristel Lib, Cupboard, Shogi and FTB Library chain; flood.js uses Diaithir Claims [stacked on RPG #260 (wave 7); no world migration]"
 1,ports,243,claude/biomes-dimensions-module,claude/natures-spirit-port,ports#168,"Port Nature's Spirit to NeoForge 26.1.2 inside diaithir-overworld-biomes (draft, merge after #168)"
+2,ports,235,claude/ships-yard-2,claude/survey-p1-carts,,"diaithir-carts: one-way rail (survey p1, clean-room)"
+2,ports,251,claude/survey-p1-carts,claude/survey-p1-destination-rails,ports#235,diaithir-carts: destination rail and cart labels (stacked on #235)
+2,ports,303,claude/survey-p1-destination-rails,claude/survey-p1-cart-loader,ports#251,diaithir-carts: cart loader and unloader (stacked on #251)
 2,ports,248,claude/ships-yard-2,claude/survey-p1-aircraft,,diaithir-arms aircraft: Simple Planes upgrade and helicopter data fold (LGPL) [merge after #216]
 2,ports,249,claude/ships-yard-2,claude/survey-p1-propulsion,,"diaithir-ships keelwright: Create: Propulsion fold, propeller/thruster/clamp/gyro parts and fuel table [merge after #216]"
 2,ports,260,claude/ships-yard-2,claude/survey-p1-lasers,,diaithir-travel-structures: laser bridges and fences (Laser Bridges & Doors 26.1.2 fold) [merge after #216]
