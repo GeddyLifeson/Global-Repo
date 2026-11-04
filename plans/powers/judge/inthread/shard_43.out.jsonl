@@ -210,20 +210,20 @@
 {"id": "all-fallout|49487", "b": 1, "n": "ZAX", "p": [], "x": [], "dropped": 0}
 {"id": "all-final-fantasy|809", "b": 1, "n": "Aleria", "p": [], "x": [], "dropped": 0}
 {"id": "all-final-fantasy|1152", "b": 1, "n": "The Arctic Wolf", "p": [], "x": [], "dropped": 0}
-{"id": "all-final-fantasy|1225", "b": 1, "n": "Ariadne", "p": [], "x": [], "dropped": 0}
+{"id": "all-final-fantasy|1225", "b": 1, "n": "Ariadne", "p": [{"id": "dragon_form", "m": 1, "q": "she became the Sand Devil", "c": "l"}], "x": [], "dropped": 0}
 {"id": "all-final-fantasy|1457", "b": 1, "n": "Barbatos", "p": [], "x": [], "dropped": 0}
 {"id": "all-final-fantasy|1568", "b": 1, "n": "Battery Soldier", "p": [], "x": [], "dropped": 0}
 {"id": "all-final-fantasy|1872", "b": 1, "n": "The Blue Flan", "p": [], "x": [], "dropped": 0}
 {"id": "all-final-fantasy|1911", "b": 1, "n": "The Blue Wyrm", "p": [], "x": [], "dropped": 0}
 {"id": "all-final-fantasy|1912", "b": 1, "n": "The Bog Witch, also known as the ToadLady,", "p": [], "x": [], "dropped": 0}
 {"id": "all-final-fantasy|2331", "b": 0}
-{"id": "all-final-fantasy|2338", "b": 1, "n": "Chaa Paqa the Profound", "p": [], "x": [], "dropped": 0}
+{"id": "all-final-fantasy|2338", "b": 1, "n": "Chaa Paqa the Profound", "p": [], "x": ["summoning"], "dropped": 0}
 {"id": "all-final-fantasy|2498", "b": 1, "n": "Judgemaster Cid", "p": [], "x": [], "dropped": 0}
 {"id": "all-final-fantasy|2572", "b": 0}
 {"id": "all-final-fantasy|5953", "b": 1, "n": "Garnet Til Alexandros XVII, alias Dagger and birth name Sarah,", "p": [], "x": [], "dropped": 0}
 {"id": "all-final-fantasy|6058", "b": 1, "n": "Ghido, also known as Gill,", "p": [], "x": [], "dropped": 0}
 {"id": "all-final-fantasy|7084", "b": 1, "n": "Imperial Beastmaster", "p": [], "x": [], "dropped": 0}
-{"id": "all-final-fantasy|7405", "b": 1, "n": "John Hardin", "p": [], "x": [], "dropped": 0}
+{"id": "all-final-fantasy|7405", "b": 1, "n": "John Hardin", "p": [], "x": ["clairvoyance", "summoning"], "dropped": 0}
 {"id": "all-final-fantasy|7557", "b": 1, "n": "Keough", "p": [], "x": [], "dropped": 0}
 {"id": "all-final-fantasy|7717", "b": 1, "n": "Kum Kum , also known as Qumqum,", "p": [], "x": [], "dropped": 0}
 {"id": "all-final-fantasy|7949", "b": 1, "n": "Lezaford", "p": [], "x": [], "dropped": 0}
@@ -231,7 +231,7 @@
 {"id": "all-final-fantasy|8816", "b": 1, "n": "The Miss Vamp", "p": [], "x": [], "dropped": 0}
 {"id": "all-final-fantasy|9223", "b": 1, "n": "The Necromancer, formerly called Necromancr and Necrmncr,", "p": [], "x": [], "dropped": 0}
 {"id": "all-final-fantasy|9536", "b": 1, "n": "Odium", "p": [], "x": [], "dropped": 0}
-{"id": "all-final-fantasy|13976", "b": 1, "n": "Uttu", "p": [], "x": [], "dropped": 0}
+{"id": "all-final-fantasy|13976", "b": 1, "n": "Uttu", "p": [], "x": ["summoning"], "dropped": 0}
 {"id": "all-pixar-films|1023", "b": 1, "n": "Edna \"E\" Mode", "p": [], "x": [], "dropped": 0}
 {"id": "all-pixar-films|2378", "b": 0}
 {"id": "all-pixar-films|3052", "b": 1, "n": "The Screenslaver", "p": [], "x": [], "dropped": 0}
