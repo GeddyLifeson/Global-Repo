@@ -87,3 +87,8 @@ wave,repo,number,base,head,partner,title
 2,ports,294,claude/project-thread-889fio-hostile,claude/survey-p2-hostile-raided,,"Survey p2: Raided and Zombie Hordes folded into diaithir-hostile-encounters"
 0,ports,301,diaithircompat,claude/survey-p2-bosses,,"Survey p2: Shardfall Gate block (clean-room Boss Checklist) in diaithir-bosses"
 0,ports,302,diaithircompat,claude/survey-p2-toolbelt,273,"Survey p2: Tool Belt port into diaithir-gear (same module as #273)"
+0,ports,307,diaithircompat,claude/survey-p2-arms,,"Survey p2: 30-item melee roster in diaithir-arms"
+1,ports,308,claude/survey-p2-combat,claude/survey-p2-combat2,287,"Survey p2: crit attributes and weapon styles (stacked on #287)"
+0,ports,309,diaithircompat,claude/survey-p2-classtrees,,"Survey p2: class skill trees in diaithir-classes"
+0,ports,312,diaithircompat,claude/survey-p2-munitions,,"Survey p2: ammo box in diaithir-firearms"
+1,ports,313,claude/survey-p2-arms,claude/survey-p2-gadgets,307,"Survey p2: sentry turret and mining laser in diaithir-arms (stacked on #307)"
