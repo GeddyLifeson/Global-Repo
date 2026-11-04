@@ -6,20 +6,20 @@
 {"id": "all-elder-scrolls|3299", "b": 0}
 {"id": "all-elder-scrolls|3319", "b": 0}
 {"id": "all-elder-scrolls|3336", "b": 0}
-{"id": "all-elder-scrolls|3386", "b": 2, "k": "armor", "n": "", "m": 1, "q": "Arena Light Raiment is available from the Blademaster of the Arena, Ow", "c": "h", "p": []}
-{"id": "all-elder-scrolls|3387", "b": 2, "k": "armor", "n": "", "m": 1, "q": "The Arena Heavy Raiment is provided to the brave souls willing to part", "c": "h", "p": []}
+{"id": "all-elder-scrolls|3386", "b": 2, "k": "armor", "n": "Arena Light Raiment", "m": 1, "q": "Arena Light Raiment is available from the Blademaster of the Arena, Ow", "c": "h", "p": []}
+{"id": "all-elder-scrolls|3387", "b": 2, "k": "armor", "n": "Arena Heavy Raiment", "m": 1, "q": "The Arena Heavy Raiment is provided to the brave souls willing to part", "c": "h", "p": []}
 {"id": "all-elder-scrolls|3471", "b": 0}
 {"id": "all-elder-scrolls|3598", "b": 0}
-{"id": "all-elder-scrolls|3621", "b": 2, "k": "weapon", "n": "", "m": 1, "q": "Arm of the Moon is a weapon in that is a part of the Arms of Chaos Cre", "c": "h", "p": []}
-{"id": "all-elder-scrolls|3622", "b": 2, "k": "weapon", "n": "", "m": 1, "q": "Arm of the Sun is a weapon in that is a part of the Arms of Chaos Crea", "c": "h", "p": []}
-{"id": "all-elder-scrolls|3633", "b": 2, "k": "weapon", "n": "", "m": 1, "q": "The Argonian Fishing Rod is a tool and one-handed weapon in / that is", "c": "h", "p": []}
+{"id": "all-elder-scrolls|3621", "b": 2, "k": "weapon", "n": "Arm of the Moon", "m": 1, "q": "Arm of the Moon is a weapon in that is a part of the Arms of Chaos Cre", "c": "h", "p": []}
+{"id": "all-elder-scrolls|3622", "b": 2, "k": "weapon", "n": "Arm of the Sun", "m": 1, "q": "Arm of the Sun is a weapon in that is a part of the Arms of Chaos Crea", "c": "h", "p": []}
+{"id": "all-elder-scrolls|3633", "b": 2, "k": "weapon", "n": "Argonian Fishing Rod", "m": 1, "q": "The Argonian Fishing Rod is a tool and one-handed weapon in / that is ", "c": "h", "p": []}
 {"id": "all-elder-scrolls|3657", "b": 1, "n": "Arvel the Swift", "p": [], "x": []}
 {"id": "all-elder-scrolls|3660", "b": 0}
-{"id": "all-elder-scrolls|3669", "b": 2, "k": "armor", "n": "", "m": 3, "q": "The Armor of Tiber Septim is a cuirass that appears in the Main Quest", "c": "h", "p": []}
+{"id": "all-elder-scrolls|3669", "b": 2, "k": "armor", "n": "Armor of Tiber Septim", "m": 2, "q": "The Armor of Tiber Septim is a cuirass that appears in the Main Quest ", "c": "h", "p": []}
 {"id": "all-elder-scrolls|3686", "b": 1, "n": "Asbjorn Fire-Tamer", "p": [], "x": []}
-{"id": "all-elder-scrolls|3687", "b": 2, "k": "armor", "n": "", "m": 1, "q": "The Armor of the Old Gods is a unique light armor set.", "c": "h", "p": []}
-{"id": "all-elder-scrolls|3694", "b": 2, "k": "armor", "n": "", "m": 1, "q": "Armun-An Bonemold Left Pauldron is a piece of Medium Armor armor type", "c": "h", "p": []}
-{"id": "all-elder-scrolls|3695", "b": 2, "k": "armor", "n": "", "m": 1, "q": "Armun-An Bonemold Right Pauldron is a piece of the Bonemold Armor set", "c": "h", "p": []}
+{"id": "all-elder-scrolls|3687", "b": 2, "k": "armor", "n": "Armor of the Old Gods", "m": 2, "q": "The Armor of the Old Gods is a unique light armor set.", "c": "h", "p": []}
+{"id": "all-elder-scrolls|3694", "b": 2, "k": "armor", "n": "Armun-An Bonemold Left Pauldron", "m": 1, "q": "Armun-An Bonemold Left Pauldron is a piece of Medium Armor armor type ", "c": "h", "p": []}
+{"id": "all-elder-scrolls|3695", "b": 2, "k": "armor", "n": "Armun-An Bonemold Right Pauldron", "m": 1, "q": "Armun-An Bonemold Right Pauldron is a piece of the Bonemold Armor set ", "c": "h", "p": []}
 {"id": "all-elder-scrolls|3713", "b": 1, "n": "Arver Rethul", "p": [], "x": []}
 {"id": "all-elder-scrolls|3728", "b": 0}
 {"id": "all-elder-scrolls|3729", "b": 0}
@@ -59,47 +59,47 @@
 {"id": "all-elder-scrolls|4217", "b": 0}
 {"id": "all-elder-scrolls|4236", "b": 1, "n": "Ashur of the Quiet Blade", "p": [], "x": []}
 {"id": "all-elder-scrolls|4346", "b": 0}
-{"id": "all-elder-scrolls|4356", "b": 2, "k": "weapon", "n": "", "m": 3, "q": "Auriel's Bow is a legendary artifact of Tamriel, granted by Anui-El to", "c": "h", "p": []}
-{"id": "all-elder-scrolls|4357", "b": 2, "k": "armor", "n": "", "m": 3, "q": "Auriel's Shield is an almost mythical artifact of Tamriel.", "c": "h", "p": []}
+{"id": "all-elder-scrolls|4356", "b": 2, "k": "weapon", "n": "Auriel's Bow", "m": 2, "q": "Auriel's Bow is a legendary artifact of Tamriel, granted by Anui-El to", "c": "h", "p": []}
+{"id": "all-elder-scrolls|4357", "b": 2, "k": "armor", "n": "Auriel's Shield", "m": 2, "q": "Auriel's Shield is an almost mythical artifact of Tamriel.", "c": "h", "p": []}
 {"id": "all-elder-scrolls|4361", "b": 0}
-{"id": "all-elder-scrolls|4364", "b": 0}
-{"id": "all-elder-scrolls|4377", "b": 2, "k": "armor", "n": "", "m": 1, "q": "The Ayleid Crown of Nenalata is an ancient elven helmet with a Reflect", "c": "h", "p": []}
-{"id": "all-elder-scrolls|4378", "b": 2, "k": "armor", "n": "", "m": 1, "q": "The Ayleid Crown of Lindai is an ancient Elven Helmet with a Resist Ma", "c": "h", "p": []}
-{"id": "all-elder-scrolls|4381", "b": 2, "k": "weapon", "n": "", "m": 1, "q": "The Ayleid Long Sword is a unique Elven Longsword in , that can only b", "c": "h", "p": []}
-{"id": "all-elder-scrolls|4401", "b": 2, "k": "weapon", "n": "", "m": 1, "q": "Axe of Whiterun is one of a unique group of weapons found in .", "c": "h", "p": []}
-{"id": "all-elder-scrolls|4417", "b": 2, "k": "weapon", "n": "", "m": 1, "q": "Axe of Eastmarch is a semi-unique weapon in .", "c": "h", "p": []}
-{"id": "all-elder-scrolls|4428", "b": 2, "k": "weapon", "n": "", "m": 1, "q": "The Ayleid Mace is a Blunt weapon in .", "c": "h", "p": []}
+{"id": "all-elder-scrolls|4364", "b": 2, "k": "weapon", "n": "axe", "m": 1, "q": "An axe is a one- or two-handed weapon having either a single blade, or", "c": "h", "p": []}
+{"id": "all-elder-scrolls|4377", "b": 2, "k": "armor", "n": "Ayleid Crown of Nenalata", "m": 1, "q": "The Ayleid Crown of Nenalata is an ancient elven helmet with a Reflect", "c": "h", "p": []}
+{"id": "all-elder-scrolls|4378", "b": 2, "k": "armor", "n": "Ayleid Crown of Lindai", "m": 1, "q": "The Ayleid Crown of Lindai is an ancient Elven Helmet with a Resist Ma", "c": "h", "p": []}
+{"id": "all-elder-scrolls|4381", "b": 2, "k": "weapon", "n": "Ayleid Long Sword", "m": 1, "q": "The Ayleid Long Sword is a unique Elven Longsword in , that can only b", "c": "h", "p": []}
+{"id": "all-elder-scrolls|4401", "b": 2, "k": "weapon", "n": "Axe of Whiterun", "m": 1, "q": "Axe of Whiterun is one of a unique group of weapons found in .", "c": "h", "p": []}
+{"id": "all-elder-scrolls|4417", "b": 2, "k": "weapon", "n": "Axe of Eastmarch", "m": 1, "q": "Axe of Eastmarch is a semi-unique weapon in .", "c": "h", "p": []}
+{"id": "all-elder-scrolls|4428", "b": 2, "k": "weapon", "n": "Ayleid Mace", "m": 1, "q": "The Ayleid Mace is a Blunt weapon in .", "c": "h", "p": []}
 {"id": "all-elder-scrolls|4507", "b": 1, "n": "Axe-Fist", "p": [], "x": []}
 {"id": "all-elder-scrolls|4549", "b": 0}
-{"id": "all-elder-scrolls|4580", "b": 2, "k": "armor", "n": "", "m": 1, "q": "Ayleids' Coat of Memories is a piece of heavy armor in rewarded to the", "c": "h", "p": []}
+{"id": "all-elder-scrolls|4580", "b": 2, "k": "armor", "n": "Ayleids' Coat of Memories", "m": 1, "q": "Ayleids' Coat of Memories is a piece of heavy armor in rewarded to the", "c": "h", "p": []}
 {"id": "all-elder-scrolls|4605", "b": 0}
-{"id": "all-elder-scrolls|4640", "b": 2, "k": "weapon", "n": "", "m": 1, "q": "Automated Defense Bow is a bow in which may be obtained from the Fabri", "c": "h", "p": []}
-{"id": "all-elder-scrolls|4641", "b": 2, "k": "weapon", "n": "", "m": 1, "q": "The Axe of the Lunar Bastion is an axe in obtained from the Maw of Lor", "c": "h", "p": []}
-{"id": "all-elder-scrolls|4642", "b": 2, "k": "weapon", "n": "", "m": 1, "q": "The Axe of Alkosh is an axe in obtained from the Maw of Lorkhaj trial.", "c": "h", "p": []}
-{"id": "all-elder-scrolls|4643", "b": 2, "k": "weapon", "n": "", "m": 1, "q": "The Axe of Twilight Remedy is an axe in obtained from the Maw of Lorkh", "c": "h", "p": []}
+{"id": "all-elder-scrolls|4640", "b": 2, "k": "weapon", "n": "Automated Defense Bow", "m": 1, "q": "Automated Defense Bow is a bow in which may be obtained from the Fabri", "c": "h", "p": []}
+{"id": "all-elder-scrolls|4641", "b": 2, "k": "weapon", "n": "Axe of the Lunar Bastion", "m": 1, "q": "The Axe of the Lunar Bastion is an axe in obtained from the Maw of Lor", "c": "h", "p": []}
+{"id": "all-elder-scrolls|4642", "b": 2, "k": "weapon", "n": "Axe of Alkosh", "m": 1, "q": "The Axe of Alkosh is an axe in obtained from the Maw of Lorkhaj trial.", "c": "h", "p": []}
+{"id": "all-elder-scrolls|4643", "b": 2, "k": "weapon", "n": "Axe of Twilight Remedy", "m": 1, "q": "The Axe of Twilight Remedy is an axe in obtained from the Maw of Lorkh", "c": "h", "p": []}
 {"id": "all-elder-scrolls|4645", "b": 0}
 {"id": "all-elder-scrolls|4658", "b": 0}
 {"id": "all-elder-scrolls|4674", "b": 1, "n": "Baleni Salavel", "p": [], "x": []}
 {"id": "all-elder-scrolls|4690", "b": 1, "n": "Balimund", "p": [], "x": []}
-{"id": "all-elder-scrolls|4702", "b": 2, "k": "weapon", "n": "", "m": 1, "q": "Balgruuf's War Axe is a unique war axe and a quest item used in the qu", "c": "h", "p": []}
+{"id": "all-elder-scrolls|4702", "b": 2, "k": "weapon", "n": "Balgruuf's War Axe", "m": 1, "q": "Balgruuf's War Axe is a unique war axe and a quest item used in the qu", "c": "h", "p": []}
 {"id": "all-elder-scrolls|4718", "b": 1, "n": "Baissa", "p": [], "x": []}
 {"id": "all-elder-scrolls|4728", "b": 0}
 {"id": "all-elder-scrolls|4730", "b": 0}
 {"id": "all-elder-scrolls|4736", "b": 0}
 {"id": "all-elder-scrolls|4738", "b": 0}
-{"id": "all-elder-scrolls|4796", "b": 2, "k": "weapon", "n": "", "m": 1, "q": "The Azra's Mace is a weapon found in , it is a weapon of Azra Nightwie", "c": "h", "p": []}
+{"id": "all-elder-scrolls|4796", "b": 2, "k": "weapon", "n": "Azra's Mace", "m": 1, "q": "The Azra's Mace is a weapon found in , it is a weapon of Azra Nightwie", "c": "h", "p": []}
 {"id": "all-elder-scrolls|5045", "b": 1, "n": "Azzin", "p": [], "x": []}
 {"id": "all-elder-scrolls|5053", "b": 0}
 {"id": "all-elder-scrolls|5073", "b": 0}
-{"id": "all-elder-scrolls|5087", "b": 2, "k": "armor", "n": "", "m": 1, "q": "The Banded Iron Shield is part of a heavy armor set found in .", "c": "h", "p": []}
+{"id": "all-elder-scrolls|5087", "b": 2, "k": "armor", "n": "Banded Iron Shield", "m": 1, "q": "The Banded Iron Shield is part of a heavy armor set found in .", "c": "h", "p": []}
 {"id": "all-elder-scrolls|5100", "b": 0}
 {"id": "all-elder-scrolls|5105", "b": 0}
 {"id": "all-elder-scrolls|5107", "b": 0}
 {"id": "all-elder-scrolls|5125", "b": 1, "n": "Barirrid", "p": [], "x": []}
 {"id": "all-elder-scrolls|5139", "b": 0}
 {"id": "all-elder-scrolls|5144", "b": 0}
-{"id": "all-elder-scrolls|5248", "b": 2, "k": "armor", "n": "", "m": 1, "q": "Baron Sorick's Pauldrons is a heavy armor shoulder equipment received", "c": "h", "p": []}
-{"id": "all-elder-scrolls|5268", "b": 2, "k": "armor", "n": "", "m": 1, "q": "Bandit Gloves are a piece of light magic armor in , it grants +2 lockp", "c": "h", "p": []}
+{"id": "all-elder-scrolls|5248", "b": 2, "k": "armor", "n": "Baron Sorick's Pauldrons", "m": 1, "q": "Baron Sorick's Pauldrons is a heavy armor shoulder equipment received ", "c": "h", "p": []}
+{"id": "all-elder-scrolls|5268", "b": 2, "k": "armor", "n": "Bandit Gloves", "m": 1, "q": "Bandit Gloves are a piece of light magic armor in , it grants +2 lockp", "c": "h", "p": []}
 {"id": "all-elder-scrolls|5282", "b": 1, "n": "Barid Dark-Sword", "p": [], "x": []}
 {"id": "all-elder-scrolls|5285", "b": 1, "n": "Baro Storm-Blade", "p": [], "x": []}
 {"id": "all-elder-scrolls|5296", "b": 1, "n": "Basks-In-Darkness", "p": [], "x": []}
@@ -107,127 +107,127 @@
 {"id": "all-elder-scrolls|5415", "b": 0}
 {"id": "all-elder-scrolls|5435", "b": 0}
 {"id": "all-elder-scrolls|5446", "b": 0}
-{"id": "all-elder-scrolls|5459", "b": 2, "k": "weapon", "n": "", "m": 1, "q": "The Battleaxe of Hatred is an enchanted Battle Axe in .", "c": "h", "p": []}
-{"id": "all-elder-scrolls|5463", "b": 2, "k": "weapon", "n": "", "m": 1, "q": "The Battle Axe of Enfeeblement is an enchanted Dwarven Battle Axe in w", "c": "h", "p": []}
+{"id": "all-elder-scrolls|5459", "b": 2, "k": "weapon", "n": "Battleaxe of Hatred", "m": 1, "q": "The Battleaxe of Hatred is an enchanted Battle Axe in .", "c": "h", "p": []}
+{"id": "all-elder-scrolls|5463", "b": 2, "k": "weapon", "n": "Battle Axe of Enfeeblement", "m": 1, "q": "The Battle Axe of Enfeeblement is an enchanted Dwarven Battle Axe in w", "c": "h", "p": []}
 {"id": "all-elder-scrolls|5465", "b": 0}
 {"id": "all-elder-scrolls|5514", "b": 1, "n": "Baurin", "p": [], "x": []}
-{"id": "all-elder-scrolls|5519", "b": 2, "k": "weapon", "n": "", "m": 1, "q": "Baurus's Akaviri Katana is a unique Akaviri Katana wielded by Baurus,", "c": "h", "p": []}
+{"id": "all-elder-scrolls|5519", "b": 2, "k": "weapon", "n": "Baurus's Akaviri Katana", "m": 1, "q": "Baurus's Akaviri Katana is a unique Akaviri Katana wielded by Baurus, ", "c": "h", "p": []}
 {"id": "all-elder-scrolls|5524", "b": 0}
 {"id": "all-elder-scrolls|5535", "b": 0}
-{"id": "all-elder-scrolls|5555", "b": 2, "k": "armor", "n": "", "m": 1, "q": "Bastion of the Dragon is a shield the Vestige receives after completin", "c": "h", "p": []}
+{"id": "all-elder-scrolls|5555", "b": 2, "k": "armor", "n": "Bastion of the Dragon", "m": 1, "q": "Bastion of the Dragon is a shield the Vestige receives after completin", "c": "h", "p": []}
 {"id": "all-elder-scrolls|5640", "b": 0}
 {"id": "all-elder-scrolls|5642", "b": 0}
 {"id": "all-elder-scrolls|5643", "b": 0}
-{"id": "all-elder-scrolls|5716", "b": 2, "k": "weapon", "n": "", "m": 1, "q": "The Battle Axe of the Lunar Bastion is a battle axe in obtained from t", "c": "h", "p": []}
-{"id": "all-elder-scrolls|5717", "b": 2, "k": "weapon", "n": "", "m": 1, "q": "The Battle Axe of Alkosh is a battle axe in obtained from the Maw of L", "c": "h", "p": []}
-{"id": "all-elder-scrolls|5718", "b": 2, "k": "weapon", "n": "", "m": 1, "q": "The Battle Axe of Twilight Remedy is a battle axe in obtained from the", "c": "h", "p": []}
+{"id": "all-elder-scrolls|5716", "b": 2, "k": "weapon", "n": "Battle Axe of the Lunar Bastion", "m": 1, "q": "The Battle Axe of the Lunar Bastion is a battle axe in obtained from t", "c": "h", "p": []}
+{"id": "all-elder-scrolls|5717", "b": 2, "k": "weapon", "n": "Battle Axe of Alkosh", "m": 1, "q": "The Battle Axe of Alkosh is a battle axe in obtained from the Maw of L", "c": "h", "p": []}
+{"id": "all-elder-scrolls|5718", "b": 2, "k": "weapon", "n": "Battle Axe of Twilight Remedy", "m": 1, "q": "The Battle Axe of Twilight Remedy is a battle axe in obtained from the", "c": "h", "p": []}
 {"id": "all-elder-scrolls|5721", "b": 0}
 {"id": "all-elder-scrolls|5722", "b": 0}
 {"id": "all-elder-scrolls|5740", "b": 0}
 {"id": "all-elder-scrolls|5802", "b": 1, "n": "Belos Falos", "p": [], "x": []}
-{"id": "all-elder-scrolls|5819", "b": 2, "k": "armor", "n": "", "m": 1, "q": "Beveled Gauntlets is a type of glass armor found in .", "c": "h", "p": []}
-{"id": "all-elder-scrolls|5832", "b": 2, "k": "armor", "n": "", "m": 1, "q": "Belt of Sanguine Balanced Armor is an enchanted extravagant belt in .", "c": "h", "p": []}
-{"id": "all-elder-scrolls|5838", "b": 2, "k": "armor", "n": "", "m": 1, "q": "Belt of Sanguine Martial Craft is an enchanted extravagant belt in .", "c": "h", "p": []}
-{"id": "all-elder-scrolls|5840", "b": 2, "k": "armor", "n": "", "m": 1, "q": "Belt of Sanguine Stolid Armor is an enchanted extravagant belt in .", "c": "h", "p": []}
-{"id": "all-elder-scrolls|5863", "b": 2, "k": "armor", "n": "", "m": 1, "q": "Belt of the Armor of God is a unique belt that is enchanted with a var", "c": "h", "p": []}
-{"id": "all-elder-scrolls|5866", "b": 2, "k": "weapon", "n": "", "m": 1, "q": "Berserker Silver Longsword is a one-handed silver in .", "c": "h", "p": []}
-{"id": "all-elder-scrolls|5888", "b": 2, "k": "armor", "n": "", "m": 1, "q": "Binder's Robe is a piece of light armor in .", "c": "h", "p": []}
-{"id": "all-elder-scrolls|6012", "b": 2, "k": "armor", "n": "", "m": 1, "q": "Betina's Fashionable Gloves are light armor gauntlets found in .", "c": "h", "p": []}
+{"id": "all-elder-scrolls|5819", "b": 2, "k": "armor", "n": "Beveled Gauntlets", "m": 1, "q": "Beveled Gauntlets is a type of glass armor found in .", "c": "h", "p": []}
+{"id": "all-elder-scrolls|5832", "b": 2, "k": "armor", "n": "Belt of Sanguine Balanced Armor", "m": 1, "q": "Belt of Sanguine Balanced Armor is an enchanted extravagant belt in .", "c": "h", "p": []}
+{"id": "all-elder-scrolls|5838", "b": 2, "k": "armor", "n": "Belt of Sanguine Martial Craft", "m": 1, "q": "Belt of Sanguine Martial Craft is an enchanted extravagant belt in .", "c": "h", "p": []}
+{"id": "all-elder-scrolls|5840", "b": 2, "k": "armor", "n": "Belt of Sanguine Stolid Armor", "m": 1, "q": "Belt of Sanguine Stolid Armor is an enchanted extravagant belt in .", "c": "h", "p": []}
+{"id": "all-elder-scrolls|5863", "b": 2, "k": "armor", "n": "Belt of the Armor of God", "m": 2, "q": "Belt of the Armor of God is a unique belt that is enchanted with a var", "c": "h", "p": []}
+{"id": "all-elder-scrolls|5866", "b": 2, "k": "weapon", "n": "Berserker Silver Longsword", "m": 1, "q": "Berserker Silver Longsword is a one-handed silver in .", "c": "h", "p": []}
+{"id": "all-elder-scrolls|5888", "b": 2, "k": "armor", "n": "Binder's Robe", "m": 1, "q": "Binder's Robe is a piece of light armor in .", "c": "h", "p": []}
+{"id": "all-elder-scrolls|6012", "b": 2, "k": "armor", "n": "Betina's Fashionable Gloves", "m": 1, "q": "Betina's Fashionable Gloves are light armor gauntlets found in .", "c": "h", "p": []}
 {"id": "all-elder-scrolls|6051", "b": 0}
 {"id": "all-elder-scrolls|6052", "b": 0}
 {"id": "all-elder-scrolls|6155", "b": 0}
-{"id": "all-elder-scrolls|6175", "b": 2, "k": "armor", "n": "", "m": 1, "q": "Black Hand Robes are powerful enchanted robes reserved for members of", "c": "h", "p": []}
-{"id": "all-elder-scrolls|6177", "b": 0}
-{"id": "all-elder-scrolls|6178", "b": 2, "k": "armor", "n": "", "m": 1, "q": "The Birthright of Astalon is an enchanted Elven armor cuirass in .", "c": "h", "p": []}
-{"id": "all-elder-scrolls|6182", "b": 0}
+{"id": "all-elder-scrolls|6175", "b": 2, "k": "armor", "n": "Black Hand Robes", "m": 1, "q": "Black Hand Robes are powerful enchanted robes reserved for members of ", "c": "h", "p": []}
+{"id": "all-elder-scrolls|6177", "b": 2, "k": "weapon", "n": "Black Bows", "m": 1, "q": "Black Bows are a type of bow exclusively wielded by the Black Bow Band", "c": "h", "p": []}
+{"id": "all-elder-scrolls|6178", "b": 2, "k": "armor", "n": "Birthright of Astalon", "m": 1, "q": "The Birthright of Astalon is an enchanted Elven armor cuirass in .", "c": "h", "p": []}
+{"id": "all-elder-scrolls|6182", "b": 1, "n": "Black Rock Captain", "p": [], "x": []}
 {"id": "all-elder-scrolls|6205", "b": 0}
-{"id": "all-elder-scrolls|6224", "b": 2, "k": "armor", "n": "", "m": 1, "q": "Blackguard's Armor is a unique piece of light armor and part of the Bl", "c": "h", "p": []}
-{"id": "all-elder-scrolls|6225", "b": 2, "k": "armor", "n": "", "m": 1, "q": "Blackguard's Boots are a unique piece of light armor and part of the B", "c": "h", "p": []}
-{"id": "all-elder-scrolls|6226", "b": 2, "k": "armor", "n": "", "m": 1, "q": "Blackguard's Gloves are a unique piece of light armor and part of the", "c": "h", "p": []}
-{"id": "all-elder-scrolls|6227", "b": 2, "k": "armor", "n": "", "m": 1, "q": "The Blackguard's Hood is a unique piece of light armor and part of the", "c": "h", "p": []}
-{"id": "all-elder-scrolls|6233", "b": 2, "k": "weapon", "n": "", "m": 1, "q": "Black Dart is a poisoned throwing weapon that is used by the Black Dar", "c": "h", "p": []}
+{"id": "all-elder-scrolls|6224", "b": 2, "k": "armor", "n": "Blackguard's Armor", "m": 1, "q": "Blackguard's Armor is a unique piece of light armor and part of the Bl", "c": "h", "p": []}
+{"id": "all-elder-scrolls|6225", "b": 2, "k": "armor", "n": "Blackguard's Boots", "m": 1, "q": "Blackguard's Boots are a unique piece of light armor and part of the B", "c": "h", "p": []}
+{"id": "all-elder-scrolls|6226", "b": 2, "k": "armor", "n": "Blackguard's Gloves", "m": 1, "q": "Blackguard's Gloves are a unique piece of light armor and part of the ", "c": "h", "p": []}
+{"id": "all-elder-scrolls|6227", "b": 2, "k": "armor", "n": "Blackguard's Hood", "m": 1, "q": "The Blackguard's Hood is a unique piece of light armor and part of the", "c": "h", "p": []}
+{"id": "all-elder-scrolls|6233", "b": 2, "k": "weapon", "n": "Black Dart", "m": 1, "q": "Black Dart is a poisoned throwing weapon that is used by the Black Dar", "c": "h", "p": []}
 {"id": "all-elder-scrolls|6295", "b": 1, "n": "Birdmaster Dehanar", "p": [], "x": []}
 {"id": "all-elder-scrolls|6425", "b": 0}
 {"id": "all-elder-scrolls|6482", "b": 0}
-{"id": "all-elder-scrolls|6487", "b": 2, "k": "weapon", "n": "", "m": 1, "q": "The Blade of Woe is a unique Ebony Dagger received from Lucien Lachanc", "c": "h", "p": []}
-{"id": "all-elder-scrolls|6488", "b": 2, "k": "armor", "n": "", "m": 1, "q": "Blackwood Armor is a variant of Steel Armor which is crafted for high-", "c": "h", "p": []}
-{"id": "all-elder-scrolls|6489", "b": 2, "k": "armor", "n": "", "m": 1, "q": "Blades Armor is the Heavy Armor worn by the Blades, an organization ch", "c": "h", "p": []}
-{"id": "all-elder-scrolls|6495", "b": 2, "k": "weapon", "n": "", "m": 1, "q": "The Blackwater Blade is a leveled Fine Steel Longsword found on Selene", "c": "h", "p": []}
+{"id": "all-elder-scrolls|6487", "b": 2, "k": "weapon", "n": "Blade of Woe", "m": 1, "q": "The Blade of Woe is a unique Ebony Dagger received from Lucien Lachanc", "c": "h", "p": []}
+{"id": "all-elder-scrolls|6488", "b": 2, "k": "armor", "n": "Blackwood Armor", "m": 1, "q": "Blackwood Armor is a variant of Steel Armor which is crafted for high-", "c": "h", "p": []}
+{"id": "all-elder-scrolls|6489", "b": 2, "k": "armor", "n": "Blades Armor", "m": 1, "q": "Blades Armor is the Heavy Armor worn by the Blades, an organization ch", "c": "h", "p": []}
+{"id": "all-elder-scrolls|6495", "b": 2, "k": "weapon", "n": "Blackwater Blade", "m": 1, "q": "The Blackwater Blade is a leveled Fine Steel Longsword found on Selene", "c": "h", "p": []}
 {"id": "all-elder-scrolls|6497", "b": 0}
-{"id": "all-elder-scrolls|6507", "b": 2, "k": "armor", "n": "", "m": 1, "q": "The Blades Helmet is a piece of heavy armor and part of the Blades Arm", "c": "h", "p": []}
-{"id": "all-elder-scrolls|6508", "b": 2, "k": "armor", "n": "", "m": 1, "q": "The Blades Shield is a piece of heavy armor and part of the Blades Arm", "c": "h", "p": []}
-{"id": "all-elder-scrolls|6509", "b": 2, "k": "armor", "n": "", "m": 1, "q": "Blades Boots are a piece of heavy armor and part of the Blades Armor s", "c": "h", "p": []}
-{"id": "all-elder-scrolls|6510", "b": 2, "k": "armor", "n": "", "m": 1, "q": "Blades Gauntlets are a piece of heavy armor and part of the Blades Arm", "c": "h", "p": []}
-{"id": "all-elder-scrolls|6512", "b": 2, "k": "armor", "n": "", "m": 1, "q": "Blackwood Boots is a piece of armor worn by the Blackwood Company, as", "c": "h", "p": []}
-{"id": "all-elder-scrolls|6513", "b": 2, "k": "armor", "n": "", "m": 1, "q": "Blackwood Cuirass is a type of armor worn by the Blackwood Company, as", "c": "h", "p": []}
-{"id": "all-elder-scrolls|6514", "b": 2, "k": "armor", "n": "", "m": 1, "q": "Blackwood Gauntlets is a type of heavy armor worn by the Blackwood Com", "c": "h", "p": []}
-{"id": "all-elder-scrolls|6515", "b": 2, "k": "armor", "n": "", "m": 1, "q": "Blackwood Greaves is a piece of armor worn by the Blackwood Company, a", "c": "h", "p": []}
-{"id": "all-elder-scrolls|6516", "b": 2, "k": "armor", "n": "", "m": 1, "q": "Blackwood Helmet is a type of armor worn by the Blackwood Company, as", "c": "h", "p": []}
-{"id": "all-elder-scrolls|6517", "b": 2, "k": "armor", "n": "", "m": 1, "q": "Blackwood Shield is a type of armor worn by the Blackwood Company, as", "c": "h", "p": []}
+{"id": "all-elder-scrolls|6507", "b": 2, "k": "armor", "n": "Blades Helmet", "m": 1, "q": "The Blades Helmet is a piece of heavy armor and part of the Blades Arm", "c": "h", "p": []}
+{"id": "all-elder-scrolls|6508", "b": 2, "k": "armor", "n": "Blades Shield", "m": 1, "q": "The Blades Shield is a piece of heavy armor and part of the Blades Arm", "c": "h", "p": []}
+{"id": "all-elder-scrolls|6509", "b": 2, "k": "armor", "n": "Blades Boots", "m": 1, "q": "Blades Boots are a piece of heavy armor and part of the Blades Armor s", "c": "h", "p": []}
+{"id": "all-elder-scrolls|6510", "b": 2, "k": "armor", "n": "Blades Gauntlets", "m": 1, "q": "Blades Gauntlets are a piece of heavy armor and part of the Blades Arm", "c": "h", "p": []}
+{"id": "all-elder-scrolls|6512", "b": 2, "k": "armor", "n": "Blackwood Boots", "m": 1, "q": "Blackwood Boots is a piece of armor worn by the Blackwood Company, as ", "c": "h", "p": []}
+{"id": "all-elder-scrolls|6513", "b": 2, "k": "armor", "n": "Blackwood Cuirass", "m": 1, "q": "Blackwood Cuirass is a type of armor worn by the Blackwood Company, as", "c": "h", "p": []}
+{"id": "all-elder-scrolls|6514", "b": 2, "k": "armor", "n": "Blackwood Gauntlets", "m": 1, "q": "Blackwood Gauntlets is a type of heavy armor worn by the Blackwood Com", "c": "h", "p": []}
+{"id": "all-elder-scrolls|6515", "b": 2, "k": "armor", "n": "Blackwood Greaves", "m": 1, "q": "Blackwood Greaves is a piece of armor worn by the Blackwood Company, a", "c": "h", "p": []}
+{"id": "all-elder-scrolls|6516", "b": 2, "k": "armor", "n": "Blackwood Helmet", "m": 1, "q": "Blackwood Helmet is a type of armor worn by the Blackwood Company, as ", "c": "h", "p": []}
+{"id": "all-elder-scrolls|6517", "b": 2, "k": "armor", "n": "Blackwood Shield", "m": 1, "q": "Blackwood Shield is a type of armor worn by the Blackwood Company, as ", "c": "h", "p": []}
 {"id": "all-elder-scrolls|6520", "b": 0}
 {"id": "all-elder-scrolls|6522", "b": 0}
-{"id": "all-elder-scrolls|6530", "b": 2, "k": "weapon", "n": "", "m": 1, "q": "Blade of Hjaalmarch is a weapon in .", "c": "h", "p": []}
-{"id": "all-elder-scrolls|6533", "b": 2, "k": "weapon", "n": "", "m": 1, "q": "Blades Sword is a one-handed sword that appears in .", "c": "h", "p": []}
+{"id": "all-elder-scrolls|6530", "b": 2, "k": "weapon", "n": "Blade of Hjaalmarch", "m": 1, "q": "Blade of Hjaalmarch is a weapon in .", "c": "h", "p": []}
+{"id": "all-elder-scrolls|6533", "b": 2, "k": "weapon", "n": "Blades Sword", "m": 1, "q": "Blades Sword is a one-handed sword that appears in .", "c": "h", "p": []}
 {"id": "all-elder-scrolls|6534", "b": 0}
-{"id": "all-elder-scrolls|6537", "b": 2, "k": "weapon", "n": "", "m": 1, "q": "Blade of Haafingar is a semi-unique weapon in .", "c": "h", "p": []}
-{"id": "all-elder-scrolls|6538", "b": 2, "k": "weapon", "n": "", "m": 1, "q": "Blade of Winterhold is a semi-unique weapon found in .", "c": "h", "p": []}
-{"id": "all-elder-scrolls|6543", "b": 2, "k": "weapon", "n": "", "m": 1, "q": "Blade of the Reach is a semi-unique weapon found in .", "c": "h", "p": []}
-{"id": "all-elder-scrolls|6545", "b": 2, "k": "weapon", "n": "", "m": 1, "q": "Blade of Whiterun is a semi-unique weapon in .", "c": "h", "p": []}
+{"id": "all-elder-scrolls|6537", "b": 2, "k": "weapon", "n": "Blade of Haafingar", "m": 1, "q": "Blade of Haafingar is a semi-unique weapon in .", "c": "h", "p": []}
+{"id": "all-elder-scrolls|6538", "b": 2, "k": "weapon", "n": "Blade of Winterhold", "m": 1, "q": "Blade of Winterhold is a semi-unique weapon found in .", "c": "h", "p": []}
+{"id": "all-elder-scrolls|6543", "b": 2, "k": "weapon", "n": "Blade of the Reach", "m": 1, "q": "Blade of the Reach is a semi-unique weapon found in .", "c": "h", "p": []}
+{"id": "all-elder-scrolls|6545", "b": 2, "k": "weapon", "n": "Blade of Whiterun", "m": 1, "q": "Blade of Whiterun is a semi-unique weapon in .", "c": "h", "p": []}
 {"id": "all-elder-scrolls|6549", "b": 0}
 {"id": "all-elder-scrolls|6550", "b": 0}
-{"id": "all-elder-scrolls|6559", "b": 2, "k": "weapon", "n": "", "m": 1, "q": "Blade of the Pale is a semi-unique weapon found in .", "c": "h", "p": []}
-{"id": "all-elder-scrolls|6560", "b": 2, "k": "weapon", "n": "", "m": 1, "q": "Blade of Falkreath is a semi-unique weapon in , and is one of several", "c": "h", "p": []}
-{"id": "all-elder-scrolls|6561", "b": 2, "k": "weapon", "n": "", "m": 1, "q": "Blade of the Rift is a semi-unique weapon in .", "c": "h", "p": []}
-{"id": "all-elder-scrolls|6562", "b": 2, "k": "armor", "n": "", "m": 1, "q": "Blades Cuirass is a heavy armor cuirass available in .", "c": "h", "p": []}
-{"id": "all-elder-scrolls|6563", "b": 2, "k": "armor", "n": "", "m": 1, "q": "Blades Greaves are a piece of heavy armor in , and are a part of the B", "c": "h", "p": []}
-{"id": "all-elder-scrolls|6583", "b": 2, "k": "weapon", "n": "", "m": 1, "q": "Blessed Spear is a unique two-handed weapon.", "c": "h", "p": []}
-{"id": "all-elder-scrolls|6584", "b": 2, "k": "weapon", "n": "", "m": 1, "q": "Bleeder Dart is a throwing weapon used by the Black Dart Gang in the O", "c": "h", "p": []}
+{"id": "all-elder-scrolls|6559", "b": 2, "k": "weapon", "n": "Blade of the Pale", "m": 1, "q": "Blade of the Pale is a semi-unique weapon found in .", "c": "h", "p": []}
+{"id": "all-elder-scrolls|6560", "b": 2, "k": "weapon", "n": "Blade of Falkreath", "m": 1, "q": "Blade of Falkreath is a semi-unique weapon in , and is one of several ", "c": "h", "p": []}
+{"id": "all-elder-scrolls|6561", "b": 2, "k": "weapon", "n": "Blade of the Rift", "m": 1, "q": "Blade of the Rift is a semi-unique weapon in .", "c": "h", "p": []}
+{"id": "all-elder-scrolls|6562", "b": 2, "k": "armor", "n": "Blades Cuirass", "m": 1, "q": "Blades Cuirass is a heavy armor cuirass available in .", "c": "h", "p": []}
+{"id": "all-elder-scrolls|6563", "b": 2, "k": "armor", "n": "Blades Greaves", "m": 1, "q": "Blades Greaves are a piece of heavy armor in , and are a part of the B", "c": "h", "p": []}
+{"id": "all-elder-scrolls|6583", "b": 2, "k": "weapon", "n": "Blessed Spear", "m": 1, "q": "Blessed Spear is a unique two-handed weapon.", "c": "h", "p": []}
+{"id": "all-elder-scrolls|6584", "b": 2, "k": "weapon", "n": "Bleeder Dart", "m": 1, "q": "Bleeder Dart is a throwing weapon used by the Black Dart Gang in the O", "c": "h", "p": []}
 {"id": "all-elder-scrolls|6585", "b": 0}
 {"id": "all-elder-scrolls|6586", "b": 0}
 {"id": "all-elder-scrolls|6636", "b": 0}
 {"id": "all-elder-scrolls|6678", "b": 0}
 {"id": "all-elder-scrolls|6780", "b": 0}
-{"id": "all-elder-scrolls|6807", "b": 0}
+{"id": "all-elder-scrolls|6807", "b": 2, "k": "armor", "n": "Blades Ebony Shield", "m": 1, "q": "Blades Ebony Shield is a shield in that is a part of the Alternative A", "c": "h", "p": []}
 {"id": "all-elder-scrolls|6822", "b": 0}
 {"id": "all-elder-scrolls|6829", "b": 0}
 {"id": "all-elder-scrolls|6830", "b": 1, "n": "Bolnor Andrani", "p": [], "x": []}
 {"id": "all-elder-scrolls|6847", "b": 0}
-{"id": "all-elder-scrolls|6855", "b": 2, "k": "armor", "n": "", "m": 1, "q": "The Bloodworm Helm is a helmet quest item that is part of the Mages Gu", "c": "h", "p": []}
+{"id": "all-elder-scrolls|6855", "b": 2, "k": "armor", "n": "Bloodworm Helm", "m": 1, "q": "The Bloodworm Helm is a helmet quest item that is part of the Mages Gu", "c": "h", "p": []}
 {"id": "all-elder-scrolls|6857", "b": 0}
-{"id": "all-elder-scrolls|6899", "b": 2, "k": "weapon", "n": "", "m": 3, "q": "Boethiah's Walking Stick is an enchanted staff that summons an ancesto", "c": "h", "p": []}
-{"id": "all-elder-scrolls|6910", "b": 2, "k": "weapon", "n": "", "m": 1, "q": "Bloodskal is a unique weapon found in .", "c": "h", "p": []}
-{"id": "all-elder-scrolls|6920", "b": 2, "k": "weapon", "n": "", "m": 1, "q": "Bloodskal Blade is a unique Two-Handed weapon found in .", "c": "h", "p": []}
+{"id": "all-elder-scrolls|6899", "b": 2, "k": "weapon", "n": "Boethiah's Walking Stick", "m": 2, "q": "Boethiah's Walking Stick is an enchanted staff that summons an ancesto", "c": "h", "p": []}
+{"id": "all-elder-scrolls|6910", "b": 2, "k": "weapon", "n": "Bloodskal", "m": 1, "q": "Bloodskal is a unique weapon found in .", "c": "h", "p": []}
+{"id": "all-elder-scrolls|6920", "b": 2, "k": "weapon", "n": "Bloodskal Blade", "m": 1, "q": "Bloodskal Blade is a unique Two-Handed weapon found in .", "c": "h", "p": []}
 {"id": "all-elder-scrolls|6924", "b": 0}
-{"id": "all-elder-scrolls|6931", "b": 2, "k": "weapon", "n": "", "m": 1, "q": "Blood Axe is a two-handed axe in that is enchanted to decrease an oppo", "c": "h", "p": []}
+{"id": "all-elder-scrolls|6931", "b": 2, "k": "weapon", "n": "Blood Axe", "m": 1, "q": "Blood Axe is a two-handed axe in that is enchanted to decrease an oppo", "c": "h", "p": []}
 {"id": "all-elder-scrolls|6946", "b": 0}
 {"id": "all-elder-scrolls|7015", "b": 0}
 {"id": "all-elder-scrolls|7043", "b": 0}
-{"id": "all-elder-scrolls|7052", "b": 2, "k": "armor", "n": "", "m": 1, "q": "Wyress Mantle is a pair of light armor chest armor the Vestige can rec", "c": "h", "p": []}
-{"id": "all-elder-scrolls|7100", "b": 2, "k": "weapon", "n": "", "m": 3, "q": "Bloodthirst is a legendary artifact, a versatile and slashing weapon.", "c": "h", "p": []}
+{"id": "all-elder-scrolls|7052", "b": 0}
+{"id": "all-elder-scrolls|7100", "b": 2, "k": "weapon", "n": "Bloodthirst", "m": 2, "q": "Bloodthirst is a legendary artifact, a versatile and slashing weapon.", "c": "h", "p": []}
 {"id": "all-elder-scrolls|7101", "b": 0}
 {"id": "all-elder-scrolls|7117", "b": 0}
 {"id": "all-elder-scrolls|7122", "b": 0}
-{"id": "all-elder-scrolls|7155", "b": 2, "k": "armor", "n": "", "m": 1, "q": "Boiled Netch Leather Helmet is a piece of armor in that is a part of t", "c": "h", "p": []}
-{"id": "all-elder-scrolls|7156", "b": 2, "k": "armor", "n": "", "m": 1, "q": "Boiled Netch Leather Armor is a piece of armor in that is a part of th", "c": "h", "p": []}
-{"id": "all-elder-scrolls|7175", "b": 2, "k": "armor", "n": "", "m": 1, "q": "Boneweave Gauntlet is an enchanted left gauntlet that creates a magica", "c": "h", "p": []}
-{"id": "all-elder-scrolls|7176", "b": 2, "k": "armor", "n": "", "m": 1, "q": "The Bonedancer Gauntlet is a gauntlet in , similar to those made of Ch", "c": "h", "p": []}
-{"id": "all-elder-scrolls|7223", "b": 2, "k": "armor", "n": "", "m": 1, "q": "Bonemold Cuirass is a type of Bonemold Armor found in .", "c": "h", "p": []}
-{"id": "all-elder-scrolls|7224", "b": 2, "k": "armor", "n": "", "m": 1, "q": "Bonemold Helm are a type of Bonemold Armor found in .", "c": "h", "p": []}
-{"id": "all-elder-scrolls|7225", "b": 2, "k": "armor", "n": "", "m": 1, "q": "Bonemold Left Pauldron is a type of Bonemold armor found in .", "c": "h", "p": []}
-{"id": "all-elder-scrolls|7228", "b": 2, "k": "armor", "n": "", "m": 1, "q": "Bonemold Greaves are a part of the Bonemold Armor set.", "c": "h", "p": []}
-{"id": "all-elder-scrolls|7230", "b": 2, "k": "armor", "n": "", "m": 1, "q": "Bonemold Right Pauldrons are a type of Bonemold Armor found in .", "c": "h", "p": []}
+{"id": "all-elder-scrolls|7155", "b": 2, "k": "armor", "n": "Boiled Netch Leather Helmet", "m": 1, "q": "Boiled Netch Leather Helmet is a piece of armor in that is a part of t", "c": "h", "p": []}
+{"id": "all-elder-scrolls|7156", "b": 2, "k": "armor", "n": "Boiled Netch Leather Armor", "m": 1, "q": "Boiled Netch Leather Armor is a piece of armor in that is a part of th", "c": "h", "p": []}
+{"id": "all-elder-scrolls|7175", "b": 2, "k": "armor", "n": "Boneweave Gauntlet", "m": 1, "q": "Boneweave Gauntlet is an enchanted left gauntlet that creates a magica", "c": "h", "p": []}
+{"id": "all-elder-scrolls|7176", "b": 2, "k": "armor", "n": "Bonedancer Gauntlet", "m": 1, "q": "The Bonedancer Gauntlet is a gauntlet in , similar to those made of Ch", "c": "h", "p": []}
+{"id": "all-elder-scrolls|7223", "b": 2, "k": "armor", "n": "Bonemold Cuirass", "m": 1, "q": "Bonemold Cuirass is a type of Bonemold Armor found in .", "c": "h", "p": []}
+{"id": "all-elder-scrolls|7224", "b": 2, "k": "armor", "n": "Bonemold Helm", "m": 1, "q": "Bonemold Helm are a type of Bonemold Armor found in .", "c": "h", "p": []}
+{"id": "all-elder-scrolls|7225", "b": 2, "k": "armor", "n": "Bonemold Left Pauldron", "m": 1, "q": "Bonemold Left Pauldron is a type of Bonemold armor found in .", "c": "h", "p": []}
+{"id": "all-elder-scrolls|7228", "b": 2, "k": "armor", "n": "Bonemold Greaves", "m": 1, "q": "Bonemold Greaves are a part of the Bonemold Armor set.", "c": "h", "p": []}
+{"id": "all-elder-scrolls|7230", "b": 2, "k": "armor", "n": "Bonemold Right Pauldrons", "m": 1, "q": "Bonemold Right Pauldrons are a type of Bonemold Armor found in .", "c": "h", "p": []}
 {"id": "all-elder-scrolls|7236", "b": 0}
-{"id": "all-elder-scrolls|7241", "b": 2, "k": "weapon", "n": "", "m": 1, "q": "Bonebiter Bow of Sul-Senipul is an enchanted bow in .", "c": "h", "p": []}
-{"id": "all-elder-scrolls|7250", "b": 2, "k": "armor", "n": "", "m": 1, "q": "Boots of the Cutpurse is a piece of armor found in .", "c": "h", "p": []}
-{"id": "all-elder-scrolls|7251", "b": 2, "k": "armor", "n": "", "m": 1, "q": "Boots of the Forest Stalker are a type of light armor found in .", "c": "h", "p": []}
+{"id": "all-elder-scrolls|7241", "b": 2, "k": "weapon", "n": "Bonebiter Bow of Sul-Senipul", "m": 1, "q": "Bonebiter Bow of Sul-Senipul is an enchanted bow in .", "c": "h", "p": []}
+{"id": "all-elder-scrolls|7250", "b": 2, "k": "armor", "n": "Boots of the Cutpurse", "m": 1, "q": "Boots of the Cutpurse is a piece of armor found in .", "c": "h", "p": []}
+{"id": "all-elder-scrolls|7251", "b": 2, "k": "armor", "n": "Boots of the Forest Stalker", "m": 1, "q": "Boots of the Forest Stalker are a type of light armor found in .", "c": "h", "p": []}
 {"id": "all-elder-scrolls|7258", "b": 0}
 {"id": "all-elder-scrolls|7259", "b": 0}
 {"id": "all-elder-scrolls|7265", "b": 0}
-{"id": "all-elder-scrolls|7270", "b": 2, "k": "armor", "n": "", "m": 1, "q": "The Boots of the Old Gods are a unique piece of light armor and part o", "c": "h", "p": []}
-{"id": "all-elder-scrolls|7272", "b": 2, "k": "armor", "n": "", "m": 1, "q": "Bonemold Gauntlets are a piece of heavy armor and part of the Bonemold", "c": "h", "p": []}
-{"id": "all-elder-scrolls|7273", "b": 2, "k": "armor", "n": "", "m": 1, "q": "Bonemold Guard Armor is a piece of heavy armor and part of the Bonemol", "c": "h", "p": []}
-{"id": "all-elder-scrolls|7274", "b": 2, "k": "armor", "n": "", "m": 1, "q": "The Bonemold Helmet is a piece of heavy armor and part of the Bonemold", "c": "h", "p": []}
-{"id": "all-elder-scrolls|7275", "b": 2, "k": "armor", "n": "", "m": 1, "q": "Bonemold Armor is a piece of heavy armor and part of the Bonemold armo", "c": "h", "p": []}
+{"id": "all-elder-scrolls|7270", "b": 2, "k": "armor", "n": "Boots of the Old Gods", "m": 1, "q": "The Boots of the Old Gods are a unique piece of light armor and part o", "c": "h", "p": []}
+{"id": "all-elder-scrolls|7272", "b": 2, "k": "armor", "n": "Bonemold Gauntlets", "m": 1, "q": "Bonemold Gauntlets are a piece of heavy armor and part of the Bonemold", "c": "h", "p": []}
+{"id": "all-elder-scrolls|7273", "b": 2, "k": "armor", "n": "Bonemold Guard Armor", "m": 1, "q": "Bonemold Guard Armor is a piece of heavy armor and part of the Bonemol", "c": "h", "p": []}
+{"id": "all-elder-scrolls|7274", "b": 2, "k": "armor", "n": "Bonemold Helmet", "m": 1, "q": "The Bonemold Helmet is a piece of heavy armor and part of the Bonemold", "c": "h", "p": []}
+{"id": "all-elder-scrolls|7275", "b": 2, "k": "armor", "n": "Bonemold Armor", "m": 1, "q": "Bonemold Armor is a piece of heavy armor and part of the Bonemold armo", "c": "h", "p": []}
 {"id": "all-elder-scrolls|7281", "b": 0}
 {"id": "all-elder-scrolls|7284", "b": 1, "n": "Borwen", "p": [], "x": []}
 {"id": "all-elder-scrolls|7357", "b": 1, "n": "Borgath the Axe", "p": [], "x": []}
@@ -236,15 +236,15 @@
 {"id": "all-elder-scrolls|7381", "b": 0}
 {"id": "all-elder-scrolls|7395", "b": 1, "n": "Bosun Guldarol", "p": [], "x": []}
 {"id": "all-elder-scrolls|7398", "b": 1, "n": "Borfree Dull-Blade", "p": [], "x": []}
-{"id": "all-elder-scrolls|7403", "b": 2, "k": "weapon", "n": "", "m": 1, "q": "Bonesplinter of the Trainee is a one-handed mace found in .", "c": "h", "p": []}
+{"id": "all-elder-scrolls|7403", "b": 2, "k": "weapon", "n": "Bonesplinter of the Trainee", "m": 1, "q": "Bonesplinter of the Trainee is a one-handed mace found in .", "c": "h", "p": []}
 {"id": "all-elder-scrolls|7418", "b": 0}
-{"id": "all-elder-scrolls|7423", "b": 0}
+{"id": "all-elder-scrolls|7423", "b": 2, "k": "armor", "n": "Boots", "m": 1, "q": "Boots are an armor piece in .", "c": "h", "p": []}
 {"id": "all-elder-scrolls|7438", "b": 1, "n": "Bosun Narz", "p": [], "x": []}
 {"id": "all-elder-scrolls|7466", "b": 0}
 {"id": "all-elder-scrolls|7467", "b": 0}
-{"id": "all-elder-scrolls|7483", "b": 2, "k": "weapon", "n": "", "m": 1, "q": "Bow of Infernal Frost is a unique enchanted Dwarven bow in .", "c": "h", "p": []}
+{"id": "all-elder-scrolls|7483", "b": 2, "k": "weapon", "n": "Bow of Infernal Frost", "m": 1, "q": "Bow of Infernal Frost is a unique enchanted Dwarven bow in .", "c": "h", "p": []}
 {"id": "all-elder-scrolls|7485", "b": 0}
 {"id": "all-elder-scrolls|7486", "b": 0}
-{"id": "all-elder-scrolls|7490", "b": 2, "k": "weapon", "n": "", "m": 1, "q": "The Bow of Infliction is an unique enchanted ebony bow sold by Daenlin", "c": "h", "p": []}
-{"id": "all-elder-scrolls|7496", "b": 2, "k": "armor", "n": "", "m": 1, "q": "The Bravil Shield is a special Light Iron Shield worn by members of th", "c": "h", "p": []}
+{"id": "all-elder-scrolls|7490", "b": 2, "k": "weapon", "n": "Bow of Infliction", "m": 1, "q": "The Bow of Infliction is an unique enchanted ebony bow sold by Daenlin", "c": "h", "p": []}
+{"id": "all-elder-scrolls|7496", "b": 2, "k": "armor", "n": "Bravil Shield", "m": 1, "q": "The Bravil Shield is a special Light Iron Shield worn by members of th", "c": "h", "p": []}
 {"id": "all-elder-scrolls|7507", "b": 0}
