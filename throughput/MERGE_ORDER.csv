@@ -93,3 +93,5 @@ wave,repo,number,base,head,partner,title
 0,ports,309,diaithircompat,claude/survey-p2-classtrees,,"Survey p2: class skill trees in diaithir-classes"
 0,ports,312,diaithircompat,claude/survey-p2-munitions,,"Survey p2: ammo box in diaithir-firearms"
 1,ports,313,claude/survey-p2-arms,claude/survey-p2-gadgets,307,"Survey p2: sentry turret and mining laser in diaithir-arms (stacked on #307)"
+0,ports,316,diaithircompat,claude/survey-p2-yori,,"Survey p2: Yori3o jewellery stage 1 in diaithir-relics"
+0,ports,317,diaithircompat,claude/survey-p2-betteranim,,"Survey p2: Better Animations Collection stage 1 spec and maths in diaithir-entity-animation"
