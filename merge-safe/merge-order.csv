@@ -168,7 +168,6 @@ wave,repo,number,base,head,partner,title
 1,ports,241,claude/project-thread-x93lm4,claude/project-thread-wn0g9i,,Planets: 64 px flora art and colony icons
 1,ports,243,claude/biomes-dimensions-module,claude/natures-spirit-port,,Port Nature's Spirit into diaithir-overworld-biomes
 1,ports,248,claude/ships-yard-2,claude/survey-p1-aircraft,,diaithir-arms aircraft: Simple Planes upgrade + helicopter fold (survey p1)
-1,ports,249,claude/ships-yard-2,claude/survey-p1-propulsion,,diaithir-ships keelwright: Create: Propulsion fold (survey p1)
 1,ports,254,claude/project-thread-60ba9h,claude/project-thread-itscke,,Spawn-to-Gate headless pipeline (S6927) + bosses worldgen-thread RNG fix
 1,ports,256,claude/biomes-dimensions-module,claude/macaws-bop-bees,,"Macaw-style building set, BOP gap blocks and 32 species bees"
 1,ports,260,claude/ships-yard-2,claude/survey-p1-lasers,,diaithir-travel-structures: laser bridges and fences
@@ -179,7 +178,6 @@ wave,repo,number,base,head,partner,title
 1,ports,277,claude/project-thread-t2mxfg,claude/bridges-fuel-ports,,"Bridges: carrier tank, magic carrier, locomotive charger, signal ports"
 1,ports,281,claude/ships-yard-2,claude/survey-p1-iwt,,"diaithir-storagenet: wireless transmitter, cross-dimension link"
 1,ports,285,claude/survey-p4-mca-capitals,claude/survey-p4-tale-of-kingdoms,,Capital taxes and treasury (Tale of Kingdoms idea)
-1,ports,286,claude/project-thread-76qqfy,claude/project-thread-y6lcwn,,"Megamachines: dig head block, assay hook, dig core moved into ships"
 1,ports,293,claude/ships-yard-2,claude/survey-p1-decks,,diaithir-ships archimedes: deck walking
 1,ports,295,claude/pack-v1-3-wave7,claude/pack-v1-3-wave9,,"Wave 8-9: worldgen-structures 1.0.6, client-suite package fix, entity-animation 1.0.2"
 1,ports,296,claude/ships-yard-2,claude/survey-p1-gantries,,diaithir-create-gantries: gantry split on the Create port
@@ -224,14 +222,12 @@ wave,repo,number,base,head,partner,title
 0,global-repo,45,,,,MERGE_ORDER: reconcile with all open ready PRs (208 rows)
 0,global-repo,46,,,,"Item roles: use scan, 23.8k role assignments, report"
 0,global-repo,47,,,,"MERGE_ORDER: survey p1 carts, harbour module and harbour yards"
-0,global-repo,48,,,,Register S6950 gen_tags_extra and update S0317
 0,ports,297,,,,"Survey p6: client QoL ports (pickup notifier, bars, balloons, AutoHUD, tooltips, mouse tweaks, zoom, GUI scale, chat)"
 0,ports,298,,,,"Survey p6: audio folded into clientcore, Structure Compass into worldsys"
 0,ports,299,,,,Survey p6: Packet Fixer and Ksyxis folded into crash-tools
 0,ports,300,,,,"create-neoforge: gantry split as a separate GPL-3.0 module in the Create port jar (survey p1, replaces #296)"
 0,ports,301,,,,"diaithir-bosses: Shardfall Gate (clean-room Boss Checklist, survey p2)"
 0,ports,302,,,,diaithir-gear: port Tool Belt (BSD-3) to 26.1 (survey p2)
-0,ports,303,,,,"diaithir-carts: cart loader and unloader (clean-room, survey part 1)"
 0,ports,304,,,,"Survey p6: mixin and render perf folds (Alternate Current, Falling Leaves, Sky Aesthetics, ImmediatelyFast, Disable Accessibility)"
 0,ports,306,,,,"diaithir-harbour: new module, mooring bollard (survey part 1, harbours)"
 0,ports,307,,,,"diaithir-arms: 30-item melee roster, Spartan Weaponry behaviour (survey p2)"
@@ -256,25 +252,18 @@ wave,repo,number,base,head,partner,title
 12,ports,342,claude/pack-v1-3-wave11,claude/pack-v1-3-wave12,rpg#276,"Wave 12: 88 open-licence downloads folded into seven suites (client 110 jars, server 95) [merge after ports #330]"
 12,rpg,276,claude/pack-v1-3-wave11,claude/pack-v1-3-wave12,ports#342,Wave 12 pack inputs [merge with ports #342]
 13,ports,343,claude/pack-v1-3-wave12,claude/pack-v1-3-wave13,rpg#277,Wave 13: client suite absorbs four client jars (client 106 jars) [merge after ports #342]
-13,rpg,277,claude/pack-v1-3-wave12,claude/pack-v1-3-wave13,ports#343,Wave 13 pack inputs [merge with ports #343]
 0,ports,344,diaithircompat,claude/claims-serverwaypoint,,claims: move Server Waypoint into diaithir-claims so it compiles alone (merge before the next pack rebuild)
 2,ports,340,diaithircompat,claude/vehicle-carriers,,"Vehicles carry cargo: cars, trucks, trailers and tanks as cargo carriers (after #221 and #229)"
 2,ports,345,diaithircompat,claude/cars-engine-icons,,Cars spawn with an engine (petrol engines use the avgas fuel type) and car and truck item icons
 3,ports,346,diaithircompat,claude/nested-bay-save,,"Containers on vehicles keep their loads through a save (after #340, merged)"
 14,ports,347,claude/pack-v1-3-wave13,claude/pack-v1-3-wave14,rpg#278,"Wave 14: drop 14 library and FTB jars per RPG #265 (client 91, server 80) [merge after ports #343]"
-14,rpg,278,claude/pack-v1-3-wave13,claude/pack-v1-3-wave14,ports#347,Wave 14 pack inputs [merge with ports #347]
 0,ports,337,,,,"diaithir-animation-machines: own package and mod id, bone-derived rules for 450 machines"
 0,ports,338,,,,Fold Agritech: Evolved and Hydrofarm into diaithir-farmkitchen; move the reaper there
 0,ports,341,,,,Ships carry cargo: yard and Eureka ships as containers-API carriers
 0,global-repo,54,main,,,"Headless bot: cars drive, cargo and nested save tests"
 2,ports,348,diaithircompat,claude/loco-infobox-six,,Carts roster: GG1 power and TGV start year from infoboxes (tiny)
 0,global-repo,52,main,claude/project-thread-ldq153,,Register S6940 gen_farm_assets.py (diaithir-carts reaper)
-0,global-repo,56,main,claude/project-thread-66n6wn,rpg#280,"Assign an Age to every item with none (assign_ages.py S6957) [edits SCRIPTS_INDEX.md and ids.tsv: merge one at a time, rebuild index on conflict]"
-0,rpg,280,engine,claude/project-thread-66n6wn,global-repo#56,"tech_ages: an Age for every item (V1 audit 5,989 no-Age ids to 0)"
-2,ports,350,diaithircompat,claude/project-thread-i08s9l,,"Woodvariants: own diaithirtrees woods (about 4,000 broken models fixed) + gapfill tool"
-2,ports,351,claude/pack-v1-3,claude/gapfill-overlay,,"Pack: kubejs overlay for 181 unresolved textures and 57 missing parent models"
-0,global-repo,57,main,claude/project-thread-o0km67,rpg#279,"Item roles: retry results (29,967), kubejs exporter, merge row [edits SCRIPTS_INDEX.md and ids.tsv: merge one at a time, rebuild index on conflict]"
-0,rpg,279,claude/pack-v1-3,claude/project-thread-o0km67,global-repo#57,"Item roles module: role data for 30k items, global.itemRole, tooltip"
+0,global-repo,56,main,claude/project-thread-66n6wn,,"Assign an Age to every item with none (assign_ages.py S6957) [edits SCRIPTS_INDEX.md and ids.tsv: merge one at a time, rebuild index on conflict]"
+0,global-repo,57,main,claude/project-thread-o0km67,,"Item roles: retry results (29,967), kubejs exporter, merge row [edits SCRIPTS_INDEX.md and ids.tsv: merge one at a time, rebuild index on conflict]"
 2,ports,352,,claude/ships-runclasspath-fix,,Ships: run classpath fix (dev server starts, self-test passes)
 15,ports,353,claude/pack-v1-3,claude/pack-v1-3-wave15,rpg#281,"Wave 15: biomes module (Aerial Hell, Aether II, Undergarden, Backwoods) in worldgen suite, sound occlusion NPE fix (client 87, server 76) [merge with RPG #281]"
-15,rpg,281,claude/pack-v1-3-wave7,claude/pack-v1-3-wave15,ports#353,Wave 15 pack inputs [merge with ports #353]
