@@ -55,6 +55,14 @@ with Lane('tank', JARS, client_files=CF, srv_xmx='3G', out=out) as L:
             L.shot('06_fuel_drive1.png')
             json.dump(rep, open(os.path.join(sys.argv[1], 'tank_report.json'), 'w'), indent=1, default=str)
             raise SystemExit
+        if os.environ.get('TANK_FIRE_FIRST'):  # fire while seated, stopped, before driving (a tp after driving drops the seat)
+            ENT0 = "execute as Tester at Tester run say ents: @e[distance=..80,type=!player]"
+            ents0 = lambda: ' '.join(S(ENT0, 1.0)).split('ents: ')[-1]
+            rep['ff_seat_check'] = S('data get entity Tester RootVehicle', 0.6)
+            rep['ff_before'] = ents0(); nl = len(L.log_lines('server', r'.'))
+            d.hold('space', 3.0); time.sleep(0.5); L.shot('05a_fire_seated.png'); d.hold('space', 0.2); time.sleep(0.3); L.shot('05b_fire_seated_tap.png')
+            rep['ff_after'] = ents0(); rep['ff_server_lines'] = [l[:240] for l in L.log_lines('server', r'.')[nl:] if 'ents:' not in l][:15]
+            rep['ff_vehicle_after'] = ''.join(S('data get entity @e[type=mts:builder_existing,limit=1,sort=nearest]', 1.5))[:100]
         VL = lambda: [l.split(']: ', 1)[-1] for l in L.log_lines('server', r't-\d+s .*engines=')]
         n0 = len(VL()); DV('watch 12', 0.5); d.hold('w', 12); time.sleep(2); rep['watch_W_held'] = VL()[n0:]; L.shot('03_hud_W_held.png')
         n1 = len(VL()); DV('watch 12', 0.5); time.sleep(14); rep['watch_W_released'] = VL()[n1:]

@@ -7,8 +7,8 @@ out = sys.argv[1] if len(sys.argv) > 1 else None; rep = {}
 with Lane('belt', JARS, srv_xmx='3G', out=out) as L:
     rep['joined'] = L.start_client(); d = L.drive; S = L.server_cmd
     S('gamemode creative Tester'); S('time set day'); S('tp Tester 0.5 -60 0.5 0 15', 1); L.wait_render()
-    S('give Tester toolbelt:belt'); S('give Tester minecraft:diamond_pickaxe'); S('give Tester minecraft:iron_sword'); time.sleep(1)
-    d.key('1'); time.sleep(0.5); L.shot('01_belt_held.png')
+    S('give Tester toolbelt:belt'); S('give Tester toolbelt:pouch'); S('give Tester minecraft:diamond_pickaxe'); S('give Tester minecraft:iron_sword'); time.sleep(1)
+    d.key('1'); time.sleep(0.5); L.shot('01_belt_held.png'); d.key('2'); time.sleep(0.5); L.shot('01b_pouch_held.png'); d.key('1')
     rep['curios'] = S('curios replace belt 0 Tester with toolbelt:belt', 1.2); time.sleep(1.5)
     rep['curios_list'] = S('data get entity Tester Inventory', 1)[0][:300]
     L.shot('02_after_equip.png')
