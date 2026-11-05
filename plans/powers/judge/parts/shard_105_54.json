@@ -1,0 +1,17 @@
+{"d":0,
+"b1":[54,55,58,59,63,64,66,67,71,72,74,76,78,82,84,86,88,90,94],
+"n":{},
+"p":{},
+"W":{
+"57":["vehicle","A6M Zero",2,"is a fighter aircraft","h"],
+"61":["weapon","ACR",1,"is an assault rifle","h"],
+"65":["weapon","AUG",1,"is a bullpup rifle","h"],
+"69":["weapon","AN-94",1,"is an assault rifle","h"],
+"73":["weapon","AK-74",1,"is an assault rifle","h"],
+"77":["weapon","AUG",1,"is a bullpup rifle","h"],
+"81":["weapon","AUG",1,"is a bullpup rifle","h"],
+"85":["vehicle","APC",2,"is an armored fighting vehicle","h"],
+"89":["weapon","LA-B 330",1,"is a bolt-action sniper rifle","h"],
+"93":["vehicle","A-10 Thunderbolt II",2,"is a straight-wing ground-attack jet","h"]},
+"x":{"59":["foresight"],"63":["foresight"],"90":["foresight"],"64":["balrog fire whip"],"66":["elven magic"],"67":["stone-singing"],"58":["stone-singing"],"71":["ranger archery"],"76":["necromancy"],"88":["shapeshift charm"],"78":["heated axes"]},
+"u0":{"87":"NO-SOURCE row in batch"}}
