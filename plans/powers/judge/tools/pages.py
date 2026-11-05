@@ -120,13 +120,14 @@ def resolve(n):
                     f, ex = got[namef(r['text'])]
                     if ex == '(no extract)': weak.setdefault(i, (f, h))
                     elif ex and match(r['text'], ex): res[i] = (f, h)
+                    elif ex and ex != '(no extract)' and re.match(r'\s*\{\{', r['text']): res[i] = (f, h)  # template-start row: the page named by its Name/MainPage field
         todo = [(i, r) for i, r in todo if i not in res]
     for i, r in todo:  # fallback: full-text search on each host
         w = r['id'].rsplit('|', 1)[0]
         for h in HOSTS.get(w, []):
             try:
                 c = []
-                for q in (r['text'][:100], namef(r['text']), ' '.join(namef(r['text']).split()[1:])):
+                for q in (r['text'][:100], r['text'][60:160], namef(r['text']), ' '.join(namef(r['text']).split()[1:])):
                     if q: c += [x['title'] for x in api(h, {'action': 'query', 'list': 'search', 'srsearch': q, 'srlimit': 3, 'srnamespace': 0})['query']['search'] if x['title'] not in c]
                 got = intro(h, c) if c else {}
             except Exception: continue
