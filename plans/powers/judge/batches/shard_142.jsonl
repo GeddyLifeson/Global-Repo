@@ -1,0 +1,250 @@
+{"id": "all-fallout|27350", "text": "The miner's helmet is a piece of clothing that was to appear in Van Buren, the canceled Fallout 3 by Black Isle Studios."}
+{"id": "all-fallout|27437", "text": "The Miniplague-65 is a weapon concept that was considered for inclusion in Van Buren, the cancelled Fallout 3 by Black Isle Studios."}
+{"id": "all-fallout|27470", "text": "This script is used to track when the player enters a trigger zone near a wrecked car to cause Arkansas, the sniper, fires a shot using a Sniper Rifle at a designated reference point. If Arkansas is not currently en route to Paradise Falls (for Strictly Business), he will then enter combat with the player."}
+{"id": "all-fallout|27504", "text": "{{Transcript|text= Scriptname MinFlareGunExplosionScript extends ObjectReference Const {script for calling for Minuteman help with a flare gun } Keyword Property MinFlareGunStart Auto Const Message Property MinFlareGunFailureMessage Auto Const Mandatory Faction Property MinutemenFaction auto const Mandatory Worldspace Property Commonwealth auto const Mandatory Quest Property MinFlareGun auto const Mandatory REParentScript Property REParent Auto const mandatory event OnInit() ; send RE cleanup event - try to stop flare gun quest if currently waiting to shut down REParent.SendCustomEvent(\"RECheckForCleanup\") utility.wait(1.0) if MinFlareGunStart.SendStoryEventAndWait(akLoc = GetCurrentLocation(), akRef1 = self) == false debug.trace(self + \" MinFlareGun didn't start\") if GetWorldspace() == Commonwealth && Game.GetPlayer().IsInFaction(MinutemenFaction) && MinFlareGun.IsRunning() == false MinFlareGunFailureMessage.Show() endif endif endEvent }}"}
+{"id": "all-fallout|27590", "text": "The mobile base crawler, also known as the Enclave Mobile Platform and the Adams AFB Mobile Platform, is a large command vehicle found at Adams Air Force Base ."}
+{"id": "all-fallout|27594", "text": "The mobile science lab is a drivable vehicle available in the southwest."}
+{"id": "all-fallout|27609", "text": "The missing laser pistol is a weapon in Fallout: New Vegas, and a quest item relevant to the unmarked quest Pistol Packing."}
+{"id": "all-fallout|27612", "text": "The missile launcher guidance system is a weapon mod in Fallout: New Vegas."}
+{"id": "all-fallout|27624", "text": "Doctor Mobius is a think tank operating in the Big MT in 2281. He is the leader of the robo-scorpion army and nemesis of Dr. Klein and the team to which he belonged."}
+{"id": "all-fallout|27650", "text": "The mole rat den is a cave in the Commonwealth in 2287. It is located directly south of the Red Rocket truck stop, which is located across the bridge from Sanctuary Hills."}
+{"id": "all-fallout|27655", "text": "The missile carrier was a pre-War vehicle used by the United States Armed Forces."}
+{"id": "all-fallout|27745", "text": "Moldaver's armor is a legendary outfit in Fallout Shelter. It was added in the 1.17.0 update."}
+{"id": "all-fallout|27746", "text": "The modified baseball is a type of ammunition \"Makeshift Weapon Pack\" and included in the next-gen update."}
+{"id": "all-fallout|27747", "text": "The modified baseball grenade is a type of ammunition \"Makeshift Weapon Pack\" and included in the next-gen update."}
+{"id": "all-fallout|27762", "text": "{{Transcript|text= Scriptname MoleratDirtFXScript extends Actor {Adds and manages the dirt on molerats} Armor Property SkinMoleratDirt Auto VisualEffect Property MoleratDirtParticlesE Auto Int stepper = 2 Event OnDying(Actor akKiller) if MoleratDirtParticlesE MoleratDirtParticlesE.Stop(self) GotoState(\"done\") endif EndEvent Event OnUnload() UnregisterForAllHitEvents() EndEvent Auto State active Event OnLoad() ;Register for ambush event. ; RegisterForAnimationEvent(self, \"Open\") ;;;self.equipItem(SkinMoleratDirt) if Is3DLoaded() MoleratDirtParticlesE.Play(self) RegisterForHitEvent(self) ; listen for a single event EndIf EndEvent Event OnGetUp(ObjectReference akFurniture) Self.playSubgraphAnimation(\"stage\" + stepper) debug.trace(\"I woke up....stage\" + stepper) stepper = stepper+1 endEvent Event OnHit(ObjectReference akTarget, ObjectReference akAggressor, Form akSource, Projectile akProjectile, bool abPowerAttack, bool abSneakAttack, bool abBashAttack, bool abHitBlocked, string asMaterialName) if (stepper == 4) utility.wait(3) MoleratDirtParticlesE.Stop(self) self.unequipItem(SkinMoleratDirt) GotoState(\"done\") elseif (stepper = stepper+1 GotoState(\"inActive\") else RegisterForHitEvent(self) ; listen for a hit again... endif EndEvent EndState State inActive Event OnBeginState(string asOldState) utility.wait(2) debug.trace(\"FinishedWaiting\" + stepper) GotoState(\"active\") RegisterForHitEvent(self) ; listen for a single hit EndEvent endState State done ;do nothing endState }}"}
+{"id": "all-fallout|27772", "text": "* Items ** Weapon mods *** Fallout: New Vegas weapon mods *** Fallout 4 weapon mods *** Fallout 76 weapon mods *** Fallout 76 legendary effects ** Armor mods *** Fallout 4 armor mods *** Fallout 76 armor mods ** Robot mods *** Automatron robot mods ** Armor and clothing *** Modular military backpack * Fan-made mods ** Modification"}
+{"id": "all-fallout|27776", "text": "Mitch Ahlswede is a developer who worked at Obsidian Entertainment on Fallout: New Vegas as a Weapon Artist."}
+{"id": "all-fallout|27797", "text": "Mount Wash is the area above the train tunnels leading into post-War Pittsburgh, currently known as the Pitt."}
+{"id": "all-fallout|27810", "text": "The Monster Ripper is a melee weapon in Fallout: Brotherhood of Steel."}
+{"id": "all-fallout|27813", "text": "The monorail train wreckage is an unmarked location in the Capital Wasteland. It is northeast of Germantown Police HQ."}
+{"id": "all-fallout|27826", "text": "Motor-Runner's helmet is a piece of headwear in Fallout: New Vegas."}
+{"id": "all-fallout|27845", "text": "The Mothership Zeta trailer is the trailer for the Fallout 3 add-on Mothership Zeta. It features the Recon craft Theta beacon and the voice of an unknown captive in Alien captive recorded log 19."}
+{"id": "all-fallout|27887", "text": "Morgan's space suit is a set of armor in the Fallout 4 Creation Club content \"Morgan's Space Suit.\""}
+{"id": "all-fallout|27892", "text": "Morgantown Station is a train station in the Forest region of Appalachia."}
+{"id": "all-fallout|27967", "text": "Mountain Momma is a weapon that appears in Fallout Shelter. It was added in the 1.15.0 update."}
+{"id": "all-fallout|28059", "text": "The muck lobber is a weapon that was cut from the Fallout 3 add-on Point Lookout."}
+{"id": "all-fallout|28120", "text": "The Mr. Fuzzy mascot suit, Mr. Fuzzy mascot head, soiled Mr. Fuzzy mascot suit and soiled Mr. Fuzzy mascot head are outfits in Fallout 76."}
+{"id": "all-fallout|28155", "text": "Mr. Walker is a unique Mister Handy found in the Handy Walker travel-type random encounter ."}
+{"id": "all-fallout|28167", "text": "The multi-generational starship was a long-term plan by the Enclave to address the problem of Earth's destruction in the wake of a global thermonuclear war. Fearing that the war would render the surface of the world uninhabitable, the Enclave elected to create an interstellar vessel to take the \"best and brightest\" off world to a new planet that could be colonized and human civilization started anew. Lacking the know-how on how to build this vessel, beyond using nuclear engines to power it for centuries, Vault-Tec worked with the Enclave to turn Project Safehouse from a limited preservation program into a vast social experiment to provide the necessary data to build the starship: How to store most of the colonists in cryonic suspension without damage, how to organize the crew maintaining the ship over multiple generations, how to grow food and recycle water and air in a closed environment, and test the practical limits of the weapons. Control Vaults like Vault 8 were set up to study human behavior when recolonizing the surface. Ultimately, while the Vault experiments were implemented by Vault-Tec and fed data to the Enclave Vault-Research Control on the oil rig, the starship never materialized. Whether it was a lack of time to implement it, or sabotage of Enclave facilities meant to link Enclave hubs together - especially the beating heart of their master plan - the Enclave has not pursued offworld colonization, instead focusing first on continuing the war against China, then"}
+{"id": "all-fallout|28188", "text": "Mutant Slayer's is a first star armor, power armor and weapon legendary mod ."}
+{"id": "all-fallout|28189", "text": "Mutant's is a first star armor, power armor, and weapon legendary mod ."}
+{"id": "all-fallout|28200", "text": "Mr. House's suit is a legendary outfit , added in the 2.1.1. update."}
+{"id": "all-fallout|28208", "text": "Myron is a teenage pharmacologist, slaver and sexual predator in New Reno, credited with the invention of a cheap, mass-produced variant of Jet for the Mordino crime family. He serves as a potential companion for the Chosen One ."}
+{"id": "all-fallout|28246", "text": "The NCR Ranger combat armor, also known as the black armor, and the matching Ranger helmet are pieces of armor ."}
+{"id": "all-fallout|28248", "text": "The NCR salvaged power armor is a piece of armor in Fallout: New Vegas."}
+{"id": "all-fallout|28252", "text": "The NCR Ranger patrol armor is a piece of armor in Fallout: New Vegas."}
+{"id": "all-fallout|28257", "text": "The NCR 9mm submachine gun is a quest item in Fallout: New Vegas."}
+{"id": "all-fallout|28261", "text": "The NCR grenade rifle is a quest item in Fallout: New Vegas."}
+{"id": "all-fallout|28352", "text": "N. Greaves was a member of Sugar Grove's technical staff, responsible for managing power supplies and requisitioning additional power lines from external sources."}
+{"id": "all-fallout|28417", "text": "This script attaches to the Chop Shop mechanic and determines his dialogue, hostility, and reactions based on conditions such as the player’s armour, gender, reputation, and faction status."}
+{"id": "all-fallout|28527", "text": "The NCR power armor is a legendary outfit in Fallout Shelter. It was added with the 2.1.1 update as a reward for achieving level 19 in the House Always Wins season pass."}
+{"id": "all-fallout|28528", "text": "The NCR trooper outfit and NCR trooper helmet are an outfit set ."}
+{"id": "all-fallout|29159", "text": "This script is an effect script (SCN) that manages image space visual effects during the Weapon binding ritual performed by the Courier in Honest Hearts. It applies a binding distortion modifier to the player's screen on effect start and, on finish, plays a ritual sound while transitioning to a fade-out modifier."}
+{"id": "all-fallout|29180", "text": "This script is an object script (SCN) attached to the Spore Carrier Burst effect in the Honest Hearts add-on for Fallout: New Vegas. When the effect starts (typically triggered when a Spore Carrier dies or explodes), it spawns an explosion at the carrier's location (SporeCarrierBurstExplode) and instantly kills the Spore Carrier with no XP reward."}
+{"id": "all-fallout|29400", "text": "This script is attached to a magic effect for an acid-based weapon or ability, likely used by enemies or the player in the Big MT. It displays a message when the effect hits a target and periodically plays a “sizzling” sound to simulate ongoing acid damage."}
+{"id": "all-fallout|29437", "text": "This script, used in the Old World Blues add-on, is attached to an activator object representing the floating spine in a body part tank in The Sink. It controls the spine’s display animation and displays context-sensitive messages when the player interacts with the tank, based on the quest state of Old World Blues."}
+{"id": "all-fallout|29471", "text": "This script, used in the Old World Blues add-on, is a timer quest script. It manages the initial opening sequence of the player’s brain tank in the Forbidden Zone dome during the quest Old World Blues, ensuring a brief delay before enabling dialogue with the player’s brain and marking the tank as active."}
+{"id": "all-fallout|29597", "text": "The napalm payload is a weapon mod for the Hellstorm missile launcher, introduced in the Fallout 76 update Steel Dawn."}
+{"id": "all-fallout|29611", "text": "The nail gun is a weapon Makeshift Weapon Pack. It was added in the next-gen update."}
+{"id": "all-fallout|29657", "text": "This script is an object script (SCN) attached to the test item (typically the stealth suit) in the X-13 Research Facility during Old World Blues in Fallout: New Vegas. When added to the Courier's inventory, it advances objectives in both the main NVDLC03X13Setup quest and the NVDLC03MQ04 questline (\"X-13: Attack of the Infiltrator!\"). Depending on the current test stage and replay status, it: *Completes basic, advanced, or expert stealth objectives. *Awards XP, adds items to the starting safe, shows perk messages, and plays upgrade barks from the Stealth Suit Mk II. *Updates diagram panels, unlocks doors, turns off laser emitters, resets robots, and triggers the Robo-Scorpion attack sequence. *Increments related challenges (NVDLC03ChallengeX13Testing01/02)."}
+{"id": "all-fallout|29936", "text": "This script is attached to the Bowie knife weapon in the game world. It manages the application and removal of a special actor effect based on whether the player has the weapon equipped or sells it, ensuring the effect is active only when the weapon is in use."}
+{"id": "all-fallout|29998", "text": "Dialogue for Jagged Jimmy J, a Jet dealer in New Reno. {{Transcript|text= # 0. QUICK LOOK {100}{}{You see Jagged Jimmy J.} # 0. LOOK {150}{}{You see a shifty-looking man. He has a jagged scar running down the side of his face, and a slight facial tic.} {151}{}{You see Jagged Jimmy J. It looks like he's trolling for a customer.} {152}{}{You see Jagged Jimmy J. He nods as he catches sight of you.} {153}{}{You see Jagged Jimmy J. He catches your eye and waves at you to come over.} # 1. FLOAT (ENCLAVE DESTROYED = TRUE) (WTG) {200}{}{Hey, if it ain't } {201}{}{Hey, } {202}{}{There goes one bad muthuh…and Jimmy J knows a bad muthuh when he sees one.} {203}{}{Not every day somebody stomps the President in his own backyard.} {204}{}{You want to kick back and celebrate yo victory with some jet from Jagged Jimmy, hero?} {205}{}{Save the world, and Jagged Jimmy'll GIVES you the world, hero. All the jet you need.} {206}{}{Hear the Corsican Bros are lookin' for you, he-ro…} # 2. FLOAT DIALOGUES (WTG) {220}{}{Jagged Jimmy's the name, and I got all the jet you NEED.} {221}{}{You looking to get high? Jagged Jimmy's your man.} {222}{}{Looking to fly? Jagged Jimmy's got your ticket right here.} {223}{}{You wanna get set, Jagged Jimmy's got the jet.} {224}{}{You looking to get off the ground? Jagged Jimmy's got the jet you NEED.} {225}{}{I got a special this week, c'mon, let's deal.} {226}{}{You can buy the shit that kills people, or you buy Jagged Jimmy's clean, strong shit.} {227}{}{Jimmy J's"}
+{"id": "all-fallout|29999", "text": "Dialogue for Jules, self-proclaimed greeter in New Reno. {{Transcript|text= # 0. QUICK LOOK # 0. LOOK {150}{}{You see a black man in a worn suit. When he catches your eye, he smiles, his gold tooth glittering in the light of the lamps.} {151}{}{You see Jules.} # 1. FLOAT [SLAVER] (WTG) {200}{}{Let Jules show you 'round, slaver.} {201}{}{Go see the Mordinos, slaver. They're the market for most o' the slaves that come to New Reno.} {202}{}{New in Reno, slaver? Worth your time to talk ta me.} {203}{}{Hey, slaver. Come talk to me for a second.} {204}{}{Slaver, if you ain't talked to Jules, you don't know HALF of what New Reno gots to offer.} {205}{}{Yo, slaver! You got a minute?} {206}{}{Looking for something, slaver? Let Jules help you find it.} # 2. FLOAT [IF PLAYER HAS NEVER SPOKEN TO JULES] (WTG) {220}{}{New in town? Worth your time to talk ta me, friend.} {221}{}{Hey, you. Come talk to me for a second.} {222}{}{Friend, if you ain't talked to Jules, you don't know HALF of what New Reno gots to offer.} {223}{}{New Reno's a dangerous place, friend. Let me fill you in on what's healthy and what's not.} {224}{}{Yo! You got a minute, friend?} {225}{}{Friend, you and me got to have some words. Let Jules show you around.} {226}{}{Looking for something, friend? Let Jules help you find it.} # 3. FLOAT ENCLAVE_DESTROYED (WTG) {240}{}{Hallelujah! I always KNEW you would be the hero! I KNEW it!} {241}{}{Hero comin' through! Make way, make way!} {242}{}{Come say hello to your old friend J"}
+{"id": "all-fallout|30039", "text": "The NeoStead Combat SG is a weapon in Fallout Tactics: Brotherhood of Steel."}
+{"id": "all-fallout|30046", "text": "The neural interface suit is a piece of armor in the Fallout 3 add-on Operation: Anchorage."}
+{"id": "all-fallout|30128", "text": "Nellis Artillery is a weapon in the game files of Fallout: New Vegas."}
+{"id": "all-fallout|30129", "text": "The Nellis Munition Shell is a weapon in the game files of in Fallout: New Vegas."}
+{"id": "all-fallout|30173", "text": "The New Appalachian central train yard terminal entries are a series of entries found on a terminal in New Appalachian Central trainyard in Fallout 76."}
+{"id": "all-fallout|30293", "text": "Newton or Junk City was the main camp of the Reaver Movement, a technology-worshiping cult. A large pre-War Nuka-Cola plant and tank are located there."}
+{"id": "all-fallout|30305", "text": "New Reno Arms is the large gun emporium run by Eldridge in New Reno West Side, the Commercial Row of New Reno."}
+{"id": "all-fallout|30310", "text": "New Urban Apparel is a store at Tenpenny Tower. It is run by Anthony Ling who mostly sells pre-War outfits, as well as a few sets of combat armor and leather armor. He carries between 200-300 caps and can repair items (having a skill of 15)."}
+{"id": "all-fallout|30365", "text": "The nightstick is a weapon that was to appear in Van Buren, the canceled Fallout 3 by Black Isle Studios. It can be found in the Van Buren tech demo game files."}
+{"id": "all-fallout|30396", "text": "New Reno slaves are characters put to work by the Wrights in the Railway Station's brewery, and by the Mordinos in the Stables' Jet production and packaging in 2241."}
+{"id": "all-fallout|30422", "text": "The night-vision Institute rifle is a variant of the Institute rifle that is added to Fallout Shelter with the 1.4 update."}
+{"id": "all-fallout|30423", "text": "The night-vision pipe rifle is a weapon that is added to Fallout Shelter with the update 1.4"}
+{"id": "all-fallout|30461", "text": "The Night Light is a ranged weapon . The Night Light was originally available as a reward for completing the \"See The Light\" weekly challenge in Survival mode from May 21–27, 2019 and August 13–20, 2019. It was reworked with The Slasher update and added to the loot pool for the seasonal Disturbed Grave repeatable quest."}
+{"id": "all-fallout|30534", "text": "Nocturnal is a first star armor, power armor and weapon legendary mod ."}
+{"id": "all-fallout|30543", "text": "The Nipton train station, referred to in-game as simply a train station, is an unmarked location in the Mojave Wasteland that was cut from ."}
+{"id": "all-fallout|30572", "text": "New Reno stolen car seed spacial 1 {{Transcript|text= {100}{}{Hey! Where's my car?!} {101}{}{Where did my car go...?} {110}{}{Uh, oh. Me no see car here!} {111}{}{Uh, oh. Me lost car...} }} ru:NtCar1.msg uk:NtCar1.msg"}
+{"id": "all-fallout|30573", "text": "New Reno stolen car seed spacial 2. {{Transcript|text= {100}{}{I parked my car right here!} {150}{}{As you pass closer to where the car was parked, you notice faint skid marks leading off to the north.} {151}{}{You see skid marks leading off to the north.} {152}{}{You see car tracks!} {153}{}{(Follow trax!)} {154}{}{(No follow trax.)} {155}{}{(Follow the car tracks.)} {156}{}{(Ignore them.)} }} ru:NtCar2.msg"}
+{"id": "all-fallout|30582", "text": "The Nuka-Cola accident report is a paper note found . It was written by Carl Wallace, a truck driver who was supposed to deliver a shipment to Old Olney which included Nuka-Cola Quantum."}
+{"id": "all-fallout|30594", "text": "Nuclear Nellie is a weapon that was to appear in Van Buren, the canceled Fallout 3 by Black Isle Studios."}
+{"id": "all-fallout|30658", "text": "The Nuka-Express is an unmarked location and vehicle used in the exterior of Nuka-World in 2287."}
+{"id": "all-fallout|30733", "text": "Notes on the X-02 is a paper note in the Fallout 4 Creation Club content \"X-02 Power Armor.\""}
+{"id": "all-fallout|30737", "text": "The Nuka-Cola Quantum paint is an X-01 power armor paint scheme in Fallout 76."}
+{"id": "all-fallout|30755", "text": "Note on cigarette paper is a cut paper note in the Fallout 4 Creation Club content \"X-02 Power Armor.\" It is replaced by cigarette paper."}
+{"id": "all-fallout|30757", "text": "Doctor Nowak was the ship's specialist onboard the United States Space Administration's Deep Sleep mission."}
+{"id": "all-fallout|30761", "text": "The Nuka-Cola delivery truck is a limited edition collectible released in 2019 and limited to a 3,000 piece run worldwide. It retailed for 150 USD, with pre-orders beginning in May 2019 and shipping in Q4 2019. It was only available for purchase through the US and Europe Bethesda Gear Store."}
+{"id": "all-fallout|30771", "text": "Nuka-Cola paint is an armor mod for the T-51b power armor in Fallout 76."}
+{"id": "all-fallout|30783", "text": "The Nuka-Launcher is a unique explosive heavy gun . It is a craftable legendary auto grenade launcher (AGL) with guaranteed Two Shot, Crippling, and Lightweight legendary effects, with bonus to damage dealt to mole miners and a faster-than-normal rate of fire."}
+{"id": "all-fallout|30826", "text": "Obtain flint to have Mynoc sharpen your spear is a quest in Fallout 2."}
+{"id": "all-fallout|30835", "text": "Dialogue for Dalia when she appears at Vault 13. {{Transcript|text= {100}{}{You see a young woman in metal armor.} {101}{}{You see Dalia.} {102}{}{You see a pretty young woman dressed in metal armor. She watches her surroundings very carefully.} {103}{}{Well, I'll be. How are you doing,} #continue to 153 {104}{}{You Dalia. Me remember you help.} {105}{}{Things ok. Me go now.} {106}{}{Dalia! Thanks to you, things worked out great.} {107}{}{Things are fine, but I've got to go.} {108}{}{Hey, I'm glad to hear that. It was my pleasure to do what I could for you. So, what can I help you with?} {109}{}{Me got questions.} {110}{}{Nothing. Me say hi.} {111}{}{I have some questions for you.} {112}{}{Nothing. But it's nice to see you again. Bye.} {113}{}{What do you want to know?} {114}{}{You prisoner.} {115}{}{You leave when want?} {116}{}{What know about D'claws?} {117}{}{How you be here?} {118}{}{Why you worry safe?} {119}{}{Thanks. Me go.} {120}{}{Are you a prisoner here?} {121}{}{Can you leave anytime you want?} {122}{}{What can you tell me about the deathclaws?} {123}{}{How did you come to be here?} {124}{}{Why are you worried about needing a place of safety?} {125}{}{Thanks. I'll talk at you later.} {126}{}{No, I'm not. I'm here of my own free will and I like it. I think this will be a safe place for me to stay for a while.} {127}{}{Okay.} {128}{}{Bye.} {129}{}{All right.} {130}{}{I see. Well, I'll be going then.} {131}{}{Yeah, I've been told I'm free to go or stay. I'm staying f"}
+{"id": "all-fallout|30855", "text": "The Nuka-grenade is a weapon in Fallout 3, Gun Runners' Arsenal, Fallout 4 and Fallout 76. __TOC__"}
+{"id": "all-fallout|30926", "text": "The nuke is a cut weapon in Fallout 4 using ammunition of the same name."}
+{"id": "all-fallout|30957", "text": "The Nuka Quantum grenade is a weapon in the Fallout 4 add-on Nuka-World."}
+{"id": "all-fallout|30963", "text": "The Nuka Cherry grenade is a cut weapon in the Fallout 4 add-on Nuka-World."}
+{"id": "all-fallout|31094", "text": "The old knife is a melee weapon which was cut from the final version of Fallout."}
+{"id": "all-fallout|31175", "text": "Old Reliable is a unique weapon in the Fallout 4 add-on Far Harbor."}
+{"id": "all-fallout|31187", "text": "The Operators armor is an armor set in the Fallout 4 add-on Nuka-World."}
+{"id": "all-fallout|31248", "text": "The Old Guard's 10mm SMG is an automatic rifle in Fallout 76, introduced in the Wastelanders update."}
+{"id": "all-fallout|31256", "text": "The Operators colors mod is a paint scheme for the handmade rifle in the Fallout 4 add-on Nuka-World."}
+{"id": "all-fallout|31400", "text": "The overcharged capacitor is a weapon mod for the laser gun and Institute laser ."}
+{"id": "all-fallout|31408", "text": "Ophelia is a dead wastelander found inside the Gauntlet in Nuka-World in 2287."}
+{"id": "all-fallout|31413", "text": "The overboss power armor is a unique set of raider power armor in the Fallout 4 add-on Nuka-World."}
+{"id": "all-fallout|31415", "text": "The Operators heavy armor is an armor set in the Fallout 4 add-on Nuka-World."}
+{"id": "all-fallout|31418", "text": "The original Santa suit is a legendary outfit that is added to Fallout Shelter with the 1.9 update."}
+{"id": "all-fallout|31465", "text": "Order of Mysteries - The Blade of Bastet is a holotape . __TOC__"}
+{"id": "all-fallout|31515", "text": "The Orient Express was a luxury train line that ran through Europe, connecting Paris to Istanbul before the Great War."}
+{"id": "all-fallout|31553", "text": "Overeater's is a first star armor and power armor legendary mod ."}
+{"id": "all-fallout|31565", "text": "The Optimized Ultracite plasma rifle is a weapon that appears in Fallout Shelter. It was added with the 2.2.0 update as a reward for achieving level 15 in the Ultracite Fever season pass."}
+{"id": "all-fallout|31572", "text": "* Weapons: ** H&K P90c, a weapon in Fallout 2. ** FN P90c, a weapon in Fallout Tactics. ru:P90c"}
+{"id": "all-fallout|31580", "text": "* Power armor, a type of mechanized cavalry armor appearing in every game in the Fallout series. * Pennsylvania, a state of the pre-War United States of America. * Public address systems, examples of which include: ** Vault 101 PA System, within Vault 101 in Fallout 3. ** D.B. Technical High School/PA system, within D.B. Technical High School in Fallout 4. ** DMV PA System, within the Charleston Capitol Department of Motor Vehicles in Fallout 76. ** Mama Dolce's PA System, cut content within Mama Dolce's Food Processing in Fallout 76. ** Gleaming Depths PA system, within the Gleaming Depths in the Fallout 76 update Gleaming Depths."}
+{"id": "all-fallout|31590", "text": "{{Transcript|text= {100}{}{You see a man in studded leather armor with an odd assortment of knick-knacks.} {101}{}{You see Patrick, the Celt.} {102}{}{Greetings, traveler. What brings you out this far?} {103}{}{Just wandering.} {104}{}{Um, why are you carrying all that junk?} {105}{}{I need to find a water purification control chip.} {106}{}{I'm killing everybody I can get within shooting distance of. Prepare to die.} {107}{}{Lub!} {108}{}{I see. Much like myself, then.} {109}{}{Oh? You're not from one of the communities out here?} {110}{}{Can you direct me to a nearby settlement?} {111}{}{So what's your story?} {112}{}{Well, see ya.} {113}{}{It's not junk! It's trade goods!} {114}{}{Uh, right. Bye.} {115}{}{Uh huh. So what's your story?} {116}{}{Hmm. Haven't seen one of those before. What seems to be the trouble?} {117}{}{This chip controls water purification for my Vault. It's blown out, though.} {118}{}{It's broken.} {119}{}{I wander from place to place, making a living with music and a little bit of tinkering work.} {120}{}{What kind of work do you do?} {121}{}{What kind of music do you sing?} {122}{}{Well, it's good to meet you. Bye.} {123}{}{Using the coastline as a referent, you've got Shady Sands about a week inland, and Junktown a few days south of there. Hub's just another couple days south of Junktown. Avoid Necropolis to the east of those, though. Not worth the trouble.} {124}{}{What do you know about Shady Sands?} {125}{}{What do you know about Junktown?} {126}{}"}
+{"id": "all-fallout|31596", "text": "Message box for dead Brotherhood of Steel soldiers wearing power armor in the Glow. {{Transcript|text= {100}{}{This person looks like he may have been from the Brotherhood of Steel.} {101}{}{You wonder why this metal person is here.} {102}{}{This person looks to have been killed by high amounts of radiation.} {103}{}{You cannot determine what caused this person to die.} {104}{}{This skill gleans no further information about this person.} }} de:PERNPWR.MSG es:PERNPWR.MSG ru:PERNPWR.MSG uk:PERNPWR.MSG"}
+{"id": "all-fallout|31628", "text": "{{Transcript|text= {100}{}{Leather Armor} {101}{}{Your basic all leather apparel. Finely crafted from tanned brahmin hide.} {200}{}{Metal Armor} {201}{}{Polished metal plates, crudely forming a suit of armor.} {300}{}{Powered Armor} {301}{}{A self-contained suit of advanced technology armor. Powered by a micro-fusion reactor, with enough fuel to last a hundred years.} {400}{}{Knife} {401}{}{A sharp-bladed cutting and stabbing weapon. Min ST: 2.} {500}{}{Club} {501}{}{A military or police baton. Heavy wood. Min ST: 3.} {600}{}{Sledgehammer} {601}{}{A large hammer with big handle. Very popular with the muscular crowd. Min ST: 6.} {700}{}{Spear} {701}{}{A razor tipped polearm. The shaft is wooden, and the tip is worked steel. Min ST: 4.} {800}{}{10mm Pistol} {801}{}{A Colt 6520 10mm autoloading pistol. Each pull of the trigger will automatically reload the firearm until the magazine is empty. Single shot only, using the powerful 10mm round. Min ST: 3.} {900}{}{10mm SMG} {901}{}{H&K MP9 Submachinegun (10mm variant). A medium-sized SMG, capable of single shot and burst mode. Min ST: 4.} {1000}{}{Hunting Rifle} {1001}{}{A Colt Rangemaster semi-automatic rifle, in .223 caliber. Single-shot only. Min ST: 5.} {1100}{}{Flamer} {1101}{}{A Flambe 450 model flamethrower, varmiter variation. Fires a short spray of extremely hot, flamable liquid. Requires specialized fuel to work properly. Min ST: 6.} {1200}{}{Minigun} {1201}{}{A Rockwell CZ53 Personal Minigun. A multi-barrelled chaingun fi"}
+{"id": "all-fallout|31638", "text": "Palandine was the codename of an alien ship that crashed on Earth before the Great War."}
+{"id": "all-fallout|31644", "text": "The Papa Khan armor and Papa Khan helmet is a set armor in Fallout: New Vegas."}
+{"id": "all-fallout|31693", "text": "The paintball gun is a weapon in the Fallout 4 add-on Contraptions Workshop."}
+{"id": "all-fallout|31696", "text": "The paddle ball is a weapon in the Fallout 4 add-on Nuka-World."}
+{"id": "all-fallout|31704", "text": "The Pack necklace is a piece of chest armor in the Fallout 4 add-on Nuka-World."}
+{"id": "all-fallout|31705", "text": "The Pack feather necklace is a piece of chest armor in the Fallout 4 add-on Nuka-World."}
+{"id": "all-fallout|31706", "text": "The Pack buffalo helmet is a piece of headwear in the Fallout 4 add-on Nuka-World."}
+{"id": "all-fallout|31708", "text": "The Pack elephant helmet is a piece of headwear in the Fallout 4 add-on Nuka-World."}
+{"id": "all-fallout|31709", "text": "The Pack helmet is a piece of headwear in the Fallout 4 add-on Nuka-World."}
+{"id": "all-fallout|31711", "text": "The Pack jaguar helmet is a piece of headwear in the Fallout 4 add-on Nuka-World."}
+{"id": "all-fallout|31713", "text": "The Pack moose helmet is a piece of headwear in the Fallout 4 add-on Nuka-World."}
+{"id": "all-fallout|31714", "text": "The Pack armor is an armor set in the Fallout 4 add-on Nuka-World."}
+{"id": "all-fallout|31767", "text": "Pancor was a pre-War weapons manufacturer in the United States. Their premier weapon was the Pancor Jackhammer, a combat shotgun."}
+{"id": "all-fallout|31769", "text": "The Pale Rider power armor skin is a power armor skin in Fallout 76."}
+{"id": "all-fallout|31834", "text": "Pack Rat's is a third star armor and power armor legendary mod ."}
+{"id": "all-fallout|31853", "text": "Pain Killer is a second star armor and power armor legendary mod ."}
+{"id": "all-fallout|31855", "text": "Paladin Danse's power armor is a legendary outfit in Fallout Shelter. It was added with update 2.4.0."}
+{"id": "all-fallout|31857", "text": "* Fallout 4 paint schemes (power armor paint schemes) ** Nuka-World weapon paint schemes ** Creation Club power armor paint schemes (images) ** Creation Club armor paint schemes (images) ** Creation Club weapon paint schemes (images) * Fallout 76 paint schemes ** Fallout 76 power armor paint schemes (images) ** Fallout 76 armor paint schemes (images) ** Fallout 76 weapon paint schemes (images) * Pip-Boy 3000 Mark IV paint schemes"}
+{"id": "all-fallout|31881", "text": "Scribe Peabody is the proctor of the Order of the Sword, in charge of the armory for the chapter of the Brotherhood of Steel in the Citadel in 2277."}
+{"id": "all-fallout|31908", "text": "Paulson's revolver is a unique weapon carried by Paulson in the Fallout 3 add-on Mothership Zeta."}
+{"id": "all-fallout|31941", "text": "Parts cabinets are used as containers to store various ammunition crafting items such as .50 MG primer, large rifle primer, rifle powder, as well as empty casings and hulls. They are similar to filing cabinets only much smaller in size."}
+{"id": "all-fallout|32028", "text": "The Pearly Peepers are a unique \"weapon\" in the Fallout 76 update Wild Appalachia."}
+{"id": "all-fallout|32068", "text": "The penta barrel is a weapon mod for the Gauss minigun introduced in the Fallout 76 update Wastelanders."}
+{"id": "all-fallout|32132", "text": "The Patience legendary mod is a weapon mod for the varmint rifle in the Fallout 4 Creation Club content \"The Varmint Rifle\"."}
+{"id": "all-fallout|32169", "text": "PHOENIX implants are a series of protective augmentations developed by Poseidon Energy, alongside the NEMEAN sub-dermal armor."}
+{"id": "all-fallout|32176", "text": "The Perforator is a unique weapon in the Fallout 3 add-on The Pitt. As of 2277, it belongs to Everett who considers it the best weapon he's ever owned."}
+{"id": "all-fallout|32186", "text": "The phazer is a cut energy weapon in Fallout 2. It was to be obtained in the special encounter Federation Crash Site."}
+{"id": "all-fallout|32244", "text": "The Piezonucleic power armor chest is a unique piece of power armor ."}
+{"id": "all-fallout|32246", "text": "The Pick-R-Up is a vehicle appearing in the Commonwealth and Appalachia."}
+{"id": "all-fallout|32247", "text": "Pickman's Blade is a unique combat knife found in Fallout 4."}
+{"id": "all-fallout|32259", "text": "Petris is a member of the Brotherhood of Steel branch located in the Commonwealth in 2287. He holds the record for power armor stunt jumps, which he set by jumping from the the Prydwen to the ground."}
+{"id": "all-fallout|32269", "text": "The pickaxe is a weapon that appears in Fallout Shelter. It was added in the 1.6 update."}
+{"id": "all-fallout|32274", "text": "The persuasion grenade is a weapon in the Fallout 4 add-on Nuka-World."}
+{"id": "all-fallout|32322", "text": "The perforating capacitors are a weapon mod for the Gauss rifle ."}
+{"id": "all-fallout|32323", "text": "The piercing capacitors are a weapon mod for the Gauss rifle ."}
+{"id": "all-fallout|32345", "text": "The pine tar ingredient list is a paper note in the Fallout 4 Creation Club content \"CR-74L Combat Rifle.\""}
+{"id": "all-fallout|32355", "text": "Phillip \"Icebreaker\" Kotlik is a fictional character in the pre-War television series Armor Ace and the Power Patrol and is featured in the Cold Steel board game."}
+{"id": "all-fallout|32375", "text": "The Piggy bank Fat Man is a weapon \"Makeshift Weapon Pack\" and included in the next-gen update."}
+{"id": "all-fallout|32378", "text": "The piggy bank launcher bomb is a type of ammunition \"Makeshift Weapon Pack\" and included in the next-gen update."}
+{"id": "all-fallout|32379", "text": "The piggy bank mine is a weapon in the Fallout 4 Creation Club content \"Makeshift Weapon Pack.\" It was added to the game in the next-gen update."}
+{"id": "all-fallout|32380", "text": "The piggy bank bomb is a weapon in the Fallout 4 Creation Club content \"Makeshift Weapon Pack.\" It was added in the next-gen update."}
+{"id": "all-fallout|32385", "text": "Perception is a third-star weapon and second star armor and power armor legendary mod ."}
+{"id": "all-fallout|32411", "text": "Pick Pocketer's is a second star melee weapon legendary mod ."}
+{"id": "all-fallout|32446", "text": "The pipe rifle is a hand-made single shot rifle in Fallout 2."}
+{"id": "all-fallout|32457", "text": "The Pitt train yard is a location in the Pitt in 2277. The only inhabitants are Pitt raiders, all of which become hostile after a dialogue sequence."}
+{"id": "all-fallout|32464", "text": "The pink power armor is a piece of armor which was cut from Fallout 3."}
+{"id": "all-fallout|32472", "text": "The pineapple fragment grenade is a weapon in Fallout Extreme."}
+{"id": "all-fallout|32474", "text": "The pipe bomb is a weapon that was to appear in Van Buren, the canceled Fallout 3 by Black Isle Studios."}
+{"id": "all-fallout|32478", "text": "The pipe wrench is a weapon that was to appear in Van Buren, the canceled Fallout 3 by Black Isle Studios."}
+{"id": "all-fallout|32492", "text": "The pipe revolver is a weapon in Fallout 4. Variants include pipe revolver pistol, pipe revolver rifle, and pipe revolver sniper rifle."}
+{"id": "all-fallout|32500", "text": "The pipe pistol is a weapon that is added to Fallout Shelter with the update 1.4."}
+{"id": "all-fallout|32541", "text": "Plan: Assault rifle Scorched killer's receiver is a weapon mod plan ."}
+{"id": "all-fallout|32548", "text": "Plan: Assault rifle steadfast receiver is a weapon mod plan ."}
+{"id": "all-fallout|32549", "text": "Plan: Assault rifle vigorous receiver is a weapon mod plan ."}
+{"id": "all-fallout|32553", "text": "The Pint-Sized Slasher knife is a weapon in the Fallout 4 Creation Club content \"Pint-Sized Slasher.\""}
+{"id": "all-fallout|32563", "text": "Plan: Baseball bat searing puncturing rocket is a weapon mod plan ."}
+{"id": "all-fallout|32564", "text": "Plan: 10mm submachine gun drum magazine is a weapon mod plan ."}
+{"id": "all-fallout|32565", "text": "Plan: BioCommMesh combat armor lining is an armor mod plan in Fallout 76."}
+{"id": "all-fallout|32566", "text": "Plan: BioCommMesh leather armor lining is an armor mod plan in Fallout 76."}
+{"id": "all-fallout|32567", "text": "Plan: BioCommMesh metal armor lining is an armor mod plan in Fallout 76."}
+{"id": "all-fallout|32568", "text": "Plan: BioCommMesh raider armor lining is an armor mod plan in Fallout 76."}
+{"id": "all-fallout|32569", "text": "Plan: BioCommMesh robot armor lining is an armor mod plan in Fallout 76."}
+{"id": "all-fallout|32594", "text": "The Plague Rider power armor skin is a power armor skin in Fallout 76."}
+{"id": "all-fallout|32595", "text": "The PlagueMaker 2000 is a weapon concept that was considered for inclusion in Van Buren, the canceled Fallout 3 by Black Isle Studios."}
+{"id": "all-fallout|32601", "text": "Plan: Auto axe burning mod is a weapon mod plan in the Fallout 76 update Expeditions: The Pitt."}
+{"id": "all-fallout|32602", "text": "Plan: Auto axe electrified mod is a weapon mod plan in the Fallout 76 update Expeditions: The Pitt."}
+{"id": "all-fallout|32603", "text": "Plan: Auto axe poisoned mod is a weapon mod plan in the Fallout 76 update Expeditions: The Pitt."}
+{"id": "all-fallout|32604", "text": "Plan: Auto axe turbo mod is a weapon mod plan in the Fallout 76 update Expeditions: The Pitt."}
+{"id": "all-fallout|32606", "text": "Plan: Alien blaster short NV scope is a cut weapon mod plan ."}
+{"id": "all-fallout|32607", "text": "Plan: Assaultron head Sheepsquatch mod is a cut weapon mod plan in the Fallout 76 update Wild Appalachia."}
+{"id": "all-fallout|32620", "text": "Plan: Auto grenade launcher Blood Eagle paint is a weapon mod plan ."}
+{"id": "all-fallout|32643", "text": "Plan: Alien disintegrator automatic receiver is a weapon mod plan ."}
+{"id": "all-fallout|32644", "text": "Plan: Alien disintegrator cryo receiver is a weapon mod plan ."}
+{"id": "all-fallout|32645", "text": "Plan: Alien disintegrator high powered receiver is a weapon mod plan ."}
+{"id": "all-fallout|32646", "text": "Plan: Alien disintegrator poison receiver is a weapon mod plan ."}
+{"id": "all-fallout|32663", "text": "Plan: Assault rifle Wraith's Wrath paint is a weapon mod plan ."}
+{"id": "all-fallout|32688", "text": "The pipe grenade launcher is a weapon \"Makeshift Weapon Pack\" and included in the next-gen update."}
+{"id": "all-fallout|32693", "text": "This script is a lightweight utility attached to PinkertonDoorUnlockSwitch, a switch object in the Rivet City bow. It manages a switchable door lock for Horace Pinkerton’s lab using a linked reference and sound effects."}
+{"id": "all-fallout|32703", "text": "Pioneer overseer suit is a legendary outfit in Fallout Shelter, added with the 1.18.0 update."}
+{"id": "all-fallout|32710", "text": "Pink paint, pink material, or just pink is a power armor paint scheme in some Fallout 4 Creation Club content, including some that are bundled automatically in the 2024 next-gen update."}
+{"id": "all-fallout|32711", "text": "Pitt raider paint is a power armor paint scheme in the Fallout 4 Creation Club content \"Power Armor Paint Job - Pitt Raider.\""}
+{"id": "all-fallout|32718", "text": "* Items ** .45 Auto pistol ** 9mm pistol ** 10mm pistol ** 12.7mm pistol ** 14mm pistol ** Alien blaster ** Black powder pistol ** Carbine pistol ** Chinese pistol ** Crusader pistol ** Desert Eagle .44 ** Gauss pistol ** Laser pistol *** Laser pistol (GRA) ** Pocket pistol ** Needler pistol ** Pipe bolt-action pistol ** Pipe pistol ** Plasma pistol *** Plasma pistol (GRA) ** Pulse pistol ** Rimfire pistol ** Silenced .22 pistol ** T60 pistol"}
+{"id": "all-fallout|32737", "text": "Plan: Burning barbed Sheepsquatch club is a weapon mod plan ."}
+{"id": "all-fallout|32738", "text": "Plan: Burning barbed Sheepsquatch staff is a weapon mod plan ."}
+{"id": "all-fallout|32744", "text": "Plan: Combat rifle Scorched killer's receiver is a weapon mod plan ."}
+{"id": "all-fallout|32745", "text": "Plan: Double-barrel Scorched killer's receiver is a weapon mod plan ."}
+{"id": "all-fallout|32747", "text": "Plan: Combat rifle automatic .38 receiver is a weapon mod plan ."}
+{"id": "all-fallout|32748", "text": "Plan: Combat rifle critical .38 receiver is a weapon mod plan ."}
+{"id": "all-fallout|32749", "text": "Plan: Combat rifle hasty .38 receiver is a weapon mod plan ."}
+{"id": "all-fallout|32752", "text": "Plan: Combat rifle precise .38 receiver is a weapon mod plan ."}
+{"id": "all-fallout|32753", "text": "Plan: Combat rifle refined .38 receiver is a weapon mod plan ."}
+{"id": "all-fallout|32764", "text": "Plan: Excavator blood cleanser is a power armor mod plan in Fallout 76."}
+{"id": "all-fallout|32765", "text": "Plan: Excavator calibrated shocks is a power armor mod plan in Fallout 76."}
+{"id": "all-fallout|32766", "text": "Plan: Excavator core assembly is a power armor mod plan in Fallout 76."}
+{"id": "all-fallout|32767", "text": "Plan: Excavator emergency protocols is a power armor mod plan in Fallout 76."}
+{"id": "all-fallout|32768", "text": "Plan: Excavator cooling vent is a power armor mod plan in Fallout 76."}
+{"id": "all-fallout|32769", "text": "Plan: Excavator hydraulic bracers is a power armor mod plan in Fallout 76."}
+{"id": "all-fallout|32770", "text": "Plan: Excavator internal database is a power armor mod plan in Fallout 76."}
+{"id": "all-fallout|32775", "text": "Plan: Excavator medic pump is a power armor mod plan in Fallout 76."}
+{"id": "all-fallout|32776", "text": "Plan: Excavator kinetic servos is a power armor mod plan in Fallout 76."}
+{"id": "all-fallout|32777", "text": "Plan: Excavator kinetic dynamo is a power armor mod plan in Fallout 76."}
+{"id": "all-fallout|32778", "text": "Plan: Excavator left leg is a cut power armor plan in Fallout 76."}
+{"id": "all-fallout|32779", "text": "Plan: Excavator left arm is a cut power armor plan in Fallout 76."}
+{"id": "all-fallout|32780", "text": "Plan: Excavator helmet is a cut power armor plan in Fallout 76."}
+{"id": "all-fallout|32781", "text": "Plan: Excavator tesla coils is a power armor mod plan in Fallout 76."}
+{"id": "all-fallout|32791", "text": "Plan: Electrified Mr. Handy buzz blade is a weapon mod plan ."}
+{"id": "all-fallout|32792", "text": "Plan: Dense marine armor torso is an armor mod plan in Fallout 76."}
+{"id": "all-fallout|32793", "text": "Plan: Deep pocketed marine armor limbs is an armor mod plan in Fallout 76."}
+{"id": "all-fallout|32794", "text": "Plan: Cushioned marine armor legs is an armor mod plan in Fallout 76."}
+{"id": "all-fallout|32795", "text": "Plan: Dense trapper armor torso is an armor mod plan in Fallout 76."}
+{"id": "all-fallout|32800", "text": "Plan: Deep pocketed combat armor limbs is an armor mod plan in Fallout 76."}
+{"id": "all-fallout|32801", "text": "Plan: Cushioned combat armor legs is an armor mod plan in Fallout 76."}
+{"id": "all-fallout|32802", "text": "Plan: Dense combat armor torso is an armor mod plan in Fallout 76."}
+{"id": "all-fallout|32803", "text": "Plan: Deep pocketed combat armor chest is an armor mod plan in Fallout 76."}
+{"id": "all-fallout|32804", "text": "Plan: Deep pocketed leather armor limbs is an armor mod plan in Fallout 76."}
+{"id": "all-fallout|32805", "text": "Plan: Cushioned leather armor legs is an armor mod plan in Fallout 76."}
+{"id": "all-fallout|32806", "text": "Plan: Dense leather armor torso is an armor mod plan in Fallout 76."}
+{"id": "all-fallout|32807", "text": "Plan: Deep pocketed leather armor chest is an armor mod plan in Fallout 76."}
+{"id": "all-fallout|32808", "text": "Plan: Deep pocketed metal armor limbs is an armor mod plan in Fallout 76."}
+{"id": "all-fallout|32809", "text": "Plan: Cushioned metal armor legs is an armor mod plan in Fallout 76."}
+{"id": "all-fallout|32810", "text": "Plan: Dense metal armor torso is an armor mod plan in Fallout 76."}
+{"id": "all-fallout|32811", "text": "Plan: Deep pocketed metal armor chest is an armor mod plan in Fallout 76."}
+{"id": "all-fallout|32812", "text": "Plan: Deep pocketed raider armor limbs is an armor mod plan in Fallout 76."}
+{"id": "all-fallout|32813", "text": "Plan: Cushioned raider armor legs is an armor mod plan in Fallout 76."}
+{"id": "all-fallout|32814", "text": "Plan: Dense raider armor torso is an armor mod plan in Fallout 76."}
+{"id": "all-fallout|32815", "text": "Plan: Deep pocketed raider armor chest is an armor mod plan in Fallout 76."}
+{"id": "all-fallout|32816", "text": "Plan: Deep pocketed robot armor limbs is an armor mod plan in Fallout 76."}
+{"id": "all-fallout|32817", "text": "Plan: Cushioned robot armor legs is an armor mod plan in Fallout 76."}
+{"id": "all-fallout|32818", "text": "Plan: Dense robot armor lining is an armor mod plan in Fallout 76."}
+{"id": "all-fallout|32819", "text": "Plan: Deep pocketed robot armor chest is an armor mod plan in Fallout 76."}
+{"id": "all-fallout|32820", "text": "Plan: Deep pocketed trapper armor limbs is an armor mod plan in Fallout 76."}
+{"id": "all-fallout|32821", "text": "Plan: Cushioned trapper armor legs is an armor mod plan in Fallout 76."}
+{"id": "all-fallout|32822", "text": "Plan: Deep pocketed trapper armor chest is an armor mod plan in Fallout 76."}
+{"id": "all-fallout|32823", "text": "Plan: BioCommMesh trapper armor lining is an armor mod plan in Fallout 76."}
+{"id": "all-fallout|32827", "text": "Plan: Chinese officer sword electrified blade is a weapon mod plan ."}
+{"id": "all-fallout|32828", "text": "Plan: Chinese officer sword electrified serrated blade is a weapon mod plan ."}
+{"id": "all-fallout|32897", "text": "Plan: Compound bow firework arrows is an unused weapon mod plan ."}
+{"id": "all-fallout|32898", "text": "Plan: Dynamite spear is a cut weapon plan in the Fallout 76 update Wastelanders."}
+{"id": "all-fallout|32900", "text": "Plan: Brotherhood recon BioComMmesh armor torso is an armor mod plan ."}
+{"id": "all-fallout|32903", "text": "Plan: Brotherhood recon chest piece is an armor plan in Fallout 76, introduced in the Steel Dawn update."}
+{"id": "all-fallout|32909", "text": "Plan: Brotherhood recon aerodynamic armor arms is an armor mod plan ."}
+{"id": "all-fallout|32910", "text": "Plan: Brotherhood recon asbestos lined armor torso is an armor mod plan ."}
+{"id": "all-fallout|32911", "text": "Plan: Brotherhood recon braced armor arms is an armor mod plan ."}
+{"id": "all-fallout|32912", "text": "Plan: Brotherhood recon brawling armor arms is an armor mod plan ."}
+{"id": "all-fallout|32913", "text": "Plan: Brotherhood recon buttressed armor arms is an armor mod plan ."}
