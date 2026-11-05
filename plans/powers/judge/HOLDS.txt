@@ -1,0 +1,1 @@
+2 HOLD: row 119 fire-emblem|2851 resolves to Hero (class), lead is Fire Dragon; needs resolver fix (PC). 5 other no-source rows ok.
