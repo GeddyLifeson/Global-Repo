@@ -1,0 +1,53 @@
+category	id	status	detail	evidence
+entities	diaithirarms:thrown_weapon	FAIL	Summoned new Thrown weapon | Test failed	evidence/entities/diaithirarms__thrown_weapon.log
+obtainable	diaithirarms:arbalest_steel_crossbow	UNTESTED	item has no recipe and no loot table drop in the jars (check KubeJS recipes / creative-only)	
+obtainable	diaithirarms:balearic_sling	UNTESTED	item has no recipe and no loot table drop in the jars (check KubeJS recipes / creative-only)	
+obtainable	diaithirarms:bangalore_torpedo	UNTESTED	item has no recipe and no loot table drop in the jars (check KubeJS recipes / creative-only)	
+obtainable	diaithirarms:bhutanese_bamboo_bow	UNTESTED	item has no recipe and no loot table drop in the jars (check KubeJS recipes / creative-only)	
+obtainable	diaithirarms:blowgun	UNTESTED	item has no recipe and no loot table drop in the jars (check KubeJS recipes / creative-only)	
+obtainable	diaithirarms:bolas	UNTESTED	item has no recipe and no loot table drop in the jars (check KubeJS recipes / creative-only)	
+obtainable	diaithirarms:cranequin_crossbow	UNTESTED	item has no recipe and no loot table drop in the jars (check KubeJS recipes / creative-only)	
+obtainable	diaithirarms:cretan_short_bow	UNTESTED	item has no recipe and no loot table drop in the jars (check KubeJS recipes / creative-only)	
+obtainable	diaithirarms:f1_grenade	UNTESTED	item has no recipe and no loot table drop in the jars (check KubeJS recipes / creative-only)	
+obtainable	diaithirarms:gastraphetes	UNTESTED	item has no recipe and no loot table drop in the jars (check KubeJS recipes / creative-only)	
+obtainable	diaithirarms:grenado	UNTESTED	item has no recipe and no loot table drop in the jars (check KubeJS recipes / creative-only)	
+obtainable	diaithirarms:hungarian_magyar_bow	UNTESTED	item has no recipe and no loot table drop in the jars (check KubeJS recipes / creative-only)	
+obtainable	diaithirarms:inca_sling_huaraca	UNTESTED	item has no recipe and no loot table drop in the jars (check KubeJS recipes / creative-only)	
+obtainable	diaithirarms:korean_horn_bow_gakgung	UNTESTED	item has no recipe and no loot table drop in the jars (check KubeJS recipes / creative-only)	
+obtainable	diaithirarms:longbow_english	UNTESTED	item has no recipe and no loot table drop in the jars (check KubeJS recipes / creative-only)	
+obtainable	diaithirarms:m67_grenade	UNTESTED	item has no recipe and no loot table drop in the jars (check KubeJS recipes / creative-only)	
+obtainable	diaithirarms:mills_bomb	UNTESTED	item has no recipe and no loot table drop in the jars (check KubeJS recipes / creative-only)	
+obtainable	diaithirarms:mk2_grenade	UNTESTED	item has no recipe and no loot table drop in the jars (check KubeJS recipes / creative-only)	
+obtainable	diaithirarms:molotov_cocktail	UNTESTED	item has no recipe and no loot table drop in the jars (check KubeJS recipes / creative-only)	
+obtainable	diaithirarms:nubian_self_bow	UNTESTED	item has no recipe and no loot table drop in the jars (check KubeJS recipes / creative-only)	
+obtainable	diaithirarms:plains_bow	UNTESTED	item has no recipe and no loot table drop in the jars (check KubeJS recipes / creative-only)	
+obtainable	diaithirarms:repeating_crossbow_zhuge_nu	UNTESTED	item has no recipe and no loot table drop in the jars (check KubeJS recipes / creative-only)	
+obtainable	diaithirarms:retiarius_net	UNTESTED	item has no recipe and no loot table drop in the jars (check KubeJS recipes / creative-only)	
+obtainable	diaithirarms:rgd_33_grenade	UNTESTED	item has no recipe and no loot table drop in the jars (check KubeJS recipes / creative-only)	
+obtainable	diaithirarms:satchel_charge	UNTESTED	item has no recipe and no loot table drop in the jars (check KubeJS recipes / creative-only)	
+obtainable	diaithirarms:self_bow	UNTESTED	item has no recipe and no loot table drop in the jars (check KubeJS recipes / creative-only)	
+obtainable	diaithirarms:sling	UNTESTED	item has no recipe and no loot table drop in the jars (check KubeJS recipes / creative-only)	
+obtainable	diaithirarms:stielhandgranate	UNTESTED	item has no recipe and no loot table drop in the jars (check KubeJS recipes / creative-only)	
+obtainable	diaithirarms:stonebow_bullet_crossbow	UNTESTED	item has no recipe and no loot table drop in the jars (check KubeJS recipes / creative-only)	
+obtainable	diaithirarms:tibetan_crossbow	UNTESTED	item has no recipe and no loot table drop in the jars (check KubeJS recipes / creative-only)	
+obtainable	diaithirarms:yumi	UNTESTED	item has no recipe and no loot table drop in the jars (check KubeJS recipes / creative-only)	
+recipes	diaithirarms:ballistic_boots	PASS	crafted 1 x diaithirarms:ballistic_boots as intended	evidence/recipes/diaithirarms__ballistic_boots.log
+recipes	diaithirarms:ballistic_chestplate	PASS	crafted 1 x diaithirarms:ballistic_chestplate as intended	evidence/recipes/diaithirarms__ballistic_chestplate.log
+recipes	diaithirarms:ballistic_helmet	PASS	crafted 1 x diaithirarms:ballistic_helmet as intended	evidence/recipes/diaithirarms__ballistic_helmet.log
+recipes	diaithirarms:ballistic_leggings	PASS	crafted 1 x diaithirarms:ballistic_leggings as intended	evidence/recipes/diaithirarms__ballistic_leggings.log
+recipes	diaithirarms:ballistic_weave	UNTESTED	an ingredient is a tag with no resolvable member	
+recipes	diaithirarms:bone_boots	PASS	crafted 1 x diaithirarms:bone_boots as intended	evidence/recipes/diaithirarms__bone_boots.log
+recipes	diaithirarms:bone_bow	PASS	crafted 1 x diaithirarms:bone_bow as intended	evidence/recipes/diaithirarms__bone_bow.log
+recipes	diaithirarms:bone_chestplate	PASS	crafted 1 x diaithirarms:bone_chestplate as intended	evidence/recipes/diaithirarms__bone_chestplate.log
+recipes	diaithirarms:bone_helmet	PASS	crafted 1 x diaithirarms:bone_helmet as intended	evidence/recipes/diaithirarms__bone_helmet.log
+recipes	diaithirarms:bone_leggings	PASS	crafted 1 x diaithirarms:bone_leggings as intended	evidence/recipes/diaithirarms__bone_leggings.log
+recipes	diaithirarms:bone_plate	PASS	crafted 2 x diaithirarms:bone_plate as intended	evidence/recipes/diaithirarms__bone_plate.log
+recipes	diaithirarms:bone_shield	PASS	crafted 1 x diaithirarms:bone_shield as intended	evidence/recipes/diaithirarms__bone_shield.log
+recipes	diaithirarms:bronze_boots	UNTESTED	an ingredient is a tag with no resolvable member	
+recipes	diaithirarms:bronze_bow	UNTESTED	an ingredient is a tag with no resolvable member	
+recipes	diaithirarms:bronze_chestplate	UNTESTED	an ingredient is a tag with no resolvable member	
+recipes	diaithirarms:bronze_helmet	UNTESTED	an ingredient is a tag with no resolvable member	
+recipes	diaithirarms:bronze_leggings	UNTESTED	an ingredient is a tag with no resolvable member	
+recipes	diaithirarms:bronze_shield	UNTESTED	an ingredient is a tag with no resolvable member	
+recipes	diaithirarms:ceramic_plate	PASS	crafted 2 x diaithirarms:ceramic_plate as intended	evidence/recipes/diaithirarms__ceramic_plate.log
+recipes	diaithirarms:composite_axe	UNTESTED	an ingredient is a tag with no resolvable member	

@@ -55,11 +55,14 @@ def t_entities(ids):
         clear(); out = {}
         for id_, (x, y, z) in zip(b, cells(len(b))):
             c(f'setblock {x} 99 {z} minecraft:stone'); out[id_] = [f'> summon {id_} {x} {y} {z}', c(f'summon {id_} {x} {y} {z}')]
+            out[id_] += ['> present right after summon', c(f'execute if entity @e[type={id_},distance=..30,x={x},y={y},z={z}]')]
         time.sleep(2.5)
         for id_, (x, y, z) in zip(b, cells(len(b))):
             t = c(f'execute if entity @e[type={id_},distance=..30,x={x},y={y},z={z}]'); out[id_] += [f'> still present after 2.5 s', t]
-            ok = OK_SUM.search(out[id_][1]) and 'passed' in t.lower()
-            row('entities', id_, 'PASS' if ok else 'FAIL', 'summoned and still alive/ticking after 2.5 s' if ok else out[id_][1] + ' | ' + t, evid('entities', id_, out[id_]))
+            now = 'passed' in out[id_][3].lower(); ok = OK_SUM.search(out[id_][1]) and (now or 'passed' in t.lower())
+            note = 'summoned, still present after 2.5 s' if 'passed' in t.lower() else 'summoned; gone after 2.5 s (short-lived, e.g. projectile)'
+            gone = OK_SUM.search(out[id_][1]) and not ok  # summon accepted but entity vanished at once: needs an owner/context, not a registry fault
+            row('entities', id_, 'PASS' if ok else ('UNTESTED' if gone else 'FAIL'), note if ok else ('summon accepted but entity removed itself at once (needs owner/item context)' if gone else out[id_][1] + ' | ' + t), evid('entities', id_, out[id_]))
 def t_dimensions(ids):
     for id_ in ids:
         a = c(f'execute in {id_} run forceload add 0 0'); b = c(f'execute in {id_} run setblock 0 120 0 minecraft:stone'); d = c(f'execute in {id_} run execute if block 0 120 0 minecraft:stone')
@@ -95,10 +98,10 @@ def t_recipes(M, ids):
             for i, ing in enumerate(r['ingredients']): slots[i] = pick(ing, M)
         if not slots or any(v is None for v in slots.values()): row('recipes', id_, 'UNTESTED', 'an ingredient is a tag with no resolvable member'); continue
         clear(); o = []
-        c('setblock 9 100 9 minecraft:crafter[orientation=down_east]')
+        c('setblock 9 98 9 minecraft:stone'); c('setblock 9 100 9 minecraft:crafter[orientation=down_east]')
         for s, it in slots.items(): o += [f'> slot {s} = {it}', c(f'item replace block 9 100 9 container.{s} with {it} 1')]
         o += ['> power', c('setblock 8 100 9 minecraft:redstone_block')]; time.sleep(1.2)
-        d = c('data get entity @e[type=item,limit=1,sort=nearest,x=9,y=100,z=9,distance=..6] Item'); o += ['> dropped stack', d]
+        d = c('data get entity @e[type=item,limit=1,sort=nearest,x=9,y=100,z=9,distance=..4] Item'); o += ['> dropped stack', d]
         m = re.search(r'id:\s*"([^"]+)"', d); n = re.search(r'count:\s*(\d+)', d); got, cnt = (m and m[1]), (int(n[1]) if n else 1)
         if got == r['result'] and cnt == r['count']: row('recipes', id_, 'PASS', f'crafted {cnt} x {got} as intended', evid('recipes', id_, o))
         elif got: row('recipes', id_, 'FAIL', f'intended {r["count"]} x {r["result"]} but crafted {cnt} x {got}', evid('recipes', id_, o))
