@@ -6,3 +6,4 @@ Running: 4 87 88 90 91 92 (80 82 from thread 4 unconfirmed).
 Not started: 99 101 102 103 106 107 108 109 113 115 116 118 119 123 (+ new caches 43 97 98 105 110 120 124).
 FAIL also: 92 (6 no-source rows, battlefield.fandom.com 429).
 FAIL also: 88 (11 no-source rows). All failed shards await PC full-page caches on 8lxbuh; judge cache-only, hold incomplete ones.
+PASS also: 91. 11-05 ~20:20Z: 89 and 99 HOLD (cache files not yet on 8lxbuh; PC pushing). Retry held shards after PC finishes.
