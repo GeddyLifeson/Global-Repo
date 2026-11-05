@@ -115,7 +115,8 @@ def resolve(n):
                 hosts = HOSTS.get(w, [])
                 if host_i >= len(hosts): continue
                 h = hosts[host_i]; names = list({namef(r['text']) for i, r in items})
-                got = intro(h, names)
+                try: got = intro(h, names)
+                except Exception: continue
                 for i, r in items:
                     f, ex = got[namef(r['text'])]
                     if ex in ('(no extract)', '') and re.match(r'\s*\{\{', r['text']) and (ex or not api(h, {'action': 'query', 'titles': f})['query']['pages'][0].get('missing')): res[i] = (f, h)  # template row, page exists but has an empty lead
