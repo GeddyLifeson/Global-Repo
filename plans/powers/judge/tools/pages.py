@@ -21,7 +21,6 @@ def api(host, params):
     raise err
 def norm(s): return re.sub(r'[^0-9a-z]+', '', s.lower())
 def match(a, b):
-    if b == '(no extract)': return True  # page exists; fandom gave no extract (template pages)
     a, b = norm(a)[:80], norm(b)[:80]
     return bool(a) and difflib.SequenceMatcher(None, a, b).ratio() >= 0.75
 def namef(t):
@@ -41,7 +40,7 @@ def intro(host, titles):
     return out
 def resolve(n):
     R = [json.loads(l) for l in open(f'{B}shard_{n}.jsonl', encoding='utf-8')]
-    res = {}
+    res, weak = {}, {}
     todo = list(enumerate(R))
     for host_i in range(2):
         left = []
@@ -55,7 +54,8 @@ def resolve(n):
                 got = intro(h, names)
                 for i, r in items:
                     f, ex = got[namef(r['text'])]
-                    if ex and match(r['text'], ex): res[i] = (f, h)
+                    if ex == '(no extract)': weak.setdefault(i, (f, h))
+                    elif ex and match(r['text'], ex): res[i] = (f, h)
         todo = [(i, r) for i, r in todo if i not in res]
     for i, r in todo:  # fallback: full-text search on each host
         w = r['id'].rsplit('|', 1)[0]
@@ -66,6 +66,8 @@ def resolve(n):
             except Exception: continue
             hit = next(((f, h) for f, ex in got.values() if ex != '(no extract)' and match(r['text'], ex)), None)
             if hit: res[i] = hit; break
+    for i, (f, h) in weak.items():  # page exists but has no intro extract: accept only if the page has no text at all (template pages)
+        if i not in res and not full_extract(h, f): res[i] = (f, h)
     path = f'{B}shard_{n}.src.jsonl'
     with open(path, 'w', encoding='utf-8') as o:
         for i, r in enumerate(R):
@@ -73,6 +75,9 @@ def resolve(n):
             u = f"https://{h}/wiki/" + urllib.parse.quote(t.replace(' ', '_')) if t else ''
             o.write(json.dumps({'id': r['id'], 'title': t, 'url': u}, ensure_ascii=False) + '\n')
     print(f'{path}: resolved {len(res)}/{len(R)}')
+def full_extract(h, title):
+    d = api(h, {'action': 'query', 'prop': 'extracts', 'explaintext': 1, 'titles': title})
+    return (d['query']['pages'][0].get('extract', '') or '').strip()
 def srcs(n):
     p = f'{B}shard_{int(n)}.src.jsonl'
     if not os.path.exists(p): resolve(int(n))
