@@ -26,8 +26,16 @@ T = {'kinetic': {'mass': 'M', 'speed': 'S'}, 'fragment_sphere': {'diameter': 'L'
      'travel': {'distance': 'L', 'duration': 'T'}, 'stated_energy': {'energy': 'E'}, 'stated_speed': {'speed': 'S'}}
 AXIS = {'kinetic': 'AP Dur', 'fragment_sphere': 'AP Dur', 'fragment_volume': 'AP Dur', 'vaporize': 'AP Dur', 'uniform_sphere_gbe': 'AP Dur',
         'luminous': 'AP Dur', 'stated_energy': 'AP Dur', 'travel': 'v', 'stated_speed': 'v'}
-METHOD_SD = {'stated': 0.2, 'measured': 0.3, 'scaled': 0.4, 'estimated': 0.6}   # calculation sd in tiers (judge-spec assumption)
-CANON_W = {'main': 1.0, 'extended': 0.5, 'games': 0.5, 'noncanon': 0.2}          # canon reliability weight (judge-spec assumption)
+# Baseline (plans/powers/judge/BASELINE_CANON_METHOD.md, refinable): calculation sd in tiers = sqrt(FLOOR[tpl]^2 + sum((EXP*INPUT_SD[method])^2)).
+INPUT_SD = {'stated': 0.05, 'measured': 0.08, 'scaled': 0.20, 'estimated': 0.40}   # 1 sd of log10(input), dex
+METHOD_SD = INPUT_SD                                                              # known method names
+EXP = {'kinetic': {'mass': 1, 'speed': 2}, 'fragment_sphere': {'diameter': 3, 'j_per_cc': 1}, 'fragment_volume': {'volume': 1, 'j_per_cc': 1},
+       'vaporize': {'mass': 1, 'heat_capacity': 1, 'delta_t': 1, 'latent_heat': 1}, 'uniform_sphere_gbe': {'mass': 2, 'radius': 1},
+       'luminous': {'power': 1, 'duration': 1}, 'travel': {'distance': 1, 'duration': 1}, 'stated_energy': {'energy': 1}, 'stated_speed': {'speed': 1}}
+FLOOR = {'kinetic': .10, 'fragment_sphere': .30, 'fragment_volume': .30, 'vaporize': .20, 'uniform_sphere_gbe': .15,
+         'luminous': .10, 'travel': .10, 'stated_energy': .05, 'stated_speed': .05}   # template/convention error, dex
+# w = s0^2/(s0^2+sc^2), s0=.3 typical calc sd, sc = extra scatter vs main canon (extended .3, noncanon .6). Games = 1: SOURCE_BIAS('game') already shifts +.5 tiers and adds sd .5.
+CANON_W = {'main': 1.0, 'extended': 0.5, 'games': 1.0, 'noncanon': 0.2}
 class FeatError(ValueError): pass
 def si(inputs, tpl):
     if tpl not in T: raise FeatError(f'unknown template {tpl}')
@@ -54,7 +62,7 @@ def compute(f):
     else: t = math.log10(v['speed'])
     methods = [x[2] for x in f['in'].values()]
     if any(m not in METHOD_SD for m in methods): raise FeatError('unknown method')
-    sd = max(METHOD_SD[m] for m in methods)
+    sd = math.sqrt(FLOOR[tpl] ** 2 + sum((EXP[tpl][k] * INPUT_SD[x[2]]) ** 2 for k, x in f['in'].items()))
     st = f.get('st') or 'primary'
     ft = inference.Feat(float(t), sd, CANON_W[f.get('canon', 'main')], st if st in inference.SOURCE_BIAS else 'primary')
     x, off, sde = ft.effective()
