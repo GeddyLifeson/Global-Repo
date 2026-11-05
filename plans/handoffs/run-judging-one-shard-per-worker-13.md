@@ -3,7 +3,7 @@ Recipe: see handoff 12 and 11. Work dir plans/powers/judge. Brief tools/worker_b
 ## Passed and pushed
 129-136 (out/ written, problems 0).
 ## Parts in flight when this thread stopped launching (workers write parts/ locally; check git for "Judge parts" commits and ls parts/)
-- 4: parts 0, 46, 113 done; 157-212 worker was in flight (check parts/shard_4_157.json); 212-250 NOT started. Merge 4 when all five parts exist.
+- 4: parts 0, 46, 113, 157 done (157 covers rows 157-188 only). Still to judge: LO=189 HI=212 and LO=212 HI=250. Merge 4 when all five parts exist.
 ## Not started
 - 80: ranges [[0,45],[45,95],[95,152],[152,200],[200,250]].
 - 2 (needs PC recut of row 119), then rest of READY_SHARDS.txt on 8lxbuh.
