@@ -30,9 +30,19 @@ def _api(host, params):
                 time.sleep(1 + k)
     raise err
 def norm(s): return re.sub(r'[^0-9a-z]+', '', s.lower())
-def match(a, b):
-    a, b = norm(a), norm(b); k = min(len(a), len(b), 80); a, b = a[:k], b[:k]
+def noparen(s):
+    while True:
+        t = re.sub(r'\([^()]*\)|（[^（）]*）', '', s)
+        if t == s: return s
+        s = t
+def _match(a, b):
+    a, b = norm(a), norm(b); k = min(len(a), len(b), 80)
+    if k and a[:k] in b[:k + 400]: return True  # lead after a stub/notice banner
+    a, b = a[:k], b[:k]
     return bool(a) and difflib.SequenceMatcher(None, a, b).ratio() >= 0.75
+def match(a, b):
+    a = re.sub(r'\[https?://\S+ ([^\]]*)\]', r'\1', a)  # [url label] -> label
+    return _match(a, b) or _match(noparen(a), noparen(b))
 def html2txt(h):
     """Rendered HTML -> plain text with '== Heading ==' lines (for wikis without TextExtracts, e.g. fandom)."""
     import html as H
