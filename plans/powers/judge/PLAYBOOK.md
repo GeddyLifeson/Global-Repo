@@ -27,3 +27,9 @@ Optional `f` per being: [[AP|Dur|v, verbatim quote]] for a stated physical numbe
 
 ## Validator (S6985): mandatory
 `python3 plans/powers/judge/tools/validate.py N` runs automatically at the end of `judge.py write`. Push ONLY shards that print PASS (rejected shard = fix and re-write, never push). It re-fetches the pages and checks: source URL/title resolve and match the batch lead; every power/feat/gear quote verbatim in the page; required fields, pool ids, m 1-10, c h/m/l; non-beings carry no powers/gear; gear is weapon/armor/vehicle only; Abilities pages have a power, feat, x or `z:"none stated: reason"`; feat maths recomputed with c3m (measure.py/inference.py copies in tools/c3m_lib) plus a plain-math cross-check, input number present in quote; shard totals (out/shard_N.meta.json) recounted. `python3 tools/selftest.py` shows it rejecting 11 deliberately broken variants. Fold: `validate.py all`; cloud/tools/powers/merge_judged.py refuses any judge/out shard that fails.
+
+## Worker notes (from the first 5 workers)
+- One shard per worker (250 rows ~ 45-55k tokens). Rows with no source page need config key `"u0":{"idx":"reason"}`; the validator allows at most 2%.
+- Script section extraction (Powers/Abilities/Skills/Battle/Attacks headings) from the cache; the pool keyword regexes are in POWER_POOL.tsv column index 6 and are noisy and miss tabletop Discipline/Gift names.
+- Name not found (e.g. \xa0 in the lead): set it in `n`. Gear name case must match the page.
+- Discipline/Gift to pool-id mappings (Celerity -> super_speed etc.) are judgement calls: m=1, c=l.
