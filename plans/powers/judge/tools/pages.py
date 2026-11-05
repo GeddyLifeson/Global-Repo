@@ -31,7 +31,7 @@ def _api(host, params):
     raise err
 def norm(s): return re.sub(r'[^0-9a-z]+', '', s.lower())
 def match(a, b):
-    a, b = norm(a)[:80], norm(b)[:80]
+    a, b = norm(a), norm(b); k = min(len(a), len(b), 80); a, b = a[:k], b[:k]
     return bool(a) and difflib.SequenceMatcher(None, a, b).ratio() >= 0.75
 def html2txt(h):
     """Rendered HTML -> plain text with '== Heading ==' lines (for wikis without TextExtracts, e.g. fandom)."""
@@ -118,7 +118,8 @@ def resolve(n):
                 got = intro(h, names)
                 for i, r in items:
                     f, ex = got[namef(r['text'])]
-                    if ex == '(no extract)': weak.setdefault(i, (f, h))
+                    if ex == '(no extract)' and re.match(r'\s*\{\{', r['text']): res[i] = (f, h)  # template row, page exists but has an empty lead
+                    elif ex == '(no extract)': weak.setdefault(i, (f, h))
                     elif ex and match(r['text'], ex): res[i] = (f, h)
                     elif ex and ex != '(no extract)' and re.match(r'\s*\{\{', r['text']): res[i] = (f, h)  # template-start row: the page named by its Name/MainPage field
         todo = [(i, r) for i, r in todo if i not in res]
@@ -133,8 +134,8 @@ def resolve(n):
             except Exception: continue
             hit = next(((f, h) for f, ex in got.values() if ex != '(no extract)' and match(r['text'], ex)), None)
             if not hit:  # mid-page fragment: accept a candidate whose full text contains the row's opening words
-                key = norm(r['text'])[:60]
-                hit = next(((f, h) for f, _ in got.values() if len(key) >= 30 and key in norm(full_extract(h, f))), None)
+                nt = norm(r['text']); keys = [k for k in (nt[:60], nt[60:120]) if len(k) >= 30]  # the 2nd key survives stripped names at the start
+                hit = next(((f, h) for f, _ in got.values() if any(k in (pt := norm(full_extract(h, f))) for k in keys)), None)
             if hit: res[i] = hit; break
     for i, (f, h) in weak.items():  # page exists but has no intro extract: accept only if the page has no text at all (template pages)
         if i not in res and not full_extract(h, f): res[i] = (f, h)
