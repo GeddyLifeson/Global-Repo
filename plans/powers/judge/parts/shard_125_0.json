@@ -1,0 +1,343 @@
+{
+"d": 0,
+"b1": [
+0,
+1,
+2,
+3,
+4,
+10,
+15,
+18,
+22,
+30,
+42,
+43,
+44,
+55,
+59,
+71,
+81,
+82,
+84,
+90,
+97,
+102,
+103,
+104,
+112,
+126
+],
+"n": {
+"59": "Ashur"
+},
+"p": {},
+"W": {
+"8": [
+"armor",
+"Arena Light Raiment",
+1,
+"Arena Light Raiment is available from the Blademaster",
+"h"
+],
+"9": [
+"armor",
+"Arena Heavy Raiment",
+1,
+"The Arena Heavy Raiment is provided to the brave souls",
+"h"
+],
+"12": [
+"weapon",
+"Arm of the Moon",
+1,
+"Arm of the Moon is a weapon in",
+"h"
+],
+"13": [
+"weapon",
+"Arm of the Sun",
+1,
+"Arm of the Sun is a weapon in",
+"h"
+],
+"14": [
+"weapon",
+"Argonian Fishing Rod",
+1,
+"The Argonian Fishing Rod is a tool and one-handed weapon",
+"h"
+],
+"17": [
+"armor",
+"Armor of Tiber Septim",
+1,
+"The Armor of Tiber Septim is a cuirass",
+"h"
+],
+"19": [
+"armor",
+"Armor of the Old Gods",
+2,
+"It is an enchanted set of Forsworn armor",
+"m"
+],
+"20": [
+"armor",
+"Armun-An Bonemold Left Pauldron",
+1,
+"Armun-An Bonemold Left Pauldron is a piece of Medium Armor armor type",
+"h"
+],
+"21": [
+"armor",
+"Armun-An Bonemold Right Pauldron",
+1,
+"Armun-An Bonemold Right Pauldron is a piece of the Bonemold Armor set",
+"h"
+],
+"23": [
+"vehicle",
+"Arrow",
+1,
+"Arrow is a large ship",
+"h"
+],
+"61": [
+"weapon",
+"Auriel's Bow",
+3,
+"Auriel's Bow is a legendary artifact of Tamriel",
+"l"
+],
+"62": [
+"armor",
+"Auriel's Shield",
+3,
+"Auriel's Shield is an almost mythical artifact of Tamriel",
+"l"
+],
+"65": [
+"armor",
+"Ayleid Crown of Nenalata",
+2,
+"The Ayleid Crown of Nenalata is an ancient elven helmet",
+"m"
+],
+"66": [
+"armor",
+"Ayleid Crown of Lindai",
+2,
+"The Ayleid Crown of Lindai is an ancient Elven Helmet",
+"m"
+],
+"67": [
+"weapon",
+"Ayleid Long Sword",
+1,
+"The Ayleid Long Sword is a unique Elven Longsword",
+"h"
+],
+"68": [
+"weapon",
+"Axe of Whiterun",
+1,
+"Axe of Whiterun is one of a unique group of weapons",
+"h"
+],
+"69": [
+"weapon",
+"Axe of Eastmarch",
+1,
+"Axe of Eastmarch is a semi-unique weapon",
+"h"
+],
+"70": [
+"weapon",
+"Ayleid Mace",
+1,
+"The Ayleid Mace is a Blunt weapon",
+"h"
+],
+"73": [
+"armor",
+"Ayleids' Coat of Memories",
+1,
+"Ayleids' Coat of Memories is a piece of heavy armor",
+"h"
+],
+"75": [
+"weapon",
+"Automated Defense Bow",
+1,
+"Automated Defense Bow is a bow",
+"h"
+],
+"76": [
+"weapon",
+"Axe of the Lunar Bastion",
+1,
+"The Axe of the Lunar Bastion is an axe",
+"h"
+],
+"77": [
+"weapon",
+"Axe of Alkosh",
+1,
+"The Axe of Alkosh is an axe",
+"h"
+],
+"78": [
+"weapon",
+"Axe of Twilight Remedy",
+1,
+"The Axe of Twilight Remedy is an axe",
+"h"
+],
+"83": [
+"weapon",
+"Balgruuf's War Axe",
+1,
+"Balgruuf's War Axe is a unique war axe",
+"h"
+],
+"89": [
+"weapon",
+"Azra's Mace",
+1,
+"Azra's Mace is a weapon found in",
+"h"
+],
+"93": [
+"armor",
+"Banded Iron Shield",
+1,
+"The Banded Iron Shield is part of a heavy armor set",
+"h"
+],
+"100": [
+"armor",
+"Baron Sorick's Pauldrons",
+1,
+"Baron Sorick's Pauldrons is a heavy armor shoulder equipment",
+"h"
+],
+"101": [
+"armor",
+"Bandit Gloves",
+1,
+"Bandit Gloves are a piece of light magic armor",
+"h"
+],
+"109": [
+"weapon",
+"Battleaxe of Hatred",
+1,
+"The Battleaxe of Hatred is an enchanted Battle Axe",
+"h"
+],
+"110": [
+"weapon",
+"Battle Axe of Enfeeblement",
+1,
+"The Battle Axe of Enfeeblement is an enchanted Dwarven Battle Axe",
+"h"
+],
+"113": [
+"weapon",
+"Baurus's Akaviri Katana",
+1,
+"Baurus's Akaviri Katana is a unique Akaviri Katana",
+"h"
+],
+"116": [
+"armor",
+"Bastion of the Dragon",
+1,
+"Bastion of the Dragon is a shield",
+"h"
+],
+"120": [
+"weapon",
+"Battle Axe of the Lunar Bastion",
+1,
+"The Battle Axe of the Lunar Bastion is a battle axe",
+"h"
+],
+"121": [
+"weapon",
+"Battle Axe of Alkosh",
+1,
+"The Battle Axe of Alkosh is a battle axe",
+"h"
+],
+"122": [
+"weapon",
+"Axe of Twilight Remedy",
+1,
+"The Axe of Twilight Remedy is an axe",
+"h"
+],
+"127": [
+"armor",
+"Beveled Gauntlets",
+1,
+"Beveled Gauntlets is a type of glass armor",
+"h"
+],
+"132": [
+"weapon",
+"Berserker Silver Longsword",
+1,
+"Berserker Silver Longsword is a one-handed silver",
+"h"
+],
+"133": [
+"armor",
+"Binder's Robe",
+1,
+"Binder's Robe is a piece of light armor",
+"h"
+],
+"134": [
+"armor",
+"Betina's Fashionable Gloves",
+1,
+"Betina's Fashionable Gloves are light armor gauntlets",
+"h"
+],
+"140": [
+"armor",
+"Birthright of Astalon",
+1,
+"The Birthright of Astalon is an enchanted Elven armor cuirass",
+"h"
+],
+"143": [
+"armor",
+"Blackguard's Armor",
+1,
+"Blackguard's Armor is a unique piece of light armor",
+"h"
+],
+"144": [
+"armor",
+"Blackguard's Boots",
+1,
+"Blackguard's Boots are a unique piece of light armor",
+"h"
+]
+},
+"x": {
+"81": [
+"Ancestor Guardian",
+"Resist Fire"
+],
+"84": [
+"Eye of Fear"
+]
+},
+"z": {},
+"f": {},
+"u0": {}
+}
