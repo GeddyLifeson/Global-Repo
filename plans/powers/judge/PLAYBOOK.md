@@ -33,3 +33,12 @@ Optional `f` per being: [[AP|Dur|v, verbatim quote]] for a stated physical numbe
 - Script section extraction (Powers/Abilities/Skills/Battle/Attacks headings) from the cache; the pool keyword regexes are in POWER_POOL.tsv column index 6 and are noisy and miss tabletop Discipline/Gift names.
 - Name not found (e.g. \xa0 in the lead): set it in `n`. Gear name case must match the page.
 - Discipline/Gift to pool-id mappings (Celerity -> super_speed etc.) are judgement calls: m=1, c=l.
+
+## Resolver causes and ABSENT rule (pages.py, held-shard fix)
+Rows left without a source page had these causes, all fixed in `pages.py resolve`:
+1. Request errors (429) were swallowed, so whole batches silently stayed unresolved. `lookup` now retries 4 times and counts failures.
+2. Page title is a shorter form of the lead name (Su-37, ATC Tango, singular): candidates are word spans of the name, parentheticals unwrapped, plus singular.
+3. Template rows (`{{... Template | ...}}`): candidates come from Image stem (with `(Earth-616)` qualifier), Name/nam/MainPage/CurrentAlias/LegacyNumber/Title, rom/dub, and the subject of Overview.
+4. Name stripped from the row (wikilink removed): search several windows of the text, quoted and unquoted, and accept the page that contains >=40% of the row's 4-word shingles.
+5. An empty page on the first host no longer wins over a matching page on the second host.
+ABSENT RULE: if every lookup and search ran with no request error and still nothing matched, the page is gone from the wiki. The resolver writes `batches/shard_N.absent.json` (row ids) and `validate.py` does not count those rows toward the 2% cap. Judges still mark them `b0` with `z="no source page: <reason>"`. Any request error removes the file, so a flaky run can never excuse rows.

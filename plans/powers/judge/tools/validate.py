@@ -83,7 +83,8 @@ def check(n, path=None, meta=None):
                 if msg: e(msg)
             if sect_text(full) and not (o.get('p') or o.get('f') or o.get('x') or str(o.get('z', '')).startswith('none stated:')):
                 e("page has an Abilities/Powers section but row has no power, feat, x, or z='none stated: reason'")
-    nosrc = sum(1 for o in out if o.get('z', '').startswith('no source page:'))
+    ap = f'{B}shard_{n}.absent.json'; absent = set(json.load(open(ap))) if os.path.exists(ap) else set()  # rows the resolver confirmed absent (pages.py ABSENT RULE) do not count toward the cap
+    nosrc = sum(1 for o in out if o.get('z', '').startswith('no source page:') and o.get('id') not in absent)
     if nosrc > max(1, len(R) // 50): err.append((-1, f'{nosrc} rows without a source page exceeds 2% of the shard'))
     mp = meta or f'{O}shard_{n}.meta.json'
     cnt = {'rows': len(out), 'beings': sum(o.get('b') == 1 for o in out), 'gear': sum(o.get('b') == 2 for o in out), 'powers': sum(len(o.get('p', [])) for o in out), 'feats': sum(len(o.get('f', [])) for o in out)}
