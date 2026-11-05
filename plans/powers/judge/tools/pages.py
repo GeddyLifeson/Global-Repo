@@ -11,18 +11,61 @@ HOSTS = {}
 for l in open(os.path.join(HERE, 'wikis.tsv'), encoding='utf-8'):
     p = l.rstrip('\n').split('\t')
     if len(p) == 2: HOSTS[p[0]] = p[1].split(',')
+import threading
+_L = threading.Lock(); _T = [0.0]
 def api(host, params):
+    with _L:  # global throttle: fandom 429s on bursts
+        w = _T[0] + 2.0 - time.time()
+        if w > 0: time.sleep(w)
+        _T[0] = time.time()
+    return _api(host, params)
+def _api(host, params):
     q = urllib.parse.urlencode({**params, 'format': 'json', 'formatversion': 2})
     for path in ('/api.php', '/w/api.php'):
-        for k in range(3):
+        for k in range(6):
             try: return json.load(urllib.request.urlopen(urllib.request.Request(f'https://{host}{path}?{q}', headers=UA), timeout=40))
             except Exception as e:
-                err = e; time.sleep(1 + k)
+                err = e
+                if '429' in str(e): _T[0] = time.time() + 20 * (k + 1)  # global pause for every thread
+                time.sleep(1 + k)
     raise err
 def norm(s): return re.sub(r'[^0-9a-z]+', '', s.lower())
 def match(a, b):
     a, b = norm(a)[:80], norm(b)[:80]
     return bool(a) and difflib.SequenceMatcher(None, a, b).ratio() >= 0.75
+def html2txt(h):
+    """Rendered HTML -> plain text with '== Heading ==' lines (for wikis without TextExtracts, e.g. fandom)."""
+    import html as H
+    h = re.sub(r'(?is)<div[^>]*(hatnote|dablink|notice|mbox)[^>]*>.*?</div>', '', h)
+    h = re.sub(r'(?is)<(script|style|table|aside|sup|figure)\b.*?</\1>', '', h)
+    h = re.sub(r'(?is)<h([2-6])[^>]*>(.*?)</h\1>', lambda m: '\n' + '=' * (int(m.group(1)) - 0) + ' ' + re.sub(r'<[^>]+>|\[edit\]', '', m.group(2)).strip() + ' ' + '=' * int(m.group(1)) + '\n', h)
+    h = re.sub(r'(?i)<br\s*/?>|</(p|li|div|dd|dt|tr)>', '\n', h)
+    h = H.unescape(re.sub(r'<[^>]+>', '', h))
+    return re.sub(r'\n\s*\n+', '\n', re.sub(r'[ \t]+', ' ', h)).strip()
+def wiki2txt(w):
+    """Wikitext -> plain text with '== Heading ==' lines (lossy, deterministic; the validator checks quotes against this same text)."""
+    import html as H
+    w = re.sub(r'(?s)<!--.*?-->|<ref[^>]*/>|<ref[^>]*>.*?</ref>|<(?:gallery|noinclude|references)\b.*?</\1>', '', w)
+    for _ in range(6): w = re.sub(r'\{\{[^{}]*\}\}|\{\|[^{}]*?\|\}', '', w)
+    w = re.sub(r'\[\[(?:File|Image|Category):[^\]]*\]\]', '', w, flags=re.I)
+    w = re.sub(r'\[\[(?:[^\]|]*\|)?([^\]]*)\]\]', r'\1', w)
+    w = re.sub(r'\[https?://\S+ ([^\]]*)\]|\[https?://\S+\]', r'\1', w)
+    w = re.sub(r"'{2,}", '', w); w = re.sub(r'<[^>]+>', '', w)
+    w = re.sub(r'^[*#:;]+ *', '', w, flags=re.M)
+    return re.sub(r'\n\s*\n+', '\n', H.unescape(w)).strip()
+def _full(host, t):
+    f, x = ptext(host, t)
+    if x:  # cache the full page now so text() needs no second request
+        u = f"https://{host}/wiki/" + urllib.parse.quote(f.replace(' ', '_'))
+        open(CACHE + re.sub(r'\W+', '_', u)[-150:] + '.txt', 'w', encoding='utf-8').write(x[:12000])
+    return f, x
+def ptext(host, title, intro_only=False):
+    """Plain page text via action=parse; '(no extract)' if page missing/empty (matches the extracts convention)."""
+    try:
+        d = api(host, {'action': 'parse', 'page': title, 'prop': 'text', 'redirects': 1, 'disableeditsection': 1, **({'section': 0} if intro_only else {})})
+        return d['parse']['title'], html2txt(d['parse']['text'])
+    except Exception:
+        return title, ''
 def namef(t):
     m = re.split(r' \(|, | (?:is|was|are|were) ', t, maxsplit=1)[0]
     return m[:60]
@@ -30,8 +73,26 @@ def intro(host, titles):
     """{title: intro text} for up to 20 titles, redirects resolved (input title -> final)."""
     d = api(host, {'action': 'query', 'prop': 'extracts', 'exintro': 1, 'explaintext': 1, 'exlimit': 'max', 'redirects': 1, 'titles': '|'.join(titles)})
     q = d.get('query', {}); mp = {}
+    if 'extracts' in str(d.get('warnings', '')) + str(q.get('warnings', '')):  # wiki without TextExtracts: one batched wikitext request, cleaned to plain text
+        d = api(host, {'action': 'query', 'prop': 'revisions', 'rvprop': 'content', 'rvslots': 'main', 'redirects': 1, 'titles': '|'.join(titles)})
+        q = d.get('query', {}); mp = {}
+        for x in q.get('normalized', []) + q.get('redirects', []): mp[x['from']] = x['to']
+        got = {}
+        for p in q.get('pages', []):
+            if isinstance(p, dict) and not p.get('missing') and p.get('revisions'):
+                got[p['title']] = wiki2txt(p['revisions'][0]['slots']['main']['content'])
+        out = {}
+        for t in titles:
+            f = t
+            for _ in range(3): f = mp.get(f, f)
+            x = got.get(f, '')
+            if x:
+                u = f"https://{host}/wiki/" + urllib.parse.quote(f.replace(' ', '_'))
+                open(CACHE + re.sub(r'\W+', '_', u)[-150:] + '.txt', 'w', encoding='utf-8').write(x[:12000])
+            out[t] = (f, x[:600] if x else '')
+        return out
     for x in q.get('normalized', []) + q.get('redirects', []): mp[x['from']] = x['to']
-    ex = {p['title']: (p.get('extract', '') or '(no extract)') for p in q.get('pages', []) if not p.get('missing')}
+    ex = {p['title']: (p.get('extract', '') or '(no extract)') for p in q.get('pages', []) if isinstance(p, dict) and not p.get('missing')}
     out = {}
     for t in titles:
         f = t
@@ -79,19 +140,30 @@ def resolve(n):
     print(f'{path}: resolved {len(res)}/{len(R)}')
 def full_extract(h, title):
     d = api(h, {'action': 'query', 'prop': 'extracts', 'explaintext': 1, 'titles': title})
+    if 'extracts' in str(d.get('warnings', '')): return ptext(h, title)[1]
     return (d['query']['pages'][0].get('extract', '') or '').strip()
 def srcs(n):
     p = f'{B}shard_{int(n)}.src.jsonl'
     if not os.path.exists(p): resolve(int(n))
     return [json.loads(l) for l in open(p, encoding='utf-8')]
+_PK = {}
+def _packed():
+    if not _PK:
+        import glob, gzip
+        for g in glob.glob(os.path.join(HERE, '..', 'cache', '*.pages.json.gz')):
+            _PK.update(json.load(gzip.open(g, 'rt', encoding='utf-8')))
+        _PK[''] = ''
+    return _PK
 def text(url, limit=12000):
     """Full plain text of the page (cached outside git)."""
     if not url: return ''
+    c = _packed()
+    if url in c: return c[url]
     f = CACHE + re.sub(r'\W+', '_', url)[-150:] + '.txt'
     if os.path.exists(f): return open(f, encoding='utf-8').read()
     h, t = url.split('/')[2], urllib.parse.unquote(url.split('/wiki/', 1)[1]).replace('_', ' ')
     d = api(h, {'action': 'query', 'prop': 'extracts', 'explaintext': 1, 'titles': t})
-    x = (d['query']['pages'][0].get('extract', '') or '')[:limit]
+    x = intro(h, [t]).get(t, ('', ''))[0] and open(CACHE + re.sub(r'\W+', '_', url)[-150:] + '.txt', encoding='utf-8').read() if 'extracts' in str(d.get('warnings', '')) and os.path.exists(CACHE + re.sub(r'\W+', '_', url)[-150:] + '.txt') else ptext(h, t)[1][:limit] if 'extracts' in str(d.get('warnings', '')) else (d['query']['pages'][0].get('extract', '') or '')[:limit]
     open(f, 'w', encoding='utf-8').write(x); return x
 def exists(url):
     h, t = url.split('/')[2], urllib.parse.unquote(url.split('/wiki/', 1)[1]).replace('_', ' ')
