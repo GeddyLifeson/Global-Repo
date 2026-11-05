@@ -1,0 +1,6 @@
+category	id	status	detail	evidence
+bosses	diaithirbosses:driegunsalund	UNTESTED	killed by player hits and drops loot, but never hurt the player in 8 s (not aggroed/ability not observed)	evidence/bosses/diaithirbosses__driegunsalund.log
+bosses	diaithirbosses:natuirmoir	UNTESTED	killed by player hits and drops loot, but never hurt the player in 8 s (not aggroed/ability not observed)	evidence/bosses/diaithirbosses__natuirmoir.log
+bosses	diaithirbosses:natuirsaegul	UNTESTED	killed by player hits and drops loot, but never hurt the player in 8 s (not aggroed/ability not observed)	evidence/bosses/diaithirbosses__natuirsaegul.log
+bosses	diaithirbosses:natuirrig	FAIL	did not spawn / not alive 3 s later	evidence/bosses/diaithirbosses__natuirrig.log
+bosses	diaithirbosses:natuirkriegach	FAIL	did not spawn / not alive 3 s later	evidence/bosses/diaithirbosses__natuirkriegach.log

@@ -111,29 +111,49 @@ def t_static(M):
         row('recipes' if rid in M['recipes'] else 'obtainable', rid, 'UNTESTED' if st == 'INFO' else st, why)
 def t_bosses(M, ids, client):
     for id_ in ids:
-        clear(); o = [f'> summon {id_}', c(f'summon {id_} 9 100 9 {{PersistenceRequired:1b}}')]; time.sleep(3)
+        clear(); c('fill 0 99 0 17 99 17 minecraft:stone'); o = [f'> summon {id_}', c(f'summon {id_} 9 100 9 {{PersistenceRequired:1b}}')]; time.sleep(3)
         h0 = c(f'data get entity @e[type={id_},limit=1] Health'); o += ['> health after spawn', h0]
-        alive = 'Health' in h0
+        alive = bool(re.search(r'data:\s*[\d.]+', h0))
         near0 = c('execute if entity @e[type=!player,distance=..60,x=9,y=100,z=9]')
         # fight: survival player (needs --client) stands beside it; bare console runs only report alive/kill/loot
         ctx = {}
         if client:
-            o += [c('gamemode survival Tester'), c('tp Tester 9 100 14 180 0')]; time.sleep(8)
-            ph = c('data get entity Tester Health'); ctx['player_health'] = ph; o += ['> player health after 8 s next to boss', ph]
+            o += [c('gamemode survival Tester'), c('effect give Tester minecraft:resistance 600 ' + os.environ.get('BOSS_RES', '3') + ' true'), c('tp Tester 9 100 14 180 0')]
+            mn = 20.0
+            for _ in range(8):
+                time.sleep(1); ph = c('data get entity Tester Health'); m = re.search(r'data:\s*([\d.]+)', ph); mn = min(mn, float(m[1])) if m else mn
+            ctx['min_health'] = mn; o += [f'> lowest player health in 8 s next to boss (resistance 4 on; full health is 20): {mn}']
             fx = c('data get entity Tester ActiveEffects'); o += ['> player effects', fx]
             cnt = c('execute store result score #n dt run execute if entity @e[type=!player,distance=..60,x=9,y=100,z=9]'); o += ['> entities around', cnt]
         else: o += ['> (no client: fight and ability checks skipped)']
-        o += ['> kill as player', c(f'damage @e[type={id_},limit=1] 100000 minecraft:player_attack' + (' by Tester' if client else ''))]; time.sleep(3)
-        dead = 'passed' not in c(f'execute if entity @e[type={id_}]').lower(); o += [f'> dead: {dead}']
-        drops = c('data get entity @e[type=item,limit=1,sort=nearest,x=9,y=100,z=9,distance=..20] Item'); o += ['> nearest drop', drops]
+        def gone(wait=8):
+            for _ in range(wait):
+                if 'passed' not in c(f'execute if entity @e[type={id_}]').lower(): return True
+                time.sleep(1)
+            return False
+        dead, how = False, ''
+        def grind():  # bosses cap damage per hit (design: no one-shots), so hit repeatedly until dead
+            hits = 0
+            for _ in range(120):
+                if 'passed' not in c(f'execute if entity @e[type={id_}]').lower(): return hits
+                c(f'damage @e[type={id_},limit=1] 1000 minecraft:player_attack' + (' by Tester' if client else '')); hits += 1; time.sleep(0.6)
+            return -1
+        h = grind(); o += [f'> grind with player_attack 1000 per hit: {"killed after %d hits" % h if h >= 0 else "still alive after 120 hits"}', c(f'data get entity @e[type={id_},limit=1] Health')]
+        dead, how = h >= 0, 'player_attack'
+        for how2, cmd in (() if dead else (('generic_kill', f'damage @e[type={id_},limit=1] 100000 minecraft:generic_kill'), ('/kill', f'kill @e[type={id_}]'))):
+            how = how2
+            o += [f'> {cmd}', c(cmd)]; dead = gone(); o += [f'> dead after 8 s: {dead}', c(f'data get entity @e[type={id_},limit=1] Health')]
+            if dead: break
+        time.sleep(1.5); drops = c('data get entity @e[type=item,limit=1,sort=nearest,x=9,y=100,z=9,distance=..20] Item'); o += ['> nearest drop', drops]
         exp = M['loot'].get(id_.replace(':', ':entities/'), [])
         got_drop = 'id:' in drops
         ev = evid('bosses', id_, o)
         if not alive: row('bosses', id_, 'FAIL', 'did not spawn / not alive 3 s later', ev)
-        elif not dead: row('bosses', id_, 'FAIL', 'could not be killed with 100000 damage', ev)
+        elif not dead: row('bosses', id_, 'FAIL', 'survived player_attack, generic_kill and /kill (cannot be killed)', ev)
+        elif how == '/kill' or how == 'generic_kill': row('bosses', id_, 'FAIL', f'immune to player_attack damage; only died to {how}, so player kills and loot are untestable this way (see evidence)', ev)
         elif exp and not got_drop: row('bosses', id_, 'FAIL', f'loot table lists {exp[:5]} but nothing dropped', ev)
         elif not client: row('bosses', id_, 'UNTESTED', f'spawns, alive, killable{", drops loot" if got_drop else ", no loot table found"}; fight and abilities need --client', ev)
-        else: row('bosses', id_, 'PASS' if 'Health' in ctx.get('player_health', '') else 'UNTESTED', 'spawned, fought a survival player (see evidence), killed, loot checked', ev)
+        else: row('bosses', id_, 'PASS' if ctx.get('min_health', 20) < 20 else 'UNTESTED', ('attacked the player (lowest health %s), ' % ctx.get('min_health')) + f'killed by player hits, dropped loot' if ctx.get('min_health', 20) < 20 else 'killed by player hits and drops loot, but never hurt the player in 8 s (not aggroed/ability not observed)', ev)
 def t_machines(spec):
     for m in json.load(open(spec)):  # {"id","block","state","slots":{"0":"item"},"wait":10,"out_slot":2,"expect":"ns:item"}
         clear(); b = m['block'] + m.get('state', ''); o = [c(f'setblock 9 100 9 {b}')]
