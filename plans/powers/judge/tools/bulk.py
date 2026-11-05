@@ -16,10 +16,15 @@ def _one(n):
     out = f'{J}/cache/shard_{n}.pages.json.gz'
     if os.path.exists(out): return n, 'cached'
     b = f'{J}/batches/shard_{n}.jsonl'
-    if not os.path.exists(b): shutil.copy(OLD % n, b)
+    if not os.path.exists(b):
+        if not os.path.exists(OLD % n): return n, 'no input'
+        shutil.copy(OLD % n, b)
     S = pages.srcs(n)
     urls = sorted({s['url'] for s in S if s['url']})
-    T = {u: pages.text(u) for u in urls}
+    T = {}
+    for k, u in enumerate(urls):
+        T[u] = pages.text(u)
+        if k % 25 == 0: print(f'  fetch {n} {k}/{len(urls)}', file=sys.stderr, flush=True)
     os.makedirs(f'{J}/cache', exist_ok=True)
     with gzip.open(out, 'wt', encoding='utf-8') as f: json.dump(T, f, ensure_ascii=False)
     return n, f"{len(urls)} pages, {sum(1 for s in S if not s['url'])} unresolved"

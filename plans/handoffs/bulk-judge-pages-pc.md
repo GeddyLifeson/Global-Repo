@@ -1,5 +1,8 @@
-# Handoff: bulk judge page download (PC)
-State: repo E:\work\gr (branch claude/project-thread-8lxbuh). bulk.py 0 5 2 running since 10:51 (log E:\work\bulk_a.log), no output yet; shard 0/1 src.jsonl not written after ~10 min (wiki resolve slow or 429-retrying; check with Get-CimInstance for bulk.py).
-Inputs: shard_NN.jsonl only in project library (read_project_file plans/powers/judge/inthread/shard_NN.jsonl). Done 00-19, placed at E:\mnt\project-files\plans\powers\judge\inthread\ (OLD path from E: cwd). Each read saves a tool-results blob; E:\work\place.py maps blobs sorted by timestamp to shard_NN in order (sequential calls only, never skip a number). Next: 20..159.
-Then: python plans/powers/judge/tools/bulk.py 0 160 2 from E: drive; commit cache+batches every 20 shards, push to branch. Bash allow rule for bulk.py granted by Marlon.
-When shards 0-4 land: message judge lane thread cmsg_01EpyoqYuwV3X4z3b4zk5pEKULbNT7MtmcLmgbLY9DuN9Q directly.
+# Handoff: bulk judge page download (PC) - updated by replacement thread
+Root cause of "no output": pages.py wiki2txt regex used \1 on a non-capturing group (PatternError, all shards FAILED). Fixed; also per-host throttle (1s) instead of global 2s, progress logging (stderr), bulk.py skips shards with no input ('no input').
+Running: `python plans/powers/judge/tools/bulk.py 1 160 6 > E:\work\bulk_main.log` (+ watchdog, log E:\work\wd.log). Shard 0 test run separately (pid 41024 old code; fine). Cache lands in plans/powers/judge/cache/shard_N.pages.json.gz. ~4-10 min/shard/worker.
+Inputs: shards 0-6 in repo batches; 7-19 and 20-94 placed at E:\mnt\project-files\plans\powers\judge\inthread\shard_NN.jsonl. STILL TO READ: 95..159 via mcp__hearthbot__read_project_file (path plans/powers/judge/inthread/shard_NN.jsonl; parallel batches of 15 work, blobs land in call order). Then `python E:\work\place2.py` copies this-session blobs sorted by time to shard_{20+i}; ADAPT: place2.py D= the NEW session's tool-results dir and start index 95 (it numbers from 20, so set offset/skip). Verify sizes vs size_bytes.
+After placing, rerun bulk.py for the 'no input' shards (cached shards skip): `python plans/powers/judge/tools/bulk.py 1 160 6`.
+Every 20 shards: git add plans/powers/judge/cache plans/powers/judge/batches; commit; push to claude/project-thread-8lxbuh.
+When shards 0-4 land (cache files exist): message judge lane thread cmsg_01EpyoqYuwV3X4z3b4zk5pEKULbNT7MtmcLmgbLY9DuN9Q via message_thread.
+Post to coordinator only when done/blocked. Uncommitted: pages.py, bulk.py fixes (commit them first).

@@ -12,12 +12,11 @@ for l in open(os.path.join(HERE, 'wikis.tsv'), encoding='utf-8'):
     p = l.rstrip('\n').split('\t')
     if len(p) == 2: HOSTS[p[0]] = p[1].split(',')
 import threading
-_L = threading.Lock(); _T = [0.0]
+_L = threading.Lock(); _T = {}
 def api(host, params):
-    with _L:  # global throttle: fandom 429s on bursts
-        w = _T[0] + 2.0 - time.time()
-        if w > 0: time.sleep(w)
-        _T[0] = time.time()
+    with _L:  # per-host throttle: fandom 429s on bursts
+        t = max(time.time(), _T.get(host, 0.0)); _T[host] = t + 1.0
+    if t > time.time(): time.sleep(t - time.time())
     return _api(host, params)
 def _api(host, params):
     q = urllib.parse.urlencode({**params, 'format': 'json', 'formatversion': 2})
@@ -26,7 +25,8 @@ def _api(host, params):
             try: return json.load(urllib.request.urlopen(urllib.request.Request(f'https://{host}{path}?{q}', headers=UA), timeout=40))
             except Exception as e:
                 err = e
-                if '429' in str(e): _T[0] = time.time() + 20 * (k + 1)  # global pause for every thread
+                if '429' in str(e):
+                    with _L: _T[host] = max(_T.get(host, 0.0), time.time() + 20 * (k + 1))  # pause that host for every thread
                 time.sleep(1 + k)
     raise err
 def norm(s): return re.sub(r'[^0-9a-z]+', '', s.lower())
@@ -45,7 +45,7 @@ def html2txt(h):
 def wiki2txt(w):
     """Wikitext -> plain text with '== Heading ==' lines (lossy, deterministic; the validator checks quotes against this same text)."""
     import html as H
-    w = re.sub(r'(?s)<!--.*?-->|<ref[^>]*/>|<ref[^>]*>.*?</ref>|<(?:gallery|noinclude|references)\b.*?</\1>', '', w)
+    w = re.sub(r'(?s)<!--.*?-->|<ref[^>]*/>|<ref[^>]*>.*?</ref>|<(gallery|noinclude|references)\b.*?</\1>', '', w)
     for _ in range(6): w = re.sub(r'\{\{[^{}]*\}\}|\{\|[^{}]*?\|\}', '', w)
     w = re.sub(r'\[\[(?:File|Image|Category):[^\]]*\]\]', '', w, flags=re.I)
     w = re.sub(r'\[\[(?:[^\]|]*\|)?([^\]]*)\]\]', r'\1', w)
@@ -107,6 +107,7 @@ def resolve(n):
         left = []
         for s in range(0, len(todo), 20):
             ch = todo[s:s + 20]; wiki = {}
+            print(f'  resolve {n} pass{host_i} {s}/{len(todo)}', file=sys.stderr, flush=True)
             for i, r in ch: wiki.setdefault(r['id'].rsplit('|', 1)[0], []).append((i, r))
             for w, items in wiki.items():
                 hosts = HOSTS.get(w, [])
