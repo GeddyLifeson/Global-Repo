@@ -3,3 +3,5 @@
 81 HOLD (+worker skimmed, redo needed): row 184 transformers|4063 Space Slug resolves to page whose text mismatches lead; needs resolver fix/blank url.
 1 HOLD: rows 44 (halo|9685 Guardian) and 77 (halo|6754 Yanme'e) fail lead-match (halo wiki changed since batch cut); 4 u0 already. Needs batch lead re-cut. Worker skimmed (keyword scan on ~90 beings).
 82 HOLD: only row 169 fails lead-match (kana in lead; page correct). Parts in parts/shard_82_*.json; merged output in held/. Once resolver/lead fixed: python3 tools/split.py merge 82 parts/shard_82_{0,53,124,194,fix}.json
+86 HOLD: lead-match rows 152 232 233 241 + row 132 gear name missing (fix W name in parts, case must match page). merge: split.py merge 86 parts/shard_86_{0,97,160,fix}.json
+92 HOLD: row 78 lead-match; fix n for 117 ("Muscle Prince"), W for 195 and 199 (bad kind/mag/quote/name). merge: split.py merge 92 parts/shard_92_{0,109,182}.json (add parts/shard_92_fix.json)
