@@ -8,3 +8,4 @@ Meta present at handoff: 8 10 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32
 REDO 75: worker skimmed lead/evidence only (violates full-page rule); rerun and overwrite. Shards 70 also landed.
 REDO 78 too: worker read lead/evidence view only, not full pages. Landed since: 70 77 79 (77 and 79 reports did not state full-page reading; spot-check).
 Shard 80: BLOCKED, 15 rows have no resolved source page (resolver 429); join 7/44/152 waiting for PC resolver rerun. Local judged copy was not pushed.
+Shard 82: BLOCKED same way (7 unresolved rows, wiki HTTP 429); retry resolve later. Shard 51 worker still running at last check.
