@@ -1,0 +1,22 @@
+{"d":0,
+"b1":[43,44,45,46,48,50,51,55,56,58,59,60,62,63,64,66,67,68,70,71,72,74,75,76,78,79,82,83],
+"n":{"43":"Tuldus","44":"Tishar","45":"Khoa Le","48":"Uther","50":"Yenlara Alderwreath","51":"Yussa Errenis","55":"Sven Larson","56":"Eddie Whit","58":"Catwoman","59":"Rita Farr","60":"Ralph Dibny","62":"Garfield Lynns","63":"Brion Markov","64":"Harley Quinn","66":"Billy Hayes","67":"Hans Hendrickson","68":"Christopher Chance","70":"The Huntress","71":"Jimmy Olsen","72":"Tatsu Yamashiro","74":"Niccolai Tepes","75":"Poison Ivy","76":"Achilles Milo","78":"Renee Montoya","79":"Ray Palmer","82":"Laurie Juspeczyk","83":"Duke Thomas"},
+"p":{
+"44":[["regeneration",1,"the Ruiner regenerates all hit points at the start of their turn","l"]],
+"55":[["super_strength",1,"Superhuman Strength","m"]],
+"59":[["giant_size",1,"Rita can use her powers to grow to gigantic size or shrink to microscopic size","m"],["super_strength",1,"Superhuman Strength","m"]],
+"60":[["giant_size",1,"He can grow in size for a limited time","m"],["super_strength",1,"Superhuman Strength","m"]],
+"63":[["flight",1,"Geo-Force can fly by riding any rock he is levitating","m"],["super_strength",1,"Brion possesses superhuman levels of physical strength","m"],["regeneration",1,"Accelerated Healing","l"]],
+"66":[["super_strength",1,"Superhuman Strength","m"],["super_speed",1,"Superhuman Speed","m"],["regeneration",1,"Accelerated Healing","l"]],
+"74":[["super_strength",1,"A vampire's strength level is several times that of a normal human being","m"],["super_speed",1,"A vampire's speed level is several times that of a normal human being","m"],["invulnerability",1,"Vampires are invulnerable to most forms of injury","m"],["regeneration",1,"whatever damage a vampire does in fact suffer can be healed through the consumption of human blood","m"],["immortal_body",1,"they will not age beyond the physical state they were in when they first became a vampire","m"],["phase",1,"Phasing","l"]],
+"79":[["giant_size",1,"Atom grew himself to tower over the golems","m"],["phase",1,"By shifting his density, Ray is able to make himself nigh-intangible","m"],["super_strength",1,"Atom can punch with incredible force by shifting all of his density to his hands","m"],["flight",1,"Atom is able to glide or levitate by coasting on air currents","m"],["energy_beam",1,"The Atom can release the energy of the white dwarf in his belt in powerful energy blasts","m"]]
+},
+"W":{
+"41":["weapon","Karma-45",1,"The Karma-45 (referred to as CRB in the game files) is a submachine gun","h"],
+"49":["weapon","Justice",1,"The Justice is an assault rifle","h"],
+"57":["weapon","Karabin",1,"The Karabin (referred to as the Kbsp 1938 in the game files) is a semi-automatic sniper rifle","h"],
+"65":["weapon","KN-57",1,"The KN-57 is an assault rifle","h"],
+"81":["weapon","KSP 45",1,"The KSP 45 is a burst-fire submachine gun","h"]
+},
+"x":{"43":["elemental magic"],"44":["divine avatar"],"46":["archery"],"48":["lycanthropy"],"51":["arcane magic"],"55":["metamorphosis"],"56":["gymnastics"],"59":["elasticity","metamorphosis"],"60":["elasticity"],"63":["gravity manipulation","geokinesis","pyrokinesis"],"66":["necrotic empowerment","illusion casting"],"72":["magic"],"74":["vampirism","hypnosis","mind control"],"75":["toxin immunity"],"79":["mass alteration"]},
+"z":{},"f":{},"u0":{}}
