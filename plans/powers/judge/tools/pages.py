@@ -40,7 +40,9 @@ def _match(a, b):
     if k and a[:k] in b[:k + 400]: return True  # lead after a stub/notice banner
     a, b = a[:k], b[:k]
     return bool(a) and difflib.SequenceMatcher(None, a, b).ratio() >= 0.75
-def match(a, b): return _match(a, b) or _match(noparen(a), noparen(b))
+def match(a, b):
+    a = re.sub(r'\[https?://\S+ ([^\]]*)\]', r'\1', a)  # [url label] -> label
+    return _match(a, b) or _match(noparen(a), noparen(b))
 def html2txt(h):
     """Rendered HTML -> plain text with '== Heading ==' lines (for wikis without TextExtracts, e.g. fandom)."""
     import html as H
