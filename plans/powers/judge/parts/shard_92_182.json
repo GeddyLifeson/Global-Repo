@@ -1,0 +1,23 @@
+{"d":0,
+"b1":[182,183,184,186,187,188,189,192,193,194,196,197,198,200,201,204,209,211,213,222,224,225,229,230,232,233,234,236,237,242,244,245,246,248,249],
+"n":{},
+"p":{
+"182":[["invulnerability",2,"immunity to diseases, poison, paralyzation, illusion and phantasm spells, and non-magical weapons","m"]],
+"193":[["super_strength",1,"immensely strong","l"]],
+"222":[["hard_body",1,"had a thick hide","l"]],
+"242":[["invulnerability",2,"No weapon would harm him while he was in darkness","l"]],
+"245":[["invisibility",1,"turn himself invisible","m"],["energy_beam",2,"unleashing potent lightning bolts upon his foes","m"]],
+"248":[["qi_heal",1,"with a focus on healing","l"]]
+},
+"W":{
+"191":["armor","Frostsilver armor",3,"incredibly tough","m"],
+"195":["weapon","Frost harpoon",3,"The weapon possessed a strong +4 enchantment","m"],
+"199":["weapon","Frostbite blade",3,"slowing and numbing those it hit, even freezing them to death","m"],
+"203":["armor","Fured Kiuno of the Bear",2,"increased their health and constitution, defense, and physical strength","m"],
+"207":["armor","Frostborn armor",2,"boosted the wearer's physical defense, power, and vitality","m"],
+"227":["weapon","AUG",1,"assault rifle","m"],
+"228":["weapon","Boris",2,"allowed the rapier to deal ranged psychic attacks","m"],
+"231":["weapon","40mm Bofors",2,"Its rounds are capable of disposing quickly of low-flying aircraft","m"]
+},
+"x":{"186":["vampirism"],"196":["possession"],"201":["mind immunity"],"204":["werewyvern shapeshift"],"213":["lycanthropy"],"224":["lycanthropy"],"234":["lycanthropy"],"232":["kineticist","telepathy"],"245":["vampirism"],"246":["omnipotence","all-seeing"],"249":["vampirism"]},
+"u0":{"223":"NO-SOURCE","235":"NO-SOURCE","239":"NO-SOURCE","243":"NO-SOURCE","247":"NO-SOURCE"}}

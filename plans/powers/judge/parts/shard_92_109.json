@@ -1,0 +1,19 @@
+{"b1":[109,113,116,117,127,129,130,133,134,135,137,138,140,141,142,144,145,148,149,152,153,155,156,157,158,160,161,162,164,165,166,168,169,170,172,174,176,179],
+"n":{},
+"p":{
+"109":[["super_speed",1,"Speed: 14 (including Fleet of Foot via Running Like Flight)","l"]],
+"116":[["levitation",1,"She has the ability to hover","h"],["flight",1,"seen flying using the wind","m"],["ki_blast",2,"can shoot bolts of electricity from her hands","m"]],
+"142":[["qi_heal",1,"continued to work tirelessly to heal the sick with her prayers","m"]],
+"149":[["invulnerability",2,"incorporeal form that was nearly impervious to damage","l"],["energy_beam",2,"He could breathe electric energy","m"],["barrage",2,"barrage enemies with electrified coins","m"],["immortal_body",2,"Amilek could not be destroyed through conventional means","m"]],
+"166":[["super_strength",2,"possessing incredible strength","m"]],
+"170":[["immortal_body",1,"found a ritual that would enable her immortality","m"]],
+"172":[["freeze_breath",2,"freeze its opponents with dragon's breath","m"]]},
+"W":{
+"115":["weapon","Flying Blade",3,"The Flying Blade was one of the artifacts of The Nine.","l"],
+"131":["weapon","Forge Fire",2,"Forge Fire had the +2 enchantment","m"],
+"139":["armor","Footman's Folly",2,"Footman's Folly possessed a powerful +2 enchantment","m"],
+"143":["weapon","Foestriker",3,"This weapon carried a stout +4 enchantment.","m"],
+"147":["armor","Fortress shield",3,"possessed a potent defensive +4 enchantment","m"],
+"163":["weapon","Foundation",2,"each possessed a +1, +4, and +8 enchantments","m"]},
+"x":{"109":["deathsight"],"113":["jetpack"],"116":["weather manipulation"],"133":["human form shapechange"],"134":["banshee wail","spellcasting","incorporeal"],"137":["sorcery"],"138":["wereraven"],"141":["ghost"],"144":["wizardry"],"145":["flame magic"],"148":["ghost"],"152":["speaks Common","air bubble"],"153":["werewolf shapechange"],"155":["bardic magic","mask disguise"],"157":["ghost"],"158":["ghost"],"165":["wererat"],"166":["yochlol disguise","spellcasting"],"168":["psionics"],"169":["possession","spellcasting","psionics"],"170":["flies in skull"]},
+"z":{"164":"none stated: Abilities section only says proficient as a mage, no specific power"}}
