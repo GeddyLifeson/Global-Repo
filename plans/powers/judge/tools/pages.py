@@ -67,10 +67,10 @@ def ptext(host, title, intro_only=False):
     except Exception:
         return title, ''
 def namef(t):
-    m = re.match(r'\s*\{\{', t) and re.search(r'\|\s*(?:MainPage|Name|rom)\s*=\s*([^|}\n]+)', t)  # template-start rows: name from the template fields
+    m = re.match(r'\s*\{\{', t) and re.search(r'\|\s*(?:MainPage|Name|OfficialName|Title|rom)\s*=\s*([^|}\n]+)', t)  # template-start rows: name from the template fields
     if m: return m.group(1).strip()[:60]
     m = re.split(r' \(|, | (?:is|was|are|were) ', t, maxsplit=1)[0]
-    return m[:60]
+    return re.sub(r'^(?:The|A|An) ', '', m)[:60]
 def intro(host, titles):
     """{title: intro text} for up to 20 titles, redirects resolved (input title -> final)."""
     d = api(host, {'action': 'query', 'prop': 'extracts', 'exintro': 1, 'explaintext': 1, 'exlimit': 'max', 'redirects': 1, 'titles': '|'.join(titles)})
