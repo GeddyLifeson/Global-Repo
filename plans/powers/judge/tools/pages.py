@@ -15,7 +15,7 @@ import threading
 _L = threading.Lock(); _T = {}
 def api(host, params):
     with _L:  # per-host throttle: fandom 429s on bursts
-        t = max(time.time(), _T.get(host, 0.0)); _T[host] = t + 1.0
+        t = max(time.time(), _T.get(host, 0.0)); _T[host] = t + 0.5
     if t > time.time(): time.sleep(t - time.time())
     return _api(host, params)
 def _api(host, params):
