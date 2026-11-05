@@ -8,3 +8,5 @@ Ready, not yet started: 65 81 82 85 86 87 92 106-113 115 116 118 119 120 123-136
 Over 2% no-source, awaiting PC rerun with resolver patch (commit 6daf093 "pages.py: strip leading article..."): 0 3 51 80 99 101 102 152. Also held earlier on old resolver: 4 12 13 14 88 89 93 94 96.
 Worker quality: several workers admit keyword-scanning long pages instead of full reads; remind in brief. 70 75 77 78 79 83 show ~0 powers per being, plausible but unverified.
 Open: spot-check 77 79; reconcile downloaded vs judged; validate.py all + c3m hashes; open draft PR ddv1l7 -> main (none yet). Scheduled task fires 20:43Z to check READY_SHARDS.
+
+UPDATE 20:50Z: PASS also 7 44 64. HOLD (over 2%): 1 (6 rows), 2 (6 rows). All workers finished; none in flight.
