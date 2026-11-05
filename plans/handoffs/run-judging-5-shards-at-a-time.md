@@ -25,3 +25,4 @@ Wrong-page rows (lead != page): blank url+title in batches/shard_N.src.jsonl the
 2. Final: `python3 plans/powers/judge/tools/validate.py all` and per-shard validator outputs as evidence; record c3m file hashes (N5).
 3. Open a draft PR from claude/project-thread-ddv1l7 to main when a meaningful batch is done (none opened yet).
 - Update 19:15Z: shard 21 also PASS (29a5d8e, 2 beings with 4 powers).
+- Update 19:20Z: shard 48 PASS (edf312d). judge.py write also takes z:{idx:'none stated: ...'}.
