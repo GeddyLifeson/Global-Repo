@@ -61,7 +61,9 @@ def resolve(n):
         w = r['id'].rsplit('|', 1)[0]
         for h in HOSTS.get(w, []):
             try:
-                c = [x['title'] for x in api(h, {'action': 'query', 'list': 'search', 'srsearch': r['text'][:100], 'srlimit': 3, 'srnamespace': 0})['query']['search']]
+                c = []
+                for q in (r['text'][:100], namef(r['text']), ' '.join(namef(r['text']).split()[1:])):
+                    if q: c += [x['title'] for x in api(h, {'action': 'query', 'list': 'search', 'srsearch': q, 'srlimit': 3, 'srnamespace': 0})['query']['search'] if x['title'] not in c]
                 got = intro(h, c) if c else {}
             except Exception: continue
             hit = next(((f, h) for f, ex in got.values() if ex != '(no extract)' and match(r['text'], ex)), None)
