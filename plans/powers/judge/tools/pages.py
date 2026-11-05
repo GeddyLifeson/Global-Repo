@@ -31,7 +31,7 @@ def _api(host, params):
     raise err
 def norm(s): return re.sub(r'[^0-9a-z]+', '', s.lower())
 def match(a, b):
-    a, b = norm(a)[:80], norm(b)[:80]
+    a, b = norm(a), norm(b); k = min(len(a), len(b), 80); a, b = a[:k], b[:k]
     return bool(a) and difflib.SequenceMatcher(None, a, b).ratio() >= 0.75
 def html2txt(h):
     """Rendered HTML -> plain text with '== Heading ==' lines (for wikis without TextExtracts, e.g. fandom)."""
