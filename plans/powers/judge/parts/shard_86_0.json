@@ -1,0 +1,15 @@
+{"d":0,
+"b1":[0,1,2,4,5,6,8,9,12,13,14,17,18,21,22,24,25,26,27,28,31,35,47,58,68,72,73,76,77,78,82,87,89,93],
+"n":{"24":"Kodi"},
+"p":{
+"21":[["blink",2,"Izilech teleports to their location","m"]],
+"47":[["energy_beam",1,"She could hurl bolts of divine energy at her foes.","m"]],
+"73":[["flight",1,"Carralag is a better flier in the city of Sharn than other gargoyles","m"]],
+"89":[["hard_body",1,"making his skin tougher and his body more resistant to physical damage","l"]]},
+"W":{
+"19":["vehicle","Broadback",1,"a river barge used as a prison ship","h"],
+"51":["weapon","Calathangas",2,"a unique +1 enchanted short sword","h"],
+"59":["weapon","Cairn Blade",2,"an enchanted greatsword","h"],
+"67":["armor","Bulwark of the Great Dragon",3,"a unique enchanted tower shield","h"],
+"83":["weapon","Cadorna family sword",2,"an enchanted commemorative greatsword","h"]},
+"u0":{"60":"NO-SOURCE row, chapter summary fragment"}}

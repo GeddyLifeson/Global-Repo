@@ -1,0 +1,20 @@
+{"d":0,
+"b1":[97,98,99,102,104,105,106,107,108,109,110,112,114,116,117,120,121,122,124,125,126,127,128,129,130,131,135,136,137,138,139,140,141,142,143,144,145,146,148,149,150,151,152,153,154,156,157,158],
+"n":{"108":"Laevatein","120":"AMIE","122":"Storm King","128":"Whirlwing Scorch","141":"Beluna Grandsquall","142":"Bertram Graywater","131":"Cargunn","156":"Eckhart Von Falkenrath","125":"Revin the Cube","126":"Spitfire"},
+"p":{
+"106":[["dragon_form",3,"can use the Ring of Salia to transform herself into the holy Fire Dragon, Neuron","m"]],
+"116":[["dragon_form",3,"trapping him in his Dragon form","m"]],
+"120":[["immortal_body",1,"unkillable AI assistant","l"]],
+"125":[["energy_beam",3,"it immediately retaliated by sending a red beam back at him","m"]],
+"137":[["telepathy",2,"Alhammarret was a sphinx mind mage from Vryn","l"]],
+"148":[["fireball",3,"able to produce enough heat to melt solid rock","m"]],
+"150":[["invisibility",1,"At times his form flickers between transparent and invisible","l"]],
+"154":[["immortal_body",1,"becoming immortal vampires","m"]],
+"156":[["flight",1,"Eckhart flew away","m"]],
+"157":[["flight",3,"A 9/9 flying creature for 6 mana at maximum","m"]]},
+"W":{
+"115":["weapon","Carsomyr",2,"technically a +5 two-handed sword (greatsword) that granted magic resistance when wielded","m"],
+"132":["weapon","Magni's Cyclonic Blade",3,"carried a huge sword that is hardened by cyclonic thunder as his main weapon","m"],
+"119":["vehicle","Carrack",1,"A carrack was a large, multi-masted sailing ship used in Amn","h"],
+"123":["vehicle","Caravel",1,"A caravel was a medium-sized sailing ship used in Amn and Waterdeep","h"]},
+"x":{"98":["thunder magic"],"104":["dream power"],"105":["barrier"],"109":["quintessence harvesting"],"124":["time travel"],"126":["exosuit"],"138":["obliteration spell"],"140":["life and death magic"],"142":["vampirism"],"144":["cyclone"],"145":["pyromancy"],"146":["werewolf"],"149":["poison magic"],"152":["healing"],"154":["vampirism"],"156":["vampirism"]}}
