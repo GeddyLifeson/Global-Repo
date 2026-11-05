@@ -13,3 +13,4 @@ Read plans/handoffs/run-judging-one-shard-per-worker-2.md and run-judging-5-shar
 - Open: reconcile downloaded vs judged (N3), validate.py all + c3m hashes (N5), open draft PR ddv1l7 -> main (none yet; a big batch is in).
 - Update: 18 and 59 PASS. Shard 51 FAIL: 13 rows have no source page (WoW/D&D timeline fragments, rows 143 208 210 215 224 225 228 230 231 232 235 237 245), over the validator's 2% no-source limit. Not pushed. Needs the PC resolver or a coordinator decision on those rows; do not loosen the validator without that.
 - Update: 42, 55, 56 PASS (42 and 55 judged partly from lead plus keyword sentences when no Abilities heading; 55 has 1 no-source row). Only the 47 redo is still in flight.
+- Update: 47 redo PASS (21 powers, pushed). No workers in flight now.
