@@ -1,1 +1,2 @@
 2 HOLD: row 119 fire-emblem|2851 resolves to Hero (class), lead is Fire Dragon; needs resolver fix (PC). 5 other no-source rows ok.
+5 HOLD: rows 201 203 204 205 fail lead-match (batch lead has parenthetical romaji stripped, live page keeps it). Needs lead fix in batches/shard_5.jsonl or pages.match normalising parentheticals (PC/resolver decision). Everything else validates; write cfg saved diag/shard_5_write_cfg.json.
