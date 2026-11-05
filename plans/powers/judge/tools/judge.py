@@ -25,10 +25,10 @@ def kw():
         try: out.append(re.compile(p, re.I))
         except re.error: pass
     return out
-SEC = re.compile(r'abilit|power|spell|skill|attack|combat|magic|fight|tactics|feats?|techniques?|equipment', re.I)
+SEC = re.compile(r'abilit|power|spell|skill|attack|combat|magic|fight|tactics|feats?|techniques?|equipment|battle|strategy|moveset|gifts?|disciplines?', re.I)
 def sections(t):
     """[(heading, body incl. subsections)] of the full page's ability-type sections (where a page states powers)."""
-    hs = [(m.start(), m.end(), len(m.group(1)), m.group(2).strip()) for m in re.finditer(r'^(=+) (.*?) =+$', t, flags=re.M)]
+    hs = [(m.start(), m.end(), len(m.group(1)), m.group(2).strip()) for m in re.finditer(r'^(=+)\s*(.*?)\s*=+$', t, flags=re.M)]
     out = []
     for k, (st, en, lv, h) in enumerate(hs):
         if not SEC.search(h): continue
