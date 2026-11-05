@@ -1,0 +1,18 @@
+{"d":0,
+"b1":[79,85,96,97,98,99,106,107,108,115,119,121,122,124,125,135],
+"n":{"85":"Cole Cash","115":"Biron"},
+"p":{
+"79":[["super_speed",1,"super-speed","m"],["flight",1,"flight, albeit due to pyromana-powered jets hidden in her hollow mizzium shinbones","h"]],
+"85":[["telepathy",1,"Through Daemonite experimentation, he also gained telepathy and telekinesis.","h"],["regeneration",1,"the procedure apparently granted him the ability to recover from injuries at an accelerated rate","m"],["super_speed",1,"Superhuman Speed","l"]],
+"96":[["invulnerability",1,"Vaclav could not be harmed by normal weaponry","m"]],
+"97":[["super_strength",2,"they don't flip over armored vans with one hand and fling them across the alley","m"],["invulnerability",1,"Men just don't keep walking when you punch him full of half a clip from your M-16","m"]],
+"98":[["flight",1,"can fly through the air with the Wind Fire Wheels at his feet","h"]],
+"99":[["fireball",1,"It spits fire projectiles with Far Shot","m"]],
+"106":[["flight",1,"dual propellors for aerial mobility","m"],["energy_beam",1,"a laser that can melt through solid steel","h"]],
+"107":[["super_strength",1,"Wolverine is much stronger than a normal human.","h"],["super_speed",1,"Wolverine can move much faster than a normal human.","h"],["regeneration",2,"Wolverine possesses a \"healing factor\" that allows him to completely regenerate lost and damaged tissue instantaneously.","h"],["immortal_body",2,"He is also immortal due to such a power.","m"]],
+"115":[["flight",1,"Flight","m"],["invulnerability",1,"Invulnerability","m"],["super_speed",1,"Superhuman Speed","m"],["super_strength",1,"Superhuman Strength","m"],["telepathy",1,"Telepathy","m"],["immortal_body",1,"Immortality","m"]],
+"119":[["energy_beam",1,"Vanquish Drive: Unleashes a large torrent of energy.","l"],["regeneration",1,"Restart: Heals a lot of HP.","l"]],
+"122":[["telepathy",4,"An ancient being with powerful psychic abilities","l"]],
+"125":[["whirlwind",1,"she also uses a blowdryer to blast out powerful gusts of wind","m"]]},
+"W":{"84":["vehicle","Tombship",2,"They possess a form of a teleportation, warping in and out of combat zones with green wormholes.","m"]},
+"x":{"85":["telekinesis","mind control"],"96":["ghost"],"99":["burrow"],"108":["voice manipulation","shapeshift"],"115":["time travel"],"121":["elemental energy mastery"],"122":["nightmare command"],"124":["body transfer"],"125":["weather control","lightning"],"135":["shapeshift"]}}

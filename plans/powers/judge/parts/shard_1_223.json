@@ -1,0 +1,17 @@
+{"d":0,
+"b1":[224,225,226,235,240,241,242,243,245],
+"n":{"240":"Leonid Kovar","241":"Alpha Centurion","235":"War Machine"},
+"p":{
+"226":[["telepathy",2,"A mutant, he is the most powerful telepath alive.","m"]],
+"235":[["flight",1,"which grants him extraordinary strength, durability, flight capabilities, and various on-board weaponry","m"],
+       ["super_strength",1,"Rhodes in the armor is capable of lifting 30 tons or more","m"]],
+"240":[["flight",1,"Flight","h"],["super_strength",1,"Superhuman Strength","m"],["super_speed",1,"Superhuman Speed","m"],["invulnerability",1,"Superhuman Durability","m"],["energy_beam",1,"Energy Projection","m"],["fireball",1,"Pyrokinesis","l"]],
+"241":[["flight",1,"Flight","m"],["super_strength",1,"Superhuman Strength","m"],["super_speed",1,"Superhuman Speed","m"],["invulnerability",1,"Superhuman Durability","m"],["immortal_body",1,"the Alpha Centurion has lived for over 3,000 years","m"]],
+"242":[["super_strength",1,"collapse a concrete floor with a single punch","h"],["super_speed",1,"Fairchild can move faster than common humans.","m"],["invulnerability",1,"Caitlin can be thrown through a wall without damage.","m"]],
+"245":[["super_speed",1,"significantly faster, fitter and stronger than a regular human","m"],["super_strength",1,"significantly faster, fitter and stronger than a regular human","m"]]
+},
+"W":{},
+"x":{"224":["planet-sized body"],"241":["possession"],"242":["longevity"],"243":["illusion magic"],"245":["longevity"]},
+"z":{"225":"none stated: no Abilities section with powers","243":"none stated: only illusion magic"},
+"f":{},
+"u0":{}}
