@@ -2,3 +2,4 @@
 5 HOLD: rows 201 203 204 205 fail lead-match (batch lead has parenthetical romaji stripped, live page keeps it). Needs lead fix in batches/shard_5.jsonl or pages.match normalising parentheticals (PC/resolver decision). Everything else validates; write cfg saved diag/shard_5_write_cfg.json.
 81 HOLD (+worker skimmed, redo needed): row 184 transformers|4063 Space Slug resolves to page whose text mismatches lead; needs resolver fix/blank url.
 1 HOLD: rows 44 (halo|9685 Guardian) and 77 (halo|6754 Yanme'e) fail lead-match (halo wiki changed since batch cut); 4 u0 already. Needs batch lead re-cut. Worker skimmed (keyword scan on ~90 beings).
+82 HOLD: only row 169 fails lead-match (kana in lead; page correct). Parts in parts/shard_82_*.json; merged output in held/. Once resolver/lead fixed: python3 tools/split.py merge 82 parts/shard_82_{0,53,124,194,fix}.json

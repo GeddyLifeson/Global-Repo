@@ -1,0 +1,160 @@
+{
+"d": 0,
+"b1": [
+0,
+2,
+11,
+12,
+15,
+19,
+20,
+21,
+22,
+25,
+27,
+28,
+29,
+30,
+32,
+33,
+34,
+35,
+36,
+37,
+38,
+39,
+42,
+43,
+44,
+47,
+48,
+49,
+51,
+54,
+58,
+62,
+63,
+64,
+66
+],
+"n": {
+"39": "Alcides",
+"54": "Ethel Rivergold",
+"58": "Gaz Tomo",
+"62": "Jorskymmar",
+"63": "Jhessho",
+"64": "Kathedoc"
+},
+"p": {
+"36": [
+[
+"flight",
+1,
+"a young Unidentified Flying Object",
+"l"
+]
+],
+"38": [
+[
+"energy_beam",
+2,
+"it fired laser blasts in Helen's direction",
+"m"
+]
+],
+"39": [
+[
+"flight",
+2,
+"he simply flies into the air with his new demonic wings",
+"m"
+],
+[
+"invulnerability",
+2,
+"that protects him from any weapon created by humans",
+"l"
+]
+],
+"66": [
+[
+"telepathy",
+1,
+"Can telepathically communicate with creatures within 120 feet.",
+"h"
+]
+]
+},
+"W": {
+"1": [
+"armor",
+"Bone armor",
+1,
+"a type of natural light armor",
+"h"
+],
+"9": [
+"vehicle",
+"Bloody Keel",
+1,
+"was the ship of the fiery red haired rogue Sheila Kree",
+"h"
+],
+"13": [
+"weapon",
+"Blue Lightning",
+2,
+"a +1 distance thundering, shocking burst composite longbow",
+"h"
+],
+"17": [
+"weapon",
+"Bow of the Black Archer",
+2,
+"was the weapon of the elven deity Shevarash",
+"h"
+],
+"57": [
+"weapon",
+"Bow of Eletha",
+2,
+"it could convert a normal arrow into a blast of energy similar to the magic missile spell",
+"m"
+],
+"61": [
+"armor",
+"Breastplates of silent moves",
+2,
+"magically enchanted and well-oiled medium armor",
+"h"
+]
+},
+"x": {
+"19": [
+"mist"
+],
+"20": [
+"summon_totema"
+],
+"32": [
+"elasticity",
+"force_field"
+],
+"35": [
+"air_manipulation"
+],
+"54": [
+"bardic_magic"
+],
+"58": [
+"telekinesis"
+]
+},
+"u0": {
+"46": "NO-SOURCE row, John Cavil lead only"
+},
+"z": {
+"63": "none stated: Abilities section only refers to the firetamer page, no power quote",
+"64": "none stated: Abilities section is empty"
+}
+}

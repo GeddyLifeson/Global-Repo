@@ -1,0 +1,286 @@
+{
+"b1": [
+160,
+161,
+162,
+164,
+165,
+166,
+168,
+169,
+170,
+172,
+173,
+174,
+175,
+176,
+177,
+178,
+179,
+180,
+181,
+184,
+185,
+186,
+188,
+189,
+190,
+192,
+193,
+194,
+196,
+197,
+198,
+200,
+201,
+202,
+203,
+204,
+205,
+206,
+207,
+208,
+210,
+211,
+212,
+213,
+214,
+216,
+217,
+218,
+219,
+220,
+221,
+225,
+229,
+230,
+231,
+232,
+233,
+234,
+236,
+237,
+238,
+241,
+243,
+244,
+245,
+246,
+248,
+249
+],
+"n": {
+"197": "The Guardian",
+"230": "Bornstellar's father",
+"218": "Fenn",
+"232": "Colony",
+"220": "Griffin",
+"225": "Steel Dragon"
+},
+"p": {
+"161": [
+[
+"flight",
+1,
+"she was allowed to fly alongside Aurelia's Firemanes.",
+"l"
+]
+],
+"169": [
+[
+"freeze_breath",
+9,
+"allowing her to bury the entire plane in snow and ice should she want to.",
+"l"
+]
+],
+"172": [
+[
+"super_strength",
+1,
+"capable of smashing through massive, iron-banded doors",
+"l"
+]
+],
+"181": [
+[
+"flight",
+1,
+"Kraum flies on galvanic membranes",
+"m"
+]
+],
+"210": [
+[
+"invisibility",
+1,
+"Turg was also able to turn almost completely invisible",
+"h"
+]
+],
+"218": [
+[
+"flight",
+1,
+"the small whiteish-blue flying fluff ball",
+"m"
+],
+[
+"fireball",
+1,
+"attacking others with fiery breath",
+"l"
+]
+],
+"231": [
+[
+"levitation",
+1,
+"to harness the air and winds around him to lift himself from the earth",
+"l"
+]
+],
+"234": [
+[
+"super_strength",
+1,
+"the augmentation process hastened their reflexes, increased their strength, enhanced their eyesight, and rendered their bones nearly unbreakable",
+"m"
+]
+],
+"238": [
+[
+"super_strength",
+1,
+"the augmentation process hastened their reflexes, increased their strength, enhanced their eyesight, and rendered their bones nearly unbreakable",
+"m"
+]
+],
+"237": [
+[
+"super_strength",
+1,
+"She showcases her inhuman strength by dragging a metal pipe with only a rope",
+"m"
+],
+[
+"super_speed",
+1,
+"runs at inhuman speeds",
+"m"
+]
+]
+},
+"W": {
+"163": [
+"weapon",
+"Catapult",
+2,
+"A catapult was a large ranged weapon typically used to lay siege to a fortified structure.",
+"l"
+],
+"167": [
+"armor",
+"Caster's shield",
+1,
+"This shield had a +1 enchantment",
+"m"
+],
+"191": [
+"weapon",
+"Captain's Cutlass",
+3,
+"The weapon carried a powerful +3 enchantment as both a cutlass and trident.",
+"m"
+],
+"195": [
+"armor",
+"Captain's helmet",
+1,
+"The captain's helmet gave Tommus the power to command his foes to approach him.",
+"l"
+],
+"199": [
+"armor",
+"Captain Herab's leather armor",
+1,
+"The armor possessed a +3 enchantment.",
+"m"
+],
+"222": [
+"vehicle",
+"M4AA2R BGR (Body Guard Radiobeam)",
+3,
+"is an unmanned remote-guided mobile suit appearing in the Go Ahead!! (Another War in UC 0044) manga.",
+"l"
+],
+"223": [
+"armor",
+"Chainmail",
+1,
+"Chainmail was a common form of armor made of interlocking metal rings.",
+"h"
+],
+"224": [
+"vehicle",
+"MSZ-006H Hyper Zeta Gundam Honoo",
+3,
+"is a mobile suit from Gundam Build Fighters Honoo.",
+"l"
+]
+},
+"x": {
+"160": [
+"magic"
+],
+"162": [
+"charm magic"
+],
+"164": [
+"archmage"
+],
+"169": [
+"ice control"
+],
+"173": [
+"keraunomancy"
+],
+"174": [
+"warlock"
+],
+"177": [
+"telekinesis"
+],
+"178": [
+"dragon spirit"
+],
+"192": [
+"necromancy",
+"lich"
+],
+"193": [
+"summon drakes"
+],
+"196": [
+"meteor summon"
+],
+"200": [
+"healing magic"
+],
+"213": [
+"godhood"
+],
+"231": [
+"earthsock"
+],
+"229": [
+"spartan augmentation"
+],
+"236": [
+"spartan augmentation"
+]
+},
+"u0": {
+"215": "NO-SOURCE row"
+}
+}
