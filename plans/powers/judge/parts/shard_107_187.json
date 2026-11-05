@@ -1,0 +1,11 @@
+{"d":0,
+"b1":[187,188,190,191,192,195,196,198,199,201,202,203,204,205,206,207,208,210,211,217,219,220,222,224,226,227,228,230,231,232,235,238,239,240,243,244,246,248],
+"n":{"188":"Lord Ruthven","191":"Ru Mang","201":"Benny Church","205":"Beebe","208":"Scarlett Cramden","217":"Bickell","244":"Sláine","246":"Sister Rae","222":"Sheila D.","195":"Runi"},
+"p":{"187":[["super_strength",1,"Disciplines: Potence 1","l"]],
+"204":[["super_speed",1,"Kiril has superior Celerity.","l"]],
+"240":[["invulnerability",1,"He is immune to bashing damage","l"]]},
+"W":{"213":["weapon","Beretta M1938A",1,"an Italian submachine gun used primarily by the Royal Italian Army during World War II","h"],
+"225":["vehicle","Bigfoot",1,"an M104 Wolverine armoured vehicle-launched bridge","m"],
+"237":["vehicle","Blutertragen",2,"a Leopard 2 battle tank that appears in Call of Duty: Modern Warfare 3","h"]},
+"x":{"190":["shadow control"],"191":["reanimation"],"202":["vicissitude","thaumaturgy"],"210":["moliate"],"220":["shapeshifting"],"226":["warding"],"231":["sorcery"],"235":["create element","lambent flame"],"239":["moon bridge"],"240":["mirror travel"],"243":["disguise"]},
+"u0":{"215":"no source page (NO-SOURCE row)"}}

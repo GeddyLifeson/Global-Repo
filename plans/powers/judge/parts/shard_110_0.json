@@ -1,0 +1,13 @@
+{"d":0,
+"b1":[0,1,6,8,9,10,12,13,16,17,21,24,30,32,34,36,40,48,50,52,53,54,56,57,58,61,62,65,66,68,69,70,72,73,74,77,78,80,81,82,84,85,88,89,90],
+"n":{"1":"Dr. Morrigan","30":"Caliphear","70":"Amon","13":"Dreamkeeper Y'sani","32":"Dashing Thief Sparkla"},
+"p":{"8":[["blink",1,"step through the shadows and reappear behind your enemy","l"]],
+"10":[["invulnerability",1,"Protects the caster from all damage for 30 sec","m"]],
+"36":[["ki_blast",1,"create a blue fireball from his hands","m"]]},
+"W":{"19":["weapon","Combat Knife",1,"is a melee weapon featured in Call of Duty: Black Ops II","h"],
+"39":["weapon","Cordite",1,"is a submachine gun featured in Call of Duty: Black Ops 4","h"],
+"55":["weapon","Conversion-Ready Binary Repeater-Standard",2,"is a wonder weapon featured in the Call of Duty: Black Ops Cold War Zombies map Mauer der Toten","m"],
+"75":["armor","Stealth Plate Carrier",1,"is an equipment featured in Call of Duty: Modern Warfare II","m"],
+"79":["armor","Compression Carrier",1,"is a Vest featured in Call of Duty: Modern Warfare III","m"]},
+"x":{"0":["arcane damage"],"1":["soul harvesting"],"8":["shadow damage"],"9":["shadow bolt"],"21":["frost attacks"],"24":["battlemage"],"34":["great strength"],"48":["illusion creation"],"50":["summoning"],"52":["shadow magic"],"53":["necromancy","lich"],"56":["evocation"],"57":["self polymorph"],"61":["shamanic spells"],"66":["rune magic"],"81":["spellcasting","extradimensional storage"],"90":["meteor swarm","magic missile"]},
+"u0":{"2":"no source page","37":"no source page","38":"no source page","44":"no source page"}}
