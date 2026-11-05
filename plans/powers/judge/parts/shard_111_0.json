@@ -1,0 +1,16 @@
+{"d":0,
+"b1":[0,2,3,4,6,7,8,10,11,12,14,15,16,18,19,22,26,27,34,39,40,42,43,44,46,47,48,50,51,52,55,57,58,59,60,62,63,66,67,70,72,74,76,78,79,82,84,86,87,88,90,91,92,94,95],
+"n":{"16":"Athaedal","34":"Blackheart Strongarm"},
+"p":{},
+"W":{
+"1":["weapon","De Lisle",1,"The De Lisle is a bolt-action sniper rifle that features an integral suppressor.","h"],
+"5":["weapon","Death",1,"The Death is an assault rifle featured in Call of Duty Online.","h"],
+"9":["weapon","Daemon 3XB",1,"The Daemon 3XB is a three-round burst firing submachine gun","h"],
+"21":["weapon","Decimator Shield",2,"The Decimator Shield is a wonder weapon featured in the Call of Duty: Vanguard Zombies maps Terra Maledicta and The Archon.","l"],
+"41":["weapon","DTIR 30-06",1,"battle rifle featured in Call of Duty: Modern Warfare III","h"],
+"45":["weapon","DS20 Mirage",1,"The DS20 Mirage is an assault rifle featured in Call of Duty: Black Ops 7.","h"],
+"65":["weapon","Dirty Harry",1,"The gun is essentially an M1911 that shoots rifle grenades.","m"],
+"73":["vehicle","DPV",1,"It is a vehicle where the user grips onto the handles which can be turned forward to accelerate and vice versa.","h"],
+"89":["vehicle","Dive Boat",1,"The Dive Boat is a vehicle in Call of Duty: Advanced Warfare.","h"]},
+"x":{"3":["vampirism"],"16":["vampirism"],"46":["vampirism"],"12":["lycanthropy"],"15":["blood-sucking witch"],"7":["necromancy","dark magic","resurrection"],"4":["ghost"],"22":["ghost"],"44":["ghost","whirlwind attack"],"42":["ghost"],"60":["revives once","summons creatures"],"59":["staff protective shield"],"86":["necromancy","summons minions"],"47":["Star of the West absorb fatigue","Voice of the Emperor charm"],"87":["fortify maximum magicka","resist common disease"],"94":["fire spells"],"90":["nereid"]},
+"z":{},"f":{},"u0":{}}
