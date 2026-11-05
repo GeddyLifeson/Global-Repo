@@ -1,0 +1,17 @@
+{"d":0,
+"b1":[54,55,58,59,63,64,66,67,71,72,74,76,78,82,84,86,88,90,94],
+"n":{},
+"p":{},
+"W":{
+"57":["vehicle","A6M Zero",1,"A destroyed A6M Zero can be seen in the map Cliffside.","m"],
+"61":["weapon","ACR",1,"The ACR fires fully automatically at a rate of 750 RPM.","h"],
+"65":["weapon","AUG",1,"The AUG fires fully automatically, with a rate of fire of 937 RPM.","h"],
+"69":["weapon","AN-94",1,"The AN-94 fires fully-automatically.","h"],
+"73":["weapon","AK-74",1,"The AK-74 is unlocked at level 10.","h"],
+"77":["weapon","AUG",1,"The AUG fires fully automatically, with a rate of fire of 937 RPM.","h"],
+"81":["weapon","AUG",1,"The AUG fires fully automatically, with a rate of fire of 937 RPM.","h"],
+"85":["vehicle","APC",2,"This 6-seat APC serves as a mobile spawn point for the entire team if it has more than 50% health.","m"],
+"89":["weapon","LA-B 330",1,"The LA-B 330 is not available in the Modern Warfare II campaign","m"],
+"93":["vehicle","A-10 Thunderbolt II",2,"The A-10 Thunderbolt II (affectionately known as the Warthog) is a straight-wing ground-attack jet normally used by the United States Air Force.","m"]},
+"x":{"54":["orc-lord","crown-stab"],"59":["foresight"],"63":["seer","prophecy"],"64":["flame-whip","balrog"],"66":["elven magic","barrier magic"],"67":["stone-singing"],"58":["stone-singing"],"76":["necromancy"],"88":["shapeshifting-lure","charm"],"90":["foresight","prophecy"],"78":["heated axes"]},
+"f":{},"z":{},"u0":{}}
