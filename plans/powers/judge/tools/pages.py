@@ -78,7 +78,8 @@ def namef(t):
     m = re.match(r'\s*\{\{', t) and re.search(r'\|\s*(?:MainPage|Name|OfficialName|Title|rom)\s*=\s*([^|}\n]+)', t)  # template-start rows: name from the template fields
     if m: return m.group(1).strip()[:60]
     m = re.split(r' \(|, | (?:is|was|are|were) ', t, maxsplit=1)[0]
-    return re.sub(r'^(?:The|A|An) ', '', m)[:60]
+    return m[:60]
+def strip_art(n): return re.sub(r'^(?:The|A|An) ', '', n)
 def intro(host, titles):
     """{title: intro text} for up to 20 titles, redirects resolved (input title -> final)."""
     d = api(host, {'action': 'query', 'prop': 'extracts', 'exintro': 1, 'explaintext': 1, 'exlimit': 'max', 'redirects': 1, 'titles': '|'.join(titles)})
@@ -122,12 +123,15 @@ def resolve(n):
             for w, items in wiki.items():
                 hosts = HOSTS.get(w, [])
                 if host_i >= len(hosts): continue
-                h = hosts[host_i]; names = list({namef(r['text']) for i, r in items})
-                try: got = intro(h, names)
+                h = hosts[host_i]; ex_names = {namef(r['text']) for i, r in items}
+                try: got = intro(h, list(ex_names | {strip_art(x) for x in ex_names}))
                 except Exception: continue
                 for i, r in items:
-                    f, ex = got[namef(r['text'])]
-                    if ex in ('(no extract)', '') and re.match(r'\s*\{\{', r['text']) and (ex or not api(h, {'action': 'query', 'titles': f})['query']['pages'][0].get('missing')): res[i] = (f, h)  # template row, page exists but has an empty lead
+                    nm = namef(r['text']); f, ex = got[nm]
+                    if not ex or ex == '(no extract)':  # exact name found nothing: fall back to the name without a leading article
+                        f2, ex2 = got[strip_art(nm)]
+                        if ex2 and ex2 != '(no extract)': f, ex = f2, ex2
+                    if ex in ('(no extract)', '') and re.match(r'\s*\{\{', r['text']) and (ex or (lambda d: bool(d.get('query', {}).get('pages')) and not d['query']['pages'][0].get('missing') and not d['query']['pages'][0].get('invalid'))(api(h, {'action': 'query', 'titles': f}))): res[i] = (f, h)  # template row, page exists but has an empty lead
                     elif ex == '(no extract)': weak.setdefault(i, (f, h))
                     elif ex and match(r['text'], ex): res[i] = (f, h)
                     elif ex and ex != '(no extract)' and re.match(r'\s*\{\{', r['text']): res[i] = (f, h)  # template-start row: the page named by its Name/MainPage field
