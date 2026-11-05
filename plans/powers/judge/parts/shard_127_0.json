@@ -1,0 +1,1210 @@
+{
+"d": 0,
+"b1": [
+9,
+10,
+11,
+73,
+77,
+80,
+81,
+82,
+111,
+112,
+113,
+127,
+128,
+136,
+144,
+183,
+187,
+199,
+200,
+205
+],
+"n": {
+"9": "Dagnir Hard-Heart",
+"10": "Damonalus",
+"11": "Dar",
+"73": "Deca Dezno",
+"77": "Delmar",
+"80": "Didier Aumilie",
+"81": "Dennilwen",
+"82": "Depusanis Denian",
+"111": "Disciple Tafa at-Makela",
+"112": "Disciple Raifa af-Haba",
+"113": "Dinor Girano",
+"127": "Doranar",
+"128": "Dosu-Larash",
+"136": "Drelyne Llenim",
+"144": "Dralsi",
+"183": "Dremora Feydnaz",
+"187": "Dura gra-Bol",
+"199": "Dull-Scales",
+"200": "Duragma",
+"205": "Dumula"
+},
+"p": {},
+"W": {
+"6": [
+"armor",
+"Daggerfall Guard Tabard",
+1,
+"a medium armor upper body apparel",
+"h"
+],
+"7": [
+"armor",
+"Daggerfall Champion's Breastplate",
+1,
+"a heavy armor breastplate",
+"h"
+],
+"8": [
+"armor",
+"Daggerfall Guard Waist Band",
+1,
+"a medium armor waist band",
+"h"
+],
+"16": [
+"armor",
+"Dark Seducer Armor",
+1,
+"is a set of light armor",
+"h"
+],
+"17": [
+"armor",
+"Dark Seducer Helmet",
+1,
+"is a piece of Light Armor",
+"h"
+],
+"19": [
+"armor",
+"Darksun Shield",
+1,
+"a unique heavy shield",
+"h"
+],
+"20": [
+"armor",
+"Dawnguard Helmet",
+1,
+"is a piece of light armor",
+"h"
+],
+"21": [
+"weapon",
+"Dawnguard War Axe",
+1,
+"is a war axe found in",
+"h"
+],
+"22": [
+"armor",
+"Dawnguard Armor",
+1,
+"is a light armor set",
+"h"
+],
+"23": [
+"armor",
+"Dawnguard Shield",
+1,
+"is a piece of heavy armor",
+"h"
+],
+"24": [
+"armor",
+"Dawnguard Boots",
+1,
+"are a piece of light armor",
+"h"
+],
+"25": [
+"armor",
+"Dawnguard Gauntlets",
+1,
+"are a piece of light armor",
+"h"
+],
+"26": [
+"armor",
+"Dawnguard Heavy Armor",
+1,
+"is a set of heavy armor",
+"h"
+],
+"27": [
+"armor",
+"Dawnguard Heavy Boots",
+1,
+"are a piece of heavy armor",
+"h"
+],
+"28": [
+"armor",
+"Dawnguard Heavy Gauntlets",
+1,
+"are a piece of heavy armor",
+"h"
+],
+"29": [
+"weapon",
+"Dawnguard Rune Hammer",
+1,
+"a unique Dawnguard warhammer",
+"h"
+],
+"30": [
+"armor",
+"Dawnguard Rune Shield",
+1,
+"a unique light shield",
+"h"
+],
+"31": [
+"armor",
+"Dawnguard Full Helmet",
+1,
+"is a piece of heavy armor",
+"h"
+],
+"32": [
+"weapon",
+"Dark Mace",
+1,
+"is a Blunt weapon",
+"h"
+],
+"33": [
+"weapon",
+"Dark Bow",
+1,
+"is a bow carried by Dark Seducer archers",
+"h"
+],
+"34": [
+"weapon",
+"Dark Shortsword",
+1,
+"a one-handed shortsword",
+"h"
+],
+"35": [
+"weapon",
+"Dark Longsword",
+1,
+"are one-handed longswords",
+"h"
+],
+"36": [
+"weapon",
+"Dark War Axe",
+1,
+"is a Blunt war axe",
+"h"
+],
+"37": [
+"weapon",
+"Dart",
+1,
+"a type of thrown projectile weapon",
+"h"
+],
+"38": [
+"armor",
+"Dark Brotherhood Armor",
+1,
+"is a type of Light Armor",
+"h"
+],
+"39": [
+"armor",
+"Darkstride",
+1,
+"Generic pieces are Medium Armor",
+"h"
+],
+"40": [
+"armor",
+"Darj's Shield",
+1,
+"It is part of the Armor of the Trainee set",
+"h"
+],
+"41": [
+"armor",
+"Dark Brotherhood Right Pauldron",
+1,
+"is part of the Dark Brotherhood Armor set",
+"h"
+],
+"42": [
+"armor",
+"Dark Brotherhood Boots",
+1,
+"are part of the Dark Brotherhood Armor set",
+"h"
+],
+"43": [
+"armor",
+"Dark Brotherhood Cuirass",
+1,
+"is part of the Dark Brotherhood Armor set",
+"h"
+],
+"44": [
+"armor",
+"Dark Brotherhood Greaves",
+1,
+"are part of the Dark Brotherhood Armor set",
+"h"
+],
+"45": [
+"armor",
+"Dark Brotherhood Helm",
+1,
+"is part of the Dark Brotherhood Armor set",
+"h"
+],
+"46": [
+"armor",
+"Dark Brotherhood Left Gauntlet",
+1,
+"is part of the Dark Brotherhood Armor set",
+"h"
+],
+"47": [
+"armor",
+"Dark Brotherhood Left Pauldron",
+1,
+"is part of the Dark Brotherhood Armor set",
+"h"
+],
+"48": [
+"armor",
+"Dark Brotherhood Right Gauntlet",
+1,
+"is part of the Dark Brotherhood Armor set",
+"h"
+],
+"51": [
+"weapon",
+"Dark Sword",
+1,
+"is a weapon in",
+"h"
+],
+"52": [
+"weapon",
+"Dark Battleaxe",
+1,
+"is a weapon in",
+"h"
+],
+"53": [
+"weapon",
+"Dark Dagger",
+1,
+"is a weapon in",
+"h"
+],
+"54": [
+"weapon",
+"Dark Greatsword",
+1,
+"is a weapon in",
+"h"
+],
+"55": [
+"weapon",
+"Dark Warhammer",
+1,
+"is a weapon in",
+"h"
+],
+"56": [
+"armor",
+"Dark Seducer Boots",
+1,
+"is a piece of armor in",
+"h"
+],
+"57": [
+"armor",
+"Dark Seducer Gauntlets",
+1,
+"is a piece of armor in",
+"h"
+],
+"58": [
+"armor",
+"Dark Seducer Shield",
+1,
+"is a piece of armor in",
+"h"
+],
+"63": [
+"armor",
+"Deathbrand Armor",
+1,
+"is a unique stalhrim light armor chest piece",
+"h"
+],
+"64": [
+"armor",
+"Deathbrand Boots",
+1,
+"is a unique pair of stalhrim light boots",
+"h"
+],
+"65": [
+"armor",
+"Deathbrand Gauntlets",
+1,
+"are a unique pair of stalhrim light bracers",
+"h"
+],
+"66": [
+"armor",
+"Deathbrand Helm",
+1,
+"is a unique stalhrim light helmet",
+"h"
+],
+"71": [
+"weapon",
+"Defender of the Valenheart",
+1,
+"is a two handed axe",
+"h"
+],
+"74": [
+"armor",
+"Deathknight Aegis of the Dragon",
+1,
+"is a shield found in",
+"h"
+],
+"78": [
+"weapon",
+"Destarine's Cleaver",
+1,
+"unique two-handed steel battle axe",
+"h"
+],
+"79": [
+"armor",
+"Diadem of Euphoria",
+1,
+"is a light armor crown",
+"h"
+],
+"83": [
+"armor",
+"Diadem of the Savant",
+1,
+"is a light armor circlet",
+"h"
+],
+"84": [
+"armor",
+"Devil Cephalopod Helm",
+1,
+"is a light helmet",
+"h"
+],
+"85": [
+"weapon",
+"Devil Katana",
+1,
+"is a one-handed long blade",
+"h"
+],
+"86": [
+"weapon",
+"Devil Tanto",
+1,
+"is a one-handed short blade",
+"h"
+],
+"89": [
+"armor",
+"Devil Helm",
+1,
+"is an enchanted piece of armor",
+"h"
+],
+"90": [
+"armor",
+"Dented Iron Shield",
+1,
+"is a type of shield",
+"h"
+],
+"91": [
+"armor",
+"Devil Mole Crab Helm",
+1,
+"is a light helmet",
+"h"
+],
+"98": [
+"armor",
+"Despot's Shoulderplates",
+1,
+"is a piece of heavy armor",
+"h"
+],
+"102": [
+"armor",
+"Domina Armor",
+1,
+"is a type of light armor",
+"h"
+],
+"103": [
+"armor",
+"Domina Cuirass",
+1,
+"piece of the Domina Armor set",
+"h"
+],
+"104": [
+"armor",
+"Domina Boots",
+1,
+"piece of the Domina Armor set",
+"h"
+],
+"105": [
+"armor",
+"Domina Greaves",
+1,
+"piece of the Domina Armor set",
+"h"
+],
+"106": [
+"armor",
+"Domina Helmet",
+1,
+"piece of the Domina Armor set",
+"h"
+],
+"107": [
+"armor",
+"Domina Left Gauntlet",
+1,
+"piece of the Domina Armor set",
+"h"
+],
+"108": [
+"armor",
+"Domina Right Gauntlet",
+1,
+"piece of the Domina Armor set",
+"h"
+],
+"109": [
+"armor",
+"Domina Left Pauldron",
+1,
+"piece of the Domina Armor set",
+"h"
+],
+"110": [
+"armor",
+"Domina Right Pauldron",
+1,
+"piece of the Domina Armor set",
+"h"
+],
+"115": [
+"armor",
+"Dismal Visage",
+1,
+"is a piece of armor in",
+"h"
+],
+"117": [
+"weapon",
+"Dragonbane",
+1,
+"is a leveled unique Blades sword",
+"h"
+],
+"118": [
+"weapon",
+"Dragon Priest Dagger",
+1,
+"is a one-handed dagger",
+"h"
+],
+"119": [
+"armor",
+"Dovahcore Helmet",
+1,
+"is a helmet made from",
+"h"
+],
+"121": [
+"weapon",
+"Dragonbone Bow",
+1,
+"are Archery weapons",
+"h"
+],
+"122": [
+"weapon",
+"Dragonbone Mace",
+1,
+"is a one-handed weapon",
+"h"
+],
+"123": [
+"weapon",
+"Dragonbone War Axe",
+1,
+"is a one-handed weapon",
+"h"
+],
+"124": [
+"weapon",
+"Dragonbone Warhammer",
+1,
+"is a two-handed weapon",
+"h"
+],
+"125": [
+"weapon",
+"Dragonbone Arrow",
+1,
+"is a weapon found in",
+"h"
+],
+"129": [
+"weapon",
+"Dragonbone Light Hammer",
+1,
+"is a weapon in",
+"h"
+],
+"130": [
+"weapon",
+"Dragonbone Hand Axe",
+1,
+"is a weapon in",
+"h"
+],
+"131": [
+"weapon",
+"Dragonbone Longsword",
+1,
+"are weapons found in",
+"h"
+],
+"134": [
+"weapon",
+"Dragon's Oath",
+1,
+"is a one-handed sword",
+"h"
+],
+"139": [
+"weapon",
+"Dragonsword of Lainlyn",
+1,
+"is a sword wielded by the skeleton Lord Kain",
+"h"
+],
+"140": [
+"weapon",
+"Dravin's Bow",
+1,
+"is a quest item found in",
+"h"
+],
+"141": [
+"weapon",
+"Drainblood Battleaxe",
+1,
+"is a unique Ancient Nord Battle Axe",
+"h"
+],
+"142": [
+"armor",
+"Dragonplate Shield",
+1,
+"is a piece of heavy armor",
+"h"
+],
+"143": [
+"armor",
+"Dragonscale Shield",
+1,
+"is a piece of light armor",
+"h"
+],
+"145": [
+"armor",
+"Dragonplate Gauntlets",
+1,
+"are a piece of heavy armor",
+"h"
+],
+"146": [
+"armor",
+"Dragonplate Boots",
+1,
+"are a piece of heavy armor",
+"h"
+],
+"147": [
+"armor",
+"Dragonplate Gauntlets",
+1,
+"are a piece of heavy armor",
+"h"
+],
+"148": [
+"armor",
+"Dragonplate Helmet",
+1,
+"is a piece of heavy armor",
+"h"
+],
+"149": [
+"armor",
+"Dragonscale Armor",
+1,
+"is a piece of light armor",
+"h"
+],
+"150": [
+"armor",
+"Dragonscale Boots",
+1,
+"are a piece of light armor",
+"h"
+],
+"151": [
+"armor",
+"Dragonscale Gauntlets",
+1,
+"are a piece of light armor",
+"h"
+],
+"152": [
+"armor",
+"Dragonscale Helmet",
+1,
+"is a piece of light armor",
+"h"
+],
+"153": [
+"weapon",
+"Dread Firestorm Arrow",
+1,
+"is a weapon in the",
+"h"
+],
+"154": [
+"weapon",
+"Dread Frostbloom Arrow",
+1,
+"is a weapon in the",
+"h"
+],
+"155": [
+"weapon",
+"Dread Shockbloom Arrow",
+1,
+"is a weapon in the",
+"h"
+],
+"156": [
+"weapon",
+"Dread Poisonbloom Arrow",
+1,
+"is a weapon in the",
+"h"
+],
+"169": [
+"weapon",
+"Dram's Sword",
+1,
+"is a weapon in",
+"h"
+],
+"173": [
+"armor",
+"Dragonplate Insulated Armor",
+1,
+"is a set of heavy armor",
+"h"
+],
+"174": [
+"armor",
+"Dragonplate Insulated Boots",
+1,
+"is a piece of armor in",
+"h"
+],
+"175": [
+"armor",
+"Dragonplate Insulated Cuirass",
+1,
+"is a piece of armor in",
+"h"
+],
+"176": [
+"armor",
+"Dragonplate Insulated Gauntlets",
+1,
+"is a piece of armor in",
+"h"
+],
+"177": [
+"armor",
+"Dragonplate Insulated Helmet",
+1,
+"is a piece of armor in",
+"h"
+],
+"179": [
+"armor",
+"Dremora Armor",
+1,
+"is a type of armor in",
+"h"
+],
+"180": [
+"armor",
+"Dreugh Helm",
+1,
+"is a medium helmet",
+"h"
+],
+"181": [
+"armor",
+"Duke's Guard Silver Cuirass",
+1,
+"is a unique armor piece",
+"h"
+],
+"184": [
+"armor",
+"Dreugh Armor",
+1,
+"is an incomplete set of medium armor",
+"h"
+],
+"188": [
+"armor",
+"Dwarven Boots",
+1,
+"are a piece of heavy armor",
+"h"
+],
+"189": [
+"armor",
+"Dwarven Gauntlets",
+1,
+"are a piece of heavy armor",
+"h"
+],
+"190": [
+"armor",
+"Dwarven Helmet",
+1,
+"is a piece of heavy armor",
+"h"
+],
+"191": [
+"armor",
+"Dwarven Ceremonial Shield",
+1,
+"is a shield found in",
+"h"
+],
+"192": [
+"weapon",
+"Dwarven Halberd",
+1,
+"is a weapon found in",
+"h"
+],
+"193": [
+"armor",
+"Dwarven Cuirass",
+1,
+"is a piece of Dwarven Armor",
+"h"
+],
+"194": [
+"armor",
+"Dwarven Greaves",
+1,
+"are a piece of Dwarven Armor",
+"h"
+],
+"195": [
+"weapon",
+"Dwarven Black Bow of Fate",
+1,
+"is a unique Dwarven bow",
+"h"
+],
+"196": [
+"weapon",
+"Dwarven Dart",
+1,
+"is a ranged weapon",
+"h"
+],
+"197": [
+"armor",
+"Dungeon-Delving Slippers",
+1,
+"is a piece of heavy armor",
+"h"
+],
+"198": [
+"weapon",
+"Durable Ebony Longsword",
+1,
+"is a one-handed blade weapon",
+"h"
+],
+"201": [
+"armor",
+"Dungeon-Delving Brigadine",
+1,
+"is an armor piece",
+"h"
+],
+"202": [
+"armor",
+"Dungeon-Delving Mantle",
+1,
+"is a piece of medium armor",
+"h"
+],
+"206": [
+"weapon",
+"Dwarven Hand Axe",
+1,
+"are weapons found in",
+"h"
+],
+"207": [
+"armor",
+"Dungeon-Delving Harness",
+1,
+"is a piece of heavy armor",
+"h"
+],
+"208": [
+"armor",
+"Dwarven Helm",
+1,
+"is a piece of plate helm armor",
+"h"
+],
+"209": [
+"armor",
+"Dwarven Autumn Visage",
+1,
+"is a piece of armor in",
+"h"
+],
+"210": [
+"armor",
+"Dwarven Crown",
+1,
+"is a piece of armor in",
+"h"
+],
+"211": [
+"armor",
+"Dwarven Crown of Winter",
+1,
+"is a piece of armor in",
+"h"
+],
+"212": [
+"armor",
+"Dwarven Crown of Spring",
+1,
+"is a piece of armor in",
+"h"
+],
+"213": [
+"armor",
+"Dwarven Crown of Autumn",
+1,
+"is a piece of armor in",
+"h"
+],
+"214": [
+"weapon",
+"Dwarven Fishing Rod",
+1,
+"one-handed weapon",
+"h"
+],
+"217": [
+"armor",
+"Dwarven Shield",
+1,
+"is a piece of heavy armor",
+"h"
+],
+"218": [
+"armor",
+"Dwemer Boots",
+1,
+"are type of heavy armor",
+"h"
+],
+"219": [
+"armor",
+"Dwemer Greaves",
+1,
+"are a piece of heavy armor",
+"h"
+],
+"220": [
+"armor",
+"Dwemer Left Bracer",
+1,
+"is a piece of heavy armor",
+"h"
+],
+"221": [
+"armor",
+"Dwemer Right Pauldron",
+1,
+"is a piece of heavy armor",
+"h"
+],
+"222": [
+"armor",
+"Dwemer Armor",
+1,
+"is a type of heavy armor",
+"h"
+],
+"223": [
+"weapon",
+"Dwemer Jinksword",
+1,
+"is a one-handed Dwemer weapon",
+"h"
+],
+"224": [
+"armor",
+"Eagle Feather Shield",
+1,
+"is a shield found in",
+"h"
+],
+"226": [
+"weapon",
+"Dwarven Shock Dart",
+1,
+"is a ranged weapon",
+"h"
+],
+"228": [
+"weapon",
+"Earth-Shaker Staff",
+1,
+"is a frost staff",
+"h"
+],
+"229": [
+"armor",
+"Dwemer Battle Shield",
+1,
+"is a shield and a quest item",
+"h"
+],
+"230": [
+"weapon",
+"Earth-Turner Axe",
+1,
+"is an item found in",
+"h"
+],
+"231": [
+"weapon",
+"Dwarven Light Hammer",
+1,
+"are weapons found in",
+"h"
+],
+"232": [
+"armor",
+"Dwarven Plate Helmet",
+1,
+"is an armor piece found in",
+"h"
+],
+"233": [
+"armor",
+"Dwarven Mail Helmet",
+1,
+"is an armor piece found in",
+"h"
+],
+"234": [
+"armor",
+"Dwarven Mail Boots",
+1,
+"is an armor piece found in",
+"h"
+],
+"235": [
+"armor",
+"Dwarven Plate Boots",
+1,
+"is an armor piece found in",
+"h"
+],
+"236": [
+"armor",
+"Dwarven Mail Gauntlets",
+1,
+"is an armor piece found in",
+"h"
+],
+"237": [
+"armor",
+"Dwarven Plate Gauntlets",
+1,
+"is an armor piece found in",
+"h"
+],
+"238": [
+"armor",
+"Dwarven Mail Armor",
+1,
+"is an armor piece found in",
+"h"
+],
+"239": [
+"armor",
+"Dwarven Plate Armor",
+1,
+"is an armor piece found in",
+"h"
+],
+"240": [
+"armor",
+"Dwarven Light Shield",
+1,
+"is a shield found in",
+"h"
+],
+"241": [
+"armor",
+"Dwarven Left Pauldron",
+1,
+"are a piece of plate left pauldron armor",
+"h"
+],
+"242": [
+"armor",
+"Dwarven Right Pauldron",
+1,
+"is an armor piece in",
+"h"
+],
+"243": [
+"armor",
+"Dwarven Spring Visage",
+1,
+"is a piece of armor in",
+"h"
+],
+"244": [
+"armor",
+"Dwarven Winter Visage",
+1,
+"is a piece of armor in",
+"h"
+],
+"245": [
+"armor",
+"Dwarven Mail",
+1,
+"is a piece of armor in",
+"h"
+],
+"246": [
+"armor",
+"Ebony armor",
+1,
+"is a thick and rare heavy armor set",
+"h"
+],
+"247": [
+"weapon",
+"Ebony Blade",
+1,
+"is a katana (one-handed blade)",
+"h"
+],
+"248": [
+"weapon",
+"Ebony Mace",
+1,
+"is a one-handed weapon",
+"h"
+],
+"249": [
+"armor",
+"Ebony Mail",
+1,
+"is a unique piece of heavy armor",
+"h"
+]
+},
+"x": {},
+"z": {
+"0": "none stated: effect/ability page lists no pool-matching power",
+"1": "none stated: effect/ability page lists no pool-matching power",
+"2": "none stated: effect/ability page lists no pool-matching power",
+"3": "none stated: effect/ability page lists no pool-matching power",
+"4": "none stated: effect/ability page lists no pool-matching power",
+"5": "none stated: effect/ability page lists no pool-matching power",
+"60": "none stated: effect/ability page lists no pool-matching power",
+"61": "none stated: effect/ability page lists no pool-matching power",
+"67": "none stated: effect/ability page lists no pool-matching power",
+"68": "none stated: effect/ability page lists no pool-matching power",
+"92": "none stated: effect/ability page lists no pool-matching power",
+"93": "none stated: effect/ability page lists no pool-matching power",
+"94": "none stated: effect/ability page lists no pool-matching power",
+"99": "none stated: effect/ability page lists no pool-matching power",
+"101": "none stated: effect/ability page lists no pool-matching power",
+"116": "none stated: effect/ability page lists no pool-matching power",
+"120": "none stated: effect/ability page lists no pool-matching power",
+"126": "none stated: effect/ability page lists no pool-matching power",
+"137": "none stated: effect/ability page lists no pool-matching power",
+"138": "none stated: effect/ability page lists no pool-matching power",
+"159": "none stated: effect/ability page lists no pool-matching power",
+"160": "none stated: effect/ability page lists no pool-matching power",
+"161": "none stated: effect/ability page lists no pool-matching power",
+"162": "none stated: effect/ability page lists no pool-matching power",
+"163": "none stated: effect/ability page lists no pool-matching power",
+"164": "none stated: effect/ability page lists no pool-matching power",
+"165": "none stated: effect/ability page lists no pool-matching power",
+"166": "none stated: effect/ability page lists no pool-matching power"
+},
+"f": {},
+"u0": {}
+}
