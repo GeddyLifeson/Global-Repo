@@ -1,0 +1,983 @@
+{
+"d": 0,
+"b1": [
+1,
+3,
+5,
+22,
+23,
+25,
+27,
+28,
+31,
+34,
+39,
+77,
+91,
+101,
+102,
+110,
+111,
+113,
+114,
+115,
+118,
+127,
+143,
+146,
+148,
+162,
+171,
+187
+],
+"n": {},
+"p": {},
+"W": {
+"0": [
+"weapon",
+"Naryu's Spare Blade",
+1,
+"is a sword rewarded to the Vestige",
+"h"
+],
+"2": [
+"weapon",
+"Nanwen's Sword",
+1,
+"Nanwen's Sword is an item",
+"l"
+],
+"4": [
+"weapon",
+"Namira's Itch",
+1,
+"is a Falmer War Axe",
+"h"
+],
+"6": [
+"armor",
+"Netch Leather Boots",
+1,
+"are a type of Netch Leather Armor",
+"h"
+],
+"7": [
+"armor",
+"Netch Leather Cuirass",
+1,
+"is a type of Netch Leather Armor",
+"h"
+],
+"8": [
+"armor",
+"Netch Leather Greaves",
+1,
+"is a type of Netch Leather Armor",
+"h"
+],
+"9": [
+"armor",
+"Netch Leather Helm",
+1,
+"is a type of netch leather armor",
+"h"
+],
+"10": [
+"armor",
+"Netch Leather Left Gauntlet",
+1,
+"is a type of Netch Leather Armor",
+"h"
+],
+"11": [
+"armor",
+"Netch Leather Right Gauntlet",
+1,
+"is a piece of the Netch Leather Armor set",
+"h"
+],
+"12": [
+"armor",
+"Netch Leather Armor",
+1,
+"is a type of Light Armor",
+"h"
+],
+"13": [
+"armor",
+"Netch Leather Left Pauldron",
+1,
+"is a type of Netch Leather Armor",
+"h"
+],
+"14": [
+"armor",
+"Netch Leather Right Pauldron",
+1,
+"is a type of Netch Leather Armor",
+"h"
+],
+"15": [
+"armor",
+"Netch Leather Shield",
+1,
+"is a type of Netch Leather Armor",
+"h"
+],
+"16": [
+"armor",
+"Netch Leather Tower Shield",
+1,
+"is a piece of light armor",
+"h"
+],
+"17": [
+"weapon",
+"Necromantic Staff",
+1,
+"is an unobtainable staff",
+"m"
+],
+"20": [
+"weapon",
+"Nelrene's Ceremonial Shortsword",
+1,
+"is a unique item owned by the Dark Seducer Nelrene",
+"m"
+],
+"21": [
+"weapon",
+"Neramo's Staff",
+1,
+"is a Two Handed staff",
+"h"
+],
+"24": [
+"armor",
+"Necropotence",
+1,
+"is a light armor overland item set",
+"m"
+],
+"26": [
+"armor",
+"Netch's Touch",
+1,
+"It is a Light Armor Item set",
+"m"
+],
+"29": [
+"armor",
+"Netch Leather Bracers",
+1,
+"is a piece of armor",
+"h"
+],
+"30": [
+"armor",
+"Netch Leather Helmet",
+1,
+"is a piece of armor",
+"h"
+],
+"32": [
+"armor",
+"Nightingale Armor",
+1,
+"is a unique light armor set",
+"h"
+],
+"33": [
+"weapon",
+"Nightingale Blade",
+1,
+"is a leveled, unique, one-handed weapon",
+"h"
+],
+"35": [
+"armor",
+"Nightingale Boots",
+1,
+"are a piece of unique light armor",
+"h"
+],
+"36": [
+"armor",
+"Nightingale Hood",
+1,
+"is a piece of unique light armor",
+"h"
+],
+"37": [
+"armor",
+"Nightingale Gloves",
+1,
+"is a piece of unique light armor",
+"h"
+],
+"40": [
+"armor",
+"Nikulas' Heavy Armor",
+1,
+"It is a Heavy Armor set",
+"m"
+],
+"43": [
+"weapon",
+"Nord Hero Sword",
+1,
+"is an improved Ancient Nord Sword",
+"h"
+],
+"44": [
+"armor",
+"Nordic Fur Boots",
+1,
+"light armor and part of the Nordic Fur Armor set",
+"h"
+],
+"45": [
+"armor",
+"Nordic Fur Greaves",
+1,
+"light armor and part of the Nordic Fur Armor set",
+"h"
+],
+"46": [
+"armor",
+"Nordic Fur Helm",
+1,
+"light armor and part of the Nordic Fur Armor set",
+"h"
+],
+"49": [
+"armor",
+"Nordic Fur Left Bracer",
+1,
+"light armor and part of the Nordic Fur Armor set",
+"h"
+],
+"51": [
+"armor",
+"Nordic Fur Right Bracer",
+1,
+"light armor and part of the Nordic Fur Armor set",
+"h"
+],
+"48": [
+"armor",
+"Nordic Fur Cuirass",
+1,
+"is a piece of light armor",
+"h"
+],
+"47": [
+"armor",
+"Nordic Trollbone Helm",
+1,
+"is an armor type",
+"h"
+],
+"50": [
+"armor",
+"Nordic Fur Left Gauntlet",
+1,
+"is a piece of the Nordic fur light armor set",
+"h"
+],
+"52": [
+"armor",
+"Nordic Iron Cuirass",
+1,
+"is a Heavy Armor type",
+"h"
+],
+"53": [
+"armor",
+"Nordic Fur Left Pauldron",
+1,
+"is a piece of the Nordic fur light armor set",
+"h"
+],
+"54": [
+"armor",
+"Nordic Fur Right Gauntlet",
+1,
+"is a piece of the Nordic fur light armor set",
+"h"
+],
+"55": [
+"armor",
+"Nordic Fur Right Pauldron",
+1,
+"is a piece of the Nordic fur light armor set",
+"h"
+],
+"56": [
+"weapon",
+"Nord Hero Bow",
+1,
+"is an improved Ancient Nord Bow",
+"h"
+],
+"57": [
+"weapon",
+"Nord Hero War Axe",
+1,
+"is an improved Ancient Nord War Axe",
+"h"
+],
+"58": [
+"armor",
+"Nordic Fur Armor",
+1,
+"is a type of light armor",
+"h"
+],
+"59": [
+"weapon",
+"Nord Hero Battle Axe",
+1,
+"is an improved Ancient Nord Battle Axe",
+"h"
+],
+"60": [
+"armor",
+"Nordic Carved Armor",
+1,
+"is a set of heavy armor",
+"h"
+],
+"61": [
+"armor",
+"Nordic Carved Boots",
+1,
+"is a piece of heavy armor",
+"h"
+],
+"62": [
+"armor",
+"Nordic Carved Gauntlets",
+1,
+"are a piece of heavy armor",
+"h"
+],
+"63": [
+"armor",
+"Nordic Carved Armor",
+1,
+"is a piece of heavy armor",
+"h"
+],
+"64": [
+"armor",
+"Nordic Shield",
+1,
+"is a heavy armor shield",
+"h"
+],
+"66": [
+"weapon",
+"Nordic War Axe",
+1,
+"is a weapon obtainable",
+"h"
+],
+"67": [
+"weapon",
+"Nordic Axe of Paralysis",
+1,
+"is a unique one-handed silver weapon",
+"h"
+],
+"68": [
+"weapon",
+"Nordic Silver Dagger",
+1,
+"is a common one-handed silver weapon",
+"h"
+],
+"69": [
+"weapon",
+"Nordic Silver Axe",
+1,
+"is a common one-handed silver weapon",
+"h"
+],
+"70": [
+"weapon",
+"Nordic Silver Longsword",
+1,
+"is a one-handed silver weapon",
+"h"
+],
+"71": [
+"weapon",
+"Nordic Silver Mace",
+1,
+"is a common one-handed silver weapon",
+"h"
+],
+"72": [
+"weapon",
+"Nordic Silver Shortsword",
+1,
+"is a common one-handed silver weapon",
+"h"
+],
+"73": [
+"weapon",
+"Nordic Silver Battleaxe",
+1,
+"is a common two-handed silver weapon",
+"h"
+],
+"74": [
+"weapon",
+"Nordic Silver Claymore",
+1,
+"is a common two-handed silver weapon",
+"h"
+],
+"75": [
+"armor",
+"Nordic Mail Helmet",
+1,
+"is a piece of the Nordic Mail armor set",
+"h"
+],
+"76": [
+"armor",
+"Nordic Mail Armor",
+1,
+"is an armor set",
+"h"
+],
+"79": [
+"armor",
+"Nordic Mail Boots",
+1,
+"is a piece of the Nordic Mail armor set",
+"h"
+],
+"80": [
+"armor",
+"Nordic Mail Cuirass",
+1,
+"is a piece of the Nordic Mail armor set",
+"h"
+],
+"81": [
+"armor",
+"Nordic Mail Greaves",
+1,
+"is a piece of the Nordic Mail armor set",
+"h"
+],
+"82": [
+"armor",
+"Nordic Mail Left Gauntlet",
+1,
+"is a piece of the Nordic Mail armor set",
+"h"
+],
+"83": [
+"armor",
+"Nordic Mail Left Pauldron",
+1,
+"is a piece of the Nordic Mail armor set",
+"h"
+],
+"84": [
+"armor",
+"Nordic Mail Right Pauldron",
+1,
+"is a piece of the Nordic Mail armor set",
+"h"
+],
+"85": [
+"armor",
+"Nordic Mail Right Gauntlet",
+1,
+"is a piece of the Nordic Mail armor set",
+"h"
+],
+"87": [
+"armor",
+"Noble Duelist's Silks",
+1,
+"It is a Light Armor Item set",
+"m"
+],
+"88": [
+"weapon",
+"Northwind",
+1,
+"is a leveled enchanted Ancient Akaviri Katana",
+"h"
+],
+"89": [
+"armor",
+"Noster's Helmet",
+1,
+"is a light armor item",
+"h"
+],
+"92": [
+"vehicle",
+"Northern Maiden",
+1,
+"is a ship found at the docks of Windhelm",
+"h"
+],
+"98": [
+"weapon",
+"Odd Dwemer Weapon",
+1,
+"is a one-handed longblade",
+"h"
+],
+"100": [
+"armor",
+"Odei's Stylish Epauliers",
+1,
+"is a light armor shoulder equipment",
+"h"
+],
+"103": [
+"armor",
+"Oblivion's Edge",
+1,
+"It is a Medium Armor Item set",
+"m"
+],
+"105": [
+"armor",
+"Oak Shield",
+1,
+"is a type of shield",
+"h"
+],
+"106": [
+"weapon",
+"Oak Destruction Staff",
+1,
+"is a two handed destruction staff",
+"h"
+],
+"107": [
+"weapon",
+"Oak Restoration Staff",
+1,
+"is a two handed restoration staff",
+"h"
+],
+"108": [
+"weapon",
+"Oak Bow",
+1,
+"is a two handed bow",
+"h"
+],
+"109": [
+"weapon",
+"Ogre's Axe",
+1,
+"is a weapon in",
+"h"
+],
+"116": [
+"vehicle",
+"Omenwedur",
+1,
+"It is a small open boat",
+"h"
+],
+"119": [
+"weapon",
+"Order Blade",
+1,
+"is the signature weapon of the Knights of Order",
+"h"
+],
+"120": [
+"armor",
+"Orcish Helmet",
+1,
+"is a piece of heavy armor",
+"h"
+],
+"121": [
+"armor",
+"Orcish Armor",
+1,
+"is a piece of heavy armor",
+"h"
+],
+"122": [
+"armor",
+"Orcish Gauntlets",
+1,
+"are a piece of heavy armor",
+"h"
+],
+"123": [
+"armor",
+"Orcish Shield",
+1,
+"is a piece of heavy armor",
+"h"
+],
+"124": [
+"armor",
+"Orcish Greaves",
+1,
+"are a type of medium armor",
+"h"
+],
+"125": [
+"armor",
+"Orcish Left Bracer",
+1,
+"is a piece of medium armor",
+"h"
+],
+"126": [
+"armor",
+"Ordinator Rerebrace",
+1,
+"is a piece of Medium Armor",
+"h"
+],
+"131": [
+"weapon",
+"Orcish Hand Axe",
+1,
+"are weapons found in",
+"h"
+],
+"132": [
+"weapon",
+"Orcish Light Hammer",
+1,
+"are weapons found in",
+"h"
+],
+"133": [
+"armor",
+"Orcish Plate Helmet",
+1,
+"is an armor piece found in",
+"h"
+],
+"134": [
+"armor",
+"Orcish Scaled Helmet",
+1,
+"is an armor piece found in",
+"h"
+],
+"135": [
+"armor",
+"Orcish Scaled Boots",
+1,
+"is an armor piece found in",
+"h"
+],
+"136": [
+"armor",
+"Orcish Plate Boots",
+1,
+"is an armor piece found in",
+"h"
+],
+"137": [
+"armor",
+"Orcish Scaled Gauntlets",
+1,
+"is an armor piece found in",
+"h"
+],
+"138": [
+"armor",
+"Orcish Plate Gauntlets",
+1,
+"is an armor piece found in",
+"h"
+],
+"139": [
+"armor",
+"Orcish Scaled Armor",
+1,
+"is an armor piece found in",
+"h"
+],
+"140": [
+"armor",
+"Orcish Plate Armor",
+1,
+"is an armor piece found in",
+"h"
+],
+"141": [
+"armor",
+"Orcish Scaled Shield",
+1,
+"is a shield found in",
+"h"
+],
+"142": [
+"armor",
+"Ordinator Shield",
+1,
+"is a heavy shield",
+"h"
+],
+"145": [
+"armor",
+"Orichalc Armor",
+1,
+"is a type of Heavy Armor",
+"h"
+],
+"150": [
+"armor",
+"Overwhelming Surge",
+1,
+"It is a Light Armor Item set",
+"m"
+],
+"156": [
+"weapon",
+"Pactbreaker",
+1,
+"is a Two Handed axe",
+"h"
+],
+"157": [
+"armor",
+"Paladin's Mail",
+1,
+"is a unique, legendary, divine Steel Armor",
+"h"
+],
+"158": [
+"armor",
+"Painted Netch Leather Armor",
+1,
+"is a set of armor",
+"h"
+],
+"159": [
+"armor",
+"Painted Netch Leather Boots",
+1,
+"is a piece of armor",
+"h"
+],
+"160": [
+"armor",
+"Painted Netch Leather Bracers",
+1,
+"is a piece of armor",
+"h"
+],
+"161": [
+"armor",
+"Painted Netch Leather Helmet",
+1,
+"is a piece of armor",
+"h"
+],
+"163": [
+"weapon",
+"Perdition's Wrath",
+1,
+"It is an enchanted dwarven battle axe",
+"h"
+],
+"164": [
+"armor",
+"Penitus Oculatus Armor",
+1,
+"is a light armor set",
+"h"
+],
+"165": [
+"weapon",
+"Peacemaker",
+1,
+"is a generic staff",
+"h"
+],
+"166": [
+"armor",
+"Penitus Oculatus Helmet",
+1,
+"is a piece of light armor",
+"h"
+],
+"167": [
+"armor",
+"Penitus Oculatus Boots",
+1,
+"are a piece of light armor",
+"h"
+],
+"168": [
+"armor",
+"Penitus Oculatus Bracers",
+1,
+"are a piece of light armor",
+"h"
+],
+"169": [
+"weapon",
+"Penumbric Dagger",
+1,
+"is a weapon found in",
+"h"
+],
+"170": [
+"armor",
+"Pauldrons of the Holdfast",
+1,
+"are a piece of armor",
+"h"
+],
+"173": [
+"weapon",
+"Patriot's Mace",
+1,
+"is a mace found in",
+"h"
+],
+"174": [
+"armor",
+"Pauldrons",
+1,
+"are an armor piece",
+"m"
+],
+"179": [
+"weapon",
+"Phantom Sword",
+1,
+"is a weapon obtained through console commands",
+"h"
+],
+"184": [
+"weapon",
+"Plaguetender's Staff",
+1,
+"is a healing staff",
+"h"
+],
+"185": [
+"armor",
+"Plague Doctor",
+1,
+"is a heavy armor item set",
+"m"
+],
+"186": [
+"armor",
+"Phoenix",
+1,
+"Pieces are Light Armor in the Alliance styles",
+"m"
+],
+"188": [
+"armor",
+"Pit Helmet",
+1,
+"is an unobtainable leather helmet",
+"h"
+],
+"189": [
+"armor",
+"Pit Armor",
+1,
+"is an unobtainable light armor set",
+"h"
+],
+"190": [
+"weapon",
+"Pincer of the Guardian",
+1,
+"is a sword found in",
+"h"
+],
+"191": [
+"armor",
+"Plate Armor",
+1,
+"is one of the three types of armor",
+"m"
+],
+"192": [
+"armor",
+"Pillar of Nirn",
+1,
+"It is a Medium Armor set",
+"m"
+],
+"193": [
+"armor",
+"Plague Slinger",
+1,
+"It is a Medium Armor set",
+"m"
+],
+"198": [
+"weapon",
+"Poacher's Axe",
+1,
+"is a unique woodcutter's axe",
+"h"
+],
+"199": [
+"weapon",
+"Practice Arrow",
+1,
+"is a type of arrow that does no damage at all",
+"l"
+],
+"203": [
+"armor",
+"Poisonous Serpent",
+1,
+"It is a Medium Armor Celestial Style set",
+"m"
+],
+"204": [
+"armor",
+"Prayer Shawl",
+1,
+"It is a Light Armor set",
+"m"
+],
+"205": [
+"armor",
+"Powerful Assault",
+1,
+"Pieces are Medium Armor in the Alliance styles",
+"m"
+]
+},
+"x": {
+"91": [
+"ancestor guardian",
+"resist fire"
+],
+"67": [
+"paralysis on strike"
+],
+"165": [
+"paralysis on strike"
+]
+},
+"z": {},
+"f": {},
+"u0": {}
+}
