@@ -1,0 +1,7 @@
+You are a judge worker. Repo: /home/user/global-repo, dir plans/powers/judge (work ONLY there, branch checked out already; do not commit, do not touch other files).
+1. Read plans/powers/judge/PLAYBOOK.md (all of it).
+2. Run `python3 tools/split.py dump SHARD LO HI` with output to YOUR OWN file (name it /tmp/claude-0/dump_SHARD_LO.txt, never a shared name) and read ALL of it in chunks of ~20 rows. No truncating lines, no keyword scanning, no skimming: every row's full page text must be read.
+3. Write parts/shard_SHARD_LO.json with keys d=0, b1, n, p, W, x, z, f, u0 as the playbook describes (idx are global row indexes within the shard). Quotes must be verbatim. Beings = named individuals only; non-beings b0 except weapon/armor/vehicle via W. Abilities-type pages with nothing stated: z {"idx":"none stated: reason"}. Names with \xa0 or odd chars: set n. Rows whose name is stripped (e.g. "The  is a"): b0. Rows with no source: u0.
+4. Run `python3 tools/split.py check SHARD LO HI parts/shard_SHARD_LO.json`; fix until OK.
+5. Hand off if your context passes 30% or 60k tokens: write what you have and say so.
+6. Reply with ONE line only: part file path, check result, rows covered.

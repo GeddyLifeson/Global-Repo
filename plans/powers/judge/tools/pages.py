@@ -112,54 +112,126 @@ def intro(host, titles):
         for _ in range(3): f = mp.get(f, f)
         out[t] = (f, ex.get(f, ''))
     return out
+STOP = {'the', 'a', 'an', 'of', 'and', 'in', 'is', 'was', 'are', 'were', 'to', 'for'}
+FIELDS = ('Name', 'name', 'nam', 'MainPage', 'OfficialName', 'CurrentAlias', 'LegacyNumber', 'Title')
+def tfield(t, k):
+    m = re.search(r'\|\s*' + k + r'\s*=\s*([^|}\n]+)', t)
+    return m.group(1).strip() if m else ''
+def img_stem(t):
+    v = tfield(t, 'Image1') or tfield(t, 'Image')
+    return re.sub(r' from .*$', '', re.sub(r'\.\w{3,4}$', '', v.replace('_', ' '))).strip()
+def cands(text):
+    """Ordered candidate page titles for a row: template fields, or word spans of the leading name (page titles are often a shorter form of it)."""
+    out = []
+    def add(c):
+        c = c.strip()
+        if 2 < len(c) <= 80 and c not in out: out.append(c)
+    if re.match(r'\s*\{\{', text):
+        st = img_stem(text)
+        if '(' in st: add(st)
+        for k in FIELDS: add(tfield(text, k))
+        add(st)
+        for k in ('rom', 'dub', 'dub2'): add(tfield(text, k))
+        for k in ('Overview', 'Description', 'History'):  # subject of the first sentence of a prose field
+            add(re.split(r' \(|, | (?:is|was|are|were) ', tfield(text, k), maxsplit=1)[0][:60])
+        return out[:20]
+    nm = re.split(r', | (?:is|was|are|were|may refer|can refer|refers) ', text, maxsplit=1)[0][:80]
+    nm = re.sub(r'\([^()]{13,}\)|\([^()]*:[^()]*\)', '', nm).strip()  # drop long/translation parentheticals, keep short abbreviations like (ATC)
+    if re.match(r'(?:is|was|are|were|\W)', nm) or len(nm) < 3: return out  # name stripped from the row (wikilink removed): found by the text search instead
+    tok = re.findall(r'\S+', re.sub(r'[()]', ' ', nm))
+    spans = [(i, j) for i in range(len(tok)) for j in range(i + 1, len(tok) + 1)] if len(tok) <= 6 else [(0, k) for k in range(1, 4)] + [(0, len(tok)), (1, len(tok))]
+    for i, j in sorted(spans, key=lambda s: (s[0] > 0 and s[1] < len(tok), s[0] - s[1])):
+        w = tok[i:j]
+        if all(x.lower() in STOP for x in w) or (len(w) == 1 and len(w[0]) < 4 and not re.search(r'\d', w[0])): continue
+        add(' '.join(w))
+        if w[-1].endswith('s') and not w[-1].endswith('ss'): add(' '.join(w[:-1] + [w[-1][:-1]]))
+    return out[:24]
+ERRS = [0]
+def lookup(h, titles, exist=False):
+    """{title: (final title, intro text)}; retries transient errors (a swallowed 429 used to leave whole batches unresolved)."""
+    got = {}
+    for s in range(0, len(titles), 20):
+        ch = titles[s:s + 20]
+        for k in range(4):
+            try:
+                got.update(intro(h, ch))
+                if exist:
+                    d = api(h, {'action': 'query', 'redirects': 1, 'titles': '|'.join(ch)}); q = d.get('query', {}); mp = {}
+                    for x in q.get('normalized', []) + q.get('redirects', []): mp[x['from']] = x['to']
+                    ok = {p['title'] for p in q.get('pages', []) if not p.get('missing') and not p.get('invalid')}
+                    for t in ch:
+                        f = t
+                        for _ in range(3): f = mp.get(f, f)
+                        if f in ok and not got[t][1]: got[t] = (got[t][0], '(no extract)')  # exists, empty lead (template-only page)
+                break
+            except Exception as e:
+                if k == 3: ERRS[0] += 1; print(f'  lookup failed {h} {ch[:2]}: {str(e)[:60]}', file=sys.stderr, flush=True)
+                time.sleep(5 * (k + 1))
+    return got
+def shingles(s, k=4):
+    w = re.findall(r'[0-9a-z]+', s.lower()); return {' '.join(w[i:i + k]) for i in range(len(w) - k + 1)}
+def clean_row(t):
+    t = re.sub(r'__\w+__|\[https?://\S+ ([^\]]*)\]', r'\1', t)
+    t = re.sub(r'(?:^|\s)[a-z]{2,3}(?:-[a-z]+)?:\S+.*$', '', t)  # trailing interlanguage link (pl:Name)
+    return re.sub(r'^[\s*:#,.)\]]+|\s\]\]', ' ', t).strip()
+def search_cands(h, text):
+    """Pages found by full-text search of several quoted/unquoted windows of the row (works when the name is missing from the row)."""
+    c = clean_row(text); w = c.split()
+    wins = [' '.join(w[i:i + 10]) for i in sorted({0, max(0, len(w) // 2 - 5), max(0, len(w) - 10)})] if len(w) > 6 else [c]
+    out = []
+    for q in wins + ['"%s"' % x for x in wins]:
+        try: out += [x['title'] for x in api(h, {'action': 'query', 'list': 'search', 'srsearch': q, 'srlimit': 6, 'srnamespace': 0})['query']['search'] if x['title'] not in out]
+        except Exception: ERRS[0] += 1
+    return out[:12]
+def by_text(h, text, thr=0.4):
+    """Best search candidate whose full text contains >= thr of the row's 4-word shingles (survives holes and mid-page fragments)."""
+    sh = shingles(clean_row(text))
+    if len(sh) < 3: return None
+    best = (0, None)
+    for t in search_cands(h, text):
+        pt = ' '.join(re.findall(r'[0-9a-z]+', full_extract(h, t).lower()))
+        sc = sum(1 for x in sh if x in pt) / len(sh)
+        if sc > best[0]: best = (sc, t)
+    return best[1] if best[0] >= thr else None
 def resolve(n):
     R = [json.loads(l) for l in open(f'{B}shard_{n}.jsonl', encoding='utf-8')]
-    res, weak = {}, {}
-    todo = list(enumerate(R))
+    res, weak = {}, {}; ERRS[0] = 0
     for host_i in range(2):
-        left = []
-        for s in range(0, len(todo), 20):
-            ch = todo[s:s + 20]; wiki = {}
-            print(f'  resolve {n} pass{host_i} {s}/{len(todo)}', file=sys.stderr, flush=True)
-            for i, r in ch: wiki.setdefault(r['id'].rsplit('|', 1)[0], []).append((i, r))
-            for w, items in wiki.items():
-                hosts = HOSTS.get(w, [])
-                if host_i >= len(hosts): continue
-                h = hosts[host_i]; ex_names = {namef(r['text']) for i, r in items}
-                try: got = intro(h, list(ex_names | {strip_art(x) for x in ex_names}))
-                except Exception: continue
-                for i, r in items:
-                    nm = namef(r['text']); f, ex = got[nm]
-                    if not ex or ex == '(no extract)':  # exact name found nothing: fall back to the name without a leading article
-                        f2, ex2 = got[strip_art(nm)]
-                        if ex2 and ex2 != '(no extract)': f, ex = f2, ex2
-                    if ex in ('(no extract)', '') and re.match(r'\s*\{\{', r['text']) and (ex or (lambda d: bool(d.get('query', {}).get('pages')) and not d['query']['pages'][0].get('missing') and not d['query']['pages'][0].get('invalid'))(api(h, {'action': 'query', 'titles': f}))): res[i] = (f, h)  # template row, page exists but has an empty lead
-                    elif ex == '(no extract)': weak.setdefault(i, (f, h))
-                    elif ex and match(r['text'], ex): res[i] = (f, h)
-                    elif ex and ex != '(no extract)' and re.match(r'\s*\{\{', r['text']): res[i] = (f, h)  # template-start row: the page named by its Name/MainPage field
-        todo = [(i, r) for i, r in todo if i not in res]
-    for i, r in todo:  # fallback: full-text search on each host
-        w = r['id'].rsplit('|', 1)[0]
-        for h in HOSTS.get(w, []):
-            try:
-                c = []
-                for q in (r['text'][:100], r['text'][60:160], namef(r['text']), ' '.join(namef(r['text']).split()[1:])):
-                    if q: c += [x['title'] for x in api(h, {'action': 'query', 'list': 'search', 'srsearch': q, 'srlimit': 3, 'srnamespace': 0})['query']['search'] if x['title'] not in c]
-                got = intro(h, c) if c else {}
-            except Exception: continue
-            hit = next(((f, h) for f, ex in got.values() if ex != '(no extract)' and match(r['text'], ex)), None)
-            if not hit:  # mid-page fragment: accept a candidate whose full text contains the row's opening words
-                nt = norm(r['text']); keys = [k for k in (nt[:60], nt[60:120]) if len(k) >= 30]  # the 2nd key survives stripped names at the start
-                hit = next(((f, h) for f, _ in got.values() if any(k in (pt := norm(full_extract(h, f))) for k in keys)), None)
-            if hit: res[i] = hit; break
-    for i, (f, h) in weak.items():  # page exists but has no intro extract: accept only if the page has no text at all (template pages)
+        by = {}
+        for i, r in enumerate(R):
+            if i not in res: by.setdefault(r['id'].rsplit('|', 1)[0], []).append(i)
+        for w, idx in by.items():
+            hosts = HOSTS.get(w, [])
+            if host_i >= len(hosts): continue
+            h = hosts[host_i]; C = {i: cands(R[i]['text']) for i in idx}
+            print(f'  resolve {n} {w} {len(idx)} rows', file=sys.stderr, flush=True)
+            got = lookup(h, sorted({c for v in C.values() for c in v}), exist=any(R[i]['text'].lstrip().startswith('{{') for i in idx))
+            for i in idx:
+                tpl = R[i]['text'].lstrip().startswith('{{')
+                for c in C[i]:
+                    f, ex = got.get(c, (c, ''))
+                    if ex == '(no extract)':
+                        if tpl: res[i] = (f, h); break  # template row: the page named by its fields exists
+                        weak.setdefault(i, (f, h))
+                    elif ex and match(R[i]['text'], ex): res[i] = (f, h); break
+    for i, (f, h) in weak.items():  # page exists with no text at all: accepted only if no later host had a matching page
         if i not in res and not full_extract(h, f): res[i] = (f, h)
+    for i, r in enumerate(R):  # fallback: full-text search on each host
+        if i in res: continue
+        for h in HOSTS.get(r['id'].rsplit('|', 1)[0], []):
+            t = by_text(h, r['text'])
+            if t: res[i] = (t, h); break
     path = f'{B}shard_{n}.src.jsonl'
     with open(path, 'w', encoding='utf-8') as o:
         for i, r in enumerate(R):
             t, h = res.get(i, ('', ''))
             u = f"https://{h}/wiki/" + urllib.parse.quote(t.replace(' ', '_')) if t else ''
             o.write(json.dumps({'id': r['id'], 'title': t, 'url': u}, ensure_ascii=False) + '\n')
+    miss = [r for i, r in enumerate(R) if i not in res]
+    ap = f'{B}shard_{n}.absent.json'  # ABSENT RULE: every candidate title and text search ran without a request error and nothing matched -> the page is not on the wiki any more
+    if miss and not ERRS[0]: json.dump([r['id'] for r in miss], open(ap, 'w'))
+    elif os.path.exists(ap): os.remove(ap)
+    if miss: open(os.path.join(HERE, '..', 'diag', f'shard_{n}.unresolved.jsonl'), 'w', encoding='utf-8').write(''.join(json.dumps(r, ensure_ascii=False) + '\n' for r in miss))
     print(f'{path}: resolved {len(res)}/{len(R)}')
 def full_extract(h, title):
     d = api(h, {'action': 'query', 'prop': 'extracts', 'explaintext': 1, 'titles': title})
