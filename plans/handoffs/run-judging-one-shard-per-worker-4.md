@@ -9,3 +9,4 @@ REDO 75: worker skimmed lead/evidence only (violates full-page rule); rerun and 
 REDO 78 too: worker read lead/evidence view only, not full pages. Landed since: 70 77 79 (77 and 79 reports did not state full-page reading; spot-check).
 Shard 80: BLOCKED, 15 rows have no resolved source page (resolver 429); join 7/44/152 waiting for PC resolver rerun. Local judged copy was not pushed.
 Shard 82: BLOCKED same way (7 unresolved rows, wiki HTTP 429); retry resolve later. Shard 51 worker still running at last check.
+Shard 51: BLOCKED too (13 unresolved rows, 429). Wiki API is rate-limiting: do NOT launch more shards until pages.py resolve works again (new shards need resolve; cached ones 3 4 83.. may be fine). Blocked: 7 44 51 80 82 152.
