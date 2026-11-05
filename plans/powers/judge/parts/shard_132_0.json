@@ -30,951 +30,838 @@
 171,
 187
 ],
-"n": {},
+"n": {
+"110": "Obtorgren, Shield of Bal"
+},
 "p": {},
 "W": {
 "0": [
 "weapon",
 "Naryu's Spare Blade",
 1,
-"is a sword rewarded to the Vestige",
+"Naryu's Spare Blade is a sword rewarded to the Vestige after completing the quest \"Hiding in Plain Sight.\"",
 "h"
 ],
 "2": [
 "weapon",
 "Nanwen's Sword",
 1,
-"Nanwen's Sword is an item",
-"l"
+"Nanwen's Sword is an item in .",
+"h"
 ],
 "4": [
 "weapon",
 "Namira's Itch",
 1,
-"is a Falmer War Axe",
-"h"
-],
-"6": [
-"armor",
-"Netch Leather Boots",
-1,
-"are a type of Netch Leather Armor",
-"h"
-],
-"7": [
-"armor",
-"Netch Leather Cuirass",
-1,
-"is a type of Netch Leather Armor",
-"h"
-],
-"8": [
-"armor",
-"Netch Leather Greaves",
-1,
-"is a type of Netch Leather Armor",
-"h"
-],
-"9": [
-"armor",
-"Netch Leather Helm",
-1,
-"is a type of netch leather armor",
-"h"
-],
-"10": [
-"armor",
-"Netch Leather Left Gauntlet",
-1,
-"is a type of Netch Leather Armor",
-"h"
-],
-"11": [
-"armor",
-"Netch Leather Right Gauntlet",
-1,
-"is a piece of the Netch Leather Armor set",
-"h"
-],
-"12": [
-"armor",
-"Netch Leather Armor",
-1,
-"is a type of Light Armor",
-"h"
-],
-"13": [
-"armor",
-"Netch Leather Left Pauldron",
-1,
-"is a type of Netch Leather Armor",
-"h"
-],
-"14": [
-"armor",
-"Netch Leather Right Pauldron",
-1,
-"is a type of Netch Leather Armor",
-"h"
-],
-"15": [
-"armor",
-"Netch Leather Shield",
-1,
-"is a type of Netch Leather Armor",
-"h"
-],
-"16": [
-"armor",
-"Netch Leather Tower Shield",
-1,
-"is a piece of light armor",
+"Namira's Itch is a Falmer War Axe in /, that is a part of the Alternative Armors – Dragon Plate Creation Club addon.",
 "h"
 ],
 "17": [
 "weapon",
 "Necromantic Staff",
 1,
-"is an unobtainable staff",
-"m"
+"Necromantic Staff is an unobtainable staff in  that has no effects.",
+"h"
 ],
 "20": [
 "weapon",
 "Nelrene's Ceremonial Shortsword",
 1,
-"is a unique item owned by the Dark Seducer Nelrene",
-"m"
+"Nelrene's Ceremonial Shortsword is a unique item owned by the Dark Seducer Nelrene.",
+"h"
 ],
 "21": [
 "weapon",
 "Neramo's Staff",
 1,
-"is a Two Handed staff",
-"h"
-],
-"24": [
-"armor",
-"Necropotence",
-1,
-"is a light armor overland item set",
-"m"
-],
-"26": [
-"armor",
-"Netch's Touch",
-1,
-"It is a Light Armor Item set",
-"m"
-],
-"29": [
-"armor",
-"Netch Leather Bracers",
-1,
-"is a piece of armor",
-"h"
-],
-"30": [
-"armor",
-"Netch Leather Helmet",
-1,
-"is a piece of armor",
-"h"
-],
-"32": [
-"armor",
-"Nightingale Armor",
-1,
-"is a unique light armor set",
+"Neramo's Staff is a Two Handed staff that the Vestige receives as a reward for completing the quest \"Buried Secrets.\"",
 "h"
 ],
 "33": [
 "weapon",
 "Nightingale Blade",
 1,
-"is a leveled, unique, one-handed weapon",
+"The Nightingale Blade is a leveled, unique, one-handed weapon that appears in .",
 "h"
-],
-"35": [
-"armor",
-"Nightingale Boots",
-1,
-"are a piece of unique light armor",
-"h"
-],
-"36": [
-"armor",
-"Nightingale Hood",
-1,
-"is a piece of unique light armor",
-"h"
-],
-"37": [
-"armor",
-"Nightingale Gloves",
-1,
-"is a piece of unique light armor",
-"h"
-],
-"40": [
-"armor",
-"Nikulas' Heavy Armor",
-1,
-"It is a Heavy Armor set",
-"m"
 ],
 "43": [
 "weapon",
 "Nord Hero Sword",
 1,
-"is an improved Ancient Nord Sword",
-"h"
-],
-"44": [
-"armor",
-"Nordic Fur Boots",
-1,
-"light armor and part of the Nordic Fur Armor set",
-"h"
-],
-"45": [
-"armor",
-"Nordic Fur Greaves",
-1,
-"light armor and part of the Nordic Fur Armor set",
-"h"
-],
-"46": [
-"armor",
-"Nordic Fur Helm",
-1,
-"light armor and part of the Nordic Fur Armor set",
-"h"
-],
-"49": [
-"armor",
-"Nordic Fur Left Bracer",
-1,
-"light armor and part of the Nordic Fur Armor set",
-"h"
-],
-"51": [
-"armor",
-"Nordic Fur Right Bracer",
-1,
-"light armor and part of the Nordic Fur Armor set",
-"h"
-],
-"48": [
-"armor",
-"Nordic Fur Cuirass",
-1,
-"is a piece of light armor",
-"h"
-],
-"47": [
-"armor",
-"Nordic Trollbone Helm",
-1,
-"is an armor type",
-"h"
-],
-"50": [
-"armor",
-"Nordic Fur Left Gauntlet",
-1,
-"is a piece of the Nordic fur light armor set",
-"h"
-],
-"52": [
-"armor",
-"Nordic Iron Cuirass",
-1,
-"is a Heavy Armor type",
-"h"
-],
-"53": [
-"armor",
-"Nordic Fur Left Pauldron",
-1,
-"is a piece of the Nordic fur light armor set",
-"h"
-],
-"54": [
-"armor",
-"Nordic Fur Right Gauntlet",
-1,
-"is a piece of the Nordic fur light armor set",
-"h"
-],
-"55": [
-"armor",
-"Nordic Fur Right Pauldron",
-1,
-"is a piece of the Nordic fur light armor set",
+"The Nord Hero Sword is an improved Ancient Nord Sword found in .",
 "h"
 ],
 "56": [
 "weapon",
 "Nord Hero Bow",
 1,
-"is an improved Ancient Nord Bow",
+"The Nord Hero Bow is an improved Ancient Nord Bow found in .",
 "h"
 ],
 "57": [
 "weapon",
 "Nord Hero War Axe",
 1,
-"is an improved Ancient Nord War Axe",
-"h"
-],
-"58": [
-"armor",
-"Nordic Fur Armor",
-1,
-"is a type of light armor",
+"The Nord Hero War Axe is an improved Ancient Nord War Axe found in .",
 "h"
 ],
 "59": [
 "weapon",
 "Nord Hero Battle Axe",
 1,
-"is an improved Ancient Nord Battle Axe",
-"h"
-],
-"60": [
-"armor",
-"Nordic Carved Armor",
-1,
-"is a set of heavy armor",
-"h"
-],
-"61": [
-"armor",
-"Nordic Carved Boots",
-1,
-"is a piece of heavy armor",
-"h"
-],
-"62": [
-"armor",
-"Nordic Carved Gauntlets",
-1,
-"are a piece of heavy armor",
-"h"
-],
-"63": [
-"armor",
-"Nordic Carved Armor",
-1,
-"is a piece of heavy armor",
-"h"
-],
-"64": [
-"armor",
-"Nordic Shield",
-1,
-"is a heavy armor shield",
+"The Nord Hero Battle Axe is an improved Ancient Nord Battle Axe found in .",
 "h"
 ],
 "66": [
 "weapon",
 "Nordic War Axe",
 1,
-"is a weapon obtainable",
+"A Nordic War Axe is a weapon obtainable in .",
 "h"
 ],
 "67": [
 "weapon",
 "Nordic Axe of Paralysis",
 1,
-"is a unique one-handed silver weapon",
+"Nordic Axe of Paralysis is a unique one-handed silver weapon.",
 "h"
 ],
 "68": [
 "weapon",
 "Nordic Silver Dagger",
 1,
-"is a common one-handed silver weapon",
+"Nordic Silver Dagger is a common one-handed silver weapon that can be found throughout Solstheim.",
 "h"
 ],
 "69": [
 "weapon",
 "Nordic Silver Axe",
 1,
-"is a common one-handed silver weapon",
+"Nordic Silver Axe is a common one-handed silver weapon in  that can be found throughout Solstheim.",
 "h"
 ],
 "70": [
 "weapon",
 "Nordic Silver Longsword",
 1,
-"is a one-handed silver weapon",
+"Nordic Silver Longsword is a one-handed silver weapon in  that can be found throughout Solstheim.",
 "h"
 ],
 "71": [
 "weapon",
 "Nordic Silver Mace",
 1,
-"is a common one-handed silver weapon",
+"Nordic Silver Mace is a common one-handed silver weapon in  that can be found throughout Solstheim.",
 "h"
 ],
 "72": [
 "weapon",
 "Nordic Silver Shortsword",
 1,
-"is a common one-handed silver weapon",
+"Nordic Silver Shortsword is a common one-handed silver weapon in  that can be found throughout Solstheim.",
 "h"
 ],
 "73": [
 "weapon",
 "Nordic Silver Battleaxe",
 1,
-"is a common two-handed silver weapon",
+"Nordic Silver Battleaxe is a common two-handed silver weapon in  that can be found throughout Solstheim.",
 "h"
 ],
 "74": [
 "weapon",
 "Nordic Silver Claymore",
 1,
-"is a common two-handed silver weapon",
+"Nordic Silver Claymore is a common two-handed silver weapon in  that can be found throughout Solstheim.",
 "h"
-],
-"75": [
-"armor",
-"Nordic Mail Helmet",
-1,
-"is a piece of the Nordic Mail armor set",
-"h"
-],
-"76": [
-"armor",
-"Nordic Mail Armor",
-1,
-"is an armor set",
-"h"
-],
-"79": [
-"armor",
-"Nordic Mail Boots",
-1,
-"is a piece of the Nordic Mail armor set",
-"h"
-],
-"80": [
-"armor",
-"Nordic Mail Cuirass",
-1,
-"is a piece of the Nordic Mail armor set",
-"h"
-],
-"81": [
-"armor",
-"Nordic Mail Greaves",
-1,
-"is a piece of the Nordic Mail armor set",
-"h"
-],
-"82": [
-"armor",
-"Nordic Mail Left Gauntlet",
-1,
-"is a piece of the Nordic Mail armor set",
-"h"
-],
-"83": [
-"armor",
-"Nordic Mail Left Pauldron",
-1,
-"is a piece of the Nordic Mail armor set",
-"h"
-],
-"84": [
-"armor",
-"Nordic Mail Right Pauldron",
-1,
-"is a piece of the Nordic Mail armor set",
-"h"
-],
-"85": [
-"armor",
-"Nordic Mail Right Gauntlet",
-1,
-"is a piece of the Nordic Mail armor set",
-"h"
-],
-"87": [
-"armor",
-"Noble Duelist's Silks",
-1,
-"It is a Light Armor Item set",
-"m"
 ],
 "88": [
 "weapon",
 "Northwind",
 1,
-"is a leveled enchanted Ancient Akaviri Katana",
-"h"
-],
-"89": [
-"armor",
-"Noster's Helmet",
-1,
-"is a light armor item",
-"h"
-],
-"92": [
-"vehicle",
-"Northern Maiden",
-1,
-"is a ship found at the docks of Windhelm",
+"Northwind is a leveled enchanted Ancient Akaviri Katana that can be found in Sancre Tor wielded by the Ghost of Alain.",
 "h"
 ],
 "98": [
 "weapon",
 "Odd Dwemer Weapon",
 1,
-"is a one-handed longblade",
-"h"
-],
-"100": [
-"armor",
-"Odei's Stylish Epauliers",
-1,
-"is a light armor shoulder equipment",
-"h"
-],
-"103": [
-"armor",
-"Oblivion's Edge",
-1,
-"It is a Medium Armor Item set",
-"m"
-],
-"105": [
-"armor",
-"Oak Shield",
-1,
-"is a type of shield",
+"Odd Dwemer Weapon is a one-handed longblade, and a piece of the Dwemer artifact, Trueflame.",
 "h"
 ],
 "106": [
 "weapon",
 "Oak Destruction Staff",
 1,
-"is a two handed destruction staff",
+"The Oak Destruction Staff is a two handed destruction staff that appears in .",
 "h"
 ],
 "107": [
 "weapon",
 "Oak Restoration Staff",
 1,
-"is a two handed restoration staff",
+"The Oak Restoration Staff is a two handed restoration staff that appears in .",
 "h"
 ],
 "108": [
 "weapon",
 "Oak Bow",
 1,
-"is a two handed bow",
+"The Oak Bow is a two handed bow that appears in .",
 "h"
 ],
 "109": [
 "weapon",
 "Ogre's Axe",
 1,
-"is a weapon in",
-"h"
-],
-"116": [
-"vehicle",
-"Omenwedur",
-1,
-"It is a small open boat",
+"Ogre's Axe is a weapon in .",
 "h"
 ],
 "119": [
 "weapon",
 "Order Blade",
 1,
-"is the signature weapon of the Knights of Order",
-"h"
-],
-"120": [
-"armor",
-"Orcish Helmet",
-1,
-"is a piece of heavy armor",
-"h"
-],
-"121": [
-"armor",
-"Orcish Armor",
-1,
-"is a piece of heavy armor",
-"h"
-],
-"122": [
-"armor",
-"Orcish Gauntlets",
-1,
-"are a piece of heavy armor",
-"h"
-],
-"123": [
-"armor",
-"Orcish Shield",
-1,
-"is a piece of heavy armor",
-"h"
-],
-"124": [
-"armor",
-"Orcish Greaves",
-1,
-"are a type of medium armor",
-"h"
-],
-"125": [
-"armor",
-"Orcish Left Bracer",
-1,
-"is a piece of medium armor",
-"h"
-],
-"126": [
-"armor",
-"Ordinator Rerebrace",
-1,
-"is a piece of Medium Armor",
+"The Order Blade is the signature weapon of the Knights of Order on the Shivering Isles.",
 "h"
 ],
 "131": [
 "weapon",
 "Orcish Hand Axe",
 1,
-"are weapons found in",
+"Orcish Hand Axes are weapons found in .",
 "h"
 ],
 "132": [
 "weapon",
 "Orcish Light Hammer",
 1,
-"are weapons found in",
+"Orcish Light Hammers are weapons found in .",
 "h"
-],
-"133": [
-"armor",
-"Orcish Plate Helmet",
-1,
-"is an armor piece found in",
-"h"
-],
-"134": [
-"armor",
-"Orcish Scaled Helmet",
-1,
-"is an armor piece found in",
-"h"
-],
-"135": [
-"armor",
-"Orcish Scaled Boots",
-1,
-"is an armor piece found in",
-"h"
-],
-"136": [
-"armor",
-"Orcish Plate Boots",
-1,
-"is an armor piece found in",
-"h"
-],
-"137": [
-"armor",
-"Orcish Scaled Gauntlets",
-1,
-"is an armor piece found in",
-"h"
-],
-"138": [
-"armor",
-"Orcish Plate Gauntlets",
-1,
-"is an armor piece found in",
-"h"
-],
-"139": [
-"armor",
-"Orcish Scaled Armor",
-1,
-"is an armor piece found in",
-"h"
-],
-"140": [
-"armor",
-"Orcish Plate Armor",
-1,
-"is an armor piece found in",
-"h"
-],
-"141": [
-"armor",
-"Orcish Scaled Shield",
-1,
-"is a shield found in",
-"h"
-],
-"142": [
-"armor",
-"Ordinator Shield",
-1,
-"is a heavy shield",
-"h"
-],
-"145": [
-"armor",
-"Orichalc Armor",
-1,
-"is a type of Heavy Armor",
-"h"
-],
-"150": [
-"armor",
-"Overwhelming Surge",
-1,
-"It is a Light Armor Item set",
-"m"
 ],
 "156": [
 "weapon",
 "Pactbreaker",
 1,
-"is a Two Handed axe",
-"h"
-],
-"157": [
-"armor",
-"Paladin's Mail",
-1,
-"is a unique, legendary, divine Steel Armor",
-"h"
-],
-"158": [
-"armor",
-"Painted Netch Leather Armor",
-1,
-"is a set of armor",
-"h"
-],
-"159": [
-"armor",
-"Painted Netch Leather Boots",
-1,
-"is a piece of armor",
-"h"
-],
-"160": [
-"armor",
-"Painted Netch Leather Bracers",
-1,
-"is a piece of armor",
-"h"
-],
-"161": [
-"armor",
-"Painted Netch Leather Helmet",
-1,
-"is a piece of armor",
+"Pactbreaker is a Two Handed axe that is found in .",
 "h"
 ],
 "163": [
 "weapon",
 "Perdition's Wrath",
 1,
-"It is an enchanted dwarven battle axe",
-"h"
-],
-"164": [
-"armor",
-"Penitus Oculatus Armor",
-1,
-"is a light armor set",
+"Perdition's Wrath is a weapon in .",
 "h"
 ],
 "165": [
 "weapon",
 "Peacemaker",
 1,
-"is a generic staff",
-"h"
-],
-"166": [
-"armor",
-"Penitus Oculatus Helmet",
-1,
-"is a piece of light armor",
-"h"
-],
-"167": [
-"armor",
-"Penitus Oculatus Boots",
-1,
-"are a piece of light armor",
-"h"
-],
-"168": [
-"armor",
-"Penitus Oculatus Bracers",
-1,
-"are a piece of light armor",
+"Peacemaker is a generic staff that is enchanted to inflict paralysis, rendering an adversary unable to move or perform most actions for ten seconds.",
 "h"
 ],
 "169": [
 "weapon",
 "Penumbric Dagger",
 1,
-"is a weapon found in",
-"h"
-],
-"170": [
-"armor",
-"Pauldrons of the Holdfast",
-1,
-"are a piece of armor",
+"Penumbric Dagger is a weapon found in .",
 "h"
 ],
 "173": [
 "weapon",
 "Patriot's Mace",
 1,
-"is a mace found in",
+"Patriot's Mace is a mace found in .",
 "h"
-],
-"174": [
-"armor",
-"Pauldrons",
-1,
-"are an armor piece",
-"m"
 ],
 "179": [
 "weapon",
 "Phantom Sword",
 1,
-"is a weapon obtained through console commands",
+"Phantom Sword is a weapon obtained through console commands in the PC version of .",
 "h"
 ],
 "184": [
 "weapon",
 "Plaguetender's Staff",
 1,
-"is a healing staff",
-"h"
-],
-"185": [
-"armor",
-"Plague Doctor",
-1,
-"is a heavy armor item set",
-"m"
-],
-"186": [
-"armor",
-"Phoenix",
-1,
-"Pieces are Light Armor in the Alliance styles",
-"m"
-],
-"188": [
-"armor",
-"Pit Helmet",
-1,
-"is an unobtainable leather helmet",
-"h"
-],
-"189": [
-"armor",
-"Pit Armor",
-1,
-"is an unobtainable light armor set",
+"Plaguetender's Staff is a healing staff in  rewarded to the Vestige for completing the quest \"The First Patient.\"",
 "h"
 ],
 "190": [
 "weapon",
 "Pincer of the Guardian",
 1,
-"is a sword found in",
+"Pincer of the Guardian is a sword found in .",
 "h"
-],
-"191": [
-"armor",
-"Plate Armor",
-1,
-"is one of the three types of armor",
-"m"
-],
-"192": [
-"armor",
-"Pillar of Nirn",
-1,
-"It is a Medium Armor set",
-"m"
-],
-"193": [
-"armor",
-"Plague Slinger",
-1,
-"It is a Medium Armor set",
-"m"
 ],
 "198": [
 "weapon",
 "Poacher's Axe",
 1,
-"is a unique woodcutter's axe",
+"The Poacher's Axe is a unique woodcutter's axe available in .",
 "h"
 ],
-"199": [
-"weapon",
-"Practice Arrow",
-1,
-"is a type of arrow that does no damage at all",
-"l"
-],
-"203": [
+"6": [
 "armor",
-"Poisonous Serpent",
+"Netch Leather Boots",
 1,
-"It is a Medium Armor Celestial Style set",
-"m"
+"Netch Leather Boots are a type of Netch Leather Armor.",
+"h"
 ],
-"204": [
+"7": [
 "armor",
-"Prayer Shawl",
+"Netch Leather Cuirass",
 1,
-"It is a Light Armor set",
-"m"
+"The Netch Leather Cuirass is a type of Netch Leather Armor found in .",
+"h"
 ],
-"205": [
+"8": [
 "armor",
-"Powerful Assault",
+"Netch Leather Greaves",
 1,
-"Pieces are Medium Armor in the Alliance styles",
-"m"
+"Netch Leather Greaves is a type of Netch Leather Armor found in .",
+"h"
+],
+"9": [
+"armor",
+"Netch Leather Helm",
+1,
+"Netch Leather Helm is a type of netch leather armor found in .",
+"h"
+],
+"10": [
+"armor",
+"Netch Leather Left Gauntlet",
+1,
+"Netch Leather Left Gauntlet is a type of Netch Leather Armor found in .",
+"h"
+],
+"11": [
+"armor",
+"Netch Leather Right Gauntlet",
+1,
+"Netch Leather Right Gauntlet is a gauntlet in , and is a piece of the Netch Leather Armor set.",
+"h"
+],
+"12": [
+"armor",
+"Netch Leather Armor",
+1,
+"Netch Leather Armor is a type of Light Armor in .",
+"h"
+],
+"13": [
+"armor",
+"Netch Leather Left Pauldron",
+1,
+"Netch Leather Left Pauldron is a type of Netch Leather Armor found in .",
+"h"
+],
+"14": [
+"armor",
+"Netch Leather Right Pauldron",
+1,
+"Netch Leather Right Pauldron is a type of Netch Leather Armor found in .",
+"h"
+],
+"15": [
+"armor",
+"Netch Leather Shield",
+1,
+"Netch Leather Shield is a type of Netch Leather Armor found in .",
+"h"
+],
+"16": [
+"armor",
+"Netch Leather Tower Shield",
+1,
+"Netch Leather Tower Shield is a piece of light armor and part of the Netch Leather Armor set.",
+"h"
+],
+"29": [
+"armor",
+"Netch Leather Bracers",
+1,
+"Netch Leather Bracers is a piece of armor in  that is a part of the Netch Leather Armor Creation Club content.",
+"h"
+],
+"30": [
+"armor",
+"Netch Leather Helmet",
+1,
+"Netch Leather Helmet is a piece of armor in  that is a part of the Netch Leather Armor Creation Club content.",
+"h"
+],
+"32": [
+"armor",
+"Nightingale Armor",
+1,
+"The Nightingale Armor is a unique light armor set that appears in .",
+"h"
+],
+"35": [
+"armor",
+"Nightingale Boots",
+1,
+"Nightingale Boots are a piece of unique light armor and part of the Nightingale Armor set found in .",
+"h"
+],
+"36": [
+"armor",
+"Nightingale Hood",
+1,
+"Nightingale Hood is a piece of unique light armor and part of the Nightingale Armor set found in .",
+"h"
+],
+"37": [
+"armor",
+"Nightingale Gloves",
+1,
+"Nightingale Gloves is a piece of unique light armor and part of the Nightingale Armor set found in .",
+"h"
+],
+"44": [
+"armor",
+"Nordic Fur Boots",
+1,
+"The Nordic Fur Boots is a piece of light armor and part of the Nordic Fur Armor set.",
+"h"
+],
+"45": [
+"armor",
+"Nordic Fur Greaves",
+1,
+"Nordic Fur Greaves are a piece of light armor and part of the Nordic Fur Armor set.",
+"h"
+],
+"46": [
+"armor",
+"Nordic Fur Helm",
+1,
+"The Nordic Fur Helm is a piece of light armor and part of the Nordic Fur Armor set.",
+"h"
+],
+"47": [
+"armor",
+"Nordic Trollbone Helm",
+1,
+"Nordic Trollbone Helm is an armor type in .",
+"h"
+],
+"48": [
+"armor",
+"Nordic Fur Cuirass",
+1,
+"The Nordic Fur Cuirass is a piece of light armor in , and part of the Nordic Fur Armor set.",
+"h"
+],
+"49": [
+"armor",
+"Nordic Fur Left Bracer",
+1,
+"Nordic Fur Left Bracer is a piece of light armor and part of the Nordic Fur Armor set.",
+"h"
+],
+"50": [
+"armor",
+"Nordic Fur Left Gauntlet",
+1,
+"The Nordic Fur Left Gauntlet is a piece of the Nordic fur light armor set in .",
+"h"
+],
+"51": [
+"armor",
+"Nordic Fur Right Bracer",
+1,
+"Nordic Fur Right Bracer is a piece of light armor and part of the Nordic Fur Armor set.",
+"h"
+],
+"52": [
+"armor",
+"Nordic Iron Cuirass",
+1,
+"Nordic Iron Cuirass is a Heavy Armor type and part of the Nordic Armor Set in .",
+"h"
+],
+"53": [
+"armor",
+"Nordic Fur Left Pauldron",
+1,
+"The Nordic Fur Left Pauldron is a piece of the Nordic fur light armor set in .",
+"h"
+],
+"54": [
+"armor",
+"Nordic Fur Right Gauntlet",
+1,
+"The Nordic Fur Right Gauntlet is a piece of the Nordic fur light armor set in .",
+"h"
+],
+"55": [
+"armor",
+"Nordic Fur Right Pauldron",
+1,
+"The Nordic Fur Right Pauldron is a piece of the Nordic fur light armor set in .",
+"h"
+],
+"58": [
+"armor",
+"Nordic Fur Armor",
+1,
+"Nordic Fur Armor is a type of light armor found in .",
+"h"
+],
+"60": [
+"armor",
+"Nordic Carved Armor",
+1,
+"Nordic Carved Armor is a set of heavy armor in  with a base armor rating slightly lower than that of Orcish armor, but it is lighter.",
+"h"
+],
+"61": [
+"armor",
+"Nordic Carved Boots",
+1,
+"Nordic Carved Boots is a piece of heavy armor and part of the Nordic carved armor set found in .",
+"h"
+],
+"62": [
+"armor",
+"Nordic Carved Gauntlets",
+1,
+"Nordic Carved Gauntlets are a piece of heavy armor and part of the Nordic carved armor set found in .",
+"h"
+],
+"63": [
+"armor",
+"Nordic Carved Armor",
+1,
+"Nordic Carved Armor is a piece of heavy armor and part of the Nordic carved armor set found in .",
+"h"
+],
+"64": [
+"armor",
+"Nordic Shield",
+1,
+"The Nordic Shield is a heavy armor shield and part of the Nordic carved armor set found in .",
+"h"
+],
+"75": [
+"armor",
+"Nordic Mail Helmet",
+1,
+"Nordic Mail Helmet is a piece of the Nordic Mail armor set in .",
+"h"
+],
+"76": [
+"armor",
+"Nordic Mail Armor",
+1,
+"Nordic Mail Armor is an armor set in .",
+"h"
+],
+"79": [
+"armor",
+"Nordic Mail Boots",
+1,
+"Nordic Mail Boots is a piece of the Nordic Mail armor set in .",
+"h"
+],
+"80": [
+"armor",
+"Nordic Mail Cuirass",
+1,
+"Nordic Mail Cuirass is a piece of the Nordic Mail armor set in .",
+"h"
+],
+"81": [
+"armor",
+"Nordic Mail Greaves",
+1,
+"Nordic Mail Greaves is a piece of the Nordic Mail armor set in .",
+"h"
+],
+"82": [
+"armor",
+"Nordic Mail Left Gauntlet",
+1,
+"Nordic Mail Left Gauntlet is a piece of the Nordic Mail armor set in .",
+"h"
+],
+"83": [
+"armor",
+"Nordic Mail Left Pauldron",
+1,
+"Nordic Mail Left Pauldron is a piece of the Nordic Mail armor set in .",
+"h"
+],
+"84": [
+"armor",
+"Nordic Mail Right Pauldron",
+1,
+"Nordic Mail Right Pauldron is a piece of the Nordic Mail armor set in .",
+"h"
+],
+"85": [
+"armor",
+"Nordic Mail Right Gauntlet",
+1,
+"Nordic Mail Right Gauntlet is a piece of the Nordic Mail armor set in .",
+"h"
+],
+"89": [
+"armor",
+"Noster's Helmet",
+1,
+"Noster's Helmet is a light armor item in .",
+"h"
+],
+"100": [
+"armor",
+"Odei's Stylish Epauliers",
+1,
+"Odei's Stylish Epauliers is a light armor shoulder equipment received after completing the quest \"Garments by Odei.\"",
+"h"
+],
+"105": [
+"armor",
+"Oak Shield",
+1,
+"The Oak Shield is a type of shield that appears in .",
+"h"
+],
+"120": [
+"armor",
+"Orcish Helmet",
+1,
+"The Orcish Helmet is a piece of heavy armor and part of the Orcish Armor set found in .",
+"h"
+],
+"121": [
+"armor",
+"Orcish Armor",
+1,
+"Orcish Armor is a piece of heavy armor and part of the Orcish Armor set found in .",
+"h"
+],
+"122": [
+"armor",
+"Orcish Gauntlets",
+1,
+"Orcish Gauntlets are a piece of heavy armor and part of the Orcish armor set found in .",
+"h"
+],
+"123": [
+"armor",
+"Orcish Shield",
+1,
+"An Orcish Shield is a piece of heavy armor and part of the Orcish Armor set.",
+"h"
+],
+"124": [
+"armor",
+"Orcish Greaves",
+1,
+"Orcish Greaves are a type of medium armor and part of the Orcish armor set in .",
+"h"
+],
+"125": [
+"armor",
+"Orcish Left Bracer",
+1,
+"Orcish Left Bracer is a piece of medium armor and part of the Orcish armor set in .",
+"h"
+],
+"126": [
+"armor",
+"Ordinator Rerebrace",
+1,
+"Ordinator Rerebrace is a piece of Medium Armor in .",
+"h"
+],
+"133": [
+"armor",
+"Orcish Plate Helmet",
+1,
+"Orcish Plate Helmet is an armor piece found in .",
+"h"
+],
+"134": [
+"armor",
+"Orcish Scaled Helmet",
+1,
+"Orcish Scaled Helmet is an armor piece found in .",
+"h"
+],
+"135": [
+"armor",
+"Orcish Scaled Boots",
+1,
+"Orcish Scaled Boots is an armor piece found in .",
+"h"
+],
+"136": [
+"armor",
+"Orcish Plate Boots",
+1,
+"Orcish Plate Boots is an armor piece found in .",
+"h"
+],
+"137": [
+"armor",
+"Orcish Scaled Gauntlets",
+1,
+"Orcish Scaled Gauntlets is an armor piece found in .",
+"h"
+],
+"138": [
+"armor",
+"Orcish Plate Gauntlets",
+1,
+"Orcish Plate Gauntlets is an armor piece found in .",
+"h"
+],
+"139": [
+"armor",
+"Orcish Scaled Armor",
+1,
+"Orcish Scaled Armor is an armor piece found in .",
+"h"
+],
+"140": [
+"armor",
+"Orcish Plate Armor",
+1,
+"Orcish Plate Armor is an armor piece found in .",
+"h"
+],
+"141": [
+"armor",
+"Orcish Scaled Shield",
+1,
+"Orcish Scaled Shield is a shield found in .",
+"h"
+],
+"142": [
+"armor",
+"Ordinator Shield",
+1,
+"Ordinator Shield is a heavy shield in  that is part of the Ghosts of the Tribunal Creation Club content.",
+"h"
+],
+"145": [
+"armor",
+"Orichalc Armor",
+1,
+"Orichalc Armor is a type of Heavy Armor.",
+"h"
+],
+"157": [
+"armor",
+"Paladin's Mail",
+1,
+"Paladin's Mail is a unique, legendary, divine Steel Armor in .",
+"h"
+],
+"158": [
+"armor",
+"Painted Netch Leather Armor",
+1,
+"Painted Netch Leather Armor is a set of armor in  that is a part of the Netch Leather Armor Creation Club content.",
+"h"
+],
+"159": [
+"armor",
+"Painted Netch Leather Boots",
+1,
+"Painted Netch Leather Boots is a piece of armor in  that is a part of the Netch Leather Armor Creation Club content.",
+"h"
+],
+"160": [
+"armor",
+"Painted Netch Leather Bracers",
+1,
+"Painted Netch Leather Bracers is a piece of armor in  that is a part of the Netch Leather Armor Creation Club content.",
+"h"
+],
+"161": [
+"armor",
+"Painted Netch Leather Helmet",
+1,
+"Painted Netch Leather Helmet is a piece of armor in  that is a part of the Netch Leather Armor Creation Club content.",
+"h"
+],
+"164": [
+"armor",
+"Penitus Oculatus Armor",
+1,
+"The Penitus Oculatus Armor is a light armor set in  and is worn only by the Penitus Oculatus.",
+"h"
+],
+"166": [
+"armor",
+"Penitus Oculatus Helmet",
+1,
+"The Penitus Oculatus Helmet is a piece of light armor and part of the Penitus Oculatus Armor set.",
+"h"
+],
+"167": [
+"armor",
+"Penitus Oculatus Boots",
+1,
+"Penitus Oculatus Boots are a piece of light armor and part of the Penitus Oculatus Armor set found in .",
+"h"
+],
+"168": [
+"armor",
+"Penitus Oculatus Bracers",
+1,
+"Penitus Oculatus Bracers are a piece of light armor and part of the Penitus Oculatus Armor set found in .",
+"h"
+],
+"170": [
+"armor",
+"Pauldrons of the Holdfast",
+1,
+"The Pauldrons of the Holdfast are a piece of armor found in .",
+"h"
+],
+"188": [
+"armor",
+"Pit Helmet",
+1,
+"The Pit Helmet is an unobtainable leather helmet in .",
+"h"
+],
+"189": [
+"armor",
+"Pit Armor",
+1,
+"Pit Armor is an unobtainable light armor set in .",
+"h"
+],
+"92": [
+"vehicle",
+"Northern Maiden",
+1,
+"The Northern Maiden is a ship found at the docks of Windhelm, captained by Gjalund Salt-Sage.",
+"h"
+],
+"116": [
+"vehicle",
+"Omenwedur",
+1,
+"Omenwedur is a ship in .",
+"h"
 ]
 },
 "x": {
+"25": [
+"necrotic swarm"
+],
 "91": [
 "ancestor guardian",
 "resist fire"
-],
-"67": [
-"paralysis on strike"
-],
-"165": [
-"paralysis on strike"
 ]
 },
 "z": {},

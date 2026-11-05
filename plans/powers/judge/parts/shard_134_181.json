@@ -1,0 +1,397 @@
+{
+"d": 0,
+"b1": [],
+"n": {},
+"p": {},
+"W": {
+"182": [
+"weapon",
+"Staff of the Storm Atronach",
+1,
+"is a weapon found in",
+"m"
+],
+"187": [
+"vehicle",
+"Spring",
+1,
+"Spring is a Ship found in",
+"m"
+],
+"189": [
+"armor",
+"Stalhrim Armor",
+1,
+"is a set of heavy and light armor",
+"m"
+],
+"191": [
+"armor",
+"Stalhrim Shield",
+1,
+"is a light armor shield",
+"m"
+],
+"192": [
+"armor",
+"Stalhrim Boots",
+1,
+"are a piece of heavy armor",
+"m"
+],
+"193": [
+"armor",
+"Stalhrim Gauntlets",
+1,
+"are a piece of heavy armor",
+"m"
+],
+"194": [
+"armor",
+"Stalhrim Helm",
+1,
+"is a piece of heavy armor",
+"m"
+],
+"195": [
+"armor",
+"Stalhrim Light Armor",
+1,
+"is a piece of light armor",
+"m"
+],
+"196": [
+"armor",
+"Stalhrim Light Boots",
+1,
+"are a piece of light armor",
+"m"
+],
+"197": [
+"armor",
+"Stalhrim Light Bracers",
+1,
+"are a piece of light armor",
+"m"
+],
+"198": [
+"armor",
+"Stalhrim Light Helmet",
+1,
+"is a piece of light armor",
+"m"
+],
+"199": [
+"weapon",
+"Stalhrim Sword",
+1,
+"is a weapon found in",
+"m"
+],
+"200": [
+"armor",
+"Spriggan Shield",
+1,
+"is a shield in",
+"m"
+],
+"201": [
+"weapon",
+"Staff of Carnal Channeling",
+1,
+"is a unique two-handed weapon",
+"m"
+],
+"202": [
+"weapon",
+"Spite Dart",
+1,
+"is a poisoned throwing weapon",
+"m"
+],
+"203": [
+"weapon",
+"Spring Dart",
+1,
+"is a throwing weapon",
+"m"
+],
+"206": [
+"weapon",
+"Spire Thief Bludgeon",
+1,
+"is a weapon found in",
+"m"
+],
+"207": [
+"weapon",
+"Spire Thief Longbow",
+1,
+"is a weapon found in",
+"m"
+],
+"208": [
+"armor",
+"Star Coif",
+1,
+"is a piece of light armor",
+"m"
+],
+"209": [
+"armor",
+"Spire Thief Boots",
+1,
+"are a piece of light armor",
+"m"
+],
+"211": [
+"armor",
+"Spriggan's Thorns",
+1,
+"medium armor set",
+"m"
+],
+"213": [
+"weapon",
+"StarCarin Axe",
+1,
+"It has a weapon value of 40",
+"m"
+],
+"215": [
+"armor",
+"Stalhrim Helmet",
+1,
+"is an armor piece found in",
+"m"
+],
+"216": [
+"armor",
+"Staada's Helmet",
+1,
+"is a piece of armor in",
+"m"
+],
+"217": [
+"armor",
+"Stalhrim Fur Armor",
+1,
+"is a set of light armor",
+"m"
+],
+"219": [
+"weapon",
+"Staff of Ehlno Ede",
+1,
+"is a weapon in",
+"m"
+],
+"220": [
+"weapon",
+"Steel Battleaxe",
+1,
+"is a two-handed weapon found in",
+"m"
+],
+"222": [
+"armor",
+"Steel Helmet",
+1,
+"a piece of heavy armor",
+"m"
+],
+"223": [
+"armor",
+"Steel Shield",
+1,
+"is a piece of heavy armor",
+"m"
+],
+"225": [
+"armor",
+"Steel Plate Helmet",
+1,
+"is a piece of heavy armor",
+"m"
+],
+"226": [
+"weapon",
+"Steel Dagger",
+1,
+"is a one-handed weapon found in",
+"m"
+],
+"227": [
+"armor",
+"Steel Cuffed Boots",
+1,
+"are a piece of heavy armor",
+"m"
+],
+"228": [
+"armor",
+"Steel Shin Boots",
+1,
+"are a piece of heavy armor",
+"m"
+],
+"229": [
+"armor",
+"Steel Helmet",
+1,
+"a piece of heavy armor",
+"m"
+],
+"230": [
+"armor",
+"Steel Nordic Gauntlets",
+1,
+"are a piece of heavy armor",
+"m"
+],
+"231": [
+"armor",
+"Steel Imperial Gauntlets",
+1,
+"are a piece of heavy armor",
+"m"
+],
+"232": [
+"armor",
+"Steel Plate Gauntlets",
+1,
+"are a piece of heavy armor",
+"m"
+],
+"233": [
+"armor",
+"Steel Plate Boots",
+1,
+"are a piece of heavy armor",
+"m"
+],
+"234": [
+"armor",
+"Steel Greaves",
+1,
+"are a type of Heavy Armor",
+"m"
+],
+"235": [
+"armor",
+"Steel Left Pauldron",
+1,
+"is a pauldron an part of the steel armor set",
+"m"
+],
+"236": [
+"armor",
+"Steel Right Pauldron",
+1,
+"is a piece of heavy armor",
+"m"
+],
+"237": [
+"weapon",
+"Steel Sparkaxe",
+1,
+"is a weapon found on the island",
+"m"
+],
+"238": [
+"weapon",
+"Steel War Axe of Deep Biting",
+1,
+"is an enchanted steel war axe",
+"m"
+],
+"239": [
+"weapon",
+"Steel Flamemauler",
+1,
+"is an enchanted weapon",
+"m"
+],
+"240": [
+"weapon",
+"Steel Jinkblade",
+1,
+"is a one-handed steel weapon",
+"m"
+],
+"241": [
+"weapon",
+"Steel Jinkblade of the Aegis",
+1,
+"is a one-handed steel weapon",
+"m"
+],
+"242": [
+"weapon",
+"Steel Jinkblade",
+1,
+"is a one-handed steel weapon",
+"m"
+],
+"243": [
+"weapon",
+"Steel Spider Blade",
+1,
+"is a generic short blade",
+"m"
+],
+"244": [
+"weapon",
+"Steel Staff of Peace",
+1,
+"is a generic staff",
+"m"
+],
+"245": [
+"weapon",
+"Steel Dart",
+1,
+"is a type of thrown weapon",
+"m"
+],
+"246": [
+"weapon",
+"Steel Throwing Knife",
+1,
+"is a thrown weapon",
+"m"
+],
+"247": [
+"weapon",
+"Steel Sparkskewer",
+1,
+"is an enchanted two-handed steel spear",
+"m"
+],
+"248": [
+"weapon",
+"Steel Spear of Impaling Thrust",
+1,
+"is an enchanted two-handed steel weapon",
+"m"
+],
+"249": [
+"weapon",
+"Steel Viperskewer",
+1,
+"is an enchanted two-handed steel weapon",
+"m"
+],
+"221": [
+"armor",
+"Steel armor",
+1,
+"Steel armor is one step up from iron armor in quality",
+"m"
+]
+},
+"x": {},
+"z": {},
+"f": {},
+"u0": {}
+}

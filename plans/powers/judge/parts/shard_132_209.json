@@ -1,0 +1,21 @@
+{"d":0,"b1":[227,246,248],"n":{},"p":{},
+"W":{
+"212":["armor","Prisoner's Rags",1,"Prisoner's Rags is a light armor overland set","m"],
+"213":["weapon","Prismatic Flamestaff",1,"The Prismatic Flamestaff is a Two Handed staff","l"],
+"214":["weapon","Prismatic Longsword",1,"Prismatic Longsword is a one-handed weapon","l"],
+"216":["weapon","Prismatic Longbow",1,"The Prismatic Longbow is a bow","l"],
+"219":["weapon","Queen Freydis's Sword",1,"Queen Freydis's Sword is a unique steel sword","l"],
+"225":["armor","Queen's Own Cuirass",1,"Queen's Own Cuirass is a piece of heavy armor","m"],
+"226":["weapon","Punch",1,"Punch is the default weapon","m"],
+"230":["armor","Queensguard Chestplate",1,"Queensguard Chestplate is a piece of heavy armor","m"],
+"231":["armor","Queen's Elegance",1,"light armor overland item set","m"],
+"232":["armor","Quick Serpent",1,"Medium Armor Celestial Style set","m"],
+"234":["armor","Quicksilver Helmet",1,"Quicksilver Helmet is an armor piece","m"],
+"235":["armor","Quicksilver Gauntlets",1,"Quicksilver Gauntlets is an armor piece","m"],
+"236":["armor","Quicksilver Armor",1,"Quicksilver Armor is an armor piece","m"],
+"237":["weapon","Quarantine Staff",1,"Quarantine Staff is a Restoration Staff","l"],
+"247":["armor","Raiment of the Crimson Scar",1,"Raiment of the Crimson Scar is an enchanted Light Armor set","m"]
+},
+"x":{},
+"z":{"210":"none stated: passive skill page with no effect text","211":"none stated: crafting skill tree, no combat power","223":"none stated: game-damage skill, no pool power or SI feat","224":"none stated: game-damage skill, no pool power or SI feat","249":"none stated: game-damage skill, no pool power or SI feat"},
+"f":{},"u0":{}}
