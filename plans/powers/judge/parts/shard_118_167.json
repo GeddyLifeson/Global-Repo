@@ -1,0 +1,184 @@
+{
+"d": 0,
+"b1": [
+168,
+169,
+170,
+172,
+174,
+176,
+177,
+178,
+180,
+181,
+182,
+183,
+184,
+185,
+186,
+188,
+189,
+190,
+192,
+193,
+194,
+196,
+197,
+198,
+200,
+201,
+202,
+204,
+205,
+206,
+208,
+209,
+210,
+212,
+213,
+214,
+216,
+218,
+220,
+221,
+222,
+224,
+225,
+226,
+228,
+229,
+230,
+232,
+233,
+234,
+236,
+237,
+238,
+240,
+241,
+242,
+244,
+245,
+246,
+248,
+249
+],
+"n": {
+"176": "Gregornous Deathwing",
+"183": "Oren Emin",
+"193": "Ikopabe",
+"198": "Izukanne",
+"205": "John Dee",
+"208": "Johnny Sweets",
+"216": "Kokopelli Steals-The-Wind",
+"190": "Hornet's Nest",
+"222": "Lady of the Lake",
+"232": "Lucretia the Cess Queen",
+"180": "Lawrence Pohl"
+},
+"p": {
+"176": [
+[
+"flight",
+1,
+"Flight",
+"m"
+],
+[
+"regeneration",
+1,
+"Regeneration",
+"m"
+]
+]
+},
+"W": {
+"187": [
+"weapon",
+"Omsk Hammer",
+1,
+"The Omsk Hammer is functionally identical to the Knife.",
+"h"
+],
+"215": [
+"weapon",
+"FAMAS",
+1,
+"The FAMAS fires in three round bursts.",
+"h"
+],
+"239": [
+"vehicle",
+"Ol' Tessie",
+2,
+"Ol' Tessie flies out of the mouth of Entity, having been outfitted with rocket boosters granting it flight.",
+"m"
+],
+"243": [
+"weapon",
+"Oris 8.6",
+1,
+"The Oris 8.6 is a bolt-action marksman rifle",
+"h"
+],
+"247": [
+"weapon",
+"PPSh-41",
+1,
+"The PPSh-41 is a submachine gun",
+"h"
+]
+},
+"x": {
+"176": [
+"hex_scream",
+"fear",
+"rend_reality"
+],
+"172": [
+"obfuscate"
+],
+"185": [
+"balefire",
+"garou_gifts"
+],
+"208": [
+"picture_trapping",
+"glamour"
+],
+"232": [
+"disease_bite"
+],
+"244": [
+"speaks_with_ghosts"
+],
+"249": [
+"spheres_magic"
+],
+"225": [
+"spheres_magic"
+],
+"170": [
+"numina"
+],
+"198": [
+"necromancy"
+],
+"204": [
+"thaumaturgy"
+],
+"184": [
+"thaumaturgy"
+],
+"212": [
+"celerity",
+"fortitude"
+],
+"218": [
+"invisibility_gift_to_bastards"
+]
+},
+"z": {},
+"f": {},
+"u0": {}
+}
