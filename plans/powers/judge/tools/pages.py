@@ -118,7 +118,7 @@ def resolve(n):
                 got = intro(h, names)
                 for i, r in items:
                     f, ex = got[namef(r['text'])]
-                    if ex == '(no extract)' and re.match(r'\s*\{\{', r['text']): res[i] = (f, h)  # template row, page exists but has an empty lead
+                    if ex in ('(no extract)', '') and re.match(r'\s*\{\{', r['text']) and (ex or not api(h, {'action': 'query', 'titles': f})['query']['pages'][0].get('missing')): res[i] = (f, h)  # template row, page exists but has an empty lead
                     elif ex == '(no extract)': weak.setdefault(i, (f, h))
                     elif ex and match(r['text'], ex): res[i] = (f, h)
                     elif ex and ex != '(no extract)' and re.match(r'\s*\{\{', r['text']): res[i] = (f, h)  # template-start row: the page named by its Name/MainPage field
