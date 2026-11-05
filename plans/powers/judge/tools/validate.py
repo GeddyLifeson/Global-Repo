@@ -56,7 +56,8 @@ def check(n, path=None, meta=None):
         if not full:
             if not pages.exists(s['url']): e('source page does not exist'); continue
             full = r['text']
-        elif not pages.match(r['text'], full) and not (full == '' ): e('page text does not start like the batch lead (wrong page?)'); continue
+        elif not pages.match(r['text'], full) and not (full == '' ) and not re.match(r'\s*\{\{', r['text']):  # template-start row: resolver accepts the page named by its Name/MainPage field
+            e('page text does not start like the batch lead (wrong page?)'); continue
         F = squash(full)
         b = o.get('b')
         if b not in (0, 1, 2): e('bad b'); continue
