@@ -1,0 +1,168 @@
+{
+"d": 0,
+"b1": [
+139,
+142,
+145,
+174,
+180,
+181,
+183,
+184,
+185,
+186,
+193,
+194,
+196,
+202,
+203,
+209,
+210,
+214
+],
+"n": {
+"194": "Brick",
+"209": "Wallace West",
+"181": "Elena Rodriguez",
+"210": "Chrono-Lord Deios"
+},
+"p": {
+"142": [
+[
+"telepathy",
+1,
+"being able to read someone's subconscious without their knowledge",
+"l"
+],
+[
+"invisibility",
+1,
+"Holt, while cloaked, attacked Terra",
+"m"
+]
+],
+"180": [
+[
+"whirlwind",
+1,
+"Her ability is to blow out large amounts of wind",
+"m"
+]
+],
+"181": [
+[
+"super_speed",
+2,
+"Rodriguez gained the power to run and move at least 180 meters per second",
+"h"
+]
+],
+"185": [
+[
+"energy_beam",
+1,
+"she could breathe a shaft of pure light that could cut through steel",
+"m"
+]
+],
+"193": [
+[
+"fireball",
+1,
+"Single fireball projectile",
+"m"
+]
+],
+"194": [
+[
+"super_strength",
+3,
+"He has demolished a skycraper by punching down its foundations.",
+"m"
+],
+[
+"invulnerability",
+1,
+"they failed to cause any damage and simply bounced off his skin",
+"m"
+]
+],
+"196": [
+[
+"telepathy",
+5,
+"Valor possesses powerful telepathic abilities, capable of communicating mind-to-mind across the void of space.",
+"m"
+],
+[
+"flight",
+5,
+"the Sky can propel themselves through air and space without armor",
+"m"
+]
+],
+"202": [
+[
+"flight",
+1,
+"a pair of feathered brown wings that allowed her to fly",
+"h"
+]
+],
+"203": [
+[
+"blink",
+7,
+"He can even use this power to transport the sparks of other Transformers across interstellar distances.",
+"l"
+]
+],
+"209": [
+[
+"super_speed",
+2,
+"giving him superspeed that was unpredictable and hard to control",
+"m"
+]
+]
+},
+"W": {},
+"x": {
+"139": [
+"magic wand",
+"toy unicorn weaponry"
+],
+"145": [
+"khala shield enhancement",
+"precognition",
+"leaping"
+],
+"174": [
+"energy gauntlets",
+"integrated shields",
+"cybernetic augmentation"
+],
+"183": [
+"martial magic"
+],
+"184": [
+"revived mutant strength"
+],
+"186": [
+"martial magic"
+],
+"210": [
+"time-altering sand breath",
+"time reversal"
+],
+"214": [
+"none stated"
+]
+},
+"z": {},
+"f": {},
+"u0": {
+"149": "no source page",
+"197": "no source page"
+}
+}

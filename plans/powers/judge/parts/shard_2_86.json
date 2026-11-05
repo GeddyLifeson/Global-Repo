@@ -1,17 +1,1 @@
-{"d":0,"b1":[87,100,101,102,103,110,111,112,113,122,125,126,127,130,131,132,134,135],
-"n":{},
-"p":{
-"100":[["regeneration",2,"the ability to heal from catastrophic wounds in mere moments","m"],["invulnerability",4,"Damian was able to survive the blast due to his deal with Hurt.","m"],["immortal_body",1,"his soul in exchange for the immortality and healing abilities","l"]],
-"101":[["giant_size",1,"Size Alteration","l"],["flight",1,"Flight","l"]],
-"102":[["giant_size",1,"Al can increase his size, allowing him to grow up to 28 feet tall.","h"],["super_strength",3,"With the help of Shazam and Cyclone he was able to rip a Voidsong starship in two.","m"]],
-"103":[["flight",1,"Flight","l"],["telepathy",1,"Telepathy","l"],["super_strength",3,"Jemm could match the super-strong Martian Manhunter blow for blow.","m"],["energy_beam",2,"Jemm can focus his mental powers in powerful blasts of energy.","m"],["regeneration",1,"Accelerated Healing","l"]],
-"110":[["fireball",2,"attacks using fire or ice","l"]],
-"113":[["freeze_breath",4,"Elsa's anxieties would eventually trigger a curse that plunged Arendelle into an eternal winter during the middle of summer.","m"]],
-"125":[["super_speed",2,"trademark ability is running at supersonic speed","h"],["flight",1,"allowing him to fly around the stage","l"]],
-"126":[["super_strength",4,"with her strength level being nearly the same as Hulk or Thor","m"]],
-"134":[["dragon_form",3,"his \"true\" form of a great dragon","m"]]
-},
-"W":{},
-"x":{"87":["crown-enhanced strength","mechanical dragon form"],"111":["spell-like abilities","shapechange"],"122":["techno magic"],"127":["needs no breath or food"],"130":["raised island from sea","prophecy"],"131":["forest spirit life energy"],"132":["shamanic elemental magic","summons elementals"],"134":["toxic breath","shapeshifting"],"135":["cold immunity","control winter storms"]},
-"z":{},"f":{},
-"u0":{"108":"NO-SOURCE: row has no source page"}}
+{"d": 0, "b1": [87, 101, 102, 110, 111, 112, 113, 122, 125, 126, 127, 130, 131, 132, 134, 135], "n": {}, "p": {"101": [["giant_size", 1, "Size Alteration", "l"], ["flight", 1, "Flight", "l"]], "102": [["giant_size", 1, "Al can increase his size, allowing him to grow up to 28 feet tall.", "h"], ["super_strength", 3, "With the help of Shazam and Cyclone he was able to rip a Voidsong starship in two.", "m"]], "110": [["fireball", 2, "attacks using fire or ice", "l"]], "113": [["freeze_breath", 4, "Elsa's anxieties would eventually trigger a curse that plunged Arendelle into an eternal winter during the middle of summer.", "m"]], "125": [["super_speed", 2, "trademark ability is running at supersonic speed", "h"], ["flight", 1, "allowing him to fly around the stage", "l"]], "126": [["super_strength", 4, "with her strength level being nearly the same as Hulk or Thor", "m"]], "134": [["dragon_form", 3, "his \"true\" form of a great dragon", "m"]]}, "W": {}, "x": {"87": ["crown-enhanced strength", "mechanical dragon form"], "111": ["spell-like abilities", "shapechange"], "122": ["techno magic"], "127": ["needs no breath or food"], "130": ["raised island from sea", "prophecy"], "131": ["forest spirit life energy"], "132": ["shamanic elemental magic", "summons elementals"], "134": ["toxic breath", "shapeshifting"], "135": ["cold immunity", "control winter storms"]}, "z": {}, "f": {}, "u0": {"108": "NO-SOURCE: row has no source page"}}
