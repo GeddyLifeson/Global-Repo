@@ -1,0 +1,12 @@
+{"d":0,
+"b1":[80,81,82,84,85,86,88,89,90,91,93,94,96,97,98,100,101,102,104,105,106,108,109,110,112,113,114,117,120,121,122,124,126,128,129,130],
+"n":{"102":"Feathered Serpent","109":"First Metis","124":"General","130":"Girl in the Mists","112":"Fly"},
+"p":{"80":[["invisibility",1,"Computer Link, Invisibility, Magnetokinesis","m"]],
+"82":[["energy_beam",1,"Lightning bolts","l"]],
+"84":[["invisibility",1,"his obfuscate makes him nearly invisible to the mortals","l"]],
+"102":[["invisibility",1,"it can change its coloration to brown, leaf-green, and gray so that it is almost invisible when perfectly still","m"]],
+"109":[["immortal_body",1,"the First Metis still walks the earth, immortal through the embrace of the Wyrm","m"]]},
+"W":{"87":["weapon","Anti-aircraft gun",2,"a large gun that is specifically designed to shoot down enemy aircraft","m"],
+"115":["armor","Assault Shield",1,"capable of protecting the user from bullet fire, edged weaponry, and some explosives","m"]},
+"x":{"80":["magnetokinesis"],"82":["magical warding shield","shadow command"],"88":["tainted touch"],"90":["shadow command"],"96":["koldunic sorcery"],"102":["voice mimicry","statue game"],"104":["roach control"],"105":["sorcery"],"109":["reforms after damage"],"130":["city influence"]},
+"z":{"92":"none stated: discipline powers are social/mental effects with no pool power"}}
