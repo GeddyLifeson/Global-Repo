@@ -67,6 +67,8 @@ def ptext(host, title, intro_only=False):
     except Exception:
         return title, ''
 def namef(t):
+    m = re.match(r'\s*\{\{', t) and re.search(r'\|\s*(?:MainPage|Name|rom)\s*=\s*([^|}\n]+)', t)  # template-start rows: name from the template fields
+    if m: return m.group(1).strip()[:60]
     m = re.split(r' \(|, | (?:is|was|are|were) ', t, maxsplit=1)[0]
     return m[:60]
 def intro(host, titles):
@@ -129,6 +131,9 @@ def resolve(n):
                 got = intro(h, c) if c else {}
             except Exception: continue
             hit = next(((f, h) for f, ex in got.values() if ex != '(no extract)' and match(r['text'], ex)), None)
+            if not hit:  # mid-page fragment: accept a candidate whose full text contains the row's opening words
+                key = norm(r['text'])[:60]
+                hit = next(((f, h) for f, _ in got.values() if len(key) >= 30 and key in norm(full_extract(h, f))), None)
             if hit: res[i] = hit; break
     for i, (f, h) in weak.items():  # page exists but has no intro extract: accept only if the page has no text at all (template pages)
         if i not in res and not full_extract(h, f): res[i] = (f, h)
