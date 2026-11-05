@@ -3,12 +3,9 @@ Recipe: handoff 13. Work dir plans/powers/judge. Brief tools/worker_brief.txt ->
 Workers stop at ~60k after 10-15 rows on shard 3 (heavy pages): use ranges of ~12 rows.
 ## Passed and pushed
 4 and 80 (out/ written, problems 0). 4 needed n[234]=Fireglide.
-## Shard 3 (only other unjudged ready shard; cache+batches checked out from origin/claude/project-thread-8lxbuh, committed here)
-Part files exist for: 0-16, 17-28, 62-73, 74-85(+86?), 57-61, 108-119, 120-142, 167-183, 185-196, 197-209, 210-249.
-In flight when I stopped: 29-41, 41-57, 86-98, 98-108, 143-155 (check parts/ for shard_3_29, _41, _86, _98, _143).
-Not launched: 155-167. Also 184 (167 worker covered 167-183) and 196 gaps: verify no row gap/overlap, e.g. 74 worker said rows 74-86 and 86 worker overlaps on 86; drop one.
-Then merge 3.
+## Shard 3
+All parts judged and merged. HOLD: row 125 lead-match only (see HOLDS.txt); merged output in held/. Needs resolver/lead fix, then re-merge, then move held/shard_3.* to out/.
 ## Shard 2
-Held: row 119 fire-emblem|2851 needs resolver fix (PC). Parts shard_2_*.json exist. Merge once resolver fixed.
+Held: row 119 fire-emblem|2851 needs resolver fix (PC). Parts shard_2_*.json exist. Merge once fixed.
 ## After
-Other holds in HOLDS.txt (5, 81, 1, 82, 86, 92) need lead-match fixes on the PC side.
+No unjudged ready shards remain. Other holds in HOLDS.txt (1, 2, 3, 5, 81, 82, 86, 92) need lead-match/resolver fixes. Check READY_SHARDS.txt on claude/project-thread-8lxbuh for newly ready shards.

@@ -6,3 +6,4 @@
 86 HOLD: lead-match rows 152 232 233 241 + row 132 gear name missing (fix W name in parts, case must match page). merge: split.py merge 86 parts/shard_86_{0,97,160,fix}.json
 92 HOLD: row 78 lead-match; fix n for 117 ("Muscle Prince"), W for 195 and 199 (bad kind/mag/quote/name). merge: split.py merge 92 parts/shard_92_{0,109,182}.json (add parts/shard_92_fix.json)
 86 UPDATE: fix agent corrected row 132 W name (Magni) in parts/shard_86_fix.json; only lead-match rows 152 232 233 241 remain.
+3 HOLD: only row 125 (halo|6658 Unidentified Sentinel Variant) fails lead-match (resolved page text is different from the lead). Everything else validates; merged output in held/. Once resolver/lead fixed: python3 tools/split.py merge 3 parts/shard_3_[0-9]*.json parts/shard_3_fix.json

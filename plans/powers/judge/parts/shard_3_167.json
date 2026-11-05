@@ -1,7 +1,1 @@
-{"d":0,"b1":[173,174,175,176,177,178,179,180],
-"n":{},
-"p":{"176":[["fireball",2,"shooting fireballs from his hands","m"],["whirlwind",2,"flap his huge wings to create a gale to blow opponents away","m"]],
-"178":[["fireball",1,"he breathes a white-hot flame that can vaporize enemies","l"]],
-"179":[["giant_size",4,"Galactus appears a large humanoid entity, several times larger than the Island itself","l"]]},
-"W":{},"x":{"173":["wind elemental"],"174":["cosmic being"],"175":["mana amplification"],"180":["time control"]},
-"z":{},"f":{},"u0":{"183":"no source page"}}
+{"d": 0, "b1": [173, 174, 175, 176, 177, 178, 179, 180], "n": {"179": "Galactus"}, "p": {"176": [["fireball", 2, "shooting fireballs from his hands", "m"], ["whirlwind", 2, "flap his huge wings to create a gale to blow opponents away", "m"]], "178": [["fireball", 1, "he breathes a white-hot flame that can vaporize enemies", "l"]], "179": [["giant_size", 4, "Galactus appears a large humanoid entity, several times larger than the Island itself", "l"]]}, "W": {}, "x": {"173": ["wind elemental"], "174": ["cosmic being"], "175": ["mana amplification"], "180": ["time control"]}, "z": {}, "f": {}, "u0": {"183": "no source page"}}
