@@ -1,0 +1,4 @@
+> setblock 3 100 1 diaithirarms:ballista
+Changed the block at 3, 100, 1
+> execute if block ... diaithirarms:ballista
+Test passed
