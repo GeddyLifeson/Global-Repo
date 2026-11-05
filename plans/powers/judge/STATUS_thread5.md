@@ -7,3 +7,4 @@ Not started: 99 101 102 103 106 107 108 109 113 115 116 118 119 123 (+ new cache
 FAIL also: 92 (6 no-source rows, battlefield.fandom.com 429).
 FAIL also: 88 (11 no-source rows). All failed shards await PC full-page caches on 8lxbuh; judge cache-only, hold incomplete ones.
 PASS also: 91. 11-05 ~20:20Z: 89 and 99 HOLD (cache files not yet on 8lxbuh; PC pushing). Retry held shards after PC finishes.
+11-05 ~20:35Z cache-only HOLD (no-source rows over 2%): 12 (37), 13, 14, 93, 94 (24), 96 (32). 84 pending. Resolver leaves 5-15% rows without a page on most shards; needs patched resolver rerun before judging.
