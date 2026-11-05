@@ -1,0 +1,10 @@
+{"d":0,
+"b1":[241,243,244,245,246,248,249],
+"n":{"249":"Denathrius"},
+"p":{"241":[["blink",1,"Teleporting himself and all players within 30' range a short distance","l"]],
+"246":[["fireball",2,"Calls down a pillar of flame, burning all enemies in a selected area and inflicting additional damage every 2 sec. for 8 sec.","l"]]},
+"W":{"239":["armor","Air genesi armor",2,"Air genesi armor granted the wearer protection against wind and air magic and increased their reflexes.","h"],
+"247":["weapon","Amasal",3,"It was a +4 broadsword.","h"]},
+"x":{"241":["magic reflection shield","mark of frost"],"244":["earthen strikes","cascading slam"],"245":["mind control"],"248":["titan hammer power"],"249":["anima manipulation","sin manifestation"]},
+"z":{"243":"none stated: only alchemical research, no powers"},
+"f":{},"u0":{}}
