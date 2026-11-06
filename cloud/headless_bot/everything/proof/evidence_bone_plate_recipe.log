@@ -1,0 +1,12 @@
+> slot 0 = minecraft:bone
+Replaced a slot at 9, 100, 9 with [Bone]
+> slot 1 = minecraft:bone
+Replaced a slot at 9, 100, 9 with [Bone]
+> slot 3 = minecraft:bone
+Replaced a slot at 9, 100, 9 with [Bone]
+> slot 4 = minecraft:leather
+Replaced a slot at 9, 100, 9 with [Leather]
+> power
+Changed the block at 8, 100, 9
+> dropped stack
+Troindser knàim has the following entity data: {count: 2, id: "diaithirarms:bone_plate"}

@@ -1,0 +1,16 @@
+> summon diaithirbosses:natuirrig
+Summoned new Natuirrìg
+> health after spawn
+No entity was found
+
+Applied effect Resistance to Tester
+Teleported Tester to 9.500000, 100.000000, 14.500000
+> lowest player health in 8 s next to boss (resistance 4 on; full health is 20): 20.0
+> player effects
+Found no elements matching ActiveEffects
+> entities around
+Test failed
+> grind with player_attack 1000 per hit: killed after 0 hits
+No entity was found
+> nearest drop
+No entity was found

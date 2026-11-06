@@ -1,0 +1,73 @@
+category	id	status	detail	evidence
+items	diaithirarms:arbalest_steel_crossbow	PASS	stack created and read back from a container	evidence/items/diaithirarms__arbalest_steel_crossbow.log
+items	diaithirarms:armstrong_gun	PASS	stack created and read back from a container	evidence/items/diaithirarms__armstrong_gun.log
+items	diaithirarms:balearic_sling	PASS	stack created and read back from a container	evidence/items/diaithirarms__balearic_sling.log
+items	diaithirarms:ballista	PASS	stack created and read back from a container	evidence/items/diaithirarms__ballista.log
+items	diaithirarms:ballistic_boots	PASS	stack created and read back from a container	evidence/items/diaithirarms__ballistic_boots.log
+items	diaithirarms:ballistic_chestplate	PASS	stack created and read back from a container	evidence/items/diaithirarms__ballistic_chestplate.log
+items	diaithirarms:ballistic_helmet	PASS	stack created and read back from a container	evidence/items/diaithirarms__ballistic_helmet.log
+items	diaithirarms:ballistic_leggings	PASS	stack created and read back from a container	evidence/items/diaithirarms__ballistic_leggings.log
+items	diaithirarms:ballistic_weave	PASS	stack created and read back from a container	evidence/items/diaithirarms__ballistic_weave.log
+items	diaithirarms:bangalore_torpedo	PASS	stack created and read back from a container	evidence/items/diaithirarms__bangalore_torpedo.log
+items	diaithirarms:battering_ram	PASS	stack created and read back from a container	evidence/items/diaithirarms__battering_ram.log
+items	diaithirarms:bhutanese_bamboo_bow	PASS	stack created and read back from a container	evidence/items/diaithirarms__bhutanese_bamboo_bow.log
+items	diaithirarms:blowgun	PASS	stack created and read back from a container	evidence/items/diaithirarms__blowgun.log
+items	diaithirarms:bolas	PASS	stack created and read back from a container	evidence/items/diaithirarms__bolas.log
+items	diaithirarms:bombard	PASS	stack created and read back from a container	evidence/items/diaithirarms__bombard.log
+items	diaithirarms:bone_boots	PASS	stack created and read back from a container	evidence/items/diaithirarms__bone_boots.log
+items	diaithirarms:bone_bow	PASS	stack created and read back from a container	evidence/items/diaithirarms__bone_bow.log
+items	diaithirarms:bone_chestplate	PASS	stack created and read back from a container	evidence/items/diaithirarms__bone_chestplate.log
+items	diaithirarms:bone_helmet	PASS	stack created and read back from a container	evidence/items/diaithirarms__bone_helmet.log
+items	diaithirarms:bone_leggings	PASS	stack created and read back from a container	evidence/items/diaithirarms__bone_leggings.log
+entities	diaithirarms:thrown_weapon	FAIL	Summoned new Thrown weapon | Test failed	evidence/entities/diaithirarms__thrown_weapon.log
+obtainable	diaithirarms:arbalest_steel_crossbow	UNTESTED	item has no recipe and no loot table drop in the jars (check KubeJS recipes / creative-only)	
+obtainable	diaithirarms:balearic_sling	UNTESTED	item has no recipe and no loot table drop in the jars (check KubeJS recipes / creative-only)	
+obtainable	diaithirarms:bangalore_torpedo	UNTESTED	item has no recipe and no loot table drop in the jars (check KubeJS recipes / creative-only)	
+obtainable	diaithirarms:bhutanese_bamboo_bow	UNTESTED	item has no recipe and no loot table drop in the jars (check KubeJS recipes / creative-only)	
+obtainable	diaithirarms:blowgun	UNTESTED	item has no recipe and no loot table drop in the jars (check KubeJS recipes / creative-only)	
+obtainable	diaithirarms:bolas	UNTESTED	item has no recipe and no loot table drop in the jars (check KubeJS recipes / creative-only)	
+obtainable	diaithirarms:cranequin_crossbow	UNTESTED	item has no recipe and no loot table drop in the jars (check KubeJS recipes / creative-only)	
+obtainable	diaithirarms:cretan_short_bow	UNTESTED	item has no recipe and no loot table drop in the jars (check KubeJS recipes / creative-only)	
+obtainable	diaithirarms:f1_grenade	UNTESTED	item has no recipe and no loot table drop in the jars (check KubeJS recipes / creative-only)	
+obtainable	diaithirarms:gastraphetes	UNTESTED	item has no recipe and no loot table drop in the jars (check KubeJS recipes / creative-only)	
+obtainable	diaithirarms:grenado	UNTESTED	item has no recipe and no loot table drop in the jars (check KubeJS recipes / creative-only)	
+obtainable	diaithirarms:hungarian_magyar_bow	UNTESTED	item has no recipe and no loot table drop in the jars (check KubeJS recipes / creative-only)	
+obtainable	diaithirarms:inca_sling_huaraca	UNTESTED	item has no recipe and no loot table drop in the jars (check KubeJS recipes / creative-only)	
+obtainable	diaithirarms:korean_horn_bow_gakgung	UNTESTED	item has no recipe and no loot table drop in the jars (check KubeJS recipes / creative-only)	
+obtainable	diaithirarms:longbow_english	UNTESTED	item has no recipe and no loot table drop in the jars (check KubeJS recipes / creative-only)	
+obtainable	diaithirarms:m67_grenade	UNTESTED	item has no recipe and no loot table drop in the jars (check KubeJS recipes / creative-only)	
+obtainable	diaithirarms:mills_bomb	UNTESTED	item has no recipe and no loot table drop in the jars (check KubeJS recipes / creative-only)	
+obtainable	diaithirarms:mk2_grenade	UNTESTED	item has no recipe and no loot table drop in the jars (check KubeJS recipes / creative-only)	
+obtainable	diaithirarms:molotov_cocktail	UNTESTED	item has no recipe and no loot table drop in the jars (check KubeJS recipes / creative-only)	
+obtainable	diaithirarms:nubian_self_bow	UNTESTED	item has no recipe and no loot table drop in the jars (check KubeJS recipes / creative-only)	
+obtainable	diaithirarms:plains_bow	UNTESTED	item has no recipe and no loot table drop in the jars (check KubeJS recipes / creative-only)	
+obtainable	diaithirarms:repeating_crossbow_zhuge_nu	UNTESTED	item has no recipe and no loot table drop in the jars (check KubeJS recipes / creative-only)	
+obtainable	diaithirarms:retiarius_net	UNTESTED	item has no recipe and no loot table drop in the jars (check KubeJS recipes / creative-only)	
+obtainable	diaithirarms:rgd_33_grenade	UNTESTED	item has no recipe and no loot table drop in the jars (check KubeJS recipes / creative-only)	
+obtainable	diaithirarms:satchel_charge	UNTESTED	item has no recipe and no loot table drop in the jars (check KubeJS recipes / creative-only)	
+obtainable	diaithirarms:self_bow	UNTESTED	item has no recipe and no loot table drop in the jars (check KubeJS recipes / creative-only)	
+obtainable	diaithirarms:sling	UNTESTED	item has no recipe and no loot table drop in the jars (check KubeJS recipes / creative-only)	
+obtainable	diaithirarms:stielhandgranate	UNTESTED	item has no recipe and no loot table drop in the jars (check KubeJS recipes / creative-only)	
+obtainable	diaithirarms:stonebow_bullet_crossbow	UNTESTED	item has no recipe and no loot table drop in the jars (check KubeJS recipes / creative-only)	
+obtainable	diaithirarms:tibetan_crossbow	UNTESTED	item has no recipe and no loot table drop in the jars (check KubeJS recipes / creative-only)	
+obtainable	diaithirarms:yumi	UNTESTED	item has no recipe and no loot table drop in the jars (check KubeJS recipes / creative-only)	
+recipes	diaithirarms:ballistic_boots	FAIL	nothing crafted from the exact inputs (recipe not registered, disabled, or overridden)	evidence/recipes/diaithirarms__ballistic_boots.log
+recipes	diaithirarms:ballistic_chestplate	FAIL	nothing crafted from the exact inputs (recipe not registered, disabled, or overridden)	evidence/recipes/diaithirarms__ballistic_chestplate.log
+recipes	diaithirarms:ballistic_helmet	FAIL	nothing crafted from the exact inputs (recipe not registered, disabled, or overridden)	evidence/recipes/diaithirarms__ballistic_helmet.log
+recipes	diaithirarms:ballistic_leggings	FAIL	nothing crafted from the exact inputs (recipe not registered, disabled, or overridden)	evidence/recipes/diaithirarms__ballistic_leggings.log
+recipes	diaithirarms:ballistic_weave	UNTESTED	an ingredient is a tag with no resolvable member	
+recipes	diaithirarms:bone_boots	FAIL	nothing crafted from the exact inputs (recipe not registered, disabled, or overridden)	evidence/recipes/diaithirarms__bone_boots.log
+recipes	diaithirarms:bone_bow	FAIL	nothing crafted from the exact inputs (recipe not registered, disabled, or overridden)	evidence/recipes/diaithirarms__bone_bow.log
+recipes	diaithirarms:bone_chestplate	FAIL	nothing crafted from the exact inputs (recipe not registered, disabled, or overridden)	evidence/recipes/diaithirarms__bone_chestplate.log
+recipes	diaithirarms:bone_helmet	FAIL	nothing crafted from the exact inputs (recipe not registered, disabled, or overridden)	evidence/recipes/diaithirarms__bone_helmet.log
+recipes	diaithirarms:bone_leggings	FAIL	nothing crafted from the exact inputs (recipe not registered, disabled, or overridden)	evidence/recipes/diaithirarms__bone_leggings.log
+recipes	diaithirarms:bone_plate	FAIL	nothing crafted from the exact inputs (recipe not registered, disabled, or overridden)	evidence/recipes/diaithirarms__bone_plate.log
+recipes	diaithirarms:bone_shield	FAIL	nothing crafted from the exact inputs (recipe not registered, disabled, or overridden)	evidence/recipes/diaithirarms__bone_shield.log
+recipes	diaithirarms:bronze_boots	UNTESTED	an ingredient is a tag with no resolvable member	
+recipes	diaithirarms:bronze_bow	UNTESTED	an ingredient is a tag with no resolvable member	
+recipes	diaithirarms:bronze_chestplate	UNTESTED	an ingredient is a tag with no resolvable member	
+recipes	diaithirarms:bronze_helmet	UNTESTED	an ingredient is a tag with no resolvable member	
+recipes	diaithirarms:bronze_leggings	UNTESTED	an ingredient is a tag with no resolvable member	
+recipes	diaithirarms:bronze_shield	UNTESTED	an ingredient is a tag with no resolvable member	
+recipes	diaithirarms:ceramic_plate	FAIL	nothing crafted from the exact inputs (recipe not registered, disabled, or overridden)	evidence/recipes/diaithirarms__ceramic_plate.log
+recipes	diaithirarms:composite_axe	UNTESTED	an ingredient is a tag with no resolvable member	

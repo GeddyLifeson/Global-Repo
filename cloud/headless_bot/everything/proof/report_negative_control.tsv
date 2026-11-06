@@ -1,0 +1,9 @@
+category	id	status	detail	evidence
+blocks	diaithirarms:armstrong_gun	PASS	placed and read back	evidence/blocks/diaithirarms__armstrong_gun.log
+blocks	diaithirarms:ballista	PASS	placed and read back	evidence/blocks/diaithirarms__ballista.log
+blocks	diaithirarms:battering_ram	PASS	placed and read back	evidence/blocks/diaithirarms__battering_ram.log
+blocks	diaithirarms:bombard	PASS	placed and read back	evidence/blocks/diaithirarms__bombard.log
+blocks	diaithirarms:carronade	PASS	placed and read back	evidence/blocks/diaithirarms__carronade.log
+blocks	diaithirarms:does_not_exist	FAIL	"Unknown block type 'diaithirarms:does_not_exist'
+... 11 100 1 diaithirarms:does_not_exist<--[HERE] | Unknown block type 'diaithirarms:does_not_exist'
+... 11 100 1 diaithirarms:does_not_exist<--[HERE]"	evidence/blocks/diaithirarms__does_not_exist.log
