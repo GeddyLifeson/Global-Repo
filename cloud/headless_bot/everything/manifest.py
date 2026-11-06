@@ -9,13 +9,15 @@ def jars_in(args):
             yield from sorted(p.rglob('*.jar'))
         elif p.suffix == '.jar': yield p
 def norm(i):  # item id or #tag with namespace
+    if not isinstance(i, str): return None
     return i if ':' in i else 'minecraft:' + i
-def ing_ids(v):
+def ing_ids(v): return [x for x in _ing(v) if x]
+def _ing(v):
     if isinstance(v, str): return [norm(v)]
-    if isinstance(v, list): return [x for e in v for x in ing_ids(e)]
+    if isinstance(v, list): return [x for e in v for x in _ing(e)]
     if isinstance(v, dict):
         if 'item' in v: return [norm(v['item'])]
-        if 'tag' in v: return ['#' + norm(v['tag'])]
+        if 'tag' in v and isinstance(v['tag'], str): return ['#' + norm(v['tag'])]
     return []
 def census(jars):
     M = {k: {} for k in ('blocks', 'items', 'entities', 'recipes', 'loot', 'dimensions', 'tags')}; M['js_recipe_files'] = []
@@ -26,15 +28,20 @@ def census(jars):
             if m: M['blocks' if m[2] == 'blockstates' else 'items'][f'{m[1]}:{m[3]}'] = src; continue
             m = re.match(r'assets/([^/]+)/lang/en_us\.json$', n)
             if m:
-                for k in json.loads(z.read(n)):
+                try: lang = json.loads(z.read(n).decode('utf-8-sig'), strict=False)
+                except Exception: continue
+                for k in lang:
                     mm = re.match(r'entity\.([^.]+)\.([^.]+)$', k)
                     if mm: M['entities'][f'{mm[1]}:{mm[2]}'] = src
                 continue
             m = re.match(r'data/([^/]+)/(recipes?)/(.+)\.json$', n)
             if m:
-                try: d = json.loads(z.read(n))
+                try: d = json.loads(z.read(n), strict=False)
                 except Exception: continue
-                res = d.get('result'); rid = res if isinstance(res, str) else (res or {}).get('id') or (res or {}).get('item')
+                if not isinstance(d, dict): continue
+                res = d.get('result')
+                if isinstance(res, list): res = res[0] if res else None
+                rid = res if isinstance(res, str) else (res or {}).get('id') or (res or {}).get('item')
                 cnt = 1 if isinstance(res, str) else (res or {}).get('count', 1)
                 M['recipes'][f'{m[1]}:{m[3]}'] = {'type': d.get('type', ''), 'result': norm(rid) if rid else None, 'count': cnt, 'pattern': d.get('pattern'),
                     'key': {k: ing_ids(v) for k, v in d.get('key', {}).items()}, 'ingredients': [ing_ids(x) for x in d.get('ingredients', [])] if isinstance(d.get('ingredients'), list) else d.get('ingredients'),
@@ -46,7 +53,7 @@ def census(jars):
             if m: M['dimensions'][f'{m[1]}:{m[2]}'] = src; continue
             m = re.match(r'data/([^/]+)/tags/items?/(.+)\.json$', n)
             if m:
-                try: M['tags'][f'{m[1]}:{m[2]}'] = [v if isinstance(v, str) else v.get('id', '') for v in json.loads(z.read(n)).get('values', [])]
+                try: M['tags'][f'{m[1]}:{m[2]}'] = [v if isinstance(v, str) else v.get('id', '') for v in json.loads(z.read(n), strict=False).get('values', [])]
                 except Exception: pass
     return M
 def checks(M):
@@ -59,13 +66,13 @@ def checks(M):
         ing = {x for ids in (list(r['key'].values()) + (r['ingredients'] or [] if isinstance(r['ingredients'], list) else [])) for x in ids}
         if r['ingredient']: ing |= set(r['ingredient'])
         for x in ing:
-            if not x.startswith('#') and not vanilla(x) and x not in known: out.append((rid, 'FAIL', f'ingredient {x} is not a registered item'))
+            if x and not x.startswith('#') and not vanilla(x) and x not in known: out.append((rid, 'FAIL', f'ingredient {x} is not a registered item'))
             if x.startswith('#') and x[1:] not in M['tags'] and x[1:].split(':')[0] not in ('minecraft', 'c', 'neoforge'): out.append((rid, 'FAIL', f'ingredient tag {x} has no tag file'))
         grid = json.dumps([r['type'], r['pattern'], sorted(r['key'].items()), sorted(map(sorted, r['ingredients'])) if isinstance(r['ingredients'], list) else None, r['ingredient']], sort_keys=True)
         sig.setdefault(grid, []).append(rid)
     for g, ids in sig.items():
         res = {M['recipes'][i]['result'] for i in ids}
-        if len(ids) > 1 and len(res) > 1: [out.append((i, 'FAIL', f'conflict: same inputs as {[x for x in ids if x != i]} but different results {sorted(res)}')) for i in ids]
+        if len(ids) > 1 and len(res) > 1: [out.append((i, 'FAIL', f'conflict: same inputs as {[x for x in ids if x != i]} but different results {sorted(map(str, res))}')) for i in ids]
         elif len(ids) > 1: [out.append((i, 'FAIL', f'duplicate of {[x for x in ids if x != i]}')) for i in ids]
     made = {r['result'] for r in M['recipes'].values()}; dropped = {i for v in M['loot'].values() for i in v}
     for i in sorted(M['items']):

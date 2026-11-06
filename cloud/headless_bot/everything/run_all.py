@@ -8,7 +8,7 @@ HERE = pathlib.Path(__file__).resolve().parent
 sys.path.insert(0, str(HERE.parent))
 class Rcon:
     def __init__(s, host, port, pw):
-        s.k = socket.create_connection((host, port), 30); s.n = 0; s._send(3, pw)
+        s.k = socket.create_connection((host, port), 600); s.n = 0; s._send(3, pw)
     def _send(s, t, body):
         s.n += 1; b = body.encode(); s.k.sendall(struct.pack('<iii', 10 + len(b), s.n, t) + b + b'\0\0'); return s._recv()
     def _recv(s):
