@@ -9,5 +9,5 @@ Cache/src for ready shards come from claude/project-thread-8lxbuh (cache/shard_N
 Parts all written (parts/shard_6_*.json). Merge rejects: rows 0 1 11 51 need z/x/power; n needed for rows 25 148 170; row 199 wrong page. Write parts/shard_6_fix.json then merge with it.
 ## Ready shards with no output: 9 11 45 89 114 117 121 (6 done above)
 Ranges for 45 89 114 117 121 and the rest of 11 are in NEXT_RANGES.txt (shard lo hi).
-Shard 9 parts done: 0, 80, 122, 241. 9_152 (rows 152-241) was still running at handoff: check parts/shard_9_152.json, rerun if missing.
+Shard 9 parts all done (0, 80, 122, 152, 241): merge and fix pass next.
 Shard 11: parts/shard_11_0.json done (rows 0-39). Remaining ranges 39 62 83 104 136 186 217 250 (NEXT_RANGES.txt).
