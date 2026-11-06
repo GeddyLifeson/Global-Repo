@@ -1,0 +1,197 @@
+{
+"d": 0,
+"b1": [
+127,
+128,
+129,
+139,
+156,
+161,
+168,
+173,
+174,
+175
+],
+"n": {
+"127": "Divisive Mind",
+"128": "Cassandra Sandsmark",
+"139": "Sekrion",
+"156": "Kolowissi",
+"161": "Firestorm",
+"168": "Shadow Master",
+"173": "Geoffrey Thibodeux"
+},
+"p": {
+"127": [
+[
+"barrage",
+1,
+"constant barrage of Void blasts",
+"m"
+],
+[
+"invulnerability",
+2,
+"defending itself with its indestructible shield",
+"l"
+]
+],
+"129": [
+[
+"flight",
+2,
+"He was able to fly thanks to his large wings",
+"h"
+],
+[
+"fireball",
+2,
+"had the ability to breathe streams of searing hot flame and vapour from his mouth and nostrils",
+"h"
+],
+[
+"super_strength",
+1,
+"physical strength capable of crushing stone with ease",
+"h"
+],
+[
+"hard_body",
+2,
+"Smaug's reddish-gold scales rendered him impervious to nearly all weapons",
+"m"
+]
+],
+"139": [
+[
+"barrage",
+2,
+"constant barrage of Void blasts",
+"m"
+],
+[
+"invulnerability",
+2,
+"defending itself with its indestructible shield",
+"l"
+]
+],
+"156": [
+[
+"giant_size",
+3,
+"gigantic snake spirit from the brood of Uktena",
+"l"
+]
+],
+"161": [
+[
+"flight",
+1,
+"Firestorm stands out as an Autobot with flight capabilities",
+"h"
+],
+[
+"super_speed",
+1,
+"bombing runs at super-sonic speeds",
+"m"
+]
+],
+"168": [
+[
+"flight",
+1,
+"In addition to being able to fly",
+"h"
+],
+[
+"energy_beam",
+1,
+"he can shoot powerful lasers from his eyes",
+"h"
+]
+],
+"173": [
+[
+"super_strength",
+2,
+"Superhuman Strength",
+"m"
+],
+[
+"giant_size",
+2,
+"Size Alteration",
+"m"
+]
+],
+"174": [
+[
+"whirlwind",
+6,
+"Akadi's wings were said to send the winds across Faerun's surface",
+"l"
+],
+[
+"giant_size",
+3,
+"a giant, blue, translucent woman with huge feathery wings that trailed away into the clouds",
+"l"
+],
+[
+"immortal_body",
+5,
+"As an immortal being of freedom and travel",
+"m"
+]
+],
+"175": [
+[
+"giant_size",
+2,
+"Giant Unbaba is a giant dangerous Blargg",
+"l"
+]
+]
+},
+"W": {},
+"x": {
+"128": [
+"demigod"
+],
+"156": [
+"shapechange",
+"flood"
+],
+"168": [
+"shadow teleport"
+],
+"173": [
+"gravity manipulation"
+],
+"175": [
+"fire aura"
+]
+},
+"z": {
+"130": "none stated: technique/ability page, not a being",
+"131": "none stated: technique/ability page, not a being",
+"135": "none stated: technique/ability page, not a being",
+"136": "none stated: technique/ability page, not a being",
+"140": "none stated: technique/ability page, not a being",
+"141": "none stated: technique/ability page, not a being",
+"142": "none stated: technique/ability page, not a being",
+"149": "none stated: technique/ability page, not a being",
+"153": "none stated: technique/ability page, not a being",
+"157": "none stated: technique/ability page, not a being",
+"158": "none stated: technique/ability page, not a being",
+"162": "none stated: technique/ability page, not a being",
+"163": "none stated: technique/ability page, not a being",
+"164": "none stated: technique/ability page, not a being",
+"167": "none stated: technique/ability page, not a being",
+"169": "none stated: technique/ability page, not a being"
+},
+"f": {},
+"u0": {}
+}

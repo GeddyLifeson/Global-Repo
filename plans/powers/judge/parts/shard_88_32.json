@@ -1,0 +1,17 @@
+{"d":0,
+"b1":[32,33,34,36,37,38,40,41,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62],
+"n":{"32":"Evil Manta","49":"Mr. Dark","50":"Motsuki","54":"Myron Brogan","57":"Pepper Potts","58":"Pepa Madrigal","60":"Percy Jackson"},
+"p":{
+"32":[["telepathy",1,"either with hypnosis or with telepathy","m"]],
+"34":[["super_speed",1,"move at superhuman speeds","m"],["flight",1,"She can also fly and levitate","m"],["levitation",1,"She can also fly and levitate","m"]],
+"37":[["giant_size",3,"transforms into a kaiju-sized Mega-Hulk","m"]],
+"41":[["telepathy",1,"by reading her mind","m"],["immortal_body",1,"he is a demon who does not age physically","m"]],
+"44":[["super_strength",1,"Miss Piggy proves to be great at bending metal bars","l"]],
+"50":[["energy_beam",1,"She can shoot a beam from her antennae","m"],["blink",8,"Motsuki can teleport herself from Earth to the moon, and back again","m"]],
+"56":[["flight",1,"giving him the ability to fly","m"]],
+"58":[["whirlwind",1,"being able to summon a tornado around her","m"]],
+"60":[["hard_body",1,"Percy also possesses superhuman durability","m"]],
+"62":[["flight",1,"Polaris can fly by riding the planet's electromagnetic fields","m"]]},
+"W":{"39":["weapon","darksteel greataxe",2,"granted the wielder resistance to harm from electricity","m"]},
+"x":{"32":["electrokinesis"],"34":["bat control","wall scaling"],"36":["electrokinesis","machine control"],"37":["gamma radiation blast"],"40":["magic"],"41":["soul sucking","voice changing","manipulation"],"44":["karate"],"46":["heat"],"48":["molecule manipulation"],"50":["sensing","crystal summoning","psychic vision","moon bubble"],"52":["ground tearing"],"56":["aquatic breathing","slowed aging"],"57":["Extremis"],"58":["weather manipulation"],"60":["hydrokinesis","horse communication"],"62":["magnetokinesis","force field"]},
+"z":{},"f":{},"u0":{}}

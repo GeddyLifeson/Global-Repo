@@ -1,0 +1,16 @@
+{"d":0,"b1":[207,210,214,216,219,222,224,225,233,234,236,239,240,242,243,248,249],
+"n":{"216":"Hellwarp","233":"Grant Emerson","242":"Doctor Einmug"},
+"p":{
+"207":[["super_speed",1,"Disciplines available from Pattermuster: Celerity, Obfuscate, Potence, Presence.","l"],["super_strength",1,"Disciplines available from Pattermuster: Celerity, Obfuscate, Potence, Presence.","l"]],
+"210":[["super_strength",1,"wearing the Fistigons gives him superhuman strength","m"]],
+"216":[["blink",1,"an upgraded teleportation ability that lets him warp continuously without worrying about energy consumption","h"]],
+"222":[["immortal_body",1,"Fikrul could seemingly never truly be killed","m"]],
+"233":[["super_strength",1,"Superhuman Strength (Formerly)","m"],["energy_beam",1,"Damage's energy blasts were strong enough to harm even opponents like Superdoom.","l"]],
+"234":[["immortal_body",1,"one of the three immortal god-kings of Morrowind","m"]],
+"239":[["freeze_breath",2,"Slushy's ice breath is able to blast gusts of ice and snow ranging from a simple snow-cone to a massive blizzard.","m"],["regeneration",1,"Slushy can also regenerate himself after being broken into blocks of ice.","h"]],
+"240":[["fireball",1,"where he casts a fire spell to defend himself","m"]],
+"242":[["levitation",1,"even walk in the air himself as if he were walking down the street","m"]],
+"248":[["flight",1,"can fly right toward him and slash","m"]]},
+"W":{},
+"x":{"210":["x-ray vision","electricity and missiles","fire"],"219":["fire breath"],"224":["flight form grant","shapeshifting"],"225":["cosmic powers","magic"],"233":["explosive touch"],"234":["godhood","suspended meteor"],"236":["fire breath"],"240":["black magic"],"243":["indestructible body","five-flight powers","sand breath","flame breath"],"248":["electricity balls"],"249":["fire breath"]},
+"z":{},"f":{},"u0":{}}

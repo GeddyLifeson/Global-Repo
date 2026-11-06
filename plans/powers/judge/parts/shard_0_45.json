@@ -1,0 +1,15 @@
+{"d":0,
+"b1":[45,48,50,51,52,57,58,59,60,61],
+"n":{},
+"p":{
+"45":[["whirlwind",3,"Creates a devastating tornado of black flames on the scale of a natural disaster.","l"]],
+"48":[["flight",1,"flies through the sky","m"]],
+"51":[["energy_beam",2,"emits all of its body's energy as a destructive energy wave","l"]],
+"52":[["energy_beam",1,"Uses the Sylvia to shoot rays of light.","m"]],
+"58":[["fireball",2,"Spews extremely high temperature flames from its shield, turning its surroundings into a sea of fire.","l"]],
+"59":[["energy_beam",1,"Fires a laser-shaped heat ray from its mouth.","h"],["flight",1,"lift even its heavy body effortlessly into the air","h"]],
+"60":[["energy_beam",1,"Fires three penetrating lasers from its left arm's shield.","h"]],
+"61":[["flight",1,"It also has the ability to fly","h"]]},
+"W":{},
+"x":{"45":["darkness","lightning"],"50":["weather manipulation","lightning"],"57":["fire"],"61":["water manipulation"]},
+"z":{},"f":{},"u0":{}}

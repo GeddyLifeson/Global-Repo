@@ -1,0 +1,18 @@
+{"d":0,
+"b1":[0,1,2,4,5,6,8,9,12,13,14,15,16,17,18,20,21,22,24,25,26,28,29,30,31],
+"n":{"9":"Heinz Doofenshmirtz","12":"Horned King","16":"Ingrid","17":"Jack-Jack Parr","25":"Lizard"},
+"p":{
+"0":[["flight",3,"he can fly at any speed or height, at which he can still breathe","m"],["energy_beam",2,"he can generate a force blast with a maximum concussive force equivalent to the primary shock wave of an explosion of 20,000 pounds of TNT","m"]],
+"2":[["super_strength",1,"implied to have super strength","l"],["invulnerability",1,"some invulnerability","l"]],
+"12":[["blink",1,"displaying his powers to teleport into his castle's mess hall","l"]],
+"14":[["super_strength",1,"Peak Human Strength","m"],["pressure_strike",1,"landing pressure point attacks on the likes of Spider-Man","m"]],
+"16":[["blink",2,"Ingrid can move from one place to another at will","m"]],
+"17":[["phase",1,"He can pass through solid objects with no visible injuries","h"],["levitation",1,"He can also lift himself into the air","h"],["blink",1,"He can disappear and mysteriously reappear in another location several feet away","h"],["energy_beam",1,"He can fire needle thin green lasers","h"],["giant_size",1,"Jack-Jack can increase his mass and physical size","m"],["super_speed",1,"Jack-Jack can move at high speeds","m"],["super_strength",1,"He is strong enough to physically fight a raccoon and throw lawn furniture","m"]],
+"18":[["super_speed",1,"countering his teleportation powers with her great speed","l"]],
+"25":[["super_strength",1,"Superhuman Strength","h"],["super_speed",1,"can reach a top speed of about 45 miles per hour","h"],["regeneration",2,"he can fully regenerate missing limbs","h"],["invulnerability",1,"small caliber bullets without sustaining injury","m"]]},
+"W":{"11":["armor","Darkmail",3,"possessed a +3 enchantment","m"],"23":["weapon","Dance Blade of the Seven Winds",3,"enhanced the magical abilities of its wielder","m"],"27":["armor","Dancer's Silhouette",4,"powerful +6 enchantments","m"]},
+"x":{"0":["gravitokinesis","force field"],"1":["magic"],"2":["stone body"],"5":["electrokinesis"],"6":["hardlight constructs"],"8":["time manipulation"],"13":["water form"],"14":["chi"],"16":["cryokinesis","weather manipulation","telekinesis","astral projection"],"17":["polymorphing","intangibility"],"18":["lightning"],"22":["radioactive silk"],"24":["pyrokinesis","keyblade"],"25":["superhuman stamina"],"26":["shapeshifting"],"28":["temperature control"],"30":["the Force"]},
+"z":{},
+"f":{},
+"u":{},
+"u0":{}}

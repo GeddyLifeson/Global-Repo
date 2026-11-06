@@ -1,0 +1,19 @@
+{"d":0,
+"b1":[64,65,68,69,70,72,73,74,76,77,80,81,82,84,85,86,87,88,89,92],
+"n":{},
+"p":{
+"70":[["giant_size",3,"is really able to alter his own size to titanic proportions","l"],["blink",2,"can teleport from place to place instantly","l"],["super_strength",3,"is extremely strong","l"],["immortal_body",2,"is immortal, and cannot die","l"]],
+"73":[["super_strength",3,"lift objects up to 3,000 times his own weight","l"]],
+"81":[["giant_size",3,"Scott is able to grow himself up to much larger sizes","m"],["super_strength",2,"Scott possesses superhuman strength when he is the size of an insect","m"],["invulnerability",2,"Scott possesses superhuman durability when he is the size of a giant","l"]],
+"85":[["energy_beam",1,"Sybil shoots a laser beam in her direction","l"]],
+"86":[["energy_beam",2,"fired as a directed energy attack ranging from near-laser-like precision to a destructively concussive blast","m"],["invulnerability",2,"she came out of the incident alive with only slightly torn clothes and frazzled hair","l"]],
+"88":[["flight",1,"Flight/Levitation","l"],["super_strength",1,"Super Strength","l"],["super_speed",1,"Super Speed","l"],["invisibility",1,"Invisibility","l"],["phase",1,"Intangibility","l"],["regeneration",1,"Healing Factor","l"],["energy_beam",1,"Heat Vision/Laser Vision","l"],["fireball",1,"Pyrokinesis","l"]],
+"89":[["super_speed",2,"a pair of supercharged boots that give him super speed","l"]]
+},
+"W":{
+"67":["weapon","Dawnspeaker",2,"It was a +5 disruption ghost touch holy heavy mace.","h"],
+"71":["weapon","dart",1,"A dart is a small sharp implement intended to be used as a ranged weapon","h"],
+"83":["weapon","death spear",2,"A death spear was a +1 longspear.","h"]
+},
+"x":{"64":["shapeshifting"],"65":["crystallokinesis"],"68":["vibration manipulation"],"69":["shapeshifting"],"72":["shadow magic"],"73":["extra arms"],"74":["de-evolution"],"76":["enhanced senses"],"80":["noor manipulation","retrocognition"],"81":["size manipulation","insect control"],"84":["floating spheres"],"85":["precognition","projection"],"92":["spidey-sense","shapeshifting"]},
+"z":{},"f":{},"u0":{}}
