@@ -1,0 +1,253 @@
+{
+ "d": 0,
+ "b1": [
+  0,
+  1,
+  4,
+  5,
+  6,
+  7,
+  8,
+  11,
+  12,
+  20,
+  21,
+  22,
+  23,
+  24,
+  25,
+  26,
+  27,
+  29,
+  30,
+  31,
+  32,
+  35,
+  36,
+  37,
+  38,
+  39,
+  40
+ ],
+ "n": {
+  "21": "Destroyer",
+  "23": "Dark Dragon",
+  "31": "Gitrog monster",
+  "38": "Gitrog monster",
+  "32": "Eron",
+  "39": "Eron"
+ },
+ "p": {
+  "12": [
+   [
+    "flight",
+    1,
+    "With his wings, he was capable of flight",
+    "m"
+   ],
+   [
+    "fireball",
+    1,
+    "able to easily overwhelm most opponents by breathing large streams of fire",
+    "m"
+   ]
+  ],
+  "20": [
+   [
+    "regeneration",
+    3,
+    "the metal structures reconnect, as if it were a sort of regeneration",
+    "l"
+   ]
+  ],
+  "21": [
+   [
+    "energy_beam",
+    1,
+    "The Destroyer can unleashed energy blast through its eyes.",
+    "m"
+   ],
+   [
+    "super_strength",
+    1,
+    "enough to bat away a car hurled at it with apparent ease",
+    "m"
+   ],
+   [
+    "invulnerability",
+    2,
+    "Even when Thor hit him with Mjolnir showed no signs of damage from it.",
+    "l"
+   ]
+  ],
+  "22": [
+   [
+    "whirlwind",
+    1,
+    "Deforestator can spin into a razor-sharp tornado that can cut through most substances",
+    "m"
+   ]
+  ],
+  "23": [
+   [
+    "flight",
+    1,
+    "Like all dragons he can fly using his wings",
+    "m"
+   ],
+   [
+    "fireball",
+    1,
+    "can breathe fire from his mouth",
+    "m"
+   ],
+   [
+    "super_strength",
+    2,
+    "His strength is superhuman and nearly unmatched by any dragon or magical creature in the magical community.",
+    "l"
+   ],
+   [
+    "blink",
+    2,
+    "Teleportation so he can teleport himself and others from one place to another",
+    "m"
+   ]
+  ],
+  "24": [
+   [
+    "flight",
+    1,
+    "Storm is capable of flying.",
+    "m"
+   ],
+   [
+    "whirlwind",
+    2,
+    "Storm is able to create and control wind through its meteorological powers.",
+    "l"
+   ],
+   [
+    "energy_beam",
+    2,
+    "using this power in combat to fire strong electrical beams at its targets",
+    "l"
+   ],
+   [
+    "freeze_breath",
+    1,
+    "Storm can generate ice and snow-laden gusts of wind.",
+    "l"
+   ]
+  ],
+  "25": [
+   [
+    "flight",
+    1,
+    "It also gives her the ability of flight and transportation.",
+    "m"
+   ]
+  ],
+  "26": [
+   [
+    "super_strength",
+    2,
+    "enabling him to lift somewhere in excess of 500 tons",
+    "m"
+   ],
+   [
+    "regeneration",
+    1,
+    "he is capable of regenerating great amounts of damaged or destroyed tissue",
+    "m"
+   ],
+   [
+    "invulnerability",
+    2,
+    "His body is also capable of withstanding tremendous impact forces, such as artillery shells and powerful energy blasts, without sustaining injury.",
+    "m"
+   ]
+  ],
+  "27": [
+   [
+    "dragon_form",
+    3,
+    "reshaped his body into that of a twisted dragon",
+    "m"
+   ],
+   [
+    "flight",
+    1,
+    "Flying into the Ebon Hand encampment",
+    "m"
+   ],
+   [
+    "fireball",
+    2,
+    "Tev incinerated the thallids",
+    "l"
+   ]
+  ],
+  "32": [
+   [
+    "immortal_body",
+    1,
+    "he was immortal and immune to aging",
+    "m"
+   ],
+   [
+    "regeneration",
+    1,
+    "he would regenerate every damage",
+    "m"
+   ]
+  ],
+  "39": [
+   [
+    "immortal_body",
+    1,
+    "he was immortal and immune to aging",
+    "m"
+   ],
+   [
+    "regeneration",
+    1,
+    "he would regenerate every damage",
+    "m"
+   ]
+  ]
+ },
+ "W": {},
+ "x": {
+  "4": [
+   "umbra charms"
+  ],
+  "7": [
+   "fire breath"
+  ],
+  "8": [
+   "psionics"
+  ],
+  "20": [
+   "wormholes"
+  ],
+  "23": [
+   "electricity"
+  ],
+  "24": [
+   "weather control"
+  ],
+  "31": [
+   "gaze mind control"
+  ],
+  "37": [
+   "human disguise"
+  ],
+  "40": [
+   "create Falchion"
+  ]
+ },
+ "z": {},
+ "f": {},
+ "u0": {}
+}
