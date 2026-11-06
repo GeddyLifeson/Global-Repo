@@ -1,6 +1,7 @@
 # shard no_source rows (<=2% each; both cache/shard_N.pages.json.gz and batches/shard_N.src.jsonl are on the branch)
 0	2	250
 1	4	250
+2	2	250
 3	2	250
 4	3	250
 5	1	250
