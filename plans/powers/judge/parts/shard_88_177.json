@@ -1,0 +1,30 @@
+{"d":0,
+"b1":[180,181,182,184,185,186,188,189,191,192,193,194,196,197,198,199,200,202,203,204,205,206,208,209,213,215,219,239,243,247],
+"n":{"200":"Duke Fried"},
+"p":{
+"180":[["flight",1,"The Demonger is able to fly through the thrusters on its feet","m"]],
+"181":[["flight",1,"Both Mechanical Beasts are also able to fly through a booster at the bottom of their body","m"]],
+"186":[["flight",1,"Genocider F9 is able to fly through its propulsion units on its wings and feet","m"]],
+"188":[["flight",1,"Drago is able to fly through the thrusters on its body","m"]],
+"189":[["flight",1,"He is capable of flying in the air","m"],["energy_beam",1,"he utilizes a beam that causes whatever it touches to explode","m"]],
+"194":[["flight",1,"Gratonios is capable of short flight","m"],["energy_beam",1,"can shoot beams that can cause explosions from the eye sockets","m"]],
+"196":[["super_strength",1,"Euingaros had super powered strength","m"],["fireball",1,"could breath fire","l"]],
+"198":[["flight",1,"he is capable of flight","m"],["super_speed",1,"making him faster runner than Mazinger Z","l"]],
+"202":[["fireball",1,"M's gloves are capable of releasing flames to attack","l"]],
+"204":[["flight",1,"Headhawk M3 is able to fly at high speeds","m"]],
+"205":[["flight",1,"Marvalus had the ability of flight","m"],["super_speed",2,"could go at about mach 5 speeds","m"]],
+"206":[["flight",1,"Koakoa can fly","m"],["energy_beam",1,"can shoot firey Vegatron beams from its eye-like spheres","m"]],
+"208":[["flight",1,"Tarantas was capable of flight through boosters","m"]],
+"213":[["super_strength",1,"He was also incredibly strong","m"],["invulnerability",1,"Nico was incredibly durable","m"]]
+},
+"W":{
+"183":["armor","Delver's plate",1,"granted the wearer limited protection from magical spells and abilities","l"],
+"187":["armor","Delryn family shield",1,"protected its wielder from both fire and cold","l"],
+"207":["armor","Delver's armor",1,"improved the wearers defenses against most natural and magical dangers","l"],
+"211":["armor","Deep Dark Red",1,"see in the dark as if by the darkvision spell","l"],
+"227":["weapon","Demon's Spite",1,"had a good chance of infecting its targets with demon fever","l"],
+"231":["armor","Deepknight's brigandine",1,"possessed increased defensive qualities","l"],
+"235":["armor","Deep guardian's plate",2,"granted the wearer complete immunity to paralyzation","l"]
+},
+"x":{"213":["reality modification (modding)"],"180":["sonic ray"],"188":["sonic screech","infection"],"205":[]},
+"z":{},"f":{},"u0":{}}
