@@ -1,19 +1,19 @@
 {"id": "world-of-warcraft|308236", "title": "Zul'Aman Creeping Pangoroot", "url": "https://warcraft.wiki.gg/wiki/Zul%27Aman_Creeping_Pangoroot"}
 {"id": "world-of-warcraft|308238", "title": "Zul'Aman Brazier Post", "url": "https://warcraft.wiki.gg/wiki/Zul%27Aman_Brazier_Post"}
-{"id": "xcom|24", "title": "", "url": ""}
-{"id": "xcom|125", "title": "", "url": ""}
-{"id": "xcom|182", "title": "", "url": ""}
-{"id": "xcom|190", "title": "", "url": ""}
-{"id": "xcom|299", "title": "", "url": ""}
-{"id": "xcom|328", "title": "", "url": ""}
-{"id": "xcom|375", "title": "", "url": ""}
-{"id": "xcom|396", "title": "", "url": ""}
-{"id": "xcom|591", "title": "", "url": ""}
-{"id": "xcom|638", "title": "", "url": ""}
-{"id": "xcom|673", "title": "", "url": ""}
-{"id": "xcom|677", "title": "", "url": ""}
-{"id": "xcom|740", "title": "", "url": ""}
-{"id": "xcom|807", "title": "", "url": ""}
+{"id": "xcom|24", "title": "Deep Pockets", "url": "https://xcom.fandom.com/wiki/Deep_Pockets"}
+{"id": "xcom|125", "title": "Distortion Field", "url": "https://xcom.fandom.com/wiki/Distortion_Field"}
+{"id": "xcom|182", "title": "Conceal", "url": "https://xcom.fandom.com/wiki/Conceal"}
+{"id": "xcom|190", "title": "Avatar (XCOM 2)", "url": "https://xcom.fandom.com/wiki/Avatar_%28XCOM_2%29"}
+{"id": "xcom|299", "title": "Action Point (XCOM 2)", "url": "https://xcom.fandom.com/wiki/Action_Point_%28XCOM_2%29"}
+{"id": "xcom|328", "title": "Operation Devil's Moon", "url": "https://xcom.fandom.com/wiki/Operation_Devil%27s_Moon"}
+{"id": "xcom|375", "title": "Power Generator", "url": "https://xcom.fandom.com/wiki/Power_Generator"}
+{"id": "xcom|396", "title": "Hover S.H.I.V.", "url": "https://xcom.fandom.com/wiki/Hover_S.H.I.V."}
+{"id": "xcom|591", "title": "Frostbite", "url": "https://xcom.fandom.com/wiki/Frostbite"}
+{"id": "xcom|638", "title": "Range (XCOM 2)", "url": "https://xcom.fandom.com/wiki/Range_%28XCOM_2%29"}
+{"id": "xcom|673", "title": "Smoke and Mirrors", "url": "https://xcom.fandom.com/wiki/Smoke_and_Mirrors"}
+{"id": "xcom|677", "title": "Sniper Class", "url": "https://xcom.fandom.com/wiki/Sniper_Class"}
+{"id": "xcom|740", "title": "Telekinetic Field", "url": "https://xcom.fandom.com/wiki/Telekinetic_Field"}
+{"id": "xcom|807", "title": "Shieldwall", "url": "https://xcom.fandom.com/wiki/Shieldwall"}
 {"id": "xenoblade|42", "title": "Adventurers in Peril", "url": "https://xenoblade.fandom.com/wiki/Adventurers_in_Peril"}
 {"id": "xenoblade|53", "title": "Adam's Apple", "url": "https://xenoblade.fandom.com/wiki/Adam%27s_Apple"}
 {"id": "xenoblade|78", "title": "1F Main Power Switch", "url": "https://xenoblade.fandom.com/wiki/1F_Main_Power_Switch"}
@@ -21,7 +21,7 @@
 {"id": "xenoblade|80", "title": "3F Main Power Switch", "url": "https://xenoblade.fandom.com/wiki/3F_Main_Power_Switch"}
 {"id": "xenoblade|120", "title": "A Girl's Wings", "url": "https://xenoblade.fandom.com/wiki/A_Girl%27s_Wings"}
 {"id": "xenoblade|379", "title": "Acqua Pazza à la City", "url": "https://xenoblade.fandom.com/wiki/Acqua_Pazza_%C3%A0_la_City"}
-{"id": "xenoblade|419", "title": "Colony 6 Quests", "url": "https://xenoblade.fandom.com/wiki/Colony_6_Quests"}
+{"id": "xenoblade|419", "title": "Colony 9 Quests", "url": "https://xenoblade.fandom.com/wiki/Colony_9_Quests"}
 {"id": "xenoblade|424", "title": "Agniratha", "url": "https://xenoblade.fandom.com/wiki/Agniratha"}
 {"id": "xenoblade|429", "title": "Agniratha Quests", "url": "https://xenoblade.fandom.com/wiki/Agniratha_Quests"}
 {"id": "xenoblade|467", "title": "Amber Fischer", "url": "https://xenoblade.fandom.com/wiki/Amber_Fischer"}
@@ -45,7 +45,7 @@
 {"id": "xenoblade|1474", "title": "Banquet Vassago", "url": "https://xenoblade.fandom.com/wiki/Banquet_Vassago"}
 {"id": "xenoblade|1500", "title": "Bana the Betrayer", "url": "https://xenoblade.fandom.com/wiki/Bana_the_Betrayer"}
 {"id": "xenoblade|1518", "title": "Battle Effect", "url": "https://xenoblade.fandom.com/wiki/Battle_Effect"}
-{"id": "xenoblade|1659", "title": "Hammer Attachment", "url": "https://xenoblade.fandom.com/wiki/Hammer_Attachment"}
+{"id": "xenoblade|1659", "title": "Arms Attachment", "url": "https://xenoblade.fandom.com/wiki/Arms_Attachment"}
 {"id": "xenoblade|1756", "title": "Automaton Sentry", "url": "https://xenoblade.fandom.com/wiki/Automaton_Sentry"}
 {"id": "xenoblade|1854", "title": "Bionis' Leg Quests", "url": "https://xenoblade.fandom.com/wiki/Bionis%27_Leg_Quests"}
 {"id": "xenoblade|1857", "title": "Benign Cricket (XC1)", "url": "https://xenoblade.fandom.com/wiki/Benign_Cricket_%28XC1%29"}
@@ -139,7 +139,7 @@
 {"id": "xenoblade|9640", "title": "Island Caravan", "url": "https://xenoblade.fandom.com/wiki/Island_Caravan"}
 {"id": "xenoblade|9743", "title": "Jakt Geyser", "url": "https://xenoblade.fandom.com/wiki/Jakt_Geyser"}
 {"id": "xenoblade|9745", "title": "Kana Peak", "url": "https://xenoblade.fandom.com/wiki/Kana_Peak"}
-{"id": "xenoblade|9874", "title": "Hammer Attachment", "url": "https://xenoblade.fandom.com/wiki/Hammer_Attachment"}
+{"id": "xenoblade|9874", "title": "Arms Attachment", "url": "https://xenoblade.fandom.com/wiki/Arms_Attachment"}
 {"id": "xenoblade|10062", "title": "Kalukalu", "url": "https://xenoblade.fandom.com/wiki/Kalukalu"}
 {"id": "xenoblade|10120", "title": "Kromar Coast", "url": "https://xenoblade.fandom.com/wiki/Kromar_Coast"}
 {"id": "xenoblade|10159", "title": "Kintrees", "url": "https://xenoblade.fandom.com/wiki/Kintrees"}
@@ -147,7 +147,7 @@
 {"id": "xenoblade|10274", "title": "Land of Morytha", "url": "https://xenoblade.fandom.com/wiki/Land_of_Morytha"}
 {"id": "xenoblade|10278", "title": "Lascham Island", "url": "https://xenoblade.fandom.com/wiki/Lascham_Island"}
 {"id": "xenoblade|10293", "title": "Knuckle Attachment", "url": "https://xenoblade.fandom.com/wiki/Knuckle_Attachment"}
-{"id": "xenoblade|10294", "title": "Hammer Attachment", "url": "https://xenoblade.fandom.com/wiki/Hammer_Attachment"}
+{"id": "xenoblade|10294", "title": "Arms Attachment", "url": "https://xenoblade.fandom.com/wiki/Arms_Attachment"}
 {"id": "xenoblade|10463", "title": "La Luz Temple", "url": "https://xenoblade.fandom.com/wiki/La_Luz_Temple"}
 {"id": "xenoblade|10545", "title": "Lava Cave", "url": "https://xenoblade.fandom.com/wiki/Lava_Cave"}
 {"id": "xenoblade|10598", "title": "Leva'el, the Terminus", "url": "https://xenoblade.fandom.com/wiki/Leva%27el%2C_the_Terminus"}
@@ -161,7 +161,7 @@
 {"id": "xenoblade|11252", "title": "Lunae Rings", "url": "https://xenoblade.fandom.com/wiki/Lunae_Rings"}
 {"id": "xenoblade|11278", "title": "Lucius", "url": "https://xenoblade.fandom.com/wiki/Lucius"}
 {"id": "xenoblade|11284", "title": "Lulumu", "url": "https://xenoblade.fandom.com/wiki/Lulumu"}
-{"id": "xenoblade|11300", "title": "Colony 6 Quests", "url": "https://xenoblade.fandom.com/wiki/Colony_6_Quests"}
+{"id": "xenoblade|11300", "title": "Makna Forest Quests", "url": "https://xenoblade.fandom.com/wiki/Makna_Forest_Quests"}
 {"id": "xenoblade|11364", "title": "Magma Rock", "url": "https://xenoblade.fandom.com/wiki/Magma_Rock"}
 {"id": "xenoblade|11407", "title": "Ma-non", "url": "https://xenoblade.fandom.com/wiki/Ma-non"}
 {"id": "xenoblade|11719", "title": "Memory Space", "url": "https://xenoblade.fandom.com/wiki/Memory_Space"}
