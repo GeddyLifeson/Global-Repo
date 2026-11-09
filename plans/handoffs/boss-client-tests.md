@@ -5,7 +5,7 @@ Run through the already-running w28 client (joined to C:\MCTestServer\w28, survi
 Evidence = server log line (C:\MCTestServer\w28\logs\latest.log) AND a screenshot of the fight. Otherwise UNTESTED. Save shots next to the report and tick the item in plans/V1_CHECKLIST.md (branch claude/project-thread-wx17x3) with the log line and shot path. Push after each tick.
 
 ## Prep (once)
-1. `gamemode survival Uber_Byte`, `effect give Uber_Byte minecraft:resistance 600 1` is NOT allowed (player must be hurt). Instead give iron armor + sword: `give Uber_Byte minecraft:iron_sword`, set health full: `effect give Uber_Byte minecraft:instant_health 1 5`.
+1. `gamemode survival Uber_Byte` (no resistance effects, the player must be hurt). Give iron armor + sword: `give Uber_Byte minecraft:iron_sword`, set health full: `effect give Uber_Byte minecraft:instant_health 1 5`.
 2. `kill @e[type=!player,distance=..64]` to clear the area; `time set day`; `gamerule doMobSpawning false`.
 3. Mark the log position (note the last line number) before each boss.
 
