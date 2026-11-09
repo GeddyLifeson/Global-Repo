@@ -26,3 +26,10 @@ Plus namespace-default gating (31 II, 30 III, 24 IV, 20 V, 40 VI, 32 VII, 1 VIII
 - Namespaces VIII/RODOS carry only 1 namespace default each.
 ## Evidence command
 `git show claude/pack-v1-3-wave17:kubejs/data/diaithir_tech/tech_tree.json` then count techs by `era`; items by `techs[v].era` or the `.ERA` suffix of the tech id in `tech_items.json`.
+
+## Addendum: files found in the repos (2026-11-09)
+Found: DiaithirRPG `content/tech_ages.json` (16,604 items, 335 namespaces, order has VIII), `content/ages.json`, and diaithir-laptop `canon/eras.csv`.
+- `eras.csv`: rows I-VII only; no VIII row and no RODOS row (spec in FUTURE_RODOS_ROWS.md is not applied). F8 and F9 canon rows: MISSING.
+- `content/ages.json`: ages TELLING and I-VII only; no VIII or RODOS entry.
+- `content/tech_ages.json` items per Age: I 2012, II 5046, III 4985, IV 2753, V 623, VI 897, VII 136, VIII 88, RODOS 64; namespace defaults VIII 2, RODOS 1.
+- Three sources disagree on gated items: pack `tech_items.json` VIII 73 / RODOS 46; content `tech_ages.json` VIII 88 / RODOS 64; spec VIII 70 / RODOS 41. None equals the spec, so F8 and F9 data stay UNTICKED. The content file is the input and the pack file is its older output, so the pack needs a rebuild once the spec number is settled.
