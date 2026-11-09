@@ -40,9 +40,16 @@ def _match(a, b, K=80):
     if k and a[:k] in b[:k + 400]: return True  # lead after a stub/notice banner
     a, b = a[:k], b[:k]
     return bool(a) and difflib.SequenceMatcher(None, a, b).ratio() >= 0.75
+def _words(s, n=16): return re.findall(r'[0-9a-z]+', s.lower())[:n]
+def _wmatch(a, b):
+    # lead lost words (icon/type markup stripped) or page has a gallery/see-also banner: lead's words in order vs page start
+    a = _words(a); b = _words(re.sub(r'^\s*ArticleGallery\s*', '', b), 60)
+    if len(a) < 6: return False
+    sm = difflib.SequenceMatcher(None, a, b[:len(a) + 30], autojunk=False)
+    return sum(m.size for m in sm.get_matching_blocks()) >= 0.85 * len(a)
 def match(a, b):
     a = re.sub(r'\[https?://\S+ ([^\]]*)\]', r'\1', a)  # [url label] -> label
-    return _match(a, b) or _match(noparen(a), noparen(b)) or _match(a, b, 40)  # 40 chars: leads whose later links were stripped
+    return _match(a, b) or _match(noparen(a), noparen(b)) or _match(a, b, 40) or _wmatch(a, b)  # 40 chars: leads whose later links were stripped
 def html2txt(h):
     """Rendered HTML -> plain text with '== Heading ==' lines (for wikis without TextExtracts, e.g. fandom)."""
     import html as H
