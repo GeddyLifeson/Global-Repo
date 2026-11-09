@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+﻿#!/usr/bin/env python3
 """Build pack-* Library cards from mod jars (real lang text and recipes only; nothing invented).
 Usage: python3 -I tools/pack_cards.py JAR_DIR MISSING_IDS_TSV OUT_JSONL
 MISSING_IDS_TSV: first column = pack id (ns:path), e.g. from tools/panscriptum_parity.py gap.
@@ -36,7 +36,7 @@ for jar in sorted(glob.glob(os.path.join(jar_dir, "*.jar"))):
             except Exception: continue
             res = r.get("result")
             rid = res.get("id") or res.get("item") if isinstance(res, dict) else res
-            c = cards.get(rid)
+            c = cards.get(rid) if isinstance(rid, str) else None
             if c and c["made_from"] is None:
                 c["made_from"] = sorted(set(filter(None, ing(r.get("ingredients") or r.get("ingredient") or list((r.get("key") or {}).values())))))
 with open(out, "w", encoding="utf-8") as f:
