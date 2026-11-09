@@ -1,0 +1,313 @@
+item,age,why
+diaithir_classes:ceilg_boots_bronze,II,"classes: tier by material (bronze II, steel V, composite VI), rest III"
+diaithir_classes:ceilg_boots_composite,VI,"classes: tier by material (bronze II, steel V, composite VI), rest III"
+diaithir_classes:ceilg_boots_steel,V,"classes: tier by material (bronze II, steel V, composite VI), rest III"
+diaithir_classes:ceilg_chestplate_bronze,II,"classes: tier by material (bronze II, steel V, composite VI), rest III"
+diaithir_classes:ceilg_chestplate_composite,VI,"classes: tier by material (bronze II, steel V, composite VI), rest III"
+diaithir_classes:ceilg_chestplate_steel,V,"classes: tier by material (bronze II, steel V, composite VI), rest III"
+diaithir_classes:ceilg_dagger_bronze,II,"classes: tier by material (bronze II, steel V, composite VI), rest III"
+diaithir_classes:ceilg_dagger_composite,VI,"classes: tier by material (bronze II, steel V, composite VI), rest III"
+diaithir_classes:ceilg_dagger_steel,V,"classes: tier by material (bronze II, steel V, composite VI), rest III"
+diaithir_classes:ceilg_emblem,III,"classes: tier by material (bronze II, steel V, composite VI), rest III"
+diaithir_classes:ceilg_helmet_bronze,II,"classes: tier by material (bronze II, steel V, composite VI), rest III"
+diaithir_classes:ceilg_helmet_composite,VI,"classes: tier by material (bronze II, steel V, composite VI), rest III"
+diaithir_classes:ceilg_helmet_steel,V,"classes: tier by material (bronze II, steel V, composite VI), rest III"
+diaithir_classes:ceilg_leggings_bronze,II,"classes: tier by material (bronze II, steel V, composite VI), rest III"
+diaithir_classes:ceilg_leggings_composite,VI,"classes: tier by material (bronze II, steel V, composite VI), rest III"
+diaithir_classes:ceilg_leggings_steel,V,"classes: tier by material (bronze II, steel V, composite VI), rest III"
+diaithir_classes:charm_bronze,II,"classes: tier by material (bronze II, steel V, composite VI), rest III"
+diaithir_classes:charm_composite,VI,"classes: tier by material (bronze II, steel V, composite VI), rest III"
+diaithir_classes:charm_steel,V,"classes: tier by material (bronze II, steel V, composite VI), rest III"
+diaithir_classes:cleirech_boots_bronze,II,"classes: tier by material (bronze II, steel V, composite VI), rest III"
+diaithir_classes:cleirech_boots_composite,VI,"classes: tier by material (bronze II, steel V, composite VI), rest III"
+diaithir_classes:cleirech_boots_steel,V,"classes: tier by material (bronze II, steel V, composite VI), rest III"
+diaithir_classes:cleirech_chestplate_bronze,II,"classes: tier by material (bronze II, steel V, composite VI), rest III"
+diaithir_classes:cleirech_chestplate_composite,VI,"classes: tier by material (bronze II, steel V, composite VI), rest III"
+diaithir_classes:cleirech_chestplate_steel,V,"classes: tier by material (bronze II, steel V, composite VI), rest III"
+diaithir_classes:cleirech_crozier_bronze,II,"classes: tier by material (bronze II, steel V, composite VI), rest III"
+diaithir_classes:cleirech_crozier_composite,VI,"classes: tier by material (bronze II, steel V, composite VI), rest III"
+diaithir_classes:cleirech_crozier_steel,V,"classes: tier by material (bronze II, steel V, composite VI), rest III"
+diaithir_classes:cleirech_emblem,III,"classes: tier by material (bronze II, steel V, composite VI), rest III"
+diaithir_classes:cleirech_helmet_bronze,II,"classes: tier by material (bronze II, steel V, composite VI), rest III"
+diaithir_classes:cleirech_helmet_composite,VI,"classes: tier by material (bronze II, steel V, composite VI), rest III"
+diaithir_classes:cleirech_helmet_steel,V,"classes: tier by material (bronze II, steel V, composite VI), rest III"
+diaithir_classes:cleirech_leggings_bronze,II,"classes: tier by material (bronze II, steel V, composite VI), rest III"
+diaithir_classes:cleirech_leggings_composite,VI,"classes: tier by material (bronze II, steel V, composite VI), rest III"
+diaithir_classes:cleirech_leggings_steel,V,"classes: tier by material (bronze II, steel V, composite VI), rest III"
+diaithir_classes:fian_boots_bronze,II,"classes: tier by material (bronze II, steel V, composite VI), rest III"
+diaithir_classes:fian_boots_composite,VI,"classes: tier by material (bronze II, steel V, composite VI), rest III"
+diaithir_classes:fian_boots_steel,V,"classes: tier by material (bronze II, steel V, composite VI), rest III"
+diaithir_classes:fian_chestplate_bronze,II,"classes: tier by material (bronze II, steel V, composite VI), rest III"
+diaithir_classes:fian_chestplate_composite,VI,"classes: tier by material (bronze II, steel V, composite VI), rest III"
+diaithir_classes:fian_chestplate_steel,V,"classes: tier by material (bronze II, steel V, composite VI), rest III"
+diaithir_classes:fian_emblem,III,"classes: tier by material (bronze II, steel V, composite VI), rest III"
+diaithir_classes:fian_helmet_bronze,II,"classes: tier by material (bronze II, steel V, composite VI), rest III"
+diaithir_classes:fian_helmet_composite,VI,"classes: tier by material (bronze II, steel V, composite VI), rest III"
+diaithir_classes:fian_helmet_steel,V,"classes: tier by material (bronze II, steel V, composite VI), rest III"
+diaithir_classes:fian_leggings_bronze,II,"classes: tier by material (bronze II, steel V, composite VI), rest III"
+diaithir_classes:fian_leggings_composite,VI,"classes: tier by material (bronze II, steel V, composite VI), rest III"
+diaithir_classes:fian_leggings_steel,V,"classes: tier by material (bronze II, steel V, composite VI), rest III"
+diaithir_classes:fian_spear_bronze,II,"classes: tier by material (bronze II, steel V, composite VI), rest III"
+diaithir_classes:fian_spear_composite,VI,"classes: tier by material (bronze II, steel V, composite VI), rest III"
+diaithir_classes:fian_spear_steel,V,"classes: tier by material (bronze II, steel V, composite VI), rest III"
+diaithir_classes:fian_sword_bronze,II,"classes: tier by material (bronze II, steel V, composite VI), rest III"
+diaithir_classes:fian_sword_composite,VI,"classes: tier by material (bronze II, steel V, composite VI), rest III"
+diaithir_classes:fian_sword_steel,V,"classes: tier by material (bronze II, steel V, composite VI), rest III"
+diaithir_classes:ring_bronze,II,"classes: tier by material (bronze II, steel V, composite VI), rest III"
+diaithir_classes:ring_composite,VI,"classes: tier by material (bronze II, steel V, composite VI), rest III"
+diaithir_classes:ring_steel,V,"classes: tier by material (bronze II, steel V, composite VI), rest III"
+diaithir_classes:rune_beith,III,"classes: tier by material (bronze II, steel V, composite VI), rest III"
+diaithir_classes:rune_coll,III,"classes: tier by material (bronze II, steel V, composite VI), rest III"
+diaithir_classes:rune_dair,III,"classes: tier by material (bronze II, steel V, composite VI), rest III"
+diaithir_classes:rune_fearn,III,"classes: tier by material (bronze II, steel V, composite VI), rest III"
+diaithir_classes:rune_iodhadh,III,"classes: tier by material (bronze II, steel V, composite VI), rest III"
+diaithir_classes:rune_luis,III,"classes: tier by material (bronze II, steel V, composite VI), rest III"
+diaithir_classes:rune_nion,III,"classes: tier by material (bronze II, steel V, composite VI), rest III"
+diaithir_classes:rune_ruis,III,"classes: tier by material (bronze II, steel V, composite VI), rest III"
+diaithir_classes:rune_sail,III,"classes: tier by material (bronze II, steel V, composite VI), rest III"
+diaithir_classes:rune_tinne,III,"classes: tier by material (bronze II, steel V, composite VI), rest III"
+diaithir_classes:rune_uath,III,"classes: tier by material (bronze II, steel V, composite VI), rest III"
+diaithir_classes:sleagh_boots_bronze,II,"classes: tier by material (bronze II, steel V, composite VI), rest III"
+diaithir_classes:sleagh_boots_composite,VI,"classes: tier by material (bronze II, steel V, composite VI), rest III"
+diaithir_classes:sleagh_boots_steel,V,"classes: tier by material (bronze II, steel V, composite VI), rest III"
+diaithir_classes:sleagh_bow_bronze,II,"classes: tier by material (bronze II, steel V, composite VI), rest III"
+diaithir_classes:sleagh_bow_composite,VI,"classes: tier by material (bronze II, steel V, composite VI), rest III"
+diaithir_classes:sleagh_bow_steel,V,"classes: tier by material (bronze II, steel V, composite VI), rest III"
+diaithir_classes:sleagh_chestplate_bronze,II,"classes: tier by material (bronze II, steel V, composite VI), rest III"
+diaithir_classes:sleagh_chestplate_composite,VI,"classes: tier by material (bronze II, steel V, composite VI), rest III"
+diaithir_classes:sleagh_chestplate_steel,V,"classes: tier by material (bronze II, steel V, composite VI), rest III"
+diaithir_classes:sleagh_emblem,III,"classes: tier by material (bronze II, steel V, composite VI), rest III"
+diaithir_classes:sleagh_helmet_bronze,II,"classes: tier by material (bronze II, steel V, composite VI), rest III"
+diaithir_classes:sleagh_helmet_composite,VI,"classes: tier by material (bronze II, steel V, composite VI), rest III"
+diaithir_classes:sleagh_helmet_steel,V,"classes: tier by material (bronze II, steel V, composite VI), rest III"
+diaithir_classes:sleagh_leggings_bronze,II,"classes: tier by material (bronze II, steel V, composite VI), rest III"
+diaithir_classes:sleagh_leggings_composite,VI,"classes: tier by material (bronze II, steel V, composite VI), rest III"
+diaithir_classes:sleagh_leggings_steel,V,"classes: tier by material (bronze II, steel V, composite VI), rest III"
+diaithir_classes:sleagh_sling_bronze,II,"classes: tier by material (bronze II, steel V, composite VI), rest III"
+diaithir_classes:sleagh_sling_composite,VI,"classes: tier by material (bronze II, steel V, composite VI), rest III"
+diaithir_classes:sleagh_sling_steel,V,"classes: tier by material (bronze II, steel V, composite VI), rest III"
+diaithir_end:ash_sediment,VII,End material
+diaithir_end:void_stone,VII,End material
+diaithir_overworld_biomes:biome_compass,I,overworld biome item
+diaithir_overworld_biomes:crystal_shard,I,overworld biome item
+diaithir_overworld_biomes:ember_core,I,overworld biome item
+diaithir_overworld_biomes:meteor_trace,I,overworld biome item
+diaithir_overworld_biomes:spore_dust,I,overworld biome item
+diaithirpipes:connector,IV,pipe tier
+diaithirpipes:energy_pipe_advanced,VI,pipe tier
+diaithirpipes:energy_pipe_basic,IV,pipe tier
+diaithirpipes:energy_pipe_improved,V,pipe tier
+diaithirpipes:fluid_pipe_advanced,VI,pipe tier
+diaithirpipes:fluid_pipe_basic,IV,pipe tier
+diaithirpipes:fluid_pipe_improved,V,pipe tier
+diaithirpipes:item_pipe_advanced,VI,pipe tier
+diaithirpipes:item_pipe_basic,IV,pipe tier
+diaithirpipes:item_pipe_improved,V,pipe tier
+diaithirpipes:wrench,IV,pipe tier
+diaithirportable:crafting_upgrade,III,portable upgrade
+diaithirportable:deep_null,"('VII', 'deep null')",portable upgrade
+diaithirportable:diamond_backpack,V,container tier
+diaithirportable:diamond_storage,V,container tier
+diaithirportable:feeding_upgrade,III,portable upgrade
+diaithirportable:gold_backpack,III,container tier
+diaithirportable:gold_storage,III,container tier
+diaithirportable:iron_backpack,III,container tier
+diaithirportable:iron_storage,III,container tier
+diaithirportable:jukebox_upgrade,III,portable upgrade
+diaithirportable:magnet_upgrade,IV,portable upgrade
+diaithirportable:netherite_backpack,VI,container tier
+diaithirportable:netherite_storage,VI,container tier
+diaithirportable:pickup_upgrade,III,portable upgrade
+diaithirportable:smelting_upgrade,III,portable upgrade
+diaithirportable:stack_upgrade,III,portable upgrade
+diaithirportable:void_upgrade,IV,portable upgrade
+diaithirportable:wood_backpack,II,container tier
+diaithirportable:wood_storage,II,container tier
+diaithirrelics:apple_branch,III,Celtic relic
+diaithirrelics:bear_belt,III,Celtic relic
+diaithirrelics:boar_shield,III,Celtic relic
+diaithirrelics:cairn_hammer,III,Celtic relic
+diaithirrelics:dawn_sword,III,Celtic relic
+diaithirrelics:dragon_torque,III,Celtic relic
+diaithirrelics:eagle_spear,III,Celtic relic
+diaithirrelics:fate_ring,III,Celtic relic
+diaithirrelics:frost_shield,III,Celtic relic
+diaithirrelics:giant_belt,III,Celtic relic
+diaithirrelics:gold_torque,III,Celtic relic
+diaithirrelics:light_shield,III,Celtic relic
+diaithirrelics:lightning_spear,III,Celtic relic
+diaithirrelics:mist_bell,III,Celtic relic
+diaithirrelics:moon_torque,III,Celtic relic
+diaithirrelics:oath_sword,III,Celtic relic
+diaithirrelics:raven_whistle,III,Celtic relic
+diaithirrelics:salmon_spear,III,Celtic relic
+diaithirrelics:sea_sword,III,Celtic relic
+diaithirrelics:serpent_axe,III,Celtic relic
+diaithirrelics:shadow_dagger,III,Celtic relic
+diaithirrelics:smith_hammer,III,Celtic relic
+diaithirrelics:star_sword,III,Celtic relic
+diaithirrelics:storm_axe,III,Celtic relic
+diaithirrelics:sun_ring,III,Celtic relic
+diaithirrelics:well_ring,III,Celtic relic
+diaithirrouting:copper_filter_hopper,IV,hopper
+diaithirrouting:energy_module,VI,router/module/filter (tech-by-age: Mekanism/IF era)
+diaithirrouting:extractor_module,VI,router/module/filter (tech-by-age: Mekanism/IF era)
+diaithirrouting:fast_hopper,IV,hopper
+diaithirrouting:filter,VI,router/module/filter (tech-by-age: Mekanism/IF era)
+diaithirrouting:filter_hopper,IV,hopper
+diaithirrouting:filter_module,VI,router/module/filter (tech-by-age: Mekanism/IF era)
+diaithirrouting:fluid_module,VI,router/module/filter (tech-by-age: Mekanism/IF era)
+diaithirrouting:item_collector,VI,router/module/filter (tech-by-age: Mekanism/IF era)
+diaithirrouting:laser_node,VI,router/module/filter (tech-by-age: Mekanism/IF era)
+diaithirrouting:puller_module,VI,router/module/filter (tech-by-age: Mekanism/IF era)
+diaithirrouting:range_card,VI,router/module/filter (tech-by-age: Mekanism/IF era)
+diaithirrouting:round_robin_module,VI,router/module/filter (tech-by-age: Mekanism/IF era)
+diaithirrouting:router,VI,router/module/filter (tech-by-age: Mekanism/IF era)
+diaithirrouting:router_link,VI,router/module/filter (tech-by-age: Mekanism/IF era)
+diaithirrouting:sender_module,VI,router/module/filter (tech-by-age: Mekanism/IF era)
+diaithirrouting:sorter_module,VI,router/module/filter (tech-by-age: Mekanism/IF era)
+diaithirrouting:vacuum_module,VI,router/module/filter (tech-by-age: Mekanism/IF era)
+diaithirrouting:void_module,VI,router/module/filter (tech-by-age: Mekanism/IF era)
+diaithirworldsys:angel_block,IV,"utility block, early"
+diaithirworldsys:crafting_on_a_stick_anvil,III,portable station
+diaithirworldsys:crafting_on_a_stick_cartography_table,III,portable station
+diaithirworldsys:crafting_on_a_stick_chipped_anvil,III,portable station
+diaithirworldsys:crafting_on_a_stick_damaged_anvil,III,portable station
+diaithirworldsys:crafting_on_a_stick_grindstone,III,portable station
+diaithirworldsys:crafting_on_a_stick_loom,III,portable station
+diaithirworldsys:crafting_on_a_stick_smithing_table,III,portable station
+diaithirworldsys:crafting_on_a_stick_stonecutter,III,portable station
+diaithirworldsys:easy_villagers_auto_trader,VI,villager automation
+diaithirworldsys:easy_villagers_breeder,VI,villager automation
+diaithirworldsys:easy_villagers_converter,VI,villager automation
+diaithirworldsys:easy_villagers_farmer,VI,villager automation
+diaithirworldsys:easy_villagers_incubator,VI,villager automation
+diaithirworldsys:easy_villagers_inventory_viewer,VI,villager automation
+diaithirworldsys:easy_villagers_iron_farm,VI,villager automation
+diaithirworldsys:easy_villagers_trader,VI,villager automation
+diaithirworldsys:easy_villagers_villager,VI,villager automation
+diaithirworldsys:fluid_hopper,V,electric/automation utility
+diaithirworldsys:gold_magnet,V,electric/automation utility
+diaithirworldsys:guardvillagers_illusioner_spawn_egg,I,spawn egg
+diaithirworldsys:iron_magnet,V,electric/automation utility
+diaithirworldsys:jewelry_citrine,III,"jewelry by metal/gem (III copper-gold, IV gems and uniques)"
+diaithirworldsys:jewelry_citrine_necklace,III,"jewelry by metal/gem (III copper-gold, IV gems and uniques)"
+diaithirworldsys:jewelry_citrine_ring,III,"jewelry by metal/gem (III copper-gold, IV gems and uniques)"
+diaithirworldsys:jewelry_copper_ring,III,"jewelry by metal/gem (III copper-gold, IV gems and uniques)"
+diaithirworldsys:jewelry_deepslate_gem_vein,III,"jewelry by metal/gem (III copper-gold, IV gems and uniques)"
+diaithirworldsys:jewelry_diamond_necklace,IV,"jewelry by metal/gem (III copper-gold, IV gems and uniques)"
+diaithirworldsys:jewelry_diamond_ring,IV,"jewelry by metal/gem (III copper-gold, IV gems and uniques)"
+diaithirworldsys:jewelry_emerald_necklace,IV,"jewelry by metal/gem (III copper-gold, IV gems and uniques)"
+diaithirworldsys:jewelry_gem_vein,III,"jewelry by metal/gem (III copper-gold, IV gems and uniques)"
+diaithirworldsys:jewelry_gold_ring,III,"jewelry by metal/gem (III copper-gold, IV gems and uniques)"
+diaithirworldsys:jewelry_iron_ring,III,"jewelry by metal/gem (III copper-gold, IV gems and uniques)"
+diaithirworldsys:jewelry_jade,III,"jewelry by metal/gem (III copper-gold, IV gems and uniques)"
+diaithirworldsys:jewelry_jade_necklace,III,"jewelry by metal/gem (III copper-gold, IV gems and uniques)"
+diaithirworldsys:jewelry_jade_ring,III,"jewelry by metal/gem (III copper-gold, IV gems and uniques)"
+diaithirworldsys:jewelry_jewelers_kit,IV,"jewelry by metal/gem (III copper-gold, IV gems and uniques)"
+diaithirworldsys:jewelry_netherite_citrine_necklace,VI,jewelry netherite tier
+diaithirworldsys:jewelry_netherite_citrine_ring,VI,jewelry netherite tier
+diaithirworldsys:jewelry_netherite_jade_necklace,VI,jewelry netherite tier
+diaithirworldsys:jewelry_netherite_jade_ring,VI,jewelry netherite tier
+diaithirworldsys:jewelry_netherite_ruby_necklace,VI,jewelry netherite tier
+diaithirworldsys:jewelry_netherite_ruby_ring,VI,jewelry netherite tier
+diaithirworldsys:jewelry_netherite_sapphire_necklace,VI,jewelry netherite tier
+diaithirworldsys:jewelry_netherite_sapphire_ring,VI,jewelry netherite tier
+diaithirworldsys:jewelry_netherite_tanzanite_necklace,VI,jewelry netherite tier
+diaithirworldsys:jewelry_netherite_tanzanite_ring,VI,jewelry netherite tier
+diaithirworldsys:jewelry_netherite_topaz_necklace,VI,jewelry netherite tier
+diaithirworldsys:jewelry_netherite_topaz_ring,VI,jewelry netherite tier
+diaithirworldsys:jewelry_ruby_necklace,IV,"jewelry by metal/gem (III copper-gold, IV gems and uniques)"
+diaithirworldsys:jewelry_sapphire_necklace,IV,"jewelry by metal/gem (III copper-gold, IV gems and uniques)"
+diaithirworldsys:jewelry_socket_mount,IV,"jewelry by metal/gem (III copper-gold, IV gems and uniques)"
+diaithirworldsys:jewelry_tanzanite,IV,"jewelry by metal/gem (III copper-gold, IV gems and uniques)"
+diaithirworldsys:jewelry_tanzanite_necklace,IV,"jewelry by metal/gem (III copper-gold, IV gems and uniques)"
+diaithirworldsys:jewelry_tanzanite_ring,IV,"jewelry by metal/gem (III copper-gold, IV gems and uniques)"
+diaithirworldsys:jewelry_topaz_necklace,IV,"jewelry by metal/gem (III copper-gold, IV gems and uniques)"
+diaithirworldsys:jewelry_unique_arcane_necklace,IV,"jewelry by metal/gem (III copper-gold, IV gems and uniques)"
+diaithirworldsys:jewelry_unique_arcane_ring,IV,"jewelry by metal/gem (III copper-gold, IV gems and uniques)"
+diaithirworldsys:jewelry_unique_archer_necklace,IV,"jewelry by metal/gem (III copper-gold, IV gems and uniques)"
+diaithirworldsys:jewelry_unique_archer_ring,IV,"jewelry by metal/gem (III copper-gold, IV gems and uniques)"
+diaithirworldsys:jewelry_unique_attack_necklace,IV,"jewelry by metal/gem (III copper-gold, IV gems and uniques)"
+diaithirworldsys:jewelry_unique_attack_ring,IV,"jewelry by metal/gem (III copper-gold, IV gems and uniques)"
+diaithirworldsys:jewelry_unique_crit_necklace,IV,"jewelry by metal/gem (III copper-gold, IV gems and uniques)"
+diaithirworldsys:jewelry_unique_crit_ring,IV,"jewelry by metal/gem (III copper-gold, IV gems and uniques)"
+diaithirworldsys:jewelry_unique_dex_necklace,IV,"jewelry by metal/gem (III copper-gold, IV gems and uniques)"
+diaithirworldsys:jewelry_unique_dex_ring,IV,"jewelry by metal/gem (III copper-gold, IV gems and uniques)"
+diaithirworldsys:jewelry_unique_fire_necklace,IV,"jewelry by metal/gem (III copper-gold, IV gems and uniques)"
+diaithirworldsys:jewelry_unique_fire_ring,IV,"jewelry by metal/gem (III copper-gold, IV gems and uniques)"
+diaithirworldsys:jewelry_unique_frost_necklace,IV,"jewelry by metal/gem (III copper-gold, IV gems and uniques)"
+diaithirworldsys:jewelry_unique_frost_ring,IV,"jewelry by metal/gem (III copper-gold, IV gems and uniques)"
+diaithirworldsys:jewelry_unique_healing_necklace,IV,"jewelry by metal/gem (III copper-gold, IV gems and uniques)"
+diaithirworldsys:jewelry_unique_healing_ring,IV,"jewelry by metal/gem (III copper-gold, IV gems and uniques)"
+diaithirworldsys:jewelry_unique_spell_necklace,IV,"jewelry by metal/gem (III copper-gold, IV gems and uniques)"
+diaithirworldsys:jewelry_unique_spell_ring,IV,"jewelry by metal/gem (III copper-gold, IV gems and uniques)"
+diaithirworldsys:jewelry_unique_tank_necklace,IV,"jewelry by metal/gem (III copper-gold, IV gems and uniques)"
+diaithirworldsys:jewelry_unique_tank_ring,IV,"jewelry by metal/gem (III copper-gold, IV gems and uniques)"
+diaithirworldsys:pocket_bench,IV,"utility block, early"
+diaithirworldsys:redstone_clock,V,electric/automation utility
+diaithirworldsys:ruby,IV,gem
+diaithirworldsys:ruby_ring,IV,gem
+diaithirworldsys:sapphire,IV,gem
+diaithirworldsys:sapphire_ring,IV,gem
+diaithirworldsys:simplemagnets_advanced_demagnetization_coil,V,electric/automation utility
+diaithirworldsys:simplemagnets_basic_demagnetization_coil,V,electric/automation utility
+diaithirworldsys:sky_sand,IV,"utility block, early"
+diaithirworldsys:topaz,IV,gem
+diaithirworldsys:topaz_ring,IV,gem
+diaithirworldsys:utilitarian_black_soliciting_carpet,II,"utility block, early"
+diaithirworldsys:utilitarian_black_trapped_soliciting_carpet,II,"utility block, early"
+diaithirworldsys:utilitarian_blue_soliciting_carpet,II,"utility block, early"
+diaithirworldsys:utilitarian_blue_trapped_soliciting_carpet,II,"utility block, early"
+diaithirworldsys:utilitarian_brown_soliciting_carpet,II,"utility block, early"
+diaithirworldsys:utilitarian_brown_trapped_soliciting_carpet,II,"utility block, early"
+diaithirworldsys:utilitarian_cursed_grrass,II,"utility block, early"
+diaithirworldsys:utilitarian_cyan_soliciting_carpet,II,"utility block, early"
+diaithirworldsys:utilitarian_cyan_trapped_soliciting_carpet,II,"utility block, early"
+diaithirworldsys:utilitarian_drit,II,"utility block, early"
+diaithirworldsys:utilitarian_gray_soliciting_carpet,II,"utility block, early"
+diaithirworldsys:utilitarian_gray_trapped_soliciting_carpet,II,"utility block, early"
+diaithirworldsys:utilitarian_green_soliciting_carpet,II,"utility block, early"
+diaithirworldsys:utilitarian_green_trapped_soliciting_carpet,II,"utility block, early"
+diaithirworldsys:utilitarian_grrass,II,"utility block, early"
+diaithirworldsys:utilitarian_inverted_lapis_lamp,II,"utility block, early"
+diaithirworldsys:utilitarian_inverted_redstone_lamp,II,"utility block, early"
+diaithirworldsys:utilitarian_lapis_lamp,II,"utility block, early"
+diaithirworldsys:utilitarian_light_blue_soliciting_carpet,II,"utility block, early"
+diaithirworldsys:utilitarian_light_blue_trapped_soliciting_carpet,II,"utility block, early"
+diaithirworldsys:utilitarian_light_gray_soliciting_carpet,II,"utility block, early"
+diaithirworldsys:utilitarian_light_gray_trapped_soliciting_carpet,II,"utility block, early"
+diaithirworldsys:utilitarian_lime_soliciting_carpet,II,"utility block, early"
+diaithirworldsys:utilitarian_lime_trapped_soliciting_carpet,II,"utility block, early"
+diaithirworldsys:utilitarian_magenta_soliciting_carpet,II,"utility block, early"
+diaithirworldsys:utilitarian_magenta_trapped_soliciting_carpet,II,"utility block, early"
+diaithirworldsys:utilitarian_magnet,V,electric/automation utility
+diaithirworldsys:utilitarian_no_raider_block,II,"utility block, early"
+diaithirworldsys:utilitarian_no_soliciting_banner,II,"utility block, early"
+diaithirworldsys:utilitarian_orange_soliciting_carpet,II,"utility block, early"
+diaithirworldsys:utilitarian_orange_trapped_soliciting_carpet,II,"utility block, early"
+diaithirworldsys:utilitarian_pink_soliciting_carpet,II,"utility block, early"
+diaithirworldsys:utilitarian_pink_trapped_soliciting_carpet,II,"utility block, early"
+diaithirworldsys:utilitarian_purple_soliciting_carpet,II,"utility block, early"
+diaithirworldsys:utilitarian_purple_trapped_soliciting_carpet,II,"utility block, early"
+diaithirworldsys:utilitarian_red_snad,II,"utility block, early"
+diaithirworldsys:utilitarian_red_soliciting_carpet,II,"utility block, early"
+diaithirworldsys:utilitarian_red_trapped_soliciting_carpet,II,"utility block, early"
+diaithirworldsys:utilitarian_restraining_order,II,"utility block, early"
+diaithirworldsys:utilitarian_slime_bucket,II,"utility block, early"
+diaithirworldsys:utilitarian_snad,II,"utility block, early"
+diaithirworldsys:utilitarian_soul_snad,II,"utility block, early"
+diaithirworldsys:utilitarian_sound_muffler,II,"utility block, early"
+diaithirworldsys:utilitarian_tiny_charcoal,II,"utility block, early"
+diaithirworldsys:utilitarian_tiny_coal,II,"utility block, early"
+diaithirworldsys:utilitarian_tps_meter,V,electric/automation utility
+diaithirworldsys:utilitarian_trowel,II,"utility block, early"
+diaithirworldsys:utilitarian_unname_tag,II,"utility block, early"
+diaithirworldsys:utilitarian_well_behaved_dropper,II,"utility block, early"
+diaithirworldsys:utilitarian_white_soliciting_carpet,II,"utility block, early"
+diaithirworldsys:utilitarian_white_trapped_soliciting_carpet,II,"utility block, early"
+diaithirworldsys:utilitarian_yellow_soliciting_carpet,II,"utility block, early"
+diaithirworldsys:utilitarian_yellow_trapped_soliciting_carpet,II,"utility block, early"
+diaithirworldsys:utility_lamp,II,"utility block, early"
+diaithirworldsys:village_guard_spawn_egg,I,spawn egg
+diaithirworldsys:wayfinder_compass,IV,"utility block, early"

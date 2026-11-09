@@ -114,3 +114,8 @@ The V1.0 critical path in DRIVER.md is: (1) pack to 20-40 jars with a clean inst
 | Age balance (this doc) | Matrix and 19 nodes done | Items in section 4C |
 
 Rough, honest range: the pack at 20-40 jars booting headless is the gate for everything else, and its remaining work is bounded (known folds and rewrites). Once it holds, the PC join and production restart are about a day. Section 4C content is lane work that runs in parallel, so it extends scope but does not block the first join. I will not put a date on it; the jar-count conflict above is the one fact to settle first.
+
+## 6. Update 2026-11-09 (J6 re-run)
+- Progression graph now has 287 nodes and already holds all 19 proposed nodes (ids all present). Nodes per Age: I 30, II 22, III 30, IV 31, V 32, VI 44, VII 52, VIII 24, RODOS 22 (median 31). No Age has an empty node-system cell any more where section 2 had one (see matrix rows `nodes:*`). II, VIII and RODOS sit at 0.7 to 0.8 of median; VII at 1.7 (boss and storage Age) and VI at 1.4 are the heavy ones.
+- Still thin (not node data, lane work in 4C): structures V to RODOS (30, 14, 40, 12, 4 vs 168 to 656), vendors II and RODOS, textures VIII and RODOS. Recipe counts per Age have no feed, so the band is judged on nodes and the matrix rows only.
+- Band used: nodes within 0.7 to 1.8 of median. All Ages pass; the structures row does not, so F12 stays open until the structures lane delivers.
