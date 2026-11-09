@@ -143,7 +143,7 @@ def cands(text):
     out = []
     def add(c):
         c = c.strip()
-        if 2 < len(c) <= 80 and c not in out: out.append(c)
+        if 2 < len(c) <= 80 and c not in out and not re.search(r'\]\]|\[\[', c): out.append(c)  # a ']]' fragment of a wikilink is not a title
     if re.match(r'\s*\{\{', text):
         st = img_stem(text)
         if '(' in st: add(st)
@@ -243,9 +243,10 @@ def resolve(n):
     with open(path, 'w', encoding='utf-8') as o:
         for i, r in enumerate(R):
             t, h = res.get(i, ('', ''))
+            if re.search(r'\]\]|\[\[', t): t = ''  # bogus title built from a wikilink fragment: treat as unresolved
             u = f"https://{h}/wiki/" + urllib.parse.quote(t.replace(' ', '_')) if t else ''
             o.write(json.dumps({'id': r['id'], 'title': t, 'url': u}, ensure_ascii=False) + '\n')
-    miss = [r for i, r in enumerate(R) if i not in res]
+    miss = [r for i, r in enumerate(R) if i not in res or re.search(r'\]\]|\[\[', res[i][0])]
     ap = f'{B}shard_{n}.absent.json'  # ABSENT RULE: every candidate title and text search ran without a request error and nothing matched -> the page is not on the wiki any more
     if miss and not ERRS[0]: json.dump([r['id'] for r in miss], open(ap, 'w'))
     elif os.path.exists(ap): os.remove(ap)

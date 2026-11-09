@@ -3,8 +3,8 @@ sys.path.insert(0,'/tmp/s')
 import xml.etree.ElementTree as ET
 def clean(a):
     t,w=a
-    import pages
-    return t,pages.wiki2txt(w)[:12000]
+    import flat
+    return t,flat.flat(w)[:12000]
 def gen(path):
     for ev,el in ET.iterparse(path,events=('end',)):
         if el.tag.endswith('}page'):

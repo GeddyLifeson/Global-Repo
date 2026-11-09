@@ -23,7 +23,7 @@ for w,l in D.items():
         ix=collections.defaultdict(list)
         for t,x in d['pages'].items():
             for s in list(P.shingles(lead(x)))[:60]: ix[s].append(t)
-        IDX[h]=ix
+        IDX[id(d)]=ix
 def resolve_row(r):
     w=r['id'].rsplit('|',1)[0]
     cs=P.cands(r['text']); sh=P.shingles(P.clean_row(r['text']))
@@ -31,20 +31,23 @@ def resolve_row(r):
         for c in cs:
             f=find(d,c)
             if f and P.match(r['text'],lead(d['pages'][f])): return h,f,d['pages'][f]
-        if len(sh)>=3:
+    if len(sh)>=3:
+        head=P.norm(r['text'][:120])
+        for h,d in D[w]:
             cnt=collections.Counter()
             for s in sh:
-                l=IDX[h].get(s)
+                l=IDX[id(d)].get(s)
                 if l and len(l)<30:
                     for t in l: cnt[t]+=1
             for t,n in cnt.most_common(5):
+                if P.norm(P.noparen(t)) not in head: continue  # the page title must be named at the start of the row (boilerplate leads are shared)
                 pt=' '.join(re.findall(r'[0-9a-z]+',d['pages'][t].lower()))
                 if sum(1 for s in sh if s in pt)/len(sh)>=0.4: return h,t,d['pages'][t]
     return None
 if __name__=='__main__':
     lo,hi=int(sys.argv[1]),int(sys.argv[2]); G='/home/user/global-repo/plans/powers/judge/'
     tot=ok=0
-    for n in range(lo,hi+1):
+    for n in (map(int,open('/tmp/s/ns.txt').read().split()) if lo<0 else range(lo,hi+1)):
         p=f'{G}batches/shard_{n}.jsonl'
         if not os.path.exists(p): continue
         R=[json.loads(l) for l in open(p,encoding='utf-8')]
