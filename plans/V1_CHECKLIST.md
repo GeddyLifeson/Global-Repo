@@ -41,7 +41,8 @@ Evidence shorthand used below: **LOG** = quoted server or client log line with f
 
 ## Part A. Repo and merge hygiene (do first; unblocks everything stacked on it)
 
-- [ ] **A1 Confirm Global-Repo #112 and #113 are merged, in that order.** Owner: merge-safe lane. Done when: GitHub shows both merged (not just absent from the open list), #112 merge time before #113. Evidence: PR (merged states + times). Needs: none. Source: coordinator, memory "Merge list: GR #112 then #113".
+- [x] **A1 Confirm Global-Repo #112 and #113 are merged, in that order.** Owner: merge-safe lane. Done when: GitHub shows both merged (not just absent from the open list), #112 merge time before #113. Evidence: PR (merged states + times). Needs: none. Source: coordinator, memory "Merge list: GR #112 then #113".
+  - Evidence (2026-11-09 15:50Z, GitHub API): #112 merged 2026-11-04T21:09:05Z, #113 merged 2026-11-04T21:22:12Z.
 - [ ] **A2 Merge GR #117 (judge math baseline: sd from inputs; weights main 1 / ext 0.5 / noncanon 0.2 / games 1).** Owner: judge lane. Done when: merged, `measure.py`/`inference.py`/`combat.py` from Marlon's c3m.zip unchanged except for the sd-from-inputs change, and a validator run recomputes the math on shards 160, 161, 162, 167, 177 (the five known passing). Evidence: PR merged + validator output file path. Needs: none.
 - [ ] **A3 Merge GR #116 (test-everything harness: S6986 manifest.py, S6987 run_all.py).** Owner: harness lane. Done when: merged; README and HANDOFF present under `cloud/headless_bot/everything/`; scripts listed in SCRIPTS_INDEX with S6986 and S6987. Evidence: PR + FILE. Needs: none.
 - [ ] **A4 Merge GR #115 (Xenoblade shard 198, weapons and armor).** Owner: game-data lane. Done when: merged after the Bible check passes on its files. Evidence: PR + `check.py` output. Needs: none.
