@@ -40,14 +40,13 @@ def resolve_row(r):
                 if l and len(l)<30:
                     for t in l: cnt[t]+=1
             for t,n in cnt.most_common(5):
-                if P.norm(P.noparen(t)) not in head: continue  # the page title must be named at the start of the row (boilerplate leads are shared)
                 pt=' '.join(re.findall(r'[0-9a-z]+',d['pages'][t].lower()))
-                if sum(1 for s in sh if s in pt)/len(sh)>=0.4: return h,t,d['pages'][t]
+                if sum(1 for s in sh if s in pt)/len(sh)>=0.4 and P.match(r['text'],lead(d['pages'][t])): return h,t,d['pages'][t]
     return None
 if __name__=='__main__':
     lo,hi=int(sys.argv[1]),int(sys.argv[2]); G='/home/user/global-repo/plans/powers/judge/'
     tot=ok=0
-    for n in (map(int,open('/tmp/s/ns.txt').read().split()) if lo<0 else range(lo,hi+1)):
+    for n in (map(int,open('/tmp/s/ns.txt').read().split()) if lo<0 else [x for x in range(lo,hi+1) if x not in (161,162,167,177)]):
         p=f'{G}batches/shard_{n}.jsonl'
         if not os.path.exists(p): continue
         R=[json.loads(l) for l in open(p,encoding='utf-8')]
@@ -60,6 +59,7 @@ if __name__=='__main__':
             out.append({'id':r['id'],'title':t or '','url':u})
         open(f'{G}batches/shard_{n}.src.jsonl','w',encoding='utf-8').write(''.join(json.dumps(o,ensure_ascii=False)+'\n' for o in out))
         json.dump(cache,gzip.open(f'{G}cache/shard_{n}.pages.json.gz','wt',encoding='utf-8'),ensure_ascii=False)
-        if miss: json.dump(miss,open(f'{G}batches/shard_{n}.absent.json','w'))
+        miss_abs=[m for m in miss if m.startswith('world-of-warcraft|')]  # WoW is fully indexed (dump + live crawl): no page passes the lead check = absent
+        if miss_abs: json.dump(miss_abs,open(f'{G}batches/shard_{n}.absent.json','w'))
         tot+=len(R);ok+=len(R)-len(miss); print(n,len(R)-len(miss),'/',len(R),flush=True)
     print('TOTAL',ok,tot)

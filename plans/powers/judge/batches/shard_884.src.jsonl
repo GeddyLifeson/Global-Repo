@@ -53,7 +53,7 @@
 {"id": "xenoblade|17485", "title": "Sour Turnip", "url": "https://xenoblade.fandom.com/wiki/Sour_Turnip"}
 {"id": "xenoblade|17486", "title": "Spicy Cabbage", "url": "https://xenoblade.fandom.com/wiki/Spicy_Cabbage"}
 {"id": "xenoblade|17487", "title": "Sparkling Pool", "url": "https://xenoblade.fandom.com/wiki/Sparkling_Pool"}
-{"id": "xenoblade|17489", "title": "", "url": ""}
+{"id": "xenoblade|17489", "title": "Sour Gooseberry (XC1)", "url": "https://xenoblade.fandom.com/wiki/Sour_Gooseberry_%28XC1%29"}
 {"id": "xenoblade|17490", "title": "Sorrow Beetle", "url": "https://xenoblade.fandom.com/wiki/Sorrow_Beetle"}
 {"id": "xenoblade|17491", "title": "Spicy Nut (XC1)", "url": "https://xenoblade.fandom.com/wiki/Spicy_Nut_%28XC1%29"}
 {"id": "xenoblade|17492", "title": "Soil Gauntlets", "url": "https://xenoblade.fandom.com/wiki/Soil_Gauntlets"}
@@ -177,10 +177,10 @@
 {"id": "xenoblade|17627", "title": "SpecUp.HP.Max", "url": "https://xenoblade.fandom.com/wiki/SpecUp.HP.Max"}
 {"id": "xenoblade|17628", "title": "Special Bonus", "url": "https://xenoblade.fandom.com/wiki/Special_Bonus"}
 {"id": "xenoblade|17629", "title": "Soldier Assault Rifle", "url": "https://xenoblade.fandom.com/wiki/Soldier_Assault_Rifle"}
-{"id": "xenoblade|17631", "title": "", "url": ""}
-{"id": "xenoblade|17632", "title": "", "url": ""}
+{"id": "xenoblade|17631", "title": "SpecUp.FUEL-COST", "url": "https://xenoblade.fandom.com/wiki/SpecUp.FUEL-COST"}
+{"id": "xenoblade|17632", "title": "SpecUp.FUEL-PARK", "url": "https://xenoblade.fandom.com/wiki/SpecUp.FUEL-PARK"}
 {"id": "xenoblade|17633", "title": "SpecUp.FUEL-BIND", "url": "https://xenoblade.fandom.com/wiki/SpecUp.FUEL-BIND"}
-{"id": "xenoblade|17634", "title": "", "url": ""}
+{"id": "xenoblade|17634", "title": "SpecUp.FUEL-OD", "url": "https://xenoblade.fandom.com/wiki/SpecUp.FUEL-OD"}
 {"id": "xenoblade|17636", "title": "SpecUp.APP-HP", "url": "https://xenoblade.fandom.com/wiki/SpecUp.APP-HP"}
 {"id": "xenoblade|17637", "title": "SpecUp.EVA", "url": "https://xenoblade.fandom.com/wiki/SpecUp.EVA"}
 {"id": "xenoblade|17638", "title": "SpecUp.PHYS-RES", "url": "https://xenoblade.fandom.com/wiki/SpecUp.PHYS-RES"}
@@ -195,32 +195,32 @@
 {"id": "xenoblade|17647", "title": "SpecUp.M-ATK", "url": "https://xenoblade.fandom.com/wiki/SpecUp.M-ATK"}
 {"id": "xenoblade|17648", "title": "SpecUp.R-ATK", "url": "https://xenoblade.fandom.com/wiki/SpecUp.R-ATK"}
 {"id": "xenoblade|17649", "title": "SpecUp.PTL", "url": "https://xenoblade.fandom.com/wiki/SpecUp.PTL"}
-{"id": "xenoblade|17650", "title": "", "url": ""}
-{"id": "xenoblade|17651", "title": "", "url": ""}
+{"id": "xenoblade|17650", "title": "Soldier Assault Rifle II", "url": "https://xenoblade.fandom.com/wiki/Soldier_Assault_Rifle_II"}
+{"id": "xenoblade|17651", "title": "Soldier Assault Rifle III", "url": "https://xenoblade.fandom.com/wiki/Soldier_Assault_Rifle_III"}
 {"id": "xenoblade|17652", "title": "Soldier Avagar", "url": "https://xenoblade.fandom.com/wiki/Soldier_Avagar"}
 {"id": "xenoblade|17653", "title": "Soldier Sclopetum", "url": "https://xenoblade.fandom.com/wiki/Soldier_Sclopetum"}
 {"id": "xenoblade|17654", "title": "Sparrow Raidrifle", "url": "https://xenoblade.fandom.com/wiki/Sparrow_Raidrifle"}
 {"id": "xenoblade|17655", "title": "Soldier Retic", "url": "https://xenoblade.fandom.com/wiki/Soldier_Retic"}
 {"id": "xenoblade|17656", "title": "Soldier Sicarius", "url": "https://xenoblade.fandom.com/wiki/Soldier_Sicarius"}
 {"id": "xenoblade|17657", "title": "Soldier Sniper Rifle", "url": "https://xenoblade.fandom.com/wiki/Soldier_Sniper_Rifle"}
-{"id": "xenoblade|17658", "title": "Soldier Sniper Rifle", "url": "https://xenoblade.fandom.com/wiki/Soldier_Sniper_Rifle"}
+{"id": "xenoblade|17658", "title": "Soldier Sniper Rifle II", "url": "https://xenoblade.fandom.com/wiki/Soldier_Sniper_Rifle_II"}
 {"id": "xenoblade|17659", "title": "Sparrow Deadsight", "url": "https://xenoblade.fandom.com/wiki/Sparrow_Deadsight"}
-{"id": "xenoblade|17660", "title": "Sparrow Deadsight", "url": "https://xenoblade.fandom.com/wiki/Sparrow_Deadsight"}
+{"id": "xenoblade|17660", "title": "Sparrow Deadsight II", "url": "https://xenoblade.fandom.com/wiki/Sparrow_Deadsight_II"}
 {"id": "xenoblade|17661", "title": "Soldier Dual Guns", "url": "https://xenoblade.fandom.com/wiki/Soldier_Dual_Guns"}
 {"id": "xenoblade|17662", "title": "Soldier Dual Guns II", "url": "https://xenoblade.fandom.com/wiki/Soldier_Dual_Guns_II"}
 {"id": "xenoblade|17663", "title": "Soldier Gemels", "url": "https://xenoblade.fandom.com/wiki/Soldier_Gemels"}
 {"id": "xenoblade|17664", "title": "Soldier Pistolia", "url": "https://xenoblade.fandom.com/wiki/Soldier_Pistolia"}
 {"id": "xenoblade|17665", "title": "Sparrow Sidearm", "url": "https://xenoblade.fandom.com/wiki/Sparrow_Sidearm"}
 {"id": "xenoblade|17666", "title": "Soldier Grando", "url": "https://xenoblade.fandom.com/wiki/Soldier_Grando"}
-{"id": "xenoblade|17667", "title": "Soldier Grando", "url": "https://xenoblade.fandom.com/wiki/Soldier_Grando"}
+{"id": "xenoblade|17667", "title": "Soldier Grando II", "url": "https://xenoblade.fandom.com/wiki/Soldier_Grando_II"}
 {"id": "xenoblade|17668", "title": "Soldier Machine", "url": "https://xenoblade.fandom.com/wiki/Soldier_Machine"}
-{"id": "xenoblade|17669", "title": "", "url": ""}
+{"id": "xenoblade|17669", "title": "Soldier Machine II", "url": "https://xenoblade.fandom.com/wiki/Soldier_Machine_II"}
 {"id": "xenoblade|17670", "title": "Soldier Repethe", "url": "https://xenoblade.fandom.com/wiki/Soldier_Repethe"}
 {"id": "xenoblade|17671", "title": "Soldier Lastyr", "url": "https://xenoblade.fandom.com/wiki/Soldier_Lastyr"}
-{"id": "xenoblade|17672", "title": "", "url": ""}
-{"id": "xenoblade|17673", "title": "Soldier Lastyr", "url": "https://xenoblade.fandom.com/wiki/Soldier_Lastyr"}
+{"id": "xenoblade|17672", "title": "Soldier Lastyr II", "url": "https://xenoblade.fandom.com/wiki/Soldier_Lastyr_II"}
+{"id": "xenoblade|17673", "title": "Soldier Lastyr III", "url": "https://xenoblade.fandom.com/wiki/Soldier_Lastyr_III"}
 {"id": "xenoblade|17674", "title": "Soldier Radius", "url": "https://xenoblade.fandom.com/wiki/Soldier_Radius"}
-{"id": "xenoblade|17675", "title": "", "url": ""}
+{"id": "xenoblade|17675", "title": "Soldier Radius II", "url": "https://xenoblade.fandom.com/wiki/Soldier_Radius_II"}
 {"id": "xenoblade|17676", "title": "Soldier Raygun", "url": "https://xenoblade.fandom.com/wiki/Soldier_Raygun"}
 {"id": "xenoblade|17677", "title": "Soldier Ruina", "url": "https://xenoblade.fandom.com/wiki/Soldier_Ruina"}
 {"id": "xenoblade|17678", "title": "Soldier Ruina II", "url": "https://xenoblade.fandom.com/wiki/Soldier_Ruina_II"}
@@ -237,7 +237,7 @@
 {"id": "xenoblade|17691", "title": "Sparklesugar", "url": "https://xenoblade.fandom.com/wiki/Sparklesugar"}
 {"id": "xenoblade|17692", "title": "Sparkly Snow Perfume", "url": "https://xenoblade.fandom.com/wiki/Sparkly_Snow_Perfume"}
 {"id": "xenoblade|17693", "title": "Soniarus Deeds", "url": "https://xenoblade.fandom.com/wiki/Soniarus_Deeds"}
-{"id": "xenoblade|17694", "title": "", "url": ""}
+{"id": "xenoblade|17694", "title": "Snowflake Scarf", "url": "https://xenoblade.fandom.com/wiki/Snowflake_Scarf"}
 {"id": "xenoblade|17695", "title": "Sour-Spark-on-a-Stick", "url": "https://xenoblade.fandom.com/wiki/Sour-Spark-on-a-Stick"}
 {"id": "xenoblade|17696", "title": "Snowy Dudleya Gelée", "url": "https://xenoblade.fandom.com/wiki/Snowy_Dudleya_Gel%C3%A9e"}
 {"id": "xenoblade|17697", "title": "Snowflake-Weave Sole", "url": "https://xenoblade.fandom.com/wiki/Snowflake-Weave_Sole"}

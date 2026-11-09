@@ -3,12 +3,12 @@
 {"id": "world-of-warcraft|261080", "title": "Echo of Willey", "url": "https://warcraft.wiki.gg/wiki/Echo_of_Willey"}
 {"id": "world-of-warcraft|261081", "title": "Echo of the Silver Hand", "url": "https://warcraft.wiki.gg/wiki/Echo_of_the_Silver_Hand"}
 {"id": "world-of-warcraft|261085", "title": "Echidnaean Rockjaw", "url": "https://warcraft.wiki.gg/wiki/Echidnaean_Rockjaw"}
-{"id": "world-of-warcraft|261086", "title": "Ebonroc and Flamegor", "url": "https://warcraft.wiki.gg/wiki/Ebonroc_and_Flamegor"}
+{"id": "world-of-warcraft|261086", "title": "", "url": ""}
 {"id": "world-of-warcraft|261087", "title": "Ebona", "url": "https://warcraft.wiki.gg/wiki/Ebona"}
 {"id": "world-of-warcraft|261088", "title": "Eclipse of Stormrage", "url": "https://warcraft.wiki.gg/wiki/Eclipse_of_Stormrage"}
 {"id": "world-of-warcraft|261090", "title": "Echoing Flux", "url": "https://warcraft.wiki.gg/wiki/Echoing_Flux"}
-{"id": "world-of-warcraft|261093", "title": "", "url": ""}
-{"id": "world-of-warcraft|261094", "title": "", "url": ""}
+{"id": "world-of-warcraft|261093", "title": "Echo of N'zoth", "url": "https://warcraft.wiki.gg/wiki/Echo_of_N%27zoth"}
+{"id": "world-of-warcraft|261094", "title": "Echo of Krag'wa", "url": "https://warcraft.wiki.gg/wiki/Echo_of_Krag%27wa"}
 {"id": "world-of-warcraft|261095", "title": "Echo of the Baroness", "url": "https://warcraft.wiki.gg/wiki/Echo_of_the_Baroness"}
 {"id": "world-of-warcraft|261097", "title": "Echo of Xal'atath, Blade of the Black Empire", "url": "https://warcraft.wiki.gg/wiki/Echo_of_Xal%27atath%2C_Blade_of_the_Black_Empire"}
 {"id": "world-of-warcraft|261098", "title": "Echoes of Deeper Dangers", "url": "https://warcraft.wiki.gg/wiki/Echoes_of_Deeper_Dangers"}
@@ -33,7 +33,7 @@
 {"id": "world-of-warcraft|261129", "title": "Echoes of Northrend", "url": "https://warcraft.wiki.gg/wiki/Echoes_of_Northrend"}
 {"id": "world-of-warcraft|261131", "title": "Ebulliant", "url": "https://warcraft.wiki.gg/wiki/Ebulliant"}
 {"id": "world-of-warcraft|261132", "title": "Echo of Predation", "url": "https://warcraft.wiki.gg/wiki/Echo_of_Predation"}
-{"id": "world-of-warcraft|261133", "title": "", "url": ""}
+{"id": "world-of-warcraft|261133", "title": "Echo of Radiance", "url": "https://warcraft.wiki.gg/wiki/Echo_of_Radiance"}
 {"id": "world-of-warcraft|261134", "title": "Echo of Abundance: Enchanting", "url": "https://warcraft.wiki.gg/wiki/Echo_of_Abundance%3A_Enchanting"}
 {"id": "world-of-warcraft|261135", "title": "Echo of Abundance: Mining", "url": "https://warcraft.wiki.gg/wiki/Echo_of_Abundance%3A_Mining"}
 {"id": "world-of-warcraft|261136", "title": "Echo of Abundance: Herbalism", "url": "https://warcraft.wiki.gg/wiki/Echo_of_Abundance%3A_Herbalism"}
@@ -165,7 +165,7 @@
 {"id": "world-of-warcraft|261329", "title": "Elder Hornswog", "url": "https://warcraft.wiki.gg/wiki/Elder_Hornswog"}
 {"id": "world-of-warcraft|261330", "title": "Elder Mournbat", "url": "https://warcraft.wiki.gg/wiki/Elder_Mournbat"}
 {"id": "world-of-warcraft|261332", "title": "Elder Ren'zen", "url": "https://warcraft.wiki.gg/wiki/Elder_Ren%27zen"}
-{"id": "world-of-warcraft|261333", "title": "Eleanor Shackleton", "url": "https://warcraft.wiki.gg/wiki/Eleanor_Shackleton"}
+{"id": "world-of-warcraft|261333", "title": "", "url": ""}
 {"id": "world-of-warcraft|261334", "title": "Elder Finseer", "url": "https://warcraft.wiki.gg/wiki/Elder_Finseer"}
 {"id": "world-of-warcraft|261335", "title": "Elderguard Brennan", "url": "https://warcraft.wiki.gg/wiki/Elderguard_Brennan"}
 {"id": "world-of-warcraft|261338", "title": "Elder Crocolisk", "url": "https://warcraft.wiki.gg/wiki/Elder_Crocolisk"}
@@ -187,7 +187,7 @@
 {"id": "world-of-warcraft|261373", "title": "Elemental Battler of Kalimdor", "url": "https://warcraft.wiki.gg/wiki/Elemental_Battler_of_Kalimdor"}
 {"id": "world-of-warcraft|261374", "title": "Elemental Battler of Northrend", "url": "https://warcraft.wiki.gg/wiki/Elemental_Battler_of_Northrend"}
 {"id": "world-of-warcraft|261376", "title": "Elemental Resonance", "url": "https://warcraft.wiki.gg/wiki/Elemental_Resonance"}
-{"id": "world-of-warcraft|261378", "title": "", "url": ""}
+{"id": "world-of-warcraft|261378", "title": "Corestone of Patience", "url": "https://warcraft.wiki.gg/wiki/Corestone_of_Patience"}
 {"id": "world-of-warcraft|261382", "title": "Elegant Dracthyr's Tea Set", "url": "https://warcraft.wiki.gg/wiki/Elegant_Dracthyr%27s_Tea_Set"}
 {"id": "world-of-warcraft|261383", "title": "Elemental Assistant", "url": "https://warcraft.wiki.gg/wiki/Elemental_Assistant"}
 {"id": "world-of-warcraft|261386", "title": "Elementary Voidcore Shard", "url": "https://warcraft.wiki.gg/wiki/Elementary_Voidcore_Shard"}
@@ -225,9 +225,9 @@
 {"id": "world-of-warcraft|261431", "title": "Elixir of Coalesced Regret", "url": "https://warcraft.wiki.gg/wiki/Elixir_of_Coalesced_Regret"}
 {"id": "world-of-warcraft|261434", "title": "Elistrasza", "url": "https://warcraft.wiki.gg/wiki/Elistrasza"}
 {"id": "world-of-warcraft|261436", "title": "Ella's Note", "url": "https://warcraft.wiki.gg/wiki/Ella%27s_Note"}
-{"id": "world-of-warcraft|261439", "title": "Elrick", "url": "https://warcraft.wiki.gg/wiki/Elrick"}
+{"id": "world-of-warcraft|261439", "title": "", "url": ""}
 {"id": "world-of-warcraft|261443", "title": "Elun'Ahir", "url": "https://warcraft.wiki.gg/wiki/Elun%27Ahir"}
-{"id": "world-of-warcraft|261444", "title": "Elunar Relic", "url": "https://warcraft.wiki.gg/wiki/Elunar_Relic"}
+{"id": "world-of-warcraft|261444", "title": "", "url": ""}
 {"id": "world-of-warcraft|261445", "title": "Ellerdin", "url": "https://warcraft.wiki.gg/wiki/Ellerdin"}
 {"id": "world-of-warcraft|261446", "title": "Elements for Dummies Volume III: Arcane", "url": "https://warcraft.wiki.gg/wiki/Elements_for_Dummies_Volume_III%3A_Arcane"}
 {"id": "world-of-warcraft|261447", "title": "Elements for Dummies Volume II: Fire", "url": "https://warcraft.wiki.gg/wiki/Elements_for_Dummies_Volume_II%3A_Fire"}

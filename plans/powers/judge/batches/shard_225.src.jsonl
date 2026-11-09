@@ -60,7 +60,7 @@
 {"id": "world-of-warcraft|277707", "title": "Magical Murkmorpher", "url": "https://warcraft.wiki.gg/wiki/Magical_Murkmorpher"}
 {"id": "world-of-warcraft|277708", "title": "Magical Murloc Monument", "url": "https://warcraft.wiki.gg/wiki/Magical_Murloc_Monument"}
 {"id": "world-of-warcraft|277713", "title": "Magically-Sealed Parcel", "url": "https://warcraft.wiki.gg/wiki/Magically-Sealed_Parcel"}
-{"id": "world-of-warcraft|277724", "title": "Magical Stone (Burning Steppes)", "url": "https://warcraft.wiki.gg/wiki/Magical_Stone_%28Burning_Steppes%29"}
+{"id": "world-of-warcraft|277724", "title": "", "url": ""}
 {"id": "world-of-warcraft|277769", "title": "Magister's Spell Bee Comb", "url": "https://warcraft.wiki.gg/wiki/Magister%27s_Spell_Bee_Comb"}
 {"id": "world-of-warcraft|277778", "title": "Magister's Missive", "url": "https://warcraft.wiki.gg/wiki/Magister%27s_Missive"}
 {"id": "world-of-warcraft|277823", "title": "Make Decoy", "url": "https://warcraft.wiki.gg/wiki/Make_Decoy"}
@@ -114,15 +114,15 @@
 {"id": "world-of-warcraft|279021", "title": "Miasmic Jewelbinder", "url": "https://warcraft.wiki.gg/wiki/Miasmic_Jewelbinder"}
 {"id": "world-of-warcraft|279045", "title": "Mildewed Ransom Note", "url": "https://warcraft.wiki.gg/wiki/Mildewed_Ransom_Note"}
 {"id": "world-of-warcraft|279129", "title": "Midnight Pathfinder", "url": "https://warcraft.wiki.gg/wiki/Midnight_Pathfinder"}
-{"id": "world-of-warcraft|279141", "title": "", "url": ""}
-{"id": "world-of-warcraft|279142", "title": "", "url": ""}
-{"id": "world-of-warcraft|279143", "title": "", "url": ""}
-{"id": "world-of-warcraft|279146", "title": "", "url": ""}
+{"id": "world-of-warcraft|279141", "title": "Midnight alchemy recipes", "url": "https://warcraft.wiki.gg/wiki/Midnight_alchemy_recipes"}
+{"id": "world-of-warcraft|279142", "title": "Midnight blacksmithing plans", "url": "https://warcraft.wiki.gg/wiki/Midnight_blacksmithing_plans"}
+{"id": "world-of-warcraft|279143", "title": "Midnight cooking recipes", "url": "https://warcraft.wiki.gg/wiki/Midnight_cooking_recipes"}
+{"id": "world-of-warcraft|279146", "title": "Midnight engineering schematics", "url": "https://warcraft.wiki.gg/wiki/Midnight_engineering_schematics"}
 {"id": "world-of-warcraft|279148", "title": "Midnight Flight Master", "url": "https://warcraft.wiki.gg/wiki/Midnight_Flight_Master"}
-{"id": "world-of-warcraft|279149", "title": "", "url": ""}
-{"id": "world-of-warcraft|279157", "title": "", "url": ""}
-{"id": "world-of-warcraft|279158", "title": "", "url": ""}
-{"id": "world-of-warcraft|279159", "title": "", "url": ""}
+{"id": "world-of-warcraft|279149", "title": "Midnight inscription techniques", "url": "https://warcraft.wiki.gg/wiki/Midnight_inscription_techniques"}
+{"id": "world-of-warcraft|279157", "title": "Midnight jewelcrafting designs", "url": "https://warcraft.wiki.gg/wiki/Midnight_jewelcrafting_designs"}
+{"id": "world-of-warcraft|279158", "title": "Midnight leatherworking patterns", "url": "https://warcraft.wiki.gg/wiki/Midnight_leatherworking_patterns"}
+{"id": "world-of-warcraft|279159", "title": "Midnight tailoring patterns", "url": "https://warcraft.wiki.gg/wiki/Midnight_tailoring_patterns"}
 {"id": "world-of-warcraft|279211", "title": "Midsummer Mannequin", "url": "https://warcraft.wiki.gg/wiki/Midsummer_Mannequin"}
 {"id": "world-of-warcraft|279222", "title": "Midnight Herbalist's Shop Sign", "url": "https://warcraft.wiki.gg/wiki/Midnight_Herbalist%27s_Shop_Sign"}
 {"id": "world-of-warcraft|279227", "title": "Midnight Skinner's Shop Sign", "url": "https://warcraft.wiki.gg/wiki/Midnight_Skinner%27s_Shop_Sign"}
@@ -133,7 +133,7 @@
 {"id": "world-of-warcraft|279272", "title": "Miniature Shards of Amorphous Relic", "url": "https://warcraft.wiki.gg/wiki/Miniature_Shards_of_Amorphous_Relic"}
 {"id": "world-of-warcraft|279306", "title": "Mind Shatter", "url": "https://warcraft.wiki.gg/wiki/Mind_Shatter"}
 {"id": "world-of-warcraft|279362", "title": "Mischievous Present", "url": "https://warcraft.wiki.gg/wiki/Mischievous_Present"}
-{"id": "world-of-warcraft|279369", "title": "", "url": ""}
+{"id": "world-of-warcraft|279369", "title": "Minion of Terokk", "url": "https://warcraft.wiki.gg/wiki/Minion_of_Terokk"}
 {"id": "world-of-warcraft|279373", "title": "Mischevious Chick", "url": "https://warcraft.wiki.gg/wiki/Mischevious_Chick"}
 {"id": "world-of-warcraft|279479", "title": "Misty Vale", "url": "https://warcraft.wiki.gg/wiki/Misty_Vale"}
 {"id": "world-of-warcraft|279507", "title": "Modgud Thaurissan", "url": "https://warcraft.wiki.gg/wiki/Modgud_Thaurissan"}
@@ -181,7 +181,7 @@
 {"id": "world-of-warcraft|279837", "title": "Moonlit Witchwick Skirt", "url": "https://warcraft.wiki.gg/wiki/Moonlit_Witchwick_Skirt"}
 {"id": "world-of-warcraft|279839", "title": "Moonlit Witchwick's Rider", "url": "https://warcraft.wiki.gg/wiki/Moonlit_Witchwick%27s_Rider"}
 {"id": "world-of-warcraft|279840", "title": "Moonshard", "url": "https://warcraft.wiki.gg/wiki/Moonshard"}
-{"id": "world-of-warcraft|279900", "title": "", "url": ""}
+{"id": "world-of-warcraft|279900", "title": "Mountain Grizzly", "url": "https://warcraft.wiki.gg/wiki/Mountain_Grizzly"}
 {"id": "world-of-warcraft|279914", "title": "Mothoroth", "url": "https://warcraft.wiki.gg/wiki/Mothoroth"}
 {"id": "world-of-warcraft|280010", "title": "Mountainview Ranger", "url": "https://warcraft.wiki.gg/wiki/Mountainview_Ranger"}
 {"id": "world-of-warcraft|280011", "title": "Mountainview Scout", "url": "https://warcraft.wiki.gg/wiki/Mountainview_Scout"}

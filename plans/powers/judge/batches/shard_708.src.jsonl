@@ -26,7 +26,7 @@
 {"id": "world-of-warcraft|263407", "title": "", "url": ""}
 {"id": "world-of-warcraft|263408", "title": "", "url": ""}
 {"id": "world-of-warcraft|263409", "title": "", "url": ""}
-{"id": "world-of-warcraft|263410", "title": "Enum.CompressionLevel", "url": "https://warcraft.wiki.gg/wiki/Enum.CompressionLevel"}
+{"id": "world-of-warcraft|263410", "title": "", "url": ""}
 {"id": "world-of-warcraft|263411", "title": "", "url": ""}
 {"id": "world-of-warcraft|263412", "title": "", "url": ""}
 {"id": "world-of-warcraft|263413", "title": "", "url": ""}
@@ -155,11 +155,11 @@
 {"id": "world-of-warcraft|263538", "title": "", "url": ""}
 {"id": "world-of-warcraft|263539", "title": "", "url": ""}
 {"id": "world-of-warcraft|263541", "title": "Entombed Cultist's Sabatons", "url": "https://warcraft.wiki.gg/wiki/Entombed_Cultist%27s_Sabatons"}
-{"id": "world-of-warcraft|263544", "title": "Enum.CustomAuraButtonBorderStyle", "url": "https://warcraft.wiki.gg/wiki/Enum.CustomAuraButtonBorderStyle"}
-{"id": "world-of-warcraft|263545", "title": "Enum.CustomAuraButtonDispelTypeTextureStyle", "url": "https://warcraft.wiki.gg/wiki/Enum.CustomAuraButtonDispelTypeTextureStyle"}
-{"id": "world-of-warcraft|263546", "title": "Enum.CustomAuraButtonUpdateMode", "url": "https://warcraft.wiki.gg/wiki/Enum.CustomAuraButtonUpdateMode"}
+{"id": "world-of-warcraft|263544", "title": "", "url": ""}
+{"id": "world-of-warcraft|263545", "title": "", "url": ""}
+{"id": "world-of-warcraft|263546", "title": "", "url": ""}
 {"id": "world-of-warcraft|263547", "title": "Entranced Water Elemental", "url": "https://warcraft.wiki.gg/wiki/Entranced_Water_Elemental"}
-{"id": "world-of-warcraft|263548", "title": "Enum.CustomAuraButtonDispelTypeStealableFilter", "url": "https://warcraft.wiki.gg/wiki/Enum.CustomAuraButtonDispelTypeStealableFilter"}
+{"id": "world-of-warcraft|263548", "title": "", "url": ""}
 {"id": "world-of-warcraft|263549", "title": "Enthralled Shellcracker", "url": "https://warcraft.wiki.gg/wiki/Enthralled_Shellcracker"}
 {"id": "world-of-warcraft|263550", "title": "", "url": ""}
 {"id": "world-of-warcraft|263552", "title": "", "url": ""}
@@ -213,12 +213,12 @@
 {"id": "world-of-warcraft|263602", "title": "", "url": ""}
 {"id": "world-of-warcraft|263603", "title": "", "url": ""}
 {"id": "world-of-warcraft|263604", "title": "", "url": ""}
-{"id": "world-of-warcraft|263605", "title": "Enum.EncounterTimelineTrack", "url": "https://warcraft.wiki.gg/wiki/Enum.EncounterTimelineTrack"}
+{"id": "world-of-warcraft|263605", "title": "", "url": ""}
 {"id": "world-of-warcraft|263606", "title": "", "url": ""}
 {"id": "world-of-warcraft|263607", "title": "", "url": ""}
-{"id": "world-of-warcraft|263608", "title": "Enum.FontStringScaleAnimationMode", "url": "https://warcraft.wiki.gg/wiki/Enum.FontStringScaleAnimationMode"}
+{"id": "world-of-warcraft|263608", "title": "", "url": ""}
 {"id": "world-of-warcraft|263609", "title": "", "url": ""}
-{"id": "world-of-warcraft|263610", "title": "Enum.LuaCurveType", "url": "https://warcraft.wiki.gg/wiki/Enum.LuaCurveType"}
+{"id": "world-of-warcraft|263610", "title": "", "url": ""}
 {"id": "world-of-warcraft|263611", "title": "", "url": ""}
 {"id": "world-of-warcraft|263612", "title": "", "url": ""}
 {"id": "world-of-warcraft|263613", "title": "", "url": ""}
@@ -226,25 +226,25 @@
 {"id": "world-of-warcraft|263615", "title": "", "url": ""}
 {"id": "world-of-warcraft|263616", "title": "", "url": ""}
 {"id": "world-of-warcraft|263617", "title": "", "url": ""}
-{"id": "world-of-warcraft|263618", "title": "Enum.StatusBarInterpolation", "url": "https://warcraft.wiki.gg/wiki/Enum.StatusBarInterpolation"}
-{"id": "world-of-warcraft|263619", "title": "Enum.EncounterTimelineEventSource", "url": "https://warcraft.wiki.gg/wiki/Enum.EncounterTimelineEventSource"}
+{"id": "world-of-warcraft|263618", "title": "", "url": ""}
+{"id": "world-of-warcraft|263619", "title": "", "url": ""}
 {"id": "world-of-warcraft|263620", "title": "", "url": ""}
-{"id": "world-of-warcraft|263621", "title": "Enum.StatusBarFillStyle", "url": "https://warcraft.wiki.gg/wiki/Enum.StatusBarFillStyle"}
+{"id": "world-of-warcraft|263621", "title": "", "url": ""}
 {"id": "world-of-warcraft|263622", "title": "", "url": ""}
 {"id": "world-of-warcraft|263623", "title": "", "url": ""}
 {"id": "world-of-warcraft|263624", "title": "", "url": ""}
-{"id": "world-of-warcraft|263625", "title": "Enum.SecrecyLevel", "url": "https://warcraft.wiki.gg/wiki/Enum.SecrecyLevel"}
+{"id": "world-of-warcraft|263625", "title": "", "url": ""}
 {"id": "world-of-warcraft|263626", "title": "", "url": ""}
 {"id": "world-of-warcraft|263627", "title": "", "url": ""}
-{"id": "world-of-warcraft|263628", "title": "Enum.EncounterTimelineViewType", "url": "https://warcraft.wiki.gg/wiki/Enum.EncounterTimelineViewType"}
-{"id": "world-of-warcraft|263629", "title": "Enum.EncounterEventSoundTrigger", "url": "https://warcraft.wiki.gg/wiki/Enum.EncounterEventSoundTrigger"}
+{"id": "world-of-warcraft|263628", "title": "", "url": ""}
+{"id": "world-of-warcraft|263629", "title": "", "url": ""}
 {"id": "world-of-warcraft|263630", "title": "", "url": ""}
 {"id": "world-of-warcraft|263631", "title": "", "url": ""}
 {"id": "world-of-warcraft|263632", "title": "", "url": ""}
 {"id": "world-of-warcraft|263633", "title": "", "url": ""}
 {"id": "world-of-warcraft|263634", "title": "", "url": ""}
 {"id": "world-of-warcraft|263635", "title": "", "url": ""}
-{"id": "world-of-warcraft|263636", "title": "Enum.SecondsFormatterIntervalWhitespace", "url": "https://warcraft.wiki.gg/wiki/Enum.SecondsFormatterIntervalWhitespace"}
-{"id": "world-of-warcraft|263637", "title": "Enum.HousingFixtureDecorAction", "url": "https://warcraft.wiki.gg/wiki/Enum.HousingFixtureDecorAction"}
+{"id": "world-of-warcraft|263636", "title": "", "url": ""}
+{"id": "world-of-warcraft|263637", "title": "", "url": ""}
 {"id": "world-of-warcraft|263638", "title": "", "url": ""}
 {"id": "world-of-warcraft|263639", "title": "", "url": ""}

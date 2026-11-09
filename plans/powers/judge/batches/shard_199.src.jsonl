@@ -1,12 +1,12 @@
 {"id": "xenoblade|20601", "title": "Vale", "url": "https://xenoblade.fandom.com/wiki/Vale"}
 {"id": "xenoblade|20602", "title": "Ursula", "url": "https://xenoblade.fandom.com/wiki/Ursula"}
 {"id": "xenoblade|20688", "title": "Umbra Greatsword", "url": "https://xenoblade.fandom.com/wiki/Umbra_Greatsword"}
-{"id": "xenoblade|20931", "title": "Warrior's Plate", "url": "https://xenoblade.fandom.com/wiki/Warrior%27s_Plate"}
-{"id": "xenoblade|20955", "title": "Warrior's Mask", "url": "https://xenoblade.fandom.com/wiki/Warrior%27s_Mask"}
-{"id": "xenoblade|20964", "title": "Warrior's Sabatons", "url": "https://xenoblade.fandom.com/wiki/Warrior%27s_Sabatons"}
-{"id": "xenoblade|20970", "title": "Warrior's Crest", "url": "https://xenoblade.fandom.com/wiki/Warrior%27s_Crest"}
-{"id": "xenoblade|20976", "title": "Warrior's Helm", "url": "https://xenoblade.fandom.com/wiki/Warrior%27s_Helm"}
-{"id": "xenoblade|20983", "title": "Warrior's Greaves", "url": "https://xenoblade.fandom.com/wiki/Warrior%27s_Greaves"}
+{"id": "xenoblade|20931", "title": "", "url": ""}
+{"id": "xenoblade|20955", "title": "", "url": ""}
+{"id": "xenoblade|20964", "title": "", "url": ""}
+{"id": "xenoblade|20970", "title": "", "url": ""}
+{"id": "xenoblade|20976", "title": "", "url": ""}
+{"id": "xenoblade|20983", "title": "", "url": ""}
 {"id": "xenoblade|21010", "title": "Warrior's Bracer L", "url": "https://xenoblade.fandom.com/wiki/Warrior%27s_Bracer_L"}
 {"id": "xenoblade|21011", "title": "Warrior's Gauntlet L", "url": "https://xenoblade.fandom.com/wiki/Warrior%27s_Gauntlet_L"}
 {"id": "xenoblade|21012", "title": "Warrior's Vambrace L", "url": "https://xenoblade.fandom.com/wiki/Warrior%27s_Vambrace_L"}
@@ -48,23 +48,23 @@
 {"id": "world-of-warcraft|186040", "title": "Shattered Hand", "url": "https://wowpedia.fandom.com/wiki/Shattered_Hand"}
 {"id": "world-of-warcraft|184802", "title": "Shadowmoon", "url": "https://wowpedia.fandom.com/wiki/Shadowmoon"}
 {"id": "world-of-warcraft|101529", "title": "Health regeneration", "url": "https://wowpedia.fandom.com/wiki/Health_regeneration"}
-{"id": "world-of-warcraft|154718", "title": "", "url": ""}
+{"id": "world-of-warcraft|154718", "title": "Pet abilities", "url": "https://wowpedia.fandom.com/wiki/Pet_abilities"}
 {"id": "world-of-warcraft|159702", "title": "Primary abilities", "url": "https://wowpedia.fandom.com/wiki/Primary_abilities"}
 {"id": "world-of-warcraft|215610", "title": "Thunder Totem", "url": "https://wowpedia.fandom.com/wiki/Thunder_Totem"}
-{"id": "world-of-warcraft|261892", "title": "", "url": ""}
+{"id": "world-of-warcraft|261892", "title": "Empowered ability", "url": "https://warcraft.wiki.gg/wiki/Empowered_ability"}
 {"id": "world-of-warcraft|68270", "title": "Elfgate", "url": "https://wowpedia.fandom.com/wiki/Elfgate"}
 {"id": "world-of-warcraft|81982", "title": "Flight", "url": "https://wowpedia.fandom.com/wiki/Flight"}
 {"id": "world-of-warcraft|289551", "title": "Runic Power", "url": "https://warcraft.wiki.gg/wiki/Runic_Power"}
 {"id": "world-of-warcraft|80408", "title": "", "url": ""}
 {"id": "world-of-warcraft|81583", "title": "Flight master", "url": "https://wowpedia.fandom.com/wiki/Flight_master"}
-{"id": "world-of-warcraft|124482", "title": "", "url": ""}
+{"id": "world-of-warcraft|124482", "title": "Ley walker", "url": "https://wowpedia.fandom.com/wiki/Ley_walker"}
 {"id": "world-of-warcraft|133889", "title": "Mathredis Firestar", "url": "https://wowpedia.fandom.com/wiki/Mathredis_Firestar"}
 {"id": "world-of-warcraft|175857", "title": "SS", "url": "https://wowpedia.fandom.com/wiki/SS"}
 {"id": "world-of-warcraft|201440", "title": "Strength of the Earth", "url": "https://wowpedia.fandom.com/wiki/Strength_of_the_Earth"}
 {"id": "world-of-warcraft|252501", "title": "Cache of Awakened Treasures", "url": "https://warcraft.wiki.gg/wiki/Cache_of_Awakened_Treasures"}
 {"id": "world-of-warcraft|257198", "title": "Darkmoon Draught", "url": "https://warcraft.wiki.gg/wiki/Darkmoon_Draught"}
 {"id": "world-of-warcraft|257199", "title": "Darkmoon Tincture", "url": "https://warcraft.wiki.gg/wiki/Darkmoon_Tincture"}
-{"id": "world-of-warcraft|77047", "title": "Fel", "url": "https://wowpedia.fandom.com/wiki/Fel"}
+{"id": "world-of-warcraft|77047", "title": "", "url": ""}
 {"id": "world-of-warcraft|130121", "title": "Magic", "url": "https://wowpedia.fandom.com/wiki/Magic"}
 {"id": "world-of-warcraft|130135", "title": "Magic Attunement", "url": "https://wowpedia.fandom.com/wiki/Magic_Attunement"}
 {"id": "world-of-warcraft|134950", "title": "Mechagon City", "url": "https://wowpedia.fandom.com/wiki/Mechagon_City"}
@@ -72,7 +72,7 @@
 {"id": "world-of-warcraft|138945", "title": "Moonfang", "url": "https://wowpedia.fandom.com/wiki/Moonfang"}
 {"id": "world-of-warcraft|147559", "title": "Of Silvermoon", "url": "https://wowpedia.fandom.com/wiki/Of_Silvermoon"}
 {"id": "world-of-warcraft|149581", "title": "Orgrimmar Skyway", "url": "https://wowpedia.fandom.com/wiki/Orgrimmar_Skyway"}
-{"id": "world-of-warcraft|158837", "title": "", "url": ""}
+{"id": "world-of-warcraft|158837", "title": "Priestess of the Moon", "url": "https://wowpedia.fandom.com/wiki/Priestess_of_the_Moon"}
 {"id": "world-of-warcraft|184419", "title": "Shadowforge City", "url": "https://wowpedia.fandom.com/wiki/Shadowforge_City"}
 {"id": "world-of-warcraft|185444", "title": "Shard of Nightmare", "url": "https://wowpedia.fandom.com/wiki/Shard_of_Nightmare"}
 {"id": "world-of-warcraft|204138", "title": "Swift Flight Form quest chain", "url": "https://wowpedia.fandom.com/wiki/Swift_Flight_Form_quest_chain"}
@@ -80,10 +80,10 @@
 {"id": "world-of-warcraft|224377", "title": "Undercity quests", "url": "https://wowpedia.fandom.com/wiki/Undercity_quests"}
 {"id": "world-of-warcraft|230763", "title": "Void Baron Galaxis", "url": "https://wowpedia.fandom.com/wiki/Void_Baron_Galaxis"}
 {"id": "world-of-warcraft|232988", "title": "Warlock", "url": "https://wowpedia.fandom.com/wiki/Warlock"}
-{"id": "world-of-warcraft|246990", "title": "Anti-magic", "url": "https://warcraft.wiki.gg/wiki/Anti-magic"}
+{"id": "world-of-warcraft|246990", "title": "", "url": ""}
 {"id": "world-of-warcraft|252491", "title": "Cache of Aberrus Treasures", "url": "https://warcraft.wiki.gg/wiki/Cache_of_Aberrus_Treasures"}
 {"id": "world-of-warcraft|252492", "title": "Cache of Amirdrassil Treasures", "url": "https://warcraft.wiki.gg/wiki/Cache_of_Amirdrassil_Treasures"}
-{"id": "world-of-warcraft|258982", "title": "Dornogal", "url": "https://warcraft.wiki.gg/wiki/Dornogal"}
+{"id": "world-of-warcraft|258982", "title": "", "url": ""}
 {"id": "world-of-warcraft|271765", "title": "Hex magic", "url": "https://warcraft.wiki.gg/wiki/Hex_magic"}
 {"id": "world-of-warcraft|278794", "title": "Membranous Wing", "url": "https://warcraft.wiki.gg/wiki/Membranous_Wing"}
 {"id": "world-of-warcraft|293063", "title": "Sir Dornel's Didgeridoo", "url": "https://warcraft.wiki.gg/wiki/Sir_Dornel%27s_Didgeridoo"}
@@ -105,7 +105,7 @@
 {"id": "world-of-warcraft|138998", "title": "Moonbeam Causeway", "url": "https://wowpedia.fandom.com/wiki/Moonbeam_Causeway"}
 {"id": "world-of-warcraft|139996", "title": "Mountain Lion Blood", "url": "https://wowpedia.fandom.com/wiki/Mountain_Lion_Blood"}
 {"id": "world-of-warcraft|142334", "title": "Nar'thalas Academy", "url": "https://wowpedia.fandom.com/wiki/Nar%27thalas_Academy"}
-{"id": "world-of-warcraft|143379", "title": "Necromancy", "url": "https://wowpedia.fandom.com/wiki/Necromancy"}
+{"id": "world-of-warcraft|143379", "title": "", "url": ""}
 {"id": "world-of-warcraft|143464", "title": "Neferset City", "url": "https://wowpedia.fandom.com/wiki/Neferset_City"}
 {"id": "world-of-warcraft|144536", "title": "Night elf", "url": "https://wowpedia.fandom.com/wiki/Night_elf"}
 {"id": "world-of-warcraft|144615", "title": "Nexus War", "url": "https://wowpedia.fandom.com/wiki/Nexus_War"}
@@ -120,10 +120,10 @@
 {"id": "world-of-warcraft|207561", "title": "Teleport: Vale of Eternal Blossoms", "url": "https://wowpedia.fandom.com/wiki/Teleport%3A_Vale_of_Eternal_Blossoms"}
 {"id": "world-of-warcraft|208547", "title": "Thaldraszus", "url": "https://wowpedia.fandom.com/wiki/Thaldraszus"}
 {"id": "world-of-warcraft|227304", "title": "Vector Coil", "url": "https://wowpedia.fandom.com/wiki/Vector_Coil"}
-{"id": "world-of-warcraft|253796", "title": "Chronomancy", "url": "https://warcraft.wiki.gg/wiki/Chronomancy"}
+{"id": "world-of-warcraft|253796", "title": "", "url": ""}
 {"id": "world-of-warcraft|261388", "title": "Elemental magic", "url": "https://warcraft.wiki.gg/wiki/Elemental_magic"}
 {"id": "world-of-warcraft|266589", "title": "Flynn (disambiguation)", "url": "https://warcraft.wiki.gg/wiki/Flynn_%28disambiguation%29"}
-{"id": "world-of-warcraft|280659", "title": "Nature", "url": "https://warcraft.wiki.gg/wiki/Nature"}
+{"id": "world-of-warcraft|280659", "title": "", "url": ""}
 {"id": "world-of-warcraft|293263", "title": "Skyriding", "url": "https://warcraft.wiki.gg/wiki/Skyriding"}
 {"id": "world-of-warcraft|298887", "title": "Teleport: Silvermoon City", "url": "https://warcraft.wiki.gg/wiki/Teleport%3A_Silvermoon_City"}
 {"id": "world-of-warcraft|308180", "title": "Zephras Isle", "url": "https://warcraft.wiki.gg/wiki/Zephras_Isle"}
@@ -131,7 +131,7 @@
 {"id": "xenoblade|17538", "title": "Soltnar Seal Island", "url": "https://xenoblade.fandom.com/wiki/Soltnar_Seal_Island"}
 {"id": "world-of-warcraft|71099", "title": "Ensemble: Black Dragonflight's Vestments", "url": "https://wowpedia.fandom.com/wiki/Ensemble%3A_Black_Dragonflight%27s_Vestments"}
 {"id": "world-of-warcraft|71663", "title": "Eredar", "url": "https://wowpedia.fandom.com/wiki/Eredar"}
-{"id": "world-of-warcraft|71733", "title": "", "url": ""}
+{"id": "world-of-warcraft|71733", "title": "Enum.PowerType", "url": "https://wowpedia.fandom.com/wiki/Enum.PowerType"}
 {"id": "world-of-warcraft|74556", "title": "Eye (Maelstrom)", "url": "https://wowpedia.fandom.com/wiki/Eye_%28Maelstrom%29"}
 {"id": "world-of-warcraft|86499", "title": "GM Island", "url": "https://wowpedia.fandom.com/wiki/GM_Island"}
 {"id": "world-of-warcraft|89910", "title": "Gjalerhorn", "url": "https://wowpedia.fandom.com/wiki/Gjalerhorn"}
@@ -220,7 +220,7 @@
 {"id": "xenoblade|17196", "title": "Slavebird Isle", "url": "https://xenoblade.fandom.com/wiki/Slavebird_Isle"}
 {"id": "all-bloons-td|2109", "title": "", "url": ""}
 {"id": "world-of-warcraft|65333", "title": "", "url": ""}
-{"id": "world-of-warcraft|65695", "title": "", "url": ""}
+{"id": "world-of-warcraft|65695", "title": "Dwarven avatar", "url": "https://wowpedia.fandom.com/wiki/Dwarven_avatar"}
 {"id": "world-of-warcraft|66713", "title": "Ebyssian", "url": "https://wowpedia.fandom.com/wiki/Ebyssian"}
 {"id": "world-of-warcraft|67786", "title": "Eldritch Deathlord", "url": "https://wowpedia.fandom.com/wiki/Eldritch_Deathlord"}
 {"id": "world-of-warcraft|69431", "title": "Empowered Fire", "url": "https://wowpedia.fandom.com/wiki/Empowered_Fire"}
