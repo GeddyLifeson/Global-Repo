@@ -1,0 +1,936 @@
+{
+"d": 0,
+"b1": [
+108,
+222,
+229
+],
+"n": {
+"222": "Dakoor"
+},
+"p": {},
+"W": {
+"111": [
+"armor",
+"Chiron's Cure",
+1,
+"a set of rare Warlock leg armor",
+"h"
+],
+"112": [
+"armor",
+"Channeling Cowl",
+1,
+"a legendary Warlock helmet",
+"h"
+],
+"113": [
+"armor",
+"Channeling Robes",
+1,
+"a legendary Warlock chest armor piece",
+"h"
+],
+"114": [
+"armor",
+"Boots of the Emperor's Minister",
+1,
+"a set of legendary Warlock leg armor",
+"h"
+],
+"115": [
+"armor",
+"Boots of the Emperor's Agent",
+1,
+"a set of legendary Hunter leg armor",
+"h"
+],
+"116": [
+"armor",
+"Breastplate of the Emperor's Champion",
+1,
+"a legendary Titan chest armor piece",
+"h"
+],
+"117": [
+"weapon",
+"Chattering Bone",
+1,
+"a legendary pulse rifle",
+"h"
+],
+"118": [
+"armor",
+"Boots of the Great Hunt",
+1,
+"a Legendary Warlock Leg Armor",
+"h"
+],
+"119": [
+"weapon",
+"Breakneck",
+1,
+"an legendary Auto Rifle",
+"h"
+],
+"120": [
+"weapon",
+"Cerberus+1",
+1,
+"an exotic Auto Rifle",
+"h"
+],
+"122": [
+"armor",
+"Commando Type 0",
+1,
+"a Legendary Titan armor set",
+"h"
+],
+"123": [
+"vehicle",
+"Dantalion Exodus VI",
+3,
+"a Cabal warship",
+"h"
+],
+"124": [
+"armor",
+"Cloak of Repair",
+1,
+"a legendary cloak",
+"h"
+],
+"125": [
+"armor",
+"Cloak of Taniks",
+1,
+"a legendary cloak",
+"h"
+],
+"129": [
+"armor",
+"Competitor Match",
+1,
+"a legendary cloak",
+"h"
+],
+"134": [
+"armor",
+"Dead Light Cloak",
+1,
+"a legendary cloak",
+"h"
+],
+"148": [
+"armor",
+"Cloud Walker Tribute",
+1,
+"a legendary cloak",
+"h"
+],
+"226": [
+"armor",
+"Dustwalker Cloak",
+1,
+"a legendary cloak",
+"h"
+],
+"126": [
+"weapon",
+"Cocytus SR4",
+1,
+"a legendary scout rifle",
+"h"
+],
+"128": [
+"weapon",
+"Colovance's Duty",
+1,
+"a legendary scout rifle",
+"h"
+],
+"130": [
+"weapon",
+"Conviction II",
+1,
+"a legendary sidearm",
+"h"
+],
+"127": [
+"armor",
+"Code Fire III",
+1,
+"a basic Warlock helmet",
+"h"
+],
+"131": [
+"armor",
+"Darkblade Helm",
+1,
+"a legendary helmet",
+"h"
+],
+"149": [
+"armor",
+"Cobra's Vigil Hood",
+1,
+"a legendary helmet",
+"h"
+],
+"156": [
+"armor",
+"Cowl of the Hezen Lords",
+1,
+"a legendary helmet",
+"h"
+],
+"211": [
+"armor",
+"Cultist's Cover",
+1,
+"a legendary helmet",
+"h"
+],
+"212": [
+"armor",
+"Cultist's Helm",
+1,
+"a legendary helmet",
+"h"
+],
+"213": [
+"armor",
+"Cultist's Hood",
+1,
+"a legendary helmet",
+"h"
+],
+"217": [
+"armor",
+"Cover of the Exile",
+1,
+"a legendary helmet",
+"h"
+],
+"243": [
+"armor",
+"Dusk Tread VII",
+1,
+"a legendary helmet",
+"h"
+],
+"132": [
+"weapon",
+"Darkblade's Spite",
+1,
+"a legendary fusion rifle",
+"h"
+],
+"133": [
+"weapon",
+"Dark-Drinker",
+1,
+"an exotic sword",
+"h"
+],
+"135": [
+"armor",
+"Code Fire I",
+1,
+"a basic Warlock helmet",
+"h"
+],
+"137": [
+"armor",
+"Code Fire II",
+1,
+"a basic Warlock helmet",
+"h"
+],
+"139": [
+"armor",
+"Code Fire",
+1,
+"a basic Warlock helmet",
+"h"
+],
+"166": [
+"armor",
+"Damaged Warlock Hood",
+1,
+"a basic Warlock helmet",
+"h"
+],
+"136": [
+"armor",
+"Code Fire IV",
+1,
+"a basic Warlock chest armor",
+"h"
+],
+"138": [
+"armor",
+"Commando Custom",
+1,
+"a legendary Titan gauntlets",
+"h"
+],
+"140": [
+"armor",
+"Darkhollow Mask",
+1,
+"a legendary Hunter helmet",
+"h"
+],
+"141": [
+"armor",
+"Darkhollow Chiton",
+1,
+"a legendary Hunter chest armor",
+"h"
+],
+"142": [
+"armor",
+"Cormorant Line I",
+1,
+"a rare Warlock chest armor",
+"h"
+],
+"143": [
+"armor",
+"Cormorant Line II",
+1,
+"a rare Warlock helmet",
+"h"
+],
+"144": [
+"weapon",
+"Cordova-HC3",
+1,
+"a rare hand cannon",
+"h"
+],
+"145": [
+"armor",
+"Cuirass of the Witness",
+1,
+"a legendary Titan chest armor",
+"h"
+],
+"152": [
+"armor",
+"Cosmoclast Plate",
+1,
+"a legendary Titan chest armor",
+"h"
+],
+"185": [
+"armor",
+"Crushing Plate",
+1,
+"a legendary Titan chest armor",
+"h"
+],
+"146": [
+"weapon",
+"Corona MSc",
+1,
+"a rare pulse rifle",
+"h"
+],
+"147": [
+"armor",
+"Corsair's Revenge 2.0",
+1,
+"a rare Hunter leg armor",
+"h"
+],
+"150": [
+"armor",
+"Cosmoclast Greaves",
+1,
+"a legendary Titan leg armor",
+"h"
+],
+"161": [
+"armor",
+"Days of Iron Greaves",
+1,
+"a legendary Titan leg armor",
+"h"
+],
+"188": [
+"armor",
+"Crushing Greaves",
+1,
+"a legendary Titan leg armor",
+"h"
+],
+"151": [
+"armor",
+"Days of Iron Crown",
+1,
+"a legendary Warlock helmet",
+"h"
+],
+"237": [
+"armor",
+"Deathsinger's Gaze",
+1,
+"a legendary Warlock helmet",
+"h"
+],
+"153": [
+"armor",
+"Days of Iron Boots",
+1,
+"a legendary Hunter leg armor",
+"h"
+],
+"184": [
+"armor",
+"Dead End Cure 2.1",
+1,
+"a legendary Hunter leg armor",
+"h"
+],
+"154": [
+"armor",
+"Cobra's Vigil Steps",
+1,
+"a legendary Warlock leg armor",
+"h"
+],
+"158": [
+"armor",
+"Days of Iron Steps",
+1,
+"a legendary Warlock leg armor",
+"h"
+],
+"155": [
+"armor",
+"Days of Iron Raiment",
+1,
+"a legendary Warlock chest armor",
+"h"
+],
+"162": [
+"armor",
+"Cobra's Vigil Robes",
+1,
+"a legendary Warlock chest armor",
+"h"
+],
+"157": [
+"armor",
+"Days of Iron Hauberk",
+1,
+"a legendary Hunter chest armor",
+"h"
+],
+"159": [
+"armor",
+"Days of Iron Cuirass",
+1,
+"a legendary Titan chest armor piece",
+"h"
+],
+"160": [
+"armor",
+"Cosmoclast Helm",
+1,
+"a legendary Titan helmet",
+"h"
+],
+"189": [
+"armor",
+"Crushing Helm",
+1,
+"a legendary Titan helmet",
+"h"
+],
+"223": [
+"armor",
+"Crash Helmet",
+1,
+"a legendary Titan helmet",
+"h"
+],
+"164": [
+"armor",
+"Crown of Tempests",
+1,
+"an exotic Warlock helmet",
+"h"
+],
+"165": [
+"armor",
+"Daring Hunter Mask",
+1,
+"a basic Hunter helmet",
+"h"
+],
+"167": [
+"weapon",
+"Cuboid ARu",
+1,
+"a rare auto rifle",
+"h"
+],
+"168": [
+"armor",
+"Damaged Warlock Robe",
+1,
+"a basic Warlock chest armor",
+"h"
+],
+"169": [
+"weapon",
+"Daedalus Code",
+1,
+"a legendary hand cannon",
+"h"
+],
+"191": [
+"weapon",
+"Crimil's Dagger",
+1,
+"a legendary hand cannon",
+"h"
+],
+"196": [
+"weapon",
+"D.F.A.",
+1,
+"a legendary hand cannon",
+"h"
+],
+"224": [
+"weapon",
+"Duke Mk.44",
+1,
+"a legendary hand cannon",
+"h"
+],
+"170": [
+"armor",
+"Daring Hunter Strides",
+1,
+"a set of basic leg armor",
+"h"
+],
+"171": [
+"weapon",
+"D.A.R.C.I.",
+1,
+"an exotic sniper rifle",
+"h"
+],
+"172": [
+"weapon",
+"Complex Solution",
+1,
+"a legendary sword",
+"h"
+],
+"173": [
+"weapon",
+"Cydonia-AR1",
+1,
+"an uncommon auto rifle",
+"h"
+],
+"174": [
+"weapon",
+"Daystar SMG2",
+1,
+"an uncommon submachine gun",
+"h"
+],
+"175": [
+"weapon",
+"Damietta-LR2",
+1,
+"a rare sniper rifle",
+"h"
+],
+"176": [
+"armor",
+"Daring Hunter Vest",
+1,
+"a basic Hunter chest armor",
+"h"
+],
+"177": [
+"armor",
+"Damaged Warlock Boots",
+1,
+"a basic Warlock leg armor",
+"h"
+],
+"178": [
+"weapon",
+"Critical Sass",
+1,
+"a legendary fusion rifle",
+"h"
+],
+"192": [
+"weapon",
+"Conjecture TSc",
+1,
+"a legendary fusion rifle",
+"h"
+],
+"179": [
+"weapon",
+"Copperhead-4sn",
+1,
+"a legendary sniper rifle",
+"h"
+],
+"228": [
+"weapon",
+"Efrideet's Spear",
+1,
+"a legendary sniper rifle",
+"h"
+],
+"180": [
+"weapon",
+"Conspirator",
+1,
+"a legendary scout rifle",
+"h"
+],
+"182": [
+"weapon",
+"Contingency Plan",
+1,
+"a legendary scout rifle",
+"h"
+],
+"181": [
+"weapon",
+"Coldheart",
+1,
+"an exotic trace rifle",
+"h"
+],
+"183": [
+"armor",
+"Cry Defiance",
+1,
+"an uncommon Leg Armor",
+"h"
+],
+"186": [
+"armor",
+"Cosmic Wind III",
+1,
+"an uncommon Leg Armor",
+"h"
+],
+"187": [
+"armor",
+"Cosmic Wind",
+1,
+"an uncommon Warlock helmet",
+"h"
+],
+"190": [
+"weapon",
+"Darkest Before",
+1,
+"a legendary pulse rifle",
+"h"
+],
+"193": [
+"weapon",
+"Crooked Fang-4fr",
+1,
+"a legendary linear fusion rifle",
+"h"
+],
+"194": [
+"weapon",
+"Dead-Ender",
+1,
+"a legendary linear fusion rifle",
+"h"
+],
+"195": [
+"weapon",
+"Crimson",
+1,
+"an exotic hand cannon",
+"h"
+],
+"199": [
+"armor",
+"Cold Mantis",
+1,
+"rare Hunter leg armor",
+"h"
+],
+"201": [
+"armor",
+"Cold Mantis 2.1b",
+1,
+"rare Hunter leg armor",
+"h"
+],
+"204": [
+"armor",
+"Cold Mantis 2.2b",
+1,
+"rare Hunter leg armor",
+"h"
+],
+"208": [
+"armor",
+"Cryptid 4.6c",
+1,
+"rare Hunter leg armor",
+"h"
+],
+"200": [
+"armor",
+"Cold Mantis 2.1",
+1,
+"a rare helmet",
+"h"
+],
+"202": [
+"armor",
+"Cold Mantis 2.1r1",
+1,
+"a rare helmet",
+"h"
+],
+"203": [
+"armor",
+"Cold Mantis 2.2",
+1,
+"a rare helmet",
+"h"
+],
+"205": [
+"armor",
+"Cold Mantis 2.3.2",
+1,
+"a rare helmet",
+"h"
+],
+"206": [
+"armor",
+"Cold Mantis 2.4.0",
+1,
+"a rare helmet",
+"h"
+],
+"209": [
+"armor",
+"Cryptid 4.6r2",
+1,
+"a rare helmet",
+"h"
+],
+"207": [
+"armor",
+"Cryptid 4.6.3",
+1,
+"rare gauntlets",
+"h"
+],
+"210": [
+"armor",
+"Cryptid 4.6r3",
+1,
+"rare gauntlets",
+"h"
+],
+"214": [
+"weapon",
+"Cold Current",
+1,
+"a rare pulse rifle",
+"h"
+],
+"215": [
+"weapon",
+"Cyrus-B",
+1,
+"a basic machine gun",
+"h"
+],
+"216": [
+"weapon",
+"Conspiracy Theory-D",
+1,
+"a legendary shotgun",
+"h"
+],
+"218": [
+"armor",
+"Dead Light Boots",
+1,
+"a legendary leg armor",
+"h"
+],
+"219": [
+"armor",
+"Dead Light Cover",
+1,
+"a legendary helmet",
+"h"
+],
+"220": [
+"armor",
+"Dead Light Gauntlets",
+1,
+"a legendary Titan gauntlets",
+"h"
+],
+"221": [
+"armor",
+"Dead Light Helm",
+1,
+"a legendary helmet",
+"h"
+],
+"225": [
+"armor",
+"Eclipse Maw VI",
+1,
+"a Legendary Warlock helmet",
+"h"
+],
+"227": [
+"armor",
+"Dustwalker",
+1,
+"legendary Hunter gauntlets",
+"h"
+],
+"231": [
+"weapon",
+"Echo 33",
+1,
+"a rare pulse rifle",
+"h"
+],
+"233": [
+"armor",
+"Deathsinger's Mantle",
+1,
+"a piece of legendary Warlock chest armor",
+"h"
+],
+"234": [
+"weapon",
+"Do Gooder V",
+1,
+"a legendary auto rifle",
+"h"
+],
+"235": [
+"weapon",
+"Eidolon Ally",
+1,
+"a legendary auto rifle",
+"h"
+],
+"236": [
+"weapon",
+"Doom Echo XI",
+1,
+"a rare sniper rifle",
+"h"
+],
+"238": [
+"armor",
+"Dusk Tread",
+1,
+"a legendary armor set",
+"h"
+],
+"239": [
+"armor",
+"Deathsinger's Herald",
+1,
+"a set of legendary Warlock leg armor",
+"h"
+],
+"241": [
+"armor",
+"Dusk Tread III",
+1,
+"legendary chest armor",
+"h"
+],
+"242": [
+"armor",
+"Dusk Tread VI",
+1,
+"legendary Warlock leg armor",
+"h"
+],
+"244": [
+"weapon",
+"Double Nickel",
+1,
+"a rare shotgun",
+"h"
+],
+"245": [
+"weapon",
+"Dreg's Promise",
+1,
+"an exotic sidearm",
+"h"
+],
+"246": [
+"weapon",
+"Dispatch I11",
+1,
+"a legendary auto rifle",
+"h"
+],
+"247": [
+"armor",
+"Empyrean Bellicose",
+1,
+"an exotic helmet",
+"h"
+],
+"248": [
+"armor",
+"Dead Light Plate",
+1,
+"a legendary chest armor",
+"h"
+],
+"249": [
+"armor",
+"Dead Light Vest",
+1,
+"a legendary chest armor",
+"h"
+]
+},
+"x": {
+"108": [
+"cybernetic arm",
+"rocket punch",
+"anti-gravity boots"
+]
+},
+"z": {},
+"f": {},
+"u0": {
+"105": "no source page: DC Collected Template row, no page"
+}
+}
