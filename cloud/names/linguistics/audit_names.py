@@ -1,7 +1,8 @@
-# S0316 Audits every culture name in names/*.json against names/linguistics/rules/<slug>.json (graphemes, forbidden patterns, word length); writes audit.json + audit_summary.csv
+# S0316 Audits every culture name in names/*.json against names/linguistics/rules/<slug>.json (graphemes, forbidden patterns per word, word length) and against modern Gaelic/Irish/Manx words; writes audit.json + audit_summary.csv; exit 1 if any name fails
 # python3 -I audit_names.py
 import csv, glob, json, os, re, unicodedata
 R = '/mnt/project-files/names'
+GOID = {l.strip().lower() for l in open('/mnt/project-files/diaithiris-archaic/tools/goidelic_words.txt', encoding='utf8')}
 rules = {}
 for f in glob.glob(R + '/linguistics/rules/*.json'):
     d = json.load(open(f))
@@ -27,8 +28,8 @@ def check(slug, name):
         else:
             out.append('char:' + n[i]); i += 1
     for p in pats:
-        m = p.search(n)
-        if m: out.append('forbidden:' + p.pattern)
+        if any(p.search(w) for w in re.split(r"[ \-]+", n)): out.append('forbidden:' + p.pattern)
+    if len(n) >= 4 and n in GOID: out.append('goidelic:' + n)
     return out
 
 def main():
@@ -48,7 +49,9 @@ def main():
     w = csv.writer(open(R + '/linguistics/audit_summary.csv', 'w'))
     w.writerow(['slug', 'names', 'failing', 'pct'])
     for s in sorted(tot): w.writerow([s, tot[s], len(bad.get(s, [])), round(100 * len(bad.get(s, [])) / tot[s], 1)])
-    print(sum(tot.values()), sum(len(x) for x in bad.values()))
+    n = sum(len(x) for x in bad.values())
+    print(sum(tot.values()), n)
+    raise SystemExit(n > 0)
 
 if __name__ == '__main__':
     main()
