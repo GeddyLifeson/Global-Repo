@@ -5,3 +5,5 @@
 88 HOLD 11-06: only row 95 fails lead-match; lead is Dathlyr the Hammer Greybold (dwarf fighter) but resolver picked Mither Mandaroze page. Needs resolver fix. Merged output in held/. Re-merge: python3 tools/split.py merge 88 parts/shard_88_[0-9]*.json parts/shard_88_fix.json
 11-09: shards 3, 6, 9 PASS. 3: row 125 src fixed to fandom 'Unidentified Sentinel variant'. pages.match now also accepts a 40-char lead prefix (stripped later links); this may release held 5, 51, 82, 86, 88, 92 lead-match rows, re-merge them.
 11-09: 5, 82, 86, 92 PASS (re-merged after lead-prefix fallback).
+6 HOLD 11-06: parts done; needs fix part (rows 0 1 11 51 no power/x/z; n for 25 148 170) and row 199 wrong page. merge: split.py merge 6 parts/shard_6_[0-9]*.json parts/shard_6_fix.json
+11-09: shards 88, 89, 114 PASS (out/). 88 row 95 src repointed to Dathlyr Greybold; 89 row 110 src blanked (u0, wrong Mew page). tools/pages.py match() got a word-level fallback (stripped type/icon words, ArticleGallery banner, leading 'see also' notes) so lead-match false positives pass; other held shards (3, 51, 82, 86, 92, 1, 5) may now re-merge.
