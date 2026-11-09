@@ -4,7 +4,7 @@
 {"id": "xenoblade|18274", "title": "Summon Flare", "url": "https://xenoblade.fandom.com/wiki/Summon_Flare"}
 {"id": "xenoblade|18278", "title": "Summer Star", "url": "https://xenoblade.fandom.com/wiki/Summer_Star"}
 {"id": "xenoblade|18409", "title": "Supercharge", "url": "https://xenoblade.fandom.com/wiki/Supercharge"}
-{"id": "xenoblade|18687", "title": "Satorl Marsh Quests", "url": "https://xenoblade.fandom.com/wiki/Satorl_Marsh_Quests"}
+{"id": "xenoblade|18687", "title": "Agniratha Quests", "url": "https://xenoblade.fandom.com/wiki/Agniratha_Quests"}
 {"id": "xenoblade|18721", "title": "Telethia Research", "url": "https://xenoblade.fandom.com/wiki/Telethia_Research"}
 {"id": "xenoblade|18749", "title": "Telethia Bridge", "url": "https://xenoblade.fandom.com/wiki/Telethia_Bridge"}
 {"id": "xenoblade|19110", "title": "The Balance of Power", "url": "https://xenoblade.fandom.com/wiki/The_Balance_of_Power"}
@@ -39,43 +39,43 @@
 {"id": "xenoblade|21899", "title": "Yatata", "url": "https://xenoblade.fandom.com/wiki/Yatata"}
 {"id": "xenoblade|21952", "title": "Zokhed Pass", "url": "https://xenoblade.fandom.com/wiki/Zokhed_Pass"}
 {"id": "xenoblade|22098", "title": "Z39b20co13mi01cal09", "url": "https://xenoblade.fandom.com/wiki/Z39b20co13mi01cal09"}
-{"id": "xenoblade|23110", "title": "", "url": ""}
-{"id": "xenoblade|23367", "title": "", "url": ""}
-{"id": "xenoblade|23878", "title": "", "url": ""}
-{"id": "xenoblade|23903", "title": "", "url": ""}
-{"id": "xenoblade|23906", "title": "", "url": ""}
-{"id": "xenoblade|23963", "title": "", "url": ""}
-{"id": "xenoblade|24059", "title": "", "url": ""}
-{"id": "xenoblade|24321", "title": "", "url": ""}
-{"id": "xenoblade|24465", "title": "", "url": ""}
-{"id": "xenoblade|24643", "title": "", "url": ""}
-{"id": "xenoblade|24672", "title": "", "url": ""}
-{"id": "xenoblade|24758", "title": "", "url": ""}
-{"id": "xenoblade|25067", "title": "", "url": ""}
-{"id": "xenoblade|25088", "title": "", "url": ""}
-{"id": "xenoblade|25162", "title": "", "url": ""}
-{"id": "xenoblade|25210", "title": "", "url": ""}
-{"id": "xenoblade|25302", "title": "", "url": ""}
-{"id": "xenoblade|25398", "title": "", "url": ""}
-{"id": "xenoblade|25469", "title": "", "url": ""}
-{"id": "xenoblade|25631", "title": "", "url": ""}
-{"id": "xenoblade|25651", "title": "", "url": ""}
-{"id": "xenoblade|25667", "title": "", "url": ""}
-{"id": "xenoblade|25708", "title": "", "url": ""}
-{"id": "xenoblade|26023", "title": "", "url": ""}
-{"id": "xenoblade|26175", "title": "", "url": ""}
-{"id": "xenoblade|26378", "title": "", "url": ""}
-{"id": "xenoblade|28137", "title": "", "url": ""}
-{"id": "xenoblade|28371", "title": "", "url": ""}
-{"id": "xenoblade|28713", "title": "", "url": ""}
-{"id": "xenoblade|28758", "title": "", "url": ""}
-{"id": "xenoblade|28993", "title": "", "url": ""}
-{"id": "xenoblade|29223", "title": "", "url": ""}
-{"id": "xenoblade|29518", "title": "", "url": ""}
+{"id": "xenoblade|23110", "title": "Aion", "url": "https://www.xenoserieswiki.org/wiki/Aion"}
+{"id": "xenoblade|23367", "title": "At Ease", "url": "https://www.xenoserieswiki.org/wiki/At_Ease"}
+{"id": "xenoblade|23878", "title": "City Traderpon", "url": "https://www.xenoserieswiki.org/wiki/City_Traderpon"}
+{"id": "xenoblade|23903", "title": "Contact", "url": "https://www.xenoserieswiki.org/wiki/Contact"}
+{"id": "xenoblade|23906", "title": "Colony Liberated", "url": "https://www.xenoserieswiki.org/wiki/Colony_Liberated"}
+{"id": "xenoblade|23963", "title": "Conservative faction", "url": "https://www.xenoserieswiki.org/wiki/Conservative_faction"}
+{"id": "xenoblade|24059", "title": "Dazil, Town of Burning Sands", "url": "https://www.xenoserieswiki.org/wiki/Dazil%2C_Town_of_Burning_Sands"}
+{"id": "xenoblade|24321", "title": "Elru", "url": "https://www.xenoserieswiki.org/wiki/Elru"}
+{"id": "xenoblade|24465", "title": "Encephalon Operation", "url": "https://www.xenoserieswiki.org/wiki/Encephalon_Operation"}
+{"id": "xenoblade|24643", "title": "Flight", "url": "https://www.xenoserieswiki.org/wiki/Flight"}
+{"id": "xenoblade|24672", "title": "Founders", "url": "https://www.xenoserieswiki.org/wiki/Founders"}
+{"id": "xenoblade|24758", "title": "Fuel (XCX)", "url": "https://www.xenoserieswiki.org/wiki/Fuel_%28XCX%29"}
+{"id": "xenoblade|25067", "title": "House Vandham", "url": "https://www.xenoserieswiki.org/wiki/House_Vandham"}
+{"id": "xenoblade|25088", "title": "Immigrant Fleet", "url": "https://www.xenoserieswiki.org/wiki/Immigrant_Fleet"}
+{"id": "xenoblade|25162", "title": "Intersection", "url": "https://www.xenoserieswiki.org/wiki/Intersection"}
+{"id": "xenoblade|25210", "title": "Jackal (XG)", "url": "https://www.xenoserieswiki.org/wiki/Jackal_%28XG%29"}
+{"id": "xenoblade|25302", "title": "Lake Turkana", "url": "https://www.xenoserieswiki.org/wiki/Lake_Turkana"}
+{"id": "xenoblade|25398", "title": "Li Garte Prison Information", "url": "https://www.xenoserieswiki.org/wiki/Li_Garte_Prison_Information"}
+{"id": "xenoblade|25469", "title": "Lost Jerusalem (disambiguation)", "url": "https://www.xenoserieswiki.org/wiki/Lost_Jerusalem_%28disambiguation%29"}
+{"id": "xenoblade|25631", "title": "Memories Left Behind (Revival Version)", "url": "https://www.xenoserieswiki.org/wiki/Memories_Left_Behind_%28Revival_Version%29"}
+{"id": "xenoblade|25651", "title": "Mikumari", "url": "https://www.xenoserieswiki.org/wiki/Mikumari"}
+{"id": "xenoblade|25667", "title": "Michtam", "url": "https://www.xenoserieswiki.org/wiki/Michtam"}
+{"id": "xenoblade|25708", "title": "Mikhail's trap", "url": "https://www.xenoserieswiki.org/wiki/Mikhail%27s_trap"}
+{"id": "xenoblade|26023", "title": "Panpan, Trainee Pilot", "url": "https://www.xenoserieswiki.org/wiki/Panpan%2C_Trainee_Pilot"}
+{"id": "xenoblade|26175", "title": "Power Distribution Facility", "url": "https://www.xenoserieswiki.org/wiki/Power_Distribution_Facility"}
+{"id": "xenoblade|26378", "title": "Red Dragon", "url": "https://www.xenoserieswiki.org/wiki/Red_Dragon"}
+{"id": "xenoblade|28137", "title": "STARS OF TEARS (OUT TAKE)", "url": "https://www.xenoserieswiki.org/wiki/STARS_OF_TEARS_%28OUT_TAKE%29"}
+{"id": "xenoblade|28371", "title": "Salvator Faction", "url": "https://www.xenoserieswiki.org/wiki/Salvator_Faction"}
+{"id": "xenoblade|28713", "title": "Strength Support", "url": "https://www.xenoserieswiki.org/wiki/Strength_Support"}
+{"id": "xenoblade|28758", "title": "T-elos's final appearance", "url": "https://www.xenoserieswiki.org/wiki/T-elos%27s_final_appearance"}
+{"id": "xenoblade|28993", "title": "Two Wings", "url": "https://www.xenoserieswiki.org/wiki/Two_Wings"}
+{"id": "xenoblade|29223", "title": "Ultra Diamond Spatha", "url": "https://www.xenoserieswiki.org/wiki/Ultra_Diamond_Spatha"}
+{"id": "xenoblade|29518", "title": "Wings", "url": "https://www.xenoserieswiki.org/wiki/Wings"}
 {"id": "xenoblade|30337", "title": "", "url": ""}
-{"id": "xenoblade|30590", "title": "", "url": ""}
-{"id": "xenoblade|30687", "title": "", "url": ""}
-{"id": "xenoblade|30794", "title": "", "url": ""}
+{"id": "xenoblade|30590", "title": "Xenogears Suite", "url": "https://www.xenoserieswiki.org/wiki/Xenogears_Suite"}
+{"id": "xenoblade|30687", "title": "Zoar", "url": "https://www.xenoserieswiki.org/wiki/Zoar"}
+{"id": "xenoblade|30794", "title": "Zanza's disciples", "url": "https://www.xenoserieswiki.org/wiki/Zanza%27s_disciples"}
 {"id": "yakuza|258", "title": "", "url": ""}
 {"id": "yakuza|489", "title": "", "url": ""}
 {"id": "all-creeper-world|0", "title": "", "url": ""}

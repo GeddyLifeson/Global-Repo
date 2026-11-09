@@ -1,6 +1,6 @@
 import sys,json,gzip,re,os,collections
 sys.path.insert(0,'/tmp/s'); import pages as P
-SRC={'world-of-warcraft':[('wowpedia.fandom.com','wo'),('warcraft.wiki.gg','ww')],'xenoblade':[('xenoblade.fandom.com','xe')]}
+SRC={'world-of-warcraft':[('wowpedia.fandom.com','wo'),('warcraft.wiki.gg','ww')],'xenoblade':[('xenoblade.fandom.com','xe'),('www.xenoserieswiki.org','xs')]}
 HOST=SRC
 D={}
 for w,l in SRC.items():
