@@ -9,3 +9,6 @@ Boot checks to run (C:\MCTestServer, real world at spawn):
 3. Client boot with ScalableLux present, then client join (Immersive Vehicles client fix).
 4. Known suspect: `easy_npc` is still folded in diaithir-tech-ext-suite (519 entries) while `easy_npc_bundle-neoforge-26.1.2-7.16.0.pw.toml` is also linked; expect a duplicate-mod error, drop one.
 5. Run `python3 -I tools/integrity/check_licenses.py . <MOD_REMOVALS.json>` and `check_models.py .` (counts in V1_CHECKLIST B6, B10).
+
+## Second pass (04a775c3)
+Also stripped and now linked: The Aether II 26.1.2-alpha.4.2, The Undergarden 0.9.8, The Backwoods 1.8.0 (worldgen suite). Boot check: these three load with their own dependencies (look for missing-dependency errors), our `diaithir_overworld_biomes` realm classes still find them. Item 4 above is withdrawn: `easy_npc_bundle` is a MIT meta mod, no duplicate.
