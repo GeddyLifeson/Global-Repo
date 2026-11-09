@@ -1,152 +1,133 @@
 {
-    "run_utc":  "2026-11-04T14:39:26Z",
+    "run_utc":  "2026-11-09T18:38:53Z",
     "dry_run":  false,
-    "merged_count":  6,
-    "skipped_count":  22,
-    "failed_count":  1,
+    "merged_count":  1,
+    "skipped_count":  23,
+    "failed_count":  0,
     "merged":  [
                    {
-                       "pr":  "GeddyLifeson/Global-Repo#48",
-                       "title":  "Register S6950 gen_tags_extra and update S0317"
-                   },
-                   {
-                       "pr":  "GeddyLifeson/diaithir-ports#249",
-                       "title":  "diaithir-ships keelwright: Create: Propulsion fold (survey p1)"
-                   },
-                   {
-                       "pr":  "GeddyLifeson/diaithir-ports#286",
-                       "title":  "Megamachines: dig head block, assay hook, dig core moved into ships"
-                   },
-                   {
-                       "pr":  "GeddyLifeson/diaithir-ports#303",
-                       "title":  "diaithir-carts: cart loader and unloader (clean-room, survey part 1)"
-                   },
-                   {
-                       "pr":  "GeddyLifeson/diaithir-ports#350",
-                       "title":  "Woodvariants: use own diaithirtrees woods (fixes ~4,000 missing-texture models); add gapfill tool"
-                   },
-                   {
-                       "pr":  "GeddyLifeson/diaithir-ports#351",
-                       "title":  "Pack: overlay for 181 unresolved textures and 57 missing parent models"
+                       "pr":  "GeddyLifeson/Global-Repo#65",
+                       "title":  "Relink assayed Panscriptum beings to source pages (S6974)"
                    }
                ],
     "skipped":  [
                     {
-                        "title":  "Register S6951 assay_merge.py",
-                        "pr":  "GeddyLifeson/Global-Repo#49",
+                        "title":  "Panscriptum gap fill: DC characters (23,764) with source page ids",
+                        "pr":  "GeddyLifeson/Global-Repo#66",
                         "reason":  "per-run cap: 1 global-repo PR(s) per run, the rest wait for the next run"
                     },
                     {
-                        "title":  "Register S6953 recipes_to_stations.py",
-                        "pr":  "GeddyLifeson/Global-Repo#50",
+                        "title":  "Add Xenoblade game data shard 198 with weapons and armor",
+                        "pr":  "GeddyLifeson/Global-Repo#115",
                         "reason":  "per-run cap: 1 global-repo PR(s) per run, the rest wait for the next run"
                     },
                     {
-                        "title":  "Index S6880 port.py and S6881 rcon.py with real paths",
-                        "pr":  "GeddyLifeson/Global-Repo#51",
-                        "reason":  "per-run cap: 1 global-repo PR(s) per run, the rest wait for the next run"
-                    },
-                    {
-                        "title":  "Register S6940 gen_farm_assets.py (diaithir-carts reaper)",
-                        "pr":  "GeddyLifeson/Global-Repo#52",
-                        "reason":  "per-run cap: 1 global-repo PR(s) per run, the rest wait for the next run"
-                    },
-                    {
-                        "title":  "Merge order row for ports #339; register S6902 harvest_stock.py",
-                        "pr":  "GeddyLifeson/Global-Repo#53",
-                        "reason":  "per-run cap: 1 global-repo PR(s) per run, the rest wait for the next run"
-                    },
-                    {
-                        "title":  "Headless bot: cars drive, cargo and nested save tests",
-                        "pr":  "GeddyLifeson/Global-Repo#54",
-                        "reason":  "per-run cap: 1 global-repo PR(s) per run, the rest wait for the next run"
-                    },
-                    {
-                        "title":  "Assign an Age to every item with none (V1 audit hole)",
-                        "pr":  "GeddyLifeson/Global-Repo#56",
-                        "reason":  "per-run cap: 1 global-repo PR(s) per run, the rest wait for the next run"
-                    },
-                    {
-                        "title":  "Port BuildCraft Community Edition 8.0.26 into diaithir-routing-networks",
-                        "pr":  "GeddyLifeson/diaithir-ports#108",
-                        "reason":  "BuildCraft CE vendor: art not cleared, not compiled; #119 wins the BuildCraft slot"
-                    },
-                    {
-                        "title":  "Port Global Events (meteors, blood moon, caravan, golden hour) to NeoForge 26.1.2",
-                        "pr":  "GeddyLifeson/diaithir-ports#111",
-                        "reason":  "overlaps #113 (meteor, blood moon); fold caravan and golden hour into hostile-encounters, then close"
-                    },
-                    {
-                        "title":  "Foundry: courier depots and ghost placement (clean-room)",
-                        "pr":  "GeddyLifeson/diaithir-ports#112",
-                        "reason":  "shares diaithir-logistics-utilities skeleton with #114; rebase onto #114 after it merges"
-                    },
-                    {
-                        "title":  "tech_ages: an Age for every item (V1 audit: 5,989 no-Age ids to 0)",
-                        "pr":  "GeddyLifeson/DiaithirRPG#280",
-                        "reason":  "per-run cap: 1 global-repo PR(s) per run, the rest wait for the next run"
-                    },
-                    {
-                        "title":  "Survey p3: demolition marks for Foundry depots (Buzzy Bees deconstruction idea)",
-                        "pr":  "GeddyLifeson/diaithir-ports#261",
-                        "reason":  "waiting for predecessor ports#112 to merge (it is skipped: shares diaithir-logistics-utilities skeleton with #114; rebase onto #114 after it merges)"
-                    },
-                    {
-                        "title":  "Survey p3: Alloy Forgery recipe set folded into the Forgeworks alloy furnace",
-                        "pr":  "GeddyLifeson/diaithir-ports#270",
-                        "reason":  "waiting for predecessor ports#112 to merge (it is skipped: shares diaithir-logistics-utilities skeleton with #114; rebase onto #114 after it merges)"
-                    },
-                    {
-                        "title":  "diaithir-storagenet: wireless transmitter, cross-dimension link (survey p1, IWT fold)",
-                        "pr":  "GeddyLifeson/diaithir-ports#281",
-                        "reason":  "merge conflicts"
-                    },
-                    {
-                        "title":  "diaithir-ships archimedes: deck walking, Nifty Ships idea (survey p1)",
-                        "pr":  "GeddyLifeson/diaithir-ports#293",
-                        "reason":  "merge conflicts"
-                    },
-                    {
-                        "title":  "V1 audit against the plans",
-                        "pr":  "GeddyLifeson/Global-Repo#55",
+                        "title":  "Add test-everything harness (manifest + RCON runner)",
+                        "pr":  "GeddyLifeson/Global-Repo#116",
                         "reason":  "draft and not listed as clear in merge-order.csv"
                     },
                     {
-                        "title":  "Item roles: retry results (29,967), kubejs exporter, merge row",
-                        "pr":  "GeddyLifeson/Global-Repo#57",
+                        "title":  "Judge math baseline: method sd and canon weights",
+                        "pr":  "GeddyLifeson/Global-Repo#117",
                         "reason":  "draft and not listed as clear in merge-order.csv"
                     },
                     {
-                        "title":  "OpenComputers port step 2: OC2R sources in tree, first 26.1 fixes (work in progress)",
-                        "pr":  "GeddyLifeson/diaithir-ports#223",
-                        "reason":  "work in progress"
-                    },
-                    {
-                        "title":  "Port Ars Nouveau to 26.1.2 as a module of diaithir-druidry (LGPL-3.0)",
-                        "pr":  "GeddyLifeson/diaithir-ports#278",
+                        "title":  "Add master V1 finish checklist",
+                        "pr":  "GeddyLifeson/Global-Repo#118",
                         "reason":  "draft and not listed as clear in merge-order.csv"
                     },
                     {
-                        "title":  "Botania port into diaithir-druidry (WIP: API shell compiles)",
-                        "pr":  "GeddyLifeson/diaithir-ports#280",
+                        "title":  "V1 checklist Part I: progression status notes",
+                        "pr":  "GeddyLifeson/Global-Repo#119",
                         "reason":  "draft and not listed as clear in merge-order.csv"
                     },
                     {
-                        "title":  "Fix ships dev server start: keep @Mod entrypoints out of the yardsApi source set",
-                        "pr":  "GeddyLifeson/diaithir-ports#352",
+                        "title":  "Tick V1 checklist M7 (antislop gate)",
+                        "pr":  "GeddyLifeson/Global-Repo#120",
                         "reason":  "draft and not listed as clear in merge-order.csv"
                     },
                     {
-                        "title":  "Item roles module: role data for 30k items, global.itemRole, tooltip",
-                        "pr":  "GeddyLifeson/DiaithirRPG#279",
+                        "title":  "Part J: icon sources, assay rules check, pack tail list",
+                        "pr":  "GeddyLifeson/Global-Repo#122",
+                        "reason":  "draft and not listed as clear in merge-order.csv"
+                    },
+                    {
+                        "title":  "F11-F13: Age check, balance matrix, item roles",
+                        "pr":  "GeddyLifeson/Global-Repo#123",
+                        "reason":  "draft and not listed as clear in merge-order.csv"
+                    },
+                    {
+                        "title":  "Lang audit: per-word patterns and Goidelic guard (J15)",
+                        "pr":  "GeddyLifeson/Global-Repo#124",
+                        "reason":  "draft and not listed as clear in merge-order.csv"
+                    },
+                    {
+                        "title":  "Judge pages: bulk dump route, shards 160-927 ready",
+                        "pr":  "GeddyLifeson/Global-Repo#126",
+                        "reason":  "draft and not listed as clear in merge-order.csv"
+                    },
+                    {
+                        "title":  "V1 checklist: progression status (I0, I16) and G64/I19 blocked notes",
+                        "pr":  "GeddyLifeson/Global-Repo#127",
+                        "reason":  "draft and not listed as clear in merge-order.csv"
+                    },
+                    {
+                        "title":  "V1 checklist: tick M7 and Z5, record P1 and blockers",
+                        "pr":  "GeddyLifeson/Global-Repo#128",
+                        "reason":  "draft and not listed as clear in merge-order.csv"
+                    },
+                    {
+                        "title":  "Panscriptum/pack parity checker (J7)",
+                        "pr":  "GeddyLifeson/Global-Repo#129",
+                        "reason":  "draft and not listed as clear in merge-order.csv"
+                    },
+                    {
+                        "title":  "V1 checklist: J5 notes for D7-D17",
+                        "pr":  "GeddyLifeson/Global-Repo#130",
+                        "reason":  "draft and not listed as clear in merge-order.csv"
+                    },
+                    {
+                        "title":  "J6 Ages data: folded-module Ages, orphan classes, balance refresh",
+                        "pr":  "GeddyLifeson/Global-Repo#131",
+                        "reason":  "draft and not listed as clear in merge-order.csv"
+                    },
+                    {
+                        "title":  "B4: licence pass for the 37 open-fold candidates",
+                        "pr":  "GeddyLifeson/diaithir-ports#360",
+                        "reason":  "draft and not listed as clear in merge-order.csv"
+                    },
+                    {
+                        "title":  "B4: open-licence folds (UNTESTED)",
+                        "pr":  "GeddyLifeson/diaithir-ports#361",
+                        "reason":  "draft and not listed as clear in merge-order.csv"
+                    },
+                    {
+                        "title":  "Tool Belt keys N/Y and Space vehicle fire (D3, D4)",
+                        "pr":  "GeddyLifeson/diaithir-ports#362",
+                        "reason":  "draft and not listed as clear in merge-order.csv"
+                    },
+                    {
+                        "title":  "V1 D5/D7/D8: crew gate, trade screen guards, lowercase fauna ids",
+                        "pr":  "GeddyLifeson/diaithir-ports#363",
+                        "reason":  "draft and not listed as clear in merge-order.csv"
+                    },
+                    {
+                        "title":  "Pack: licence, size and model checkers; fix 95 MB jar and stellaris textures",
+                        "pr":  "GeddyLifeson/diaithir-ports#364",
+                        "reason":  "draft and not listed as clear in merge-order.csv"
+                    },
+                    {
+                        "title":  "MegaSelfTest: clear stray drops before spill checks",
+                        "pr":  "GeddyLifeson/diaithir-ports#365",
+                        "reason":  "draft and not listed as clear in merge-order.csv"
+                    },
+                    {
+                        "title":  "Fold repaired names into content/names (regen3) and drop invalid Windows paths",
+                        "pr":  "GeddyLifeson/DiaithirRPG#289",
                         "reason":  "draft and not listed as clear in merge-order.csv"
                     }
                 ],
     "failed":  [
-                   {
-                       "title":  "diaithir-travel-structures: laser bridges and fences (survey p1, MIT fold)",
-                       "error":  "merge failed: GitHub would not merge it: The remote server returned an error: (405) Method Not Allowed.",
-                       "pr":  "GeddyLifeson/diaithir-ports#260"
-                   }
+
                ]
 }
