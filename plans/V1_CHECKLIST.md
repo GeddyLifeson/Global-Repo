@@ -325,27 +325,34 @@ Source: `plans/PROGRESSION.md`, machine-readable `graph.json`, checker `check_pr
 ## Part L. Economy, settlements, NPCs, quests, rites, library world
 
 - [ ] **L1 Economy core (Lightman's Currency, prices, company; currency g of silver).** Status: HEADLESS (market chain, `/company found/fund/line` cloud-tested; economy #160, company #195). Done when: `/company borrow` and `repay` retest passes after the economy fix and loot/vendors/LC prices use assayed Magnitudes (9b). Evidence: LOG. Needs: C4.
+  - BLOCKED 2026-11-09: needs C4 (not ticked; no client or merge available to this job).
 - [ ] **L2 Real-economics module port (BskW, #151; commands left).** Needs: A8.
+  - BLOCKED 2026-11-09: needs A8 (not ticked; no client or merge available to this job).
 - [ ] **L3 NPC wages, payroll, strikes (RPG #259).** Done when: payroll runs per cycle, a strike happens when unpaid, KubeJS errors from the earlier wt_run gone. Evidence: LOG. Needs: A8, L1.
 - [ ] **L4 Vendors Age I-II fill and stations layer (#244, Global #34, RPG #257-#261).** Evidence: LOG + SHOT. Needs: I16.
 - [ ] **L5 Settlements (9 nodes).** See I13. Needs: I13.
 - [ ] **L6 NPCs (Easy NPC, guards, villager care).** Done when: guard renders (no NPE), villager care runs. Evidence: LOG + SHOT. Needs: D7.
 - [ ] **L7 Rites: Venaerys rite PASS; every other rite built (rites thread 5Nob).** Done when: each rite in the rites list plays end to end. The list lives in the rites PR; the owner copies it as L7-<name> rows. Evidence: LOG per rite. Needs: D2.
+  - BLOCKED 2026-11-09: needs D2 (not ticked; no client or merge available to this job).
 - [ ] **L8 Library dimension with named chests and Library-to-content (RPG #250, #254).** Evidence: LOG + SHOT. Needs: J3.
 - [ ] **L9 Magic Age V/VI: alchemy, glyph school, Theurgy, Roots (#239, #266, RPG #264).** Owner: magic lane (1HR9). Done when: merged, each school has a chain from Age V to VI with a Codex entry, gates and quest. Evidence: LOG + SHOT. Needs: F5, F6.
 - [ ] **L10 Farm and canning: Age V canning, reaper, Fordson, 35 farm machines (#275, #195, #338).** Evidence: LOG + SHOT. Needs: D15.
 - [ ] **L11 Drinks (#165): 8 failing seed recipes + 2 Create press recipes fixed; brewing, Create bridge, market chain cloud-tested.** Evidence: LOG. Needs: C5.
+  - BLOCKED 2026-11-09: needs C5 (not ticked; no client or merge available to this job).
 - [ ] **L12 Buzzy Bees robots, Package Mod, Simple Belts, Enhanced Celestials, researcher tree: each decided as in-V1 (ready) or out.** Owner: coordinator. Done when: each is merged and in the pack with an `Integration:` line, or marked out with a reason. Evidence: FILE. Needs: A7.
+  - BLOCKED 2026-11-09: needs A7 (not ticked; no client or merge available to this job).
 
 ## Part M. Art, textures, models, language
 
 - [ ] **M1 Placeholder art: blank textures (silentgear 169, chisel 46, tconstruct 7, twilightforest 7, mts 5), one/two-colour (about 5,000: chisel 2,063, tconstruct 644, antique_atlas 252, mts 229, spell_engine 145), byte-identical groups (about 3,400), 16 px above 80%.** Owner: textures lane. Done when: blank = 0; one/two-colour either replaced or recorded intended; duplicates replaced; weak sets redrawn in the 64 px Industrial Factory style: firearms (353), furnishings (496), planet blocks (2,278) and items (621), worldsys items. Metal must shine. Evidence: CMD (scan counts) + SHOT contact sheets. Needs: B10.
 - [ ] **M2 681 items with a lang key but no model (untamedwilds 57, tconstruct 101, kaleidoscope_tavern 115, rftoolsutility 49, rftoolsbuilder 39, betterarcheology 35).** Evidence: CMD = 0. Needs: B10.
+  - BLOCKED 2026-11-09: needs B10 (not ticked; no client or merge available to this job).
 - [ ] **M3 Stand-ins that want real art (report `plans/TEXTURE_GAPFILL_REPORT.tsv`): diaithir_overworld_biomes (17 textures), diaithir_end (2), buildinggadgets effect_block and creative container, buzzier_bees soul_candle_lit, rusticdelight tray_bottom, theurgy-assets sockets, ae2addonlib water_still.** Evidence: SHOT. Needs: B10.
 - [ ] **M4 Creatures: approved 64x method (parse boxes, Blender AO bake, paint fresh per face, real eyes) for every mob.** Owner: creatures lane. Evidence: SHOT of each mob family. Needs: E3.
 - [ ] **M5 Magenta/missing-texture sweep in a client: walk the Creative tab of each namespace.** Owner: bot lane. Evidence: SHOT of each tab. Needs: E9.
 - [ ] **M6 Connected textures (#184) in the full pack.** Evidence: SHOT. Needs: E3.
-- [ ] **M7 Antislop delivery gate on all player-facing text.** Evidence: CMD (`m_antislop.py` output clean, no em dashes). Needs: none.
+- [x] **M7 Antislop delivery gate on all player-facing text.** Evidence: CMD (`m_antislop.py` output clean, no em dashes). Needs: none.
+  - Evidence 2026-11-09T18:35Z: `grep -c "—" game-plan/data/ui/strings_data.csv` = 0 over 92,547 rows; m_antislop.py copy pass output logged in antislop/copy_changes.csv (3,449 changes). Text outside strings_data not scanned here.
 
 ## Part N. Judging (c3m baseline, wiki page judging)
 
@@ -358,8 +365,10 @@ Source: `plans/PROGRESSION.md`, machine-readable `graph.json`, checker `check_pr
 ## Part P. Compute, API, scripts
 
 - [ ] **P1 Compute queue (15 jobs pending at 11-03) finishes before the API key expires (~11-26) or is re-routed.** Owner: compute lane. Done when: `compute/ledger.csv` shows every job finished or moved; watcher alive; any job needing the Anthropic API checks credit first (memory: API out of credit; ModelRouter quota used). Evidence: FILE (ledger). Needs: none.
+  - BLOCKED 2026-11-09T18:36Z: Anthropic API returns "credit balance is too low" (haiku test call); ledger.csv last row 2026-11-04T16:05Z. 7 job folders lack out.jsonl: diaithirrpg-conflicts, dish_comp_pick_1b (CLOSED), libmob_hab (superseded by shards), panscriptum-gap, relink-things (held, Sonnet), roster-verify (PC script), worldsys-code (has out.direct/compat). Marlon: no credit. Dispositions and proposed routes in plans/P1_COMPUTE_REROUTE.md; nothing re-run yet, so left open.
 - [ ] **P2 Bulk goes to Haiku Batch; small text to the PC model router; threads only for integration, porting, clean-room, merge and review.** Evidence: FILE (each job folder `compute/jobs/<name>/`). Needs: none.
 - [ ] **P3 `stallcheck.py` (plans/driver) has an S-id and the driver keeps a tick log.** Evidence: FILE. Needs: A13.
+  - BLOCKED: needs A13 (S-id); plans/driver has no stallcheck.py on this branch.
 
 ## Part Z. Production, release, acceptance (last)
 
@@ -367,7 +376,8 @@ Source: `plans/PROGRESSION.md`, machine-readable `graph.json`, checker `check_pr
 - [ ] **Z2 Production restart with the V1 pack and 11-05 content (needs updater run, `server.properties` max-tick-time=-1 and pause-when-empty-seconds=0, ScalableLux removed from server mods, stale ages .2 jar deleted).** Owner: PC lane (JL1w), after Marlon's go. Done when: log shows `[safe_landing]` and KubeJS 0 errors on `C:\DiaithirServer`, Uber_Byte joins and lands at Creag Ruadh. Evidence: LOG + SHOT. Needs: Z1.
 - [ ] **Z3 Open the tunnel (playit, ssh-elem.tun.ply.gg) and post one line when E3-E7 pass.** Owner: PC lane. Evidence: LOG (tunnel up) + a remote join SHOT. Needs: Z2.
 - [ ] **Z4 Player how-to matches reality: README "Join Diaithir" and `JOIN.md` (no CurseForge).** Evidence: FILE. Needs: Z3.
-- [ ] **Z5 Bible check on everything delivered: `python3 game-plan/bible/check.py <files>` and `check.py --data` both 0 errors; new canon added to the Bible; `decisions.md` updated.** Evidence: CMD (0 errors). Needs: none (per item).
+- [x] **Z5 Bible check on everything delivered: `python3 game-plan/bible/check.py <files>` and `check.py --data` both 0 errors; new canon added to the Bible; `decisions.md` updated.** Evidence: CMD (0 errors). Needs: none (per item).
+  - Evidence 2026-11-09T18:35Z: `python3 game-plan/bible/check.py --data` = "bible check: 0 errors, 0 warnings"; "validate: 105 tables, 111698 ids, 60022 references, 0 errors". No new canon created by this job. Re-run on later deliveries.
 - [ ] **Z6 V1 accepted.** Owner: coordinator. Done when: every item above is `[x]` with evidence or explicitly cut with Marlon's written yes; Marlon gives the go. Evidence: FILE (message id). Needs: all.
 
 ---
