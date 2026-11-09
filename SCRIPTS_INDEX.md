@@ -318,9 +318,7 @@ Run hints: .py `python3 <file>` (PC `py`), .ps1 via a hidden launcher (never a v
 | S0308 | cloud | `world-checks/sites.py` | R = 111319.49166666667 * 180 / math.pi | yes |
 | S0309 | cloud | `world-checks/snow.py` | Snowline check: snow cover fraction by elevation band vs the Age I line (EraMath.age1SnowlineMeters).""" | yes |
 | S0310 | cloud | `tools/get_jdk25.sh` | Installs Temurin JDK 25 in the cloud container (gradle toolchain for NeoForge 26.1.2); source it, then ./gradlew compileJava -Porg.gradle.java.installations.paths=$JAVA_HOME. | yes |
-| S0310 | cloud | `tools/get_jdk25.sh` | Installs Temurin JDK 25 into /tmp/claude-0/jdk25 (cloud container, via the proxy) and prints how to use it. | yes |
 | S0311 | cloud | `tools/compile_fix_loop.py` | S0311 (v2: prompt caching on the stable prefix, 6 parallel direct calls, optional gradle mirror init) Compile-fix loop: gradle compileJava p | yes |
-| S0311 | cloud | `tools/compile_fix_loop.py` | Compile-fix loop for diaithir modules: gradle errors + real 26.1.2 class candidates go to Sonnet, fixed files written back, up to 5 rounds. | yes |
 | S0312 | cloud | `compat/profile_jars.py` | Download each kept pack jar from its pack link, profile its blocks, items, recipes and c: tags, delete the jar. | yes |
 | S0313 | cloud | `compat/gen_tags.py` | Union material-named ingots, plates, gears, dusts, ores into c: convention tag files with required=false. | yes |
 | S0314 | cloud | `compat/gen_rules_api.py` | Ask Haiku (direct parallel cached calls) which blocks per mod are working blocks, with slots, kinds, units, Age. | yes |
@@ -336,9 +334,7 @@ Run hints: .py `python3 <file>` (PC `py`), .ps1 via a hidden launcher (never a v
 | S0338 | cloud | `pc_scan/mod_conflict_scan.py` | Find mods that conflict with the Tellus fork's chunk generator, by boot test. | yes |
 | S0339 | cloud | `pc_scan/overlay_conflicts.py` | For each overlay conflict on a target: if the target still holds the previous overlay version (OLD commit), or the | yes |
 | S0340 | cloud | `plans/progression/check_progression.py` | Validates the progression graph: every system required, solo-completable, no dead ends, Age-ordered, interlocked. | yes |
-| S0340 | cloud | `plans/progression/check_progression.py` | S0337 Validates progression/graph.json: every system is required to finish the pack, no dead ends, solo-completable, Age-gated, interlocked; | yes |
 | S0341 | cloud | `plans/progression/gen_progression_recipes.py` | S0338 Writes the dormant cross-mod recipe data pack from progression/graph.json: one shapeless recipe per node with an item, tags as inputs, | yes |
-| S0341 | cloud | `plans/progression/gen_progression_recipes.py` | Writes the dormant cross-mod recipe data pack from the progression graph. | yes |
 | S0342 | pc | `C:\Users\imarl\gui_test_valid.py` | --- Config --- [python] was PS00001 | no |
 | S0343 | pc | `C:\Users\imarl\trader.py` | --- Config --- [python] was PS00002 | no |
 | S0344 | pc | `C:\Users\imarl\trader_script_gui_cleaned_final.py` | --- Config --- [python] was PS00003 | no |
@@ -6816,13 +6812,9 @@ Run hints: .py `python3 <file>` (PC `py`), .ps1 via a hidden launcher (never a v
 | S6818 | cloud | `DiaithirRPG/tools/codex/module_records.py` | Builds Codex records, quests and name requests for the overworld-biomes, nether and end modules (S6816). | no |
 | S6819 | cloud | `diaithir-ports/diaithir-trials-overhaul/tools/gen.py` | Writes the trials-overhaul Age gate, Codex handbook and quests from the real Not Enough Trials lang file. | no |
 | S6820 | cloud | `library-content/classify.py` | Library entries to in-game content form with Haiku (S6820). | no |
-| S6820 | cloud | `library-content/classify.py` | S6820 Library entries to content form: Haiku classifier (direct parallel calls, cached prompt), resumable | yes |
 | S6821 | cloud | `library-content/finalize.py` | S6821 Merges rule and Haiku codes into library_to_content.tsv (id, form, source) | yes |
-| S6821 | cloud | `library-content/finalize.py` | Merges rule and model codes into library_to_content.tsv (S6821). | no |
 | S6822 | cloud | `library-content/build_content.py` | S6822 Builds library-content/content.sqlite: form, template, owner module, tier per Library entry | yes |
-| S6822 | cloud | `library-content/build_content.py` | Builds content.sqlite with form, template, owner module and tier per entry (S6822). | no |
 | S6826 | cloud | `library-content/place_all.py` | S6823 Gives every Library entry a Collection, class, canon status, spine code and shelfmark from its soil | yes |
-| S6826 | cloud | `library-content/place_all.py` | Places every Library entry: Collection, class, canon status, spine code, shelfmark (S6823). | no |
 | S6827 | cloud | `names/linguistics/regen_relaxed.py` | S0312 Regenerates every culture name that fails its language rules (Haiku, rules file cached per language, up to 3 repair rounds); writes na | yes |
 | S6829 | global | `tools/omniverse/export_library_books.py` | S6829 exports library books for the omniverse books lane (lives in the DiaithirRPG repo; copy not mirrored yet) | no |
 | S6830 | cloud | `names/linguistics/coverage.py` | Name coverage per module: ids in rewrite jars vs names drops, writes pending.json. | yes |
@@ -6864,6 +6856,9 @@ Run hints: .py `python3 <file>` (PC `py`), .ps1 via a hidden launcher (never a v
 | S6918 | cloud | `diaithir-ports/diaithir-firearms/tools/gen_containers.py` | S6918 Writes container_kinds.json and the diaithircrafting uses_container and ammo_class item tags for diaithir-firearms (munitions container contract) | yes |
 | S6955 | cloud | `tools/item_roles/export_kubejs.py` | S6955 Writes ITEM_ROLES.csv as per-namespace kubejs JSON for the pack | yes |
 | S6960 | cloud | `tools/powers/gen_power_pool.py` | S6960 Writes the shared NPC power pool (POWER_POOL.tsv), designed NeoOrigins power JSONs and archetype grants | yes |
+| S6970 | cloud | `tools/panscriptum_gap/fetch_leads.py` | S6970 Lists Category:Characters of a Fandom wiki and fetches each lead wikitext (resumable) | yes |
+| S6971 | cloud | `tools/panscriptum_gap/gap_batch.py` | S6971 Builds jobs from fetched leads, submits Haiku Batch, validates and writes entries with source page id, title and URL | yes |
+| S6972 | cloud | `tools/panscriptum_gap/gap_run.py` | S6972 Runs gap-fill jobs against an OpenAI-compatible endpoint (model router) with the gap_batch validator, resumable | yes |
 | S6974 | cloud | `tools/panscriptum/relink_assayed.py` | S6974 Recovers source wiki pages for Panscriptum beings that lost their link (TF-IDF, no AI); adds relink columns to PANSCRIPTUM_MASTER.tsv and trims coverage gaps | yes |
 | S6976 | cloud | `tools/panscriptum/relink_llm.py` | S6976 Builds the job that has Sonnet pick each unlinked assay being's source lead from 12 TF-IDF candidates, then merges the picks into the master sheet and coverage | yes |
 | S6977 | cloud | `tools/panscriptum/relink_things.py` | S6977 Links every non-being Panscriptum card to its source wiki page (exact join, TF-IDF candidates for the rest); writes PANSCRIPTUM_THINGS.tsv and a Sonnet pick job | yes |
