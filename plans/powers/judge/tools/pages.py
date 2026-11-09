@@ -35,14 +35,14 @@ def noparen(s):
         t = re.sub(r'\([^()]*\)|（[^（）]*）', '', s)
         if t == s: return s
         s = t
-def _match(a, b):
-    a, b = norm(a), norm(b); k = min(len(a), len(b), 80)
+def _match(a, b, K=80):
+    a, b = norm(a), norm(b); k = min(len(a), len(b), K)
     if k and a[:k] in b[:k + 400]: return True  # lead after a stub/notice banner
     a, b = a[:k], b[:k]
     return bool(a) and difflib.SequenceMatcher(None, a, b).ratio() >= 0.75
 def match(a, b):
     a = re.sub(r'\[https?://\S+ ([^\]]*)\]', r'\1', a)  # [url label] -> label
-    return _match(a, b) or _match(noparen(a), noparen(b))
+    return _match(a, b) or _match(noparen(a), noparen(b)) or _match(a, b, 40)  # 40 chars: leads whose later links were stripped
 def html2txt(h):
     """Rendered HTML -> plain text with '== Heading ==' lines (for wikis without TextExtracts, e.g. fandom)."""
     import html as H
