@@ -265,3 +265,8 @@ wave,repo,number,base,head,partner,title
 0,global-repo,60,main,claude/project-thread-npt56y,,Add shared NPC power pool (38 powers) [edits SCRIPTS_INDEX.md: merge one at a time]
 0,global-repo,112,main,claude/project-thread-s4t1m3,,Fold judged power shards 80-159 + PC router results (combined)
 0,global-repo,113,main,claude/project-thread-w9drs6,,Kind power templates (S6981) wired into merge_judged
+0,global-repo,115,main,claude/project-thread-di1b2b,,Add Xenoblade game data shard 198 with weapons and armor
+0,global-repo,117,main,claude/project-thread-p73bi9,,Judge math baseline: method sd and canon weights
+0,global-repo,116,main,claude/project-thread-ah6kth,,Add test-everything harness (manifest + RCON runner) [edits SCRIPTS_INDEX.md and ids.tsv: merge one at a time]
+0,global-repo,65,main,claude/project-thread-dbu33i,,Relink assayed Panscriptum beings to source pages (S6974) [edits SCRIPTS_INDEX.md: merge before #66]
+0,global-repo,66,main,claude/project-thread-28p9u0,65,Panscriptum gap fill: DC characters (23764) with source page ids [edits SCRIPTS_INDEX.md: merge after #65]
