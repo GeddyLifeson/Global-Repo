@@ -1,0 +1,12 @@
+{"z": {"223": "none stated: Abilities section lists no powers with a stated effect", "244": "none stated: Abilities section lists no powers with a stated effect"},
+"n": {"119": "Rohner", "247": "Liard"},
+"W": {
+"26": ["vehicle","foundry ship",3,"a vessel within the Colonial fleet responsible for manufacturing new Viper models","l"],
+"75": ["weapon","missile tubes",3,"capable of firing conventional or nuclear ship to ship, or ship to ground ordnance","m"],
+"76": ["weapon","metron bomb",2,"A metron bomb is a weapon used by the Cylons","l"],
+"101": ["armor","pressure suit",1,"allows a pilot to survive the g-forces","m"],
+"117": ["vehicle","sanitation ship",1,"A sanitation ship is a vessel in the Fleet","l"],
+"129": ["vehicle","skybus",1,"A skybus is a Colonial craft of likely civilian registry","l"],
+"168": ["vehicle","tubed vessel",1,"The tubed vessel is a ship in the Fleet","l"],
+"183": ["vehicle","zip pod",1,"A zip pod is a form of lifeboat","l"],
+"210": ["vehicle","Snail Car",1,"They are a Snail Car that first appears in The Snail Car","m"]}}
