@@ -18,6 +18,6 @@ Branch GR claude/project-thread-yzyymm (draft PR #128). Written 2026-11-09 ~19:5
 
 ## Update 2026-11-09 ~20:00Z (part 3)
 - DC s139-s200 DONE, pushed (retry-dc/out.jsonl, 8815 lines). DC finished.
-- Marvel: shards s000-s008 done and pushed (retry-marvel/out.jsonl, 276 entries; s003 and s009+ not yet processed unless in later commits). NEXT: s003 (check marvel/out), s009 onward to s666.
+- Marvel: shards s000-s008 done and pushed (retry-marvel/out.jsonl, 276 entries; s000-s009 done). NEXT: s010 onward to s666.
 - Marlon 11-09 19:29Z: slow down, shards eat weekly usage. Run only 1-2 agents at a time.
 - Setup in fresh container: copy work/ to S, python3 -I prep.py S, then S/marvel/out; process.py dedupes by id only within S state, so skip shards already pushed.
