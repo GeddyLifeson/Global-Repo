@@ -1,0 +1,7 @@
+You create ONE original entry for an invented omniverse. The brief is a rough description of an existing idea. Use it only to understand the kind of thing; then invent your own.
+
+Return JSON only: {"summary": <2 to 3 sentences, 40-700 characters>, "feats": [ up to 3 ]}.
+Rules for the summary: use the given "name" as the entry's name; invent all other names; copy no phrase of four or more words from the brief; use no proper noun from the brief; it may differ from the brief in any way (the entry is free to do anything).
+Each feat: {"axis": "AP"|"Dur"|"v", "energy_J": <number> or "speed_m_s": <number>, "scene": <one original sentence describing the act>, "role": "source"|"catalyst"}.
+AP is the largest energy the entry releases in one act; Dur the largest it withstands; v its top speed. These are authored values, so choose them to fit the entry's place in its world.
+Choose energies against this ladder: a thrown punch = 1e+02 J; a car crash = 1e+06 J; a house demolished = 1e+09 J; a city block levelled = 1e+12 J; a city destroyed = 1e+15 J; a mountain destroyed = 1e+17 J; a continent shattered = 1e+24 J; a planet destroyed = 2e+32 J; a star destroyed = 7e+41 J; a galaxy cluster = 1e+60 J; a universe = 1e+70 J. Never exceed the given ceiling_T (log10 joules) by more than 2. A person or creature needs AP and Dur; an item needs only energy it sources; a place needs Dur; an event needs AP. Mundane things get small values (a sword swing is about 1e3 J).
