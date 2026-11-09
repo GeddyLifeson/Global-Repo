@@ -1,0 +1,150 @@
+{
+"d": 0,
+"b1": [
+47,
+48,
+51,
+52,
+53,
+56,
+59,
+75,
+104
+],
+"n": {
+"53": "Travis Willingham",
+"56": "Umagorn Smeltborne",
+"59": "Torth"
+},
+"p": {
+"104": [
+[
+"invulnerability",
+2,
+"it encases his body in a hardened warsuit that is nearly indestructible",
+"m"
+],
+[
+"super_strength",
+1,
+"Superhuman Strength",
+"l"
+],
+[
+"flight",
+1,
+"Flight",
+"l"
+]
+]
+},
+"W": {
+"46": [
+"weapon",
+"The List",
+2,
+"At some point Percy had two of the barrels enchanted to shoot magical bullets: one with a fire enchantment and one with ice.",
+"m"
+],
+"49": [
+"vehicle",
+"The Shrew",
+1,
+"The Shrew was a ship that sank in a storm near Glintshore around the year 510 PD.",
+"m"
+],
+"50": [
+"vehicle",
+"The Mistake",
+1,
+"a single big sail that is made for speed",
+"m"
+],
+"54": [
+"weapon",
+"Tinkertop Bolt Blaster 1000",
+2,
+"The Tinkertop Bolt Blaster 1000 is a +1 crossbow",
+"m"
+],
+"55": [
+"vehicle",
+"The Stormcap",
+1,
+"The Stormcap is a merchant ship captained by Jules Arog.",
+"m"
+],
+"58": [
+"weapon",
+"Turmoil",
+2,
+"Turmoil is a magical weapon owned in 843 PD by Lord Ariks Eshteross",
+"m"
+],
+"60": [
+"armor",
+"Truthbearer",
+2,
+"Truthbearer is magical plate armor that once belonged to the fabled Uther Vendrock.",
+"m"
+],
+"63": [
+"weapon",
+"Waste Hunter Blade",
+2,
+"dealing an additional 1d6 necrotic damage against those types of creatures",
+"m"
+],
+"69": [
+"armor",
+"Zephyr Armor",
+2,
+"The Zephyr Armor is a light protective garment that bolsters the movements of its wearer with gentle currents of wind.",
+"m"
+],
+"72": [
+"vehicle",
+"Bat-Rocket",
+3,
+"can reach orbital speeds of approximately 25.020 km/h (Mach 20)",
+"m"
+],
+"73": [
+"weapon",
+"Blue Beetle's Gun",
+2,
+"A laser powerful enough to cut through the Sunspore's inner sphere.",
+"m"
+]
+},
+"x": {
+"51": [
+"darkvision",
+"stonecunning",
+"two-weapon fighting"
+],
+"52": [
+"darkvision",
+"action surge",
+"battle master maneuvers"
+],
+"75": [
+"hand-to-hand combat",
+"weaponry"
+]
+},
+"z": {
+"53": "none stated: Abilities section empty",
+"56": "none stated: Abilities section empty"
+},
+"f": {},
+"u0": {
+"88": "no source page",
+"91": "no source page",
+"94": "no source page",
+"95": "no source page",
+"97": "no source page",
+"98": "no source page",
+"101": "no source page"
+}
+}

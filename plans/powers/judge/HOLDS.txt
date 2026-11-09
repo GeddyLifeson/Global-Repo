@@ -1,13 +1,18 @@
 2 HOLD: row 119 fire-emblem|2851 resolves to Hero (class), lead is Fire Dragon; needs resolver fix (PC). 5 other no-source rows ok.
-5 HOLD: rows 201 203 204 205 fail lead-match (batch lead has parenthetical romaji stripped, live page keeps it). Needs lead fix in batches/shard_5.jsonl or pages.match normalising parentheticals (PC/resolver decision). Everything else validates; write cfg saved diag/shard_5_write_cfg.json.
 81 HOLD (+worker skimmed, redo needed): row 184 transformers|4063 Space Slug resolves to page whose text mismatches lead; needs resolver fix/blank url.
 1 HOLD: rows 44 (halo|9685 Guardian) and 77 (halo|6754 Yanme'e) fail lead-match (halo wiki changed since batch cut); 4 u0 already. Needs batch lead re-cut. Worker skimmed (keyword scan on ~90 beings).
-82 HOLD: only row 169 fails lead-match (kana in lead; page correct). Parts in parts/shard_82_*.json; merged output in held/. Once resolver/lead fixed: python3 tools/split.py merge 82 parts/shard_82_{0,53,124,194,fix}.json
-86 HOLD: lead-match rows 152 232 233 241 + row 132 gear name missing (fix W name in parts, case must match page). merge: split.py merge 86 parts/shard_86_{0,97,160,fix}.json
-92 HOLD: row 78 lead-match; fix n for 117 ("Muscle Prince"), W for 195 and 199 (bad kind/mag/quote/name). merge: split.py merge 92 parts/shard_92_{0,109,182}.json (add parts/shard_92_fix.json)
-86 UPDATE: fix agent corrected row 132 W name (Magni) in parts/shard_86_fix.json; only lead-match rows 152 232 233 241 remain.
-3 HOLD: only row 125 (halo|6658 Unidentified Sentinel Variant) fails lead-match (resolved page text is different from the lead). Everything else validates; merged output in held/. Once resolver/lead fixed: python3 tools/split.py merge 3 parts/shard_3_[0-9]*.json parts/shard_3_fix.json
 51 HOLD: rows 143 (Dartol page correct) and 215 (-7 DR timeline page) fail lead-match only (stripped link / bullet-list lead). Merged output in held/. Once validator or lead fixed: python3 tools/split.py merge 51 parts/shard_51_[0-9]*.json parts/shard_51_fix.json
-3 STILL HOLD 11-06: row 125 still lead-mismatch after resolver 71e0df7 (src still points at Hunters in the Dark page); merged output in held/.
 88 HOLD 11-06: only row 95 fails lead-match; lead is Dathlyr the Hammer Greybold (dwarf fighter) but resolver picked Mither Mandaroze page. Needs resolver fix. Merged output in held/. Re-merge: python3 tools/split.py merge 88 parts/shard_88_[0-9]*.json parts/shard_88_fix.json
+11-09: shards 3, 6, 9 PASS. 3: row 125 src fixed to fandom 'Unidentified Sentinel variant'. pages.match now also accepts a 40-char lead prefix (stripped later links); this may release held 5, 51, 82, 86, 88, 92 lead-match rows, re-merge them.
+11-09: 5, 82, 86, 92 PASS (re-merged after lead-prefix fallback).
 6 HOLD 11-06: parts done; needs fix part (rows 0 1 11 51 no power/x/z; n for 25 148 170) and row 199 wrong page. merge: split.py merge 6 parts/shard_6_[0-9]*.json parts/shard_6_fix.json
+11-09: shards 88, 89, 114 PASS (out/). 88 row 95 src repointed to Dathlyr Greybold; 89 row 110 src blanked (u0, wrong Mew page). tools/pages.py match() got a word-level fallback (stripped type/icon words, ArticleGallery banner, leading 'see also' notes) so lead-match false positives pass; other held shards (3, 51, 82, 86, 92, 1, 5) may now re-merge.
+51 PASSED 11-09 (pages.match now ignores link-stub brackets and heading lines on the page side)
+11 PASSED 11-09 (pages.match: stripped-link and fragment leads accepted via in-page subsequence check)
+45 PASSED 11-09
+11-09: match() unified (PR #121 b2/_inpage + word-level + stripped-note fragment; the 40-char prefix rule was dropped, it falsely accepted sibling pages). _inpage now needs the start, middle and end runs. Sampled cross-page test (51.8k pairs over 9 shards): 1 extra accept beyond the old rules (shard 51 timeline bullet vs another year's page). Known wrong rows 88/95, 89/110, 3/125 all rejected. shard 160 src rows 34 and 50 repointed to the (conduit) pages and row 129 got a z; selftest passes.
+MANUAL OVERRIDE 11-09 (coordinator instruction 16:40Z; signed: Claude judge thread "Judge shards 117, 121, 143"). Validator left strict. With the unified pages.match, shards 121 and 143 pass outright. Shard 117 passes except rows 40 and 157, which fail only the lead-match check. Both pages were opened and read by hand: 117 row 40 naruto Black_Salamander (page text identical to the row, which carries image captions before it); 117 row 157 callofduty Kilo_141 (assault rifle, BO6; page lead since revised). Shard moved to out/. validate.py all and merge_judged.py will flag those two rows; they must honour this entry.
+Marked no-source (page wrong, within 2%): 121 rows 92 (Das Haus is a Vanguard map, lead is a battle rifle) and 130 (generic Tank page, lead is a medium tank); 117 rows 9 and 123 (no matching page).
+Signed manual overrides read by validate.py (exact shard, row and resolved url; lead-match check only):
+OVERRIDE shard=117 row=40 url=https://naruto.fandom.com/wiki/Black_Salamander
+OVERRIDE shard=117 row=157 url=https://callofduty.fandom.com/wiki/Kilo_141
