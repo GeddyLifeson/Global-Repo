@@ -1,36 +1,28 @@
 {
-    "run_utc":  "2026-11-09T18:38:53Z",
+    "run_utc":  "2026-11-09T20:45:34Z",
     "dry_run":  false,
-    "merged_count":  1,
-    "skipped_count":  23,
+    "merged_count":  4,
+    "skipped_count":  25,
     "failed_count":  0,
     "merged":  [
                    {
-                       "pr":  "GeddyLifeson/Global-Repo#65",
-                       "title":  "Relink assayed Panscriptum beings to source pages (S6974)"
+                       "pr":  "GeddyLifeson/Global-Repo#115",
+                       "title":  "Add Xenoblade game data shard 198 with weapons and armor"
+                   },
+                   {
+                       "pr":  "GeddyLifeson/Global-Repo#116",
+                       "title":  "Add test-everything harness (manifest + RCON runner)"
+                   },
+                   {
+                       "pr":  "GeddyLifeson/Global-Repo#117",
+                       "title":  "Judge math baseline: method sd and canon weights"
+                   },
+                   {
+                       "pr":  "GeddyLifeson/Global-Repo#66",
+                       "title":  "Panscriptum gap fill: DC characters (23,764) with source page ids"
                    }
                ],
     "skipped":  [
-                    {
-                        "title":  "Panscriptum gap fill: DC characters (23,764) with source page ids",
-                        "pr":  "GeddyLifeson/Global-Repo#66",
-                        "reason":  "per-run cap: 1 global-repo PR(s) per run, the rest wait for the next run"
-                    },
-                    {
-                        "title":  "Add Xenoblade game data shard 198 with weapons and armor",
-                        "pr":  "GeddyLifeson/Global-Repo#115",
-                        "reason":  "per-run cap: 1 global-repo PR(s) per run, the rest wait for the next run"
-                    },
-                    {
-                        "title":  "Add test-everything harness (manifest + RCON runner)",
-                        "pr":  "GeddyLifeson/Global-Repo#116",
-                        "reason":  "draft and not listed as clear in merge-order.csv"
-                    },
-                    {
-                        "title":  "Judge math baseline: method sd and canon weights",
-                        "pr":  "GeddyLifeson/Global-Repo#117",
-                        "reason":  "draft and not listed as clear in merge-order.csv"
-                    },
                     {
                         "title":  "Add master V1 finish checklist",
                         "pr":  "GeddyLifeson/Global-Repo#118",
@@ -92,6 +84,21 @@
                         "reason":  "draft and not listed as clear in merge-order.csv"
                     },
                     {
+                        "title":  "V1 checklist: J3 pack licence audit (B2 done, B7/B15 rechecked)",
+                        "pr":  "GeddyLifeson/Global-Repo#132",
+                        "reason":  "draft and not listed as clear in merge-order.csv"
+                    },
+                    {
+                        "title":  "J6 Ages: checklist notes for table conflicts, dead ids, orphan sources",
+                        "pr":  "GeddyLifeson/Global-Repo#133",
+                        "reason":  "draft and not listed as clear in merge-order.csv"
+                    },
+                    {
+                        "title":  "J2: COMPILE_STATUS.csv regenerated, 0 FAIL, tick C1",
+                        "pr":  "GeddyLifeson/Global-Repo#134",
+                        "reason":  "draft and not listed as clear in merge-order.csv"
+                    },
+                    {
                         "title":  "B4: licence pass for the 37 open-fold candidates",
                         "pr":  "GeddyLifeson/diaithir-ports#360",
                         "reason":  "draft and not listed as clear in merge-order.csv"
@@ -122,8 +129,23 @@
                         "reason":  "draft and not listed as clear in merge-order.csv"
                     },
                     {
+                        "title":  "MegaSelfTest: wait for chunk entity-ticking before spawning crew",
+                        "pr":  "GeddyLifeson/diaithir-ports#366",
+                        "reason":  "draft and not listed as clear in merge-order.csv"
+                    },
+                    {
+                        "title":  "eureka: bump pinned vs2_version to 2.5.0-diaithir.10",
+                        "pr":  "GeddyLifeson/diaithir-ports#367",
+                        "reason":  "draft and not listed as clear in merge-order.csv"
+                    },
+                    {
                         "title":  "Fold repaired names into content/names (regen3) and drop invalid Windows paths",
                         "pr":  "GeddyLifeson/DiaithirRPG#289",
+                        "reason":  "draft and not listed as clear in merge-order.csv"
+                    },
+                    {
+                        "title":  "Age tables: dead ids, tech_items regen, age-lane loot for orphan items",
+                        "pr":  "GeddyLifeson/DiaithirRPG#290",
                         "reason":  "draft and not listed as clear in merge-order.csv"
                     }
                 ],
