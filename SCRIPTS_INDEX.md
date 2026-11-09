@@ -6861,7 +6861,6 @@ Run hints: .py `python3 <file>` (PC `py`), .ps1 via a hidden launcher (never a v
 | S6952 | cloud | `library-content/assay_regroup.py` | S6952 Regroups assay tail and retry outputs into per-slug shards for the existing assay importer (retry wins). | yes |
 | S6954 | cloud | `diaithir-farmkitchen/tools/fold_third_party.py` | (S6954) Copy the MIT mods Agritech: Evolved and Hydrofarm into diaithir-farmkitchen as extra mods of the same jar. | no |
 | S6957 | cloud | `assign_ages.py` | Give every item with no Age one: by-item table, material and namespace rules; writes data/ages/NOAGE_ASSIGNED.csv. | yes |
-<<<<<<< ours
 | S6918 | cloud | `diaithir-ports/diaithir-firearms/tools/gen_containers.py` | S6918 Writes container_kinds.json and the diaithircrafting uses_container and ammo_class item tags for diaithir-firearms (munitions container contract) | yes |
 | S6955 | cloud | `tools/item_roles/export_kubejs.py` | S6955 Writes ITEM_ROLES.csv as per-namespace kubejs JSON for the pack | yes |
 | S6960 | cloud | `tools/powers/gen_power_pool.py` | S6960 Writes the shared NPC power pool (POWER_POOL.tsv), designed NeoOrigins power JSONs and archetype grants | yes |
@@ -6879,4 +6878,3 @@ Run hints: .py `python3 <file>` (PC `py`), .ps1 via a hidden launcher (never a v
 | S6979 | cloud | `tools/powers/pc_priority.py` | Builds the PC judging queue (~20k pages: strongest Haiku power beings plus weapon/armor/vehicle candidates, minus shard pages). | yes |
 | S6980 | cloud | `tools/powers/merge_judged.py` | Merges validated judge results (shards, PC run) into BEING_POWER_EVIDENCE.tsv, BEING_POWERS.tsv and GEAR_SCALE.tsv via PANSCRIPTUM_MASTER source links. | yes |
 | S6981 | cloud | `tools/powers/kind_templates.py` | Kind power templates: detects a being kind, builds editable KIND_TEMPLATES.tsv (genre baseline plus per-franchise rows with source page); merge_judged.py fills powers the page does not state. | yes |
->>>>>>> theirs
