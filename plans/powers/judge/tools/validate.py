@@ -5,7 +5,7 @@
 Checks: row count/ids/order match the batch; u/t equal the resolved source and the page exists and starts with the batch lead;
 every p/f/gear quote is verbatim in the fetched full page; required fields, pool ids, m 1-10, c h/m/l; b0 rows carry no powers or gear kind;
 b2 only weapon/armor/vehicle with m/q/c; a being whose page has an Abilities/Powers/Spells section must have a power, a feat, or z='none stated: <reason>'."""
-import json, os, re, sys, glob
+import json, os, re, sys, glob, time
 HERE = os.path.dirname(os.path.abspath(__file__)); sys.path.insert(0, HERE)
 import pages, judge, feats, math
 O, B = judge.O, judge.B
@@ -101,7 +101,13 @@ if __name__ == '__main__':
     ns = sorted(int(re.search(r'shard_(\d+)\.out', f).group(1)) for f in glob.glob(f'{O}shard_*.out.jsonl')) if a == ['all'] else a
     bad = 0
     for n in ns:
-        er = check(n); bad += bool(er)
+        for k in range(5):  # rate-limit (429) backoff: a transient fetch error must not abort the whole run
+            try: er = check(n); break
+            except Exception as ex:
+                print(f'shard {n}: fetch error {str(ex)[:60]}, retry {k + 1}', file=sys.stderr, flush=True)
+                time.sleep(30 * (k + 1))
+        else: er = [(-1, 'fetch failed after retries; rerun')]
+        bad += bool(er)
         print(f'shard {n}: ' + ('PASS' if not er else f'REJECT ({len(er)} problems)'))
         for i, m in er[:30]: print(f'   row {i}: {m}')
     sys.exit(1 if bad else 0)
