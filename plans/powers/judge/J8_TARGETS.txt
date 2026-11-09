@@ -1,0 +1,5 @@
+J8 targets: raw wikitext of every main-namespace non-redirect page of marvel.fandom.com and dc.fandom.com (character filtering happens afterwards by category/infobox).
+No dump exists for either wiki (Fandom S3 dumps are archived). The API returns 50 pages with content per request; a burst of ~100 pages/s was blocked with 429 after ~8k pages per wiki, so pace at 1 request/s (expect ~2 h per wiki; resumable, state in out.cont). Run both in parallel on the PC:
+  python plans/powers/judge/tools/crawl2.py marvel.fandom.com E:\work\marvel_raw.jsonl.gz 1
+  python plans/powers/judge/tools/crawl2.py dc.fandom.com E:\work\dc_raw.jsonl.gz 1
+Output: gzip JSON lines [title, wikitext]. WoW is handled separately (shards 160-927).
