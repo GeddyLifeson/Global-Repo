@@ -13,7 +13,8 @@
   "skip": {
     "ports#108": "BuildCraft CE vendor: art not cleared, not compiled; #119 wins the BuildCraft slot",
     "ports#111": "overlaps #113 (meteor, blood moon); fold caravan and golden hour into hostile-encounters, then close",
-    "ports#223": "work in progress"
+    "ports#223": "OpenComputers is out of V1 (FINISH_PLAN s8.6); no oc2 class or jar in the wave17 pack",
+    "ports#169": "OpenComputers is out of V1 (FINISH_PLAN s8.6)"
   },
   "meteor": {
     "prs": [
