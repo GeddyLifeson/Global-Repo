@@ -1,0 +1,250 @@
+{"id": "world-of-warcraft|71940", "text": "The Epidermal Separator would work the same as a Skinning Knife. It would be sold by trade good vendors in the Shadowlands."}
+{"id": "world-of-warcraft|71941", "text": "__NOTOC__ Ephemera Orbs are created by combining Ephemera Strands."}
+{"id": "world-of-warcraft|71942", "text": "Eradicator of the Eternal Guard is a Zereth Mortis world drop."}
+{"id": "world-of-warcraft|71943", "text": "Ephemera-Softened Exoskeleton drops from Skolex in Sepulcher of the First Ones."}
+{"id": "world-of-warcraft|71944", "text": "Ephemera-Stained Sollerets drops from Halondrus in Sepulcher of the First Ones."}
+{"id": "world-of-warcraft|71945", "text": "Epaulets of the Ailing Aria drops from Dausegne in Sepulcher of the First Ones."}
+{"id": "world-of-warcraft|71946", "text": "Ephemera-Charged Thinking Cap drops from Lihuvim in Sepulcher of the First Ones."}
+{"id": "world-of-warcraft|71947", "text": "{| class=\"sortable darktable zebra col1-center\" style=\"margin-left: 3.9em\" |+ {{#if:{}||Enum.AuctionHouseNotification}} ! Value !! Field !! Description |- | 0 || BidPlaced || |- | 1 || AuctionRemoved || |- | 2 || AuctionWon || |- | 3 || AuctionOutbid || |- | 4 || AuctionSold || |- | 5 || AuctionExpired || |}"}
+{"id": "world-of-warcraft|71948", "text": "{| class=\"sortable darktable zebra col1-center\" style=\"margin-left: 3.9em\" |+ {{#if:{}||Enum.StatusBarOverrideBarTextShownType}} ! Value !! Field !! Description |- | 0 || Never || |- | 1 || Always || |- | 2 || OnlyOnMouseover || |- | 3 || OnlyNotOnMouseover || |}"}
+{"id": "world-of-warcraft|71949", "text": "{| class=\"sortable darktable zebra col1-center\" style=\"margin-left: 3.9em\" |+ {{#if:{}||Enum.UIWidgetBlendModeType}} ! Value !! Field !! Description |- | 0 || Opaque || |- | 1 || Additive || |}"}
+{"id": "world-of-warcraft|71950", "text": "{| class=\"sortable darktable zebra col1-center\" style=\"margin-left: 3.9em\" |+ {{#if:{}||Enum.UIWidgetMotionType}} ! Value !! Field !! Description |- | 0 || Instant || |- | 1 || Smooth || |}"}
+{"id": "world-of-warcraft|71951", "text": "Ephemera Strands are obtained by using Firim's Forge-Tap on orbs found near the Forge of Afterlives in Zereth Mortis. The strands can be combined to create an Ephemera Orb. They can also be used to create a Kismetric Disc."}
+{"id": "world-of-warcraft|71952", "text": "Ephemera-Infused Mesh is sold by Ko'tul in the Hall of Holding in Oribos for ."}
+{"id": "world-of-warcraft|71953", "text": "{| class=\"sortable darktable zebra col1-center\" style=\"margin-left: 3.9em\" |+ {{#if:{}||Enum.CalendarInviteType}} ! Value !! Field !! Description |- | 0 || Normal || |- | 1 || Signup || |}"}
+{"id": "world-of-warcraft|71954", "text": "{| class=\"sortable darktable zebra col1-center\" style=\"margin-left: 3.9em\" |+ {{#if:{}||Enum.LFGEntryPlaystyle}} ! Value !! Field !! Description |- | 0 || None || |- | 1 || Standard || |- | 2 || Casual || |- | 3 || Hardcore || |}"}
+{"id": "world-of-warcraft|71955", "text": "{| class=\"sortable darktable zebra col1-center\" style=\"margin-left: 3.9em\" |+ {{#if:{}||Enum.ReportMajorCategory}} ! Value !! Field !! Description |- | 0 || InappropriateCommunication || |- | 1 || GameplaySabotage || |- | 2 || Cheating || |- | 3 || InappropriateName || |}"}
+{"id": "world-of-warcraft|71956", "text": "{| class=\"sortable darktable zebra\" style=\"margin-left: 3.9em\" |+ {{#if:{}||Enum.ReportMinorCategory}} ! Value !! Field !! Description |- | 0x1 || TextChat || |- | 0x2 || Boosting || |- | 0x4 || Spam || |- | 0x8 || Afk || |- | 0x10 || IntentionallyFeeding || |- | 0x20 || BlockingProgress || |- | 0x40 || Hacking || |- | 0x80 || Botting || |- | 0x100 || Advertisement || |- | 0x200 || BTag || |- | 0x400 || GroupName || |- | 0x800 || CharacterName || |- | 0x1000 || GuildName || |- | 0x2000 || Description || |- | 0x4000 || Name || |}"}
+{"id": "world-of-warcraft|71957", "text": "{| class=\"sortable darktable zebra col1-center\" style=\"margin-left: 3.9em\" |+ {{#if:{}||Enum.ReportType}} ! Value !! Field !! Description |- | 0 || Chat || |- | 1 || InWorld || |- | 2 || ClubFinderPosting || |- | 3 || ClubFinderApplicant || |- | 4 || GroupFinderPosting || |- | 5 || GroupFinderApplicant || |- | 6 || ClubMember || |- | 7 || GroupMember || |- | 8 || Friend || |- | 9 || Pet || |- | 10 || BattlePet || |- | 11 || Calendar || |- | 12 || Mail || |- | 13 || PvP || |- | 14 || PvPScoreboard || Added in 9.2.7 |- | 15 || PvPGroupMember || Added in 10.0.5 |}"}
+{"id": "world-of-warcraft|71959", "text": "__NOTOC__ Ephra Breezewood is a Forsaken located at the Wild Coast in the Waking Shores."}
+{"id": "world-of-warcraft|71960", "text": "Epochal Oppressor's Greaves drop from The Jailer in the Sepulcher of the First Ones. They are also looted from the Cache of Sepulcher Treasures."}
+{"id": "world-of-warcraft|71961", "text": "Eragosa is a velocidrake located at the Azure Archives and Vakthros in the Azure Span."}
+{"id": "world-of-warcraft|71962", "text": "{| class=\"sortable darktable zebra col1-center\" style=\"margin-left: 3.9em\" |+ {{#if:{}||Enum.BagSlotFlags}} ! Value !! Field !! Description |- | 1 || DisableAutoSort || |- | 2 || PriorityEquipment || |- | 4 || PriorityConsumables || |- | 8 || PriorityTradeGoods || |- | 16 || PriorityJunk || |- | 32 || PriorityQuestItems || |- | 63 || BagSlotValidFlagsAll || |- | 62 || BagSlotPriorityFlagsAll || |}"}
+{"id": "world-of-warcraft|71963", "text": "{| class=\"sortable darktable zebra col1-center\" style=\"margin-left: 3.9em\" |+ {{#if:{}||Enum.LoadConfigResult}} ! Value !! Field !! Description |- | 0 || Error || Failed to switch loadouts for whatever reason |- | 1 || NoChangesNecessary || Previous loadout and newly selected loadout are identical, no need for any changes or Changing Talents cast bar |- | 2 || LoadInProgress || Changing Talents cast bar is triggered, delay follow-up action until or |- | 3 || Ready || Changes have been applied, but did not require any cast bar. May also happen when autoApply was set to false |}"}
+{"id": "world-of-warcraft|71964", "text": "{| class=\"sortable darktable zebra col1-center\" style=\"margin-left: 3.9em\" |+ {{#if:{}||Enum.MinimapTrackingFilter}} ! Value !! Field !! Description |- | 0 || Unfiltered || |- | 1 || Auctioneer || |- | 2 || Banker || |- | 4 || Battlemaster || |- | 8 || TaxiNode || |- | 16 || VenderFood || |- | 32 || Innkeeper || |- | 64 || Mailbox || |- | 128 || TrainerProfession || |- | 256 || VendorReagent || |- | 512 || Repair || |- | 1024 || TrivialQuests || |- | 2048 || Stablemaster || |- | 4096 || Transmogrifier || |- | 8192 || POI || |- | 16384 || Target || |- | 32768 || Focus || |- | 65536 || QuestPoIs || |- | 131072 || Digsites || |- | 262144 || Barber || |- | 524288 || ItemUpgrade || |- | 1048576 |"}
+{"id": "world-of-warcraft|71965", "text": "{| class=\"sortable darktable zebra col1-center\" style=\"margin-left: 3.9em\" |+ {{#if:{}||Enum.PlayerInteractionType}} ! Value !! Field !! Description |- | 0 || None || |- | 1 || TradePartner || |- | 2 || Item || |- | 3 || Gossip || |- | 4 || QuestGiver || |- | 5 || Merchant || |- | 6 || TaxiNode || |- | 7 || Trainer || |- | 8 || Banker || |- | 9 || AlliedRaceDetailsGiver || |- | 10 || GuildBanker || |- | 11 || Registrar || |- | 12 || Vendor || |- | 13 || PetitionVendor || |- | 14 || TabardVendor || |- | 15 || TalentMaster || |- | 16 || SpecializationMaster || |- | 17 || MailInfo || |- | 18 || SpiritHealer || |- | 19 || AreaSpiritHealer || |- | 20 || Binder || |- | 21 || Auctioneer || |- | 22 "}
+{"id": "world-of-warcraft|71966", "text": "{| class=\"sortable darktable zebra col1-center\" style=\"margin-left: 3.9em\" |+ {{#if:{}||Enum.Profession}} ! Value !! Field !! Description |- | 0 || FirstAid || |- | 1 || Blacksmithing || |- | 2 || Leatherworking || |- | 3 || Alchemy || |- | 4 || Herbalism || |- | 5 || Cooking || |- | 6 || Mining || |- | 7 || Tailoring || |- | 8 || Engineering || |- | 9 || Enchanting || |- | 10 || Fishing || |- | 11 || Skinning || |- | 12 || Jewelcrafting || |- | 13 || Inscription || |- | 14 || Archaeology || |}"}
+{"id": "world-of-warcraft|71967", "text": "{| class=\"sortable darktable zebra col1-center\" style=\"margin-left: 3.9em\" |+ {{#if:{}||Enum.TraitConfigType}} ! Value !! Field !! Description |- | 0 || Invalid || |- | 1 || Combat || Talent Tree |- | 2 || Profession || Profession Specialization |- | 3 || Generic || E.g. Dragon Riding talents |}"}
+{"id": "world-of-warcraft|71969", "text": "Eravaka is a green drakonid located at the Gardens of Unity in Thaldraszus."}
+{"id": "world-of-warcraft|71970", "text": "{| class=\"sortable darktable zebra col1-center\" style=\"margin-left: 3.9em\" |+ {{#if:{}||Enum.ClickBindingType}} ! Value !! Field !! Description |- | 0 || None || |- | 1 || Spell || |- | 2 || Macro || |- | 3 || Interaction || |}"}
+{"id": "world-of-warcraft|71971", "text": "Eranog is the first boss of the Vault of the Incarnates. Before joining with the Primalists, he used to command South Hold Garrison in the name of Valdrakken."}
+{"id": "world-of-warcraft|71972", "text": "__NOTOC__ Eraleshk is a dracthyr located at the Life Vault Ruins in the Waking Shores. After a creche had collapsed on their during the dracthyr's escape from the Forbidden Reach, one of their legs and a wing were disabled in the event, and Eraleshk was left crippled, consequently losing their identity as a dracthyr. They have been confined to a wheelchair since then. Despite this, they seek to unravel and learn of the mysteries surrounding the history of their kind, with the help of their companions."}
+{"id": "world-of-warcraft|71974", "text": "Eranog's Adorned Sallet drops from Eranog in the Vault of the Incarnates."}
+{"id": "world-of-warcraft|71975", "text": "{| class=\"sortable darktable zebra col1-center\" style=\"margin-left: 3.9em\" |+ {{#if:{}||Enum.CraftingOrderDuration}} ! Value !! Field !! Description |- | 0 || Short || |- | 1 || Medium || |- | 2 || Long || |}"}
+{"id": "world-of-warcraft|71976", "text": "{| class=\"sortable darktable zebra col1-center\" style=\"margin-left: 3.9em\" |+ {{#if:{}||Enum.CraftingOrderReagentSource}} ! Value !! Field !! Description |- | 0 || Any || |- | 1 || Customer || |- | 2 || Crafter || |- | 3 || None || |}"}
+{"id": "world-of-warcraft|71977", "text": "{| class=\"sortable darktable zebra col1-center\" style=\"margin-left: 3.9em\" |+ {{#if:{}||Enum.CraftingOrderResult}} ! Value !! Field !! Description |- | 0 || Ok || |- | 1 || Aborted || Added in 10.0.5 |- | 2 || AlreadyClaimed || |- | 3 || AlreadyCrafted || |- | 4 || CannotBeOrdered || |- | 5 || CannotCancel || |- | 6 || CannotClaim || |- | 7 || CannotClaimOwnOrder || |- | 8 || CannotCraft || |- | 9 || CannotCreate || |- | 10 || CannotFulfill || |- | 11 || CannotRecraft || |- | 12 || CannotReject || |- | 13 || CannotRelease || |- | 14 || CrafterIsIgnored || |- | 15 || DatabaseError || |- | 16 || Expired || |- | 17 || Locked || |- | 18 || InvalidDuration || |- | 19 || InvalidMinQuality || |- | "}
+{"id": "world-of-warcraft|71978", "text": "{| class=\"sortable darktable zebra col1-center\" style=\"margin-left: 3.9em\" |+ {{#if:{}||Enum.CraftingOrderType}} ! Value !! Field !! Description |- | 0 || Public || |- | 1 || Guild || |- | 2 || Personal || |}"}
+{"id": "world-of-warcraft|71979", "text": "Envenomed Spears drop from Embertooth Spearhunters in Thaldraszus."}
+{"id": "world-of-warcraft|71980", "text": "Environmental Emulator is created with Dragon Isles Engineering (50); taught by Schematic: Environmental Emulator."}
+{"id": "world-of-warcraft|71981", "text": "Erdene is a centaur vendor located in Cloverwood Hollow in the Ohn'ahran Plains."}
+{"id": "world-of-warcraft|71982", "text": "Envenomated Expeditionaries are a blood elf and a gnome located in the Shiverweb Vale in the Azure Span. Lilial Dawnburst is trying to heal them. After rescuing Grungir Ironspout, both of them are healed and tending to the camp."}
+{"id": "world-of-warcraft|71983", "text": "{| class=\"sortable darktable zebra col1-center\" style=\"margin-left: 3.9em\" |+ {{#if:{}||Enum.ActionBarOrientation}} ! Value !! Field |- | 0 || Horizontal |- | 1 || Vertical |- |}"}
+{"id": "world-of-warcraft|71984", "text": "The Envoy Charter is found near the four renown envoys of Morqut Village in Forbidden Reach. When active, the charter serves as a Scouting Map, where players can choose which of the four major factions they wish to help (and get a +10% reputation buff) for the day."}
+{"id": "world-of-warcraft|71987", "text": "{| class=\"sortable darktable zebra col1-center\" style=\"margin-left: 3.9em\" |+ {{#if:{}||Enum.BagIndex}} ! Value !! Field !! Description |- | -4 || Bankbag || |- | -3 || Reagentbank || |- | -2 || Keyring || |- | -1 || Bank || |- | 0 || Backpack || |- | 1 || Bag_1 || |- | 2 || Bag_2 || |- | 3 || Bag_3 || |- | 4 || Bag_4 || |- | 5 || ReagentBag || |- | 6 || BankBag_1 || |- | 7 || BankBag_2 || |- | 8 || BankBag_3 || |- | 9 || BankBag_4 || |- | 10 || BankBag_5 || |- | 11 || BankBag_6 || |- | 12 || BankBag_7 || |}"}
+{"id": "world-of-warcraft|71988", "text": "{| class=\"sortable darktable zebra col1-center\" style=\"margin-left: 3.9em\" |+ {{#if:{}||Enum.EncounterLootDropRollState}} ! Value !! Field !! Description |- | 0 || NeedMainSpec || |- | 1 || NeedOffSpec || |- | 2 || Transmog || |- | 3 || Greed || |- | 4 || NoRoll || |- | 5 || Pass || |}"}
+{"id": "world-of-warcraft|71989", "text": "{| class=\"sortable darktable zebra col1-center\" style=\"margin-left: 3.9em\" |+ {{#if:{}||Enum.RecruitAFriendRewardsVersion}} ! Value !! Field !! Description |- | 0 || InvalidVersion || |- | 1 || UnusedVersionOne || |- | 2 || VersionTwo || |- | 3 || VersionThree || |}"}
+{"id": "world-of-warcraft|71990", "text": "{| class=\"sortable darktable zebra col1-center\" style=\"margin-left: 3.9em\" |+ {{#if:{}||Enum.TitleIconVersion}} ! Value !! Field !! Description |- | 0 || Small || |- | 1 || Medium || |- | 2 || Large || |}"}
+{"id": "world-of-warcraft|71991", "text": "{| class=\"sortable darktable zebra col1-center\" style=\"margin-left: 3.9em\" |+ {{#if:{}||Enum.WidgetIconSizeType}} ! Value !! Field !! Description |- | 0 || Small || |- | 1 || Medium || |- | 2 || Large || |- | 3 || Standard || |}"}
+{"id": "world-of-warcraft|71993", "text": "Epoch Extractor is provided by Future Chromie to collect Time-Lost Essence from slain time-lost creatures in the Shifting Sands for On Borrowed Time."}
+{"id": "world-of-warcraft|71995", "text": "Epoch Rippers are infinite drakonid located in the Sanctum of Chronology in the Dawn of the Infinite."}
+{"id": "world-of-warcraft|71997", "text": "{| class=\"sortable darktable zebra col1-center\" style=\"margin-left: 3.9em\" |+ {{#if:{}||Enum.PingSubjectType}} ! Value !! Field !! Description |- | 0 || Attack || |- | 1 || Warning || |- | 2 || Assist || |- | 3 || OnMyWay || |- | 4 || AlertThreat || |- | 5 || AlertNotThreat || |}"}
+{"id": "world-of-warcraft|71998", "text": "{| class=\"sortable darktable zebra col1-center\" style=\"margin-left: 3.9em\" |+ {{#if:{}||Enum.ContentTrackingError}} ! Value !! Field !! Description |- | 0 || Untrackable || |- | 1 || MaxTracked || |- | 2 || AlreadyTracked || |}"}
+{"id": "world-of-warcraft|71999", "text": "{| class=\"sortable darktable zebra col1-center\" style=\"margin-left: 3.9em\" |+ {{#if:{}||Enum.ContentTrackingResult}} ! Value !! Field !! Description |- | 0 || Success || |- | 1 || DataPending || |- | 2 || Failure || |}"}
+{"id": "world-of-warcraft|72000", "text": "{| class=\"sortable darktable zebra col1-center\" style=\"margin-left: 3.9em\" |+ {{#if:{}||Enum.ContentTrackingTargetType}} ! Value !! Field !! Description |- | 0 || JournalEncounter || |- | 1 || Vendor || |- | 2 || Achievement || |- | 3 || Profession || |- | 4 || Quest || |}"}
+{"id": "world-of-warcraft|72001", "text": "{| class=\"sortable darktable zebra col1-center\" style=\"margin-left: 3.9em\" |+ {{#if:{}||Enum.ContentTrackingType}} ! Value !! Field !! Description |- | 0 || Appearance || |- | 1 || Mount || |- | 2 || Achievement || |}"}
+{"id": "world-of-warcraft|72002", "text": "{| class=\"sortable darktable zebra col1-center\" style=\"margin-left: 3.9em\" |+ {{#if:{}||Enum.ItemTryOnReason}} ! Value !! Field !! Description |- | 0 || Success || |- | 1 || WrongRace || |- | 2 || NotEquippable || |- | 3 || DataPending || |}"}
+{"id": "world-of-warcraft|72003", "text": "{| class=\"sortable darktable zebra col1-center\" style=\"margin-left: 3.9em\" |+ {{#if:{}||Enum.ModelBlendOperation}} ! Value !! Field !! Description |- | 0 || None || |- | 1 || Anim || |}"}
+{"id": "world-of-warcraft|72004", "text": "{| class=\"sortable darktable zebra col1-center\" style=\"margin-left: 3.9em\" |+ {{#if:{}||Enum.ModelLightType}} ! Value !! Field !! Description |- | 0 || Directional || |- | 1 || Point || |}"}
+{"id": "world-of-warcraft|72005", "text": "{| class=\"sortable darktable zebra col1-center\" style=\"margin-left: 3.9em\" |+ {{#if:{}||Enum.PingResult}} ! Value !! Field !! Description |- | 0 || Success || |- | 1 || FailedSpamming || |- | 2 || FailedInvalidTarget || |- | 3 || FailedDisabledByLeader || |- | 4 || FailedUnspecified || |}"}
+{"id": "world-of-warcraft|72006", "text": "Eonized Latte is sold by Bartender Bob in the Everywhen Inn in Thaldraszus for ."}
+{"id": "world-of-warcraft|72008", "text": "Epaulets of Raging Tempests are sold by Mythressa for and Rethelshi in Valdrakken for ."}
+{"id": "world-of-warcraft|72011", "text": "Ered'ruin Chestguard drops from: *Fel Commander Erixtol *Lord Commander Alexius *Xeritas *Dread Vizier Gra'tork"}
+{"id": "world-of-warcraft|72012", "text": "Ered'ruin Spaulders drop from: *Fel Commander Erixtol *Lord Commander Alexius *Xeritas *Dread Vizier Gra'tork"}
+{"id": "world-of-warcraft|72013", "text": "Ered'ruin Legguards drop from: *Fel Commander Erixtol *Lord Commander Alexius *Xeritas *Dread Vizier Gra'tork"}
+{"id": "world-of-warcraft|72014", "text": "Ered'ruin Coif drops from: *Fel Commander Erixtol *Lord Commander Alexius *Xeritas *Dread Vizier Gra'tork"}
+{"id": "world-of-warcraft|72015", "text": "Ered'ruin Boots drop from: *Fel Commander Erixtol *Lord Commander Alexius *Xeritas *Dread Vizier Gra'tork"}
+{"id": "world-of-warcraft|72016", "text": "Ered'ruin Gloves drop from: *Fel Commander Erixtol *Lord Commander Alexius *Xeritas *Dread Vizier Gra'tork"}
+{"id": "world-of-warcraft|72017", "text": "Ered'ruin Girdle drops from: *Fel Commander Erixtol *Lord Commander Alexius *Xeritas *Dread Vizier Gra'tork"}
+{"id": "world-of-warcraft|72021", "text": "You may be looking for one of the following: *Epic Armaments of Battle - Friend of the Dawn *Epic Armaments of Battle - Honored Amongst the Dawn *Epic Armaments of Battle - Revered Amongst the Dawn *Epic Armaments of Battle - Exalted Amongst the Dawn"}
+{"id": "world-of-warcraft|72023", "text": "There are two types of epic gems: * Burning Crusade epic gems, intended for Burning Crusade endgame content but made obsolete by: * Northrend epic gems for Wrath of the Lich King endgame content"}
+{"id": "world-of-warcraft|72024", "text": "Epoch may refer to: * Chrono-Lord Epoch, a boss in Culling of Stratholme * Epoch Hunter, a boss in Old Hillsbrad Foothills * Epoch-Mender, a drop from Temporus in The Black Morass"}
+{"id": "world-of-warcraft|72025", "text": "__NOTOC__ Erelas Ambersky is a night elf hippogryph keeper located in Rut'theran Village in Teldrassil. It's unknown whether he survived the Burning of Teldrassil."}
+{"id": "world-of-warcraft|72026", "text": "Essences are a type of crafting reagent used in the enchanting profession. They're generally obtained by disenchanting -quality items."}
+{"id": "world-of-warcraft|72027", "text": "Essence of Fire is an elemental building block of many crafting recipes. It adds the virtues of heat and fire to any item."}
+{"id": "world-of-warcraft|72029", "text": "Essence of Air is an elemental building block of many crafting recipes. It adds the virtues of speed and quickness to any item."}
+{"id": "world-of-warcraft|72030", "text": ".]] Eredun (a.k.a. Demonic) is the language of demons. Knowing that other sentient beings would inevitably join the Legion, the eredar declared that their primary language called Eredun would be the Legion's common language. The written version of the language of the nathrezim vaguely resembles Eredun. The Draenei language is likely a dialect of Eredun, if not the exact same language. They use the same alphabet. Demon hunters can speak and understand Demonic, and can use it to communicate cross-faction between the Alliance and Horde. Before the addition of demon hunters, it was not possible for players to learn this language, so anything spoken in it was indecipherable. However, warlocks und"}
+{"id": "world-of-warcraft|72035", "text": "__NOTOC__ Eredar Diabolists are eredar warlock creeps that can be encountered in the Outland and Black Citadel tilesets. They practice diabolism and can cast firebolts that stun and a \"curse\" that deals weak damage over time. If the target dies under its effect a Lesser Voidwalker appears to help the caster."}
+{"id": "world-of-warcraft|72036", "text": "The Essence of Eranikus is a gem that contains the essence of the green dragon Eranikus."}
+{"id": "world-of-warcraft|72038", "text": "Eskhandar's Right Claw drops from Magmadar in the Molten Core. __NOTOC__"}
+{"id": "world-of-warcraft|72042", "text": "__NOTOC__ Eskhandar's Collar drops from Onyxia in Onyxia's Lair."}
+{"id": "world-of-warcraft|72044", "text": "Eskhandar's Pelt drops from Lord Kazzak in the Blasted Lands. In retail World of Warcraft, this item was changed to drop from Highlord Kruul during the Dark Portal Opens event, then had its source removed altogether once The Burning Crusade launched."}
+{"id": "world-of-warcraft|72047", "text": "__NOTOC__ Eric and his companions left Uldaman and reside in the Alliance encampment in the Badlands called the Dragon's Mouth."}
+{"id": "world-of-warcraft|72048", "text": "__NOTOC__ Eridan Bluewind is a night elf quest giver located at the Ruins of Constellas in Felwood."}
+{"id": "world-of-warcraft|72052", "text": "__NOTOC__ Eredar Sorcerers are eredar warlock creeps that can be encountered in the Outland and Black Citadel tilesets. They are sorcerers in service to the Burning Legion."}
+{"id": "world-of-warcraft|72053", "text": "__NOTOC__ Esbina is a draenei stable master located at Azure Watch in Azuremyst Isle."}
+{"id": "world-of-warcraft|72054", "text": "Ergh of the Stillpine is a furbolg trade goods vendor located at Stillpine Hold in Azuremyst Isle."}
+{"id": "world-of-warcraft|72055", "text": "__NOTOC__ Erilia is a blood elf enchanting vendor located at Stillwhisper Pond in Eversong Woods."}
+{"id": "world-of-warcraft|72056", "text": "Erett is a draenei fishing trainer located at the Crystal Hall in the Exodar. During the Battle for the Exodar, she was inside Velen's protective shield."}
+{"id": "world-of-warcraft|72060", "text": "__NOTOC__ :\"The eredar were once a peaceful race before succumbing to the dark promises and \"gifts\" of Sargeras\" Eredar Deathbringers are potentially troublesome trash mobs in the Arcatraz."}
+{"id": "world-of-warcraft|72062", "text": "Eredar Wand of Obliteration is an epic wand for DPS casters."}
+{"id": "world-of-warcraft|72063", "text": "__NOTOC__ Essence of Agony was a poison reagent used by rogues to create poisons that could reduce healing effects, slow casting, or slow movement speed."}
+{"id": "world-of-warcraft|72065", "text": "__NOTOC__ Erozion is a bronze dragon quest giver located just outside the leading into Old Hillsbrad Foothills. His image also appears in order to turn back time if Thrall is killed."}
+{"id": "world-of-warcraft|72067", "text": "Escape from Skettis is a daily quest that provides reputation with the Sha'tari Skyguard."}
+{"id": "world-of-warcraft|72069", "text": "Essence Infused Mushroom is a quest reward from Stalk the Stalker and Stalk the Stalker (BC Classic)."}
+{"id": "world-of-warcraft|72071", "text": "Errands for Kravel was a very long neutral quest chain which was based in the Shimmering Flats of Thousand Needles but sent players to Booty Bay quite often. The primary quest giver was Kravel Koalbeard, a dwarf who makes profit from the races of Mirage Raceway and has many contacts in Booty Bay. This chain was rather long with arguable benefits for its length. Especially disappointing was the final quest, which seemed like it should have had a follow up but went nowhere. However, most of the quests were very simple and essentially gave free XP, so for players traveling to those areas anyway, this chain was an attractive option to level quickly. __TOC__"}
+{"id": "world-of-warcraft|72072", "text": "Essences of Infinity dropped from Rift Lords and Rift Keepers in The Black Morass of Caverns of Time."}
+{"id": "world-of-warcraft|72073", "text": "The quest Escape from Durnholde asks you to help Thrall free his friend Taretha."}
+{"id": "world-of-warcraft|72075", "text": "Eridan's Supplies were provided as an objective for Aquementas (quest) in Felwood."}
+{"id": "world-of-warcraft|72083", "text": "Eroded Mail Shoulderpads are a world drop from mobs in zones."}
+{"id": "world-of-warcraft|72084", "text": "Erona's Package is provided as an objective for the following quests: * Completing the Delivery * Package Recovery"}
+{"id": "world-of-warcraft|72085", "text": "The Essence of Hakkar dropped from the Shade of Hakkar in The Temple of Atal'Hakkar. The essence could be combined with the Egg of Hakkar to create the Filled Egg of Hakkar."}
+{"id": "world-of-warcraft|72096", "text": "Eroded Leather Case drops from Tunnelers and Marauding Crust Burster in Hellfire Peninsula."}
+{"id": "world-of-warcraft|72097", "text": "Eridan's Vial is provided as an objective for Felbound Ancients."}
+{"id": "world-of-warcraft|72098", "text": "Eroded Anubisath Warbringers could be found in the Barrens and Darkshore, summoned by Resonating Crystal Formations during the opening of the Gates of Ahn'Qiraj event."}
+{"id": "world-of-warcraft|72100", "text": "In Heroic Mode Escape from Durnholde Keep, the rare drops from bosses have been adjusted to level-70 quality. Those drops are provided below, by boss."}
+{"id": "world-of-warcraft|72103", "text": "Erratic Sentries are level 70 arcane guardians located on the Isle of Quel'Danas. They are involved in the following quests: *Erratic Behavior† *Further Conversions"}
+{"id": "world-of-warcraft|72104", "text": "Erupting Epaulets are an epic mail shoulder armor for elemental and restoration shamans."}
+{"id": "world-of-warcraft|72106", "text": "This is a page listing loot to be found in Escape from Durnholde Keep. For information about the instance itself, see Escape from Durnholde Keep. __TOC__"}
+{"id": "world-of-warcraft|72111", "text": "Erekem is an arakkoa mini-boss located in the Violet Hold. His escape comes with two adds."}
+{"id": "world-of-warcraft|72113", "text": "Erik is the innkeeper/bartender of Demonsbane Inn and Tavern located on Theramore Isle. His brother was Olaf. Erik never really cared for much, but when his brother died and left him his wealth, he traveled to Kalimdor to open an inn, as Olaf would have liked. Erik wasn't hygienic and his inn was in a dismal state, except for the demon skull that he cleaned up every day. It is unknown whether he survived the destruction of Theramore."}
+{"id": "world-of-warcraft|72114", "text": "Eregos' Ornamented Chestguard can be looted from the Cache of Eregos after defeating Ley-Guardian Eregos in the Oculus on normal mode."}
+{"id": "world-of-warcraft|72119", "text": "__NOTOC__ Essence of Gossamer drops from Hadronox in Azjol-Nerub on heroic mode."}
+{"id": "world-of-warcraft|72121", "text": "__NOTOC__ Eressea Dawnsinger is a blood elf quest giver located at the Sunreaver Pavilion of the Argent Tournament Grounds in Icecrown. She was present during Death Rising."}
+{"id": "world-of-warcraft|72124", "text": "Erin Misthoof is a Horde restoration druid and is one of the possible opponents for Alliance in the Faction Champions battle in the Trial of the Crusader raid instance."}
+{"id": "world-of-warcraft|72127", "text": "Escape from Arthas is the final boss encounter in Halls of Reflection, and thus of the Frozen Halls, in Icecrown Citadel. Players must escape from the Lich King at the the Shadow Throne through the Hidden Passage in order to complete the encounter."}
+{"id": "world-of-warcraft|72128", "text": "Essences of Ice drop from Brittle Revenants at Frostfield Lake in the Storm Peaks."}
+{"id": "world-of-warcraft|72129", "text": "The Ermine Coronation Robes are sold by the following vendors for : * in Dalaran * in Dalaran * in Icecrown Citadel * in Dalaran"}
+{"id": "world-of-warcraft|72130", "text": "__NOTOC__ Essence of Desire drops from Devourer of Souls in the heroic version of Forge of Souls."}
+{"id": "world-of-warcraft|72131", "text": "__NOTOC__ Essence of Anger drops from Devourer of Souls in the normal version of Forge of Souls."}
+{"id": "world-of-warcraft|72134", "text": "This quest is a part of the Gilneas starting experience and is only provided for starting worgen players. This quest is only offered once the three quest branches (Grandma Wahl (quest), The Crowley Orchard, and The Hayward Brothers) have been completed."}
+{"id": "world-of-warcraft|72136", "text": "Erunak's Scrying Orb is provided as an objective for Undersea Sanctuary."}
+{"id": "world-of-warcraft|72137", "text": "Escalation Britches is a quest reward from Yowler Must Die!."}
+{"id": "world-of-warcraft|72140", "text": "Erudax, the Duke of Below, is the fourth and final boss of Grim Batol."}
+{"id": "world-of-warcraft|72146", "text": "Erunak's Confinement Totem is provided as an objective for Into the Totem."}
+{"id": "world-of-warcraft|72149", "text": "__NOTOC__ Erina Willowborn is a night elf quest giver located at Dreamer's Rest in Feralas."}
+{"id": "world-of-warcraft|72150", "text": "Eric's Chewin' Stick can be found inside Baelog's Chest in Uldaman."}
+{"id": "world-of-warcraft|72167", "text": "__NOTOC__ Essence of Destruction drops from all bosses in the Dragon Soul on normal and heroic mode."}
+{"id": "world-of-warcraft|72168", "text": "The Essence of Corrupted Deathwing is dark energy used for the purchase of one item, the Elementium-Coated Geode. The geode is sold by Dasnurimi in Dragon Soul."}
+{"id": "world-of-warcraft|72169", "text": "Erik Harrington appears during the nightmare gauntlet in the Deadmines. He will be under attack by three Enraged Worgen and you must save him."}
+{"id": "world-of-warcraft|72170", "text": "Escaped Horde Crewmen can be found at the Forlorn Hut on the Wandering Isle. Some of them were injured by the recent events, and some others can be seen gathering bamboos in the Pei-Wu Forest and fighting the local tigers."}
+{"id": "world-of-warcraft|72171", "text": "Ereuso is a Broken that can be found lying in the Crystal Hall of the Exodar; he appears to be weakened or ill: Nus is caring for him and for Duumehi, who stands not distant from him. During the Battle for the Exodar, he was inside Velen's protective shield, lying."}
+{"id": "world-of-warcraft|72174", "text": "__NOTOC__ Escaped Yaks are yaks found at Muskpaw Ranch in Kun-Lai Summit. After they are brought to Lao & Son's Yakwash they appear as Clean Yaks."}
+{"id": "world-of-warcraft|72175", "text": "__NOTOC__ Eric Davidson is a master Pet Tamer located in Raven Hill Cemetery in Duskwood. He is circling a large statue with his three level 7 battle pets: Darkwidow, Blackfang, and Webwinder. Defeating him is required to complete the Taming Eastern Kingdoms achievement."}
+{"id": "world-of-warcraft|72176", "text": "Escort Service is a player vs. player achievement earned for capturing 100 mine carts in Silvershard Mines."}
+{"id": "world-of-warcraft|72177", "text": "Eshelon is a rare jinyu found in the Ambermarsh in the Townlong Steppes. Eshelon is a Pandarian champion."}
+{"id": "world-of-warcraft|72179", "text": "Eroded Lieutenant's Insignias are found in the Brawler's Purse, awarded to victorious gladiators in the Brawler's Guild."}
+{"id": "world-of-warcraft|72180", "text": "__NOTOC__ Ergll is a murloc located in Azshara. He is a friend of Kalecgos."}
+{"id": "world-of-warcraft|72181", "text": "Eroded Shardlings are colossi found in packs in Halls of Stone. They can be easily AoE'd down."}
+{"id": "world-of-warcraft|72188", "text": "Essences of Corruption are sha found during the Siege of Orgrimmar."}
+{"id": "world-of-warcraft|72189", "text": "__NOTOC__ Esme Sunshadow is a blood elf vendor found in the Brawl'gar Arena."}
+{"id": "world-of-warcraft|72190", "text": "Essence of Hate is a sha in the Crypt of Forgotten Kings scenario."}
+{"id": "world-of-warcraft|72191", "text": "Eric Browning is lead prop artist for World of Warcraft. Browning's team is responsible for props, FX, and initial set decoration. His art is also featured in the World of Warcraft Trading Card Game."}
+{"id": "world-of-warcraft|72192", "text": "Eric Braddock was a Senior 3D Prop Artist and Illustrator for the World of Warcraft team from 2013 - 2021."}
+{"id": "world-of-warcraft|72195", "text": "Essence of Darkness is a voidwraith found at Anguish Fortress in ."}
+{"id": "world-of-warcraft|72196", "text": "Essence of Anguish is a voidwraith found at the Ancestor's Grotto in ."}
+{"id": "world-of-warcraft|72197", "text": "Esrus is a yak found roaming the Verdant Belt in the Valley of the Four Winds."}
+{"id": "world-of-warcraft|72201", "text": "Escape Pod is found at on the beach northeast of Pinchwhistle Point in southeastern Spires of Arak. Interact with the pod to free Nizzix Missfire: : : : : : Nizzix walks ashore and drops Nizzix's Chest on the ground, then takes off in the direction of Pinchwhistle Gearworks. The chest can be looted for ..."}
+{"id": "world-of-warcraft|72202", "text": "Eric Maloof is a Senior Game Designer for World of Warcraft."}
+{"id": "world-of-warcraft|72203", "text": "Erosian the Violent is a steam elemental located in Gorgrond."}
+{"id": "world-of-warcraft|72207", "text": "Essence of Hatred would have been made by combining 10 Splinters of Hate."}
+{"id": "world-of-warcraft|72208", "text": "Eric Dodds is a former Blizzard Entertainment employee, and past professions designer for World of Warcraft. He was also Game Director for Hearthstone. It was confirmed on October 28, 2019 that Eric Dodds had left Blizzard Entertainment."}
+{"id": "world-of-warcraft|72209", "text": "__NOTOC__ Erohaan is a draenei located at the Lunarfall in . He can only be recruited using the Headhunter's Harvest from Lunarfall Inn. He joined the hunters at the Gladiator's Sanctum in Trueshot Lodge."}
+{"id": "world-of-warcraft|72213", "text": "Errick's Woundbinder Gauntlets is a world drop from Pandaria mobs."}
+{"id": "world-of-warcraft|72214", "text": "__NOTOC__ Eredar Chaosborn are man'ari eredar located at the Temple of Sha'naar in Tanaan Jungle."}
+{"id": "world-of-warcraft|72215", "text": "__NOTOC__ Eredar Fel-Chain Gloves drops from Archimonde in ."}
+{"id": "world-of-warcraft|72220", "text": "Eska Sharphorn is a tauren prisoner of the Alliance in Ashran, found in the basement of Stormshield Stronghold."}
+{"id": "world-of-warcraft|72221", "text": "Erorus' Ledger of Trade is a world drop from level 99 - 102 mobs."}
+{"id": "world-of-warcraft|72224", "text": "Eric Bauza is a voice actor who has provided several voices for World of Warcraft and its various expansions."}
+{"id": "world-of-warcraft|72228", "text": "Eric Lopez is a voice actor who has provided voices for World of Warcraft."}
+{"id": "world-of-warcraft|72229", "text": "Erica Luttrell is a voice actress who has provided several voices for World of Warcraft and its various expansions."}
+{"id": "world-of-warcraft|72234", "text": "__NOTOC__ Eredar Battle-Mages are eredar that appeared at Legion Invasion locations. They also appear on Niskara."}
+{"id": "world-of-warcraft|72235", "text": "__NOTOC__ Eredar Summoners are man'ari eredar that appear during the Legion Invasion, then throughout the expansion."}
+{"id": "world-of-warcraft|72241", "text": "Eredar Chaos Guards are eredar that appear during the battle for the Broken Shore and during the assault on Broken Shore. They are often seen charging Shielded Anchors."}
+{"id": "world-of-warcraft|72242", "text": "Essence Swapper changes Hati's appearance to that of the hunter's pet."}
+{"id": "world-of-warcraft|72248", "text": "Erling the Lightningborn is a vrykul located on the cliffs in southern Stormheim."}
+{"id": "world-of-warcraft|72249", "text": "Eric Anthony Morman is the co-author of Warcraft II: Tides of Darkness The Official Strategy Guide (Secrets of the Games Series) alongside Ed Dille."}
+{"id": "world-of-warcraft|72250", "text": "The Eredar Mage is an eredar summoned by Daio the Decrepit at the Tainted Scar in the Blasted Lands during Daio the Decrepit (quest)."}
+{"id": "world-of-warcraft|72251", "text": "Essences of Aman'Thul dropped from the following sources: * Nighthold bosses (all difficulties): 1-5 each * Weekly Mythic+ Chest: 15 * Emissary caches: 1-5 * PvP weekly quests: 5 per bracket"}
+{"id": "world-of-warcraft|72253", "text": "Erwind Mistfen is an ancient druid located in Val'sharah. He is one of the elder disciples of Elothir and was being turned into a stone until rescued by the class leaders."}
+{"id": "world-of-warcraft|72254", "text": "The Essence of Balance drops from Wrath of Azshara in Eye of Azshara."}
+{"id": "world-of-warcraft|72256", "text": "The Essence of Incendius drops from Lord Incendius in Blackrock Depths."}
+{"id": "world-of-warcraft|72259", "text": "Erica Lindbeck is a voice actress who has provided several voices for World of Warcraft and its various expansions. She also voices Sally Whitemane in Heroes of the Storm."}
+{"id": "world-of-warcraft|72260", "text": "Erik Braa is a voice actor who has provided several voices for World of Warcraft and its various expansions."}
+{"id": "world-of-warcraft|72262", "text": "Eredar Chaosbringers can be found in the Arcway dungeon as well as in the Assault on Broken Shore scenario. While in the Arcway, they can open a portal to Argus to summon more demons."}
+{"id": "world-of-warcraft|72263", "text": "Eredar Pyromancers can be found in the Assault on Broken Shore scenario."}
+{"id": "world-of-warcraft|72266", "text": "Eredar Armor Clasp is a reward from the Class Hall mission Preparing Our Arrival."}
+{"id": "world-of-warcraft|72270", "text": "Eredar Acolytes are man'ari eredar located in the Petrified Forest in Krokuun."}
+{"id": "world-of-warcraft|72271", "text": "__NOTOC__ Eredar Soulshapers are man'ari eredar located in the Petrified Forest in Krokuun."}
+{"id": "world-of-warcraft|72272", "text": "__NOTOC__ Eredar Overseers are eredar located in the Deceiver's Scar in Krokuun."}
+{"id": "world-of-warcraft|72273", "text": "Eredar Conquerors are eredar brutes located in Darkfall Ridge in Krokuun."}
+{"id": "world-of-warcraft|72274", "text": "Escaped Horde Engineers are goblins found at the Wreck of the Skyseeker on the Wandering Isle. They were the men of Makael Bay."}
+{"id": "world-of-warcraft|72276", "text": "Eredar Soulbinders are eredar located at Fiend's Run in the Antoran Wastes."}
+{"id": "world-of-warcraft|72277", "text": "Eredar Bonebreakers are eredar brutes located at Fiend's Run in the Antoran Wastes."}
+{"id": "world-of-warcraft|72278", "text": "Eredar War-Minds are eredar located at the Terminus in the Antoran Wastes."}
+{"id": "world-of-warcraft|72281", "text": "__NOTOC__ Eredar Supplicants are eredar located in Legion Camp: Ruin of Azsuna."}
+{"id": "world-of-warcraft|72284", "text": "The Eredar Treasure Cache can be found in a cave at the northernmost point of Eredath."}
+{"id": "world-of-warcraft|72286", "text": "The Essence of Eonar is located in the Elarian Sanctuary in Antorus, the Burning Throne. During the Eonar the Life-Binder encounter, players must defend the essence against waves of Burning Legion forces."}
+{"id": "world-of-warcraft|72289", "text": "Eredath Armor Set is a reward from Abandoned Armory (mission) and Armor of the Eredar."}
+{"id": "world-of-warcraft|72290", "text": "__NOTOC__ Eredar Voidweavers are man'ari eredar located in the Broken Shore."}
+{"id": "world-of-warcraft|72293", "text": "Erlani appears as the memory of a draenei child in the Forge of Aeons."}
+{"id": "world-of-warcraft|72297", "text": "Eredath Focusing Amethyst is created from Unsullied Trinket or Relinquished Trinket."}
+{"id": "world-of-warcraft|72299", "text": "Essence of Fear is a sha located in Dread Wastes. It is visible during Dark Skies (quest)."}
+{"id": "world-of-warcraft|72303", "text": "Eredar Soul-Summoners are eredar located in Stormheim during the Legion Assaults."}
+{"id": "world-of-warcraft|72304", "text": "The Escape Rope is found in the Secret Treasure Lair on the Broken Shore. Using it will bring the user under the tree in Soldier's Torment."}
+{"id": "world-of-warcraft|72305", "text": "__NOTOC__ Eredar Felweavers are eredar located in Val'sharah during the Legion Assaults."}
+{"id": "world-of-warcraft|72307", "text": "__NOTOC__ The Essence of Clarity drops from Cenarius in the Emerald Nightmare."}
+{"id": "world-of-warcraft|72309", "text": "Eredath Seal of Nobility drops from Zuraal the Ascended in the Seat of the Triumvirate."}
+{"id": "world-of-warcraft|72310", "text": "Eredar Warcouncil Sabatons drops from General Erodus in Antorus, the Burning Throne."}
+{"id": "world-of-warcraft|72313", "text": "__NOTOC__ Eredar Blood Magi are eredar located in Val'sharah during the Legion Assaults."}
+{"id": "world-of-warcraft|72317", "text": "Erupting Reflections are voidwalkers located in the Tomb of Sargeras."}
+{"id": "world-of-warcraft|72322", "text": "Erik's High-Performance Armbands drop from Eric \"The Swift\" in Uldaman."}
+{"id": "world-of-warcraft|72324", "text": "__NOTOC__ Eredar Shadow Menders are eredar located in the Violet Hold."}
+{"id": "world-of-warcraft|72325", "text": "Erekem Guards are arakkoa summoned by Erekem in the Violet Hold."}
+{"id": "world-of-warcraft|72326", "text": "The Erratic Stormforce is a quest reward from Where Dragons Rule."}
+{"id": "world-of-warcraft|72328", "text": "Esma Lostfin is a gilgoblin located in Deepsea Refuge in Nazjatar. She is initially saved as a Mind-Shackled Kelfin in the Deepsea Slave Pen."}
+{"id": "world-of-warcraft|72329", "text": "Escaped Kelfin is a gilgoblin located in the Coral Forest in Nazjatar. She asks the adventurer for help and dies."}
+{"id": "world-of-warcraft|72330", "text": "__NOTOC__ Eso the Fathom-Hunter is a Razorfin jinyu located in the Rotting Mire."}
+{"id": "world-of-warcraft|72331", "text": "Eric Quietfist is a dwarf located in Zuldazar during Faction Assaults."}
+{"id": "world-of-warcraft|72332", "text": "Essence Essentials is an expansion feature achievement earned for infusing the Heart of Azeroth with all the available Essences for any roles available to the player's class."}
+{"id": "world-of-warcraft|72333", "text": "Essence Gains is an expansion feature achievement earned for infusing the Heart of Azeroth with all the available Essences at rank 2 or higher for any roles available to the player's class."}
+{"id": "world-of-warcraft|72334", "text": "Eredar Shadow-Trappers are eredar located on the Broken Shore."}
+{"id": "world-of-warcraft|72335", "text": "Erupting Servants are skeletal trolls summoned by Zujothgul at the Terrace of Sorrows in Nazmir."}
+{"id": "world-of-warcraft|72340", "text": "__NOTOC__ Eryssa Riversong is a night elf located in Mugamba Overlook in Zuldazar."}
+{"id": "world-of-warcraft|72341", "text": "Esme is an unknown race who is acquainted with Auntie Stormstout. She was mentioned by her when she accidentally mistook Chen for Zan. By her quotation, Esme is a farmer who grows turnips. Her current whereabouts are unknown."}
+{"id": "world-of-warcraft|72343", "text": "Eridia is an Ascended kyrian located at Purity's Reflection in the Bastion. She is the Hand of Purity, serving as the second in command of Vesiphone, the Paragon of Purity. During the Forsworn attack on the Temple of Purity, it is revealed that Lysonia, the Hand of Doubt and leader of the assault, is her soulbind."}
+{"id": "world-of-warcraft|72345", "text": "Essence Overload is an expansion feature achievement earned by infusing the Heart of Azeroth with all available Essences from the Rise of Azshara update at rank 3 or higher for any of your roles."}
+{"id": "world-of-warcraft|72346", "text": "Escaped Mutation is a fleshbeast located in the Vale of Eternal Blossoms."}
+{"id": "world-of-warcraft|72349", "text": "Eroded Heat Sink can be looted from Forge Materials at the Eternal Forge in Bastion during the quest A Perfect Circle."}
+{"id": "world-of-warcraft|72350", "text": "Eredath Vigilant's Bastion drops from Admiral Rel'var at the Terminus in the Antoran Wastes."}
+{"id": "world-of-warcraft|72353", "text": "The Eredath Vigilant's Shield drops from Vigilant Thanos at the Seat of the Triumvirate in Eredath."}
+{"id": "world-of-warcraft|72357", "text": "Escape Shovels are found in various locations in Revendreth, usually inside enclosed spaces such as crypts or hollow trees where adventurers might get stuck. They're used to dig a tunnel to a nearby spot outside the enclosed space."}
+{"id": "world-of-warcraft|72359", "text": "Errant Tomes are collected from the NPCs of the same name in Maldraxxus."}
+{"id": "world-of-warcraft|72362", "text": "The Eroded Bust is a night elf statue head sitting on a pedestal in Captain \"Soggy\" Su-Dao's home at Soggy's Gamble in the Dread Wastes. Clicking it unlocks a new dialogue option with Soggy and causes him to say the following: :"}
+{"id": "world-of-warcraft|72363", "text": "Erratic Omen was an Azerite trait for Destruction warlocks. It was removed from the database shortly before the Battle for Azeroth beta ended."}
+{"id": "world-of-warcraft|72364", "text": "The Erratic Sparkshield is looted from the Fallen Adventurer's Cache."}
+{"id": "world-of-warcraft|72365", "text": "Ernst is a Maldraxxi skeleton found fishing with Mugwallow in Maldraxxus."}
+{"id": "world-of-warcraft|72366", "text": "The Essence of Hati is one part of the scattered essence of Thorim's pet wolf, Hati. In its madness, it had trapped Thorim in his throne. It was ultimately defeated by the Huntmaster of the Unseen Path and absorbed into the Thunderspark."}
+{"id": "world-of-warcraft|72369", "text": "The Essence of Ardenweald is found off the road, just north of Tirna Vaal in Ardenweald."}
+{"id": "world-of-warcraft|72370", "text": "The Essence of Bastion is found just south of Aspirant's Rest in Bastion."}
+{"id": "world-of-warcraft|72377", "text": "__NOTOC__ Eredar Navigators are man'ari eredar located in The Soulrender in Azsuna."}
+{"id": "world-of-warcraft|72378", "text": "Eredar Faithbreakers are eredar located in the Halls of the Sargerei in ."}
+{"id": "world-of-warcraft|72379", "text": "__NOTOC__ Essences of Desperation are manifestations located in Dominance Keep in Revendreth."}
+{"id": "world-of-warcraft|72383", "text": "Ery was a Kul Tiran tidesage and one of the two main characters in the Kul Tiran folktale \"Why the Mermaids Left Boralus\", which tells of the love between her and the mermaid Halia."}
+{"id": "world-of-warcraft|72385", "text": "Errant Crusader's Greaves are dropped by Shriekwing in Castle Nathria."}
+{"id": "world-of-warcraft|72386", "text": "Essence Surge Binders drop from Kryxis the Voracious in Sanguine Depths."}
+{"id": "world-of-warcraft|72388", "text": "Ergll's Body Sieve is a quest reward from Full of Hot Water."}
+{"id": "world-of-warcraft|72389", "text": "Erisne's Burden is a manifestation that turns into a projection of an eredar in the Temple of Purity in Bastion."}
+{"id": "world-of-warcraft|72391", "text": "Eredath Vigilant's Crest drops from Vigilant Kuro in Eredath."}
+{"id": "world-of-warcraft|72392", "text": "Eredath Vigilant's Redoubt is looted from Chest of Ill-Gotten Gains in Eredath."}
+{"id": "world-of-warcraft|72393", "text": "Eredath Lightseeker's Greaves are looted from Ancient Eredar Caches in Eredath."}
+{"id": "world-of-warcraft|72394", "text": "Eredath Lightseeker's Helmet is looted from Ancient Eredar Caches in Eredath."}
+{"id": "world-of-warcraft|72395", "text": "Eredath Lightseeker's Chestpiece is looted from Ancient Eredar Caches in Eredath."}
+{"id": "world-of-warcraft|72396", "text": "Eredath Lightseeker's Waistplate is looted from Ancient Eredar Caches in Eredath."}
+{"id": "world-of-warcraft|72397", "text": "Eredath Lightseeker's Spaulders are looted from Ancient Eredar Caches in Eredath."}
+{"id": "world-of-warcraft|72398", "text": "Eredath Lightseeker's Handguards are looted from Ancient Eredar Caches in Eredath."}
+{"id": "world-of-warcraft|72399", "text": "Eredath Lightseeker's Armguards are looted from Ancient Eredar Caches in Eredath."}
+{"id": "world-of-warcraft|72400", "text": "Eredath Lightseeker's Treads are looted from Ancient Eredar Caches in Eredath."}
+{"id": "world-of-warcraft|72401", "text": "Escaped Captives are souls located throughout the Catacombs of Regret in Revendreth. Some are attacking broken Catacombs Cages, while others are being tormented by manifestations. Using Chains of Regret on an Escaped Captive will turn it into a friendly Captured Soul. It will then follow you until it's returned to an intact Catacombs Cage."}
+{"id": "world-of-warcraft|72402", "text": "Escaped Shagskin are yaks located in the Valley of the Four Winds."}
+{"id": "world-of-warcraft|72403", "text": "Alpha Wolf Erezuel is a wolf encountered by adventure companions in the Garden of Night in Ardenweald."}
+{"id": "world-of-warcraft|72406", "text": "Erratic Genesis Matrixes are created with Engineering (100); taught by Schematic: Erratic Genesis Matrix."}

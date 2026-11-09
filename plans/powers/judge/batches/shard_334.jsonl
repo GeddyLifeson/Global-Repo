@@ -1,0 +1,250 @@
+{"id": "world-of-warcraft|74148", "text": "World of Warcraft has a game mechanism that grants you XP for exploring new areas (sometimes called regions, zones, or subzones). Gained XP depends on area level from AreaTable.dbc If player level is not more than +5/-5 from area level, then player gains Base XP. Base XP have no known formula yet, but there is table gathered during playing: By this table you can write function GetBaseXP(area_level) which returns Base XP If player level is less than area level on 5 then player gains less XP. percent = 100-(((player_level-area_level)-5)*5) if percent 100 percent = 100 XP = (GetBaseXP(area_level) * percent) / 100 If player level is more than area level on 5 then player also gains less XP. XP = "}
+{"id": "world-of-warcraft|74149", "text": "== Shadowlands == Patch 9.0.1 squished levels from 120 down to 50. Experience data has been sourced from [https://wow.tools/files/#search=gametables/xp.txt gametables/xp.txt]"}
+{"id": "world-of-warcraft|74150", "text": "An experience point (abbreviated XP or EXP) is a unit of measurement for character level advancement. Advancing to the next level requires a fixed amount of experience points which is determined by a formula. Gaining levels is based on the concept that as characters defeat stronger enemies, they gain combat experience that allows them to improve their skills. This system was established in the 1970s by the classic pen-and-paper RPG Dungeons & Dragons and is present in some form or another in almost all role-playing games. In World of Warcraft, you generally get XP from killing mobs and completing quests, but you can also get some from exploring, gathering herbs, mining, collecting fragments "}
+{"id": "world-of-warcraft|74151", "text": ".]] Explosive Sheep will wander around for up to 3 minutes, charge at a nearby enemy within some range (?), and explode for 135 to 165 damage when it hits the enemy. Has only 1 charge."}
+{"id": "world-of-warcraft|74152", "text": "The Experiment Ogre was one of the Dalaran Wizard's Experiments in the Dungeons of Dalaran. It was locked below in a cell controlled by a lever. Kael'thas and Vashj released it onto the guards who watched over it. It has not been seen or heard of since."}
+{"id": "world-of-warcraft|74154", "text": "This quest is part of the quest chain, which allows blacksmiths to specialize in Armorsmithing. Completing any of the prerequisites for this quest allow you to take Galvan's Finest Pupil. Completing all of them earn you this quest."}
+{"id": "world-of-warcraft|74155", "text": "An explosive is a consumable device that can cause damage or other effects when used. While in-game only Engineer players can use these weapons, many variants of sapper, bombardier and mortar operator NPCs are known to use explosives in battle."}
+{"id": "world-of-warcraft|74157", "text": "Expert Fishing - The Bass and You was used to teach expert fishing prior to patch 3.1. Once used, the fisherman could advance his or her fishing skill to 225."}
+{"id": "world-of-warcraft|74158", "text": "The manual Expert First Aid - Under Wraps taught to the reader how to advance their First Aid skill from 150 to 225."}
+{"id": "world-of-warcraft|74161", "text": "Explorers' League Commendation is an necklace. It gives bonuses to stamina and spirit."}
+{"id": "world-of-warcraft|74163", "text": "__NOTOC__ Expert Goldminer's Helmet drops from Digmaster Shovelphlange in the caverns leading to the Uldaman instance in the Badlands."}
+{"id": "world-of-warcraft|74165", "text": "Explorer's Leggings is a quest reward from Escape from Umbrafen."}
+{"id": "world-of-warcraft|74166", "text": "Explorer's Bands is a quest reward from An Unnatural Drought."}
+{"id": "world-of-warcraft|74168", "text": "The Experimental Repair Apparatus is provided as an objective for Testing the Prototype."}
+{"id": "world-of-warcraft|74169", "text": "The Expert Cookbook is a consumable tome that teaches Expert Cooking. It can be purchased for from: * at Silverwind Refuge in Ashenvale * at Shadowprey Village in Desolace"}
+{"id": "world-of-warcraft|74170", "text": "This quest points you to Clopper Wizbang, who starts you off on a short series of quests."}
+{"id": "world-of-warcraft|74171", "text": "Explosive Rocket is a quest reward from Shipment to Stormwind."}
+{"id": "world-of-warcraft|74174", "text": "Explorers' League Researcher can be found in Terokkar Forest."}
+{"id": "world-of-warcraft|74175", "text": "Explodyne Fizzlespurt was a goblin Arena PvP System rewards vendor located at the Ring of Trials in Nagrand. The Arena Rewards were bought using arena points."}
+{"id": "world-of-warcraft|74176", "text": "The Explosive Charge is found at the upstream base of the Stonewrought Dam in Loch Modan."}
+{"id": "world-of-warcraft|74178", "text": "Explorer Abagail is a dwarf quest giver located at Westguard Keep in the Howling Fjord."}
+{"id": "world-of-warcraft|74179", "text": "Explorer Jaren is in love with Irena Stonemantle, who fears that the Mur'ghoul harm him."}
+{"id": "world-of-warcraft|74180", "text": "Explorers' League Outpost is an Alliance quest hub located in the southeast area of the Howling Fjord, east of Nifflevar and Daggercap Bay, and just west of Baelgun's Excavation Site and Stonewall Lift."}
+{"id": "world-of-warcraft|74184", "text": "Experimental Pilot is a goblin located at Area 52 in the Netherstorm."}
+{"id": "world-of-warcraft|74187", "text": "Exploiting an Opening begins the long quest chain involving Matthias Lehner. Before will offer it, players must complete The Shadow Vault."}
+{"id": "world-of-warcraft|74189", "text": "Explore Ashenvale is an exploration achievement earned for exploring the entire map of the Ashenvale zone. Required for the meta-achievement Kalimdor Explorer."}
+{"id": "world-of-warcraft|74190", "text": "Explore Azshara is an exploration achievement earned for exploring the entire map of the Azshara zone. Required for the meta-achievement Kalimdor Explorer."}
+{"id": "world-of-warcraft|74191", "text": "Explore Azuremyst Isle is an exploration achievement earned for exploring the entire map of the Azuremyst Isle zone. Required for the meta-achievement Kalimdor Explorer."}
+{"id": "world-of-warcraft|74192", "text": "Explore Bloodmyst Isle is an exploration achievement earned for exploring the entire map of the Bloodmyst Isle zone. Required for the meta-achievement Kalimdor Explorer."}
+{"id": "world-of-warcraft|74193", "text": "Explore Darkshore is an exploration achievement earned for exploring the entire map of the Darkshore zone. Required for the meta-achievement Kalimdor Explorer."}
+{"id": "world-of-warcraft|74194", "text": "Explore Desolace is an exploration achievement earned for exploring the entire map of the Desolace zone. Required for the meta-achievement Kalimdor Explorer."}
+{"id": "world-of-warcraft|74195", "text": "Explore Durotar is an exploration achievement earned for exploring the entire map of the Durotar zone. Required for the meta-achievement Kalimdor Explorer."}
+{"id": "world-of-warcraft|74196", "text": "Explore Dustwallow Marsh is an exploration achievement earned for exploring the entire map of the Dustwallow Marsh zone. Required for the meta-achievement Kalimdor Explorer."}
+{"id": "world-of-warcraft|74197", "text": "Explore Felwood is an exploration achievement earned for exploring the entire map of the Felwood zone. Required for the meta-achievement Kalimdor Explorer."}
+{"id": "world-of-warcraft|74198", "text": "Explore Feralas is an exploration achievement earned for exploring the entire map of the Feralas zone. Required for the meta-achievement Kalimdor Explorer."}
+{"id": "world-of-warcraft|74200", "text": "Explore Mulgore is an exploration achievement earned for exploring the entire map of the Mulgore zone. Required for the meta-achievement Kalimdor Explorer."}
+{"id": "world-of-warcraft|74201", "text": "Explore Silithus is an exploration achievement earned for exploring the entire map of the Silithus zone. Required for the meta-achievement Kalimdor Explorer."}
+{"id": "world-of-warcraft|74203", "text": "Explore Tanaris is an exploration achievement earned for exploring the entire map of the Tanaris zone. Required for the meta-achievement Kalimdor Explorer."}
+{"id": "world-of-warcraft|74204", "text": "Explore Teldrassil is an exploration achievement earned for exploring the entire map of the Teldrassil zone. Required for the meta-achievement Kalimdor Explorer."}
+{"id": "world-of-warcraft|74205", "text": "Explore Arathi Highlands is an exploration achievement earned for exploring the entire map of the Arathi Highlands zone. Required for the meta-achievement Eastern Kingdoms Explorer."}
+{"id": "world-of-warcraft|74206", "text": "Explore Badlands is an exploration achievement earned for exploring the entire map of the Badlands zone. Required for the meta-achievement Eastern Kingdoms Explorer."}
+{"id": "world-of-warcraft|74207", "text": "Explore Blasted Lands is an exploration achievement earned for exploring the entire map of the Blasted Lands zone. Required for the meta-achievement Eastern Kingdoms Explorer."}
+{"id": "world-of-warcraft|74208", "text": "Explore Burning Steppes is an exploration achievement earned for exploring the entire map of the Burning Steppes zone. Required for the meta-achievement Eastern Kingdoms Explorer."}
+{"id": "world-of-warcraft|74209", "text": "Explore Deadwind Pass is an exploration achievement earned for exploring the entire map of the Deadwind Pass zone. Required for the meta-achievement Eastern Kingdoms Explorer."}
+{"id": "world-of-warcraft|74210", "text": "Explore Dun Morogh is an exploration achievement earned for exploring the entire map of the Dun Morogh zone. Required for the meta-achievement Eastern Kingdoms Explorer."}
+{"id": "world-of-warcraft|74211", "text": "Explore Duskwood is an exploration achievement earned for exploring the entire map of the Duskwood zone. Required for the meta-achievement Eastern Kingdoms Explorer."}
+{"id": "world-of-warcraft|74212", "text": "Explore Eastern Plaguelands is an exploration achievement earned for exploring the entire map of the Eastern Plaguelands zone. Required for the meta-achievement Eastern Kingdoms Explorer."}
+{"id": "world-of-warcraft|74213", "text": "Explore Elwynn Forest is an exploration achievement earned for exploring the entire map of the Elwynn Forest zone. Required for the meta-achievement Eastern Kingdoms Explorer."}
+{"id": "world-of-warcraft|74214", "text": "Explore Eversong Woods is an exploration achievement earned for exploring the entire map of the Eversong Woods zone. Required for the meta-achievement Eastern Kingdoms Explorer."}
+{"id": "world-of-warcraft|74215", "text": "Explore Ghostlands is an exploration achievement earned for exploring the entire map of the Ghostlands zone. Required for the meta-achievement Eastern Kingdoms Explorer."}
+{"id": "world-of-warcraft|74216", "text": "Explore Tirisfal Glades is an exploration achievement earned for exploring the entire map of the Tirisfal Glades zone. Required for the meta-achievement Eastern Kingdoms Explorer."}
+{"id": "world-of-warcraft|74217", "text": "Explore Loch Modan is an exploration achievement earned for exploring the entire map of the Loch Modan zone. Required for the meta-achievement Eastern Kingdoms Explorer."}
+{"id": "world-of-warcraft|74218", "text": "Explore Westfall is an exploration achievement earned for exploring the entire map of the Westfall zone. Required for the meta-achievement Eastern Kingdoms Explorer."}
+{"id": "world-of-warcraft|74219", "text": "Explore Wetlands is an exploration achievement earned for exploring the entire map of the Wetlands zone. Required for the meta-achievement Eastern Kingdoms Explorer."}
+{"id": "world-of-warcraft|74220", "text": "Explore Silverpine Forest is an exploration achievement earned for exploring the entire map of the Silverpine Forest zone. Required for the meta-achievement Eastern Kingdoms Explorer."}
+{"id": "world-of-warcraft|74222", "text": "Explore Hillsbrad Foothills is an exploration achievement earned for exploring the entire map of the Hillsbrad Foothills zone. Required for the meta-achievement Eastern Kingdoms Explorer."}
+{"id": "world-of-warcraft|74223", "text": "Explore Swamp of Sorrows is an exploration achievement earned for exploring the entire map of the Swamp of Sorrows zone. Required for the meta-achievement Eastern Kingdoms Explorer."}
+{"id": "world-of-warcraft|74224", "text": "Explore Stranglethorn Vale is an exploration achievement earned for exploring the entire map of the Stranglethorn Vale zone. Required for the meta-achievement Eastern Kingdoms Explorer."}
+{"id": "world-of-warcraft|74225", "text": "Explore The Hinterlands is an exploration achievement earned for exploring the entire map of the The Hinterlands zone. Required for the meta-achievement Eastern Kingdoms Explorer."}
+{"id": "world-of-warcraft|74226", "text": "Explore Searing Gorge is an exploration achievement earned for exploring the entire map of the Searing Gorge zone. Required for the meta-achievement Eastern Kingdoms Explorer."}
+{"id": "world-of-warcraft|74227", "text": "Explore Western Plaguelands is an exploration achievement earned for exploring the entire map of the Western Plaguelands zone. Required for the meta-achievement Eastern Kingdoms Explorer."}
+{"id": "world-of-warcraft|74228", "text": "Explore Isle of Quel'Danas is an exploration achievement earned for exploring the entire map of the Isle of Quel'Danas zone. Required for the meta-achievement Eastern Kingdoms Explorer."}
+{"id": "world-of-warcraft|74229", "text": "Explore The Barrens is an exploration achievement that was earned for exploring the entire map of the The Barrens zone. It used to be required for the meta-achievement Kalimdor Explorer before the Cataclysm."}
+{"id": "world-of-warcraft|74230", "text": "Explore Thousand Needles is an exploration achievement earned for exploring the entire map of the Thousand Needles zone. Required for the meta-achievement Kalimdor Explorer."}
+{"id": "world-of-warcraft|74231", "text": "Explore Durotar is an exploration achievement earned for exploring the entire map of the Un'Goro Crater zone. Required for the meta-achievement Kalimdor Explorer."}
+{"id": "world-of-warcraft|74232", "text": "Explore Winterspring is an exploration achievement earned for exploring the entire map of the Winterspring zone. Required for the meta-achievement Kalimdor Explorer."}
+{"id": "world-of-warcraft|74233", "text": "Explore Icecrown is an exploration achievement earned for exploring the entire map of the Icecrown zone. Required for the meta-achievement Northrend Explorer."}
+{"id": "world-of-warcraft|74234", "text": "Explosives Expert was a player vs. player achievement earned for planting 5 seaforium charges which successfully damages a wall in a single battle."}
+{"id": "world-of-warcraft|74237", "text": "Explore Zangarmarsh is an exploration achievement earned for exploring the entire map of the Zangarmarsh zone. Required for the meta-achievement Outland Explorer."}
+{"id": "world-of-warcraft|74238", "text": "Explore Howling Fjord is an exploration achievement earned for exploring the entire map of the Howling Fjord zone. Required for the meta-achievement Northrend Explorer."}
+{"id": "world-of-warcraft|74239", "text": "Explore Borean Tundra is an exploration achievement earned for exploring the entire map of the Borean Tundra zone. Required for the meta-achievement Northrend Explorer."}
+{"id": "world-of-warcraft|74240", "text": "Explore Dragonblight is an exploration achievement earned for exploring the entire map of the Dragonblight zone. Required for the meta-achievement Northrend Explorer."}
+{"id": "world-of-warcraft|74241", "text": "Explore Grizzly Hills is an exploration achievement earned for exploring the entire map of the Grizzly Hills zone. Required for the meta-achievement Northrend Explorer."}
+{"id": "world-of-warcraft|74242", "text": "Explore Zul'Drak is an exploration achievement earned for exploring the entire map of the Zul'Drak zone. Required for the meta-achievement Northrend Explorer."}
+{"id": "world-of-warcraft|74243", "text": "Explore Sholazar Basin is an exploration achievement earned for exploring the entire map of the Sholazar Basin zone. Required for the meta-achievement Northrend Explorer."}
+{"id": "world-of-warcraft|74244", "text": "Explore Crystalsong Forest is an exploration achievement earned for exploring the entire map of the Crystalsong Forest zone. Required for the meta-achievement Northrend Explorer."}
+{"id": "world-of-warcraft|74245", "text": "Explore Storm Peaks is an exploration achievement earned for exploring the entire map of the Storm Peaks zone. Required for the meta-achievement Northrend Explorer."}
+{"id": "world-of-warcraft|74246", "text": "Explore Terokkar Forest is an exploration achievement earned for exploring the entire map of the Terokkar Forest zone. Required for the meta-achievement Outland Explorer."}
+{"id": "world-of-warcraft|74247", "text": "Experienced Drake Rider is a dungeon & raids achievement earned for visiting on three different to the Oculus, get credit for defeating Ley-Guardian Eregos while riding an Amber, Emerald, and Ruby drake on Heroic difficulty."}
+{"id": "world-of-warcraft|74248", "text": "Explore Nagrand is an exploration achievement earned for exploring the entire map of the Nagrand zone. Required for the meta-achievement Outland Explorer."}
+{"id": "world-of-warcraft|74251", "text": "Explore Netherstorm is an exploration achievement earned for exploring the entire map of the Netherstorm zone. Required for the meta-achievement Outland Explorer."}
+{"id": "world-of-warcraft|74252", "text": "Expert Cook is an achievement that requires the character to obtain 225 skill points in the \"Classic\" category of cooking."}
+{"id": "world-of-warcraft|74253", "text": "Expert Medic is a legacy achievement, originally earned by obtaining 225 skill points in first aid."}
+{"id": "world-of-warcraft|74254", "text": "Expert Fisherman is an achievement that requires the character to obtain 225 skill points in the \"Classic\" category of fishing."}
+{"id": "world-of-warcraft|74255", "text": "Explorer's Robe is a quest reward from Make Hay While the Sun Shines."}
+{"id": "world-of-warcraft|74258", "text": "The Explorers' League Digsite is a small Alliance quest hub located near Mistvale Valley in the Cape of Stranglethorn. Following the Fourth War, the league is still present and active on the digsite."}
+{"id": "world-of-warcraft|74261", "text": "Explorer is a Dwarf racial trait that allows you find additional fragments when looting archaeological finds and you can survey faster than normal archaeologists.."}
+{"id": "world-of-warcraft|74262", "text": "Explosively Decompressed Stompers are a quest reward from The Brothers Digsong 2: Eel-Egg-Trick Boogaloo and Here Fishie Fishie 2: Eel-Egg-Trick Boogaloo."}
+{"id": "world-of-warcraft|74263", "text": "Explore Deepholm is an exploration achievement earned for exploring the entire map of the Deepholm zone. Required for the meta-achievement Cataclysm Explorer."}
+{"id": "world-of-warcraft|74264", "text": "Explore Hyjal is an exploration achievement earned for exploring the entire map of the Mount Hyjal zone. Required for the meta-achievement Cataclysm Explorer."}
+{"id": "world-of-warcraft|74265", "text": "Explore Twilight Highlands is an exploration achievement earned for exploring the entire map of the Twilight Highlands zone. Required for the meta-achievement Cataclysm Explorer."}
+{"id": "world-of-warcraft|74266", "text": "Explore Vashj'ir is an exploration achievement earned for exploring the entire map of the Vashj'ir zone. Required for the meta-achievement Cataclysm Explorer."}
+{"id": "world-of-warcraft|74267", "text": "Explore Uldum is an exploration achievement earned for exploring the entire map of the Uldum zone. Required for the meta-achievement Cataclysm Explorer."}
+{"id": "world-of-warcraft|74270", "text": "Expert Archaeologist is an achievement that requires the character to obtain 225 skill points in archaeology."}
+{"id": "world-of-warcraft|74273", "text": "__NOTOC__ Explorer Mowi is a gnome quest giver located in the Temple of Earth in Deepholm. She asks the adventurers to battle the Twilight's Hammer and to uncover their plans with Uldum. She calls Prospector Brewer \"Twin\"."}
+{"id": "world-of-warcraft|74274", "text": "Expertise (also known as Exp and Ept) was a secondary attribute introduced in Patch 2.3.0. Each percent of expertise decreased the chance that melee or ranged attacks made by the player will be dodged by the same percentage. If the dodge chance was completely negated by expertise, any leftover expertise would then negate parried by the same amount. With Patch 5.0.4, Expertise also increased Spell hit for casters by the same amount. For example, a special attack against a boss level target would have 7.5% to be dodged and 7.5% chance to be parried (from the front only). *6.5% expertise would reduce the dodge chance by 6.5% (to 1%), would not affect the parry chance and will add 6.5% to spell "}
+{"id": "world-of-warcraft|74280", "text": "Expired Test Subjects can be found in the rooms off of the Headmaster's Study at the end of Scholomance. Players who have been assigned a Harsh Lesson by will be required to fight their way out of the side room back to the main chamber. Healers who were assigned the Harsh Lesson should instead dispel friendly s to kill the Expired Test Subjects."}
+{"id": "world-of-warcraft|74283", "text": "Explore Southern Barrens is an achievement for exploring the entire map of the Southern Barrens zone. It is part of the Kalimdor Explorer meta-achievement."}
+{"id": "world-of-warcraft|74284", "text": "Explore Northern Barrens is an achievement for exploring the entire map of the Northern Barrens zone. It is part of the Kalimdor Explorer meta-achievement."}
+{"id": "world-of-warcraft|74285", "text": "Explore the Cape of Stranglethorn is an achievement for exploring the entire map of The Cape of Stranglethorn zone. It is part of the Eastern Kingdoms Explorer meta-achievement."}
+{"id": "world-of-warcraft|74286", "text": "Explore Northern Stranglethorn is an achievement for exploring the entire map of the Northern Stranglethorn zone. It is part of the Eastern Kingdoms Explorer meta-achievement."}
+{"id": "world-of-warcraft|74287", "text": "The Explosive Keg was provided as an objective by Kun Autumnlight for Barring Entry."}
+{"id": "world-of-warcraft|74288", "text": "Explore Jade Forest is an exploration achievement earned for exploring the entire map of the Jade Forest zone. Required for the meta-achievement Pandaria Explorer."}
+{"id": "world-of-warcraft|74289", "text": "Explore Valley of the Four Winds is an exploration achievement earned for exploring the entire map of the Valley of the Four Winds zone. Required for the meta-achievement Pandaria Explorer."}
+{"id": "world-of-warcraft|74290", "text": "Explore Krasarang Wilds is an exploration achievement earned for exploring the entire map of the Krasarang Wilds zone. Required for the meta-achievement Pandaria Explorer."}
+{"id": "world-of-warcraft|74291", "text": "Explore Kun-Lai Summit is an exploration achievement earned for exploring the entire map of the Kun-Lai Summit zone. Required for the meta-achievement Pandaria Explorer."}
+{"id": "world-of-warcraft|74292", "text": "Explore Townlong Steppes is an exploration achievement earned for exploring the entire map of the Townlong Steppes zone. Required for the meta-achievement Pandaria Explorer."}
+{"id": "world-of-warcraft|74293", "text": "Explore Dread Wastes is an exploration achievement earned for exploring the entire map of the Dread Wastes zone. Required for the meta-achievement Pandaria Explorer."}
+{"id": "world-of-warcraft|74294", "text": "Explore Vale of Eternal Blossoms is an exploration achievement earned for exploring the entire map of the Vale of Eternal Blossoms zone. Required for the meta-achievement Pandaria Explorer."}
+{"id": "world-of-warcraft|74300", "text": "Explorer's League Diggers are dwarves of the Explorers' League found in Dustwind Dig in Badlands and Tanaris."}
+{"id": "world-of-warcraft|74301", "text": "__NOTOC__ Expensive Rubies can be picked up during Stage 7 of the Pursuing the Black Harvest scenario. It turns into a sellable version upon completion of Plunder the Black Temple."}
+{"id": "world-of-warcraft|74304", "text": "Expired Blackout Brew is purchased from and in Bizmo's Brawlpub and the Brawl'gar Arena."}
+{"id": "world-of-warcraft|74307", "text": "Explore Frostfire Ridge is an exploration achievement earned for exploring the entire map of the Frostfire Ridge zone. Required for the meta-achievement Draenor Explorer."}
+{"id": "world-of-warcraft|74308", "text": "Explore Gorgrond is an exploration achievement earned for exploring the entire map of the Gorgrond zone. Required for the meta-achievement Draenor Explorer."}
+{"id": "world-of-warcraft|74309", "text": "Explore Talador is an exploration achievement earned for exploring the entire map of the Talador zone. Required for the meta-achievement Draenor Explorer."}
+{"id": "world-of-warcraft|74310", "text": "Explore Spires of Arak is an exploration achievement earned for exploring the entire map of the Spires of Arak zone."}
+{"id": "world-of-warcraft|74313", "text": "Explore Tanaan Jungle is an exploration achievement earned for exploring the entire map of the Tanaan Jungle zone."}
+{"id": "world-of-warcraft|74314", "text": "An Expired Receipt was obtained after holding Partial Receipt (Random) for 24 hours. Combining 4 Expired Receipts makes Merchant Order."}
+{"id": "world-of-warcraft|74316", "text": "__NOTOC__ An Experimental Healing Potion is a by-product of the Alchemy skill-up item Impotent Healing Potion."}
+{"id": "world-of-warcraft|74317", "text": "Exploratron 2000 is a mechano-tank. Two broken down versions can be found just outside the Riverbeast Den in Gorgrond. Exploratron 2000 Spare Parts can be found nearby in a Explorer Canister. The mechano-tanks, however, are beyond repair."}
+{"id": "world-of-warcraft|74322", "text": "Explorer Nozzand is a goblin located in the Castaway Cave in ."}
+{"id": "world-of-warcraft|74326", "text": "Expert Treasure Hunter is an exploration achievement earned from discovering 50 treasures of (excluding Tanaan Jungle)."}
+{"id": "world-of-warcraft|74329", "text": "__NOTOC__ Exploring the High Seas is a Shipyard achievement earned from completing all six rare naval missions."}
+{"id": "world-of-warcraft|74331", "text": "The Explorer's Pack, much like the original Traveler's Backpack, does not bind to characters. It can be purchased from most general goods vendors on the Broken Isles for ."}
+{"id": "world-of-warcraft|74332", "text": "Expired Stinky Cheese is looted from chests in the Broken Isles."}
+{"id": "world-of-warcraft|74333", "text": "Experimental Fel Corruptors are found on the Isle of the Watchers in Azsuna."}
+{"id": "world-of-warcraft|74334", "text": "Explosive Orb are summoned by Flamebringer Az'rothel during the Legion Invasion."}
+{"id": "world-of-warcraft|74336", "text": "The Explosive Stick of Gann is provided as an objective for Revenge of Gann (2)."}
+{"id": "world-of-warcraft|74337", "text": "Exploding Ghouls are ghouls summoned by Lyandra Sunstrider in Icecrown Citadel during the third stage of The Frozen Flame."}
+{"id": "world-of-warcraft|74339", "text": "The Experimental Targeting Orb is provided as an objective for The Felsoul Experiments."}
+{"id": "world-of-warcraft|74341", "text": "The Experimental Telemancy Orb is provided by First Arcanist Thalyssra to summon Resistant Withered for Felborne No More."}
+{"id": "world-of-warcraft|74342", "text": "Explorers' League Archaeologists are dwarf and gnome members of the Explorers' League located near Prospector Murantus in Honor Hold in Hellfire Peninsula."}
+{"id": "world-of-warcraft|74343", "text": "Explorers' League Excavators are dwarven and gnomish members of the Explorers' League located near Bloodwatcher Point in Badlands."}
+{"id": "world-of-warcraft|74344", "text": "Explorer's League Scouts are dwarven scout of the Explorers' League located in the Howling Fjord."}
+{"id": "world-of-warcraft|74345", "text": "Explorers' League Pack Mules are located in Temple of Earth in Deepholm."}
+{"id": "world-of-warcraft|74347", "text": "Explore Azsuna is an exploration achievement earned for exploring the entire map of the Azsuna zone. Required for the meta-achievement Broken Isles Explorer."}
+{"id": "world-of-warcraft|74348", "text": "Expel the Darkness is a Holy paladin artifact trait. It is linked to the Deliver the Light and Blessings of the Silver Hand traits."}
+{"id": "world-of-warcraft|74349", "text": "Explore Broken Shore is about exploring each of the subzones on the Broken Shore."}
+{"id": "world-of-warcraft|74350", "text": "Explore Val'sharah is an exploration achievement earned for exploring the entire map of the Val'sharah zone. Required for the meta-achievement Broken Isles Explorer."}
+{"id": "world-of-warcraft|74352", "text": "Explore Stormheim is an exploration achievement earned for exploring the entire map of the Stormheim zone. Required for the meta-achievement Broken Isles Explorer."}
+{"id": "world-of-warcraft|74353", "text": "Explore Suramar is an exploration achievement earned for exploring the entire map of the Suramar zone. Required for the meta-achievement Broken Isles Explorer."}
+{"id": "world-of-warcraft|74357", "text": "The Experimental Alchemy Reagent can be used to weaken the Alliance Siege Cannon and the Horde Siege Cannon in Andorhal in The Deaths of Chromie scenario."}
+{"id": "world-of-warcraft|74359", "text": "Explosive Bundles are gathered near the Wreck of the Skyseeker on the Wandering Isle."}
+{"id": "world-of-warcraft|74360", "text": "Explosive Inquisitor Eyes are guardian eyes located in the Vault of the Wardens."}
+{"id": "world-of-warcraft|74362", "text": "Experiment-In-A-Jar is a rare drop from Maloriak in Blackwing Descent."}
+{"id": "world-of-warcraft|74363", "text": "Explore Argus is an exploration achievement that involves discovering the various subzones of Argus."}
+{"id": "world-of-warcraft|74364", "text": "Experimental Raptors are raptors located at the Secret Lab in Azshara. They were gathered by an adventurer for Subject Nine during the quest Raptor Raptor Rocket attempting to engineer an escape."}
+{"id": "world-of-warcraft|74365", "text": "Explosive Chicken is a mechanical chicken summoned by Tyson Sanders in Brawl'gar Arena and Deeprun Tram."}
+{"id": "world-of-warcraft|74369", "text": "Experiment 3C is a tortured amalgamation of various creatures that can be encountered as a boss in the single-player experience in the The Witchwood expansion for Hearthstone. During the boss encounter, the entity may mention a lab in Netherstorm, and when confronted with Dr. Boom the experiment will plead for the doctor to not take it back to \"the lab\", together implying that the creature was created by Dr. Boom at a laboratory in Netherstorm."}
+{"id": "world-of-warcraft|74372", "text": "Explorers' League Journal was a series of official blogs exploring the news and events around Azeroth."}
+{"id": "world-of-warcraft|74374", "text": "Explosive Siegemakers are siegemakers located in Blackrock Foundry."}
+{"id": "world-of-warcraft|74376", "text": "Explore Nazmir is an exploration achievement earned for exploring Nazmir."}
+{"id": "world-of-warcraft|74377", "text": "Explorer's Delving Loop is a quest reward from Titanic Showdown."}
+{"id": "world-of-warcraft|74378", "text": "Explosives can be found lying in a crate at the Abandoned Burrows in Vol'dun."}
+{"id": "world-of-warcraft|74381", "text": "Experimental War Machine is a Horde Azerite war machine located at Brennadam Square of Stormsong Valley."}
+{"id": "world-of-warcraft|74382", "text": "Explore Zuldazar is an exploration achievement earned for exploring Zuldazar."}
+{"id": "world-of-warcraft|74383", "text": "Explore Vol'dun is an exploration achievement earned for exploring Vol'dun."}
+{"id": "world-of-warcraft|74384", "text": "Explore Tiragarde Sound is an exploration achievement earned for exploring Tiragarde Sound."}
+{"id": "world-of-warcraft|74385", "text": "The Expeditious Knuckles were looted from Challenger's Strongbox."}
+{"id": "world-of-warcraft|74387", "text": "The Expeditious Dagger was looted from Challenger's Strongbox."}
+{"id": "world-of-warcraft|74388", "text": "The Expeditious Crossbow was looted from Challenger's Strongbox."}
+{"id": "world-of-warcraft|74389", "text": "The Expeditious Broadaxe was looted from Challenger's Strongbox."}
+{"id": "world-of-warcraft|74390", "text": "The Expeditious Greatsword was looted from Challenger's Strongbox."}
+{"id": "world-of-warcraft|74392", "text": "The Expeditious Hammer was looted from Challenger's Strongbox."}
+{"id": "world-of-warcraft|74393", "text": "The Expeditious Spear was looted from Challenger's Strongbox."}
+{"id": "world-of-warcraft|74395", "text": "The Expeditious Mace was looted from Challenger's Strongbox."}
+{"id": "world-of-warcraft|74396", "text": "The Expeditious Staff was looted from Challenger's Strongbox."}
+{"id": "world-of-warcraft|74397", "text": "The Expeditious Sword was looted from Challenger's Strongbox."}
+{"id": "world-of-warcraft|74398", "text": "__NOTOC__ Exploited Crown Interns are Forsaken located in Pyrewood Village in Silverpine Forest during the Love is in the Air event."}
+{"id": "world-of-warcraft|74402", "text": "The Explorer Canister is found in a pond at the Fertile Ground in Gorgrond."}
+{"id": "world-of-warcraft|74403", "text": "The Exploratron 2000 Spare Parts is looted from the Explorer Canister at a pond at the Fertile Ground in Gorgrond. Two broken Exploratron 2000 can be found by the entrance to the nearby Riverbeast Den."}
+{"id": "world-of-warcraft|74405", "text": "__NOTOC__ Experienced Champions are orcs, tauren, and blood elves located in Vol'dun during the Faction Assaults."}
+{"id": "world-of-warcraft|74406", "text": "Explosioneer Zoidfuse is a gnome located in Deadwood Cove in Vol'dun."}
+{"id": "world-of-warcraft|74407", "text": "The Experimental Warboat is located in the Zocalo in Zuldazar. It belongs to Uraka Wildthunder and was upgraded by Ricket. She installed a telescope, a build-in escape pod, a generator, and a rotating missile turret."}
+{"id": "world-of-warcraft|74412", "text": "Experimental Vials drop from mobs in Blackwing Descent during Beginning the Descent."}
+{"id": "world-of-warcraft|74415", "text": "Explosive Scarabs are aqir beetles located in Battle for Azeroth dungeons."}
+{"id": "world-of-warcraft|74417", "text": "Experimental Azerite Weapons are located in Tiragarde Sound."}
+{"id": "world-of-warcraft|74419", "text": "Expeditionary Short Sword is a quest reward from Ride of the Scientifically Enhanced Boar."}
+{"id": "world-of-warcraft|74420", "text": "Expeditionary LongbowExpeditionary Dagger is a quest reward from . __NOTOC__"}
+{"id": "world-of-warcraft|74421", "text": "Expeditionary Pike was a quest reward from Ride of the Scientifically Enhanced Boar and The Re-Deather. It was ultimately replaced by Expeditionary Quarterstaff."}
+{"id": "world-of-warcraft|74425", "text": "Explore Drustvar is an exploration achievement earned by exploring Drustvar and revealing the covered areas of the world map."}
+{"id": "world-of-warcraft|74426", "text": "Explore Stormsong Valley is an exploration achievement earned by exploring Stormsong Valley and revealing the covered areas of the world map."}
+{"id": "world-of-warcraft|74427", "text": "Explore Nazjatar is an exploration achievement earned by exploring Nazjatar and revealing the covered areas of the world map."}
+{"id": "world-of-warcraft|74428", "text": "Experimental Clawguards are phalynx located at the Eternal Forge in Bastion. Famos is found working on one."}
+{"id": "world-of-warcraft|74429", "text": "Experimental Mechs are crowd pummelers located in the Underhold during Stay of Execution."}
+{"id": "world-of-warcraft|74430", "text": "Expelled Hozen are hozen who appear after killing Engorged Crocolisks in Lake Kittitata in the Jade Forest."}
+{"id": "world-of-warcraft|74431", "text": "__NOTOC__ Expeditionary Mail Armbands are a quest reward from ."}
+{"id": "world-of-warcraft|74432", "text": "__NOTOC__ Expeditionary Plate Armguards is a quest reward from ."}
+{"id": "world-of-warcraft|74433", "text": "__NOTOC__ Expeditionary Leather Spaulders is a quest reward from Killclaw the Terrible (quest)."}
+{"id": "world-of-warcraft|74434", "text": "__NOTOC__ Expeditionary Mail Spaulders is a quest reward from Killclaw the Terrible (quest)."}
+{"id": "world-of-warcraft|74435", "text": "__NOTOC__ Expeditionary Plate Shoulderguard is a quest reward from Killclaw the Terrible (quest)."}
+{"id": "world-of-warcraft|74436", "text": "__NOTOC__ Expeditionary Mail Waistguard is a quest reward from ."}
+{"id": "world-of-warcraft|74437", "text": "__NOTOC__ Expeditionary Mail Waistguard is a quest reward from ."}
+{"id": "world-of-warcraft|74438", "text": "__NOTOC__ Expeditionary Mail Legguards are a quest reward from ."}
+{"id": "world-of-warcraft|74439", "text": "__NOTOC__ Expeditionary Plate Waistguard is a quest reward from ."}
+{"id": "world-of-warcraft|74440", "text": "__NOTOC__ Expeditionary Plate Warboots were a quest reward from ."}
+{"id": "world-of-warcraft|74441", "text": "__NOTOC__ Expeditionary Mail Sabatons were a quest reward from ."}
+{"id": "world-of-warcraft|74444", "text": "__NOTOC__ Expeditionary Leather Tunic is a quest reward from ."}
+{"id": "world-of-warcraft|74446", "text": "__NOTOC__ Expeditionary Plate Chestpiece is a quest reward from ."}
+{"id": "world-of-warcraft|74447", "text": "An item collection. This is not a true set. There are no bonuses if you wear more than one or all of this set."}
+{"id": "world-of-warcraft|74448", "text": "Experiment 525 is a Dalaran's mage experimental fleshbeast that escaped to the Underbelly. Class Order champions were sent to deal with it."}
+{"id": "world-of-warcraft|74449", "text": "Explore Bastion is an exploration achievement earned by exploring Bastion, revealing the covered areas of the world map."}
+{"id": "world-of-warcraft|74450", "text": "Explore Ardenweald is an exploration achievement earned by exploring Ardenweald, revealing the covered areas of the world map."}
+{"id": "world-of-warcraft|74451", "text": "Explore Maldraxxus is an exploration achievement earned by exploring Maldraxxus, revealing the covered areas of the world map."}
+{"id": "world-of-warcraft|74452", "text": "Explore Revendreth is an exploration achievement earned by exploring Revendreth, revealing the covered areas of the world map."}
+{"id": "world-of-warcraft|74453", "text": "Explosive Echo is an Azerite trait available to Arcane mages."}
+{"id": "world-of-warcraft|74455", "text": "Explosive Potential is an Azerite trait available to Demonology warlocks."}
+{"id": "world-of-warcraft|74456", "text": "Experimental Fluid is looted from Embalming Fluid at the Fleshwerks in Icecrown."}
+{"id": "world-of-warcraft|74458", "text": "The Experimental Specimen is a plague eruptor located at Mord'rethar: The Death Gate in Icecrown. It's friendly when the Collaborator's Robes are worn during Secrets in Shadows."}
+{"id": "world-of-warcraft|74459", "text": "Experimental Blightspreader is a blight spreader located at the Fleshwerks in Icecrown."}
+{"id": "world-of-warcraft|74460", "text": "Explosive Slag Mines are land mines located in the Iron Siegeworks in Frostfire Ridge."}
+{"id": "world-of-warcraft|74461", "text": "Explore Torghast is the final quest of the Torghast quest chain in week one. In week two, (or twenty hours after turning in this quest), Bolvar will offer Remnants of Hope in Oribos."}
+{"id": "world-of-warcraft|74462", "text": "Export Specialists are brokers located at Transfer Station Ta in Bastion."}
+{"id": "world-of-warcraft|74463", "text": "Explorer's League Prospectors are dwarves located in Xibala in Zuldazar."}
+{"id": "world-of-warcraft|74464", "text": "Experimental Tideskipper is a dolphin located in Thresher's Wharf in Stormsong Valley during Deadliest Cache: Sink and Swim."}
+{"id": "world-of-warcraft|74465", "text": "Expeditionary Quarterstaff is a quest reward from . __NOTOC__"}
+{"id": "world-of-warcraft|74468", "text": "Experimental Adventurer Augmentations are created with Junkyard Tinkering."}
+{"id": "world-of-warcraft|74469", "text": "Explore The Maw is awarded for filling in all of the locations on the Maw map. Some areas will prove difficult early on, as Perdition Hold and the Beastwarrens will all but kill players outright if they are entered too early."}
+{"id": "world-of-warcraft|74471", "text": "Exploring Azeroth: Kalimdor is an official Warcraft book by Sean Copeland presenting information on Kalimdor."}
+{"id": "world-of-warcraft|74472", "text": "Exploded Slicky is looted from Dead Deepriver Slicky in the Jade Forest."}
+{"id": "world-of-warcraft|74475", "text": "Expended Val'kyr are Val'kyr located at Desmotaeron in the Maw. Some are worked upon by Maldraxxi Harvesters."}
+{"id": "world-of-warcraft|74476", "text": "Explore Korthia is awarded to players who visit all of the major subzones of Korthia."}
+{"id": "world-of-warcraft|74477", "text": "Some Experimental Tea can be picked up from the tray of Experimental Korthian Tea brewed by Gubbins, Tubbins, and Whisperdown on Hope's Ascent of Korthia. While on Spill the Tea, use the tea on Shardhide Dominators and Shardhide Maulers to test the brew."}
+{"id": "world-of-warcraft|74478", "text": "Export Haulers are brokers located in Tazavesh, the Veiled Market."}
+{"id": "world-of-warcraft|74479", "text": "Export Supervisors are brokers located in Tazavesh, the Veiled Market."}
+{"id": "world-of-warcraft|74481", "text": "The Experimental Mixture will turn your companion into a green ooze for 2 minutes."}
+{"id": "world-of-warcraft|74485", "text": "Explosives Barrels are found in Fire Camp Ordo in Kun-Lai Summit."}
+{"id": "world-of-warcraft|74486", "text": "Explosive Cores drop from Defective Reformatters at the Plain of Actualization in Zereth Mortis."}
+{"id": "world-of-warcraft|74487", "text": "Explore Zereth Mortis is an exploration achievement earned by exploring Zereth Mortis, revealing the covered areas of the world map."}
+{"id": "world-of-warcraft|74489", "text": "Experimental Construct Part is located at the Eternal Forge in Bastion. To obtain the fists, the player must find some Unstable Construct Anima from around the Forge and return within 2 minutes to claim the reward."}
+{"id": "world-of-warcraft|74490", "text": "__NOTOC__ Expeditionary Plate Gauntlets are a quest reward from Like Ogres to the Slaughter."}
+{"id": "world-of-warcraft|74491", "text": "__NOTOC__ Expeditionary Mail Gauntlets are a quest reward from Like Ogres to the Slaughter."}
+{"id": "world-of-warcraft|74493", "text": "Exploring Azeroth: Northrend is an official Warcraft book by Alex Acks presenting information on Northrend."}
+{"id": "world-of-warcraft|74495", "text": "Explosive Pie is provided Zaa'je for Stolen Shipments and Idling Pie. Created by goblins, it is thrown on Kanyaku in Orgrimmar Skyway to drop Shiri's Shipment and to encourage Workers throughout Orgrimmar to return to work."}
+{"id": "world-of-warcraft|74496", "text": "Explorer's Plate Boots are created with Dragon Isles Blacksmithing (5); taught by blacksmithing trainers on the Dragon Isles for ."}
+{"id": "world-of-warcraft|74498", "text": "Explorer's Plate Chestguard is created with Dragon Isles Blacksmithing (10); taught by blacksmithing trainers on the Dragon Isles for ."}
+{"id": "world-of-warcraft|74499", "text": "Experimental Safety Gloves drop from Overgrown Ancient in Algeth'ar Academy."}
+{"id": "world-of-warcraft|74500", "text": "Explorer's Plate Bracers are created with Dragon Isles Blacksmithing (1); taught automatically upon learning Dragon Isles Blacksmithing."}
+{"id": "world-of-warcraft|74503", "text": "Experimental Decay Sample is looted from the Experimental Decay Cauldron in the Azure Span."}
+{"id": "world-of-warcraft|74504", "text": "Explorer's Mix is sold by innkeepers and food vendors throughout the Dragon Isles for . Additionally, the Embers of Neltharion campaign quest Respite awards five."}
+{"id": "world-of-warcraft|74505", "text": "Explore the Waking Shores is an exploration achievement earned by exploring the Waking Shores."}
+{"id": "world-of-warcraft|74506", "text": "Experimental Substance is looted from Expedition Scout's Packs on the Dragon Isles."}
+{"id": "world-of-warcraft|74507", "text": "Explorer's Barding Manuscript is created with Dragon Isles Inscription (1); taught by Technique: Explorer's Barding Manuscript."}
+{"id": "world-of-warcraft|74508", "text": "__NOTOC__ Explorer's Banner of Geology is created with Dragon Isles Tailoring (40); taught by Pattern: Explorer's Banner of Geology."}
+{"id": "world-of-warcraft|74509", "text": "__NOTOC__ Explorer's Banner of Herbology is created with Dragon Isles Tailoring (40); taught by Pattern: Explorer's Banner of Herbology."}
+{"id": "world-of-warcraft|74510", "text": "Explosive Ashes drop from molten phoenixes on the Dragon Isles."}
+{"id": "world-of-warcraft|74511", "text": "Explore the Ohn'ahran Plains is an exploration achievement earned by exploring the Ohn'ahran Plains, revealing the covered areas of the world map."}
+{"id": "world-of-warcraft|74512", "text": "Explore the Azure Span is an exploration achievement earned by exploring the Azure Span, revealing the covered areas of the world map."}
+{"id": "world-of-warcraft|74513", "text": "Explore Thaldraszus is an exploration achievement earned by exploring Thaldraszus, revealing the covered areas of the world map."}
+{"id": "world-of-warcraft|74514", "text": "Explore the Forbidden Reach is awarded to players who explore the Forbidden Reach zone map at max level. This is one of the criteria for You Know How to Reach Me, the meta-achievement for the zone."}
