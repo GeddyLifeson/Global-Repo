@@ -9,8 +9,7 @@ Written 2026-11-09 ~19:10Z at 146k context. Branch GR claude/project-thread-yzyy
 - Marvel universe is Losaustanum, host marvel.fandom.com, counter currently 972827 (read before use).
 
 ## State
-- DC: 201 shards (s000-s200), 10,016 rows. Outputs done: s000-s035, s037-s041, s043, s045-s047, s049-s050 (plus any landed since). 2,067 accepted, 236 rejected as of the last process.py run, counter file now 926032 (dc backup of the old value: 923965).
-- Still in flight when this was written (outputs may land in the old scratchpad): s036, s042, s044, s048, s051-s070. If the scratchpad is gone, redo those.
+- DC: ALL shards s000-s070 are DONE (71 files in dc_out). 3106 accepted, counter now 927071. No workers in flight.
 - NEXT DC shard to launch: s071 onward, through s200.
 - Marvel: not started (667 shards, s000-s666, 33,341 rows).
 - Real people (dictators etc.) were skipped by workers on purpose; fine.
