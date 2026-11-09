@@ -13,3 +13,4 @@
 6 HOLD 11-06: parts done; needs fix part (rows 0 1 11 51 no power/x/z; n for 25 148 170) and row 199 wrong page. merge: split.py merge 6 parts/shard_6_[0-9]*.json parts/shard_6_fix.json
 51 PASSED 11-09 (pages.match now ignores link-stub brackets and heading lines on the page side)
 11 PASSED 11-09 (pages.match: stripped-link and fragment leads accepted via in-page subsequence check)
+45 PASSED 11-09
