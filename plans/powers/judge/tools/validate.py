@@ -37,6 +37,10 @@ def check_feat(f, F):
         if not any(abs(val - x) <= 1e-6 * max(1, abs(val)) for x in q) and k not in ('j_per_cc', 'heat_capacity', 'delta_t', 'latent_heat'):
             return f"input {k}={val} {unit} does not appear as a number in the quote"
     return ''
+def overrides():
+    """Signed lead-match overrides in HOLDS.txt: `OVERRIDE shard=N row=I url=U`, exact match only."""
+    f = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'HOLDS.txt')
+    return {(int(m[0]), int(m[1])): m[2] for m in re.findall(r'(?m)^OVERRIDE shard=(\d+) row=(\d+) url=(\S+)$', open(f, encoding='utf-8').read())} if os.path.exists(f) else {}
 def check(n, path=None, meta=None):
     err = []; n = int(n)
     R = judge.rows(n); S = pages.srcs(n)
@@ -45,6 +49,7 @@ def check(n, path=None, meta=None):
     out = [json.loads(l) for l in open(p, encoding='utf-8')]
     if len(out) != len(R): err.append((-1, f'rows {len(out)} != batch {len(R)}'))
     ids = {r['id'] for r in judge.pool()}
+    OV = overrides()
     for i, (o, r, s) in enumerate(zip(out, R, S)):
         e = lambda m: err.append((i, m))
         if o.get('id') != r['id'] or s['id'] != r['id']: e('id/order mismatch'); continue
@@ -56,7 +61,7 @@ def check(n, path=None, meta=None):
         if not full:
             if not pages.exists(s['url']): e('source page does not exist'); continue
             full = r['text']
-        elif not pages.match(r['text'], full) and not (full == '' ) and not re.match(r'\s*(\{\{|[^\]]{0,120}\]\]|is |was |are |,)', r['text']):  # template-start row: resolver accepts the page named by its Name/MainPage field
+        elif not pages.match(r['text'], full) and OV.get((n, i)) != s['url'] and not (full == '' ) and not re.match(r'\s*(\{\{|[^\]]{0,120}\]\]|is |was |are |,)', r['text']):  # template-start row: resolver accepts the page named by its Name/MainPage field
             e('page text does not start like the batch lead (wrong page?)'); continue
         F = squash(full)
         b = o.get('b')
