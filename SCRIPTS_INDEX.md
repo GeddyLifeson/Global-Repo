@@ -6872,3 +6872,5 @@ Run hints: .py `python3 <file>` (PC `py`), .ps1 via a hidden launcher (never a v
 | S6979 | cloud | `tools/powers/pc_priority.py` | Builds the PC judging queue (~20k pages: strongest Haiku power beings plus weapon/armor/vehicle candidates, minus shard pages). | yes |
 | S6980 | cloud | `tools/powers/merge_judged.py` | Merges validated judge results (shards, PC run) into BEING_POWER_EVIDENCE.tsv, BEING_POWERS.tsv and GEAR_SCALE.tsv via PANSCRIPTUM_MASTER source links. | yes |
 | S6981 | cloud | `tools/powers/kind_templates.py` | Kind power templates: detects a being kind, builds editable KIND_TEMPLATES.tsv (genre baseline plus per-franchise rows with source page); merge_judged.py fills powers the page does not state. | yes |
+| S6988 | cloud | `tools/panscriptum/icon_sources.py` | Part J9: finds the source wiki, universe and a naming lead for each icon with no Library entry; writes PANSCRIPTUM_ICONS_SOURCE.tsv. | yes |
+| S6989 | cloud | `tools/panscriptum/assay_rules_check.py` | Part J12: checks powers only on beings, gear scale only weapon/armor/vehicle, counts assay beings with no verified source link. | yes |
