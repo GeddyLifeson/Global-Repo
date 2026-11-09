@@ -345,7 +345,8 @@ Source: `plans/PROGRESSION.md`, machine-readable `graph.json`, checker `check_pr
 - [ ] **M4 Creatures: approved 64x method (parse boxes, Blender AO bake, paint fresh per face, real eyes) for every mob.** Owner: creatures lane. Evidence: SHOT of each mob family. Needs: E3.
 - [ ] **M5 Magenta/missing-texture sweep in a client: walk the Creative tab of each namespace.** Owner: bot lane. Evidence: SHOT of each tab. Needs: E9.
 - [ ] **M6 Connected textures (#184) in the full pack.** Evidence: SHOT. Needs: E3.
-- [ ] **M7 Antislop delivery gate on all player-facing text.** Evidence: CMD (`m_antislop.py` output clean, no em dashes). Needs: none.
+- [x] **M7 Antislop delivery gate on all player-facing text.** Evidence: CMD (`m_antislop.py` output clean, no em dashes). Needs: none.
+  - Evidence (2026-11-09 16:05Z, CMD): `python3 -I data/tools/build.py` on a scratch copy of `/mnt/project-files/game-plan/data` ran m_antislop in the merge, then validate: "105 tables, 111698 ids, 60022 references, 0 errors"; em dash count in `data/ui/strings_data.csv` (90,406 rows) = 0, and no `.csv` under `data` contains an em dash. SCOPE: Shardfall game strings only; the Minecraft pack lang files are UNTESTED for em dashes.
 
 ## Part N. Judging (c3m baseline, wiki page judging)
 
