@@ -40,6 +40,13 @@ def _match(a, b, K=80):
     if k and a[:k] in b[:k + 400]: return True  # lead after a stub/notice banner
     a, b = a[:k], b[:k]
     return bool(a) and difflib.SequenceMatcher(None, a, b).ratio() >= 0.75
+def _inpage(a, b):
+    """Fragment/stripped-link lead: runs from its start, middle and end all appear verbatim in the page."""
+    a, b = norm(a), norm(b)
+    if len(a) >= 60:  # stripped-link lead: nearly all of it is an in-order subsequence of the page's opening
+        sm = difflib.SequenceMatcher(None, a[:250], b[:600], autojunk=False)
+        if sum(m.size for m in sm.get_matching_blocks()) / len(a[:250]) >= 0.95: return True
+    return len(a) >= 60 and all(a[i:i + 40] in b for i in (0, len(a) // 2 - 20, len(a) - 40))  # start, middle and end runs, so sibling pages with one shared phrase fail
 def _words(s, n=16): return re.findall(r'[0-9a-z]+', s.lower())[:n]
 def _wmatch(a, b):
     # lead lost words (icon/type markup stripped) or page has a gallery/see-also banner: lead's words in order vs page start
@@ -49,7 +56,11 @@ def _wmatch(a, b):
     return sum(m.size for m in sm.get_matching_blocks()) >= 0.85 * len(a)
 def match(a, b):
     a = re.sub(r'\[https?://\S+ ([^\]]*)\]', r'\1', a)  # [url label] -> label
-    return _match(a, b) or _match(noparen(a), noparen(b)) or _match(a, b, 40) or _wmatch(a, b)  # 40 chars: leads whose later links were stripped
+    if re.search(r'^[^\[\]]{0,400}(\]\]|\}\})', a): a2 = re.split(r'\]\]|\}\}', a, 1)[1].strip()  # fragment lead that starts inside a note: the sentence after it
+    else: a2 = ''
+    b2 = re.sub(r'(?m)^=+ .* =+$', '', re.sub(r'\[[^\]]*\]', '', b))  # page: drop link-stub brackets and heading lines (lead has them stripped)
+    return (_match(a, b) or _match(noparen(a), noparen(b)) or _match(a, b2) or _inpage(a, b)  # stripped-link / fragment leads
+             or _wmatch(a, b) or (len(norm(a2)) >= 80 and _match(a2, b)))
 def html2txt(h):
     """Rendered HTML -> plain text with '== Heading ==' lines (for wikis without TextExtracts, e.g. fandom)."""
     import html as H
