@@ -6861,6 +6861,12 @@ Run hints: .py `python3 <file>` (PC `py`), .ps1 via a hidden launcher (never a v
 | S6952 | cloud | `library-content/assay_regroup.py` | S6952 Regroups assay tail and retry outputs into per-slug shards for the existing assay importer (retry wins). | yes |
 | S6954 | cloud | `diaithir-farmkitchen/tools/fold_third_party.py` | (S6954) Copy the MIT mods Agritech: Evolved and Hydrofarm into diaithir-farmkitchen as extra mods of the same jar. | no |
 | S6957 | cloud | `assign_ages.py` | Give every item with no Age one: by-item table, material and namespace rules; writes data/ages/NOAGE_ASSIGNED.csv. | yes |
+| S6918 | cloud | `diaithir-ports/diaithir-firearms/tools/gen_containers.py` | S6918 Writes container_kinds.json and the diaithircrafting uses_container and ammo_class item tags for diaithir-firearms (munitions container contract) | yes |
+| S6955 | cloud | `tools/item_roles/export_kubejs.py` | S6955 Writes ITEM_ROLES.csv as per-namespace kubejs JSON for the pack | yes |
+| S6960 | cloud | `tools/powers/gen_power_pool.py` | S6960 Writes the shared NPC power pool (POWER_POOL.tsv), designed NeoOrigins power JSONs and archetype grants | yes |
+| S6974 | cloud | `tools/panscriptum/relink_assayed.py` | S6974 Recovers source wiki pages for Panscriptum beings that lost their link (TF-IDF, no AI); adds relink columns to PANSCRIPTUM_MASTER.tsv and trims coverage gaps | yes |
+| S6976 | cloud | `tools/panscriptum/relink_llm.py` | S6976 Builds the job that has Sonnet pick each unlinked assay being's source lead from 12 TF-IDF candidates, then merges the picks into the master sheet and coverage | yes |
+| S6977 | cloud | `tools/panscriptum/relink_things.py` | S6977 Links every non-being Panscriptum card to its source wiki page (exact join, TF-IDF candidates for the rest); writes PANSCRIPTUM_THINGS.tsv and a Sonnet pick job | yes |
 | S6962 | cloud | `tools/powers/grant_on_spawn.js` | KubeJS server script in the pack: gives pool powers to mobs and NPCs on load from grants.json (copy of DiaithirRPG distribution/overrides/kubejs/server_scripts/powers). | yes |
 | S6963 | cloud | `tools/powers/build_grants.py` | Builds the pack grants.json (being to pool power ids) from the extraction list; rejects unknown pool ids. | yes |
 | S6964 | cloud | `tools/panscriptum/master_sheet.py` | Builds plans/PANSCRIPTUM_MASTER.tsv: one row per Library being with source wiki, powers, pack entity, card shard. | yes |
