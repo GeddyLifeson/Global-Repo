@@ -6859,6 +6859,9 @@ Run hints: .py `python3 <file>` (PC `py`), .ps1 via a hidden launcher (never a v
 | S6970 | cloud | `tools/panscriptum_gap/fetch_leads.py` | S6970 Lists Category:Characters of a Fandom wiki and fetches each lead wikitext (resumable) | yes |
 | S6971 | cloud | `tools/panscriptum_gap/gap_batch.py` | S6971 Builds jobs from fetched leads, submits Haiku Batch, validates and writes entries with source page id, title and URL | yes |
 | S6972 | cloud | `tools/panscriptum_gap/gap_run.py` | S6972 Runs gap-fill jobs against an OpenAI-compatible endpoint (model router) with the gap_batch validator, resumable | yes |
+| S6974 | cloud | `tools/panscriptum/relink_assayed.py` | S6974 Recovers source wiki pages for Panscriptum beings that lost their link (TF-IDF, no AI); adds relink columns to PANSCRIPTUM_MASTER.tsv and trims coverage gaps | yes |
+| S6976 | cloud | `tools/panscriptum/relink_llm.py` | S6976 Builds the job that has Sonnet pick each unlinked assay being's source lead from 12 TF-IDF candidates, then merges the picks into the master sheet and coverage | yes |
+| S6977 | cloud | `tools/panscriptum/relink_things.py` | S6977 Links every non-being Panscriptum card to its source wiki page (exact join, TF-IDF candidates for the rest); writes PANSCRIPTUM_THINGS.tsv and a Sonnet pick job | yes |
 | S6962 | cloud | `tools/powers/grant_on_spawn.js` | KubeJS server script in the pack: gives pool powers to mobs and NPCs on load from grants.json (copy of DiaithirRPG distribution/overrides/kubejs/server_scripts/powers). | yes |
 | S6963 | cloud | `tools/powers/build_grants.py` | Builds the pack grants.json (being to pool power ids) from the extraction list; rejects unknown pool ids. | yes |
 | S6964 | cloud | `tools/panscriptum/master_sheet.py` | Builds plans/PANSCRIPTUM_MASTER.tsv: one row per Library being with source wiki, powers, pack entity, card shard. | yes |
