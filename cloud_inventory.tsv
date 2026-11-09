@@ -357,12 +357,23 @@ compat/gen_rules_api.py	0	Ask Haiku (direct parallel cached calls) which blocks 
 compat/gen_data.py	0	Build the compat datapack: upgrade shim rules, unit stores, Age gaps, Codex and quest links per mod.	yes
 compat/gen_recipes.py	0	Add load conditions to recipes naming absent mods and cross-mod dust/raw smelting to the shared ingot.	yes
 compat/gen_station_moves.py	0	Move non-trivial vanilla and kept-mod grid recipes onto the Age ladder of stations with a fallback grid recipe.	yes
-compat/gen_tags_extra.py	0	Name-suffix convention tags (logs, planks, slabs, rails, glass, furniture) for building, tree, furniture and rail jars.	yes
+integration/integration_matrix.py	7000	Build the every-system-by-every-system integration matrix and lane tickets from matrix_data.py (plans/INTEGRATION_MATRIX.md).	yes
+integration/matrix_data.py	35235	Data for S6919: bridges, 32 systems, nouns, hand-written pair interactions, lane owners.	yes
+integration/pairs_extra.txt	18392	Hand-written pair interactions loaded by matrix_data.py.	yes
+library-content/assay_merge.py	2900	S6951 Merges assay entry-draft outputs (tail and retry win over originals) and builds JSON-only retry jobs.	yes
+library-content/assay_regroup.py	2400	S6952 Regroups assay tail and retry outputs into per-slug shards for the existing assay importer (retry wins).	yes
+diaithir-farmkitchen/tools/gen_farm_assets.py	2500	(S6940) Write the reaper block textures, model, blockstate, loot, recipe and library entry for diaithir-farmkitchen.	no
+diaithir-farmkitchen/tools/fold_third_party.py	3600	(S6954) Copy the MIT mods Agritech: Evolved and Hydrofarm into diaithir-farmkitchen as extra mods of the same jar.	no
 diaithir-ports/diaithir-overworld-biomes/tools/stellaris_extra.py	1100	S6922 Writes the recipes for the hand-written Stellaris pieces (rocket, suit, oxygen module, distributor, fluid cell).	no
 age_balance.py	3370	Build the per-Age coverage matrix (nodes, mod items by function, era-index feeds) and flag thin Ages.	yes
 diaithir-ports/diaithir-wiretech/tools/belt_reader_check.py	1800	Circuit reader against a real belt chute (belt fork jar) on the headless client lane.	no
 diaithir-ports/diaithir-wiretech/tools/rail_reader_check.py	1492	Circuit reader against a real destination rail and block signal (diaithir-carts) on the headless client lane.	no
-integration/integration_matrix.py	7000	Build the every-system-by-every-system integration matrix and lane tickets from matrix_data.py (plans/INTEGRATION_MATRIX.md).	yes
-integration/matrix_data.py	35235	Data for S6919: bridges, 32 systems, nouns, hand-written pair interactions, lane owners.	yes
-integration/pairs_extra.txt	18392	Hand-written pair interactions loaded by matrix_data.py.	yes
 assign_ages.py	4810	Give every item with no Age one: by-item table, material and namespace rules; writes data/ages/NOAGE_ASSIGNED.csv.	yes
+tools/powers/build_grants.py	862	Builds the pack grants.json (being to pool power ids) from the extraction list; rejects unknown pool ids.	yes
+tools/powers/grant_on_spawn.js	3742	KubeJS server script in the pack: gives pool powers to mobs and NPCs on load from grants.json (copy of DiaithirRPG distribution/overrides/kubejs/server_scripts/powers).	yes
+tools/powers/build_pool_json.py	1914	Builds the pack pool.json from POWER_POOL.tsv, adding the mob-side emulation table for active powers.	yes
+tools/panscriptum/master_sheet.py	1747	Builds plans/PANSCRIPTUM_MASTER.tsv: one row per Library being with source wiki, powers, pack entity, card shard.	yes
+tools/panscriptum/infer_source_names.py	1331	Fills inferred_source in PANSCRIPTUM_MASTER.tsv from wiki lead text, no AI.	yes
+tools/panscriptum/coverage_check.py	2294	Full source-page coverage: every wiki lead page vs Library entries; unlinked pages list. No AI.	yes
+tools/powers/judge_pages.py	14082	Judges each wiki lead page with Claude Haiku Batch: being or not, pool powers, magnitude 1-10, evidence quote, missing powers (S6975).	yes
+compat/gen_tags_extra.py	0	Name-suffix convention tags (logs, planks, slabs, rails, glass, furniture) for building, tree, furniture and rail jars.	yes

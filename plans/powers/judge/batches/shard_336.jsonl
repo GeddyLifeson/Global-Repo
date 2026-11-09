@@ -1,0 +1,250 @@
+{"id": "world-of-warcraft|75000", "text": "Ezra Chatterton (a.k.a. Ephoenix, 1996–2008) was an World of Warcraft player from California, playing with his father Micah on the Norgannon US server. He had been diagnosed with brain cancer in spring 2007 and, fulfilling his dream of creating a character for World of Warcraft, Ezra visited Blizzard Entertainment's offices through the Make-a-Wish Foundation. He worked with Tigole in creating Ahab Wheathoof, a tauren farmer looking for his missing dog Kyle, in Kyle's Gone Missing!; he also provided the voice. Ezra also received the world first Ashes of Al'ar - the phoenix was Ezra's personal symbol, as well as his middle name - and created the Merciless Gladiator's Crossbow of the Phoenix. E"}
+{"id": "world-of-warcraft|75002", "text": "This item drops from Apothecary Hummel during the Love is in the Air event. This item starts the quest Something is in the Air (and it Ain't Love)."}
+{"id": "world-of-warcraft|75003", "text": "Faceless Horrors are faceless ones in Ulduar before General Vezax."}
+{"id": "world-of-warcraft|75007", "text": "Faceless of the Deep is a faceless one, and leader of the naga, located in the Ruins of Vashj'elan, Lost Isles. The Faceless of the Deep appears to be ancient in age as he remembers when the goblins were created."}
+{"id": "world-of-warcraft|75009", "text": "The Faded Finger Painting is looted from the Child's Painting in Western Plaguelands."}
+{"id": "world-of-warcraft|75013", "text": "Faceless Watchers guard the east Abyssal Halls leading to Mindbender Ghur'sha."}
+{"id": "world-of-warcraft|75015", "text": "The Faceguard of the Sunwalker is a quest reward from Weapons of Darkness (tauren)."}
+{"id": "world-of-warcraft|75016", "text": "The Faded Shadowhide Pendant is provided as an objective for Theocritus' Retrieval."}
+{"id": "world-of-warcraft|75018", "text": "FBoK Bank Tellers can be found within the First Bank of Kezan in Kezan. While they safeguard the money during the initial phases of the zone, they reach an untimely demise later."}
+{"id": "world-of-warcraft|75019", "text": "Faceless Sapper are faceless ones located in the Throne of the Tides and part of the Ozumat encounter."}
+{"id": "world-of-warcraft|75021", "text": "Faceguard of the Order is a quest reward from Weapons of Darkness (blood elf) and Weapons of Darkness (Alliance)."}
+{"id": "world-of-warcraft|75023", "text": "Faceless Shadow Weavers are faceless ones found in Hour of Twilight."}
+{"id": "world-of-warcraft|75026", "text": "Two Faceless Guardians stand guard in the Throne of the Apocalypse in the Bastion of Twilight."}
+{"id": "world-of-warcraft|75027", "text": "Faceless Minions are n'raqi summoned by Twilight Portal Shapers in the Throne of the Apocalypse in the Bastion of Twilight."}
+{"id": "world-of-warcraft|75028", "text": "Faceless Corruptors are n'raqi attacking Wyrmrest Temple in Dragon Soul."}
+{"id": "world-of-warcraft|75029", "text": "Faceless Ones are faceless ones found at the Master's Glaive in Darkshore."}
+{"id": "world-of-warcraft|75030", "text": "The Faceguard of the Horde is a quest reward from A Dangerous Alliance (Horde). Alliance equivalent is Faceguard of the Crown. This is the same model as the Battlegear of Might."}
+{"id": "world-of-warcraft|75144", "text": "The Faceguard of the Crown is a quest reward from A Dangerous Alliance (Alliance)."}
+{"id": "world-of-warcraft|75147", "text": "These are unique IDs for Factions from () or GetFactionInfoByID() in [https://wago.tools/db2/Faction Faction.db2]. They can be also passed to () in the case of single-NPC factions like Nat Pagle or Gina Mudclaw. * This list is not filtered properly and may include/exclude a lot of hidden/unused factions, reference this [https://github.com/kevinclement/SimpleArmory/blob/master/dataimporter/factions.py script] for more robust filtering. __TOC__"}
+{"id": "world-of-warcraft|75148", "text": "==Notes== * All quests in the same line share the same the reset time and only one can be done per day. * The quest in the line can be at your choice or is shared by everyone on the server, or both. * Unless stated otherwise by the line's notes."}
+{"id": "world-of-warcraft|75149", "text": "Faded Promissory Notes are found in the Brawler's Purse, awarded to victorious gladiators in the Brawler's Guild."}
+{"id": "world-of-warcraft|75150", "text": "Faction pride is the sentiment of pride or patriotism toward one of the playable factions: the Alliance and the Horde. Faction pride can lead to friendly rivalries, expressions of patriotic feeling, and on occasion more aggressive conflicts between players, such as on forums. Faction pride is often expressed in the battle-cry of each faction - \"For the Alliance!\" or \"For the Horde!\". Faction pride and a healthy rivalry between the Alliance and the Horde was one of the earliest design goals for World of Warcraft, and Blizzard has often encouraged faction pride through events and activities such as the Mists of Pandaria launch events. Faction pride may for some be seen as an enjoyable part of "}
+{"id": "world-of-warcraft|75151", "text": "Face Clutchers is an achievement that is awarded for defeating Lei Shi in the Terrace of Endless Spring raid instance while all members of the raid are afflicted by Parasitic Clutch."}
+{"id": "world-of-warcraft|75162", "text": "Eyes of the Thunder King is one of seven random weekly raid quests offered in Normal/Heroic Throne of Thunder."}
+{"id": "world-of-warcraft|75163", "text": "Fabled Pandaren Tamer is an achievement earned for completing the Beasts of Fable quest. Completing it unlocks the daily quests Beasts of Fable Book I, Beasts of Fable Book II, and Beasts of Fable Book III."}
+{"id": "world-of-warcraft|75165", "text": "__NOTOC__ Fading into Twilight is a quest achievement earned for completing quests in Twilight Highlands. Requirement for the meta achievement Loremaster of Cataclysm."}
+{"id": "world-of-warcraft|75166", "text": "Fired when the Reforging UI is opened. \"FORGE_MASTER_OPENED\""}
+{"id": "world-of-warcraft|75167", "text": "Fired when the Reforging UI is closed. \"FORGE_MASTER_CLOSED\""}
+{"id": "world-of-warcraft|75168", "text": "Fired when you place or remove an item in the Reforge slot. \"FORGE_MASTER_SET_ITEM\" No noticeable args."}
+{"id": "world-of-warcraft|75169", "text": "Fired when an item has been reforged \"FORGE_MASTER_ITEM_CHANGED\""}
+{"id": "world-of-warcraft|75171", "text": "Fading Breath is all that is left of the Old God Y'Shaarj's heart after the defeat of Garrosh Hellscream. It eventually fades from existence."}
+{"id": "world-of-warcraft|75176", "text": "The Faded Note is found inside the Dusty Chest guarded by the Grizzled Frostwolf Veteran, after completing his vignette northeast of Stonefang Outpost overlooking the Boneslag."}
+{"id": "world-of-warcraft|75180", "text": "Faal is a draenei located at Lunarfall in . She can only be recruited using the Headhunter's Harvest from Lunarfall Inn."}
+{"id": "world-of-warcraft|75181", "text": "Faded Treasure Map is provided as an objective for Silas' Secret Stash (quest)."}
+{"id": "world-of-warcraft|75184", "text": "Faala is a tauren follower located at Frostwall in Frostfire Ridge. She can only be recruited using the Headhunter's Harvest from Frostwall Tavern. Prior to the Battle for the Broken Shore, like many other followers, she appears at the Dranosh'ar Blockade at the sparring ring, where champions duel in preparation for the assault on the Broken Shore."}
+{"id": "world-of-warcraft|75188", "text": "Faceless Echoes are n'raqi located in Ulduar. They attacked Khadgar, Brann Bronzebeard and the adventurer during The Diamond King."}
+{"id": "world-of-warcraft|75190", "text": "The Faceless Corrupter is a n'raqi that spawns in the Grave-Prison of Zakajz in the Tirisfal Glades alongside the Faceless Guardian during the eighth stage of Blade in Twilight."}
+{"id": "world-of-warcraft|75191", "text": "Eyestenbok is a guardian eye summoned by Inquisitor Ernstenbok on the cliffs in southern Stormheim."}
+{"id": "world-of-warcraft|75194", "text": "Fade into Shadows is an Assassination rogue artifact trait. It is linked to the Shadow Swiftness and Blood of the Assassinated traits."}
+{"id": "world-of-warcraft|75195", "text": "Eynar is a vrykul located at Jandvik in Suramar. He carries a large staff or polearm with a blue lightning effect on the end of it. He can be found north of the entrance to Jandvik up on a ridge in front of a pedestal with some bones on it."}
+{"id": "world-of-warcraft|75199", "text": "Faceless One Tricksters are faceless one creeps that can be encountered in the Icecrown Glacier tileset."}
+{"id": "world-of-warcraft|75200", "text": "Faceless One Terrors are faceless one creeps that can be encountered in the Icecrown Glacier tileset."}
+{"id": "world-of-warcraft|75201", "text": "Faceless One Deathbringers are faceless one creeps that can be encountered in the Icecrown Glacier tileset."}
+{"id": "world-of-warcraft|75205", "text": "F'harg is a charhound located in Antorus, the Burning Throne, as part of the Felhounds of Sargeras encounter. The hound can also be encountered at Fiend's Run in the Antoran Wastes."}
+{"id": "world-of-warcraft|75207", "text": "Faceless Illusionists are n'raqi located in Tirisfal Glades."}
+{"id": "world-of-warcraft|75210", "text": "The Faberge Egg teaches you to summon Francois, a chicken companion."}
+{"id": "world-of-warcraft|75213", "text": "A map leading to one of the treasures of the Virtuous Blades."}
+{"id": "world-of-warcraft|75217", "text": "F.R.I.E.D. is created by using Kul Tiran and Zandalari Engineering; taught by the Kul Tiran and Zandalari engineering trainers, and for free with Battle for Azeroth proficiency. Rank 2 is taught by the same trainer for at a skill of (35). Rank 3 is taught by Schematic: F.R.I.E.D.; obtained from World Quest: Work Order: F.R.I.E.D.."}
+{"id": "world-of-warcraft|75218", "text": "Faceless Tendrils are tentacles located in the Fetid Crypt below Atul'Aman in Vol'dun."}
+{"id": "world-of-warcraft|75219", "text": "Faction Assaults are a feature added in patch 8.1.0, consisting of the invasion by Alliance or Horde forces of an area, triggering a zone wide event. They are similar to Legions Legion Assaults, but lack instanced scenarios."}
+{"id": "world-of-warcraft|75220", "text": "The Faceless One Annihilator was a n'raqi guarding the door out of Azjol-Nerub during Ascent to the Upper Kingdom."}
+{"id": "world-of-warcraft|75221", "text": "The Fading Umbral Wand drops from Storm's Wake Tidesages in Stormsong Valley."}
+{"id": "world-of-warcraft|75222", "text": "The Faction Assault on Tiragarde Sound is part of the Faction Assaults on Kul Tiras. The Horde attacks Boralus and the Alliance defends it."}
+{"id": "world-of-warcraft|75223", "text": "The Facets of Research are created with Jewelcrafting. Depending on which gem is researched, the crafted item may contain different products."}
+{"id": "world-of-warcraft|75224", "text": "The Faction Assault on Drustvar is part of the Faction Assaults on Kul Tiras. Drustvar, a territory of the Alliance, is the traditional seat of the Waycrest dynasty, and provides significant resources to the Kul Tiran military, making it a strategic target. In response to the initial Horde attack, the Alliance would dispatch the Light-blessed Purified led by Vindicator Ralgala to defend the area and its people. Most of the fighting would be in western Drustvar, and ultimately center around Arom's Stand, with the Alliance fortifying the position against a Horde aerial bombardment and siege."}
+{"id": "world-of-warcraft|75225", "text": "in Nazmir.]] The Faction Assault on Nazmir is part of the Faction Assaults on Zandalar. The Alliance attacks northern Nazmir while the Horde defends it."}
+{"id": "world-of-warcraft|75226", "text": "The Faction Assault on Stormsong Valley is part of the Faction Assaults on Kul Tiras. The Horde attacks Deadwash and its surroundings and the Alliance defends them."}
+{"id": "world-of-warcraft|75227", "text": "The Faction Assault on Zuldazar is part of the Faction Assaults on Zandalar. The Alliance attacks Zuldazar while the Horde defends it."}
+{"id": "world-of-warcraft|75228", "text": "The Faction Assault on Vol'dun is part of the Faction Assaults on Zandalar. The Alliance attacks Vol'dun's desert and the Horde defends it."}
+{"id": "world-of-warcraft|75231", "text": "__NOTOC__ The Faceless Render is a n'raqi located at the Oblivion Door in Uldir."}
+{"id": "world-of-warcraft|75232", "text": "__NOTOC__ Faceless Subduers are n'raqi located at the Oblivion Door in Uldir during A One-Way Ticket to the Heart."}
+{"id": "world-of-warcraft|75233", "text": "Faceless Overseers are n'raqi located in L'ghorek of Abyssal Depths."}
+{"id": "world-of-warcraft|75240", "text": "The FTW-001, short for Fuel Transfer Worker, is a clockwork robot located in Arcano Caverns in Suramar."}
+{"id": "world-of-warcraft|75241", "text": "Fabious is obtained by taking a picture of Fabious near the Bloodfin Village or Chitterspine Caverns in Nazjatar with the S.E.L.F.I.E. Camera MkII."}
+{"id": "world-of-warcraft|75243", "text": "__NOTOC__ Ezra is an ankoan located in Deepsea Refuge in Nazjatar."}
+{"id": "world-of-warcraft|75244", "text": "Fa'thuul the Feared is a n'raqi located inside the Crucible of Storms raid. He is a member of the Restless Cabal together with Zaxasj the Speaker."}
+{"id": "world-of-warcraft|75245", "text": "The Fading Dragonscale is left behind when infusing the Dreamglow Dragonscale into the Heart Forge."}
+{"id": "world-of-warcraft|75254", "text": "Fading Memento is left behind when using the following at the Heart Forge in the Chamber of Heart: *Time-Lost Battlefield Memento *Enduring Battlefield Memento *Stalwart Battlefield Memento *Glinting Battlefield Memento"}
+{"id": "world-of-warcraft|75262", "text": "Rewarded after successfully completing all 5 objectives within a single visit of a Horrific Vision."}
+{"id": "world-of-warcraft|75265", "text": "The Face of Ruin drops from the following in the Legion Assaults: *Lord Commander Alexius *Dread Vizier Gra'tork *Fel Commander Erixtol *Xeritas"}
+{"id": "world-of-warcraft|75266", "text": "FRESH MEATS! was an outdoor shop that specialized in meat and fish located in Upper Corlain in Drustvar. Because of the Heartsbane Coven's take over, the meat is no longer fresh."}
+{"id": "world-of-warcraft|75267", "text": "Faceless Ruiners are n'raqi located in the Chamber of Heart."}
+{"id": "world-of-warcraft|75268", "text": "Faceless Conquerors are n'raqi located in the Vale of Eternal Blossoms."}
+{"id": "world-of-warcraft|75269", "text": "Faceless Shadowcallers are n'raqi located in the Vision of Orgrimmar and the Vision of Stormwind."}
+{"id": "world-of-warcraft|75270", "text": "Faceless Willbreakers are n'raqi located in the Vision of Orgrimmar and the Vision of Stormwind."}
+{"id": "world-of-warcraft|75271", "text": "Faceless Manipulators are n'raqi located in the Vision of the Twisting Sands and the Vale of Eternal Twilight."}
+{"id": "world-of-warcraft|75277", "text": "Faceless Tormentors are n'raqi located in the Vale of Eternal Blossoms."}
+{"id": "world-of-warcraft|75279", "text": "Fading Denathrius Pennants are looted from Stone Legion Supplies and Bleakwood Chests in Revendreth."}
+{"id": "world-of-warcraft|75281", "text": "The Fae Revel Masque is created with Shadowlands Inscription (1); taught by Technique: Fae Revel Masque."}
+{"id": "world-of-warcraft|75282", "text": "The Fae Ornament is located in Shimmerbough in Ardenweald. It is used to craft the Fae Dreamcatcher."}
+{"id": "world-of-warcraft|75283", "text": "__NOTOC__ Facilitator Ta'lek was a broker located in the Hall of Shapes in Oribos."}
+{"id": "world-of-warcraft|75284", "text": "Fae Armaments would have summoned a Night Fae Faerie and given +100 reputation with some Ardenweald faction. It seems this item was never finished, as its internal data still shows a test faction called \"Owen Test.\" __NOTOC__"}
+{"id": "world-of-warcraft|75285", "text": "The Fae Flute is found between Anir and Fandu'lor in Tirna Vaal in Ardenweald."}
+{"id": "world-of-warcraft|75287", "text": "__NOTOC__ Faceted Crystal is crafted with Shadowlands Jewelcrafting for Jewelcrafting: Carved Crystal Ring."}
+{"id": "world-of-warcraft|75289", "text": "The Fae Dreamcatcher is created by combining the following items:"}
+{"id": "world-of-warcraft|75290", "text": "Fading Memory Glass drops from Devos in the Spires of Ascension."}
+{"id": "world-of-warcraft|75294", "text": "Fae Pipes are a toy looted from the Elusive Faerie Cache in the Eventide Grove in Ardenweald."}
+{"id": "world-of-warcraft|75295", "text": "The Fae Harp is looted from the Harmonic Chest in Ardenweald."}
+{"id": "world-of-warcraft|75296", "text": "__NOTOC__ Eyla Pathleader is a tauren guide recruiter located in Orgrimmar Embassy in Orgrimmar. Speaking with her opens an option to become a guide."}
+{"id": "world-of-warcraft|75297", "text": "The four Faded Epitaphs are monuments to fallen Necrolord heroes, located in the Iron Trench in Maldraxxus. An epitaph located in the northeastern end of the subzone starts the quest Memory of Honor, which requires interacting with and reading the text of the other three epitaphs in the trench (listed below). These texts can only be read during the quest."}
+{"id": "world-of-warcraft|75298", "text": "Fa'thuul's Floodguards drop from Zaxasj the Speaker in the Crucible of Storms."}
+{"id": "world-of-warcraft|75311", "text": "Faded Razorwing Anatomy Illustration can be found on the corpses of all creatures in Korthia, more likely on rare and rare-elite enemies (for Conquering Korthia), and inside other Relic Fragment-containing lootables around the zone. Turn the item to Archivist Roh-Suir at the Reliquary of Remembrance of Keeper's Respite for 48 Cataloged Research and 24 reputation with the Archivists' Codex."}
+{"id": "world-of-warcraft|75314", "text": "Ezra Grimm's Postbox is a postbox located in Stratholme Main Gate. It is opened with Ezra Grimm's Postbox Key."}
+{"id": "world-of-warcraft|75315", "text": "Fading Lightspawn Ember drops from Untethered Lightspawn, the Amalgamation of Light, and Lightbound Scorchers in Revendreth."}
+{"id": "world-of-warcraft|75319", "text": "Faded Mail Gauntlets are a quest reward from Combat Training (Alliance)."}
+{"id": "world-of-warcraft|75329", "text": "Fading Glimmerdust drops from Gorged Decayflies, Highlands Eireflies, and Mature Stellarwasps in Ardenweald."}
+{"id": "world-of-warcraft|75331", "text": "Facet Sharpening Crossbow drops from Helmix in the Untamed Verdue in Zereth Mortis."}
+{"id": "world-of-warcraft|75333", "text": "Fae Musicians are sylvar and faeries located at Claw's Edge in Ardenweald."}
+{"id": "world-of-warcraft|75334", "text": "Eyes of the Wolf begins the :Return to Lordaeron part of the Shadowlands epilogue."}
+{"id": "world-of-warcraft|75335", "text": "Fading Vestiges are kyrian memories located on the roads of Bastion during A Somber Melody."}
+{"id": "world-of-warcraft|75337", "text": "Face Your Foes is a soulbind trait granted by Korayn. It is exclusive with First Strike and Hold the Line (soulbind trait)."}
+{"id": "world-of-warcraft|75339", "text": "Fae Hatchlings are faerie dragons located at the Cascades in Thaldraszus."}
+{"id": "world-of-warcraft|75340", "text": "Fading Light is a paladin class talent. It is an exclusive choice node with Seal of Order."}
+{"id": "world-of-warcraft|75341", "text": "Fabulously Flashy Finery is available for purchase at the Trading Post for 50 Trader's Tender. It first appeared in March 2023."}
+{"id": "world-of-warcraft|75342", "text": "__NOTOC__ Ezralor is a night elf located in Ancient Bough in the Ohn'ahran Plains. He guards the path to Rymek."}
+{"id": "world-of-warcraft|75344", "text": "Faceless Soulclaimers are n'raqi located in the Twilight Highlands."}
+{"id": "world-of-warcraft|75345", "text": "before the Brimstone Garrison]] Fading Embers begins the fifth chapter of the Embers of Neltharion campaign: Inevitable Confrontation. This chapter was made available the week of May 9, 2023."}
+{"id": "world-of-warcraft|75347", "text": "Faded Gravestone is found in the Veiled Ossuary in Thaldraszus."}
+{"id": "world-of-warcraft|75348", "text": "Fading Chronogrips drops from Manifested Timeways in Dawn of the Infinite."}
+{"id": "world-of-warcraft|75350", "text": "Were you looking for: * The Macro FAQ? * The Patch FAQ? * The UI FAQ? * The Wowpedia FAQ? * The World of Warcraft FAQ? * The World of Warcraft: The Burning Crusade FAQ? * The World of Warcraft: Wrath of the Lich King FAQ?"}
+{"id": "world-of-warcraft|75353", "text": "The FLT (standing for \"Front de Libération Troll\", \"Troll Liberation Front\" in English), or TLF in English, was a french World of Warcraft players community on many realms. It gathered Troll players with the purpose of making Blizzard Entertainment fix numerous items' skins' bugs on the Troll model (as an example, the tier 2 Rogue hood does not cover their large nose). Their leaders were the bloodthirsty trolls Finntroll (Sook) and Lama (Jabzor), which lead \"terrorist\" forces ready to get their claims heard. Their motto: Trollidos unidos jamas seran vencidos! They succeeded in taking hostage a Game Master of World of Warcraft. They also carried out a raid-suicide in Ironforge, and made the H"}
+{"id": "world-of-warcraft|75356", "text": "FPS can be an acronym for a few terms. Were you looking for: * Frames per second? *:&ndash;OR&ndash; * (on Wikipedia)?"}
+{"id": "world-of-warcraft|75358", "text": "FL may refer to: *Flame Leviathan, a boss in Ulduar *Firelands, the Elemental Plane of fire"}
+{"id": "world-of-warcraft|75359", "text": "The Faded Wizard Hat is a quest reward from Farewell, Minnow."}
+{"id": "world-of-warcraft|75362", "text": "Faerie Fire was a Feral and Guardian druid debuff spell available at level 28."}
+{"id": "world-of-warcraft|75363", "text": "__NOTOC__ The Fallen Champion is an undead rare mob found in the Graveyard wing of the Scarlet Monastery. Aside from the tabard, he uses the same armor and weapon as the living Scarlet Champions."}
+{"id": "world-of-warcraft|75364", "text": "Faldron is a night elf leatherworker located in the Craftsmen's Terrace in Darnassus. He and Telonis are teaching fellow apprentice Darianna leatherworking. It is unknown whether he survived the Burning of Teldrassil or not."}
+{"id": "world-of-warcraft|75365", "text": "Faldir's Cove is a small natural harbor on the southern shores of Arathi Highlands, near Stromgarde Keep and the Drowned Reef."}
+{"id": "world-of-warcraft|75366", "text": "Fahrad's Reloading Repeater is a crossbow with Agility and an improved chance to hit."}
+{"id": "world-of-warcraft|75368", "text": "The Falfarren River runs northeast to southwest across Ashenvale, and is approximately the dividing line between the night elven territory under Astranaar to the west, and the orcish territory under Splintertree Post to the east. It is not a terribly deep or wide river, though rainfall can cause it to swell. Several aggressive bog beasts can be found roaming below the surface of the river at sections around Felfire Hill. During the Cataclysm new bridges were built along the river. The water of the river originates from the slopes of Mount Hyjal, and passes through a series of waterfalls into the lake at Xavian, before it runs between Splintertree and Night Run southwest. It then runs past th"}
+{"id": "world-of-warcraft|75369", "text": "Falkhaan Isenstrider is a human quest giver located at the exit of Northshire Valley in Elwynn Forest. He advertises the Lion's Pride Inn to passersby and refers to Innkeeper Farley as his best friend."}
+{"id": "world-of-warcraft|75374", "text": "__NOTOC__ Fahran Silentblade is a night elf poison vendor located in Astranaar in Ashenvale. He was killed by the Horde during the War of the Thorns."}
+{"id": "world-of-warcraft|75375", "text": "__NOTOC__ Faldreas Goeth'Shael is a night elf quest giver located in Astranaar in Ashenvale."}
+{"id": "world-of-warcraft|75378", "text": "__NOTOC__ Falfindel Waywarder is a night elf quest giver and a refugee from Thalanaar found at Shadebough in Feralas. He sends adventurers to New Thalanaar."}
+{"id": "world-of-warcraft|75379", "text": "Faerleia's Shield are a quest reward from the Horde quest Pyrewood Ambush which starts with Deathstalker Faerleia in Pyrewood Village in Silverpine Forest."}
+{"id": "world-of-warcraft|75381", "text": "The Faerie Dragon Muisek Vessel is provided as an objective for Faerie Dragon Muisek (quest)."}
+{"id": "world-of-warcraft|75383", "text": "Faizzaniel is an MVP on the official US World of Warcraft forums, and posts most frequently on the [http://us.battle.net/wow/en/forum/984270/ General Discussion] area. She posts as a level 12 female troll shaman from Dragonblight US."}
+{"id": "world-of-warcraft|75385", "text": "Fairbridge Strand is located in northern Azuremyst Isle. It is the stretch of shore that faces Bloodmyst Isle to the north, and an ancient night elven bridge spanning the strait can be found here. Siltfin Murlocs inhabit the shore, stealing Stillpine Grain from their nearby neighbors, the Stillpine tribe."}
+{"id": "world-of-warcraft|75387", "text": "__NOTOC__ Fallat is a draenei priest trainer located in the Anchorites' Sanctum in the Vault of Lights in the Exodar. During the Battle for the Exodar, he was inside Velen's protective shield, healing the wounded."}
+{"id": "world-of-warcraft|75388", "text": "Items used as a currency for getting Tier 4 set pieces or Arena Season 1 set pieces for warriors, priests and druids. *Chestguard of the Fallen Defender *Gloves of the Fallen Defender *Helm of the Fallen Defender *Leggings of the Fallen Defender *Pauldrons of the Fallen Defender"}
+{"id": "world-of-warcraft|75390", "text": "Fahssn is a sporeling quest giver located at east of the Spawning Glen in Zangarmarsh."}
+{"id": "world-of-warcraft|75391", "text": "Faith in Felsteel is a plate rare crafted set from the Burning Crusade. It is crafted by Blacksmithing."}
+{"id": "world-of-warcraft|75397", "text": "Fallbrush Handgrips are a pair of Level 55 quality Leather Gloves that improve Intellect, Stamina and Versatility."}
+{"id": "world-of-warcraft|75398", "text": "Falfindel's Blaster is a quest reward from The Crone of the Kraul."}
+{"id": "world-of-warcraft|75400", "text": "The Faintly Glowing Crystal drops from Infected Nightstalker Runt in Azuremyst Isle."}
+{"id": "world-of-warcraft|75401", "text": "Fall of Gurubashi is an ancient tablet that tells the tale of the end to the Gurubashi Empire. It is located in the southwestern part of the Ruins of Zul'Kunda. It is in the most southwestern \"room\" (meaning walls but no roof in these ruins), in the northwestern corner of the room. NOTE: The tablet is in the main compound on the plateau, NOT down on the beach. The Alliance has recently expressed interest in this particular legend. Brother Nimetz of the Rebel Camp in Northern Stranglethorn is sending adventurers to investigate many troll legends in the area in hopes of finding answers regarding Colonel Kurzen's corruption, and this is one on his list (see Kurzen's Mystery for the quest)."}
+{"id": "world-of-warcraft|75403", "text": "__NOTOC__ Falconer Drenna Riverwind can be found in Falcon Watch in Hellfire Peninsula. She is accompanied by her pet Blackbeak."}
+{"id": "world-of-warcraft|75404", "text": "The Faint Arcane Essence drops from Nightbane in Karazhan for Nightbane (quest)."}
+{"id": "world-of-warcraft|75406", "text": "__NOTOC__ Falcon Watch Rangers are blood elves that guard Falcon Watch in the Hellfire Peninsula. Max level versions will spawn if any PvP-enabled NPCs are engaged within Falcon Watch, including other rangers."}
+{"id": "world-of-warcraft|75408", "text": "Falconcrest's Head drops from Lord Falconcrest in Stromgarde Keep in the Arathi Highlands."}
+{"id": "world-of-warcraft|75411", "text": "Falconwing Inn is located to the north-east of Falconwing Square."}
+{"id": "world-of-warcraft|75412", "text": "The Falconwing Square Gift Voucher is included with every new blood elf created on an account with the World of Warcraft Collector's Edition."}
+{"id": "world-of-warcraft|75413", "text": "Faintly Glowing Skull is a quest reward from Minshina's Skull (quest)."}
+{"id": "world-of-warcraft|75414", "text": "Fallen is the first story in Warcraft: Legends Volume 1 and the first part of the Trag saga. *Written by Richard A. Knaak *Art by Jae-Hwan Kim *Edited by Tim Beedle"}
+{"id": "world-of-warcraft|75415", "text": "A falchion is usually described as a one-handed, single-edged sword."}
+{"id": "world-of-warcraft|75416", "text": ".]] .]] A falcon is a part of the raptor family of birds. Falconry is the art of using a bird of prey to hunt and catch game. House Waycrest of Kul Tiras has long been known as experts in the art of falconry. Hidalgo the Master Falconer offers several quests in the Howling Fjord involving using a falcon to hunt hawks."}
+{"id": "world-of-warcraft|75417", "text": "]] in Theramore Isle.]] A falconer is an individual who hunts using trained raptors, such as falcons. Falconry is the art of using a bird of prey to hunt and catch game. House Waycrest has long been known as experts in the art of falconry. The first and most important factor in falconry is the trust between the falconer and the bird."}
+{"id": "world-of-warcraft|75421", "text": "The Fall of Return is just the last of a series of simple drops from Drak'Tharon Overlook‎ to the Hall of Return in Drak'Tharon Keep."}
+{"id": "world-of-warcraft|75424", "text": "Fala Softhoof is a tauren stable master located at the Argent Stand in Zul'Drak."}
+{"id": "world-of-warcraft|75425", "text": "Failoc-alypse is a mini-game created by Blizzard Entertainment. In it, the player chooses one of three characters (including a female draenei death knight wielding what appears to be a Greatsword of the Ebon Blade) and sets out to defend BlizzCon 2009 by killing invading failocs, who look like the Murloc Costume. The name is a portmanteau of 'fail', 'murloc', and 'apocalypse'."}
+{"id": "world-of-warcraft|75426", "text": "__NOTOC__ Fael Morningsong is a grand master enchanting trainer and is located at the Argent Tournament Grounds in Icecrown. During Death Rising, he defended the area."}
+{"id": "world-of-warcraft|75428", "text": "Fallen Earthen Defenders are injured earthen who need to be healed by a Telluric Poultice, doing this will turn them into a Rejuvenated Defender, acting as a guardian."}
+{"id": "world-of-warcraft|75429", "text": "Fall of the Lich King (25 player) is a dungeon & raids achievement earned for defeating every boss in Icecrown Citadel on 25-player mode."}
+{"id": "world-of-warcraft|75434", "text": "Failed Liferocket Prototype is a quest reward from Rocket Rescue."}
+{"id": "world-of-warcraft|75436", "text": "The Fake Treasure is provided as an objective for Two-Tusk Takedown."}
+{"id": "world-of-warcraft|75438", "text": "Fallen Flamekin are looted from the bodies of dead flamekin in the Blackrock Pass in the Burning Steppes."}
+{"id": "world-of-warcraft|75440", "text": "Fake Mistletoe is what became of Mistletoe purchased during the first Feast of Winter Veil."}
+{"id": "world-of-warcraft|75445", "text": "The house of Falamar was a human family from Stormwind. The house prided itself in the lineage of great fighters, warriors, and paladins, and looked down on mages."}
+{"id": "world-of-warcraft|75447", "text": "Fallen Druids are druids of the Cenarion Expedition killed by one of Kael'thas Sunstrider's mana bombs detonated within the Cenarion Thicket of Terokkar Forest."}
+{"id": "world-of-warcraft|75448", "text": "__NOTOC__ Fah Jarakk is an elite molten giant occasionally found at Sethria's Roost in Mount Hyjal. He's one of the four fiery lords that can appear here."}
+{"id": "world-of-warcraft|75450", "text": "Faerie Swarm is a Balance druid PvP talent, available at level 20."}
+{"id": "world-of-warcraft|75451", "text": "Fall of Deathwing is a dungeon & raids achievement earned for defeating the encounters leading up to the Fall of Deathwing in the Dragon Soul raid."}
+{"id": "world-of-warcraft|75455", "text": "Fallen Crusaders are raised by several at a time during his encounter. They can be easily killed, but their corpses do not disappear on death. This is so Thalnos can summon an to possess one of the fallen crusader's corpses, turning it in to an . For this reason, crusaders should be gathered up and killed away from where the boss is going to be tanked to force the spirit to travel some distance in order to reach it's targeted crusader."}
+{"id": "world-of-warcraft|75456", "text": "__NOTOC__ Faena Woolybush is a dwarf archaeology trainer found in Theramore Isle in Dustwallow Marsh. It's unknown if she survived the Attack on Theramore Isle."}
+{"id": "world-of-warcraft|75457", "text": "__NOTOC__ Fairlands Gazelles are gazelles found in the Vale of Eternal Blossoms. Some fell prey to the Thundermaws."}
+{"id": "world-of-warcraft|75458", "text": "Fairlands Gazelle Meat dropped from Fairlands Gazelles in the Vale of Eternal Blossoms."}
+{"id": "world-of-warcraft|75467", "text": "Fain Would Lie Down is an achievement earned from killing Beastlord Darmac in Blackrock Foundry on Normal difficulty or higher after causing him to mount each beast first."}
+{"id": "world-of-warcraft|75469", "text": "The Fallen Draenei Defender is located at Mor'gran Logworks in Talador."}
+{"id": "world-of-warcraft|75473", "text": "The Fall of the Lich King trailer is the official trailer for World of Warcraft Patch 3.3: Fall of the Lich King. The trailer shows Terenas \"warning\" his son."}
+{"id": "world-of-warcraft|75474", "text": "The Faerie Dragon Nest spawns in the center of the Fey-Drunk Darter event at in western Tirisfal Glades. The event begins roughly every fifteen minutes. The nest contains Music Roll: Faerie Dragon for players who have completed Bringing the Bass."}
+{"id": "world-of-warcraft|75476", "text": "__NOTOC__ Fallen Defender of Argus drops from Tyrant Velhari in ."}
+{"id": "world-of-warcraft|75480", "text": "Fallen Alliance Soldier is a night elf quest giver located at Lok-rath in ."}
+{"id": "world-of-warcraft|75481", "text": "Falcon Atherton is a worgen located at the Amphitheater of Annihilation in Ashran."}
+{"id": "world-of-warcraft|75483", "text": "Falara Nightsong's Coin is fished from the fountain in Dalaran at the Broken Isles."}
+{"id": "world-of-warcraft|75484", "text": "Fallen Footmen are human ghosts summoned by the Baradin Footman's Tags."}
+{"id": "world-of-warcraft|75485", "text": "Fallen Grunts can be summoned by the Baradin Grunt's Talisman."}
+{"id": "world-of-warcraft|75487", "text": "Faintly Glowing Flagon of Mead transforms the user into a tall male vrykul for 5 minutes."}
+{"id": "world-of-warcraft|75488", "text": "Fal'dorei Egg is found in the Glimmering Treasure Chest at the end of the Withered Army Training scenario. It projects the image of the incubating Fal'dorei Webmistress onto the player."}
+{"id": "world-of-warcraft|75491", "text": "Falanaar Crescent is found in the Glimmering Treasure Chest at the end of the Withered Army Training scenario."}
+{"id": "world-of-warcraft|75492", "text": "Falanaar Scepter is found in the Glimmering Treasure Chest at the end of the Withered Army Training scenario."}
+{"id": "world-of-warcraft|75496", "text": "__NOTOC__ Failure Detection Pylon is created with Engineering (740); taught by Going to Waste."}
+{"id": "world-of-warcraft|75497", "text": "Faith&#39;s Crucible drops from the Maiden of Virtue in the Return to Karazhan."}
+{"id": "world-of-warcraft|75498", "text": ".]] Falcosaurs are an invasive and predatory dinosaur species that have recently arrived on the coastlines of the Broken Isles and are breeding out of control. Marin Bladewing hates them. In patch 7.1, players are able to collect the eggs and feathers of the falcosaurs to use as reagents for new First Aid and Cooking recipes. Players are also able to rescue an orphaned falcosaur pet to begin a journey toward understanding these hungry creatures, and \"may just earn a new mount along the way\". Falcosaurs are immune to the corruption and infusion of fel. The primal need to hunt occurs in falcosaurs at a young age. And while falcosaurs are predatory, they are actually omnivores and eat fruits as"}
+{"id": "world-of-warcraft|75499", "text": "__NOTOC__ Falcosaur Egg drops from Falcosaurs in the Broken Isles."}
+{"id": "world-of-warcraft|75500", "text": "The Fake Teeth are sold by Clockwork Assistant in Dalaran for ."}
+{"id": "world-of-warcraft|75502", "text": "Faith's Armor is a Protection paladin artifact trait. It is linked to the Truthguard's Light, Righteous Crusader (artifact trait) and Sacrifice of the Just (artifact trait) traits."}
+{"id": "world-of-warcraft|75505", "text": "__NOTOC__ Faeolas Nightwhisper is a night elf innkeeper located in Starsong Refuge in Val'sharah."}
+{"id": "world-of-warcraft|75507", "text": "Fallen Avatar is the penultimate boss encounter in Tomb of Sargeras."}
+{"id": "world-of-warcraft|75509", "text": "Fal'dorei Broodcallers are fal'dorei located in Suramar. They summon Leyline Spiderlings."}
+{"id": "world-of-warcraft|75510", "text": "Fal'dorei Broodlords are fal'dorei located in Suramar. They summon Leyline Spiderlings."}
+{"id": "world-of-warcraft|75511", "text": "Fal'dorei Conjurers are fal'dorei located in Suramar. They summon Elemental Conjurations."}
+{"id": "world-of-warcraft|75523", "text": "Fallen Befoulers are deceased Forsaken located in Val'sharah, found during the the Legion Assaults."}
+{"id": "world-of-warcraft|75525", "text": "Faewing's Horn dropped from Faewing at the Steam Pools in Feralas."}
+{"id": "world-of-warcraft|75530", "text": "Failed Converts are fel-corrupted Broken located in Krokuun. Three of them lay dead by a Shademistress in the High Inquisitor's Lair, near the entrance."}
+{"id": "world-of-warcraft|75531", "text": "Fallen Armsmen are deceased worgen located in Val'sharah, encountered during the Legion Assaults."}
+{"id": "world-of-warcraft|75532", "text": "Fallen Clerics are deceased worgen located in Val'sharah, encountered during the Legion Assaults."}
+{"id": "world-of-warcraft|75533", "text": "Fallen Feralhearts are deceased worgen located in Val'sharah, encountered during the Legion Assaults."}
+{"id": "world-of-warcraft|75534", "text": "Fallen Frostflingers are deceased Forsaken located in Val'sharah, encountered during the Legion Assaults."}
+{"id": "world-of-warcraft|75535", "text": "Falanaar Tunnels is a location in Suramar. They are the setting for the Withered Army Training scenario, as well as the Na'zak the Fiend world boss."}
+{"id": "world-of-warcraft|75536", "text": "Falconhurst Guards are humans located in Falconhurst in Drustvar."}
+{"id": "world-of-warcraft|75537", "text": "Falcon Spirits are falcon ghosts located in Sethekk Halls. They are described in Arthorn's Research."}
+{"id": "world-of-warcraft|75538", "text": "Fallen Crewmates are deceased pirates located in the Wailing Tideway in Tiragarde Sound."}
+{"id": "world-of-warcraft|75541", "text": "Fairweather's Fine Enchantments is an enchanting shop located in the Tradewinds Market in Boralus. It is run by Emily Fairweather."}
+{"id": "world-of-warcraft|75544", "text": "__NOTOC__ Fallen Guardians of the Dream are druids found in Malorne's Nightmare."}
+{"id": "world-of-warcraft|75547", "text": "The Fall is the pit where blood troll sacrifices are thrown in as offerings to the loa Hir'eek. The loa's spawn cover the cave's ceiling."}
+{"id": "world-of-warcraft|75548", "text": "The Faithsworn item collection is awarded from completing world quests in Darkshore during the War of the Thorns. Though not a proper set (with no set bonuses), all nine pieces share a name:"}
+{"id": "world-of-warcraft|75549", "text": "The Faithless, also known as the Faithless empire or the sethrak empire, (sometimes capitalized as the Sethrak Empire) are a force of militant sethrak led by Emperor Korthek. Having turned away from the sethrak's loa Sethraliss, the Faithless and their emperor seek to conquer all of Zandalar and will not stop until they have conquered the world. They have allied themselves with the forces of General Jakra'zet of the Zanchuli Council with the shared goal of breaking the seal on the great pyramid of Atul'Aman and unleashing the monstrosity within in order to conquer Zuldazar."}
+{"id": "world-of-warcraft|75550", "text": "Faithless Weapon Racks are located in the Crater of Conquerors in Vol'dun."}
+{"id": "world-of-warcraft|75551", "text": "Faithless Scimitars are looted from Faithless Weapon Racks during Ready to Riot."}
+{"id": "world-of-warcraft|75552", "text": "The Faithless Wrangler is a dead sethrak located next to Kiro just south of the Feeding Pits in Vol'dun. Kiro apparently killed the sethrak in order to hijack their Battle Krolusk."}
+{"id": "world-of-warcraft|75553", "text": "Faithless Trapper's Spear is located at Rakjan's Peak in Vol'dun."}
+{"id": "world-of-warcraft|75554", "text": "The Faithsworn Mitts were awarded from Darkshore world quests and looted from War Supply Chests during the War of the Thorns."}
+{"id": "world-of-warcraft|75555", "text": "Fake Eye Patches are primarily obtained by Pick Pocketing pirates in Kul Tiras."}
+{"id": "world-of-warcraft|75557", "text": "Faithless Wardens are Faithless sethrak located on the Terrace of the Devoted in Vol'dun."}
+{"id": "world-of-warcraft|75558", "text": "Faithless Sentries are Faithless sethrak located on the Terrace of the Devoted as well as on the road southeast of the terrace in Vol'dun. Some of them are mounted on krolusks."}
+{"id": "world-of-warcraft|75559", "text": "Faithless Skycallers are Faithless sethrak located at the Terrace of the Devoted, the Temple Incursion, the Thundering Terrace, the Skycallers' Spire, the Slithering Gulch, and the Serpent's Maw in Vol'dun."}
+{"id": "world-of-warcraft|75560", "text": "Faithless Ravagers are Faithless sethrak located at the Serpent's Maw and the Terrace of the Devoted in Vol'dun."}
+{"id": "world-of-warcraft|75561", "text": "Faithless Aggressors are Faithless sethrak located at the Serpent's Maw and the Terrace of the Devoted in Vol'dun."}
+{"id": "world-of-warcraft|75562", "text": "Faithless Sandscouts are Faithless sethrak located at the Serpent's Maw and on the road southeast of the Terrace of the Devoted in Vol'dun."}
+{"id": "world-of-warcraft|75563", "text": "Faithless Defenders are Faithless sethrak located in the Temple Incursion in Vol'dun."}
+{"id": "world-of-warcraft|75564", "text": "Faithless Warbringers are Faithless sethrak located in the Temple Incursion in Vol'dun. Some of them are normally mounted on krolusks but dismount when attacked. One Warbringer is found locked inside a cage next to Zareen in the Sanctuary of the Devoted."}
+{"id": "world-of-warcraft|75565", "text": "Faithless Menders are Faithless sethrak located at the Serpent's Maw and the Temple Incursion in Vol'dun."}
+{"id": "world-of-warcraft|75566", "text": "Faithless Bonepickers are Faithless sethrak located in the Temple Incursion in Vol'dun."}
+{"id": "world-of-warcraft|75567", "text": "Faithless Stormforgers are Faithless sethrak located in the Temple Incursion in Vol'dun, where they can often be seen tinkering with weapon racks or working on weapons at the small anvil in the east part of the incursion."}
+{"id": "world-of-warcraft|75568", "text": "The Faithless Egg-Tenders are two Faithless sethrak standing next to a pool filled with large eggs in the Temple Incursion in Vol'dun."}
+{"id": "world-of-warcraft|75569", "text": "Faithless Champions are Faithless sethrak located at the Serpent's Maw and the Thundering Terrace in Vol'dun. The ones at the Serpent's Maw roam the area mounted on krolusks but dismount upon reaching around 50% health. Two Champions guard the huge stair in the center of the Thundering Terrace leading up to the Skycallers' Spire, while others patrol around the west and east parts of the terrace and the main bridge spanning the Slithering Gulch."}
+{"id": "world-of-warcraft|75570", "text": "Faithless Guardians are Faithless sethrak located in the eastern part of the Skycallers' Spire in Vol'dun."}
+{"id": "world-of-warcraft|75571", "text": "Faithless Commanders are Faithless sethrak located in the eastern part of the Skycallers' Spire in Vol'dun. They are normally mounted on krolusks but dismount when attacked."}
+{"id": "world-of-warcraft|75572", "text": "Faithless Guardians are Faithless sethrak located in the Sacred Sands and the Skycallers' Spire in Vol'dun."}
+{"id": "world-of-warcraft|75573", "text": "Faithless Spireguards are Faithless sethrak standing guard in various spots around the Sacred Sands and the central part of the Skycallers' Spire in Vol'dun. A few of them are seen manning Sethrak Cannons on the westernmost edge of the Sacred Sands."}
+{"id": "world-of-warcraft|75574", "text": "Faithless Scrollkeepers are Faithless sethrak located around the Sacred Sands in Vol'dun."}
+{"id": "world-of-warcraft|75575", "text": "Faithless Deadeyes are Faithless sethrak located around the Feeding Pits in Vol'dun."}
+{"id": "world-of-warcraft|75576", "text": "Faithless Beastlords are Faithless sethrak located around the Feeding Pits in Vol'dun."}
+{"id": "world-of-warcraft|75577", "text": "Faithless Suppressors are Faithless sethrak located in and around Crawg Tamer Traskniss' cave at the Feeding Pits in Vol'dun."}
+{"id": "world-of-warcraft|75578", "text": "Fallen Glaives were glaives found in the Ruins of Auberdine in Darkshore during the War of the Thorns. They were used during Blunt the Spikes / Pruning the Thorns and gave a buff."}
+{"id": "world-of-warcraft|75579", "text": "Faithless Watchers are Faithless sethrak that roam the lower parts of the Slithering Gulch in Vol'dun. They are normally mounted on krolusks but dismount when attacked. Some, but not all, can see through Stealth and invisibility."}
+{"id": "world-of-warcraft|75580", "text": "Faithless Stalkers are Faithless sethrak located at the bottom of the Slithering Gulch in Vol'dun, standing in Stealth or tinkering with various objects in stalls."}
+{"id": "world-of-warcraft|75581", "text": "Faithless Citizens are civilian Faithless sethrak located throughout the bottom of the Slithering Gulch in Vol'dun. They are usually seen standing and talking with other citizens or attending slave auctions held by Faithless Dealers."}
+{"id": "world-of-warcraft|75582", "text": "Faithless Dealers are Faithless sethrak located throughout the bottom of the Slithering Gulch in Vol'dun. Many can be seen working at tables and fire pits in the gulch's market stalls; others, however, are instead holding slave markets at , , and , auctioning off Vulpera Slaves or Tortollan Slaves to groups of Faithless Citizens. If one such Dealer is killed, the slaves will escape to freedom."}
+{"id": "world-of-warcraft|75583", "text": "Faithless Centurions are Faithless sethrak that roam the southeastern cliffs of the Slithering Gulch and the northeastern outskirts of the Serpent's Maw in Vol'dun. They are normally mounted on krolusks but dismount upon reaching around 55% health. Several dead, unmounted Faithless Centurions are lying around Bwoljin's Fall, apparently killed by Defiant Scrappers."}
+{"id": "world-of-warcraft|75584", "text": "Faithless Dervishes are Faithless sethrak located around the southeastern cliffs of the Slithering Gulch in Vol'dun."}
+{"id": "world-of-warcraft|75585", "text": "Faithless Gunners are Faithless sethrak manning large cannons around the southeastern cliffs of the Slithering Gulch in Vol'dun."}
+{"id": "world-of-warcraft|75586", "text": "The Faithless Flayer is a Faithless sethrak sitting in front of a fire pit in the eastern part of the Serpent's Maw camp in Vol'dun."}
+{"id": "world-of-warcraft|75587", "text": "__NOTOC__ Faella is a draenei located in Boralus Harbor in Boralus."}
+{"id": "world-of-warcraft|75588", "text": "Faithless Raiders are Faithless sethrak that periodically spawn to deliver a satchel, a Captured Exile, or a Captured Krolusk to the Crater of Conquerors in Vol'dun. Each case displays slightly different behavior: *The Raiders carrying satchels will run into the crater and drop their object off at the stash in the center of the area, before running back out and despawning. *The Raiders dragging Captured Exiles will leave their prisoner near some cages just inside the crater's entrance before running out and despawning. The Exile will kneel down, but shortly after falls over on the ground and despawns. If a Raider transporting an Exile is attacked, the Exile will immediately break free of its"}
+{"id": "world-of-warcraft|75589", "text": "Faithless Oppressors are Faithless sethrak located in the Crater of Conquerors and on one of the southeastern cliffs of the Slithering Gulch in Vol'dun. Some of the ones in the Crater of Conquerors can be seen overseeing the Maimed Krolusks or beating a Captured Exile."}
+{"id": "world-of-warcraft|75590", "text": "Faithless Slavers are Faithless sethrak that roam the Crater of Conquerors in Vol'dun. Several can be seen sparring against training dummies."}
+{"id": "world-of-warcraft|75591", "text": "Faithless Auditors are Faithless sethrak located in the Crater of Conquerors in Vol'dun. Some of them are normally mounted on krolusks but dismount when attacked."}
+{"id": "world-of-warcraft|75594", "text": "Fallen Cultists are deceased humans and orcs located at the Gates of Sothann in Mount Hyjal."}
+{"id": "world-of-warcraft|75595", "text": "Falcon's Roost is an inn located in Falconhurst in Drustvar. The establishment is run by Alisha Darkwater."}

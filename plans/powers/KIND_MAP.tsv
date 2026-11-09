@@ -1,0 +1,18 @@
+kind	x_tag_regex	text_regex	name_regex
+vampire	vampir|blood_drink|diablerie|life_drain	vampires?|nosferatu|strigoi|upir	vampire
+zombie	zombi	zombies?|walking dead	zombie
+undead	undea|undeath|lich|ghoul|draugr|revenant	undead|liches|lich|ghouls?|draugr|revenants?|skeletons?|wights?|mummy|mummies	undead|lich|ghoul|skeleton|mummy
+lycanthrope	lycan|werewolf|wolf_form	were-?(wolf|wolves|bear|tiger|cat|fox|rat)\w*|lycanthropes?|werecreatures?	were-?(wolf|bear|tiger|cat|fox|rat)
+ghost	ghost|spectr|wraith|spirit_form	ghosts?|specters?|spectres?|wraiths?|phantoms?|poltergeists?	ghost|phantom|specter|spectre|wraith
+demon	demon|devil|fiend	demons?|devils?|fiends?|daemons?|imps?|succubus|incubus	demon|devil|succubus|incubus
+angel	angel|celestial	angels?|archangels?|celestials?|seraphs?|seraphim	angel
+cyborg	cyborg|augment	cyborgs?	cyborg
+android	android|robot|automaton	androids?|robots?|automatons?|automata|gynoids?|replicants?	android|robot
+mutant	mutant|mutation	mutants?	mutant
+dragon	dragon	dragons?|wyrms?|drakes?|wyverns?	dragon|wyrm|drake
+deity	god_like|divine_creation|deity	(a|an|the) (\w+ )?(god|goddess|deity)|deities|titans?	^(god|goddess) 
+elemental	elemental_being	elementals?	elemental
+golem	golem	golems?|constructs?	golem
+fae	fae|fairy|faerie|pixie|sprite	fae|fairy|fairies|faeries|pixies?|sprites?|nymphs?|dryads?	fairy|pixie|nymph
+giant	giant	giants?|ogres?|jotunn	giant|ogre
+shapeshifter	shapeshift|changeling|skinwalk	shapeshifters?|changelings?|skinwalkers?|doppelg\w+	shapeshifter|changeling|skinwalker|doppelg
