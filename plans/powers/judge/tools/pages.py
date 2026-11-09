@@ -40,10 +40,17 @@ def _match(a, b):
     if k and a[:k] in b[:k + 400]: return True  # lead after a stub/notice banner
     a, b = a[:k], b[:k]
     return bool(a) and difflib.SequenceMatcher(None, a, b).ratio() >= 0.75
+def _inpage(a, b):
+    """Fragment/stripped-link lead: a 40-char run from its middle or end appears verbatim in the page."""
+    a, b = norm(a), norm(b)
+    if len(a) >= 60:  # stripped-link lead: nearly all of it is an in-order subsequence of the page's opening
+        sm = difflib.SequenceMatcher(None, a[:250], b[:600], autojunk=False)
+        if sum(m.size for m in sm.get_matching_blocks()) / len(a[:250]) >= 0.95: return True
+    return len(a) >= 60 and any(a[i:i + 40] in b for i in (len(a) // 2 - 20, len(a) - 40))
 def match(a, b):
     a = re.sub(r'\[https?://\S+ ([^\]]*)\]', r'\1', a)  # [url label] -> label
     b2 = re.sub(r'(?m)^=+ .* =+$', '', re.sub(r'\[[^\]]*\]', '', b))  # page: drop link-stub brackets and heading lines (lead has them stripped)
-    return _match(a, b) or _match(noparen(a), noparen(b)) or _match(a, b2)
+    return _match(a, b) or _match(noparen(a), noparen(b)) or _match(a, b2) or _inpage(a, b)
 def html2txt(h):
     """Rendered HTML -> plain text with '== Heading ==' lines (for wikis without TextExtracts, e.g. fandom)."""
     import html as H
