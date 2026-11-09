@@ -1,0 +1,21 @@
+category	id	status	detail	evidence
+blocks	diaithirarms:armstrong_gun	PASS	placed and read back	evidence/blocks/diaithirarms__armstrong_gun.log
+blocks	diaithirarms:ballista	PASS	placed and read back	evidence/blocks/diaithirarms__ballista.log
+blocks	diaithirarms:battering_ram	PASS	placed and read back	evidence/blocks/diaithirarms__battering_ram.log
+blocks	diaithirarms:bombard	PASS	placed and read back	evidence/blocks/diaithirarms__bombard.log
+blocks	diaithirarms:carronade	PASS	placed and read back	evidence/blocks/diaithirarms__carronade.log
+blocks	diaithirarms:cheiroballistra	PASS	placed and read back	evidence/blocks/diaithirarms__cheiroballistra.log
+blocks	diaithirarms:culverin	PASS	placed and read back	evidence/blocks/diaithirarms__culverin.log
+blocks	diaithirarms:dardanelles_gun	PASS	placed and read back	evidence/blocks/diaithirarms__dardanelles_gun.log
+blocks	diaithirarms:flak_36	PASS	placed and read back	evidence/blocks/diaithirarms__flak_36.log
+blocks	diaithirarms:greek_fire_siphon	PASS	placed and read back	evidence/blocks/diaithirarms__greek_fire_siphon.log
+blocks	diaithirarms:gribeauval_12_pounder	PASS	placed and read back	evidence/blocks/diaithirarms__gribeauval_12_pounder.log
+blocks	diaithirarms:hwacha	PASS	placed and read back	evidence/blocks/diaithirarms__hwacha.log
+blocks	diaithirarms:katyusha_bm_13	PASS	placed and read back	evidence/blocks/diaithirarms__katyusha_bm_13.log
+blocks	diaithirarms:m101_howitzer	PASS	placed and read back	evidence/blocks/diaithirarms__m101_howitzer.log
+blocks	diaithirarms:m777_howitzer	PASS	placed and read back	evidence/blocks/diaithirarms__m777_howitzer.log
+blocks	diaithirarms:mons_meg	PASS	placed and read back	evidence/blocks/diaithirarms__mons_meg.log
+blocks	diaithirarms:napoleon_12_pounder	PASS	placed and read back	evidence/blocks/diaithirarms__napoleon_12_pounder.log
+blocks	diaithirarms:onager	PASS	placed and read back	evidence/blocks/diaithirarms__onager.log
+blocks	diaithirarms:paris_gun	PASS	placed and read back	evidence/blocks/diaithirarms__paris_gun.log
+blocks	diaithirarms:polybolos	PASS	placed and read back	evidence/blocks/diaithirarms__polybolos.log

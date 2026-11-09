@@ -1,0 +1,36 @@
+category	id	status	detail	evidence
+bosses	diaithirbosses:antlered_hollow	UNTESTED	killed by player hits and drops loot, but never hurt the player in 8 s (not aggroed/ability not observed)	evidence/bosses/diaithirbosses__antlered_hollow.log
+bosses	diaithirbosses:ash_seraph	UNTESTED	killed by player hits and drops loot, but never hurt the player in 8 s (not aggroed/ability not observed)	evidence/bosses/diaithirbosses__ash_seraph.log
+bosses	diaithirbosses:botunkas	PASS	attacked the player (lowest health 0.0), killed by player hits, dropped loot	evidence/bosses/diaithirbosses__botunkas.log
+bosses	diaithirbosses:bronze_warking	PASS	attacked the player (lowest health 0.0), killed by player hits, dropped loot	evidence/bosses/diaithirbosses__bronze_warking.log
+bosses	diaithirbosses:cauldron_heart	PASS	attacked the player (lowest health 0.0), killed by player hits, dropped loot	evidence/bosses/diaithirbosses__cauldron_heart.log
+bosses	diaithirbosses:ceramic_warlord	PASS	attacked the player (lowest health 0.0), killed by player hits, dropped loot	evidence/bosses/diaithirbosses__ceramic_warlord.log
+bosses	diaithirbosses:driegunmorgil	PASS	attacked the player (lowest health 0.0), killed by player hits, dropped loot	evidence/bosses/diaithirbosses__driegunmorgil.log
+bosses	diaithirbosses:driegunsalund	FAIL	immune to player_attack damage; only died to generic_kill, so player kills and loot are untestable this way (see evidence)	evidence/bosses/diaithirbosses__driegunsalund.log
+bosses	diaithirbosses:dusk_wyrm	PASS	attacked the player (lowest health 0.0), killed by player hits, dropped loot	evidence/bosses/diaithirbosses__dusk_wyrm.log
+bosses	diaithirbosses:famuirmeirgi	PASS	attacked the player (lowest health 0.0), killed by player hits, dropped loot	evidence/bosses/diaithirbosses__famuirmeirgi.log
+bosses	diaithirbosses:foundry_sovereign	PASS	attacked the player (lowest health 0.0), killed by player hits, dropped loot	evidence/bosses/diaithirbosses__foundry_sovereign.log
+bosses	diaithirbosses:iron_walker	PASS	attacked the player (lowest health 0.0), killed by player hits, dropped loot	evidence/bosses/diaithirbosses__iron_walker.log
+bosses	diaithirbosses:last_wheel	PASS	attacked the player (lowest health 0.0), killed by player hits, dropped loot	evidence/bosses/diaithirbosses__last_wheel.log
+bosses	diaithirbosses:maerkistechuimni	PASS	attacked the player (lowest health 0.0), killed by player hits, dropped loot	evidence/bosses/diaithirbosses__maerkistechuimni.log
+bosses	diaithirbosses:maktirikriuch	PASS	attacked the player (lowest health 0.0), killed by player hits, dropped loot	evidence/bosses/diaithirbosses__maktirikriuch.log
+bosses	diaithirbosses:mist_weaver	PASS	attacked the player (lowest health 0.0), killed by player hits, dropped loot	evidence/bosses/diaithirbosses__mist_weaver.log
+bosses	diaithirbosses:natuirkriegach	FAIL	did not spawn / not alive 3 s later	evidence/bosses/diaithirbosses__natuirkriegach.log
+bosses	diaithirbosses:natuirmoir	FAIL	immune to player_attack damage; only died to generic_kill, so player kills and loot are untestable this way (see evidence)	evidence/bosses/diaithirbosses__natuirmoir.log
+bosses	diaithirbosses:natuirrig	FAIL	did not spawn / not alive 3 s later	evidence/bosses/diaithirbosses__natuirrig.log
+bosses	diaithirbosses:natuirsaegul	FAIL	immune to player_attack damage; only died to generic_kill, so player kills and loot are untestable this way (see evidence)	evidence/bosses/diaithirbosses__natuirsaegul.log
+bosses	diaithirbosses:natuirtuar	PASS	attacked the player (lowest health 0.0), killed by player hits, dropped loot	evidence/bosses/diaithirbosses__natuirtuar.log
+bosses	diaithirbosses:niechgleididdouras	PASS	attacked the player (lowest health 0.0), killed by player hits, dropped loot	evidence/bosses/diaithirbosses__niechgleididdouras.log
+bosses	diaithirbosses:oilebeistbouglach	PASS	attacked the player (lowest health 0.0), killed by player hits, dropped loot	evidence/bosses/diaithirbosses__oilebeistbouglach.log
+bosses	diaithirbosses:ridiriknok	PASS	attacked the player (lowest health 0.0), killed by player hits, dropped loot	evidence/bosses/diaithirbosses__ridiriknok.log
+bosses	diaithirbosses:rootbreaker	PASS	attacked the player (lowest health 0.0), killed by player hits, dropped loot	evidence/bosses/diaithirbosses__rootbreaker.log
+bosses	diaithirbosses:rot_swarm_lord	PASS	attacked the player (lowest health 0.0), killed by player hits, dropped loot	evidence/bosses/diaithirbosses__rot_swarm_lord.log
+bosses	diaithirbosses:steel_marshal	PASS	attacked the player (lowest health 0.0), killed by player hits, dropped loot	evidence/bosses/diaithirbosses__steel_marshal.log
+bosses	diaithirbosses:stoirmiduislach	PASS	attacked the player (lowest health 0.0), killed by player hits, dropped loot	evidence/bosses/diaithirbosses__stoirmiduislach.log
+bosses	diaithirbosses:stone_colossus	PASS	attacked the player (lowest health 0.0), killed by player hits, dropped loot	evidence/bosses/diaithirbosses__stone_colossus.log
+bosses	diaithirbosses:tarbiumachuoirtach	PASS	attacked the player (lowest health 0.0), killed by player hits, dropped loot	evidence/bosses/diaithirbosses__tarbiumachuoirtach.log
+bosses	diaithirbosses:tarbspeiri	PASS	attacked the player (lowest health 0.0), killed by player hits, dropped loot	evidence/bosses/diaithirbosses__tarbspeiri.log
+bosses	diaithirbosses:tide_reaver	PASS	attacked the player (lowest health 0.0), killed by player hits, dropped loot	evidence/bosses/diaithirbosses__tide_reaver.log
+bosses	diaithirbosses:toimsechunleomund	PASS	attacked the player (lowest health 0.0), killed by player hits, dropped loot	evidence/bosses/diaithirbosses__toimsechunleomund.log
+bosses	diaithirbosses:toisechmarb	PASS	attacked the player (lowest health 0.0), killed by player hits, dropped loot	evidence/bosses/diaithirbosses__toisechmarb.log
+bosses	diaithirbosses:tribal_chief	PASS	attacked the player (lowest health 0.0), killed by player hits, dropped loot	evidence/bosses/diaithirbosses__tribal_chief.log

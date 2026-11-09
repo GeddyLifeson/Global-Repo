@@ -6869,7 +6869,5 @@ Run hints: .py `python3 <file>` (PC `py`), .ps1 via a hidden launcher (never a v
 | S6966 | cloud | `tools/panscriptum/infer_source_names.py` | Fills inferred_source in PANSCRIPTUM_MASTER.tsv from wiki lead text, no AI. | yes |
 | S6969 | cloud | `tools/panscriptum/coverage_check.py` | Full source-page coverage: every wiki lead page vs Library entries; unlinked pages list. No AI. | yes |
 | S6975 | cloud | `tools/powers/judge_pages.py` | Judges each wiki lead page with Claude Haiku Batch: being or not, pool powers, magnitude 1-10, evidence quote, missing powers (S6975). | yes |
-| S6978 | cloud | `tools/powers/judge_pc.py` | Runs the S6975 judge prompt over a page queue on OpenAI-compatible endpoints (model router, Ollama); resumable, validated, optional git push. | yes |
-| S6979 | cloud | `tools/powers/pc_priority.py` | Builds the PC judging queue (~20k pages: strongest Haiku power beings plus weapon/armor/vehicle candidates, minus shard pages). | yes |
-| S6980 | cloud | `tools/powers/merge_judged.py` | Merges validated judge results (shards, PC run) into BEING_POWER_EVIDENCE.tsv, BEING_POWERS.tsv and GEAR_SCALE.tsv via PANSCRIPTUM_MASTER source links. | yes |
-| S6981 | cloud | `tools/powers/kind_templates.py` | Kind power templates: detects a being kind, builds editable KIND_TEMPLATES.tsv (genre baseline plus per-franchise rows with source page); merge_judged.py fills powers the page does not state. | yes |
+| S6986 | cloud | `cloud/headless_bot/everything/manifest.py` | Static census of a pack (blocks, items, entities, recipes, loot, dimensions) plus recipe conflict/unknown-id checks (S6986). | yes |
+| S6987 | cloud | `cloud/headless_bot/everything/run_all.py` | Runs every block, item, entity, recipe, dimension, command, boss and machine on a server via RCON and writes a PASS/FAIL/UNTESTED report with evidence (S6987). | yes |

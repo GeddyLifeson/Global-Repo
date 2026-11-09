@@ -377,3 +377,5 @@ tools/panscriptum/infer_source_names.py	1331	Fills inferred_source in PANSCRIPTU
 tools/panscriptum/coverage_check.py	2294	Full source-page coverage: every wiki lead page vs Library entries; unlinked pages list. No AI.	yes
 tools/powers/judge_pages.py	14082	Judges each wiki lead page with Claude Haiku Batch: being or not, pool powers, magnitude 1-10, evidence quote, missing powers (S6975).	yes
 compat/gen_tags_extra.py	0	Name-suffix convention tags (logs, planks, slabs, rails, glass, furniture) for building, tree, furniture and rail jars.	yes
+cloud/headless_bot/everything/manifest.py	5463	Static census of a pack (blocks, items, entities, recipes, loot, dimensions) plus recipe conflict/unknown-id checks (S6986).	yes
+cloud/headless_bot/everything/run_all.py	13344	Runs every block, item, entity, recipe, dimension, command, boss and machine on a server via RCON and writes a PASS/FAIL/UNTESTED report with evidence (S6987).	yes
