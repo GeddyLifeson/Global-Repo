@@ -11,3 +11,4 @@
 3 STILL HOLD 11-06: row 125 still lead-mismatch after resolver 71e0df7 (src still points at Hunters in the Dark page); merged output in held/.
 88 HOLD 11-06: only row 95 fails lead-match; lead is Dathlyr the Hammer Greybold (dwarf fighter) but resolver picked Mither Mandaroze page. Needs resolver fix. Merged output in held/. Re-merge: python3 tools/split.py merge 88 parts/shard_88_[0-9]*.json parts/shard_88_fix.json
 6 HOLD 11-06: parts done; needs fix part (rows 0 1 11 51 no power/x/z; n for 25 148 170) and row 199 wrong page. merge: split.py merge 6 parts/shard_6_[0-9]*.json parts/shard_6_fix.json
+51 PASSED 11-09 (pages.match now ignores link-stub brackets and heading lines on the page side)

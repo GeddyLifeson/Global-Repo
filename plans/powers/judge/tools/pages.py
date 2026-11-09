@@ -42,7 +42,8 @@ def _match(a, b):
     return bool(a) and difflib.SequenceMatcher(None, a, b).ratio() >= 0.75
 def match(a, b):
     a = re.sub(r'\[https?://\S+ ([^\]]*)\]', r'\1', a)  # [url label] -> label
-    return _match(a, b) or _match(noparen(a), noparen(b))
+    b2 = re.sub(r'(?m)^=+ .* =+$', '', re.sub(r'\[[^\]]*\]', '', b))  # page: drop link-stub brackets and heading lines (lead has them stripped)
+    return _match(a, b) or _match(noparen(a), noparen(b)) or _match(a, b2)
 def html2txt(h):
     """Rendered HTML -> plain text with '== Heading ==' lines (for wikis without TextExtracts, e.g. fandom)."""
     import html as H
