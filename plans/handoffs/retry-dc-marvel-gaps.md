@@ -1,17 +1,17 @@
-# Handoff: Retry DC and Marvel Panscriptum gaps
+# Handoff: Retry DC and Marvel Panscriptum gaps (part 2)
 
-Written 2026-11-09 ~19:10Z at 146k context. Branch GR claude/project-thread-yzyymm (draft PR #128).
+Branch GR claude/project-thread-yzyymm (draft PR #128). Written 2026-11-09 ~19:50Z.
 
-## Method (works, ~89% of replies pass the validator)
-- Tools in plans/panscriptum_gap/work/: prep.py (builds sys.txt + 50-row shards in scratchpad dc/in, marvel/in), process.py (validates replies with gap_batch.accept, assigns ids from /mnt/project-files/compute/id_counters/gap_<host>, appends to <tag>/accepted.jsonl, state in <tag>/state.json), spec/ (gap_batch.py + originate_prompt.txt from GR 28p9u0, unchanged).
-- Set up in a fresh container: copy work/ to a scratchpad dir S, run `python3 -I S/prep.py S` (edit paths if needed), copy work/dc_out/* to S/dc/out/ and work/dc_state.json to S/dc/state.json, put accepted entries back from plans/panscriptum_gap/retry-dc/out.jsonl into S/dc/accepted.jsonl. Then `python3 -I S/process.py S dc` is idempotent.
-- Workers: Agent (model sonnet, background, general-purpose), one per TWO shards, prompt: read S/sys.txt, follow it for every row; for each shard read S/<tag>/in/SH.jsonl, write ONE Write call S/<tag>/out/SH.jsonl, lines {"id","reply":{summary,feats,realm,ceiling_T,powers}}; skip only rows with no character; final answer only counts. Up to ~17 in flight (hard cap 20). Nested Agent spawning is NOT available to subagents. A worker costs ~140k of its own tokens; each launch+result costs me ~3k context, so hand off about every 40 launches.
-- Marvel universe is Losaustanum, host marvel.fandom.com, counter currently 972827 (read before use).
+## Method (unchanged, see work/ in plans/panscriptum_gap/)
+- Tools in plans/panscriptum_gap/work/: prep.py, process.py, spec/ (gap_batch.py). Set up in a fresh scratchpad S: copy work/ to S, `python3 -I S/prep.py S` (builds sys.txt and 50-row shards dc/in, marvel/in), `mkdir S/dc/out`.
+- Dedupe: S/dc/state.json is NOT needed in a fresh container if you only run shards >= s139 (no overlap). For Marvel use tag marvel (fresh state). Put accepted entries in S/<tag>/accepted.jsonl; process.py appends there and bumps /mnt/project-files/compute/id_counters/gap_<host>.
+- Workers: Agent (sonnet, background, general-purpose), one per two shards. Prompt: "S=<path>. Read $S/sys.txt and follow it for every row. For each shard SH in [sNNN,sMMM]: read $S/<tag>/in/SH.jsonl, ONE Write call to $S/<tag>/out/SH.jsonl, lines {id,reply:{summary,feats,realm,ceiling_T,powers}}. Skip only rows with no character. Do not spawn agents. Final answer: done." Up to ~17 in flight. Each worker ~140k own tokens; ~4 min.
+- Push: take origin out.jsonl (retry-dc/out.jsonl, or retry-marvel/out.jsonl), append only new ids from S/<tag>/accepted.jsonl, commit, push (rebase conflicts on out.jsonl: take upstream and re-append).
+- Yield ~50-55% accepted rows after validator.
 
 ## State
-- DC: ALL shards s000-s070 are DONE (71 files in dc_out). 3106 accepted, counter now 927071. No workers in flight.
-- NEXT DC shard to launch: s071 onward, through s200.
-- Marvel: not started (667 shards, s000-s666, 33,341 rows).
-- Real people (dictators etc.) were skipped by workers on purpose; fine.
-- Pushed: retry-dc/out.jsonl (1,938 rows at the first push). Re-copy accepted.jsonl to plans/panscriptum_gap/retry-dc/out.jsonl and push after each wave. Never edit dc/out.jsonl; never delete PANSCRIPTUM_MASTER entries; no merge; no Actions.
+- DC: shards s000-s138 DONE (s000-s070 by the old lane, s071-s138 by this thread). Accepted entries pushed in retry-dc/out.jsonl (see final count below). NEXT DC shard: s139 through s200.
+- Marvel: not started (667 shards s000-s666, host marvel.fandom.com, universe Losaustanum, counter file gap_marvel.fandom.com).
 - At the end: copy out.jsonl to /mnt/project-files/compute/jobs/panscriptum-gap/retry-<tag>/out.jsonl if space allows, tick P1 in plans/V1_CHECKLIST.md with counts.
+- Rules: never delete PANSCRIPTUM_MASTER entries; never merge; no Actions. Marlon approved full-speed tokens; stop at 90% weekly usage.
+- Final DC accepted count in out.jsonl at this handoff: 6137
