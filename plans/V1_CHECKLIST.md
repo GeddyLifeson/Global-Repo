@@ -221,19 +221,32 @@ Common done-condition for H items: it **mounts by click** (click box exists), **
 - [ ] **H8 Aircraft (#188, #248; aircraft tuning class in worldsys).** Owner: vehicles lane. Done when: an aircraft takes off, flies, lands on a joined client. Never flown. Evidence: LOG + SHOT. Needs: E3.
 - [ ] **H9 Autonomy: crewed vs autopilot, crew wages.** Owner: autonomy lane. Status: MISSING (stub counts any rider as crewed; wages never charged; no PR). Done when: a vehicle runs by autopilot only with a hired crew, a wage is charged per payroll cycle, a rider-only vehicle is refused. Evidence: LOG (wage charge) + SHOT. Needs: H5, L3.
 - [ ] **H10 Megamachine: treadwheel crane (Age III).** Owner: megamachines lane. Done when: common + digs 1 m3 of soil with hopper count equal to power x efficiency / specific energy (soil 2, overburden 6, ore 25, rock 40, regolith 60 MJ/m3) x time; a pallet fills and empties; the assay result appears. Evidence: LOG (counts) + SHOT. Needs: F3.
+  - Evidence (H10): PARTIAL 11-09 16:2xZ (cloud headless, diaithir-ports claude/project-thread-gd37wj, `JAVA_TOOL_OPTIONS=-Dmegamachines.selftest=true ./gradlew runServer`): `[selftest] PASS 10 s at full power digs rate x time`, `PASS catalog rate matches physics` for all 12 vehicles, assay PASS, dig head crewed PASS, `DONE fails=0`. Treadwheel crane is not in the 12-vehicle catalog by that id (check). Client mount, hopper pallet, SHOT: UNTESTED.
 - [ ] **H11 Steam navvy (Age V).** Same as H10. Needs: F5.
+  - Evidence (H11): PARTIAL (same run): `PASS catalog rate matches physics: megamachines:steam_navvy`, `engines: Age V steam navvy has no arcane_motor`. Mount/SHOT UNTESTED.
 - [ ] **H12 Walking dragline (Age V).** Same. Needs: F5.
+  - Evidence (H12): PARTIAL (same run): `PASS catalog rate matches physics: megamachines:walking_dragline`. Mount/SHOT UNTESTED.
 - [ ] **H13 Bucket-wheel excavator (Age VI).** Same. Needs: F6.
+  - Evidence (H13): PARTIAL (same run): `PASS catalog rate matches physics: megamachines:bucket_wheel_excavator`, `10 s at full power digs rate x time`. Mount/SHOT UNTESTED.
 - [ ] **H14 Tunnel boring machine (Age VI).** Same. Needs: F6.
+  - Evidence (H14): PARTIAL (same run): `PASS catalog rate matches physics: megamachines:tunnel_borer`. Mount/SHOT UNTESTED.
 - [ ] **H15 Haul truck (Age VI; uses Immersive Vehicles seat, controls, engine parts).** Same. Needs: F6, H2.
+  - Evidence (H15): PARTIAL (same run): `PASS engines: haul truck takes arcane_motor and diesel, not steam`. Immersive Vehicles seat/engine parts, mount, SHOT UNTESTED.
 - [ ] **H16 Crawler (Age VI).** Same. Needs: F6.
 - [ ] **H17 Megastructure: aqueduct arcade (Age III).** Done when: it assembles from its blueprint and carries water in L over a span; Codex entry; Age gate. Evidence: LOG + SHOT. Needs: F3.
+  - Evidence (H17): PARTIAL (same run): `PASS engine: megamachines:aqueduct_arcade builds in 153 h`, `site: 1400 blocks placed in the world`, `aqueduct starts at Age V office` (gate says Age V here, checklist says Age III: reconcile). Water carry, Codex entry, SHOT UNTESTED.
 - [ ] **H18 Megastructure: ship lock flight (Age V).** Needs: F5, E10.
+  - Evidence (H18): PARTIAL (same run): `PASS engine: megamachines:ship_lock_flight builds in 652 h`. UNTESTED in client.
 - [ ] **H19 Megastructure: great dam (Age VI, 500 MW out).** Done when: it outputs 500 MW into the grid in W, measured. Needs: F6.
+  - Evidence (H19): PARTIAL (same run): `PASS engine: dam power rises through the turbine stage, 500 MW when done`, `great_dam builds in 771 h`. Measured in grid in W on full pack: UNTESTED.
 - [ ] **H20 Megastructure: arcology tower (Age VII, settlement hub).** Needs: F7, L5.
+  - Evidence (H20): PARTIAL (same run): `PASS engine: megamachines:arcology_tower builds in 864 h`. UNTESTED in client.
 - [ ] **H21 Megastructure: space elevator (Age VIII).** Needs: F8.
+  - Evidence (H21): PARTIAL (same run): `PASS engine: megamachines:space_elevator builds in 444 h`. UNTESTED in client.
 - [ ] **H22 Megastructure: orbital ring and Dyson collector (Age VIII).** Needs: F8.
+  - Evidence (H22): PARTIAL (same run): `PASS engine: megamachines:orbital_ring builds in 413 h`, `dyson_swarm builds in 347 h`. UNTESTED in client.
 - [ ] **H23 Megamachines and megastructures code merged (#224, #265, #286; Global #27, #33 catalogue and validator) and `MegaSelfTest` passes.** Owner: megamachines lane. Done when: merged, C1 clean, `MegaSelfTest` PASS. Evidence: LOG. Needs: C1.
+  - Evidence (H23): PARTIAL: code is on diaithir-ports default branch (PR #260 merge). `MegaSelfTest` PASS 11-09: `[selftest] DONE (blocks) fails=0`, `[selftest] DONE fails=0` (fixed a flaky selftest, 4 then 2 false fails from stray drops; fix on diaithir-ports claude/project-thread-gd37wj). C1 clean and Global #27/#33 merge status not checked.
 - [ ] **H24 Foundry machines (diaithirfoundry): hearth bench, wright bench, smeltery, steam forge, fabricator (`diaithir_stations:foundry_*`).** Owner: foundry lane. Done when: each station forms and runs a recipe in a client; Assembler, altar, kitchen, munitions line, reclaimer and yards stations are added to the framework or recorded as not-in-framework with where their recipes live. Evidence: LOG + SHOT. Needs: E3.
 - [ ] **H25 Wiretech circuit network (ports #214, 46 classes).** Done when: a circuit is built, a signal propagates, a block responds. Evidence: LOG + SHOT. Needs: E3.
 - [ ] **H26 Machines spec for the harness: `machines.json` listing each machine (block, slots, wait, expected output slot).** Owner: harness lane. Done when: every machine in H1-H25 that has slots is a row in `machines.json` and `run_all.py --machines machines.json` reports PASS/FAIL/UNTESTED for each. Evidence: FILE (report.tsv). Needs: A3.
