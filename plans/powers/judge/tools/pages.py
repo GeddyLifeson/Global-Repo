@@ -37,6 +37,7 @@ def noparen(s):
         s = t
 def _match(a, b, K=80):
     a, b = norm(a), norm(b); k = min(len(a), len(b), K)
+    if k < 20 and a != b: return False  # a stub page must not match any lead that shares its first few characters
     if k and a[:k] in b[:k + 400]: return True  # lead after a stub/notice banner
     a, b = a[:k], b[:k]
     return bool(a) and difflib.SequenceMatcher(None, a, b).ratio() >= 0.75
@@ -277,7 +278,8 @@ def text(url, limit=12000):
     h, t = url.split('/')[2], urllib.parse.unquote(url.split('/wiki/', 1)[1]).replace('_', ' ')
     d = api(h, {'action': 'query', 'prop': 'extracts', 'explaintext': 1, 'titles': t})
     x = intro(h, [t]).get(t, ('', ''))[0] and open(CACHE + re.sub(r'\W+', '_', url)[-150:] + '.txt', encoding='utf-8').read() if 'extracts' in str(d.get('warnings', '')) and os.path.exists(CACHE + re.sub(r'\W+', '_', url)[-150:] + '.txt') else ptext(h, t)[1][:limit] if 'extracts' in str(d.get('warnings', '')) else (d['query']['pages'][0].get('extract', '') or '')[:limit]
-    open(f, 'w', encoding='utf-8').write(x); return x
+    if x: open(f, 'w', encoding='utf-8').write(x)  # never cache an empty page: one failed fetch must not weaken the row for good
+    return x
 def exists(url):
     h, t = url.split('/')[2], urllib.parse.unquote(url.split('/wiki/', 1)[1]).replace('_', ' ')
     return not any(x.get('missing') for x in api(h, {'action': 'query', 'titles': t})['query']['pages'])
