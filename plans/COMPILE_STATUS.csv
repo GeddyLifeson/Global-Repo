@@ -1,0 +1,114 @@
+# Compile status 2026-11-09: diaithir-ports commit 25aafee5e1 (branch diaithircompat), JDK 25, gradle compileJava, 3 modules in parallel
+module,result,note,seconds
+alexs-caves,OK,needs citadel jar (-PcitadelJar); rerun OK,28s
+antique-atlas,OK,needs surveyor jar built first (gradle jar); rerun OK,18s
+citadel,OK,,124s
+create-addons-b5,OK,,217s
+create-addons-n1,OK,,114s
+create-addons-n2,OK,,96s
+deeperdarker,OK,,99s
+diaithir-activity,OK,,23s
+diaithir-animation,OK,,90s
+diaithir-animation-machines,OK,,22s
+diaithir-arms,OK,,89s
+diaithir-aurorian,OK,,20s
+diaithir-automation-crafting,OK,,115s
+diaithir-bestiary,OK,,27s
+diaithir-bosses,OK,,26s
+diaithir-branding,OK,,19s
+diaithir-brewing,OK,,22s
+diaithir-bridges,OK,,15s
+diaithir-buildcraft,OK,,21s
+diaithir-buildcraft2,OK,,20s
+diaithir-butchery,OK,,24s
+diaithir-carts,OK,,23s
+diaithir-chat-client,OK,,21s
+diaithir-chunkloaders,OK,,24s
+diaithir-claims,OK,,182s
+diaithir-classes,OK,,28s
+diaithir-client-render-culling,OK,,113s
+diaithir-client-view-input,OK,,21s
+diaithir-clientcore,OK,,25s
+diaithir-climate,OK,,21s
+diaithir-combat,OK,,24s
+diaithir-compat,OK,,11s
+diaithir-computing,OK,,26s
+diaithir-conduits,OK,,22s
+diaithir-crash-tools,OK,,111s
+diaithir-creature-utilities,OK,,22s
+diaithir-creatureutils,OK,,23s
+diaithir-cropgenes,OK,,23s
+diaithir-druidry,OK,,23s
+diaithir-earlywindow,OK,,20s
+diaithir-elevators,OK,,21s
+diaithir-end,OK,,19s
+diaithir-entity-animation,OK,,112s
+diaithir-farmkitchen,OK,,40s
+diaithir-fauna,OK,,22s
+diaithir-filters,OK,,23s
+diaithir-firearms,OK,,23s
+diaithir-footsteps,OK,,23s
+diaithir-forcefield,OK,,21s
+diaithir-forgeworks,OK,,25s
+diaithir-foundry,OK,,22s
+diaithir-furnishings,OK,,21s
+diaithir-furniture,OK,,19s
+diaithir-gear,OK,,108s
+diaithir-gellings,OK,,20s
+diaithir-gods,OK,,28s
+diaithir-harbour,OK,,22s
+diaithir-hostile-encounters,OK,,107s
+diaithir-hud-overlays,OK,,22s
+diaithir-inventory-ui,OK,,21s
+diaithir-linked-storage,OK,needs diaithir-units publishToMavenLocal; rerun OK,17s
+diaithir-logistics-utilities,OK,,19s
+diaithir-miners,OK,,21s
+diaithir-myth,OK,,21s
+diaithir-nemesis,OK,,22s
+diaithir-nether,OK,,19s
+diaithir-optigui,OK,,162s
+diaithir-overworld-biomes,OK,,109s
+diaithir-pipes,OK,,21s
+diaithir-portable,OK,,21s
+diaithir-potions,OK,,17s
+diaithir-relics,OK,,19s
+diaithir-routing,OK,,19s
+diaithir-rpg-open,OK,,134s
+diaithir-sharedspace,OK,,24s
+diaithir-ships,OK,,210s
+diaithir-steamrails,OK,,27s
+diaithir-storagenet,OK,,21s
+diaithir-tanning,OK,,22s
+diaithir-tooltipfx,OK,,23s
+diaithir-travel-structures,OK,,18s
+diaithir-trees,OK,,15s
+diaithir-trials-overhaul,OK,,20s
+diaithir-units,OK,,22s
+diaithir-unrest,OK,,21s
+diaithir-upgrades,OK,,12s
+diaithir-vehicles,OK,,29s
+diaithir-vehicles-crayfish,OK,first run raced with diaithir-vehicles included build; rerun alone OK,17s
+diaithir-voice-interaction,OK,,32s
+diaithir-wiretech,OK,,22s
+diaithir-woodvariants,OK,,19s
+diaithir-world-visuals,OK,,105s
+diaithir-worldevents,OK,,23s
+diaithir-worldsys,OK,,105s
+eureka,OK,pin vs2_version bumped to 2.5.0-diaithir.10 (ports PR from claude/project-thread-3pqc4i); needs VS in mavenLocal,46s
+goety,OK,,23s
+gregtech,OK,,142s
+iceandfire,OK,,146s
+kaleidoscope-tavern,OK,,113s
+musketmod,OK,,114s
+pneumaticcraft,OK,,131s
+spartan-weaponry,OK,,21s
+surveyor,OK,,110s
+uranus,OK,,85s
+valkyrienskies,OK,first run plugin resolve transient; rerun OK; publishToMavenLocal done for eureka,161s
+create-addons-B1,BLOCKED,needs gitignored libs/create-port.jar (Create port diaithir.8 not in cloud) and has no gradlew; earlier 11-03 run was OK with that jar,
+create-addons-batch1b,N/A,"no build.gradle (data, docs or built elsewhere)",
+diaithir-routing-networks,N/A,"no build.gradle (data, docs or built elsewhere)",
+diaithir-worldgen-structures,N/A,"no build.gradle (data, docs or built elsewhere)",
+jupiter,N/A,"no build.gradle (data, docs or built elsewhere)",
+library-sync,N/A,"no build.gradle (data, docs or built elsewhere)",
+planets-data,N/A,"no build.gradle (data, docs or built elsewhere)",
