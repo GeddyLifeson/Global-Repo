@@ -1,4 +1,7 @@
 # Judge playbook (in-session, no API). Read only this page.
+
+> **Judge spec (corrected 11-10, review D8).** The spec is this PLAYBOOK plus `tools/validate.py` and `plans/powers/JUDGE_PAGES.md`. `c3m.zip` is only the maths library (`measure.py`, `combat.py` ...); it holds no validator, source rule or 2% limit. The PASS line now prints `(lead-skip n, empty-page n, absent n, b0 n)`: an empty page is a reject, quotes under 15 characters are rejected, and "absent" only exempts table/template fragments. `autofix.py` no longer writes `z` for Abilities sections; a worker must read them.
+
 Batches: plans/powers/judge/batches/shard_160..927.jsonl (250 pages each, beings first).. Test shard 106 cost about 12k tokens of reading.
 
 ## Loop

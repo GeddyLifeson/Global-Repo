@@ -5,7 +5,7 @@
 Checks: row count/ids/order match the batch; u/t equal the resolved source and the page exists and starts with the batch lead;
 every p/f/gear quote is verbatim in the fetched full page; required fields, pool ids, m 1-10, c h/m/l; b0 rows carry no powers or gear kind;
 b2 only weapon/armor/vehicle with m/q/c; a being whose page has an Abilities/Powers/Spells section must have a power, a feat, or z='none stated: <reason>'."""
-import json, os, re, sys, glob, time
+import json, os, re, sys, glob, time, collections
 HERE = os.path.dirname(os.path.abspath(__file__)); sys.path.insert(0, HERE)
 import pages, judge, feats, math
 O, B = judge.O, judge.B
@@ -37,12 +37,15 @@ def check_feat(f, F):
         if not any(abs(val - x) <= 1e-6 * max(1, abs(val)) for x in q) and k not in ('j_per_cc', 'heat_capacity', 'delta_t', 'latent_heat'):
             return f"input {k}={val} {unit} does not appear as a number in the quote"
     return ''
+LEADSKIP = re.compile(r'\s*(\{\{|[^\]]{0,120}\]\]|is |was |are |,)')
+MINQ = 15  # shortest power/gear quote accepted; one-word quotes ("Flight") prove nothing
+FRAG = re.compile(r'\s*(\{\||\||!|\{\{)')  # only table/template markup counts as a provable fragment
 def overrides():
     """Signed lead-match overrides in HOLDS.txt: `OVERRIDE shard=N row=I url=U`, exact match only."""
     f = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'HOLDS.txt')
     return {(int(m[0]), int(m[1])): m[2] for m in re.findall(r'(?m)^OVERRIDE shard=(\d+) row=(\d+) url=(\S+)$', open(f, encoding='utf-8').read())} if os.path.exists(f) else {}
 def check(n, path=None, meta=None):
-    err = []; n = int(n)
+    err = []; n = int(n); W = collections.Counter()
     R = judge.rows(n); S = pages.srcs(n)
     p = path or f'{O}shard_{n}.out.jsonl'
     if not os.path.exists(p): return [(-1, 'no output file')]
@@ -58,14 +61,14 @@ def check(n, path=None, meta=None):
             e('source page unresolved: only a b0 row with z="no source page: <reason>" is allowed'); continue
         if o.get('u') != s['url'] or o.get('t') != s['title']: e('source url/title missing or differs from resolved source'); continue
         full = pages.text(s['url'])
-        if not full:
-            if not pages.exists(s['url']): e('source page does not exist'); continue
-            full = r['text']
-        elif not pages.match(r['text'], full) and OV.get((n, i)) != s['url'] and not (full == '' ) and not re.match(r'\s*(\{\{|[^\]]{0,120}\]\]|is |was |are |,)', r['text']):  # template-start row: resolver accepts the page named by its Name/MainPage field
-            e('page text does not start like the batch lead (wrong page?)'); continue
+        if not full: e('page text empty or unreachable (rate limit?): rejected, not trusted against the batch lead'); W['empty'] += 1; continue
+        if not pages.match(r['text'], full) and OV.get((n, i)) != s['url']:
+            if LEADSKIP.match(r['text']): W['leadskip'] += 1  # template-start row: resolver accepts the page named by its Name/MainPage field; counted in the PASS line
+            else: e('page text does not start like the batch lead (wrong page?)'); continue
         F = squash(full)
         b = o.get('b')
         if b not in (0, 1, 2): e('bad b'); continue
+        if b == 0: W['b0'] += 1
         if b == 0 and (o.get('p') or o.get('k') or o.get('f')): e('non-being carries powers/gear/feats (only weapon/armor/vehicle are assayed)')
         if b in (1, 2):
             if not o.get('s'): e('summary missing')
@@ -74,6 +77,7 @@ def check(n, path=None, meta=None):
             if o.get('k') not in ('weapon', 'armor', 'vehicle'): e('gear kind invalid')
             if not (isinstance(o.get('m'), int) and 1 <= o['m'] <= 10): e('gear m not 1-10')
             if o.get('c') not in ('h', 'm', 'l'): e('gear c invalid')
+            if len(squash(o.get('q', ''))) < MINQ: e(f'gear quote under {MINQ} chars')
             if not o.get('q') or squash(o['q']) not in F: e('gear quote not verbatim in page')
         if b == 1:
             for k in ('n', 'p', 'x', 'f', 'u', 's', 't'):
@@ -82,6 +86,7 @@ def check(n, path=None, meta=None):
                 if q.get('id') not in ids: e(f"unknown pool id {q.get('id')}")
                 if not (isinstance(q.get('m'), int) and 1 <= q['m'] <= 10): e(f"m not 1-10 for {q.get('id')}")
                 if q.get('c') not in ('h', 'm', 'l'): e(f"c invalid for {q.get('id')}")
+                if len(squash(q.get('q', ''))) < MINQ: e(f"power quote under {MINQ} chars: {q.get('q','')!r}")
                 if not q.get('q') or squash(q['q']) not in F: e(f"power quote not verbatim in page: {q.get('q','')[:40]!r}")
             for q in o.get('f', []):
                 msg = check_feat(q, F)
@@ -89,12 +94,16 @@ def check(n, path=None, meta=None):
             if sect_text(full) and not (o.get('p') or o.get('f') or o.get('x') or str(o.get('z', '')).startswith('none stated:')):
                 e("page has an Abilities/Powers section but row has no power, feat, x, or z='none stated: reason'")
     ap = f'{B}shard_{n}.absent.json'; absent = set(json.load(open(ap))) if os.path.exists(ap) else set()  # rows the resolver confirmed absent (pages.py ABSENT RULE) do not count toward the cap
-    nosrc = sum(1 for o in out if o.get('z', '').startswith('no source page:') and o.get('id') not in absent)
+    frag = {r['id'] for r in R if FRAG.match(r['text'])}  # absent exemption only for provable table/template fragments, never for matcher misses
+    W['absent'] = sum(1 for o in out if o.get('id') in absent and o.get('id') in frag)
+    nosrc = sum(1 for o in out if o.get('z', '').startswith('no source page:') and not (o.get('id') in absent and o.get('id') in frag))
     if nosrc > max(1, len(R) // 50): err.append((-1, f'{nosrc} rows without a source page exceeds 2% of the shard'))
     mp = meta or f'{O}shard_{n}.meta.json'
     cnt = {'rows': len(out), 'beings': sum(o.get('b') == 1 for o in out), 'gear': sum(o.get('b') == 2 for o in out), 'powers': sum(len(o.get('p', [])) for o in out), 'feats': sum(len(o.get('f', [])) for o in out)}
     if not os.path.exists(mp): err.append((-1, 'meta.json missing'))
     elif json.load(open(mp)) != cnt: err.append((-1, f'shard totals {json.load(open(mp))} != recount {cnt}'))
+    if out and W['b0'] == len(out) and len(out) >= 5: err.append((-1, 'every row marked b0: shard not judged'))
+    check.warn = dict(W)
     return err
 if __name__ == '__main__':
     a = sys.argv[1:]
@@ -108,6 +117,7 @@ if __name__ == '__main__':
                 time.sleep(30 * (k + 1))
         else: er = [(-1, 'fetch failed after retries; rerun')]
         bad += bool(er)
-        print(f'shard {n}: ' + ('PASS' if not er else f'REJECT ({len(er)} problems)'))
+        w = getattr(check, 'warn', {})
+        print(f'shard {n}: ' + (f"PASS (lead-skip {w.get('leadskip', 0)}, empty-page {w.get('empty', 0)}, absent {w.get('absent', 0)}, b0 {w.get('b0', 0)})" if not er else f'REJECT ({len(er)} problems)'))
         for i, m in er[:30]: print(f'   row {i}: {m}')
     sys.exit(1 if bad else 0)
