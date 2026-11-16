@@ -65,7 +65,7 @@ def accept(j,txt,host,univ,n):
     ce=float(d['ceiling_T']); assert 1<=ce<=75
     feats=[f for f in d.get('feats',[])[:3] if f.get('axis') in('AP','Dur','v') and (f.get('speed_m_s',0) or 0)<=3e8 and 0<(f.get('energy_J') or f.get('speed_m_s') or 0) and (f.get('energy_J') or 1)<=10**(ce+2)]
     pw=[p for p in d.get('powers',[])[:4] if re.fullmatch(r'[a-z_]+:(10|[1-9])',p)]
-    return {'id':f'{R2[realm]}.{univ.lower()}.{j["era"]}.assay.{n}','name':j['name'],'universe':univ,'realm':realm,'era':j['era'],'age':int(j['era'][1:]),'summary':s,'feats':feats,'ceiling_T':d.get('ceiling_T'),'powers':pw,
+    return {'id':f'{R2[realm]}.{univ.lower()}.{j["era"]}.originate.{n}','name':j['name'],'universe':univ,'realm':realm,'era':j['era'],'age':int(j['era'][1:]),'summary':s,'feats':feats,'ceiling_T':d.get('ceiling_T'),'powers':pw,
       'source_wiki':host,'source_page_id':j['pid'],'source_title':j['title'],'source_url':f'https://{host}/wiki/'+j['title'].replace(' ','_')}
 def collect(jd,host,univ,outf):
     BA=json.load(open(jd+'/batches.json')); B=[b for b in BA if os.path.basename(b['file']).startswith(host)]
