@@ -1,3 +1,5 @@
 cloud/headless_bot/out/
 __pycache__/
 *.pyc
+__pycache__/
+*.pyc
