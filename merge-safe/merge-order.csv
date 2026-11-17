@@ -270,3 +270,5 @@ wave,repo,number,base,head,partner,title
 0,global-repo,116,main,claude/project-thread-ah6kth,,Add test-everything harness (manifest + RCON runner) [edits SCRIPTS_INDEX.md and ids.tsv: merge one at a time]
 0,global-repo,65,main,claude/project-thread-dbu33i,,Relink assayed Panscriptum beings to source pages (S6974) [edits SCRIPTS_INDEX.md: merge before #66]
 0,global-repo,66,main,claude/project-thread-28p9u0,65,Panscriptum gap fill: DC characters (23764) with source page ids [edits SCRIPTS_INDEX.md: merge after #65]
+
+0,25x125,29,main,claude/project-thread-jdatgu,,"Finish the website: tax sale on screen, rezonings nearby, help, sources and area pages"
