@@ -69,7 +69,7 @@
 {"id": "destiny-1-2|7828", "b": 0, "u": "https://www.destinypedia.com/wiki/Conflux_Watch_Prime", "t": "Conflux Watch Prime"}
 {"id": "destiny-1-2|5910", "b": 0, "u": "https://destiny.fandom.com/wiki/Vandal", "t": "Vandal"}
 {"id": "destiny-1-2|12641", "b": 0, "u": "https://www.destinypedia.com/wiki/Stealth_Captain", "t": "Stealth Captain"}
-{"id": "dc|46295", "b": 1, "n": "nl:Zatanna", "p": [], "x": [], "f": [], "z": "", "st": "", "u": "https://dc.fandom.com/wiki/Zatanna", "s": "Zatanna is a powerful stage magician and sorcerer and the daughter of legendary magician Giovanni Zatara.", "t": "Zatanna"}
+{"id": "dc|46295", "b": 1, "n": "Zatanna", "p": [], "x": ["spell-casting by speaking backwards"], "f": [], "z": "", "st": "", "u": "https://dc.fandom.com/wiki/Zatanna", "s": "Zatanna is a powerful stage magician and sorcerer and the daughter of legendary magician Giovanni Zatara.", "t": "Zatanna"}
 {"id": "dc|2065", "b": 0, "u": "", "t": "", "z": "no source page: no source page (NO-SOURCE)"}
 {"id": "dc|18755", "b": 1, "n": "Tommy Monaghan", "p": [{"id": "telepathy", "m": 1, "q": "Tommy could use controlled telepathy on those with no psionic defences.", "c": "h"}], "x": ["x-ray vision"], "f": [], "z": "", "st": "", "u": "https://dc.fandom.com/wiki/Thomas_Monaghan_%28New_Earth%29", "s": "{{Disambig | Image = Hitman 0002.jpg | MainPage = Thomas Monaghan (New Earth) | AltID = | ImageText = Thomas Monaghan | Era1 = Iron Age | Description = Thomas \"Tommy\" Monaghan is a Hitman with superpo", "t": "Thomas Monaghan (New Earth)"}
 {"id": "critical-role-tal-dorei-campaign-setting|2077", "b": 0, "u": "https://criticalrole.fandom.com/wiki/Invisible_stalker", "t": "Invisible stalker"}
