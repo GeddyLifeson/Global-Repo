@@ -48,6 +48,7 @@ UNITW = {u: re.compile(r'(?<![A-Za-z])(' + w + r')(?![A-Za-z])', re.I if len(w) 
     'km^3': 'km\\^?3|cubic kilomet\\w+', 's': 's|secs?|seconds?', 'min': 'min|minutes?', 'h': 'h|hrs?|hours?', 'day': 'days?', 'year': 'years?|yrs?',
     'm/s': 'm/s|met(?:er|re)s? per second|mach', 'km/h': 'km/h|kph|mph|miles? per hour|kilomet\\w+ per hour', 'c': 'c|light|lightspeed'}.items()}
 LEADSKIP = re.compile(r'\s*(\{\{|[^\]]{0,120}\]\]|is |was |are |,)')
+SCALE2 = r'|globe|\bworlds?\b|\bplane\b|dimension|interstellar|cosmic|\bgods?\b'  # canon scale words the base list lacked (11-19): world/plane/dimension travel, globe-wrapping, divine
 MINQ = 15  # shortest power/gear quote accepted; one-word quotes ("Flight") prove nothing
 FRAG = re.compile(r'\s*(\{\||\||!|\{\{)')  # only table/template markup counts as a provable fragment
 def overrides():
@@ -102,7 +103,7 @@ def check(n, path=None, meta=None):
                 elif q.get('id') in KW and not KW[q['id']].search(q['q']): W['kwless'] += 1  # quote has none of the pool id's keywords
                 if isinstance(q.get('m'), int) and q['m'] >= 7:
                     W['hi_m'] += 1
-                    if not (re.search(judge.SCALE, q.get('q', ''), re.I) or re.search(r'\d', q.get('q', ''))): e(f"m={q['m']} for {q.get('id')} but the quote states no scale or number")
+                    if not (re.search(judge.SCALE + SCALE2, q.get('q', ''), re.I) or re.search(r'\d', q.get('q', ''))): e(f"m={q['m']} for {q.get('id')} but the quote states no scale or number")
             for q in o.get('f', []):
                 msg = check_feat(q, F)
                 if msg: e(msg)
