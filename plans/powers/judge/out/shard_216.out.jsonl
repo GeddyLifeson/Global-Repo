@@ -229,7 +229,7 @@
 {"id": "world-of-warcraft|178637", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Scalesworn_Elite", "t": "Scalesworn Elite"}
 {"id": "world-of-warcraft|178646", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Scar_of_the_Worldbreaker", "t": "Scar of the Worldbreaker"}
 {"id": "world-of-warcraft|178733", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Scalehide", "t": "Scalehide"}
-{"id": "world-of-warcraft|178822", "b": 1, "n": "Scalecommander Sarkareth", "p": [{"id": "flight", "m": 1, "q": "Soar", "c": "l"}], "x": [], "f": [], "z": "", "st": "game", "u": "https://wowpedia.fandom.com/wiki/Scalecommander_Sarkareth", "s": "Scalecommander Sarkareth is one of the five Scalecommanders of the dracthyr.", "t": "Scalecommander Sarkareth"}
+{"id": "world-of-warcraft|178822", "b": 1, "n": "Scalecommander Sarkareth", "p": [{"id": "flight", "m": 1, "q": "== Abilities == Soar ", "c": "l"}], "x": [], "f": [], "z": "", "st": "game", "u": "https://wowpedia.fandom.com/wiki/Scalecommander_Sarkareth", "s": "Scalecommander Sarkareth is one of the five Scalecommanders of the dracthyr.", "t": "Scalecommander Sarkareth"}
 {"id": "world-of-warcraft|179005", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Scarlet_Watchtower", "t": "Scarlet Watchtower"}
 {"id": "world-of-warcraft|179180", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Schematic%3A_Honorable_Combatant%27s_Stormsteel_Destroyer", "t": "Schematic: Honorable Combatant's Stormsteel Destroyer"}
 {"id": "world-of-warcraft|179188", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Schematic%3A_Finely-Tuned_Stormsteel_Destroyer", "t": "Schematic: Finely-Tuned Stormsteel Destroyer"}

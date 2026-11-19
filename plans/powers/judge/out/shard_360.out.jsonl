@@ -226,7 +226,7 @@
 {"id": "world-of-warcraft|88102", "b": 0, "u": "https://wowpedia.fandom.com/wiki/General%27s_Dragonhide_Gloves", "t": "General's Dragonhide Gloves"}
 {"id": "world-of-warcraft|88103", "b": 0, "u": "https://wowpedia.fandom.com/wiki/General%27s_Dragonhide_Leggings", "t": "General's Dragonhide Leggings"}
 {"id": "world-of-warcraft|88104", "b": 1, "n": "Gazrog", "p": [], "x": [], "f": [], "z": "", "st": "game", "u": "https://wowpedia.fandom.com/wiki/Gazrog", "s": "Gazrog is an orc quest giver located at Ratchet in the Northern Barrens.", "t": "Gazrog"}
-{"id": "world-of-warcraft|88106", "b": 1, "n": "__NOTOC__\nGeltharis", "p": [{"id": "fireball", "m": 1, "q": "Fel Fireball", "c": "l"}], "x": [], "f": [], "z": "", "st": "game", "u": "https://wowpedia.fandom.com/wiki/Geltharis", "s": "__NOTOC__ Geltharis is a satyr located in Ashenvale.", "t": "Geltharis"}
+{"id": "world-of-warcraft|88106", "b": 1, "n": "__NOTOC__\nGeltharis", "p": [{"id": "fireball", "m": 1, "q": "Fel Fireball — Inflicts Fire damage to an enemy. ", "c": "l"}], "x": [], "f": [], "z": "", "st": "game", "u": "https://wowpedia.fandom.com/wiki/Geltharis", "s": "__NOTOC__ Geltharis is a satyr located in Ashenvale.", "t": "Geltharis"}
 {"id": "world-of-warcraft|88108", "b": 0, "u": "https://wowpedia.fandom.com/wiki/General%27s_Silk_Handguards", "t": "General's Silk Handguards"}
 {"id": "world-of-warcraft|88109", "b": 0, "u": "https://wowpedia.fandom.com/wiki/General%27s_Silk_Boots", "t": "General's Silk Boots"}
 {"id": "world-of-warcraft|88110", "b": 0, "u": "https://wowpedia.fandom.com/wiki/General%27s_Silk_Trousers", "t": "General's Silk Trousers"}
