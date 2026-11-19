@@ -212,8 +212,8 @@
 {"id": "xenoblade|22061", "b": 0, "u": "https://xenoblade.fandom.com/wiki/Zephyr%27s_Counsel", "t": "Zephyr's Counsel"}
 {"id": "xenoblade|22063", "b": 2, "k": "armor", "n": "Étoile Boosters", "m": 1, "q": "Mechonis leg armour", "c": "h", "p": [], "u": "https://xenoblade.fandom.com/wiki/%C3%89toile_Boosters", "s": "Étoile Boosters are Mechonis leg armour in .", "t": "Étoile Boosters"}
 {"id": "xenoblade|22064", "b": 0, "u": "https://xenoblade.fandom.com/wiki/%C3%89toile_Drones", "t": "Étoile Drones"}
-{"id": "xenoblade|22065", "b": 2, "k": "armor", "n": "Étoile Arms", "m": 1, "q": "Mechonis arms", "c": "h", "p": [], "u": "https://xenoblade.fandom.com/wiki/%C3%89toile_Arms", "s": "Étoile Arms are Mechonis arms in .", "t": "Étoile Arms"}
-{"id": "xenoblade|22066", "b": 2, "k": "armor", "n": "Étoile Frame", "m": 1, "q": "Mechonis frame", "c": "h", "p": [], "u": "https://xenoblade.fandom.com/wiki/%C3%89toile_Frame", "s": "Étoile Frames are Mechonis frame in .", "t": "Étoile Frame"}
+{"id": "xenoblade|22065", "b": 2, "k": "armor", "n": "Étoile Arms", "m": 1, "q": "Étoile Arms are Mechonis arms in . They can be bought at shops for 16,500 G.", "c": "h", "p": [], "u": "https://xenoblade.fandom.com/wiki/%C3%89toile_Arms", "s": "Étoile Arms are Mechonis arms in .", "t": "Étoile Arms"}
+{"id": "xenoblade|22066", "b": 2, "k": "armor", "n": "Étoile Frame", "m": 1, "q": "Étoile Frames are Mechonis frame in . They can be bought at shops for 28,500 G.", "c": "h", "p": [], "u": "https://xenoblade.fandom.com/wiki/%C3%89toile_Frame", "s": "Étoile Frames are Mechonis frame in .", "t": "Étoile Frame"}
 {"id": "xenoblade|22067", "b": 2, "k": "armor", "n": "Étoile Goggles", "m": 1, "q": "Mechonis goggles", "c": "h", "p": [], "u": "https://xenoblade.fandom.com/wiki/%C3%89toile_Goggles", "s": "Étoile Goggles are Mechonis goggles in .", "t": "Étoile Goggles"}
 {"id": "xenoblade|22068", "b": 0, "u": "https://xenoblade.fandom.com/wiki/Zero_Blade", "t": "Zero Blade"}
 {"id": "xenoblade|22069", "b": 0, "u": "https://xenoblade.fandom.com/wiki/Zephyr", "t": "Zephyr"}

@@ -1,0 +1,919 @@
+shard 0: PASS (lead-skip 5, empty-page 0, kw-less 56, m>=7 2, absent 0, b0 165)
+shard 1: REJECT (14 problems)
+   row 3: power quote under 15 chars: 'Invisibility'
+   row 3: power quote under 15 chars: 'Intangibility'
+   row 3: power quote under 15 chars: 'Teleportation'
+   row 17: m=7 for energy_beam but the quote states no scale or number
+   row 28: m=8 for regeneration but the quote states no scale or number
+   row 50: m=7 for time_stop but the quote states no scale or number
+   row 75: power quote under 15 chars: 'super-speed'
+   row 79: power quote under 15 chars: 'super-speed'
+   row 115: power quote under 15 chars: 'Flight'
+   row 115: power quote under 15 chars: 'Telepathy'
+   row 115: power quote under 15 chars: 'Immortality'
+   row 240: power quote under 15 chars: 'Flight'
+   row 240: power quote under 15 chars: 'Pyrokinesis'
+   row 241: power quote under 15 chars: 'Flight'
+shard 2: REJECT (2 problems)
+   row 101: power quote under 15 chars: 'Flight'
+   row 203: m=7 for blink but the quote states no scale or number
+shard 3: REJECT (8 problems)
+   row 90: power quote under 15 chars: 'Flight'
+   row 91: power quote under 15 chars: 'Flight'
+   row 113: power quote under 15 chars: 'Flight'
+   row 113: power quote under 15 chars: 'Balefire Blast'
+   row 113: power quote under 15 chars: 'Regeneration'
+   row 165: page text empty or unreachable (rate limit?): rejected, not trusted against the batch lead
+   row 201: power quote under 15 chars: 'Regeneration'
+   row 201: power quote under 15 chars: 'Flight'
+shard 4: REJECT (4 problems)
+   row 189: power quote under 15 chars: 'Flight'
+   row 189: power quote under 15 chars: 'Invisibility'
+   row 237: page text empty or unreachable (rate limit?): rejected, not trusted against the batch lead
+   row 238: page text empty or unreachable (rate limit?): rejected, not trusted against the batch lead
+shard 5: REJECT (7 problems)
+   row 47: m=7 for time_stop but the quote states no scale or number
+   row 71: page text does not start like the batch lead (wrong page?)
+   row 118: power quote under 15 chars: 'Flight'
+   row 129: m=8 for giant_size but the quote states no scale or number
+   row 130: m=8 for giant_size but the quote states no scale or number
+   row 136: m=7 for blink but the quote states no scale or number
+   row 177: m=7 for telepathy but the quote states no scale or number
+shard 6: REJECT (3 problems)
+   row 108: power quote under 15 chars: 'It can fly'
+   row 185: power quote under 15 chars: 'Regeneration'
+   row 225: power quote under 15 chars: 'Flight'
+shard 7: REJECT (2 problems)
+   row 129: power quote under 15 chars: 'Flight'
+   row 129: power quote under 15 chars: 'Flame Thrower'
+shard 8: PASS (lead-skip 15, empty-page 0, kw-less 10, m>=7 0, absent 0, b0 99)
+shard 9: REJECT (1 problems)
+   row 135: power quote under 15 chars: 'Flight'
+shard 10: PASS (lead-skip 0, empty-page 0, kw-less 3, m>=7 0, absent 0, b0 162)
+shard 11: REJECT (5 problems)
+   row 39: power quote under 15 chars: 'Flight'
+   row 39: power quote under 15 chars: 'Teleportation'
+   row 39: power quote under 15 chars: 'Telepathy'
+   row 103: m=9 for giant_size but the quote states no scale or number
+   row 147: power quote under 15 chars: 'turn invisible'
+shard 16: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 0, b0 18)
+shard 17: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 0, b0 8)
+shard 18: REJECT (1 problems)
+   row 220: power quote under 15 chars: 'Levitate'
+shard 19: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 0, b0 4)
+shard 20: PASS (lead-skip 0, empty-page 0, kw-less 1, m>=7 0, absent 0, b0 6)
+shard 21: REJECT (2 problems)
+   row 7: power quote under 15 chars: 'Invisibility'
+   row 7: power quote under 15 chars: 'Lightning Bolt'
+shard 22: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 0, b0 26)
+shard 23: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 0, b0 17)
+shard 24: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 0, b0 8)
+shard 25: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 0, b0 27)
+shard 26: REJECT (1 problems)
+   row 36: power quote under 15 chars: 'Fireball'
+shard 27: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 0, b0 17)
+shard 28: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 0, b0 10)
+shard 29: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 0, b0 16)
+shard 30: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 0, b0 5)
+shard 31: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 0, b0 6)
+shard 32: PASS (lead-skip 0, empty-page 0, kw-less 1, m>=7 0, absent 0, b0 7)
+shard 33: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 0, b0 5)
+shard 34: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 0, b0 6)
+shard 35: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 0, b0 13)
+shard 36: PASS (lead-skip 0, empty-page 0, kw-less 1, m>=7 0, absent 0, b0 8)
+shard 37: PASS (lead-skip 0, empty-page 0, kw-less 1, m>=7 0, absent 0, b0 19)
+shard 38: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 0, b0 6)
+shard 39: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 0, b0 10)
+shard 40: PASS (lead-skip 0, empty-page 0, kw-less 4, m>=7 0, absent 0, b0 53)
+shard 41: PASS (lead-skip 0, empty-page 0, kw-less 1, m>=7 0, absent 0, b0 50)
+shard 42: PASS (lead-skip 0, empty-page 0, kw-less 2, m>=7 0, absent 0, b0 35)
+shard 43: PASS (lead-skip 0, empty-page 0, kw-less 1, m>=7 0, absent 0, b0 33)
+shard 44: REJECT (1 problems)
+   row 53: page text does not start like the batch lead (wrong page?)
+shard 45: REJECT (1 problems)
+   row 185: power quote under 15 chars: 'teleport'
+shard 46: PASS (lead-skip 0, empty-page 0, kw-less 11, m>=7 0, absent 0, b0 48)
+shard 47: REJECT (10 problems)
+   row 51: m=9 for time_stop but the quote states no scale or number
+   row 124: page text empty or unreachable (rate limit?): rejected, not trusted against the batch lead
+   row 129: m=9 for time_stop but the quote states no scale or number
+   row 173: power quote under 15 chars: 'Potence 3'
+   row 173: power quote under 15 chars: 'Obfuscate 5'
+   row 194: power quote under 15 chars: 'Potence 3'
+   row 194: power quote under 15 chars: 'Obfuscate 3'
+   row 196: power quote under 15 chars: 'Celerity 2'
+   row 196: power quote under 15 chars: 'Potence 1'
+   row 243: power quote under 15 chars: 'Potence 1'
+shard 48: REJECT (2 problems)
+   row 46: power quote under 15 chars: 'Regenerate'
+   row 74: power quote under 15 chars: 'Shapeshift'
+shard 49: REJECT (12 problems)
+   row 0: power quote under 15 chars: 'Fortitude 2'
+   row 2: power quote under 15 chars: 'Celerity 3'
+   row 2: power quote under 15 chars: 'Potence 2'
+   row 2: power quote under 15 chars: 'Fortitude 4'
+   row 2: power quote under 15 chars: 'Obfuscate 2'
+   row 41: power quote under 15 chars: 'Obfuscate 3'
+   row 70: power quote under 15 chars: 'Potence 2'
+   row 80: power quote under 15 chars: 'Fortitude 2'
+   row 138: power quote under 15 chars: 'Mind Speech'
+   row 180: power quote under 15 chars: 'Fortitude 3'
+   row 229: power quote under 15 chars: 'Blast Flame'
+   row 248: power quote under 15 chars: 'Immortal Flesh'
+shard 50: PASS (lead-skip 0, empty-page 0, kw-less 1, m>=7 0, absent 0, b0 27)
+shard 51: PASS (lead-skip 1, empty-page 0, kw-less 0, m>=7 0, absent 0, b0 94)
+shard 52: PASS (lead-skip 0, empty-page 0, kw-less 2, m>=7 0, absent 0, b0 7)
+shard 53: REJECT (1 problems)
+   row 204: power quote under 15 chars: 'turn invisible'
+shard 54: PASS (lead-skip 0, empty-page 0, kw-less 4, m>=7 0, absent 0, b0 12)
+shard 55: PASS (lead-skip 0, empty-page 0, kw-less 1, m>=7 0, absent 0, b0 3)
+shard 56: PASS (lead-skip 0, empty-page 0, kw-less 2, m>=7 0, absent 0, b0 13)
+shard 57: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 0, b0 12)
+shard 58: PASS (lead-skip 0, empty-page 0, kw-less 2, m>=7 0, absent 0, b0 13)
+shard 59: REJECT (1 problems)
+   row 105: power quote under 15 chars: 'fireballs'
+shard 60: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 0, b0 15)
+shard 61: PASS (lead-skip 0, empty-page 0, kw-less 3, m>=7 0, absent 0, b0 9)
+shard 62: PASS (lead-skip 0, empty-page 0, kw-less 1, m>=7 0, absent 0, b0 12)
+shard 63: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 0, b0 13)
+shard 64: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 0, b0 26)
+shard 65: PASS (lead-skip 0, empty-page 0, kw-less 1, m>=7 0, absent 0, b0 125)
+shard 66: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 0, b0 5)
+shard 67: REJECT (1 problems)
+   row 137: power quote under 15 chars: 'Invisibility'
+shard 68: REJECT (1 problems)
+   row 59: power quote under 15 chars: 'Fireball'
+shard 69: REJECT (1 problems)
+   row 92: power quote under 15 chars: 'Invisibility'
+shard 70: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 0, b0 15)
+shard 71: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 0, b0 5)
+shard 72: PASS (lead-skip 0, empty-page 0, kw-less 1, m>=7 0, absent 0, b0 45)
+shard 73: REJECT (1 problems)
+   row 246: power quote under 15 chars: 'Invisibility'
+shard 74: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 0, b0 9)
+shard 75: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 0, b0 16)
+shard 76: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 0, b0 34)
+shard 77: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 0, b0 21)
+shard 78: REJECT (1 problems)
+   row 131: power quote under 15 chars: 'Great Levitate'
+shard 79: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 0, b0 29)
+shard 80: REJECT (3 problems)
+   row 14: power quote under 15 chars: 'healed quickly'
+   row 50: power quote under 15 chars: 'Telepathy'
+   row 57: power quote under 15 chars: 'Immortality'
+shard 81: REJECT (1 problems)
+   row 178: page text empty or unreachable (rate limit?): rejected, not trusted against the batch lead
+shard 82: REJECT (3 problems)
+   row 208: power quote under 15 chars: 'Teleportation'
+   row 220: power quote under 15 chars: 'Telepathy'
+   row 220: power quote under 15 chars: 'Immortality'
+shard 83: PASS (lead-skip 0, empty-page 0, kw-less 1, m>=7 0, absent 0, b0 86)
+shard 84: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 0, b0 77)
+shard 85: REJECT (9 problems)
+   row 91: power quote under 15 chars: 'Misty Step'
+   row 102: power quote under 15 chars: 'Flight'
+   row 104: power quote under 15 chars: 'Flight'
+   row 104: power quote under 15 chars: 'Eldritch Blast'
+   row 111: power quote under 15 chars: 'Flight'
+   row 112: power quote under 15 chars: 'Flight'
+   row 112: power quote under 15 chars: 'Heat Vision'
+   row 115: power quote under 15 chars: 'Teleportation'
+   row 131: power quote under 15 chars: 'can teleport'
+shard 86: REJECT (1 problems)
+   row 169: m=9 for freeze_breath but the quote states no scale or number
+shard 87: PASS (lead-skip 0, empty-page 0, kw-less 14, m>=7 0, absent 0, b0 43)
+shard 88: REJECT (7 problems)
+   row 88: power quote under 15 chars: 'Super Strength'
+   row 88: power quote under 15 chars: 'Super Speed'
+   row 88: power quote under 15 chars: 'Invisibility'
+   row 88: power quote under 15 chars: 'Intangibility'
+   row 88: power quote under 15 chars: 'Healing Factor'
+   row 88: power quote under 15 chars: 'Pyrokinesis'
+   row 206: power quote under 15 chars: 'Koakoa can fly'
+shard 89: PASS (lead-skip 1, empty-page 0, kw-less 5, m>=7 0, absent 0, b0 100)
+shard 90: REJECT (5 problems)
+   row 22: page text empty or unreachable (rate limit?): rejected, not trusted against the batch lead
+   row 173: power quote under 15 chars: 'Potence 3'
+   row 173: power quote under 15 chars: 'Obfuscate 2'
+   row 246: power quote under 15 chars: 'Celerity 4'
+   row 246: power quote under 15 chars: 'Obfuscate 2'
+shard 91: PASS (lead-skip 0, empty-page 0, kw-less 3, m>=7 0, absent 0, b0 63)
+shard 92: REJECT (1 problems)
+   row 227: gear quote under 15 chars
+shard 105: REJECT (3 problems)
+   row 91: page text empty or unreachable (rate limit?): rejected, not trusted against the batch lead
+   row 196: power quote under 15 chars: 'Flight'
+   row 196: power quote under 15 chars: 'Teleport'
+shard 106: PASS (lead-skip 0, empty-page 0, kw-less 2, m>=7 0, absent 0, b0 64)
+shard 107: REJECT (6 problems)
+   row 2: power quote under 15 chars: 'Celerity 4'
+   row 2: power quote under 15 chars: 'Vigor 4'
+   row 2: power quote under 15 chars: 'Resilience 5'
+   row 28: power quote under 15 chars: 'Celerity 2'
+   row 28: power quote under 15 chars: 'Vigor 3'
+   row 30: power quote under 15 chars: 'Fortitude 2'
+shard 108: REJECT (1 problems)
+   row 127: gear quote under 15 chars
+shard 109: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 0, b0 90)
+shard 110: PASS (lead-skip 0, empty-page 0, kw-less 8, m>=7 0, absent 0, b0 79)
+shard 111: PASS (lead-skip 0, empty-page 0, kw-less 2, m>=7 0, absent 0, b0 66)
+shard 112: PASS (lead-skip 0, empty-page 0, kw-less 3, m>=7 0, absent 0, b0 93)
+shard 113: REJECT (3 problems)
+   row 58: page text does not start like the batch lead (wrong page?)
+   row 74: power quote under 15 chars: 'Phasing'
+   row 75: page text does not start like the batch lead (wrong page?)
+shard 114: REJECT (3 problems)
+   row 7: gear quote under 15 chars
+   row 15: gear quote under 15 chars
+   row 23: gear quote under 15 chars
+shard 115: REJECT (3 problems)
+   row 78: power quote under 15 chars: 'energy-blasts'
+   row 78: power quote under 15 chars: 'teleportation'
+   row 78: power quote under 15 chars: 'levitation'
+shard 116: REJECT (1 problems)
+   row 134: m=9 for blink but the quote states no scale or number
+shard 117: REJECT (1 problems)
+   row 209: gear quote under 15 chars
+shard 118: REJECT (4 problems)
+   row 64: page text empty or unreachable (rate limit?): rejected, not trusted against the batch lead
+   row 70: page text empty or unreachable (rate limit?): rejected, not trusted against the batch lead
+   row 176: power quote under 15 chars: 'Flight'
+   row 176: power quote under 15 chars: 'Regeneration'
+shard 119: REJECT (5 problems)
+   row 181: gear quote under 15 chars
+   row 193: gear quote under 15 chars
+   row 213: gear quote under 15 chars
+   row 217: gear quote under 15 chars
+   row 249: gear quote under 15 chars
+shard 120: PASS (lead-skip 0, empty-page 0, kw-less 1, m>=7 0, absent 0, b0 106)
+shard 121: REJECT (1 problems)
+   row 98: gear quote under 15 chars
+shard 122: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 0, b0 121)
+shard 123: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 0, b0 167)
+shard 124: REJECT (4 problems)
+   row 186: gear quote under 15 chars
+   row 196: gear quote under 15 chars
+   row 201: gear quote under 15 chars
+   row 216: gear quote under 15 chars
+shard 125: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 0, b0 114)
+shard 126: REJECT (7 problems)
+   row 9: gear quote under 15 chars
+   row 15: gear quote under 15 chars
+   row 16: gear quote under 15 chars
+   row 17: gear quote under 15 chars
+   row 48: gear quote under 15 chars
+   row 243: gear quote under 15 chars
+   row 247: gear quote under 15 chars
+shard 127: REJECT (8 problems)
+   row 51: gear quote under 15 chars
+   row 52: gear quote under 15 chars
+   row 53: gear quote under 15 chars
+   row 54: gear quote under 15 chars
+   row 55: gear quote under 15 chars
+   row 129: gear quote under 15 chars
+   row 130: gear quote under 15 chars
+   row 169: gear quote under 15 chars
+shard 128: REJECT (5 problems)
+   row 104: gear quote under 15 chars
+   row 105: gear quote under 15 chars
+   row 125: gear quote under 15 chars
+   row 146: gear quote under 15 chars
+   row 164: gear quote under 15 chars
+shard 129: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 0, b0 66)
+shard 130: REJECT (4 problems)
+   row 199: gear quote under 15 chars
+   row 200: gear quote under 15 chars
+   row 201: gear quote under 15 chars
+   row 202: gear quote under 15 chars
+shard 131: REJECT (3 problems)
+   row 88: gear quote under 15 chars
+   row 160: gear quote under 15 chars
+   row 177: gear quote under 15 chars
+shard 132: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 0, b0 87)
+shard 133: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 0, b0 85)
+shard 134: REJECT (2 problems)
+   row 200: gear quote under 15 chars
+   row 219: gear quote under 15 chars
+shard 135: REJECT (4 problems)
+   row 37: gear quote under 15 chars
+   row 60: gear quote under 15 chars
+   row 120: gear quote under 15 chars
+   row 143: gear quote under 15 chars
+shard 136: REJECT (4 problems)
+   row 176: gear quote under 15 chars
+   row 182: gear quote under 15 chars
+   row 184: gear quote under 15 chars
+   row 186: gear quote under 15 chars
+shard 143: REJECT (1 problems)
+   row -1: every row marked b0: shard not judged
+shard 144: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 0, b0 244)
+shard 148: PASS (lead-skip 0, empty-page 0, kw-less 3, m>=7 0, absent 0, b0 143)
+shard 149: PASS (lead-skip 0, empty-page 0, kw-less 5, m>=7 0, absent 0, b0 127)
+shard 151: PASS (lead-skip 3, empty-page 0, kw-less 1, m>=7 0, absent 0, b0 104)
+shard 152: REJECT (10 problems)
+   row 104: power quote under 15 chars: 'Flight'
+   row 200: gear quote under 15 chars
+   row 202: gear quote under 15 chars
+   row 203: gear quote under 15 chars
+   row 205: gear quote under 15 chars
+   row 206: gear quote under 15 chars
+   row 207: gear quote under 15 chars
+   row 209: gear quote under 15 chars
+   row 210: gear quote under 15 chars
+   row 244: gear quote under 15 chars
+shard 153: REJECT (1 problems)
+   row 98: gear quote under 15 chars
+shard 154: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 0, b0 13)
+shard 155: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 0, b0 18)
+shard 156: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 0, b0 12)
+shard 157: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 0, b0 18)
+shard 158: REJECT (23 problems)
+   row 13: gear quote under 15 chars
+   row 14: gear quote under 15 chars
+   row 15: gear quote under 15 chars
+   row 16: gear quote under 15 chars
+   row 21: gear quote under 15 chars
+   row 23: gear quote under 15 chars
+   row 45: gear quote under 15 chars
+   row 59: gear quote under 15 chars
+   row 111: gear quote under 15 chars
+   row 156: gear quote under 15 chars
+   row 157: gear quote under 15 chars
+   row 158: gear quote under 15 chars
+   row 159: gear quote under 15 chars
+   row 160: gear quote under 15 chars
+   row 162: gear quote under 15 chars
+   row 172: gear quote under 15 chars
+   row 174: gear quote under 15 chars
+   row 176: gear quote under 15 chars
+   row 177: gear quote under 15 chars
+   row 178: gear quote under 15 chars
+   row 182: gear quote under 15 chars
+   row 185: gear quote under 15 chars
+   row 247: gear quote under 15 chars
+shard 159: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 0, b0 5)
+shard 160: PASS (lead-skip 0, empty-page 0, kw-less 15, m>=7 0, absent 0, b0 29)
+shard 161: PASS (lead-skip 0, empty-page 0, kw-less 11, m>=7 0, absent 0, b0 32)
+shard 162: PASS (lead-skip 0, empty-page 0, kw-less 14, m>=7 0, absent 0, b0 16)
+shard 163: PASS (lead-skip 0, empty-page 0, kw-less 2, m>=7 0, absent 0, b0 14)
+shard 164: PASS (lead-skip 0, empty-page 0, kw-less 3, m>=7 0, absent 0, b0 31)
+shard 165: REJECT (1 problems)
+   row 124: power quote under 15 chars: 'Fireball'
+shard 167: PASS (lead-skip 0, empty-page 0, kw-less 22, m>=7 0, absent 0, b0 22)
+shard 168: PASS (lead-skip 0, empty-page 0, kw-less 3, m>=7 0, absent 0, b0 47)
+shard 169: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 0, b0 19)
+shard 170: PASS (lead-skip 0, empty-page 0, kw-less 1, m>=7 0, absent 0, b0 53)
+shard 171: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 0, b0 74)
+shard 172: REJECT (3 problems)
+   row 140: power quote under 15 chars: 'Sprint'
+   row 187: power quote under 15 chars: 'Whirlwind'
+   row 188: power quote under 15 chars: 'Fireball'
+shard 173: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 0, b0 17)
+shard 174: PASS (lead-skip 0, empty-page 0, kw-less 1, m>=7 0, absent 0, b0 15)
+shard 175: REJECT (1 problems)
+   row 212: power quote under 15 chars: 'Blink'
+shard 176: PASS (lead-skip 0, empty-page 0, kw-less 5, m>=7 0, absent 0, b0 33)
+shard 177: PASS (lead-skip 0, empty-page 0, kw-less 19, m>=7 0, absent 0, b0 19)
+shard 178: PASS (lead-skip 0, empty-page 0, kw-less 3, m>=7 0, absent 0, b0 40)
+shard 179: PASS (lead-skip 0, empty-page 0, kw-less 3, m>=7 0, absent 0, b0 39)
+shard 180: PASS (lead-skip 0, empty-page 0, kw-less 3, m>=7 0, absent 0, b0 33)
+shard 181: PASS (lead-skip 0, empty-page 0, kw-less 1, m>=7 0, absent 0, b0 55)
+shard 182: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 0, b0 26)
+shard 183: REJECT (2 problems)
+   row 22: power quote under 15 chars: 'Zen Flight'
+   row 110: power quote under 15 chars: 'Stealthed'
+shard 184: PASS (lead-skip 0, empty-page 0, kw-less 5, m>=7 0, absent 0, b0 69)
+shard 185: PASS (lead-skip 0, empty-page 0, kw-less 3, m>=7 0, absent 0, b0 54)
+shard 186: REJECT (1 problems)
+   row -1: 15 rows without a source page exceeds 2% of the shard
+shard 187: REJECT (1 problems)
+   row -1: 9 rows without a source page exceeds 2% of the shard
+shard 188: REJECT (1 problems)
+   row -1: 6 rows without a source page exceeds 2% of the shard
+shard 189: REJECT (1 problems)
+   row -1: 11 rows without a source page exceeds 2% of the shard
+shard 193: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 0, b0 158)
+shard 194: PASS (lead-skip 0, empty-page 0, kw-less 1, m>=7 0, absent 0, b0 143)
+shard 195: REJECT (1 problems)
+   row -1: 7 rows without a source page exceeds 2% of the shard
+shard 196: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 0, b0 163)
+shard 200: REJECT (4 problems)
+   row 119: source url/title missing or differs from resolved source
+   row 159: source url/title missing or differs from resolved source
+   row 167: source url/title missing or differs from resolved source
+   row -1: 29 rows without a source page exceeds 2% of the shard
+shard 201: REJECT (1 problems)
+   row -1: 13 rows without a source page exceeds 2% of the shard
+shard 203: REJECT (1 problems)
+   row -1: 9 rows without a source page exceeds 2% of the shard
+shard 204: REJECT (1 problems)
+   row -1: 18 rows without a source page exceeds 2% of the shard
+shard 205: REJECT (1 problems)
+   row -1: 26 rows without a source page exceeds 2% of the shard
+shard 206: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 0, b0 214)
+shard 208: REJECT (1 problems)
+   row -1: 9 rows without a source page exceeds 2% of the shard
+shard 209: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 0, b0 186)
+shard 210: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 0, b0 180)
+shard 211: PASS (lead-skip 0, empty-page 0, kw-less 2, m>=7 0, absent 0, b0 144)
+shard 212: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 0, b0 149)
+shard 213: PASS (lead-skip 0, empty-page 0, kw-less 3, m>=7 0, absent 0, b0 135)
+shard 214: REJECT (1 problems)
+   row -1: 9 rows without a source page exceeds 2% of the shard
+shard 215: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 0, b0 215)
+shard 216: REJECT (1 problems)
+   row 231: power quote under 15 chars: 'Soar'
+shard 217: REJECT (1 problems)
+   row -1: 9 rows without a source page exceeds 2% of the shard
+shard 218: REJECT (1 problems)
+   row -1: 8 rows without a source page exceeds 2% of the shard
+shard 219: REJECT (2 problems)
+   row 119: gear quote under 15 chars
+   row 129: m=7 for blink but the quote states no scale or number
+shard 220: REJECT (1 problems)
+   row -1: 12 rows without a source page exceeds 2% of the shard
+shard 221: PASS (lead-skip 0, empty-page 0, kw-less 1, m>=7 0, absent 0, b0 205)
+shard 222: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 0, b0 218)
+shard 223: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 0, b0 186)
+shard 224: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 0, b0 228)
+shard 225: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 0, b0 184)
+shard 226: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 0, b0 235)
+shard 227: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 4, b0 225)
+shard 228: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 0, b0 228)
+shard 231: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 0, b0 145)
+shard 232: REJECT (1 problems)
+   row 41: gear quote under 15 chars
+shard 233: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 6, b0 208)
+shard 234: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 0, b0 203)
+shard 235: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 0, b0 208)
+shard 236: REJECT (1 problems)
+   row 216: gear quote under 15 chars
+shard 237: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 0, b0 217)
+shard 238: REJECT (1 problems)
+   row 248: power quote under 15 chars: 'Fly, Ginny!'
+shard 239: PASS (lead-skip 0, empty-page 0, kw-less 1, m>=7 0, absent 0, b0 212)
+shard 240: REJECT (5 problems)
+   row 55: gear quote under 15 chars
+   row 82: gear quote under 15 chars
+   row 151: gear quote under 15 chars
+   row 187: gear quote under 15 chars
+   row 238: gear quote under 15 chars
+shard 241: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 0, b0 150)
+shard 242: REJECT (1 problems)
+   row -1: 6 rows without a source page exceeds 2% of the shard
+shard 243: REJECT (1 problems)
+   row 62: power quote under 15 chars: 'Shadowstep'
+shard 244: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 0, b0 188)
+shard 245: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 0, b0 200)
+shard 246: PASS (lead-skip 0, empty-page 0, kw-less 2, m>=7 0, absent 0, b0 128)
+shard 247: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 0, b0 119)
+shard 248: REJECT (1 problems)
+   row -1: 9 rows without a source page exceeds 2% of the shard
+shard 249: PASS (lead-skip 0, empty-page 0, kw-less 1, m>=7 0, absent 0, b0 166)
+shard 250: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 0, b0 145)
+shard 251: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 0, b0 167)
+shard 252: PASS (lead-skip 0, empty-page 0, kw-less 1, m>=7 0, absent 0, b0 137)
+shard 253: REJECT (1 problems)
+   row 159: gear quote under 15 chars
+shard 254: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 0, b0 190)
+shard 255: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 0, b0 166)
+shard 256: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 0, b0 188)
+shard 257: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 0, b0 182)
+shard 258: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 0, b0 194)
+shard 259: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 0, b0 207)
+shard 260: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 0, b0 217)
+shard 261: PASS (lead-skip 0, empty-page 0, kw-less 1, m>=7 0, absent 0, b0 167)
+shard 262: REJECT (1 problems)
+   row -1: 6 rows without a source page exceeds 2% of the shard
+shard 263: REJECT (1 problems)
+   row -1: 12 rows without a source page exceeds 2% of the shard
+shard 264: REJECT (1 problems)
+   row -1: 11 rows without a source page exceeds 2% of the shard
+shard 265: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 0, b0 172)
+shard 266: REJECT (1 problems)
+   row -1: 9 rows without a source page exceeds 2% of the shard
+shard 267: PASS (lead-skip 0, empty-page 0, kw-less 1, m>=7 0, absent 0, b0 168)
+shard 268: PASS (lead-skip 0, empty-page 0, kw-less 1, m>=7 0, absent 0, b0 184)
+shard 269: PASS (lead-skip 0, empty-page 0, kw-less 2, m>=7 0, absent 0, b0 176)
+shard 270: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 0, b0 195)
+shard 271: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 0, b0 199)
+shard 272: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 0, b0 172)
+shard 273: REJECT (1 problems)
+   row -1: 6 rows without a source page exceeds 2% of the shard
+shard 274: REJECT (1 problems)
+   row -1: 13 rows without a source page exceeds 2% of the shard
+shard 275: PASS (lead-skip 0, empty-page 0, kw-less 1, m>=7 0, absent 0, b0 192)
+shard 276: PASS (lead-skip 0, empty-page 0, kw-less 3, m>=7 0, absent 0, b0 176)
+shard 277: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 0, b0 184)
+shard 278: REJECT (2 problems)
+   row 150: gear quote under 15 chars
+   row -1: 6 rows without a source page exceeds 2% of the shard
+shard 279: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 0, b0 196)
+shard 280: PASS (lead-skip 0, empty-page 0, kw-less 2, m>=7 0, absent 0, b0 144)
+shard 281: PASS (lead-skip 0, empty-page 0, kw-less 3, m>=7 0, absent 0, b0 202)
+shard 282: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 0, b0 195)
+shard 283: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 0, b0 205)
+shard 284: PASS (lead-skip 0, empty-page 0, kw-less 2, m>=7 0, absent 0, b0 148)
+shard 285: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 0, b0 186)
+shard 286: REJECT (1 problems)
+   row -1: 7 rows without a source page exceeds 2% of the shard
+shard 287: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 0, b0 230)
+shard 288: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 0, b0 232)
+shard 289: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 0, b0 236)
+shard 290: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 16, b0 220)
+shard 291: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 0, b0 230)
+shard 292: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 0, b0 228)
+shard 293: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 0, b0 231)
+shard 294: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 0, b0 190)
+shard 295: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 0, b0 215)
+shard 296: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 0, b0 222)
+shard 297: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 0, b0 224)
+shard 298: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 0, b0 221)
+shard 299: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 0, b0 191)
+shard 300: REJECT (1 problems)
+   row -1: 9 rows without a source page exceeds 2% of the shard
+shard 301: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 22, b0 211)
+shard 302: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 0, b0 224)
+shard 303: REJECT (1 problems)
+   row -1: 7 rows without a source page exceeds 2% of the shard
+shard 304: REJECT (6 problems)
+   row 165: source url/title missing or differs from resolved source
+   row 246: source url/title missing or differs from resolved source
+   row 247: source url/title missing or differs from resolved source
+   row 248: source url/title missing or differs from resolved source
+   row 249: source url/title missing or differs from resolved source
+   row -1: 7 rows without a source page exceeds 2% of the shard
+shard 306: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 0, b0 175)
+shard 307: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 0, b0 217)
+shard 308: REJECT (1 problems)
+   row 128: source url/title missing or differs from resolved source
+shard 309: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 0, b0 213)
+shard 310: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 0, b0 219)
+shard 311: REJECT (1 problems)
+   row 2: source url/title missing or differs from resolved source
+shard 314: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 0, b0 189)
+shard 315: PASS (lead-skip 0, empty-page 0, kw-less 2, m>=7 0, absent 0, b0 190)
+shard 316: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 0, b0 212)
+shard 317: REJECT (1 problems)
+   row -1: 6 rows without a source page exceeds 2% of the shard
+shard 318: PASS (lead-skip 0, empty-page 0, kw-less 3, m>=7 0, absent 0, b0 139)
+shard 319: PASS (lead-skip 0, empty-page 0, kw-less 1, m>=7 0, absent 0, b0 106)
+shard 320: PASS (lead-skip 0, empty-page 0, kw-less 2, m>=7 0, absent 0, b0 188)
+shard 321: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 0, b0 167)
+shard 322: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 0, b0 184)
+shard 323: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 0, b0 224)
+shard 324: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 0, b0 231)
+shard 325: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 0, b0 218)
+shard 326: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 0, b0 229)
+shard 327: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 0, b0 243)
+shard 328: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 61, b0 166)
+shard 329: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 35, b0 170)
+shard 330: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 0, b0 133)
+shard 331: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 0, b0 234)
+shard 332: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 0, b0 151)
+shard 333: REJECT (1 problems)
+   row -1: 6 rows without a source page exceeds 2% of the shard
+shard 334: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 0, b0 239)
+shard 335: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 0, b0 229)
+shard 336: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 0, b0 217)
+shard 337: PASS (lead-skip 0, empty-page 0, kw-less 1, m>=7 0, absent 0, b0 164)
+shard 338: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 0, b0 184)
+shard 339: REJECT (2 problems)
+   row 17: gear quote under 15 chars
+   row 19: gear quote under 15 chars
+shard 340: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 0, b0 185)
+shard 341: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 0, b0 214)
+shard 342: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 0, b0 200)
+shard 343: REJECT (3 problems)
+   row 82: gear quote under 15 chars
+   row 222: gear quote under 15 chars
+   row 235: gear quote under 15 chars
+shard 344: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 0, b0 209)
+shard 345: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 0, b0 207)
+shard 346: PASS (lead-skip 0, empty-page 0, kw-less 1, m>=7 0, absent 0, b0 201)
+shard 347: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 0, b0 192)
+shard 348: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 0, b0 221)
+shard 349: REJECT (1 problems)
+   row -1: 7 rows without a source page exceeds 2% of the shard
+shard 350: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 0, b0 212)
+shard 351: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 0, b0 224)
+shard 352: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 0, b0 198)
+shard 353: REJECT (1 problems)
+   row 101: gear quote under 15 chars
+shard 354: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 0, b0 218)
+shard 355: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 0, b0 216)
+shard 356: REJECT (5 problems)
+   row 71: gear quote under 15 chars
+   row 139: gear quote under 15 chars
+   row 160: gear quote under 15 chars
+   row 173: gear quote under 15 chars
+   row -1: 10 rows without a source page exceeds 2% of the shard
+shard 357: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 0, b0 221)
+shard 358: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 0, b0 188)
+shard 359: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 0, b0 171)
+shard 360: REJECT (1 problems)
+   row 228: power quote under 15 chars: 'Fel Fireball'
+shard 361: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 0, b0 166)
+shard 362: PASS (lead-skip 0, empty-page 0, kw-less 1, m>=7 0, absent 0, b0 188)
+shard 363: REJECT (1 problems)
+   row -1: 8 rows without a source page exceeds 2% of the shard
+shard 364: PASS (lead-skip 0, empty-page 0, kw-less 2, m>=7 0, absent 0, b0 180)
+shard 365: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 0, b0 205)
+shard 366: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 0, b0 223)
+shard 367: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 0, b0 233)
+shard 368: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 0, b0 212)
+shard 369: REJECT (1 problems)
+   row -1: 7 rows without a source page exceeds 2% of the shard
+shard 370: REJECT (1 problems)
+   row -1: 6 rows without a source page exceeds 2% of the shard
+shard 371: REJECT (1 problems)
+   row -1: 9 rows without a source page exceeds 2% of the shard
+shard 372: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 0, b0 173)
+shard 373: REJECT (1 problems)
+   row -1: 6 rows without a source page exceeds 2% of the shard
+shard 374: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 0, b0 229)
+shard 375: PASS (lead-skip 0, empty-page 0, kw-less 1, m>=7 0, absent 0, b0 213)
+shard 376: PASS (lead-skip 0, empty-page 0, kw-less 1, m>=7 0, absent 0, b0 198)
+shard 377: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 0, b0 195)
+shard 378: REJECT (1 problems)
+   row -1: 20 rows without a source page exceeds 2% of the shard
+shard 379: REJECT (1 problems)
+   row -1: 8 rows without a source page exceeds 2% of the shard
+shard 380: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 0, b0 173)
+shard 381: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 0, b0 168)
+shard 382: REJECT (1 problems)
+   row -1: 13 rows without a source page exceeds 2% of the shard
+shard 383: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 0, b0 161)
+shard 384: PASS (lead-skip 0, empty-page 0, kw-less 1, m>=7 0, absent 0, b0 212)
+shard 385: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 0, b0 232)
+shard 386: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 0, b0 210)
+shard 387: PASS (lead-skip 0, empty-page 0, kw-less 1, m>=7 0, absent 0, b0 210)
+shard 388: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 0, b0 191)
+shard 389: REJECT (1 problems)
+   row 45: power quote under 15 chars: 'Dashes forward'
+shard 390: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 0, b0 233)
+shard 391: PASS (lead-skip 0, empty-page 0, kw-less 2, m>=7 0, absent 0, b0 186)
+shard 392: REJECT (2 problems)
+   row 4: gear quote under 15 chars
+   row 170: gear quote under 15 chars
+shard 393: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 0, b0 212)
+shard 394: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 0, b0 215)
+shard 395: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 0, b0 104)
+shard 396: PASS (lead-skip 0, empty-page 0, kw-less 1, m>=7 0, absent 0, b0 215)
+shard 397: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 0, b0 193)
+shard 398: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 0, b0 188)
+shard 399: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 0, b0 194)
+shard 400: REJECT (1 problems)
+   row -1: 6 rows without a source page exceeds 2% of the shard
+shard 401: PASS (lead-skip 0, empty-page 0, kw-less 2, m>=7 0, absent 0, b0 169)
+shard 402: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 0, b0 225)
+shard 403: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 0, b0 243)
+shard 404: REJECT (2 problems)
+   row 126: gear quote under 15 chars
+   row 133: gear quote under 15 chars
+shard 405: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 0, b0 234)
+shard 406: PASS (lead-skip 0, empty-page 0, kw-less 1, m>=7 0, absent 0, b0 165)
+shard 407: PASS (lead-skip 0, empty-page 0, kw-less 2, m>=7 0, absent 0, b0 206)
+shard 408: REJECT (1 problems)
+   row -1: 9 rows without a source page exceeds 2% of the shard
+shard 409: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 0, b0 183)
+shard 410: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 0, b0 175)
+shard 411: REJECT (1 problems)
+   row -1: 8 rows without a source page exceeds 2% of the shard
+shard 412: PASS (lead-skip 0, empty-page 0, kw-less 1, m>=7 0, absent 0, b0 94)
+shard 413: PASS (lead-skip 0, empty-page 0, kw-less 2, m>=7 0, absent 0, b0 142)
+shard 779: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 0, b0 215)
+shard 780: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 0, b0 234)
+shard 781: REJECT (1 problems)
+   row -1: 21 rows without a source page exceeds 2% of the shard
+shard 782: REJECT (1 problems)
+   row -1: 15 rows without a source page exceeds 2% of the shard
+shard 783: REJECT (1 problems)
+   row -1: 6 rows without a source page exceeds 2% of the shard
+shard 784: REJECT (1 problems)
+   row -1: 7 rows without a source page exceeds 2% of the shard
+shard 785: REJECT (1 problems)
+   row -1: 6 rows without a source page exceeds 2% of the shard
+shard 786: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 0, b0 235)
+shard 787: REJECT (1 problems)
+   row -1: 7 rows without a source page exceeds 2% of the shard
+shard 788: REJECT (1 problems)
+   row -1: 6 rows without a source page exceeds 2% of the shard
+shard 789: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 0, b0 214)
+shard 790: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 0, b0 229)
+shard 791: REJECT (1 problems)
+   row -1: 14 rows without a source page exceeds 2% of the shard
+shard 792: REJECT (1 problems)
+   row -1: 10 rows without a source page exceeds 2% of the shard
+shard 793: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 0, b0 240)
+shard 794: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 0, b0 230)
+shard 795: REJECT (1 problems)
+   row -1: 7 rows without a source page exceeds 2% of the shard
+shard 796: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 0, b0 244)
+shard 797: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 49, b0 107)
+shard 798: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 228, b0 21)
+shard 799: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 250, b0 0)
+shard 800: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 233, b0 17)
+shard 801: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 0, b0 245)
+shard 802: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 0, b0 225)
+shard 803: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 0, b0 205)
+shard 804: REJECT (1 problems)
+   row -1: 11 rows without a source page exceeds 2% of the shard
+shard 805: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 0, b0 228)
+shard 806: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 0, b0 200)
+shard 807: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 0, b0 221)
+shard 808: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 0, b0 224)
+shard 809: PASS (lead-skip 0, empty-page 0, kw-less 1, m>=7 0, absent 0, b0 206)
+shard 810: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 0, b0 194)
+shard 811: REJECT (1 problems)
+   row -1: 6 rows without a source page exceeds 2% of the shard
+shard 812: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 0, b0 224)
+shard 813: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 7, b0 223)
+shard 814: REJECT (1 problems)
+   row -1: 6 rows without a source page exceeds 2% of the shard
+shard 815: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 0, b0 224)
+shard 816: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 0, b0 223)
+shard 817: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 0, b0 89)
+shard 818: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 0, b0 218)
+shard 819: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 0, b0 234)
+shard 820: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 0, b0 188)
+shard 821: REJECT (1 problems)
+   row -1: 6 rows without a source page exceeds 2% of the shard
+shard 822: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 0, b0 240)
+shard 823: REJECT (1 problems)
+   row -1: 9 rows without a source page exceeds 2% of the shard
+shard 824: REJECT (1 problems)
+   row -1: 11 rows without a source page exceeds 2% of the shard
+shard 825: REJECT (1 problems)
+   row -1: 6 rows without a source page exceeds 2% of the shard
+shard 826: REJECT (1 problems)
+   row -1: 9 rows without a source page exceeds 2% of the shard
+shard 827: REJECT (1 problems)
+   row -1: 6 rows without a source page exceeds 2% of the shard
+shard 828: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 0, b0 212)
+shard 833: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 0, b0 188)
+shard 834: REJECT (1 problems)
+   row 166: source url/title missing or differs from resolved source
+shard 835: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 1, b0 181)
+shard 836: REJECT (3 problems)
+   row 43: source url/title missing or differs from resolved source
+   row 52: source url/title missing or differs from resolved source
+   row 153: source url/title missing or differs from resolved source
+shard 837: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 0, b0 202)
+shard 839: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 0, b0 199)
+shard 840: REJECT (11 problems)
+   row 126: gear quote under 15 chars
+   row 128: gear quote under 15 chars
+   row 129: gear quote under 15 chars
+   row 130: gear quote under 15 chars
+   row 131: gear quote under 15 chars
+   row 183: gear quote under 15 chars
+   row 185: gear quote under 15 chars
+   row 187: gear quote under 15 chars
+   row 190: gear quote under 15 chars
+   row 192: gear quote under 15 chars
+   row 234: page text does not start like the batch lead (wrong page?)
+shard 841: REJECT (2 problems)
+   row 64: source url/title missing or differs from resolved source
+   row 65: source url/title missing or differs from resolved source
+shard 842: REJECT (3 problems)
+   row 27: source url/title missing or differs from resolved source
+   row 106: source url/title missing or differs from resolved source
+   row 135: source page unresolved: only a b0 row with z="no source page: <reason>" is allowed
+shard 843: REJECT (1 problems)
+   row 164: source url/title missing or differs from resolved source
+shard 844: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 0, b0 179)
+shard 845: REJECT (1 problems)
+   row 53: source url/title missing or differs from resolved source
+shard 846: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 0, b0 232)
+shard 847: REJECT (1 problems)
+   row 91: source url/title missing or differs from resolved source
+shard 850: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 0, b0 192)
+shard 851: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 0, b0 175)
+shard 852: REJECT (1 problems)
+   row 53: source url/title missing or differs from resolved source
+shard 853: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 0, b0 208)
+shard 854: REJECT (4 problems)
+   row 38: gear quote under 15 chars
+   row 53: page text does not start like the batch lead (wrong page?)
+   row 244: gear quote under 15 chars
+   row 245: gear quote under 15 chars
+shard 855: REJECT (2 problems)
+   row 133: gear quote under 15 chars
+   row 139: gear quote under 15 chars
+shard 856: REJECT (2 problems)
+   row 14: source url/title missing or differs from resolved source
+   row 162: gear quote under 15 chars
+shard 857: REJECT (1 problems)
+   row 116: source url/title missing or differs from resolved source
+shard 858: PASS (lead-skip 0, empty-page 0, kw-less 1, m>=7 0, absent 0, b0 145)
+shard 859: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 0, b0 167)
+shard 860: REJECT (2 problems)
+   row 26: source url/title missing or differs from resolved source
+   row 173: page text does not start like the batch lead (wrong page?)
+shard 861: REJECT (1 problems)
+   row 100: source url/title missing or differs from resolved source
+shard 862: REJECT (2 problems)
+   row 136: source url/title missing or differs from resolved source
+   row 207: source url/title missing or differs from resolved source
+shard 863: REJECT (1 problems)
+   row 56: source url/title missing or differs from resolved source
+shard 864: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 0, b0 195)
+shard 865: REJECT (5 problems)
+   row 203: gear quote under 15 chars
+   row 204: gear quote under 15 chars
+   row 223: gear quote under 15 chars
+   row 225: gear quote under 15 chars
+   row 227: gear quote under 15 chars
+shard 866: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 0, b0 204)
+shard 867: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 0, b0 195)
+shard 868: REJECT (3 problems)
+   row 74: gear quote under 15 chars
+   row 76: gear quote under 15 chars
+   row 134: source url/title missing or differs from resolved source
+shard 869: REJECT (4 problems)
+   row 3: source url/title missing or differs from resolved source
+   row 32: source page unresolved: only a b0 row with z="no source page: <reason>" is allowed
+   row 33: source page unresolved: only a b0 row with z="no source page: <reason>" is allowed
+   row 226: source url/title missing or differs from resolved source
+shard 870: REJECT (5 problems)
+   row 222: gear quote under 15 chars
+   row 223: gear quote under 15 chars
+   row 235: gear quote under 15 chars
+   row 236: gear quote under 15 chars
+   row 237: gear quote under 15 chars
+shard 871: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 0, b0 152)
+shard 872: REJECT (1 problems)
+   row 191: gear quote under 15 chars
+shard 873: REJECT (3 problems)
+   row 49: source page unresolved: only a b0 row with z="no source page: <reason>" is allowed
+   row 101: source url/title missing or differs from resolved source
+   row 169: source url/title missing or differs from resolved source
+shard 874: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 0, b0 174)
+shard 875: REJECT (2 problems)
+   row 140: source url/title missing or differs from resolved source
+   row 241: source url/title missing or differs from resolved source
+shard 877: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 1, b0 185)
+shard 879: REJECT (19 problems)
+   row 15: source url/title missing or differs from resolved source
+   row 17: gear quote under 15 chars
+   row 80: gear quote under 15 chars
+   row 126: source url/title missing or differs from resolved source
+   row 163: gear quote under 15 chars
+   row 236: gear quote under 15 chars
+   row 237: gear quote under 15 chars
+   row 238: gear quote under 15 chars
+   row 239: gear quote under 15 chars
+   row 240: gear quote under 15 chars
+   row 241: gear quote under 15 chars
+   row 242: gear quote under 15 chars
+   row 243: gear quote under 15 chars
+   row 244: gear quote under 15 chars
+   row 245: gear quote under 15 chars
+   row 246: gear quote under 15 chars
+   row 247: gear quote under 15 chars
+   row 248: gear quote under 15 chars
+   row 249: gear quote under 15 chars
+shard 880: REJECT (1 problems)
+   row 227: source url/title missing or differs from resolved source
+shard 881: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 1, b0 210)
+shard 882: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 0, b0 201)
+shard 883: REJECT (3 problems)
+   row 33: source url/title missing or differs from resolved source
+   row 130: source url/title missing or differs from resolved source
+   row 138: page text does not start like the batch lead (wrong page?)
+shard 884: REJECT (3 problems)
+   row 62: gear quote under 15 chars
+   row 63: gear quote under 15 chars
+   row 64: gear quote under 15 chars
+shard 885: REJECT (1 problems)
+   row 135: source url/title missing or differs from resolved source
+shard 888: REJECT (1 problems)
+   row 144: source url/title missing or differs from resolved source
+shard 889: REJECT (3 problems)
+   row 48: source url/title missing or differs from resolved source
+   row 184: source url/title missing or differs from resolved source
+   row 185: source url/title missing or differs from resolved source
+shard 890: REJECT (1 problems)
+   row 249: source url/title missing or differs from resolved source
+shard 891: PASS (lead-skip 0, empty-page 0, kw-less 0, m>=7 0, absent 1, b0 196)
+shard 892: REJECT (1 problems)
+   row 199: source url/title missing or differs from resolved source
+shard 893: REJECT (1 problems)
+   row 245: source url/title missing or differs from resolved source
+shard 897: REJECT (3 problems)
+   row 1: gear quote under 15 chars
+   row 3: gear quote under 15 chars
+   row 184: source url/title missing or differs from resolved source
+shard 898: PASS (lead-skip 0, empty-page 0, kw-less 1, m>=7 0, absent 0, b0 196)
+shard 899: REJECT (10 problems)
+   row 65: source url/title missing or differs from resolved source
+   row 66: source url/title missing or differs from resolved source
+   row 95: source url/title missing or differs from resolved source
+   row 214: gear quote under 15 chars
+   row 215: gear quote under 15 chars
+   row 240: source url/title missing or differs from resolved source
+   row 246: source url/title missing or differs from resolved source
+   row 247: source url/title missing or differs from resolved source
+   row 248: source url/title missing or differs from resolved source
+   row 249: source url/title missing or differs from resolved source
