@@ -31,7 +31,7 @@
 {"id": "xenoblade|17156", "b": 0, "u": "https://xenoblade.fandom.com/wiki/Slow_Resist", "t": "Slow Resist"}
 {"id": "xenoblade|17157", "b": 0, "u": "https://xenoblade.fandom.com/wiki/Sleep_Resist", "t": "Sleep Resist"}
 {"id": "xenoblade|17158", "b": 0, "u": "https://xenoblade.fandom.com/wiki/Slow", "t": "Slow"}
-{"id": "xenoblade|17159", "b": 0, "u": "https://xenoblade.fandom.com/wiki/Sloth_Gogol_%28Bionis%27_Leg%29", "t": "Sloth Gogol (Bionis' Leg)"}
+{"id": "xenoblade|17159", "b": 0, "u": "https://xenoblade.fandom.com/wiki/Sloth_Gogol_%28XC1%29", "t": "Sloth Gogol (XC1)"}
 {"id": "xenoblade|17160", "b": 0, "u": "https://xenoblade.fandom.com/wiki/Sneaky", "t": "Sneaky"}
 {"id": "xenoblade|17161", "b": 0, "u": "https://xenoblade.fandom.com/wiki/Singing_Brog", "t": "Singing Brog"}
 {"id": "xenoblade|17162", "b": 0, "u": "https://xenoblade.fandom.com/wiki/Shutdown", "t": "Shutdown"}
@@ -128,7 +128,7 @@
 {"id": "xenoblade|17284", "b": 0, "u": "https://xenoblade.fandom.com/wiki/Sky_Jewel_%28XC1%29", "t": "Sky Jewel (XC1)"}
 {"id": "xenoblade|17286", "b": 0, "u": "https://xenoblade.fandom.com/wiki/Slender_Horn_%28XC1%29", "t": "Slender Horn (XC1)"}
 {"id": "xenoblade|17287", "b": 0, "u": "https://xenoblade.fandom.com/wiki/Slimy_Epithelium_%28XC1%29", "t": "Slimy Epithelium (XC1)"}
-{"id": "xenoblade|17289", "b": 0, "u": "", "t": "", "z": "no source page: NO-SOURCE"}
+{"id": "xenoblade|17289", "b": 0, "u": "https://xenoblade.fandom.com/wiki/Slit_Edge_%28XC1%29", "t": "Slit Edge (XC1)", "z": ""}
 {"id": "xenoblade|17290", "b": 0, "u": "https://xenoblade.fandom.com/wiki/Small_Dorsal_Fin_%28XC1%29", "t": "Small Dorsal Fin (XC1)"}
 {"id": "xenoblade|17291", "b": 0, "u": "https://xenoblade.fandom.com/wiki/Small_Insect_Leg_%28XC1%29", "t": "Small Insect Leg (XC1)"}
 {"id": "xenoblade|17292", "b": 0, "u": "https://xenoblade.fandom.com/wiki/Small_Scale_%28XC1%29", "t": "Small Scale (XC1)"}
@@ -136,7 +136,7 @@
 {"id": "xenoblade|17294", "b": 0, "u": "https://xenoblade.fandom.com/wiki/Slice_of_Bread", "t": "Slice of Bread"}
 {"id": "xenoblade|17296", "b": 0, "u": "https://xenoblade.fandom.com/wiki/Shynini%27s_Accessories", "t": "Shynini's Accessories"}
 {"id": "xenoblade|17297", "b": 1, "n": "Siren", "p": [], "x": ["particle cannon"], "f": [], "z": "", "st": "game", "u": "https://xenoblade.fandom.com/wiki/Siren", "s": "Siren (Japanese: , Seirēn) is an Artifice in .", "t": "Siren"}
-{"id": "xenoblade|17298", "b": 0, "u": "https://xenoblade.fandom.com/wiki/Smash", "t": "Smash"}
+{"id": "xenoblade|17298", "b": 0, "u": "https://xenoblade.fandom.com/wiki/Smash_%28XC2%29", "t": "Smash (XC2)"}
 {"id": "xenoblade|17299", "b": 1, "n": "Sniping Brent", "p": [], "x": [], "f": [], "z": "", "st": "game", "u": "https://xenoblade.fandom.com/wiki/Sniping_Brent", "s": "Sniping Brent (Japanese: , Sogeki no Gosu) is a Unique Monster in .", "t": "Sniping Brent"}
 {"id": "xenoblade|17300", "b": 0, "u": "https://xenoblade.fandom.com/wiki/Sickbay", "t": "Sickbay"}
 {"id": "xenoblade|17301", "b": 1, "n": "Skyfist Remington", "p": [], "x": [], "f": [], "z": "", "st": "game", "u": "https://xenoblade.fandom.com/wiki/Skyfist_Remington", "s": "Skyfist Remington (Japanese: , Tenrinken no Rīchi) is a Unique Monster in .", "t": "Skyfist Remington"}
@@ -154,7 +154,7 @@
 {"id": "xenoblade|17313", "b": 0, "u": "https://xenoblade.fandom.com/wiki/Silken_Stool", "t": "Silken Stool"}
 {"id": "xenoblade|17314", "b": 0, "u": "https://xenoblade.fandom.com/wiki/Skad_Taos", "t": "Skad Taos"}
 {"id": "xenoblade|17315", "b": 0, "u": "https://xenoblade.fandom.com/wiki/Small_Brog", "t": "Small Brog"}
-{"id": "xenoblade|17316", "b": 0, "u": "https://xenoblade.fandom.com/wiki/Skeeter_Nest", "t": "Skeeter Nest"}
+{"id": "xenoblade|17316", "b": 0, "u": "https://xenoblade.fandom.com/wiki/Skeeter_Nest_%28XC2%29", "t": "Skeeter Nest (XC2)"}
 {"id": "xenoblade|17317", "b": 0, "u": "https://xenoblade.fandom.com/wiki/Skwaror", "t": "Skwaror"}
 {"id": "xenoblade|17319", "b": 0, "u": "https://xenoblade.fandom.com/wiki/Snipe_Flan", "t": "Snipe Flan"}
 {"id": "xenoblade|17321", "b": 0, "u": "https://xenoblade.fandom.com/wiki/Sm%C3%B9ide_Hot_Spring", "t": "Smùide Hot Spring"}

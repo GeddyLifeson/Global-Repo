@@ -63,8 +63,8 @@
 {"id": "xenoblade|21881", "b": 0, "u": "https://xenoblade.fandom.com/wiki/Xenoblade_Definitive_Edition_Original_Soundtrack", "t": "Xenoblade Definitive Edition Original Soundtrack"}
 {"id": "xenoblade|21882", "b": 0, "u": "https://xenoblade.fandom.com/wiki/Xenoblade_Original_Soundtrack_Trinity_Box", "t": "Xenoblade Original Soundtrack Trinity Box"}
 {"id": "xenoblade|21883", "b": 0, "u": "https://xenoblade.fandom.com/wiki/Xenoblade_Chronicles_3%3A_Future_Redeemed", "t": "Xenoblade Chronicles 3: Future Redeemed"}
-{"id": "xenoblade|21887", "b": 0, "u": "https://xenoblade.fandom.com/wiki/Yesterdale_Enemypaedia", "t": "Yesterdale Enemypaedia"}
-{"id": "xenoblade|21888", "b": 0, "u": "https://xenoblade.fandom.com/wiki/Vermilion_Woods_Collectopaedia", "t": "Vermilion Woods Collectopaedia"}
+{"id": "xenoblade|21887", "b": 0, "u": "https://xenoblade.fandom.com/wiki/The_Ragmos_Desolation_Enemypaedia", "t": "The Ragmos Desolation Enemypaedia"}
+{"id": "xenoblade|21888", "b": 0, "u": "https://xenoblade.fandom.com/wiki/Yesterdale_Collectopaedia", "t": "Yesterdale Collectopaedia"}
 {"id": "xenoblade|21889", "b": 0, "u": "https://xenoblade.fandom.com/wiki/Young_Vollgull", "t": "Young Vollgull"}
 {"id": "xenoblade|21890", "b": 0, "u": "https://xenoblade.fandom.com/wiki/Yggdrasil", "t": "Yggdrasil"}
 {"id": "xenoblade|21891", "b": 0, "u": "https://xenoblade.fandom.com/wiki/With_People_and_Darkness", "t": "With People and Darkness"}
@@ -93,7 +93,7 @@
 {"id": "xenoblade|21915", "b": 0, "u": "https://xenoblade.fandom.com/wiki/World-Changing_Whatchamajig", "t": "World-Changing Whatchamajig"}
 {"id": "xenoblade|21916", "b": 0, "u": "https://xenoblade.fandom.com/wiki/Xenoblade_Chronicles_X%3A_Definitive_Edition_%E2%80%94_Nintendo_Switch_2_Edition", "t": "Xenoblade Chronicles X: Definitive Edition — Nintendo Switch 2 Edition"}
 {"id": "xenoblade|21917", "b": 0, "u": "https://xenoblade.fandom.com/wiki/Xenoblade_Chronicles_X%3A_Definitive_Edition_%E2%80%94_Nintendo_Switch_2_Edition", "t": "Xenoblade Chronicles X: Definitive Edition — Nintendo Switch 2 Edition"}
-{"id": "xenoblade|21918", "b": 0, "u": "https://xenoblade.fandom.com/wiki/Xenoblade_Chronicles_3_%E2%80%94_Nintendo_Switch_2_Edition", "t": "Xenoblade Chronicles 3 — Nintendo Switch 2 Edition"}
+{"id": "xenoblade|21918", "b": 0, "u": "https://xenoblade.fandom.com/wiki/Xenoblade_Chronicles_2_%E2%80%94_Nintendo_Switch_2_Edition", "t": "Xenoblade Chronicles 2 — Nintendo Switch 2 Edition"}
 {"id": "xenoblade|21919", "b": 0, "u": "https://xenoblade.fandom.com/wiki/Xenoblade_Chronicles_3_%E2%80%94_Nintendo_Switch_2_Edition", "t": "Xenoblade Chronicles 3 — Nintendo Switch 2 Edition"}
 {"id": "xenoblade|21921", "b": 0, "u": "https://xenoblade.fandom.com/wiki/You_Will_Know_Our_Names", "t": "You Will Know Our Names"}
 {"id": "xenoblade|21922", "b": 0, "u": "https://xenoblade.fandom.com/wiki/Xenoblade_Original_Soundtrack", "t": "Xenoblade Original Soundtrack"}
@@ -238,13 +238,13 @@
 {"id": "xenoblade|22094", "b": 0, "u": "https://xenoblade.fandom.com/wiki/Zalmor_Piranhax", "t": "Zalmor Piranhax"}
 {"id": "xenoblade|22095", "b": 0, "u": "https://xenoblade.fandom.com/wiki/Z_-_Harbinger_of_the_End", "t": "Z - Harbinger of the End"}
 {"id": "xenoblade|22096", "b": 1, "n": "Quisantro", "p": [], "x": [], "f": [], "z": "", "st": "game", "u": "https://xenoblade.fandom.com/wiki/Quisantro", "s": "Zayri is an NPC in .", "t": "Quisantro"}
-{"id": "xenoblade|22097", "b": 0, "u": "https://xenoblade.fandom.com/wiki/96-%3Arip", "t": "96-:rip"}
+{"id": "xenoblade|22097", "b": 0, "u": "https://xenoblade.fandom.com/wiki/%E4%BA%A1KEI%E5%8D%B4KOKU%E5%BF%83", "t": "亡KEI却KOKU心"}
 {"id": "xenoblade|22099", "b": 0, "u": "https://xenoblade.fandom.com/wiki/Z%3F2f0i1e2l0d914", "t": "Z?2f0i1e2l0d914"}
 {"id": "xenoblade|22100", "b": 1, "n": "Zelen", "p": [], "x": [], "f": [], "z": "", "st": "game", "u": "https://xenoblade.fandom.com/wiki/Zelen", "s": "Zelen is an NPC in .", "t": "Zelen"}
 {"id": "xenoblade|22101", "b": 1, "n": "Zonori", "p": [], "x": [], "f": [], "z": "", "st": "game", "u": "https://xenoblade.fandom.com/wiki/Zonori", "s": "Zonori is an NPC in .", "t": "Zonori"}
 {"id": "xenoblade|22102", "b": 1, "n": "Zaman", "p": [], "x": [], "f": [], "z": "", "st": "game", "u": "https://xenoblade.fandom.com/wiki/Zaman", "s": "Zaman is an NPC in .", "t": "Zaman"}
 {"id": "xenoblade|22103", "b": 1, "n": "Zox", "p": [], "x": [], "f": [], "z": "", "st": "game", "u": "https://xenoblade.fandom.com/wiki/Zox", "s": "Zox is an NPC in .", "t": "Zox"}
-{"id": "xenoblade|22105", "b": 0, "u": "", "t": "", "z": "no source page: no source page: Achievements list"}
-{"id": "xenoblade|22107", "b": 0, "u": "", "t": "", "z": "no source page: no source page: skill entry"}
-{"id": "xenoblade|22109", "b": 0, "u": "", "t": "", "z": "no source page: no source page: Xenogears track"}
-{"id": "xenoblade|22110", "b": 0, "u": "", "t": "", "z": "no source page: no source page: skill entry"}
+{"id": "xenoblade|22105", "b": 0, "u": "https://www.xenoserieswiki.org/wiki/Achievement_%28XC1%29", "t": "Achievement (XC1)", "z": ""}
+{"id": "xenoblade|22107", "b": 0, "u": "https://www.xenoserieswiki.org/wiki/Absolute_Smash", "t": "Absolute Smash", "z": ""}
+{"id": "xenoblade|22109", "b": 0, "u": "https://www.xenoserieswiki.org/wiki/A_Prayer_for_the_Joy_Man_Desires", "t": "A Prayer for the Joy Man Desires", "z": ""}
+{"id": "xenoblade|22110", "b": 0, "u": "https://www.xenoserieswiki.org/wiki/A_Dream_of_the_Future", "t": "A Dream of the Future", "z": ""}

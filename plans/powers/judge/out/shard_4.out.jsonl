@@ -235,8 +235,8 @@
 {"id": "transformers|1663", "b": 1, "n": "Fireglide", "p": [], "x": [], "f": [], "z": "", "st": "", "u": "https://transformers.fandom.com/wiki/Fireglide", "s": "Fireglide enjoys the screams of victims caught unaware by this predatory bird silently soaring on thermal currents.", "t": "Fireglide"}
 {"id": "the-lovecraftian-mythos|6601", "b": 0, "u": "https://lovecraft.fandom.com/wiki/Werewolf", "t": "Werewolf"}
 {"id": "the-lovecraftian-mythos|3764", "b": 1, "n": "Nathaire", "p": [], "x": ["necromancy", "mesmeric persuasion"], "f": [], "z": "", "st": "", "u": "https://lovecraft.fandom.com/wiki/Nathaire", "s": "Nathaire (c.", "t": "Nathaire"}
-{"id": "the-lord-of-the-rings|7895", "b": 0, "u": "https://tolkiengateway.net/wiki/%5D%5D_Bilbo%E2%80%99s_birthday_speech", "t": "]] Bilbo’s birthday speech"}
-{"id": "the-lord-of-the-rings|11156", "b": 1, "n": "Mew", "p": [], "x": [], "f": [], "z": "", "st": "", "u": "https://tolkiengateway.net/wiki/%5D%5DMew", "s": "]]Mew is a black-backed gull in Roverandom.", "t": "]]Mew"}
+{"id": "the-lord-of-the-rings|7895", "b": 0, "u": "", "t": "", "z": "no source page: title not resolvable from row text"}
+{"id": "the-lord-of-the-rings|11156", "b": 1, "n": "Mew", "p": [], "x": [], "f": [], "z": "", "st": "", "u": "https://tolkiengateway.net/wiki/Mew", "s": "]]Mew is a black-backed gull in Roverandom.", "t": "Mew"}
 {"id": "the-amazing-world-of-gumball|169", "b": 0, "u": "https://theamazingworldofgumball.fandom.com/wiki/Fitzgerald_family", "t": "Fitzgerald family"}
 {"id": "terraria|462", "b": 0, "u": "https://terraria.fandom.com/wiki/Chaos_Elemental", "t": "Chaos Elemental"}
 {"id": "terminator|987", "b": 0, "u": "https://terminator.fandom.com/wiki/T-2018", "t": "T-2018"}

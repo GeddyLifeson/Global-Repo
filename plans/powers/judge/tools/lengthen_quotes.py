@@ -9,18 +9,20 @@ def expand(q, text):
     q = sq(q); lines = [sq(l) for l in text.split('\n')]; lines = [l for l in lines if l]
     best = None
     for i, l in enumerate(lines):
-        m = re.search(r'(?<![A-Za-z])' + re.escape(q) + r'(?![A-Za-z])', l, re.I)
+        m = re.search(r'(?<![A-Za-z])' + re.escape(q) + r'(?![A-Za-z])', l, re.I) or re.search(re.escape(q), l)
         if not m: continue
         cand = l
         if len(l) > MAXQ:  # long line: sentence around the hit
             s = max(l.rfind('. ', 0, m.start()) + 2, 0); e = l.find('. ', m.end()); e = len(l) if e < 0 else e + 1
             cand = l[s:e].strip()
+            if len(cand) < MINQ: cand = l[m.start():m.start() + 80].rsplit(' ', 1)[0]
             if len(cand) > MAXQ: cand = l[max(0, m.start() - 60):m.end() + 100]; cand = cand[cand.find(' ') + 1:] if m.start() > 60 else cand
         elif len(l) < MINQ:  # bare bullet: add the following line, else the preceding one
             H = lambda x: x.startswith('=')
             nxt = lines[i + 1] if i + 1 < len(lines) and not H(lines[i + 1]) else ''
             prv = lines[i - 1] if i else ''
             cand = f'{prv} {l}' if prv and H(prv) else f'{l} {nxt}' if nxt else f'{prv} {l}'
+            if len(cand) < MINQ: cand = ' '.join(lines[max(0, i - 1):i + 2])
         if len(cand) >= MINQ and sq(cand) in sq(text) and (best is None or len(cand) < len(best)): best = cand
     return best
 def fix(n):

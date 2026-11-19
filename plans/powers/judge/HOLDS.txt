@@ -19,3 +19,32 @@ OVERRIDE shard=117 row=157 url=https://callofduty.fandom.com/wiki/Kilo_141
 
 RULE 11-19 (review A15): before changing pages.match/_match/_inpage/_wmatch, run `python3 tools/match_regress.py` (known-wrong rows 88/95, 89/110, 3/125 must stay rejected; the 300 frozen known-right pairs must stay accepted; sibling false accepts must not exceed the frozen baseline of 76 in 3000). Every hand edit to a batches/shard_N.src.jsonl row must be logged here as `SRCEDIT shard=N row=I old=<url> new=<url>`; OVERRIDE lines stay exact (shard/row/url).
 11-19 revalidation after GR #139 (481 judged shards): 306 PASS, 175 REJECT. The three new checks (unit word, material constants, m>=7 scale) caused only 15 rows in 9 shards to reject, all m>=7 without scale evidence; no unit-word or free-constant rejects. Check fixed: validate.py SCALE2 adds globe/world(s)/plane/dimension/interstellar/cosmic/god (6 rows then pass: shards 1 r50, 2 r203, 5 r136, 11 r103, 86 r169, 116 r134). Data fixed: 9 power entries with m>=7 and no scale in the quote lowered to m=6 (shards 1 r17 energy_beam, 1 r28 regeneration, 5 r47 time_stop, 5 r129/r130 giant_size, 5 r177 telepathy, 47 r51/r129 time_stop, 219 r129 blink). No src url edited, so no SRCEDIT lines. Full output: VALIDATE_ALL_2026-11-19.txt (run before these fixes). The other rejects are older checks, unchanged: gear/power quote <15 chars, source url differs, >2% no-source rows, empty page, lead mismatch.
+11-19 url-mismatch rows (judged page matches the lead, resolver now points elsewhere or is blank); resolver src set to the judged page:
+SRCEDIT shard=841 row=64 old=https://www.xenoserieswiki.org/wiki/Assault_Rifle new=https://xenoblade.fandom.com/wiki/Delta_Assault_Rifle_II
+SRCEDIT shard=841 row=65 old=https://www.xenoserieswiki.org/wiki/Assault_Rifle new=https://xenoblade.fandom.com/wiki/Delta_Assault_Rifle_III
+SRCEDIT shard=842 row=106 old=https://www.xenoserieswiki.org/wiki/Rifle new=https://xenoblade.fandom.com/wiki/Delta_Sniper_Rifle_II
+SRCEDIT shard=842 row=135 old=(blank) new=https://xenoblade.fandom.com/wiki/Dicy_Stone
+SRCEDIT shard=843 row=164 old=https://xenoblade.fandom.com/wiki/Hexad-Partican new=https://xenoblade.fandom.com/wiki/Dragoon-Lance
+SRCEDIT shard=892 row=199 old=https://xenoblade.fandom.com/wiki/Ultra_Infinite_Spex new=https://xenoblade.fandom.com/wiki/Ultra_Regal_Spex
+SRCEDIT shard=869 row=32 old=(blank) new=https://xenoblade.fandom.com/wiki/Near_Jubilee_Gate
+SRCEDIT shard=869 row=33 old=(blank) new=https://xenoblade.fandom.com/wiki/Near_Morytha_Falls
+SRCEDIT shard=873 row=49 old=(blank) new=https://xenoblade.fandom.com/wiki/Swift_Zektol
+11-19 wikilink-fragment/disambig src titles repointed to the real page whose text matches the lead (checked with pages.match):
+SRCEDIT shard=3 row=165 old=https://tolkiengateway.net/wiki/-_Balrog%5D%5D_Demons new=https://tolkiengateway.net/wiki/Demons
+SRCEDIT shard=4 row=238 old=https://tolkiengateway.net/wiki/%5D%5DMew new=https://tolkiengateway.net/wiki/Mew
+SRCEDIT shard=4 row=237 old=https://tolkiengateway.net/wiki/%5D%5D_Bilbo%E2%80%99s_birthday_speech new=(blank; wikilink-fragment title, page not resolvable)
+SRCEDIT shard=47 row=124 old=https://tolkiengateway.net/wiki/%5D%5D_This_Canto_tells_how_Beren new=(blank; wikilink-fragment title, page not resolvable)
+SRCEDIT shard=81 row=178 old=https://tolkiengateway.net/wiki/%5D%5D_Hounds new=https://tolkiengateway.net/wiki/Hounds
+SRCEDIT shard=90 row=22 old=https://tolkiengateway.net/wiki/%5D%5DPsamathos_Psamathides new=https://tolkiengateway.net/wiki/Psamathos_Psamathides
+SRCEDIT shard=105 row=91 old=https://tolkiengateway.net/wiki/%5D%5D_The_Lord_and_Lady_of_L%C3%B3rien new=(blank; wikilink-fragment title, page not resolvable)
+SRCEDIT shard=118 row=64 old=https://tolkiengateway.net/wiki/-_Hill_Trolls%5D%5D_Etten new=https://tolkiengateway.net/wiki/Etten
+SRCEDIT shard=118 row=70 old=https://tolkiengateway.net/wiki/%5D%5D_Tom_Bombadil%27s_mythological_origins_in_the_internal_cosmo new=(blank; wikilink-fragment title, page not resolvable)
+SRCEDIT shard=840 row=234 old=https://xenoblade.fandom.com/wiki/Dana new=https://xenoblade.fandom.com/wiki/Dana_%28XCX%29
+SRCEDIT shard=860 row=173 old=https://xenoblade.fandom.com/wiki/Leaf_Coil new=https://xenoblade.fandom.com/wiki/Leaf_Coil_%28XC1%29
+SRCEDIT shard=883 row=138 old=https://xenoblade.fandom.com/wiki/Smash new=https://xenoblade.fandom.com/wiki/Smash_%28XC2%29
+SRCEDIT shard=883 row=156 old=https://xenoblade.fandom.com/wiki/Skeeter_Nest new=https://xenoblade.fandom.com/wiki/Skeeter_Nest_%28XC2%29
+11-19 OVERRIDE (Claude thread "Fix the 175 rejected judged shards"; DC page subject equals the row subject, the page was rewritten after the batch cut, lead-match only; judged quotes are verbatim in the page per validate.py):
+OVERRIDE shard=5 row=71 url=https://dc.fandom.com/wiki/Zatanna
+OVERRIDE shard=44 row=53 url=https://dc.fandom.com/wiki/Mister_Freeze
+OVERRIDE shard=113 row=58 url=https://dc.fandom.com/wiki/Catwoman
+OVERRIDE shard=113 row=75 url=https://dc.fandom.com/wiki/Poison_Ivy

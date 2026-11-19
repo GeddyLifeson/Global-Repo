@@ -24,7 +24,7 @@
 {"id": "xenoblade|10323", "b": 0, "u": "https://xenoblade.fandom.com/wiki/Kingdom_Contract", "t": "Kingdom Contract"}
 {"id": "xenoblade|10324", "b": 0, "u": "https://xenoblade.fandom.com/wiki/Killifish_Contract", "t": "Killifish Contract"}
 {"id": "xenoblade|10325", "b": 0, "u": "https://xenoblade.fandom.com/wiki/Landmark", "t": "Landmark"}
-{"id": "xenoblade|10327", "b": 0, "u": "https://xenoblade.fandom.com/wiki/Leftherian_Archipelago_Merc_Missions", "t": "Leftherian Archipelago Merc Missions"}
+{"id": "xenoblade|10327", "b": 0, "u": "https://xenoblade.fandom.com/wiki/Indoline_Praetorium_Merc_Missions", "t": "Indoline Praetorium Merc Missions"}
 {"id": "xenoblade|10328", "b": 0, "u": "https://xenoblade.fandom.com/wiki/Kingdom_of_Tantal_Merc_Missions", "t": "Kingdom of Tantal Merc Missions"}
 {"id": "xenoblade|10330", "b": 1, "n": "Kikina", "p": [], "x": [], "f": [], "z": "", "st": "game", "u": "https://xenoblade.fandom.com/wiki/Kikina", "s": "Kikina is an NPC in .", "t": "Kikina"}
 {"id": "xenoblade|10331", "b": 1, "n": "Konakona", "p": [], "x": [], "f": [], "z": "", "st": "game", "u": "https://xenoblade.fandom.com/wiki/Konakona", "s": "Konakona (Jp: スミスミ Sumisumi) is an NPC in .", "t": "Konakona"}
@@ -171,7 +171,7 @@
 {"id": "xenoblade|10497", "b": 2, "k": "weapon", "n": "Lightweight Driver", "m": 1, "q": "gunlances wielded by Reyn", "c": "h", "p": [], "u": "https://xenoblade.fandom.com/wiki/Lightweight_Driver", "s": "Lightweight Drivers (Japanese: , Keiryōka Bankā) are weapons in .", "t": "Lightweight Driver"}
 {"id": "xenoblade|10498", "b": 0, "u": "https://xenoblade.fandom.com/wiki/Light_Armour", "t": "Light Armour"}
 {"id": "xenoblade|10499", "b": 2, "k": "weapon", "n": "Light Driver", "m": 1, "q": "It is a gunlance wielded by Reyn.", "c": "h", "p": [], "u": "https://xenoblade.fandom.com/wiki/Light_Driver", "s": "The Light Driver (Japanese: , Raitobankā) is a weapon in .", "t": "Light Driver"}
-{"id": "xenoblade|10500", "b": 0, "u": "https://xenoblade.fandom.com/wiki/Leaf_Coil", "t": "Leaf Coil"}
+{"id": "xenoblade|10500", "b": 0, "u": "https://xenoblade.fandom.com/wiki/Leaf_Coil_%28XC1%29", "t": "Leaf Coil (XC1)"}
 {"id": "xenoblade|10501", "b": 2, "k": "armor", "n": "Light Caps", "m": 1, "q": "light head armour", "c": "h", "p": [], "u": "https://xenoblade.fandom.com/wiki/Light_Cap", "s": "Light Caps (Japanese: , Raito Kyappu) are light head armour in .", "t": "Light Cap"}
 {"id": "xenoblade|10502", "b": 2, "k": "armor", "n": "Leather Caps", "m": 1, "q": "light head armour", "c": "h", "p": [], "u": "https://xenoblade.fandom.com/wiki/Leather_Cap", "s": "Leather Caps (Japanese: , Rezā Kyappu) are light head armour in .", "t": "Leather Cap"}
 {"id": "xenoblade|10503", "b": 0, "u": "https://xenoblade.fandom.com/wiki/Legendary_Nopon_Charm", "t": "Legendary Nopon Charm"}

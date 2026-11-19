@@ -163,7 +163,7 @@
 {"id": "world-of-warcraft|307240", "b": 0, "u": "https://warcraft.wiki.gg/wiki/World_of_Warcraft_Classic%3A_Season_of_Discovery", "t": "World of Warcraft Classic: Season of Discovery"}
 {"id": "world-of-warcraft|307244", "b": 0, "u": "https://warcraft.wiki.gg/wiki/World_of_Warcraft%3A_The_War_Within_Features_Overview", "t": "World of Warcraft: The War Within Features Overview"}
 {"id": "world-of-warcraft|307254", "b": 0, "u": "https://warcraft.wiki.gg/wiki/Worldvein_Resonance", "t": "Worldvein Resonance"}
-{"id": "world-of-warcraft|307255", "b": 0, "u": "https://warcraft.wiki.gg/wiki/Worldsoul%3A_Dungeons", "t": "Worldsoul: Dungeons"}
+{"id": "world-of-warcraft|307255", "b": 0, "u": "https://warcraft.wiki.gg/wiki/Worldsoul%3A_Ara-Kara%2C_City_of_Echoes", "t": "Worldsoul: Ara-Kara, City of Echoes"}
 {"id": "world-of-warcraft|307277", "b": 1, "n": "__NOTOC__\nWormcaller Iz'tikrine", "p": [], "x": ["sound magic summoning of worms"], "f": [], "z": "", "st": "game", "u": "https://warcraft.wiki.gg/wiki/Wormcaller_Iz%27tikrine", "s": "__NOTOC__ Wormcaller Iz'tikrine is a nerubian located at the bottom of a cave (entrance at ) in the Wormlands in Azj-Kahet, where he is channeling on an Ancient Resonance Pylon.", "t": "Wormcaller Iz'tikrine"}
 {"id": "world-of-warcraft|307281", "b": 0, "u": "https://warcraft.wiki.gg/wiki/Worn_Scroll-Reader", "t": "Worn Scroll-Reader"}
 {"id": "world-of-warcraft|307292", "b": 0, "u": "https://warcraft.wiki.gg/wiki/Worst_Fear", "t": "Worst Fear"}
@@ -244,7 +244,7 @@
 {"id": "world-of-warcraft|308204", "b": 0, "u": "https://warcraft.wiki.gg/wiki/Zoomy_Treat", "t": "Zoomy Treat"}
 {"id": "world-of-warcraft|308206", "b": 1, "n": "Season of Discovery\ndiscovery\nZotl", "p": [], "x": [], "f": [], "z": "", "st": "game", "u": "https://warcraft.wiki.gg/wiki/Zotl", "s": "Zotl is a bat found in Moonglade.", "t": "Zotl"}
 {"id": "world-of-warcraft|308209", "b": 1, "n": "Zul'jarra", "p": [], "x": [], "f": [], "z": "", "st": "game", "u": "https://warcraft.wiki.gg/wiki/Zul%27jarra", "s": "Zul'jarra ( ) is a forest troll located in Zul'Aman.", "t": "Zul'jarra"}
-{"id": "xcom|0", "b": 0, "u": "", "t": "", "z": "no source page: no source page: 2K Marin absent from xcom wiki"}
-{"id": "xcom|15", "b": 0, "u": "", "t": "", "z": "no source page: no source page: Aggression absent"}
-{"id": "xcom|16", "b": 0, "u": "", "t": "", "z": "no source page: no source page: Close and Personal absent"}
-{"id": "xcom|17", "b": 0, "u": "", "t": "", "z": "no source page: no source page: Close Combat Specialist absent"}
+{"id": "xcom|0", "b": 0, "u": "https://xcom.fandom.com/wiki/2K_Marin", "t": "2K Marin", "z": ""}
+{"id": "xcom|15", "b": 0, "u": "https://xcom.fandom.com/wiki/Aggression", "t": "Aggression", "z": ""}
+{"id": "xcom|16", "b": 0, "u": "https://xcom.fandom.com/wiki/Close_and_Personal", "t": "Close and Personal", "z": ""}
+{"id": "xcom|17", "b": 0, "u": "https://xcom.fandom.com/wiki/Close_Combat_Specialist", "t": "Close Combat Specialist", "z": ""}

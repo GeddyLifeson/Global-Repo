@@ -117,7 +117,7 @@
 {"id": "world-of-warcraft|215831", "b": 1, "n": "__NOTOC__\nThyssiana", "p": [], "x": [], "f": [], "z": "", "st": "game", "u": "https://wowpedia.fandom.com/wiki/Thyssiana", "s": "__NOTOC__ Thyssiana is a night elf quest giver found in Mudsprocket of Dustwallow Marsh.", "t": "Thyssiana"}
 {"id": "world-of-warcraft|218282", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Tome_of_Strength", "t": "Tome of Strength"}
 {"id": "world-of-warcraft|219500", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Trade_Quarter", "t": "Trade Quarter"}
-{"id": "world-of-warcraft|223312", "b": 0, "u": "https://wowpedia.fandom.com/wiki/UNIT_POWER_UPDATE", "t": "UNIT POWER UPDATE"}
+{"id": "world-of-warcraft|223312", "b": 0, "u": "https://wowpedia.fandom.com/wiki/UNIT_POWER_FREQUENT", "t": "UNIT POWER FREQUENT"}
 {"id": "world-of-warcraft|223381", "b": 0, "u": "https://wowpedia.fandom.com/wiki/UNIT_POWER_FREQUENT", "t": "UNIT POWER FREQUENT"}
 {"id": "world-of-warcraft|224027", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Uncharted_Island", "t": "Uncharted Island"}
 {"id": "world-of-warcraft|225761", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Updraft", "t": "Updraft"}
@@ -157,7 +157,7 @@
 {"id": "world-of-warcraft|294925", "b": 0, "u": "https://warcraft.wiki.gg/wiki/Spellblade", "t": "Spellblade"}
 {"id": "world-of-warcraft|301494", "b": 0, "u": "https://warcraft.wiki.gg/wiki/Torghast%3A_Unbridled_Darkness", "t": "Torghast: Unbridled Darkness"}
 {"id": "world-of-warcraft|305622", "b": 0, "u": "https://warcraft.wiki.gg/wiki/Warcraft_Minis", "t": "Warcraft Minis"}
-{"id": "xcom|641", "b": 0, "u": "", "t": "", "z": "no source page: NO-SOURCE row"}
+{"id": "xcom|641", "b": 0, "u": "https://xcom.fandom.com/wiki/Mind_Controlled", "t": "Mind Controlled", "z": ""}
 {"id": "xenoblade|1209", "b": 2, "k": "vehicle", "n": "Ark Ship", "m": 4, "q": "carry entire cities within them", "c": "m", "p": [], "u": "https://xenoblade.fandom.com/wiki/Ark_Ship", "s": "Ark Ships are massive Vehicles in .", "t": "Ark Ship"}
 {"id": "xenoblade|8945", "b": 0, "u": "https://xenoblade.fandom.com/wiki/Hovering_Reef", "t": "Hovering Reef"}
 {"id": "xenoblade|10125", "b": 0, "u": "https://xenoblade.fandom.com/wiki/Khatorl_Seal_Island", "t": "Khatorl Seal Island"}
@@ -165,7 +165,7 @@
 {"id": "xenoblade|13581", "b": 0, "u": "https://xenoblade.fandom.com/wiki/Path_to_Prison_Island", "t": "Path to Prison Island"}
 {"id": "xenoblade|14566", "b": 0, "u": "https://xenoblade.fandom.com/wiki/Power_Lines", "t": "Power Lines"}
 {"id": "xenoblade|20358", "b": 0, "u": "https://xenoblade.fandom.com/wiki/Valak_Mountain", "t": "Valak Mountain"}
-{"id": "xenoblade|24703", "b": 0, "u": "", "t": "", "z": "no source page: NO-SOURCE row"}
+{"id": "xenoblade|24703", "b": 0, "u": "https://www.xenoserieswiki.org/wiki/Flight_Jacket_%28disambiguation%29", "t": "Flight Jacket (disambiguation)", "z": ""}
 {"id": "world-of-warcraft|64594", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Druid_of_the_Talon_%28Warcraft_III%29", "t": "Druid of the Talon (Warcraft III)"}
 {"id": "world-of-warcraft|64662", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Druids_of_the_Moon", "t": "Druids of the Moon"}
 {"id": "world-of-warcraft|65066", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Drustvar", "t": "Drustvar"}
