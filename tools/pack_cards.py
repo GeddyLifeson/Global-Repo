@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 """Build pack-* Library cards from mod jars (real lang text and recipes only; nothing invented).
 Usage: python3 -I tools/pack_cards.py JAR_DIR MISSING_IDS_TSV OUT_JSONL
 MISSING_IDS_TSV: first column = pack id (ns:path), e.g. from tools/panscriptum_parity.py gap.
@@ -26,9 +26,10 @@ for jar in sorted(glob.glob(os.path.join(jar_dir, "*.jar"))):
         except Exception: pass
         for i in by_ns[ns]:
             p = i.split(":")[1]
-            nm = lang.get(f"item.{ns}.{p}") or lang.get(f"block.{ns}.{p}")
+            nm = next((lang[k] for k in (f"item.{ns}.{p}", f"block.{ns}.{p}", f"entity.{ns}.{p}", f"item.{ns}.{p.replace('/', '.')}") if k in lang), None)
             ds = next((lang[k] for t in ("desc", "tooltip", "description") for s in ("item", "block")
                        if (k := f"{s}.{ns}.{p}.{t}") in lang), None)
+            if i in cards and cards[i]["name"]: continue
             cards[i] = {"id": i, "name": nm, "desc": ds, "made_from": None, "mod": ns, "jar": os.path.basename(jar)}
     for n in names:
         if "/recipe" in n and n.endswith(".json"):
