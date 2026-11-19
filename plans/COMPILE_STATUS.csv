@@ -1,3 +1,4 @@
+# HISTORICAL (2026-11-03 to 11-09 state, predates the wave17 fold and ARR restores). Do not read the OK column as V1 status.
 # Compile status 2026-11-09: diaithir-ports commit 25aafee5e1 (branch diaithircompat), JDK 25, gradle compileJava, 3 modules in parallel
 module,result,note,seconds
 alexs-caves,OK,needs citadel jar (-PcitadelJar); rerun OK,28s
