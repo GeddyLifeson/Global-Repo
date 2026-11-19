@@ -98,7 +98,7 @@
 {"id": "world-of-warcraft|97899", "b": 1, "n": "Guerrero", "p": [], "x": ["debuff growl"], "f": [], "z": "", "st": "game", "u": "https://wowpedia.fandom.com/wiki/Guerrero", "s": "Guerrero is a coyote found traveling with its master, Don Carlos, in Old Hillsbrad Foothills.", "t": "Guerrero"}
 {"id": "world-of-warcraft|97900", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Guardian%27s_Scaled_Bracers", "t": "Guardian's Scaled Bracers"}
 {"id": "world-of-warcraft|97901", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Guardian%27s_Scaled_Greaves", "t": "Guardian's Scaled Greaves"}
-{"id": "world-of-warcraft|97902", "b": 0, "u": "", "t": "", "z": "no source page: no source page"}
+{"id": "world-of-warcraft|97902", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Guardian%27s_Scaled_Belt", "t": "Guardian's Scaled Belt", "z": ""}
 {"id": "world-of-warcraft|97903", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Guardian_of_the_Eagle", "t": "Guardian of the Eagle"}
 {"id": "world-of-warcraft|97904", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Guardian%27s_Pendant_of_Salvation", "t": "Guardian's Pendant of Salvation"}
 {"id": "world-of-warcraft|97905", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Guardian%27s_Pendant_of_Dominance", "t": "Guardian's Pendant of Dominance"}
@@ -127,12 +127,12 @@
 {"id": "world-of-warcraft|97928", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Guardian%27s_Ornamented_Bracers", "t": "Guardian's Ornamented Bracers"}
 {"id": "world-of-warcraft|97929", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Guardian%27s_Plate_Bracers", "t": "Guardian's Plate Bracers"}
 {"id": "world-of-warcraft|97930", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Guardian%27s_Dreadweave_Cuffs", "t": "Guardian's Dreadweave Cuffs"}
-{"id": "world-of-warcraft|97934", "b": 0, "u": "", "t": "", "z": "no source page: no source page"}
-{"id": "world-of-warcraft|97935", "b": 0, "u": "", "t": "", "z": "no source page: no source page"}
+{"id": "world-of-warcraft|97934", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Guardian%27s_Silk_Belt", "t": "Guardian's Silk Belt", "z": ""}
+{"id": "world-of-warcraft|97935", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Guardian%27s_Plate_Belt", "t": "Guardian's Plate Belt", "z": ""}
 {"id": "world-of-warcraft|97936", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Guardian%27s_Ornamented_Belt", "t": "Guardian's Ornamented Belt"}
 {"id": "world-of-warcraft|97937", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Guardian%27s_Lamellar_Belt", "t": "Guardian's Lamellar Belt"}
 {"id": "world-of-warcraft|97938", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Guardian%27s_Ringmail_Girdle", "t": "Guardian's Ringmail Girdle"}
-{"id": "world-of-warcraft|97939", "b": 0, "u": "", "t": "", "z": "no source page: no source page"}
+{"id": "world-of-warcraft|97939", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Guardian%27s_Mail_Girdle", "t": "Guardian's Mail Girdle", "z": ""}
 {"id": "world-of-warcraft|97940", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Guardian%27s_Linked_Girdle", "t": "Guardian's Linked Girdle"}
 {"id": "world-of-warcraft|97941", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Guardian%27s_Chain_Girdle", "t": "Guardian's Chain Girdle"}
 {"id": "world-of-warcraft|97942", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Guardian%27s_Wyrmhide_Belt", "t": "Guardian's Wyrmhide Belt"}
@@ -190,7 +190,7 @@
 {"id": "world-of-warcraft|98058", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Guardians_of_the_Vault", "t": "Guardians of the Vault"}
 {"id": "world-of-warcraft|98065", "b": 1, "n": "Guardian Atohi", "p": [], "x": [], "f": [], "z": "", "st": "game", "u": "https://wowpedia.fandom.com/wiki/Guardian_Atohi", "s": "Guardian Atohi is a tauren follower located at Frostwall in Frostfire Ridge.", "t": "Guardian Atohi"}
 {"id": "world-of-warcraft|98067", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Guardian%27s_Light", "t": "Guardian's Light"}
-{"id": "world-of-warcraft|98070", "b": 0, "u": "", "t": "", "z": "no source page: no source page"}
+{"id": "world-of-warcraft|98070", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Guardian_of_Azeroth", "t": "Guardian of Azeroth", "z": ""}
 {"id": "world-of-warcraft|98073", "b": 1, "n": "Garm\nGuarm", "p": [], "x": ["elemental breath", "leap"], "f": [], "z": "", "st": "game", "u": "https://wowpedia.fandom.com/wiki/Guarm", "s": "Guarm is a mob located in Helheim.", "t": "Guarm"}
 {"id": "world-of-warcraft|98076", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Guardian_of_G%27Hanir", "t": "Guardian of G'Hanir"}
 {"id": "world-of-warcraft|98077", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Guardians_of_the_Light_%28artifact_trait%29", "t": "Guardians of the Light (artifact trait)"}

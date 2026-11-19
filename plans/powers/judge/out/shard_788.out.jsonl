@@ -8,7 +8,7 @@
 {"id": "world-of-warcraft|293076", "b": 0, "u": "https://warcraft.wiki.gg/wiki/Sinister_Feldirk", "t": "Sinister Feldirk"}
 {"id": "world-of-warcraft|293079", "b": 0, "u": "https://warcraft.wiki.gg/wiki/Singularity", "t": "Singularity"}
 {"id": "world-of-warcraft|293080", "b": 0, "u": "https://warcraft.wiki.gg/wiki/Singularity_Slicer", "t": "Singularity Slicer"}
-{"id": "world-of-warcraft|293081", "b": 0, "u": "", "t": "", "z": "no source page: no source page"}
+{"id": "world-of-warcraft|293081", "b": 0, "u": "https://warcraft.wiki.gg/wiki/Singularity_Forceps", "t": "Singularity Forceps", "z": ""}
 {"id": "world-of-warcraft|293082", "b": 0, "u": "https://warcraft.wiki.gg/wiki/Sire%27s_Ornate_Belt", "t": "Sire's Ornate Belt"}
 {"id": "world-of-warcraft|293083", "b": 0, "u": "https://warcraft.wiki.gg/wiki/Sire%27s_Ornate_Bracers", "t": "Sire's Ornate Bracers"}
 {"id": "world-of-warcraft|293084", "b": 0, "u": "https://warcraft.wiki.gg/wiki/Sire%27s_Ornate_Cloak", "t": "Sire's Ornate Cloak"}
@@ -75,7 +75,7 @@
 {"id": "world-of-warcraft|293193", "b": 1, "n": "Skodu", "p": [], "x": [], "f": [], "z": "", "st": "game", "u": "https://warcraft.wiki.gg/wiki/Skodu", "s": "Skodu is a Zandalari troll warlock located in the Valley of Spirits in Orgrimmar.", "t": "Skodu"}
 {"id": "world-of-warcraft|293194", "b": 1, "n": "Skitters", "p": [], "x": [], "f": [], "z": "", "st": "game", "u": "https://warcraft.wiki.gg/wiki/Skitters", "s": "Skitters is a fol'ya located near Mylune in the Barrows of Reverie in the Emerald Dream.", "t": "Skitters"}
 {"id": "world-of-warcraft|293200", "b": 0, "u": "https://warcraft.wiki.gg/wiki/Skull-Shaped_Geode", "t": "Skull-Shaped Geode"}
-{"id": "world-of-warcraft|293203", "b": 0, "u": "", "t": "", "z": "no source page: no source page"}
+{"id": "world-of-warcraft|293203", "b": 1, "u": "https://warcraft.wiki.gg/wiki/Skonk", "t": "Skonk", "z": "none stated: page gives no powers", "n": "Skonk", "p": [], "x": [], "f": [], "st": "", "s": "Skonk is an ogre at Boulderfist Hall in the . His fellow ogres laughed at him because he was smaller than them, saying he was weak. As a result, Skonk learned t"}
 {"id": "world-of-warcraft|293205", "b": 1, "n": "Skinnard", "p": [], "x": [], "f": [], "z": "", "st": "game", "u": "https://warcraft.wiki.gg/wiki/Skinnard", "s": "Skinnard is the second mate of Keg Leg's Crew at Brew Bay in Plunderstorm.", "t": "Skinnard"}
 {"id": "world-of-warcraft|293206", "b": 0, "u": "https://warcraft.wiki.gg/wiki/Skulker%27s_Cloak", "t": "Skulker's Cloak"}
 {"id": "world-of-warcraft|293207", "b": 0, "u": "https://warcraft.wiki.gg/wiki/Skulking_Gutstabber", "t": "Skulking Gutstabber"}
@@ -86,7 +86,7 @@
 {"id": "world-of-warcraft|293215", "b": 1, "n": "Skulldunk", "p": [], "x": ["void eruption"], "f": [], "z": "", "st": "game", "u": "https://warcraft.wiki.gg/wiki/Skulldunk", "s": "Skulldunk is an slime giant located at the Sunless Strand in Hallowfall.", "t": "Skulldunk"}
 {"id": "world-of-warcraft|293217", "b": 0, "u": "https://warcraft.wiki.gg/wiki/Skittering_Cavern", "t": "Skittering Cavern"}
 {"id": "world-of-warcraft|293218", "b": 1, "n": "Skirmisher Sa'zryk", "p": [], "x": ["ice cone attack"], "f": [], "z": "", "st": "game", "u": "https://warcraft.wiki.gg/wiki/Skirmisher_Sa%27zryk", "s": "Skirmisher Sa'zryk is an ascended nerubian located at Arathi's End in Azj-Kahet.", "t": "Skirmisher Sa'zryk"}
-{"id": "world-of-warcraft|293219", "b": 0, "u": "", "t": "", "z": "no source page: no source page"}
+{"id": "world-of-warcraft|293219", "b": 0, "u": "https://warcraft.wiki.gg/wiki/Skull_Pile", "t": "Skull Pile", "z": ""}
 {"id": "world-of-warcraft|293220", "b": 0, "u": "https://warcraft.wiki.gg/wiki/Skittering_Breach_Discoveries", "t": "Skittering Breach Discoveries"}
 {"id": "world-of-warcraft|293221", "b": 0, "u": "https://warcraft.wiki.gg/wiki/Skittering_Breach_Stories", "t": "Skittering Breach Stories"}
 {"id": "world-of-warcraft|293222", "b": 0, "u": "https://warcraft.wiki.gg/wiki/Skittersong_Krolusk", "t": "Skittersong Krolusk"}

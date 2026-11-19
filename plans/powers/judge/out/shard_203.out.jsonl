@@ -32,7 +32,7 @@
 {"id": "world-of-warcraft|88412", "b": 1, "n": "Gear Checker Cogstar", "p": [], "x": ["Techno-Jaunt"], "f": [], "z": "", "st": "game", "u": "https://wowpedia.fandom.com/wiki/Gear_Checker_Cogstar", "s": "Gear Checker Cogstar is a Mechagon mechagnome located around Mechagon Island.", "t": "Gear Checker Cogstar"}
 {"id": "world-of-warcraft|88685", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Genesaur", "t": "Genesaur"}
 {"id": "world-of-warcraft|89038", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Ghostly_Citizen", "t": "Ghostly Citizen"}
-{"id": "world-of-warcraft|89142", "b": 0, "u": "", "t": "", "z": "no source page: no source page: Giant Moonwillow Cone item text"}
+{"id": "world-of-warcraft|89142", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Giant_Moonwillow_Cone", "t": "Giant Moonwillow Cone", "z": ""}
 {"id": "world-of-warcraft|89446", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Gilnean_Envoy", "t": "Gilnean Envoy"}
 {"id": "world-of-warcraft|89773", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Gimp", "t": "Gimp"}
 {"id": "world-of-warcraft|89786", "b": 2, "k": "armor", "n": "Girdle of Beastial Fury", "m": 1, "q": "is a leather belt which boosts strength, stamina, and attack power", "c": "h", "p": [], "u": "https://wowpedia.fandom.com/wiki/Girdle_of_Beastial_Fury", "s": "The Girdle of Beastial Fury is a leather belt which boosts strength, stamina, and attack power.", "t": "Girdle of Beastial Fury"}
@@ -68,7 +68,7 @@
 {"id": "world-of-warcraft|96423", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Greystone", "t": "Greystone"}
 {"id": "world-of-warcraft|96948", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Grimoire", "t": "Grimoire"}
 {"id": "world-of-warcraft|96953", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Grommash_Hold", "t": "Grommash Hold"}
-{"id": "world-of-warcraft|97414", "b": 0, "u": "", "t": "", "z": "no source page: no source page: Growless Cave text, name stripped"}
+{"id": "world-of-warcraft|97414", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Growless_Cave", "t": "Growless Cave", "z": ""}
 {"id": "world-of-warcraft|97816", "b": 0, "u": "", "t": "", "z": "no source page: no source page: Guardian of Tirisfal text, name stripped"}
 {"id": "world-of-warcraft|97826", "b": 1, "n": "__NOTOC__\nGuard Fengus", "p": [], "x": ["frenzy"], "f": [], "z": "", "st": "game", "u": "https://wowpedia.fandom.com/wiki/Guard_Fengus", "s": "__NOTOC__ Guard Fengus is an ogre mini-boss found in Dire Maul North.", "t": "Guard Fengus"}
 {"id": "world-of-warcraft|97986", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Gryphon_Roost", "t": "Gryphon Roost"}
@@ -77,7 +77,7 @@
 {"id": "world-of-warcraft|98912", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Half-elf", "t": "Half-elf"}
 {"id": "world-of-warcraft|98920", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Hall_of_Mysteries", "t": "Hall of Mysteries"}
 {"id": "world-of-warcraft|99005", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Hajiri", "t": "Hajiri"}
-{"id": "world-of-warcraft|99309", "b": 0, "u": "", "t": "", "z": "no source page: no source page: Hammers vendor text"}
+{"id": "world-of-warcraft|99309", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Hammer", "t": "Hammer", "z": ""}
 {"id": "world-of-warcraft|99491", "b": 1, "n": "__NOTOC__\nHallazeal the Ascended", "p": [], "x": ["arcane ascendant"], "f": [], "z": "", "st": "game", "u": "https://wowpedia.fandom.com/wiki/Hallazeal_the_Ascended", "s": "__NOTOC__ Hallazeal the Ascended is a powerful elemental ascendant located in the Abyssal Depths of the aquatic zone of Vashj'ir.", "t": "Hallazeal the Ascended"}
 {"id": "world-of-warcraft|99516", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Hall_of_Tranquility", "t": "Hall of Tranquility"}
 {"id": "world-of-warcraft|99518", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Hall_of_the_Crescent_Moon", "t": "Hall of the Crescent Moon"}
@@ -201,7 +201,7 @@
 {"id": "world-of-warcraft|120669", "b": 1, "n": "Kroshius", "p": [], "x": ["infernal fire"], "f": [], "z": "", "st": "game", "u": "https://wowpedia.fandom.com/wiki/Kroshius", "s": "Kroshius is a level 55 abyssal found in the mountainous area of Shatter Scar Vale in Felwood.", "t": "Kroshius"}
 {"id": "world-of-warcraft|120677", "b": 1, "n": "__NOTOC__\nKredis", "p": [], "x": [], "f": [], "z": "", "st": "game", "u": "https://wowpedia.fandom.com/wiki/Kredis", "s": "__NOTOC__ Kredis is a blood elf tabard vendor located in Silvermoon Registry in the Walk of Elders in Silvermoon City.", "t": "Kredis"}
 {"id": "world-of-warcraft|120685", "b": 1, "n": ".]]\n.]]\n\"The more we see of pain and blood", "p": [], "x": [], "f": [], "z": "", "st": "game", "u": "https://wowpedia.fandom.com/wiki/Krixel_Pinchwhistle", "s": ".]] .]] :\"The more we see of pain and blood, the more the coin will rain and flood!\" Krixel Pinchwhistle is a goblin who sells vintage Alliance Mail and Plate PvP gear in Area 52 in the Netherstorm.", "t": "Krixel Pinchwhistle"}
-{"id": "world-of-warcraft|120708", "b": 0, "u": "", "t": "", "z": "no source page: no source page: Kris vendor text"}
+{"id": "world-of-warcraft|120708", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Kris", "t": "Kris", "z": ""}
 {"id": "world-of-warcraft|120717", "b": 1, "n": "Kronus", "p": [], "x": ["earth fury"], "f": [], "z": "", "st": "game", "u": "https://wowpedia.fandom.com/wiki/Kronus", "s": "Kronus is a Earth Fury NPC who assists the Horde in battle in Ashran.", "t": "Kronus"}
 {"id": "world-of-warcraft|120759", "b": 1, "n": "Krystal52.6 84.6 Darkmoon Island", "p": [], "x": ["petrifying gaze"], "f": [], "z": "", "st": "game", "u": "https://wowpedia.fandom.com/wiki/Krystal", "s": "Krystal is a basilisk and is one of many animals featured in the Darkmoon Faire zoo on Darkmoon Island.", "t": "Krystal"}
 {"id": "world-of-warcraft|120935", "b": 2, "k": "vehicle", "n": "Krazzle's Flying Machine", "m": 1, "q": "Krazzle's Flying Machine is a flying machine located in the Arathi Highlands", "c": "h", "p": [], "u": "https://wowpedia.fandom.com/wiki/Krazzle%27s_Flying_Machine", "s": "Krazzle's Flying Machine is a flying machine located in the Arathi Highlands during the Battle for Stromgarde.", "t": "Krazzle's Flying Machine"}
@@ -229,7 +229,7 @@
 {"id": "world-of-warcraft|126091", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Lion", "t": "Lion"}
 {"id": "world-of-warcraft|126463", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Lingering_Time_Bubble", "t": "Lingering Time Bubble"}
 {"id": "world-of-warcraft|126965", "b": 1, "n": "Lizzy55.6 82.6 Darkmoon Island", "p": [], "x": [], "f": [], "z": "", "st": "game", "u": "https://wowpedia.fandom.com/wiki/Lizzy", "s": "Lizzy is a diemetradon and is one of many animals featured in the Darkmoon Faire zoo on Darkmoon Island.", "t": "Lizzy"}
-{"id": "world-of-warcraft|127350", "b": 0, "u": "", "t": "", "z": "no source page: no source page: Longsword vendor text"}
+{"id": "world-of-warcraft|127350", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Longsword", "t": "Longsword", "z": ""}
 {"id": "world-of-warcraft|127354", "b": 1, "n": "Loirea Galerunner", "p": [], "x": [], "f": [], "z": "", "st": "game", "u": "https://wowpedia.fandom.com/wiki/Loirea_Galerunner", "s": "Loirea Galerunner appears only during the Lunar Festival in Silvermoon City to let players known about whats going on during that time, since Silvermoon doesn't have its own part in the festival itsel", "t": "Loirea Galerunner"}
 {"id": "world-of-warcraft|127641", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Longclaw_tribe", "t": "Longclaw tribe"}
 {"id": "world-of-warcraft|128018", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Lord_of_the_Corpseflies", "t": "Lord of the Corpseflies"}

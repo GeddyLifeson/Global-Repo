@@ -232,19 +232,19 @@
 {"id": "world-of-warcraft|294439", "b": 0, "u": "https://warcraft.wiki.gg/wiki/Soul_of_the_Tactician", "t": "Soul of the Tactician"}
 {"id": "world-of-warcraft|294440", "b": 0, "u": "https://warcraft.wiki.gg/wiki/Soul_of_the_Thunderbringer", "t": "Soul of the Thunderbringer"}
 {"id": "world-of-warcraft|294441", "b": 0, "u": "https://warcraft.wiki.gg/wiki/Soul_of_the_War_Veteran", "t": "Soul of the War Veteran"}
-{"id": "world-of-warcraft|294442", "b": 0, "u": "", "t": "", "z": "no source page: no source page: page absent from wiki"}
-{"id": "world-of-warcraft|294443", "b": 0, "u": "", "t": "", "z": "no source page: no source page: page absent from wiki"}
-{"id": "world-of-warcraft|294444", "b": 0, "u": "", "t": "", "z": "no source page: no source page: page absent from wiki"}
-{"id": "world-of-warcraft|294445", "b": 0, "u": "", "t": "", "z": "no source page: no source page: page absent from wiki"}
-{"id": "world-of-warcraft|294446", "b": 0, "u": "", "t": "", "z": "no source page: no source page: page absent from wiki"}
-{"id": "world-of-warcraft|294447", "b": 0, "u": "", "t": "", "z": "no source page: no source page: page absent from wiki"}
-{"id": "world-of-warcraft|294448", "b": 0, "u": "", "t": "", "z": "no source page: no source page: page absent from wiki"}
-{"id": "world-of-warcraft|294449", "b": 0, "u": "", "t": "", "z": "no source page: no source page: page absent from wiki"}
-{"id": "world-of-warcraft|294450", "b": 0, "u": "", "t": "", "z": "no source page: no source page: page absent from wiki"}
-{"id": "world-of-warcraft|294451", "b": 0, "u": "", "t": "", "z": "no source page: no source page: page absent from wiki"}
+{"id": "world-of-warcraft|294442", "b": 0, "u": "https://warcraft.wiki.gg/wiki/Soulcrusher_Headpiece", "t": "Soulcrusher Headpiece", "z": ""}
+{"id": "world-of-warcraft|294443", "b": 0, "u": "https://warcraft.wiki.gg/wiki/Soulcrusher_Spaulders", "t": "Soulcrusher Spaulders", "z": ""}
+{"id": "world-of-warcraft|294444", "b": 0, "u": "https://warcraft.wiki.gg/wiki/Soulcrusher_Tunic", "t": "Soulcrusher Tunic", "z": ""}
+{"id": "world-of-warcraft|294445", "b": 0, "u": "https://warcraft.wiki.gg/wiki/Soulcrusher_Girdle", "t": "Soulcrusher Girdle", "z": ""}
+{"id": "world-of-warcraft|294446", "b": 0, "u": "https://warcraft.wiki.gg/wiki/Soulcrusher_Legguards", "t": "Soulcrusher Legguards", "z": ""}
+{"id": "world-of-warcraft|294447", "b": 0, "u": "https://warcraft.wiki.gg/wiki/Soulcrusher_Boots", "t": "Soulcrusher Boots", "z": ""}
+{"id": "world-of-warcraft|294448", "b": 0, "u": "https://warcraft.wiki.gg/wiki/Soulcrusher_Wristguards", "t": "Soulcrusher Wristguards", "z": ""}
+{"id": "world-of-warcraft|294449", "b": 0, "u": "https://warcraft.wiki.gg/wiki/Soulcrusher_Handguards", "t": "Soulcrusher Handguards", "z": ""}
+{"id": "world-of-warcraft|294450", "b": 0, "u": "https://warcraft.wiki.gg/wiki/Soulcrusher_Crown", "t": "Soulcrusher Crown", "z": ""}
+{"id": "world-of-warcraft|294451", "b": 0, "u": "https://warcraft.wiki.gg/wiki/Soulcrusher_Mantle", "t": "Soulcrusher Mantle", "z": ""}
 {"id": "world-of-warcraft|294452", "b": 2, "k": "armor", "n": "Soulcrusher Embrace", "m": 1, "q": "Soulcrusher Embrace is part of The Soulcrusher's Storm set", "c": "h", "p": [], "u": "https://warcraft.wiki.gg/wiki/Soulcrusher_Embrace", "s": "Soulcrusher Embrace is part of The Soulcrusher's Storm set, the armor set for Elemental shamans.", "t": "Soulcrusher Embrace"}
-{"id": "world-of-warcraft|294453", "b": 0, "u": "", "t": "", "z": "no source page: no source page: page absent from wiki"}
-{"id": "world-of-warcraft|294454", "b": 0, "u": "", "t": "", "z": "no source page: no source page: page absent from wiki"}
+{"id": "world-of-warcraft|294453", "b": 0, "u": "https://warcraft.wiki.gg/wiki/Soulcrusher_Cord", "t": "Soulcrusher Cord", "z": ""}
+{"id": "world-of-warcraft|294454", "b": 0, "u": "https://warcraft.wiki.gg/wiki/Soulcrusher_Kilt", "t": "Soulcrusher Kilt", "z": ""}
 {"id": "world-of-warcraft|294455", "b": 2, "k": "armor", "n": "Soulcrusher Greaves", "m": 1, "q": "Soulcrusher Greaves are part of The Soulcrusher's Storm set", "c": "h", "p": [], "u": "https://warcraft.wiki.gg/wiki/Soulcrusher_Greaves", "s": "Soulcrusher Greaves are part of The Soulcrusher's Storm set, the armor set for Elemental shamans.", "t": "Soulcrusher Greaves"}
 {"id": "world-of-warcraft|294456", "b": 2, "k": "armor", "n": "Soulcrusher Bindings", "m": 1, "q": "Soulcrusher Bindings are part of The Soulcrusher's Storm set", "c": "h", "p": [], "u": "https://warcraft.wiki.gg/wiki/Soulcrusher_Bindings", "s": "Soulcrusher Bindings are part of The Soulcrusher's Storm set, the armor set for Elemental shamans.", "t": "Soulcrusher Bindings"}
-{"id": "world-of-warcraft|294457", "b": 0, "u": "", "t": "", "z": "no source page: no source page: page absent from wiki"}
+{"id": "world-of-warcraft|294457", "b": 0, "u": "https://warcraft.wiki.gg/wiki/Soulcrusher_Mitts", "t": "Soulcrusher Mitts", "z": ""}

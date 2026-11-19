@@ -59,14 +59,14 @@
 {"id": "world-of-warcraft|99244", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Halfhill_Goatherd", "t": "Halfhill Goatherd"}
 {"id": "world-of-warcraft|99245", "b": 1, "n": "Halfdan Sly-Stalker", "p": [], "x": [], "f": [], "z": "", "st": "game", "u": "https://wowpedia.fandom.com/wiki/Halfdan_Sly-Stalker", "s": "Halfdan Sly-Stalker is a vrykul located in the Great Mead Hall in Skyhold during A Hate-Hate Relationship.", "t": "Halfdan Sly-Stalker"}
 {"id": "world-of-warcraft|99246", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Hakkari_Revenant%27s_Grips", "t": "Hakkari Revenant's Grips"}
-{"id": "world-of-warcraft|99255", "b": 0, "u": "", "t": "", "z": "no source page: no source page: not found on wiki"}
-{"id": "world-of-warcraft|99256", "b": 0, "u": "", "t": "", "z": "no source page: no source page: not found on wiki"}
-{"id": "world-of-warcraft|99257", "b": 0, "u": "", "t": "", "z": "no source page: no source page: not found on wiki"}
-{"id": "world-of-warcraft|99258", "b": 0, "u": "", "t": "", "z": "no source page: no source page: not found on wiki"}
-{"id": "world-of-warcraft|99259", "b": 0, "u": "", "t": "", "z": "no source page: no source page: not found on wiki"}
-{"id": "world-of-warcraft|99260", "b": 0, "u": "", "t": "", "z": "no source page: no source page: not found on wiki"}
-{"id": "world-of-warcraft|99261", "b": 0, "u": "", "t": "", "z": "no source page: no source page: not found on wiki"}
-{"id": "world-of-warcraft|99262", "b": 0, "u": "", "t": "", "z": "no source page: no source page: not found on wiki"}
+{"id": "world-of-warcraft|99255", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Halgrind_Belt", "t": "Halgrind Belt", "z": ""}
+{"id": "world-of-warcraft|99256", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Halgrind_Greaves", "t": "Halgrind Greaves", "z": ""}
+{"id": "world-of-warcraft|99257", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Halgrind_Carapace", "t": "Halgrind Carapace", "z": ""}
+{"id": "world-of-warcraft|99258", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Halgrind_Helmet", "t": "Halgrind Helmet", "z": ""}
+{"id": "world-of-warcraft|99259", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Halgrind_Legplates", "t": "Halgrind Legplates", "z": ""}
+{"id": "world-of-warcraft|99260", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Halgrind_Epaulets", "t": "Halgrind Epaulets", "z": ""}
+{"id": "world-of-warcraft|99261", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Halgrind_Bracers", "t": "Halgrind Bracers", "z": ""}
+{"id": "world-of-warcraft|99262", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Halgrind_Gloves", "t": "Halgrind Gloves", "z": ""}
 {"id": "world-of-warcraft|99263", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Haldarr_Bindings", "t": "Haldarr Bindings"}
 {"id": "world-of-warcraft|99264", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Haldarr_Jerkin", "t": "Haldarr Jerkin"}
 {"id": "world-of-warcraft|99265", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Haldarr_Boots", "t": "Haldarr Boots"}
@@ -105,7 +105,7 @@
 {"id": "world-of-warcraft|99329", "b": 1, "n": "Hana'zua", "p": [], "x": [], "f": [], "z": "", "st": "game", "u": "https://wowpedia.fandom.com/wiki/Hana%27zua", "s": "Hana'zua is a jungle troll quest giver located in the Valley of Trials in Durotar.", "t": "Hana'zua"}
 {"id": "world-of-warcraft|99330", "b": 2, "k": "weapon", "n": "Hammer of Expertise", "m": 1, "q": "Hammer of Expertise is an epic main hand mace", "c": "l", "p": [], "u": "https://wowpedia.fandom.com/wiki/Hammer_of_Expertise", "s": "Hammer of Expertise is an main hand mace that can be summoned by expert Blacksmiths.", "t": "Hammer of Expertise"}
 {"id": "world-of-warcraft|99331", "b": 2, "k": "weapon", "n": "Hammer of the Northern Wind", "m": 1, "q": "Hammer of the Northern Wind is a main-hand hammer with a Frostbolt proc.", "c": "l", "p": [], "u": "https://wowpedia.fandom.com/wiki/Hammer_of_the_Northern_Wind", "s": "Hammer of the Northern Wind is a main-hand hammer with a Frostbolt proc.", "t": "Hammer of the Northern Wind"}
-{"id": "world-of-warcraft|99332", "b": 0, "u": "", "t": "", "z": "no source page: no source page: not found on wiki"}
+{"id": "world-of-warcraft|99332", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Hand_of_Edward_the_Odd", "t": "Hand of Edward the Odd", "z": ""}
 {"id": "world-of-warcraft|99333", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Hammered_Patron_%28mob%29", "t": "Hammered Patron (mob)"}
 {"id": "world-of-warcraft|99334", "b": 2, "k": "weapon", "n": "Hammer of the Twisting Nether", "m": 1, "q": "Hammer of the Twisting Nether is an epic one-handed mace", "c": "l", "p": [], "u": "https://wowpedia.fandom.com/wiki/Hammer_of_the_Twisting_Nether", "s": "__NOTOC__ Hammer of the Twisting Nether is an epic one-handed mace that had the most +Healing on a one-handed weapon in-game prior to The Burning Crusade.", "t": "Hammer of the Twisting Nether"}
 {"id": "world-of-warcraft|99335", "b": 1, "n": "__NOTOC__\nHamlin Atkins", "p": [], "x": [], "f": [], "z": "", "st": "game", "u": "https://wowpedia.fandom.com/wiki/Hamlin_Atkins", "s": "__NOTOC__ Hamlin Atkins is a wandering Forsaken fungus vendor located in Brill in Tirisfal Glades.", "t": "Hamlin Atkins"}
@@ -143,7 +143,7 @@
 {"id": "world-of-warcraft|99390", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Hand_of_Dagun", "t": "Hand of Dagun"}
 {"id": "world-of-warcraft|99395", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Hallowed_Wand_-_Random", "t": "Hallowed Wand - Random"}
 {"id": "world-of-warcraft|99397", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Hallowed_Wand_-_Skeleton", "t": "Hallowed Wand - Skeleton"}
-{"id": "world-of-warcraft|99402", "b": 0, "u": "", "t": "", "z": "no source page: no source page: not found on wiki"}
+{"id": "world-of-warcraft|99402", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Hand_Axe", "t": "Hand Axe", "z": ""}
 {"id": "world-of-warcraft|99403", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Hand_of_Gorefiend", "t": "Hand of Gorefiend"}
 {"id": "world-of-warcraft|99405", "b": 2, "k": "weapon", "n": "Hammer of Righteous Might", "m": 1, "q": "Hammer of Righteous Might is created with Blacksmithing (365)", "c": "l", "p": [], "u": "https://wowpedia.fandom.com/wiki/Hammer_of_Righteous_Might", "s": "__NOTOC__ Hammer of Righteous Might is created with Blacksmithing (365); taught by Plans: Hammer of Righteous Might, a world drop.", "t": "Hammer of Righteous Might"}
 {"id": "world-of-warcraft|99406", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Hall_of_the_Keepers", "t": "Hall of the Keepers"}
@@ -213,7 +213,7 @@
 {"id": "world-of-warcraft|99537", "b": 1, "n": "__NOTOC__\nHamhide", "p": [], "x": [], "f": [], "z": "none stated: game ability list gives only damage-type attacks, no pool power", "st": "game", "u": "https://wowpedia.fandom.com/wiki/Hamhide", "s": "__NOTOC__ Hamhide is a rare boar found wandering near the hills to the southwest of Northridge Lumber Camp in Western Plaguelands.", "t": "Hamhide"}
 {"id": "world-of-warcraft|99538", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Hami_Down_Cloak", "t": "Hami Down Cloak"}
 {"id": "world-of-warcraft|99539", "b": 1, "n": "Han Leaprocket", "p": [], "x": [], "f": [], "z": "", "st": "game", "u": "https://wowpedia.fandom.com/wiki/Han_Leaprocket", "s": "Han Leaprocket is a goblin engineering trainer found in Warspear's Gallywix's Garage of Ashran.", "t": "Han Leaprocket"}
-{"id": "world-of-warcraft|99541", "b": 0, "u": "", "t": "", "z": "no source page: no source page: not found on wiki"}
+{"id": "world-of-warcraft|99541", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Hallvalor", "t": "Hallvalor", "z": ""}
 {"id": "world-of-warcraft|99542", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Hallowed_Wand_-_Abomination", "t": "Hallowed Wand - Abomination"}
 {"id": "world-of-warcraft|99543", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Hallowed_Wand_-_Geist", "t": "Hallowed Wand - Geist"}
 {"id": "world-of-warcraft|99544", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Hallowed_Wand_-_Ghoul", "t": "Hallowed Wand - Ghoul"}
@@ -228,7 +228,7 @@
 {"id": "world-of-warcraft|99557", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Hallowed_Wand_-_Spider", "t": "Hallowed Wand - Spider"}
 {"id": "world-of-warcraft|99558", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Hallowed_Wand_-_Spider", "t": "Hallowed Wand - Spider"}
 {"id": "world-of-warcraft|99559", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Hallowed_Wand_-_Spider", "t": "Hallowed Wand - Spider"}
-{"id": "world-of-warcraft|99560", "b": 0, "u": "", "t": "", "z": "no source page: no source page: not found on wiki"}
+{"id": "world-of-warcraft|99560", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Halvonoth", "t": "Halvonoth", "z": ""}
 {"id": "world-of-warcraft|99566", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Halls_of_Valor", "t": "Halls of Valor"}
 {"id": "world-of-warcraft|99569", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Hand_of_Azora", "t": "Hand of Azora"}
 {"id": "world-of-warcraft|99572", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Hallowed_Wand_-_Banshee", "t": "Hallowed Wand - Banshee"}

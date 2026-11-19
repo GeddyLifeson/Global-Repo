@@ -16,16 +16,16 @@
 {"id": "world-of-warcraft|119481", "b": 2, "k": "armor", "n": "Knight-Lieutenant's Satin Gloves", "m": 1, "q": "Knight-Lieutenant's Satin Gloves were part of the old PvP-Rare", "c": "l", "p": [], "u": "https://wowpedia.fandom.com/wiki/Knight-Lieutenant%27s_Satin_Gloves", "s": "Knight-Lieutenant's Satin Gloves were part of the old PvP-Rare Priest set Lieutenant Commander's Raiment and is no longer available in game.", "t": "Knight-Lieutenant's Satin Gloves"}
 {"id": "world-of-warcraft|119482", "b": 2, "k": "armor", "n": "Knight-Captain's Satin Leggings", "m": 1, "q": "Knight-Captain's Satin Leggings were part of the old PvP-Rare", "c": "l", "p": [], "u": "https://wowpedia.fandom.com/wiki/Knight-Captain%27s_Satin_Leggings", "s": "Knight-Captain's Satin Leggings were part of the old PvP-Rare Priest set Lieutenant Commander's Raiment and is no longer available in game.", "t": "Knight-Captain's Satin Leggings"}
 {"id": "world-of-warcraft|119483", "b": 2, "k": "armor", "n": "Knight-Captain's Satin Robes", "m": 1, "q": "Knight-Captain's Satin Robes were part of the old PvP-Rare", "c": "l", "p": [], "u": "https://wowpedia.fandom.com/wiki/Knight-Captain%27s_Satin_Robes", "s": "Knight-Captain's Satin Robes were part of the old PvP-Rare Priest set Lieutenant Commander's Raiment and is no longer available in game.", "t": "Knight-Captain's Satin Robes"}
-{"id": "world-of-warcraft|119492", "b": 0, "u": "", "t": "", "z": "no source page: page absent from wiki"}
+{"id": "world-of-warcraft|119492", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Knitted_Pants", "t": "Knitted Pants", "z": ""}
 {"id": "world-of-warcraft|119503", "b": 1, "n": "Kiz Coilspanner", "p": [], "x": [], "f": [], "z": "", "st": "game", "u": "https://wowpedia.fandom.com/wiki/Kiz_Coilspanner", "s": "Kiz Coilspanner is the flight master located at Hatchet Hills in the territory of Ghostlands.", "t": "Kiz Coilspanner"}
 {"id": "world-of-warcraft|119518", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Knothide_Quiver", "t": "Knothide Quiver"}
 {"id": "world-of-warcraft|119519", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Knothide_Ammo_Pouch", "t": "Knothide Ammo Pouch"}
-{"id": "world-of-warcraft|119524", "b": 0, "u": "", "t": "", "z": "no source page: page absent from wiki"}
+{"id": "world-of-warcraft|119524", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Knitted_Sandals", "t": "Knitted Sandals", "z": ""}
 {"id": "world-of-warcraft|119533", "b": 1, "n": "Klink Pakkuri", "p": [], "x": [], "f": [], "z": "", "st": "game", "u": "https://wowpedia.fandom.com/wiki/Klink_Pakkuri", "s": "Klink Pakkuri is a tinker.", "t": "Klink Pakkuri"}
-{"id": "world-of-warcraft|119548", "b": 0, "u": "", "t": "", "z": "no source page: page absent from wiki"}
-{"id": "world-of-warcraft|119549", "b": 0, "u": "", "t": "", "z": "no source page: page absent from wiki"}
-{"id": "world-of-warcraft|119550", "b": 0, "u": "", "t": "", "z": "no source page: page absent from wiki"}
-{"id": "world-of-warcraft|119551", "b": 0, "u": "", "t": "", "z": "no source page: page absent from wiki"}
+{"id": "world-of-warcraft|119548", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Knitted_Tunic", "t": "Knitted Tunic", "z": ""}
+{"id": "world-of-warcraft|119549", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Knitted_Gloves", "t": "Knitted Gloves", "z": ""}
+{"id": "world-of-warcraft|119550", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Knitted_Bracers", "t": "Knitted Bracers", "z": ""}
+{"id": "world-of-warcraft|119551", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Knitted_Belt", "t": "Knitted Belt", "z": ""}
 {"id": "world-of-warcraft|119563", "b": 1, "n": "Kixa is", "p": [], "x": [], "f": [], "z": "", "st": "game", "u": "https://wowpedia.fandom.com/wiki/Kixa", "s": "Kixa is, along with Branzlit, Perixa and Rilgiz one of four bankers in the Bank of Orgrimmar which is located in the Valley of Strength of Orgrimmar.", "t": "Kixa"}
 {"id": "world-of-warcraft|119571", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Klaxxi", "t": "Klaxxi"}
 {"id": "world-of-warcraft|119573", "b": 1, "n": "Kite Master Ni", "p": [], "x": [], "f": [], "z": "", "st": "game", "u": "https://wowpedia.fandom.com/wiki/Kite_Master_Ni", "s": "Kite Master Ni is a pandaren flight master for Shado-Pan Fallback in Kun-Lai Summit.", "t": "Kite Master Ni"}
@@ -78,12 +78,12 @@
 {"id": "world-of-warcraft|120202", "b": 1, "n": "Kormrok\nKormok", "p": [], "x": ["summon undead"], "f": [], "z": "", "st": "game", "u": "https://wowpedia.fandom.com/wiki/Kormok", "s": "Kormok is an ogre necromancer boss found in Scholomance.", "t": "Kormok"}
 {"id": "world-of-warcraft|120217", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Kosh%27harg", "t": "Kosh'harg"}
 {"id": "world-of-warcraft|120227", "b": 1, "n": "Korin", "p": [], "x": [], "f": [], "z": "", "st": "game", "u": "https://wowpedia.fandom.com/wiki/Korin", "s": "Korin was one of the survivors of the battle of Shattrath City.", "t": "Korin"}
-{"id": "world-of-warcraft|120229", "b": 0, "u": "", "t": "", "z": "no source page: page absent from wiki"}
+{"id": "world-of-warcraft|120229", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Kor%27kron_Wind_Rider", "t": "Kor'kron Wind Rider", "z": ""}
 {"id": "world-of-warcraft|120230", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Kor%27kron_Wyvern_Rider", "t": "Kor'kron Wyvern Rider"}
 {"id": "world-of-warcraft|120242", "b": 1, "n": "Kragh", "p": [], "x": [], "f": [], "z": "", "st": "game", "u": "https://wowpedia.fandom.com/wiki/Kragh", "s": "Kragh is an orc flight master located at Conquest Hold in the Grizzly Hills.", "t": "Kragh"}
 {"id": "world-of-warcraft|120243", "b": 1, "n": "Koragg", "p": [], "x": [], "f": [], "z": "", "st": "game", "u": "https://wowpedia.fandom.com/wiki/Koragg", "s": "Koragg is a wight found in Zul'Aman as one of the eight possible adds for Hex Lord Malacrass.", "t": "Koragg"}
 {"id": "world-of-warcraft|120248", "b": 1, "n": "Krank Axeljink", "p": [], "x": [], "f": [], "z": "", "st": "game", "u": "https://wowpedia.fandom.com/wiki/Krank_Axeljink", "s": "Krank Axeljink was a gnome from Tinker Town, chosen to be a gnomish representative to the New Council of Tirisfal.", "t": "Krank Axeljink"}
-{"id": "world-of-warcraft|120252", "b": 0, "u": "", "t": "", "z": "no source page: page absent from wiki"}
+{"id": "world-of-warcraft|120252", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Korra", "t": "Korra", "z": ""}
 {"id": "world-of-warcraft|120261", "b": 1, "n": "__NOTOC__\nKorrah's Hippogryph", "p": [], "x": [], "f": [], "z": "", "st": "game", "u": "https://wowpedia.fandom.com/wiki/Korrah%27s_Hippogryph", "s": "__NOTOC__ Korrah's Hippogryph is a hippogryph flight master located at Ethel Rethor in Desolace.", "t": "Korrah's Hippogryph"}
 {"id": "world-of-warcraft|120263", "b": 1, "n": "Kozish", "p": [], "x": [], "f": [], "z": "", "st": "game", "u": "https://wowpedia.fandom.com/wiki/Kozish", "s": "Kozish is a goblin inside the inn of the Valley of Strength in Orgrimmar.", "t": "Kozish"}
 {"id": "world-of-warcraft|120288", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Krasarang_River", "t": "Krasarang River"}
@@ -239,7 +239,7 @@
 {"id": "world-of-warcraft|121832", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Lady_Moonberry%27s_Wand", "t": "Lady Moonberry's Wand"}
 {"id": "world-of-warcraft|121886", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Lag", "t": "Lag"}
 {"id": "world-of-warcraft|121890", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Lake_Elune%27ara", "t": "Lake Elune'ara"}
-{"id": "world-of-warcraft|121891", "b": 0, "u": "", "t": "", "z": "no source page: page absent from wiki"}
+{"id": "world-of-warcraft|121891", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Lake_Nazferiti", "t": "Lake Nazferiti", "z": ""}
 {"id": "world-of-warcraft|121897", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Land%27s_End_Beach", "t": "Land's End Beach"}
 {"id": "world-of-warcraft|121898", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Lakeridge_Highway", "t": "Lakeridge Highway"}
 {"id": "world-of-warcraft|121904", "b": 1, "n": "__NOTOC__\nLalina Summermoon", "p": [], "x": [], "f": [], "z": "", "st": "game", "u": "https://wowpedia.fandom.com/wiki/Lalina_Summermoon", "s": "__NOTOC__ Lalina Summermoon is a night elf located in the Craftsmen's Terrace in Darnassus.", "t": "Lalina Summermoon"}

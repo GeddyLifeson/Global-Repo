@@ -4,7 +4,7 @@
 {"id": "world-of-warcraft|161999", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Qiraji_Spiked_Hilt", "t": "Qiraji Spiked Hilt"}
 {"id": "world-of-warcraft|162039", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Quenched_Illidari-Bane_Blade", "t": "Quenched Illidari-Bane Blade"}
 {"id": "world-of-warcraft|162066", "b": 2, "k": "weapon", "n": "Quel'Delar, Ferocity of the Scorned", "m": 1, "q": "A Victory For The Silver Covenant (sword)", "c": "l", "p": [], "u": "https://wowpedia.fandom.com/wiki/Quel%27Delar%2C_Ferocity_of_the_Scorned", "s": "Quel'Delar, Ferocity of the Scorned is a quest reward from A Victory For The Silver Covenant (sword) and A Victory For The Sunreavers (sword).", "t": "Quel'Delar, Ferocity of the Scorned"}
-{"id": "world-of-warcraft|162324", "b": 0, "u": "", "t": "", "z": "no source page: no source page: page removed from wiki (absent.json)"}
+{"id": "world-of-warcraft|162324", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Quarter_Staff", "t": "Quarter Staff", "z": ""}
 {"id": "world-of-warcraft|162364", "b": 1, "n": "R-3D0", "p": [], "x": [], "f": [], "z": "", "st": "game", "u": "https://wowpedia.fandom.com/wiki/R-3D0", "s": "R-3D0 is an alarm-o-bot found in the Blade's Edge Mountains.", "t": "R-3D0"}
 {"id": "world-of-warcraft|162786", "b": 1, "n": "__NOTOC__\nRaelis Dawnstar", "p": [], "x": [], "f": [], "z": "", "st": "game", "u": "https://wowpedia.fandom.com/wiki/Raelis_Dawnstar", "s": "__NOTOC__ Raelis Dawnstar is a blood elf weapon vendor located on Sunstrider Isle in Eversong Woods.", "t": "Raelis Dawnstar"}
 {"id": "world-of-warcraft|162799", "b": 1, "n": "__NOTOC__\nRagar", "p": [], "x": [], "f": [], "z": "", "st": "game", "u": "https://wowpedia.fandom.com/wiki/Ragar", "s": "__NOTOC__ Ragar is a mok'nathal leatherworking vendor located at Mok'Nathal Village in the Blade's Edge Mountains.", "t": "Ragar"}
@@ -135,13 +135,13 @@
 {"id": "world-of-warcraft|186788", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Shield_of_Unending_Fury", "t": "Shield of Unending Fury"}
 {"id": "world-of-warcraft|186944", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Shivan_Assassin", "t": "Shivan Assassin"}
 {"id": "world-of-warcraft|187002", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Shok%27Thokar", "t": "Shok'Thokar"}
-{"id": "world-of-warcraft|187335", "b": 0, "u": "", "t": "", "z": "no source page: no source page: page removed from wiki (absent.json)"}
+{"id": "world-of-warcraft|187335", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Short_Staff", "t": "Short Staff", "z": ""}
 {"id": "world-of-warcraft|187487", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Shoulders_of_the_Forlorn_Protector", "t": "Shoulders of the Forlorn Protector"}
 {"id": "world-of-warcraft|187488", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Shoulders_of_the_Forlorn_Vanquisher", "t": "Shoulders of the Forlorn Vanquisher"}
 {"id": "world-of-warcraft|187489", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Shoulders_of_the_Forlorn_Conqueror", "t": "Shoulders of the Forlorn Conqueror"}
-{"id": "world-of-warcraft|187507", "b": 0, "u": "", "t": "", "z": "no source page: no source page: page removed from wiki (absent.json)"}
-{"id": "world-of-warcraft|187508", "b": 0, "u": "", "t": "", "z": "no source page: no source page: page removed from wiki (absent.json)"}
-{"id": "world-of-warcraft|187509", "b": 0, "u": "", "t": "", "z": "no source page: no source page: page removed from wiki (absent.json)"}
+{"id": "world-of-warcraft|187507", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Shoulders_of_the_Fiery_Conqueror", "t": "Shoulders of the Fiery Conqueror", "z": ""}
+{"id": "world-of-warcraft|187508", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Shoulders_of_the_Fiery_Protector", "t": "Shoulders of the Fiery Protector", "z": ""}
+{"id": "world-of-warcraft|187509", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Shoulders_of_the_Fiery_Vanquisher", "t": "Shoulders of the Fiery Vanquisher", "z": ""}
 {"id": "world-of-warcraft|187510", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Shoulders_of_the_Corrupted_Conqueror", "t": "Shoulders of the Corrupted Conqueror"}
 {"id": "world-of-warcraft|187512", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Shoulders_of_the_Corrupted_Protector", "t": "Shoulders of the Corrupted Protector"}
 {"id": "world-of-warcraft|187513", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Shoulders_of_the_Corrupted_Vanquisher", "t": "Shoulders of the Corrupted Vanquisher"}
@@ -156,7 +156,7 @@
 {"id": "world-of-warcraft|188681", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Silkwing_Larva", "t": "Silkwing Larva"}
 {"id": "world-of-warcraft|188722", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Silver_Shield", "t": "Silver Shield"}
 {"id": "world-of-warcraft|188769", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Silkwing", "t": "Silkwing"}
-{"id": "world-of-warcraft|189474", "b": 0, "u": "", "t": "", "z": "no source page: no source page: page removed from wiki (absent.json)"}
+{"id": "world-of-warcraft|189474", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Singing_Ridge", "t": "Singing Ridge", "z": ""}
 {"id": "world-of-warcraft|190434", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Skittering_Cavern_Crawler", "t": "Skittering Cavern Crawler"}
 {"id": "world-of-warcraft|190714", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Skyfire_Hawk-Bow", "t": "Skyfire Hawk-Bow"}
 {"id": "world-of-warcraft|190730", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Skyguard_Outpost", "t": "Skyguard Outpost"}

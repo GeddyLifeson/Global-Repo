@@ -22,7 +22,7 @@
 {"id": "world-of-warcraft|301461", "b": 0, "u": "https://warcraft.wiki.gg/wiki/Torchlight_Mine", "t": "Torchlight Mine"}
 {"id": "world-of-warcraft|301462", "b": 0, "u": "https://warcraft.wiki.gg/wiki/Torchbearer%27s_Haversack", "t": "Torchbearer's Haversack"}
 {"id": "world-of-warcraft|301463", "b": 0, "u": "https://warcraft.wiki.gg/wiki/Tor_Kieldaz", "t": "Tor Kieldaz"}
-{"id": "world-of-warcraft|301464", "b": 0, "u": "", "t": "", "z": "no source page: no page"}
+{"id": "world-of-warcraft|301464", "b": 0, "u": "https://warcraft.wiki.gg/wiki/Torn_Spell_Notes", "t": "Torn Spell Notes", "z": ""}
 {"id": "world-of-warcraft|301466", "b": 1, "n": "Torchsnarl", "p": [], "x": ["stun"], "f": [], "z": "", "st": "game", "u": "https://warcraft.wiki.gg/wiki/Torchsnarl", "s": "Torchsnarl is a swolbold located in the Ringing Deeps.", "t": "Torchsnarl"}
 {"id": "world-of-warcraft|301467", "b": 1, "n": "Tordrin", "p": [], "x": [], "f": [], "z": "", "st": "game", "u": "https://warcraft.wiki.gg/wiki/Tordrin", "s": "Tordrin is an earthen located in Rambleshire on the Isle of Dorn.", "t": "Tordrin"}
 {"id": "world-of-warcraft|301468", "b": 0, "u": "https://warcraft.wiki.gg/wiki/Tormented_Ancient", "t": "Tormented Ancient"}
@@ -43,7 +43,7 @@
 {"id": "world-of-warcraft|301495", "b": 0, "u": "https://warcraft.wiki.gg/wiki/Tormentor%27s_Bladed_Fists", "t": "Tormentor's Bladed Fists"}
 {"id": "world-of-warcraft|301499", "b": 0, "u": "https://warcraft.wiki.gg/wiki/Torn_Spellbook_Page", "t": "Torn Spellbook Page"}
 {"id": "world-of-warcraft|301501", "b": 0, "u": "https://warcraft.wiki.gg/wiki/Torn_Bracer", "t": "Torn Bracer"}
-{"id": "world-of-warcraft|301503", "b": 0, "u": "", "t": "", "z": "no source page: no page"}
+{"id": "world-of-warcraft|301503", "b": 0, "u": "https://warcraft.wiki.gg/wiki/Torn_and_Soggy_Message", "t": "Torn and Soggy Message", "z": ""}
 {"id": "world-of-warcraft|301504", "b": 0, "u": "https://warcraft.wiki.gg/wiki/Tormented_Shade", "t": "Tormented Shade"}
 {"id": "world-of-warcraft|301505", "b": 0, "u": "https://warcraft.wiki.gg/wiki/Torn_Twilight_Missive", "t": "Torn Twilight Missive"}
 {"id": "world-of-warcraft|301506", "b": 0, "u": "https://warcraft.wiki.gg/wiki/Toraan%2C_Eye_of_O%27ros", "t": "Toraan, Eye of O'ros"}
@@ -182,7 +182,7 @@
 {"id": "world-of-warcraft|301691", "b": 1, "n": "NPC\nTraeya", "p": [], "x": [], "f": [], "z": "", "st": "game", "u": "https://warcraft.wiki.gg/wiki/Traeya", "s": "Traeya is a tauren armor vendor located outside the Caverns of Time in Tanaris during WoW's Anniversary events.", "t": "Traeya"}
 {"id": "world-of-warcraft|301693", "b": 0, "u": "https://warcraft.wiki.gg/wiki/Tracking_Quest", "t": "Tracking Quest"}
 {"id": "world-of-warcraft|301695", "b": 0, "u": "https://warcraft.wiki.gg/wiki/Toy_Trouble", "t": "Toy Trouble"}
-{"id": "world-of-warcraft|301700", "b": 0, "u": "", "t": "", "z": "no source page: no page"}
+{"id": "world-of-warcraft|301700", "b": 0, "u": "https://warcraft.wiki.gg/wiki/Toy_Pile", "t": "Toy Pile", "z": ""}
 {"id": "world-of-warcraft|301701", "b": 0, "u": "https://warcraft.wiki.gg/wiki/Trained_Shalewing", "t": "Trained Shalewing"}
 {"id": "world-of-warcraft|301702", "b": 1, "n": "Blackrock Depths\nmob\nToxitron Mk. II", "p": [], "x": ["poison"], "f": [], "z": "", "st": "game", "u": "https://warcraft.wiki.gg/wiki/Toxitron_Mk._II", "s": "Toxitron Mk.", "t": "Toxitron Mk. II"}
 {"id": "world-of-warcraft|301704", "b": 1, "n": "Trackpit King", "p": [], "x": [], "f": [], "z": "", "st": "game", "u": "https://warcraft.wiki.gg/wiki/Trackpit_King", "s": "The Trackpit King is a rat located with several Trackpit Nibblers below the Slam Central Station in the Undermine.", "t": "Trackpit King"}

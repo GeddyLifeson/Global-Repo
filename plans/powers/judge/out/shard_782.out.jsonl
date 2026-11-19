@@ -47,19 +47,19 @@
 {"id": "world-of-warcraft|290792", "b": 0, "u": "https://warcraft.wiki.gg/wiki/Scrap_of_Singed_Paper", "t": "Scrap of Singed Paper"}
 {"id": "world-of-warcraft|290793", "b": 0, "u": "https://warcraft.wiki.gg/wiki/Scrabbling_Servant", "t": "Scrabbling Servant"}
 {"id": "world-of-warcraft|290794", "b": 0, "u": "https://warcraft.wiki.gg/wiki/Scrap_Harvester", "t": "Scrap Harvester"}
-{"id": "world-of-warcraft|290798", "b": 0, "u": "", "t": "", "z": "no source page: no source page in wiki"}
-{"id": "world-of-warcraft|290799", "b": 0, "u": "", "t": "", "z": "no source page: no source page in wiki"}
-{"id": "world-of-warcraft|290800", "b": 0, "u": "", "t": "", "z": "no source page: no source page in wiki"}
-{"id": "world-of-warcraft|290801", "b": 0, "u": "", "t": "", "z": "no source page: no source page in wiki"}
-{"id": "world-of-warcraft|290802", "b": 0, "u": "", "t": "", "z": "no source page: no source page in wiki"}
-{"id": "world-of-warcraft|290803", "b": 0, "u": "", "t": "", "z": "no source page: no source page in wiki"}
-{"id": "world-of-warcraft|290804", "b": 0, "u": "", "t": "", "z": "no source page: no source page in wiki"}
-{"id": "world-of-warcraft|290805", "b": 0, "u": "", "t": "", "z": "no source page: no source page in wiki"}
-{"id": "world-of-warcraft|290806", "b": 0, "u": "", "t": "", "z": "no source page: no source page in wiki"}
-{"id": "world-of-warcraft|290807", "b": 0, "u": "", "t": "", "z": "no source page: no source page in wiki"}
-{"id": "world-of-warcraft|290808", "b": 0, "u": "", "t": "", "z": "no source page: no source page in wiki"}
-{"id": "world-of-warcraft|290809", "b": 0, "u": "", "t": "", "z": "no source page: no source page in wiki"}
-{"id": "world-of-warcraft|290810", "b": 0, "u": "", "t": "", "z": "no source page: no source page in wiki"}
+{"id": "world-of-warcraft|290798", "b": 0, "u": "https://warcraft.wiki.gg/wiki/Scouting_Missive%3A_Broken_Precipice", "t": "Scouting Missive: Broken Precipice", "z": ""}
+{"id": "world-of-warcraft|290799", "b": 0, "u": "https://warcraft.wiki.gg/wiki/Scouting_Missive%3A_Darktide_Roost", "t": "Scouting Missive: Darktide Roost", "z": ""}
+{"id": "world-of-warcraft|290800", "b": 0, "u": "https://warcraft.wiki.gg/wiki/Scouting_Missive%3A_Everbloom_Wilds", "t": "Scouting Missive: Everbloom Wilds", "z": ""}
+{"id": "world-of-warcraft|290801", "b": 0, "u": "https://warcraft.wiki.gg/wiki/Scouting_Missive%3A_Iron_Siegeworks", "t": "Scouting Missive: Iron Siegeworks", "z": ""}
+{"id": "world-of-warcraft|290802", "b": 0, "u": "https://warcraft.wiki.gg/wiki/Scouting_Missive%3A_Lost_Veil_Anzu", "t": "Scouting Missive: Lost Veil Anzu", "z": ""}
+{"id": "world-of-warcraft|290803", "b": 0, "u": "https://warcraft.wiki.gg/wiki/Scouting_Missive%3A_Mok%27gol_Watchpost", "t": "Scouting Missive: Mok'gol Watchpost", "z": ""}
+{"id": "world-of-warcraft|290804", "b": 0, "u": "https://warcraft.wiki.gg/wiki/Scouting_Missive%3A_Pillars_of_Fate", "t": "Scouting Missive: Pillars of Fate", "z": ""}
+{"id": "world-of-warcraft|290805", "b": 0, "u": "https://warcraft.wiki.gg/wiki/Scouting_Missive%3A_Shattrath_Harbor", "t": "Scouting Missive: Shattrath Harbor", "z": ""}
+{"id": "world-of-warcraft|290806", "b": 0, "u": "https://warcraft.wiki.gg/wiki/Scouting_Missive%3A_Skettis", "t": "Scouting Missive: Skettis", "z": ""}
+{"id": "world-of-warcraft|290807", "b": 0, "u": "https://warcraft.wiki.gg/wiki/Scouting_Missive%3A_Socrethar%27s_Rise", "t": "Scouting Missive: Socrethar's Rise", "z": ""}
+{"id": "world-of-warcraft|290808", "b": 0, "u": "https://warcraft.wiki.gg/wiki/Scouting_Missive%3A_Stonefury_Cliffs", "t": "Scouting Missive: Stonefury Cliffs", "z": ""}
+{"id": "world-of-warcraft|290809", "b": 0, "u": "https://warcraft.wiki.gg/wiki/Scouting_Missive%3A_The_Heart_of_Shattrath", "t": "Scouting Missive: The Heart of Shattrath", "z": ""}
+{"id": "world-of-warcraft|290810", "b": 0, "u": "https://warcraft.wiki.gg/wiki/Scouting_Missive%3A_The_Pit", "t": "Scouting Missive: The Pit", "z": ""}
 {"id": "world-of-warcraft|290811", "b": 0, "u": "https://warcraft.wiki.gg/wiki/Scouting_Missive%3A_Gorian_Proving_Grounds", "t": "Scouting Missive: Gorian Proving Grounds"}
 {"id": "world-of-warcraft|290812", "b": 0, "u": "https://warcraft.wiki.gg/wiki/Scout_Ranger%27s_Belt", "t": "Scout Ranger's Belt"}
 {"id": "world-of-warcraft|290813", "b": 0, "u": "https://warcraft.wiki.gg/wiki/Scout_Ranger%27s_Gloves", "t": "Scout Ranger's Gloves"}
@@ -208,7 +208,7 @@
 {"id": "world-of-warcraft|291027", "b": 0, "u": "https://warcraft.wiki.gg/wiki/Sea_Creature_Meat", "t": "Sea Creature Meat"}
 {"id": "world-of-warcraft|291028", "b": 0, "u": "https://warcraft.wiki.gg/wiki/Scurrying_Rock_Mouse", "t": "Scurrying Rock Mouse"}
 {"id": "world-of-warcraft|291029", "b": 0, "u": "https://warcraft.wiki.gg/wiki/Sea_Cyclone", "t": "Sea Cyclone"}
-{"id": "world-of-warcraft|291030", "b": 0, "u": "", "t": "", "z": "no source page: no source page in wiki"}
+{"id": "world-of-warcraft|291030", "b": 0, "u": "https://warcraft.wiki.gg/wiki/season", "t": "season", "z": ""}
 {"id": "world-of-warcraft|291032", "b": 0, "u": "https://warcraft.wiki.gg/wiki/Seared_Ironwood_Greaves", "t": "Seared Ironwood Greaves"}
 {"id": "world-of-warcraft|291038", "b": 0, "u": "https://warcraft.wiki.gg/wiki/Searing_Rootguard", "t": "Searing Rootguard"}
 {"id": "world-of-warcraft|291039", "b": 0, "u": "https://warcraft.wiki.gg/wiki/Searing_Herbalist", "t": "Searing Herbalist"}

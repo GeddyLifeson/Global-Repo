@@ -22,7 +22,7 @@
 {"id": "world-of-warcraft|108448", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Icecrown_Bottled_Water", "t": "Icecrown Bottled Water"}
 {"id": "world-of-warcraft|108449", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Ice_Serpent_Eye", "t": "Ice Serpent Eye"}
 {"id": "world-of-warcraft|108451", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Iceshrieker%27s_Touch", "t": "Iceshrieker's Touch"}
-{"id": "world-of-warcraft|108452", "b": 0, "u": "", "t": "", "z": "no source page: no source page: Icehowl encounter stub"}
+{"id": "world-of-warcraft|108452", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Icehowl", "t": "Icehowl", "z": ""}
 {"id": "world-of-warcraft|108453", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Ice_Encrusted_Amulet", "t": "Ice Encrusted Amulet"}
 {"id": "world-of-warcraft|108458", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Icecrown_Gunship_Battle", "t": "Icecrown Gunship Battle"}
 {"id": "world-of-warcraft|108459", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Iceborn_Proto-Drake", "t": "Iceborn Proto-Drake"}
@@ -126,7 +126,7 @@
 {"id": "world-of-warcraft|108654", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Icefall_Chain_Belt", "t": "Icefall Chain Belt"}
 {"id": "world-of-warcraft|108655", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Icefall_Mail_Girdle", "t": "Icefall Mail Girdle"}
 {"id": "world-of-warcraft|108657", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Icefallen_Geist", "t": "Icefallen Geist"}
-{"id": "world-of-warcraft|108665", "b": 0, "u": "", "t": "", "z": "no source page: no source page: Icemist Sash stub"}
+{"id": "world-of-warcraft|108665", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Icemist_Sash", "t": "Icemist Sash", "z": ""}
 {"id": "world-of-warcraft|108674", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Ice-Encrusted_Gloves", "t": "Ice-Encrusted Gloves"}
 {"id": "world-of-warcraft|108675", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Ice-Encrusted_Gauntlets", "t": "Ice-Encrusted Gauntlets"}
 {"id": "world-of-warcraft|108676", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Icefall_Chain_Gloves", "t": "Icefall Chain Gloves"}
@@ -226,11 +226,11 @@
 {"id": "world-of-warcraft|108845", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Idol_of_the_Flourishing_Life", "t": "Idol of the Flourishing Life"}
 {"id": "world-of-warcraft|108846", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Igniter_Rod", "t": "Igniter Rod"}
 {"id": "world-of-warcraft|108849", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Icy_Reach", "t": "Icy Reach"}
-{"id": "world-of-warcraft|108850", "b": 0, "u": "", "t": "", "z": "no source page: no source page: Idol of Mutilation stub"}
-{"id": "world-of-warcraft|108851", "b": 0, "u": "", "t": "", "z": "no source page: no source page: Idol of Flaring Growth stub"}
+{"id": "world-of-warcraft|108850", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Idol_of_Mutilation", "t": "Idol of Mutilation", "z": ""}
+{"id": "world-of-warcraft|108851", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Idol_of_Flaring_Growth", "t": "Idol of Flaring Growth", "z": ""}
 {"id": "world-of-warcraft|108852", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Idol_of_Lunar_Fury", "t": "Idol of Lunar Fury"}
 {"id": "world-of-warcraft|108853", "b": 0, "u": "https://wowpedia.fandom.com/wiki/If_Looks_Could_Kill", "t": "If Looks Could Kill"}
-{"id": "world-of-warcraft|108857", "b": 0, "u": "", "t": "", "z": "no source page: no source page: Idol of the Black Willow stub"}
+{"id": "world-of-warcraft|108857", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Idol_of_the_Black_Willow", "t": "Idol of the Black Willow", "z": ""}
 {"id": "world-of-warcraft|108859", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Idol_of_the_Lunar_Eclipse", "t": "Idol of the Lunar Eclipse"}
 {"id": "world-of-warcraft|108860", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Ick%27s_Rotting_Thumb", "t": "Ick's Rotting Thumb"}
 {"id": "world-of-warcraft|108863", "b": 1, "n": "Ikfirus the Vile", "p": [], "x": [], "f": [], "z": "", "st": "game", "u": "https://wowpedia.fandom.com/wiki/Ikfirus_the_Vile", "s": "Ikfirus the Vile is a Forsaken that can be found in Light's Hammer of Icecrown Citadel.", "t": "Ikfirus the Vile"}

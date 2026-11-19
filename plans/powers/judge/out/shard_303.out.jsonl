@@ -17,10 +17,10 @@
 {"id": "world-of-warcraft|301887", "b": 0, "u": "https://warcraft.wiki.gg/wiki/Trapped_Whelpling", "t": "Trapped Whelpling"}
 {"id": "world-of-warcraft|301909", "b": 0, "u": "https://warcraft.wiki.gg/wiki/Treatise_on_Aspect_of_the_Viper", "t": "Treatise on Aspect of the Viper"}
 {"id": "world-of-warcraft|301915", "b": 0, "u": "https://warcraft.wiki.gg/wiki/Treatise_on_the_Heart_of_the_Lion", "t": "Treatise on the Heart of the Lion"}
-{"id": "world-of-warcraft|301919", "b": 0, "u": "", "t": "", "z": "no source page: no source page: book page absent"}
-{"id": "world-of-warcraft|301920", "b": 0, "u": "", "t": "", "z": "no source page: no source page: book page absent"}
+{"id": "world-of-warcraft|301919", "b": 0, "u": "https://warcraft.wiki.gg/wiki/Treatise_on_Forms%3A_Lords", "t": "Treatise on Forms: Lords", "z": ""}
+{"id": "world-of-warcraft|301920", "b": 0, "u": "https://warcraft.wiki.gg/wiki/Treatise_on_Forms%3A_Skitterlings", "t": "Treatise on Forms: Skitterlings", "z": ""}
 {"id": "world-of-warcraft|301921", "b": 0, "u": "https://warcraft.wiki.gg/wiki/Treatise_on_Forms%3A_Sages", "t": "Treatise on Forms: Sages"}
-{"id": "world-of-warcraft|301922", "b": 0, "u": "", "t": "", "z": "no source page: no source page: book page absent"}
+{"id": "world-of-warcraft|301922", "b": 0, "u": "https://warcraft.wiki.gg/wiki/Treatise_on_Forms%3A_Ascended", "t": "Treatise on Forms: Ascended", "z": ""}
 {"id": "world-of-warcraft|301925", "b": 1, "n": "Trex'na", "p": [], "x": [], "f": [], "z": "none stated: only game damage ability Web Bolt", "st": "game", "u": "https://warcraft.wiki.gg/wiki/Trex%27na", "s": "Trex'na is a nerubian located in the Umbral Bazaar in the City of Threads.", "t": "Trex'na"}
 {"id": "world-of-warcraft|301928", "b": 0, "u": "https://warcraft.wiki.gg/wiki/Treatise_of_the_Falcon", "t": "Treatise of the Falcon"}
 {"id": "world-of-warcraft|301930", "b": 0, "u": "https://warcraft.wiki.gg/wiki/Trickster%27s_Riddles", "t": "Trickster's Riddles"}
@@ -43,7 +43,7 @@
 {"id": "world-of-warcraft|302134", "b": 0, "u": "https://warcraft.wiki.gg/wiki/Tuning_Wand", "t": "Tuning Wand"}
 {"id": "world-of-warcraft|302163", "b": 1, "n": "Tuuran", "p": [], "x": [], "f": [], "z": "", "st": "game", "u": "https://warcraft.wiki.gg/wiki/Tuuran", "s": "Tuuran is a draenei located next to Lisa McKeever's cart at the Canals in Stormwind City.", "t": "Tuuran"}
 {"id": "world-of-warcraft|302166", "b": 0, "u": "https://warcraft.wiki.gg/wiki/Turning_Silvermoon_Archives", "t": "Turning Silvermoon Archives"}
-{"id": "world-of-warcraft|302182", "b": 0, "u": "", "t": "", "z": "no source page: no source page: Turbulent Gusts absent"}
+{"id": "world-of-warcraft|302182", "b": 0, "u": "https://warcraft.wiki.gg/wiki/Turbulent_Gust", "t": "Turbulent Gust", "z": ""}
 {"id": "world-of-warcraft|302191", "b": 0, "u": "https://warcraft.wiki.gg/wiki/Twaddle", "t": "Twaddle"}
 {"id": "world-of-warcraft|302213", "b": 0, "u": "https://warcraft.wiki.gg/wiki/Twice-Dead_Tusk", "t": "Twice-Dead Tusk"}
 {"id": "world-of-warcraft|302215", "b": 0, "u": "https://warcraft.wiki.gg/wiki/Twilight_Destroyer", "t": "Twilight Destroyer"}
@@ -236,7 +236,7 @@
 {"id": "world-of-warcraft|304565", "b": 0, "u": "https://warcraft.wiki.gg/wiki/Virendra_Moonglow", "t": "Virendra Moonglow"}
 {"id": "world-of-warcraft|304636", "b": 0, "u": "https://warcraft.wiki.gg/wiki/Violent_Yeti", "t": "Violent Yeti"}
 {"id": "world-of-warcraft|304640", "b": 0, "u": "https://warcraft.wiki.gg/wiki/Beacon_to_the_Beyond", "t": "Beacon to the Beyond"}
-{"id": "world-of-warcraft|304643", "b": 0, "u": "", "t": "", "z": "no source page: no source page: Vodyanoi absent"}
+{"id": "world-of-warcraft|304643", "b": 1, "u": "https://warcraft.wiki.gg/wiki/Vodyanoi", "t": "Vodyanoi", "z": "none stated: page gives no powers", "n": "Vodyanoi", "p": [], "x": [], "f": [], "st": "", "s": "Vodyanoi is a giant frog located in the Saltspray Glen in the . He is only visible while under the influence of a Marshroom. Druids can speak to him to obtain t"}
 {"id": "world-of-warcraft|304644", "b": 1, "n": "Vivian Rae", "p": [], "x": [], "f": [], "z": "", "st": "game", "u": "https://warcraft.wiki.gg/wiki/Vivian_Rae", "s": "Vivian Rae is a human located in Mountainview Post in the Ohn'ahran Plains.", "t": "Vivian Rae"}
 {"id": "world-of-warcraft|304648", "b": 0, "u": "https://warcraft.wiki.gg/wiki/Void-Powered_Vambraces", "t": "Void-Powered Vambraces"}
 {"id": "world-of-warcraft|304663", "b": 0, "u": "", "t": "", "z": "no source page: no source page: Vizier faction absent"}

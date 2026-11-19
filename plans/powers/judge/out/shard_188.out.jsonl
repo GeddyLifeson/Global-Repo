@@ -6,7 +6,7 @@
 {"id": "world-of-warcraft|275635", "b": 1, "n": "Landan", "p": [], "x": [], "f": [], "z": "", "st": "game", "u": "https://warcraft.wiki.gg/wiki/Landan", "s": "Landan is a human located at Gilded Oaks in Founder's Point.", "t": "Landan"}
 {"id": "world-of-warcraft|275661", "b": 1, "n": "Larandel Dawnhaze", "p": [], "x": [], "f": [], "z": "", "st": "game", "u": "https://warcraft.wiki.gg/wiki/Larandel_Dawnhaze", "s": "Larandel Dawnhaze is a void elf found sitting next to Maxwell Saltsong on an unnamed isle northwest of the Waking Shores.", "t": "Larandel Dawnhaze"}
 {"id": "world-of-warcraft|275674", "b": 0, "u": "https://warcraft.wiki.gg/wiki/Latent_Wisdom", "t": "Latent Wisdom"}
-{"id": "world-of-warcraft|275683", "b": 0, "u": "", "t": "", "z": "no source page: no source page found"}
+{"id": "world-of-warcraft|275683", "b": 1, "u": "https://warcraft.wiki.gg/wiki/Larsera", "t": "Larsera", "z": "none stated: only ordinary game combat abilities, no pool power", "n": "Larsera", "p": [], "x": [], "f": [], "st": "", "s": "Larsera is a green dragon located in Forest Song in during Nightmare Incursions."}
 {"id": "world-of-warcraft|275859", "b": 1, "n": "Eversong Woods\nLazaar Baneshadow", "p": [], "x": ["lich_transformation"], "f": [], "z": "", "st": "game", "u": "https://warcraft.wiki.gg/wiki/Lazaar_Baneshadow", "s": "Lazaar Baneshadow is a blood elf who transforms himself into a lich in the Ruins of Deatholme in Eversong Woods.", "t": "Lazaar Baneshadow"}
 {"id": "world-of-warcraft|275883", "b": 1, "n": "Leariah Nightspear", "p": [], "x": [], "f": [], "z": "", "st": "game", "u": "https://warcraft.wiki.gg/wiki/Leariah_Nightspear", "s": "Leariah Nightspear is a void elf found sitting on a bench in central Valdrakken during Who Are You?.", "t": "Leariah Nightspear"}
 {"id": "world-of-warcraft|276129", "b": 1, "n": "Leogan", "p": [], "x": [], "f": [], "z": "", "st": "game", "u": "https://warcraft.wiki.gg/wiki/Leogan_%28NPC%29", "s": "Leogan was a human found in .", "t": "Leogan (NPC)"}
@@ -76,9 +76,9 @@
 {"id": "world-of-warcraft|278671", "b": 0, "u": "https://warcraft.wiki.gg/wiki/Mechanical_Bunny_%28Exile%27s_Reach%29", "t": "Mechanical Bunny (Exile's Reach)"}
 {"id": "world-of-warcraft|278697", "b": 0, "u": "https://warcraft.wiki.gg/wiki/Mechanical_Whelp", "t": "Mechanical Whelp"}
 {"id": "world-of-warcraft|278711", "b": 1, "n": "Eversong Woods\nMeledor", "p": [], "x": [], "f": [], "z": "none stated: fireball spell damage only", "st": "game", "u": "https://warcraft.wiki.gg/wiki/Meledor", "s": "Meledor is a blood elf mage.", "t": "Meledor"}
-{"id": "world-of-warcraft|278724", "b": 0, "u": "", "t": "", "z": "no source page: no source page found"}
+{"id": "world-of-warcraft|278724", "b": 1, "u": "https://warcraft.wiki.gg/wiki/Mellias_Earthtender", "t": "Mellias Earthtender", "z": "none stated: page gives no powers", "n": "Mellias Earthtender", "p": [], "x": [], "f": [], "st": "", "s": "Mellias Earthtender is a night elf druid located in during Nightmare Incursions."}
 {"id": "world-of-warcraft|278728", "b": 0, "u": "https://warcraft.wiki.gg/wiki/Meditation_Specialization", "t": "Meditation Specialization"}
-{"id": "world-of-warcraft|278729", "b": 0, "u": "", "t": "", "z": "no source page: no source page found"}
+{"id": "world-of-warcraft|278729", "b": 0, "u": "https://warcraft.wiki.gg/wiki/Melanie_Morten", "t": "Melanie Morten", "z": ""}
 {"id": "world-of-warcraft|278780", "b": 1, "n": "Melandra", "p": [], "x": [], "f": [], "z": "", "st": "game", "u": "https://warcraft.wiki.gg/wiki/Melandra", "s": "Melandra is a blood elf fishing trainer and vendor located at the Solaarian Sunbath in Eversong Woods.", "t": "Melandra"}
 {"id": "world-of-warcraft|278803", "b": 0, "u": "https://warcraft.wiki.gg/wiki/Menacing_Presence", "t": "Menacing Presence"}
 {"id": "world-of-warcraft|278871", "b": 1, "n": "Meraas", "p": [], "x": [], "f": [], "z": "", "st": "game", "u": "https://warcraft.wiki.gg/wiki/Meraas", "s": "Meraas is a man'ari eredar who attended the Tishamaat in the Trader's Tier in the Exodar.", "t": "Meraas"}
@@ -131,7 +131,7 @@
 {"id": "world-of-warcraft|280839", "b": 0, "u": "https://warcraft.wiki.gg/wiki/Neferset_Shadowlancer", "t": "Neferset Shadowlancer"}
 {"id": "world-of-warcraft|280840", "b": 0, "u": "https://warcraft.wiki.gg/wiki/Neferset_Shadowstalker", "t": "Neferset Shadowstalker"}
 {"id": "world-of-warcraft|280841", "b": 0, "u": "https://warcraft.wiki.gg/wiki/Neferset_Shieldguard", "t": "Neferset Shieldguard"}
-{"id": "world-of-warcraft|280856", "b": 0, "u": "", "t": "", "z": "no source page: no source page found"}
+{"id": "world-of-warcraft|280856", "b": 1, "u": "https://warcraft.wiki.gg/wiki/Nerene_Brooksinger", "t": "Nerene Brooksinger", "z": "none stated: page gives no powers", "n": "Nerene Brooksinger", "p": [], "x": [], "f": [], "st": "", "s": "Nerene Brooksinger is a night elf druid located in during Nightmare Incursions."}
 {"id": "world-of-warcraft|280857", "b": 0, "u": "https://warcraft.wiki.gg/wiki/Nether_Munitions", "t": "Nether Munitions"}
 {"id": "world-of-warcraft|280951", "b": 1, "n": "Eversong Woods\nNeriv", "p": [], "x": [], "f": [], "z": "", "st": "game", "u": "https://warcraft.wiki.gg/wiki/Neriv", "s": "Neriv is a blood elf located at Saltheril's Haven in Eversong Woods.", "t": "Neriv"}
 {"id": "world-of-warcraft|281041", "b": 1, "n": "Nielia Whispersong", "p": [], "x": [], "f": [], "z": "", "st": "game", "u": "https://warcraft.wiki.gg/wiki/Nielia_Whispersong", "s": "Nielia Whispersong is a night elf found sleeping in the Eye of Ysera and Slumbersome Shores in the Emerald Dream.", "t": "Nielia Whispersong"}
@@ -149,7 +149,7 @@
 {"id": "world-of-warcraft|281460", "b": 0, "u": "https://warcraft.wiki.gg/wiki/Noblegarden_Celebrant", "t": "Noblegarden Celebrant"}
 {"id": "world-of-warcraft|281463", "b": 0, "u": "https://warcraft.wiki.gg/wiki/No_Place_Like_Home", "t": "No Place Like Home"}
 {"id": "world-of-warcraft|281630", "b": 1, "n": "NPC\nNordun Steadysight", "p": [], "x": [], "f": [], "z": "", "st": "game", "u": "https://warcraft.wiki.gg/wiki/Nordun_Steadysight", "s": "Nordun Steadysight is a dwarf vendor located in Goldshire in Elwynn Forest.", "t": "Nordun Steadysight"}
-{"id": "world-of-warcraft|281726", "b": 0, "u": "", "t": "", "z": "no source page: no source page found"}
+{"id": "world-of-warcraft|281726", "b": 1, "u": "https://warcraft.wiki.gg/wiki/Numi", "t": "Numi", "z": "none stated: page gives no powers", "n": "Numi", "p": [], "x": [], "f": [], "st": "", "s": "Numi is a human found in Everlook in . After completing Poacher's Den, she will provide Warmed Rumsey Rum with Cream once every few days."}
 {"id": "world-of-warcraft|281807", "b": 1, "n": "Eversong Woods\nNumia Golden", "p": [], "x": [], "f": [], "z": "", "st": "game", "u": "https://warcraft.wiki.gg/wiki/Numia_Golden", "s": "Numia Golden is a blood elf located in Goldenmist Village in Eversong Woods.", "t": "Numia Golden"}
 {"id": "world-of-warcraft|281846", "b": 0, "u": "https://warcraft.wiki.gg/wiki/Obsidian_Arrowhead", "t": "Obsidian Arrowhead"}
 {"id": "world-of-warcraft|281904", "b": 1, "n": "Odrinn Bronzekeel", "p": [], "x": [], "f": [], "z": "", "st": "game", "u": "https://warcraft.wiki.gg/wiki/Odrinn_Bronzekeel", "s": "Odrinn Bronzekeel is a dwarf of Keg Leg's Crew located in Brew Bay in the Arathi Highlands during Plunderstorm.", "t": "Odrinn Bronzekeel"}
@@ -181,7 +181,7 @@
 {"id": "world-of-warcraft|282906", "b": 0, "u": "https://warcraft.wiki.gg/wiki/Painful_Death", "t": "Painful Death"}
 {"id": "world-of-warcraft|282949", "b": 1, "n": "npc\nPageturner Metros", "p": [], "x": [], "f": [], "z": "", "st": "game", "u": "https://warcraft.wiki.gg/wiki/Pageturner_Metros", "s": "Pageturner Metros is an infinite dragon in gnome visage form located in the Infinite Bazaar in Legion: Remix.", "t": "Pageturner Metros"}
 {"id": "world-of-warcraft|282996", "b": 1, "n": "NPC\nPaige", "p": [], "x": [], "f": [], "z": "", "st": "game", "u": "https://warcraft.wiki.gg/wiki/Paige", "s": "Paige is a human located in the kitchen of the Dalaran Orphanage in Dalaran in the .", "t": "Paige"}
-{"id": "world-of-warcraft|283016", "b": 0, "u": "", "t": "", "z": "no source page: no source page found"}
+{"id": "world-of-warcraft|283016", "b": 1, "u": "https://warcraft.wiki.gg/wiki/Par%27kourc", "t": "Par'kourc", "z": "none stated: only ordinary game combat abilities, no pool power", "n": "Par'kourc", "p": [], "x": [], "f": [], "st": "", "s": "Par'kourc is an orc found at Stonewatch Keep in the . He can only be encountered while wearing the disguise of the Linkue Combatant Icon."}
 {"id": "world-of-warcraft|283166", "b": 1, "n": "Eversong Woods\nPartek Redwing", "p": [], "x": [], "f": [], "z": "", "st": "game", "u": "https://warcraft.wiki.gg/wiki/Partek_Redwing", "s": "Partek Redwing is a blood elf located at the Solaarian Sunbath in Eversong Woods.", "t": "Partek Redwing"}
 {"id": "world-of-warcraft|283279", "b": 1, "n": "Patreux", "p": [], "x": [], "f": [], "z": "none stated: spell damage and barrier, no pool power", "st": "game", "u": "https://warcraft.wiki.gg/wiki/Patreux", "s": "Patreux is a nightborne mage member of the Algari Expedition located in Fungal Folly where she was trying to hone her combat skills.", "t": "Patreux"}
 {"id": "world-of-warcraft|283334", "b": 1, "n": "Eversong Woods\nPathius Dawnglow", "p": [], "x": [], "f": [], "z": "", "st": "game", "u": "https://warcraft.wiki.gg/wiki/Pathius_Dawnglow", "s": "Pathius Dawnglow is a blood elf located near Tranquillien in Eversong Woods.", "t": "Pathius Dawnglow"}

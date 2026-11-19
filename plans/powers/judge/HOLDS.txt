@@ -58,3 +58,4 @@ SRCEDIT shard=867 row=12 old=https://xenoblade.fandom.com/wiki/Monado_Shield new
 SRCEDIT shard=873 row=34 old=https://xenoblade.fandom.com/wiki/Polar_Pearl new=https://xenoblade.fandom.com/wiki/Polar_Pearl_%28TTGC%29
 SRCEDIT shard=879 row=91 old=https://xenoblade.fandom.com/wiki/Saber_Slash new=https://xenoblade.fandom.com/wiki/Saber_Slash_%28XC2%29
 SRCEDIT shard=891 row=210 old=https://xenoblade.fandom.com/wiki/Totorio_Moramora new=https://xenoblade.fandom.com/wiki/Totorio_Moramora_%28XC2%29
+11-19 474 no-source rows resolved by exact title candidates on every host (pages.match accepted); src and out repointed, being rows set b1 with z none stated, others b0. Every edit is in SRCEDIT_nosrc_2026-11-19.tsv (shard, row, old, new). Tool: tools/resolve_nosrc.py.

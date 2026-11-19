@@ -17,11 +17,11 @@
 {"id": "world-of-warcraft|114350", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Jade_Fragment", "t": "Jade Fragment"}
 {"id": "world-of-warcraft|114351", "b": 0, "u": "https://wowpedia.fandom.com/wiki/It%27s_Off_the_Chain%21", "t": "It's Off the Chain!"}
 {"id": "world-of-warcraft|114353", "b": 1, "n": "Iva Gamey", "p": [], "x": [], "f": [], "z": "", "st": "game", "u": "https://wowpedia.fandom.com/wiki/Iva_Gamey", "s": "Iva Gamey is a Maldraxxi skeleton vendor located in Butchers Block in Maldraxxus.", "t": "Iva Gamey"}
-{"id": "world-of-warcraft|114358", "b": 0, "u": "", "t": "", "z": "no source page: no source page: wiki page absent"}
-{"id": "world-of-warcraft|114359", "b": 0, "u": "", "t": "", "z": "no source page: no source page: wiki page absent"}
-{"id": "world-of-warcraft|114361", "b": 0, "u": "", "t": "", "z": "no source page: no source page: wiki page absent"}
-{"id": "world-of-warcraft|114362", "b": 0, "u": "", "t": "", "z": "no source page: no source page: wiki page absent"}
-{"id": "world-of-warcraft|114363", "b": 0, "u": "", "t": "", "z": "no source page: no source page: wiki page absent"}
+{"id": "world-of-warcraft|114358", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Iyun_Handwraps", "t": "Iyun Handwraps", "z": ""}
+{"id": "world-of-warcraft|114359", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Iyun_Leggings", "t": "Iyun Leggings", "z": ""}
+{"id": "world-of-warcraft|114361", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Iyun_Sandals", "t": "Iyun Sandals", "z": ""}
+{"id": "world-of-warcraft|114362", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Iyun_Shoulderpads", "t": "Iyun Shoulderpads", "z": ""}
+{"id": "world-of-warcraft|114363", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Iyun_Wristwraps", "t": "Iyun Wristwraps", "z": ""}
 {"id": "world-of-warcraft|114364", "b": 1, "n": "Ardenweald\n__NOTOC__\nIzik the Dissolver", "p": [], "x": [], "f": [], "z": "none stated: ability list is game combat mechanics, no pool power or SI feat", "st": "game", "u": "https://wowpedia.fandom.com/wiki/Izik_the_Dissolver", "s": "__NOTOC__ Izik the Dissolver is a gorm located in the Banks of Life in Ardenweald.", "t": "Izik the Dissolver"}
 {"id": "world-of-warcraft|114366", "b": 1, "n": "Ituikatan", "p": [], "x": [], "f": [], "z": "", "st": "game", "u": "https://wowpedia.fandom.com/wiki/Ituikatan", "s": "Ituikatan is a tuskarr sitting with Ittu in the Filled Bowl in the Azure Span.", "t": "Ituikatan"}
 {"id": "world-of-warcraft|114367", "b": 0, "u": "https://wowpedia.fandom.com/wiki/It%27s_a_Trogg_Eat_Trogg_World", "t": "It's a Trogg Eat Trogg World"}
@@ -81,7 +81,7 @@
 {"id": "world-of-warcraft|114489", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Jaedenar_Legionnaire", "t": "Jaedenar Legionnaire"}
 {"id": "world-of-warcraft|114490", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Jaedenar_Hound", "t": "Jaedenar Hound"}
 {"id": "world-of-warcraft|114491", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Jade_Ring", "t": "Jade Ring"}
-{"id": "world-of-warcraft|114495", "b": 0, "u": "", "t": "", "z": "no source page: no source page: wiki page absent"}
+{"id": "world-of-warcraft|114495", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Jakk%27s_Cage", "t": "Jakk's Cage", "z": ""}
 {"id": "world-of-warcraft|114496", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Jade_Owl", "t": "Jade Owl"}
 {"id": "world-of-warcraft|114498", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Jadefire_Ink", "t": "Jadefire Ink"}
 {"id": "world-of-warcraft|114501", "b": 0, "u": "https://wowpedia.fandom.com/wiki/James%27_Journal", "t": "James' Journal"}
@@ -140,7 +140,7 @@
 {"id": "world-of-warcraft|114629", "b": 1, "n": "Jake the Fox", "p": [], "x": [], "f": [], "z": "", "st": "game", "u": "https://wowpedia.fandom.com/wiki/Jake_the_Fox", "s": "Jake the Fox is a human leather trader that can show up at the Town Hall of the Alliance Tier 3 garrison in Lunarfall.", "t": "Jake the Fox"}
 {"id": "world-of-warcraft|114632", "b": 1, "n": "James Crowson", "p": [], "x": [], "f": [], "z": "", "st": "game", "u": "https://wowpedia.fandom.com/wiki/James_Crowson", "s": "James Crowson is a worgen found alongside Ryan Quinn outside Hero's Rest Inn in Stormshield.", "t": "James Crowson"}
 {"id": "world-of-warcraft|114633", "b": 1, "n": "__NOTOC__\nJaesia Rosecheer", "p": [], "x": [], "f": [], "z": "", "st": "game", "u": "https://wowpedia.fandom.com/wiki/Jaesia_Rosecheer", "s": "__NOTOC__ Jaesia Rosecheer is a night elf found in the Hero's Rest Inn in Stormshield.", "t": "Jaesia Rosecheer"}
-{"id": "world-of-warcraft|114634", "b": 0, "u": "", "t": "", "z": "no source page: no source page: wiki page absent"}
+{"id": "world-of-warcraft|114634", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Jalmedar", "t": "Jalmedar", "z": ""}
 {"id": "world-of-warcraft|114637", "b": 1, "n": "Jakama", "p": [], "x": [], "f": [], "z": "", "st": "game", "u": "https://wowpedia.fandom.com/wiki/Jakama", "s": "Jakama is a jungle troll follower located at Frostwall in Frostfire Ridge.", "t": "Jakama"}
 {"id": "world-of-warcraft|114638", "b": 1, "n": "Frostfire Ridge\nJaluk the Pacifist", "p": [], "x": [], "f": [], "z": "none stated: ability list is game combat mechanics, no pool power or SI feat", "st": "game", "u": "https://wowpedia.fandom.com/wiki/Jaluk_the_Pacifist", "s": "Jaluk the Pacifist is an orc located at the Iron Siegeworks in Frostfire Ridge.", "t": "Jaluk the Pacifist"}
 {"id": "world-of-warcraft|114639", "b": 1, "n": "__NOTOC__\nJailer Zerus", "p": [], "x": [], "f": [], "z": "none stated: ability list is game combat mechanics, no pool power or SI feat", "st": "game", "u": "https://wowpedia.fandom.com/wiki/Jailer_Zerus", "s": "__NOTOC__ Jailer Zerus is a jailer found at Hope's End in the Broken Shore.", "t": "Jailer Zerus"}
@@ -217,7 +217,7 @@
 {"id": "world-of-warcraft|114790", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Jadeglow_Wasp", "t": "Jadeglow Wasp"}
 {"id": "world-of-warcraft|114792", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Jailer_Cage", "t": "Jailer Cage"}
 {"id": "world-of-warcraft|114793", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Jaluk%27s_Ginger_Brew", "t": "Jaluk's Ginger Brew"}
-{"id": "world-of-warcraft|114794", "b": 0, "u": "", "t": "", "z": "no source page: no source page: wiki page absent"}
+{"id": "world-of-warcraft|114794", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Jame%27thris_Razorwind", "t": "Jame'thris Razorwind", "z": ""}
 {"id": "world-of-warcraft|114799", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Jailhound", "t": "Jailhound"}
 {"id": "world-of-warcraft|114801", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Jailer%27s_Personal_Stash", "t": "Jailer's Personal Stash"}
 {"id": "world-of-warcraft|114802", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Jailer%27s_Cage", "t": "Jailer's Cage"}

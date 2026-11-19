@@ -45,7 +45,7 @@
 {"id": "world-of-warcraft|112769", "b": 2, "k": "armor", "n": "Iridescent Scale Leggings", "m": 1, "q": "Iridescent Scale Leggings are mail leg armor", "c": "h", "p": [], "u": "https://wowpedia.fandom.com/wiki/Iridescent_Scale_Leggings", "s": "Iridescent Scale Leggings are mail leg armor with Fire and Frost Resistance but no additional stats.", "t": "Iridescent Scale Leggings"}
 {"id": "world-of-warcraft|112777", "b": 2, "k": "weapon", "n": "Iron Knuckles", "m": 1, "q": "The Iron Knuckles is a one-handed Fist weapon.", "c": "h", "p": [], "u": "https://wowpedia.fandom.com/wiki/Iron_Knuckles", "s": "The Iron Knuckles is a one-handed Fist weapon.", "t": "Iron Knuckles"}
 {"id": "world-of-warcraft|112780", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Iridescent_Fire_Opal", "t": "Iridescent Fire Opal"}
-{"id": "world-of-warcraft|112782", "b": 0, "u": "", "t": "", "z": "no source page: no source page: page absent from wiki (resolver absent list)"}
+{"id": "world-of-warcraft|112782", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Iriel", "t": "Iriel", "z": ""}
 {"id": "world-of-warcraft|112783", "b": 2, "k": "armor", "n": "Iron Gauntlets of the Maiden", "m": 1, "q": "epic plate gloves for tanks", "c": "m", "p": [], "u": "https://wowpedia.fandom.com/wiki/Iron_Gauntlets_of_the_Maiden", "s": "Iron Gauntlets of the Maiden epic plate gloves for tanks that drop from the Maiden of Virtue in Karazhan.", "t": "Iron Gauntlets of the Maiden"}
 {"id": "world-of-warcraft|112785", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Iridescent_Sprite_Darter_Wing", "t": "Iridescent Sprite Darter Wing"}
 {"id": "world-of-warcraft|112791", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Iron_Dwarf", "t": "Iron Dwarf"}
@@ -87,7 +87,7 @@
 {"id": "world-of-warcraft|112871", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Iron_Ring_Guard", "t": "Iron Ring Guard"}
 {"id": "world-of-warcraft|112873", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Iron_Skyreaver", "t": "Iron Skyreaver"}
 {"id": "world-of-warcraft|112874", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Iron_Docks", "t": "Iron Docks"}
-{"id": "world-of-warcraft|112875", "b": 0, "u": "", "t": "", "z": "no source page: no source page: page absent from wiki (resolver absent list)"}
+{"id": "world-of-warcraft|112875", "b": 0, "u": "https://warcraft.wiki.gg/wiki/Iron_Horde_Grunt", "t": "Iron Horde Grunt", "z": ""}
 {"id": "world-of-warcraft|112876", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Iron_Boltblaster", "t": "Iron Boltblaster"}
 {"id": "world-of-warcraft|112877", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Iron_Shadowskulker", "t": "Iron Shadowskulker"}
 {"id": "world-of-warcraft|112878", "b": 1, "n": "Ionis", "p": [], "x": ["lightning"], "f": [], "z": "", "st": "game", "u": "https://wowpedia.fandom.com/wiki/Ionis", "s": "Ionis is a rare wind serpent that can be found near the hills on the northern side of the Shifting Mire in the Swamp of Sorrows.", "t": "Ionis"}
@@ -97,16 +97,16 @@
 {"id": "world-of-warcraft|112888", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Iron_Horde_Supplies", "t": "Iron Horde Supplies"}
 {"id": "world-of-warcraft|112889", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Iron_Thunderguard", "t": "Iron Thunderguard"}
 {"id": "world-of-warcraft|112890", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Iron_Gronnling", "t": "Iron Gronnling"}
-{"id": "world-of-warcraft|112894", "b": 0, "u": "", "t": "", "z": "no source page: no source page: page absent from wiki (resolver absent list)"}
+{"id": "world-of-warcraft|112894", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Iron_Horde_Cargo_Shipment", "t": "Iron Horde Cargo Shipment", "z": ""}
 {"id": "world-of-warcraft|112895", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Iron_Horde_Peon", "t": "Iron Horde Peon"}
 {"id": "world-of-warcraft|112896", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Iron_Horde_Invasion%21_%28Alliance%29", "t": "Iron Horde Invasion! (Alliance)"}
 {"id": "world-of-warcraft|112898", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Iron_Shredder", "t": "Iron Shredder"}
 {"id": "world-of-warcraft|112899", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Iron_Engineer", "t": "Iron Engineer"}
 {"id": "world-of-warcraft|112900", "b": 1, "n": "Iron-Body Ponshu", "p": [], "x": [], "f": [], "z": "", "st": "game", "u": "https://wowpedia.fandom.com/wiki/Iron-Body_Ponshu", "s": "Iron-Body Ponshu is a pandaren located at the Peak of Serenity in the Kun-Lai Summit.", "t": "Iron-Body Ponshu"}
 {"id": "world-of-warcraft|112901", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Iron_Belly_Spirits", "t": "Iron Belly Spirits"}
-{"id": "world-of-warcraft|112902", "b": 0, "u": "", "t": "", "z": "no source page: no source page: page absent from wiki (resolver absent list)"}
+{"id": "world-of-warcraft|112902", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Iron_Supply_Chest", "t": "Iron Supply Chest", "z": ""}
 {"id": "world-of-warcraft|112905", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Iron_Box", "t": "Iron Box"}
-{"id": "world-of-warcraft|112906", "b": 0, "u": "", "t": "", "z": "no source page: no source page: page absent from wiki (resolver absent list)"}
+{"id": "world-of-warcraft|112906", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Iron_Scout", "t": "Iron Scout", "z": ""}
 {"id": "world-of-warcraft|112907", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Iron_Horde_Scraps", "t": "Iron Horde Scraps"}
 {"id": "world-of-warcraft|112908", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Iron_Buccaneer%27s_Hat", "t": "Iron Buccaneer's Hat"}
 {"id": "world-of-warcraft|112913", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Iron_Siegeworks", "t": "Iron Siegeworks"}
@@ -142,8 +142,8 @@
 {"id": "world-of-warcraft|112979", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Iridium_Geode", "t": "Iridium Geode"}
 {"id": "world-of-warcraft|112981", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Iron_Guard_%28Frostfire_Ridge%29", "t": "Iron Guard (Frostfire Ridge)"}
 {"id": "world-of-warcraft|112982", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Iron_Siege_Cannon", "t": "Iron Siege Cannon"}
-{"id": "world-of-warcraft|112984", "b": 0, "u": "", "t": "", "z": "no source page: no source page: page absent from wiki (resolver absent list)"}
-{"id": "world-of-warcraft|112985", "b": 0, "u": "", "t": "", "z": "no source page: no source page: page absent from wiki (resolver absent list)"}
+{"id": "world-of-warcraft|112984", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Iron_Reinforcement", "t": "Iron Reinforcement", "z": ""}
+{"id": "world-of-warcraft|112985", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Iron_Reinforcements", "t": "Iron Reinforcements", "z": ""}
 {"id": "world-of-warcraft|112989", "b": 2, "k": "vehicle", "n": "Iron Stalker", "m": 2, "q": "Iron Stalker was a submarine of the Iron Horde.", "c": "h", "p": [], "u": "https://wowpedia.fandom.com/wiki/Iron_Stalker", "s": "Iron Stalker was a submarine of the Iron Horde.", "t": "Iron Stalker"}
 {"id": "world-of-warcraft|112990", "b": 2, "k": "vehicle", "n": "Iron Stalker", "m": 2, "q": "Iron Stalker was a submarine of the Iron Horde.", "c": "h", "p": [], "u": "https://wowpedia.fandom.com/wiki/Iron_Stalker", "s": "Iron Stalker, Mk II was a submarine of the Iron Horde.", "t": "Iron Stalker"}
 {"id": "world-of-warcraft|112991", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Iron_Dwarf_Magus", "t": "Iron Dwarf Magus"}
@@ -159,7 +159,7 @@
 {"id": "world-of-warcraft|113015", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Iridescent_Shimmerray_Skin", "t": "Iridescent Shimmerray Skin"}
 {"id": "world-of-warcraft|113018", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Iron_Horde_Cannon", "t": "Iron Horde Cannon"}
 {"id": "world-of-warcraft|113024", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Iron_Shieldbearer", "t": "Iron Shieldbearer"}
-{"id": "world-of-warcraft|113026", "b": 0, "u": "", "t": "", "z": "no source page: no source page: page absent from wiki (resolver absent list)"}
+{"id": "world-of-warcraft|113026", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Iron_Rider", "t": "Iron Rider", "z": ""}
 {"id": "world-of-warcraft|113030", "b": 1, "n": "Island Expedition\nIron Orkas", "p": [], "x": ["harden"], "f": [], "z": "", "st": "game", "u": "https://wowpedia.fandom.com/wiki/Iron_Orkas", "s": "Iron Orkas is a quilboar brute located on the expedition isles.", "t": "Iron Orkas"}
 {"id": "world-of-warcraft|113032", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Iron_Horde_Transport", "t": "Iron Horde Transport"}
 {"id": "world-of-warcraft|113033", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Iron_Siege_Ram", "t": "Iron Siege Ram"}

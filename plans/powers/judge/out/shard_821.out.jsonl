@@ -20,7 +20,7 @@
 {"id": "world-of-warcraft|305056", "b": 0, "u": "https://warcraft.wiki.gg/wiki/Voidtouched_Apparatus", "t": "Voidtouched Apparatus"}
 {"id": "world-of-warcraft|305057", "b": 0, "u": "https://warcraft.wiki.gg/wiki/Voidtouched_Flail", "t": "Voidtouched Flail"}
 {"id": "world-of-warcraft|305058", "b": 0, "u": "https://warcraft.wiki.gg/wiki/Voidtouched_Scimitar", "t": "Voidtouched Scimitar"}
-{"id": "world-of-warcraft|305060", "b": 0, "u": "", "t": "", "z": "no source page: no source page"}
+{"id": "world-of-warcraft|305060", "b": 0, "u": "https://warcraft.wiki.gg/wiki/Volatile_Void_Droplet", "t": "Volatile Void Droplet", "z": ""}
 {"id": "world-of-warcraft|305062", "b": 0, "u": "https://warcraft.wiki.gg/wiki/Voidspoken_Sarong", "t": "Voidspoken Sarong"}
 {"id": "world-of-warcraft|305064", "b": 1, "n": "Voidstone Monstrosity", "p": [], "x": ["void shell"], "f": [], "z": "", "st": "game", "u": "https://warcraft.wiki.gg/wiki/Voidstone_Monstrosity", "s": "Voidstone Monstrosity (also referred to as the Skardyn Monstrosity) is a boss in the Rookery.", "t": "Voidstone Monstrosity"}
 {"id": "world-of-warcraft|305066", "b": 0, "u": "https://warcraft.wiki.gg/wiki/Voidtouched_Waistguard", "t": "Voidtouched Waistguard"}
@@ -126,7 +126,7 @@
 {"id": "world-of-warcraft|305197", "b": 0, "u": "https://warcraft.wiki.gg/wiki/Voidfarer%27s_Respite", "t": "Voidfarer's Respite"}
 {"id": "world-of-warcraft|305198", "b": 0, "u": "https://warcraft.wiki.gg/wiki/Voidwyrm_Absinthe", "t": "Voidwyrm Absinthe"}
 {"id": "world-of-warcraft|305201", "b": 0, "u": "https://warcraft.wiki.gg/wiki/Voidfeather_Dragonhawk", "t": "Voidfeather Dragonhawk"}
-{"id": "world-of-warcraft|305202", "b": 0, "u": "", "t": "", "z": "no source page: no source page"}
+{"id": "world-of-warcraft|305202", "b": 0, "u": "https://warcraft.wiki.gg/wiki/Voidway_Energist", "t": "Voidway Energist", "z": ""}
 {"id": "world-of-warcraft|305203", "b": 0, "u": "https://warcraft.wiki.gg/wiki/Voidbreaker%27s_Sight", "t": "Voidbreaker's Sight"}
 {"id": "world-of-warcraft|305204", "b": 0, "u": "https://warcraft.wiki.gg/wiki/Voidbreaker%27s_Spike", "t": "Voidbreaker's Spike"}
 {"id": "world-of-warcraft|305205", "b": 0, "u": "https://warcraft.wiki.gg/wiki/Voidbreaker%27s_Wall", "t": "Voidbreaker's Wall"}
@@ -174,9 +174,9 @@
 {"id": "world-of-warcraft|305279", "b": 0, "u": "https://warcraft.wiki.gg/wiki/Vrykul_Gutripper", "t": "Vrykul Gutripper"}
 {"id": "world-of-warcraft|305281", "b": 0, "u": "https://warcraft.wiki.gg/wiki/Voodoo_Spirit", "t": "Voodoo Spirit"}
 {"id": "world-of-warcraft|305283", "b": 0, "u": "https://warcraft.wiki.gg/wiki/Volunteer_Rocketeer", "t": "Volunteer Rocketeer"}
-{"id": "world-of-warcraft|305285", "b": 0, "u": "", "t": "", "z": "no source page: no source page"}
+{"id": "world-of-warcraft|305285", "b": 0, "u": "https://warcraft.wiki.gg/wiki/Voronei", "t": "Voronei", "z": ""}
 {"id": "world-of-warcraft|305287", "b": 1, "n": "Volo the Leg-Breaker", "p": [], "x": ["berserk rage"], "f": [], "z": "", "st": "game", "u": "https://warcraft.wiki.gg/wiki/Volo_the_Leg-Breaker", "s": "Volo the Leg-Breaker is a hobgoblin located in the Tailgate Park in the Undermine.", "t": "Volo the Leg-Breaker"}
-{"id": "world-of-warcraft|305289", "b": 0, "u": "", "t": "", "z": "no source page: no source page"}
+{"id": "world-of-warcraft|305289", "b": 0, "u": "https://warcraft.wiki.gg/wiki/Voshsroom", "t": "Voshsroom", "z": ""}
 {"id": "world-of-warcraft|305291", "b": 0, "u": "https://warcraft.wiki.gg/wiki/Voracious_Residue", "t": "Voracious Residue"}
 {"id": "world-of-warcraft|305293", "b": 0, "u": "https://warcraft.wiki.gg/wiki/Vrykul_Blacksmith%27s_Gavel", "t": "Vrykul Blacksmith's Gavel"}
 {"id": "world-of-warcraft|305294", "b": 0, "u": "https://warcraft.wiki.gg/wiki/Vrykul_Funereal_Handguards", "t": "Vrykul Funereal Handguards"}
@@ -225,7 +225,7 @@
 {"id": "world-of-warcraft|305356", "b": 0, "u": "https://warcraft.wiki.gg/wiki/Vrykul_Mariner", "t": "Vrykul Mariner"}
 {"id": "world-of-warcraft|305357", "b": 0, "u": "https://warcraft.wiki.gg/wiki/Vrykul_Salvager", "t": "Vrykul Salvager"}
 {"id": "world-of-warcraft|305358", "b": 0, "u": "https://warcraft.wiki.gg/wiki/Vrykul_Shepherd", "t": "Vrykul Shepherd"}
-{"id": "world-of-warcraft|305360", "b": 0, "u": "", "t": "", "z": "no source page: no source page"}
+{"id": "world-of-warcraft|305360", "b": 0, "u": "https://warcraft.wiki.gg/wiki/Vshj%27ix_the_Seeker", "t": "Vshj'ix the Seeker", "z": ""}
 {"id": "world-of-warcraft|305362", "b": 0, "u": "https://warcraft.wiki.gg/wiki/Vul%27zahn%27s_Smuggled_Spear", "t": "Vul'zahn's Smuggled Spear"}
 {"id": "world-of-warcraft|305363", "b": 1, "n": "Eversong Woods\nVylenna the Defector", "p": [], "x": [], "f": [], "z": "", "st": "game", "u": "https://warcraft.wiki.gg/wiki/Vylenna_the_Defector", "s": "Vylenna the Defector is an night elf death knight and a target of Prey hunts.", "t": "Vylenna the Defector"}
 {"id": "world-of-warcraft|305367", "b": 0, "u": "https://warcraft.wiki.gg/wiki/Vuldren_%28mob%29", "t": "Vuldren (mob)"}

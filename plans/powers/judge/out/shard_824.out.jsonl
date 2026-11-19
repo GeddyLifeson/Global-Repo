@@ -2,12 +2,12 @@
 {"id": "world-of-warcraft|306175", "b": 2, "k": "armor", "n": "Waywatcher Sabatons", "m": 1, "q": "Scarlet Enclave armor set for tanking Feral druids", "c": "m", "p": [], "u": "https://warcraft.wiki.gg/wiki/Waywatcher_Sabatons", "s": "Waywatcher Sabatons are part of the Waywatcher Guardian set, the armor set for tanking Feral druids.", "t": "Waywatcher Sabatons"}
 {"id": "world-of-warcraft|306176", "b": 2, "k": "armor", "n": "Waywatcher Bracers", "m": 1, "q": "Scarlet Enclave armor set for tanking Feral druids", "c": "m", "p": [], "u": "https://warcraft.wiki.gg/wiki/Waywatcher_Bracers", "s": "Waywatcher Bracers are part of the Waywatcher Guardian set, the armor set for tanking Feral druids.", "t": "Waywatcher Bracers"}
 {"id": "world-of-warcraft|306177", "b": 2, "k": "armor", "n": "Waywatcher Gauntlets", "m": 1, "q": "Scarlet Enclave armor set for tanking Feral druids", "c": "m", "p": [], "u": "https://warcraft.wiki.gg/wiki/Waywatcher_Gauntlets", "s": "Waywatcher Gauntlets are part of the Waywatcher Guardian set, the armor set for tanking Feral druids.", "t": "Waywatcher Gauntlets"}
-{"id": "world-of-warcraft|306178", "b": 0, "u": "", "t": "", "z": "no source page: no source page"}
+{"id": "world-of-warcraft|306178", "b": 0, "u": "https://warcraft.wiki.gg/wiki/Waywatcher_Headpiece", "t": "Waywatcher Headpiece", "z": ""}
 {"id": "world-of-warcraft|306179", "b": 2, "k": "armor", "n": "Waywatcher Spaulders", "m": 1, "q": "Scarlet Enclave armor set for Restoration druids", "c": "m", "p": [], "u": "https://warcraft.wiki.gg/wiki/Waywatcher_Spaulders", "s": "Waywatcher Spaulders are part of the Waywatcher Raiment set, the armor set for Restoration druids.", "t": "Waywatcher Spaulders"}
-{"id": "world-of-warcraft|306180", "b": 0, "u": "", "t": "", "z": "no source page: no source page"}
-{"id": "world-of-warcraft|306181", "b": 0, "u": "", "t": "", "z": "no source page: no source page"}
+{"id": "world-of-warcraft|306180", "b": 0, "u": "https://warcraft.wiki.gg/wiki/Waywatcher_Tunic", "t": "Waywatcher Tunic", "z": ""}
+{"id": "world-of-warcraft|306181", "b": 0, "u": "https://warcraft.wiki.gg/wiki/Waywatcher_Girdle", "t": "Waywatcher Girdle", "z": ""}
 {"id": "world-of-warcraft|306182", "b": 2, "k": "armor", "n": "Waywatcher Legguards", "m": 1, "q": "Scarlet Enclave armor set for Restoration druids", "c": "m", "p": [], "u": "https://warcraft.wiki.gg/wiki/Waywatcher_Legguards", "s": "Waywatcher Legguards are part of the Waywatcher Raiment set, the armor set for Restoration druids.", "t": "Waywatcher Legguards"}
-{"id": "world-of-warcraft|306183", "b": 0, "u": "", "t": "", "z": "no source page: no source page"}
+{"id": "world-of-warcraft|306183", "b": 0, "u": "https://warcraft.wiki.gg/wiki/Waywatcher_Boots", "t": "Waywatcher Boots", "z": ""}
 {"id": "world-of-warcraft|306184", "b": 2, "k": "armor", "n": "Waywatcher Wristguards", "m": 1, "q": "Scarlet Enclave armor set for Restoration druids", "c": "m", "p": [], "u": "https://warcraft.wiki.gg/wiki/Waywatcher_Wristguards", "s": "Waywatcher Wristguards are part of the Waywatcher Raiment set, the armor set for Restoration druids.", "t": "Waywatcher Wristguards"}
 {"id": "world-of-warcraft|306185", "b": 2, "k": "armor", "n": "Waywatcher Handguards", "m": 1, "q": "Scarlet Enclave armor set for Restoration druids", "c": "m", "p": [], "u": "https://warcraft.wiki.gg/wiki/Waywatcher_Handguards", "s": "Waywatcher Handguards are part of the Waywatcher Raiment set, the armor set for Restoration druids.", "t": "Waywatcher Handguards"}
 {"id": "world-of-warcraft|306186", "b": 0, "u": "https://warcraft.wiki.gg/wiki/Waxy_Cheese_Snack", "t": "Waxy Cheese Snack"}
@@ -105,7 +105,7 @@
 {"id": "world-of-warcraft|306320", "b": 1, "n": "Ohn'ahran Plains\nWeaponmaster Hasi", "p": [], "x": ["bloodletting"], "f": [], "z": "", "st": "game", "u": "https://warcraft.wiki.gg/wiki/Weaponmaster_Hasi", "s": "Weaponmaster Hasi is a centaur that spawns to attack Clan Aylaag's caravan when the Aylaag Camp moves to a new location on the Ohn'ahran Plains.", "t": "Weaponmaster Hasi"}
 {"id": "world-of-warcraft|306322", "b": 0, "u": "https://warcraft.wiki.gg/wiki/Webbed_Knapsack", "t": "Webbed Knapsack"}
 {"id": "world-of-warcraft|306324", "b": 2, "k": "armor", "n": "Wellspring Wristlets", "m": 1, "q": "drop from Nymue in Amirdrassil", "c": "m", "p": [], "u": "https://warcraft.wiki.gg/wiki/Wellspring_Wristlets", "s": "Wellspring Wristlets drop from Nymue in Amirdrassil, the Dream's Hope.", "t": "Wellspring Wristlets"}
-{"id": "world-of-warcraft|306325", "b": 0, "u": "", "t": "", "z": "no source page: no source page"}
+{"id": "world-of-warcraft|306325", "b": 0, "u": "https://warcraft.wiki.gg/wiki/Wellspring_Overlook", "t": "Wellspring Overlook", "z": ""}
 {"id": "world-of-warcraft|306326", "b": 0, "u": "https://warcraft.wiki.gg/wiki/Wendigo_Blood", "t": "Wendigo Blood"}
 {"id": "world-of-warcraft|306328", "b": 0, "u": "https://warcraft.wiki.gg/wiki/Welcoming_the_First", "t": "Welcoming the First"}
 {"id": "world-of-warcraft|306329", "b": 0, "u": "https://warcraft.wiki.gg/wiki/Well-informed_Trader", "t": "Well-informed Trader"}
@@ -127,9 +127,9 @@
 {"id": "world-of-warcraft|306351", "b": 0, "u": "https://warcraft.wiki.gg/wiki/Well_Loved_Squeaky_Toy", "t": "Well Loved Squeaky Toy"}
 {"id": "world-of-warcraft|306353", "b": 0, "u": "https://warcraft.wiki.gg/wiki/Well_Diver%27s_Stumble", "t": "Well Diver's Stumble"}
 {"id": "world-of-warcraft|306354", "b": 2, "k": "armor", "n": "Well-Trodden Mechanic's Shoes", "m": 1, "q": "drop from The Gobfather in the Undermine", "c": "m", "p": [], "u": "https://warcraft.wiki.gg/wiki/Well-Trodden_Mechanic%27s_Shoes", "s": "Well-Trodden Mechanic's Shoes drop from The Gobfather in the Undermine.", "t": "Well-Trodden Mechanic's Shoes"}
-{"id": "world-of-warcraft|306355", "b": 0, "u": "", "t": "", "z": "no source page: no source page"}
+{"id": "world-of-warcraft|306355", "b": 0, "u": "https://warcraft.wiki.gg/wiki/Well-Chewed_Chest", "t": "Well-Chewed Chest", "z": ""}
 {"id": "world-of-warcraft|306356", "b": 1, "n": "Weezdal Wrenchpost", "p": [], "x": [], "f": [], "z": "", "st": "game", "u": "https://warcraft.wiki.gg/wiki/Weezdal_Wrenchpost", "s": "Weezdal Wrenchpost is a goblin located in the Vatworks in Undermine.", "t": "Weezdal Wrenchpost"}
-{"id": "world-of-warcraft|306358", "b": 0, "u": "", "t": "", "z": "no source page: no source page"}
+{"id": "world-of-warcraft|306358", "b": 0, "u": "https://warcraft.wiki.gg/wiki/Well-Worn_Throwing_Knives", "t": "Well-Worn Throwing Knives", "z": ""}
 {"id": "world-of-warcraft|306359", "b": 0, "u": "https://warcraft.wiki.gg/wiki/Weighted_Consecrated_Sharpening_Stone", "t": "Weighted Consecrated Sharpening Stone"}
 {"id": "world-of-warcraft|306360", "b": 0, "u": "https://warcraft.wiki.gg/wiki/Week_3%3A_Spread_the_Word", "t": "Week 3: Spread the Word"}
 {"id": "world-of-warcraft|306361", "b": 0, "u": "https://warcraft.wiki.gg/wiki/Week_4%3A_They%27ve_Heard_of_You", "t": "Week 4: They've Heard of You"}
@@ -183,7 +183,7 @@
 {"id": "world-of-warcraft|306485", "b": 2, "k": "armor", "n": "White Retinal Armor", "m": 1, "q": "an appearance unlocked through the use of Ensemble", "c": "m", "p": [], "u": "https://warcraft.wiki.gg/wiki/White_Retinal_Armor", "s": "White Retinal Armor is an appearance unlocked through the use of Ensemble: Chromatically Calibrated Retinal Armor.", "t": "White Retinal Armor"}
 {"id": "world-of-warcraft|306486", "b": 0, "u": "https://warcraft.wiki.gg/wiki/White_Holo-Gogs", "t": "White Holo-Gogs"}
 {"id": "world-of-warcraft|306487", "b": 2, "k": "weapon", "n": "Whispering Temple Blade", "m": 1, "q": "an appearance unlocked through the use of Arsenal", "c": "m", "p": [], "u": "https://warcraft.wiki.gg/wiki/Whispering_Temple_Blade", "s": "Whispering Temple Blade is an appearance unlocked through the use of Arsenal: Whispering Temple Blades.", "t": "Whispering Temple Blade"}
-{"id": "world-of-warcraft|306501", "b": 0, "u": "", "t": "", "z": "no source page: no source page"}
+{"id": "world-of-warcraft|306501", "b": 0, "u": "https://warcraft.wiki.gg/wiki/Whistle_of_the_Mottled_Blood_Raptor", "t": "Whistle of the Mottled Blood Raptor", "z": ""}
 {"id": "world-of-warcraft|306504", "b": 0, "u": "https://warcraft.wiki.gg/wiki/Whirling_Truesilver_Gearwall", "t": "Whirling Truesilver Gearwall"}
 {"id": "world-of-warcraft|306505", "b": 0, "u": "https://warcraft.wiki.gg/wiki/Whitemane%27s_Famine", "t": "Whitemane's Famine"}
 {"id": "world-of-warcraft|306507", "b": 0, "u": "https://warcraft.wiki.gg/wiki/White_Duck_Disguise", "t": "White Duck Disguise"}

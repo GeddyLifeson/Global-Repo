@@ -135,7 +135,7 @@
 {"id": "world-of-warcraft|94993", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Great_Alliance", "t": "Great Alliance"}
 {"id": "world-of-warcraft|94996", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Granite_Boulder", "t": "Granite Boulder"}
 {"id": "world-of-warcraft|94997", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Grant_A_Level", "t": "Grant A Level"}
-{"id": "world-of-warcraft|95000", "b": 0, "u": "", "t": "", "z": "no source page: page absent from wiki"}
+{"id": "world-of-warcraft|95000", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Great_Golden_Kodo", "t": "Great Golden Kodo", "z": ""}
 {"id": "world-of-warcraft|95002", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Gravelsnout", "t": "Gravelsnout"}
 {"id": "world-of-warcraft|95003", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Gravelflint", "t": "Gravelflint"}
 {"id": "world-of-warcraft|95004", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Grave_Robber", "t": "Grave Robber"}
@@ -202,7 +202,7 @@
 {"id": "world-of-warcraft|95137", "b": 1, "n": "Greasefang", "p": [], "x": [], "f": [], "z": "", "st": "game", "u": "https://wowpedia.fandom.com/wiki/Greasefang", "s": "Greasefang was the gnoll matriarch of the Woodpaw clan, and the mother of Jaggal.", "t": "Greasefang"}
 {"id": "world-of-warcraft|95140", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Graybelly_Lobster", "t": "Graybelly Lobster"}
 {"id": "world-of-warcraft|95143", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Grease-Smudged_Sash", "t": "Grease-Smudged Sash"}
-{"id": "world-of-warcraft|95144", "b": 0, "u": "", "t": "", "z": "no source page: page absent from wiki"}
+{"id": "world-of-warcraft|95144", "b": 1, "u": "https://wowpedia.fandom.com/wiki/Gravekeeper_Damph", "t": "Gravekeeper Damph", "z": "none stated: page gives no powers", "n": "Gravekeeper Damph", "p": [], "x": [], "f": [], "st": "", "s": "Gravekeeper Damph is a ghost that can be encountered as a boss in the single-player experience in the The Witchwood expansion for Hearthstone."}
 {"id": "world-of-warcraft|95145", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Grasping_Thorns", "t": "Grasping Thorns"}
 {"id": "world-of-warcraft|95146", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Gravebloom", "t": "Gravebloom"}
 {"id": "world-of-warcraft|95148", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Grapeshot", "t": "Grapeshot"}

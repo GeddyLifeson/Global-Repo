@@ -9,8 +9,8 @@
 {"id": "world-of-warcraft|66256", "b": 0, "u": "https://wowpedia.fandom.com/wiki/EZ-Gro_Green_Cabbage", "t": "EZ-Gro Green Cabbage"}
 {"id": "world-of-warcraft|66258", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Dynamic_Duo", "t": "Dynamic Duo"}
 {"id": "world-of-warcraft|66261", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Earthen_Protector", "t": "Earthen Protector"}
-{"id": "world-of-warcraft|66262", "b": 0, "u": "", "t": "", "z": "no source page: no source page"}
-{"id": "world-of-warcraft|66264", "b": 0, "u": "", "t": "", "z": "no source page: no source page"}
+{"id": "world-of-warcraft|66262", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Earthen_Champion%27s_Cleaver", "t": "Earthen Champion's Cleaver", "z": ""}
+{"id": "world-of-warcraft|66264", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Earthen_Sunderer", "t": "Earthen Sunderer", "z": ""}
 {"id": "world-of-warcraft|66267", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Earthen_Ring_Defender", "t": "Earthen Ring Defender"}
 {"id": "world-of-warcraft|66271", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Dysmorphic_Samophlange_of_Discontinuity", "t": "Dysmorphic Samophlange of Discontinuity"}
 {"id": "world-of-warcraft|66272", "b": 0, "u": "https://wowpedia.fandom.com/wiki/EQUIPMENT_SWAP_FINISHED", "t": "EQUIPMENT SWAP FINISHED"}
@@ -204,8 +204,8 @@
 {"id": "world-of-warcraft|66704", "b": 2, "k": "weapon", "n": "Ebonchill", "m": 3, "q": "greatstaff was wielded by Alodi, the first Guardian of Tirisfal", "c": "l", "p": [], "u": "https://wowpedia.fandom.com/wiki/Ebonchill", "s": "Ebonchill, Greatstaff of Alodi, is the artifact used by frost mages in World of Warcraft: Legion.", "t": "Ebonchill"}
 {"id": "world-of-warcraft|66706", "b": 1, "n": "Earthshaker Holar", "p": [], "x": [], "f": [], "z": "none stated: abilities listed are game spells/damage only", "st": "game", "u": "https://wowpedia.fandom.com/wiki/Earthshaker_Holar", "s": "Earthshaker Holar is an ogron located at the Iron Siegeworks in Frostfire Ridge.", "t": "Earthshaker Holar"}
 {"id": "world-of-warcraft|66708", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Echidnean_Shelf", "t": "Echidnean Shelf"}
-{"id": "world-of-warcraft|66709", "b": 0, "u": "", "t": "", "z": "no source page: no source page"}
-{"id": "world-of-warcraft|66711", "b": 0, "u": "", "t": "", "z": "no source page: no source page"}
+{"id": "world-of-warcraft|66709", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Eastwind_Gulch", "t": "Eastwind Gulch", "z": ""}
+{"id": "world-of-warcraft|66711", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Earthshaker_Gorge", "t": "Earthshaker Gorge", "z": ""}
 {"id": "world-of-warcraft|66715", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Eastern_Lost_Isles", "t": "Eastern Lost Isles"}
 {"id": "world-of-warcraft|66717", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Earthfury_War_Rager", "t": "Earthfury War Rager"}
 {"id": "world-of-warcraft|66723", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Ebon_Slavehunter", "t": "Ebon Slavehunter"}
