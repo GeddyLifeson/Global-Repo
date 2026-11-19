@@ -272,3 +272,9 @@ wave,repo,number,base,head,partner,title
 0,global-repo,66,main,claude/project-thread-28p9u0,65,Panscriptum gap fill: DC characters (23764) with source page ids [edits SCRIPTS_INDEX.md: merge after #65]
 
 0,25x125,29,main,claude/project-thread-jdatgu,,"Finish the website: tax sale on screen, rezonings nearby, help, sources and area pages"
+0,ports,364,claude/pack-v1-3-wave17,claude/project-thread-htoezl,,Review Batch 4 base: pack build and licences
+0,ports,370,diaithircompat,claude/project-thread-6rhrrf,,Review batch 7: remove publish.json, ignore dist/
+0,global-repo,140,main,claude/project-thread-6rhrrf,,"Review batch 7: ignore pyc, handoff index"
+0,global-repo,141,main,claude/project-thread-pvyzh9,,Review batch 6: decision pack and attribution
+0,global-repo,142,main,claude/project-thread-9qjz7q,,"Overnight test watchdog (review Batch 5, G2-G15) [edits cloud_inventory.tsv and next_id]"
+0,rpg,292,engine,claude/project-thread-o09r7e,,Review Batch 4: build_pack checks (C14) and duplicate port jars (C15)
