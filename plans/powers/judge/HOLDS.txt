@@ -25,3 +25,7 @@ RULE 11-19 (review A15): before changing pages.match/_match/_inpage/_wmatch, run
 SRCEDIT shard=459 row=(id world-of-warcraft|139592) old=(blank) new=https://warcraft.wiki.gg/wiki/Mote_of_Mana  (logged 11-19; shard 459 passed validate.py with it, the patched src is local only)
 SRCEDIT shard=462 row=(id world-of-warcraft|141209) old=(blank) new=https://warcraft.wiki.gg/wiki/Muradin_Hood
 SRCEDIT shard=462 row=(id world-of-warcraft|141525) old=(blank) new=https://warcraft.wiki.gg/wiki/Musty_Cloth  (logged 11-19; 462 passes validate.py only with the patched local src; 4 other no-source rows u0)
+469 HOLD 11-19: 7 no-source rows (ids world-of-warcraft|144885-144891, Nifflevar Girdle/Boots/Chestpiece/Gloves/Helmet/Legguards/Shoulderguards, idx 198-204) exceed cap 5. Parts judged locally only (parts/shard_469_*.json); not pushed. Re-judge after resolver/dump fix.
+478 HOLD 11-19: 9 no-source rows (ids world-of-warcraft|149170, 149431-149435, 149481, 149553, 149554; idx 20, 154-158, 188, 221, 222) exceed cap 5. Parts judged locally only (parts/shard_478_*.json); not pushed. Re-judge after resolver/dump fix.
+479 HOLD 11-19: 9 no-source rows (ids world-of-warcraft|149688, 149797-149803, 149836, 149932; idx 52, 106-111, 124, 168) exceed cap 5. Parts judged locally only; not pushed. Re-judge after resolver/dump fix.
+PRESCREEN HOLD 11-19 (blank src url count >5, not judged, same cap rule): 480 (6), 485 (6), 491, 492, 493. Re-judge after resolver/dump fix.
