@@ -278,3 +278,5 @@ wave,repo,number,base,head,partner,title
 0,global-repo,141,main,claude/project-thread-pvyzh9,,Review batch 6: decision pack and attribution
 0,global-repo,142,main,claude/project-thread-9qjz7q,,"Overnight test watchdog (review Batch 5, G2-G15) [edits cloud_inventory.tsv and next_id]"
 0,rpg,292,engine,claude/project-thread-o09r7e,,Review Batch 4: build_pack checks (C14) and duplicate port jars (C15)
+0,rpg,294,engine,claude/project-thread-bp5wxe,,"Review Batch 6: names report, audit_names move, lane-loot Age sources"
+0,rpg,295,claude/project-thread-3izkf0,claude/project-thread-bp5wxe-palette,,"Palette: off by default, fixed table, skip tint/entity/PBR textures"
