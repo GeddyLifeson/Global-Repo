@@ -16,3 +16,5 @@ Marked no-source (page wrong, within 2%): 121 rows 92 (Das Haus is a Vanguard ma
 Signed manual overrides read by validate.py (exact shard, row and resolved url; lead-match check only):
 OVERRIDE shard=117 row=40 url=https://naruto.fandom.com/wiki/Black_Salamander
 OVERRIDE shard=117 row=157 url=https://callofduty.fandom.com/wiki/Kilo_141
+
+RULE 11-19 (review A15): before changing pages.match/_match/_inpage/_wmatch, run `python3 tools/match_regress.py` (known-wrong rows 88/95, 89/110, 3/125 must stay rejected; the 300 frozen known-right pairs must stay accepted; sibling false accepts must not exceed the frozen baseline of 76 in 3000). Every hand edit to a batches/shard_N.src.jsonl row must be logged here as `SRCEDIT shard=N row=I old=<url> new=<url>`; OVERRIDE lines stay exact (shard/row/url).

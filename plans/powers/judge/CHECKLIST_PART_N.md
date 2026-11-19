@@ -1,0 +1,10 @@
+# Replacement for Part N of plans/V1_CHECKLIST.md (review A14)
+Apply by replacing Part N (N1-N5) in `plans/V1_CHECKLIST.md` on `claude/project-thread-wx17x3`. State measured on `claude/project-thread-qpjd6w` (2026-11-19). Canon = `qpjd6w`; page caches and src files are merged there (PR #126).
+
+- [ ] **N1 Page text for all 928 shards (0-927) on disk.** Done when: `batches/shard_N.src.jsonl` and `cache/shard_N.pages.json.gz` exist for every N in 0-927. Evidence: `ls batches/*.src.jsonl cache/*.pages.json.gz | wc -l` = 928 each (now 902 each; check the 26 missing). Caches stay out of the public repo per review A9 decision.
+- [ ] **N2 c3m baseline merged (A2).** Needs: A2. Evidence: file hashes of c3m.zip contents in `BASELINE_CANON_METHOD.md`.
+- [ ] **N3 Judge all 928 shards, one shard per worker.** Now: 481 of 928 judged. Holes (447 shards): 12-15, 93-104, 137-142, 145-147, 150, 166, 190-192, 197-199, 202, 207, 229-230, 305, 312-313, 414-778, 829-832, 838, 848-849, 876, 878, 886-887, 894-896, 900-927. Done when: `python3 plans/powers/judge/tools/validate.py all` prints PASS for every shard and the PASS lines (with lead-skip, empty-page, kw-less, m>=7, absent, b0 counts) are committed as `plans/powers/judge/VALIDATE_ALL.txt`. Evidence: that file. Needs: N1, N2. Paused until ~11-13 by the usage budget; not on the path to E3.
+- [ ] **N3a Stale shards re-validated.** 151, 160, 161, 167, 177 were stale on canon before #126; none of 160/161/162/167/177 is "known passing" until `validate.py` says so on the merged branch. Evidence: `validate.py 151 160 161 162 167 177` output.
+- [ ] **N4 Failed rows re-run by Sonnet only for judgment and failed rows.** Evidence: FILE. Needs: N3.
+- [ ] **N5 Judge spec = Marlon's documents only (c3m.zip).** Evidence: FILE (hashes of measure.py, inference.py, combat.py, assay-c3m/SYSTEM_PROMPT.txt in each report). Needs: none.
+- [ ] **N6 Matcher regression gate.** Any change to `pages.match` must first pass `python3 tools/match_regress.py`; every edit to a `batches/shard_N.src.jsonl` row is logged in `HOLDS.txt` with old and new url (review A15). Evidence: script exit 0 in the PR.

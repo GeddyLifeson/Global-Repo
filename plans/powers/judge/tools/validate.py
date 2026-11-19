@@ -34,9 +34,19 @@ def check_feat(f, F):
         if k not in f or abs(f[k] - c[k]) > 1e-3: return f"feat {k} stored {f.get(k)} but c3m recomputes {c[k]}"
     q = nums(f['q'])
     for k, (val, unit, meth) in f['in'].items():
-        if not any(abs(val - x) <= 1e-6 * max(1, abs(val)) for x in q) and k not in ('j_per_cc', 'heat_capacity', 'delta_t', 'latent_heat'):
-            return f"input {k}={val} {unit} does not appear as a number in the quote"
+        free = k in ('j_per_cc', 'heat_capacity', 'delta_t', 'latent_heat')  # material constants: may be absent from the quote only if labelled estimated/scaled
+        if free and meth in ('estimated', 'scaled'): continue
+        if not any(abs(val - x) <= 1e-6 * max(1, abs(val)) for x in q): return f"input {k}={val} {unit} does not appear as a number in the quote (free parameters must have method estimated or scaled)"
+        if not UNITW.get(unit, re.compile(re.escape(unit))).search(f['q']): return f"input {k}: unit {unit!r} does not appear in the quote (a bare 'damage' number is not joules)"
     return ''
+UNITW = {u: re.compile(r'(?<![A-Za-z])(' + w + r')(?![A-Za-z])', re.I if len(w) > 3 else 0) for u, w in {
+    'J': 'J|joules?', 'kJ': 'kJ|kilojoules?', 'MJ': 'MJ|megajoules?', 'GJ': 'GJ|gigajoules?', 'erg': 'ergs?', 'calorie': 'calories?|cal|kcal',
+    'ton_TNT': 'tons? of TNT|tons? TNT', 'kiloton_TNT': 'kilotons?(?: of)? TNT|kt', 'megaton_TNT': 'megatons?(?: of)? TNT|mt',
+    'W': 'W|watts?', 'kW': 'kW|kilowatts?', 'MW': 'MW|megawatts?', 'GW': 'GW|gigawatts?', 'g': 'g|grams?', 'kg': 'kg|kilograms?|kilos?',
+    'tonne': 'tonnes?|tons?|metric tons?', 'mm': 'mm|millimet(?:er|re)s?', 'cm': 'cm|centimet(?:er|re)s?', 'm': 'm|met(?:er|re)s?',
+    'km': 'km|kilomet(?:er|re)s?|miles?', 'light_year': 'light.?years?', 'cm^3': 'cm\\^?3|cubic cent\\w+|cc', 'm^3': 'm\\^?3|cubic met\\w+',
+    'km^3': 'km\\^?3|cubic kilomet\\w+', 's': 's|secs?|seconds?', 'min': 'min|minutes?', 'h': 'h|hrs?|hours?', 'day': 'days?', 'year': 'years?|yrs?',
+    'm/s': 'm/s|met(?:er|re)s? per second|mach', 'km/h': 'km/h|kph|mph|miles? per hour|kilomet\\w+ per hour', 'c': 'c|light|lightspeed'}.items()}
 LEADSKIP = re.compile(r'\s*(\{\{|[^\]]{0,120}\]\]|is |was |are |,)')
 MINQ = 15  # shortest power/gear quote accepted; one-word quotes ("Flight") prove nothing
 FRAG = re.compile(r'\s*(\{\||\||!|\{\{)')  # only table/template markup counts as a provable fragment
@@ -53,6 +63,7 @@ def check(n, path=None, meta=None):
     if len(out) != len(R): err.append((-1, f'rows {len(out)} != batch {len(R)}'))
     ids = {r['id'] for r in judge.pool()}
     OV = overrides()
+    KW = {r['id']: re.compile(r['keywords_strong'], re.I) for r in judge.pool() if r.get('keywords_strong')}
     for i, (o, r, s) in enumerate(zip(out, R, S)):
         e = lambda m: err.append((i, m))
         if o.get('id') != r['id'] or s['id'] != r['id']: e('id/order mismatch'); continue
@@ -88,6 +99,10 @@ def check(n, path=None, meta=None):
                 if q.get('c') not in ('h', 'm', 'l'): e(f"c invalid for {q.get('id')}")
                 if len(squash(q.get('q', ''))) < MINQ: e(f"power quote under {MINQ} chars: {q.get('q','')!r}")
                 if not q.get('q') or squash(q['q']) not in F: e(f"power quote not verbatim in page: {q.get('q','')[:40]!r}")
+                elif q.get('id') in KW and not KW[q['id']].search(q['q']): W['kwless'] += 1  # quote has none of the pool id's keywords
+                if isinstance(q.get('m'), int) and q['m'] >= 7:
+                    W['hi_m'] += 1
+                    if not (re.search(judge.SCALE, q.get('q', ''), re.I) or re.search(r'\d', q.get('q', ''))): e(f"m={q['m']} for {q.get('id')} but the quote states no scale or number")
             for q in o.get('f', []):
                 msg = check_feat(q, F)
                 if msg: e(msg)
@@ -118,6 +133,6 @@ if __name__ == '__main__':
         else: er = [(-1, 'fetch failed after retries; rerun')]
         bad += bool(er)
         w = getattr(check, 'warn', {})
-        print(f'shard {n}: ' + (f"PASS (lead-skip {w.get('leadskip', 0)}, empty-page {w.get('empty', 0)}, absent {w.get('absent', 0)}, b0 {w.get('b0', 0)})" if not er else f'REJECT ({len(er)} problems)'))
+        print(f'shard {n}: ' + (f"PASS (lead-skip {w.get('leadskip', 0)}, empty-page {w.get('empty', 0)}, kw-less {w.get('kwless', 0)}, m>=7 {w.get('hi_m', 0)}, absent {w.get('absent', 0)}, b0 {w.get('b0', 0)})" if not er else f'REJECT ({len(er)} problems)'))
         for i, m in er[:30]: print(f'   row {i}: {m}')
     sys.exit(1 if bad else 0)

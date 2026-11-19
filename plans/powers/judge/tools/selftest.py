@@ -23,7 +23,7 @@ def addfeat(r, **kw):  # row 32 (Saviana) quote has a printed number; the feat m
     f.update(feats.compute(f)); f.update(kw); r[32]['f'] = [f]
 checks = [
  run('untouched shard 160', lambda r: None, want_reject=False),
- run('correct feat math (24500 J -> tier 4.389, game offset 0.5)', lambda r: addfeat(r), want_reject=False),
+ run('game damage number with no unit word is not joules (review A4.6)', lambda r: addfeat(r)),
  run('wrong tier stored (T=9.9, true 4.389)', lambda r: addfeat(r, T=9.9)),
  run('wrong unit (J given as kg)', lambda r: addfeat(r, **{'in': {'energy': [24500, 'kg', 'stated']}})),
  run('number not in the quote (31 instead of 24500)', lambda r: addfeat(r, **{'in': {'energy': [31, 'J', 'stated']}, 'T': round(__import__('math').log10(31), 4)})),
