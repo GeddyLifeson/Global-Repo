@@ -9,13 +9,13 @@
 {"id": "world-of-warcraft|204097", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Swim", "t": "Swim"}
 {"id": "world-of-warcraft|204114", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Swamprat_Post", "t": "Swamprat Post"}
 {"id": "world-of-warcraft|204122", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Swift_Nether_Drake", "t": "Swift Nether Drake"}
-{"id": "world-of-warcraft|204142", "b": 0, "u": "", "t": "", "z": "no source page: no source page"}
-{"id": "world-of-warcraft|204143", "b": 0, "u": "", "t": "", "z": "no source page: no source page"}
-{"id": "world-of-warcraft|204144", "b": 0, "u": "", "t": "", "z": "no source page: no source page"}
-{"id": "world-of-warcraft|204152", "b": 0, "u": "", "t": "", "z": "no source page: no source page"}
-{"id": "world-of-warcraft|204153", "b": 0, "u": "", "t": "", "z": "no source page: no source page"}
-{"id": "world-of-warcraft|204154", "b": 0, "u": "", "t": "", "z": "no source page: no source page"}
-{"id": "world-of-warcraft|204155", "b": 0, "u": "", "t": "", "z": "no source page: no source page"}
+{"id": "world-of-warcraft|204142", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Swift_Palomino", "t": "Swift Palomino", "z": ""}
+{"id": "world-of-warcraft|204143", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Swift_Brown_Steed", "t": "Swift Brown Steed", "z": ""}
+{"id": "world-of-warcraft|204144", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Swift_White_Steed", "t": "Swift White Steed", "z": ""}
+{"id": "world-of-warcraft|204152", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Swift_Red_Wind_Rider", "t": "Swift Red Wind Rider", "z": ""}
+{"id": "world-of-warcraft|204153", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Swift_Green_Wind_Rider", "t": "Swift Green Wind Rider", "z": ""}
+{"id": "world-of-warcraft|204154", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Swift_Yellow_Wind_Rider", "t": "Swift Yellow Wind Rider", "z": ""}
+{"id": "world-of-warcraft|204155", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Swift_Purple_Wind_Rider", "t": "Swift Purple Wind Rider", "z": ""}
 {"id": "world-of-warcraft|204177", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Swift_Magic_Broom", "t": "Swift Magic Broom"}
 {"id": "world-of-warcraft|204178", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Swift_Flying_Broom", "t": "Swift Flying Broom"}
 {"id": "world-of-warcraft|204191", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Swift_White_Hawkstrider", "t": "Swift White Hawkstrider"}
@@ -211,13 +211,13 @@
 {"id": "world-of-warcraft|206475", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Tarasek", "t": "Tarasek"}
 {"id": "world-of-warcraft|206477", "b": 1, "n": "__NOTOC__\nTaravos", "p": [], "x": [], "f": [], "z": "", "st": "game", "u": "https://wowpedia.fandom.com/wiki/Taravos", "s": "__NOTOC__ Taravos is a draenei located at the Artisan's Market in Valdrakken.", "t": "Taravos"}
 {"id": "world-of-warcraft|206494", "b": 1, "n": "Ohn'ahran Plains\nTaresh", "p": [], "x": [], "f": [], "z": "none stated: listed abilities are ordinary combat attacks or effects with no pool-scale power", "st": "game", "u": "https://wowpedia.fandom.com/wiki/Taresh", "s": "Taresh is a green dragonspawn located in the Fields of Ferocity in the Ohn'ahran Plains.", "t": "Taresh"}
-{"id": "world-of-warcraft|206504", "b": 0, "u": "", "t": "", "z": "no source page: no source page"}
+{"id": "world-of-warcraft|206504", "b": 0, "u": "https://wowpedia.fandom.com/wiki/tauren", "t": "tauren", "z": ""}
 {"id": "world-of-warcraft|206511", "b": 1, "n": "Tawny Grisette", "p": [], "x": [], "f": [], "z": "", "st": "game", "u": "https://wowpedia.fandom.com/wiki/Tawny_Grisette", "s": "Tawny Grisette is a wandering Forsaken fungus and drink vendor located in the Trade Quarter in the Undercity.", "t": "Tawny Grisette"}
 {"id": "world-of-warcraft|206523", "b": 1, "n": "Taskmaster Whipfang", "p": [], "x": [], "f": [], "z": "none stated: listed abilities are ordinary combat attacks or effects with no pool-scale power", "st": "game", "u": "https://wowpedia.fandom.com/wiki/Taskmaster_Whipfang", "s": "Taskmaster Whipfang is a rare gnoll found in Windshear Crag in the Stonetalon Mountains.", "t": "Taskmaster Whipfang"}
 {"id": "world-of-warcraft|206526", "b": 1, "n": "Taronn Redfeather", "p": [], "x": [], "f": [], "z": "", "st": "game", "u": "https://wowpedia.fandom.com/wiki/Taronn_Redfeather", "s": "Taronn Redfeather is a tauren quest giver located at the Emerald Sanctuary in Felwood.", "t": "Taronn Redfeather"}
 {"id": "world-of-warcraft|206527", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Tauren_chieftain", "t": "Tauren chieftain"}
 {"id": "world-of-warcraft|206541", "b": 1, "n": "Taskmaster Varkule Dragonbreath", "p": [], "x": [], "f": [], "z": "", "st": "game", "u": "https://wowpedia.fandom.com/wiki/Taskmaster_Varkule_Dragonbreath", "s": "Taskmaster Varkule Dragonbreath is a fel orc quest giver located at the Dragonmaw Base Camp in Shadowmoon Valley.", "t": "Taskmaster Varkule Dragonbreath"}
-{"id": "world-of-warcraft|206542", "b": 0, "u": "", "t": "", "z": "no source page: no source page"}
+{"id": "world-of-warcraft|206542", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Tawny_Wind_Rider", "t": "Tawny Wind Rider", "z": ""}
 {"id": "world-of-warcraft|206552", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Tazan%27s_Satchel", "t": "Tazan's Satchel"}
 {"id": "world-of-warcraft|206566", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Tauren_Marine", "t": "Tauren Marine"}
 {"id": "world-of-warcraft|206569", "b": 0, "u": "https://wowpedia.fandom.com/wiki/Tauren_organizations", "t": "Tauren organizations"}
