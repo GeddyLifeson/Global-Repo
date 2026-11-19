@@ -48,3 +48,13 @@ OVERRIDE shard=5 row=71 url=https://dc.fandom.com/wiki/Zatanna
 OVERRIDE shard=44 row=53 url=https://dc.fandom.com/wiki/Mister_Freeze
 OVERRIDE shard=113 row=58 url=https://dc.fandom.com/wiki/Catwoman
 OVERRIDE shard=113 row=75 url=https://dc.fandom.com/wiki/Poison_Ivy
+11-19 disambig/wrong-NPC src fixes:
+SRCEDIT shard=306 row=103 old=https://xenoblade.fandom.com/wiki/Costa_Aries new=https://xenoblade.fandom.com/wiki/Costa_Aries_%28XC1%29
+SRCEDIT shard=835 row=39 old=https://xenoblade.fandom.com/wiki/Art_Core_Coil new=https://xenoblade.fandom.com/wiki/Art_Core_Coil_%28XC1%29
+SRCEDIT shard=835 row=249 old=https://xenoblade.fandom.com/wiki/Ascension_Blade new=https://xenoblade.fandom.com/wiki/Ascension_Blade_%28XC2%29
+SRCEDIT shard=836 row=52 old=https://xenoblade.fandom.com/wiki/Phaedlico new=(blank; Phaedlico page is a different NPC, no Asghal page)
+SRCEDIT shard=854 row=53 old=https://xenoblade.fandom.com/wiki/Head new=https://xenoblade.fandom.com/wiki/Head_Shaker_%28XC1%29
+SRCEDIT shard=867 row=12 old=https://xenoblade.fandom.com/wiki/Monado_Shield new=https://xenoblade.fandom.com/wiki/Monado_Shield_%28XC1%29
+SRCEDIT shard=873 row=34 old=https://xenoblade.fandom.com/wiki/Polar_Pearl new=https://xenoblade.fandom.com/wiki/Polar_Pearl_%28TTGC%29
+SRCEDIT shard=879 row=91 old=https://xenoblade.fandom.com/wiki/Saber_Slash new=https://xenoblade.fandom.com/wiki/Saber_Slash_%28XC2%29
+SRCEDIT shard=891 row=210 old=https://xenoblade.fandom.com/wiki/Totorio_Moramora new=https://xenoblade.fandom.com/wiki/Totorio_Moramora_%28XC2%29
