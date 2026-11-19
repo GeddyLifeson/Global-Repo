@@ -1,29 +1,25 @@
 {
-    "run_utc":  "2026-11-19T17:11:17Z",
+    "run_utc":  "2026-11-19T18:25:59Z",
     "dry_run":  false,
-    "merged_count":  5,
-    "skipped_count":  7,
+    "merged_count":  4,
+    "skipped_count":  12,
     "failed_count":  0,
     "merged":  [
                    {
-                       "pr":  "GeddyLifeson/Global-Repo#140",
-                       "title":  "Review batch 7: ignore pyc, handoff index"
+                       "pr":  "GeddyLifeson/DiaithirRPG#293",
+                       "title":  "Point pack inputs at the wave17 mod set"
                    },
                    {
-                       "pr":  "GeddyLifeson/Global-Repo#141",
-                       "title":  "Review batch 6: decision pack and attribution"
+                       "pr":  "GeddyLifeson/DiaithirRPG#294",
+                       "title":  "Review Batch 6: names report, audit_names move, lane-loot Age sources"
                    },
                    {
-                       "pr":  "GeddyLifeson/Global-Repo#142",
-                       "title":  "Overnight test watchdog (review Batch 5, G2-G15)"
+                       "pr":  "GeddyLifeson/DiaithirRPG#295",
+                       "title":  "Palette: off by default, fixed table, skip tint/entity/PBR textures"
                    },
                    {
-                       "pr":  "GeddyLifeson/diaithir-ports#370",
-                       "title":  "Review batch 7: remove publish.json, ignore dist/"
-                   },
-                   {
-                       "pr":  "GeddyLifeson/DiaithirRPG#292",
-                       "title":  "Review Batch 4: build_pack checks (C14) and duplicate port jars (C15)"
+                       "pr":  "GeddyLifeson/DiaithirRPG#296",
+                       "title":  "E15: names quality checks (stacked on #294)"
                    }
                ],
     "skipped":  [
@@ -33,8 +29,18 @@
                         "reason":  "merge conflicts"
                     },
                     {
-                        "title":  "Regions day 3: Atlanta comp pool from permits, Miami measured on city sales",
-                        "pr":  "GeddyLifeson/25x125#32",
+                        "title":  "Batch 4 follow-up: bundle-api and critical-strike providers, CurseForge update blocks, authors (UNTESTED)",
+                        "pr":  "GeddyLifeson/diaithir-ports#371",
+                        "reason":  "waiting for predecessor ports#364 to merge"
+                    },
+                    {
+                        "title":  "Expansion day 4: Houston Chapter 42, map overlays, Tampa ADU areas",
+                        "pr":  "GeddyLifeson/25x125#33",
+                        "reason":  "draft and not listed as clear in merge-order.csv"
+                    },
+                    {
+                        "title":  "Add three-step verification rule to CLAUDE.md",
+                        "pr":  "GeddyLifeson/25x125#34",
                         "reason":  "draft and not listed as clear in merge-order.csv"
                     },
                     {
@@ -58,8 +64,23 @@
                         "reason":  "merge conflicts"
                     },
                     {
+                        "title":  "Revalidate judged shards with new checks",
+                        "pr":  "GeddyLifeson/Global-Repo#143",
+                        "reason":  "draft and not listed as clear in merge-order.csv"
+                    },
+                    {
+                        "title":  "Remove tracked pyc re-added by #142",
+                        "pr":  "GeddyLifeson/Global-Repo#144",
+                        "reason":  "draft and not listed as clear in merge-order.csv"
+                    },
+                    {
                         "title":  "B4: open-licence folds (UNTESTED)",
                         "pr":  "GeddyLifeson/diaithir-ports#361",
+                        "reason":  "merge conflicts"
+                    },
+                    {
+                        "title":  "Master CLAUDE.md: triple-check everything",
+                        "pr":  "GeddyLifeson/DiaithirRPG#297",
                         "reason":  "merge conflicts"
                     }
                 ],
