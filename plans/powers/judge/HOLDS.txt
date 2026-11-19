@@ -23,3 +23,5 @@ RULE 11-19 (review A15): before changing pages.match/_match/_inpage/_wmatch, run
 453 HOLD 11-19: rows 148-154 (Mercenary Contract: Mage/Warrior/Druid/Paladin/Shaman/Rogue/Priest) have no resolvable page (warcraft.wiki.gg pages are template-only), 7 > cap 5. Parts judged locally only; not pushed. Re-judge after resolver/dump fix.
 458 HOLD 11-19: 11 no-source rows (ids 138635, 138637, 139042-139045, 139047-139049, 139088, 139155) exceed the 2% cap. Parts judged locally only; not pushed. Re-judge after resolver/dump fix.
 SRCEDIT shard=459 row=(id world-of-warcraft|139592) old=(blank) new=https://warcraft.wiki.gg/wiki/Mote_of_Mana  (logged 11-19; shard 459 passed validate.py with it, the patched src is local only)
+SRCEDIT shard=462 row=(id world-of-warcraft|141209) old=(blank) new=https://warcraft.wiki.gg/wiki/Muradin_Hood
+SRCEDIT shard=462 row=(id world-of-warcraft|141525) old=(blank) new=https://warcraft.wiki.gg/wiki/Musty_Cloth  (logged 11-19; 462 passes validate.py only with the patched local src; 4 other no-source rows u0)
