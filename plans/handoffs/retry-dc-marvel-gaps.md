@@ -23,6 +23,6 @@ Branch GR claude/project-thread-yzyymm (draft PR #128). Written 2026-11-09 ~19:5
 - Setup in fresh container: copy work/ to S, python3 -I prep.py S, then S/marvel/out; process.py dedupes by id only within S state, so skip shards already pushed.
 
 ## Update 2026-11-19 (part 4)
-- Marvel s010-s099 done and pushed (retry-marvel/out.jsonl, 1157 lines). NEXT: s100 onward to s666. Counter file gap_marvel.fandom.com is at 973984.
-- Marlon 11-19: triple the pace; ran 6 workers (2 shards each) per wave. Yield ~61%.
+- Marvel s010-s099 done and pushed (retry-marvel/out.jsonl, 3387 lines). NEXT: s100 onward to s666. Counter file gap_marvel.fandom.com is at 976214.
+- Marlon 11-19: triple the pace; ran 3-15 workers (2 shards each) per wave. Yield ~60%. Waves checked three ways (validator, recount, source ids).
 - Fresh container: process.py state is local, so skip shards below s100.
