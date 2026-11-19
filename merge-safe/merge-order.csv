@@ -280,3 +280,13 @@ wave,repo,number,base,head,partner,title
 0,rpg,292,engine,claude/project-thread-o09r7e,,Review Batch 4: build_pack checks (C14) and duplicate port jars (C15)
 0,rpg,294,engine,claude/project-thread-bp5wxe,,"Review Batch 6: names report, audit_names move, lane-loot Age sources"
 0,rpg,295,claude/project-thread-3izkf0,claude/project-thread-bp5wxe-palette,,"Palette: off by default, fixed table, skip tint/entity/PBR textures"
+
+0,25x125,29,main,claude/project-thread-jdatgu,,"Finish the website: tax sale on screen, rezonings nearby, help, sources and area pages"
+0,ports,364,claude/pack-v1-3-wave17,claude/project-thread-htoezl,,Review Batch 4 base: pack build and licences
+0,ports,370,diaithircompat,claude/project-thread-6rhrrf,,"Review batch 7: remove publish.json, ignore dist/"
+0,global-repo,140,main,claude/project-thread-6rhrrf,,"Review batch 7: ignore pyc, handoff index"
+0,global-repo,141,main,claude/project-thread-pvyzh9,,Review batch 6: decision pack and attribution
+0,global-repo,142,main,claude/project-thread-9qjz7q,,"Overnight test watchdog (review Batch 5, G2-G15) [edits cloud_inventory.tsv and next_id]"
+0,rpg,292,engine,claude/project-thread-o09r7e,,Review Batch 4: build_pack checks (C14) and duplicate port jars (C15)
+0,rpg,293,engine,claude/project-thread-oryryk,,Point pack inputs at the wave17 mod set [after 292]
+0,ports,371,claude/project-thread-htoezl,claude/project-thread-uxa1b2,,Batch 4 follow-up: bundle-api and critical-strike providers, CurseForge update blocks [stacked on 364; critical-strike also in 361]
