@@ -1,26 +1,11 @@
 {
-    "run_utc":  "2026-11-19T18:25:59Z",
+    "run_utc":  "2026-11-20T15:15:32Z",
     "dry_run":  false,
-    "merged_count":  4,
+    "merged_count":  0,
     "skipped_count":  12,
     "failed_count":  0,
     "merged":  [
-                   {
-                       "pr":  "GeddyLifeson/DiaithirRPG#293",
-                       "title":  "Point pack inputs at the wave17 mod set"
-                   },
-                   {
-                       "pr":  "GeddyLifeson/DiaithirRPG#294",
-                       "title":  "Review Batch 6: names report, audit_names move, lane-loot Age sources"
-                   },
-                   {
-                       "pr":  "GeddyLifeson/DiaithirRPG#295",
-                       "title":  "Palette: off by default, fixed table, skip tint/entity/PBR textures"
-                   },
-                   {
-                       "pr":  "GeddyLifeson/DiaithirRPG#296",
-                       "title":  "E15: names quality checks (stacked on #294)"
-                   }
+
                ],
     "skipped":  [
                     {
@@ -34,7 +19,7 @@
                         "reason":  "waiting for predecessor ports#364 to merge"
                     },
                     {
-                        "title":  "Expansion day 4: Houston Chapter 42, map overlays, Tampa ADU areas",
+                        "title":  "Expansion day 4: Houston Chapter 42, map overlays with flags and score penalties in all nine cities",
                         "pr":  "GeddyLifeson/25x125#33",
                         "reason":  "draft and not listed as clear in merge-order.csv"
                     },
